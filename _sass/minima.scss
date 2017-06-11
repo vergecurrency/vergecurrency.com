@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('AvenirNext-DemiBold.eot');
+  src: url('AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+    url('AvenirNext-DemiBold.woff') format('woff'),
+    url('AvenirNext-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('AvenirNext-Medium.eot');
+  src: url('AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+    url('AvenirNext-Medium.woff') format('woff'),
+    url('AvenirNext-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+$base-font-family: "Avenir Next", Helvetica, Arial, sans-serif !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color:      #2a7ae2 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    100% !default;
+
+$on-palm:          100% !default;
+$on-laptop:        100% !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting",
+  "main"
+;

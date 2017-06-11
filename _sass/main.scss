@@ -1,0 +1,190 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+$text-color: #666;
+$text-dark: #383838;
+$verge-blue: #08b4e0;
+
+h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: $text-dark;
+  border-bottom: 1px solid #888;
+  display: inline-block;
+}
+
+p {
+  font-size: 22px;
+  color: $text-color;
+  line-height: 2;
+  max-width: 800px;
+}
+
+.row {
+  padding: 0 80px;
+
+  @media (max-width: 650px) {
+    padding: 0 5%;
+  }
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.end-section {
+  padding-bottom: 30px;
+}
+
+.border-left {
+  border-left: 1px solid #aaa;
+  padding-left: 80px !important;
+
+  @media (max-width: 550px) {
+    border: none;
+    padding-left: 0 !important;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  font-size: 22px;
+  color: $text-color;
+
+  li {
+    padding: 0;
+    line-height: 2;
+
+    b {
+      color: $text-dark;
+      font-weight: 600;
+    }
+  }
+}
+
+.bg-gray {
+  background: #eee;
+}
+
+.bg-dark {
+  background: #383838;
+
+  h1 {
+    color: #fff;
+  }
+
+  a {
+    color: $verge-blue;
+
+    &:hover {
+      color: #eee;
+    }
+  }
+}
+
+.bg-blue {
+  background: $verge-blue;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0px 2px 2px rgba(0,0,0,.25);
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.splash {
+  background-image: url("/splash.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+
+  h1 {
+    margin-top: 100px;
+  }
+
+  a.next {
+    font-size: 22px;
+    margin-top: 100px;
+    display: inline-block;
+
+    svg {
+      vertical-align: middle;
+    }
+
+    &:hover {
+      svg #verge {
+        path {
+          fill: #383838;
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  width: 300px;
+  float: left;
+}
+
+a {
+  color: $verge-blue;
+
+  &:visited {
+    color: $verge-blue;
+  }
+
+  &:hover, &:active {
+    cursor: pointer;
+    text-decoration: none;
+    color: $text-dark;
+  }
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.nav {
+  margin: 0;
+  font-size: 16px;
+  float: right;
+  padding-top: 10px;
+
+  @media(max-width: 900px) {
+    display: none;
+  }
+
+  li {
+    line-height: 1;
+    display: inline-block;
+    margin-left: 1em;
+
+    a {
+      color: #383838;
+    }
+  }
+}
+
+.footer {
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+}
+
+@import
+  "normalize",
+  "skeleton"
+;
