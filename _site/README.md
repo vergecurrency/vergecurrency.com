@@ -1,1 +1,1 @@
-# verge
+The VergeCurrency.com Official Website
