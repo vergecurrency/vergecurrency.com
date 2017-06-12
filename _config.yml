@@ -17,7 +17,8 @@ title: Verge
 email:
 description: Verge is a secure and anonymous cryptocurrency, built with a focus on privacy.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://vergecurrency.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://vergecurrency.com" # the base hostname & protocol for your site, e.g. http://example.com
+enforce_ssl: https://vergecurrency.com
 twitter_username: vergecurrency
 github_username:  vergecurrency
 
