@@ -6,6 +6,9 @@ $text-color: #666;
 $text-dark: #383838;
 $verge-blue: #08b4e0;
 
+$bg-dark: #383838;
+$bg-dark2: #454545;
+
 h1 {
   font-size: 38px;
   font-weight: 600;
@@ -74,7 +77,7 @@ ul {
 }
 
 .bg-dark {
-  background: #383838;
+  background: $bg-dark;
 
   h1 {
     color: #fff;
@@ -125,7 +128,7 @@ ul {
     &:hover {
       svg #verge {
         path {
-          fill: #383838;
+          fill: $text-dark;
         }
       }
     }
@@ -171,7 +174,7 @@ a {
     margin-left: 1em;
 
     a {
-      color: #383838;
+      color: $text-dark;
     }
   }
 }
