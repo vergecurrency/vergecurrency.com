@@ -43,8 +43,9 @@ p {
 }
 
 .tagline,
-a.next,
-.nav a {
+a.view-all-wallets,
+.nav a,
+.wallet-download-button {
     position: relative;
     z-index: 999999;
 }
@@ -128,24 +129,6 @@ ul {
   h1 {
     margin-top: 100px;
   }
-
-  a.next {
-    font-size: 22px;
-    margin-top: 100px;
-    display: inline-block;
-
-    svg {
-      vertical-align: middle;
-    }
-
-    &:hover {
-      svg #verge {
-        path {
-          fill: $text-dark;
-        }
-      }
-    }
-  }
 }
 
 .logo {
@@ -175,38 +158,12 @@ a.button {
   background: $verge-blue;
   color: white;
   text-align: center;
-  border: 3px solid #FAFAFA;
   border-radius: 5px;
   margin: 0;
   transition: background 0.15s ease-in-out;
   &:hover {
     background: $bg-dark;
   }
-}
-
-.wallet-download-button {
-    padding: 5px 25px;
-    max-width: 400px;
-    height: 80px;
-}
-
-.wallet-download-button-download-text {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: -10px;
-}
-
-.wallet-download-button-description-text {
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.wallet-download-button-icon {
-    position: absolute;
-    left: 25px;
-    top: 50%;
-    transform: perspective(1px) translateY(-50%);
 }
 
 .header {
@@ -243,8 +200,10 @@ a.button {
 }
 
 @import
-  "roadmap",
-  "cloud-animation",
+  "bootstrap-grid",
   "normalize",
-  "skeleton"
+  "skeleton",
+  "wallet-download-buttons",
+  "roadmap",
+  "cloud-animation"
 ;
