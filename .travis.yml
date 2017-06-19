@@ -1,4 +1,3 @@
-language: ruby
 rvm:
   - 2.1
 install: gem install jekyll && gem install s3_website && gem install sass -v 3.4.23 && gem install jekyll-sitemap -v 1.1.1
