@@ -650,7 +650,7 @@ layout: home
         bodyElement.addClass(userOS);
 
         // Makes all internal links smooth scroll
-        $(document).on('click', 'a[href="#"]', function (event) {
+        $(document).on('click', 'a[href^="#"]', function (event) {
             event.preventDefault();
 
             $('html, body').animate({
