@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Verge Radio</title>
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<!-- CSS preloader -->
+<link href="css/loader-dark.css" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="css/liveradio-template-dark.css" rel="stylesheet">
+<!-- CSS modules -->
+<link href="css/flexslider.css" rel="stylesheet">
+<link href="css/sfmenu.css" rel="stylesheet">
+<link href="css/glide-slider.css" rel="stylesheet">
+<link href="css/jquery.mCustomScrollbar-dark.css" rel="stylesheet" />
+<link href="jplayer/skin/liveradio/css/jplayer.liveradio-dark.css" rel="stylesheet" />
+<link href="fonts/flaticon-liveradio/flaticon.css" rel="stylesheet">
+<!-- Chat App -->
+<script src="https://use.fontawesome.com/45e03a14ce.js"></script>
+</head>
+<body class="responsive">
+<div class="loader">
+  <div class="bubblingG"> <span id="bubblingG_1"> </span> <span id="bubblingG_2"> </span> <span id="bubblingG_3"> </span> </div>
+</div>
+<!-- Off Canvas Menu -->
+<nav id="off-canvas-menu" >
+  <div id="off-canvas-menu-title">MENU<span class="icon flaticon-cancel" id="off-canvas-menu-close"></span></div>
+  
+</nav>
+<!-- //end Off Canvas Menu -->
+
+<div id="outer">
+  <div id="outer-canvas"> <!-- Navbar -->
+    <header> 
+      
+      <!-- Back to top -->
+      <div class="back-to-top"><span class="arrow-up"><img src="images/icon-scroll-arrow.png" alt=""></span><img src="images/icon-scroll-mouse.png" alt=""></div>
+      <!-- //end Back to top -->
+      
+      <section class="navbar">
+        <div class="background">
+          <div class="container"> 
+            <!-- Logo -->
+            <div class="navbar-logo pull-left"> <a href="index.html"><img class="logo" src="/vergelogo.svg" alt="Live Radio" class="img-responsive"></a></div>
+            <!-- //end Logo -->
+            <div id="top-player">
+              <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+              <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                <div class="jp-type-playlist">
+                  <div id="openPlaylist"><a href="#0" class="playlist-toggle"> <span></span> <span></span> <span></span> </a></div>
+                  <div class="jp-gui jp-interface">
+                    <div class="jp-details">
+                      <div class="inside"><span class="jp-artwork"><img id="jp-img" src="metadata/default.png" border="0"></span> <br>
+<marquee scrollamount="2" behavior="scroll" direction="left" width="98%"><span class="jp-title" aria-label="title">&nbsp;</span></marquee> <span class="jp-artist" aria-label="artist">&nbsp;</span> </div>
+                    </div>
+                    <div class="jp-controls">
+                      <div class="jp-play-wrap">
+                        <div class="jp-play" role="button">
+                          <div class="jp-play-front"></div>
+                          <div class="jp-play-back"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="jp-volume-controls">
+                      <button class="jp-mute" role="button" tabindex="0">mute</button>
+                      <div class="jp-volume-bar">
+                        <div class="jp-volume-bar-value"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="jp-playlist" id="playlist">
+                    <ul>
+                      <li>&nbsp;</li>
+                    </ul>
+                  </div>
+                  <div class="jp-no-solution"> <span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>. </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="container visible-xs">
+          <div class="mobile-nav row">
+            <div class="nav-item item-01"><a href="#" id="off-canvas-menu-toggle"><span class="icon flaticon-menu-1"></span></a></div>
+            <div class="nav-item item-02"><a href="#"></a></div>
+            <div class="nav-item item-03"><a href="#"></a></div>
+            <div class="nav-item item-04"><a href="#"><span class="icon flaticon-search"></span></a>
+              <div class="tab-content"> <!-- Search -->
+                <form class="navbar-search form-inline" role="form">
+                  <div class="form-group">
+                    <button type="submit" class="button"><span class="flaticon-search"></span></button>
+                    <input type="text" class="form-control" value="Search" onblur="if (this.value == '') {this.value = 'Search';}" onfocus="if(this.value == 'Search') {this.value = '';}">
+                  </div>
+                </form>
+                <!-- //end Search --> 
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- //end Mobile menu --> 
+        <!-- Navbar switcher -->
+        <div class="navbar-switcher-container">
+          <div class="navbar-switcher"> <span class="i-inactive"><img src="images/liveradio/icon-switcher-dark.png" alt=""></span> <span class="i-active flaticon-cancel"></span> </div>
+        </div>
+        <!-- //end Navbar switcher --> 
+        
+      </section>
+      
+      <!-- Navbar height -->
+      <div class="navbar-height-inner"></div>
+      <!-- Navbar height --> 
+      
+      <!-- Navbar height -->
+      <div class="navbar-height"></div>
+      <!-- Navbar height --> 
+      
+    </header>
+    <!-- //end Navbar --> 
+    <!-- Slider -->
+    
+    
+    
+    <div id="outer-overlay"></div>
+    <!-- //end Footer --></div>
+</div>
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]--> 
+<script src="js/jquery-1.10.2.min.js"></script> 
+<script src="js/jquery.easing.1.3.js"></script> 
+<script src="js/jquery.ui.touch-punch.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.flexslider.js"></script> 
+<script src="js/jquery.parallax.js"></script> 
+<script src="js/jquery.inview.js"></script> 
+<script src="js/superfish.js"></script> 
+<script src="js/supersubs.js"></script> 
+<script src="js/jquery.glide.js"></script> 
+<script src="js/jquery.mCustomScrollbar.min.js"></script> 
+<script src="jplayer/jquery.jplayer.js"></script> 
+<script src="jplayer/jplayer.playlist.js"></script> 
+<!--<script src="jplayer/header-playlist.js"></script>--> 
+<script src="jplayer/header-player.js"></script>
+<script src="jplayer/top10-playlist.js"></script> 
+<script src="js/jquery.form.js"></script> 
+<script src="js/jquery.validate.min.js"></script> 
+<script src="js/liveradio.js"></script> 
+
+</body>
+</html>
