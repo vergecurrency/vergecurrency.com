@@ -1,5 +1,6 @@
 The VergeCurrency.com Official Website
 
+[![Build Status](https://travis-ci.org/vergecurrency/vergecurrency.com.svg?branch=master)](https://travis-ci.org/vergecurrency/vergecurrency.com)
 
 TODO:
  
