@@ -12,9 +12,16 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    var host = "vergecurrency.com";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
+  <script src="/javascript/vendor/UAParser.js"></script>
+  <script>
+      (function () {
+          var PROD_HOST = 'vergecurrency.com';
+          var isProd = window.location.host === PROD_HOST
+          var isHttps = window.location.protocol === "https:";
+
+          if (isProd && !isHttps) {
+              window.location.protocol = "https";
+          }
+      }());
 </script>
 </head>
