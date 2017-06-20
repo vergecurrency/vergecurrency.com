@@ -7,10 +7,12 @@ body {
   box-sizing: border-box;
 }
 
-$text-color: #666;
+$text-color: #666666;
 $text-dark: #383838;
 $verge-blue: #08b4e0;
+$light-gray: #DDDDDD;
 
+$bg-gray: #EEEEEE;
 $bg-dark: #383838;
 $bg-dark2: #454545;
 
@@ -86,7 +88,7 @@ ul {
 }
 
 .bg-gray {
-  background: #eee;
+  background: $bg-gray;
 }
 
 .bg-dark {
@@ -155,14 +157,24 @@ a.button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: $verge-blue;
+  background: $bg-dark;
   color: white;
   text-align: center;
   border-radius: 5px;
   margin: 0;
   transition: background 0.15s ease-in-out;
   &:hover {
-    background: $bg-dark;
+    background: $verge-blue;
+  }
+}
+
+.splash {
+  a.button {
+    background: $verge-blue;
+
+    &:hover {
+      background: $bg-dark;
+    }
   }
 }
 
@@ -209,6 +221,7 @@ ul.pools-list b {
   "bootstrap-grid",
   "normalize",
   "skeleton",
+  "wallet-tabs",
   "wallet-download-buttons",
   "roadmap",
   "cloud-animation"

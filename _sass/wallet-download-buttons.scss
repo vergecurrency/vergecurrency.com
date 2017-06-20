@@ -49,7 +49,7 @@ a.button.wallet-download-button {
 /* OS Targets */
 body[class^="windows"] {
     .windows-download-button {
-        display: block;
+        display: flex;
     }
 }
 

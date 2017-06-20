@@ -1,4 +1,4 @@
 rvm:
   - 2.1
-install: gem install jekyll && gem install s3_website && gem install sass -v 3.4.23 && gem install jekyll-sitemap -v 1.1.1 &&  gem install rb-inotify -v 0.9.8 && gem install liquid -v 3.0.6
+install: gem install jekyll -v 3.4.3 && gem install s3_website && gem install sass -v 3.4.23 && gem install jekyll-sitemap -v 1.1.1 &&  gem install rb-inotify -v 0.9.8 && gem install liquid -v 3.0.6 && gem install jekyll-feed -v 0.9.2
 script: bundle exec jekyll build
