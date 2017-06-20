@@ -155,14 +155,24 @@ a.button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: $verge-blue;
+  background: $bg-dark;
   color: white;
   text-align: center;
   border-radius: 5px;
   margin: 0;
   transition: background 0.15s ease-in-out;
   &:hover {
-    background: $bg-dark;
+    background: $verge-blue;
+  }
+}
+
+.splash {
+  a.button {
+    background: $verge-blue;
+
+    &:hover {
+      background: $bg-dark;
+    }
   }
 }
 
