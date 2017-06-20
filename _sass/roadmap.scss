@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Roadmap
 
@@ -62,11 +62,25 @@ Roadmap
   height: 30px;
   border-radius: 50%;
   background: #317b96;
-  box-shadow: 0 0 0 4px $verge-blue, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px $verge-blue;
+
+  &:not(.completed) {
+    & > .fa {
+      display: none;
+    }
+  }
 }
 
 .cd-timeline-img.completed {
   background: #08b4e0;
+
+  & > .fa {
+    color: white;
+    text-align: center;
+    width: 100%;
+    line-height: 32px;
+    font-size: 18px;
+  }
 }
 
 .cd-timeline-content {
@@ -89,16 +103,16 @@ Roadmap
       margin-right: 5px;
     }
 
-    .timeline-content-info-title, .timeline-content-info-date {  
+    .timeline-content-info-title, .timeline-content-info-date {
       width: calc(50% - 2px);
       display: inline-block;
     }
 
     @media (max-width: 500px) {
-      .timeline-content-info-title, .timeline-content-info-date {  
+      .timeline-content-info-title, .timeline-content-info-date {
         display: block;
         width:100%;
-      } 
+      }
     }
   }
 
@@ -109,7 +123,7 @@ Roadmap
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
     li {
       background: #40484D;
       border-radius: 2px;
