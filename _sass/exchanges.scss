@@ -1,0 +1,58 @@
+.exchange-buttons-list li {
+    margin: 20px 0;
+}
+
+.exchange-img {
+    height: 50px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.exchange-title-text {
+    font-size: 22px;
+}
+
+.bittrex-img {
+    background-image: url(/images/bittrex.png)
+}
+
+.bitsquare-img {
+    background-image: url(/images/bitsquare.png)
+}
+
+.c-cex-img {
+    background-image: url(/images/c-cex.png)
+}
+
+.litebit-img {
+    background-image: url(/images/litebit.png)
+}
+
+.southxchange-img {
+    background-image: url(/images/southxchange.png)
+}
+
+
+.novaexchange-img {
+    background-image: url(/images/novaexchange.png)
+}
+
+.cryptopia-img {
+    background-image: url(/images/cryptopia.png)
+}
+
+.coingather-img {
+    background-image: url(/images/coingather.png)
+}
+
+@media (max-width: 550px) {
+    .exchange-img {
+        height: 40px;
+    }
+
+    .exchange-title-text {
+        font-size: 18px;
+    }
+}
