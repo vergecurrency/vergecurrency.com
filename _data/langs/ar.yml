@@ -76,7 +76,7 @@ wallets:
 roadmap:
   header: "خريطة الطريق"
   blackpaper:
-    header: ""بلاك""
+    header: "\"بلاك\""
     date: "<font color='red'>اطلق سراحه</font> 4 يونيو, 2017"
   electrum_i2P_server_client:
     header: "'1' Electrum2p الخادم/العميل"
@@ -97,7 +97,7 @@ roadmap:
     date: "<font color='red'>اطلق سراحه</font> 12 يونيو, 2017"
   radio:
     header: "توسيع وشك الراديو"
-    paragraph: "تتحول الى "RadioCrypto" واموال الاساسية"
+    paragraph: "تتحول الى \"RadioCrypto\" واموال الاساسية"
     date: "26 يونيو, 2017"
   i2P_tor_android_wallets:
     header: "I2P/TOR حافظات Android"

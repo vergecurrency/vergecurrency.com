@@ -76,7 +76,7 @@ wallets:
 roadmap:
   header: "Mappa stradale"
   blackpaper:
-    header: ""Nero" la carta"
+    header: "\"Nero\" la carta"
     date: "<font color='red'>Rilasciato</font> Giugno 4, 2017"
   electrum_i2P_server_client:
     header: "Electrum i2p Server/Client"
@@ -97,7 +97,7 @@ roadmap:
     date: "<font color='red'>Rilasciato</font> Giugno 12, 2017"
   radio:
     header: "Espandere orlo Radio"
-    paragraph: "Trasformare in "RadioCrypto" e includere nel nucleo portafogli"
+    paragraph: "Trasformare in \"RadioCrypto\" e includere nel nucleo portafogli"
     date: "Giugno 26, 2017"
   i2P_tor_android_wallets:
     header: "i2P/TOR Android Wallets"
