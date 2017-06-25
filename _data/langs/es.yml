@@ -35,7 +35,7 @@ info:
     header: "Especificaciones técnicas"
     symbol: "<b>Símbolo:</b> XVG"
     algo: "<b>Algoritmo:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
-    block_time: "<b>Bloquear el tiempo:</b> 30 seconds"
+    block_time: "<b>Bloquear el tiempo:</b> 30 segundos"
     rpc_port: "<b>Puerto RPC:</b> 20102"
     p2p_port: "<b>Puerto P2P:</b> 21102"
 exchanges:

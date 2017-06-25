@@ -35,7 +35,7 @@ info:
     header: "Технические характеристики"
     symbol: "<b>Символ:</b> XVG"
     algo: "<b>Алгоритм:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
-    block_time: "<b>Время блокировки:</b> 30 seconds"
+    block_time: "<b>Время блокировки:</b> 30 секунд"
     rpc_port: "<b>Порт RPC:</b> 20102"
     p2p_port: "<b>Порт P2P:</b> 21102"
 exchanges:
