@@ -97,7 +97,7 @@ roadmap:
     date: "<font color='red'>해제</font> 2017년 6월 12일"
   radio:
     header: "목전 라디오 확장합니다"
-    paragraph: ""radiocrypto"로 변환 코어 지갑 포함"
+    paragraph: "\"radiocrypto\"로 변환 코어 지갑 포함"
     date: "2017년 6월 26일"
   i2P_tor_android_wallets:
     header: "I2P/TOR 안드로이드 지갑"

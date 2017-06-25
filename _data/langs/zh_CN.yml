@@ -76,7 +76,7 @@ wallets:
 roadmap:
   header: "路线图"
   blackpaper:
-    header: "“黑”纸
+    header: "“黑”纸"
     date: "<font color='red'>出版</font> "
   electrum_i2P_server_client:
     header: "Electrum i2p服务器/客户端"

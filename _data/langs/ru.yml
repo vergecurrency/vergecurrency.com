@@ -76,7 +76,7 @@ wallets:
 roadmap:
   header: "Дорожная карта"
   blackpaper:
-    header: "Черная бумага
+    header: "Черная бумага"
     date: "<font color='red'>ВЫПУЩЕННЫЙ</font> 4 июня 2017 года"
   electrum_i2P_server_client:
     header: "Electrum i2p Server/Client"

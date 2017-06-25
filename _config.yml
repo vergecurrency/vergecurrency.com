@@ -16,7 +16,6 @@
 title: Verge
 email:
 description: Verge is a secure and anonymous cryptocurrency, built with a focus on privacy.
-baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://vergecurrency.com" # the base hostname & protocol for your site, e.g. http://example.com
 enforce_ssl: https://vergecurrency.com
 twitter_username: vergecurrency
@@ -26,6 +25,21 @@ github_username:  vergecurrency
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
+langs:
+  'ar': 'العربية'
+  'de': 'Deutsch'
+  'en': 'English'
+  'es': 'Español'
+  'fr': 'Français'
+  'it': 'Italiano'
+  'ja': '日本語'
+  'ko': '한국의'
+  'nl': 'Nederlands'
+  'pt': 'Português'
+  'ru': 'Русский'
+  'zh_CN': '简体中文'
+  'zh_TW': '繁體中文'
