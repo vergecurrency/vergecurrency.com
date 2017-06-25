@@ -1,0 +1,137 @@
+---
+lang_name: "Português"
+head:
+  meta:
+    description: "VERGE (XVG) é uma criptografia segura e anônima, construída com foco na privacidade."
+  title: "Verge - Criptografia segura e anônima, construída com foco na privacidade."
+nav:
+  about:
+    title: "Sobre"
+  exchanges:
+    title: "Obter Verge"
+  wallets:
+    title: "Carteiras"
+  roadmap:
+    title: "Roteiro"
+  community:
+    title: "Comunidade"
+tagline: "A Verge é uma criptografia segura e anônima, construída com foco na privacidade."
+download: "Download"
+view: "Visão"
+view_all_wallets: "Ver todas as Carteiras"
+info:
+  about:
+    header: "Por que Verge?"
+    paragraph: "A Verge é uma moeda descentralizada projetada para usuários que valorizam a privacidade. Ele melhora a cadeia de blocos Bitcoin original usando várias redes centradas no anonimato, como Tor e i2p. Ele utiliza suporte de mineração multi-algoritmos para melhorar a segurança e fornecer distribuição igual de moedas para mineiros."
+  resources:
+    header: "Recursos"
+    black_paper: "Papel preto"
+    github: "Código fonte em Github"
+    mining_pools: "Piscinas de mineração"
+    mining_resources: "Recursos de mineração"
+    blockchain_explorer_prohashing: "Bloco Cadeia Explorer (ProHashing)"
+    blockchain_explorer_ccminer: "Bloco Cadeia Explorer (CCMiner.org)"
+  tech_specs:
+    header: "Especificações técnicas"
+    symbol: "<b>Símbolo:</b> XVG"
+    algo: "<b>Algoritmo:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
+    block_time: "<b>Tempo de Bloqueio:</b> 30 segundos"
+    rpc_port: "<b>Porta RPC:</b> 20102"
+    p2p_port: "<b>Porta P2P:</b> 21102"
+exchanges:
+  header: "Obter Verge"
+  paragraph: "A Verge orgulha-se de estar listada nas seguintes trocas:"
+  bittrex: "Bittrex"
+  bitsquare: "BitSquare.io"
+  ccex: "C-Cex"
+  litebit: "Litebit.eu"
+  southxchange: "SouthXchange"
+  novaexchange: "NovaExchange"
+  cryptopia: "Cryptopia"
+  coingather: "CoinGather"
+wallets:
+  header: "Carteiras"
+  tabs:
+    desktop: "Área de Trabalho"
+    mobile: "Móvel"
+    other: "De outros"
+  windows: "Carteira Wallet Verge"
+  macosx: "Carteira Verge Mac OSX"
+  android: "Carteira de Android Verge"
+  archlinux: "Carteira Verge ArchLinux"
+  centos: "Carteira Verge CentOS"
+  debian: "Carteira Debian Debbie"
+  fedora: "Carteira Fedore de Fedora"
+  web: "Carteira da Rede de Verge"
+  web_tor: "Carteira Rede Verger TOR"
+  web_i2P: "Carteira Rede Verge i2P"
+  raspberry_pi: "Verge Raspberry Pi Código fonte"
+  electrum_linux: "Carteira Electrus Verge Linux"
+  electrum_linux_tor: "Carteira Verel TOR Linux Electrum"
+  electrum_windows: "Carteira Electrus Verge Windows"
+  electrum_windows_tor: "Carteira Electrus Verger TOR Windows"
+  paper: "Carteira de papel transparente"
+  daemon_docker: "Imagem de Docker de Daemon de Verge"
+  coinomi: "Carteira Coinomi Multi Currency Android"
+roadmap:
+  header: "Roteiro"
+  blackpaper:
+    header: "\"Papel preto"
+    date: "<font color='red'>PUBLICADOS</font> 4 de junho de 2017"
+  electrum_i2P_server_client:
+    header: "Servidor / Cliente Electrum i2p / Cliente"
+    date: "<font color='red'>PUBLICADOS</font> 4 de junho de 2017"
+  electrum_tor_server_client:
+    header: "Servidor / Cliente TOR Electrum"
+    date: "<font color='red'>PUBLICADOS</font> 5 de junho de 2017"
+  electrum_binaries:
+    header: "Binários eletrônicos"
+    paragraph: "Clientes binários para carteiras lite fáceis de usar."
+    date: "<font color='red'>PUBLICADOS</font> 7 de junho de 2017"
+  marketing_campaign:
+    header: "Campanha de Marketing de Serviços Crypto"
+    paragraph: "Iniciou uma campanha publicitária de 1 ano com a Coinomi"
+    date: "<font color='red'>PUBLICADOS</font> 7 de junho de 2017"
+  redesign_website:
+    header: "Site de design"
+    date: "<font color='red'>PUBLICADOS</font> 12 de junho de 2017"
+  radio:
+    header: "Expandir de rádio"
+    paragraph: "Transforme-se em \"RadioCrypto\" e inclua em carteiras de núcleo"
+    date: "26 de junho de 2017"
+  i2P_tor_android_wallets:
+    header: "I2P / TOR carteiras Android"
+    paragraph: "Carteira Android para transações Anon SOMENTE! (Perto da conclusão)"
+    date: "Julho de 2017"
+  core_wallet_release:
+    header: "Nova Carteira Core Lançamento"
+    paragraph: "Adicione novos recursos, incluindo controle de moeda, RingCT, bibliotecas de atualização (openssl, boost, etc.)"
+    date: "Julho de 2017"
+  rsk_smart_contracts:
+    header: "RSK contratos inteligentes"
+    paragraph: "Eles estão em testnet para bitcoin agora. A data gira em torno desta linha do tempo."
+    date: "Julho de 2017"
+  wallet_ui:
+    header: "Atualização da UI do Wallet"
+    date: "Julho de 2017"
+  merchandise_store:
+    header: "Loja de mercadorias"
+    paragraph: "A loja de Merchandise Verge terá tshirts / vestuário que podem ser comprados com XVG e BTC."
+    date: "Julho de 2017"
+footer:
+  community:
+    header: "Comunidade"
+    slack: "Slack"
+    facebook: "Facebook"
+    twitter: "Twitter"
+    irc: "Chat IRC"
+    bitcointalk: "BitCoinTalk"
+    reddit: "Reddit"
+    steam: "Vapor"
+    telegram: "Telegrama"
+    verge_radio: "Radio Verge"
+    discord: "Verge Discord"
+  tweets:
+    header: ""
+    by: "Tweets por @vergecurrency"
+  copyright: "&copy; 2017 Verge"
