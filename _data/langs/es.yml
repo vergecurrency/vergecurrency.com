@@ -112,7 +112,7 @@ roadmap:
     paragraph: "Ahora están en testnet para bitcoin. La fecha gira alrededor de esta línea de tiempo."
     date: "Julio de 2017"
   wallet_ui:
-    header: ">Revisión de la interfaz de usuario de Wallet"
+    header: "Revisión de la interfaz de usuario de Wallet"
     date: "Julio de 2017"
   merchandise_store:
     header: "Tienda Online de Mercancías"
@@ -121,16 +121,16 @@ roadmap:
 footer:
   community:
     header: "Comunidad"
-    slack: "Slack"
+    slack: "Flojo"
     facebook: "Facebook"
-    twitter: "Twitter"
+    twitter: "Gorjeo"
     irc: "Chat IRC"
     bitcointalk: "BitCoinTalk"
     reddit: "Reddit"
-    steam: "Steam"
-    telegram: "Telegram"
+    steam: "Vapor"
+    telegram: "Telegrama"
     verge_radio: "Verge Radio"
-    discord: "Verge Discord"
+    discord: "Discordia vergena"
   tweets:
     header: "Tweets"
     by: "Tweets por @vergecurrency"

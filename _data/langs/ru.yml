@@ -2,7 +2,7 @@
 lang_name: "Русский"
 head:
   meta:
-    description: "VERGE (XVG) is a secure and anonymous cryptocurrency, built with a focus on privacy."
+    description: "VERGE (XVG) - это безопасная и анонимная криптовалюта, построенная с уделением особого внимания конфиденциальности."
   title: "VERGE (XVG) - это безопасная и анонимная криптовалюта, построенная с уделением особого внимания конфиденциальности."
 nav:
   about:
@@ -121,17 +121,17 @@ roadmap:
 footer:
   community:
     header: "сообщество"
-    slack: "Slack"
-    facebook: "Facebook"
-    twitter: "Twitter"
+    slack: "слабина"
+    facebook: "facebook"
+    twitter: "щебет"
     irc: "IRC-чат"
     bitcointalk: "BitCoinTalk"
     reddit: "Reddit"
-    steam: "Steam"
-    telegram: "Telegram"
-    verge_radio: "Verge Radio"
-    discord: "Verge Discord"
+    steam: "Стим"
+    telegram: "Телеграмма"
+    verge_radio: "Радиоприемник"
+    discord: "Устранение раздора"
   tweets:
-    header: "Tweets"
+    header: "твиты"
     by: "Твиты от"
   copyright: "&copy; 2017 Verge"
