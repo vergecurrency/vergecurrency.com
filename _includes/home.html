@@ -1,107 +1,108 @@
 {% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
 {% include head.html %}
 <body>
   <section class="splash col-sm-12">
     <header class="row header">
       <img class="logo" src="/vergelogo.svg" />
       <ul class="nav">
-        <li><a href="#about">{{langPath.nav.about.title}}</a></li>
-        <li><a href="#exchanges">{{langPath.nav.exchanges.title}}</a></li>
-        <li><a href="#wallets">{{langPath.nav.wallets.title}}</a></li>
-        <li><a href="#roadmap">{{langPath.nav.roadmap.title}}</a></li>
-        <li><a href="#community">{{langPath.nav.community.title}}</a></li>
+        <li><a href="#about">{{langPath.nav.about.title | default: defaultLangPath.nav.about.title}}</a></li>
+        <li><a href="#exchanges">{{langPath.nav.exchanges.title | default: defaultLangPath.nav.exchanges.title}}</a></li>
+        <li><a href="#wallets">{{langPath.nav.wallets.title | default: defaultLangPath.nav.wallets.title}}</a></li>
+        <li><a href="#roadmap">{{langPath.nav.roadmap.title | default: defaultLangPath.nav.wallets.title}}</a></li>
+        <li><a href="#community">{{langPath.nav.community.title | default: defaultLangPath.nav.community.title}}</a></li>
       </ul>
     </header>
     <div class="row">
       <div class="twelve columns">
-        <h1 class="tagline">{{langPath.tagline}}</h1>
+        <h1 class="tagline">{{langPath.tagline | default: defaultLangPath.tagline}}</h1>
         <div class="main-wallet-download-buttons-list-container">
           <ul class="main-wallet-download-buttons-list col-sm-12">
             <li>
               <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/VERGE-Windows.zip" class="button wallet-download-button windows-download-button">
                 <i class="fa fa-windows wallet-download-button-icon" aria-hidden="true"></i>
                 <span class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </span>
-                <span class="wallet-download-button-description-text">{{langPath.wallets.windows}}</span>
+                <span class="wallet-download-button-description-text">{{langPath.wallets.windows | default: defaultLangPath.wallets.windows}}</span>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/verge-qt-osx.dmg" class="button wallet-download-button macos-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fa-apple wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.macosx}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.macosx | default: defaultLangPath.wallets.macosx}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/verge-android.apk" class="button wallet-download-button android-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fa-android wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.android}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.android | default: defaultLangPath.wallets.android}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/arch_2.1.0.tar" class="button wallet-download-button arch-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fl-archlinux wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.archlinux}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.archlinux | default: defaultLangPath.wallets.archlinux}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/centos7_2.1.0.tar" class="button wallet-download-button centos-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fl-centos wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.centos}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.centos | default: defaultLangPath.wallets.centos}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/debian8_v2.1.0.tar" class="button wallet-download-button debian-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fl-debian wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.debian}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.debian | default: defaultLangPath.wallets.debian}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/fedora23_2.1.0.tar" class="button wallet-download-button fedora-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fl-fedora wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.fedora}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.fedora | default: defaultLangPath.wallets.fedora}}</div>
               </a>
             </li>
             <li>
               <a href="http://verge-wallet.xyz" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.view}}
+                  {{langPath.view | default: defaultLangPath.view}}
                 </div>
                 <i class="fa fa-chrome wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.web}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.web | default: defaultLangPath.wallets.web}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/raspi/" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fl-raspberry-pi wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.raspberry_pi}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.raspberry_pi | defaultLangPath.wallets.raspberry_pi}}</div>
               </a>
             </li>
             <li>
               <a href="http://vcmlfg3fgsmy2teu.onion" target="_blank" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa wallet-download-button-icon" aria-hidden="true">
                   <svg width="22" height="22" fill="white" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -115,42 +116,42 @@
                    </g>
                   </svg>
                 </i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.web_tor}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.web_tor | default: defaultLangPath.wallets.web_tor}}</div>
               </a>
             </li>
             <li>
               <a href="http://vhne4ia27avp7gtyltlj3fumq6ps343vap3gy3zqs7gj4yp2mbdq.b32.i2p/" target="_blank" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa wallet-download-button-icon" aria-hidden="true">
                 i2P
                 </i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.web_i2P}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.web_i2P | default: defaultLangPath.wallets.web_i2P}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/electrum-xvg" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fa-linux wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_linux}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_linux | default: defaultLangPath.wallets.electrum_linux}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/electrum-xvg/releases/download/2.2.0.1/electrum-xvg.zip" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fa-windows wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_windows}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_windows | default: defaultLangPath.wallets.electrum_windows}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/electrum-xvg-tor" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa wallet-download-button-icon" aria-hidden="true">
                   <svg width="22" height="22" fill="white" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -164,13 +165,13 @@
                    </g>
                   </svg>
                 </i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_linux_tor}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_linux_tor | default: defaultLangPath.wallets.electrum_linux_tor}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/electrum-xvg-tor/releases/download/2.2.0.1/electrum-xvg-tor-win64.zip" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa wallet-download-button-icon" aria-hidden="true">
                   <svg width="22" height="22" fill="white" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -184,39 +185,39 @@
                    </g>
                   </svg>
                 </i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_windows_tor}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_windows_tor | default: defaultLangPath.wallets.electrum_windows_tor}}</div>
               </a>
             </li>
             <li>
               <a href="http://vergecurrency.com/paper-wallet/index.html" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fa-newspaper-o wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.paper}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.paper | default: defaultLangPath.wallets.paper}}</div>
               </a>
             </li>
             <li>
               <a href="https://github.com/vergecurrency/Docker-Verge-Daemon/" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fl-docker wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.daemon_docker}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.daemon_docker | default: defaultLangPath.wallets.daemon_docker}}</div>
               </a>
             </li>
             <li>
               <a href="https://play.google.com/store/apps/details?id=com.coinomi.wallet" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
-                  {{langPath.download}}
+                  {{langPath.download | default: defaultLangPath.download}}
                 </div>
                 <i class="fa fa-android wallet-download-button-icon" aria-hidden="true"></i>
-                <div class="wallet-download-button-description-text">{{langPath.wallets.coinomi}}</div>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.coinomi | default: defaultLangPath.wallets.coinomi}}</div>
               </a>
             </li>
           </ul>
           <div class="view-all-wallets-container">
-            <a href="#wallets" class="view-all-wallets">{{langPath.view_all_wallets}}</a>
+            <a href="#wallets" class="view-all-wallets">{{langPath.view_all_wallets | default: defaultLangPath.view_all_wallets}}</a>
           </div>
         </div>
         <div class="clouds">
@@ -239,29 +240,28 @@
   <section class="section col-sm-12" id="info">
     <div class="row">
       <div class="twelve columns" id="about">
-        <h1>{{langPath.info.about.header}}</h1>
-        <p>{{langPath.info.about.paragraph}}</p>
+        <h1>{{langPath.info.about.header | default: defaultLangPath.info.about.header}}</h1>
+        <p>{{langPath.info.about.paragraph | default: defaultLangPath.info.about.paragraph}}</p>
       </div>
     </div>
     <div class="row">
       <div class="six columns">
-        <h4>{{langPath.info.resources.header}}</h4>
+        <h4>{{langPath.info.resources.header | default: defaultLangPath.info.resources.header}}</h4>
         <ul>
-          <li><a href="https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf" target="_blank">{{langPath.info.resources.black_paper}}</a></li>
-          <li><a href="https://github.com/vergecurrency/VERGE" target="_blank">{{langPath.info.resources.black_paper}}</a></li>
-          <li><a href="./pools/" target="_blank">{{langPath.info.resources.mining_pools}}</a> (<a href="./mining/" target="_blank">{{langPath.info.resources.mining_resources}}</a>)</li>
-          <li><a href="https://prohashing.com/explorer/Verge/" target="_blank">{{langPath.info.resources.blockchain_explorer_prohashing}}</a></li>
-          <li><a href="http://yiimp.ccminer.org/explorer/XVG" target="_blank">{{langPath.info.resources.blockchain_explorer_prohashing}}</a></li>
+          <li><a href="https://github.com/vergecurrency/VERGE" target="_blank">{{langPath.info.resources.black_paper | default: defaultLangPath.info.resources.black_paper}}</a></li>
+          <li><a href="./pools/" target="_blank">{{langPath.info.resources.mining_pools | default: defaultLangPath.info.resources.mining_pools}}</a> (<a href="./mining/" target="_blank">{{langPath.info.resources.mining_resources | default: defaultLangPath.info.resources.mining_resources}}</a>)</li>
+          <li><a href="https://prohashing.com/explorer/Verge/" target="_blank">{{langPath.info.resources.blockchain_explorer_prohashing | default: defaultLangPath.info.resources.blockchain_explorer_prohashing}}</a></li>
+          <li><a href="http://yiimp.ccminer.org/explorer/XVG" target="_blank">{{langPath.info.resources.blockchain_explorer_prohashing | default: defaultLangPath.info.resources.blockchain_explorer_prohashing}}</a></li>
         </ul>
       </div>
       <div class="six columns">
-        <h4>{{langPath.info.tech_specs.header}}</h4>
+        <h4>{{langPath.info.tech_specs.header | default: defaultLangPath.info.tech_specs.header}}</h4>
         <ul>
-          <li>{{langPath.info.tech_specs.symbol}}</li>
-          <li>{{langPath.info.tech_specs.algo}}</li>
-          <li>{{langPath.info.tech_specs.block_time}}</li>
-          <li>{{langPath.info.tech_specs.rpc_port}}</li>
-          <li>{{langPath.info.tech_specs.p2p_port}}</li>
+          <li>{{langPath.info.tech_specs.symbol | default: defaultLangPath.info.tech_specs.symbol}}</li>
+          <li>{{langPath.info.tech_specs.algo | default: defaultLangPath.info.tech_specs.algo}}</li>
+          <li>{{langPath.info.tech_specs.block_time | default: defaultLangPath.info.tech_specs.block_time}}</li>
+          <li>{{langPath.info.tech_specs.rpc_port | default: defaultLangPath.info.tech_specs.rpc_port}}</li>
+          <li>{{langPath.info.tech_specs.p2p_port | default: defaultLangPath.info.tech_specs.p2p_port}}</li>
         </ul>
       </div>
     </div>
@@ -269,8 +269,8 @@
   <section class="section col-sm-12 bg-gray" id="exchanges">
     <div class="row">
       <div class="twelve columns">
-        <h1>{{langPath.exchanges.header}}</h1>
-        <p>{{langPath.exchanges.paragraph}}</p>
+        <h1>{{langPath.exchanges.header | default: defaultLangPath.exchanges.header}}</h1>
+        <p>{{langPath.exchanges.paragraph | default: defaultLangPath.exchanges.paragraph}}</p>
         <ul class="exchange-buttons-list twelve columns">
           <li class="col-xs-12 col-sm-6 col-md-3">
             <a href="https://bittrex.com/Market/Index?MarketName=BTC-XVG" target="_blank" class="card exchange-anchor">
@@ -278,7 +278,7 @@
                   <div class="exchange-img bittrex-img"></div>
               </div>
               <h3 class="exchange-title-text">
-                {{langPath.exchanges.bittrex}}
+                {{langPath.exchanges.bittrex | default: defaultLangPath.exchanges.bittrex}}
               </h3>
             </a>
           </li>
@@ -288,7 +288,7 @@
                   <div class="exchange-img bitsquare-img"></div>
               </div>
               <h3 class="exchange-title-text">
-                {{langPath.exchanges.bitsquare}}
+                {{langPath.exchanges.bitsquare | default: defaultLangPath.exchanges.bitsquare}}
               </h3>
             </a>
           </li>
@@ -298,7 +298,7 @@
                   <div class="exchange-img c-cex-img"></div>
               </div>
               <h3 class="exchange-title-text">
-                {{langPath.exchanges.ccex}}
+                {{langPath.exchanges.ccex | default: defaultLangPath.exchanges.ccex}}
               </h3>
             </a>
           </li>
@@ -308,7 +308,7 @@
                   <div class="exchange-img litebit-img"></div>
               </div>
               <h3 class="exchange-title-text">
-                {{langPath.exchanges.litebit}}
+                {{langPath.exchanges.litebit | default: defaultLangPath.exchanges.litebit}}
               </h3>
             </a>
           </li>
@@ -318,7 +318,7 @@
                   <div class="exchange-img southxchange-img"></div>
               </div>
               <h3 class="exchange-title-text">
-                {{langPath.exchanges.southxchange}}
+                {{langPath.exchanges.southxchange | default: defaultLangPath.exchanges.southxchange}}
               </h3>
             </a>
           </li>
@@ -328,7 +328,7 @@
                   <div class="exchange-img novaexchange-img"></div>
               </div>
               <h3 class="exchange-title-text">
-                {{langPath.exchanges.novaexchange}}
+                {{langPath.exchanges.novaexchange | default: defaultLangPath.exchanges.novaexchange}}
               </h3>
             </a>
           </li>
@@ -338,7 +338,7 @@
                   <div class="exchange-img cryptopia-img"></div>
               </div>
               <h3 class="exchange-title-text">
-                {{langPath.exchanges.cryptopia}}
+                {{langPath.exchanges.cryptopia | default: defaultLangPath.exchanges.cryptopia}}
               </h3>
             </a>
           </li>
@@ -348,7 +348,7 @@
                   <div class="exchange-img coingather-img"></div>
               </div>
               <h3 class="exchange-title-text">
-                {{langPath.exchanges.coingather}}
+                {{langPath.exchanges.coingather | default: defaultLangPath.exchanges.coingather}}
               </h3>
             </a>
           </li>
@@ -359,16 +359,16 @@
   <section class="section col-sm-12" id="wallets">
     <div class="row">
       <div class="twelve columns">
-        <h1>{{langPath.wallets.header}}</h1>
+        <h1>{{langPath.wallets.header | default: defaultLangPath.wallets.header}}</h1>
         <div class="tabs">
           <input id="desktop-tab" type="radio" name="tabs" class="tab-radio" checked>
-          <label for="desktop-tab" class="tab-label">{{langPath.wallets.tabs.desktop}}</label>
+          <label for="desktop-tab" class="tab-label">{{langPath.wallets.tabs.desktop | default: defaultLangPath.wallets.tabs.desktop}}</label>
             
           <input id="mobile-tab" type="radio" name="tabs" class="tab-radio">
-          <label for="mobile-tab" class="tab-label">{{langPath.wallets.tabs.mobile}}</label>
+          <label for="mobile-tab" class="tab-label">{{langPath.wallets.tabs.mobile | default: defaultLangPath.wallets.tabs.mobile}}</label>
             
           <input id="other-tab" type="radio" name="tabs" class="tab-radio">
-          <label for="other-tab" class="tab-label">{{langPath.wallets.tabs.other}}</label>
+          <label for="other-tab" class="tab-label">{{langPath.wallets.tabs.other | default: defaultLangPath.wallets.tabs.other}}</label>
             
           <section id="desktop-content" class="tab-content">
             <ul class="footer-wallet-download-buttons-list twelve columns">
@@ -376,78 +376,78 @@
                 <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/VERGE-Windows.zip" class="button wallet-download-button windows-download-button">
                   <i class="fa fa-windows wallet-download-button-icon" aria-hidden="true"></i>
                   <span class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </span>
-                  <span class="wallet-download-button-description-text">{{langPath.wallets.windows}}</span>
+                  <span class="wallet-download-button-description-text">{{langPath.wallets.windows | default: defaultLangPath.wallets.windows}}</span>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/verge-qt-osx.dmg" class="button wallet-download-button macos-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fa-apple wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.macosx}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.macosx | default: defaultLangPath.wallets.macosx}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/arch_2.1.0.tar" class="button wallet-download-button arch-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fl-archlinux wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.archlinux}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.archlinux | default: defaultLangPath.wallets.archlinux}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/centos7_2.1.0.tar" class="button wallet-download-button centos-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fl-centos wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.centos}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.centos | default: defaultLangPath.wallets.centos}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/debian8_v2.1.0.tar" class="button wallet-download-button debian-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fl-debian wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.debian}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.debian | default: defaultLangPath.wallets.debian}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/fedora23_2.1.0.tar" class="button wallet-download-button fedora-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fl-fedora wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.fedora}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.fedora | default: defaultLangPath.wallets.fedora}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/electrum-xvg" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fa-linux wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_linux}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_linux | default: defaultLangPath.wallets.electrum_linux}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/electrum-xvg/releases/download/2.2.0.1/electrum-xvg.zip" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fa-windows wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_windows}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_windows | default: defaultLangPath.wallets.electrum_windows}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/electrum-xvg-tor" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa wallet-download-button-icon" aria-hidden="true">
                     <svg width="22" height="22" fill="white" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -461,13 +461,13 @@
                      </g>
                     </svg>
                   </i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_linux_tor}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_linux_tor | default: defaultLangPath.wallets.electrum_linux}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/electrum-xvg-tor/releases/download/2.2.0.1/electrum-xvg-tor-win64.zip" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa wallet-download-button-icon" aria-hidden="true">
                     <svg width="22" height="22" fill="white" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -481,7 +481,7 @@
                      </g>
                     </svg>
                   </i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_windows_tor}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.electrum_windows_tor | default: defaultLangPath.wallets.electrum_windows_tor}}</div>
                 </a>
               </li>
             </ul>
@@ -491,19 +491,19 @@
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/verge-android.apk" class="button wallet-download-button android-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fa-android wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.android}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.android | default: defaultLangPath.wallets.android}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://play.google.com/store/apps/details?id=com.coinomi.wallet" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fa-android wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.coinomi}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.coinomi | default: defaultLangPath.wallets.coinomi}}</div>
                 </a>
               </li>
             </ul>
@@ -513,25 +513,25 @@
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="http://verge-wallet.xyz" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.view}}
+                    {{langPath.view | default: defaultLangPath.view}}
                   </div>
                   <i class="fa fa-chrome wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.web}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.web | default: defaultLangPath.wallets.web}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/raspi/" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fl-raspberry-pi wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.raspberry_pi}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.raspberry_pi | default: defaultLangPath.wallets.raspberry_pi}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="http://vcmlfg3fgsmy2teu.onion" target="_blank" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa wallet-download-button-icon" aria-hidden="true">
                     <svg width="22" height="22" fill="white" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -545,36 +545,36 @@
                      </g>
                     </svg>
                   </i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.web_tor}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.web_tor | default: defaultLangPath.wallets.web_tor}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="http://vhne4ia27avp7gtyltlj3fumq6ps343vap3gy3zqs7gj4yp2mbdq.b32.i2p/" target="_blank" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa wallet-download-button-icon" aria-hidden="true">
                   i2P
                   </i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.web_i2P}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.web_i2P | default: defaultLangPath.wallets.web_i2P}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="http://vergecurrency.com/paper-wallet/index.html" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fa-newspaper-o wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.paper}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.paper | default: defaultLangPath.wallets.paper}}</div>
                 </a>
               </li>
               <li class="col-xs-12 col-sm-6 col-md-4">
                 <a href="https://github.com/vergecurrency/Docker-Verge-Daemon/" class="button wallet-download-button">
                   <div class="wallet-download-button-download-text">
-                    {{langPath.download}}
+                    {{langPath.download | default: defaultLangPath.download}}
                   </div>
                   <i class="fa fl-docker wallet-download-button-icon" aria-hidden="true"></i>
-                  <div class="wallet-download-button-description-text">{{langPath.wallets.daemon_docker}}</div>
+                  <div class="wallet-download-button-description-text">{{langPath.wallets.daemon_docker | default: defaultLangPath.wallets.daemon_docker}}</div>
                 </a>
               </li>
             </ul>
@@ -587,15 +587,15 @@
     <div class="row">
       <div class="twelve columns">
         <div>
-          <h1>{{langPath.roadmap.header}}</h1>
+          <h1>{{langPath.roadmap.header | default: defaultLangPath.roadmap.header}}</h1>
           <section id="cd-timeline" class="cd-container">
             <div class="cd-timeline-block">
               <div class="cd-timeline-img completed cd-picture">
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.blackpaper.header}}</h2>
-                <span class="cd-date">{{langPath.roadmap.blackpaper.date}}</span>
+                <h2>{{langPath.roadmap.blackpaper.header | default: defaultLangPath.roadmap.blackpaper.header}}</h2>
+                <span class="cd-date">{{langPath.roadmap.blackpaper.date | default: defaultLangPath.roadmap.blackpaper.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -603,8 +603,8 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.electrum_i2P_server_client.header}}</h2>
-                <span class="cd-date">{{langPath.roadmap.electrum_i2P_server_client.date}}</span>
+                <h2>{{langPath.roadmap.electrum_i2P_server_client.header | default: defaultLangPath.roadmap.electrum_i2P_server_client.header}}</h2>
+                <span class="cd-date">{{langPath.roadmap.electrum_i2P_server_client.date | default: defaultLangPath.roadmap.electrum_i2P_server_client.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -612,8 +612,8 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.electrum_tor_server_client.header}}</h2>
-                <span class="cd-date">{{langPath.roadmap.electrum_tor_server_client.date}}</span>
+                <h2>{{langPath.roadmap.electrum_tor_server_client.header | default: defaultLangPath.roadmap.electrum_tor_server_client.header}}</h2>
+                <span class="cd-date">{{langPath.roadmap.electrum_tor_server_client.date | default: defaultLangPath.roadmap.electrum_tor_server_client.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -621,11 +621,11 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.electrum_binaries.header}}</h2>
+                <h2>{{langPath.roadmap.electrum_binaries.header | default: defaultLangPath.roadmap.electrum_binaries.header}}</h2>
                   <p>
-                    {{langPath.roadmap.electrum_binaries.paragraph}}
+                    {{langPath.roadmap.electrum_binaries.paragraph | default: defaultLangPath.roadmap.electrum_binaries.paragraph}}
                   </p>
-                  <span class="cd-date">{{langPath.roadmap.electrum_binaries.date}}</span>
+                  <span class="cd-date">{{langPath.roadmap.electrum_binaries.date | default: defaultLangPath.roadmap.electrum_binaries.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -633,11 +633,11 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.marketing_campaign.header}}</h2>
+                <h2>{{langPath.roadmap.marketing_campaign.header | default: defaultLangPath.roadmap.marketing_campaign.header}}</h2>
                 <p>
-                  {{langPath.roadmap.marketing_campaign.paragraph}}
+                  {{langPath.roadmap.marketing_campaign.paragraph | default: defaultLangPath.roadmap.marketing_campaign.paragraph}}
                 </p>
-                <span class="cd-date">{{langPath.roadmap.marketing_campaign.date}}</span>
+                <span class="cd-date">{{langPath.roadmap.marketing_campaign.date | default: defaultLangPath.roadmap.marketing_campaign.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -645,8 +645,8 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.redesign_website.header}}</h2>
-                <span class="cd-date">{{langPath.roadmap.redesign_website.date}}</span>
+                <h2>{{langPath.roadmap.redesign_website.header | default: defaultLangPath.roadmap.redesign_website.header}}</h2>
+                <span class="cd-date">{{langPath.roadmap.redesign_website.date | default: defaultLangPath.roadmap.redesign_website.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -654,11 +654,11 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.radio.header}}</h2>
+                <h2>{{langPath.roadmap.radio.header | default: defaultLangPath.roadmap.radio.header}}</h2>
                 <p>
-                  {{langPath.roadmap.radio.paragraph}}
+                  {{langPath.roadmap.radio.paragraph | default: defaultLangPath.roadmap.radio.paragraph}}
                 </p>
-                <span class="cd-date">{{langPath.roadmap.radio.date}}</span>
+                <span class="cd-date">{{langPath.roadmap.radio.date | default: defaultLangPath.roadmap.radio.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -666,11 +666,11 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.i2P_tor_android_wallets.header}}</h2>
+                <h2>{{langPath.roadmap.i2P_tor_android_wallets.header | default: defaultLangPath.roadmap.i2P_tor_android_wallets.header}}</h2>
                 <p>
-                  {{langPath.roadmap.i2P_tor_android_wallets.paragraph}}
+                  {{langPath.roadmap.i2P_tor_android_wallets.paragraph | default: defaultLangPath.roadmap.i2P_tor_android_wallets.paragraph}}
                 </p>
-                <span class="cd-date">{{langPath.roadmap.i2P_tor_android_wallets.date}}</span>
+                <span class="cd-date">{{langPath.roadmap.i2P_tor_android_wallets.date | default: defaultLangPath.roadmap.i2P_tor_android_wallets.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -678,11 +678,11 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.core_wallet_release.header}}</h2>
+                <h2>{{langPath.roadmap.core_wallet_release.header | default: defaultLangPath.roadmap.core_wallet_release.header}}</h2>
                 <p>
-                  {{langPath.roadmap.core_wallet_release.paragraph}}
+                  {{langPath.roadmap.core_wallet_release.paragraph | default: defaultLangPath.roadmap.core_wallet_release.paragraph}}
                 </p>
-                <span class="cd-date">{{langPath.roadmap.core_wallet_release.date}}</span>
+                <span class="cd-date">{{langPath.roadmap.core_wallet_release.date | default: defaultLangPath.roadmap.core_wallet_release.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -690,11 +690,11 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.rsk_smart_contracts.header}}</h2>
+                <h2>{{langPath.roadmap.rsk_smart_contracts.header | default: defaultLangPath.roadmap.rsk_smart_contracts.header}}</h2>
                 <p>
-                  {{langPath.roadmap.rsk_smart_contracts.paragraph}}
+                  {{langPath.roadmap.rsk_smart_contracts.paragraph | default: defaultLangPath.roadmap.rsk_smart_contracts.paragraph}}
                 </p>
-                <span class="cd-date">{{langPath.roadmap.rsk_smart_contracts.date}}</span>
+                <span class="cd-date">{{langPath.roadmap.rsk_smart_contracts.date | default: defaultLangPath.roadmap.rsk_smart_contracts.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -702,8 +702,8 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.wallet_ui.header}}</h2>
-                <span class="cd-date">{{langPath.roadmap.wallet_ui.date}}</span>
+                <h2>{{langPath.roadmap.wallet_ui.header | default: defaultLangPath.roadmap.wallet_ui.header}}</h2>
+                <span class="cd-date">{{langPath.roadmap.wallet_ui.date | default: defaultLangPath.roadmap.wallet_ui.date}}</span>
               </div>
             </div>
             <div class="cd-timeline-block">
@@ -711,11 +711,11 @@
                 <i class="fa fa-check"></i>
               </div>
               <div class="cd-timeline-content">
-                <h2>{{langPath.roadmap.merchandise_store.header}}</h2>
+                <h2>{{langPath.roadmap.merchandise_store.header | default: defaultLangPath.roadmap.merchandise_store.header}}</h2>
                   <p>
-                  {{langPath.roadmap.merchandise_store.paragraph}}
+                  {{langPath.roadmap.merchandise_store.paragraph | default: defaultLangPath.roadmap.merchandise_store.paragraph}}
                 </p>
-                <span class="cd-date">{{langPath.roadmap.merchandise_store.date}}</span>
+                <span class="cd-date">{{langPath.roadmap.merchandise_store.date | default: defaultLangPath.roadmap.merchandise_store.date}}</span>
               </div>
             </div>
           </section>
@@ -726,28 +726,28 @@
   <footer class="section col-sm-12 end-section bg-dark">
     <div class="row">
       <div class="six columns" id="community">
-        <h1>{{langPath.footer.community.header}}</h1>
+        <h1>{{langPath.footer.community.header | default: defaultLangPath.footer.community.header}}</h1>
         <ul>
-          <li><a href="https://verge.typeform.com/to/RxDLtL" target="_blank">{{langPath.footer.community.slack}}</a></li>
-          <li><a href="https://www.facebook.com/VERGEcurrency/" target="_blank">{{langPath.footer.community.slack}}</a></li>
-          <li><a href="http://www.twitter.com/vergecurrency" target="_blank">{{langPath.footer.community.twitter}}</a></li>
-          <li><a href="https://kiwiirc.com/client/irc.freenode.net/verge" target="_blank">{{langPath.footer.community.irc}}</a></li>
-          <li><a href="https://bitcointalk.org/index.php?topic=1365894" target="_blank">{{langPath.footer.community.bitcointalk}}</a></li>
-          <li><a href="http://www.reddit.com/r/vergecurrency/" target="_blank">{{langPath.footer.community.reddit}}</a></li>
-          <li><a href="http://steamcommunity.com/groups/vergecurrency" target="_blank">{{langPath.footer.community.steam}}</a></li>
-          <li><a href="https://t.me/VERGExvg" target="_blank">{{langPath.footer.community.telegram}}</a></li>
-          <li><a href="http://vergecurrency.com/radio/" target="_blank">{{langPath.footer.community.verge_radio}}</a></li>
-          <li><a href="https://discord.gg/ehjyKQv" target="_blank">{{langPath.footer.community.discord}}</a></li>
+          <li><a href="https://verge.typeform.com/to/RxDLtL" target="_blank">{{langPath.footer.community.slack | default: defaultLangPath.footer.community.slack}}</a></li>
+          <li><a href="https://www.facebook.com/VERGEcurrency/" target="_blank">{{langPath.footer.community.facebook | default: defaultLangPath.footer.community.facebook }}</a></li>
+          <li><a href="http://www.twitter.com/vergecurrency" target="_blank">{{langPath.footer.community.twitter | default: defaultLangPath.footer.community.twitter}}</a></li>
+          <li><a href="https://kiwiirc.com/client/irc.freenode.net/verge" target="_blank">{{langPath.footer.community.irc | default: defaultLangPath.footer.community.irc}}</a></li>
+          <li><a href="https://bitcointalk.org/index.php?topic=1365894" target="_blank">{{langPath.footer.community.bitcointalk | default: defaultLangPath.footer.community.bitcointalk}}</a></li>
+          <li><a href="http://www.reddit.com/r/vergecurrency/" target="_blank">{{langPath.footer.community.reddit | default: defaultLangPath.footer.community.reddit}}</a></li>
+          <li><a href="http://steamcommunity.com/groups/vergecurrency" target="_blank">{{langPath.footer.community.steam | default: defaultLangPath.footer.community.steam}}</a></li>
+          <li><a href="https://t.me/VERGExvg" target="_blank">{{langPath.footer.community.telegram | default: defaultLangPath.footer.telegram}}</a></li>
+          <li><a href="http://vergecurrency.com/radio/" target="_blank">{{langPath.footer.community.verge_radio | default: defaultLangPath.footer.community.verge_radio}}</a></li>
+          <li><a href="https://discord.gg/ehjyKQv" target="_blank">{{langPath.footer.community.discord | default: defaultLangPath.footer.community.discord}}</a></li>
         </ul>
       </div>
       <div class="six columns" id="twitter-timeline">
-        <h1>{{langPath.footer.tweets.header}}</h1>
+        <h1>{{langPath.footer.tweets.header | default: defaultLangPath.footer.tweets.header}}</h1>
           <a href="https://twitter.com/vergecurrency" data-chrome="noheader nofooter transparent noborders" data-theme="dark" data-link-color="#08b4e0" height="450px" class="twitter-timeline">
-            {{langPath.footer.tweets.by}}
+            {{langPath.footer.tweets.by | default: defaultLangPath.footer.tweets.by}}
           </a>
       </div>
     </div>
-    <div class="footer">{{langPath.footer.copyright}}</div>
+    <div class="footer">{{langPath.footer.copyright | default: defaultLangPath.footer.copyright}}</div>
   </footer>
 </body>
 <script>
