@@ -1,0 +1,137 @@
+---
+lang_name: "Deutsch"
+head:
+  meta:
+    description: "VERGE (XVG) ist eine sichere und anonyme Krypto-Währung, die mit einem Fokus auf Privatsphäre gebaut wurde."
+  title: "Verge - Sichere und anonyme Krypto-Währung, gebaut mit einem Fokus auf Privatsphäre."
+nav:
+  about:
+    title: "Über"
+  exchanges:
+    title: "Holen Sie sich Verge"
+  wallets:
+    title: "Geldbörsen"
+  roadmap:
+    title: "Straßenkarte"
+  community:
+    title: "Gemeinschaft"
+tagline: "Verge ist eine sichere und anonyme Krypto-Währung, gebaut mit einem Fokus auf Privatsphäre."
+download: "Herunterladen"
+view: "Aussicht"
+view_all_wallets: "Alle Brieftaschen ansehen"
+info:
+  about:
+    header: "Warum Verge?"
+    paragraph: "Verge ist eine dezentralisierte Währung für Benutzer, die Privatsphäre wert sind. Es verbessert die ursprüngliche Bitcoin-Blockkette, indem sie mehrere anonymitätzentrische Netzwerke wie Tor und i2p verwendet. Es nutzt Multi-Algorithmus Bergbau Unterstützung zur Verbesserung der Sicherheit und bieten gleichmäßige Verteilung der Münzen an Bergleute."
+  resources:
+    header: "Ressourcen"
+    black_paper: "Schwarzes Papier"
+    github: "Quellcode auf Github"
+    mining_pools: "Bergbau-Pools"
+    mining_resources: "Bergbau-Ressourcen"
+    blockchain_explorer_prohashing: "Blockchain Explorer (ProHashing)"
+    blockchain_explorer_ccminer: "Blockchain Explorer (CCMiner.org)"
+  tech_specs:
+    header: "Technische Daten"
+    symbol: "<b>Symbol:</b> XVG"
+    algo: "<b>Algorithmus:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
+    block_time: "<b>Zeit blockieren:</b> 30 Sekunden"
+    rpc_port: "<b>RPC-Anschluss:</b> 20102"
+    p2p_port: "<b>P2P-Port:</b> 21102"
+exchanges:
+  header: "Holen Sie sich Verge"
+  paragraph: "Verge ist stolz darauf, an folgenden Börsen notiert zu sein:"
+  bittrex: "Bittrex"
+  bitsquare: "BitSquare.io"
+  ccex: "C-Cex"
+  litebit: "Litebit.eu"
+  southxchange: "SouthXchange"
+  novaexchange: "NovaExchange"
+  cryptopia: "Cryptopia"
+  coingather: "CoinGather"
+wallets:
+  header: "Geldbörsen"
+  tabs:
+    desktop: "Desktop"
+    mobile: "Mobile"
+    other: "Andere"
+  windows: "Verge Windows Geldbörse"
+  macosx: "Verge Mac OSX Geldbörse"
+  android: "Verge Android Geldbörse"
+  archlinux: "Verge ArchLinux Geldbörse"
+  centos: "Verge CentOS Geldbörse"
+  debian: "Verge Debian Geldbörse"
+  fedora: "Verge Fedora Geldbörse"
+  web: "Verge Web Geldbörse"
+  web_tor: "Verge TOR Web Geldbörse"
+  web_i2P: "Verge i2P Web Geldbörse"
+  raspberry_pi: "Verge Himbeer-Pi-Quellcode"
+  electrum_linux: "Verge Linux Electrum Geldbörse"
+  electrum_linux_tor: "Verge TOR Linux Electrum Geldbörse"
+  electrum_windows: "Verge Windows Electrum Geldbörse"
+  electrum_windows_tor: "Verge TOR Windows Electrum Geldbörse"
+  paper: "Verge Papierbörse"
+  daemon_docker: "Verge Daemon Docker Bild"
+  coinomi: "Coinomi Multi Währung Android Wallet"
+roadmap:
+  header: "Straßenkarte"
+  blackpaper:
+    header: "\"Schwarzes Papier"
+    date: "<font color='red'>VERÖFFENTLICHT</font> 4. Juni 2017"
+  electrum_i2P_server_client:
+    header: "Electrum i2p Server / Client"
+    date: "<font color='red'>VERÖFFENTLICHT</font> 4. Juni 2017"
+  electrum_tor_server_client:
+    header: "Electrum TOR Server / Client"
+    date: "<font color='red'>VERÖFFENTLICHT</font> 5. Juni 2017"
+  electrum_binaries:
+    header: "Electrum Binaries"
+    paragraph: "Binäre Kunden für einfach zu bedienende Lite Brieftaschen."
+    date: "<font color='red'>VERÖFFENTLICHT</font> 7. Juni 2017"
+  marketing_campaign:
+    header: "Crypto Services Marketing Kampagne"
+    paragraph: "1 Jahr Anzeigenkampagne mit Coinomi gestartet"
+    date: "<font color='red'>VERÖFFENTLICHT</font> 7. Juni 2017"
+  redesign_website:
+    header: "Verbessere Website"
+    date: "<font color='red'>VERÖFFENTLICHT</font> 12. Juni 2017"
+  radio:
+    header: "Erhöhe Verge Radio"
+    paragraph: "In "RadioCrypto" umwandeln und in Kernmappen einschließen"
+    date: "26. Juni 2017"
+  i2P_tor_android_wallets:
+    header: "I2P / TOR Android Brieftaschen"
+    paragraph: "Android Wallet für Anon-Transaktionen NUR! (In der Nähe der Fertigstellung)"
+    date: "Juli 2017"
+  core_wallet_release:
+    header: "Neue Core Wallet Release"
+    paragraph: "Fügen Sie neue Features wie Münzkontrolle, RingCT, Update-Bibliotheken (openssl, Boost, etc.)"
+    date: "Juli 2017"
+  rsk_smart_contracts:
+    header: "RSK intelligente Verträge"
+    paragraph: "Sie sind jetzt im Testnet für Bitcoin. Das Datum dreht sich um diese Zeitachse."
+    date: "Juli 2017"
+  wallet_ui:
+    header: "Wallet UI Überholung"
+    date: "Juli 2017"
+  merchandise_store:
+    header: "Werbeartikel Online Store"
+    paragraph: "Kurz Merchandise Shop haben T-Shirts/Bekleidung, die mit XVG und BTC gekauft werden können."
+    date: "Juli 2017"
+footer:
+  community:
+    header: "Gemeinschaft"
+    slack: "Durchhang"
+    facebook: "Facebook"
+    twitter: "Twitter"
+    irc: "IRC Chat"
+    bitcointalk: "BitCoinTalk"
+    reddit: "Reddit"
+    steam: "Dampf"
+    telegram: "Telegramm"
+    verge_radio: "Kurz Radio"
+    discord: "Kurz vor Zwietracht"
+  tweets:
+    header: "Tweets"
+    by: "Tweets by @vergecurrency"
+  copyright: "&copy; 2017 Kante"
