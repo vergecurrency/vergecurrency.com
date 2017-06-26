@@ -2,8 +2,8 @@
 lang_name: "Français"
 head:
   meta:
-    description: "VERGE (XVG) est une crypto-monaie sécurisée et totalement anonyme, construite avec le respect de la vie privée en priorité."
-  title: "Verge - la Crypto-monaie sécurisée et anonyme, est intégrée au respect de l'intimité ."
+    description: "VERGE (XVG) est une crypto-monnaie sécurisée et totalement anonyme, construite avec le respect de la vie privée en priorité."
+  title: "Verge - Crypto-monnaie sécurisée et anonyme, construite avec le respect de la vie privée."
 nav:
   about:
     title: "À Propos"
@@ -72,7 +72,7 @@ wallets:
   electrum_windows_tor: "Verge TOR Portefeuille Electronique Windows"
   paper: "Portefeuille en papier Verge"
   daemon_docker: "Image de Docker Daemon Verge"
-  coinomi: "Portefeuille Coinomi Multi-Monaie Android"
+  coinomi: "Portefeuille Coinomi Multi-Monnaie Android"
 roadmap:
   header: "Feuille de route"
   blackpaper:
