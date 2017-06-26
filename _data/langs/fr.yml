@@ -2,35 +2,35 @@
 lang_name: "Français"
 head:
   meta:
-    description: "VERGE (XVG) est une cryptocurrence sécurisée et anonyme, construite avec un accent sur la vie privée."
-  title: "Verge - Cryptocurrence sécurisée et anonyme, intégrée à la vie privée."
+    description: "VERGE (XVG) est une crypto-monaie sécurisée et totalement anonyme, construite avec le respect de la vie privée en priorité."
+  title: "Verge - la Crypto-monaie sécurisée et anonyme, est intégrée au respect de l'intimité ."
 nav:
   about:
-    title: "Sur"
+    title: "À Propos"
   exchanges:
-    title: "Obtenir Verge"
+    title: "Échangeurs"
   wallets:
     title: "Portefeuilles"
   roadmap:
-    title: "Carte routière"
+    title: "plan de route"
   community:
     title: "Communauté"
-tagline: "Verge est une cryptocurrence sécurisée et anonyme, construite avec un accent sur la vie privée."
+tagline: "Verge est une crypto-monaie sécurisée et anonyme, construite avec un respect de notre intimité éléctronique."
 download: "Télécharger"
 view: "Vue"
-view_all_wallets: "Voir toutes les portefeuilles"
+view_all_wallets: "Voir tous les portefeuilles"
 info:
   about:
-    header: "Pourquoi Verge?"
-    paragraph: "Verge est une devise décentralisée conçue pour les utilisateurs qui apprécient la vie privée. Il améliore la chaîne de bloc Bitcoin d'origine en utilisant de multiples réseaux centrés sur l'anonymat tels que Tor et i2p. Il utilise un support d'exploration multi-algorithmes pour améliorer la sécurité et fournir une répartition égale des pièces aux mineurs."
+    header: "Pourquoi la Verge-monaie?"
+    paragraph: "Verge est une devise electronique décentralisée conçue pour les utilisateurs qui apprécient le respect de l'intimité. Il améliore la chaîne de bloques en respect du principe original du Bitcoin en utilisant des réseaux multiples centrés sur l'anonymat tels que Tor et i2p. Il utilise un support d'exploration de type multi-algorithmes pour améliorer la sécurité et fournir une répartition égale des bloques aux minage."
   resources:
     header: "Ressources"
     black_paper: "Papier noir"
     github: "Code source sur Github"
-    mining_pools: "Piscines minières"
+    mining_pools: "Piscines de minage "
     mining_resources: "Ressources minières"
-    blockchain_explorer_prohashing: "Bloquer la chaîne Explorer (ProHashing)"
-    blockchain_explorer_ccminer: "Bloquer la chaîne Explorer (CCMiner.org)"
+    blockchain_explorer_prohashing: "la chaîne d'exploration de block(ProHashing)"
+    blockchain_explorer_ccminer: "la chaîne d'exploration de block (CCMiner.org)"
   tech_specs:
     header: "Spécifications techniques"
     symbol: "<b>Symbole:</b> XVG"
@@ -39,7 +39,7 @@ info:
     rpc_port: "<b>Port RPC:</b> 20102"
     p2p_port: "<b>Port P2P:</b> 21102"
 exchanges:
-  header: "Obtenir Verge"
+  header: "Échangeurs"
   paragraph: "Verge est fier d'être listé sur les échanges suivants:"
   bittrex: "Bittrex"
   bitsquare: "BitSquare.io"
@@ -71,10 +71,10 @@ wallets:
   electrum_windows: "Portefeuille électronique Verge Windows Electrum"
   electrum_windows_tor: "Verge TOR Portefeuille Electronique Windows"
   paper: "Portefeuille en papier Verge"
-  daemon_docker: "Image de Docker de Daemon Verge"
-  coinomi: "Portefeuille Coinomi Multi Currency Android"
+  daemon_docker: "Image de Docker Daemon Verge"
+  coinomi: "Portefeuille Coinomi Multi-Monaie Android"
 roadmap:
-  header: "Carte routière"
+  header: "plan de route"
   blackpaper:
     header: "\"Papier noir"
     date: "<font color='red'>PUBLIE</font> 4 juin 2017"
@@ -86,51 +86,51 @@ roadmap:
     date: "<font color='red'>PUBLIE</font> 5 juin 2017"
   electrum_binaries:
     header: "Binaire Electrum"
-    paragraph: "Des clients binaires pour des portefeuilles simples et faciles à utiliser."
+    paragraph: " ELectrum binaires pour des portefeuilles simples et faciles à utiliser."
     date: "<font color='red'>PUBLIE</font> 7 juin 2017"
   marketing_campaign:
-    header: "Campagne de marketing des services Crypto"
-    paragraph: "Commence une campagne publicitaire de 1 an avec Coinomi"
+    header: "Campagne de marketing"
+    paragraph: "Début d'une campagne publicitaire d' 1 an avec Coinomi"
     date: "<font color='red'>PUBLIE</font> 7 juin 2017"
   redesign_website:
-    header: "Redesigner le site Web Verge"
+    header: "nouvelle conception du site Web Verge"
     date: "<font color='red'>PUBLIE</font> 12 juin 2017"
   radio:
-    header: "Augmenter la radio Verge"
-    paragraph: "Transformer en \"RadioCrypto\" et inclure dans des portefeuilles de base"
+    header: "Amélioration de la radio Verge"
+    paragraph: "Transformer la radio en \"RadioCrypto\" et inclure des données de base"
     date: "26 juin 2017"
   i2P_tor_android_wallets:
     header: "Portefeuilles Android i2P / TOR"
-    paragraph: "Portefeuille Android pour les transactions Anon SEULEMENT! (Près de l'achèvement)"
+    paragraph: "Portefeuille Android pour les transactions Anononymes SEULEMENT! (Prèsque finis)"
     date: "Juillet 2017"
   core_wallet_release:
-    header: "New Wallet Publie"
-    paragraph: "Ajouter de nouvelles fonctionnalités, y compris le contrôle des pièces, RingCT, les bibliothèques de mise à jour (openssl, boost, etc.)"
+    header: "Nouveau porteuille déployé"
+    paragraph: "Ajouter de nouvelles fonctionnalités, y compris le contrôle des pièce VERGE, RingCT, une bibliothèque de mise-à-jour (openssl, boost, etc.)"
     date: "Juillet 2017"
   rsk_smart_contracts:
     header: "Contrats intelligents RSK"
-    paragraph: "Ils sont en testnet pour bitcoin maintenant. La date tourne autour de ce calendrier."
+    paragraph: "Ils sont présentement en testnet pour le bitcoin. L'implémentation sera faite en même temps que l'implémentation du bitcoin."
     date: "Juillet 2017"
   wallet_ui:
-    header: "Révision de l'UI de Wallet"
+    header: "Révision porte-monaie UI"
     date: "Juillet 2017"
   merchandise_store:
-    header: "Boutique en ligne Marchandises"
-    paragraph: "Le magasin Verge Merchandise aura des t-shirts / habillement qui peuvent être achetés avec XVG et BTC."
+    header: "Boutique en ligne"
+    paragraph: "Le magasin Verge offrira des t-shirts et d'autres habillements qui pourront être achetés avec des XVG et du BTC."
     date: "Juillet 2017"
 footer:
   community:
     header: "Communauté"
-    slack: "Mou"
+    slack: "Slack"
     facebook: "Facebook"
-    twitter: "Gazouillement"
+    twitter: "Twitter"
     irc: "Chat IRC"
     bitcointalk: "BitCoinTalk"
     reddit: "Reddit"
-    steam: "Vapeur"
-    telegram: "Télégramme"
+    steam: "Steam"
+    telegram: "Télégram"
     verge_radio: "Verge Radio"
-    discord: "Discorde de Verge"
+    discord: "Discord Verge"
   tweets:
     header: ""
     by: "Tweets par @vergecurrency"
