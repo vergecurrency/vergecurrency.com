@@ -76,7 +76,7 @@ wallets:
 roadmap:
   header: "Road Map"
   blackpaper:
-    header: "\"Black Paper
+    header: "\"Black Paper"
     date: "<font color='red'>GEPUBLICEERD</font> 4 juni 2017"
   electrum_i2P_server_client:
     header: "Electrum i2p Server/Client"
@@ -97,7 +97,7 @@ roadmap:
     date: "<font color='red'>GEPUBLICEERD</font> 12 juni 2017"
   radio:
     header: "Vergever Verge Radio"
-    paragraph: "Transformeer in "RadioCrypto" "
+    paragraph: "Transformeer in \"RadioCrypto\""
     date: "26 juni 2017"
   i2P_tor_android_wallets:
     header: "I2P / TOR Android Portemonnees"

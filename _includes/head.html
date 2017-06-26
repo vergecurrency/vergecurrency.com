@@ -3,16 +3,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Verge</title>
-  <meta name="description" content="VERGE (XVG) is a secure and anonymous cryptocurrency, built with a focus on privacy.">
+  <title>{{langPath.head.title}}</title>
+  <meta name="description" content="{{langPath.head.meta.description}}">
 
   <link rel="stylesheet" href="/assets/main.css?{{site.time | date: '%s%N'}}">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
   <script src="/javascript/vendor/UAParser.js"></script>
+  <!-- HTTPS Redirect -->
   <script>
       (function () {
           var PROD_HOST = 'vergecurrency.com';
@@ -23,5 +24,29 @@
               window.location.protocol = "https";
           }
       }());
+  </script>
+  <!-- Language Redirect -->
+<script>
+    (function () {
+      // Auto redirect to the appropriate language
+      var pathname = window.location.pathname;
+      var isDefaultPathname = (
+        pathname === '' ||
+        pathname === '/'
+      );
+      var DEFAULT_LANG = 'en';
+      var langs={};{% for lang in site.data.langs %}{% if lang[0] != page.lang %}langs['{{ lang[0] }}']=true;{% endif %}{% endfor %}
+
+      var lang = ((navigator.language || navigator.userLanguage || '').split('_') || [])[0];
+
+      if(!langs[lang]) {
+          lang = DEFAULT_LANG;
+      }
+
+      // If the user is not already on a language specific page and it is not the default language
+      if (isDefaultPathname && lang !== DEFAULT_LANG) {
+          window.location.href='/langs/' + lang + '/';
+      }
+  }());
 </script>
 </head>
