@@ -2,8 +2,8 @@
 lang_name: "Español"
 head:
   meta:
-    description: "VERGE (XVG) es una criptoconversión segura y anónima, construida con un enfoque en la privacidad."
-  title: "Verge - Criptocurrencia segura y anónima, construida con un enfoque en la privacidad."
+    description: "VERGE (XVG) es una criptomoneda segura y anónima, construida con un enfoque en la privacidad."
+  title: "Verge - Criptomoneda segura y anónima, construida con un enfoque en la privacidad."
 nav:
   about:
     title: "Acerca de"
@@ -12,35 +12,35 @@ nav:
   wallets:
     title: "Carteras"
   roadmap:
-    title: "Mapa vial"
+    title: "Mapa del Proyecto"
   community:
     title: "Comunidad"
-tagline: "Verge es una criptocurrencia segura y anónima, construida con un enfoque en la privacidad."
+tagline: "Verge es una criptomoneda segura y anónima, construida con un enfoque en la privacidad."
 download: "Descargar"
 view: "Ver"
 view_all_wallets: "Ver todas las carteras"
 info:
   about:
     header: "¿Por qué Verge?"
-    paragraph: "Verge es una moneda descentralizada diseñada para usuarios que valoran la privacidad. Mejora la cadena de bloques Bitcoin original utilizando múltiples redes centradas en el anonimato como Tor e i2p. Utiliza soporte de minería de algoritmos múltiples para mejorar la seguridad y proporcionar una distribución igual de monedas a los mineros."
+    paragraph: "Verge es una moneda descentralizada diseñada para usuarios que valoran la privacidad. Mejora la cadena de bloques original de Bitcoin utilizando múltiples redes centradas en el anonimato como Tor e i2p. Utiliza soporte de minería de algoritmos múltiples para mejorar la seguridad y proporcionar una distribución igual de monedas a los mineros."
   resources:
     header: "Recursos"
-    black_paper: "Papel negro"
+    black_paper: "Papel Negro"
     github: "Código fuente en Github"
-    mining_pools: "Piscinas Mineras"
+    mining_pools: "Pools Mineras"
     mining_resources: "Recursos Mineros"
-    blockchain_explorer_prohashing: "Explorador de bloque de la cadena (ProHashing)"
-    blockchain_explorer_ccminer: "Explorador de bloque de la cadena (CCMiner.org)"
+    blockchain_explorer_prohashing: "Explorador de blockchain (ProHashing)"
+    blockchain_explorer_ccminer: "Explorador de blockchain (CCMiner.org)"
   tech_specs:
     header: "Especificaciones técnicas"
     symbol: "<b>Símbolo:</b> XVG"
     algo: "<b>Algoritmo:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
-    block_time: "<b>Bloquear el tiempo:</b> 30 segundos"
+    block_time: "<b>Tiempo por Bloque:</b> 30 segundos"
     rpc_port: "<b>Puerto RPC:</b> 20102"
     p2p_port: "<b>Puerto P2P:</b> 21102"
 exchanges:
-  header: "Obtener ventaja"
-  paragraph: "Verge está orgulloso de ser incluido en los siguientes intercambios:"
+  header: "Obtener Verge"
+  paragraph: "Verge está orgulloso de ser incluido en los siguientes exchanges:"
   bittrex: "Bittrex"
   bitsquare: "BitSquare.io"
   ccex: "C-Cex"
@@ -56,9 +56,9 @@ wallets:
     mobile: "Móvil"
     other: "Otro"
   windows: "Verge Cartera de Windows"
-  macosx: "Verge Monedero de Mac OSX"
-  android: "Verge Monedero Android"
-  archlinux: "Verge Monedero de ArchLinux"
+  macosx: "Verge Cartera de Mac OSX"
+  android: "Verge Cartera Android"
+  archlinux: "Verge Cartera de ArchLinux"
   centos: "Verge Cartera de CentOS"
   debian: "Verge Cartera de Debian"
   fedora: "Verge Cartera de Fedora"
@@ -66,15 +66,15 @@ wallets:
   web_tor: "Verge TOR Cartera Web"
   web_i2P: "Verge i2P Cartera Web"
   raspberry_pi: "Verge Raspberry Pi Código fuente"
-  electrum_linux: "Verge Linux Electrum Cartera"
-  electrum_linux_tor: "Verge TOR Linux Electrum Cartera"
-  electrum_windows: "Verge Windows Electrum Cartera"
-  electrum_windows_tor: "Verge TOR Windows Electrum Cartera"
-  paper: "Verge Paper Cartera"
-  daemon_docker: "Verge Daemon Docker Imagen"
-  coinomi: "Coinomi Multi Currency Android Cartera"
+  electrum_linux: "Verge Cartera Linux Electrum"
+  electrum_linux_tor: "Verge Cartera TOR Linux Electrum"
+  electrum_windows: "Verge Cartera Windows Electrum"
+  electrum_windows_tor: "Verge Cartera TOR Windows Electrum"
+  paper: "Verge Cartera de Papel"
+  daemon_docker: "Verge Daemon Docker Image"
+  coinomi: "Coinomi  Cartera Multi-Moneda Android"
 roadmap:
-  header: "Mapa vial"
+  header: "Mapa del Proyecto"
   blackpaper:
     header: "Papel \"negro\""
     date: "<font color='red'>PUBLICADO</font> 4 de junio de 2017"
@@ -97,22 +97,22 @@ roadmap:
     date: "<font color='red'>PUBLICADO</font> 12 de junio de 2017"
   radio:
     header: "Expandir Verge Radio"
-    paragraph: "Transforma en \"RadioCrypto\" e incluye en carteras de núcleo"
+    paragraph: "Cambios en \"RadioCrypto\" y es incluido en carteras núcleo"
     date: "26 de junio de 2017"
   i2P_tor_android_wallets:
-    header: "i2P/TOR Carteras androide"
-    paragraph: "Monedero Android para transacciones de Anon SOLAMENTE! (Cerca de terminar)"
+    header: "i2P/TOR Carteras android"
+    paragraph: "Cartera Android para transacciones Anonimas SOLAMENTE! (Cerca de terminar)"
     date: "Julio de 2017"
   core_wallet_release:
-    header: "Nuevo Core Cartera Lanzamiento"
+    header: "Lanzamiento Nueva Cartera Núcleo"
     paragraph: "Añadir nuevas funciones como el control de monedas, RingCT, librerías de actualización (openssl, boost, etc)"
     date: "Julio de 2017"
   rsk_smart_contracts:
     header: "RSK Contratos inteligentes"
-    paragraph: "Ahora están en testnet para bitcoin. La fecha gira alrededor de esta línea de tiempo."
+    paragraph: "Ahora están en testnet para bitcoin. El lanzamiento gira alrededor de esta fecha."
     date: "Julio de 2017"
   wallet_ui:
-    header: "Revisión de la interfaz de usuario de Wallet"
+    header: "Revisión de la interfaz de usuario de las Carteras"
     date: "Julio de 2017"
   merchandise_store:
     header: "Tienda Online de Mercancías"
@@ -121,16 +121,16 @@ roadmap:
 footer:
   community:
     header: "Comunidad"
-    slack: "Flojo"
+    slack: "Slack"
     facebook: "Facebook"
-    twitter: "Gorjeo"
+    twitter: "Twitter"
     irc: "Chat IRC"
     bitcointalk: "BitCoinTalk"
     reddit: "Reddit"
-    steam: "Vapor"
-    telegram: "Telegrama"
+    steam: "Steam"
+    telegram: "Telegram"
     verge_radio: "Verge Radio"
-    discord: "Discordia vergena"
+    discord: "Discord"
   tweets:
     header: "Tweets"
     by: "Tweets por @vergecurrency"
