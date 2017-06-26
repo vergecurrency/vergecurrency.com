@@ -8,9 +8,9 @@ nav:
   about:
     title: "Over"
   exchanges:
-    title: "Koop Verge"
+    title: "Verge kopen"
   wallets:
-    title: "Portefeuilles"
+    title: "Portemonnees"
   roadmap:
     title: "Road map"
   community:
@@ -22,9 +22,9 @@ view_all_wallets: "Bekijk alle portemonnees"
 info:
   about:
     header: "Waarom Verge?"
-    paragraph: "Verge is een gedecentraliseerde valuta ontworpen voor gebruikers die waarde hechten aan hun privacy. Verge is beter dan de Bitcoin blockchain door gebruik te maken van meerdere anonieme netwerken zoals Tor en i2p. Het maakt gebruik van meerdere algoritmes om de veiligheid te verbeteren en om gelijke kansen te verschaffen aan de miners."
+    paragraph: "Verge is een gedecentraliseerde valuta ontworpen voor gebruikers die waarde hechten aan hun privacy. Verge is biedt een verbetering op de Bitcoin blockchain door gebruik te maken van meerdere anonieme netwerken zoals Tor en i2p. Door gebruik te maken van meerdere algoritmes wordt de veiligheid verbeterd en hebben miners gelijke kansen."
   resources:
-    header: "Middelen"
+    header: "Informatie"
     black_paper: "Black Paper"
     github: "Broncode op Github"
     mining_pools: "Mining Pools"
@@ -34,12 +34,12 @@ info:
   tech_specs:
     header: "Technische specificaties"
     symbol: "<b>Symbool:</b> XVG"
-    algo: "<b>Algoritme:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
-    block_time: "<b>Blokkeer tijd:</b> 30 seconden"
+    algo: "<b>Algoritmes:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
+    block_time: "<b>Tijd per blok:</b> 30 seconden"
     rpc_port: "<b>RPC poort:</b> 20102"
     p2p_port: "<b>P2P poort:</b> 21102"
 exchanges:
-  header: "Koop Verge"
+  header: "Verge kopen"
   paragraph: "Verge is te koop bij de volgende exchanges:"
   bittrex: "Bittrex"
   bitsquare: "BitSquare.io"
@@ -50,11 +50,11 @@ exchanges:
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
 wallets:
-  header: "Portefeuilles"
+  header: "Portemonnees"
   tabs:
     desktop: "Desktop"
-    mobile: "mobiel"
-    other: "anders"
+    mobile: "Mobiel"
+    other: "Overig"
   windows: "Verge Windows Wallet"
   macosx: "Verge Mac OSX Wallet"
   android: "Verge Android Wallet"
@@ -96,16 +96,16 @@ roadmap:
     header: "Redesign Verge Website"
     date: "<font color='red'>GEPUBLICEERD</font> 12 juni 2017"
   radio:
-    header: "Vergever Verge Radio"
+    header: "Uitbreiding Verge Radio"
     paragraph: "Transformeer in \"RadioCrypto\""
     date: "26 juni 2017"
   i2P_tor_android_wallets:
     header: "I2P / TOR Android Portemonnees"
-    paragraph: "Android Wallet voor anonieme transacties! (Bijna voltooiing)"
+    paragraph: "Android Wallet voor anonieme transacties! (Bijna voltooid)"
     date: "Juli 2017"
   core_wallet_release:
     header: "Nieuwe Core Wallet Release"
-    paragraph: "Voeg nieuwe functies toe, waaronder muntregeling, RingCT, update bibliotheken (openssl, boost, etc)"
+    paragraph: "Toevoegen van nieuwe functies, waaronder muntregeling, RingCT, update van software bibliotheken (openssl, boost, etc)"
     date: "Juli 2017"
   rsk_smart_contracts:
     header: "RSK slimme contracten"
