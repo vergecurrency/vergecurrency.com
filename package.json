@@ -1,0 +1,22 @@
+{
+  "name": "vergecurrency.com",
+  "version": "1.0.0",
+  "description": "Website for Verge currency",
+  "main": "translation_helpers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vergecurrency/vergecurrency.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vergecurrency/vergecurrency.com/issues"
+  },
+  "homepage": "https://github.com/vergecurrency/vergecurrency.com#readme",
+  "devDependencies": {
+    "node-yaml": "^3.1.0"
+  }
+}
