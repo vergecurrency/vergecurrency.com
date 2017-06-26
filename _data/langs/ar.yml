@@ -1,0 +1,137 @@
+---
+lang_name: "عربى"
+head:
+  meta:
+    description: "وشك (XVG) هو ضمان العملة المجهولة التى يتم بناؤها مع التركيز على الخصوصية."
+  title: "وشك - تامين عملة المجهولة التى يتم بناؤها مع التركيز على الخصوصية."
+nav:
+  about:
+    title: "حوالى"
+  exchanges:
+    title: "احصل على وشك"
+  wallets:
+    title: "المحفظة"
+  roadmap:
+    title: "خريطة الطريق"
+  community:
+    title: "المجتمع الدولى"
+tagline: "وشك مؤمنة العملة المجهولة التى يتم بناؤها مع التركيز على الخصوصية."
+download: "تنزيل"
+view: "عرض"
+view_all_wallets: "حافظات كل"
+info:
+  about:
+    header: "لماذا وشك?"
+    paragraph: "وشك العملة لا مركزية مصممة خصيصا للمستخدمين الذين يقدرون الخصوصية. انه يحسن blockchain Bitcoin الاصلية باستخدام عدة شبكات اسمه-centric مثل طور I2p. يستخدم خوارزمية متعددة لتحسين الامن الدعم التعدين وتوفير المساواة فى توزيع النقود لعمال المناجم."
+  resources:
+    header: "الموارد"
+    black_paper: "ورقة سوداء"
+    github: "المصدر Github"
+    mining_pools: "حمامات التعدين"
+    mining_resources: "الموارد المعدنية"
+    blockchain_explorer_prohashing: "Blockchain Explorer (ProHashing)"
+    blockchain_explorer_ccminer: "Blockchain Explorer (CCMiner.org)"
+  tech_specs:
+    header: "المواصفات الفنية"
+    symbol: "<b>الرمز:</b> XVG"
+    algo: "<b>الخوارزمية:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
+    block_time: "<b>بلوك:</b> 30 ثانية"
+    rpc_port: "<b>منفذ RPC:</b> 20102"
+    p2p_port: "<b>ميناء P2P:</b> 21102"
+exchanges:
+  header: "احصل على وشك"
+  paragraph: "وشك فخورة المدرجة على ما يلى :"
+  bittrex: "Bittrex"
+  bitsquare: "BitSquare.io"
+  ccex: "C-Cex"
+  litebit: "Litebit.eu"
+  southxchange: "SouthXchange"
+  novaexchange: "NovaExchange"
+  cryptopia: "Cryptopia"
+  coingather: "CoinGather"
+wallets:
+  header: "المحفظة"
+  tabs:
+    desktop: "سطح المكتب"
+    mobile: "محمول"
+    other: "الاخرى"
+  windows: "وشك Windows Wallet"
+  macosx: "وشك Mac OSX Wallet"
+  android: "وشك محفظة Android"
+  archlinux: "وشك ArchLinux Wallet"
+  centos: "وشك تشغل CentOS Wallet"
+  debian: "وشك Debian Wallet"
+  fedora: "وشك Fedora Wallet"
+  web: "وشك Web Wallet"
+  web_tor: "وشك TOR الويب Wallet"
+  web_i2P: "وشك I2P Web Wallet"
+  raspberry_pi: "كود وشك والتوت Pi"
+  electrum_linux: "وشك Linux Electrum Wallet"
+  electrum_linux_tor: "وشك Electrum TOR Linux Wallet"
+  electrum_windows: "وشك Windows Electrum Wallet"
+  electrum_windows_tor: "وشك Electrum TOR Windows Wallet"
+  paper: "وشك الورقة Wallet"
+  daemon_docker: "Verge Daemon Docker Image"
+  coinomi: "Wallet Coinomi متعددة العملات Android"
+roadmap:
+  header: "خريطة الطريق"
+  blackpaper:
+    header: "\"بلاك\""
+    date: "<font color='red'>اطلق سراحه</font> 4 يونيو, 2017"
+  electrum_i2P_server_client:
+    header: "'1' Electrum2p الخادم/العميل"
+    date: "<font color='red'>اطلق سراحه</font> 4 يونيو, 2017"
+  electrum_tor_server_client:
+    header: "Electrum TOR الخادم/العميل"
+    date: "<font color='red'>اطلق سراحه</font> 5 يونيو, 2017"
+  electrum_binaries:
+    header: "والثنائيات Electrum"
+    paragraph: "العملاء ثنائى سهل الاستخدام lite محافظهم."
+    date: "<font color='red'>اطلق سراحه</font> 7 يونيو, 2017"
+  marketing_campaign:
+    header: "Crypto Services Marketing Campaign"
+    paragraph: "بدات حملة اعلانية لمدة عام واحد مع Coinomi"
+    date: "<font color='red'>اطلق سراحه</font> 7 يونيو, 2017"
+  redesign_website:
+    header: "اعادة تصميم موقع حافة"
+    date: "<font color='red'>اطلق سراحه</font> 12 يونيو, 2017"
+  radio:
+    header: "توسيع وشك الراديو"
+    paragraph: "تتحول الى \"RadioCrypto\" واموال الاساسية"
+    date: "26 يونيو, 2017"
+  i2P_tor_android_wallets:
+    header: "I2P/TOR حافظات Android"
+    paragraph: "Wallet Android انون المعاملات فقط! (الاكتمال)"
+    date: "تموز/يوليه 2017"
+  core_wallet_release:
+    header: "معالجات Core الجديدة نشرة حافظة"
+    paragraph: "اضافة ميزات جديدة, بما فى ذلك العملات المعدنية RingCT وتحديث المكتبات وزيادة openssl, الخ)"
+    date: "تموز/يوليه 2017"
+  rsk_smart_contracts:
+    header: "جمهورية كرايينا الصربية عقود الذكية"
+    paragraph: "فهى الان من اجل bitcoin testnetتاريخ يدور حول هذا الجدول الزمنى."
+    date: "تموز/يوليه 2017"
+  wallet_ui:
+    header: "Wallet UI اصلاح"
+    date: "تموز/يوليه 2017"
+  merchandise_store:
+    header: "بضاعة المتجر عبر انترنت"
+    paragraph: "وسيكون محل السلع حافة tshirts/الملابس التى يمكن شراؤها مع XVG, جيهان."
+    date: "تموز/يوليه 2017"
+footer:
+  community:
+    header: "المجتمع الدولى"
+    slack: "ارتخاء"
+    facebook: "Facebook"
+    twitter: "Twitter"
+    irc: "IRC Chat"
+    bitcointalk: "BitCoinTalk"
+    reddit: "Reddit"
+    steam: "البخار"
+    telegram: "برقية"
+    verge_radio: "وشك الراديو"
+    discord: "وشك الفتنة"
+  tweets:
+    header: "وعرض التويتات"
+    by: "وعرض التويتات من @vergecurrency"
+  copyright: "&copy; 2017 قاب قوسين او ادنى"

@@ -1,0 +1,137 @@
+---
+lang_name: "Português"
+head:
+  meta:
+    description: "VERGE (XVG) é uma criptomoeda segura e anônima, construída com foco na privacidade."
+  title: "Verge - Criptomoeda segura e anônima, construída com foco na privacidade."
+nav:
+  about:
+    title: "Sobre"
+  exchanges:
+    title: "Obter Verge"
+  wallets:
+    title: "Wallets"
+  roadmap:
+    title: "Roadmap"
+  community:
+    title: "Comunidade"
+tagline: "Verge é uma criptomoeda segura e anônima, construida com foco na privacidade."
+download: "Baixar"
+view: "Ver"
+view_all_wallets: "Ver todas wallets"
+info:
+  about:
+    header: "Por que Verge?"
+    paragraph: "Verge é uma moeda decentralizada feita para pessoa que dão valor para privacidade. Ela incrementa a original Bitcoin blockchain usando multiplas redes centralizadas em anônimato como Tor e i2p. Ela utiliza múltiplos algoritmos de mineração pata aumentar a segurança e distribuir uma quantidade igual de moedas para os mineiradores."
+  resources:
+    header: "Recursos"
+    black_paper: "Black Paper"
+    github: "Código fonte no Github"
+    mining_pools: "Mining Pools"
+    mining_resources: "Mining Resources"
+    blockchain_explorer_prohashing: "Blockchain Explorer (ProHashing)"
+    blockchain_explorer_ccminer: "Blockchain Explorer (CCMiner.org)"
+  tech_specs:
+    header: "Especificações técnicas"
+    symbol: "<b>Símbolo:</b> XVG"
+    algo: "<b>Algoritmo:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
+    block_time: "<b>Block Time:</b> 30 seconds"
+    rpc_port: "<b>Porta RPC:</b> 20102"
+    p2p_port: "<b>Porta P2P:</b> 21102"
+exchanges:
+  header: "Obter Verge"
+  paragraph: "Verge orgulhosamente está listada nas seguintes exchanges:"
+  bittrex: "Bittrex"
+  bitsquare: "BitSquare.io"
+  ccex: "C-Cex"
+  litebit: "Litebit.eu"
+  southxchange: "SouthXchange"
+  novaexchange: "NovaExchange"
+  cryptopia: "Cryptopia"
+  coingather: "CoinGather"
+wallets:
+  header: "Wallets"
+  tabs:
+    desktop: "Desktop"
+    mobile: "Mobile"
+    other: "Outras"
+  windows: "Verge Windows Wallet"
+  macosx: "Verge Mac OSX Wallet"
+  android: "Verge Android Wallet"
+  archlinux: "Verge ArchLinux Wallet"
+  centos: "Verge CentOS Wallet"
+  debian: "Verge Debian Wallet"
+  fedora: "Verge Fedora Wallet"
+  web: "Verge Web Wallet"
+  web_tor: "Verge TOR Web Wallet"
+  web_i2P: "Verge i2P Web Wallet"
+  raspberry_pi: "Verge Raspberry Pi Source Code"
+  electrum_linux: "Verge Linux Electrum Wallet"
+  electrum_linux_tor: "Verge TOR Linux Electrum Wallet"
+  electrum_windows: "Verge Windows Electrum Wallet"
+  electrum_windows_tor: "Verge TOR Windows Electrum Wallet"
+  paper: "Verge Paper Wallet"
+  daemon_docker: "Verge Daemon Docker Image"
+  coinomi: "Coinomi Multi Currency Android Wallet"
+roadmap:
+  header: "Road Map"
+  blackpaper:
+    header: "\"Black\" Paper"
+    date: "<font color='red'>LANÇADO</font> 4 de Junho de 2017"
+  electrum_i2P_server_client:
+    header: "Servidor/Cliente Electrum i2p"
+    date: "<font color='red'>LANÇADO</font> 4 de Junho de 2017"
+  electrum_tor_server_client:
+    header: "Servidor/Cliente Electrum TOR"
+    date: "<font color='red'>LANÇADO</font> 5 de Junho de 2017"
+  electrum_binaries:
+    header: "Binários Electrum"
+    paragraph: "Clientes binários para fácil uso de lite wallets."
+    date: "<font color='red'>LANÇADO</font> 7 de Junho de 2017"
+  marketing_campaign:
+    header: "Campanha de Marketing de Crypto Services"
+    paragraph: "Iniciou uma campanha publicitária de 1 ano com Coinomi"
+    date: "<font color='red'>LANÇADO</font> 7 de Junho de 2017"
+  redesign_website:
+    header: "Re-design do Verge Website"
+    date: "<font color='red'>LANÇADO</font> 12 de Junho de 2017"
+  radio:
+    header: "Expandir Verge Radio"
+    paragraph: "Transformar em \"RadioCrypto\" e incluir nas core wallets"
+    date: "26 de Junho de 2017"
+  i2P_tor_android_wallets:
+    header: "i2P/TOR wallets para Android"
+    paragraph: "Android wallet para Anon transações SOMENTE! (quase finalizado)"
+    date: "Julho de 2017"
+  core_wallet_release:
+    header: "Novo lançamento de Core Wallet"
+    paragraph: "Adicionar novas features, como controle de moeda, RingCT, bibliotecas de atualização (openssl, boost, etc)"
+    date: "Julho de 2017"
+  rsk_smart_contracts:
+    header: "RSK smart contracts"
+    paragraph: "Eles estão na testnet para bitcoin agora. A data é em torno desse período."
+    date: "Julho de 2017"
+  wallet_ui:
+    header: "Revisão da interface da wallet"
+    date: "Julho de 2017"
+  merchandise_store:
+    header: "Loja online de merchandise"
+    paragraph: "A loja de Verge Merchandise irá ter camisetas/acessórios que podem ser compradas com XVG e BTC."
+    date: "Julho de 2017"
+footer:
+  community:
+    header: "Comunidade"
+    slack: "Slack"
+    facebook: "Facebook"
+    twitter: "Twitter"
+    irc: "IRC Chat"
+    bitcointalk: "BitCoinTalk"
+    reddit: "Reddit"
+    steam: "Steam"
+    telegram: "Telegram"
+    verge_radio: "Verge Radio"
+    discord: "Verge Discord"
+  tweets:
+    header: "Tweets"
+    by: "Tweets by @vergecurrency"
+  copyright: "&copy; 2017 Verge"
