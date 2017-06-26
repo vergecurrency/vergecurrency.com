@@ -1,0 +1,29 @@
+<section class="section col-sm-12" id="info">
+  <div class="row">
+    <div class="twelve columns" id="about">
+      <h1>{{langPath.info.about.header | default: defaultLangPath.info.about.header}}</h1>
+      <p>{{langPath.info.about.paragraph | default: defaultLangPath.info.about.paragraph}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="six columns">
+      <h4>{{langPath.info.resources.header | default: defaultLangPath.info.resources.header}}</h4>
+      <ul>
+        <li><a href="https://github.com/vergecurrency/VERGE" target="_blank">{{langPath.info.resources.black_paper | default: defaultLangPath.info.resources.black_paper}}</a></li>
+        <li><a href="/pools/" target="_blank">{{langPath.info.resources.mining_pools | default: defaultLangPath.info.resources.mining_pools}}</a> (<a href="/mining/" target="_blank">{{langPath.info.resources.mining_resources | default: defaultLangPath.info.resources.mining_resources}}</a>)</li>
+        <li><a href="https://prohashing.com/explorer/Verge/" target="_blank">{{langPath.info.resources.blockchain_explorer_prohashing | default: defaultLangPath.info.resources.blockchain_explorer_prohashing}}</a></li>
+        <li><a href="http://yiimp.ccminer.org/explorer/XVG" target="_blank">{{langPath.info.resources.blockchain_explorer_prohashing | default: defaultLangPath.info.resources.blockchain_explorer_prohashing}}</a></li>
+      </ul>
+    </div>
+    <div class="six columns">
+      <h4>{{langPath.info.tech_specs.header | default: defaultLangPath.info.tech_specs.header}}</h4>
+      <ul>
+        <li>{{langPath.info.tech_specs.symbol | default: defaultLangPath.info.tech_specs.symbol}}</li>
+        <li>{{langPath.info.tech_specs.algo | default: defaultLangPath.info.tech_specs.algo}}</li>
+        <li>{{langPath.info.tech_specs.block_time | default: defaultLangPath.info.tech_specs.block_time}}</li>
+        <li>{{langPath.info.tech_specs.rpc_port | default: defaultLangPath.info.tech_specs.rpc_port}}</li>
+        <li>{{langPath.info.tech_specs.p2p_port | default: defaultLangPath.info.tech_specs.p2p_port}}</li>
+      </ul>
+    </div>
+  </div>
+</section>
