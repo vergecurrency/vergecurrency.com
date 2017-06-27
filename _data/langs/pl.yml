@@ -86,14 +86,14 @@ roadmap:
     date: "<font color='red'>Zrealizowane</font> 5 czerwca 2017 r."
   electrum_binaries:
     header: "Electrum Binaries"
-    paragraph: "Binary klientom na łatwe w obsłudze lite portfele."
+    paragraph: "Proste w obsłudze lekkie porfele binarne"
     date: "<font color='red'>Zrealizowane</font> 7 czerwca 2017 r."
   marketing_campaign:
     header: "Początek krypto kampanii marketingowej"
     paragraph: "Nawiązanie współpracy rocznej kampanii marketingowej z Coinomi"
     date: "<font color='red'>Zrealizowane</font> 7 czerwca 2017 r."
   redesign_website:
-    header: "Nowa odsłona strony internetowej - wykonana"
+    header: "Nowa odsłona strony internetowej"
     date: "<font color='red'>Zrealizowane</font> 12 czerwca 2017 r."
   radio:
     header: "Rozwiń Verge Radio"
@@ -101,10 +101,10 @@ roadmap:
     date: "26 czerwca 2017 r."
   i2P_tor_android_wallets:
     header: "i2P/TOR Android Wallets"
-    paragraph: "Android portfeli Anononymous transakcje tylko! (Kolo zakończenie)"
+    paragraph: "Anonimowe porfele - tylko transakcje Android!"
     date: "Lipca, 2017"
   core_wallet_release:
-    header: "Uaktualniony nowy Core Wallet"
+    header: "Uaktualnienie"
     paragraph: "Add new features including coin control, RingCT, update libraries (openssl, boost, etc)"
     date: "Lipca, 2017"
   rsk_smart_contracts:
