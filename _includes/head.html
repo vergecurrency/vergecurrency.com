@@ -37,7 +37,7 @@
       var DEFAULT_LANG = 'en';
       var langs={};{% for lang in site.data.langs %}{% if lang[0] != page.lang %}langs['{{ lang[0] }}']=true;{% endif %}{% endfor %}
 
-      var lang = ((navigator.language || navigator.userLanguage || '').split('_') || [])[0];
+      var lang = ((navigator.language || navigator.userLanguage || '').split('-') || [])[0];
 
       if(!langs[lang]) {
           lang = DEFAULT_LANG;
