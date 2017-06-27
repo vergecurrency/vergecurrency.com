@@ -31,12 +31,14 @@ exclude:
   - Gemfile.lock
 langs:
   'ar': 'العربية'
+  'da': 'Dansk'
   'de': 'Deutsch'
   'en': 'English'
   'es': 'Español'
   'fr': 'Français'
   'it': 'Italiano'
   'ja': '日本語'
+  'pl': 'Polski'
   'ko': '한국의'
   'nl': 'Nederlands'
   'pt': 'Português'
@@ -50,6 +52,8 @@ lang_codes:
   - 'ko'
   - 'nl'
   - 'ja'
+  - 'pl'
+  - 'da'
   - 'pt'
   - 'zh_TW'
   - 'ru'
