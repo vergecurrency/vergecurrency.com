@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/vergecurrency/vergecurrency.com#readme",
   "devDependencies": {
+    "babel-preset-env": "^1.5.2",
+    "gulp-babel": "^6.1.2",
     "node-yaml": "^3.1.0"
   }
 }
