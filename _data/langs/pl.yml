@@ -104,15 +104,15 @@ roadmap:
     paragraph: "Android portfeli Anononymous transakcje tylko! (Kolo zakończenie)"
     date: "Lipca, 2017"
   core_wallet_release:
-    header: "Nowy Core Wallet zwolnić"
+    header: "Uaktualniony nowy Core Wallet"
     paragraph: "Add new features including coin control, RingCT, update libraries (openssl, boost, etc)"
     date: "Lipca, 2017"
   rsk_smart_contracts:
     header: "RSK smart zamówienia"
-    paragraph: "Są one w testnet bitcoin do teraz. Data jest osnuta wokół tej osi czasu."
+    paragraph: "Są w fazie testów na bitcoin. Przybliżona data."
     date: "Lipca, 2017"
   wallet_ui:
-    header: "Portfel UI remont"
+    header: "Aktualizacja porfela UI"
     date: "Lipca, 2017"
   merchandise_store:
     header: "sklep internetowy z gadżetami"
@@ -129,7 +129,7 @@ footer:
     reddit: "Reddit"
     steam: "Steam"
     telegram: "Telegram"
-    verge_radio: "Verge Radio"
+    verge_radio: "Rozbudowa Verge Radio"
     discord: "Verge Discord"
   tweets:
     header: "W serwisie Twitter"
