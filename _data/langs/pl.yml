@@ -50,14 +50,14 @@ exchanges:
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
 wallets:
-  header: "Wallets"
+  header: "Portfele"
   tabs:
     desktop: "Desktop"
     mobile: "Mobile"
     other: "Inne"
-  windows: "Verge Windows Wallet"
-  macosx: "Verge Mac OSX Wallet"
-  android: "Verge Android Wallet"
+  windows: "Portfel Verge Windows"
+  macosx: "Portfel Verge Mac OSX"
+  android: "Portfel Verge Android"
   archlinux: "Verge ArchLinux Wallet"
   centos: "Verge CentOS Wallet"
   debian: "Verge Debian Wallet"
@@ -102,22 +102,22 @@ roadmap:
   i2P_tor_android_wallets:
     header: "i2P/TOR Android Wallets"
     paragraph: "Anonimowe porfele - tylko transakcje Android!"
-    date: "Lipca, 2017"
+    date: "Lipiec, 2017"
   core_wallet_release:
     header: "Uaktualnienie nowego Core Porfela"
-    paragraph: "Add new features including coin control, RingCT, update libraries (openssl, boost, etc)"
-    date: "Lipca, 2017"
+    paragraph: "Dodanie nowości takich jak: kontrola monet, RingCT, uaktualnienia języków (openssl, boost, etc)"
+    date: "Lipiec, 2017"
   rsk_smart_contracts:
     header: "RSK smart zamówienia"
     paragraph: "Są w fazie testów na bitcoin. Przybliżona data."
-    date: "Lipca, 2017"
+    date: "Lipiec, 2017"
   wallet_ui:
     header: "Aktualizacja porfela UI"
-    date: "Lipca, 2017"
+    date: "Lipiec, 2017"
   merchandise_store:
     header: "sklep internetowy z gadżetami"
     paragraph: "Verge otworzy swój sklep z podkoszulkami/odzieżą w którym płatności będą dokonywane w walutach XVG i BTC"
-    date: "Lipca, 2017"
+    date: "Lipiec, 2017"
 footer:
   community:
     header: "Społeczność"
