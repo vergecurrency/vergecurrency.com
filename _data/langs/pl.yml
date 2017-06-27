@@ -97,14 +97,14 @@ roadmap:
     date: "<font color='red'>Zrealizowane</font> 12 czerwca 2017 r."
   radio:
     header: "Rozwiń Verge Radio"
-    paragraph: "Nabiera \"RadioCrypto\" oraz zawierać w core portfele"
+    paragraph: "Crypto radio dostępne w core portfelach"
     date: "26 czerwca 2017 r."
   i2P_tor_android_wallets:
     header: "i2P/TOR Android Wallets"
     paragraph: "Anonimowe porfele - tylko transakcje Android!"
     date: "Lipca, 2017"
   core_wallet_release:
-    header: "Uaktualnienie"
+    header: "Uaktualnienie nowego Core Porfela"
     paragraph: "Add new features including coin control, RingCT, update libraries (openssl, boost, etc)"
     date: "Lipca, 2017"
   rsk_smart_contracts:
