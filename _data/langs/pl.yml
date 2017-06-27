@@ -16,7 +16,7 @@ nav:
   community:
     title: "Społeczność"
 tagline: "Verge jest to bezpieczna i anonimowa kryptowaluta, dla użytkowników którzy cenią sobie prywatność."
-download: "Download"
+download: "Pobierz"
 view: "Widok"
 view_all_wallets: "Pokaż wszystkie portfele"
 info:
@@ -28,7 +28,7 @@ info:
     black_paper: "Czarna Księga"
     github: "Kod źródłowy na Github"
     mining_pools: "Pule wydobycia"
-    mining_resources: "Wydobycie Zasobów"
+    mining_resources: "Źródła wydobycia"
     blockchain_explorer_prohashing: "Blockchain Explorer (ProHashing)"
     blockchain_explorer_ccminer: "Blockchain Explorer (CCMiner.org)"
   tech_specs:
