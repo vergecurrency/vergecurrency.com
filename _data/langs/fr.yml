@@ -98,7 +98,7 @@ roadmap:
   radio:
     header: "Amélioration de la radio Verge"
     paragraph: "Transformer la radio en \"RadioCrypto\" et l'inclure dans les portefeuilles centraux"
-    date: "26 juin 2017"
+    date: "<font color='red'>PUBLIE</font> 26 juin 2017"
   i2P_tor_android_wallets:
     header: "Portefeuilles Android i2P / TOR"
     paragraph: "Portefeuille Android pour les transactions Anonymes SEULEMENT! (bientôt terminé)"

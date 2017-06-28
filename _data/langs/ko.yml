@@ -97,7 +97,7 @@ roadmap:
   radio:
     header: "Expand Verge Radio"
     paragraph: "Core wallet을 포함한 \"radiocrypto\"로의 변환"
-    date: "2017년 6월 26일"
+    date: "공개 2017년 6월 26일"
   i2P_tor_android_wallets:
     header: "I2P/TOR 안드로이드 지갑"
     paragraph: "익명 거래/전송을 위한 안드로이드 지갑(완료 임박)"

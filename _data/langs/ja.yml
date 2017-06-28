@@ -98,7 +98,7 @@ roadmap:
   radio:
     header: "瀕そラジオを展開し"
     paragraph: "「 RadioCrypto 」へと変換し、コアを財布に含める"
-    date: "2017 年 6 月 26 日"
+    date: "<font color='red'>リリースされた</font> 2017 年 6 月 26 日"
   i2P_tor_android_wallets:
     header: "I 2 P / TOR Android 財布"
     paragraph: "Android の札入れの Anon トランザクションのみ！ （ほぼ完了）。"

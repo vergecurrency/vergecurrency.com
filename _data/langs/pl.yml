@@ -98,7 +98,7 @@ roadmap:
   radio:
     header: "Rozwiń Verge Radio"
     paragraph: "Crypto radio dostępne w core portfelach"
-    date: "26 czerwca 2017 r."
+    date: "<font color='red'>Zrealizowane</font> 26 czerwca 2017 r."
   i2P_tor_android_wallets:
     header: "i2P/TOR Android Wallets"
     paragraph: "Anonimowe porfele - tylko transakcje Android!"

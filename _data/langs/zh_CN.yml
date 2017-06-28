@@ -98,7 +98,7 @@ roadmap:
   radio:
     header: "展开收音机"
     paragraph: "转换为“RadioCrypto”，并包含在核心钱包中"
-    date: "2017年6月26日"
+    date: "<font color='red'>出版</font> 2017年6月26日"
   i2P_tor_android_wallets:
     header: "i2P / TOR Android钱包"
     paragraph: "Android电子钱包只供Anon交易！ （近完成）"

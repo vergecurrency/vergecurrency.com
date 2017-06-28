@@ -98,7 +98,7 @@ roadmap:
   radio:
     header: "Expand Verge Radio"
     paragraph: "Transform into \"RadioCrypto\" and include in core wallets"
-    date: "June 26, 2017"
+    date: "<font color='red'>RELEASED</font> June 26, 2017"
   i2P_tor_android_wallets:
     header: "i2P/TOR Android Wallets"
     paragraph: "Android Wallet for Anon transactions ONLY! (near completion)"
