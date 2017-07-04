@@ -2,118 +2,118 @@
 {% assign defaultLangPath = site.data.langs.en %}
 {% include head.html %}
 <body>
-  {% include shared/header.html %}
+  {% include shared/header.html hide_lang_dropdown=true %}
   <!-- demo-section  -->
   <section class="demo-section">
     <section class="col-md-3 col-sm-12 options-section">
-      <h3>Options</h3>
+      <h3>{{langPath.contest_page.options.header | default: defaultLangPath.contest_page.options.header}}</h3>
       <form class="options-form" action="">
         <div class="form-group">
-          <label for="GIFType">type</label>
+          <label for="GIFType">{{langPath.contest_page.options.type | default: defaultLangPath.contest_page.options.type}}</label>
           <div class="button custom-select">
             <select name="GIFType" id="GIFType" class="form-control">
-              <option value="animated">Animated</option>
-              <option value="snapshot">Snap Shot</option>
+              <option value="animated">{{langPath.contest_page.options.animated | default: defaultLangPath.contest_page.options.animated}}</option>
+              <option value="snapshot">{{langPath.contest_page.options.snapshot | default: defaultLangPath.contest_page.options.snapshot}}</option>
             </select>
           </div>
         </div>
         <div class="form-group">
-          <label for="gifWidth">Width</label>
+          <label for="gifWidth">{{langPath.contest_page.options.width | default: defaultLangPath.contest_page.options.width}}</label>
           <div class="input-group">
             <input name="gifWidth" id="gifWidth" class="form-control" value="200" size="5" type="number"></input>
             <div class="input-group-addon">px</div>
           </div>
         </div>
         <div class="form-group">
-          <label for="gifHeight">Height</label>
+          <label for="gifHeight">{{langPath.contest_page.options.height | default: defaultLangPath.contest_page.options.height}}</label>
           <div class="input-group">
             <input name="gifHeight" id="gifHeight" class="form-control" value="200" size="5" type="number"></input>
             <div class="input-group-addon">px</div>
           </div>
         </div>
         <div class="form-group">
-          <label for="filter">Filter</label>
+          <label for="filter">{{langPath.contest_page.options.filter | default: defaultLangPath.contest_page.options.filter}}</label>
           <div class="button custom-select">
             <select name="filter" id="filter" class="form-control">
-              <option value="">None</option>
-              <option value="blur(5px)">Blur</option>
-              <option value="sepia(100%)">Sepia</option>
-              <option value="grayscale(100%)">Grayscale</option>
-              <option value="brightness(0.2)">Dark</option>
-              <option value="contrast(500%)">Contrast</option>
-              <option value="hue-rotate(90deg)">Hue Rotate</option>
-              <option value="invert(75%)">Invert</option>
+              <option value="">{{langPath.contest_page.options.none | default: defaultLangPath.contest_page.options.none</option>
+              <option value="blur(5px)">{{langPath.contest_page.options.blur | default: defaultLangPath.contest_page.options.blur}}</option>
+              <option value="sepia(100%)">{{langPath.contest_page.options.sepia | default: defaultLangPath.contest_page.options.sepia}}</option>
+              <option value="grayscale(100%)">{{langPath.contest_page.options.grayscale | default: defaultLangPath.contest_page.options.grayscale}}</option>
+              <option value="brightness(0.2)">{{langPath.contest_page.options.dark | default: defaultLangPath.contest_page.options.dark}}</option>
+              <option value="contrast(500%)">{{langPath.contest_page.options.contrast | default: defaultLangPath.contest_page.options.contrast}}</option>
+              <option value="hue-rotate(90deg)">{{langPath.contest_page.options.huerotate | default: defaultLangPath.contest_page.options.huerotate}}</option>
+              <option value="invert(75%)">{{langPath.contest_page.options.invert | default: defaultLangPath.contest_page.options.invert}}</option>
             </select>
           </div>
         </div>
         <div class="form-group">
-          <label for="gifText">Text</label>
-          <input name="gifText" id="gifText" class="form-control" value="" size="30" placeholder="Add text here..."></input>
+          <label for="gifText">{{langPath.contest_page.options.text | default: defaultLangPath.contest_page.options.text}}</label>
+          <input name="gifText" id="gifText" class="form-control" value="" size="30"></input>
         </div>
         <div class="form-group">
-          <label for="fontWeight">Font Weight</label>
+          <label for="fontWeight">{{langPath.contest_page.options.fontweight | default: defaultLangPath.contest_page.options.fontweight}}</label>
           <div class="button custom-select">
             <select name="fontWeight" id="fontWeight" class="form-control">
-              <option value="normal">normal</option>
-              <option value="bold">bold</option>
+              <option value="normal">{{langPath.contest_page.options.normal | default: defaultLangPath.contest_page.options.normal}}</option>
+              <option value="bold">{{langPath.contest_page.options.bold | default: defaultLangPath.contest_page.options.bold}}</option>
             </select>
           </div>
         </div>
         <div class="form-group">
-          <label for="fontSize">Font Size</label>
+          <label for="fontSize">{{langPath.contest_page.options.fontsize | default: defaultLangPath.contest_page.options.fontsize}}</label>
           <div class="input-group">
             <input name="fontSize" id="fontSize" class="form-control" value="16" size="5" type="number"></input>
             <div class="input-group-addon">px</div>
           </div>
         </div>
         <div class="form-group">
-          <label for="fontFamily">Font Family</label>
+          <label for="fontFamily">{{langPath.contest_page.options.fontfamily | default: defaultLangPath.contest_page.options.fontfamily}}</label>
           <div class="button custom-select">
             <select name="fontFamily" id="fontFamily" class="form-control">
-              <option value="sans-serif">sans-serif</option>
-              <option value="Arial">Arial</option>
-              <option value="Calibri">Calibri</option>
-              <option value="Times New Roman">Times New Roman</option>
+              <option value="sans-serif">{{langPath.contest_page.options.sans_serif | default: defaultLangPath.contest_page.options.sans_serif}}</option>
+              <option value="Arial">{{langPath.contest_page.options.arial | default: defaultLangPath.contest_page.options.arial}}</option>
+              <option value="Calibri">{{langPath.contest_page.options.calibri | default: defaultLangPath.contest_page.options.calibri}}</option>
+              <option value="Times New Roman">{{langPath.contest_page.options.timesnewroman | default: defaultLangPath.contest_page.options.timesnewroman}}</option>
             </select>
           </div>
         </div>
         <div class="form-group">
-          <label for="fontColor">Font Color</label>
+          <label for="fontColor">{{langPath.contest_page.options.fontcolor | default: defaultLangPath.contest_page.options.fontcolor}}</label>
           <input type="color" name="fontColor" id="fontColor" class="form-control" value="#FFFFFF" size="5"></input>
         </div>
         <div class="form-group">
-          <label for="textAlign">Text Align</label>
+          <label for="textAlign">{{langPath.contest_page.options.textalign | default: defaultLangPath.contest_page.options.textalign}}</label>
           <div class="button custom-select">
             <select name="textAlign" id="textAlign" class="form-control">
-              <option value="center">center</option>
-              <option value="left">left</option>
-              <option value="right">right</option>
+              <option value="center">{{langPath.contest_page.options.center | default: defaultLangPath.contest_page.options.center}}</option>
+              <option value="left">{{langPath.contest_page.options.left | default: defaultLangPath.contest_page.options.left}}</option>
+              <option value="right">{{langPath.contest_page.options.right | default: defaultLangPath.contest_page.options.right}}</option>
             </select>
           </div>
         </div>
         <div class="form-group">
-          <label for="textBaseline">Text Baseline</label>
+          <label for="textBaseline">{{langPath.contest_page.options.textbaseline | default: defaultLangPath.contest_page.options.textbaseline}}</label>
           <div class="button custom-select">
             <select name="textBaseline" id="textBaseline" class="form-control">
-              <option value="bottom">bottom</option>
-              <option value="center">center</option>
-              <option value="top">top</option>
+              <option value="bottom">{{langPath.contest_page.options.bottom | default: defaultLangPath.contest_page.options.bottom}}</option>
+              <option value="center">{{langPath.contest_page.options.center | default: defaultLangPath.contest_page.options.center}}</option>
+              <option value="top">{{langPath.contest_page.options.top | default: defaultLangPath.contest_page.options.top}}</option>
             </select>
           </div>
         </div>
         <div class="form-group">
-          <label for="interval">Interval</label>
+          <label for="interval">{{langPath.contest_page.options.interval | default: defaultLangPath.contest_page.options.interval}}</label>
           <div class="input-group">
             <input name="interval" id="interval" class="form-control" value=".1" step=".1" size="5" type="number"></input>
-            <div class="input-group-addon">secs</div>
+            <div class="input-group-addon">{{langPath.contest_page.options.secs | default: defaultLangPath.contest_page.options.secs}}</div>
           </div>
         </div>
         <div class="form-group">
-          <label for="numFrames">Number of Frames</label>
+          <label for="numFrames">{{langPath.contest_page.options.numberofframes | default: defaultLangPath.contest_page.options.numberofframes}}</label>
           <input name="numFrames" id="numFrames" class="form-control" value="10" size="5" type="number"></input>
         </div>
         <div class="form-group">
-          <label for="frameDuration">Frame Duration</label>
+          <label for="frameDuration">{{langPath.contest_page.options.frameduration | default: defaultLangPath.contest_page.options.frameduration}}</label>
           <input name="frameDuration" id="frameDuration" class="form-control" value="1" step="1" size="5" type="number"></input>
         </div>
       </form>
@@ -121,7 +121,7 @@
     <section class="col-md-6 col-sm-12 preview-section">
       <div class="text-center">
         <h3>
-          Preview
+          {{langPath.contest_page.preview.header | default: defaultLangPath.contest_page.preview.header}}
         </h3>
         <section class="verge-image-preview-section"></section>
         <div class="placeholder-div hidden">
@@ -129,22 +129,22 @@
         </div>
         <progress max="1" value="0" class="verge-progress-bar hidden"></progress>
         <div class="options-button-group">
-          <a href="#" type="button" id="create-gif" class="button create-gif-button" role="button" title="Take Photo">
+          <a href="#" type="button" id="create-gif" class="button create-gif-button" role="button">
             <i class="fa fa-camera fa-2x"></i>
           </a>
-          <a href="#" type="button" id="save-gif" class="button save-gif-button hidden" role="button" download title="Download Image">
+          <a href="#" type="button" id="save-gif" class="button save-gif-button hidden" role="button" download>
             <i class="fa fa-download fa-2x"></i>
           </a>
         </div>
       </div>
     </section>
     <section class="col-md-3 col-sm-12 instructions-section">
-      <h3 class="instructions-section-header">Contest Instructions</h3>
+      <h3 class="instructions-section-header">{{langPath.contest_page.instructions.header | default: defaultLangPath.contest_page.instructions.header}}</h3>
       <ul class="numbered-list">
-        <li>Create a GIF of yourself with any of the provided options</li>
-        <li>Download your GIF</li>
-        <li>Send a tweet to <a href="https://twitter.com/vergecurrency" target="_blank">@vergecurrency</a> with your GIF and the hashtag <b>#xvgme</b></li>
-        <li>The users who create the best GIFs (creativity is rewarded) will win Verge coins!</li>
+        <li>{{langPath.contest_page.instructions.step1 | default: defaultLangPath.contest_page.instructions.step1}}</li>
+        <li>{{langPath.contest_page.instructions.step2 | default: defaultLangPath.contest_page.instructions.step2}}</li>
+        <li>{{langPath.contest_page.instructions.step3 | default: defaultLangPath.contest_page.instructions.step3}}</li>
+        <li>{{langPath.contest_page.instructions.step4 | default: defaultLangPath.contest_page.instructions.step4}}</li>
       </ul>
     </section>
   </section>

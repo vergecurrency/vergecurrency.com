@@ -17,6 +17,13 @@ $instructions-section-size-border: 3px;
   }
 }
 
+.options-section,
+.preview-section,
+.instructions-section {
+  height: 100vh;
+  overflow: auto;
+}
+
 .options-section {
   background: $verge-blue;
 }
@@ -97,6 +104,10 @@ form {
   padding: 12px 18px 13px;
   height: 45px;
   margin-left: 10px;
+}
+
+.button.create-gif-button:hover {
+  background: $bg-dark2;
 }
 
 /* remove standard styling 
