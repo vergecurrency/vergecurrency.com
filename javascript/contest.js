@@ -24,7 +24,7 @@
     // Preview section
     var gifshotImagePreview = document.querySelector('.verge-image-preview-section');
     var placeholderDiv = document.querySelector('.placeholder-div');
-    var placeholderDivDimensions = document.querySelector('.verge-placeholder-div-dimensions');
+    var placeholderDivDimensions = document.querySelector('.placeholder-div-dimensions');
 
     function getSelectedOptions () {
         return {
@@ -52,8 +52,20 @@
 
         if (targetElem && (targetElem.id === 'gifWidth' || targetElem.id === 'gifHeight')) {
             if (selectedOptions.gifHeight && selectedOptions.gifWidth) {
+                gifshotImagePreview.innerHTML = '';
                 placeholderDiv.style.height = selectedOptions.gifHeight + 'px';
                 placeholderDiv.style.width = selectedOptions.gifWidth + 'px';
+                placeholderDivDimensions.innerHTML = selectedOptions.gifWidth + ' x ' + selectedOptions.gifHeight;
+
+                if (selectedOptions.gifWidth < 60 || selectedOptions.gifHeight < 20) {
+                    placeholderDivDimensions.classList.add('hidden');
+                } else {
+                    placeholderDivDimensions.classList.remove('hidden');
+                }
+
+                placeholderDiv.classList.remove('hidden');
+            } else {
+                placeholderDiv.classList.add('hidden');
             }
         }
     };

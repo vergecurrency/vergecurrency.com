@@ -1,7 +1,17 @@
+$instructions-section-size-a: .375rem;
+$instructions-section-size-b: .60rem;
+$instructions-section-size-c: 1.5rem;
+$instructions-section-size-d: 1.875rem;
+$instructions-section-size-e: 3rem;
+$instructions-section-size-f: 20rem;
+
+$instructions-section-size-border: 3px;
+
 /* Options Section */
 .demo-section {
   display: inline-flex;
   width: 100%;
+  padding-top: $header-height;
 }
 
 .options-section {
@@ -27,6 +37,15 @@
   padding: 0 10px;
 }
 
+form {
+  input {
+    width: 100%;
+    height: 38px;
+    border-radius: 3px;
+    padding: 6px 10px;
+  }
+}
+
 /* Preview Section */
 .preview-section h3 {
   color: $verge-blue;
@@ -35,12 +54,7 @@
 }
 
 .preview-section .verge-progress-bar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+  margin-top: 20px;
 }
 
 .verge-image-preview-section {
@@ -49,8 +63,6 @@
 
 .options-section,
 .preview-section {
-  height: 80%;
-  overflow: auto;
   border-bottom: 1px solid #eee;
   border-right: 1px dotted rgba(0,0,0,.2);
 }
@@ -63,6 +75,17 @@
   background: $light-gray;
   margin: 0 auto;
   position: relative;
+}
+
+.placeholder-div-dimensions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 20px;
 }
 
 .button.create-gif-button,
@@ -95,36 +118,68 @@ progress {
  
 /* Firefox  */ 
 progress  {
-  background: #f5f5f5;
+  background: $bg-dark;
   -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
   box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
 }
 progress::-moz-progress-bar {
-  background: #5cb85c;
+  background: $verge-blue;
 }
 progress:not([value])::-moz-progress-bar {
-  background:#fdd;
+  background: $light-gray;
 }
  
 /* Chrome */
 progress::-webkit-progress-bar {
-  background: #f5f5f5;
+  background: $bg-dark;
 }
 progress::-webkit-progress-value {
-  background: #5cb85c;
+  background: $verge-blue;
 }
 progress:not([value])::-webkit-progress-bar {
-  background:#fdd;
+  background: $light-gray;
 }
 
-.save-gif-button {
-  background: #e6e6e6;
-  color: #000;
+a.save-gif-button {
+  background: $verge-blue;
+  color: white;
 }
 
-.save-gif-button:hover {
-  color: #000;
+a.save-gif-button:hover {
+  color: white;
   opacity: 0.6;
+}
+
+.instructions-section {
+    display: inline-block;
+}
+
+ul.numbered-list {
+  counter-reset: li;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 10px;
+  
+  li {
+    position: relative;   
+    padding: 5px 0 5px 40px;
+    text-align: left;
+    
+    &:before {
+      content: counter(li);
+      counter-increment: li;
+      height: 30px;
+      width: 30px;
+      border: 1px solid $verge-blue;
+      border-radius: 50%;
+      color: $bg-dark;
+      text-align: center;
+      position: absolute;      
+      left: 0;
+      top: 4px;
+    }
+  }
 }
 
 @media (max-width: 992px) {

@@ -9,6 +9,7 @@ body {
 
 $text-color: #666666;
 $text-dark: #383838;
+
 $verge-blue: #08b4e0;
 $light-gray: #DDDDDD;
 
@@ -56,6 +57,10 @@ p {
   height: $header-height;
   line-height: $header-height;
   width: 100%;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 
   .header-nested-container {
     width: 90%;
@@ -186,7 +191,6 @@ a.exchange-anchor {
   }
 }
 
-
 .splash {
   position: relative;
   background-image: url("/splash.jpg");
@@ -205,6 +209,10 @@ a.exchange-anchor {
   .splash-inner-container {
     padding-top: $header-height;
     height: 100vh;
+
+    @media (max-width: 900px) {
+      padding-top: 0;
+    }
   }
 
   h1 {
