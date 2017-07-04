@@ -9,9 +9,12 @@ $instructions-section-size-border: 3px;
 
 /* Options Section */
 .demo-section {
-  display: inline-flex;
   width: 100%;
   padding-top: $header-height;
+
+  @media (max-width: 900px) {
+    padding-top: 0;
+  }
 }
 
 .options-section {
