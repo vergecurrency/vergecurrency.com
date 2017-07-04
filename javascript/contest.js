@@ -8,13 +8,6 @@
     var gifHeight = document.querySelector("#gifHeight");
     var gifWidth = document.querySelector("#gifWidth");
     var progressBar = document.querySelector("progress");
-    var text = document.querySelector('#gifText');
-    var fontWeight = document.querySelector('#fontWeight');
-    var fontSize = document.querySelector('#fontSize');
-    var fontFamily = document.querySelector('#fontFamily');
-    var fontColor = document.querySelector('#fontColor');
-    var textAlign = document.querySelector('#textAlign');
-    var textBaseline = document.querySelector('#textBaseline');
 
     // Save Elements
     var saveGIFButton = document.querySelector('#save-gif');
@@ -34,14 +27,14 @@
             interval: Number(interval.value),
             numFrames: Number(numFrames.value),
             frameDuration: Number(frameDuration.value),
-            text: text.value,
-            fontWeight: fontWeight.value,
-            fontSize: fontSize.value + 'px',
-            fontFamily: fontFamily.value,
-            fontColor: fontColor.value,
-            textAlign: textAlign.value,
-            textBaseline: textBaseline.value
-        }
+            text: 'vergecurrency.com',
+            fontWeight: 'bold',
+            fontSize: '16px',
+            fontFamily: 'Arial',
+            fontColor: 'white',
+            textAlign: 'center',
+            textBaseline: 'bottom'
+        };
     };
     
     function updatePreview (obj) {
