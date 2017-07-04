@@ -22,7 +22,7 @@ view_all_wallets: "Bekijk alle portemonnees"
 info:
   about:
     header: "Waarom Verge?"
-    paragraph: "Verge is een gedecentraliseerde valuta ontworpen voor gebruikers die waarde hechten aan hun privacy. Verge is biedt een verbetering op de Bitcoin blockchain door gebruik te maken van meerdere anonieme netwerken zoals Tor en i2p. Door gebruik te maken van meerdere algoritmes wordt de veiligheid verbeterd en hebben miners gelijke kansen."
+    paragraph: "Verge is een gedecentraliseerde valuta ontworpen voor gebruikers die waarde hechten aan hun privacy. Verge is een verbetering op de Bitcoin blockchain door gebruik te maken van meerdere anonieme netwerken zoals Tor en i2p. Door gebruik te maken van meerdere algoritmes wordt de veiligheid verbeterd en hebben miners gelijke kansen."
   resources:
     header: "Informatie"
     black_paper: "Black Paper"
