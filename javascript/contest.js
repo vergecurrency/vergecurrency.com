@@ -1,0 +1,114 @@
+(function(window, document) {
+    // Gifshot options
+    var gifType = document.querySelector('#GIFType');
+    var filter = document.querySelector("#filter");
+    var interval = document.querySelector("#interval");
+    var numFrames = document.querySelector("#numFrames");
+    var frameDuration = document.querySelector("#frameDuration");
+    var gifHeight = document.querySelector("#gifHeight");
+    var gifWidth = document.querySelector("#gifWidth");
+    var progressBar = document.querySelector("progress");
+    var text = document.querySelector('#gifText');
+    var fontWeight = document.querySelector('#fontWeight');
+    var fontSize = document.querySelector('#fontSize');
+    var fontFamily = document.querySelector('#fontFamily');
+    var fontColor = document.querySelector('#fontColor');
+    var textAlign = document.querySelector('#textAlign');
+    var textBaseline = document.querySelector('#textBaseline');
+
+    // Save Elements
+    var saveGIFButton = document.querySelector('#save-gif');
+    var createGIFButton = document.querySelector('#create-gif');
+    var downloadAttrSupported = ('download' in document.createElement('a'));
+
+    // Preview section
+    var gifshotImagePreview = document.querySelector('.verge-image-preview-section');
+    var placeholderDiv = document.querySelector('.placeholder-div');
+    var placeholderDivDimensions = document.querySelector('.verge-placeholder-div-dimensions');
+
+    function getSelectedOptions () {
+        return {
+            gifWidth: Number(gifWidth.value),
+            gifHeight: Number(gifHeight.value),
+            filter: filter.value,
+            interval: Number(interval.value),
+            numFrames: Number(numFrames.value),
+            frameDuration: Number(frameDuration.value),
+            text: text.value,
+            fontWeight: fontWeight.value,
+            fontSize: fontSize.value + 'px',
+            fontFamily: fontFamily.value,
+            fontColor: fontColor.value,
+            textAlign: textAlign.value,
+            textBaseline: textBaseline.value
+        }
+    };
+    
+    function updatePreview (obj) {
+        obj = obj || {};
+
+        var targetElem = obj.targetElem;
+        var selectedOptions = getSelectedOptions();
+
+        if (targetElem && (targetElem.id === 'gifWidth' || targetElem.id === 'gifHeight')) {
+            if (selectedOptions.gifHeight && selectedOptions.gifWidth) {
+                placeholderDiv.style.height = selectedOptions.gifHeight + 'px';
+                placeholderDiv.style.width = selectedOptions.gifWidth + 'px';
+            }
+        }
+    };
+
+    function bindEvents () {
+        createGIFButton.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            var selectedOptions = getSelectedOptions();
+            var method = gifType.value === 'snapshot' ? 'takeSnapShot' : 'createGIF';
+
+            selectedOptions.progressCallback = function (captureProgress) {
+                gifshotImagePreview.innerHTML = '';
+                placeholderDiv.classList.add('hidden');
+                progressBar.classList.remove('hidden');
+                progressBar.value = captureProgress;
+            }
+
+            gifshot[method](selectedOptions, function (obj) {
+                if (!obj.error) {
+                    var image = obj.image;
+                    var animatedImage = document.createElement('img');
+
+                    animatedImage.src = image;
+
+                    progressBar.classList.add('hidden');
+                    progressBar.value = 0;
+
+                    placeholderDiv.classList.add('hidden');
+                    gifshotImagePreview.innerHTML = '';
+                    gifshotImagePreview.appendChild(animatedImage);
+
+                    if (downloadAttrSupported) {
+                        saveGIFButton.setAttribute('href', image);
+                        saveGIFButton.classList.remove('hidden');
+                    }
+                }
+            });
+        }, false);
+
+        document.addEventListener('change', function (e) {
+            updatePreview({
+                targetElem: e.target
+            });
+        });
+
+        document.addEventListener('keyup', function (e) {
+            updatePreview({
+                targetElem: e.target
+            });
+        });
+    };
+
+    bindEvents();
+    updatePreview({
+        targetElem: gifWidth
+    });
+}(window, document));

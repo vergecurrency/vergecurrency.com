@@ -1,0 +1,144 @@
+{% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
+{% include head.html %}
+<body>
+{% include shared/header.html %}
+  <!-- demo-section  -->
+  <section class="demo-section">
+    <section class="col-md-3 options-section">
+    page variables: {{page}}
+      <h3>Options</h3>
+      <form class="options-form" action="">
+        <div class="form-group">
+          <label for="GIFType">type</label>
+          <div class="button custom-select">
+            <select name="GIFType" id="GIFType" class="form-control">
+              <option value="animated">Animated</option>
+              <option value="snapshot">Snap Shot</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="gifWidth">Width</label>
+          <div class="input-group">
+            <input name="gifWidth" id="gifWidth" class="form-control" value="200" size="5" type="number"></input>
+            <div class="input-group-addon">px</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="gifHeight">Height</label>
+          <div class="input-group">
+            <input name="gifHeight" id="gifHeight" class="form-control" value="200" size="5" type="number"></input>
+            <div class="input-group-addon">px</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="filter">Filter</label>
+          <div class="button custom-select">
+            <select name="filter" id="filter" class="form-control">
+              <option value="">None</option>
+              <option value="blur(5px)">Blur</option>
+              <option value="sepia(100%)">Sepia</option>
+              <option value="grayscale(100%)">Grayscale</option>
+              <option value="brightness(0.2)">Dark</option>
+              <option value="contrast(500%)">Contrast</option>
+              <option value="hue-rotate(90deg)">Hue Rotate</option>
+              <option value="invert(75%)">Invert</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="gifText">Text</label>
+          <input name="gifText" id="gifText" class="form-control" value="" size="30" placeholder="Add text here..."></input>
+        </div>
+        <div class="form-group">
+          <label for="fontWeight">Font Weight</label>
+          <div class="button custom-select">
+            <select name="fontWeight" id="fontWeight" class="form-control">
+              <option value="normal">normal</option>
+              <option value="bold">bold</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="fontSize">Font Size</label>
+          <div class="input-group">
+            <input name="fontSize" id="fontSize" class="form-control" value="16" size="5" type="number"></input>
+            <div class="input-group-addon">px</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="fontFamily">Font Family</label>
+          <div class="button custom-select">
+            <select name="fontFamily" id="fontFamily" class="form-control">
+              <option value="sans-serif">sans-serif</option>
+              <option value="Arial">Arial</option>
+              <option value="Calibri">Calibri</option>
+              <option value="Times New Roman">Times New Roman</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="fontColor">Font Color</label>
+          <input type="color" name="fontColor" id="fontColor" class="form-control" value="#FFFFFF" size="5"></input>
+        </div>
+        <div class="form-group">
+          <label for="textAlign">Text Align</label>
+          <div class="button custom-select">
+            <select name="textAlign" id="textAlign" class="form-control">
+              <option value="center">center</option>
+              <option value="left">left</option>
+              <option value="right">right</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="textBaseline">Text Baseline</label>
+          <div class="button custom-select">
+            <select name="textBaseline" id="textBaseline" class="form-control">
+              <option value="bottom">bottom</option>
+              <option value="center">center</option>
+              <option value="top">top</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="interval">Interval</label>
+          <div class="input-group">
+            <input name="interval" id="interval" class="form-control" value=".1" step=".1" size="5" type="number"></input>
+            <div class="input-group-addon">secs</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="numFrames">Number of Frames</label>
+          <input name="numFrames" id="numFrames" class="form-control" value="10" size="5" type="number"></input>
+        </div>
+        <div class="form-group">
+          <label for="frameDuration">Frame Duration</label>
+          <input name="frameDuration" id="frameDuration" class="form-control" value="1" step="1" size="5" type="number"></input>
+        </div>
+      </form>
+    </section>
+    <section class="col-md-9 preview-section">
+      <div class="text-center">
+        <h3>
+          Preview
+        </h3>
+        <section class="verge-image-preview-section"></section>
+        <div class="placeholder-div"></div>
+        <progress max="1" value="0" class="verge-progress-bar hidden"></progress>
+        <div class="options-button-group">
+          <a href="#" type="button" id="create-gif" class="button create-gif-button" role="button" title="Take Photo">
+            <i class="fa fa-camera fa-2x"></i>
+          </a>
+          <a href="#" type="button" id="save-gif" class="button save-gif-button hidden" role="button" download title="Download Image">
+            <i class="fa fa-download fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </section>
+  {% include shared/footer.html %}
+  <script src="../javascript/vendor/gifshot.js"></script>
+  <script src="../javascript/contest.js"></script>
+</body>
