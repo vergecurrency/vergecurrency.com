@@ -77,28 +77,28 @@ roadmap:
   header: "Harta siteului"
   blackpaper:
     header: "\"Hârtia\" neagră"
-    date: "<font color='red'>REALIZAT</font> 4 Iunie 2017"
+    date: "<font color='#08b4e0'>REALIZAT</font> 4 Iunie 2017"
   electrum_i2P_server_client:
     header: "Serverul/Clientul Electrum i2p"
-    date: "<font color='red'>REALIZAT</font> 4 Iunie 2017"
+    date: "<font color='#08b4e0'>REALIZAT</font> 4 Iunie 2017"
   electrum_tor_server_client:
     header: "Serverul/Clientul Electrum TOR"
-    date: "<font color='red'>REALIZAT</font> 5 Iunie 2017"
+    date: "<font color='#08b4e0'>REALIZAT</font> 5 Iunie 2017"
   electrum_binaries:
     header: "Binarele Electrum"
     paragraph: "Client binar pentru portofele ușor de folosit."
-    date: "<font color='red'>REALIZAT</font> 7 Iunie 2017"
+    date: "<font color='#08b4e0'>REALIZAT</font> 7 Iunie 2017"
   marketing_campaign:
     header: "Campanie de marketing pentru servicii crypto"
     paragraph: "Începerea unui an de advertising cu Coinomi"
-    date: "<font color='red'>REALIZAT</font> 7 Iunie 2017"
+    date: "<font color='#08b4e0'>REALIZAT</font> 7 Iunie 2017"
   redesign_website:
     header: "Refacerea siteului Verge"
-    date: "<font color='red'>REALIZAT</font> 12 Iunie 2017"
+    date: "<font color='#08b4e0'>REALIZAT</font> 12 Iunie 2017"
   radio:
     header: "Expansiunea la Verge Radio"
     paragraph: "Transformarea în \"RadioCrypto\""
-    date: "<font color='red'>REALIZAT</font> June 26, 2017"
+    date: "<font color='#08b4e0'>REALIZAT</font> June 26, 2017"
   i2P_tor_android_wallets:
     header: "Portofele i2P/Tor pentru Android"
     paragraph: "Portofel Android pentru tranzacții TOTAL anonime (aproape realizat)"
