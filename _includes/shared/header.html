@@ -1,0 +1,47 @@
+<!-- header -->
+<header class="header-container text-center" role="navigation">
+  <div class="header-nested-container">
+    <div class="logo-column">
+      <div class="verge-logo-container">
+        <a href="/" role="banner">
+          <img class="verge-header-logo" src="../../images/favicon/mstile-310x310.png" alt="Verge" title="Verge">
+          <div class="verge-header-text-container">
+              <h3 class="verge-header-text">Verge</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="nav-column">
+      <ul class="nav contest-nav">
+        <li><a href="#about">{{langPath.nav.about.title | default: defaultLangPath.nav.about.title}}</a></li>
+        <li><a href="#exchanges">{{langPath.nav.exchanges.title | default: defaultLangPath.nav.exchanges.title}}</a></li>
+        <li><a href="#wallets">{{langPath.nav.wallets.title | default: defaultLangPath.nav.wallets.title}}</a></li>
+        <li><a href="#roadmap">{{langPath.nav.roadmap.title | default: defaultLangPath.nav.wallets.title}}</a></li>
+        <li><a href="#community">{{langPath.nav.community.title | default: defaultLangPath.nav.community.title}}</a></li>
+        {% if include.hide_lang_dropdown != true %}
+          <li class="lang-dropdown">
+            <label>{{langPath.lang_name}} <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
+            <ul class="col-md-12">
+              <div class="col-md-6 lang-list-column">
+                {% for lang in site.lang_codes %}
+                  {% assign loopindex = forloop.index | modulo: 2 %}
+                  {% if loopindex == 1 and lang != page.lang %}
+                    <li><a href="../langs/{{lang}}{{page.dir}}">{{site.langs[lang]}}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <div class="col-md-6 lang-list-column">
+                {% for lang in site.lang_codes %}
+                  {% assign loopindex = forloop.index | modulo: 2 %}
+                  {% if loopindex == 0 and lang != page.lang %}
+                    <li><a href="../langs/{{lang}}{{page.dir}}">{{site.langs[lang]}}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </ul>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,99 @@
+{% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
+{% include head.html %}
+<body>
+  {% include shared/header.html hide_lang_dropdown=true %}
+  <!-- demo-section  -->
+  <section class="demo-section">
+    <section class="col-md-3 col-sm-12 options-section">
+      <h3>{{langPath.contest_page.options.header | default: defaultLangPath.contest_page.options.header}}</h3>
+      <form class="options-form" action="">
+        <div class="form-group">
+          <label for="GIFType">{{langPath.contest_page.options.type | default: defaultLangPath.contest_page.options.type}}</label>
+          <div class="button custom-select">
+            <select name="GIFType" id="GIFType" class="form-control">
+              <option value="animated">{{langPath.contest_page.options.animated | default: defaultLangPath.contest_page.options.animated}}</option>
+              <option value="snapshot">{{langPath.contest_page.options.snapshot | default: defaultLangPath.contest_page.options.snapshot}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="gifWidth">{{langPath.contest_page.options.width | default: defaultLangPath.contest_page.options.width}}</label>
+          <div class="input-group">
+            <input name="gifWidth" id="gifWidth" class="form-control" value="200" size="5" type="number"></input>
+            <div class="input-group-addon">px</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="gifHeight">{{langPath.contest_page.options.height | default: defaultLangPath.contest_page.options.height}}</label>
+          <div class="input-group">
+            <input name="gifHeight" id="gifHeight" class="form-control" value="200" size="5" type="number"></input>
+            <div class="input-group-addon">px</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="filter">{{langPath.contest_page.options.filter | default: defaultLangPath.contest_page.options.filter}}</label>
+          <div class="button custom-select">
+            <select name="filter" id="filter" class="form-control">
+              <option value="">{{langPath.contest_page.options.none | default: defaultLangPath.contest_page.options.none</option>
+              <option value="blur(5px)">{{langPath.contest_page.options.blur | default: defaultLangPath.contest_page.options.blur}}</option>
+              <option value="sepia(100%)">{{langPath.contest_page.options.sepia | default: defaultLangPath.contest_page.options.sepia}}</option>
+              <option value="grayscale(100%)">{{langPath.contest_page.options.grayscale | default: defaultLangPath.contest_page.options.grayscale}}</option>
+              <option value="brightness(0.2)">{{langPath.contest_page.options.dark | default: defaultLangPath.contest_page.options.dark}}</option>
+              <option value="contrast(500%)">{{langPath.contest_page.options.contrast | default: defaultLangPath.contest_page.options.contrast}}</option>
+              <option value="hue-rotate(90deg)">{{langPath.contest_page.options.huerotate | default: defaultLangPath.contest_page.options.huerotate}}</option>
+              <option value="invert(75%)">{{langPath.contest_page.options.invert | default: defaultLangPath.contest_page.options.invert}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="interval">{{langPath.contest_page.options.interval | default: defaultLangPath.contest_page.options.interval}}</label>
+          <div class="input-group">
+            <input name="interval" id="interval" class="form-control" value=".1" step=".1" size="5" type="number"></input>
+            <div class="input-group-addon">{{langPath.contest_page.options.secs | default: defaultLangPath.contest_page.options.secs}}</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="numFrames">{{langPath.contest_page.options.numberofframes | default: defaultLangPath.contest_page.options.numberofframes}}</label>
+          <input name="numFrames" id="numFrames" class="form-control" value="10" size="5" type="number"></input>
+        </div>
+        <div class="form-group">
+          <label for="frameDuration">{{langPath.contest_page.options.frameduration | default: defaultLangPath.contest_page.options.frameduration}}</label>
+          <input name="frameDuration" id="frameDuration" class="form-control" value="1" step="1" size="5" type="number"></input>
+        </div>
+      </form>
+    </section>
+    <section class="col-md-6 col-sm-12 preview-section">
+      <div class="text-center">
+        <h3>
+          {{langPath.contest_page.preview.header | default: defaultLangPath.contest_page.preview.header}}
+        </h3>
+        <section class="verge-image-preview-section"></section>
+        <div class="placeholder-div hidden">
+          <span class="placeholder-div-dimensions"></span>
+        </div>
+        <progress max="1" value="0" class="verge-progress-bar hidden"></progress>
+        <div class="options-button-group">
+          <a href="#" type="button" id="create-gif" class="button create-gif-button" role="button">
+            <i class="fa fa-camera fa-2x"></i>
+          </a>
+          <a href="#" type="button" id="save-gif" class="button save-gif-button hidden" role="button" download>
+            <i class="fa fa-download fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="col-md-3 col-sm-12 instructions-section">
+      <h3 class="instructions-section-header">{{langPath.contest_page.instructions.header | default: defaultLangPath.contest_page.instructions.header}}</h3>
+      <ul class="numbered-list">
+        <li>{{langPath.contest_page.instructions.step1 | default: defaultLangPath.contest_page.instructions.step1}}</li>
+        <li>{{langPath.contest_page.instructions.step2 | default: defaultLangPath.contest_page.instructions.step2}}</li>
+        <li>{{langPath.contest_page.instructions.step3 | default: defaultLangPath.contest_page.instructions.step3}}</li>
+        <li>{{langPath.contest_page.instructions.step4 | default: defaultLangPath.contest_page.instructions.step4}}</li>
+      </ul>
+    </section>
+  </section>
+  {% include shared/footer.html %}
+  <script src="../javascript/vendor/gifshot.js"></script>
+  <script src="../javascript/contest.js"></script>
+</body>

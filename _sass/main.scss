@@ -9,12 +9,15 @@ body {
 
 $text-color: #666666;
 $text-dark: #383838;
+
 $verge-blue: #08b4e0;
 $light-gray: #DDDDDD;
 
 $bg-gray: #EEEEEE;
 $bg-dark: #383838;
 $bg-dark2: #454545;
+
+$header-height: 60px;
 
 h1 {
   font-size: 38px;
@@ -41,6 +44,61 @@ p {
 
   @media (max-width: 650px) {
     padding: 0 5%;
+  }
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.1);
+  background: #fff;
+  height: $header-height;
+  line-height: $header-height;
+  width: 100%;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+
+  .header-nested-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .logo-column {
+    float: left;
+  }
+
+  .nav-column {
+    float: right;
+  }
+
+  .nav {
+    padding-top: 0;
+    line-height: $header-height;
+  }
+
+  .verge-logo-container {
+    display: inline-block;
+
+    .verge-header-logo {
+      height: 30px;
+    }
+  }
+
+  .verge-header-text-container {
+    display: inline-block;
+
+    .verge-header-text {
+      display: inline-block;
+      font-size: 24px;
+      font-weight: 100;
+      color: $text-dark;
+      margin: 0;
+      vertical-align: middle;
+    }
   }
 }
 
@@ -133,15 +191,29 @@ a.exchange-anchor {
   }
 }
 
-
 .splash {
   position: relative;
   background-image: url("/splash.jpg");
   height: 100vh;
   width: 100%;
+  text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
+
+  .verge-splash-logo {
+    height: 50px;
+    display: inline-block;
+  }
+
+  .splash-inner-container {
+    padding-top: $header-height;
+    height: 100vh;
+
+    @media (max-width: 900px) {
+      padding-top: 0;
+    }
+  }
 
   h1 {
     margin-top: 100px;
@@ -178,8 +250,16 @@ a.button {
   border-radius: 5px;
   margin: 0;
   transition: background 0.15s ease-in-out;
+
   &:hover {
     background: $verge-blue;
+    text-decoration: none !important;
+    color: white !important;
+  }
+
+  &:focus {
+    text-decoration: none !important;
+    color: white !important;
   }
 }
 
@@ -214,6 +294,10 @@ a.button {
 
     a {
       color: $text-dark;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -315,12 +399,14 @@ ul.pools-list b {
 }
 
 @import
-  "bootstrap-grid",
+  "bootstrap",
   "normalize",
   "skeleton",
+  "select",
   "exchanges",
   "wallet-tabs",
   "wallet-download-buttons",
   "roadmap",
-  "cloud-animation"
+  "cloud-animation",
+  "contest"
 ;
