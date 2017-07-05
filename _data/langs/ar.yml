@@ -38,6 +38,15 @@ info:
     block_time: "<b>بلوك تايم:</b> 30 ثانية"
     rpc_port: "<b>port RPC:</b> 20102"
     p2p_port: "<b>port P2P:</b> 21102"
+developers:
+  about:
+    header: ""
+    paragraph: ""
+  resources:
+    header: ""
+    github_gui: ""
+    rubygems_howto: ""
+    github_repos: ""
 exchanges:
   header: "احصل على فيرج"
   paragraph: "فيرج - مدرجة في  :"

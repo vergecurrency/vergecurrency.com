@@ -38,6 +38,15 @@ info:
     block_time: "<b>封鎖時間：</b> 30秒"
     rpc_port: "<b>RPC端口：</b> 20102"
     p2p_port: "<b>P2P端口：</b> 21102"
+developers:
+  about:
+    header: ""
+    paragraph: ""
+  resources:
+    header: ""
+    github_gui: ""
+    rubygems_howto: ""
+    github_repos: ""
 exchanges:
   header: "獲取Verge"
   paragraph: "Verge很榮幸能夠在以下交易所上市："
