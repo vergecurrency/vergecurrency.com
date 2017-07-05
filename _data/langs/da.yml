@@ -86,28 +86,28 @@ roadmap:
   header: "Vejviser"
   blackpaper:
     header: "\"Sort\" Papir"
-    date: "<font color='red'>Frigivet</font> Juni 4, 2017"
+    date: "<font color='#08b4e0'>Frigivet</font> Juni 4, 2017"
   electrum_i2P_server_client:
     header: "Electrum i2p Server/Client"
-    date: "<font color='red'>Frigivet</font> Juni 4, 2017"
+    date: "<font color='#08b4e0'>Frigivet</font> Juni 4, 2017"
   electrum_tor_server_client:
     header: "Electrum TOR Server/Client"
-    date: "<font color='red'>Frigivet</font> Juni 5, 2017"
+    date: "<font color='#08b4e0'>Frigivet</font> Juni 5, 2017"
   electrum_binaries:
     header: "Electrum Binaries"
     paragraph: "Binary-klienter til brugervenlige lite tegnebøger."
-    date: "<font color='red'>Frigivet</font> Juni 7, 2017"
+    date: "<font color='#08b4e0'>Frigivet</font> Juni 7, 2017"
   marketing_campaign:
     header: "Crypto Services Marketing kampagne"
     paragraph: "Startet 1 år annoncekampagne med Coinomi"
-    date: "<font color='red'>Frigivet</font> Juni 7, 2017"
+    date: "<font color='#08b4e0'>Frigivet</font> Juni 7, 2017"
   redesign_website:
     header: "Redesign Verge hjemmeside"
-    date: "<font color='red'>Frigivet</font> Juni 12, 2017"
+    date: "<font color='#08b4e0'>Frigivet</font> Juni 12, 2017"
   radio:
     header: "Udvid Verge Radio"
     paragraph: "Forvandle sig til \"RadioCrypto\" og omfatter i core tegnebøger"
-    date: "<font color='red'>Frigivet</font> Juni 26, 2017"
+    date: "<font color='#08b4e0'>Frigivet</font> Juni 26, 2017"
   i2P_tor_android_wallets:
     header: "i2P/TOR Android Tegnebøger"
     paragraph: "Android Wallet til Anononymous transaktioner alene! (Næsten)"

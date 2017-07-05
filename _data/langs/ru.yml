@@ -86,28 +86,28 @@ roadmap:
   header: "Дорожная карта"
   blackpaper:
     header: "\"Чёрная\" книга"
-    date: "<font color='red'>ВЫПУЩЕННО</font> 4 июня 2017 года"
+    date: "<font color='#08b4e0'>ВЫПУЩЕННО</font> 4 июня 2017 года"
   electrum_i2P_server_client:
     header: "Electrum i2p клиент-сервер"
-    date: "<font color='red'>ВЫПУЩЕННО</font> 4 июня 2017 года"
+    date: "<font color='#08b4e0'>ВЫПУЩЕННО</font> 4 июня 2017 года"
   electrum_tor_server_client:
     header: "Electrum TOR клиент-сервер"
-    date: "<font color='red'>ВЫПУЩЕННО</font> 5 июня 2017 года"
+    date: "<font color='#08b4e0'>ВЫПУЩЕННО</font> 5 июня 2017 года"
   electrum_binaries:
     header: "Electrum бинарные ресурсы"
     paragraph: "Двоичные клиенты для использования с \"облегчёнными\" кошельками."
-    date: "<font color='red'>ВЫПУЩЕННО</font> 7 июня 2017 года"
+    date: "<font color='#08b4e0'>ВЫПУЩЕННО</font> 7 июня 2017 года"
   marketing_campaign:
     header: "Маркетинговая кампания крипто-услуг"
     paragraph: "Начало одногодичной рекламной кампании в сотрудничестве с Coinomi"
-    date: "<font color='red'>ВЫПУЩЕННО</font> 7 июня 2017 года"
+    date: "<font color='#08b4e0'>ВЫПУЩЕННО</font> 7 июня 2017 года"
   redesign_website:
     header: "Переделка веб-страницы Verge"
-    date: "<font color='red'>ВЫПУЩЕННО</font> 12 июня 2017 года"
+    date: "<font color='#08b4e0'>ВЫПУЩЕННО</font> 12 июня 2017 года"
   radio:
     header: "Расширение интернет-радио Verge"
     paragraph: "Переделка в \"RadioCrypto\" и включение его в основные кошельки"
-    date: "2<font color='red'>ВЫПУЩЕННО</font> 6 июня 2017 года"
+    date: "2<font color='#08b4e0'>ВЫПУЩЕННО</font> 6 июня 2017 года"
   i2P_tor_android_wallets:
     header: "Кошельки i2P / TOR для Android"
     paragraph: "Android-кошелёк сугубо для анонимных трансакций! (почти завершён)"

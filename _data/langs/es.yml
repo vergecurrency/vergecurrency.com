@@ -86,28 +86,28 @@ roadmap:
   header: "Mapa del Proyecto"
   blackpaper:
     header: "Papel \"negro\""
-    date: "<font color='red'>PUBLICADO</font> 4 de junio de 2017"
+    date: "<font color='#08b4e0'>PUBLICADO</font> 4 de junio de 2017"
   electrum_i2P_server_client:
     header: "Electrum i2p Servidor / Cliente"
-    date: "<font color='red'>PUBLICADO</font> 4 de junio de 2017"
+    date: "<font color='#08b4e0'>PUBLICADO</font> 4 de junio de 2017"
   electrum_tor_server_client:
     header: "Electrum TOR Servidor / Cliente"
-    date: "<font color='red'>PUBLICADO</font> 5 de junio de 2017"
+    date: "<font color='#08b4e0'>PUBLICADO</font> 5 de junio de 2017"
   electrum_binaries:
     header: "Electrum Binarios"
     paragraph: "Clientes binarios para carteras lite fáciles de usar."
-    date: "<font color='red'>PUBLICADO</font> 7 de junio de 2017"
+    date: "<font color='#08b4e0'>PUBLICADO</font> 7 de junio de 2017"
   marketing_campaign:
     header: "Campaña de marketing de Crypto Services"
     paragraph: "Comenzó una campaña publicitaria de 1 año con Coinomi"
-    date: "<font color='red'>PUBLICADO</font> 7 de junio de 2017"
+    date: "<font color='#08b4e0'>PUBLICADO</font> 7 de junio de 2017"
   redesign_website:
     header: "Actualizar el sitio web de Verge"
-    date: "<font color='red'>PUBLICADO</font> 12 de junio de 2017"
+    date: "<font color='#08b4e0'>PUBLICADO</font> 12 de junio de 2017"
   radio:
     header: "Expandir Verge Radio"
     paragraph: "Cambios en \"RadioCrypto\" y es incluido en carteras núcleo"
-    date: "<font color='red'>PUBLICADO</font> 26 de junio de 2017"
+    date: "<font color='#08b4e0'>PUBLICADO</font> 26 de junio de 2017"
   i2P_tor_android_wallets:
     header: "i2P/TOR Carteras android"
     paragraph: "Cartera Android para transacciones Anonimas SOLAMENTE! (Cerca de terminar)"

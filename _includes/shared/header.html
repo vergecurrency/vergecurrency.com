@@ -1,10 +1,11 @@
 <!-- header -->
-<header class="header-container text-center" role="navigation">
-  <div class="header-nested-container">
+<header class="header-container" role="navigation">
+  <div class="header-nested-container row">
     <div class="logo-column">
       <div class="verge-logo-container">
         <a href="/" role="banner">
-          <img class="verge-header-logo" src="../../images/favicon/mstile-310x310.png" alt="Verge" title="Verge">
+          <img class="verge-header-fixed-logo" src="../../images/favicon/mstile-310x310.png" alt="Verge" title="Verge">
+          <img class="logo" src="/vergelogo.svg" alt="Verge" title="Verge">
           <div class="verge-header-text-container">
               <h3 class="verge-header-text">Verge</h3>
           </div>
@@ -27,7 +28,7 @@
                 {% for lang in site.lang_codes %}
                   {% assign loopindex = forloop.index | modulo: 2 %}
                   {% if loopindex == 1 and lang != page.lang %}
-                    <li><a href="../langs/{{lang}}{{page.dir}}">{{site.langs[lang]}}</a></li>
+                    <li><a href="/langs/{{lang}}">{{site.langs[lang]}}</a></li>
                   {% endif %}
                 {% endfor %}
               </div>
@@ -35,7 +36,7 @@
                 {% for lang in site.lang_codes %}
                   {% assign loopindex = forloop.index | modulo: 2 %}
                   {% if loopindex == 0 and lang != page.lang %}
-                    <li><a href="../langs/{{lang}}{{page.dir}}">{{site.langs[lang]}}</a></li>
+                    <li><a href="/langs/{{lang}}">{{site.langs[lang]}}</a></li>
                   {% endif %}
                 {% endfor %}
               </div>

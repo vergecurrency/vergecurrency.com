@@ -86,24 +86,24 @@ roadmap:
   header: "路線圖"
   blackpaper:
     header: "“黑”紙"
-    date: "<font color='red'>出版</font> 2017年6月4日"
+    date: "<font color='#08b4e0'>出版</font> 2017年6月4日"
   electrum_i2P_server_client:
     header: "Electrum i2p服務器/客戶端"
-    date: "<font color='red'>出版</font> 2017年6月4日"
+    date: "<font color='#08b4e0'>出版</font> 2017年6月4日"
   electrum_tor_server_client:
     header: "Electrum TOR服務器/客戶端"
-    date: "<font color='red'>出版</font> 2017年6月5日"
+    date: "<font color='#08b4e0'>出版</font> 2017年6月5日"
   electrum_binaries:
     header: "電子二進制"
     paragraph: "二元客戶易於使用的精美錢包。"
-    date: "<font color='red'>出版</font> 2017年6月7日"
+    date: "<font color='#08b4e0'>出版</font> 2017年6月7日"
   marketing_campaign:
     header: "加密服務營銷活動"
     paragraph: "與Coinomi開始1年的廣告活動"
-    date: "<font color='red'>出版</font> 2017年6月7日"
+    date: "<font color='#08b4e0'>出版</font> 2017年6月7日"
   redesign_website:
     header: "重新設計Verge網站"
-    date: "<font color='red'>出版</font> 2017年6月12日"
+    date: "<font color='#08b4e0'>出版</font> 2017年6月12日"
   radio:
     header: "展開Verge Radio"
     paragraph: "轉換為“RadioCrypto”，並包含在核心錢包中"
