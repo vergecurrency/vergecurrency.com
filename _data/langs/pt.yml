@@ -40,13 +40,13 @@ info:
     p2p_port: "<b>Porta P2P:</b> 21102"
 developers:
   about:
-    header: ""
-    paragraph: ""
-  resources:
-    header: ""
-    github_gui: ""
-    rubygems_howto: ""
-    github_repos: ""
+    header: "Para desenvolvedores"
+    paragraph: "Escrever código é difícil. Nós gostaríamos de tornar mais fácil para você trabalhar na Verge, então reunimos um conjunto de ferramentas e as colocamos em uma lista."
+    resources:
+      header: "Ferramentas para desenvolvedores"
+      github_gui: "GitHub Desktop"
+      rubygems_howto: "Como instalar RubyGems"
+      github_repos: "Nosso repositório no GitHub"
 exchanges:
   header: "Obter Verge"
   paragraph: "Verge orgulhosamente está listada nas seguintes exchanges:"
