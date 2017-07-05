@@ -38,6 +38,15 @@ info:
     block_time: "<b>Tempo di blocco:</b> 30 secondi"
     rpc_port: "<b>RPC port:</b> 20102"
     p2p_port: "<b>P2P porta:</b> 21102"
+developers:
+  about:
+    header: ""
+    paragraph: ""
+  resources:
+    header: ""
+    github_gui: ""
+    rubygems_howto: ""
+    github_repos: ""
 exchanges:
   header: "Ottenere orlo"
   paragraph: "Orlo è orgogliosa di essere elencati i seguenti scambi:"

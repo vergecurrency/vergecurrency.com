@@ -38,6 +38,15 @@ info:
     block_time: "<b>Tiempo por Bloque:</b> 30 segundos"
     rpc_port: "<b>Puerto RPC:</b> 20102"
     p2p_port: "<b>Puerto P2P:</b> 21102"
+developers:
+  about:
+    header: ""
+    paragraph: ""
+  resources:
+    header: ""
+    github_gui: ""
+    rubygems_howto: ""
+    github_repos: ""
 exchanges:
   header: "Obtener Verge"
   paragraph: "Verge está orgulloso de ser incluido en los siguientes exchanges:"

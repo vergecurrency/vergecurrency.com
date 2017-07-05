@@ -38,6 +38,15 @@ info:
     block_time: "<b>ブロック時間 :</b> 30 秒"
     rpc_port: "<b>RPC ポート :</b> 20102"
     p2p_port: "<b>P 2 P ポート :</b> 21102"
+developers:
+  about:
+    header: ""
+    paragraph: ""
+  resources:
+    header: ""
+    github_gui: ""
+    rubygems_howto: ""
+    github_repos: ""
 exchanges:
   header: "危機を取得"
   paragraph: "危機は以下の交換に記載されています。"

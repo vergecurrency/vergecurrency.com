@@ -38,6 +38,15 @@ info:
     block_time: "<b>Blok Cylindrów:</b> 30 sekund"
     rpc_port: "<b>Porty RPC:</b> 20102"
     p2p_port: "<b>Porty P2P:</b> 21102"
+developers:
+  about:
+    header: ""
+    paragraph: ""
+  resources:
+    header: ""
+    github_gui: ""
+    rubygems_howto: ""
+    github_repos: ""
 exchanges:
   header: "Rozpocznj przygodę z Verge"
   paragraph: "Jesteśmy dumni, że Verge jest notowane na takich giełdach jak:"

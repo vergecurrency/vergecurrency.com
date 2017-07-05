@@ -38,6 +38,15 @@ info:
     block_time: "<b>Bloktid:</b> 30 sekunder"
     rpc_port: "<b>RPC port:</b> 20102"
     p2p_port: "<b>P2P port:</b> 21102"
+developers:
+  about:
+    header: ""
+    paragraph: ""
+  resources:
+    header: ""
+    github_gui: ""
+    rubygems_howto: ""
+    github_repos: ""
 exchanges:
   header: "Få Verge"
   paragraph: "Verge er stolt af at være listet på følgende udveksling:"
