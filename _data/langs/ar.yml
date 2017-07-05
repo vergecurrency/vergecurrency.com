@@ -77,28 +77,28 @@ roadmap:
   header: "خريطة الطريق"
   blackpaper:
     header: "\"بلاك بيبر\""
-    date: "<font color='red'>تم بنجاح</font> 4 يونيو, 2017"
+    date: "<font color='#08b4e0'>تم بنجاح</font> 4 يونيو, 2017"
   electrum_i2P_server_client:
     header: "Electrum-i2p محفظة"
-    date: "<font color='red'>تم بنجاح</font> 4 يونيو, 2017"
+    date: "<font color='#08b4e0'>تم بنجاح</font> 4 يونيو, 2017"
   electrum_tor_server_client:
     header: "Electrum TOR محفظة"
-    date: "<font color='red'>تم بنجاح</font> 5 يونيو, 2017"
+    date: "<font color='#08b4e0'>تم بنجاح</font> 5 يونيو, 2017"
   electrum_binaries:
     header: "محافظة Electrum"
     paragraph: "محافظ خفيفة لتسهيل تجربة الإستخدام"
-    date: "<font color='red'>تم بنجاح</font> 7 يونيو, 2017"
+    date: "<font color='#08b4e0'>تم بنجاح</font> 7 يونيو, 2017"
   marketing_campaign:
     header: "الدعاية والتسويق"
     paragraph: "حملة اعلانية لمدة عام واحد مع Coinomi"
-    date: "<font color='red'>تم بنجاح</font> 7 يونيو, 2017"
+    date: "<font color='#08b4e0'>تم بنجاح</font> 7 يونيو, 2017"
   redesign_website:
     header: "اعادة تصميم الموقع الإلكتروني"
-    date: "<font color='red'>تم بنجاح</font> 12 يونيو, 2017"
+    date: "<font color='#08b4e0'>تم بنجاح</font> 12 يونيو, 2017"
   radio:
     header: "توسيع فيرج رأديو"
     paragraph: "تتحول إلى رأديو كربتو - مع اضافة الراديو في محفظة كور"
-    date: "<font color='red'>تم بنجاح</font> 26 يونيو, 2017"
+    date: "<font color='#08b4e0'>تم بنجاح</font> 26 يونيو, 2017"
   i2P_tor_android_wallets:
     header: "I2P/TOR حافظات Android"
     paragraph: "محافظ أندرويد للمعاملات السرية فقط"

@@ -77,28 +77,28 @@ roadmap:
   header: "Feuille de route"
   blackpaper:
     header: "\"Livre noir"
-    date: "<font color='red'>PUBLIE</font> 4 juin 2017"
+    date: "<font color='#08b4e0'>PUBLIE</font> 4 juin 2017"
   electrum_i2P_server_client:
     header: "Electrum i2p Server / Client"
-    date: "<font color='red'>PUBLIE</font> 4 juin 2017"
+    date: "<font color='#08b4e0'>PUBLIE</font> 4 juin 2017"
   electrum_tor_server_client:
     header: "Electrum TOR Server / Client"
-    date: "<font color='red'>PUBLIE</font> 5 juin 2017"
+    date: "<font color='#08b4e0'>PUBLIE</font> 5 juin 2017"
   electrum_binaries:
     header: "Binaires Electrum"
     paragraph: " ELectrum binaires pour des portefeuilles simples et faciles à utiliser."
-    date: "<font color='red'>PUBLIE</font> 7 juin 2017"
+    date: "<font color='#08b4e0'>PUBLIE</font> 7 juin 2017"
   marketing_campaign:
     header: "Campagne de marketing"
     paragraph: "Début d'une campagne publicitaire d'1 an avec Coinomi"
-    date: "<font color='red'>PUBLIE</font> 7 juin 2017"
+    date: "<font color='#08b4e0'>PUBLIE</font> 7 juin 2017"
   redesign_website:
     header: "Nouvelle conception du site Web Verge"
-    date: "<font color='red'>PUBLIE</font> 12 juin 2017"
+    date: "<font color='#08b4e0'>PUBLIE</font> 12 juin 2017"
   radio:
     header: "Amélioration de la radio Verge"
     paragraph: "Transformer la radio en \"RadioCrypto\" et l'inclure dans les portefeuilles centraux"
-    date: "<font color='red'>PUBLIE</font> 26 juin 2017"
+    date: "<font color='#08b4e0'>PUBLIE</font> 26 juin 2017"
   i2P_tor_android_wallets:
     header: "Portefeuilles Android i2P / TOR"
     paragraph: "Portefeuille Android pour les transactions Anonymes SEULEMENT! (bientôt terminé)"

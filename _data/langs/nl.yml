@@ -77,28 +77,28 @@ roadmap:
   header: "Road Map"
   blackpaper:
     header: "\"Black Paper"
-    date: "<font color='red'>GEPUBLICEERD</font> 4 juni 2017"
+    date: "<font color='#08b4e0'>GEPUBLICEERD</font> 4 juni 2017"
   electrum_i2P_server_client:
     header: "Electrum i2p Server/Client"
-    date: "<font color='red'>GEPUBLICEERD</font> 4 juni 2017"
+    date: "<font color='#08b4e0'>GEPUBLICEERD</font> 4 juni 2017"
   electrum_tor_server_client:
     header: "Electrum TOR Server/Client"
-    date: "<font color='red'>GEPUBLICEERD</font> 5 juni 2017"
+    date: "<font color='#08b4e0'>GEPUBLICEERD</font> 5 juni 2017"
   electrum_binaries:
     header: "Electrum Binaries"
     paragraph: "Binaire clients voor makkelijk te gebruiken portemonnees."
-    date: "<font color='red'>GEPUBLICEERD</font> 7 juni 2017"
+    date: "<font color='#08b4e0'>GEPUBLICEERD</font> 7 juni 2017"
   marketing_campaign:
     header: "Crypto Services Marketing Campagne"
     paragraph: "1 jaar advertentiecampagne gestart met Coinomi"
-    date: "<font color='red'>GEPUBLICEERD</font> 7 juni 2017"
+    date: "<font color='#08b4e0'>GEPUBLICEERD</font> 7 juni 2017"
   redesign_website:
     header: "Redesign Verge Website"
-    date: "<font color='red'>GEPUBLICEERD</font> 12 juni 2017"
+    date: "<font color='#08b4e0'>GEPUBLICEERD</font> 12 juni 2017"
   radio:
     header: "Uitbreiding Verge Radio"
     paragraph: "Transformeer in \"RadioCrypto\""
-    date: "<font color='red'>GEPUBLICEERD</font> 26 juni 2017"
+    date: "<font color='#08b4e0'>GEPUBLICEERD</font> 26 juni 2017"
   i2P_tor_android_wallets:
     header: "I2P / TOR Android Portemonnees"
     paragraph: "Android Wallet voor anonieme transacties! (Bijna voltooid)"

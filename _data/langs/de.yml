@@ -77,28 +77,28 @@ roadmap:
   header: "Roadmap"
   blackpaper:
     header: "\"Blackpaper"
-    date: "<font color='red'>VERÖFFENTLICHT</font> 4. Juni 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 4. Juni 2017"
   electrum_i2P_server_client:
     header: "Electrum I2P Server / Client"
-    date: "<font color='red'>VERÖFFENTLICHT</font> 4. Juni 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 4. Juni 2017"
   electrum_tor_server_client:
     header: "Electrum TOR Server / Client"
-    date: "<font color='red'>VERÖFFENTLICHT</font> 5. Juni 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 5. Juni 2017"
   electrum_binaries:
     header: "Electrum Binaries"
     paragraph: "Binärdateien für eine einfach zu bedienende Lite Geldbörse."
-    date: "<font color='red'>VERÖFFENTLICHT</font> 7. Juni 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 7. Juni 2017"
   marketing_campaign:
     header: "Crypto Services Marketing-Kampagne"
     paragraph: "1 Jahr Anzeigenkampagne mit Coinomi gestartet"
-    date: "<font color='red'>VERÖFFENTLICHT</font> 7. Juni 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 7. Juni 2017"
   redesign_website:
     header: "Verbessere Website"
-    date: "<font color='red'>VERÖFFENTLICHT</font> 12. Juni 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 12. Juni 2017"
   radio:
     header: "Migration Verge Radio"
     paragraph: "In \"RadioCrypto\" umwandeln und in Geldbörse integrieren"
-    date: "<font color='red'>VERÖFFENTLICHT</font> 26. Juni 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 26. Juni 2017"
   i2P_tor_android_wallets:
     header: "I2P / TOR Android Geldbörse"
     paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
