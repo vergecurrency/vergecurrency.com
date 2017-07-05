@@ -26,6 +26,10 @@ $instructions-section-size-border: 3px;
     overflow: auto;
   }
 
+  .preview-section {
+    padding-bottom: 20px;
+  }
+
   .options-section {
     background: $verge-blue;
   }
@@ -212,10 +216,6 @@ $instructions-section-size-border: 3px;
     .options-section,
     .preview-section {
       height: auto;
-    }
-
-    .preview-section {
-      padding-bottom: 20px;
     }
 
     .options-button-group {
