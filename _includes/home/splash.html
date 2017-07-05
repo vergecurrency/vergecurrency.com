@@ -1,7 +1,7 @@
-<section class="splash col-sm-12">
-  <div class="splash-inner-container container row">
+<section class="splash">
+  {% include shared/header.html %}
+  <div class="splash-inner-container row">
     <h1 class="tagline">
-      <img class="verge-splash-logo" src="../../images/favicon/mstile-310x310.png" alt="Verge" title="Verge">
       {{langPath.tagline | default: defaultLangPath.tagline}}
     </h1>
     <div class="main-wallet-download-buttons-list-container">

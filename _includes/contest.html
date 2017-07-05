@@ -1,10 +1,43 @@
 {% assign langPath = site.data.langs[page.lang] %}
 {% assign defaultLangPath = site.data.langs.en %}
 {% include head.html %}
-<body>
+<body class="contest-page">
   {% include shared/header.html hide_lang_dropdown=true %}
   <!-- demo-section  -->
   <section class="demo-section">
+    <section class="col-md-3 col-sm-12 instructions-section bg-gray">
+      <h3 class="instructions-section-header">{{langPath.contest_page.instructions.header | default: defaultLangPath.contest_page.instructions.header}}</h3>
+      <ul class="numbered-list">
+        <li>{{langPath.contest_page.instructions.step1 | default: defaultLangPath.contest_page.instructions.step1}}</li>
+        <li>{{langPath.contest_page.instructions.step2 | default: defaultLangPath.contest_page.instructions.step2}}</li>
+        <li>{{langPath.contest_page.instructions.step3 | default: defaultLangPath.contest_page.instructions.step3}}</li>
+        <li>{{langPath.contest_page.instructions.step4 | default: defaultLangPath.contest_page.instructions.step4}}</li>
+      </ul>
+    </section>
+    <section class="col-md-6 col-sm-12 preview-section">
+      <div class="text-center">
+        <h3>
+          {{langPath.contest_page.preview.header | default: defaultLangPath.contest_page.preview.header}}
+        </h3>
+        <section class="verge-image-preview-section"></section>
+        <div class="placeholder-div hidden">
+          <span class="placeholder-div-dimensions"></span>
+        </div>
+        <progress max="1" value="0" class="verge-progress-bar hidden"></progress>
+        <div class="options-button-group">
+          <a href="#" type="button" id="create-gif" class="button create-gif-button" role="button">
+            <i class="fa fa-camera fa-2x">
+              <span class="gif-description-text">Take Photo</span>
+            </i>
+          </a>
+          <a href="#" type="button" id="save-gif" class="button save-gif-button hidden" role="button" download>
+            <i class="fa fa-download fa-2x">
+              <span class="gif-description-text">Download Photo</span>
+            </i>
+          </a>
+        </div>
+      </div>
+    </section>
     <section class="col-md-3 col-sm-12 options-section">
       <h3>{{langPath.contest_page.options.header | default: defaultLangPath.contest_page.options.header}}</h3>
       <form class="options-form" action="">
@@ -62,35 +95,6 @@
           <input name="frameDuration" id="frameDuration" class="form-control" value="1" step="1" size="5" type="number"></input>
         </div>
       </form>
-    </section>
-    <section class="col-md-6 col-sm-12 preview-section">
-      <div class="text-center">
-        <h3>
-          {{langPath.contest_page.preview.header | default: defaultLangPath.contest_page.preview.header}}
-        </h3>
-        <section class="verge-image-preview-section"></section>
-        <div class="placeholder-div hidden">
-          <span class="placeholder-div-dimensions"></span>
-        </div>
-        <progress max="1" value="0" class="verge-progress-bar hidden"></progress>
-        <div class="options-button-group">
-          <a href="#" type="button" id="create-gif" class="button create-gif-button" role="button">
-            <i class="fa fa-camera fa-2x"></i>
-          </a>
-          <a href="#" type="button" id="save-gif" class="button save-gif-button hidden" role="button" download>
-            <i class="fa fa-download fa-2x"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-    <section class="col-md-3 col-sm-12 instructions-section">
-      <h3 class="instructions-section-header">{{langPath.contest_page.instructions.header | default: defaultLangPath.contest_page.instructions.header}}</h3>
-      <ul class="numbered-list">
-        <li>{{langPath.contest_page.instructions.step1 | default: defaultLangPath.contest_page.instructions.step1}}</li>
-        <li>{{langPath.contest_page.instructions.step2 | default: defaultLangPath.contest_page.instructions.step2}}</li>
-        <li>{{langPath.contest_page.instructions.step3 | default: defaultLangPath.contest_page.instructions.step3}}</li>
-        <li>{{langPath.contest_page.instructions.step4 | default: defaultLangPath.contest_page.instructions.step4}}</li>
-      </ul>
     </section>
   </section>
   {% include shared/footer.html %}
