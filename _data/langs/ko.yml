@@ -37,6 +37,15 @@ info:
     block_time: "블록생성시간. 30 seconds"
     rpc_port: "RPC 포트: 20102"
     p2p_port: "P2P 포트: 21102"
+developers:
+  about:
+    header: ""
+    paragraph: ""
+  resources:
+    header: ""
+    github_gui: ""
+    rubygems_howto: ""
+    github_repos: ""
 exchanges:
   header: "Verge 거래하기"
   paragraph: "Verge는 아래 거래소에 등록된 것이 자랑스럽습니다.."

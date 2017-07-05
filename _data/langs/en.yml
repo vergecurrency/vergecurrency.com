@@ -13,6 +13,8 @@ nav:
     title: "Wallets"
   roadmap:
     title: "Road Map"
+  developers:
+    title: "Developers"
   community:
     title: "Community"
 tagline: "Verge is a secure and anonymous cryptocurrency, built with a focus on privacy."
@@ -118,6 +120,26 @@ roadmap:
     header: "Merchandise Online Store"
     paragraph: "Verge Merchandise shop will have tshirts/apparel that can be purchased with XVG and BTC."
     date: "July, 2017"
+developers:
+  about:
+    header: "For developers"
+    paragraph: "Writing code is hard. We would like to make it easy for you to work on Verge, so we've gathered a set of tools and put them in a list."
+  resources:
+    header: "Developers tools"
+    github_gui: "GitHub Desktop"
+    rubygems_howto: "How to install RubyGems"
+    github_repos: "Our GitHub repositories"
+exchanges:
+  header: "Get Verge"
+  paragraph: "Verge is proud to be listed on the following exchanges:"
+  bittrex: "Bittrex"
+  bitsquare: "BitSquare.io"
+  ccex: "C-Cex"
+  litebit: "Litebit.eu"
+  southxchange: "SouthXchange"
+  novaexchange: "NovaExchange"
+  cryptopia: "Cryptopia"
+  coingather: "CoinGather"
 footer:
   community:
     header: "Community"

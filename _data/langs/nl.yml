@@ -38,6 +38,15 @@ info:
     block_time: "<b>Tijd per blok:</b> 30 seconden"
     rpc_port: "<b>RPC poort:</b> 20102"
     p2p_port: "<b>P2P poort:</b> 21102"
+developers:
+  about:
+    header: ""
+    paragraph: ""
+  resources:
+    header: ""
+    github_gui: ""
+    rubygems_howto: ""
+    github_repos: ""
 exchanges:
   header: "Verge kopen"
   paragraph: "Verge is te koop bij de volgende exchanges:"
