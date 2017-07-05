@@ -1,13 +1,9 @@
 (function(window, document) {
     // Gifshot options
     var gifType = document.querySelector('#GIFType');
-    var filter = document.querySelector("#filter");
-    var interval = document.querySelector("#interval");
-    var numFrames = document.querySelector("#numFrames");
-    var frameDuration = document.querySelector("#frameDuration");
     var gifHeight = document.querySelector("#gifHeight");
     var gifWidth = document.querySelector("#gifWidth");
-    var progressBar = document.querySelector("progress");
+    var filter = document.querySelector("#filter");
 
     // Save Elements
     var saveGIFButton = document.querySelector('#save-gif');
@@ -18,15 +14,14 @@
     var gifshotImagePreview = document.querySelector('.verge-image-preview-section');
     var placeholderDiv = document.querySelector('.placeholder-div');
     var placeholderDivDimensions = document.querySelector('.placeholder-div-dimensions');
+    var progressBar = document.querySelector("progress");
 
     function getSelectedOptions () {
         return {
             gifWidth: Number(gifWidth.value),
             gifHeight: Number(gifHeight.value),
             filter: filter.value,
-            interval: Number(interval.value),
-            numFrames: Number(numFrames.value),
-            frameDuration: Number(frameDuration.value),
+            numFrames: 15,
             text: 'vergecurrency.com',
             fontWeight: 'bold',
             fontSize: '16px',

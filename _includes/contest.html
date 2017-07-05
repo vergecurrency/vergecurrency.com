@@ -74,25 +74,9 @@
               <option value="grayscale(100%)">{{langPath.contest_page.options.grayscale | default: defaultLangPath.contest_page.options.grayscale}}</option>
               <option value="brightness(0.2)">{{langPath.contest_page.options.dark | default: defaultLangPath.contest_page.options.dark}}</option>
               <option value="contrast(500%)">{{langPath.contest_page.options.contrast | default: defaultLangPath.contest_page.options.contrast}}</option>
-              <option value="hue-rotate(90deg)">{{langPath.contest_page.options.huerotate | default: defaultLangPath.contest_page.options.huerotate}}</option>
               <option value="invert(75%)">{{langPath.contest_page.options.invert | default: defaultLangPath.contest_page.options.invert}}</option>
             </select>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="interval">{{langPath.contest_page.options.interval | default: defaultLangPath.contest_page.options.interval}}</label>
-          <div class="input-group">
-            <input name="interval" id="interval" class="form-control" value=".1" step=".1" size="5" type="number"></input>
-            <div class="input-group-addon">{{langPath.contest_page.options.secs | default: defaultLangPath.contest_page.options.secs}}</div>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="numFrames">{{langPath.contest_page.options.numberofframes | default: defaultLangPath.contest_page.options.numberofframes}}</label>
-          <input name="numFrames" id="numFrames" class="form-control" value="10" size="5" type="number"></input>
-        </div>
-        <div class="form-group">
-          <label for="frameDuration">{{langPath.contest_page.options.frameduration | default: defaultLangPath.contest_page.options.frameduration}}</label>
-          <input name="frameDuration" id="frameDuration" class="form-control" value="1" step="1" size="5" type="number"></input>
         </div>
       </form>
     </section>
