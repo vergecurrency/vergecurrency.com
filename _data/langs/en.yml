@@ -127,10 +127,10 @@ developers:
   resources:
     header: "Developers tools"
     github_gui: "GitHub Desktop"
-    php-verge: "PHP Library for Verge wallet"
-    verge-ruby: "Ruby wrapped gem for interacting with Verge wallet"
-    verge-python: "VERGE API binding for Python"
-    nodejs-verge: "Node.js client for VERGE"
+    php: "PHP Library for Verge wallet"
+    ruby: "Ruby wrapped gem for interacting with Verge wallet"
+    python: "VERGE API binding for Python"
+    nodejs: "Node.js client for VERGE"
     rubygems_howto: "How to install RubyGems"
     github_repos: "Our GitHub repositories"
 exchanges:
