@@ -22,7 +22,7 @@
             gifHeight: Number(gifHeight.value),
             filter: filter.value,
             numFrames: 15,
-            text: 'vergecurrency.com',
+            text: 'VergeCurrency.com',
             fontWeight: 'bold',
             fontSize: '16px',
             fontFamily: 'Arial',

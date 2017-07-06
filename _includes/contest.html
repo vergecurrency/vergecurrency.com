@@ -6,7 +6,7 @@
   <!-- demo-section  -->
   <section class="demo-section">
     <section class="col-md-3 col-sm-12 instructions-section bg-gray">
-      <h3 class="instructions-section-header">{{langPath.contest_page.instructions.header | default: defaultLangPath.contest_page.instructions.header}}</h3>
+      <h3 class="instructions-section-header text-center">{{langPath.contest_page.instructions.header | default: defaultLangPath.contest_page.instructions.header}}</h3>
       <ul class="numbered-list">
         <li>{{langPath.contest_page.instructions.step1 | default: defaultLangPath.contest_page.instructions.step1}}</li>
         <li>{{langPath.contest_page.instructions.step2 | default: defaultLangPath.contest_page.instructions.step2}}</li>
@@ -68,12 +68,10 @@
           <label for="filter">{{langPath.contest_page.options.filter | default: defaultLangPath.contest_page.options.filter}}</label>
           <div class="button custom-select">
             <select name="filter" id="filter" class="form-control">
-              <option value="">{{langPath.contest_page.options.none | default: defaultLangPath.contest_page.options.none</option>
-              <option value="blur(5px)">{{langPath.contest_page.options.blur | default: defaultLangPath.contest_page.options.blur}}</option>
+              <option value="">{{langPath.contest_page.options.none | default: defaultLangPath.contest_page.options.none}}</option>
               <option value="sepia(100%)">{{langPath.contest_page.options.sepia | default: defaultLangPath.contest_page.options.sepia}}</option>
               <option value="grayscale(100%)">{{langPath.contest_page.options.grayscale | default: defaultLangPath.contest_page.options.grayscale}}</option>
-              <option value="brightness(0.2)">{{langPath.contest_page.options.dark | default: defaultLangPath.contest_page.options.dark}}</option>
-              <option value="contrast(500%)">{{langPath.contest_page.options.contrast | default: defaultLangPath.contest_page.options.contrast}}</option>
+              <option value="saturate(90)">{{langPath.contest_page.options.saturate | default: defaultLangPath.contest_page.options.saturate}}</option>
               <option value="invert(75%)">{{langPath.contest_page.options.invert | default: defaultLangPath.contest_page.options.invert}}</option>
             </select>
           </div>
