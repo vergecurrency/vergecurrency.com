@@ -21,3 +21,7 @@ The VergeCurrency site is made using [Jekyll](https://jekyllrb.com/). In order t
     - Create a "Recent News" section on the homepage that lists the last 3 most recent blog posts
   - Create Developer Documentation pages
   - Create a "Media" page showing videos/articles created about Verge
+
+### Verge Developer Addresses
+
+  * gfranko - D8b9yA6pCkQdEesWbYvQ19yr43JW9oiYut
