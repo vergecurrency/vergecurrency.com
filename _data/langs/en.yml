@@ -120,6 +120,12 @@ roadmap:
     header: "Merchandise Online Store"
     paragraph: "Verge Merchandise shop will have tshirts/apparel that can be purchased with XVG and BTC."
     date: "July, 2017"
+  transfer_discord_service:
+    header: "Verge Transfer Over Discord Service"
+    date: "August, 2017"
+  transfer_telegram_service:
+    header: "Verge Transfer Over Telegram Service"
+    date: "August, 2017"
 developers:
   about:
     header: "For developers"
