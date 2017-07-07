@@ -44,8 +44,12 @@ developers:
     paragraph: "Het schrijven van code is moeilijk. Wij willen het je graag makkelijker maken om te werken aan Verge, daarom hebben wij een set aan tools verzameld en ze in een lijt verwerkt."
   resources:
     header: "Developers hulpmiddelen"
-    github_gui: "GitHub Desktop"
+    php: "PHP Library voor de Verge wallet"
+    ruby: "Ruby wrapped gem in combinatie met Verge wallet"
+    python: "VERGE API binding voor Python"
+    nodejs: "Node.js client voor VERGE"
     rubygems_howto: "Hoe installeer je RubyGems"
+    github_gui: "GitHub Desktop"
     github_repos: "Onze GitHub repositories"
 exchanges:
   header: "Verge kopen"
