@@ -24,6 +24,6 @@ The VergeCurrency site is made using [Jekyll](https://jekyllrb.com/). In order t
 
 ### Verge Developer Addresses
 
-  * gfranko - D8b9yA6pCkQdEesWbYvQ19yr43JW9oiYut
+  * gfranko - DQjWyyyAoYpiDcMH1i9EsUqhAQx9n4dk8H
   * hellokarma - DF5LXjaUKXLyLhRXgPWFCDHLbCDSFXG9nv
   * CryptoRekt - DAFSzLDF8NDAx2spfNAhJs8B6fSkNuD3pj
