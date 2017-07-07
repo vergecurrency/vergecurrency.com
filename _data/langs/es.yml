@@ -127,6 +127,12 @@ roadmap:
     header: "Tienda Online de Mercancías"
     paragraph: "Tienda Verge Merchandise tendrá camisetas / ropa que se pueden comprar con XVG y BTC."
     date: "Julio de 2017"
+  transfer_discord_service:
+    header: "Servicio de Transferencia de Verge en Discord"
+    date: "Agosto, 2017"
+  transfer_telegram_service:
+    header: "Servicio de Transferencia de Verge en Telegram"
+    date: "Agosto, 2017"
 footer:
   community:
     header: "Comunidad"
