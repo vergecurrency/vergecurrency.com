@@ -108,8 +108,12 @@ roadmap:
     header: "展開Verge Radio"
     paragraph: "轉換為“RadioCrypto”，並包含在核心錢包中"
     date: "2017年6月26日"
-  i2P_tor_android_wallets:
-    header: "i2P / TOR Android錢包"
+  tor_android_wallet:
+    header: "TOR Android錢包"
+    paragraph: "Android電子錢包只供Anon交易！ （近完成）"
+    date: "2017年7月"
+  i2P_android_wallet:
+    header: "i2P Android錢包"
     paragraph: "Android電子錢包只供Anon交易！ （近完成）"
     date: "2017年7月"
   core_wallet_release:

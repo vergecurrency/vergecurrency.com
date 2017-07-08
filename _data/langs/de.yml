@@ -108,8 +108,12 @@ roadmap:
     header: "Migration Verge Radio"
     paragraph: "In \"RadioCrypto\" umwandeln und in Geldbörse integrieren"
     date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 26. Juni 2017"
-  i2P_tor_android_wallets:
-    header: "I2P / TOR Android Geldbörse"
+  tor_android_wallet:
+    header: "TOR Android Geldbörse"
+    paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
+    date: "Juli 2017"
+  i2P_android_wallet:
+    header: "I2P Android Geldbörse"
     paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
     date: "Juli 2017"
   core_wallet_release:

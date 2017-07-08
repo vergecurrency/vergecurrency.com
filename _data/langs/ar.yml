@@ -108,8 +108,12 @@ roadmap:
     header: "توسيع فيرج رأديو"
     paragraph: "تتحول إلى رأديو كربتو - مع اضافة الراديو في محفظة كور"
     date: "<font color='#08b4e0'>تم بنجاح</font> 26 يونيو, 2017"
-  i2P_tor_android_wallets:
-    header: "I2P/TOR حافظات Android"
+  tor_android_wallet:
+    header: "TOR حافظات Android"
+    paragraph: "محافظ أندرويد للمعاملات السرية فقط"
+    date: "تموز/يوليه 2017"
+  i2P_android_wallet:
+    header: "I2P حافظات Android"
     paragraph: "محافظ أندرويد للمعاملات السرية فقط"
     date: "تموز/يوليه 2017"
   core_wallet_release:

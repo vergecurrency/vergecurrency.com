@@ -108,8 +108,12 @@ roadmap:
     header: "瀕そラジオを展開し"
     paragraph: "「 RadioCrypto 」へと変換し、コアを財布に含める"
     date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 26 日"
-  i2P_tor_android_wallets:
-    header: "I 2 P / TOR Android 財布"
+  tor_android_wallet:
+    header: "TOR Android 財布"
+    paragraph: "Android の札入れの Anon トランザクションのみ！ （ほぼ完了）。"
+    date: "7 月 2017 年"
+  i2P_android_wallet:
+    header: "I 2 P Android 財布"
     paragraph: "Android の札入れの Anon トランザクションのみ！ （ほぼ完了）。"
     date: "7 月 2017 年"
   core_wallet_release:

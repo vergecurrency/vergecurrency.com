@@ -108,8 +108,12 @@ roadmap:
     header: "Expandir Verge Radio"
     paragraph: "Cambios en \"RadioCrypto\" y es incluido en carteras núcleo"
     date: "<font color='#08b4e0'>PUBLICADO</font> 26 de junio de 2017"
-  i2P_tor_android_wallets:
-    header: "i2P/TOR Carteras android"
+  tor_android_wallet:
+    header: "TOR Carteras android"
+    paragraph: "Cartera Android para transacciones Anonimas SOLAMENTE! (Cerca de terminar)"
+    date: "Julio de 2017"
+  i2P_android_wallet:
+    header: "i2P Carteras android"
     paragraph: "Cartera Android para transacciones Anonimas SOLAMENTE! (Cerca de terminar)"
     date: "Julio de 2017"
   core_wallet_release:
