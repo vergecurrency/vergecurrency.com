@@ -8,7 +8,7 @@ The VergeCurrency.com Official Website
 ### Verge Tech Stack
 The VergeCurrency site is made using [Jekyll](https://jekyllrb.com/).
 
-###Install Ruby > 2
+### Install Ruby > 2
 In order to contribute to the site, you need to install Ruby > 2. It is encouraged to install Ruby using a Ruby version manager, like [RVM](https://github.com/rvm/rvm) or [rbenv](https://github.com/rbenv/rbenv).
 
 ### Install Ruby Gems
