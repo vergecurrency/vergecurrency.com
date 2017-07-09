@@ -18,11 +18,11 @@ nav:
 tagline: "Verge ist eine sichere und anonyme Krypto-Währung, entwickelt mit dem Fokus auf Privatsphäre."
 download: "Herunterladen"
 view: "Aussicht"
-view_all_wallets: "Alle Brieftaschen ansehen"
+view_all_wallets: "Alle Geldbörsen ansehen"
 info:
   about:
     header: "Warum Verge?"
-    paragraph: "Verge ist eine dezentralisierte Währung für Benutzer, denen die Privatsphäre wichtig ist. Es verbessert die ursprüngliche Bitcoin-Blockkette, indem diese mehrere anonyme Netzwerke wie Tor und I2P verwendet. Es nutzt Multi-Algorithmus-Mining zur Verbesserung der Sicherheit und bietet eine gleichmäßige Verteilung der Münzen an die Miner."
+    paragraph: "Verge ist eine dezentralisierte Währung für Benutzer, denen die Privatsphäre wichtig ist. Es verbessert die ursprüngliche Bitcoin-Blockchain, indem diese mehrere anonyme Netzwerke wie Tor und I2P verwendet. Es nutzt Multi-Algorithmen-Mining zur Verbesserung der Sicherheit und bietet eine gleichmäßige Verteilung der Münzen an die Miner."
   resources:
     header: "Ressourcen"
     black_paper: "Blackpaper"
@@ -34,19 +34,23 @@ info:
   tech_specs:
     header: "Technische Daten"
     symbol: "<b>Symbol:</b> XVG"
-    algo: "<b>Algorithmus:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
+    algo: "<b>Algorithmen:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
     block_time: "<b>Blockzeit:</b> 30 Sekunden"
-    rpc_port: "<b>RPC-Anschluss:</b> 20102"
-    p2p_port: "<b>P2P-Port:</b> 21102"
-developers:
+    rpc_port: "<b>RPC-Port:</b> 20102"
+    p2p_port: "<b>P2P-Port:</b> 21102"    
+ developers:
   about:
-    header: ""
-    paragraph: ""
+    header: "Für Entwickler"
+    paragraph: "Eine Softwareentwicklung ist umfangreich und kompliziert. Damit es euch möglichst leicht fällt uns zu unterstützen, haben wir eine Liste mit Tools zusammengestellt."
   resources:
-    header: ""
-    github_gui: ""
-    rubygems_howto: ""
-    github_repos: ""
+    header: "Entwickler-Tools"
+    github_gui: "GitHub Desktop"
+    php: "PHP Library für die Verge Geldbörse"
+    ruby: "Ruby gem Wrapper zur Steuerung der Verge Geldbörse"
+    python: "VERGE API zur Nutzung durch Python"
+    nodejs: "Node.js client für VERGE"
+    rubygems_howto: "Anleitung Installation RubyGems"
+    github_repos: "Unsere GitHub Repositorien"        
 exchanges:
   header: "Holen Sie sich Verge"
   paragraph: "Verge ist stolz darauf, an folgenden Börsen notiert zu sein:"
@@ -130,7 +134,20 @@ roadmap:
   merchandise_store:
     header: "Werbeartikel Online Store"
     paragraph: "Der Merchandise-Shop wird T-Shirts/Bekleidung anbieten, die Bezahlung kann mit XVG und BTC erfolgen."
-    date: "Juli 2017"
+    date: "Juli 2017"    
+  transfer_discord_service:
+    header: "Verge über Discord-Dienst senden"
+    date: "August, 2017"
+  transfer_telegram_service:
+    header: "Verge über Telegram-Dienst senden"
+    date: "August, 2017"
+  official_mining_pool:
+    header: "Offizieller Verge Multi-Algorithmen Mining Pool"
+    paragraph: "Zur Unterstützung der Verge-Entwicklung wird eine Gebühr von 2 % erhoben"
+    date: "August, 2017"
+  upgrade_electrum_client:
+    header: "Upgrade Electrum-Client Programmcode"
+    date: "August, 2017"
 footer:
   community:
     header: "Community"
