@@ -3,10 +3,11 @@ The VergeCurrency.com Official Website
 [![Build Status](https://travis-ci.org/vergecurrency/vergecurrency.com.svg?branch=master)](https://travis-ci.org/vergecurrency/vergecurrency.com)
 
 ### Contributing to the Verge Site
-    * [Fork](https://help.github.com/articles/fork-a-repo/) the VergeCurrency site, which will enable you to work off of your own development branch
-
   - **Verge Tech Stack**
     * The VergeCurrency site is made using [Jekyll](https://jekyllrb.com/).
+    
+  - **Fork the vergecurrency.com repo**
+    * [Fork](https://help.github.com/articles/fork-a-repo/) the VergeCurrency site, which will enable you to work off of your own development branch
 
   - **Install Ruby > 2**
     * In order to contribute to the site, you need to install Ruby > 2. It is encouraged to install Ruby using a Ruby version manager, like [RVM](https://github.com/rvm/rvm) or [rbenv](https://github.com/rbenv/rbenv).
