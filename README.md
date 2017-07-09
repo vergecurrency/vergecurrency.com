@@ -3,22 +3,22 @@ The VergeCurrency.com Official Website
 [![Build Status](https://travis-ci.org/vergecurrency/vergecurrency.com.svg?branch=master)](https://travis-ci.org/vergecurrency/vergecurrency.com)
 
 ### Contributing to the Verge Site
-[Fork](https://help.github.com/articles/fork-a-repo/) the VergeCurrency site, which will enable you to work off of your own development branch
+    * [Fork](https://help.github.com/articles/fork-a-repo/) the VergeCurrency site, which will enable you to work off of your own development branch
 
-### Verge Tech Stack
-The VergeCurrency site is made using [Jekyll](https://jekyllrb.com/).
+  - **Verge Tech Stack**
+    * The VergeCurrency site is made using [Jekyll](https://jekyllrb.com/).
 
-### Install Ruby > 2
-In order to contribute to the site, you need to install Ruby > 2. It is encouraged to install Ruby using a Ruby version manager, like [RVM](https://github.com/rvm/rvm) or [rbenv](https://github.com/rbenv/rbenv).
+  - **Install Ruby > 2**
+    * In order to contribute to the site, you need to install Ruby > 2. It is encouraged to install Ruby using a Ruby version manager, like [RVM](https://github.com/rvm/rvm) or [rbenv](https://github.com/rbenv/rbenv).
 
-### Install Ruby Gems
-Rubygems is installed with RVM and rbenv by default. `cd` into the project folder and run `bundle install`.
+  - **Install Ruby Gems**
+    * Rubygems is installed with RVM and rbenv by default. `cd` into the project folder and run `bundle install`.
 
-### Start Web Server
-Now that the required gems are installed run the Jekyll webserver using `bundle exec jekyll serve`
+  - **Start Web Server**
+    * Now that the required gems are installed run the Jekyll webserver using `bundle exec jekyll serve`
 
-### Make Changes and Send a Pull Request
-We will review your changes shortly after you send your pull request and provide any feedback
+  - **Make Changes and Send a Pull Request**
+    * We will review your changes shortly after you send your pull request and provide any feedback
 
 ### TODO:
   - Add AMD gpu miner's to mining resource page / maybe add some links to tutorials
