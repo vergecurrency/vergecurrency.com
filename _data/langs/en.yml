@@ -15,6 +15,8 @@ nav:
     title: "Road Map"
   developers:
     title: "Developers"
+  donate:
+    title: "Donate"
   community:
     title: "Community"
 tagline: "Verge is a secure and anonymous cryptocurrency, built with a focus on privacy."
@@ -150,6 +152,17 @@ developers:
     nodejs: "Node.js client for VERGE"
     rubygems_howto: "How to install RubyGems"
     github_repos: "Our GitHub repositories"
+donate:
+  about:
+    header: "Donate to Support Development"
+    paragraph: "Verge is not a pre-mined coin, so all of it's development is funded by kind people like you."
+  wallets:
+    verge:
+      header: "Verge Wallet Address"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Wallet Address"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
 exchanges:
   header: "Get Verge"
   paragraph: "Verge is proud to be listed on the following exchanges:"

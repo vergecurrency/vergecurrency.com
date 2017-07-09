@@ -33,7 +33,7 @@ We will review your changes shortly after you send your pull request and provide
   - Create Developer Documentation pages
   - Create a "Media" page showing videos/articles created about Verge
 
-### Verge Developer Addresses
+### Verge Wallet Addresses
 
   * gfranko - DQjWyyyAoYpiDcMH1i9EsUqhAQx9n4dk8H
   * hellokarma - DF5LXjaUKXLyLhRXgPWFCDHLbCDSFXG9nv
