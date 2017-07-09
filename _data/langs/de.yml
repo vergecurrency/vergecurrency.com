@@ -37,8 +37,8 @@ info:
     algo: "<b>Algorithmen:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
     block_time: "<b>Blockzeit:</b> 30 Sekunden"
     rpc_port: "<b>RPC-Port:</b> 20102"
-    p2p_port: "<b>P2P-Port:</b> 21102"    
- developers:
+    p2p_port: "<b>P2P-Port:</b> 21102"
+developers:
   about:
     header: "Für Entwickler"
     paragraph: "Eine Softwareentwicklung ist umfangreich und kompliziert. Damit es euch möglichst leicht fällt uns zu unterstützen, haben wir eine Liste mit Tools zusammengestellt."
