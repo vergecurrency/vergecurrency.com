@@ -107,7 +107,7 @@ p {
     width: 100%;
     padding: 0;
 
-    @media (max-width: 900px) {
+    @media (max-width: 1150px) {
       display: none;
     }
 
@@ -117,6 +117,7 @@ p {
 
     .logo-column {
       float: left;
+      padding-right: 0;
     }
 
     .nav-column {
