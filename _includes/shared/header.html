@@ -28,6 +28,7 @@
         <li><a href="{{basePath}}#wallets">{{langPath.nav.wallets.title | default: defaultLangPath.nav.wallets.title}}</a></li>
         <li><a href="{{basePath}}#roadmap">{{langPath.nav.roadmap.title | default: defaultLangPath.nav.wallets.title}}</a></li>
         <li><a href="{{basePath}}#developers">{{langPath.nav.developers.title | default: defaultLangPath.nav.developers.title}}</a></li>
+        <li><a href="{{basePath}}#contributors">{{langPath.nav.contributors.title | default: defaultLangPath.nav.contributors.title}}</a></li>
         <li><a href="{{basePath}}#donate">{{langPath.nav.donate.title | default: defaultLangPath.nav.donate.title}}</a></li>
         <li><a href="{{basePath}}#community">{{langPath.nav.community.title | default: defaultLangPath.nav.community.title}}</a></li>
         {% if include.hide_lang_dropdown != true %}
@@ -39,11 +40,7 @@
                   {% assign loopindex = forloop.index | modulo: 2 %}
                   {% if loopindex == 1 and lang != page.lang %}
                     <li>
-                      {% if lang == site.default_lang %}
-                      <a href="{{basePath}}">{{site.langs[lang]}}</a>
-                      {% else %}
                       <a href="{{basePath}}/langs/{{lang}}">{{site.langs[lang]}}</a>
-                      {% endif %}
                     </li>
                   {% endif %}
                 {% endfor %}
@@ -53,11 +50,7 @@
                   {% assign loopindex = forloop.index | modulo: 2 %}
                   {% if loopindex == 0 and lang != page.lang %}
                     <li>
-                      {% if lang == site.default_lang %}
-                      <a href="{{basePath}}">{{site.langs[lang]}}</a>
-                      {% else %}
                       <a href="{{basePath}}/langs/{{lang}}">{{site.langs[lang]}}</a>
-                      {% endif %}
                     </li>
                   {% endif %}
                 {% endfor %}

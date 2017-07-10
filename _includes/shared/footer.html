@@ -24,7 +24,7 @@
   </div>
   <div class="footer">{{langPath.footer.copyright | default: defaultLangPath.footer.copyright}}</div>
 </footer>
-
+<!-- Sticky Header -->
 <script>
   (function(window, document) {
       var rafTimer;
@@ -44,6 +44,113 @@
       }
   }(window, document));
 </script>
+
+<!-- Github Contributors -->
+<script>
+    (function(window, document) {
+        try {
+            var LOCAL_STORAGE_DATE_KEY = 'github-last-request-date';
+            var LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY = 'github-contributors-list';
+            // Number of milleseconds in a day
+            var DAY = 86400000;
+            var lastRequestDate = window.localStorage.getItem(LOCAL_STORAGE_DATE_KEY);
+            var savedContributorsList = window.localStorage.getItem(LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY);
+            var currentDate = Date.now();
+            var VERGE_GITHUB_REPOS_URL = 'https://api.github.com/orgs/vergecurrency/repos';
+            var $contributorsContainer = $('.verge-contributors-container');
+            var currentContributorsList = savedContributorsList ? JSON.parse(savedContributorsList): [];
+            var hasCurrentContributorsList = !!currentContributorsList.length;
+            var showContributors = function (list) {
+                list = list || [];
+
+                list.forEach(function (contributor) {
+                    $contributorsContainer.append('<div class="verge-contributor"><a href="https://github.com/' + contributor.login + '" target="_blank"><img class="verge-contributor-image img-thumbnail" src="' + contributor.avatar_url + '"><div class="verge-contributor-name">' + contributor.login + '</div></a></div>');
+                });
+            };
+
+            // Only make more Github API requests if the data is more than 1 day old
+            if (!lastRequestDate || (currentDate > (lastRequestDate + DAY))) {
+                $.ajax({
+                    url: VERGE_GITHUB_REPOS_URL,
+                    data: {
+                        'client_id': 'cb5fcc22bfa58d88ba08',
+                        'client_secret': '3768563b6070424880df3a90723da61237df4c96'
+                    },
+                    success: function (data) {
+                        data = data || [];
+
+                        var contributorRequests = [];
+
+                        if (data.length) {
+                            contributorRequests = data.map(function (repo) {
+                                repo = repo || {};
+
+                                var contributorsUrl = repo.contributors_url;
+
+                                if (contributorsUrl) {
+                                    return $.ajax({
+                                        url: contributorsUrl,
+                                        data: {
+                                            'client_id': 'cb5fcc22bfa58d88ba08',
+                                            'client_secret': '3768563b6070424880df3a90723da61237df4c96'
+                                        }
+                                    });
+                                } else {
+                                    return $.Deferred();
+                                }
+                            });
+                        }
+
+                        // Wait until all of the Github repo API calls have completed
+                        $.when.apply($, contributorRequests).done(function () {
+                            var data = Array.prototype.slice.call(arguments);
+                            var contributorLoginMap = {};
+                            var contributorsList = [];
+
+                            // Unfortunately have to loop like this to get all contributors for every organization repo
+                            data.forEach(function (currentContributors) {
+                                contributorsList = contributorsList.concat(currentContributors[0] || []);
+                            });
+
+                            // Filter duplicate users and sort by number of contributions
+                            contributorsList = contributorsList.filter(function (contributor) {
+                                var login = contributor.login;
+
+                                if (contributorLoginMap[login]) {
+                                    return false;
+                                }
+
+                                contributorLoginMap[login] = true;
+
+                                return true;
+                            }).sort(function (a, b) {
+                                // Sorts by number of contributions
+                                return b.contributions - a.contributions;
+                            });
+
+                            // Adds the VergeCurrency org to the beginning of the list
+                            contributorsList.unshift({
+                                login: "vergecurrency",
+                                avatar_url: "https://avatars1.githubusercontent.com/u/16771005?v=3"
+                            });
+
+                            // Saves data to local storage to prevent having to make unneccessary API calls
+                            window.localStorage.setItem(LOCAL_STORAGE_DATE_KEY, currentDate);
+                            window.localStorage.setItem(LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY, JSON.stringify(contributorsList));
+
+                            // Add the contributors to the page
+                            showContributors(contributorsList);
+                        });
+                    }
+                });
+            } else if (hasCurrentContributorsList) {
+                showContributors(currentContributorsList)
+            }
+        } catch (e) {}
+    }(window, document));
+</script>
+
+<!-- Twitter Embed -->
 <script>
   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
