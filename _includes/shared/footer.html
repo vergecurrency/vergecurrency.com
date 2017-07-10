@@ -68,6 +68,7 @@
                 });
             };
 
+            // Only make more Github API requests if the data is more than 1 day old
             if (!lastRequestDate || (currentDate > (lastRequestDate + DAY))) {
                 $.ajax({
                     url: VERGE_GITHUB_REPOS_URL,
@@ -78,7 +79,6 @@
                     success: function (data) {
                         data = data || [];
 
-                        console.log('github data: ', data);
                         var contributorRequests = [];
 
                         if (data.length) {
@@ -101,15 +101,18 @@
                             });
                         }
 
+                        // Wait until all of the Github repo API calls have completed
                         $.when.apply($, contributorRequests).done(function () {
                             var data = Array.prototype.slice.call(arguments);
                             var contributorLoginMap = {};
                             var contributorsList = [];
 
+                            // Unfortunately have to loop like this to get all contributors for every organization repo
                             data.forEach(function (currentContributors) {
                                 contributorsList = contributorsList.concat(currentContributors[0] || []);
                             });
 
+                            // Filter duplicate users and sort by number of contributions
                             contributorsList = contributorsList.filter(function (contributor) {
                                 var login = contributor.login;
 
@@ -121,21 +124,21 @@
 
                                 return true;
                             }).sort(function (a, b) {
-                                console.log('contributor: ', a);
                                 // Sorts by number of contributions
                                 return b.contributions - a.contributions;
                             });
 
-                            console.log('contributorsList: ', contributorsList);
-
+                            // Adds the VergeCurrency org to the beginning of the list
                             contributorsList.unshift({
                                 login: "vergecurrency",
                                 avatar_url: "https://avatars1.githubusercontent.com/u/16771005?v=3"
                             });
 
+                            // Saves data to local storage to prevent having to make unneccessary API calls
                             window.localStorage.setItem(LOCAL_STORAGE_DATE_KEY, currentDate);
                             window.localStorage.setItem(LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY, JSON.stringify(contributorsList));
 
+                            // Add the contributors to the page
                             showContributors(contributorsList);
                         });
                     }
