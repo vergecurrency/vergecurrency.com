@@ -29,6 +29,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+default_lang: 'en'
 langs:
   'ar': 'العربية'
   'da': 'Dansk'

@@ -34,7 +34,7 @@ The VergeCurrency.com Official Website
   - Create Developer Documentation pages
   - Create a "Media" page showing videos/articles created about Verge
 
-### Verge Developer Addresses
+### Verge Contributor Wallet Addresses
 
   * gfranko - DQjWyyyAoYpiDcMH1i9EsUqhAQx9n4dk8H
   * hellokarma - DF5LXjaUKXLyLhRXgPWFCDHLbCDSFXG9nv

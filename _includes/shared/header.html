@@ -1,3 +1,12 @@
+{% assign basePath = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth == 0 %}{% assign basePath = '.' %}
+{% elsif depth == 1 %}{% assign basePath = '..' %}
+{% elsif depth == 2 %}{% assign basePath = '../..' %}
+{% elsif depth == 3 %}{% assign basePath = '../../..' %}
+{% elsif depth == 4 %}{% assign basePath = '../../../..' %}
+{% endif %}
+
 <!-- header -->
 <header class="header-container" role="navigation">
   <div class="header-nested-container row">
@@ -14,12 +23,13 @@
     </div>
     <div class="nav-column">
       <ul class="nav contest-nav">
-        <li><a href="#about">{{langPath.nav.about.title | default: defaultLangPath.nav.about.title}}</a></li>
-        <li><a href="#exchanges">{{langPath.nav.exchanges.title | default: defaultLangPath.nav.exchanges.title}}</a></li>
-        <li><a href="#wallets">{{langPath.nav.wallets.title | default: defaultLangPath.nav.wallets.title}}</a></li>
-        <li><a href="#roadmap">{{langPath.nav.roadmap.title | default: defaultLangPath.nav.wallets.title}}</a></li>
-        <li><a href="#developers">{{langPath.nav.developers.title | default: defaultLangPath.nav.developers.title}}</a></li>
-        <li><a href="#community">{{langPath.nav.community.title | default: defaultLangPath.nav.community.title}}</a></li>
+        <li><a href="{{basePath}}#about">{{langPath.nav.about.title | default: defaultLangPath.nav.about.title}}</a></li>
+        <li><a href="{{basePath}}#exchanges">{{langPath.nav.exchanges.title | default: defaultLangPath.nav.exchanges.title}}</a></li>
+        <li><a href="{{basePath}}#wallets">{{langPath.nav.wallets.title | default: defaultLangPath.nav.wallets.title}}</a></li>
+        <li><a href="{{basePath}}#roadmap">{{langPath.nav.roadmap.title | default: defaultLangPath.nav.wallets.title}}</a></li>
+        <li><a href="{{basePath}}#developers">{{langPath.nav.developers.title | default: defaultLangPath.nav.developers.title}}</a></li>
+        <li><a href="{{basePath}}#donate">{{langPath.nav.donate.title | default: defaultLangPath.nav.donate.title}}</a></li>
+        <li><a href="{{basePath}}#community">{{langPath.nav.community.title | default: defaultLangPath.nav.community.title}}</a></li>
         {% if include.hide_lang_dropdown != true %}
           <li class="lang-dropdown">
             <label>{{langPath.lang_name}} <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
@@ -28,7 +38,13 @@
                 {% for lang in site.lang_codes %}
                   {% assign loopindex = forloop.index | modulo: 2 %}
                   {% if loopindex == 1 and lang != page.lang %}
-                    <li><a href="/langs/{{lang}}">{{site.langs[lang]}}</a></li>
+                    <li>
+                      {% if lang == site.default_lang %}
+                      <a href="{{basePath}}">{{site.langs[lang]}}</a>
+                      {% else %}
+                      <a href="{{basePath}}/langs/{{lang}}">{{site.langs[lang]}}</a>
+                      {% endif %}
+                    </li>
                   {% endif %}
                 {% endfor %}
               </div>
@@ -36,7 +52,13 @@
                 {% for lang in site.lang_codes %}
                   {% assign loopindex = forloop.index | modulo: 2 %}
                   {% if loopindex == 0 and lang != page.lang %}
-                    <li><a href="/langs/{{lang}}">{{site.langs[lang]}}</a></li>
+                    <li>
+                      {% if lang == site.default_lang %}
+                      <a href="{{basePath}}">{{site.langs[lang]}}</a>
+                      {% else %}
+                      <a href="{{basePath}}/langs/{{lang}}">{{site.langs[lang]}}</a>
+                      {% endif %}
+                    </li>
                   {% endif %}
                 {% endfor %}
               </div>
