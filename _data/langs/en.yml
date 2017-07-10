@@ -15,6 +15,8 @@ nav:
     title: "Road Map"
   developers:
     title: "Developers"
+  contributors:
+    title: "Contributors"
   donate:
     title: "Donate"
   community:
@@ -25,7 +27,7 @@ view: "View"
 view_all_wallets: "View All Wallets"
 info:
   about:
-    header: "Why Verge?"
+    header: "About"
     paragraph: "Verge is a decentralized currency designed for users who value privacy. It improves upon the original Bitcoin blockchain by using multiple anonymity-centric networks such as Tor and i2p. It utilizes multi-algorithm mining support to improve security and provide equal distribution of coins to miners."
   resources:
     header: "Resources"
@@ -141,7 +143,7 @@ roadmap:
     date: "August, 2017"
 developers:
   about:
-    header: "For developers"
+    header: "Developers"
     paragraph: "Writing code is hard. We would like to make it easy for you to work on Verge, so we've gathered a set of tools and put them in a list."
   resources:
     header: "Developers tools"
@@ -152,6 +154,17 @@ developers:
     nodejs: "Node.js client for VERGE"
     rubygems_howto: "How to install RubyGems"
     github_repos: "Our GitHub repositories"
+contributors:
+  about:
+    header: "Contributors"
+    paragraph: "Verge is open-source software that is constantly improving due to it's many contributors. If you would like to contribute as well, take a look at our <a href='https://github.com/vergecurrency' target='_blank'>Github repositories</a> to see where you could make a difference!"
+  wallets:
+    verge:
+      header: "Verge Wallet Address"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Wallet Address"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
 donate:
   about:
     header: "Donate to Support Development"
