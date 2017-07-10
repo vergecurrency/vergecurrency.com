@@ -64,12 +64,17 @@ p {
   }
 
   .logo-column {
-    float: left;
+    display: inline-block;
+    padding-right: 100px;
+    @media (max-width: 650px) {
+      padding-right: 0;
+    }
   }
 
   .nav-column {
-    float: right;
-    @media (max-width: 1050px) {
+    display: inline-block;
+    vertical-align: top;
+    @media (max-width: 650px) {
       display: none;
     }
   }
@@ -272,7 +277,6 @@ a.exchange-anchor {
 
 .logo {
   width: 300px;
-  float: left;
 }
 
 a {
@@ -330,12 +334,7 @@ a.button {
 .nav {
   margin: 0;
   font-size: 16px;
-  float: right;
   padding-top: 10px;
-
-  @media(max-width: 900px) {
-    display: none;
-  }
 
   li {
     line-height: 1;
