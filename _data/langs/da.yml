@@ -59,7 +59,6 @@ exchanges:
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
   coinspot: "CoinSpot"
-  coinspot: "CoinSpot"
 wallets:
   header: "Tegnebøger"
   tabs:
