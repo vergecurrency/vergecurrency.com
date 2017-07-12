@@ -58,6 +58,8 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
+  coinspot: "CoinSpot"
 wallets:
   header: "Tegnebøger"
   tabs:
