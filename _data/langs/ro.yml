@@ -49,6 +49,7 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
 wallets:
   header: "Portofele"
   tabs:
