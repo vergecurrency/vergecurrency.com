@@ -49,10 +49,10 @@
 <script>
     (function(window, document) {
         try {
-            var LOCAL_STORAGE_DATE_KEY = 'github-last-request-date';
-            var LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY = 'github-contributors-list';
-            // Number of milleseconds in a day
-            var DAY = 86400000;
+            var LOCAL_STORAGE_DATE_KEY = 'github-last-request-date-2';
+            var LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY = 'github-contributors-list-2';
+            // Number of milleseconds in an hour
+            var HOUR = 3600000;
             var lastRequestDate = window.localStorage.getItem(LOCAL_STORAGE_DATE_KEY);
             var savedContributorsList = window.localStorage.getItem(LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY);
             var currentDate = Date.now();
@@ -68,8 +68,8 @@
                 });
             };
 
-            // Only make more Github API requests if the data is more than 1 day old
-            if (!lastRequestDate || (currentDate > (lastRequestDate + DAY))) {
+            // Only make more Github API requests if the data is more than 1 hour old
+            if (!lastRequestDate || (currentDate > (lastRequestDate + HOUR))) {
                 $.ajax({
                     url: VERGE_GITHUB_REPOS_URL,
                     data: {
