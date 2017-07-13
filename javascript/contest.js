@@ -1,9 +1,11 @@
 (function(window, document) {
     // Gifshot options
     var gifType = document.querySelector('#GIFType');
-    var gifHeight = document.querySelector("#gifHeight");
-    var gifWidth = document.querySelector("#gifWidth");
-    var filter = document.querySelector("#filter");
+    var gifHeight = document.querySelector('#gifHeight');
+    var gifWidth = document.querySelector('#gifWidth');
+    var filter = document.querySelector('#filter');
+    var numFrames = document.querySelector('#numFrames');
+    var frameDuration = document.querySelector('#frameDuration');
 
     // Save Elements
     var saveGIFButton = document.querySelector('#save-gif');
@@ -21,14 +23,15 @@
             gifWidth: Number(gifWidth.value),
             gifHeight: Number(gifHeight.value),
             filter: filter.value,
-            numFrames: 15,
+            numFrames: Number(numFrames.value),
+            frameDuration: Number(frameDuration.value),
             text: 'VergeCurrency.com',
             fontWeight: 'bold',
             fontSize: '16px',
             fontFamily: 'Arial',
             fontColor: 'white',
             textAlign: 'center',
-            textBaseline: 'bottom'
+            textYCoordinate: Number(gifHeight.value) - 10
         };
     };
     

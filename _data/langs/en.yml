@@ -231,7 +231,21 @@ contest_page:
     header: "Preview"
   instructions:
     header: "Contest Instructions"
-    step1: "Create an anonymous GIF of yourself that makes it impossible to tell who you are."
+    step1: "Create an <span class='highlight-section'>anonymous</span> GIF of yourself that makes it <span class='highlight-section'>impossible to tell who you are.</span>"
     step2: "Download your anonymous GIF"
-    step3: "Send a tweet to <a href='https://twitter.com/vergecurrency' target='_blank'>@vergecurrency</a> with your anonymous GIF and the hashtag <b>#xvgme</b>"
-    step4: "The users who create the best anonymous GIFs (creativity is rewarded) will win Verge coins!"
+    step3: "Send a tweet to <a href='https://twitter.com/vergecurrency' target='_blank'>@vergecurrency</a> with your <span class='highlight-section'>anonymous</span> GIF and the hashtag <span class='highlight-section'>#xvgme</span>"
+    step4: "The <span class='highlight-section'>top 5</span> users who get <span class='highlight-section'>the most combined likes and retweets</span> for their Verge GIF tweet will win prizes!"
+  prizes:
+    header: "Contest Prizes"
+    first:
+      place: "1st"
+      prize: "70,000 coins"
+    second:
+      place: "2nd"
+      prize: "50,000 coins"
+    third:
+      place: "3rd"
+      prize: "35,000 coins"
+    top5:
+      place: "4-5th"
+      prize: "Verge T-Shirt"

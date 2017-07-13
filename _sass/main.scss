@@ -12,6 +12,7 @@ $text-dark: #383838;
 
 $verge-blue: #08b4e0;
 $light-gray: #DDDDDD;
+$light-green: #00c073;
 
 $bg-gray: #EEEEEE;
 $bg-dark: #383838;
@@ -37,6 +38,11 @@ p {
   color: $text-color;
   line-height: 2;
   max-width: 800px;
+}
+
+.highlight-section {
+    color: $text-dark;
+    font-weight: 800;
 }
 
 .row {
