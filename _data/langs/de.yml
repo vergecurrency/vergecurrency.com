@@ -6,13 +6,19 @@ head:
   title: "Verge - Sichere und anonyme Krypto-Währung, entwickelt mit dem Fokus auf Privatsphäre"
 nav:
   about:
-    title: "Über"
+    title: "Über Verge"
   exchanges:
-    title: "Holen Sie sich Verge"
+    title: "Hole dir Verge"
   wallets:
     title: "Geldbörsen"
   roadmap:
     title: "Roadmap"
+  developers:
+    title: "Entwickler"
+  contributors:
+    title: "Unterstützer"
+  donate:
+    title: "Spenden"
   community:
     title: "Community"
 tagline: "Verge ist eine sichere und anonyme Krypto-Währung, entwickelt mit dem Fokus auf Privatsphäre."
@@ -50,9 +56,31 @@ developers:
     python: "VERGE API zur Nutzung durch Python"
     nodejs: "Node.js client für VERGE"
     rubygems_howto: "Anleitung Installation RubyGems"
-    github_repos: "Unsere GitHub Repositorien"        
+    github_repos: "Unsere GitHub Repositorien"
+contributors:
+  about:
+    header: "Unterstützer"
+    paragraph: "Verge ist Open Source und wird durch die vielen Unterstützer ständig weiterentwickelt. Wenn du auch zur Entwicklung beitragen möchtest, dann schau dir unsere <a href='https://github.com/vergecurrency' target='_blank'>Github Repositorien</a> an, vielleicht findest du etwas, dass du verbessern kannst!"
+  wallets:
+    verge:
+      header: "Verge Geldbörse Adresse"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Geldbörse Adresse"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+donate:
+  about:
+    header: "Spende zur Unterstützung der Entwicklung"
+    paragraph: "Verge ist keine 'pre-mined' Münze, die komplette Entwicklung wird von netten Leuten wie Du finanziert."
+  wallets:
+    verge:
+      header: "Verge Geldbörse Adresse"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Geldbörse Adresse"
+address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1      
 exchanges:
-  header: "Holen Sie sich Verge"
+  header: "Holen dir Verge"
   paragraph: "Verge ist stolz darauf, an folgenden Börsen notiert zu sein:"
   bittrex: "Bittrex"
   bitsquare: "BitSquare.io"
@@ -67,7 +95,7 @@ wallets:
   header: "Geldbörsen"
   tabs:
     desktop: "Desktop"
-    mobile: "Mobile"
+    mobile: "Smartphone"
     other: "Andere"
   windows: "Verge Windows Geldbörse"
   macosx: "Verge Mac OSX Geldbörse"
@@ -78,7 +106,7 @@ wallets:
   fedora: "Verge Fedora Geldbörse"
   web: "Verge Web Geldbörse"
   web_tor: "Verge TOR Web Geldbörse"
-  web_i2P: "Verge i2P Web Geldbörse"
+  web_i2P: "Verge I2P Web Geldbörse"
   raspberry_pi: "Verge Raspberry-Pi-Quellcode"
   electrum_linux: "Verge Linux Electrum Geldbörse"
   electrum_linux_tor: "Verge TOR Linux Electrum Geldbörse"
