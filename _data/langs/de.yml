@@ -18,7 +18,7 @@ nav:
   contributors:
     title: "Unterstützer"
   donate:
-title: "Spenden"
+    title: "Spenden"
   community:
     title: "Community"
 tagline: "Verge ist eine sichere und anonyme Krypto-Währung, entwickelt mit dem Fokus auf Privatsphäre."
@@ -95,7 +95,7 @@ wallets:
   header: "Geldbörsen"
   tabs:
     desktop: "Desktop"
-    mobile: "Mobile"
+    mobile: "Smartphone"
     other: "Andere"
   windows: "Verge Windows Geldbörse"
   macosx: "Verge Mac OSX Geldbörse"
@@ -106,7 +106,7 @@ wallets:
   fedora: "Verge Fedora Geldbörse"
   web: "Verge Web Geldbörse"
   web_tor: "Verge TOR Web Geldbörse"
-  web_i2P: "Verge i2P Web Geldbörse"
+  web_i2P: "Verge I2P Web Geldbörse"
   raspberry_pi: "Verge Raspberry-Pi-Quellcode"
   electrum_linux: "Verge Linux Electrum Geldbörse"
   electrum_linux_tor: "Verge TOR Linux Electrum Geldbörse"
