@@ -44,6 +44,22 @@
         }
     }(window, document));
 </script>
+<script src="/javascript/vendor/flipclock.js"></script>
+
+<!-- Contest Countdown -->
+<script>
+    (function (window, document) {
+        var countdownMilleseconds = Math.abs(new Date(2017, 06, 21, 21, 0, 0, 0) - new Date());
+        var countdownSeconds = (countdownMilleseconds/1000);
+        var countdownClock = $('.contest-countdown-clock').FlipClock({
+            clockFace: 'DailyCounter'
+        });
+
+        countdownClock.setTime(countdownSeconds);
+        countdownClock.setCountdown(true);
+        countdownClock.start();
+    }(window, document));
+</script>
 
 <!-- Github Contributors -->
 <script>
