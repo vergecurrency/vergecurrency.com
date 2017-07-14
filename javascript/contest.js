@@ -16,7 +16,7 @@
     var gifshotImagePreview = document.querySelector('.verge-image-preview-section');
     var placeholderDiv = document.querySelector('.placeholder-div');
     var placeholderDivDimensions = document.querySelector('.placeholder-div-dimensions');
-    var progressBar = document.querySelector("progress");
+    var progressBar = document.querySelector('progress');
 
     function getSelectedOptions () {
         return {

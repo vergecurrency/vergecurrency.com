@@ -454,11 +454,21 @@ ul.pools-list b {
   margin-top: 40px;
 }
 
+.contest-index-promo {
+  margin-top: 20px;
+}
+
+.verge-contest-link {
+  position: relative;
+  z-index: 99999999999;
+}
+
 @import
   "bootstrap",
   "normalize",
   "skeleton",
   "select",
+  "flipclock",
   "cloud-animation",
   "exchanges",
   "wallet-tabs",

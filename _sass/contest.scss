@@ -8,12 +8,21 @@ $instructions-section-size-f: 20rem;
 $instructions-section-size-border: 3px;
 
 .contest-page {
+  .instructions-section-header,
+  .prizes-section-header {
+    margin-top: 0;
+  }
+
   .header-container {
-      padding: 20px 0;
+    padding: 20px 0;
   }
 
   .contest-prizes {
     text-align: left;
+  }
+
+  .contest-prizes-list {
+    margin-bottom: 20px;
   }
 
   .contest-prizes-list,
