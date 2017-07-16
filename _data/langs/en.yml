@@ -160,7 +160,7 @@ developers:
 contributors:
   about:
     header: "Contributors"
-    paragraph: "Verge is open-source software that is constantly improving due to it's many contributors. If you would like to contribute as well, take a look at our <a href='https://github.com/vergecurrency' target='_blank'>Github repositories</a> to see where you could make a difference!"
+    paragraph: "Verge is open-source software that is constantly improving due to its many contributors. If you would like to contribute as well, take a look at our <a href='https://github.com/vergecurrency' target='_blank'>Github repositories</a> to see where you could make a difference!"
   wallets:
     verge:
       header: "Verge Wallet Address"
@@ -171,7 +171,7 @@ contributors:
 donate:
   about:
     header: "Donate to Support Development"
-    paragraph: "Verge is not a pre-mined coin, so all of it's development is funded by kind people like you."
+    paragraph: "Verge is not a pre-mined coin, so all of its development is funded by kind people like you."
   wallets:
     verge:
       header: "Verge Wallet Address"

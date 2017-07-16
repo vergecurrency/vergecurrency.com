@@ -24,6 +24,58 @@
   </div>
   <div class="footer">{{langPath.footer.copyright | default: defaultLangPath.footer.copyright}}</div>
 </footer>
+<!-- Helpers -->
+<script>
+    function debounce(func, wait) {
+      // we need to save these in the closure
+      var timeout, args, context, timestamp;
+      return function () {
+        // save details of latest call
+        context = this;
+        args = [].slice.call(arguments, 0);
+        timestamp = new Date();
+        // this is where the magic happens
+        var later = function () {
+          // how long ago was the last call
+          var last = (new Date()) - timestamp;
+          // if the latest call was less that the wait period ago
+          // then we reset the timeout to wait for the difference
+          if (last < wait) {
+            timeout = setTimeout(later, wait - last);
+            // or if not we can null out the timer and run the latest
+          } else {
+            timeout = null;
+            func.apply(context, args);
+          }
+        };
+
+        // we only need to set the timer now if one isn't already running
+        if (!timeout) {
+          timeout = setTimeout(later, wait);
+        }
+      };
+    }
+
+    function elementInViewport (el) {
+      var top = el.offsetTop;
+      var left = el.offsetLeft;
+      var width = el.offsetWidth;
+      var height = el.offsetHeight;
+
+      while(el.offsetParent) {
+        el = el.offsetParent;
+        top += el.offsetTop;
+        left += el.offsetLeft;
+      }
+
+      return (
+        top >= window.pageYOffset &&
+        left >= window.pageXOffset &&
+        (top + height) <= (window.pageYOffset + window.innerHeight) &&
+        (left + width) <= (window.pageXOffset + window.innerWidth)
+      );
+    }
+</script>
 <!-- Sticky Header -->
 <script>
     (function(window, document) {
@@ -45,6 +97,7 @@
     }(window, document));
 </script>
 <script src="/javascript/vendor/flipclock.js"></script>
+<script src="/javascript/vendor/siema.js"></script>
 
 <!-- Contest Countdown -->
 <script>
@@ -65,6 +118,61 @@
 <script>
     (function(window, document) {
         try {
+            var contributorsCarouselContainer = document.getElementById('contributors-carousel');
+            var carouselIndicatorsContainer = document.getElementById('carousel-indicators');
+            var carousel = new Siema({
+              selector: '.contributors-carousel',
+              duration: 750,
+              easing: 'ease-out',
+              perPage: {
+                400: 2,
+                500: 3,
+                680: 4,
+                880: 5,
+                1000: 6,
+                1240: 8
+              },
+              startIndex: 0,
+              draggable: false,
+              // threshold: 20,
+              loop: true,
+              onInit: function () {},
+              onChange: function () {}
+            });
+            var CAROUSEL_INTERVAL = 5000;
+            var activeCarouselIndicator = 0;
+            var carouselInterval;
+            var updateActiveCarouselIndicator = function () {
+                var carouselIndicatorListItems = carouselIndicatorsContainer.childNodes;
+
+                carouselIndicatorListItems.forEach(function (carouselIndicatorListItem, i) {
+                    if (activeCarouselIndicator === i) {
+                        carouselIndicatorListItem.classList.add('active');
+                    } else {
+                        carouselIndicatorListItem.classList.remove('active');
+                    }
+                });
+            };
+            var startCarouselInterval = function () {
+                var perPage = carousel.perPage;
+                var hasMultiplePages = numContributorsList > perPage;
+                var numIndicators = hasMultiplePages ? Math.floor(numContributorsList/perPage): 0;
+
+                carouselInterval = setInterval(function () {
+                    carousel.next(carousel.perPage);
+
+                    if (activeCarouselIndicator === (numIndicators - 1)) {
+                        activeCarouselIndicator = 0;
+                    } else {
+                        activeCarouselIndicator = activeCarouselIndicator + 1;
+                    }
+
+                    updateActiveCarouselIndicator();
+                }, CAROUSEL_INTERVAL);
+            };
+            var stopCarouselInterval = function () {
+                clearInterval(carouselInterval);
+            };
             var LOCAL_STORAGE_DATE_KEY = 'github-last-request-date-2';
             var LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY = 'github-contributors-list-2';
             // Number of milleseconds in an hour
@@ -73,15 +181,48 @@
             var savedContributorsList = window.localStorage.getItem(LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY);
             var currentDate = Date.now();
             var VERGE_GITHUB_REPOS_URL = 'https://api.github.com/orgs/vergecurrency/repos';
-            var $contributorsContainer = $('.verge-contributors-container');
             var currentContributorsList = savedContributorsList ? JSON.parse(savedContributorsList): [];
             var hasCurrentContributorsList = !!currentContributorsList.length;
+            var numContributorsList = 1;
+            var contributorsCarouselContainerScrolledTo = false;
+            var showCarouselIndicators = function () {
+                var indicatorsFragment = document.createDocumentFragment();
+                var perPage = carousel.perPage;
+                var hasMultiplePages = numContributorsList > perPage;
+                var numIndicators = hasMultiplePages ? Math.floor(numContributorsList/perPage): 0;
+
+                carouselIndicatorsContainer.innerHTML = '';
+
+                if (numIndicators > 0) {
+                    (function () {
+                        for (var i = 0; i <= numIndicators; i++) {
+                            var listItem = document.createElement('li');
+
+                            listItem.className = i === activeCarouselIndicator ? 'active': '';
+
+                            listItem.setAttribute('data-id', i);
+
+                            indicatorsFragment.appendChild(listItem);
+                        }
+
+                        carouselIndicatorsContainer.appendChild(indicatorsFragment);
+                    }());
+                }
+            };
             var showContributors = function (list) {
                 list = list || [];
 
-                list.forEach(function (contributor) {
-                    $contributorsContainer.append('<div class="verge-contributor"><a href="https://github.com/' + contributor.login + '" target="_blank"><img class="verge-contributor-image img-thumbnail" src="' + contributor.avatar_url + '"><div class="verge-contributor-name">' + contributor.login + '</div></a></div>');
-                });
+                (function () {
+                    list.forEach(function (contributor) {
+                        var contributorElement = document.createElement('div');
+
+                        contributorElement.innerHTML = '<div class="verge-contributor"><a href="https://github.com/' + contributor.login + '" target="_blank"><img class="verge-contributor-image img-thumbnail" src="' + contributor.avatar_url + '"><div class="verge-contributor-name">' + contributor.login + '</div></a></div>';
+
+                        carousel.append(contributorElement);
+                    });
+
+                    showCarouselIndicators();
+                }());
             };
 
             // Only make more Github API requests if the data is more than 1 hour old
@@ -154,14 +295,72 @@
                             window.localStorage.setItem(LOCAL_STORAGE_DATE_KEY, currentDate);
                             window.localStorage.setItem(LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY, JSON.stringify(contributorsList));
 
+                            numContributorsList = contributorsList.length;
+
                             // Add the contributors to the page
                             showContributors(contributorsList);
                         });
                     }
                 });
             } else if (hasCurrentContributorsList) {
+                numContributorsList = currentContributorsList.length;
+
                 showContributors(currentContributorsList)
             }
+
+            contributorsCarouselContainer.addEventListener('mouseenter', function () {
+                stopCarouselInterval();
+            });
+
+            contributorsCarouselContainer.addEventListener('mouseleave', function () {
+                startCarouselInterval();
+            });
+
+            window.addEventListener('scroll', debounce(function () {
+                if (elementInViewport(contributorsCarouselContainer) && !contributorsCarouselContainerScrolledTo) {
+                    contributorsCarouselContainerScrolledTo = true;
+                    startCarouselInterval();
+                }
+            }, 250));
+
+            carouselIndicatorsContainer.addEventListener('mouseenter', function () {
+                stopCarouselInterval();
+            });
+
+            carouselIndicatorsContainer.addEventListener('mouseleave', function () {
+                startCarouselInterval();
+            });
+
+            carouselIndicatorsContainer.addEventListener('click', function (e) {
+                var carouselIndicatorListItems = carouselIndicatorsContainer.childNodes;
+                var target = e.target;
+                var indicatorIndex = Number(target.getAttribute('data-id'));
+                var perPage = carousel.perPage;
+                var hasMultiplePages = numContributorsList > perPage;
+                var numIndicators = hasMultiplePages ? Math.floor(numContributorsList/perPage): 0;
+
+                var carouselStartingIndex = perPage * indicatorIndex;
+
+                carouselIndicatorListItems.forEach(function (carouselIndicatorListItem, i) {
+                    if (indicatorIndex === i) {
+                        carouselIndicatorListItem.classList.add('active');
+                    } else {
+                        carouselIndicatorListItem.classList.remove('active');
+                    }
+                });
+
+                carousel.goTo(carouselStartingIndex);
+
+                activeCarouselIndicator = indicatorIndex;
+            });
+
+            window.addEventListener('resize', debounce(function () {
+                if (contributorsCarouselContainerScrolledTo) {
+                    stopCarouselInterval();
+                    startCarouselInterval();
+                    showCarouselIndicators();
+                }
+            }, 200));
         } catch (e) {}
     }(window, document));
 </script>
