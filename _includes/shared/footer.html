@@ -125,7 +125,7 @@
               duration: 750,
               easing: 'ease-out',
               perPage: {
-                400: 2,
+                320: 2,
                 500: 3,
                 680: 4,
                 880: 5,
@@ -133,8 +133,8 @@
                 1240: 8
               },
               startIndex: 0,
-              draggable: false,
-              // threshold: 20,
+              draggable: true,
+              threshold: 20,
               loop: true,
               onInit: function () {},
               onChange: function () {}
@@ -218,7 +218,9 @@
                     list.forEach(function (contributor) {
                         var contributorElement = document.createElement('div');
 
-                        contributorElement.innerHTML = '<div class="verge-contributor"><a href="https://github.com/' + contributor.login + '" target="_blank"><img class="verge-contributor-image img-thumbnail" src="' + contributor.avatar_url + '"><div class="verge-contributor-name">' + contributor.login + '</div></a></div>';
+                        contributorElement.className = 'verge-contributor';
+
+                        contributorElement.innerHTML = '<img class="verge-contributor-image img-thumbnail" src="' + contributor.avatar_url + '"><a href="https://github.com/' + contributor.login + '" target="_blank"><div class="verge-contributor-name">' + contributor.login + '</div></a>';
 
                         carousel.append(contributorElement);
                     });
