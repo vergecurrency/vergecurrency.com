@@ -1,9 +1,3 @@
-.verge-contributors-container {
-    height: 430px;
-    width: 80%;
-    overflow: auto;
-}
-
 .verge-contributor,
 .verge-contributor a {
     display: inline-block;
@@ -18,4 +12,25 @@
 
 .verge-contributor-name {
     text-align: center;
+}
+
+.carousel-indicators {
+    display: none;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+}
+
+.carousel-indicators li {
+    margin-right: 5px;
+    border: 1px solid $verge-blue;
+
+    &.active {
+        background-color: $verge-blue;
+        margin-right: 5px;
+    }
 }
