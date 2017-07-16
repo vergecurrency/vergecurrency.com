@@ -161,7 +161,7 @@
                 carouselInterval = setInterval(function () {
                     carousel.next(carousel.perPage);
 
-                    if (activeCarouselIndicator === (numIndicators - 1)) {
+                    if (activeCarouselIndicator === numIndicators) {
                         activeCarouselIndicator = 0;
                     } else {
                         activeCarouselIndicator = activeCarouselIndicator + 1;
