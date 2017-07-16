@@ -158,6 +158,8 @@
                 var hasMultiplePages = numContributorsList > perPage;
                 var numIndicators = hasMultiplePages ? Math.floor(numContributorsList/perPage): 0;
 
+                stopCarouselInterval();
+
                 carouselInterval = setInterval(function () {
                     carousel.next(carousel.perPage);
 
