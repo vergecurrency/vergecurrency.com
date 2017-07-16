@@ -81,10 +81,10 @@
     (function(window, document) {
         var rafTimer;
 
-        window.onscroll = function (event) {
+        window.addEventListener('scroll', function (event) {
             cancelAnimationFrame(rafTimer);
             rafTimer = requestAnimationFrame(toggleHeaderFloating);
-        };
+        });;
 
         function toggleHeaderFloating () {
             // does cause layout/reflow: https://git.io/vQCMn
