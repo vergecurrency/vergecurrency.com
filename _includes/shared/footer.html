@@ -137,7 +137,15 @@
               threshold: 20,
               loop: true,
               onInit: function () {},
-              onChange: function () {}
+              onDragEndChange: function () {
+                var currentSlide = this.currentSlide;
+                var perPage = this.perPage;
+
+                activeCarouselIndicator = Math.floor(currentSlide/perPage);
+
+                startCarouselInterval();
+                updateActiveCarouselIndicator();
+              }
             });
             var CAROUSEL_INTERVAL = 10000;
             var activeCarouselIndicator = 0;
@@ -360,7 +368,6 @@
 
             window.addEventListener('resize', debounce(function () {
                 if (contributorsCarouselContainerScrolledTo) {
-                    stopCarouselInterval();
                     startCarouselInterval();
                     showCarouselIndicators();
                 }
