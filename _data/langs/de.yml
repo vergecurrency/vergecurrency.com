@@ -28,7 +28,7 @@ view_all_wallets: "Alle Geldbörsen ansehen"
 info:
   about:
     header: "Warum Verge?"
-    paragraph: "Verge ist eine dezentralisierte Währung für Benutzer, denen die Privatsphäre wichtig ist. Es verbessert die ursprüngliche Bitcoin-Blockchain, indem diese mehrere anonyme Netzwerke wie Tor und I2P verwendet. Es nutzt Multi-Algorithmen-Mining zur Verbesserung der Sicherheit und bietet eine gleichmäßige Verteilung der Münzen an die Miner."
+    paragraph: "Verge ist eine dezentralisierte Währung für Benutzer, denen die Privatsphäre wichtig ist. Es verbessert die ursprüngliche Bitcoin-Blockchain, indem diese verschiedene anonyme Netzwerke wie Tor oder I2P verwendet. Es nutzt Multi-Algorithmen-Mining zur Verbesserung der Sicherheit und bietet eine gleichmäßige Verteilung der Münzen an die Miner."
   resources:
     header: "Ressourcen"
     black_paper: "Blackpaper"
@@ -93,6 +93,9 @@ exchanges:
   coinspot: "CoinSpot"
 wallets:
   header: "Geldbörsen"
+  info:
+    header: "Info:"
+    message: "Falls du nicht die Electrum Geldbörse installierst, kannst du die Installation beschleunigen, indem du die Verge Blockchain <a href='http://vergecurrency.de/' target='_blank'>hier</a> herunterlädst."
   tabs:
     desktop: "Desktop"
     mobile: "Smartphone"
