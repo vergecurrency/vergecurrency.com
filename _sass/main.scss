@@ -214,7 +214,7 @@ ul {
   background: $bg-dark;
 
   h1 {
-    color: #fff;
+    color: white;
   }
 
   a {
@@ -358,18 +358,95 @@ a.button {
   }
 }
 
-.lang-dropdown {
+.nav-dropdown {
   position: relative;
   display: inline-block;
   font-size: 16px;
-  color: #FFF;
   z-index: 9999999999;
 
   label {
     box-sizing: border-box;
     display: inline-block;
     width: 100%;
-    background-color: #383838;
+    padding: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-align: center;
+    z-index: 9999999999;
+    color: $text-dark;
+    font-weight: 400;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    i {
+      font-size: 12px;
+    }
+  }
+
+  .lang-list-column {
+    padding: 0;
+  }
+
+  ul {
+    position: absolute;
+    right: 0;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    z-index: 9999999999;
+    margin:0;
+    padding:0;
+    display: none;
+    background-color: $bg-gray;
+    box-shadow: 0 6px 12px rgba(0,0,0, .175);
+  }
+
+  ul:hover {
+    display: block;
+  }
+
+  ul li {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    cursor: pointer;
+    color: $text-dark;
+
+    a {
+      color: $text-dark;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 15px 5px;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+
+  ul li:hover {
+    
+  }
+}
+
+.nav-dropdown:hover ul {
+  display: block;
+}
+
+.lang-dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  z-index: 9999999999;
+
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: $bg-dark;
     padding: 10px 20px;
     margin-bottom: 0;
     cursor: pointer;
@@ -402,7 +479,7 @@ a.button {
     z-index: 9999999999;
     margin:0;
     padding:0;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
     display: none;
     background-color: $bg-dark;
   }
@@ -432,7 +509,7 @@ a.button {
 
   ul li:hover {
     background-color: $bg-dark2;
-    color: #FFF;
+    color: white;
   }
 }
 
@@ -450,7 +527,7 @@ ul.pools-list b {
   font-size: 12px;
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: white;
   margin-top: 40px;
 }
 

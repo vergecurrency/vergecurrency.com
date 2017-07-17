@@ -21,6 +21,8 @@ nav:
     title: "Donate"
   community:
     title: "Community"
+  social:
+    title: "Social"
 tagline: "Verge is a secure and anonymous cryptocurrency, built with a focus on privacy."
 download: "Download"
 view: "View"
