@@ -75,22 +75,27 @@ $instructions-section-size-border: 3px;
   .options-section {
     background: $verge-blue;
   }
+
   .options-section label {
     color: white;
   }
+
   .options-section h3 {
     text-align: left;
     color: white;
     margin: 0;
     padding-top: 20px;
   }
+
   .options-section button {
     margin: 0 5px;
   }
+
   .options-button-group {
     text-align: center;
     margin-top: 20px;
   }
+
   .options-form {
     padding: 0;
   }
@@ -122,6 +127,19 @@ $instructions-section-size-border: 3px;
 
   .verge-image-preview-section {
     padding-top: 10px;
+  }
+
+  .webcam-not-supported {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .webcam-not-supported.show {
+    display: block;
+  }
+
+  .preview-inner-section.hide {
+    display: none;
   }
 
   .options-section,

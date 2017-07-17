@@ -56,7 +56,12 @@
       </div>
     </section>
     <section class="col-md-6 col-sm-12 preview-section">
-      <div class="text-center">
+      <div class="webcam-not-supported alert alert-warning" role="alert">
+        <i class="fa fa-warning"></i>
+        <span class="sr-only">Error:</span>
+        {{langPath.contest_page.error.platformNotSupported | default: defaultLangPath.contest_page.error.platformNotSupported}}
+      </div>
+      <div class="preview-inner-section text-center">
         <h3>
           {{langPath.contest_page.preview.header | default: defaultLangPath.contest_page.preview.header}}
         </h3>

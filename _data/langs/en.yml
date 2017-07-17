@@ -255,3 +255,5 @@ contest_page:
     step2: "Download your anonymous GIF"
     step3: "Send a tweet to <a href='https://twitter.com/vergecurrency' target='_blank'>@vergecurrency</a> with your <span class='highlight-section'>anonymous</span> GIF and the hashtag <span class='highlight-section'>#xvgme</span>"
     step4: "The <span class='highlight-section'>top 5</span> users who get <span class='highlight-section'>the most combined likes and retweets</span> for their Verge GIF tweet will win prizes!"
+  error:
+    platformNotSupported: "Sorry, your browser is not supported. Please use Chrome or Firefox."

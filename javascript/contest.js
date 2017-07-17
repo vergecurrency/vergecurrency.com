@@ -17,6 +17,8 @@
     var placeholderDiv = document.querySelector('.placeholder-div');
     var placeholderDivDimensions = document.querySelector('.placeholder-div-dimensions');
     var progressBar = document.querySelector('progress');
+    var previewInnerSection = document.querySelector('.preview-inner-section');
+    var webcamNotSupported = document.querySelector('.webcam-not-supported');
 
     function getSelectedOptions () {
         return {
@@ -110,8 +112,13 @@
         });
     };
 
-    bindEvents();
-    updatePreview({
-        targetElem: gifWidth
-    });
+    if (gifshot.isWebCamGIFSupported()) {
+        bindEvents();
+        updatePreview({
+            targetElem: gifWidth
+        });
+    } else {
+        previewInnerSection.classList.add('hide');
+        webcamNotSupported.classList.add('show');
+    }
 }(window, document));
