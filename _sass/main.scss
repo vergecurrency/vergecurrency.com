@@ -48,7 +48,7 @@ p {
 .row {
   padding: 0 80px;
 
-  @media (max-width: 650px) {
+  @media (max-width: 775px) {
     padding: 0 5%;
   }
 }
@@ -72,7 +72,7 @@ p {
   .logo-column {
     display: inline-block;
     padding-right: 100px;
-    @media (max-width: 650px) {
+    @media (max-width: 775px) {
       padding-right: 0;
     }
   }
@@ -80,7 +80,7 @@ p {
   .nav-column {
     display: inline-block;
     vertical-align: top;
-    @media (max-width: 650px) {
+    @media (max-width: 775px) {
       visibility: hidden;
     }
   }
@@ -392,10 +392,10 @@ a.button {
 
   ul {
     position: absolute;
-    right: 0;
+    left: 0;
     list-style: none;
     text-align: left;
-    width: 100%;
+    width: auto;
     z-index: 9999999999;
     margin:0;
     padding:0;
@@ -411,7 +411,6 @@ a.button {
   ul li {
     padding: 0;
     margin: 0;
-    width: 100%;
     cursor: pointer;
     color: $text-dark;
 
@@ -420,9 +419,8 @@ a.button {
       text-decoration: none;
       font-size: 14px;
       font-weight: 400;
-      padding: 15px 5px;
+      padding: 15px 10px;
       display: inline-block;
-      width: 100%;
     }
   }
 

@@ -194,8 +194,8 @@ exchanges:
   coingather: "CoinGather"
   coinspot: "CoinSpot"
 footer:
-  community:
-    header: "Community"
+  social:
+    header: "Social"
     slack: "Slack"
     facebook: "Facebook"
     twitter: "Twitter"
