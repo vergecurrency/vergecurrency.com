@@ -2,6 +2,11 @@
   <div class="row">
     <div class="twelve columns">
       <h1>{{langPath.wallets.header | default: defaultLangPath.wallets.header}}</h1>
+      <div class="alert alert-info" role="alert">
+        <i class="fa fa-info"></i>
+        <span class="sr-only">{{langPath.wallets.info.header | default: defaultLangPath.wallets.info.header}}</span>
+        {{langPath.wallets.info.message | default: defaultLangPath.wallets.info.message}}
+      </div>
       <div class="tabs">
         <input id="desktop-tab" type="radio" name="tabs" class="tab-radio" checked>
         <label for="desktop-tab" class="tab-label">{{langPath.wallets.tabs.desktop | default: defaultLangPath.wallets.tabs.desktop}}</label>
