@@ -28,7 +28,6 @@ download: "Download"
 view: "View"
 view_all_wallets: "View All Wallets"
 contest_enter: "Enter for a chance to win 70,000 Verge coins"
-contest_ends: "Contest Ends"
 info:
   about:
     header: "About"
@@ -237,7 +236,8 @@ contest_page:
   preview:
     header: "Preview"
   counter:
-    header: "Contest Ends"
+    header: "Contest Has Ended"
+    subheader: "We will be announcing all of the winners on Monday"
   prizes:
     header: "Prizes"
     first:
