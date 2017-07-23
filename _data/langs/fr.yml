@@ -58,6 +58,7 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
 wallets:
   header: "Portefeuilles"
   tabs:
@@ -108,8 +109,12 @@ roadmap:
     header: "Amélioration de la radio Verge"
     paragraph: "Transformer la radio en \"RadioCrypto\" et l'inclure dans les portefeuilles centraux"
     date: "<font color='#08b4e0'>PUBLIE</font> 26 juin 2017"
-  i2P_tor_android_wallets:
-    header: "Portefeuilles Android i2P / TOR"
+  tor_android_wallet:
+    header: "Portefeuilles Android TOR"
+    paragraph: "Portefeuille Android pour les transactions Anonymes SEULEMENT! (bientôt terminé)"
+    date: "Juillet 2017"
+  i2P_android_wallet:
+    header: "Portefeuilles Android i2P"
     paragraph: "Portefeuille Android pour les transactions Anonymes SEULEMENT! (bientôt terminé)"
     date: "Juillet 2017"
   core_wallet_release:
@@ -128,7 +133,7 @@ roadmap:
     paragraph: "Le magasin Verge proposera des t-shirts et d'autres habillements qui pourront être achetés en XVG et en BTC."
     date: "Juillet 2017"
 footer:
-  community:
+  social:
     header: "Communauté"
     slack: "Slack"
     facebook: "Facebook"

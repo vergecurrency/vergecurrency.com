@@ -1,18 +1,18 @@
 <footer class="section col-sm-12 end-section bg-dark">
   <div class="row">
-    <div class="six columns" id="community">
-      <h1>{{langPath.footer.community.header | default: defaultLangPath.footer.community.header}}</h1>
+    <div class="six columns" id="social">
+      <h1>{{langPath.footer.social.header | default: defaultLangPath.footer.social.header}}</h1>
       <ul>
-        <li><a href="https://verge.typeform.com/to/RxDLtL" target="_blank">{{langPath.footer.community.slack | default: defaultLangPath.footer.community.slack}}</a></li>
-        <li><a href="https://www.facebook.com/VERGEcurrency/" target="_blank">{{langPath.footer.community.facebook | default: defaultLangPath.footer.community.facebook }}</a></li>
-        <li><a href="http://www.twitter.com/vergecurrency" target="_blank">{{langPath.footer.community.twitter | default: defaultLangPath.footer.community.twitter}}</a></li>
-        <li><a href="https://kiwiirc.com/client/irc.freenode.net/verge" target="_blank">{{langPath.footer.community.irc | default: defaultLangPath.footer.community.irc}}</a></li>
-        <li><a href="https://bitcointalk.org/index.php?topic=1365894" target="_blank">{{langPath.footer.community.bitcointalk | default: defaultLangPath.footer.community.bitcointalk}}</a></li>
-        <li><a href="http://www.reddit.com/r/vergecurrency/" target="_blank">{{langPath.footer.community.reddit | default: defaultLangPath.footer.community.reddit}}</a></li>
-        <li><a href="http://steamcommunity.com/groups/vergecurrency" target="_blank">{{langPath.footer.community.steam | default: defaultLangPath.footer.community.steam}}</a></li>
-        <li><a href="https://t.me/VERGExvg" target="_blank">{{langPath.footer.community.telegram | default: defaultLangPath.footer.telegram}}</a></li>
-        <li><a href="http://radiocrypto.com/" target="_blank">{{langPath.footer.community.verge_radio | default: defaultLangPath.footer.community.verge_radio}}</a></li>
-        <li><a href="https://discord.gg/ehjyKQv" target="_blank">{{langPath.footer.community.discord | default: defaultLangPath.footer.community.discord}}</a></li>
+        <li><a href="https://verge.typeform.com/to/RxDLtL" target="_blank">{{langPath.footer.social.slack | default: defaultLangPath.footer.social.slack}}</a></li>
+        <li><a href="https://www.facebook.com/VERGEcurrency/" target="_blank">{{langPath.footer.social.facebook | default: defaultLangPath.footer.social.facebook }}</a></li>
+        <li><a href="http://www.twitter.com/vergecurrency" target="_blank">{{langPath.footer.social.twitter | default: defaultLangPath.footer.social.twitter}}</a></li>
+        <li><a href="https://kiwiirc.com/client/irc.freenode.net/verge" target="_blank">{{langPath.footer.social.irc | default: defaultLangPath.footer.social.irc}}</a></li>
+        <li><a href="https://bitcointalk.org/index.php?topic=1365894" target="_blank">{{langPath.footer.social.bitcointalk | default: defaultLangPath.footer.social.bitcointalk}}</a></li>
+        <li><a href="http://www.reddit.com/r/vergecurrency/" target="_blank">{{langPath.footer.social.reddit | default: defaultLangPath.footer.social.reddit}}</a></li>
+        <li><a href="http://steamcommunity.com/groups/vergecurrency" target="_blank">{{langPath.footer.social.steam | default: defaultLangPath.footer.social.steam}}</a></li>
+        <li><a href="https://t.me/VERGExvg" target="_blank">{{langPath.footer.social.telegram | default: defaultLangPath.footer.social.telegram}}</a></li>
+        <li><a href="http://radiocrypto.com/" target="_blank">{{langPath.footer.social.verge_radio | default: defaultLangPath.footer.social.verge_radio}}</a></li>
+        <li><a href="https://discord.gg/ehjyKQv" target="_blank">{{langPath.footer.social.discord | default: defaultLangPath.footer.social.discord}}</a></li>
       </ul>
     </div>
     <div class="six columns" id="twitter-timeline">
@@ -24,26 +24,359 @@
   </div>
   <div class="footer">{{langPath.footer.copyright | default: defaultLangPath.footer.copyright}}</div>
 </footer>
-
+<!-- Helpers -->
 <script>
-  (function(window, document) {
-      var rafTimer;
-
-      window.onscroll = function (event) {
-        cancelAnimationFrame(rafTimer);
-        rafTimer = requestAnimationFrame(toggleHeaderFloating);
-      };
-
-      function toggleHeaderFloating () {
-          // does cause layout/reflow: https://git.io/vQCMn
-          if (window.scrollY > 80) {
-              document.body.classList.add('sticky');
+    function debounce(func, wait) {
+      // we need to save these in the closure
+      var timeout, args, context, timestamp;
+      return function () {
+        // save details of latest call
+        context = this;
+        args = [].slice.call(arguments, 0);
+        timestamp = new Date();
+        // this is where the magic happens
+        var later = function () {
+          // how long ago was the last call
+          var last = (new Date()) - timestamp;
+          // if the latest call was less that the wait period ago
+          // then we reset the timeout to wait for the difference
+          if (last < wait) {
+            timeout = setTimeout(later, wait - last);
+            // or if not we can null out the timer and run the latest
           } else {
-              document.body.classList.remove('sticky');
+            timeout = null;
+            func.apply(context, args);
           }
+        };
+
+        // we only need to set the timer now if one isn't already running
+        if (!timeout) {
+          timeout = setTimeout(later, wait);
+        }
+      };
+    }
+
+    function elementInViewport (el) {
+      var top = el.offsetTop;
+      var left = el.offsetLeft;
+      var width = el.offsetWidth;
+      var height = el.offsetHeight;
+
+      while(el.offsetParent) {
+        el = el.offsetParent;
+        top += el.offsetTop;
+        left += el.offsetLeft;
       }
-  }(window, document));
+
+      return (
+        top >= window.pageYOffset &&
+        left >= window.pageXOffset &&
+        (top + height) <= (window.pageYOffset + window.innerHeight) &&
+        (left + width) <= (window.pageXOffset + window.innerWidth)
+      );
+    }
 </script>
+<!-- Sticky Header -->
+<script>
+    (function(window, document) {
+        var rafTimer;
+
+        window.addEventListener('scroll', function (event) {
+            cancelAnimationFrame(rafTimer);
+            rafTimer = requestAnimationFrame(toggleHeaderFloating);
+        });;
+
+        function toggleHeaderFloating () {
+            // does cause layout/reflow: https://git.io/vQCMn
+            if (window.scrollY > 80) {
+                document.body.classList.add('sticky');
+            } else {
+                document.body.classList.remove('sticky');
+            }
+        }
+    }(window, document));
+</script>
+<script src="/javascript/vendor/flipclock.js"></script>
+<script src="/javascript/vendor/siema.js"></script>
+
+<!-- Contest Countdown -->
+<script>
+    (function (window, document) {
+        var countdownMilleseconds = Math.abs(new Date(2017, 06, 21, 21, 0, 0, 0) - new Date());
+        var countdownSeconds = (countdownMilleseconds/1000);
+        var countdownClock = $('.contest-countdown-clock').FlipClock({
+            clockFace: 'DailyCounter'
+        });
+
+        countdownClock.setTime(countdownSeconds);
+        countdownClock.setCountdown(true);
+        countdownClock.start();
+    }(window, document));
+</script>
+
+<!-- Github Contributors -->
+<script>
+    (function(window, document) {
+        try {
+            var contributorsCarouselContainer = document.getElementById('contributors-carousel');
+            var carouselIndicatorsContainer = document.getElementById('carousel-indicators');
+            var carousel = new Siema({
+              selector: '.contributors-carousel',
+              duration: 750,
+              easing: 'ease-out',
+              perPage: {
+                320: 2,
+                500: 3,
+                680: 4,
+                880: 5,
+                1000: 6,
+                1240: 8
+              },
+              startIndex: 0,
+              draggable: true,
+              threshold: 20,
+              loop: true,
+              onInit: function () {},
+              onDragEndChange: function () {
+                var currentSlide = this.currentSlide;
+                var perPage = this.perPage;
+
+                activeCarouselIndicator = Math.floor(currentSlide/perPage);
+
+                startCarouselInterval();
+                updateActiveCarouselIndicator();
+              }
+            });
+            var CAROUSEL_INTERVAL = 10000;
+            var activeCarouselIndicator = 0;
+            var carouselInterval;
+            var updateActiveCarouselIndicator = function () {
+                var carouselIndicatorListItems = carouselIndicatorsContainer.childNodes;
+
+                carouselIndicatorListItems.forEach(function (carouselIndicatorListItem, i) {
+                    if (activeCarouselIndicator === i) {
+                        carouselIndicatorListItem.classList.add('active');
+                    } else {
+                        carouselIndicatorListItem.classList.remove('active');
+                    }
+                });
+            };
+            var startCarouselInterval = function () {
+                var perPage = carousel.perPage;
+                var hasMultiplePages = numContributorsList > perPage;
+                var numIndicators = hasMultiplePages ? Math.floor(numContributorsList/perPage): 0;
+
+                stopCarouselInterval();
+
+                carouselInterval = setInterval(function () {
+                    carousel.next(carousel.perPage);
+
+                    if (activeCarouselIndicator === numIndicators) {
+                        activeCarouselIndicator = 0;
+                    } else {
+                        activeCarouselIndicator = activeCarouselIndicator + 1;
+                    }
+
+                    updateActiveCarouselIndicator();
+                }, CAROUSEL_INTERVAL);
+            };
+            var stopCarouselInterval = function () {
+                clearInterval(carouselInterval);
+            };
+            var LOCAL_STORAGE_DATE_KEY = 'github-last-request-date-2';
+            var LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY = 'github-contributors-list-2';
+            // Number of milleseconds in an hour
+            var HOUR = 3600000;
+            var lastRequestDate = window.localStorage.getItem(LOCAL_STORAGE_DATE_KEY);
+            var savedContributorsList = window.localStorage.getItem(LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY);
+            var currentDate = Date.now();
+            var VERGE_GITHUB_REPOS_URL = 'https://api.github.com/orgs/vergecurrency/repos';
+            var currentContributorsList = savedContributorsList ? JSON.parse(savedContributorsList): [];
+            var hasCurrentContributorsList = !!currentContributorsList.length;
+            var numContributorsList = 1;
+            var contributorsCarouselContainerScrolledTo = false;
+            var showCarouselIndicators = function () {
+                var indicatorsFragment = document.createDocumentFragment();
+                var perPage = carousel.perPage;
+                var hasMultiplePages = numContributorsList > perPage;
+                var numIndicators = hasMultiplePages ? Math.floor(numContributorsList/perPage): 0;
+
+                carouselIndicatorsContainer.innerHTML = '';
+
+                if (numIndicators > 0) {
+                    (function () {
+                        for (var i = 0; i <= numIndicators; i++) {
+                            var listItem = document.createElement('li');
+
+                            listItem.className = i === activeCarouselIndicator ? 'active': '';
+
+                            listItem.setAttribute('data-id', i);
+
+                            indicatorsFragment.appendChild(listItem);
+                        }
+
+                        carouselIndicatorsContainer.appendChild(indicatorsFragment);
+                    }());
+                }
+            };
+            var showContributors = function (list) {
+                list = list || [];
+
+                (function () {
+                    list.forEach(function (contributor) {
+                        var contributorElement = document.createElement('div');
+
+                        contributorElement.className = 'verge-contributor';
+
+                        contributorElement.innerHTML = '<img class="verge-contributor-image img-thumbnail" src="' + contributor.avatar_url + '"><a href="https://github.com/' + contributor.login + '" target="_blank"><div class="verge-contributor-name">' + contributor.login + '</div></a>';
+
+                        carousel.append(contributorElement);
+                    });
+
+                    showCarouselIndicators();
+                }());
+            };
+
+            // Only make more Github API requests if the data is more than 1 hour old
+            if (!lastRequestDate || (currentDate > (lastRequestDate + HOUR))) {
+                $.ajax({
+                    url: VERGE_GITHUB_REPOS_URL,
+                    data: {
+                        'client_id': 'cb5fcc22bfa58d88ba08',
+                        'client_secret': '3768563b6070424880df3a90723da61237df4c96'
+                    },
+                    success: function (data) {
+                        data = data || [];
+
+                        var contributorRequests = [];
+
+                        if (data.length) {
+                            contributorRequests = data.map(function (repo) {
+                                repo = repo || {};
+
+                                var contributorsUrl = repo.contributors_url;
+
+                                if (contributorsUrl) {
+                                    return $.ajax({
+                                        url: contributorsUrl,
+                                        data: {
+                                            'client_id': 'cb5fcc22bfa58d88ba08',
+                                            'client_secret': '3768563b6070424880df3a90723da61237df4c96'
+                                        }
+                                    });
+                                } else {
+                                    return $.Deferred();
+                                }
+                            });
+                        }
+
+                        // Wait until all of the Github repo API calls have completed
+                        $.when.apply($, contributorRequests).done(function () {
+                            var data = Array.prototype.slice.call(arguments);
+                            var contributorLoginMap = {};
+                            var contributorsList = [];
+
+                            // Unfortunately have to loop like this to get all contributors for every organization repo
+                            data.forEach(function (currentContributors) {
+                                contributorsList = contributorsList.concat(currentContributors[0] || []);
+                            });
+
+                            // Filter duplicate users and sort by number of contributions
+                            contributorsList = contributorsList.filter(function (contributor) {
+                                var login = contributor.login;
+
+                                if (contributorLoginMap[login]) {
+                                    return false;
+                                }
+
+                                contributorLoginMap[login] = true;
+
+                                return true;
+                            }).sort(function (a, b) {
+                                // Sorts by number of contributions
+                                return b.contributions - a.contributions;
+                            });
+
+                            // Adds the VergeCurrency org to the beginning of the list
+                            contributorsList.unshift({
+                                login: "vergecurrency",
+                                avatar_url: "https://avatars1.githubusercontent.com/u/16771005?v=3"
+                            });
+
+                            // Saves data to local storage to prevent having to make unneccessary API calls
+                            window.localStorage.setItem(LOCAL_STORAGE_DATE_KEY, currentDate);
+                            window.localStorage.setItem(LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY, JSON.stringify(contributorsList));
+
+                            numContributorsList = contributorsList.length;
+
+                            // Add the contributors to the page
+                            showContributors(contributorsList);
+                        });
+                    }
+                });
+            } else if (hasCurrentContributorsList) {
+                numContributorsList = currentContributorsList.length;
+
+                showContributors(currentContributorsList)
+            }
+
+            contributorsCarouselContainer.addEventListener('mouseenter', function () {
+                stopCarouselInterval();
+            });
+
+            contributorsCarouselContainer.addEventListener('mouseleave', function () {
+                startCarouselInterval();
+            });
+
+            window.addEventListener('scroll', debounce(function () {
+                if (elementInViewport(contributorsCarouselContainer) && !contributorsCarouselContainerScrolledTo) {
+                    contributorsCarouselContainerScrolledTo = true;
+                    startCarouselInterval();
+                }
+            }, 250));
+
+            carouselIndicatorsContainer.addEventListener('mouseenter', function () {
+                stopCarouselInterval();
+            });
+
+            carouselIndicatorsContainer.addEventListener('mouseleave', function () {
+                startCarouselInterval();
+            });
+
+            carouselIndicatorsContainer.addEventListener('click', function (e) {
+                var carouselIndicatorListItems = carouselIndicatorsContainer.childNodes;
+                var target = e.target;
+                var indicatorIndex = Number(target.getAttribute('data-id'));
+                var perPage = carousel.perPage;
+                var hasMultiplePages = numContributorsList > perPage;
+                var numIndicators = hasMultiplePages ? Math.floor(numContributorsList/perPage): 0;
+
+                var carouselStartingIndex = perPage * indicatorIndex;
+
+                carouselIndicatorListItems.forEach(function (carouselIndicatorListItem, i) {
+                    if (indicatorIndex === i) {
+                        carouselIndicatorListItem.classList.add('active');
+                    } else {
+                        carouselIndicatorListItem.classList.remove('active');
+                    }
+                });
+
+                carousel.goTo(carouselStartingIndex);
+
+                activeCarouselIndicator = indicatorIndex;
+            });
+
+            window.addEventListener('resize', debounce(function () {
+                if (contributorsCarouselContainerScrolledTo) {
+                    startCarouselInterval();
+                    showCarouselIndicators();
+                }
+            }, 200));
+        } catch (e) {}
+    }(window, document));
+</script>
+
+<!-- Twitter Embed -->
 <script>
   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>

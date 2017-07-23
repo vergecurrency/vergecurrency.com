@@ -58,6 +58,7 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
 wallets:
   header: "Кошельки"
   tabs:
@@ -108,7 +109,11 @@ roadmap:
     header: "Расширение интернет-радио Verge"
     paragraph: "Переделка в \"RadioCrypto\" и включение его в основные кошельки"
     date: "2<font color='#08b4e0'>ВЫПУЩЕННО</font> 6 июня 2017 года"
-  i2P_tor_android_wallets:
+  tor_android_wallet:
+    header: "Кошельки TOR для Android"
+    paragraph: "Android-кошелёк сугубо для анонимных трансакций! (почти завершён)"
+    date: "Июль 2017 года"
+  i2P_android_wallet:
     header: "Кошельки i2P / TOR для Android"
     paragraph: "Android-кошелёк сугубо для анонимных трансакций! (почти завершён)"
     date: "Июль 2017 года"
@@ -128,7 +133,7 @@ roadmap:
     paragraph: "Магазин Verge Merchandise будет иметь футболки / одежду, которые можно приобрести с помощью XVG и BTC."
     date: "Июль 2017 года"
 footer:
-  community:
+  social:
     header: "Сообщество"
     slack: "Слэк"
     facebook: "Фейсбук"

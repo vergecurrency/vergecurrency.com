@@ -1,9 +1,11 @@
 (function(window, document) {
     // Gifshot options
     var gifType = document.querySelector('#GIFType');
-    var gifHeight = document.querySelector("#gifHeight");
-    var gifWidth = document.querySelector("#gifWidth");
-    var filter = document.querySelector("#filter");
+    var gifHeight = document.querySelector('#gifHeight');
+    var gifWidth = document.querySelector('#gifWidth');
+    var filter = document.querySelector('#filter');
+    var numFrames = document.querySelector('#numFrames');
+    var frameDuration = document.querySelector('#frameDuration');
 
     // Save Elements
     var saveGIFButton = document.querySelector('#save-gif');
@@ -14,21 +16,24 @@
     var gifshotImagePreview = document.querySelector('.verge-image-preview-section');
     var placeholderDiv = document.querySelector('.placeholder-div');
     var placeholderDivDimensions = document.querySelector('.placeholder-div-dimensions');
-    var progressBar = document.querySelector("progress");
+    var progressBar = document.querySelector('progress');
+    var previewInnerSection = document.querySelector('.preview-inner-section');
+    var webcamNotSupported = document.querySelector('.webcam-not-supported');
 
     function getSelectedOptions () {
         return {
             gifWidth: Number(gifWidth.value),
             gifHeight: Number(gifHeight.value),
             filter: filter.value,
-            numFrames: 15,
+            numFrames: Number(numFrames.value),
+            frameDuration: Number(frameDuration.value),
             text: 'VergeCurrency.com',
             fontWeight: 'bold',
             fontSize: '16px',
             fontFamily: 'Arial',
             fontColor: 'white',
             textAlign: 'center',
-            textBaseline: 'bottom'
+            textYCoordinate: Number(gifHeight.value) - 10
         };
     };
     
@@ -107,8 +112,13 @@
         });
     };
 
-    bindEvents();
-    updatePreview({
-        targetElem: gifWidth
-    });
+    if (gifshot.isWebCamGIFSupported()) {
+        bindEvents();
+        updatePreview({
+            targetElem: gifWidth
+        });
+    } else {
+        previewInnerSection.classList.add('hide');
+        webcamNotSupported.classList.add('show');
+    }
 }(window, document));

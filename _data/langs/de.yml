@@ -6,23 +6,29 @@ head:
   title: "Verge - Sichere und anonyme Krypto-Währung, entwickelt mit dem Fokus auf Privatsphäre"
 nav:
   about:
-    title: "Über"
+    title: "Über Verge"
   exchanges:
-    title: "Holen Sie sich Verge"
+    title: "Hole dir Verge"
   wallets:
     title: "Geldbörsen"
   roadmap:
     title: "Roadmap"
+  developers:
+    title: "Entwickler"
+  contributors:
+    title: "Unterstützer"
+  donate:
+    title: "Spenden"
   community:
     title: "Community"
 tagline: "Verge ist eine sichere und anonyme Krypto-Währung, entwickelt mit dem Fokus auf Privatsphäre."
 download: "Herunterladen"
 view: "Aussicht"
-view_all_wallets: "Alle Brieftaschen ansehen"
+view_all_wallets: "Alle Geldbörsen ansehen"
 info:
   about:
     header: "Warum Verge?"
-    paragraph: "Verge ist eine dezentralisierte Währung für Benutzer, denen die Privatsphäre wichtig ist. Es verbessert die ursprüngliche Bitcoin-Blockkette, indem diese mehrere anonyme Netzwerke wie Tor und I2P verwendet. Es nutzt Multi-Algorithmus-Mining zur Verbesserung der Sicherheit und bietet eine gleichmäßige Verteilung der Münzen an die Miner."
+    paragraph: "Verge ist eine dezentralisierte Währung für Benutzer, denen die Privatsphäre wichtig ist. Es verbessert die ursprüngliche Bitcoin-Blockchain, indem diese verschiedene anonyme Netzwerke wie Tor oder I2P verwendet. Es nutzt Multi-Algorithmen-Mining zur Verbesserung der Sicherheit und bietet eine gleichmäßige Verteilung der Münzen an die Miner."
   resources:
     header: "Ressourcen"
     black_paper: "Blackpaper"
@@ -34,21 +40,47 @@ info:
   tech_specs:
     header: "Technische Daten"
     symbol: "<b>Symbol:</b> XVG"
-    algo: "<b>Algorithmus:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
+    algo: "<b>Algorithmen:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
     block_time: "<b>Blockzeit:</b> 30 Sekunden"
-    rpc_port: "<b>RPC-Anschluss:</b> 20102"
+    rpc_port: "<b>RPC-Port:</b> 20102"
     p2p_port: "<b>P2P-Port:</b> 21102"
 developers:
   about:
-    header: ""
-    paragraph: ""
+    header: "Für Entwickler"
+    paragraph: "Eine Softwareentwicklung ist umfangreich und kompliziert. Damit es euch möglichst leicht fällt uns zu unterstützen, haben wir eine Liste mit Tools zusammengestellt."
   resources:
-    header: ""
-    github_gui: ""
-    rubygems_howto: ""
-    github_repos: ""
+    header: "Entwickler-Tools"
+    github_gui: "GitHub Desktop"
+    php: "PHP Library für die Verge Geldbörse"
+    ruby: "Ruby gem Wrapper zur Steuerung der Verge Geldbörse"
+    python: "VERGE API zur Nutzung durch Python"
+    nodejs: "Node.js client für VERGE"
+    rubygems_howto: "Anleitung Installation RubyGems"
+    github_repos: "Unsere GitHub Repositorien"
+contributors:
+  about:
+    header: "Unterstützer"
+    paragraph: "Verge ist Open Source und wird durch die vielen Unterstützer ständig weiterentwickelt. Wenn du auch zur Entwicklung beitragen möchtest, dann schau dir unsere <a href='https://github.com/vergecurrency' target='_blank'>Github Repositorien</a> an, vielleicht findest du etwas, dass du verbessern kannst!"
+  wallets:
+    verge:
+      header: "Verge Geldbörse Adresse"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Geldbörse Adresse"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+donate:
+  about:
+    header: "Spende zur Unterstützung der Entwicklung"
+    paragraph: "Verge ist keine 'pre-mined' Münze, die komplette Entwicklung wird von netten Leuten wie Du finanziert."
+  wallets:
+    verge:
+      header: "Verge Geldbörse Adresse"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Geldbörse Adresse"
+address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1      
 exchanges:
-  header: "Holen Sie sich Verge"
+  header: "Holen dir Verge"
   paragraph: "Verge ist stolz darauf, an folgenden Börsen notiert zu sein:"
   bittrex: "Bittrex"
   bitsquare: "BitSquare.io"
@@ -58,11 +90,15 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
 wallets:
   header: "Geldbörsen"
+  info:
+    header: "Info:"
+    message: "Falls du nicht die Electrum Geldbörse installierst, kannst du die Installation beschleunigen, indem du die Verge Blockchain <a href='http://vergecurrency.de/' target='_blank'>hier</a> herunterlädst."
   tabs:
     desktop: "Desktop"
-    mobile: "Mobile"
+    mobile: "Smartphone"
     other: "Andere"
   windows: "Verge Windows Geldbörse"
   macosx: "Verge Mac OSX Geldbörse"
@@ -73,7 +109,7 @@ wallets:
   fedora: "Verge Fedora Geldbörse"
   web: "Verge Web Geldbörse"
   web_tor: "Verge TOR Web Geldbörse"
-  web_i2P: "Verge i2P Web Geldbörse"
+  web_i2P: "Verge I2P Web Geldbörse"
   raspberry_pi: "Verge Raspberry-Pi-Quellcode"
   electrum_linux: "Verge Linux Electrum Geldbörse"
   electrum_linux_tor: "Verge TOR Linux Electrum Geldbörse"
@@ -108,8 +144,12 @@ roadmap:
     header: "Migration Verge Radio"
     paragraph: "In \"RadioCrypto\" umwandeln und in Geldbörse integrieren"
     date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 26. Juni 2017"
-  i2P_tor_android_wallets:
-    header: "I2P / TOR Android Geldbörse"
+  tor_android_wallet:
+    header: "TOR Android Geldbörse"
+    paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
+    date: "Juli 2017"
+  i2P_android_wallet:
+    header: "I2P Android Geldbörse"
     paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
     date: "Juli 2017"
   core_wallet_release:
@@ -126,9 +166,22 @@ roadmap:
   merchandise_store:
     header: "Werbeartikel Online Store"
     paragraph: "Der Merchandise-Shop wird T-Shirts/Bekleidung anbieten, die Bezahlung kann mit XVG und BTC erfolgen."
-    date: "Juli 2017"
+    date: "Juli 2017"    
+  transfer_discord_service:
+    header: "Verge über Discord-Dienst senden"
+    date: "August, 2017"
+  transfer_telegram_service:
+    header: "Verge über Telegram-Dienst senden"
+    date: "August, 2017"
+  official_mining_pool:
+    header: "Offizieller Verge Multi-Algorithmen Mining Pool"
+    paragraph: "Zur Unterstützung der Verge-Entwicklung wird eine Gebühr von 2 % erhoben"
+    date: "August, 2017"
+  upgrade_electrum_client:
+    header: "Upgrade Electrum-Client Programmcode"
+    date: "August, 2017"
 footer:
-  community:
+  social:
     header: "Community"
     slack: "Slack"
     facebook: "Facebook"

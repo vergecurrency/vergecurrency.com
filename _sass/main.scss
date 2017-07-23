@@ -12,6 +12,7 @@ $text-dark: #383838;
 
 $verge-blue: #08b4e0;
 $light-gray: #DDDDDD;
+$light-green: #00c073;
 
 $bg-gray: #EEEEEE;
 $bg-dark: #383838;
@@ -39,10 +40,15 @@ p {
   max-width: 800px;
 }
 
+.highlight-section {
+    color: $text-dark;
+    font-weight: 800;
+}
+
 .row {
   padding: 0 80px;
 
-  @media (max-width: 650px) {
+  @media (max-width: 775px) {
     padding: 0 5%;
   }
 }
@@ -64,13 +70,18 @@ p {
   }
 
   .logo-column {
-    float: left;
+    display: inline-block;
+    padding-right: 100px;
+    @media (max-width: 775px) {
+      padding-right: 0;
+    }
   }
 
   .nav-column {
-    float: right;
-    @media (max-width: 1050px) {
-      display: none;
+    display: inline-block;
+    vertical-align: top;
+    @media (max-width: 775px) {
+      visibility: hidden;
     }
   }
 
@@ -94,7 +105,7 @@ p {
     top: 0;
     left: 0;
     text-align: center;
-    z-index: 9999999;
+    z-index: 99999999999;
     box-shadow: 0 0 2px 1px rgba(0,0,0,.1);
     background: white;
     height: $header-height;
@@ -102,8 +113,8 @@ p {
     width: 100%;
     padding: 0;
 
-    @media (max-width: 900px) {
-      display: none;
+    @media (max-width: 1150px) {
+      visibility: hidden;
     }
 
     .header-nested-container {
@@ -112,6 +123,7 @@ p {
 
     .logo-column {
       float: left;
+      padding-right: 0;
     }
 
     .nav-column {
@@ -202,7 +214,7 @@ ul {
   background: $bg-dark;
 
   h1 {
-    color: #fff;
+    color: white;
   }
 
   a {
@@ -234,7 +246,7 @@ a.exchange-anchor {
   -webkit-transition: all 0.15s ease-in-out; /** Chrome & Safari **/
   -moz-transition: all 0.15s ease-in-out; /** Firefox **/
   -o-transition: all 0.15s ease-in-out; /** Opera **/
-  
+
   &:hover {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
   }
@@ -272,7 +284,6 @@ a.exchange-anchor {
 
 .logo {
   width: 300px;
-  float: left;
 }
 
 a {
@@ -330,12 +341,7 @@ a.button {
 .nav {
   margin: 0;
   font-size: 16px;
-  float: right;
   padding-top: 10px;
-
-  @media(max-width: 900px) {
-    display: none;
-  }
 
   li {
     line-height: 1;
@@ -352,18 +358,93 @@ a.button {
   }
 }
 
-.lang-dropdown {
+.nav-dropdown {
   position: relative;
   display: inline-block;
   font-size: 16px;
-  color: #FFF;
   z-index: 9999999999;
 
   label {
     box-sizing: border-box;
     display: inline-block;
     width: 100%;
-    background-color: #383838;
+    padding: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-align: center;
+    z-index: 9999999999;
+    color: $text-dark;
+    font-weight: 400;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    i {
+      font-size: 12px;
+    }
+  }
+
+  .lang-list-column {
+    padding: 0;
+  }
+
+  ul {
+    position: absolute;
+    left: 0;
+    list-style: none;
+    text-align: left;
+    width: auto;
+    z-index: 9999999999;
+    margin:0;
+    padding:0;
+    display: none;
+    background-color: $bg-gray;
+    box-shadow: 0 6px 12px rgba(0,0,0, .175);
+  }
+
+  ul:hover {
+    display: block;
+  }
+
+  ul li {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: $text-dark;
+
+    a {
+      color: $text-dark;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 15px 10px;
+      display: inline-block;
+    }
+  }
+
+  ul li:hover {
+    
+  }
+}
+
+.nav-dropdown:hover ul {
+  display: block;
+}
+
+.lang-dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  z-index: 9999999999;
+
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: $bg-dark;
     padding: 10px 20px;
     margin-bottom: 0;
     cursor: pointer;
@@ -396,7 +477,7 @@ a.button {
     z-index: 9999999999;
     margin:0;
     padding:0;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
     display: none;
     background-color: $bg-dark;
   }
@@ -426,7 +507,7 @@ a.button {
 
   ul li:hover {
     background-color: $bg-dark2;
-    color: #FFF;
+    color: white;
   }
 }
 
@@ -444,8 +525,17 @@ ul.pools-list b {
   font-size: 12px;
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: white;
   margin-top: 40px;
+}
+
+.contest-index-promo {
+  margin-top: 20px;
+}
+
+.verge-contest-link {
+  position: relative;
+  z-index: 9999;
 }
 
 @import
@@ -453,10 +543,15 @@ ul.pools-list b {
   "normalize",
   "skeleton",
   "select",
+  "flipclock",
+  "cloud-animation",
   "exchanges",
   "wallet-tabs",
   "wallet-download-buttons",
   "roadmap",
-  "cloud-animation",
-  "contest"
+  "contributors",
+  "donate",
+  "webslides",
+  "contest",
+  "contest_recap"
 ;

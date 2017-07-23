@@ -15,15 +15,22 @@ nav:
     title: "Road Map"
   developers:
     title: "Developers"
+  contributors:
+    title: "Contributors"
+  donate:
+    title: "Donate"
   community:
     title: "Community"
+  social:
+    title: "Social"
 tagline: "Verge is a secure and anonymous cryptocurrency, built with a focus on privacy."
 download: "Download"
 view: "View"
 view_all_wallets: "View All Wallets"
+contest_enter: "Enter for a chance to win 70,000 Verge coins"
 info:
   about:
-    header: "Why Verge?"
+    header: "About"
     paragraph: "Verge is a decentralized currency designed for users who value privacy. It improves upon the original Bitcoin blockchain by using multiple anonymity-centric networks such as Tor and i2p. It utilizes multi-algorithm mining support to improve security and provide equal distribution of coins to miners."
   resources:
     header: "Resources"
@@ -51,8 +58,12 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
 wallets:
   header: "Wallets"
+  info:
+    header: "Info:"
+    message: "If you are not installing an Electrum wallet, you can speed up your install by downloading the Verge blockchain from <a href='http://vergecurrency.de/' target='_blank'>here</a>."
   tabs:
     desktop: "Desktop"
     mobile: "Mobile"
@@ -101,28 +112,45 @@ roadmap:
     header: "Expand Verge Radio"
     paragraph: "Transform into \"RadioCrypto\" and include in core wallets"
     date: "<font color='#08b4e0'>RELEASED</font> June 26, 2017"
-  i2P_tor_android_wallets:
-    header: "i2P/TOR Android Wallets"
-    paragraph: "Android Wallet for Anon transactions ONLY! (near completion)"
+  tor_android_wallet:
+    header: "TOR Android Wallet"
+    paragraph: "TOR Android Wallet for Anon transactions ONLY! (near completion)"
+    date: "July, 2017"
+  i2P_android_wallet:
+    header: "i2P Android Wallet"
+    paragraph: "i2P Android Wallet for Anon transactions ONLY! (near completion)"
     date: "July, 2017"
   core_wallet_release:
     header: "New Core Wallet Release"
     paragraph: "Add new features including coin control, RingCT, update libraries (openssl, boost, etc)"
     date: "July, 2017"
   rsk_smart_contracts:
-    header: "RSK smart contracts"
+    header: "RSK Smart Contracts"
     paragraph: "They are in testnet for bitcoin now. Date revolves around this timeline."
     date: "July, 2017"
   wallet_ui:
-    header: "Wallet UI overhaul"
+    header: "Wallet UI Overhaul"
     date: "July, 2017"
   merchandise_store:
     header: "Merchandise Online Store"
     paragraph: "Verge Merchandise shop will have tshirts/apparel that can be purchased with XVG and BTC."
     date: "July, 2017"
+  transfer_discord_service:
+    header: "Verge Transfer Over Discord Service"
+    date: "August, 2017"
+  transfer_telegram_service:
+    header: "Verge Transfer Over Telegram Service"
+    date: "August, 2017"
+  official_mining_pool:
+    header: "Official Verge Multi-Algorithm Mining Pool"
+    paragraph: "There will be a 2% fee going to fund further Verge development"
+    date: "August, 2017"
+  upgrade_electrum_client:
+    header: "Upgrade Electrum Client Codebases"
+    date: "August, 2017"
 developers:
   about:
-    header: "For developers"
+    header: "Developers"
     paragraph: "Writing code is hard. We would like to make it easy for you to work on Verge, so we've gathered a set of tools and put them in a list."
   resources:
     header: "Developers tools"
@@ -133,6 +161,28 @@ developers:
     nodejs: "Node.js client for VERGE"
     rubygems_howto: "How to install RubyGems"
     github_repos: "Our GitHub repositories"
+contributors:
+  about:
+    header: "Contributors"
+    paragraph: "Verge is open-source software that is constantly improving due to its many contributors. If you would like to contribute as well, take a look at our <a href='https://github.com/vergecurrency' target='_blank'>Github repositories</a> to see where you could make a difference!"
+  wallets:
+    verge:
+      header: "Verge Wallet Address"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Wallet Address"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+donate:
+  about:
+    header: "Donate to Support Development"
+    paragraph: "Verge is not a pre-mined coin, so all of its development is funded by kind people like you."
+  wallets:
+    verge:
+      header: "Verge Wallet Address"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Wallet Address"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
 exchanges:
   header: "Get Verge"
   paragraph: "Verge is proud to be listed on the following exchanges:"
@@ -144,9 +194,10 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
 footer:
-  community:
-    header: "Community"
+  social:
+    header: "Social"
     slack: "Slack"
     facebook: "Facebook"
     twitter: "Twitter"
@@ -184,9 +235,28 @@ contest_page:
     frameduration: "Frame Duration"
   preview:
     header: "Preview"
+  counter:
+    header: "Contest Has Ended"
+    subheader: "We will be announcing all of the winners on Monday"
+  prizes:
+    header: "Prizes"
+    first:
+      place: "1st"
+      prize: "70,000 coins"
+    second:
+      place: "2nd"
+      prize: "50,000 coins"
+    third:
+      place: "3rd"
+      prize: "35,000 coins"
+    top5:
+      place: "4-5th"
+      prize: "Verge T-Shirt"
   instructions:
-    header: "Contest Instructions"
-    step1: "Create an anonymous GIF of yourself that makes it impossible to tell who you are."
+    header: "Instructions"
+    step1: "Create an <span class='highlight-section'>anonymous</span> GIF of yourself that makes it <span class='highlight-section'>impossible to tell who you are.</span>"
     step2: "Download your anonymous GIF"
-    step3: "Send a tweet to <a href='https://twitter.com/vergecurrency' target='_blank'>@vergecurrency</a> with your anonymous GIF and the hashtag <b>#xvgme</b>"
-    step4: "The users who create the best anonymous GIFs (creativity is rewarded) will win Verge coins!"
+    step3: "Send a tweet to <a href='https://twitter.com/vergecurrency' target='_blank'>@vergecurrency</a> with your <span class='highlight-section'>anonymous</span> GIF and the hashtag <span class='highlight-section'>#xvgme</span>"
+    step4: "The <span class='highlight-section'>top 5</span> users who get <span class='highlight-section'>the most combined likes and retweets</span> for their Verge GIF tweet will win prizes!"
+  error:
+    platformNotSupported: "Sorry, your browser is not supported. Please use Chrome or Firefox."

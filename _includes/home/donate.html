@@ -1,0 +1,28 @@
+<section class="section col-sm-12" id="donate">
+  <div class="row">
+    <div class="twelve columns">
+      <h1>{{langPath.donate.about.header | default: defaultLangPath.donate.about.header}}</h1>
+      <p>{{langPath.donate.about.paragraph | default: defaultLangPath.donate.about.paragraph}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="donate-column col-sm-12 col-md-6">
+      <img class="donate-verge-logo" src="../../images/favicon/mstile-310x310.png" alt="Verge" title="Verge">
+      <h3 class="donate-wallet-header">{{langPath.donate.wallets.verge.header | default: defaultLangPath.donate.wallets.verge.header}}</h3>
+      <div>
+        <a href="https://prohashing.com/explorer/Verge/{{langPath.donate.wallets.verge.address | defaultLangPath.donate.wallets.verge.address}}" target="_blank">
+          {{langPath.donate.wallets.verge.address | default: defaultLangPath.donate.wallets.verge.address}}
+        </a>
+      </div>
+    </div>
+    <div class="donate-column col-sm-12 col-md-6">
+      <i class="fa fa-btc fa-2x donate-bitcoin-logo" aria-hidden="true"></i>
+      <h3 class="donate-wallet-header">{{langPath.donate.wallets.bitcoin.header | default: defaultLangPath.donate.wallets.bitcoin.header}}</h3>
+      <div>
+        <a href="https://blockchain.info/address/{{langPath.donate.wallets.bitcoin.address | defaultLangPath.donate.wallets.bitcoin.address}}" target="_blank">
+          {{langPath.donate.wallets.bitcoin.address | default: defaultLangPath.donate.wallets.bitcoin.address}}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
