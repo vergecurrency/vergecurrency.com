@@ -1505,7 +1505,7 @@
   @media (min-width: 1024px) {
     section, .slide {
       padding-top: 0;
-      padding-bottom: 12rem;
+      padding-bottom: 0;
     }
   }
   /*slide no padding (full card, .embed> youtube video...) */
@@ -1629,7 +1629,7 @@
     border-radius: .4rem;
     text-align: center;
     font-size: 2.4rem;
-    padding: .8rem;
+    padding: 0;
     cursor: pointer;
   }
   a#next {
@@ -2641,8 +2641,8 @@
     }
 
     section, .slide {
-      padding-top: 12rem;
-      padding-bottom: 12rem;
+      padding-top: 0;
+      padding-bottom: 0;
     }
   }
 
