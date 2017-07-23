@@ -1,3 +1,5 @@
+{% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +11,7 @@
   <link rel="stylesheet" href="/assets/main.css?{{site.time | date: '%s%N'}}">
   {% include shared/favicon.html %}
 </head>
-  <body class="contest_recap slideshow">
+  <body class="contest-recap-page slideshow">
     <header>
       <div class="alignleft">
           <a href="https://vergecurrency.com" title="Verge">
@@ -30,10 +32,321 @@
           </div>
         </section>
         <section>
+          <div class="wrap aligncenter">
+            <h2>
+              <strong>Top 5 Winners</strong>
+            </h2>
+            <ul class="contest-prizes-list">
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  {{langPath.contest_page.prizes.first.place | default: defaultLangPath.contest_page.prizes.first.place}}:
+                  <a href="https://twitter.com/jackwills1216/status/887428795950657537" target="_blank">jackwills1216</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  {{langPath.contest_page.prizes.first.prize | default: defaultLangPath.contest_page.prizes.first.prize}}
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  {{langPath.contest_page.prizes.second.place | default: defaultLangPath.contest_page.prizes.second.place}}:
+                  <a href="https://twitter.com/kylewlackey/status/887339003699019776" target="_blank">kylewlackey</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  {{langPath.contest_page.prizes.second.prize | default: defaultLangPath.contest_page.prizes.second.prize}}
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  {{langPath.contest_page.prizes.third.place | default: defaultLangPath.contest_page.prizes.third.place}}:
+                  <a href="https://twitter.com/LaWs0n01/status/887986888971345921" target="_blank">LaWs0n01</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  {{langPath.contest_page.prizes.third.prize | default: defaultLangPath.contest_page.prizes.third.prize}}
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  {{langPath.contest_page.prizes.top5.place | default: defaultLangPath.contest_page.prizes.top5.place}}:
+                  <a href="https://twitter.com/christian__lanz/status/888096390206894080" target="_blank">christian__lanz</a> and <a href="https://twitter.com/11alcy0ne11/status/886974780016078848" target="_blank">11alcy0ne11</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column">
+                  {{langPath.contest_page.prizes.top5.prize | default: defaultLangPath.contest_page.prizes.top5.prize}}
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="wrap aligncenter">
+            <h3>
+              <strong>But The Community Deserved More</strong>
+            </h3>
+           <h5 class="aligncenter">
+              So we are giving out 23 other prizes for submissions that we loved!
+           </h5>
+          </div>
+        </section>
+        <section>
+          <div class="wrap aligncenter">
+            <h2>
+              <strong>Creative Winners</strong>
+            </h2>
+            <ul class="contest-prizes-list">
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/ShadesOfMen/status/887146367352807424" target="_blank">ShadesOfMen</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  10,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/pronouncekorean/status/886495071578710020" target="_blank">pronouncekorean</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  10,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/DaniellaKenny/status/886672622192386048" target="_blank">DaniellaKenny</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  10,000 coins
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="wrap aligncenter">
+            <h2>
+              <strong>More Creative Winners</strong>
+            </h2>
+            <ul class="contest-prizes-list">
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/canceycancey/status/886701768830332929" target="_blank">canceycancey</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  5,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/d3xt3rz3/status/886809326307885056" target="_blank">d3xt3rz3</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  5,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/SA1TO_/status/886676381081493506" target="_blank">SA1TO_</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  5,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/DanBascon/status/886421120454230016" target="_blank">DanBascon</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  5,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/Mcshizzley/status/888423078903988224" target="_blank">Mcshizzley</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  5,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/AwesomeVinc/status/885950423974248448" target="_blank">AwesomeVinc</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  5,000 coins
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="wrap aligncenter">
+            <h2>
+              <strong>More Creative Winners</strong>
+            </h2>
+            <ul class="contest-prizes-list">
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/Windsor_Fick/status/887817050038476800" target="_blank">Windsor_Fick</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/Orbital_Lexicon/status/887538423673888768" target="_blank">Orbital_Lexicon</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/VergeCoinArtist/status/887406811908853760" target="_blank">VergeCoinArtist</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/WOOORDENAAR/status/887780816645967872" target="_blank">WOOORDENAAR</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/pronouncekorean/status/886184692210311169" target="_blank">pronouncekorean</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="wrap aligncenter">
+            <h2>
+              <strong>More Creative Winners</strong>
+            </h2>
+            <ul class="contest-prizes-list">
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/TheHodler/status/886076790896242688" target="_blank">TheHodler</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/BitcoinRecycle/status/885984585699348481" target="_blank">BitcoinRecycle</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/HerrvanderGoot/status/885960954327990272" target="_blank">HerrvanderGoot</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/WOOORDENAAR/status/887780816645967872" target="_blank">WOOORDENAAR</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/actwealthy1/status/885925693384646658" target="_blank">actwealthy1</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="wrap aligncenter">
+            <h2>
+              <strong>More Creative Winners</strong>
+            </h2>
+            <ul class="contest-prizes-list">
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/fabiotnt/status/885922813323948032" target="_blank">fabiotnt</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/CryptoStatioN/status/885825573829976064" target="_blank">CryptoStatioN</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/Bokechoco3/status/885777579852038144" target="_blank">Bokechoco3</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/LilUziVertcoin/status/886094356075212800" target="_blank">LilUziVertcoin</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+              <li>
+                <div class="col-xs-12 col-sm-6 col-md-6 place-column">
+                  <a href="https://twitter.com/HooverTung/status/888052632593608705" target="_blank">HooverTung</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 prize-column prize-coins">
+                  2,000 coins
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <div class="wrap aligncenter">
+            <h3>
+              <strong>We Received Over 125 Submissions!</strong>
+            </h3>
+            <h5>
+              If you won, please reach out to <a href="https://twitter.com/vergecurrency" target="_blank">vergecurrency</a> to receive your prize!
+            </h5>
+          </div>
+        </section>
+        <section>
+          <div class="wrap aligncenter">
+            <h3>
+              <strong>Now Let's See The Best GIFs</strong>
+            </h3>
+          </div>
+        </section>
+        <section>
           <div class="wrap">
             <div class="grid vertical-align">
               <div class="column">
-                <h3><strong>Happy Face</strong></h3>
+                <h3>
+                  <strong>Happy Face</strong>
+                </h3>
               </div>
               <div class="column">
                 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just brought my little verge to life!!! 💃💃💃 He is so happy he can&#39;t wait to hit the Moon!!! <a href="https://twitter.com/vergecurrency">@vergecurrency</a> <a href="https://twitter.com/hashtag/xvgme?src=hash">#xvgme</a> <a href="https://twitter.com/hashtag/xvgme?src=hash">#xvgme</a> <br>Lets support XVG <a href="https://t.co/CSGstFjj7V">pic.twitter.com/CSGstFjj7V</a></p>&mdash; Jack wills (@jackwills1216) <a href="https://twitter.com/jackwills1216/status/887428795950657537">July 18, 2017</a></blockquote>
