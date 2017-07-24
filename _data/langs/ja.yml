@@ -22,7 +22,7 @@ view_all_wallets: "すべてのウォレットを見る"
 info:
   about:
     header: "Vergeについて"
-    paragraph: "Vergeとはプライバシー重視の人向けの分散化された暗号通貨です。プライバシーのために複数匿名ネットワーク、TORやi2Pなど採用しています。そして安全性を支えるとマイナーにコインの公平な分配を確保するために、５つのアルゴリズムを採用しています。
+    paragraph: "Vergeとはプライバシー重視の人向けの分散化された暗号通貨です。プライバシーのために複数匿名ネットワーク、TORやi2Pなど採用しています。そして安全性を支えるとマイナーにコインの公平な分配を確保するために、５つのアルゴリズムを採用しています。"
   resources:
     header: "リソース"
     black_paper: "ブラックペーパー"
@@ -175,7 +175,7 @@ contributors:
 donate:
   about:
     header: "Vergeの開発　チップ"
-    paragraph: "Vergeは事前採掘のコインではない、チップが開発を支えます。どんな応援でも我々がとても感謝しています。
+    paragraph: "Vergeは事前採掘のコインではない、チップが開発を支えます。どんな応援でも我々がとても感謝しています。"
   wallets:
     verge:
       header: "Verge Wallet Address"
