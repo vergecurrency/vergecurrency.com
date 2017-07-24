@@ -63,7 +63,7 @@ wallets:
   header: "ウォレット"
   info:
     header: "Info:"
-    message:　"Electrumウォレットをインストールしない場合には、 <a href='http://vergecurrency.de/' target='_blank'>ここで</a>Vergeブロックチェーンをダウンロードすればインストール時間が短縮できる。"
+    message: "Electrumウォレットをインストールしない場合には、 <a href='http://vergecurrency.de/' target='_blank'>ここで</a>Vergeブロックチェーンをダウンロードすればインストール時間が短縮できる。"
   tabs:
     desktop: "デスクトップ"
     mobile: "モバイル"
@@ -163,8 +163,8 @@ developers:
       github_repos: "GitHubリポジトリ"
 contributors:
   about:
-    header: "Contributors"
-    paragraph: "Verge is open-source software that is constantly improving due to its many contributors. If you would like to contribute as well, take a look at our <a href='https://github.com/vergecurrency' target='_blank'>Github repositories</a> to see where you could make a difference!"
+    header: "コントリビュータ"
+    paragraph: "Vergeはオープンソースコミュニティです。いろいろなコントリビュータの手伝いともに、だんだん成長しています。Vergeプロジェクトを手伝いしたい場合には、Vergeの <a href='https://github.com/vergecurrency' target='_blank'>Githubを見る</a>!"
   wallets:
     verge:
       header: "Verge Wallet Address"
