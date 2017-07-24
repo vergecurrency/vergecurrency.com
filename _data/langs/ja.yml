@@ -2,42 +2,42 @@
 lang_name: "日本語"
 head:
   meta:
-    description: "（瀕 XVG ）は、安全で匿名 cryptocurrency 、プライバシーを重視して構築されています。"
-  title: "瀕そ - セキュリティと匿名 cryptocurrency 、プライバシーを重視して構築されています"
+    description: "Verge(XVG)とは、プライバシー重視の安全な匿名性暗号通貨。"
+  title: "Verge(ヴァージ)とは、プライバシー重視の安全な匿名性暗号通貨。"
 nav:
   about:
-    title: "について"
+    title: "Vergeについて"
   exchanges:
-    title: "危機を取得"
+    title: "Vergeを入手する"
   wallets:
-    title: "財布"
+    title: "ウォレット"
   roadmap:
     title: "ロードマップ"
   community:
     title: "コミュニティ"
-tagline: "目前には、安全で匿名 cryptocurrency 、プライバシーを重視して構築されています。"
+tagline: "Vergeとは、プライバシー重視の安全な匿名性暗号通貨。"
 download: "ダウンロード"
 view: "ビュー"
-view_all_wallets: "すべての財布ビュー"
+view_all_wallets: "すべてのウォレットを見る"
 info:
   about:
-    header: "なぜか寸前"
-    paragraph: "危機は、プライバシーを重視するユーザーのために設計された、分散型の通貨。 それは元の Bitcoin blockchain 時に複数の匿名性 - Tor などの中心とするネットワークを使用して向上し i 2 p は、マルチ・マイニングアルゴリズムのセキュリティを向上させるために、炭鉱労働者の硬貨の均等分配を提供し、サポートを利用しています。"
+    header: "Vergeについて"
+    paragraph: "Vergeとはプライバシー重視の人向けの分散化された暗号通貨です。プライバシーのために複数匿名ネットワーク、TORやi2Pなど採用しています。そして安全性を支えるとマイナーにコインの公平な分配を確保するために、５つのアルゴリズムを採用しています。"
   resources:
     header: "リソース"
-    black_paper: "黒い紙"
-    github: "で Github のソースコード"
+    black_paper: "ブラックペーパー"
+    github: "ソースコード（Githubで）"
     mining_pools: "マイニングプール"
-    mining_resources: "マイニングリソース"
-    blockchain_explorer_prohashing: "Blockchain Explorer（ ProHashing )"
-    blockchain_explorer_ccminer: "Blockchain Explorer (CCMiner.org)"
+    mining_resources: "マイニングのリソース"
+    blockchain_explorer_prohashing: "ブロックエクスプローラ（ProHashing)"
+    blockchain_explorer_ccminer: "ブロックエクスプローラ　(CCMiner.org)"
   tech_specs:
-    header: "技術仕様"
-    symbol: "<b>シンボル :</b> XVG"
-    algo: "<b>アルゴリズム :</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
-    block_time: "<b>ブロック時間 :</b> 30 秒"
+    header: "仕様"
+    symbol: "<b>通貨単位 :</b> XVG"
+    algo: "<b>アルゴリズム :</b>　POW（Scrypt, x17, groestl, blake2s, & lyra2rev2）"
+    block_time: "<b>ブロック生成間隔 :</b> 30 秒"
     rpc_port: "<b>RPC ポート :</b> 20102"
-    p2p_port: "<b>P 2 P ポート :</b> 21102"
+    p2p_port: "<b>P2P ポート :</b> 21102"
 developers:
   about:
     header: ""
@@ -48,8 +48,8 @@ developers:
     rubygems_howto: ""
     github_repos: ""
 exchanges:
-  header: "危機を取得"
-  paragraph: "危機は以下の交換に記載されています。"
+  header: "Vergeを入手する"
+  paragraph: "以下の取引所でVergeが入手できる。"
   bittrex: "Bittrex"
   bitsquare: "BitSquare.io"
   ccex: "C-Cex"
@@ -60,92 +60,143 @@ exchanges:
   coingather: "CoinGather"
   coinspot: "CoinSpot"
 wallets:
-  header: "財布"
+  header: "ウォレット"
+  info:
+    header: "Info:"
+    message: "Electrumウォレットをインストールしない場合には、 <a href='http://vergecurrency.de/' target='_blank'>ここで</a>Vergeブロックチェーンをダウンロードすればインストール時間が短縮できる。"
   tabs:
     desktop: "デスクトップ"
     mobile: "モバイル"
-    other: "その他の"
-  windows: "瀕そ Windows 財布"
-  macosx: "目前の Mac OSX ウォレット"
-  android: "今にも Android ウォレット"
-  archlinux: "今にも ArchLinux ウォレット"
-  centos: "今にも CentOS ウォレット"
-  debian: "今にも Debian ウォレット"
-  fedora: "瀕そ Fedora ウォレット"
-  web: "瀕そ Web 財布"
-  web_tor: "今にも TOR Web 財布"
-  web_i2P: "瀕そ i 2 P Web 財布"
-  raspberry_pi: "瀕そ Pi ラズベリーソースコード"
-  electrum_linux: "瀕そ Linux エレクトラムウォレット"
-  electrum_linux_tor: "今にも TOR Linux エレクトラムウォレット"
-  electrum_windows: "瀕そ Windows エレクトラムウォレット"
-  electrum_windows_tor: "今にも TOR Windows エレクトラムウォレット"
-  paper: "瀕そ紙財布"
-  daemon_docker: "瀕そデーモン Docker のイメージ"
-  coinomi: "Coinomi マルチ通貨 Android ウォレット"
+    other: "その他"
+  windows: "Verge Windows ウォレット"
+  macosx: "Verge　Mac OSX ウォレット"
+  android: "Verge　Android ウォレット"
+  archlinux: "Verge　ArchLinux ウォレット"
+  centos: "Verge　CentOS ウォレット"
+  debian: "Verge　Debian ウォレット"
+  fedora: "Verge　Fedora ウォレット"
+  web: "Verge　Web ウォレット"
+  web_tor: "Verge　TOR Web ウォレット"
+  web_i2P: "Verge　i2P Web ウォレット"
+  raspberry_pi: "Verge Raspberry　Pi ソースコード"
+  electrum_linux: "Verge　Linux Electrumウォレット"
+  electrum_linux_tor: "Verge TOR Linux Electrumウォレット"
+  electrum_windows: "Verge Windows Electrumウォレット"
+  electrum_windows_tor: "Verge TOR Windows Electrumウォレット"
+  paper: "Verge　ペーパーウォレット"
+  daemon_docker: "Verge　Daemon Dockerのイメージ"
+  coinomi: "Coinomi マルチ通貨 Androidウォレット"
 roadmap:
   header: "ロードマップ"
   blackpaper:
-    header: "「黒」の紙"
+    header: "「ブラック」ペーパー"
     date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 4 日"
   electrum_i2P_server_client:
-    header: "私はエレクトラム 2 p サーバ / クライアント"
+    header: "Electrum i2P サーバ / クライアント"
     date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 4 日"
   electrum_tor_server_client:
-    header: "エレクトラム TOR サーバ / クライアント"
+    header: "Electrum TOR サーバ / クライアント"
     date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 5 日"
   electrum_binaries:
-    header: "エレクトラムのバイナリ"
-    paragraph: "使いやすい用にバイナリクライアント - lite の財布を使用しています。"
+    header: "Electrumのバイナリ"
+    paragraph: "使いやすいライトウオレットのバイナリクライアント - "
     date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 7 日"
   marketing_campaign:
-    header: "暗号サービスのマーケティングキャンペーン"
-    paragraph: "と Coinomi 1 年間の広告キャンペーンを開始しました"
+    header: "マーケティングキャンペーン"
+    paragraph: "Coinomiと1年間のマーケティングキャンペーンを開始しました"
     date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 7 日"
   redesign_website:
-    header: "再設計の瀬戸際の Web サイト"
+    header: "ウェブサイトリデザイン"
     date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 12 日"
   radio:
-    header: "瀕そラジオを展開し"
-    paragraph: "「 RadioCrypto 」へと変換し、コアを財布に含める"
+    header: "Vergeラジオを発展する"
+    paragraph: "「 RadioCrypto 」に化して、コアウォレットに含める"
     date: "<font color='#08b4e0'>リリースされた</font> 2017 年 6 月 26 日"
   tor_android_wallet:
-    header: "TOR Android 財布"
-    paragraph: "Android の札入れの Anon トランザクションのみ！ （ほぼ完了）。"
+    header: "TOR Android ウォレット"
+    paragraph: "TOR　Android　ウォレット　(匿名取引のみ) （ほぼ完了）。"
     date: "7 月 2017 年"
   i2P_android_wallet:
-    header: "I 2 P Android 財布"
-    paragraph: "Android の札入れの Anon トランザクションのみ！ （ほぼ完了）。"
+    header: "i2P Android ウォレット"
+    paragraph: "i2P Android ウォレット (匿名取引のみ) （ほぼ完了）。"
     date: "7 月 2017 年"
   core_wallet_release:
     header: "新しいコア Wallet リリース"
-    paragraph: "コインコントロール、 RingCT などの新しい機能を追加するアップデートライブラリ（ openssl 、ブースト、 etc ）。"
+    paragraph: "コインコントロール、 RingCT などの新しい機能を追加し、ライブラリのアップデート（openssl 、boost、 など）。"
     date: "7 月 2017 年"
   rsk_smart_contracts:
     header: "RSK スマート契約"
-    paragraph: "彼らはのための testnet bitcoin 今しています。 日付は、このタイムラインのまわりで回転します。"
+    paragraph: "今RSKスマート契約は、Bitcoinのtestnetにあり、リリーズ時がまだ決定しません。"
     date: "7 月 2017 年"
   wallet_ui:
-    header: "財布 UI オーバーホール"
+    header: "ウォレット UI オーバーホール"
     date: "7 月 2017 年"
   merchandise_store:
-    header: "商品のオンラインストア"
-    paragraph: "瀕そ商品ショップは XVG と BTC 購入することができる T シャツ / 衣料品があります。"
+    header: "Vergeのオンラインストア"
+    paragraph: "Verge商品ショップはXVGとBTC購入することができる（Tシャツや他のグッズなど）。"
     date: "7 月 2017 年"
+  transfer_discord_service:
+    header: "DiscordでVerge取引サービス"
+    date: "8 月 2017 年"
+  transfer_telegram_service:
+    header: "TelegramでVerge取引サービス"
+    date: "8 月 2017 年"
+  official_mining_pool:
+    header: "公式のVergeマルチーアルゴリズムマイニングプール"
+    paragraph: "未来のVerge開発するために、2%　料金があるつもり。"
+    date: "8 月 2017 年"
+  upgrade_electrum_client:
+    header: "Electrumクライアントのコードアップデート"
+    date: "8 月 2017 年"
+developers:
+    about:
+      header: "開発者"
+      paragraph: "ソフトの開発は難しい。もっと簡単になるため、下記にVerge開発を支えるツールを記録します"
+    resources:
+      header: "開発ツール"
+      github_gui: "GitHub Desktop"
+      php: "VergeウォレットのPHPライブラリ"
+      ruby: "Vergeウォレットを使えるためのruby gem"
+      python: "APIバインディング（Python)"
+      nodejs: "Vergeのnode.jsクライアント"
+      rubygems_howto: "RubyGemsをインストール方法"
+      github_repos: "GitHubリポジトリ"
+contributors:
+  about:
+    header: "コントリビュータ"
+    paragraph: "Vergeはオープンソースコミュニティです。いろいろなコントリビュータの手伝いともに、だんだん成長しています。Vergeプロジェクトを手伝いしたい場合には、Vergeの <a href='https://github.com/vergecurrency' target='_blank'>Githubを見る</a>!"
+  wallets:
+    verge:
+      header: "Verge Wallet Address"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Wallet Address"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+donate:
+  about:
+    header: "Vergeの開発　チップ"
+    paragraph: "Vergeは事前採掘のコインではない、チップが開発を支えます。どんな応援でも我々がとても感謝しています。"
+  wallets:
+    verge:
+      header: "Verge Wallet Address"
+      address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+    bitcoin:
+      header: "Bitcoin Wallet Address"
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
 footer:
   social:
     header: "コミュニティ"
-    slack: "たるみ"
+    slack: "Slack"
     facebook: "Facebook"
     twitter: "Twitter"
     irc: "IRC チャット"
     bitcointalk: "BitCoinTalk"
     reddit: "Reddit"
-    steam: "スチーム"
-    telegram: "でんぽおをおて"
-    verge_radio: "瀕そラジオ"
-    discord: "なみかぜをたて瀕"
+    steam: "Steam"
+    telegram: "Telegram"
+    verge_radio: "Vergeラジオ"
+    discord: "Verge Discord"
   tweets:
     header: "ツイート"
-    by: "@ Vergecurrency ツイート"
-  copyright: "&copy; 2017 年危機"
+    by: "@Vergecurrency ツイート"
+  copyright: "&copy; 2017 Verge"
