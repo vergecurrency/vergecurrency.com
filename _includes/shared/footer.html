@@ -99,51 +99,53 @@
 </script>
 <!-- Main Video Modal -->
 <script>
-    var mainVideoModal = $('#main-video-modal');
-    var mainVideoModalContent = mainVideoModal.find('.modal-content');
-    var mainVideoModalEmbedContainer = mainVideoModal.find('.embed-container');
+    (function(window, document) {
+        var mainVideoModal = $('#main-video-modal');
+        var mainVideoModalContent = mainVideoModal.find('.modal-content');
+        var mainVideoModalEmbedContainer = mainVideoModal.find('.embed-container');
 
-    mainVideoModal.on('show.bs.modal', function () {
-        var hasVideoIframe = !!mainVideoModalEmbedContainer.find('iframe').length;
-        var mainVideoIframe;
+        mainVideoModal.on('show.bs.modal', function () {
+            var hasVideoIframe = !!mainVideoModalEmbedContainer.find('iframe').length;
+            var mainVideoIframe;
 
-        if (!hasVideoIframe) {
-            mainVideoIframe = $('<iframe>', {
-                frameborder: '0',
-                webkitAllowFullScreen: '',
-                mozallowfullscreen: '',
-                allowFullScreen: '',
-                src: 'https://www.youtube.com/embed/EFXkJjgPlII?enablejsapi=1&autoplay=1&autopause=0'
-            });
+            if (!hasVideoIframe) {
+                mainVideoIframe = $('<iframe>', {
+                    frameborder: '0',
+                    webkitAllowFullScreen: '',
+                    mozallowfullscreen: '',
+                    allowFullScreen: '',
+                    src: 'https://www.youtube.com/embed/EFXkJjgPlII?enablejsapi=1&autoplay=1&autopause=0'
+                });
 
-            mainVideoModalEmbedContainer.append(mainVideoIframe);
-        }
-    });
+                mainVideoModalEmbedContainer.append(mainVideoIframe);
+            }
+        });
 
-    mainVideoModal.on('shown.bs.modal', function () {
-        var mainVideoIframe = mainVideoModalEmbedContainer.find('iframe');
-        var hasVideoIframe = !!mainVideoIframe.length;
-        var message;
+        mainVideoModal.on('shown.bs.modal', function () {
+            var mainVideoIframe = mainVideoModalEmbedContainer.find('iframe');
+            var hasVideoIframe = !!mainVideoIframe.length;
+            var message;
 
-        if (hasVideoIframe) {
-            message = JSON.stringify({
+            if (hasVideoIframe) {
+                message = JSON.stringify({
+                    'event': 'command',
+                    'func': 'playVideo'
+                });
+
+                mainVideoIframe[0].contentWindow.postMessage(message, '*');
+            }
+        });
+
+        mainVideoModal.on('hide.bs.modal', function (e) {
+            var mainVideoIframe = mainVideoModalEmbedContainer.find('iframe') || [];
+            var message = JSON.stringify({
                 'event': 'command',
-                'func': 'playVideo'
+                'func': 'pauseVideo'
             });
 
             mainVideoIframe[0].contentWindow.postMessage(message, '*');
-        }
-    });
-
-    mainVideoModal.on('hide.bs.modal', function (e) {
-        var mainVideoIframe = mainVideoModalEmbedContainer.find('iframe') || [];
-        var message = JSON.stringify({
-            'event': 'command',
-            'func': 'pauseVideo'
         });
-
-        mainVideoIframe[0].contentWindow.postMessage(message, '*');
-    });
+    }(window, document));
 </script>
 <!-- Github Contributors -->
 <script>
