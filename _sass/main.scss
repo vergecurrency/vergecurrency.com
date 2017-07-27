@@ -256,7 +256,7 @@ a.exchange-anchor {
 .splash {
   position: relative;
   background-image: url("/splash.jpg");
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -269,7 +269,7 @@ a.exchange-anchor {
 
   .splash-inner-container {
     padding-top: $header-height;
-    height: 100vh;
+    min-height: 100vh;
     margin-left: 0;
     margin-right: 0;
 
@@ -280,6 +280,10 @@ a.exchange-anchor {
 
   h1 {
     margin-top: 100px;
+
+    @media (max-width: 775px) {
+      margin-top: 0;
+    }
   }
 }
 
@@ -410,23 +414,27 @@ a.button {
   }
 
   ul li {
+    width: 100%;
     padding: 0;
     margin: 0;
     cursor: pointer;
     color: $text-dark;
 
     a {
+      width: 100%;
       color: $text-dark;
       text-decoration: none;
       font-size: 14px;
       font-weight: 400;
-      padding: 15px 10px;
+      padding: 10px;
       display: inline-block;
     }
-  }
 
-  ul li:hover {
-    
+    a:hover {
+      text-decoration: none;
+      background: $bg-dark2;
+      color: white;
+    }
   }
 }
 

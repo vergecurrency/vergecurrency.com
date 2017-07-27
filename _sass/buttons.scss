@@ -9,6 +9,10 @@
     margin-top: 20px;
     width: 350px;
     height: 70px;
+
+    @media (max-width: 550px) {
+      width: 100%;
+    }
 }
 
 .btn.btn-default.watch-main-video-button {
@@ -54,43 +58,43 @@ a.button.wallet-download-button {
 /* OS Targets */
 body[class^="windows"] {
     a.button.windows-download-button {
-        display: flex;
+        display: flex !important;
     }
 }
 
 body.macos {
-    a.button.macos-download-button {
-        display: block;
+    .macos-download-button {
+        display: flex !important;
     }
 }
 
 body.android {
-    a.button.android-download-button {
-        display: block;
+    .android-download-button {
+        display: flex !important;
     }
 }
 
 body.arch {
-    a.button.arch-download-button {
-        display: block;
+    .arch-download-button {
+        display: flex !important;
     }
 }
 
 body.centos {
-    a.button.centos-download-button {
-        display: block;
+    .centos-download-button {
+        display: flex !important;
     }
 }
 
 body.debian {
-    a.button.debian-download-button {
-        display: block;
+    .debian-download-button {
+        display: flex !important;
     }
 }
 
 body.fedora {
-    a.button.fedora-download-button {
-        display: block;
+    .fedora-download-button {
+        display: flex !important;
     }
 }
 
@@ -102,5 +106,5 @@ button:active,
 button:focus,
 button:visited {
     border-color: $verge-blue !important;
-    box-shadow: 0 0 5px rgba(8, 180, 224, .4) !important;
+    box-shadow: 0 0 2px rgba(8, 180, 224, .4) !important;
 }
