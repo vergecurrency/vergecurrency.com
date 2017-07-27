@@ -166,6 +166,7 @@ p {
 .tagline,
 a.view-all-wallets,
 .nav a,
+.watch-main-video-button,
 .wallet-download-button {
     position: relative;
     z-index: 999999;
@@ -543,11 +544,11 @@ ul.pools-list b {
   "normalize",
   "skeleton",
   "select",
-  "flipclock",
+  "modal",
   "cloud-animation",
   "exchanges",
   "wallet-tabs",
-  "wallet-download-buttons",
+  "buttons",
   "roadmap",
   "contributors",
   "donate",

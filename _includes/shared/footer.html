@@ -24,6 +24,8 @@
   </div>
   <div class="footer">{{langPath.footer.copyright | default: defaultLangPath.footer.copyright}}</div>
 </footer>
+<script src="/javascript/vendor/bootstrap.js"></script>
+<script src="/javascript/vendor/siema.js"></script>
 <!-- Helpers -->
 <script>
     function debounce(func, wait) {
@@ -87,8 +89,7 @@
         });;
 
         function toggleHeaderFloating () {
-            // does cause layout/reflow: https://git.io/vQCMn
-            if (window.scrollY > 80) {
+            if (window.scrollY > 1000) {
                 document.body.classList.add('sticky');
             } else {
                 document.body.classList.remove('sticky');
@@ -96,24 +97,56 @@
         }
     }(window, document));
 </script>
-<script src="/javascript/vendor/flipclock.js"></script>
-<script src="/javascript/vendor/siema.js"></script>
-
-<!-- Contest Countdown -->
+<!-- Main Video Modal -->
 <script>
-    (function (window, document) {
-        var countdownMilleseconds = Math.abs(new Date(2017, 06, 21, 21, 0, 0, 0) - new Date());
-        var countdownSeconds = (countdownMilleseconds/1000);
-        var countdownClock = $('.contest-countdown-clock').FlipClock({
-            clockFace: 'DailyCounter'
+    (function(window, document) {
+        var mainVideoModal = $('#main-video-modal');
+        var mainVideoModalContent = mainVideoModal.find('.modal-content');
+        var mainVideoModalEmbedContainer = mainVideoModal.find('.embed-container');
+
+        mainVideoModal.on('show.bs.modal', function () {
+            var hasVideoIframe = !!mainVideoModalEmbedContainer.find('iframe').length;
+            var mainVideoIframe;
+
+            if (!hasVideoIframe) {
+                mainVideoIframe = $('<iframe>', {
+                    frameborder: '0',
+                    webkitAllowFullScreen: '',
+                    mozallowfullscreen: '',
+                    allowFullScreen: '',
+                    src: 'https://www.youtube.com/embed/EFXkJjgPlII?enablejsapi=1&autoplay=1&autopause=0'
+                });
+
+                mainVideoModalEmbedContainer.append(mainVideoIframe);
+            }
         });
 
-        countdownClock.setTime(countdownSeconds);
-        countdownClock.setCountdown(true);
-        countdownClock.start();
+        mainVideoModal.on('shown.bs.modal', function () {
+            var mainVideoIframe = mainVideoModalEmbedContainer.find('iframe');
+            var hasVideoIframe = !!mainVideoIframe.length;
+            var message;
+
+            if (hasVideoIframe) {
+                message = JSON.stringify({
+                    'event': 'command',
+                    'func': 'playVideo'
+                });
+
+                mainVideoIframe[0].contentWindow.postMessage(message, '*');
+            }
+        });
+
+        mainVideoModal.on('hide.bs.modal', function (e) {
+            var mainVideoIframe = mainVideoModalEmbedContainer.find('iframe') || [];
+            var message = JSON.stringify({
+                'event': 'command',
+                'func': 'pauseVideo'
+            });
+
+            mainVideoIframe[0].contentWindow.postMessage(message, '*');
+        });
     }(window, document));
 </script>
-
 <!-- Github Contributors -->
 <script>
     (function(window, document) {

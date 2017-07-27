@@ -1,38 +1,42 @@
-.main-wallet-download-buttons-list-container {
-    margin-top: 40px;
-    margin-bottom: 0;
+.main-buttons-container {
+    margin-top: 30px;
+}
+
+.main-button-container {
     display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 350px;
+    height: 70px;
+}
+
+.btn.btn-default.watch-main-video-button {
     width: 100%;
-    max-width: 400px;
+    height: 100%;
+    background: $bg-gray;
+    color: $text-dark;
 }
 
 .main-wallet-download-buttons-list {
     margin-bottom: 10px;
     padding-left: 0;
-}
+    padding-right: 0;
 
-.view-all-wallets-container {
-    text-align: center;
-}
-
-.view-all-wallets {
-    font-size: 16px;
+    a.button.wallet-download-button {
+        display: none;
+    }
 }
 
 a.button.wallet-download-button {
-    height: 80px;
-}
-
-.main-wallet-download-buttons-list .wallet-download-button {
-    display: none;
+    height: 70px;
 }
 
 .wallet-download-button-download-text {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: -5px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .wallet-download-button-description-text {
@@ -49,47 +53,54 @@ a.button.wallet-download-button {
 
 /* OS Targets */
 body[class^="windows"] {
-    .windows-download-button {
+    a.button.windows-download-button {
         display: flex;
     }
 }
 
 body.macos {
-    .macos-download-button {
+    a.button.macos-download-button {
         display: block;
     }
 }
 
 body.android {
-    .android-download-button {
+    a.button.android-download-button {
         display: block;
     }
 }
 
 body.arch {
-    .arch-download-button {
+    a.button.arch-download-button {
         display: block;
     }
 }
 
 body.centos {
-    .centos-download-button {
+    a.button.centos-download-button {
         display: block;
     }
 }
 
 body.debian {
-    .debian-download-button {
+    a.button.debian-download-button {
         display: block;
     }
 }
 
 body.fedora {
-    .fedora-download-button {
+    a.button.fedora-download-button {
         display: block;
     }
 }
 
 .footer-wallet-download-buttons-list li {
     margin: 20px 0;
+}
+
+button:active,
+button:focus,
+button:visited {
+    border-color: $verge-blue !important;
+    box-shadow: 0 0 5px rgba(8, 180, 224, .4) !important;
 }
