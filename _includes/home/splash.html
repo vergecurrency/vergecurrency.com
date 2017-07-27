@@ -6,7 +6,7 @@
     </h1>
     <div class="main-buttons-container">
       <div class="main-button-container">
-        <button class="btn btn-default watch-main-video-button" type="button" data-toggle="modal" data-target="#main-video-modal">Watch Introduction Video</button>
+        <button class="btn btn-default watch-main-video-button" type="button" data-toggle="modal" data-target="#main-video-modal">{{langPath.intro_button | default: defaultLangPath.intro_button}}</button>
       </div>
       <div class="main-button-container">
         <ul class="main-wallet-download-buttons-list col-sm-12">
@@ -222,7 +222,7 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="close-button">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" title="Close">
+            <button type="button" class="close" data-dismiss="modal" aria-label="{{langPath.close | default: defaultLangPath.close}}" title="{{langPath.close | default: defaultLangPath.close}}">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>

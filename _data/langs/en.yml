@@ -24,6 +24,8 @@ nav:
   social:
     title: "Social"
 tagline: "Verge is a secure and anonymous cryptocurrency, built with a focus on privacy."
+intro_button: "Watch Introduction Video"
+close: "Close"
 download: "Download"
 view: "View"
 view_all_wallets: "View All Wallets"
