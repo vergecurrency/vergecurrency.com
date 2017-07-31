@@ -262,3 +262,6 @@ contest_page:
     step4: "The <span class='highlight-section'>top 5</span> users who get <span class='highlight-section'>the most combined likes and retweets</span> for their Verge GIF tweet will win prizes!"
   error:
     platformNotSupported: "Sorry, your browser is not supported. Please use Chrome or Firefox."
+notificationbar:
+  close: "Close"
+  torandroidrelease: "The new Verge TOR Android Wallet is here!"
