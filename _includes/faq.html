@@ -1,26 +1,44 @@
 {% assign langPath = site.data.langs[page.lang] %}
 {% assign defaultLangPath = site.data.langs.en %}
 {% include head.html %}
-<body class="faq-page">
-  <h1>CSS + HTML only Accordion Element</h1>
-  <ul>
-    <li>
-      <input type="checkbox" checked>
-      <i></i>
-      <h2>Languages Used</h2>
-      <p>This page was written in HTML and CSS. The CSS was compiled from SASS. I used Normalize as my CSS reset and -prefix-free to save myself some headaches. I haven't quite gotten the hang of Slim for compiling into HTML, but someday I'll use it since its syntax compliments that of SASS. Regardless, this could all be done in plain HTML and CSS.</p>
-    </li>
-    <li>
-      <input type="checkbox" checked>
-      <i></i>
-      <h2>How it Works</h2>
-      <p>Using the sibling and checked selectors, we can determine the styling of sibling elements based on the checked state of the checkbox input element. One use, as demonstrated here, is an entirely CSS and HTML accordion element. Media queries are used to make the element responsive to different screen sizes.</p>
-    </li>
-    <li>
-      <input type="checkbox" checked>
-      <i></i>
-      <h2>Points of Interest</h2>
-      <p>By making the open state default for when :checked isn't detected, we can make this system accessable for browsers that don't recognize :checked. The fallback is simply an open accordion. The accordion can be manipulated with Javascript (if needed) by changing the "checked" property of the input element.</p>
-    </li>
-  </ul>
+<body>
+  {% include shared/notificationbar.html %}
+  {% include shared/header.html hide_lang_dropdown=true %}
+  <div class="faq-page container">
+    <h1>General</h1>
+    <ul>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>Is Verge Open Source?</h2>
+        <p>
+          Yes, Verge is an open source project. You can browse our organization on <a href="https://github.com/vergecurrency" target="_blank">github</a> to see all of our repositories/code.
+        </p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>How Can I Get Verge?</h2>
+        <p>
+          There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href="https://vergecurrency.com/#exchanges" target="_blank">exhange</a>. Users can also tip each other on integrated <a href="https://vergecurrency.com/#social" target="_blank">social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href="https://play.google.com/store/apps/details?id=com.vergeandroid.wallet" target="_blank">app</a>.
+        </p>
+      </li>
+    </ul>
+    <h1>Wallets</h1>
+    <ul>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>My Desktop QT Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?</h2>
+        <p>
+          Yes, you can download the latest Verge <a href="vergecurrency.de" target="_blank">blockchain</a>. After you download the latest blockchain, please read the provided <a href="https://vergecurrency.de/howto" target="_blank">instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour.
+
+          <p>
+            Please keep in mind that we also have alternate Electrum <a href="https://vergecurrency.com/#wallets" target="_blank">wallets</a> that are signficantly faster (they don't require you to store the entire blockchain locally).
+          </p>
+        </p>
+      </li>
+    </ul>
+  </div>
+  {% include shared/footer.html %}
 </body>
