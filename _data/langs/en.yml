@@ -116,7 +116,7 @@ roadmap:
     date: "<font color='#08b4e0'>RELEASED</font> June 26, 2017"
   tor_android_wallet:
     header: "TOR Android Wallet"
-    paragraph: "TOR Android Wallet for Anon transactions ONLY! (near completion)"
+    paragraph: "TOR Android Wallet for Anon transactions ONLY!"
     date: "July, 2017"
   i2P_android_wallet:
     header: "i2P Android Wallet"
