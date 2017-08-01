@@ -72,7 +72,7 @@ wallets:
     other: "Other"
   windows: "Verge Windows Wallet"
   macosx: "Verge Mac OSX Wallet"
-  android: "Verge Android Wallet"
+  android: "Verge TOR Android Wallet"
   archlinux: "Verge ArchLinux Wallet"
   centos: "Verge CentOS Wallet"
   debian: "Verge Debian Wallet"
