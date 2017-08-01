@@ -1,0 +1,1 @@
+This Android Application requires access to the camera for the strict purpose of scanning qr codes. This Android application does not collect any user information, or share any user information with any third parties. That is NOT subject to change! 
