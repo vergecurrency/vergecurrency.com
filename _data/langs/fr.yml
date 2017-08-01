@@ -13,16 +13,26 @@ nav:
     title: "Portefeuilles"
   roadmap:
     title: "Feuille de route"
+  developers:
+    title: "Développeurs"
+  contributors:
+    title: "Contributeurs"
+  donate:
+    title: "Soutenir"
   community:
     title: "Communauté"
+  social:
+    title: "Réseaux Sociaux"
 tagline: "Verge est une crypto-monnaie sécurisée et anonyme, construite avec un respect de notre intimité éléctronique."
+intro_button: "Visionner la vidéo d'introduction"
+close: "Fermer"
 download: "Télécharger"
 view: "Vue"
 view_all_wallets: "Voir tous les portefeuilles"
 info:
   about:
-    header: "Pourquoi Verge ?"
-    paragraph: "Verge est une devise electronique décentralisée conçue pour les utilisateurs qui apprécient le respect de l'intimité. Il améliore la chaîne de blocs en respect du principe original du Bitcoin en utilisant des réseaux multiples centrés sur l'anonymat tels que Tor et i2p. Il utilise un support d'exploration de type multi-algorithmes pour améliorer la sécurité et fournir une répartition égale de monnaie électronique aux mineurs."
+    header: "A propos"
+    paragraph: "Verge est une devise electronique décentralisée conçue pour les utilisateurs qui apprécient le respect de l'intimité. Elle améliore la blockchain original du bitcoin en utilisant des réseaux multiples axés sur l'anonymat tels que Tor et i2p. Elle utilise également un support d'exploration de type multi-algorithmes pour améliorer la sécurité et fournir une répartition égale de monnaie électronique aux mineurs."
   resources:
     header: "Ressources"
     black_paper: "Livre noir"
@@ -61,6 +71,9 @@ exchanges:
   coinspot: "CoinSpot"
 wallets:
   header: "Portefeuilles"
+  info:
+      header: "Informations:"
+      message: "Si vous n'installez pas un Electrum wallet, vous pouvez accélérer votre installation en téléchargeant la blockchain Verge <a href='http://vergecurrency.de/' target='_blank'>ici</a>."
   tabs:
     desktop: "Bureau"
     mobile: "Mobile"
@@ -80,13 +93,13 @@ wallets:
   electrum_linux_tor: "Portefeuille Verge TOR Linux Electrum"
   electrum_windows: "Portefeuille électronique Verge Windows Electrum"
   electrum_windows_tor: "Verge TOR Portefeuille Electronique Windows"
-  paper: "Portefeuille en papier Verge"
+  paper: "Portefeuille papier Verge"
   daemon_docker: "Image de Docker Daemon Verge"
   coinomi: "Portefeuille Coinomi Multi-Monnaie Android"
 roadmap:
   header: "Feuille de route"
   blackpaper:
-    header: "\"Livre noir"
+    header: "\"Livre\" noir"
     date: "<font color='#08b4e0'>PUBLIE</font> 4 juin 2017"
   electrum_i2P_server_client:
     header: "Electrum i2p Server / Client"
@@ -111,8 +124,8 @@ roadmap:
     date: "<font color='#08b4e0'>PUBLIE</font> 26 juin 2017"
   tor_android_wallet:
     header: "Portefeuilles Android TOR"
-    paragraph: "Portefeuille Android pour les transactions Anonymes SEULEMENT! (bientôt terminé)"
-    date: "Juillet 2017"
+    paragraph: "Portefeuille Android pour les transactions Anonymes SEULEMENT!"
+    date: "<font color='#08b4e0'>PUBLIE</font> 31 Juillet 2017"
   i2P_android_wallet:
     header: "Portefeuilles Android i2P"
     paragraph: "Portefeuille Android pour les transactions Anonymes SEULEMENT! (bientôt terminé)"
@@ -132,6 +145,40 @@ roadmap:
     header: "Boutique en ligne"
     paragraph: "Le magasin Verge proposera des t-shirts et d'autres habillements qui pourront être achetés en XVG et en BTC."
     date: "Juillet 2017"
+  transfer_discord_service:
+    header: "Transfert de fonds Verge via Discord"
+    date: "Aout, 2017"
+  transfer_telegram_service:
+    header: "Transfert de fonds Verge via Telegram"
+    date: "Aout, 2017"
+developers:
+    about:
+      header: "Développeurs"
+      paragraph: "Ecrire du code est compliqué. Nous voulons faciliter les démarches pour travailler avec Verge, nous donc avons rassemblé une liste d'outils."
+    resources:
+      header: "Outils de développement"
+      php: "Librairie PHP pour le porte-monnaie Verge"
+      ruby: "Gestionnaire RubyGems pour interagir avec le porte-monnaie Verge"
+      python: "API python"
+      nodejs: "Node.js client pour Verge"
+      rubygems_howto: "Comment installer RubyGems"
+      github_repos: "Nos repositories GitHub"
+contributors:
+  about:
+    header: "Contributeurs"
+    paragraph: "Verge est un projet open-source qui est entretenu par plusieurs contributeurs. Si vous voulez joindre l'aventure et contribuer au projet, rendez-vous sur <a href='https://github.com/vergecurrency' target='_blank'>Github repositories</a> pour voir ou vous pouvez faire la différence !"
+donate:
+  about:
+    header: "Supportez le développement"
+    paragraph: "Verge n'est pas une monnaie pré-minnée, tout son développement est financé par de généreuses personnes comme-vous."
+  wallets:
+    verge:
+      header: "Porte-monnaie Verge"
+    bitcoin:
+      header: "Porte-monnaie Bitcoin"
+exchanges:
+  header: "Obtenez Verge"
+  paragraph: "Verge est fier d'être présent sur les plateformes d'échanges suivantes:"
 footer:
   social:
     header: "Communauté"
@@ -149,3 +196,8 @@ footer:
     header: ""
     by: "Tweets par @vergecurrency"
   copyright: "&copy; 2017 Verge"
+  error:
+    plateformNotSupported: "Désolé, votre navigateur n'est pas supporté. Utilisez Chrome ou Firefox pour une meilleure expérience."
+notificationbar:
+  close: "Fermer"
+  torandroidrelease: "Le nouveau porte-monnaie TOR Android est disponible !"
