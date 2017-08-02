@@ -146,7 +146,7 @@ roadmap:
     date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 26. Juni 2017"
   tor_android_wallet:
     header: "TOR Android Geldbörse"
-    paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
+    paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen"
     date: "Juli 2017"
   i2P_android_wallet:
     header: "I2P Android Geldbörse"
@@ -161,7 +161,7 @@ roadmap:
     paragraph: "Wird aktuell im Bitcoin-Testnetzwerk getestet. Implementierung im Zeitraum dieser Roadmap."
     date: "Juli 2017"
   wallet_ui:
-    header: "Wallet UI Redesign"
+    header: "Wallet Redesign Benutzeroberfläche"
     date: "Juli 2017"
   merchandise_store:
     header: "Werbeartikel Online Store"
