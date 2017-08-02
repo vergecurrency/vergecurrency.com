@@ -24,12 +24,83 @@
         </p>
       </li>
     </ul>
+    <h1>Privacy</h1>
+    <ul>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>Why do I Need To Use TOR or i2P? Can't I just use a VPN?</h2>
+        <p>
+          Both <a href="https://www.torproject.org/" target="_blank">TOR</a> and <a href="https://geti2p.net/en/" target="_blank">i2P</a> encrypt all network traffic so that a user's IP address and data cannot be accessed. A Virtual Private Network (VPN) also encrypts network traffic, but you must trust the VPN provider to not log any of your activity (which they can and often do). Read this <a href="https://gist.github.com/joepie91/5a9909939e6ce7d09e29" target="_blank">gist</a> for more information about the pitfalls of VPN services. 
+        </p>
+      </li>
+    </ul>
     <h1>Wallets</h1>
     <ul>
       <li>
         <input type="checkbox" checked>
         <i></i>
-        <h2>My Desktop QT Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?</h2>
+        <h2>Which Verge Wallet Should I Use?</h2>
+        <p>
+          Fundamentally, there are two types of Verge wallets you can use; QT and/or Electrum. For everyday users, <b>we recommend you download an Electrum wallet</b>.
+        </p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>What Is Electrum?</h2>
+        <p>
+          <a href="https://electrum.org" target="_blank">Electrum</a> is an <a href="https://github.com/spesmilo/electrum" target="_blank">open-source</a> Bitcoin lite wallet solution. Verge has forked the Electrum wallet codebase and updated to have it work with the Verge blockchain.
+        </p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>What Is an Electrum Wallet?</h2>
+        <p>
+          A Verge Electrum wallet is a wallet that is focused on speed and low resource usage. Electrum wallets use a technology called, <a href="http://docs.electrum.org/en/latest/spv.html" target="_blank">Simple Payment Verification</a> (SPV), that verifies transactions on the Verge blockchain without needing to download the entire blockchain. The SPV technology allows average transaction confirmation times to drop to ~5 seconds (instead of ~30 seconds for non-Electrum). For more general questions about Electrum, please go to their <a href="http://docs.electrum.org/en/latest/faq.html" target="_blank">FAQ</a> page.
+        </p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>What Is QT?</h2>
+        <p>
+          <a href="https://www.qt.io" target="_blank">QT</a> is a cross-platform application and UI framework for developers using the C++ programming language. It allows developers to write code in C++ and then release their software to various software and hardware platforms. Per <a href="https://en.wikipedia.org/wiki/Qt_(software)" target="_blank">Wikipedia</a>, the toolkit was named QT because "the letter Q looked appealing in Haavard's Emacs typeface, and 't' was inspired by Xt, the X toolkit". 
+        </p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>What is a QT Wallet?</h2>
+        <p>
+          QT wallets require that you download the entire <a href="https://vergecurrency.de/" target="_blank">Verge blockchain</a> to your computer. In other words, your computer must download a record of every single Verge transaction that has ever occurred. Currently, the Verge blockchain is ~1GB and will continue to climb as more users make transactions. If you are using a QT wallet, make sure your device has enough extra storage to handle it.
+        </p>
+        <p>
+          Every time you open your QT wallet, the wallet will synchronize and download the latest blockchain data to your computer. If you decide to use a QT wallet, you will most likely want to use it on a regular basis; or it could take an hour or more (depending on how long it has been since you opened your wallet last) to download the latest blockchain updates.
+        </p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>How Do I Create a Backup of My Wallet?</h2>
+        <p>
+          If you are using an Electrum wallet, all you have to do is keep your 12 word seedphrase secure. You are provided your seedphrase when you first create your Verge wallet and can access it by looking in your app  settings (it is password protected). We recommend that you do not store your seedphrase electronically, since that would make it possible for it to be stolen. If someone steals your seedphrase, then they could steal all of your coins.
+        </p>
+        <p>
+          As long as you have your seedphrase, you will always be able to recover your wallet. For example, if Bob is using the Verge TOR Android wallet and accidentally drops his phone in water (breaking it), he can easily recover his Verge wallet on his new phone by re-downloading the Verge app and entering his 12 word seedphrase. If you do not remember your seedphrase, all of the coins you had in your wallet will be lost.
+        </p>        
+        <p>
+          If you would like to encrypt your QT wallet, you can create a passphrase by going to <b>Settings -> Encrypt Wallet</b>. Once you have created a passphrase, you can create an encrypted backup of your wallet by going to <b>File -> Backup Wallet</b>. The private keys of the QT wallet are saved in a wallet.dat file. Whenever you send Verge coins, it will use the private key from the wallet.dat file. <b>Keep in mind that every time you create a new Verge wallet address, you MUST create a new backup</b>.
+        </p>
+        <p>
+          As long as you have your up-to-date wallet.dat file, you can recover and import your coins into a Verge wallet. If you lose your wallet.dat file, all of the coins you had in your wallet will be lost.
+        </p>
+      </li>
+      <li>
+        <input type="checkbox" checked>
+        <i></i>
+        <h2>My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?</h2>
         <p>
           Yes, you can download the latest Verge <a href="vergecurrency.de" target="_blank">blockchain</a>. After you download the latest blockchain, please read the provided <a href="https://vergecurrency.de/howto" target="_blank">instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour.
 
