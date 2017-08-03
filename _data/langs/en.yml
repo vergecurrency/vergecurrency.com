@@ -13,6 +13,8 @@ nav:
     title: "Wallets"
   roadmap:
     title: "Road Map"
+  faq:
+    title: "FAQ"
   developers:
     title: "Developers"
   contributors:
