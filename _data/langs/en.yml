@@ -177,7 +177,7 @@ contributors:
 donate:
   about:
     header: "Donate to Support Development"
-    paragraph: "Verge is not a pre-mined coin, so all of its development is funded by kind people like you."
+    paragraph: "Verge is not a premined coin, so all of its development is funded by kind people like you."
   wallets:
     verge:
       header: "Verge Wallet Address"
