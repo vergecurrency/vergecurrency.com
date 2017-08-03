@@ -81,12 +81,19 @@
 <!-- Sticky Header -->
 <script>
     (function(window, document) {
+        var pathname = window.location.pathname;
+        var isDefaultPathname = (
+            pathname === '' ||
+            pathname === '/'
+        );
         var rafTimer;
 
-        window.addEventListener('scroll', function (event) {
-            cancelAnimationFrame(rafTimer);
-            rafTimer = requestAnimationFrame(toggleHeaderFloating);
-        });;
+        if (isDefaultPathname) {
+            window.addEventListener('scroll', function (event) {
+                cancelAnimationFrame(rafTimer);
+                rafTimer = requestAnimationFrame(toggleHeaderFloating);
+            });
+        }
 
         function toggleHeaderFloating () {
             if (window.scrollY > 1000) {
