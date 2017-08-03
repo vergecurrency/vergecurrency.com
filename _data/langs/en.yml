@@ -273,6 +273,9 @@ faq:
     header: "Table of Contents"
     general:
       subheader: "General"
+      whatisverge:
+        question: "What is Verge?"
+        answer: "Verge is a privacy focused public ledger, that is verified by blockchain technology. The core foundation is built around decentralized transactions that are supported by a global community."
       goal:
         question: "What is the Goal of Verge?"
         answer: "To bring user privacy to the masses and keep the original vision of Bitcoin alive by providing user privacy in a public ledger."
@@ -310,6 +313,9 @@ faq:
         answer: "It is important for a currency to have a large supply (and not released all at once) so that a small minority of people do not own the majority of the coin."
         answer2: "If the majority of the coins are owned by a small amount of people, there could be drastic price fluctuations based on the actions of a few. If one person, who owned 60% of all Verge coins decided to sell all of their Verge coins, the Verge price would plummet. An important factor in a viable long-term currency is keeping a stable price so that users are not afraid of using and accumulating the currency in their day-to-day lives."
         answer3: "A nice side effect of a higher supply means that the potential price of a single Verge coin could more closely align to the price of a single fiat currency (eg. USD or GBP). This would help people not have to calculate to many decimal places (eg. \"I'm sending you .002 bitcoin\")."
+      whocontrolsprice:
+        question: "Who Controls the Price of Verge?"
+        answer: "The monetary value of Verge is determined by buyers and sellers of Verge. It’s value, like most things, is determined by the market. It’s really as simple as that."
       publicledger:
         question: "Why Does Verge Have a Public Ledger?"
         answer: "We believe a blockchain should be public if it is a currency, for a wide array of reasons; most of them to protect the users of the currency. With a public blockchain, you are able to see coin distribution and how many people are using the currency."
@@ -362,6 +368,9 @@ faq:
         question: "My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?"
         answer: "Yes, you can download the latest Verge <a href='vergecurrency.de' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://vergecurrency.de/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour."
         answer2: "Please keep in mind that we also have alternate Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>wallets</a> that are signficantly faster (they don't require you to store the entire blockchain locally)."
+      torandroidnoconnection:
+        question: "Why am I Seeing No Connection on my Verge TOR Android app?"
+        answer: "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu."
     mining:
       subheader: "Mining"
       proof:
