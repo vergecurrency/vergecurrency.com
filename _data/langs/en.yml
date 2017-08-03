@@ -265,3 +265,106 @@ contest_page:
 notificationbar:
   close: "Close"
   torandroidrelease: "The new Verge TOR Android Wallet is here!"
+faq:
+  tagline: "Frequently Asked Questions"
+  toc:
+    header: "Table of Contents"
+    general:
+      subheader: "General"
+      goal:
+        question: "What is the Goal of Verge?"
+        answer: "To bring user privacy to the masses and keep the original vision of Bitcoin alive by providing user privacy in a public ledger."
+      opensource:
+        question: "Is Verge Open Source?"
+        answer: "Yes, Verge is an open source project. You can browse our organization on <a href='https://github.com/vergecurrency' target='_blank'>github</a> to see all of our repositories/code. It is important to understand that Verge is not a company and has no company backing."
+      getverge:
+        question: "How Can I Get Verge?"
+        answer: "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='https://vergecurrency.com/#exchanges' target='_blank'>exhange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
+      funded:
+        question: "How Is Verge Development Funded?"
+        answer: " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='https://vergecurrency.com/#donate' target='_blank'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
+      marketing:
+        question: "Why Does Verge Not Market More?"
+        answer: "We have run ad campaigns with <a href='https://coinomi.com/' target='_blank'>Coinomi</a> and <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a>. It is important to note that Verge is 100% funded by the developers and community."
+        answer2: "We have also run self-built social media marketing campaigns, recently showcased by our animated <a href='vergecurrency.com/contest' target='_blank'>GIF contest</a> where we gave out over 200,000 Verge coins to our community. You can read the <a href='http://vergecurrency.com/contestrecap' target='_blank'>contest recap</a>."
+      numdevelopers:
+        question: "How Many Developers Does Verge Have?"
+        answer: "Currently, Verge has a few different development teams. The core team has one main developer (<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) and 10 other <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>contributors</a>. The website team has two main developers (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> and <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) and 16 other <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>contributors</a>. The marketing team has one main contributor (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) and many other contributors. You can see a full list of our <a href='https://vergecurrency.com/#contributors' target='_blank'>contributors</a> on our website."
+      whitepaper:
+        question: "Does Verge Have a White Paper?"
+        answer: "Yes, but we call ours a <a href='https://vergecurrency.com/assets/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>Black Paper</a>."
+      beenaround:
+        question: "How Long Has Verge Been Around?"
+        answer: "The coin was created in 2014 under the name, \"DogecoinDark\". In 2016, the coin was rebranded as \"Verge\" so that the community would understand that it was a serious coin."
+      premine:
+        question: "Did Verge Do a Premine?"
+        answer: "No, Verge did <b>not</b> do a premine. This means that all of the Verge developers bought all of their Verge coins like everybody else."
+        answer2: "In case you don't know, a premine is where the developers of a currency allocate a certain amount of a currency to go to a particular address before releasing it to the open community."
+      totalcoinsupply:
+        question: "What is the Total Coin Supply?"
+        answer: "The total coin supply limit is <b>~16.5 billion</b> (16,555,000,000 to be exact). It is important to understand that not all of the coins have been released and are on a time-based release. ~9 billion coins were released during the first year (2014) and 1 billion more coins have been (and will be) released every year until the total supply cap has been reached."
+      whysomanycoins:
+        question: "Why Are There So Many Verge Coins?"
+        answer: "It is important for a currency to have a large supply (and not released all at once) so that a small minority of people do not own the majority of the coin."
+        answer2: "If the majority of the coins are owned by a small amount of people, there could be drastic price fluctuations based on the actions of a few. If one person, who owned 60% of all Verge coins decided to sell all of their Verge coins, the Verge price would plummet. An important factor in a viable long-term currency is keeping a stable price so that users are not afraid of using and accumulating the currency in their day-to-day lives."
+        answer3: "A nice side effect of a higher supply means that the potential price of a single Verge coin could more closely align to the price of a single fiat currency (eg. USD or GBP). This would help people not have to calculate to many decimal places (eg. \"I'm sending you .002 bitcoin\")."
+      publicledger:
+        question: "Why Does Verge Have a Public Ledger?"
+        answer: "We believe a blockchain should be public if it is a currency, for a wide array of reasons; most of them to protect the users of the currency. With a public blockchain, you are able to see coin distribution and how many people are using the currency."
+        answer2: "You are able to see all transactions on the blockchain, but you won't know who the transactions are going to or where the senders/receivers physically are located."
+      richlist:
+        question: "Where Can I View the Verge Rich List?"
+        answer: "You can view the rich list <a href='http://vergecurrency.info/richlist' target='_blank'>here</a>. If the site is down, please let us know since it is hosted on a community donated server."
+      wheretolearmore:
+        question: "Where Can I Go to Learn More About Verge?"
+        answer: "We are on a ton of different <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms and are very active on Twitter Telegram, Slack, and Discourse."
+      roadmap:
+        question: "Where Can I Find the Verge Roadmap?"
+        answer: "We have a <a href='https://vergecurrency.com/#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
+    privacy:
+      subheader: "Privacy"
+      whynotvpn:
+        question: "Why do I Need To Use TOR or i2P? Can't I just use a VPN?"
+        answer: "Both <a href='https://www.torproject.org/' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> encrypt all network traffic so that a user's IP address and data cannot be accessed. A Virtual Private Network (VPN) also encrypts network traffic, but you must trust the VPN provider to not log any of your activity (which they can and often do). Read this <a href='https://gist.github.com/joepie91/5a9909939e6ce7d09e29' target='_blank'>gist</a> for more information about the pitfalls of VPN services."
+      otheranoncoins:
+        question: "How Is Verge Different Than the Other Anonymous Coins Currently Available?"
+        answer: "In our opinion, almost all of the other coins who claim to value privacy aren't serious about protecting a user's IP address (the exception being Monero, who is working on this). Most of these coins log user IP addresses and only claim to be \"private\" because they attempt to mask/hide the transactions on their network. Verge has a transparent ledger that allows anyone to view all of it's transactions, but protects user identities and locations by integrating both <a href='https://www.torproject.org/'' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> to not expose IP addresses."
+      masternodes:
+        question: "Will Verge Ever Have Masternodes?"
+        answer: "No, we believe Masternodes are a weakness and centralize the network. A hacker could very easily perform a DDOS (Distributed Denial of Service) attack on the Masternodes, causing the network to be brought down. Also, a government agency could issue a subpeona to retrieve all of the Masternode logs (most of the current \"anonymous\" coins log user IP addresses here)."
+    wallets:
+      subheader: "Wallets"
+      whichwallet:
+        question: "Which Verge Wallet Should I Use?"
+        answer: "Fundamentally, there are two types of Verge wallets you can use; QT and/or Electrum. For everyday users, <b>we recommend you download an Electrum wallet</b>."
+      electrum:
+        question: "What Is Electrum?"
+        answer: "<a href='https://electrum.org' target='_blank'>Electrum</a> is an <a href='https://github.com/spesmilo/electrum' target='_blank'>open-source</a> Bitcoin lite wallet solution. Verge has forked the Electrum wallet codebase and updated to have it work with the Verge blockchain."
+      electrumwallet:
+        question: "What Is an Electrum Wallet?"
+        answer: "A Verge Electrum wallet is a wallet that is focused on speed and low resource usage. Electrum wallets use a technology called, <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV), that verifies transactions on the Verge blockchain without needing to download the entire blockchain. The SPV technology allows average transaction confirmation times to drop to ~5 seconds (instead of ~30 seconds for non-Electrum). For more general questions about Electrum, please go to their <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'>FAQ</a> page."
+      qt:
+        question: "What Is QT?"
+        answer: "<a href='https://www.qt.io' target='_blank'>QT</a> is a cross-platform application and UI framework for developers using the C++ programming language. It allows developers to write code in C++ and then release their software to various software and hardware platforms. Per <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>, the toolkit was named QT because \"the letter Q looked appealing in Haavard's Emacs typeface, and 't' was inspired by Xt, the X toolkit\". "
+      qtwallet:
+        question: "What is a QT Wallet?"
+        answer: "QT wallets require that you download the entire <a href='https://vergecurrency.de/' target='_blank'>Verge blockchain</a> to your computer. In other words, your computer must download a record of every single Verge transaction that has ever occurred. Currently, the Verge blockchain is ~1GB and will continue to climb as more users make transactions. If you are using a QT wallet, make sure your device has enough extra storage to handle it."
+        answer2: "Every time you open your QT wallet, the wallet will synchronize and download the latest blockchain data to your computer. If you decide to use a QT wallet, you will most likely want to use it on a regular basis; or it could take an hour or more (depending on how long it has been since you opened your wallet last) to download the latest blockchain updates."
+      backup:
+        question: "How Do I Create a Backup of My Wallet?"
+        answer: "If you are using an Electrum wallet, all you have to do is keep your 12 word seedphrase secure. You are provided your seedphrase when you first create your Verge wallet and can access it by looking in your app  settings (it is password protected). We recommend that you do not store your seedphrase electronically, since that would make it possible for it to be stolen. If someone steals your seedphrase, then they could steal all of your coins."
+        answer2: "As long as you have your seedphrase, you will always be able to recover your wallet. For example, if Bob is using the Verge TOR Android wallet and accidentally drops his phone in water (breaking it), he can easily recover his Verge wallet on his new phone by re-downloading the Verge app and entering his 12 word seedphrase. If you do not remember your seedphrase, all of the coins you had in your wallet will be lost."
+        answer3: "If you would like to encrypt your QT wallet, you can create a passphrase by going to <b>Settings -> Encrypt Wallet</b>. Once you have created a passphrase, you can create an encrypted backup of your wallet by going to <b>File -> Backup Wallet</b>. The private keys of the QT wallet are saved in a wallet.dat file. Whenever you send Verge coins, it will use the private key from the wallet.dat file. <b>Keep in mind that every time you create a new Verge wallet address, you MUST create a new backup</b>."
+        answer4: "As long as you have your up-to-date wallet.dat file, you can recover and import your coins into a Verge wallet. If you lose your wallet.dat file, all of the coins you had in your wallet will be lost."
+      longsync:
+        question: "My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?"
+        answer: "Yes, you can download the latest Verge <a href='vergecurrency.de' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://vergecurrency.de/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour."
+        answer2: "Please keep in mind that we also have alternate Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>wallets</a> that are signficantly faster (they don't require you to store the entire blockchain locally)."
+    mining:
+      subheader: "Mining"
+      proof:
+        question: "Is Verge POW or POS?"
+        answer: "Verge is 100% <b>POW</b> (Proof of Work). We believe POS (Proof of Stake) systems unfairly benefit the users who have the most coins; making it so the rich get richer. This is also currently an issue with traditional fiat currencies (eg. USD)."
+      algorithms:
+        question: "What Algorithms Does Verge Support?"
+        answer: "Verge uses multi-algorithm mining support. That means that individuals with different types of mining equipment are able to mine verge, which means more security through decentralization and a more fair distribution of coins among Verge’s mining community. Verge is one of the few cryptocurrencies that support five different hashing algorithms; Namely, Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."

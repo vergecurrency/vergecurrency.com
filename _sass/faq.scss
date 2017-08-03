@@ -143,6 +143,10 @@
     #toc {
       width: 25%;
 
+      .toc-header {
+        margin-left: 10px;
+      }
+
       .tocify-header {
         .tocify-item {
           margin-left: 0;

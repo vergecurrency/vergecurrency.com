@@ -4,268 +4,269 @@
 <body>
   {% include shared/header.html hide_lang_dropdown=true %}
   <div class="faq-page">
-    <h1 class="tagline">Frequently Asked Questions</h1>
+    <h1 class="tagline">{{langPath.faq.tagline | default: defaultLangPath.faq.tagline}}</h1>
     <div class="faq-toc-container col-md-4">
-      <div id="toc"></div>
+      <div id="toc">
+        <h3 class="toc-header">{{langPath.faq.toc.header | default: defaultLangPath.faq.toc.header}}</h3>
+      </div>
     </div>
     <div class="faq-content-container col-md-8 bg-gray">
       <div class="container">
-        <h1>General</h1>
+        <h1>{{langPath.faq.toc.general.subheader | default: defaultLangPath.faq.toc.general.subheader}}</h1>
         <ul>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>What is the Goal of Verge?</h2>
+            <h2>{{langPath.faq.toc.general.goal.question | default: defaultLangPath.faq.toc.goal.question}}</h2>
             <p>
-              To bring user privacy to the masses and keep the original vision of Bitcoin alive by providing user privacy in a public ledger.
+              {{langPath.faq.toc.general.goal.answer | default: defaultLangPath.faq.toc.goal.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Is Verge Open Source?</h2>
+            <h2>{{langPath.faq.toc.general.opensource.question | default: defaultLangPath.faq.toc.opensource.question}}</h2>
             <p>
-              Yes, Verge is an open source project. You can browse our organization on <a href="https://github.com/vergecurrency" target="_blank">github</a> to see all of our repositories/code. It is important to understand that Verge is not a company and has no company backing.
+              {{langPath.faq.toc.general.opensource.answer | default: defaultLangPath.faq.toc.opensource.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>How Can I Get Verge?</h2>
+            <h2>{{langPath.faq.toc.general.getverge.question | default: defaultLangPath.faq.toc.getverge.question}}</h2>
             <p>
-              There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href="https://vergecurrency.com/#exchanges" target="_blank">exhange</a>. Users can also tip each other on integrated <a href="https://vergecurrency.com/#social" target="_blank">social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href="https://play.google.com/store/apps/details?id=com.vergeandroid.wallet" target="_blank">app</a>.
+              {{langPath.faq.toc.general.getverge.answer | default: defaultLangPath.faq.toc.getverge.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>How Is Verge Development Funded?</h2>
+            <h2>{{langPath.faq.toc.general.funded.question | default: defaultLangPath.faq.toc.funded.question}}</h2>
             <p>
-              Verge is an open-source project, so all of the development work is funded by the developers and community <a href="https://vergecurrency.com/#donate" target="_blank">donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>. 
+              {{langPath.faq.toc.general.funded.answer | default: defaultLangPath.faq.toc.funded.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Why Does Verge Not Market More?</h2>
+            <h2>{{langPath.faq.toc.general.marketing.question | default: defaultLangPath.faq.toc.marketing.question}}</h2>
             <p>
-              We have run ad campaigns with <a href="https://coinomi.com/" target="_blank">Coinomi</a> and <a href="coinmarketcap.com" target="_blank">Coinmarketcap</a>. It is important to note that Verge is 100% funded by the developers and community.
+              {{langPath.faq.toc.general.marketing.answer | default: defaultLangPath.faq.toc.marketing.answer}}
             </p>
             <p>
-              We have also run self-built social media marketing campaigns, recently showcased by our animated <a href="vergecurrency.com/contest" target="_blank">GIF contest</a> where we gave out over 200,000 Verge coins to our community. You can read the <a href="http://vergecurrency.com/contestrecap" target="_blank">contest recap</a>.
-            </p>
-          </li>
-          <li>
-            <input type="checkbox">
-            <i></i>
-            <h2>How Many Developers Does Verge Have?</h2>
-            <p>
-              Currently, Verge has a few different development teams. The core team has one main developer (<a href="https://github.com/justinvforvendetta" target="_blank">Sunerok</a>) and 10 other <a href="https://github.com/vergecurrency/VERGE/graphs/contributors" target="_blank">contributors</a>. The website team has two main developers (<a href="https://github.com/gfranko" target="_blank">gfranko</a> and <a href="https://github.com/hellokarma" target="_blank">hellokarma</a>) and 16 other <a href="https://github.com/vergecurrency/vergecurrency.com/graphs/contributors" target="_blank">contributors</a>. The marketing team has one main contributor (<a href="https://github.com/CryptoRekt" target="_blank">cryptorekt</a>) and many other contributors.
+              {{langPath.faq.toc.general.marketing.answer2 | default: defaultLangPath.faq.toc.marketing.answer2}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Does Verge Have a White Paper?</h2>
+            <h2>{{langPath.faq.toc.general.numdevelopers.question | default: defaultLangPath.faq.toc.numdevelopers.question}}</h2>
             <p>
-              Yes, but we call ours a <a href="https://vergecurrency.com/assets/Verge-Anonymity-Centric-CryptoCurrency.pdf" target="_blank">Black Paper</a>.
+              {{langPath.faq.toc.general.numdevelopers.answer | default: defaultLangPath.faq.toc.numdevelopers.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>How Long Has Verge Been Around?</h2>
+            <h2>{{langPath.faq.toc.general.whitepaper.question | default: defaultLangPath.faq.toc.whitepaper.question}}</h2>
             <p>
-              The coin was created in 2014 under the name, "DogecoinDark". In 2016, the coin was rebranded as "Verge" so that the community would understand that it was a serious coin.
+              {{langPath.faq.toc.general.whitepaper.answer | default: defaultLangPath.faq.toc.whitepaper.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Did Verge Do a Premine?</h2>
+            <h2>{{langPath.faq.toc.general.beenaround.question | default: defaultLangPath.faq.toc.beenaround.question}}</h2>
             <p>
-              No, Verge did <b>not</b> do a premine. This means that all of the Verge developers bought all of their Verge coins like everybody else.
-            </p>
-            <p>
-              In case you don't know, a premine is where the developers of a currency allocate a certain amount of a currency to go to a particular address before releasing it to the open community.
+              {{langPath.faq.toc.general.beenaround.answer | default: defaultLangPath.faq.toc.beenaround.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>What is the Total Coin Supply?</h2>
+            <h2>{{langPath.faq.toc.general.premine.question | default: defaultLangPath.faq.toc.premine.question}}</h2>
             <p>
-              The total coin supply limit is <b>~16.5 billion</b> (16,555,000,000 to be exact). It is important to understand that not all of the coins have been released and are on a time-based release. ~9 billion coins were released during the first year (2014) and 1 billion more coins have been (and will be) released every year until the total supply cap has been reached.
+              {{langPath.faq.toc.general.premine.answer | default: defaultLangPath.faq.toc.premine.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.general.premine.answer2 | default: defaultLangPath.faq.toc.premine.answer2}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Why Are There So Many Verge Coins?</h2>
+            <h2>{{langPath.faq.toc.general.totalcoinsupply.question | default: defaultLangPath.faq.toc.totalcoinsupply.question}}</h2>
             <p>
-              It is important for a currency to have a large supply (and not released all at once) so that a small minority of people do not own the majority of the coin.
-            </p>
-            <p>
-              If the majority of the coins are owned by a small amount of people, there could be drastic price fluctuations based on the actions of a few. If one person, who owned 60% of all Verge coins decided to sell all of their Verge coins, the Verge price would plummet. An important factor in a viable long-term currency is keeping a stable price so that users are not afraid of using and accumulating the currency in their day-to-day lives.
-            </p>
-            <p>
-              A nice side effect of a higher supply means that the potential price of a single Verge coin could more closely align to the price of a single fiat currency (eg. USD or GBP). This would help people not have to calculate to many decimal places (eg. "I'm sending you .002 bitcoin").
+              {{langPath.faq.toc.general.totalcoinsupply.answer | default: defaultLangPath.faq.toc.totalcoinsupply.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Why Does Verge Have a Public Ledger?</h2>
+            <h2>{{langPath.faq.toc.general.whysomanycoins.question | default: defaultLangPath.faq.toc.whysomanycoins.question}}</h2>
             <p>
-              We believe a blockchain should be public if it is a currency, for a wide array of reasons; most of them to protect the users of the currency. With a public blockchain, you are able to see coin distribution and how many people are using the currency.
+              {{langPath.faq.toc.general.whysomanycoins.answer | default: defaultLangPath.faq.toc.whysomanycoins.answer}}
             </p>
             <p>
-              You are able to see all transactions on the blockchain, but you won't know who the transactions are going to or where the senders/receivers physically are located.
+              {{langPath.faq.toc.general.whysomanycoins.answer2 | default: defaultLangPath.faq.toc.whysomanycoins.answer2}}
             </p>
-          </li>
-          <li>
-            <input type="checkbox">
-            <i></i>
-            <h2>Where Can I View the Verge Rich List?</h2>
             <p>
-              You can view the rich list <a href="http://vergecurrency.info/richlist" target="_blank">here</a>. If the site is down, please let us know since it is hosted on a community donated server.
+              {{langPath.faq.toc.general.whysomanycoins.answer3 | default: defaultLangPath.faq.toc.whysomanycoins.answer3}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Where Can I Go to Learn More About Verge?</h2>
+            <h2>{{langPath.faq.toc.general.publicledger.question | default: defaultLangPath.faq.toc.publicledger.question}}</h2>
             <p>
-              We are on a ton of different <a href="https://vergecurrency.com/#social" target="_blank">social</a> platforms and are very active on Twitter Telegram, Slack, and Discourse.
+              {{langPath.faq.toc.general.publicledger.answer | default: defaultLangPath.faq.toc.publicledger.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.general.publicledger.answer2 | default: defaultLangPath.faq.toc.publicledger.answer2}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Where Can I Find the Verge Roadmap?</h2>
+            <h2>{{langPath.faq.toc.general.richlist.question | default: defaultLangPath.faq.toc.richlist.question}}</h2>
             <p>
-              We have a <a href="https://vergecurrency.com/#roadmap" target="_blank">roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead.
+              {{langPath.faq.toc.general.richlist.answer | default: defaultLangPath.faq.toc.richlist.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.wheretolearnmore.question | default: defaultLangPath.faq.toc.wheretolearnmore.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.wheretolearnmore.answer | default: defaultLangPath.faq.toc.wheretolearnmore.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.roadmap.question | default: defaultLangPath.faq.toc.roadmap.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.roadmap.answer | default: defaultLangPath.faq.toc.roadmap.answer}}
             </p>
           </li>
         </ul>
-        <h1>Privacy</h1>
+        <h1>{{langPath.faq.toc.privacy.subheader | default: defaultLangPath.faq.toc.privacy.subheader}}</h1>
         <ul>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Why do I Need To Use TOR or i2P? Can't I just use a VPN?</h2>
+            <h2>{{langPath.faq.toc.privacy.whynotvpn.question | default: defaultLangPath.faq.toc.privacy.whynotvpn.question}}</h2>
             <p>
-              Both <a href="https://www.torproject.org/" target="_blank">TOR</a> and <a href="https://geti2p.net/en/" target="_blank">i2P</a> encrypt all network traffic so that a user's IP address and data cannot be accessed. A Virtual Private Network (VPN) also encrypts network traffic, but you must trust the VPN provider to not log any of your activity (which they can and often do). Read this <a href="https://gist.github.com/joepie91/5a9909939e6ce7d09e29" target="_blank">gist</a> for more information about the pitfalls of VPN services. 
+              {{langPath.faq.toc.privacy.whynotvpn.answer | default: defaultLangPath.faq.toc.privacy.whynotvpn.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>How Is Verge Different Than the Other Anonymous Coins Currently Available?</h2>
+            <h2>{{langPath.faq.toc.privacy.otheranoncoins.question | default: defaultLangPath.faq.toc.privacy.otheranoncoins.question}}</h2>
             <p>
-              In our opinion, almost all of the other coins who claim to value privacy aren't serious about protecting a user's IP address (the exception being Monero, who is working on this). Most of these coins log user IP addresses and only claim to be "private" because they attempt to mask/hide the transactions on their network. Verge has a transparent ledger that allows anyone to view all of it's transactions, but protects user identities and locations by integrating both <a href="https://www.torproject.org/" target="_blank">TOR</a> and <a href="https://geti2p.net/en/" target="_blank">i2P</a> to not expose IP addresses.
+              {{langPath.faq.toc.privacy.otheranoncoins.answer | default: defaultLangPath.faq.toc.privacy.otheranoncoins.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Will Verge Ever Have Masternodes?</h2>
+            <h2>{{langPath.faq.toc.privacy.masternodes.question | default: defaultLangPath.faq.toc.privacy.masternodes.question}}</h2>
             <p>
-              No, we believe Masternodes are a weakness and centralize the network. A hacker could very easily perform a DDOS (Distributed Denial of Service) attack on the Masternodes, causing the network to be brought down. Also, a government agency could issue a subpeona to retrieve all of the Masternode logs (most of the current "anonymous" coins log user IP addresses here).
+              {{langPath.faq.toc.privacy.masternodes.answer | default: defaultLangPath.faq.toc.privacy.masternodes.answer}}
             </p>
           </li>
         </ul>
-        <h1>Wallets</h1>
+        <h1>{{langPath.faq.toc.wallets.subheader | default: defaultLangPath.faq.toc.wallets.subheader}}</h1>
         <ul>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Which Verge Wallet Should I Use?</h2>
+            <h2>{{langPath.faq.toc.wallets.whichwallet.question | default: defaultLangPath.faq.toc.wallets.whichwallet.question}}</h2>
             <p>
-              Fundamentally, there are two types of Verge wallets you can use; QT and/or Electrum. For everyday users, <b>we recommend you download an Electrum wallet</b>.
+              {{langPath.faq.toc.wallets.whichwallet.answer | default: defaultLangPath.faq.toc.wallets.whichwallet.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>What Is Electrum?</h2>
+            <h2>{{langPath.faq.toc.wallets.electrum.question | default: defaultLangPath.faq.toc.wallets.electrum.question}}</h2>
             <p>
-              <a href="https://electrum.org" target="_blank">Electrum</a> is an <a href="https://github.com/spesmilo/electrum" target="_blank">open-source</a> Bitcoin lite wallet solution. Verge has forked the Electrum wallet codebase and updated to have it work with the Verge blockchain.
+              {{langPath.faq.toc.wallets.electrum.answer | default: defaultLangPath.faq.toc.wallets.electrum.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>What Is an Electrum Wallet?</h2>
+            <h2>{{langPath.faq.toc.wallets.electrumwallet.question | default: defaultLangPath.faq.toc.wallets.electrumwallet.question}}</h2>
             <p>
-              A Verge Electrum wallet is a wallet that is focused on speed and low resource usage. Electrum wallets use a technology called, <a href="http://docs.electrum.org/en/latest/spv.html" target="_blank">Simple Payment Verification</a> (SPV), that verifies transactions on the Verge blockchain without needing to download the entire blockchain. The SPV technology allows average transaction confirmation times to drop to ~5 seconds (instead of ~30 seconds for non-Electrum). For more general questions about Electrum, please go to their <a href="http://docs.electrum.org/en/latest/faq.html" target="_blank">FAQ</a> page.
+              {{langPath.faq.toc.wallets.electrumwallet.answer | default: defaultLangPath.faq.toc.wallets.electrumwallet.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>What Is QT?</h2>
+            <h2>{{langPath.faq.toc.wallets.qt.question | default: defaultLangPath.faq.toc.wallets.qt.question}}</h2>
             <p>
-              <a href="https://www.qt.io" target="_blank">QT</a> is a cross-platform application and UI framework for developers using the C++ programming language. It allows developers to write code in C++ and then release their software to various software and hardware platforms. Per <a href="https://en.wikipedia.org/wiki/Qt_(software)" target="_blank">Wikipedia</a>, the toolkit was named QT because "the letter Q looked appealing in Haavard's Emacs typeface, and 't' was inspired by Xt, the X toolkit". 
+              {{langPath.faq.toc.wallets.qt.answer | default: defaultLangPath.faq.toc.wallets.qt.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>What is a QT Wallet?</h2>
+            <h2>{{langPath.faq.toc.wallets.qtwallet.question | default: defaultLangPath.faq.toc.wallets.qtwallet.question}}</h2>
             <p>
-              QT wallets require that you download the entire <a href="https://vergecurrency.de/" target="_blank">Verge blockchain</a> to your computer. In other words, your computer must download a record of every single Verge transaction that has ever occurred. Currently, the Verge blockchain is ~1GB and will continue to climb as more users make transactions. If you are using a QT wallet, make sure your device has enough extra storage to handle it.
+              {{langPath.faq.toc.wallets.qtwallet.answer | default: defaultLangPath.faq.toc.wallets.qtwallet.answer}}
             </p>
             <p>
-              Every time you open your QT wallet, the wallet will synchronize and download the latest blockchain data to your computer. If you decide to use a QT wallet, you will most likely want to use it on a regular basis; or it could take an hour or more (depending on how long it has been since you opened your wallet last) to download the latest blockchain updates.
+              {{langPath.faq.toc.wallets.qtwallet.answer2 | default: defaultLangPath.faq.toc.wallets.qtwallet.answer2}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>How Do I Create a Backup of My Wallet?</h2>
+            <h2>{{langPath.faq.toc.wallets.backup.question | default: defaultLangPath.faq.toc.wallets.backup.question}}</h2>
             <p>
-              If you are using an Electrum wallet, all you have to do is keep your 12 word seedphrase secure. You are provided your seedphrase when you first create your Verge wallet and can access it by looking in your app  settings (it is password protected). We recommend that you do not store your seedphrase electronically, since that would make it possible for it to be stolen. If someone steals your seedphrase, then they could steal all of your coins.
+              {{langPath.faq.toc.wallets.backup.answer | default: defaultLangPath.faq.toc.wallets.backup.answer}}
             </p>
             <p>
-              As long as you have your seedphrase, you will always be able to recover your wallet. For example, if Bob is using the Verge TOR Android wallet and accidentally drops his phone in water (breaking it), he can easily recover his Verge wallet on his new phone by re-downloading the Verge app and entering his 12 word seedphrase. If you do not remember your seedphrase, all of the coins you had in your wallet will be lost.
+              {{langPath.faq.toc.wallets.backup.answer2 | default: defaultLangPath.faq.toc.wallets.backup.answer2}}
             </p>        
             <p>
-              If you would like to encrypt your QT wallet, you can create a passphrase by going to <b>Settings -> Encrypt Wallet</b>. Once you have created a passphrase, you can create an encrypted backup of your wallet by going to <b>File -> Backup Wallet</b>. The private keys of the QT wallet are saved in a wallet.dat file. Whenever you send Verge coins, it will use the private key from the wallet.dat file. <b>Keep in mind that every time you create a new Verge wallet address, you MUST create a new backup</b>.
+              {{langPath.faq.toc.wallets.backup.answer3 | default: defaultLangPath.faq.toc.wallets.backup.answer3}}
             </p>
             <p>
-              As long as you have your up-to-date wallet.dat file, you can recover and import your coins into a Verge wallet. If you lose your wallet.dat file, all of the coins you had in your wallet will be lost.
+              {{langPath.faq.toc.wallets.backup.answer4 | default: defaultLangPath.faq.toc.wallets.backup.answer4}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?</h2>
+            <h2>{{langPath.faq.toc.wallets.longsync.question | default: defaultLangPath.faq.toc.wallets.longsync.question}}</h2>
             <p>
-              Yes, you can download the latest Verge <a href="vergecurrency.de" target="_blank">blockchain</a>. After you download the latest blockchain, please read the provided <a href="https://vergecurrency.de/howto" target="_blank">instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour.
-
-              <p>
-                Please keep in mind that we also have alternate Electrum <a href="https://vergecurrency.com/#wallets" target="_blank">wallets</a> that are signficantly faster (they don't require you to store the entire blockchain locally).
-              </p>
+              {{langPath.faq.toc.wallets.longsync.answer | default: defaultLangPath.faq.toc.wallets.longsync.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.wallets.longsync.answer2 | default: defaultLangPath.faq.toc.wallets.longsync.answer2}}
             </p>
           </li>
         </ul>
-        <h1>Mining</h1>
+        <h1>{{langPath.faq.toc.mining.subheader | default: defaultLangPath.faq.toc.mining.subheader}}</h1>
         <ul>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>Is Verge POW or POS?</h2>
+            <h2>{{langPath.faq.toc.mining.proof.question | default: defaultLangPath.faq.toc.mining.proof.question}}</h2>
             <p>
-              Verge is 100% <b>POW</b> (Proof of Work). We believe POS (Proof of Stake) systems unfairly benefit the users who have the most coins; making it so the rich get richer. This is also currently an issue with traditional fiat currencies (eg. USD).
+              {{langPath.faq.toc.mining.proof.answer | default: defaultLangPath.faq.toc.mining.proof.answer}}
             </p>
           </li>
           <li>
             <input type="checkbox">
             <i></i>
-            <h2>What Algorithms Does Verge Support?</h2>
+            <h2>{{langPath.faq.toc.mining.algorithms.question | default: defaultLangPath.faq.toc.mining.algorithms.question}}</h2>
             <p>
-              Verge uses multi-algorithm mining support. That means that individuals with different types of mining equipment are able to mine verge, which means more security through decentralization and a more fair distribution of coins among Verge’s mining community. Verge is one of the few cryptocurrencies that support five different hashing algorithms; Namely, Scrypt, X17, Lyra2rev2, myr-groestl and blake2s.
+              {{langPath.faq.toc.mining.algorithms.answer | default: defaultLangPath.faq.toc.mining.algorithms.answer}}
             </p>
           </li>
         </ul>
