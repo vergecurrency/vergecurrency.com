@@ -284,13 +284,13 @@ faq:
         answer: "Yes, Verge is an open source project. You can browse our organization on <a href='https://github.com/vergecurrency' target='_blank'>github</a> to see all of our repositories/code. It is important to understand that Verge is not a company and has no company backing."
       getverge:
         question: "How Can I Get Verge?"
-        answer: "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='https://vergecurrency.com/#exchanges' target='_blank'>exhange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
+        answer: "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
       funded:
         question: "How Is Verge Development Funded?"
         answer: " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='https://vergecurrency.com/#donate' target='_blank'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
       marketing:
         question: "Why Does Verge Not Market More?"
-        answer: "We have run ad campaigns with <a href='https://coinomi.com/' target='_blank'>Coinomi</a> and <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a>. It is important to note that Verge is 100% funded by the developers and community."
+        answer: "It is important to note that Verge is 100% funded by the developers and community. We don't currenty receive enough in community donations to afford large-scale marketing campaigns. Despite this, we have run ad campaigns with <a href='https://coinomi.com/' target='_blank'>Coinomi</a> and <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a>."
         answer2: "We have also run self-built social media marketing campaigns, recently showcased by our animated <a href='vergecurrency.com/contest' target='_blank'>GIF contest</a> where we gave out over 200,000 Verge coins to our community. You can read the <a href='http://vergecurrency.com/contestrecap' target='_blank'>contest recap</a>."
       numdevelopers:
         question: "How Many Developers Does Verge Have?"
@@ -325,7 +325,7 @@ faq:
         answer: "You can view the rich list <a href='http://vergecurrency.info/richlist' target='_blank'>here</a>. If the site is down, please let us know since it is hosted on a community donated server."
       wheretolearnmore:
         question: "Where Can I Go to Learn More About Verge?"
-        answer: "We are on a ton of different <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms and are very active on Twitter Telegram, Slack, and Discourse."
+        answer: "We are on a ton of different <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discourse."
       roadmap:
         question: "Where Can I Find the Verge Roadmap?"
         answer: "We have a <a href='https://vergecurrency.com/#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
