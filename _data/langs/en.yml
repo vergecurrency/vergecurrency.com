@@ -123,22 +123,22 @@ roadmap:
   i2P_android_wallet:
     header: "i2P Android Wallet"
     paragraph: "i2P Android Wallet for Anon transactions ONLY! (near completion)"
-    date: "July, 2017"
+    date: "July-August, 2017"
   core_wallet_release:
     header: "New Core Wallet Release"
     paragraph: "Add new features including coin control, RingCT, update libraries (openssl, boost, etc)"
-    date: "July, 2017"
+    date: "July-August, 2017"
   rsk_smart_contracts:
     header: "RSK Smart Contracts"
     paragraph: "They are in testnet for bitcoin now. Date revolves around this timeline."
-    date: "July, 2017"
+    date: "July-August, 2017"
   wallet_ui:
     header: "Wallet UI Overhaul"
-    date: "July, 2017"
+    date: "July-August, 2017"
   merchandise_store:
     header: "Merchandise Online Store"
     paragraph: "Verge Merchandise shop will have tshirts/apparel that can be purchased with XVG and BTC."
-    date: "July, 2017"
+    date: "July-August, 2017"
   transfer_discord_service:
     header: "Verge Transfer Over Discord Service"
     date: "August, 2017"
