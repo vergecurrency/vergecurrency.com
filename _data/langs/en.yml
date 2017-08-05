@@ -366,7 +366,7 @@ faq:
         answer4: "As long as you have your up-to-date wallet.dat file, you can recover and import your coins into a Verge wallet. If you lose your wallet.dat file, all of the coins you had in your wallet will be lost."
       longsync:
         question: "My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?"
-        answer: "Yes, you can download the latest Verge <a href='vergecurrency.de' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://vergecurrency.de/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour."
+        answer: "Yes, you can download the latest Verge <a href='https://vergecurrency.de' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://vergecurrency.de/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour."
         answer2: "Please keep in mind that we also have alternate Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>wallets</a> that are signficantly faster (they don't require you to store the entire blockchain locally)."
       torandroidnoconnection:
         question: "Why am I Seeing No Connection on my Verge TOR Android app?"
