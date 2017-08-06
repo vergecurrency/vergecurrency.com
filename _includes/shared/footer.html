@@ -223,8 +223,8 @@
             var stopCarouselInterval = function () {
                 clearInterval(carouselInterval);
             };
-            var LOCAL_STORAGE_DATE_KEY = 'github-last-request-date-3';
-            var LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY = 'github-contributors-list-3';
+            var LOCAL_STORAGE_DATE_KEY = 'github-last-request-date-4';
+            var LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY = 'github-contributors-list-4';
             // Number of milleseconds in an hour
             var HOUR = 3600000;
             var lastRequestDate = window.localStorage.getItem(LOCAL_STORAGE_DATE_KEY);
@@ -326,7 +326,10 @@
                             });
 
                             // Filter duplicate users and sort by number of contributions
-                            contributorsList = contributorsList.filter(function (contributor) {
+                            contributorsList = contributorsList.sort(function (a, b) {
+                                // Sorts by number of contributions
+                                return b.contributions - a.contributions;
+                            }).filter(function (contributor) {
                                 var login = contributor.login;
 
                                 if (contributorLoginMap[login]) {
@@ -336,9 +339,6 @@
                                 contributorLoginMap[login] = true;
 
                                 return true;
-                            }).sort(function (a, b) {
-                                // Sorts by number of contributions
-                                return b.contributions - a.contributions;
                             });
 
                             // Adds the VergeCurrency org to the beginning of the list
