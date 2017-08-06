@@ -223,8 +223,8 @@
             var stopCarouselInterval = function () {
                 clearInterval(carouselInterval);
             };
-            var LOCAL_STORAGE_DATE_KEY = 'github-last-request-date-2';
-            var LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY = 'github-contributors-list-2';
+            var LOCAL_STORAGE_DATE_KEY = 'github-last-request-date-3';
+            var LOCAL_STORAGE_CONTRIBUTOR_LIST_KEY = 'github-contributors-list-3';
             // Number of milleseconds in an hour
             var HOUR = 3600000;
             var lastRequestDate = window.localStorage.getItem(LOCAL_STORAGE_DATE_KEY);
@@ -294,9 +294,11 @@
                             contributorRequests = data.map(function (repo) {
                                 repo = repo || {};
 
+                                var repoName = (repo.name || '').toLowerCase();
+                                var repoIsFork = repo.fork === true;
                                 var contributorsUrl = repo.contributors_url;
 
-                                if (contributorsUrl) {
+                                if (!repoIsFork && contributorsUrl) {
                                     return $.ajax({
                                         url: contributorsUrl,
                                         data: {
@@ -304,9 +306,11 @@
                                             'client_secret': '3768563b6070424880df3a90723da61237df4c96'
                                         }
                                     });
-                                } else {
-                                    return $.Deferred();
                                 }
+
+                                return null;
+                            }).filter(function (currentRequest) {
+                                return currentRequest !== null;
                             });
                         }
 
