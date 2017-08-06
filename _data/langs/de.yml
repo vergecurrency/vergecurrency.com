@@ -237,7 +237,7 @@ footer:
         answer2: "Falls du die Bedeutung von Premine nicht kennst: Premine bedeutet, dass sich die Entwickler eine größere Anzahl von Coins mit Hilfe einer speziellen Adresse für sich selbst reservieren und erst dann die restlichen Coins für die Allgemeinheit freigeben"
       totalcoinsupply:
         question: "Wieviel Vergecoins gibt es ingesamt?"
-        answer: "Es gibt insgesamt <b>~16.5 Milliarden</b>" Coins (exakt sind es 16,555,000,000). Wichtig dabei ist, dass bisher nicht alle Coins erzeugt wurde, dies erfolgt zeitanhängig. ~9 Milliarden Coins wurden im ersten Jahr (2014) erzeugt, seitdem wurden bzw. werden jedes Jahr weitere 1 Milliarde Coins erzeugt. Dies setzt sich so lange fort bis alle Coins verteilt wurden."
+        answer: "Es gibt insgesamt <b>~16.5 Milliarden</b> Coins (exakt sind es 16,555,000,000). Wichtig dabei ist, dass bisher nicht alle Coins erzeugt wurde, dies erfolgt zeitanhängig. ~9 Milliarden Coins wurden im ersten Jahr (2014) erzeugt, seitdem wurden bzw. werden jedes Jahr weitere 1 Milliarde Coins erzeugt. Dies setzt sich so lange fort bis alle Coins verteilt wurden."
       whysomanycoins:
         question: "Warum gibt es überhaupt so viele Coins?"
         answer: "Es ist sehr wichtig, dass es viele Coins gibt (die nicht alle zur gleichen Zeit erzeugt werden). Dies verhindert, dass eine kleine Minderheit von Personen nicht in den Besitz der Mehrheit der Coins kommen kann."
@@ -258,7 +258,7 @@ footer:
         answer: "Wird sind in vielen <a href='https://vergecurrency.com/#social' target='_blank'>sozialen</a> Netzwerken vertreten und besonders aktiv auf Twitter, Telegram, Slack und Discourse."
       roadmap:
         question: "Wo finde ich die Verge Roadmap?"
-        answer: "Die <a href='https://vergecurrency.com/#roadmap' target='_blank'>Roadmap</a>" steht auf unserer Website zur Verfügung und zeigt normalerweise die Entwicklung der nächsten ein oder zwei Monate. Wir wollen nicht, dass Punkte mit Realisierungstermin weit in der Zukunft (weiter als 3 Monate) aufgeführt werden, die Dinge ändern sich einfach zu schnell in der Crypt-Welt."
+        answer: "Die <a href='https://vergecurrency.com/#roadmap' target='_blank'>Roadmap</a> steht auf unserer Website zur Verfügung und zeigt normalerweise die Entwicklung der nächsten ein oder zwei Monate. Wir wollen nicht, dass Punkte mit Realisierungstermin weit in der Zukunft (weiter als 3 Monate) aufgeführt werden, die Dinge ändern sich einfach zu schnell in der Crypt-Welt."
     privacy:
       subheader: "Privatsphäre"
       whynotvpn:
