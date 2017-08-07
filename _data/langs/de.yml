@@ -151,35 +151,35 @@ roadmap:
   i2P_android_wallet:
     header: "I2P Android Geldbörse"
     paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
-    date: "Juli 2017"
+    date: "Juli-August 2017"
   core_wallet_release:
     header: "Neues Release Standard-Geldbörse"
     paragraph: "Hinzufügen von neuen Features wie Münzkontrolle, RingCT, Update-Bibliotheken (openssl, Boost, etc.)"
-    date: "Juli 2017"
+    date: "Juli-August 2017"
   rsk_smart_contracts:
     header: "RSK intelligente Verträge"
     paragraph: "Wird aktuell im Bitcoin-Testnetzwerk getestet. Implementierung im Zeitraum dieser Roadmap."
-    date: "Juli 2017"
+    date: "Juli-August 2017"
   wallet_ui:
     header: "Wallet Redesign Benutzeroberfläche"
-    date: "Juli 2017"
+    date: "Juli-August 2017"
   merchandise_store:
     header: "Werbeartikel Online Store"
     paragraph: "Der Merchandise-Shop wird T-Shirts/Bekleidung anbieten, die Bezahlung kann mit XVG und BTC erfolgen."
-    date: "Juli 2017"    
+    date: "Juli-August 2017"    
   transfer_discord_service:
     header: "Verge über Discord-Dienst senden"
-    date: "August, 2017"
+    date: "August 2017"
   transfer_telegram_service:
     header: "Verge über Telegram-Dienst senden"
-    date: "August, 2017"
+    date: "August 2017"
   official_mining_pool:
     header: "Offizieller Verge Multi-Algorithmen Mining Pool"
     paragraph: "Zur Unterstützung der Verge-Entwicklung wird eine Gebühr von 2 % erhoben"
-    date: "August, 2017"
+    date: "August 2017"
   upgrade_electrum_client:
     header: "Upgrade Electrum-Client Programmcode"
-    date: "August, 2017"
+    date: "August 2017"
 footer:
   social:
     header: "Community"
