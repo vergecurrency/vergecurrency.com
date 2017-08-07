@@ -1,0 +1,110 @@
+.main-buttons-container {
+    margin-top: 30px;
+}
+
+.main-button-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 350px;
+    height: 70px;
+
+    @media (max-width: 550px) {
+      width: 100%;
+    }
+}
+
+.btn.btn-default.watch-main-video-button {
+    width: 100%;
+    height: 100%;
+    background: $bg-gray;
+    color: $text-dark;
+}
+
+.main-wallet-download-buttons-list {
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+
+    a.button.wallet-download-button {
+        display: none;
+    }
+}
+
+a.button.wallet-download-button {
+    height: 70px;
+}
+
+.wallet-download-button-download-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.wallet-download-button-description-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.wallet-download-button-icon {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+}
+
+/* OS Targets */
+body[class^="windows"] {
+    a.button.windows-download-button {
+        display: flex !important;
+    }
+}
+
+body.macos {
+    .macos-download-button {
+        display: flex !important;
+    }
+}
+
+body.android {
+    .android-download-button {
+        display: flex !important;
+    }
+}
+
+body.arch {
+    .arch-download-button {
+        display: flex !important;
+    }
+}
+
+body.centos {
+    .centos-download-button {
+        display: flex !important;
+    }
+}
+
+body.debian {
+    .debian-download-button {
+        display: flex !important;
+    }
+}
+
+body.fedora {
+    .fedora-download-button {
+        display: flex !important;
+    }
+}
+
+.footer-wallet-download-buttons-list li {
+    margin: 20px 0;
+}
+
+button:active,
+button:focus,
+button:visited {
+    border-color: $verge-blue !important;
+    box-shadow: 0 0 2px rgba(8, 180, 224, .4) !important;
+}

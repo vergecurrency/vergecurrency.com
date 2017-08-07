@@ -58,6 +58,7 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
 wallets:
   header: "Tegnebøger"
   tabs:
@@ -108,8 +109,12 @@ roadmap:
     header: "Udvid Verge Radio"
     paragraph: "Forvandle sig til \"RadioCrypto\" og omfatter i core tegnebøger"
     date: "<font color='#08b4e0'>Frigivet</font> Juni 26, 2017"
-  i2P_tor_android_wallets:
-    header: "i2P/TOR Android Tegnebøger"
+  tor_android_wallet:
+    header: "TOR Android Tegnebøger"
+    paragraph: "Android Wallet til Anononymous transaktioner alene! (Næsten)"
+    date: "Juli, 2017"
+  i2P_android_wallet:
+    header: "i2P Android Tegnebøger"
     paragraph: "Android Wallet til Anononymous transaktioner alene! (Næsten)"
     date: "Juli, 2017"
   core_wallet_release:
@@ -128,7 +133,7 @@ roadmap:
     paragraph: "Verge af merchandise vil have t-shirts/tøj som kan købes med XVG og btc."
     date: "Juli, 2017"
 footer:
-  community:
+  social:
     header: "Ef"
     slack: "Slack"
     facebook: "Facebook"

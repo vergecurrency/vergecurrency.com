@@ -1,0 +1,61 @@
+.contest-recap-page {
+  .contest-prizes {
+    text-align: left;
+  }
+
+  .contest-prizes-list {
+    margin-bottom: 20px;
+  }
+
+  .contest-prizes-list,
+  .contest-prizes-list li {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .contest-prizes-list li {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .place-column {
+    text-align: left;
+  }
+
+  .prize-column {
+    text-align: right;
+  }
+
+  .place-column,
+  .prize-column {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 0;
+  }
+
+  .prize-column.prize-coins {
+    color: $light-green;
+  }
+
+  .verge-gif-contest-container {
+    padding-top: 40px;
+
+    img {
+      width: 850px;
+    }
+  }
+
+  h2,
+  h3 {
+    color: $verge-blue;
+  }
+
+  h5 {
+    color: $text-dark;
+  }
+
+  @media (max-width: 1000px) {
+    .prize-column {
+      text-align: left;
+    }
+  }
+}

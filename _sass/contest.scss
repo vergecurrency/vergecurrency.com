@@ -8,8 +8,50 @@ $instructions-section-size-f: 20rem;
 $instructions-section-size-border: 3px;
 
 .contest-page {
+  .instructions-section-header,
+  .prizes-section-header {
+    margin-top: 0;
+  }
+
   .header-container {
-      padding: 20px 0;
+    padding: 20px 0;
+  }
+
+  .contest-prizes {
+    text-align: left;
+  }
+
+  .contest-prizes-list {
+    margin-bottom: 20px;
+  }
+
+  .contest-prizes-list,
+  .contest-prizes-list li {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .contest-prizes-list li {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .place-column {
+    text-align: left;
+  }
+
+  .prize-column {
+    text-align: right;
+  }
+
+  .place-column,
+  .prize-column {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 0;
+  }
+
+  .prize-column.prize-coins {
+    color: $light-green;
   }
 
   /* Options Section */
@@ -33,24 +75,29 @@ $instructions-section-size-border: 3px;
   .options-section {
     background: $verge-blue;
   }
+
   .options-section label {
     color: white;
   }
+
   .options-section h3 {
-    text-align: center;
+    text-align: left;
     color: white;
-    margin: 0 0 30px;
+    margin: 0;
     padding-top: 20px;
   }
+
   .options-section button {
     margin: 0 5px;
   }
+
   .options-button-group {
     text-align: center;
     margin-top: 20px;
   }
+
   .options-form {
-    padding: 0 10px;
+    padding: 0;
   }
 
   form {
@@ -59,6 +106,7 @@ $instructions-section-size-border: 3px;
       height: 38px;
       border-radius: 3px;
       padding: 6px 10px;
+      margin: 0;
     }
   }
 
@@ -73,8 +121,25 @@ $instructions-section-size-border: 3px;
     margin-top: 20px;
   }
 
+  .form-group {
+    margin-top: 20px;
+  }
+
   .verge-image-preview-section {
     padding-top: 10px;
+  }
+
+  .webcam-not-supported {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .webcam-not-supported.show {
+    display: block;
+  }
+
+  .preview-inner-section.hide {
+    display: none;
   }
 
   .options-section,
@@ -107,7 +172,7 @@ $instructions-section-size-border: 3px;
   .button.create-gif-button,
   .button.save-gif-button {
     display: inline-flex;
-    padding: 10px;
+    padding: 12px;
     margin-left: 10px;
   }
 
@@ -116,9 +181,9 @@ $instructions-section-size-border: 3px;
   }
 
   .gif-description-text {
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
-    vertical-align: middle;
+    padding-left: 6px;
   }
 
   /* remove standard styling 
@@ -175,8 +240,10 @@ $instructions-section-size-border: 3px;
     opacity: 0.6;
   }
 
-  .instructions-section {
+  .instructions-section,
+  .options-section {
       display: inline-block;
+      padding-left: 24px;
   }
 
   ul.numbered-list {
@@ -184,7 +251,7 @@ $instructions-section-size-border: 3px;
     list-style-type: none;
     font-size: 14px;
     line-height: 18px;
-    padding-left: 10px;
+    padding-left: 0;
     
     li {
       position: relative;   

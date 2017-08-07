@@ -62,6 +62,7 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
 wallets:
   header: "Portemonnees"
   tabs:
@@ -112,8 +113,12 @@ roadmap:
     header: "Uitbreiding Verge Radio"
     paragraph: "Transformeer in \"RadioCrypto\""
     date: "<font color='#08b4e0'>GEPUBLICEERD</font> 26 juni 2017"
-  i2P_tor_android_wallets:
-    header: "I2P / TOR Android Portemonnees"
+  tor_android_wallet:
+    header: "TOR Android Portemonnees"
+    paragraph: "Android Wallet voor anonieme transacties! (Bijna voltooid)"
+    date: "Juli 2017"
+  i2P_android_wallet:
+    header: "I2P Android Portemonnees"
     paragraph: "Android Wallet voor anonieme transacties! (Bijna voltooid)"
     date: "Juli 2017"
   core_wallet_release:
@@ -132,7 +137,7 @@ roadmap:
     paragraph: "Verge producten zoals t-shirts kunnen binnekort worden gekocht met XVG of BTC."
     date: "Juli 2017"
 footer:
-  community:
+  social:
     header: "Community"
     slack: "Slack"
     facebook: "Facebook"

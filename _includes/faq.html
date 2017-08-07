@@ -1,0 +1,351 @@
+{% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
+{% include head.html %}
+<body>
+  {% include shared/header.html hide_lang_dropdown=true %}
+  <div class="faq-page">
+    <h1 class="tagline">{{langPath.faq.tagline | default: defaultLangPath.faq.tagline}}</h1>
+    <div class="faq-toc-container col-md-4">
+      <div id="toc">
+        <h3 class="toc-header">{{langPath.faq.toc.header | default: defaultLangPath.faq.toc.header}}</h3>
+      </div>
+    </div>
+    <div class="faq-content-container col-md-8 bg-gray">
+      <div class="container">
+        <h1>{{langPath.faq.toc.general.subheader | default: defaultLangPath.faq.toc.general.subheader}}</h1>
+        <ul>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.whatisverge.question | default: defaultLangPath.faq.toc.whatisverge.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.whatisverge.answer | default: defaultLangPath.faq.toc.whatisverge.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.goal.question | default: defaultLangPath.faq.toc.goal.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.goal.answer | default: defaultLangPath.faq.toc.goal.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.opensource.question | default: defaultLangPath.faq.toc.opensource.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.opensource.answer | default: defaultLangPath.faq.toc.opensource.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.getverge.question | default: defaultLangPath.faq.toc.getverge.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.getverge.answer | default: defaultLangPath.faq.toc.getverge.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.funded.question | default: defaultLangPath.faq.toc.funded.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.funded.answer | default: defaultLangPath.faq.toc.funded.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.marketing.question | default: defaultLangPath.faq.toc.marketing.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.marketing.answer | default: defaultLangPath.faq.toc.marketing.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.general.marketing.answer2 | default: defaultLangPath.faq.toc.marketing.answer2}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.numdevelopers.question | default: defaultLangPath.faq.toc.numdevelopers.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.numdevelopers.answer | default: defaultLangPath.faq.toc.numdevelopers.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.whitepaper.question | default: defaultLangPath.faq.toc.whitepaper.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.whitepaper.answer | default: defaultLangPath.faq.toc.whitepaper.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.beenaround.question | default: defaultLangPath.faq.toc.beenaround.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.beenaround.answer | default: defaultLangPath.faq.toc.beenaround.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.premine.question | default: defaultLangPath.faq.toc.premine.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.premine.answer | default: defaultLangPath.faq.toc.premine.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.general.premine.answer2 | default: defaultLangPath.faq.toc.premine.answer2}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.totalcoinsupply.question | default: defaultLangPath.faq.toc.totalcoinsupply.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.totalcoinsupply.answer | default: defaultLangPath.faq.toc.totalcoinsupply.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.whysomanycoins.question | default: defaultLangPath.faq.toc.whysomanycoins.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.whysomanycoins.answer | default: defaultLangPath.faq.toc.whysomanycoins.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.general.whysomanycoins.answer2 | default: defaultLangPath.faq.toc.whysomanycoins.answer2}}
+            </p>
+            <p>
+              {{langPath.faq.toc.general.whysomanycoins.answer3 | default: defaultLangPath.faq.toc.whysomanycoins.answer3}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.whocontrolsprice.question | default: defaultLangPath.faq.toc.whocontrolsprice.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.whocontrolsprice.answer | default: defaultLangPath.faq.toc.whocontrolsprice.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.publicledger.question | default: defaultLangPath.faq.toc.publicledger.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.publicledger.answer | default: defaultLangPath.faq.toc.publicledger.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.general.publicledger.answer2 | default: defaultLangPath.faq.toc.publicledger.answer2}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.richlist.question | default: defaultLangPath.faq.toc.richlist.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.richlist.answer | default: defaultLangPath.faq.toc.richlist.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.wheretolearnmore.question | default: defaultLangPath.faq.toc.wheretolearnmore.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.wheretolearnmore.answer | default: defaultLangPath.faq.toc.wheretolearnmore.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.general.roadmap.question | default: defaultLangPath.faq.toc.roadmap.question}}</h2>
+            <p>
+              {{langPath.faq.toc.general.roadmap.answer | default: defaultLangPath.faq.toc.roadmap.answer}}
+            </p>
+          </li>
+        </ul>
+        <h1>{{langPath.faq.toc.privacy.subheader | default: defaultLangPath.faq.toc.privacy.subheader}}</h1>
+        <ul>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.privacy.whynotvpn.question | default: defaultLangPath.faq.toc.privacy.whynotvpn.question}}</h2>
+            <p>
+              {{langPath.faq.toc.privacy.whynotvpn.answer | default: defaultLangPath.faq.toc.privacy.whynotvpn.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.privacy.otheranoncoins.question | default: defaultLangPath.faq.toc.privacy.otheranoncoins.question}}</h2>
+            <p>
+              {{langPath.faq.toc.privacy.otheranoncoins.answer | default: defaultLangPath.faq.toc.privacy.otheranoncoins.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.privacy.masternodes.question | default: defaultLangPath.faq.toc.privacy.masternodes.question}}</h2>
+            <p>
+              {{langPath.faq.toc.privacy.masternodes.answer | default: defaultLangPath.faq.toc.privacy.masternodes.answer}}
+            </p>
+          </li>
+        </ul>
+        <h1>{{langPath.faq.toc.wallets.subheader | default: defaultLangPath.faq.toc.wallets.subheader}}</h1>
+        <ul>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.wallets.whichwallet.question | default: defaultLangPath.faq.toc.wallets.whichwallet.question}}</h2>
+            <p>
+              {{langPath.faq.toc.wallets.whichwallet.answer | default: defaultLangPath.faq.toc.wallets.whichwallet.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.wallets.electrum.question | default: defaultLangPath.faq.toc.wallets.electrum.question}}</h2>
+            <p>
+              {{langPath.faq.toc.wallets.electrum.answer | default: defaultLangPath.faq.toc.wallets.electrum.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.wallets.electrumwallet.question | default: defaultLangPath.faq.toc.wallets.electrumwallet.question}}</h2>
+            <p>
+              {{langPath.faq.toc.wallets.electrumwallet.answer | default: defaultLangPath.faq.toc.wallets.electrumwallet.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.wallets.qt.question | default: defaultLangPath.faq.toc.wallets.qt.question}}</h2>
+            <p>
+              {{langPath.faq.toc.wallets.qt.answer | default: defaultLangPath.faq.toc.wallets.qt.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.wallets.qtwallet.question | default: defaultLangPath.faq.toc.wallets.qtwallet.question}}</h2>
+            <p>
+              {{langPath.faq.toc.wallets.qtwallet.answer | default: defaultLangPath.faq.toc.wallets.qtwallet.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.wallets.qtwallet.answer2 | default: defaultLangPath.faq.toc.wallets.qtwallet.answer2}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.wallets.backup.question | default: defaultLangPath.faq.toc.wallets.backup.question}}</h2>
+            <p>
+              {{langPath.faq.toc.wallets.backup.answer | default: defaultLangPath.faq.toc.wallets.backup.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.wallets.backup.answer2 | default: defaultLangPath.faq.toc.wallets.backup.answer2}}
+            </p>        
+            <p>
+              {{langPath.faq.toc.wallets.backup.answer3 | default: defaultLangPath.faq.toc.wallets.backup.answer3}}
+            </p>
+            <p>
+              {{langPath.faq.toc.wallets.backup.answer4 | default: defaultLangPath.faq.toc.wallets.backup.answer4}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.wallets.longsync.question | default: defaultLangPath.faq.toc.wallets.longsync.question}}</h2>
+            <p>
+              {{langPath.faq.toc.wallets.longsync.answer | default: defaultLangPath.faq.toc.wallets.longsync.answer}}
+            </p>
+            <p>
+              {{langPath.faq.toc.wallets.longsync.answer2 | default: defaultLangPath.faq.toc.wallets.longsync.answer2}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.wallets.torandroidnoconnection.question | default: defaultLangPath.faq.toc.wallets.torandroidnoconnection.question}}</h2>
+            <p>
+              {{langPath.faq.toc.wallets.torandroidnoconnection.answer | default: defaultLangPath.faq.toc.wallets.torandroidnoconnection.answer}}
+            </p>
+          </li>
+        </ul>
+        <h1>{{langPath.faq.toc.mining.subheader | default: defaultLangPath.faq.toc.mining.subheader}}</h1>
+        <ul>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.mining.proof.question | default: defaultLangPath.faq.toc.mining.proof.question}}</h2>
+            <p>
+              {{langPath.faq.toc.mining.proof.answer | default: defaultLangPath.faq.toc.mining.proof.answer}}
+            </p>
+          </li>
+          <li>
+            <input type="checkbox">
+            <i></i>
+            <h2>{{langPath.faq.toc.mining.algorithms.question | default: defaultLangPath.faq.toc.mining.algorithms.question}}</h2>
+            <p>
+              {{langPath.faq.toc.mining.algorithms.answer | default: defaultLangPath.faq.toc.mining.algorithms.answer}}
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="extend-page-offset"></div>
+    </div>
+  </div>
+  {% include shared/footer.html %}
+  <script src="/javascript/vendor/jqueryui.js"></script>
+  <script src="/javascript/vendor/jquery.tocify.js"></script>
+  <script>
+      (function(window, document, $) {
+          // Executes your code when the DOM is ready.  Acts the same as $(document).ready()
+          $(function() {
+              var $toc = $('#toc');
+
+              // Calls the tocify method on your HTML div
+              $toc.tocify({
+                  hashGenerator: function (text) {
+                    // prettify the text
+                    var hashValue = text.toLowerCase().replace(/\s/g, '-').replace(/\?/g, '');
+
+                    // fix double hyphens
+                    while (hashValue.indexOf('--') > -1) {
+                        hashValue = hashValue.replace(/--/g, '-');
+                    }
+
+                    // fix colon-space instances
+                    while (hashValue.indexOf(':-') > -1) {
+                        hashValue = hashValue.replace(/:-/g, '-');
+                    }
+
+                    return hashValue;
+                  },
+                  highlightOffset: 0,
+                  scrollTo: 20,
+                  ignoreSelector: '.tagline, footer h1'
+              });
+
+              $(window).on('scroll', function () {
+                  if (window.scrollY > 180) {
+                      $toc.addClass('sticky');
+                  } else {
+                      $toc.removeClass('sticky');
+                  }
+              });
+
+              if (window.scrollY > 180) {
+                  $toc.addClass('sticky');
+              } else {
+                  $toc.removeClass('sticky');
+              }
+
+              $(window).scroll();
+          });
+      }(window, document, window.jQuery));
+  </script>
+</body>

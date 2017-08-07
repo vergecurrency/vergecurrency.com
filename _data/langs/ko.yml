@@ -57,6 +57,7 @@ exchanges:
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
+  coinspot: "CoinSpot"
 wallets:
   header: "지갑"
   tabs:
@@ -107,8 +108,12 @@ roadmap:
     header: "Expand Verge Radio"
     paragraph: "Core wallet을 포함한 \"radiocrypto\"로의 변환"
     date: "공개 2017년 6월 26일"
-  i2P_tor_android_wallets:
-    header: "I2P/TOR 안드로이드 지갑"
+  tor_android_wallet:
+    header: "TOR 안드로이드 지갑"
+    paragraph: "익명 거래/전송을 위한 안드로이드 지갑(완료 임박)"
+    date: "7월, 2017년"
+  i2P_android_wallet:
+    header: "I2P 안드로이드 지갑"
     paragraph: "익명 거래/전송을 위한 안드로이드 지갑(완료 임박)"
     date: "7월, 2017년"
   core_wallet_release:
@@ -127,7 +132,7 @@ roadmap:
     paragraph: "Verge Merchandise shop에서 XVG와 BTC를 이용하여 티셔츠와 의류 등을 구입할 수 있습니다."
     date: "7월, 2017년"
 footer:
-  community:
+  social:
     header: "커뮤니티"
     slack: "slack"
     facebook: "Facebook"

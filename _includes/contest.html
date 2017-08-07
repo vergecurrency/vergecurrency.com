@@ -6,16 +6,62 @@
   <!-- demo-section  -->
   <section class="demo-section">
     <section class="col-md-3 col-sm-12 instructions-section bg-gray">
-      <h3 class="instructions-section-header text-center">{{langPath.contest_page.instructions.header | default: defaultLangPath.contest_page.instructions.header}}</h3>
-      <ul class="numbered-list">
-        <li>{{langPath.contest_page.instructions.step1 | default: defaultLangPath.contest_page.instructions.step1}}</li>
-        <li>{{langPath.contest_page.instructions.step2 | default: defaultLangPath.contest_page.instructions.step2}}</li>
-        <li>{{langPath.contest_page.instructions.step3 | default: defaultLangPath.contest_page.instructions.step3}}</li>
-        <li>{{langPath.contest_page.instructions.step4 | default: defaultLangPath.contest_page.instructions.step4}}</li>
-      </ul>
+      <h3 class="counter-section-header">{{langPath.contest_page.counter.header | default: defaultLangPath.contest_page.counter.header}}</h3>
+      <p class="counter-section-header">{{langPath.contest_page.counter.subheader | default: defaultLangPath.contest_page.counter.subheader}}</p>
+      <div class="contest-prizes">
+        <h3 class="prizes-section-header">{{langPath.contest_page.prizes.header | default: defaultLangPath.contest_page.prizes.header}}</h3>
+        <ul class="contest-prizes-list">
+          <li>
+            <div class="col-xs-6 col-sm-6 col-md-6 place-column">
+              {{langPath.contest_page.prizes.first.place | default: defaultLangPath.contest_page.prizes.first.place}}
+            </div>
+            <div class="col-md-6 prize-column prize-coins">
+              {{langPath.contest_page.prizes.first.prize | default: defaultLangPath.contest_page.prizes.first.prize}}
+            </div>
+          </li>
+          <li>
+            <div class="col-xs-6 col-sm-6 col-md-6 place-column">
+              {{langPath.contest_page.prizes.second.place | default: defaultLangPath.contest_page.prizes.second.place}}
+            </div>
+            <div class="col-md-6 prize-column prize-coins">
+              {{langPath.contest_page.prizes.second.prize | default: defaultLangPath.contest_page.prizes.second.prize}}
+            </div>
+          </li>
+          <li>
+            <div class="col-xs-6 col-sm-6 col-md-6 place-column">
+              {{langPath.contest_page.prizes.third.place | default: defaultLangPath.contest_page.prizes.third.place}}
+            </div>
+            <div class="col-md-6 prize-column prize-coins">
+              {{langPath.contest_page.prizes.third.prize | default: defaultLangPath.contest_page.prizes.third.prize}}
+            </div>
+          </li>
+          <li>
+            <div class="col-xs-6 col-sm-6 col-md-6 place-column">
+              {{langPath.contest_page.prizes.top5.place | default: defaultLangPath.contest_page.prizes.top5.place}}
+            </div>
+            <div class="col-md-6 prize-column">
+              {{langPath.contest_page.prizes.top5.prize | default: defaultLangPath.contest_page.prizes.top5.prize}}
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="contest-instructions">
+        <h3 class="instructions-section-header">{{langPath.contest_page.instructions.header | default: defaultLangPath.contest_page.instructions.header}}</h3>
+        <ul class="numbered-list">
+          <li>{{langPath.contest_page.instructions.step1 | default: defaultLangPath.contest_page.instructions.step1}}</li>
+          <li>{{langPath.contest_page.instructions.step2 | default: defaultLangPath.contest_page.instructions.step2}}</li>
+          <li>{{langPath.contest_page.instructions.step3 | default: defaultLangPath.contest_page.instructions.step3}}</li>
+          <li>{{langPath.contest_page.instructions.step4 | default: defaultLangPath.contest_page.instructions.step4}}</li>
+        </ul>
+      </div>
     </section>
     <section class="col-md-6 col-sm-12 preview-section">
-      <div class="text-center">
+      <div class="webcam-not-supported alert alert-warning" role="alert">
+        <i class="fa fa-warning"></i>
+        <span class="sr-only">Error:</span>
+        {{langPath.contest_page.error.platformNotSupported | default: defaultLangPath.contest_page.error.platformNotSupported}}
+      </div>
+      <div class="preview-inner-section text-center">
         <h3>
           {{langPath.contest_page.preview.header | default: defaultLangPath.contest_page.preview.header}}
         </h3>
@@ -26,12 +72,12 @@
         <progress max="1" value="0" class="verge-progress-bar hidden"></progress>
         <div class="options-button-group">
           <a href="#" type="button" id="create-gif" class="button create-gif-button" role="button">
-            <i class="fa fa-camera fa-2x">
+            <i class="fa fa-camera">
               <span class="gif-description-text">Take Photo</span>
             </i>
           </a>
           <a href="#" type="button" id="save-gif" class="button save-gif-button hidden" role="button" download>
-            <i class="fa fa-download fa-2x">
+            <i class="fa fa-download">
               <span class="gif-description-text">Download Photo</span>
             </i>
           </a>
@@ -53,14 +99,14 @@
         <div class="form-group">
           <label for="gifWidth">{{langPath.contest_page.options.width | default: defaultLangPath.contest_page.options.width}}</label>
           <div class="input-group">
-            <input name="gifWidth" id="gifWidth" class="form-control" value="200" size="5" type="number"></input>
+            <input name="gifWidth" id="gifWidth" class="form-control" value="300" size="5" type="number"></input>
             <div class="input-group-addon">px</div>
           </div>
         </div>
         <div class="form-group">
           <label for="gifHeight">{{langPath.contest_page.options.height | default: defaultLangPath.contest_page.options.height}}</label>
           <div class="input-group">
-            <input name="gifHeight" id="gifHeight" class="form-control" value="200" size="5" type="number"></input>
+            <input name="gifHeight" id="gifHeight" class="form-control" value="300" size="5" type="number"></input>
             <div class="input-group-addon">px</div>
           </div>
         </div>
@@ -75,6 +121,14 @@
               <option value="invert(75%)">{{langPath.contest_page.options.invert | default: defaultLangPath.contest_page.options.invert}}</option>
             </select>
           </div>
+        </div>
+        <div class="form-group">
+          <label for="numFrames">Number of Frames</label>
+          <input name="numFrames" id="numFrames" class="form-control" value="15" size="5" type="number"></input>
+        </div>
+        <div class="form-group">
+          <label for="frameDuration">Frame Duration</label>
+          <input name="frameDuration" id="frameDuration" class="form-control" value="1" step="1" size="5" type="number"></input>
         </div>
       </form>
     </section>
