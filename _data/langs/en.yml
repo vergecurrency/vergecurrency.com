@@ -36,12 +36,32 @@ info:
   about:
     header: "About"
     paragraph: "Verge is a decentralized currency designed for users who value privacy. It improves upon the original Bitcoin blockchain by using multiple anonymity-centric networks such as Tor and i2p. It utilizes multi-algorithm mining support to improve security and provide equal distribution of coins to miners."
+    cards:
+      privacy:
+        header: "Completely anonymous and privacy-focused"
+        paragraph: "Verge uses multiple anonymity-centric networks such as TOR and i2P. The IP addresses of the users are obfuscated and the transactions are completely untraceable."
+      community:
+        header: "Great support from community"
+        paragraph: "Verge is not a private company funded by pre-mined coins or ICO's. All of the development and marketing is supported by the thousands of members of the community."
+      speed:
+        header: "Ultra-fast transactions"
+        paragraph: "Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds."
+      development:
+        header: "Active development team with many contributors"
+        paragraph: "The development team is active and always in close contact with the community. You can easily reach the main developers for support or new ideas about Verge."
+      adoption:
+        header: "Ready for mass adoption"
+        paragraph: "Verge offers a wide array of secure wallets for multiple operating systems. The revolutionary TOR Android Wallet offers mobile anonymity, which is a unique feature among privacy-oriented coins."
+      opensource:
+        header: "Decentralized and open-source"
+        paragraph: "Verge is a decentralized currency based on an open-source platform. There is no central control over the coin."
   resources:
     header: "Resources"
     black_paper: "Black Paper"
     github: "Source Code on Github"
     mining_pools: "Mining Pools"
     mining_resources: "Mining Resources"
+    info: "Blockchain Explorer (Verge)"
     blockchain_explorer_prohashing: "Blockchain Explorer (ProHashing)"
     blockchain_explorer_ccminer: "Blockchain Explorer (CCMiner.org)"
   tech_specs:
