@@ -11,7 +11,9 @@ $text-color: #666666;
 $text-dark: #383838;
 
 $verge-blue: #08b4e0;
+$lighter-gray: #F7F7F7;
 $light-gray: #DDDDDD;
+$gray: #CCCCCC;
 $light-green: #00c073;
 
 $bg-gray: #EEEEEE;
@@ -37,7 +39,6 @@ p {
   font-size: 22px;
   color: $text-color;
   line-height: 2;
-  max-width: 800px;
 }
 
 .highlight-section {
@@ -50,116 +51,6 @@ p {
 
   @media (max-width: 775px) {
     padding: 0 5%;
-  }
-}
-
-.header-container {
-  position: static;
-  box-shadow: none;
-  background: transparent;
-  height: auto;
-  line-height: normal;
-  width: 100%;
-  padding-top: 50px;
-  margin-left: 0;
-  margin-right: 0;
-
-  .header-nested-container {
-    display: inline-block;
-    width: 100%;
-  }
-
-  .logo-column {
-    display: inline-block;
-    padding-right: 100px;
-    @media (max-width: 775px) {
-      padding-right: 0;
-    }
-  }
-
-  .nav-column {
-    display: inline-block;
-    vertical-align: top;
-    @media (max-width: 775px) {
-      visibility: hidden;
-    }
-  }
-
-  .verge-logo-container {
-    .verge-header-fixed-logo {
-      display: none;
-    }
-    .logo {
-      display: block;
-    }
-  }
-
-  .verge-header-text-container {
-    display: none;
-  }
-}
-
-.sticky {
-  .header-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    text-align: center;
-    z-index: 99999999999;
-    box-shadow: 0 0 2px 1px rgba(0,0,0,.1);
-    background: white;
-    height: $header-height;
-    line-height: $header-height;
-    width: 100%;
-    padding: 0;
-
-    @media (max-width: 1150px) {
-      visibility: hidden;
-    }
-
-    .header-nested-container {
-      margin-right: 15px;
-    }
-
-    .logo-column {
-      float: left;
-      padding-right: 0;
-    }
-
-    .nav-column {
-      float: right;
-    }
-
-    .nav {
-      padding-top: 0;
-      line-height: $header-height;
-    }
-
-    .verge-logo-container {
-      display: inline-block;
-
-      .verge-header-fixed-logo {
-        display: inline-block;
-        height: 30px;
-      }
-
-      .logo {
-        display: none;
-      }
-    }
-
-    .verge-header-text-container {
-      display: inline-block;
-
-      .verge-header-text {
-        display: inline-block;
-        font-size: 24px;
-        font-weight: 100;
-        color: $text-dark;
-        margin: 0;
-        vertical-align: middle;
-      }
-    }
   }
 }
 
@@ -339,191 +230,6 @@ a.button {
   }
 }
 
-.header {
-  padding-top: 50px;
-}
-
-.nav {
-  margin: 0;
-  font-size: 16px;
-  padding-top: 10px;
-
-  li {
-    line-height: 1;
-    display: inline-block;
-    margin-left: 1em;
-
-    a {
-      color: $text-dark;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-}
-
-.nav-dropdown {
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  z-index: 9999999999;
-
-  label {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    margin-bottom: 0;
-    cursor: pointer;
-    text-align: center;
-    z-index: 9999999999;
-    color: $text-dark;
-    font-weight: 400;
-
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-    i {
-      font-size: 12px;
-    }
-  }
-
-  .lang-list-column {
-    padding: 0;
-  }
-
-  ul {
-    position: absolute;
-    left: 0;
-    list-style: none;
-    text-align: left;
-    width: auto;
-    z-index: 9999999999;
-    margin:0;
-    padding:0;
-    display: none;
-    background-color: $bg-gray;
-    box-shadow: 0 6px 12px rgba(0,0,0, .175);
-  }
-
-  ul:hover {
-    display: block;
-  }
-
-  ul li {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
-    color: $text-dark;
-
-    a {
-      width: 100%;
-      color: $text-dark;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 400;
-      padding: 10px;
-      display: inline-block;
-    }
-
-    a:hover {
-      text-decoration: none;
-      background: $bg-dark2;
-      color: white;
-    }
-  }
-}
-
-.nav-dropdown:hover ul {
-  display: block;
-}
-
-.lang-dropdown {
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  color: white;
-  z-index: 9999999999;
-
-  label {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-    background-color: $bg-dark;
-    padding: 10px 20px;
-    margin-bottom: 0;
-    cursor: pointer;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    z-index: 9999999999;
-
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-    i {
-      font-size: 12px;
-      margin-left: 15px;
-    }
-  }
-
-  .lang-list-column {
-    padding: 0;
-  }
-
-  ul {
-    position: absolute;
-    right: 0;
-    min-width: 275px;
-    list-style: none;
-    text-align: left;
-    width: 100%;
-    z-index: 9999999999;
-    margin:0;
-    padding:0;
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
-    display: none;
-    background-color: $bg-dark;
-  }
-
-  ul:hover {
-    display: block;
-  }
-
-
-  ul li {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background-color: $bg-dark;
-    cursor: pointer;
-
-    a {
-      color: white;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 400;
-      padding: 15px;
-      display: inline-block;
-      width: 100%;
-    }
-  }
-
-  ul li:hover {
-    background-color: $bg-dark2;
-    color: white;
-  }
-}
-
-.lang-dropdown:hover ul {
-  display: block;
-}
-
 ul.pools-list b {
   display: block;
   margin-top: 1em;
@@ -538,22 +244,15 @@ ul.pools-list b {
   margin-top: 40px;
 }
 
-.contest-index-promo {
-  margin-top: 20px;
-}
-
-.verge-contest-link {
-  position: relative;
-  z-index: 9999;
-}
-
 @import
   "bootstrap",
   "normalize",
   "skeleton",
   "select",
   "modal",
+  "header",
   "cloud-animation",
+  "info",
   "exchanges",
   "wallet-tabs",
   "buttons",
