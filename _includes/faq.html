@@ -309,7 +309,22 @@
 
               // Calls the tocify method on your HTML div
               $toc.tocify({
-                  hashGenerator: 'pretty',
+                  hashGenerator: function (text) {
+                    // prettify the text
+                    var hashValue = text.toLowerCase().replace(/\s/g, '-').replace(/\?/g, '');
+
+                    // fix double hyphens
+                    while (hashValue.indexOf('--') > -1) {
+                        hashValue = hashValue.replace(/--/g, '-');
+                    }
+
+                    // fix colon-space instances
+                    while (hashValue.indexOf(':-') > -1) {
+                        hashValue = hashValue.replace(/:-/g, '-');
+                    }
+
+                    return hashValue;
+                  },
                   highlightOffset: 0,
                   scrollTo: 20,
                   ignoreSelector: '.tagline, footer h1'
