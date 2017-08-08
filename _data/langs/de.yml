@@ -27,8 +27,27 @@ view: "Aussicht"
 view_all_wallets: "Alle Geldbörsen ansehen"
 info:
   about:
-    header: "Warum Verge?"
-    paragraph: "Verge ist eine dezentralisierte Währung für Benutzer, denen die Privatsphäre wichtig ist. Es verbessert die ursprüngliche Bitcoin-Blockchain, indem diese verschiedene anonyme Netzwerke wie Tor oder I2P verwendet. Es nutzt Multi-Algorithmen-Mining zur Verbesserung der Sicherheit und bietet eine gleichmäßige Verteilung der Münzen an die Miner."
+    header: "Über Verge"
+    paragraph: "Verge ist eine dezentrale Währung, entwickelt für Anwender denen die Privatsphäre wichtig ist. Durch den Einsatz von Netzwerken wie Tor und i2p, bei denen die Anonymität das zentrale Thema darstellt, verbessert Verge die originale Bitcoin Blockchain Technologie. Es ermöglicht Multi-Algorithmen-Mining, verbessert damit die Sicherheit und sorgt für eine gleichmäßige Verteilung der Coins unter den Minern"
+    cards:
+      privacy:
+        header: "Vollständig anonym und auf Privatsphäre ausgerichtet"
+        paragraph: "Verge nutzt verschiedene Netzwerke wie TOR und i2P, bei denen die Anonymität das zentrale Thema darstellt. Die IP-Adressen sind verschleiert und die Transaktionen sind nicht zurückverfolgbar."
+      community:
+        header: "Großartige Unterstützung durch die Commmunity"
+        paragraph: "Verge ist keine private Firma, die durch ein premine von Coins (premine siehe FAQ) oder einem ICO (InitialCoinOffering) finanziert wird. Die ganze Entwicklung und auch die Marketingkampagnen werden durch die vielen tausend Mitglieder der Community unterstützt."
+      speed:
+        header: "Ultra schnelle Transaktionen"
+        paragraph: "Im Vergleich mit anderen Cryptowährungen sind die Transaktionen ultra schnell. Die sog. Simple Payment Verification (SPV) Technologie minimiert die Bestätigung von Transaktionen auf bis zu 5 Sekunden."
+      development:
+        header: "Aktives Entwicklungsteam mit vielen Unterstützern"
+        paragraph: "Das Entwicklungsteam ist stetig aktiv und steht immer im engen Kontakt mit der Community. Du kannst die Entwickler leicht für Supportanfragen oder für Diskussion über neue Ideen erreichen."
+      adoption:
+        header: "Bereit für den Einsatz im Massenmarkt"
+        paragraph: "Verge bietet eine Vielzahl von Geldbörsen für verschiedene Betriebssysteme an. Die revolutionäre TOR Android Geldbörse ermöglicht sogar mobile Anonymität, welches eine einzigartiges Feature im Vergleich zu anderen Währungen darstellt, die auch mit Privatssphäre werben."
+      opensource:
+        header: "Dezentral und Open-Source"
+        paragraph: "Verge ist eine dezentrale Cryptwährung und basiert auf Open-Source Software. Es gibt keine zentrale Institution, die eine Kontrolle ausüben könnte."  
   resources:
     header: "Ressourcen"
     black_paper: "Blackpaper"
