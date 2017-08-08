@@ -1,0 +1,16 @@
+The following needs to get translated in the following languages:
+AR - DA - DE - EN - ES - FR - IT - JA - KO - PL - PT - RO - RU - zh_CN - zh_TW
+
+developers:
+  about:
+    header: "For developers"
+    paragraph: "Writing code is hard. We would like to make it easy for you to work on Verge, so we've gathered a set of tools and put them in a list."
+  resources:
+    header: "Developers tools"
+    github_gui: "GitHub Desktop"
+    php: "PHP Library for Verge wallet"
+    ruby: "Ruby wrapped gem for interacting with Verge wallet"
+    python: "VERGE API binding for Python"
+    nodejs: "Node.js client for VERGE"
+    rubygems_howto: "How to install RubyGems"
+    github_repos: "Our GitHub repositories"
