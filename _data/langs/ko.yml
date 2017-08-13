@@ -98,14 +98,14 @@ roadmap:
     paragraph: "Binary clients for easy-to-use lite wallets."
     date: "공개 2017년 6월 7일"
   marketing_campaign:
-    header: "Crypto Services Marketing Campaign"
+    header: "Crypto Services 마케팅 캠페인"
     paragraph: "Coinomi와 1년 간 광고 캠페인을 시작했습니다."
     date: "공개 2017년 6월 7일"
   redesign_website:
-    header: "Redesign Verge Website"
+    header: "Verge 웹사이트 개편"
     date: "공개 2017년 6월 12일"
   radio:
-    header: "Expand Verge Radio"
+    header: "Verge Radio 확장"
     paragraph: "Core wallet을 포함한 \"radiocrypto\"로의 변환"
     date: "공개 2017년 6월 26일"
   tor_android_wallet:
@@ -125,13 +125,12 @@ roadmap:
     paragraph: "현재 Bitcoin에 대한 Testnet을 진행 중입니다. 이에 따라 진행시기가 결정됩니다"
     date: "7월, 2017년"
   wallet_ui:
-    header: "Wallet UI overhaul"
+    header: "Wallet UI 정비"
     date: "7월, 2017년"
   merchandise_store:
     header: "Merchandise Online Store"
     paragraph: "Verge Merchandise shop에서 XVG와 BTC를 이용하여 티셔츠와 의류 등을 구입할 수 있습니다."
     date: "7월, 2017년"
-    
 faq:
   tagline: "자주 묻는 질문들(FAQ)"
   toc:
@@ -244,7 +243,7 @@ faq:
       algorithms:
         question: "Verge가 지원하는 알고리즘에는 어떤 것이 있나요?"
         answer: "Verge는 멀티 알고리즘 채굴을 지원합니다. 이것은 개인이 여러가지 종류의 채굴 장비로 Verge를 채굴할 수 있다는 것을 의미합니다. 이것은 채굴의 탈 중앙화를 통한 안정화와 채굴 커뮤니티 사용자들 간의 공평한 코인의 분배로 이어집니다. Verge는 5가지 해싱 알고리즘을 지원하는 몇 안되는 암호화화폐 중 하나입니다. Verge가 지원하는 알고리즘은 Scrypt, X17, Lyra2rev2, myr-groestl and blake2s 입니다."
-    
+
 footer:
   social:
     header: "커뮤니티"
