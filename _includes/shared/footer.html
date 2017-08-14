@@ -82,13 +82,12 @@
 <script>
     (function(window, document) {
         var pathname = window.location.pathname;
-        var isDefaultPathname = (
-            pathname === '' ||
-            pathname === '/'
+        var isFAQPage = (
+            pathname.indexOf('faq') !== -1
         );
         var rafTimer;
 
-        if (isDefaultPathname) {
+        if (!isFAQPage) {
             window.addEventListener('scroll', function (event) {
                 cancelAnimationFrame(rafTimer);
                 rafTimer = requestAnimationFrame(toggleHeaderFloating);
