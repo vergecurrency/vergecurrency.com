@@ -300,3 +300,7 @@
 .lang-dropdown:focus ul {
   display: block;
 }
+
+.lang-dropdown:not(:hover) ul {
+  display: none;
+}
