@@ -296,11 +296,6 @@
   }
 }
 
-.lang-dropdown:hover ul,
-.lang-dropdown:focus ul {
+.lang-dropdown:hover ul {
   display: block;
-}
-
-.lang-dropdown:not(:hover) ul {
-  display: none;
 }
