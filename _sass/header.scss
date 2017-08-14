@@ -220,6 +220,7 @@
 .lang-dropdown {
   position: relative;
   display: inline-block;
+  cursor: pointer;
   font-size: 16px;
   color: white;
   z-index: 999;
@@ -295,6 +296,7 @@
   }
 }
 
-.lang-dropdown:hover ul {
+.lang-dropdown:hover ul,
+.lang-dropdown:focus ul {
   display: block;
 }
