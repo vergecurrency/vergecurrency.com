@@ -1,0 +1,39 @@
+{% if include.hide_lang_dropdown != true %}
+  <li class="lang-dropdown">
+    <label>{{langPath.lang_name}} <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
+    <ul class="col-md-12">
+      {% if langCodes.size > 6 %}
+        <div class="col-md-6 lang-list-column">
+          {% for lang in langCodes %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if loopindex == 0 and lang != page.lang %}
+              <li>
+                <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class="col-md-12 lang-list-column">
+          {% for lang in langCodes %}
+            <li>
+              <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+            </li>
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if langCodes.size > 6 %}
+        <div class="col-md-6 lang-list-column">
+          {% for lang in langCodes %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if loopindex == 0 and lang != page.lang %}
+              <li>
+                <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </ul>
+  </li>
+{% endif %}

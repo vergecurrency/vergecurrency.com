@@ -64,3 +64,7 @@ lang_codes:
   - 'de'
   - 'ar'
   - 'ro'
+faq_lang_codes:
+  - 'en'
+  - 'ko'
+  - 'de'

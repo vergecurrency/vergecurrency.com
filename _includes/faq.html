@@ -1,8 +1,11 @@
+{% assign pageName = 'faq' %}
 {% assign langPath = site.data.langs[page.lang] %}
 {% assign defaultLangPath = site.data.langs.en %}
+{% assign pageLangCodes = site.faq_lang_codes %}
 {% include head.html %}
+
 <body>
-  {% include shared/header.html hide_lang_dropdown=true %}
+  {% include shared/header.html %}
   <div class="faq-page">
     <h1 class="tagline">{{langPath.faq.tagline | default: defaultLangPath.faq.tagline}}</h1>
     <div class="faq-toc-container col-md-4">

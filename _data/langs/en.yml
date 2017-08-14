@@ -87,7 +87,7 @@ wallets:
   header: "Wallets"
   info:
     header: "Info:"
-    message: "If you are not installing an Electrum wallet, you can speed up your install by downloading the Verge blockchain from <a href='http://vergecurrency.de/' target='_blank'>here</a>. (Checksums: <a href='https://github.com/vergecurrency/vergecurrency.com/tree/master/checksums/blockchain' target='_blank'>MD5</a>/<a href='https://github.com/vergecurrency/vergecurrency.com/tree/master/checksums/blockchain' target='_blank'>SHA1</a>)"
+    message: "If you are not installing an Electrum wallet, you can speed up your install by downloading the Verge blockchain from <a href='http://vergecurrency.de/' target='_blank'>here</a>."
   tabs:
     desktop: "Desktop"
     mobile: "Mobile"

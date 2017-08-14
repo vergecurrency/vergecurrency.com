@@ -216,7 +216,7 @@ footer:
     header: "Tweets"
     by: "Tweets by @vergecurrency"
   copyright: "&copy; 2017 Verge"
-  faq:
+faq:
   tagline: "Frequently Asked Questions"
   toc:
     header: "Inhalt"
