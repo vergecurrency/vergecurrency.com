@@ -16,9 +16,11 @@
       {% else %}
         <div class="col-md-12 lang-list-column">
           {% for lang in langCodes %}
-            <li>
-              <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
-            </li>
+            {% if lang != page.lang %}
+              <li>
+                <a href="{{basePath}}/langs/{{lang}}/{{pageName}}">{{site.langs[lang]}}</a>
+              </li>
+            {% endif %}
           {% endfor %}
         </div>
       {% endif %}
