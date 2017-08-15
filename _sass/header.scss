@@ -5,7 +5,6 @@
   height: auto;
   line-height: normal;
   width: 100%;
-  padding-top: 50px;
   margin-left: 0;
   margin-right: 0;
 
@@ -47,11 +46,11 @@
 .sticky-header.header-container {
   position: fixed;
   opacity: 0;
+  z-index: -1;
   @include transition(opacity .15s linear);
   top: 0;
   left: 0;
   text-align: center;
-  z-index: 99999999999;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, .1);
   background: white;
   height: $header-height;
@@ -111,6 +110,7 @@
 .sticky {
   .sticky-header.header-container {
     opacity: 1;
+    z-index: 99999999999;
   }
 }
 
@@ -223,6 +223,7 @@
   cursor: pointer;
   font-size: 16px;
   color: white;
+  tab-index: 1;
   z-index: 999;
 
   label {
@@ -298,4 +299,8 @@
 
 .lang-dropdown:hover ul {
   display: block;
+}
+
+.lang-dropdown:not(:hover) ul {
+  display: none;
 }
