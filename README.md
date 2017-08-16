@@ -38,4 +38,4 @@ The VergeCurrency.com Official Website
 
   * gfranko - DQjWyyyAoYpiDcMH1i9EsUqhAQx9n4dk8H
   * hellokarma - DF5LXjaUKXLyLhRXgPWFCDHLbCDSFXG9nv
-  * CryptoRekt - DAFSzLDF8NDAx2spfNAhJs8B6fSkNuD3pj
+  * CryptoRekt - DJK6czFZqUugfNZ2kgu6t5NQygiy7yYUFL
