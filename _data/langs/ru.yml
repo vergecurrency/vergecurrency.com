@@ -178,8 +178,8 @@ toc:
       question: "Сколько человек работает над Verge?"
       answer: "На данный момент Verge включает в себя несколько команд. Ядро проекта – главный разработчик <a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) и 10 <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>контрибьюторов</a>. Команда по развитию сайта – два главных разработчика (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> и <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) и 16 <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>контрибьюторов</a>. За активную маркетинг-команду отвечает <a href='https://github.com/CryptoRekt' target='_blank'>CryptoRekt</a>. Полный список контрибьюторов можно посмотреть на нашем <a href='https://vergecurrency.com/langs/ru/#contributors' target='_blank'>сайте</a>."
     whitepaper:
-      question: "Есть ли у Verge White Paper?"
-      answer: "Есть, но в нашем случае это – <a href='https://vergecurrency.com/assets/Verge-Black-Paper-Russian.pdf' target='_blank'>Black Paper</a>."
+      question: "Есть ли у Verge Whitepaper?"
+      answer: "Есть, но в нашем случае это – <a href='https://vergecurrency.com/assets/Verge-Black-Paper-Russian.pdf' target='_blank'>Blackpaper</a>."
     beenaround:
       question: "Сколько существует Verge?"
       answer: "Монета DogecoinDark была создана 2014 году. В 2016 году она получила новое название – Verge. Это было сделано, чтобы сообщество поверило в серьезность наших намерений и перспективность проекта."
