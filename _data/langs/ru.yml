@@ -89,7 +89,7 @@ roadmap:
     header: "\"Чёрная\" книга"
     date: "<font color='#08b4e0'>ВЫПУЩЕННО</font> 4 июня 2017 года"
   electrum_i2P_server_client:
-    header: "Electrum i2p клиент-сервер"
+    header: "Electrum i2P клиент-сервер"
     date: "<font color='#08b4e0'>ВЫПУЩЕННО</font> 4 июня 2017 года"
   electrum_tor_server_client:
     header: "Electrum TOR клиент-сервер"
