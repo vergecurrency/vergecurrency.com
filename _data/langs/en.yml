@@ -338,7 +338,7 @@ faq:
         answer3: "A nice side effect of a higher supply means that the potential price of a single Verge coin could more closely align to the price of a single fiat currency (eg. USD or GBP). This would help people not have to calculate to many decimal places (eg. \"I'm sending you .002 bitcoin\")."
       whocontrolsprice:
         question: "Who Controls the Price of Verge?"
-        answer: "The monetary value of Verge is determined by buyers and sellers of Verge. It’s value, like most things, is determined by the market. It’s really as simple as that."
+        answer: "The monetary value of Verge is determined by buyers and sellers of Verge. Its value, like most things, is determined by the market. It’s really as simple as that."
       publicledger:
         question: "Why Does Verge Have a Public Ledger?"
         answer: "We believe a blockchain should be public if it is a currency, for a wide array of reasons; most of them to protect the users of the currency. With a public blockchain, you are able to see coin distribution and how many people are using the currency."
