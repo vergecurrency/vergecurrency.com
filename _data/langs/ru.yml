@@ -80,6 +80,9 @@ exchanges:
   coinspot: "CoinSpot"
 wallets:
   header: "Кошельки"
+  info:
+    header: "Примечание:"
+    message: "Если вы не устанавливаете кошелек Electrum, ускорьте процесс установки, скачав блокчейн Verge <a href='http://vergecurrency.de/' target='_blank'>отсюда</a>."
   tabs:
     desktop: "Настольные ОС"
     mobile: "Мобильные устройства"
