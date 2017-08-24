@@ -334,11 +334,11 @@ faq:
       whysomanycoins:
         question: "Why Are There So Many Verge Coins?"
         answer: "It is important for a currency to have a large supply (and not released all at once) so that a small minority of people do not own the majority of the coin."
-        answer2: "If the majority of the coins are owned by a small amount of people, there could be drastic price fluctuations based on the actions of a few. If one person, who owned 60% of all Verge coins decided to sell all of their Verge coins, the Verge price would plummet. An important factor in a viable long-term currency is keeping a stable price so that users are not afraid of using and accumulating the currency in their day-to-day lives."
+        answer2: "If the majority of the coins are owned by a small group of people, there could be drastic price fluctuations based on the actions of the few. If one person, who owned 60% of all Verge coins decided to sell all of their Verge coins, the Verge price would plummet. An important factor in a viable long-term currency is keeping a stable price so that users are not afraid of using and accumulating the currency in their day-to-day lives."
         answer3: "A nice side effect of a higher supply means that the potential price of a single Verge coin could more closely align to the price of a single fiat currency (eg. USD or GBP). This would help people not have to calculate to many decimal places (eg. \"I'm sending you .002 bitcoin\")."
       whocontrolsprice:
         question: "Who Controls the Price of Verge?"
-        answer: "The monetary value of Verge is determined by buyers and sellers of Verge. It’s value, like most things, is determined by the market. It’s really as simple as that."
+        answer: "The monetary value of Verge is determined by buyers and sellers of Verge. Its value, like most things, is determined by the market. It’s really as simple as that."
       publicledger:
         question: "Why Does Verge Have a Public Ledger?"
         answer: "We believe a blockchain should be public if it is a currency, for a wide array of reasons; most of them to protect the users of the currency. With a public blockchain, you are able to see coin distribution and how many people are using the currency."
@@ -362,7 +362,7 @@ faq:
         answer: "Other coins who claim to value privacy aren't serious about protecting a user's IP address (the exception being Monero, who is working on this). Most of these coins log user IP addresses and only claim to be \"private\" because they attempt to mask/hide the transactions on their network. Verge has a transparent ledger that allows anyone to view all of its transactions, but protects user identities and locations by integrating both <a href='https://www.torproject.org/'' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> to not expose IP addresses."
       masternodes:
         question: "Will Verge Ever Have Masternodes?"
-        answer: "No, we believe Masternodes are a weakness and centralize the network. A hacker could very easily perform a DDOS (Distributed Denial of Service) attack on the Masternodes, causing the network to be brought down. Also, a government agency could issue a subpeona to retrieve all of the Masternode logs (most of the current \"anonymous\" coins log user IP addresses here)."
+        answer: "No, we believe Masternodes are a weakness and centralize the network. A hacker could very easily perform a DDOS (Distributed Denial of Service) attack on the Masternodes, causing the network to be brought down. Also, a government agency could issue a subpoena to retrieve all of the Masternode logs (most of the current \"anonymous\" coins log user IP addresses here)."
     wallets:
       subheader: "Wallets"
       whichwallet:
@@ -390,7 +390,7 @@ faq:
       longsync:
         question: "My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?"
         answer: "Yes, you can download the latest Verge <a href='https://vergecurrency.de' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://vergecurrency.de/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour."
-        answer2: "Please keep in mind that we also have alternate Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>wallets</a> that are signficantly faster (they don't require you to store the entire blockchain locally)."
+        answer2: "Please keep in mind that we also have alternate Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>wallets</a> that are significantly faster (they don't require you to store the entire blockchain locally)."
       torandroidnoconnection:
         question: "Why am I Seeing No Connection on my Verge TOR Android app?"
         answer: "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu."
