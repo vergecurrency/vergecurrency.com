@@ -166,7 +166,7 @@ roadmap:
   tor_android_wallet:
     header: "TOR Android Geldbörse"
     paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen"
-    date: "Juli 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 31. July 2017"
   i2P_android_wallet:
     header: "I2P Android Geldbörse"
     paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
@@ -185,10 +185,13 @@ roadmap:
   merchandise_store:
     header: "Werbeartikel Online Store"
     paragraph: "Der Merchandise-Shop wird T-Shirts/Bekleidung anbieten, die Bezahlung kann mit XVG und BTC erfolgen."
-    date: "Juli-August 2017"    
+    date: "Juli-August 2017"
+  blackpaper2:
+    header: "\"Black\" Paper 2.0"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 11. August 2017"           
   transfer_discord_service:
     header: "Verge über Discord-Dienst senden"
-    date: "August 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 16. August 2017"    
   transfer_telegram_service:
     header: "Verge über Telegram-Dienst senden"
     date: "August 2017"
@@ -198,7 +201,7 @@ roadmap:
     date: "August 2017"
   upgrade_electrum_client:
     header: "Upgrade Electrum-Client Programmcode"
-    date: "August 2017"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 24. August 2017"
 footer:
   social:
     header: "Community"
