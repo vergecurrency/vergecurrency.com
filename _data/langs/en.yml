@@ -174,7 +174,7 @@ roadmap:
     date: "August, 2017"
   upgrade_electrum_client:
     header: "Upgrade Electrum Client Codebases"
-    date: "August, 2017"
+    date: "<font color='#08b4e0'>RELEASED</font> August 24, 2017"
 developers:
   about:
     header: "Developers"
