@@ -230,7 +230,7 @@ faq:
         answer: "Verge ist ein auf die Privatsphäre hin entwickeltes Buchungssystem mit einem öffentlichen Journal, dass durch die Blockchain-Technologie abgesichert wird. Die Basis bilden dezentralisierte Transaktionen, die durch eine globale Gemeinschaft unterstützt werden."      
       goal:
         question: "Was ist das Ziel von Verge?"		
-        answer: "Das eine Privatsphäre für die Masse zur Verfügung steht und das die ursprüngliche Bitcoin-Vision mit Hilfe eines anonymen, aber öffentlichen Buchhaltungsjournal erhalten bleibt"     
+        answer: "Dass eine Privatsphäre für die Masse zur Verfügung steht und dass die ursprüngliche Bitcoin-Vision mit Hilfe eines anonymen, aber öffentlichen Buchhaltungsjournal erhalten bleibt"     
       opensource:
         question: "Ist Verge Open-Source Software?"
         answer: "Ja, Verge ist ein Open-Source Projekt. Schau dir doch einfach die Organisation, die Repositorien und Software auf <a href='https://github.com/vergecurrency' target='_blank'>github</a> an."
@@ -243,28 +243,28 @@ faq:
       marketing:
         question: "Warum ist der Marktanteil von Verge noch relativ klein?"	
         answer: "Dazu ist es wichtig zu wissen, dass die Finanzierung zu 100% nur durch die Entwickler und Community erfolgt. Aktuell nehmen wir nicht genug über Spenden ein, um eine großangelegte Werbekampagne starten zu können. Wir haben aber trotzdem eine Werbekampagne mit <a href='https://coinomi.com/' target='_blank'>Coinomi</a> und <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a> gestartet."
-        answer2: "Wir hatten auch eine eigene Medienkampagne in den sozialen Netzwerken in Form eines animierten <a href='vergecurrency.com/contest' target='_blank'>GIF Wettbewerbes</a> gestartet, bei dem über 200000 Coins an die Gewinner ausgeschüttet wurden. <a href='http://vergecurrency.com/contestrecap' target='_blank'>Hier</a> kannst du die Zusammenfassung lesen"
+        answer2: "Wir hatten auch eine eigene Medienkampagne in den sozialen Netzwerken in Form eines animierten <a href='vergecurrency.com/contest' target='_blank'>GIF Wettbewerbes</a> gestartet, bei dem über 200000 Coins an die Gewinner ausgeschüttet wurden. <a href='http://vergecurrency.com/contestrecap' target='_blank'>Hier</a> kannst du die Zusammenfassung lesen."
       numdevelopers:
         question: "Wie viele Personen sind an der Entwicklung von Verge beteiligt?"
-        answer: "Es gibt gegenwärtig verschiedene Entwicklerteams. Das Hauptteam besteht aus dem Chefentwickler (<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) und 10 anderen <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>Unterstützern</a>. Das Team des Internetauftritts hat 2 Hauptentwickler <a href='https://github.com/gfranko' target='_blank'>gfranko</a> and <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) und 16 weitere Unterstützer <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>contributors</a>. Das Marketingteam beinhaltet einen Hauptperson (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) und viele weitere Unterstützen. Die komplette Liste aller beteiligten <a href='https://vergecurrency.com/#contributors' target='_blank'>Personen</a> läßt sich auf der Website einsehen."
+        answer: "Es gibt gegenwärtig verschiedene Entwicklerteams. Das Hauptteam besteht aus dem Chefentwickler (<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) und 10 anderen <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>Unterstützern</a>. Das Team des Internetauftritts hat 2 Hauptentwickler (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> and <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) und 16 weitere <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>Unterstützer</a>. Das Marketingteam besteht aus einer Hauptperson (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) und vielen weiteren Unterstützen. Die komplette Liste aller beteiligten <a href='https://vergecurrency.com/#contributors' target='_blank'>Personen</a> läßt sich auf der Website einsehen."
       whitepaper:
         question: "Hat Verge ein White Paper veröffentlicht?"
         answer: "Ja, aber wir nennen es <a href='https://vergecurrency.com/assets/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>Black Paper</a>."
       beenaround:
         question: "Wie lange gibt es Verge schon?"
-        answer: "Dieser Coin wurde 2014 unter dem Name \"DogecoinDark\" erschaffen. Im Jahre 2016 wurde der Coin in \"Verge\" umbenannt, dies sollte zum Ausdruck bringen, dass es sich bei Verge um einen erstzunehmender Coin handelt"
+        answer: "Dieser Coin wurde 2014 unter dem Name \"DogecoinDark\" erschaffen. Im Jahre 2016 wurde der Coin in \"Verge\" umbenannt, dies sollte zum Ausdruck bringen, dass es sich bei Verge um einen erstzunehmender Coin handelt."
       premine:
         question: "Wurde zum Start dieses Coins ein sog. Premine durchgeführt?"
         answer: "Nein, Verge wurde ohne Premine erzeugt. Das bedeutet, dass alle Verge-Entwickler ihr Coins, wie alle anderen Personen auch, selber erworben haben und sich nicht durch ein Premine einen Vorteil verschafft haben."
         answer2: "Falls du die Bedeutung von Premine nicht kennst: Premine bedeutet, dass sich die Entwickler eine größere Anzahl von Coins mit Hilfe einer speziellen Adresse für sich selbst reservieren und erst dann die restlichen Coins für die Allgemeinheit freigeben"
       totalcoinsupply:
         question: "Wieviel Vergecoins gibt es ingesamt?"
-        answer: "Es gibt insgesamt <b>~16.5 Milliarden</b> Coins (exakt sind es 16,555,000,000). Wichtig dabei ist, dass bisher nicht alle Coins erzeugt wurde, dies erfolgt zeitanhängig. ~9 Milliarden Coins wurden im ersten Jahr (2014) erzeugt, seitdem wurden bzw. werden jedes Jahr weitere 1 Milliarde Coins erzeugt. Dies setzt sich so lange fort bis alle Coins verteilt wurden."
+        answer: "Es gibt insgesamt <b>~16.5 Milliarden</b> Coins (exakt sind es 16,555,000,000). Wichtig dabei ist, dass bisher nicht alle Coins erzeugt wurde, dies erfolgt zeitanhängig. ~9 Milliarden Coins wurden im ersten Jahr (2014) erzeugt, seitdem wurde bzw. wird jedes Jahr 1 weitere Milliarde Coins erzeugt. Dies setzt sich so lange fort bis alle Coins verteilt wurden."
       whysomanycoins:
         question: "Warum gibt es überhaupt so viele Coins?"
         answer: "Es ist sehr wichtig, dass es viele Coins gibt (die nicht alle zur gleichen Zeit erzeugt werden). Dies verhindert, dass eine kleine Minderheit von Personen nicht in den Besitz der Mehrheit der Coins kommen kann."
         answer2: "Wenn die Mehrheit der Coins im Besitz von wenigen Personen sind, können diese den Preis des Coin durch ihr Handeln massiv beeinflussen. Wenn eine Person 60% besitzt und diese entscheidet dann alle Coins zu verkaufen, würde dies zu einem massiven Preis-Crash führen. Ein wichtiger Faktor bei einer langlebigen und für die Zukunft geschaffenen Währung ist ein stabiler Preis, damit die Menschen keine Angst haben, den Coin in ihrem normalen, alltäglichen Leben zu nutzen und auch Interesse daran haben Coins anzusparen."
-        answer3: "Ein netter Nebeneffekt der vielen Coins ist, dass sich ein möglicher Preis eines einzelnen VergeCoins viel mehr an dem Preis der realen Währungen orientieren würde (z.B. USD oder EURO). Dadurch müssen die Menschen nicht mit zu vielen Dezimalstellen rechnen (z.B. als negatives Beispiel: \"Ich sende dir 0.002 bitcoin\")."
+        answer3: "Ein netter Nebeneffekt der vielen Coins ist, dass sich der Preis eines einzelnen VergeCoins viel mehr an dem Preis der realen Währungen orientieren würde (z.B. USD oder EURO). Dadurch müssen die Menschen nicht mit zu vielen Dezimalstellen rechnen (z.B. als negatives Beispiel: \"Ich sende dir 0.002 Bitcoin\")."
       whocontrolsprice:
         question: "Wer bestimmt den Preis der VergeCoins?"
         answer: "Der monetäre Wert des VergeCoins wird durch die Käufer und Verkäufer bestimmt. Angebot und Nachfrage, wie fast überall, der Markt bestimmt den Wert, so einfach ist es."
@@ -277,7 +277,7 @@ faq:
         answer: "Die Übersicht steht <a href='http://vergecurrency.info/richlist' target='_blank'>hier</a> zu Verfügung"
       wheretolearnmore:
         question: "Was kann ich machen, um mehr über Verge zu erfahren?"
-        answer: "Wird sind in vielen <a href='https://vergecurrency.com/#social' target='_blank'>sozialen</a> Netzwerken vertreten und besonders aktiv auf Twitter, Telegram, Slack und Discourse."
+        answer: "Wird sind in vielen <a href='https://vergecurrency.com/#social' target='_blank'>sozialen</a> Netzwerken vertreten und besonders aktiv auf Twitter, Telegram, Slack und Discord."
       roadmap:
         question: "Wo finde ich die Verge Roadmap?"
         answer: "Die <a href='https://vergecurrency.com/#roadmap' target='_blank'>Roadmap</a> steht auf unserer Website zur Verfügung und zeigt normalerweise die Entwicklung der nächsten ein oder zwei Monate. Wir wollen nicht, dass Punkte mit Realisierungstermin weit in der Zukunft (weiter als 3 Monate) aufgeführt werden, die Dinge ändern sich einfach zu schnell in der Crypt-Welt."
@@ -299,7 +299,7 @@ faq:
         answer: "Grundsätzlich gibt es zwei Arten von Verge Geldbörsen, einmal die QT Geldbörse und dann die Electrum Geldbörse. Für den täglichen Gebrauch <b>empfehlen wir den Download der Electrum-Geldbörse</b>."
       electrum:
         question: "Was ist Electrum?"
-        answer: "<a href='https://electrum.org' target='_blank'>Electrum</a> ist eine<a href='https://github.com/spesmilo/electrum' target='_blank'>open-source</a> Bitcoin lite Geldbörse. Verge hat den Basis Programmcode der Electrum-Geldbörse übernommen (fork) und an die Verge Blockchain angepasst."
+        answer: "<a href='https://electrum.org' target='_blank'>Electrum</a> ist eine <a href='https://github.com/spesmilo/electrum' target='_blank'>open-source</a> Bitcoin lite Geldbörse. Verge hat den Basis-Programmcode der Electrum-Geldbörse übernommen (fork) und an die Verge Blockchain angepasst."
       electrumwallet:
         question: "Was ist eine Electrum Geldbörse?"
         answer: "Eine Verge Electrum Geldbörse ist eine Geldbörse, die auf Geschwindigkeit und geringen Ressourcenverbrauch hin optimiert ist. Die Electrum Geldbörse verwendet eine Technik mit Namen <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV)"
@@ -313,11 +313,11 @@ faq:
       backup:
         question: "Wie kann ich ein Backup meiner Geldbörse durchführen?"
         answer: "Wenn du die Electrum-Geldbörse benutzt, dann brauchst du nur die 12 Wörter der seedphrase sicher aufzubewahren. Diese seedphrase wird dir beim ersten Start der Geldbörse genannt und du kannst dies auch unter Einstellungen in der App finden. Wir empfehlen, die seedphrase nicht elektronisch auszubewahren, diese könnte vom Computer gestohlen werden. Wenn jemand die seedphrase stiehlt, dann kann er auch alle deine Coins stehlen."
-        answer2: "So lange du in Besitz der seedphrase bist, kannst du deine Coins auch in einer neuen Geldbörsen wiederherstellen. Wenn Bob zum Beispiel die Verge TOR Android Geldbörse benutzt und er sein Smartphone ins Wasser fallen läßt und es zerstört wird, kann er seine Geldbörse mit den Coins auf einem neuen Telefon wiederherstellen, indem er einfach die App installiert und die alten 12 Wörter eingibt. Ohne diese alte seedphrase sind alle Coins der alten Geldbörse verloren."
-        answer3: "Wenn du deine QT-Geldbörse verschlüsseln möchtest, kannst du ganz einfach ein Passwort vergeben unter <b>Settings -> Encrypt Wallet</b>. Nachdem du ein Passwort vergeben hast kannst ein verschlüsseltes Backup der Geldbörse anlegen unter <b>File -> Backup Wallet</b>. Die privaten Schlüssel der QT-Geldbörse liegen in der wallet.dat. Jedesmal, wenn du Coins sendest werden die privaten Schlüssel aus der Datei wallet.dat benutzt. <b>Bitte unbedingt daran denken: Wenn du eine neue Adresse in der Geldbörse erzeugst, dann MUST du ein neues Backup erzeugen</b>."
+        answer2: "So lange du im Besitz der seedphrase bist, kannst du deine Coins auch in einer neuen Geldbörsen wiederherstellen. Wenn Bob zum Beispiel die Verge TOR Android Geldbörse benutzt und er sein Smartphone ins Wasser fallen läßt und es zerstört wird, kann er seine Geldbörse mit den Coins auf einem neuen Smartphone wiederherstellen, indem er einfach die App installiert und die alten 12 Wörter eingibt. Ohne diese alte seedphrase sind alle Coins der alten Geldbörse verloren."
+        answer3: "Wenn du deine QT-Geldbörse verschlüsseln möchtest, kannst du ganz einfach ein Passwort vergeben unter <b>Settings -> Encrypt Wallet</b>. Nachdem du ein Passwort vergeben hast, kannst ein verschlüsseltes Backup der Geldbörse anlegen unter <b>File -> Backup Wallet</b>. Die privaten Schlüssel der QT-Geldbörse liegen in der wallet.dat. Jedesmal, wenn du Coins sendest, dann werden die privaten Schlüssel aus der Datei wallet.dat benutzt. <b>Bitte unbedingt daran denken: Wenn du eine neue Adresse in der Geldbörse erzeugst, dann MUST du ein neues Backup erzeugen</b>."
         answer4: "Solange du die Datei wallet.dat besitzt, kannst du deine Coins in jede Verge Geldbörse importieren und erhälst so Zugriff auf deine Coins. Wenn du die Datei wallet.dat verlierst, dann sind deine Coins ebenfalls verloren."
       longsync:
-        question: "Das Synchronisieren der Geldbörse dauert sehr lange. Gibt es etwas, um dies zu beschleunigen?"
+        question: "Das Synchronisieren der Geldbörse dauert sehr lange. Was kann ich machen, um dies zu beschleunigen?"
         answer: "Ja, du kannst die aktuelle Verge <a href='https://vergecurrency.de' target='_blank'>Blockchain</a> herunterladen. Nach dem Download lese bitte die <a href='https://vergecurrency.de/howto' target='_blank'>Anleitung</a>. Nach Abarbeiten der Anleitung kannst du deine Geldbörse erneut öffnen, bitte erlaube dieser unbedingt, dass sie die Synchronisation der verbleibenden Blöcke abschliessen kann. Dieser finale Sync-Prozess kann bis zu einer Stunde dauern."
         answer2: "Bitte immer daran denken, es steht auch die alternative Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>Geldbörse</a> zur Verfügung, die signifikant schneller benutzbar ist (hier muss keine Blockchain heruntergeladen werden)."
       torandroidnoconnection:
@@ -327,7 +327,7 @@ faq:
       subheader: "Mining"
       proof:
         question: "Welches Verfahren nutzt Verge, POW or POS?"
-        answer: "Verge ist zu 100% ein <b>POW</b> (Proof of Work) Coin. Wir glauben, dass POS (Proof of Stake) die Anwender unfairerwiese bevorzugt, die sowieso schon die meisten Coins besitzen; die Reichen werden noch reicher. Dies ist auch ein Problem des traditionellen Finanzwesens (eg. EURO)."
+        answer: "Verge ist zu 100% ein <b>POW</b> (Proof of Work) Coin. Wir glauben, dass POS (Proof of Stake) die Anwender unfairerweise bevorzugt, die sowieso schon die meisten Coins besitzen; die Reichen werden noch reicher. Dies ist auch ein Problem des traditionellen Finanzwesens (z.B. EURO)."
       algorithms:
         question: "Welche Algorithmen unterstützt Verge?"
         answer: "Verge unterstützt Multi-Algorithmen-Mining. Dies bedeutet, dass jeder mit unterschiedlicher Minging Hardware minen kann. Das bedeutet mehr Sicherheit durch die Dezentralisierung und die faire Verteilung der Coins über die gesamte Verge Mining Community. Verge ist eine der wenigen Cryptwährungen, die fünf unterschiedliche Hashing-Algorithmen unterstützt, namentlich sind dies: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
