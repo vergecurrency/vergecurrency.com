@@ -61,7 +61,7 @@ info:
     github: "Github에서 소스코드 보기"
     mining_pools: "마이닝 풀(Mining Pools)"
     mining_resources: "마이닝 재원(Mining Resources)"
-    info: " (Verge)"
+    info: "Blockchain Explorer (Verge)"
     blockchain_explorer_prohashing: "블록체인 탐색 (ProHashing)"
     blockchain_explorer_ccminer: "블록체인 탐색(CCMiner.org)"
   tech_specs:
