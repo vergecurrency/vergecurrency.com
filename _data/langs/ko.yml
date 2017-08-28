@@ -57,12 +57,12 @@ info:
         paragraph: "Verge는 오픈소스를 기반으로한 탈중앙화 화폐로서 어떠한 통제도 없습니다."
   resources:
     header: "재원"
-    black_paper: "흑서(Black Paper)"
+    black_paper: "흑서(Blackpaper)"
     github: "Github에서 소스코드 보기"
-    mining_pools: "마이닝 풀(Mining Pools)"
+    mining_pools: "마이닝풀(Mining Pools)"
     mining_resources: "마이닝 재원(Mining Resources)"
     info: "Blockchain Explorer (Verge)"
-    blockchain_explorer_prohashing: "블록체인 탐색 (ProHashing)"
+    blockchain_explorer_prohashing: "블록체인 탐색(ProHashing)"
     blockchain_explorer_ccminer: "블록체인 탐색(CCMiner.org)"
   tech_specs:
     header: "기술 사양"
@@ -160,7 +160,7 @@ roadmap:
     paragraph: "Verge 온라인 스토어에서 XVG와 BTC를 이용하여 티셔츠와 의류 등을 구입할 수 있습니다"
     date: "2017년 7~8월"
   blackpaper2:
-    header: "흑서(Black paper 2.0"
+    header: "흑서 (Blackpaper 2.0)"
     date: "<font color='#08b4e0'>공개</font> 2017년 8월 11일"
   transfer_discord_service:
     header: "Discord를 통한 Verge 전송"
