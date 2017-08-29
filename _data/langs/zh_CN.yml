@@ -371,7 +371,7 @@ faq:
         answer: "从根本上说，有两种类型的Verge钱包可以使用；QT和/或Electrum。对于日常用户来说，<b>我们建议您下载Electrum钱包.</b>"
       electrum:
         question: "Electrum是什么?"
-        answer: "<a href='https://electrum.org' target='_blank'>Electrum</a>是一种 <a href='https://github.com/spesmilo/electrum' target='_blank'>开源</a的比特币精简版钱包解决方案. Verge 分叉Electrum钱包代码库，并对其进行更新，以使其与Verge区块链一起工作."
+        answer: "<a href='https://electrum.org' target='_blank'>Electrum</a>是一种 <a href='https://github.com/spesmilo/electrum' target='_blank'>开源</a>的比特币精简版钱包解决方案. Verge 分叉Electrum钱包代码库，并对其进行更新，以使其与Verge区块链一起工作."
       electrumwallet:
         question: "Electrum钱包是什么?"
         answer: "Verge Electrum钱包是一种注重速度和低资源使用率的钱包. Electrum钱包使用的一种技术称为 <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>简单支付验证</a> (SPV）, 可以验证Verge区块链上的交易，但不需要下载整个区块链. 简单支付验证（SPV）技术使得平均交易确认时间缩短到5秒（而不是非Electrum钱包的30秒). 关于Electrum钱包的更多一般问题，请转到他们的 <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'>常见问题解答</a>页."
