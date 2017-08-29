@@ -143,7 +143,7 @@ roadmap:
     date: "已发布 2017年7月31日"
   i2P_android_wallet:
     header: "i2P 安卓钱包"
-    paragraph: "专门用于匿名交易的i2P安卓钱包!（近乎完成"
+    paragraph: "专门用于匿名交易的i2P安卓钱包!（近乎完成)"
     date: "2017年7月至8月"
   core_wallet_release:
     header: "新核心钱包发布"
