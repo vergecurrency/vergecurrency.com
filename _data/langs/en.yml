@@ -84,6 +84,7 @@ exchanges:
   coingather: "CoinGather"
   coinspot: "CoinSpot"
   blocknet: "Blocknet"
+  exchangedi2p: "ExchangeD.I2P"
 wallets:
   header: "Wallets"
   info:
