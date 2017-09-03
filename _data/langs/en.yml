@@ -83,6 +83,7 @@ exchanges:
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
   coinspot: "CoinSpot"
+  blocknet: "Blocknet"
 wallets:
   header: "Wallets"
   info:
