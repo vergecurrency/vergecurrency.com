@@ -349,7 +349,7 @@ faq:
         answer: "您可以在 <a href='http://vergecurrency.info/richlist' target='_blank'>这里</a>查看富豪榜. 如果站点关闭，请告诉我们，因为它托管在由社区捐赠的一台服务器上."
       wheretolearnmore:
         question: "我在哪里可以了解更多关于Verge的知识?"
-        answer: "我们在各种<a href='https://vergecurrency.com/langs/zh_CN/#social' target='_blank'>社交</a> 平台上，如推特、Telegram、 Slack和Discourse上非常活跃."
+        answer: "我们在各种<a href='https://vergecurrency.com/langs/zh_CN/#social' target='_blank'>社交</a> 平台上，如推特、Telegram、 Slack和Discord上非常活跃."
       roadmap:
         question: "我在哪里可以找到Verge路线图?"
         answer: "在我们的网站上列有我们的<a href='https://vergecurrency.com/langs/zh_CN/#roadmap' target='_blank'>路线图</a>，通常会列出我们未来一两个个月的工作内容. 我们不喜欢把长期内容（超过3个月）放在我们的路线图上，因为对于加密货币来说，一切变化都太快了，我们无法预期那么远."
