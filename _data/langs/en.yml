@@ -83,12 +83,15 @@ exchanges:
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
   coinspot: "CoinSpot"
+  blocknet: "Blocknet"
+  exchangedi2p: "ExchangeD.I2P"
 wallets:
   header: "Wallets"
   info:
     header: "Info:"
     message: "If you are not installing an Electrum wallet, you can speed up your install by downloading the Verge blockchain from <a href='http://vergecurrency.de/' target='_blank'>here</a>."
   tabs:
+    preferred: "Preferred"
     desktop: "Desktop"
     mobile: "Mobile"
     other: "Other"
@@ -222,6 +225,8 @@ exchanges:
   cryptopia: "Cryptopia"
   coingather: "CoinGather"
   coinspot: "CoinSpot"
+  blocknet: "Blocknet"
+  exchangedi2p: "ExchangeD.I2P"
 footer:
   social:
     header: "Social"
@@ -348,7 +353,7 @@ faq:
         answer: "You can view the rich list <a href='http://vergecurrency.info/richlist' target='_blank'>here</a>. If the site is down, please let us know since it is hosted on a community donated server."
       wheretolearnmore:
         question: "Where Can I Go to Learn More About Verge?"
-        answer: "We are on a ton of different <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discourse."
+        answer: "We are on a ton of different <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
       roadmap:
         question: "Where Can I Find the Verge Roadmap?"
         answer: "We have a <a href='https://vergecurrency.com/#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."

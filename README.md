@@ -36,6 +36,6 @@ The VergeCurrency.com Official Website
 
 ### Verge Contributor Wallet Addresses
 
-  * gfranko - DQjWyyyAoYpiDcMH1i9EsUqhAQx9n4dk8H
+  * gfranko - DHizh7oMQx2oKTvTofCzSD3gQzxLccK8nN
   * hellokarma - DF5LXjaUKXLyLhRXgPWFCDHLbCDSFXG9nv
   * CryptoRekt - DJK6czFZqUugfNZ2kgu6t5NQygiy7yYUFL

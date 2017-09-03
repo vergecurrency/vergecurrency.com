@@ -30,6 +30,7 @@ input[type="radio"].tab-radio {
   border-bottom: 1px solid white;
 }
 
+#preferred-tab:checked ~ #preferred-content,
 #desktop-tab:checked ~ #desktop-content,
 #mobile-tab:checked ~ #mobile-content,
 #other-tab:checked ~ #other-content, {
