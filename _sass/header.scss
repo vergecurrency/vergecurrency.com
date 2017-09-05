@@ -138,6 +138,11 @@
   }
 }
 
+.sticky-header.always-visible {
+    opacity: 1 !important;
+    z-index: 1 !important;
+}
+
 .nav-dropdown {
   position: relative;
   display: inline-block;
