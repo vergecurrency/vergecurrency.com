@@ -61,9 +61,7 @@ for i in range(10):
 
 Here's a link to [a website](http://foo.bar), to a [local
 doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
+doc](#an-h2-header).
 
 Tables can look like this:
 
