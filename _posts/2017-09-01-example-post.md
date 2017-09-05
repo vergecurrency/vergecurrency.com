@@ -5,7 +5,7 @@ subtitle:   "This is pretty cool right?"
 date:       2017-09-01 12:00:00
 author:     "gfranko"
 header-img: "images/example-post-header.jpg"
-permalink: /examplepost/
+permalink: /blog/examplepost/
 ---
 
 An h1 header
