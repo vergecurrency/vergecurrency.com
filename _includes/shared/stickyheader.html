@@ -15,14 +15,13 @@
 {% if pageLangCodes %}{% assign langCodes = pageLangCodes %}
 {% endif %}
 
-<!-- header -->
-<header class="non-sticky-header header-container header" role="navigation">
+<!-- sticky header -->
+<header class="sticky-header header-container {% if include.stickyfootervisible %} always-visible {% endif %}" role="navigation">
   <div class="header-nested-container row">
     <div class="logo-column">
       <div class="verge-logo-container">
         <a href="/" role="banner">
           <img class="verge-header-fixed-logo" src="../../images/favicon/mstile-310x310.png" alt="Verge" title="Verge">
-          <img class="logo" src="/vergelogo.svg" alt="Verge" title="Verge">
           <div class="verge-header-text-container">
               <h3 class="verge-header-text">Verge</h3>
           </div>
@@ -62,5 +61,3 @@
     </div>
   </div>
 </header>
-
-{% include shared/stickyheader.html hideLangDropdown=include.hideLangDropdown %}
