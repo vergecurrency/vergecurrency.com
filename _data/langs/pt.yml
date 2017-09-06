@@ -39,12 +39,12 @@ info:
     cards:
       privacy:
         header: "Completamente anônima e com foco em privacidade"
-        paragraph: "Verge utiliza múltiplas redes com foco anonimato tais como TOR e i2P. O endereço IP dos usuários são ofuscados e as transações são completamente irrastreáveis."
+        paragraph: "Verge utiliza múltiplas redes com foco em anonimato tais como TOR e i2P. O endereço IP dos usuários são ofuscados e as transações são completamente irrastreáveis."
       community:
         header: "Ótimo suporte da comunidade"
-        paragraph: "Verge não é uma empresa privada fundada por moedas pré-mineradas ou ICOs. Todo desenvolvimento e marketing é elaborado por milhares de membros da comunidade."
+        paragraph: "Verge não é uma empresa privada fundada por moedas pré-mineradas ou ICO's (Initial Coin Offering). Todo desenvolvimento e marketing é elaborado por milhares de membros da comunidade."
       speed:
-        header: "Transações ultra rápidas"
+        header: "Transações ultra-rápidas"
         paragraph: "A velocidade das transações são ultra-rápidas se comparadas à outras criptomoedas. A tecnologia SPV (Simple Payment Verification) permite que a média de confirmação de transação ocorra em torno de 5 segundos."
       development:
         header: "Desenvolvimento ativo com muitos contribuidores"
@@ -87,7 +87,7 @@ wallets:
   header: "Wallets"
   info:
     header: "Informação:"
-    message: "Se você não está instalando a versão Electrum você pode acelerar sua instalação fazendo o download do blockchain da Verge <a href='http://vergecurrency.de/' target='_blank'>aqui</a>."
+    message: "Se não estiver instalando a versão Electrum você pode acelerar sua instalação fazendo o download do blockchain Verge <a href='http://vergecurrency.de/' target='_blank'>aqui</a>."
   tabs:
     desktop: "Desktop"
     mobile: "Dispositivos Móveis"
@@ -126,7 +126,7 @@ roadmap:
     paragraph: "Clientes binários para fácil uso de lite wallets."
     date: "<font color='#08b4e0'>LANÇADO</font> 7 de Junho de 2017"
   marketing_campaign:
-    header: "Campanha de Marketing de Crypto Services"
+    header: "Campanha de Marketing"
     paragraph: "Iniciou uma campanha publicitária de 1 ano com Coinomi"
     date: "<font color='#08b4e0'>LANÇADO</font> 7 de Junho de 2017"
   redesign_website:
@@ -157,7 +157,7 @@ roadmap:
     date: "Julho-Agosto de 2017"
   merchandise_store:
     header: "Loja online de merchandise"
-    paragraph: "A loja de Verge Merchandise irá ter camisetas/acessórios que podem ser comprados com XVG e BTC."
+    paragraph: "A loja de Verge Merchandise terá camisetas/acessórios que podem ser comprados com XVG e BTC."
     date: "Julho-Agosto de 2017"
   blackpaper2:
     header: "\"Black\" Paper 2.0"
@@ -174,7 +174,7 @@ roadmap:
     date: "Agosto de 2017"
   upgrade_electrum_client:
     header: "Atualização do código base do cliente Electrum"
-    date: "Agosto de 2017"
+    date: "<font color='#08b4e0'>LANÇADO</font> 24 de Agosto de 2017"
 developers:
   about:
     header: "Desenvolvedores"
@@ -191,7 +191,7 @@ developers:
 contributors:
   about:
     header: "Contribuidores"
-    paragraph: "Verge é um software open-source que é constatemente melhorado por seus muitos contribuintes. Se você deseja contribuir também, dê uma olhada  em nosso <a href='https://github.com/vergecurrency' target='_blank'>repositório Github</a> se veja onde você poderia fazer a diferença!"
+    paragraph: "Verge é um software open-source onstatemente melhorado por seus muitos contribuintes. Se também deseja contribuir, dê uma olhada  em nosso <a href='https://github.com/vergecurrency' target='_blank'>repositório Github</a> e veja onde você poderia fazer a diferença!"
   wallets:
     verge:
       header: "Endereço Verge"
@@ -211,7 +211,7 @@ donate:
       header: "Endereço Bitcoin"
       address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
 exchanges:
-  header: "Adquirir Verge"
+  header: "Adquir Verge"
   paragraph: "Verge está orgulhosamente listada nas seguintes exchanges:"
   bittrex: "Bittrex"
   bitsquare: "BitSquare.io"
@@ -334,7 +334,7 @@ faq:
         answer: "O limite máximo é de <b>~16.5 bilhões</b> (16.555.000,000 para ser exato) de moedas. É importante notar que as moedas não foram completamente disponibilizadas pois esta liberação ocorre em função do tempo. Aproximadamente 9 bilhões foram disponibilizadas no primeiro ano, em 2014, e mais 1 bilhão tem sido (e serão) disponibilizadas todo ano até que o limite total seja alcançado."
       whysomanycoins:
         question: "Por que tantas moedas?"
-        answer: "É importante para uma moeda ter uma grande reserva (e não disponibilizá-las de uma vez) pois, assim, evita-se que uma pequena minoria de pessoas possuam a maioria das moedas."
+        answer: "É importante para uma moeda ter uma grande reserva (e não disponibilizá-las de uma vez) pois, assim, evita-se que uma pequena minoria de pessoas possua a maioria das moedas."
         answer2: "Se a maioria das moedas fossem possuídas por um pequeno grupo de pessoas poderia haver uma flutuação drástica no preço de mercado por conta da ação de poucos. Por exemplo, se uma pessoa que possuísse 60% de todos os Verges disponíveis decidisse vender todas as suas moedas o preço poderia cair. Um importante fator para uma moeda viável à longo prazo é manter um preço estável, desta forma as pessoas não sentirão medo de possuir ou acumular moedas em suas vidas diárias."
         answer3: "O lado bom da alta demanda de moedas é que isto significa que o preço potencial de uma única moeda Verge poderia ficar mais alinhada ao preço de uma moeda fiduciária, emitida pelo governo, como o USD (dólar americano) ou GBP (libra esterlina). Além disso, não demandaria cálculo com muitas casas decimais, por exemplo, \"- Estou te enviando 0.002 bitcoin.\"."
       whocontrolsprice:
