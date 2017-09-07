@@ -169,7 +169,7 @@
                 680: 4,
                 880: 5,
                 1000: 6,
-                1240: 8
+                1240: 6
               },
               startIndex: 0,
               draggable: true,
@@ -267,7 +267,7 @@
 
                         contributorElement.className = 'verge-contributor';
 
-                        contributorElement.innerHTML = '<img class="verge-contributor-image img-thumbnail" src="' + contributor.avatar_url + '"><a href="https://github.com/' + contributor.login + '" target="_blank"><div class="verge-contributor-name">' + contributor.login + '</div></a>';
+                        contributorElement.innerHTML = '<div class="verge-contributor__bg"><div class="verge-contributor-image" style="background-image: url(' + contributor.avatar_url + ');"></div><div class="verge-contributor__tag"><p>' + contributor.login + '</p></div></div></div><div class="verge-contributor__cta"><a href="https://github.com/' + contributor.login + '" target="_blank" class="button verge-contributor__button">View Profile</a></div></div>';
 
                         carousel.append(contributorElement);
                     });
