@@ -170,7 +170,7 @@ roadmap:
     date: "<font color='#08b4e0'>RELEASED</font> August 16, 2017"
   transfer_telegram_service:
     header: "Verge Transfer Over Telegram Service"
-    date: "August, 2017"
+    date: "<font color='#08b4e0'>RELEASED</font> September 5, 2017"
   official_mining_pool:
     header: "Official Verge Multi-Algorithm Mining Pool"
     paragraph: "There will be a 2% fee going to fund further Verge development"
