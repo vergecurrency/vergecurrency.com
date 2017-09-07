@@ -51,9 +51,3 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1.0)
   jekyll-redirect-from (~> 0.12.1)
   tzinfo-data
-
-RUBY VERSION
-   ruby 2.4.0p0
-
-BUNDLED WITH
-   1.15.1
