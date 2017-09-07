@@ -8,7 +8,7 @@ nav:
   about:
     title: "Über Verge"
   exchanges:
-    title: "Hole dir Verge"
+    title: "Hole dir Verge" 
   wallets:
     title: "Geldbörsen"
   roadmap:
@@ -47,13 +47,13 @@ info:
         paragraph: "Verge bietet eine Vielzahl von Geldbörsen für verschiedene Betriebssysteme an. Die revolutionäre TOR Android Geldbörse ermöglicht sogar mobile Anonymität, welches eine einzigartiges Feature im Vergleich zu anderen Währungen darstellt, die auch mit Privatssphäre werben."
       opensource:
         header: "Dezentral und Open-Source"
-        paragraph: "Verge ist eine dezentrale Cryptwährung und basiert auf Open-Source Software. Es gibt keine zentrale Institution, die eine Kontrolle ausüben könnte."  
+        paragraph: "Verge ist eine dezentrale Cryptowährung und basiert auf Open-Source Software. Es gibt keine zentrale Institution, die eine Kontrolle ausüben könnte."  
   resources:
     header: "Ressourcen"
     black_paper: "Blackpaper"
     github: "Quellcode auf Github"
     mining_pools: "Mining-Pools"
-    mining_resources: "Minging-Ressourcen"
+    mining_resources: "Mining-Ressourcen"
     blockchain_explorer_prohashing: "Blockchain Explorer (ProHashing)"
     blockchain_explorer_ccminer: "Blockchain Explorer (CCMiner.org)"
   tech_specs:
@@ -72,14 +72,14 @@ developers:
     github_gui: "GitHub Desktop"
     php: "PHP Library für die Verge Geldbörse"
     ruby: "Ruby gem Wrapper zur Steuerung der Verge Geldbörse"
-    python: "VERGE API zur Nutzung durch Python"
-    nodejs: "Node.js client für VERGE"
+    python: "VERGE API zur Nutzung mit Python"
+    nodejs: "Node.js Client für Verge"
     rubygems_howto: "Anleitung Installation RubyGems"
-    github_repos: "Unsere GitHub Repositorien"
+    github_repos: "Unsere GitHub Repositories"
 contributors:
   about:
     header: "Unterstützer"
-    paragraph: "Verge ist Open Source und wird durch die vielen Unterstützer ständig weiterentwickelt. Wenn du auch zur Entwicklung beitragen möchtest, dann schau dir unsere <a href='https://github.com/vergecurrency' target='_blank'>Github Repositorien</a> an, vielleicht findest du etwas, dass du verbessern kannst!"
+    paragraph: "Verge ist Open Source und wird durch die vielen Unterstützer ständig weiterentwickelt. Wenn du auch zur Entwicklung beitragen möchtest, dann schau dir unsere <a href='https://github.com/vergecurrency' target='_blank'>Github Repositories</a> an, vielleicht findest du etwas, dass du verbessern kannst!"
   wallets:
     verge:
       header: "Verge Geldbörse Adresse"
@@ -89,8 +89,8 @@ contributors:
       address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
 donate:
   about:
-    header: "Spende zur Unterstützung der Entwicklung"
-    paragraph: "Verge ist keine 'pre-mined' Münze, die komplette Entwicklung wird von netten Leuten wie Du finanziert."
+    header: "Spende um die Entwicklung zu unterstützen"
+    paragraph: "Verge ist keine 'pre-mined' Münze, die komplette Entwicklung wird von netten Leuten wie Dir finanziert."
   wallets:
     verge:
       header: "Verge Geldbörse Adresse"
@@ -99,7 +99,7 @@ donate:
       header: "Bitcoin Geldbörse Adresse"
 address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1      
 exchanges:
-  header: "Holen dir Verge"
+  header: "Hole dir Verge"
   paragraph: "Verge ist stolz darauf, an folgenden Börsen notiert zu sein:"
   bittrex: "Bittrex"
   bitsquare: "BitSquare.io"
@@ -233,7 +233,7 @@ faq:
         answer: "Dass eine Privatsphäre für die Masse zur Verfügung steht und dass die ursprüngliche Bitcoin-Vision mit Hilfe eines anonymen, aber öffentlichen Buchhaltungsjournal erhalten bleibt"     
       opensource:
         question: "Ist Verge Open-Source Software?"
-        answer: "Ja, Verge ist ein Open-Source Projekt. Schau dir doch einfach die Organisation, die Repositorien und Software auf <a href='https://github.com/vergecurrency' target='_blank'>github</a> an."
+        answer: "Ja, Verge ist ein Open-Source Projekt. Schau dir doch einfach die Organisation, die Repositories und Software auf <a href='https://github.com/vergecurrency' target='_blank'>GitHub</a> an."
       getverge:
         question: "Wie kann ich Verge erhalten bzw. erwerben?"
         answer: "Es gibt einige unterschiedliche Wege, um Verge (XVG) zu erwerben. Die einfachste Art und Weise ist der Kauf auf den unterstützten <a href='https://vergecurrency.com/#exchanges' target='_blank'>Exchanges</a>. Die Benutzer können sich auch gegenseitig Coins über die <a href='https://vergecurrency.com/#social' target='_blank'>sozialen Netzwerke</a> schicken (genutzt werden hierbei die offiziellen Verge-Dienste). Wenn du ein Android Smartphone besitzt, kannst du sogar unterwegs Coins mit der <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>Verge App</a> über das Smartphone senden und empfangen."
@@ -255,43 +255,43 @@ faq:
         answer: "Dieser Coin wurde 2014 unter dem Name \"DogecoinDark\" erschaffen. Im Jahre 2016 wurde der Coin in \"Verge\" umbenannt, dies sollte zum Ausdruck bringen, dass es sich bei Verge um einen erstzunehmender Coin handelt."
       premine:
         question: "Wurde zum Start dieses Coins ein sog. Premine durchgeführt?"
-        answer: "Nein, Verge wurde ohne Premine erzeugt. Das bedeutet, dass alle Verge-Entwickler ihr Coins, wie alle anderen Personen auch, selber erworben haben und sich nicht durch ein Premine einen Vorteil verschafft haben."
+        answer: "Nein, Verge wurde ohne Premine erzeugt. Das bedeutet, dass alle Verge-Entwickler ihre Coins, wie alle anderen Personen auch, selber erworben haben und sich nicht durch ein Premine einen Vorteil verschafft haben."
         answer2: "Falls du die Bedeutung von Premine nicht kennst: Premine bedeutet, dass sich die Entwickler eine größere Anzahl von Coins mit Hilfe einer speziellen Adresse für sich selbst reservieren und erst dann die restlichen Coins für die Allgemeinheit freigeben"
       totalcoinsupply:
         question: "Wieviel Vergecoins gibt es ingesamt?"
-        answer: "Es gibt insgesamt <b>~16.5 Milliarden</b> Coins (exakt sind es 16,555,000,000). Wichtig dabei ist, dass bisher nicht alle Coins erzeugt wurde, dies erfolgt zeitanhängig. ~9 Milliarden Coins wurden im ersten Jahr (2014) erzeugt, seitdem wurde bzw. wird jedes Jahr 1 weitere Milliarde Coins erzeugt. Dies setzt sich so lange fort bis alle Coins verteilt wurden."
+        answer: "Es gibt insgesamt <b>~16.5 Milliarden</b> Coins (exakt sind es 16,555,000,000). Wichtig dabei ist, dass bisher nicht alle Coins erzeugt wurde, dies erfolgt zeitabhängig. ~9 Milliarden Coins wurden im ersten Jahr (2014) erzeugt, seitdem wurde bzw. wird jedes Jahr 1 weitere Milliarde Coins erzeugt. Dies setzt sich so lange fort bis alle Coins verteilt wurden."
       whysomanycoins:
         question: "Warum gibt es überhaupt so viele Coins?"
-        answer: "Es ist sehr wichtig, dass es viele Coins gibt (die nicht alle zur gleichen Zeit erzeugt werden). Dies verhindert, dass eine kleine Minderheit von Personen nicht in den Besitz der Mehrheit der Coins kommen kann."
-        answer2: "Wenn die Mehrheit der Coins im Besitz von wenigen Personen sind, können diese den Preis des Coin durch ihr Handeln massiv beeinflussen. Wenn eine Person 60% besitzt und diese entscheidet dann alle Coins zu verkaufen, würde dies zu einem massiven Preis-Crash führen. Ein wichtiger Faktor bei einer langlebigen und für die Zukunft geschaffenen Währung ist ein stabiler Preis, damit die Menschen keine Angst haben, den Coin in ihrem normalen, alltäglichen Leben zu nutzen und auch Interesse daran haben Coins anzusparen."
-        answer3: "Ein netter Nebeneffekt der vielen Coins ist, dass sich der Preis eines einzelnen VergeCoins viel mehr an dem Preis der realen Währungen orientieren würde (z.B. USD oder EURO). Dadurch müssen die Menschen nicht mit zu vielen Dezimalstellen rechnen (z.B. als negatives Beispiel: \"Ich sende dir 0.002 Bitcoin\")."
+        answer: "Es ist sehr wichtig, dass es viele Coins gibt (die nicht alle zur gleichen Zeit erzeugt werden). Dies verhindert, dass eine kleine Minderheit von Personen in den Besitz der Mehrheit der Coins kommen kann."
+        answer2: "Wenn die Mehrheit der Coins im Besitz von wenigen Personen ist, können diese den Preis des Coins durch ihr Handeln massiv beeinflussen. Wenn eine Person 60% besitzt und diese dann entscheidet alle Coins zu verkaufen, würde dies zu einem massiven Preis-Crash führen. Ein wichtiger Faktor bei einer langlebigen und zukunftsorientierten Währung ist ein stabiler Preis. Dieser vermittelt Sicherheit und das Vertrauen den Coin im alltäglichen Leben nutzen zu wollen, sowie das Interesse diesen anzusparen."
+        answer3: "Ein netter Nebeneffekt der vielen Coins ist, dass sich der Preis eines einzelnen VergeCoins viel mehr an dem Preis der realen Währungen orientiert (z.B. USD oder EURO). Dadurch müssen die Menschen nicht mit zu vielen Dezimalstellen rechnen (z.B. als negatives Beispiel: \"Ich sende dir 0.002 Bitcoin\")."
       whocontrolsprice:
         question: "Wer bestimmt den Preis der VergeCoins?"
         answer: "Der monetäre Wert des VergeCoins wird durch die Käufer und Verkäufer bestimmt. Angebot und Nachfrage, wie fast überall, der Markt bestimmt den Wert, so einfach ist es."
       publicledger:
         question: "Warum ist das Buchungsjournal öffentlich einsehbar?"
-        answer: "Wir glauben fest daran, dass die Blockchain öffentlich sein muss, wenn es sich um eine Cryptowährung handelt. Dafür gibt es mehrere Gründe und der wichtigste Grund ist einfach der Schutz der Anwender. Durch die öffentliche Buchhaltung bzw. Transaktionen, ist jeder in der Lage die Verteilung der Coins einzusehen und kann auch ermitteln wie viele Personen den Coin überhaupt benutzen"
-        answer2: "Jeder kann alle Transaktionen in der Blockchain einsehen, es läßt sich hingegen aber nicht ermitteln, an wen die Transaktion geht oder an welchem Aufenthaltsort sich der Sender oder Empfänger aufhalten."
+        answer: "Wir glauben fest daran, dass die Blockchain öffentlich sein muss, wenn es sich um eine Cryptowährung handelt. Dafür gibt es mehrere Gründe und der wichtigste Grund ist einfach der Schutz der Anwender. Durch die öffentliche Buchhaltung bzw. Transaktionen, ist jeder in der Lage die Verteilung der Coins einzusehen und kann auch ermitteln wie viele Personen den Coin überhaupt verwenden."
+        answer2: "Jeder kann alle Transaktionen in der Blockchain einsehen, es läßt sich aber nicht ermitteln, an wen die Transaktion geht oder an welchem Aufenthaltsort sich die Transaktionspartner befinden."
       richlist:
         question: "Wo kann ich eine Liste der Personen mit den meisten Coins (RichList) einsehen"
-        answer: "Die Übersicht steht <a href='http://vergecurrency.info/richlist' target='_blank'>hier</a> zu Verfügung"
+        answer: "Die Übersicht steht <a href='http://vergecurrency.info/richlist' target='_blank'>hier</a> zur Verfügung"
       wheretolearnmore:
         question: "Was kann ich machen, um mehr über Verge zu erfahren?"
-        answer: "Wird sind in vielen <a href='https://vergecurrency.com/#social' target='_blank'>sozialen</a> Netzwerken vertreten und besonders aktiv auf Twitter, Telegram, Slack und Discord."
+        answer: "Wird sind in vielen <a href='https://vergecurrency.com/#social' target='_blank'>sozialen</a> Netzwerken vertreten und besonders auf Twitter, Telegram, Slack und Discord aktiv."
       roadmap:
         question: "Wo finde ich die Verge Roadmap?"
-        answer: "Die <a href='https://vergecurrency.com/#roadmap' target='_blank'>Roadmap</a> steht auf unserer Website zur Verfügung und zeigt normalerweise die Entwicklung der nächsten ein oder zwei Monate. Wir wollen nicht, dass Punkte mit Realisierungstermin weit in der Zukunft (weiter als 3 Monate) aufgeführt werden, die Dinge ändern sich einfach zu schnell in der Crypt-Welt."
+        answer: "Die <a href='https://vergecurrency.com/#roadmap' target='_blank'>Roadmap</a> steht auf unserer Website zur Verfügung und zeigt normalerweise die Entwicklung der nächsten ein oder zwei Monate. Wir wollen nicht, dass Punkte mit Realisierungstermin weit in der Zukunft (weiter als 3 Monate) aufgeführt werden, die Dinge ändern sich einfach zu schnell in der Crypto-Welt."
     privacy:
       subheader: "Privatsphäre"
       whynotvpn:
-        question: "Warum benötige ich TOR oder i2P, warum langt es nicht, wenn ich einen VPN-Dienst benutze?"
-        answer: "Beide <a href='https://www.torproject.org/' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> verschlüsseln den Netzwerkverkehr so, dass die IP-Adresse des Anwenders nicht ermittelt werden kann. Ein VPN (VirtualPrivateNetwork) verschlüsselt den Netzwerkverkehr, man muss aber zusätzlich den Aussagen des VPN-Provider vertrauen, dass keine Aktivitäten aufgezeichnet werden (was diese können und oft auch machen). Hier kannst du mehr dazu <a href='https://gist.github.com/joepie91/5a9909939e6ce7d09e29' target='_blank'>erfahren</a>." 
+        question: "Warum benötige ich TOR oder i2P, warum genügt es nicht, wenn ich einen VPN-Dienst benutze?"
+        answer: "Beide <a href='https://www.torproject.org/' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> verschlüsseln den Netzwerkverkehr so, dass die IP-Adresse des Anwenders nicht ermittelt werden kann. Ein VPN (Virtual Private Network) verschlüsselt den Netzwerkverkehr, man muss aber zusätzlich den Aussagen des VPN-Provider vertrauen, dass keine Aktivitäten aufgezeichnet werden (was diese können und oft auch machen). Hier kannst du mehr dazu <a href='https://gist.github.com/joepie91/5a9909939e6ce7d09e29' target='_blank'>erfahren</a>." 
       otheranoncoins:
-        question: "Worin unterscheidet sich Verge von anderen verfügbaren Cryptwährungen, die auch mit Anonymität werben?"
-        answer: "Andere Coins, die behaupten anonym zu sein, nehmen das Versprechen deine IP-Adresse zu verbergen nicht so ernst (Die Aussahme ist Monero, dort wird daran gearbeitet). Die meisten dieser anderen Coins loggen die IP-Adresse des Anwenders und behaupten nur, dass die Verbindungen anonym sind und maskieren/verstecken nur die Transaktionen in ihrem Netzwerk. Verge hat ein öffentliches Buchungsjournal und ermöglicht somit jedem alle Transaktionen nachzuvollziehen. Die Identität, Aufenthaltsort und IP-Adresse des Anwenders können jedoch durch den Einsatz von <a href='https://www.torproject.org/'' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> absolut nicht ermittelt werden."
+        question: "Worin unterscheidet sich Verge von anderen verfügbaren Cryptowährungen, die auch mit Anonymität werben?"
+        answer: "Andere Coins, die behaupten anonym zu sein, nehmen das Versprechen deine IP-Adresse zu verbergen nicht so ernst (Die Aussahme ist Monero, dort wird daran gearbeitet). Die meisten dieser anderen Coins loggen die IP-Adresse des Anwenders und behaupten nur, dass die Verbindungen anonym sind und maskieren/verstecken nur die Transaktionen in ihrem Netzwerk. Verge hat ein öffentliches Buchungsjournal und ermöglicht somit jedem alle Transaktionen nachzuvollziehen. Identität, Aufenthaltsort und IP-Adresse des Anwenders können jedoch durch den Einsatz von <a href='https://www.torproject.org/'' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> absolut nicht ermittelt werden."
       masternodes:
         question: "Wird es bei Verge jemals Masternodes geben?"
-        answer: "Nein niemals. Wir glauben, dass Masternodes eine Schwachstelle sind und das Netzwerk zentraliseren. Jeder Hacker kann mit einem DDOS (Distributed Denial of Service) die Masternodes angreifen und das Netzwerk lahmlegen. Auch kann eine Regierung per Gerichtsbeschluss die Herausgabe der Logfiles des Masternodes erwirken (die meisten sog. anonymen Coins loggen die IP-Adressen der Anwender auf den Masternode-Computern."
+        answer: "Nein niemals. Wir glauben, dass Masternodes eine Schwachstelle sind und das Netzwerk zentralisieren. Jeder Hacker kann mit einem DDOS (Distributed Denial of Service) die Masternodes angreifen und das Netzwerk lahmlegen. Auch kann eine Regierung per Gerichtsbeschluss die Herausgabe der Logfiles des Masternodes erwirken (die meisten sog. anonymen Coins loggen die IP-Adressen der Anwender auf den Masternode-Computern."
     wallets:
       subheader: "Geldbörse"
       whichwallet:
@@ -308,26 +308,26 @@ faq:
         answer: "<a href='https://www.qt.io' target='_blank'>QT</a> ist eine cross-Plattform Anwendung und UI-Framework für Entwickler unter Einsatz der Programmiersprache C++. Es ermöglicht dem Entwickler Programmcode in C++ für verschiedene Software- und Hardwareplattformen zu schreiben. Nach <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a> wurde das Toolkit als QT benannt \"the letter Q looked appealing in Haavard's Emacs typeface, and 't' was inspired by Xt, the X toolkit\"."
       qtwallet:
         question: "Was ist eine QT-Geldbörse?"
-        answer: "Die QT-Geldbörse erfordert den Download der kompletten <a href='https://vergecurrency.de/' target='_blank'>Verge Blockchain</a> auf den Computer. Mit anderen Worten: der Computer muß jeden Datensatz von jeder einzelnen Transaktion seit 2014 herunterladen. Gegenwärtig ist die Blockchain ~1GB groß und sie wächst mit jeder Transaktion der Anwenden. Wenn du die QT-Geldbörse benutzen möchtest, benötigst du also entsprechend Platz auf der Festplatte."
+        answer: "Die QT-Geldbörse erfordert den Download der kompletten <a href='https://vergecurrency.de/' target='_blank'>Verge Blockchain</a> auf den Computer. Mit anderen Worten: der Computer muß jeden Datensatz von jeder einzelnen Transaktion seit 2014 herunterladen. Gegenwärtig ist die Blockchain ~1GB groß und sie wächst mit jeder Transaktion. Wenn du die QT-Geldbörse benutzen möchtest, benötigst du also entsprechend Platz auf der Festplatte."
         answer2: "Jedesmal, wenn du die QT-Geldbörse startest synchronisiert sich die Geldbörse und lädt alle bei dir fehlenden Daten (Blöcke) der Blockchain auf deinen Computer nach. Wenn du dich für die QT-Geldbörse entscheidest solltest du diese regelmäßig starten, ansonsten kann es Stunden oder länger dauern, bis du alle fehlenden Daten der Blockchain geladen hast. Die Dauer für das Synchronisieren ist davon abhängig, wie lange du deine QT-Geldbörse nicht mehr gestartet hattest."   
       backup:
         question: "Wie kann ich ein Backup meiner Geldbörse durchführen?"
-        answer: "Wenn du die Electrum-Geldbörse benutzt, dann brauchst du nur die 12 Wörter der seedphrase sicher aufzubewahren. Diese seedphrase wird dir beim ersten Start der Geldbörse genannt und du kannst dies auch unter Einstellungen in der App finden. Wir empfehlen, die seedphrase nicht elektronisch auszubewahren, diese könnte vom Computer gestohlen werden. Wenn jemand die seedphrase stiehlt, dann kann er auch alle deine Coins stehlen."
+        answer: "Wenn du die Electrum-Geldbörse benutzt, dann brauchst du nur die 12 Wörter der seedphrase sicher aufzubewahren. Diese seedphrase wird dir beim ersten Start der Geldbörse genannt und du kannst dies auch unter Einstellungen in der App finden. Wir empfehlen, die seedphrase nicht elektronisch aufzubewahren, diese könnte vom Computer gestohlen werden. Wenn jemand die seedphrase stiehlt, dann kann er auch alle deine Coins stehlen."
         answer2: "So lange du im Besitz der seedphrase bist, kannst du deine Coins auch in einer neuen Geldbörsen wiederherstellen. Wenn Bob zum Beispiel die Verge TOR Android Geldbörse benutzt und er sein Smartphone ins Wasser fallen läßt und es zerstört wird, kann er seine Geldbörse mit den Coins auf einem neuen Smartphone wiederherstellen, indem er einfach die App installiert und die alten 12 Wörter eingibt. Ohne diese alte seedphrase sind alle Coins der alten Geldbörse verloren."
-        answer3: "Wenn du deine QT-Geldbörse verschlüsseln möchtest, kannst du ganz einfach ein Passwort vergeben unter <b>Settings -> Encrypt Wallet</b>. Nachdem du ein Passwort vergeben hast, kannst ein verschlüsseltes Backup der Geldbörse anlegen unter <b>File -> Backup Wallet</b>. Die privaten Schlüssel der QT-Geldbörse liegen in der wallet.dat. Jedesmal, wenn du Coins sendest, dann werden die privaten Schlüssel aus der Datei wallet.dat benutzt. <b>Bitte unbedingt daran denken: Wenn du eine neue Adresse in der Geldbörse erzeugst, dann MUST du ein neues Backup erzeugen</b>."
+        answer3: "Wenn du deine QT-Geldbörse verschlüsseln möchtest, kannst du ganz einfach ein Passwort vergeben unter <b>Settings -> Encrypt Wallet</b>. Nachdem du ein Passwort vergeben hast, kannst ein verschlüsseltes Backup der Geldbörse anlegen unter <b>File -> Backup Wallet</b>. Die privaten Schlüssel der QT-Geldbörse liegen in der wallet.dat. Jedesmal, wenn du Coins sendest, dann werden die privaten Schlüssel aus der Datei wallet.dat benutzt. <b>Bitte unbedingt daran denken: Wenn du eine neue Adresse in der Geldbörse erzeugst, dann MUSST du ein neues Backup erzeugen</b>."
         answer4: "Solange du die Datei wallet.dat besitzt, kannst du deine Coins in jede Verge Geldbörse importieren und erhälst so Zugriff auf deine Coins. Wenn du die Datei wallet.dat verlierst, dann sind deine Coins ebenfalls verloren."
       longsync:
-        question: "Das Synchronisieren der Geldbörse dauert sehr lange. Was kann ich machen, um dies zu beschleunigen?"
-        answer: "Ja, du kannst die aktuelle Verge <a href='https://vergecurrency.de' target='_blank'>Blockchain</a> herunterladen. Nach dem Download lese bitte die <a href='https://vergecurrency.de/howto' target='_blank'>Anleitung</a>. Nach Abarbeiten der Anleitung kannst du deine Geldbörse erneut öffnen, bitte erlaube dieser unbedingt, dass sie die Synchronisation der verbleibenden Blöcke abschliessen kann. Dieser finale Sync-Prozess kann bis zu einer Stunde dauern."
-        answer2: "Bitte immer daran denken, es steht auch die alternative Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>Geldbörse</a> zur Verfügung, die signifikant schneller benutzbar ist (hier muss keine Blockchain heruntergeladen werden)."
+        question: "Das Synchronisieren der Geldbörse dauert sehr lange. Was kann ich tun, um dies zu beschleunigen?"
+        answer: "Du kannst die aktuelle Verge <a href='https://vergecurrency.de' target='_blank'>Blockchain</a> herunterladen. Nach dem Download lese bitte die <a href='https://vergecurrency.de/howto' target='_blank'>Anleitung</a>. Nach Abarbeitung der Anleitung kannst du deine Geldbörse erneut öffnen. Erlaube dieser dabei unbedingt, die Synchronisation der verbleibenden Blöcke abzuschliessen. Dieser finale Synchronisations-Prozess kann bis zu einer Stunde dauern."
+        answer2: "Bitte immer daran denken, es steht auch die alternative Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>Geldbörse</a> zur Verfügung, die signifikant schneller ist (hier muss keine Blockchain heruntergeladen werden)."
       torandroidnoconnection:
-        question: "Warum sehe ich No Connection in meiner Verge TOR Android App?"
-        answer: "Wenn du \"no connection\" auf der App im Tab balance siehst, dann öffne bitte die Orbot App und wähle \"apps VPN mode\" im linken Menu aus."
+        question: "Warum sehe ich \"no connection\" in meiner Verge TOR Android App?"
+        answer: "Wenn du \"no connection\" auf der App im Tab \"balance\" siehst, dann öffne bitte die Orbot App und wähle \"apps VPN mode\" im linken Menü aus."
     mining:
       subheader: "Mining"
       proof:
         question: "Welches Verfahren nutzt Verge, POW or POS?"
-        answer: "Verge ist zu 100% ein <b>POW</b> (Proof of Work) Coin. Wir glauben, dass POS (Proof of Stake) die Anwender unfairerweise bevorzugt, die sowieso schon die meisten Coins besitzen; die Reichen werden noch reicher. Dies ist auch ein Problem des traditionellen Finanzwesens (z.B. EURO)."
+        answer: "Verge ist zu 100% ein <b>POW</b> (Proof of Work) Coin. Wir glauben, dass POS (Proof of Stake) die Anwender, die sowieso schon die meisten Coins besitzen, unfairerweise bevorzugt; die Reichen werden noch reicher. Dies ist auch ein Problem des traditionellen Finanzwesens (z.B. EURO)."
       algorithms:
         question: "Welche Algorithmen unterstützt Verge?"
-        answer: "Verge unterstützt Multi-Algorithmen-Mining. Dies bedeutet, dass jeder mit unterschiedlicher Minging Hardware minen kann. Das bedeutet mehr Sicherheit durch die Dezentralisierung und die faire Verteilung der Coins über die gesamte Verge Mining Community. Verge ist eine der wenigen Cryptwährungen, die fünf unterschiedliche Hashing-Algorithmen unterstützt, namentlich sind dies: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
+        answer: "Verge unterstützt Multi-Algorithmen-Mining. Dies bedeutet, dass jeder mit unterschiedlicher Minging Hardware minen kann. Das bedeutet mehr Sicherheit durch die Dezentralisierung und die faire Verteilung der Coins über die gesamte Verge Mining Community. Verge ist eine der wenigen Cryptowährungen, die fünf unterschiedliche Hashing-Algorithmen unterstützt, namentlich sind dies: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
