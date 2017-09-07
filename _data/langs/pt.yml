@@ -8,7 +8,7 @@ nav:
   about:
     title: "Sobre"
   exchanges:
-    title: "Obter Verge"
+    title: "Adquirir Verge"
   wallets:
     title: "Wallets"
   roadmap:
@@ -35,26 +35,26 @@ contest_enter: "Participe e ganhe 70.000 moedas Verge"
 info:
   about:
     header: "Por que Verge?"
-    paragraph: "Verge é uma moeda descentralizada feita para pessoa que valorizam a privacidade. Ela melhora o blockchain Bitcoin original usando múltiplas redes anônimas centralizadas tais como Tor e i2p. A plataforma Verge utiliza múltiplos algoritmos de mineração para aumentar a segurança e distribuir uma quantidade igual de moedas para os mineradores."
+    paragraph: "Verge é uma moeda descentralizada feita para pessoas que valorizam privacidade. Ela foi contruída com base no blockchain Bitcoin e acrescentou melhorias utilizando múltiplas redes anônimas centralizadas tais como Tor e i2p. A plataforma Verge utiliza múltiplos algoritmos de mineração para aumentar a segurança e distribuir uma quantidade igual de moedas para todos os mineradores."
     cards:
       privacy:
         header: "Completamente anônima e com foco em privacidade"
         paragraph: "Verge utiliza múltiplas redes com foco em anonimato tais como TOR e i2P. O endereço IP dos usuários são ofuscados e as transações são completamente irrastreáveis."
       community:
-        header: "Ótimo suporte da comunidade"
+        header: "Excelente suporte da comunidade"
         paragraph: "Verge não é uma empresa privada fundada por moedas pré-mineradas ou ICO's (Initial Coin Offering). Todo desenvolvimento e marketing é elaborado por milhares de membros da comunidade."
       speed:
         header: "Transações ultra-rápidas"
-        paragraph: "A velocidade das transações são ultra-rápidas se comparadas à outras criptomoedas. A tecnologia SPV (Simple Payment Verification) permite que a média de confirmação de transação ocorra em torno de 5 segundos."
+        paragraph: "A velocidade das transações são ultra-rápidas se comparadas a outras criptomoedas. A tecnologia SPV (Simple Payment Verification) permite que a média de tempo de confirmação de transação ocorra em torno de 5 segundos."
       development:
         header: "Desenvolvimento ativo com muitos contribuidores"
-        paragraph: "O time de desenvolvimento é ativo e está sempre em contato com a comunidade. Você pode facilmente contactar os principais desenvolvedores para pedir suporte ou propor novas idéias para o Verge."
+        paragraph: "O time de desenvolvimento é ativo e está sempre em contato com a comunidade. Você pode facilmente contactar os principais desenvolvedores para suporte ou propor novas idéias para o Verge."
       adoption:
         header: "Pronto para adoção em massa"
-        paragraph: "Verge oferece uma ampla gama de wallets seguras para diversos sistemas operacionais. A revolucionária wallet TOR Android oferece anonimato e é única entre as criptomoedas com foco em privacidade."
+        paragraph: "Verge oferece uma ampla gama de wallets seguras para diversos sistemas operacionais. A revolucionária wallet TOR Android oferece anonimato em dispositivos móveis, sendo a única entre as criptomoedas com foco em privacidade."
       opensource:
         header: "Descentralizado e open-source"
-        paragraph: "Verge é uma moeda descentralizada baseda na plataforma open-source. Não há controle central sobre a moeda."
+        paragraph: "Verge é uma moeda descentralizada baseada na plataforma open-source. Não há controle centralizado sobre a moeda."
   resources:
     header: "Recursos"
     black_paper: "Black Paper"
@@ -89,6 +89,7 @@ wallets:
     header: "Informação:"
     message: "Se não estiver instalando a versão Electrum você pode acelerar sua instalação fazendo o download do blockchain Verge <a href='http://vergecurrency.de/' target='_blank'>aqui</a>."
   tabs:
+    preferred: "Favoritas"
     desktop: "Desktop"
     mobile: "Dispositivos Móveis"
     other: "Outros"
@@ -116,41 +117,41 @@ roadmap:
     header: "\"Black\" Paper"
     date: "<font color='#08b4e0'>LANÇADO</font> 4 de Junho de 2017"
   electrum_i2P_server_client:
-    header: "Servidor/Cliente Electrum i2p"
+    header: "Servidor/Cliente i2p Electrum"
     date: "<font color='#08b4e0'>LANÇADO</font> 4 de Junho de 2017"
   electrum_tor_server_client:
-    header: "Servidor/Cliente Electrum TOR"
+    header: "Servidor/Cliente TOR Electrum"
     date: "<font color='#08b4e0'>LANÇADO</font> 5 de Junho de 2017"
   electrum_binaries:
     header: "Binários Electrum"
-    paragraph: "Clientes binários para fácil uso de lite wallets."
+    paragraph: "Clientes binários para facilitar o uso de lite Wallet."
     date: "<font color='#08b4e0'>LANÇADO</font> 7 de Junho de 2017"
   marketing_campaign:
     header: "Campanha de Marketing"
-    paragraph: "Iniciou uma campanha publicitária de 1 ano com Coinomi"
+    paragraph: "Iniciou uma campanha publicitária (ads) de 1 ano com Coinomi"
     date: "<font color='#08b4e0'>LANÇADO</font> 7 de Junho de 2017"
   redesign_website:
     header: "Re-design do Website Verge"
     date: "<font color='#08b4e0'>LANÇADO</font> 12 de Junho de 2017"
   radio:
-    header: "Expandir Rádio Verge"
-    paragraph: "Transformar em \"RadioCrypto\" e incluir nas core wallets"
+    header: "Expansão da Rádio Verge"
+    paragraph: "Transformar em \"RadioCrypto\" e incluir nas core Wallet"
     date: "<font color='#08b4e0'>LANÇADO</font> 26 de Junho de 2017"
   tor_android_wallet:
     header: "TOR wallet para Android"
-    paragraph: "Android wallet para Anon transações SOMENTE!"
+    paragraph: "wallet Android SOMENTE para transações anônimas!"
     date: "<font color='#08b4e0'>LANÇADO</font> 31 de Julho de 2017"
   i2P_android_wallet:
     header: "i2P wallet para Android"
-    paragraph: "Android wallet para Anon transações SOMENTE! (quase finalizado)"
+    paragraph: "wallet Android SOMENTE para transações anônimas! (quase finalizado)"
     date: "Julho-Agosto de 2017"
   core_wallet_release:
     header: "Novo lançamento da Core Wallet"
-    paragraph: "Adicionar novas funcionalidades como controle de moeda, RingCT, atualização de bibliotecas (openssl, boost, etc)"
+    paragraph: "Novas funcionalidades tais como controle de moeda, RingCT, atualização de bibliotecas (openssl, boost, etc)"
     date: "Julho-Agosto de 2017"
   rsk_smart_contracts:
     header: "RSK smart contracts"
-    paragraph: "Eles estão na testnet para bitcoin agora. A data é em torno deste período."
+    paragraph: "Eles estão na testnet para bitcoin agora. A data será em torno deste período."
     date: "Julho-Agosto de 2017"
   wallet_ui:
     header: "Revisão da interface da wallet"
@@ -191,7 +192,7 @@ developers:
 contributors:
   about:
     header: "Contribuidores"
-    paragraph: "Verge é um software open-source onstatemente melhorado por seus muitos contribuintes. Se também deseja contribuir, dê uma olhada  em nosso <a href='https://github.com/vergecurrency' target='_blank'>repositório Github</a> e veja onde você poderia fazer a diferença!"
+    paragraph: "Verge é um software open-source constatemente melhorado por seus muitos contribuidores. Se você também deseja contribuir, dê uma olhada  em nosso <a href='https://github.com/vergecurrency' target='_blank'>repositório Github</a> e veja onde você pode fazer a diferença!"
   wallets:
     verge:
       header: "Endereço Verge"
@@ -298,7 +299,7 @@ faq:
       subheader: "Geral"
       whatisverge:
         question: "O que é Verge?"
-        answer: "Verge é um ledger público com foco em privacidade, verificado pela tecnologia blockchain. Sua estrutura é contruída em torno de transações descentralizadas com suporte de uma comunidade global."
+        answer: "Verge é um ledger (livro-razão) público com foco em privacidade, verificado pela tecnologia blockchain. Sua estrutura é construída em torno de transações descentralizadas com suporte de uma comunidade global."
       goal:
         question: "Qual é o objetivo do Verge?"
         answer: "Trazer privacidade à todos usuários e manter viva a visão original do Bitcoin, provendo privacidade em um ledger público."
@@ -306,15 +307,15 @@ faq:
         question: "Verge é open-source?"
         answer: "Sim, Verge é um projeto open-source. Você pode navegar em nossa conta no <a href='https://github.com/vergecurrency' target='_blank'>GitHub</a> e acessar todos os repositórios/códigos. É importante notar que Verge não é uma empresa ou possui uma empresa por trás dando suporte."
       getverge:
-        question: "Como posso conseguir Verge?"
-        answer: "Há várias maneiras de se obter moedas Verge (XVG). A mais comum é comprá-las em uma  <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a> (bolsa de valores) suportada. Usuários também podem doar uns aos outros em uma das plataformas <a href='https://vergecurrency.com/#social' target='_blank'>sociais</a> integradas (utilizando um bot Verge oficial). Se você possui um dispositivo Android, você também pode obter Verge acessando enviar/receber moedas no <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>aplicativo</a>."
+        question: "Como posso adquirir Verge?"
+        answer: "Há várias maneiras de se adquirir moedas Verge (XVG). A mais comum é comprá-las em uma  <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a> (bolsa de valores) que negocia Verge. Usuários também podem doar uns aos outros em uma das plataformas <a href='https://vergecurrency.com/#social' target='_blank'>sociais</a> integradas (utilizando um bot Verge oficial). Se você possui um dispositivo Android, você também pode adquirir Verge acessando enviar/receber moedas no <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>aplicativo</a>."
       funded:
         question: "Como o desenvolvimento do Verge é financiado?"
-        answer: " Verge é um projeto open-source, portanto todo trabalho de desenvolvimento é financiado através de <a href='https://vergecurrency.com/#donate' target='_blank'>doações</a>. Atualmente, estamos explorando outros métodos para financiar o desenvolvimento, incluindo uma <b>loja Verge</b> com produtos oficiais e <b>Mining Pool</b> com suporte à multi-algoritmo</b>."
+        answer: " Verge é um projeto open-source, portanto, todo trabalho de desenvolvimento é financiado através de <a href='https://vergecurrency.com/#donate' target='_blank'>doações</a> de desenvolvedores e comunidade. Atualmente estamos explorando outros métodos para financiar o desenvolvimento, incluindo uma <b>loja Verge</b> com produtos oficiais e <b>Mining Pool</b> com suporte a multi-algoritmo</b>."
       marketing:
         question: "Por que Verge não investe mais em divulgação?"
-        answer: "É importante lembrar o Verge é 100% financiado por desenvolvedores e comunidade. Atualmente não recebemos o suficiente da comunidade para investirmos em campanhas de marketing em larga escala. Apesar disso, realizamos campanhas (ads) na <a href='https://coinomi.com/' target='_blank'>Coinomi</a> e <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a>."
-        answer2: "Nós também executamos campanhas de marketing em redes sociais de nossa própria criação. Recentemente apresentamos nossa <a href='vergecurrency.com/contest' target='_blank'>competição de GIF animados</a> onde entregamos mais de 200.000 moedas Verge para nossa comunidade.
+        answer: "É importante lembrar o Verge é 100% financiado por desenvolvedores e comunidade. Atualmente não recebemos o suficiente da comunidade para investir em campanhas de marketing em larga escala. Apesar disso, realizamos campanhas (ads) na <a href='https://coinomi.com/' target='_blank'>Coinomi</a> e <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a>."
+        answer2: "Nós também executamos campanhas de marketing em nossas próprias contas de redes sociais. Recentemente apresentamos nossa <a href='vergecurrency.com/contest' target='_blank'>competição de GIF animados</a> onde entregamos mais de 200.000 moedas Verge para nossa comunidade.
         Veja mais em <a href='http://vergecurrency.com/contestrecap' target='_blank'>resultados da competição</a>."
       numdevelopers:
         question: "Há quantos desenvolvedores Verge?"
@@ -328,31 +329,31 @@ faq:
       premine:
         question: "Verge foi pré-minerada?"
         answer: "Não, Verge <b>não</b> foi pré-minerada. Isso significa que todos os desenvolvedores compraram suas moedas Verge como todo mundo."
-        answer2: "Caso não saiba, a pré-mineração é a forma como os desenvolvedores de uma moeda alocam uma determinada quantidade em uma wallet (carteira) particular antes de liberar para a comunidade."
+        answer2: "Caso não saiba, a pré-mineração é a forma como os desenvolvedores de uma moeda alocam uma determinada quantidade em uma wallet  particular antes de liberar para a comunidade."
       totalcoinsupply:
         question: "Qual é total de moedas disponíveis?"
         answer: "O limite máximo é de <b>~16.5 bilhões</b> (16.555.000,000 para ser exato) de moedas. É importante notar que as moedas não foram completamente disponibilizadas pois esta liberação ocorre em função do tempo. Aproximadamente 9 bilhões foram disponibilizadas no primeiro ano, em 2014, e mais 1 bilhão tem sido (e serão) disponibilizadas todo ano até que o limite total seja alcançado."
       whysomanycoins:
         question: "Por que tantas moedas?"
-        answer: "É importante para uma moeda ter uma grande reserva (e não disponibilizá-las de uma vez) pois, assim, evita-se que uma pequena minoria de pessoas possua a maioria das moedas."
-        answer2: "Se a maioria das moedas fossem possuídas por um pequeno grupo de pessoas poderia haver uma flutuação drástica no preço de mercado por conta da ação de poucos. Por exemplo, se uma pessoa que possuísse 60% de todos os Verges disponíveis decidisse vender todas as suas moedas o preço poderia cair. Um importante fator para uma moeda viável à longo prazo é manter um preço estável, desta forma as pessoas não sentirão medo de possuir ou acumular moedas em suas vidas diárias."
-        answer3: "O lado bom da alta demanda de moedas é que isto significa que o preço potencial de uma única moeda Verge poderia ficar mais alinhada ao preço de uma moeda fiduciária, emitida pelo governo, como o USD (dólar americano) ou GBP (libra esterlina). Além disso, não demandaria cálculo com muitas casas decimais, por exemplo, \"- Estou te enviando 0.002 bitcoin.\"."
+        answer: "É importante para uma moeda ter uma grande oferta (e não disponibilizá-las de uma vez) pois, assim, evita-se que uma pequena minoria de pessoas possua a maioria das moedas."
+        answer2: "Se a maioria das moedas pertence a um pequeno grupo de pessoas, pode haver flutuação drástica no preço de mercado por conta da ação destes poucos indivíduos. Por exemplo, se uma pessoa que possuísse 60% de todos os Verges disponíveis e decidisse vender todas as suas moedas, o preço poderia cair. Um importante fator para uma moeda viável a longo prazo é manter um preço estável, desta forma as pessoas não sentirão medo de possuir ou acumular moedas."
+        answer3: "O lado bom da alta oferta de moedas é que o preço potencial de uma única moeda Verge fica mais alinhada ao preço de uma moeda fiduciária, emitida pelo governo, como o USD (dólar americano) ou BRL (real brasileiro). Assim, não demandaria cálculo com muitas casas decimais, por exemplo, \"- Estou te enviando 0.002 bitcoin.\"."
       whocontrolsprice:
         question: "Quem controla o preço do Verge?"
-        answer: "O valor monetário do Verge é determinado pelos compradores e vendedores Verge. Seu valor, como a maioria das coisas, é determinado pelo mercado. É realmente simples assim."
+        answer: "O valor monetário do Verge é determinado pelos compradores e vendedores Verge. Seu valor, como a maioria das coisas, é determinado pelo mercado. É de fato bastante simples."
       publicledger:
         question: "Por que o Verge possui um ledger público?"
-        answer: "Nós acreditamos que um blockchain deva ser público por uma série de razões e a maioria para proteger os usuários. Com um blockchain público você é capaz de enxergar a distribuição das moedas e como as pessoas estão usando."
+        answer: "Nós acreditamos que um blockchain deva ser público por uma série de razões, principalmente para proteger os usuários. Com um blockchain público você é capaz de enxergar a distribuição das moedas e como as pessoas estão utilizando-as."
         answer2: "Você é capaz de visualizar todas as transações do blockchain, porém, você não conseguirá identificar o remetente e destinatário bem como a localização física dos mesmos."
       richlist:
         question: "Onde eu posso verificar a lista dos mais \"Ricos do Verge\"?"
         answer: "Você pode visualizar a lista <a href='http://vergecurrency.info/richlist' target='_blank'>aqui</a>. Se o site estiver fora do ar, por favor nos notifique, pois trata-se de um servidor doado pela comunidade."
       wheretolearnmore:
         question: "Onde posso aprender mais sobre o Verge?"
-        answer: "Há inúmeras plataformas <a href='https://vergecurrency.com/#social' target='_blank'>sociais</a>. Somos muito ativos no Twitter, Telegram, Slack e Discord."
+        answer: "Nós estamos em inúmeras plataformas <a href='https://vergecurrency.com/#social' target='_blank'>sociais</a>. Somos muito ativos no Twitter, Telegram, Slack e Discord."
       roadmap:
         question: "Onde posso encontrar o roadmap?"
-        answer: "Apresentamos o <a href='https://vergecurrency.com/#roadmap' target='_blank'>roadmap</a> em nosso site onde geralmente listamos os itens em que estamos trabalhando pelos próximos um ou dois meses. Nós não gostamos de colocar itens de longo prazo (maiores que 3 meses) em nosso roadmap pois, em cripto, as coisas mudam rápido demais para anteciparmos tanto."
+        answer: "Apresentamos o <a href='https://vergecurrency.com/#roadmap' target='_blank'>roadmap</a> em nosso site, onde geralmente listamos os itens em que estamos trabalhando pelos próximos um ou dois meses. Nós não gostamos de colocar itens de longo prazo (maiores que 3 meses) em nosso roadmap pois, em cripto, as coisas mudam rápido demais para anteciparmos tanto."
     privacy:
       subheader: "Privacidade"
       whynotvpn:
@@ -360,11 +361,11 @@ faq:
         answer: "Tanto <a href='https://www.torproject.org/' target='_blank'>TOR</a> quanto <a href='https://geti2p.net/en/' target='_blank'>i2P</a> encriptam todo tráfego de rede, portanto, o IP e dados do usuário não podem ser acessados. Uma VPN (Rede Virtual Privada) também encripta o tráfego de rede, porém você deve confiar que o provedor da VPN não loga nenhuma de suas atividades (o que podem e geralmente o fazem).
         Leia este <a href='https://gist.github.com/joepie91/5a9909939e6ce7d09e29' target='_blank'>gist</a>  para maiores informações sobre as falhas nos serviços de VPN."
       otheranoncoins:
-        question: "De que forma o Verge difere de outras moedas anônimas disponíveis no mercado?"
-        answer: "Outras moedas que dizem valorizar a privacidade não são sérias em proteger o endereço IP do usuário. A maioria destas moedas logam o IP do usuário e se dizem \"privadas\" porque tentam mascarar/esconder as transações em suas redes. Verge possui um ledger transparente que permite a qualquer um visualizar suas transações, porém protege a identidade e localização do usuário integrando <a href='https://www.torproject.org/' target='_blank'>TOR</a> e <a href='https://geti2p.net/en/' target='_blank'>i2P</a> para não expor os endereçoes IP."
+        question: "De que forma o Verge se diferencia de outras moedas anônimas disponíveis no mercado?"
+        answer: "Outras moedas que dizem valorizar a privacidade não são sérias em proteger o endereço IP do usuário (com exceção do Monero, que está desenvolvendo essa funcionalidade). A maioria destas moedas logam o IP do usuário e se dizem \"privadas\" porque tentam mascarar/esconder as transações em suas redes. Verge possui um ledger transparente que permite a qualquer um visualizar suas transações, porém protege a identidade e localização do usuário integrando <a href='https://www.torproject.org/' target='_blank'>TOR</a> e <a href='https://geti2p.net/en/' target='_blank'>i2P</a> para não expor os endereços IP."
       masternodes:
-        question: "Verge algum dia terá \"masternodes\"?"
-        answer: "Não, nós acreditamos que \"masternodes\" são redes frágeis e centralizadas. Um hacker poderia facilmente executar um ataque por DDOS (Distributed Denial of Service) nos \"masternodes\" fazendo a rede cair. Além disso, uma agência do governo poderia emitir uma intimação para obter todos os logs do \"masternodes\" (a maioria das moedas \"anônimas\" atuais logam o endereço IP do usuário aqui)."
+        question: "Verge algum dia terá masternodes?"
+        answer: "Não, nós acreditamos que masternodes são redes frágeis e centralizadas. Um hacker poderia facilmente executar um ataque por DDOS (Distributed Denial of Service) nos masternodes fazendo a rede cair. Além disso, uma agência do governo poderia emitir uma intimação para ter acesso a todos os logs do masternodes (a maioria das moedas \"anônimas\" atuais logam o endereço IP do usuário nos masternodes)."
     wallets:
       subheader: "Wallets"
       whichwallet:
@@ -378,21 +379,21 @@ faq:
         answer: "A Electrum é uma wallet com foco em velocidade e baixa utilização de recursos. Ela utiliza uma tecnologia chamada <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV), que verifica a transação Verge sem a necessidade de baixar todo o blockchain. A tecnologia SPV permite que o tempo de confirmação caia para ˜5 segundos (ao invés dos ˜30 segundos de uma não-Electrum). Para mais perguntas sobre Electrum acesse a página de <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'>FAQ</a> da Electrum."
       qt:
         question: "O que é QT?"
-        answer: "<a href='https://www.qt.io' target='_blank'>QT</a> é uma aplicação multiplataforma e framework para UI para desenvolvedores C++. Ela permite que desenvolvedores C++ disponibilizem seus softwares para diferente plataformas. Para o <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>, o toolkit recebeu o nome de QT por que \"a letra 'Q' era bonita nas nos Emacs de Harvard e a letra 't' foi inspirada no Xt, o toolkit X\"."
+        answer: "<a href='https://www.qt.io' target='_blank'>QT</a> é uma aplicação multiplataforma e framework para UI para desenvolvedores C++. Ela permite que desenvolvedores C++ disponibilizem seus softwares para diferentes plataformas. Para o <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>, o toolkit recebeu o nome de QT por que \"a letra 'Q' era bonita nos Emacs de Harvard e a letra 't' foi inspirada no Xt, o toolkit X\"."
       qtwallet:
         question: "O que é uma wallet QT?"
-        answer: "Wallets QT requerem que você baixe todo  <a href='https://vergecurrency.de/' target='_blank'>blockchain Verge</a> em seu computador, em outras palavras, seu computador deve manter uma cópia de todas as transações já realizadas. Atualmente o blockchain Verge possui ~1GB e continuará aumentando pois há cada vez mais usuários realizando transações. Se você está usando uma wallet QT certifique-se de que seu aparelho possui espaço extra suficiente para armazenamento do blockchain."
+        answer: "Wallets QT requerem que você baixe todo  <a href='https://vergecurrency.de/' target='_blank'>blockchain Verge</a> em seu computador, em outras palavras, seu computador deve manter uma cópia de todas as transações já realizadas. Atualmente o blockchain Verge possui ~1GB e continuará aumentando, pois há cada vez mais usuários realizando transações. Se você está usando uma wallet QT certifique-se de que seu aparelho possui espaço extra suficiente para armazenamento do blockchain."
         answer2: "Toda vez que você abrir sua wallet QT ela irá sincronizar e baixar as últimas atualizações no blockchain para seu computador. Se decidir utilizar a wallet QT é melhor que você utilize-a regularmente, caso contrário pode levar uma hora ou mais para baixar as últimas atualizações no blockchain (dependendo de quanto tempo se passou desde a última vez que você abriu sua wallet)"
       backup:
         question: "Como crio um backup da minha wallet?"
-        answer: "Se você estiver utilizando uma wallet Electrum, tudo o que precisa fazer é guardar as 12 palavras que compoem a seedphrase (palavra-semente, em tradução livre) de forma segura. Ao criar sua wallet Verge pela primeira vez lhe é fornecida a seedphrase. Você também pode acessá-las acessando as configurações da aplicação. Nós não recomendamos que armazene sua seedphrase eletronicamente pois desta forma é possível serem roubadas. Se alguém tiver acesso à sua seedphrase será possível roubar todas suas moedas."
+        answer: "Se você estiver utilizando uma wallet Electrum, tudo o que precisa fazer é guardar as 12 palavras que compoem a seedphrase (frase-semente, em tradução livre) de forma segura. Ao criar sua wallet Verge pela primeira vez lhe é fornecida a seedphrase. Você também pode acessá-las acessando as configurações da aplicação. Nós não recomendamos que armazene sua seedphrase eletronicamente pois desta forma é possível serem roubadas. Se alguém tiver acesso à sua seedphrase será possível roubar todas suas moedas."
         answer2: " Enquanto você possui sua seedphrase sempre será possível recuperar sua wallet. Por exemplo, se Bob estiver utilizando a wallet Verge Android TOR e acidentalmente deixar seu celular cair na água (inutilizando-o), ele pode facilmente recuperar sua wallet Verge em seu novo telefone, baixando novamente a app Verge e utilizando a seedphrase. Se você não se lembrar da sua seedphrase todas as moedas que você possuir em sua wallet serão pedidas."
         answer3: " Se desejar encriptar a wallet QT, você pode criar uma senha em <b>Settings -> Encrypt Wallet</b>. Uma vez criada a senha, você pode criar uma cópia encriptada de sua wallet acessando <b>File -> Backup Wallet</b>. As chaves privadas de sua wallet QT estão salvas no arquivo wallet.dat. Sempre que enviar moedas Verge, a wallet irá utilizar a chave privada contida no arquivo wallet.dat.  <b>Tenha em mente que toda vez que criar um novo endereço na wallet Verge, você DEVE criar um novo backup</b>."
-        answer4: "Enquanto mantiver seu arquivo wallet.dat atualizado, você é capaz de recuperar e importar suas moedas para uma wallet Verge. Caso perca o arquivo wallet.dat todas as moedas contidas nela estarão perdidas."
+        answer4: "Enquanto mantiver seu arquivo wallet.dat atualizado, você será capaz de recuperar e importar suas moedas para outra wallet Verge. Caso perca o arquivo wallet.dat todas as moedas contidas nela estarão perdidas."
       longsync:
         question: "Minha wallet está levando muito tempo para sincronizar.  Há algo que possa ser feito para acelerar esse processo?"
         answer: "Sim, você pode fazer o download da última versão do blockchain Verge <a href='https://vergecurrency.de' target='_blank'>aqui</a>. Após efetuar o download, por favor leia as <a href='https://vergecurrency.de/howto' target='_blank'>instruções</a>. Assim que completar as instruções reabra a wallet e aguarde até que finalize a sincronização dos últimos blocos, o que pode levar até 1 hora."
-        answer2: "Tenha em mente que nós também fornecemos uma <a href='https://vergecurrency.com/#wallets' target='_blank'>wallet</a> Electrum, está é significantemente mais rápida pois não requer que você mantenha uma cópia do blockchain em sua máquina."
+        answer2: "Lembre-se que nós fornecemos uma <a href='https://vergecurrency.com/#wallets' target='_blank'>wallet</a> Electrum, que é muito mais rápida pois não requer uma cópia do blockchain em sua máquina."
       torandroidnoconnection:
         question: "Por que eu aparece 'no connection' em minha wallet TOR Android?"
         answer: "Se você está vendo \"no connection\" na tela principal, por favor abra o aplicativo Orbot e selecione \"apps VPN mode\" no topo do menu esquerdo."
@@ -400,7 +401,7 @@ faq:
       subheader: "Mineração"
       proof:
         question: "Verge é POW or POS?"
-        answer: "Verge é 100% <b>POW</b> (Proof of Work). Nós acreditamos que o sistema POS (Proof of Stake) beneficia usuários que possuem mais moedas injustamente, tornando-os ainda mais ricos. Este é, também, o principal problema nas moedas fiduciárias tradicionais (ex. BRL, USD)."
+        answer: "Verge é 100% <b>POW</b> (Proof of Work). Nós acreditamos que o sistema POS (Proof of Stake) beneficia injustamente usuários que possuem mais moedas, tornando-os ainda mais ricos. Este é, também, o principal problema nas moedas fiduciárias tradicionais (ex. BRL, USD)."
       algorithms:
         question: "Quais algoritmos o Verge suporta?"
-        answer: "Verge suporta multi-algoritmos, o que significa que indivíduos com diferentes equipamentos de mineração também estão aptos a minerar Verge, trazendo maior segurança através da descentralização e uma distribuição de moedas mais justa entre a comunidade mineradora. Verge é uma das poucas criptomoedas a suportar cinco tipos diferentes de algoritmos de hashing: Scrypt, X17, Lyra2rev2, myr-groestl e blake2s."
+        answer: "Verge suporta multi algoritmos, o que significa que indivíduos com diferentes equipamentos de mineração também estão aptos a minerar Verge, trazendo maior segurança através da descentralização e uma distribuição de moedas mais justa entre a comunidade mineradora. Verge é uma das poucas criptomoedas a suportar cinco tipos diferentes de algoritmos de hashing: Scrypt, X17, Lyra2rev2, myr-groestl e blake2s."
