@@ -164,7 +164,7 @@ roadmap:
     date: "<font color='#08b4e0'>Завершено</font> 16 августа, 2017"
   transfer_telegram_service:
     header: "Возможность отправить Verge в Telegram"
-    date: "<font color='#08b4e0'>Завершено</font> 6 сентября, 2017"
+    date: "<font color='#08b4e0'>Завершено</font> 5 сентября, 2017"
   official_mining_pool:
     header: "Официальный мульти-алгоритмовый майнинг-пул Verge"
     paragraph: "Комиссия (2%) будет направлена на дальнейшее развитие проекта"
