@@ -1,5 +1,9 @@
-.exchange-buttons-list li {
-    margin: 20px 0;
+.exchange-buttons-list {
+	list-style: none;
+	margin: 0;
+	li {
+		margin: 20px 0;
+	}
 }
 
 .exchange-img {
@@ -50,6 +54,14 @@
 
 .coinspot-img {
     background-image: url(/images/coinspot.png)
+}
+
+.blocknet-img {
+    background-image: url(/images/blocknet.png)
+}
+
+.exchangedi2p-img {
+    background-image: url(/images/exchangedi2p.jpg)
 }
 
 @media (max-width: 550px) {

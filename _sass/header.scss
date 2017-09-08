@@ -138,6 +138,11 @@
   }
 }
 
+.sticky-header.always-visible {
+    opacity: 1 !important;
+    z-index: 1 !important;
+}
+
 .nav-dropdown {
   position: relative;
   display: inline-block;
@@ -201,7 +206,7 @@
       text-decoration: none;
       font-size: 14px;
       font-weight: 400;
-      padding: 10px;
+      padding: 15px 20px;
       display: inline-block;
     }
 

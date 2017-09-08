@@ -1,11 +1,11 @@
 .main-buttons-container {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .main-button-container {
     display: inline-block;
     vertical-align: top;
-    margin-right: 40px;
+    margin-right: 30px;
     margin-top: 20px;
     width: 350px;
     height: 70px;
@@ -20,9 +20,12 @@
     height: 100%;
     background: $bg-gray;
     color: $text-dark;
+	border: none;
 }
 
 .main-wallet-download-buttons-list {
+	list-style: none;
+	margin: 0;
     margin-bottom: 10px;
     padding-left: 0;
     padding-right: 0;
@@ -34,13 +37,14 @@
 
 a.button.wallet-download-button {
     height: 70px;
+	line-height: 1em;
+	padding-left: 25px;
 }
 
 .wallet-download-button-download-text {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 5px;
 }
 
 .wallet-download-button-description-text {
@@ -104,10 +108,14 @@ body.fedora {
     }
 }
 
-.footer-wallet-download-buttons-list li {
-    margin: 20px 0;
+.footer-wallet-download-buttons-list {
+	margin: 0;
+	list-style: none;
+	li {
+		margin: 20px 0;
+	}
 }
-
+	
 button:active,
 button:focus,
 button:visited {

@@ -25,7 +25,7 @@ nav:
     title: "Community"
   social:
     title: "Social"
-tagline: "Verge is a secure and anonymous cryptocurrency, built with a focus on privacy."
+tagline: "Verge is a <strong>secure</strong> and <strong>anonymous</strong> cryptocurrency, built with a focus on <strong>privacy</strong>."
 intro_button: "Watch Introduction Video"
 close: "Close"
 download: "Download"
@@ -34,12 +34,12 @@ view_all_wallets: "View All Wallets"
 contest_enter: "Enter for a chance to win 70,000 Verge coins"
 info:
   about:
-    header: "About"
-    paragraph: "Verge is a decentralized currency designed for users who value privacy. It improves upon the original Bitcoin blockchain by using multiple anonymity-centric networks such as Tor and i2p. It utilizes multi-algorithm mining support to improve security and provide equal distribution of coins to miners."
+    header: "About Verge"
+    paragraph: "Verge is a decentralized currency designed for users who value privacy. It improves upon the original Bitcoin blockchain by using multiple anonymity-centric networks such as Tor and I2P. It utilizes multi-algorithm mining support to improve security and provide equal distribution of coins to miners."
     cards:
       privacy:
         header: "Completely anonymous and privacy-focused"
-        paragraph: "Verge uses multiple anonymity-centric networks such as TOR and i2P. The IP addresses of the users are obfuscated and the transactions are completely untraceable."
+        paragraph: "Verge uses multiple anonymity-centric networks such as Tor and I2P. The IP addresses of the users are obfuscated and the transactions are completely untraceable."
       community:
         header: "Great support from community"
         paragraph: "Verge is not a private company funded by pre-mined coins or ICO's. All of the development and marketing is supported by the thousands of members of the community."
@@ -51,7 +51,7 @@ info:
         paragraph: "The development team is active and always in close contact with the community. You can easily reach the main developers for support or new ideas about Verge."
       adoption:
         header: "Ready for mass adoption"
-        paragraph: "Verge offers a wide array of secure wallets for multiple operating systems. The revolutionary TOR Android Wallet offers mobile anonymity, which is a unique feature among privacy-oriented coins."
+        paragraph: "Verge offers a wide array of secure wallets for multiple operating systems. The revolutionary Tor Android Wallet offers mobile anonymity, which is a unique feature among privacy-oriented coins."
       opensource:
         header: "Decentralized and open-source"
         paragraph: "Verge is a decentralized currency based on an open-source platform. There is no central control over the coin."
@@ -65,9 +65,9 @@ info:
     blockchain_explorer_prohashing: "Blockchain Explorer (ProHashing)"
     blockchain_explorer_ccminer: "Blockchain Explorer (CCMiner.org)"
   tech_specs:
-    header: "Tech Specs"
+    header: "Specifications"
     symbol: "<b>Symbol:</b> XVG"
-    algo: "<b>Algo:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2"
+    algo: "<b>Algo:</b> Scrypt, x17, groestl, blake2s, and lyra2rev2"
     block_time: "<b>Block Time:</b> 30 seconds"
     rpc_port: "<b>RPC port:</b> 20102"
     p2p_port: "<b>P2P port:</b> 21102"
@@ -91,6 +91,7 @@ wallets:
     header: "Info:"
     message: "If you are not installing an Electrum wallet, you can speed up your install by downloading the Verge blockchain from <a href='http://vergecurrency.de/' target='_blank'>here</a>."
   tabs:
+    preferred: "Preferred"
     desktop: "Desktop"
     mobile: "Mobile"
     other: "Other"
@@ -103,13 +104,13 @@ wallets:
   debian: "Verge Debian Wallet"
   fedora: "Verge Fedora Wallet"
   web: "Verge Web Wallet"
-  web_tor: "Verge TOR Web Wallet"
-  web_i2P: "Verge i2P Web Wallet"
+  web_tor: "Verge Tor Web Wallet"
+  web_i2P: "Verge I2P Web Wallet"
   raspberry_pi: "Verge Raspberry Pi Source Code"
   electrum_linux: "Verge Linux Electrum Wallet"
-  electrum_linux_tor: "Verge TOR Linux Electrum Wallet"
+  electrum_linux_tor: "Verge Tor Linux Electrum Wallet"
   electrum_windows: "Verge Windows Electrum Wallet"
-  electrum_windows_tor: "Verge TOR Windows Electrum Wallet"
+  electrum_windows_tor: "Verge Tor Windows Electrum Wallet"
   paper: "Verge Paper Wallet"
   daemon_docker: "Verge Daemon Docker Image"
   coinomi: "Coinomi Multi Currency Android Wallet"
@@ -119,10 +120,10 @@ roadmap:
     header: "\"Black\" Paper"
     date: "<font color='#08b4e0'>RELEASED</font> June 4, 2017"
   electrum_i2P_server_client:
-    header: "Electrum i2p Server/Client"
+    header: "Electrum I2P Server/Client"
     date: "<font color='#08b4e0'>RELEASED</font> June 4, 2017"
   electrum_tor_server_client:
-    header: "Electrum TOR Server/Client"
+    header: "Electrum Tor Server/Client"
     date: "<font color='#08b4e0'>RELEASED</font> June 5, 2017"
   electrum_binaries:
     header: "Electrum Binaries"
@@ -140,12 +141,12 @@ roadmap:
     paragraph: "Transform into \"RadioCrypto\" and include in core wallets"
     date: "<font color='#08b4e0'>RELEASED</font> June 26, 2017"
   tor_android_wallet:
-    header: "TOR Android Wallet"
-    paragraph: "TOR Android Wallet for Anon transactions ONLY!"
+    header: "Tor Android Wallet"
+    paragraph: "Tor Android Wallet for Anon transactions ONLY!"
     date: "<font color='#08b4e0'>RELEASED</font> July 31, 2017"
   i2P_android_wallet:
-    header: "i2P Android Wallet"
-    paragraph: "i2P Android Wallet for Anon transactions ONLY! (near completion)"
+    header: "I2P Android Wallet"
+    paragraph: "I2P Android Wallet for Anon transactions ONLY! (near completion)"
     date: "July-August, 2017"
   core_wallet_release:
     header: "New Core Wallet Release"
@@ -170,25 +171,25 @@ roadmap:
     date: "<font color='#08b4e0'>RELEASED</font> August 16, 2017"
   transfer_telegram_service:
     header: "Verge Transfer Over Telegram Service"
-    date: "August, 2017"
+    date: "<font color='#08b4e0'>RELEASED</font> September 5, 2017"
   official_mining_pool:
     header: "Official Verge Multi-Algorithm Mining Pool"
     paragraph: "There will be a 2% fee going to fund further Verge development"
     date: "August, 2017"
   upgrade_electrum_client:
     header: "Upgrade Electrum Client Codebases"
-    date: "August, 2017"
+    date: "<font color='#08b4e0'>RELEASED</font> August 24, 2017"
 developers:
   about:
     header: "Developers"
     paragraph: "Writing code is hard. We would like to make it easy for you to work on Verge, so we've gathered a set of tools and put them in a list."
   resources:
-    header: "Developers tools"
+    header: "Developers' tools"
     github_gui: "GitHub Desktop"
     php: "PHP Library for Verge wallet"
     ruby: "Ruby wrapped gem for interacting with Verge wallet"
-    python: "VERGE API binding for Python"
-    nodejs: "Node.js client for VERGE"
+    python: "Verge API binding for Python"
+    nodejs: "Node.js client for Verge"
     rubygems_howto: "How to install RubyGems"
     github_repos: "Our GitHub repositories"
 contributors:
@@ -205,7 +206,7 @@ contributors:
 donate:
   about:
     header: "Donate to Support Development"
-    paragraph: "Verge is not a premined coin, so all of its development is funded by kind people like you."
+    paragraph: "Verge is not a pre-mined coin, so all of its development is funded by kind people like you."
   wallets:
     verge:
       header: "Verge Wallet Address"
@@ -294,7 +295,7 @@ contest_page:
     platformNotSupported: "Sorry, your browser is not supported. Please use Chrome or Firefox."
 notificationbar:
   close: "Close"
-  torandroidrelease: "The new Verge TOR Android Wallet is here!"
+  torandroidrelease: "The new Verge Tor Android Wallet is here!"
 faq:
   tagline: "Frequently Asked Questions"
   toc:
@@ -360,11 +361,11 @@ faq:
     privacy:
       subheader: "Privacy"
       whynotvpn:
-        question: "Why do I Need To Use TOR or i2P? Can't I just use a VPN?"
-        answer: "Both <a href='https://www.torproject.org/' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> encrypt all network traffic so that a user's IP address and data cannot be accessed. A Virtual Private Network (VPN) also encrypts network traffic, but you must trust the VPN provider to not log any of your activity (which they can and often do). Read this <a href='https://gist.github.com/joepie91/5a9909939e6ce7d09e29' target='_blank'>gist</a> for more information about the pitfalls of VPN services."
+        question: "Why do I Need To Use Tor or I2P? Can't I just use a VPN?"
+        answer: "Both <a href='https://www.torproject.org/' target='_blank'>Tor</a> and <a href='https://geti2p.net/en/' target='_blank'>I2P</a> encrypt all network traffic so that a user's IP address and data cannot be accessed. A Virtual Private Network (VPN) also encrypts network traffic, but you must trust the VPN provider to not log any of your activity (which they can and often do). Read this <a href='https://gist.github.com/joepie91/5a9909939e6ce7d09e29' target='_blank'>gist</a> for more information about the pitfalls of VPN services."
       otheranoncoins:
         question: "How Is Verge Different Than the Other Anonymous Coins Currently Available?"
-        answer: "Other coins who claim to value privacy aren't serious about protecting a user's IP address (the exception being Monero, who is working on this). Most of these coins log user IP addresses and only claim to be \"private\" because they attempt to mask/hide the transactions on their network. Verge has a transparent ledger that allows anyone to view all of its transactions, but protects user identities and locations by integrating both <a href='https://www.torproject.org/'' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> to not expose IP addresses."
+        answer: "Other coins who claim to value privacy aren't serious about protecting a user's IP address (the exception being Monero, who is working on this). Most of these coins log user IP addresses and only claim to be \"private\" because they attempt to mask/hide the transactions on their network. Verge has a transparent ledger that allows anyone to view all of its transactions, but protects user identities and locations by integrating both <a href='https://www.torproject.org/'' target='_blank'>Tor</a> and <a href='https://geti2p.net/en/' target='_blank'>I2P</a> to not expose IP addresses."
       masternodes:
         question: "Will Verge Ever Have Masternodes?"
         answer: "No, we believe Masternodes are a weakness and centralize the network. A hacker could very easily perform a DDOS (Distributed Denial of Service) attack on the Masternodes, causing the network to be brought down. Also, a government agency could issue a subpoena to retrieve all of the Masternode logs (most of the current \"anonymous\" coins log user IP addresses here)."
@@ -397,7 +398,7 @@ faq:
         answer: "Yes, you can download the latest Verge <a href='https://vergecurrency.de' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://vergecurrency.de/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour."
         answer2: "Please keep in mind that we also have alternate Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>wallets</a> that are significantly faster (they don't require you to store the entire blockchain locally)."
       torandroidnoconnection:
-        question: "Why am I Seeing No Connection on my Verge TOR Android app?"
+        question: "Why am I Seeing No Connection on my Verge Tor Android app?"
         answer: "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu."
     mining:
       subheader: "Mining"

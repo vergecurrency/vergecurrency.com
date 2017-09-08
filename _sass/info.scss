@@ -20,6 +20,8 @@
         margin: 0;
         padding: 0;
 
+		text-align: center;
+		
         @media (max-width: 1100px) {
             display: none;
         }
@@ -44,7 +46,7 @@
     .resources_specs_container {
         display: inline-block;
         width: 100%;
-        padding: 20px;
+        padding: 35px 60px;
         background: $lighter-gray;
     }
 }

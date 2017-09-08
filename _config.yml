@@ -23,12 +23,21 @@ github_username:  vergecurrency
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+paginate_path: "blog/page:num/"
 gems:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Blog settings
+
+# Lang settings
 default_lang: 'en'
 langs:
   'ar': 'العربية'
@@ -69,3 +78,4 @@ faq_lang_codes:
   - 'ko'
   - 'de'
   - 'ru'
+  - 'zh_CN'
