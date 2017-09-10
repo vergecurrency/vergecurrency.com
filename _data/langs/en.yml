@@ -241,6 +241,7 @@ footer:
     telegram: "Telegram"
     verge_radio: "Verge Radio"
     discord: "Verge Discord"
+    email: "Email"
   tweets:
     header: "Tweets"
     by: "Tweets by @vergecurrency"
