@@ -78,6 +78,12 @@ body.android {
     }
 }
 
+body.ios {
+    .ios-download-button {
+        display: flex !important;
+    }
+}
+
 body.arch {
     .arch-download-button {
         display: flex !important;
