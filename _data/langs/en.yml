@@ -97,7 +97,8 @@ wallets:
     other: "Other"
   windows: "Verge Windows Wallet"
   macosx: "Verge Mac OSX Wallet"
-  android: "Verge Tor Android Wallet"
+  android: "Verge TOR Android Wallet"
+  coinpouch: "Coinpouch iOS Wallet"
   archlinux: "Verge ArchLinux Wallet"
   centos: "Verge CentOS Wallet"
   debian: "Verge Debian Wallet"
@@ -242,6 +243,7 @@ footer:
     telegram: "Telegram"
     verge_radio: "Verge Radio"
     discord: "Verge Discord"
+    email: "Email"
   tweets:
     header: "Tweets"
     by: "Tweets by @vergecurrency"
@@ -390,8 +392,8 @@ faq:
         answer2: "Every time you open your QT wallet, the wallet will synchronize and download the latest blockchain data to your computer. If you decide to use a QT wallet, you will most likely want to use it on a regular basis; or it could take an hour or more (depending on how long it has been since you opened your wallet last) to download the latest blockchain updates."
       backup:
         question: "How Do I Create a Backup of My Wallet?"
-        answer: "If you are using an Electrum wallet, all you have to do is keep your 12 word seedphrase secure. You are provided your seedphrase when you first create your Verge wallet and can access it by looking in your app  settings (it is password protected). We recommend that you do not store your seedphrase electronically, since that would make it possible for it to be stolen. If someone steals your seedphrase, then they could steal all of your coins."
-        answer2: "As long as you have your seedphrase, you will always be able to recover your wallet. For example, if Bob is using the Verge Tor Android wallet and accidentally drops his phone in water (breaking it), he can easily recover his Verge wallet on his new phone by re-downloading the Verge app and entering his 12 word seedphrase. If you do not remember your seedphrase, all of the coins you had in your wallet will be lost."
+        answer: "If you are using an Electrum wallet, all you have to do is keep your 9 word seedphrase secure. You are provided your seedphrase when you first create your Verge wallet and can access it by looking in your app  settings (it is password protected). We recommend that you do not store your seedphrase electronically, since that would make it possible for it to be stolen. If someone steals your seedphrase, then they could steal all of your coins."
+        answer2: "As long as you have your seedphrase, you will always be able to recover your wallet. For example, if Bob is using the Verge TOR Android wallet and accidentally drops his phone in water (breaking it), he can easily recover his Verge wallet on his new phone by re-downloading the Verge app and entering the seedphrase that was provided to him originally on his previous phone. Same applied for Desktop Electrum wallets. If you do not remember your seedphrase, all of the coins you had in your wallet will be lost."
         answer3: "If you would like to encrypt your QT wallet, you can create a passphrase by going to <b>Settings -> Encrypt Wallet</b>. Once you have created a passphrase, you can create an encrypted backup of your wallet by going to <b>File -> Backup Wallet</b>. The private keys of the QT wallet are saved in a wallet.dat file. Whenever you send Verge coins, it will use the private key from the wallet.dat file. <b>Keep in mind that every time you create a new Verge wallet address, you MUST create a new backup</b>."
         answer4: "As long as you have your up-to-date wallet.dat file, you can recover and import your coins into a Verge wallet. If you lose your wallet.dat file, all of the coins you had in your wallet will be lost."
       longsync:
