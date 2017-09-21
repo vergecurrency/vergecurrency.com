@@ -108,6 +108,8 @@ wallets:
   raspberry_pi: "Verge Raspberry Pi Source Code"
   electrum_linux: "Verge Linux Electrum Wallet"
   electrum_linux_tor: "Verge Tor Linux Electrum Wallet"
+  electrum_osx: "Verge OSX Electrum Wallet"
+  electrum_osx_tor: "Verge Tor OSX Electrum Wallet"
   electrum_windows: "Verge Windows Electrum Wallet"
   electrum_windows_tor: "Verge Tor Windows Electrum Wallet"
   paper: "Verge Paper Wallet"
