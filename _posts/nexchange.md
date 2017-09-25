@@ -32,7 +32,7 @@ Cost Effectiveness & Transparency
 
 Beyond ease of use and reliability, Nexchange also strives to beat the competition on price. To help users make the right choice, Nexchange features a real time rates comparison widget for some of the top traded currency pairs.
 
-![image](https://github.com/kanfibl/vergecurrency.com/blob/master/images/nexchangewidget.png "Comparison widget")
+![image]({{site.baseUrl}}/images/nexchangewidget.png "Comparison widget")
 
 You can read more about that [here](https://medium.com/nexchange/be-smart-compare-your-rates-5a608ab901e0).
 
