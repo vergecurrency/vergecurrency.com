@@ -4,7 +4,7 @@ title:      "Nexchange introduction"
 subtitle:   "Welcome to VergeCurrency Family!"
 date:       2017-09-25 18:00:00
 author:     "VergeCurrency Team"
-header-img: "images/example-post-header.jpg"
+header-img: "images/post-header.png"
 permalink: /blog/nexchange/
 ---
 
