@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Nexchange introduction"
+title:      "Nexchange Integration"
 subtitle:   "Welcome to VergeCurrency Family!"
 date:       2017-09-25 18:00:00
 author:     "VergeCurrency Team"
