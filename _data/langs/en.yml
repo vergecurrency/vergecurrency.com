@@ -230,6 +230,7 @@ exchanges:
   coinspot: "CoinSpot"
   blocknet: "Blocknet"
   exchangedi2p: "ExchangeD.I2P"
+  nexchange: "Nexchange"
 footer:
   social:
     header: "Social"
@@ -244,6 +245,9 @@ footer:
     verge_radio: "Verge Radio"
     discord: "Verge Discord"
     email: "Email"
+    linkedin: "LinkedIn"
+    instagram: "Instagram"
+    blog: "Blog"
   tweets:
     header: "Tweets"
     by: "Tweets by @vergecurrency"
