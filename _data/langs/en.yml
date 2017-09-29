@@ -231,6 +231,7 @@ exchanges:
   blocknet: "Blocknet"
   exchangedi2p: "ExchangeD.I2P"
   nexchange: "Nexchange"
+  coinwale: "Coinwale"
 footer:
   social:
     header: "Social"
