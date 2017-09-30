@@ -232,6 +232,8 @@ exchanges:
   exchangedi2p: "ExchangeD.I2P"
   nexchange: "Nexchange"
   coinwale: "Coinwale"
+  binance: "Binance"
+  hitbtc: "HitBTC"
 footer:
   social:
     header: "Social"
