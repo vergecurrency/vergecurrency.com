@@ -16,9 +16,9 @@ I think we can all agree that September has been a very exciting month for [Verg
 Development
 -----------------
 
-- A major milestone on the roadmap was completed: the **Verge Telegram Bot** went [live](https://twitter.com/vergecurrency/status/905513214246625296). The user manual can be found [here](https://twitter.com/CryptoRekt/status/905532017571495936).
-- Shortly before that, the **Verge Twitter Bot** was implemented. In case you missed it, the announcement and the user guide is [here](https://twitter.com/CryptoRekt/status/903033511442972674).
-- **Verge Discord Bot** [released](https://twitter.com/CryptoRekt/status/898270233034489856) back in August was largely rewritten and updated to become much faster and reliable.
+- A major milestone on the roadmap was completed: the **Verge Telegram Bot** went [live](https://twitter.com/vergecurrency/status/905513214246625296). The user manual can be found [here](https://github.com/vergecurrency/vergecurrency.com/blob/master/images/TelegramManual.png).
+- Shortly before that, the **Verge Twitter Bot** was implemented. In case you missed it, the announcement and the user [guide](https://github.com/vergecurrency/vergecurrency.com/blob/master/images/TwitterManual.png) is [here](https://twitter.com/CryptoRekt/status/903033511442972674).
+- **Verge Discord Bot** [released](https://twitter.com/CryptoRekt/status/898270233034489856) back in August was largely rewritten and updated to become much faster and reliable. Check out the [manual](https://github.com/vergecurrency/vergecurrency.com/blob/master/images/DiscordManual.png).
 - **CoinPouch iOS Wallet** was [released](https://itunes.apple.com/us/app/coinpouch-blockchain-wallet/id1250245222?mt=8), adding Verge support to the app.
 - The Verge Team has shaken the crypto space by announcing the upcoming **Wraith Protocol** in a [breathtaking teaser](https://youtu.be/Yj8AskTpra0).
 - A massive [Electrum infrastructure upgrade](https://twitter.com/vergecurrency/status/913117735932121088) was rolled out to match the growing popularity of the service. Now you can deploy your own [electrum server](https://github.com/vergecurrency/electrum-server)!
