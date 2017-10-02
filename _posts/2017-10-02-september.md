@@ -36,7 +36,7 @@ Social media
   3. **Total following on Facebook** amounts to **over 15000 people**. Official group [here](https://www.facebook.com/VERGEcurrency/).
 
 As one of the members of the Verge Marketing Team [Michael Stollaire](https://twitter.com/MichaelStollair) said in the recent [interview](https://www.youtube.com/watch?v=Jg4ZiCD6WcM):
->> “Community is the greatest asset of Verge”
+> “Community is the greatest asset of Verge”
 
 Exchange Listings
 --------------------
