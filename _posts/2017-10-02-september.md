@@ -76,6 +76,10 @@ Wraithly Yours,
 The Verge Team
 
 
+
+
+
+
 [![share](https://i.imgur.com/SY8iIIo.png)](https://www.facebook.com/sharer/sharer.php?u=https%3A//vergecurrency.com/blog/september)
 [![tweet](https://i.imgur.com/GaU3g0i.png)](https://twitter.com/home?status=%23Verge%20September%20Overview%20%26%20Roadmap%20update%20aldready%20here%3A%20https%3A//goo.gl/7v5Vos%0A%23XVG%20%23VergeNews%20%23privacy%20%23crypto%20%23cryptocurrency%20%23altcoins)
 [![fb](https://i.imgur.com/GUcvbwS.png)](https://www.facebook.com/VERGEcurrency/)
