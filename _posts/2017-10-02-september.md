@@ -80,7 +80,7 @@ The Verge Team
 
 
 
-[![share]({{site.baseUrl}}/images/FB-Share-SMALL.png)](https://www.facebook.com/sharer/sharer.php?u=https%3A//vergecurrency.com/blog/september)
+[![share]({{site.baseUrl}}/images/FB-Share-SMALL.png)](https://www.facebook.com/sharer/sharer.php?u=https%3A//vergecurrency.com/blog/september/)
 [![tweet]({{site.baseUrl}}/images/TWITTER-Tweet-SMALL.png)](https://twitter.com/home?status=%23Verge%20September%20Overview%20%26%20Roadmap%20update%20aldready%20here%3A%20https%3A//goo.gl/7v5Vos%0A%23XVG%20%23VergeNews%20%23privacy%20%23crypto%20%23cryptocurrency%20%23altcoins)
-[![fb]({{site.baseUrl}}/images/FB-Share-SMALL.png)](https://www.facebook.com/VERGEcurrency/)
+[![fb]({{site.baseUrl}}/images/FB-Follow-SMALL.png)](https://www.facebook.com/VERGEcurrency/)
 [![twitter]({{site.baseUrl}}/images/TWITTER-Follow-SMALL.png)](https://twitter.com/vergecurrency)
