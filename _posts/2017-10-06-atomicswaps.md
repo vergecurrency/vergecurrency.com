@@ -69,7 +69,7 @@ Donation address ($XVG):
 Thank you for your continual support and trust. Please do not hesitate to directly contact the team with any further questions.
 The crowdfunding campaign will end on the 14th of October at 18:00 PT, followed by another *stealthy* announcement.
 
-Atomic-ly Yours,
+Atomic-ly Yours,  
 The Verge Team
 
 [![share](https://i.imgur.com/SY8iIIo.png)](https://www.facebook.com/sharer/sharer.php?u=https%3A//medium.com/verge-currency-xvg/atomic-announcement-crowdfunding-campaign-3173d1a8473d) [![tweet](https://i.imgur.com/GaU3g0i.png)](https://twitter.com/home?status=%23Verge%20Supporting%20Atomic%20Swaps%3A%20https%3A//goo.gl/uSfpgn%0A%23VergeNews%20%23XVG%20%23privacy%20%23crypto%20%20%23cryptocurrency%20%23altcoins)
