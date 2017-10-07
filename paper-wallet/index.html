@@ -108,7 +108,7 @@ function setCryptoCurrency(toThis) {
 		window.compressedWIFPrefix = 'T';
 		document.title = 'Litecoin paper wallet generator';
 		break;
-	case 'Dogecoin':
+	case 'Verge':
         
 		window.networkVersion = 0x1e;
 		window.privateKeyPrefix = 0x9e;
@@ -142,16 +142,16 @@ window.suppliesURL = 'https://bitcoinpaperwallet.com/?p=' + myDesign + '#purchas
 
 switch (myDesign) {
 	case 'alt-litecoin':
-		setCryptoCurrency('Dogecoin');
+		setCryptoCurrency('Verge');
 		break;
 	case 'alt-dogecoin':
-		setCryptoCurrency('Dogecoin');
+		setCryptoCurrency('Verge');
 		break;
 	case 'alt-testnet':
 		setCryptoCurrency('Testnet');
 		break;
 	default:
-	setCryptoCurrency('Dogecoin');
+	setCryptoCurrency('Verge');
 		break; // remove special currency flag
 } 
 
@@ -10255,28 +10255,7 @@ Find your scissors! The final step is to cut out your wallet, fold it, and seal 
 				
 			</div><!-- end commands -->
 
-                <div id="backText">
-					<div id="backSeal"><p id="backSealBig">1000</p><p id="backSealSmall">mBTC</p><img src="images/front-seal.png" width="105" height="78"></div>
-                    
-                    <div id="backPaperWallet"></div>
-                	<div id="backAmount"></div>
-                	<div id="backDate"></div>
-                	<div id="backNotes"></div>
-                    <div id="backLines"><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
-                    
-                    <div id="backCustomMessage">
-                    	<div id="backCustomMessageContent" style="display: none;"></div>
-                        <textarea id="backCustomMessageEntry" placeholder="Enter message here" onChange="document.getElementById('backCustomMessageContent').innerHTML=this.value.replace(/(?:\r\n|\r|\n)/g, '<br />');"></textarea>
-                    </div>
-                    <div id="backLongText">
-                      <ul>
-                          <li id="backInst1"></li>
-                          <li id="backInst2"></li>
-                          <li id="backInst3"></li>
-                          <li id="backInst4"></li>
-                      </ul>
-                  </div><!-- end backLongText -->
-                </div><!-- end backText -->
+                
 
 				<img id="backsvg1" class="backsvg" src="./images/back-300dpi.jpg">
 			</div><!-- end backarea -->
@@ -10984,8 +10963,8 @@ ninja.publicKey = {
 			var scale = 10.0;
 			canvas.width = width * scale;
 			canvas.height = height * scale;
-			canvas.style.width = width + 'px';
-			canvas.style.height = height + 'px';
+			canvas.style.width = '142px';
+			canvas.style.height = '142px';
 			var ctx = canvas.getContext('2d');
 			ctx.scale(scale, scale);
 			// compute tileW/tileH based on width/height
@@ -12995,9 +12974,9 @@ function setDesign (whichDesign, isOnLoad, whichLanguage) {
 	// now deal with JPG-style backgrounds, and apply instructions to default design
 
 	if (whichDesign == 'default') {
-		var myFront = './images/front-300dpi.jpg';
-		var myBack = './images/back-300dpi.jpg';
-		var myPreview = './images/finished-sample-sealed.jpg';
+		var myFront = './images/walletfront.jpg';
+		var myBack = './images/walletback.jpg';
+		var myPreview = './images/walletfront.jpg';
 		// setup proper back text translation & controls
 		//document.getElementById('backTextControl').style.display='block';
 		document.getElementById('backText').style.display='block';
@@ -13012,9 +12991,9 @@ function setDesign (whichDesign, isOnLoad, whichLanguage) {
 		document.getElementById("backInst4").innerHTML = translations[whichLanguage]['backInst4'];
 
 	} else {
-		var myFront = './images/front-300dpi-' + whichDesign + '.jpg';
-		var myBack = './images/back-300dpi-' + whichDesign + '.jpg';
-		var myPreview = './images/finished-sample-' + whichDesign + '.jpg';
+		var myFront = './images/walletfront.jpg';
+		var myBack = './images/walletback.jpg';
+		var myPreview = './images/walletfront.jpg';
         //document.getElementById('backTextControl').style.display='none';
 		//document.getElementById('backText').style.display='none';
 	}
