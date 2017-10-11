@@ -33,6 +33,26 @@ info:
   about:
     header: "A propos"
     paragraph: "Verge est une devise electronique décentralisée conçue pour les utilisateurs qui apprécient le respect de l'intimité. Elle améliore la blockchain original du bitcoin en utilisant des réseaux multiples axés sur l'anonymat tels que Tor et i2p. Elle utilise également un support d'exploration de type multi-algorithmes pour améliorer la sécurité et fournir une répartition égale de monnaie électronique aux mineurs."
+  cards:
+      privacy:
+        header: "Complètement anonyme et se concentre sur la vie privée"
+        paragraph: "Verge utilise plusieurs réseaux centrés sur l'anonymité comme Tor et I2P. L'addresse IP de l'utilisateur est obfusquée la transaction est complètement non-retracable."
+      community:
+        header: "Support extraordinaire de la communauté"
+        paragraph: "Verge n'est pas un compagnie privée ou subventionné par des crypto-monnaies minée a l'avance ou des offres initiale de crypto-monnaies (ICO). Tout le dévelopement et le marketing est supporté par les centaines de membres fesant partie de la communauté."
+      speed:
+        header: "Transactions Ultra-Rapides"
+        paragraph: "La vitesse des transactions sont ultra-rapides comparées aux autres crypto-monnaies. La technologie de vérification simple des paiements (SPV) permet a la plupart des transactions un temps de confirmation réduit a moins de 5 secondes."
+      development:
+        header: "Équipe de développement active avec plusieurs contributeurs"
+        paragraph: "L'Équipe de développement est active et toujours en contact rapproché avec la communauté. Vous pouvez facilement rejoindre les principaux dévelopeurs pour obtenir du support ou communiquer de nouvelles idées a propos de Verge."
+      adoption:
+        header: "Prêt pour l'adoption de masse"    
+        paragraph: "Verge offre une grande sélection de portefeuilles securisés pour un grand nombre de systèmes d'opération. Le portefeuille Tor révolutionnaire pour android offre une anonymité mobile qui est une fonctionalité unique parmis les crypto-monnaies orienté vie privée."
+      opensource:
+        header: "Décentralisé et ouvert"
+paragraph: "Verge est une crypto-monnaie basée sur les plateformes code source ouvert. Il n'y a pas de contrôle centrale sur la crypto-monnaie."
+  
   resources:
     header: "Ressources"
     black_paper: "Livre noir"
