@@ -51,7 +51,7 @@ info:
         paragraph: "Verge offre une grande sélection de portefeuilles securisés pour un grand nombre de systèmes d'opération. Le portefeuille Tor révolutionnaire pour android offre une anonymité mobile qui est une fonctionalité unique parmis les crypto-monnaies orienté vie privée."
       opensource:
         header: "Décentralisé et ouvert"
-paragraph: "Verge est une crypto-monnaie basée sur les plateformes code source ouvert. Il n'y a pas de contrôle centrale sur la crypto-monnaie."
+        paragraph: "Verge est une crypto-monnaie basée sur les plateformes code source ouvert. Il n'y a pas de contrôle centrale sur la crypto-monnaie."
   resources:
     header: "Ressources"
     black_paper: "Livre noir"
