@@ -32,10 +32,13 @@ download: "Download"
 view: "View"
 view_all_wallets: "View All Wallets"
 contest_enter: "Enter for a chance to win 70,000 Verge coins"
+mission:
+  header: "Mission Statement"
+  paragraph: "Our mission is to empower people around the world by bringing blockchain transactions into everyday life. Verge makes it possible to engage in direct transactions quickly, efficiently and privately. With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."  
 info:
   about:
     header: "About Verge"
-    paragraph: "Verge is a decentralized currency designed for users who value privacy. It improves upon the original Bitcoin blockchain by using multiple anonymity-centric networks such as Tor and I2P. It utilizes multi-algorithm mining support to improve security and provide equal distribution of coins to miners."
+    paragraph: "Verge Currency is a cryptocurrency designed for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy."    
     cards:
       privacy:
         header: "Completely anonymous and privacy-focused"
@@ -117,70 +120,32 @@ wallets:
   daemon_docker: "Verge Daemon Docker Image"
   coinomi: "Coinomi Multi Currency Android Wallet"
 roadmap:
-  header: "Road Map"
+  header: "Q4 Release Schedule"
+  paragraph: "Release schedule will be updated on a per-quarter basis."
   blackpaper:
-    header: "\"Black\" Paper"
-    date: "<font color='#08b4e0'>RELEASED</font> June 4, 2017"
-  electrum_i2P_server_client:
-    header: "Electrum I2P Server/Client"
-    date: "<font color='#08b4e0'>RELEASED</font> June 4, 2017"
-  electrum_tor_server_client:
-    header: "Electrum Tor Server/Client"
-    date: "<font color='#08b4e0'>RELEASED</font> June 5, 2017"
-  electrum_binaries:
-    header: "Electrum Binaries"
-    paragraph: "Binary clients for easy-to-use lite wallets."
-    date: "<font color='#08b4e0'>RELEASED</font> June 7, 2017"
-  marketing_campaign:
-    header: "Crypto Services Marketing Campaign"
-    paragraph: "Started 1 year ad campaign with Coinomi"
-    date: "<font color='#08b4e0'>RELEASED</font> June 7, 2017"
-  redesign_website:
-    header: "Redesign Verge Website"
-    date: "<font color='#08b4e0'>RELEASED</font> June 12, 2017"
-  radio:
-    header: "Expand Verge Radio"
-    paragraph: "Transform into \"RadioCrypto\" and include in core wallets"
-    date: "<font color='#08b4e0'>RELEASED</font> June 26, 2017"
-  tor_android_wallet:
-    header: "Tor Android Wallet"
-    paragraph: "Tor Android Wallet for Anon transactions ONLY!"
-    date: "<font color='#08b4e0'>RELEASED</font> July 31, 2017"
+    header: "\"Black\" Paper v3.0"
+    date: "<font color='#08b4e0'>Released</font>"
   i2P_android_wallet:
     header: "I2P Android Wallet"
     paragraph: "I2P Android Wallet for Anon transactions ONLY! (near completion)"
-    date: "July-August, 2017"
+    date: "Q4, 2017"
   core_wallet_release:
     header: "New Core Wallet Release"
-    paragraph: "Add new features including coin control, RingCT, update libraries (openssl, boost, etc)"
-    date: "July-August, 2017"
+    paragraph: "Wallet UI Overhaul, Wraith Protocol, VISP, Tor Integration, Atomic Swaps"
+    date: "Q4, 2017"
   rsk_smart_contracts:
     header: "RSK Smart Contracts"
     paragraph: "They are in testnet for bitcoin now. Date revolves around this timeline."
-    date: "July-August, 2017"
-  wallet_ui:
-    header: "Wallet UI Overhaul"
-    date: "July-August, 2017"
+    date: "Q4/Q1, 2017/2018"
   merchandise_store:
     header: "Merchandise Online Store"
     paragraph: "Verge Merchandise shop will have tshirts/apparel that can be purchased with XVG and BTC."
-    date: "July-August, 2017"
-  blackpaper2:
-    header: "\"Black\" Paper 2.0"
-    date: "<font color='#08b4e0'>RELEASED</font> August 11, 2017"    
-  transfer_discord_service:
-    header: "Verge Transfer Over Discord Service"
-    date: "<font color='#08b4e0'>RELEASED</font> August 16, 2017"
-  transfer_telegram_service:
-    header: "Verge Transfer Over Telegram Service"
-    date: "<font color='#08b4e0'>RELEASED</font> September 5, 2017"
+    date: "Q4, 2017"
   official_mining_pool:
     header: "Official Verge Multi-Algorithm Mining Pool"
     paragraph: "There will be a 2% fee going to fund further Verge development"
-    date: "August, 2017"
-  upgrade_electrum_client:
-    header: "Upgrade Electrum Client Codebases"
-    date: "<font color='#08b4e0'>RELEASED</font> August 24, 2017"
+    date: "Q4, 2017"
+
 developers:
   about:
     header: "Developers"
