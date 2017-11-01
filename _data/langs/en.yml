@@ -88,6 +88,7 @@ exchanges:
   coinspot: "CoinSpot"
   blocknet: "Blocknet"
   exchangedi2p: "ExchangeD.I2P"
+  upbit: "UpBit"
 wallets:
   header: "Wallets"
   info:
@@ -199,6 +200,7 @@ exchanges:
   coinwale: "Coinwale"
   binance: "Binance"
   hitbtc: "HitBTC"
+  upbit: "UpBit"
 footer:
   social:
     header: "Social"
