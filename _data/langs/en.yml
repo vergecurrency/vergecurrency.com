@@ -9,6 +9,8 @@ nav:
     title: "About"
   exchanges:
     title: "Get Verge"
+  vendors:
+    title: "Vendors"
   wallets:
     title: "Wallets"
   roadmap:
