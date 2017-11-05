@@ -1,0 +1,56 @@
+.vendor-buttons-list {
+	list-style: none;
+	margin: 0;
+	li {
+		margin: 20px 0;
+	}
+}
+
+.vendor-img {
+    height: 50px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+.vendor-title-text {
+    font-size: 22px;
+    color: $bg-dark;
+    text-align: center;
+}
+
+.pexpeppers-img {
+    background-image: url(/images/pexpeppers.png)
+    }
+
+.incredebites-img {
+    background-image: url(/images/incredebites.png)
+    }
+
+.trebaltek-img {
+    background-image: url(/images/trebaltek.png)
+    }
+
+.renosportsbar-img {
+    background-image: url(/images/renosportsbar.png)
+    }
+
+.alwayshodl-img {
+    background-image: url(/images/alwayshodl.png)
+    }
+
+
+@media (max-width: 550px) {
+    .vendor-img {
+        height: 40px;
+    }
+
+    .vendor-title-text {
+        font-size: 18px;
+    }
+
+    .vendor-buttons-list li {
+        margin: 10px 0;
+    }
+}
