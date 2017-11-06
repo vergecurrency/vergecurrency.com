@@ -134,7 +134,15 @@ vendors:
   alwayshodl: "AlwaysHodl"
   whiskermen: "WhiskerMen"
   quantvm: "QuanTVm"
-  #vender8: "rename me"
+  vfx: "VFX Learning"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  
 roadmap:
   header: "Q4 Release Schedule"
   paragraph: "Release schedule will be updated on a per-quarter basis."
