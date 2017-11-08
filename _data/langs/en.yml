@@ -139,10 +139,23 @@ vendors:
   menke: "Menke IT - Service"
   suzuri: "仮想通貨Verge Japan 公認SHOP"
   haveaheartkc: "Have A Heart: Dog Rescue and Adoption"
+  illroticbeats: "Illrotic Beats"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
   #vendor: "rename me"
   #vendor: "rename me"
   #vendor: "rename me"
 
+
+  
 roadmap:
   header: "Q4 Release Schedule"
   paragraph: "Release schedule will be updated on a per-quarter basis."
