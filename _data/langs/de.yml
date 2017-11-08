@@ -25,6 +25,9 @@ tagline: "Verge ist eine sichere und anonyme Krypto-Währung, entwickelt mit dem
 download: "Herunterladen"
 view: "Aussicht"
 view_all_wallets: "Alle Geldbörsen ansehen"
+mission:
+  header: "Unsere Mission"
+  paragraph: "Unsere Mission ist es, Blockchain-Transaktionen für Menschen auf der ganzen Welt alltäglich zu machen. Mit Verge ist es möglich, direkte Transaktionen, schnell, effizient und privat vorzunehmen. Zahlungen können sowohl von Firmen, als auch von Privatpersonen, flexibel versendet und empfangen werden. Passende Werkzeugen ermöglichen skalierbare Hilfestellungen, sowohl für Verkäufer mit vielen Transaktionen, als auch für Privatpersonen mit wenigen Transaktionen." 
 info:
   about:
     header: "Über Verge"
@@ -137,8 +140,12 @@ wallets:
   paper: "Verge Papier-Geldbörse"
   daemon_docker: "Verge Daemon Docker Build"
   coinomi: "Coinomi Multi Währung Android Geldbörse"
+vendors:
+  header: "Geschäfte die Verge akzeptieren."
+  paragraph: "Alle ausgelisteten Geschäfte akzeptieren gerne Verge als Zahlungsmittel für ihre Waren und Dienstleistungen."
 roadmap:
   header: "Roadmap"
+  paragraph: "Die Roadmap wird quartalsweise aktualisiert."
   blackpaper:
     header: "\"Blackpaper"
     date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 4. Juni 2017"
