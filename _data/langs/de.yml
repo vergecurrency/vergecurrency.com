@@ -142,7 +142,7 @@ wallets:
   coinomi: "Coinomi Multi Währung Android Geldbörse"
 vendors:
   header: "Geschäfte die Verge akzeptieren."
-  paragraph: "Alle ausgelisteten Geschäfte akzeptieren gerne Verge als Zahlungsmittel für ihre Waren und Dienstleistungen."
+  paragraph: "Alle aufgelisteten Geschäfte akzeptieren gerne Verge als Zahlungsmittel für ihre Waren und Dienstleistungen."
 roadmap:
   header: "Roadmap"
   paragraph: "Die Roadmap wird quartalsweise aktualisiert."
