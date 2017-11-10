@@ -154,7 +154,7 @@ roadmap:
   paragraph: "Die Roadmap wird quartalsweise aktualisiert."
   blackpaper:
     header: "\"Blackpaper"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT 4. Juni 2017</font>"
+    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 4. Juni 2017"
   electrum_i2P_server_client:
     header: "Electrum I2P Server / Client"
     date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 4. Juni 2017"
