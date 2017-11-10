@@ -38,11 +38,11 @@ view_all_wallets: "View All Wallets"
 contest_enter: "Enter for a chance to win 70,000 Verge coins"
 mission:
   header: "Mission Statement"
-  paragraph: "Our mission is to empower people around the world by bringing blockchain transactions into everyday life. Verge currency makes it possible to engage in direct transactions quickly, efficiently and privately. With Verge currency, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."  
+  paragraph: "Our mission is to empower people around the world by bringing blockchain transactions into everyday life. Verge currency makes it possible to engage in direct transactions quickly, efficiently and privately. With Verge currency, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."
 info:
   about:
     header: "About Verge"
-    paragraph: "Verge Currency is a cryptocurrency designed for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy."    
+    paragraph: "Verge Currency is a cryptocurrency designed for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy."
     cards:
       privacy:
         header: "Completely anonymous and privacy-focused"
@@ -155,7 +155,7 @@ vendors:
   #vendor: "rename me"
 
 
-  
+
 roadmap:
   header: "Q4 Release Schedule"
   paragraph: "Release schedule will be updated on a per-quarter basis."
@@ -326,17 +326,17 @@ faq:
         answer: "Yes, Verge is an open source project. You can browse our organization on <a href='https://github.com/vergecurrency' target='_blank'>github</a> to see all of our repositories/code. It is important to understand that Verge is not a company and has no company backing."
       getverge:
         question: "How Can I Get Verge?"
-        answer: "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
+        answer: "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='#exchanges' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
       funded:
         question: "How Is Verge Development Funded?"
-        answer: " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='https://vergecurrency.com/#donate' target='_blank'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
+        answer: " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='#donate' target='_blank'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
       marketing:
         question: "Why Does Verge Not Market More?"
         answer: "It is important to note that Verge is 100% funded by the developers and community. We don't currently receive enough in community donations to afford large-scale marketing campaigns. Despite this, we have run ad campaigns with <a href='https://coinomi.com/' target='_blank'>Coinomi</a> and <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a>."
         answer2: "We have also run self-built social media marketing campaigns, recently showcased by our animated <a href='vergecurrency.com/contest' target='_blank'>GIF contest</a> where we gave out over 200,000 Verge coins to our community. You can read the <a href='http://vergecurrency.com/contestrecap' target='_blank'>contest recap</a>."
       numdevelopers:
         question: "How Many Developers Does Verge Have?"
-        answer: "Currently, Verge has a few different development teams. The core team has one main developer (<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) and 10 other <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>contributors</a>. The website team has two main developers (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> and <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) and 16 other <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>contributors</a>. The marketing team has one main contributor (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) and many other contributors. You can see a full list of our <a href='https://vergecurrency.com/#contributors' target='_blank'>contributors</a> on our website."
+        answer: "Currently, Verge has a few different development teams. The core team has one main developer (<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) and 10 other <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>contributors</a>. The website team has two main developers (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> and <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) and 16 other <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>contributors</a>. The marketing team has one main contributor (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) and many other contributors. You can see a full list of our <a href='#contributors' target='_blank'>contributors</a> on our website."
       whitepaper:
         question: "Does Verge Have a White Paper?"
         answer: "Yes, but we call ours a <a href='https://vergecurrency.com/assets/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>Black Paper</a>."
@@ -367,10 +367,10 @@ faq:
         answer: "You can view the rich list <a href='http://vergecurrency.info/richlist' target='_blank'>here</a> or <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a>. If first site is down, please let us know since it is hosted on a community donated server."
       wheretolearnmore:
         question: "Where Can I Go to Learn More About Verge?"
-        answer: "We are on a ton of different <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
+        answer: "We are on a ton of different <a href='#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
       roadmap:
         question: "Where Can I Find the Verge Roadmap?"
-        answer: "We have a <a href='https://vergecurrency.com/#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
+        answer: "We have a <a href='#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
     privacy:
       subheader: "Privacy"
       whynotvpn:
@@ -409,7 +409,7 @@ faq:
       longsync:
         question: "My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?"
         answer: "Yes, you can download the latest Verge <a href='https://verge-blockchain.com/' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://verge-blockchain.com/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour."
-        answer2: "Please keep in mind that we also have alternate Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>wallets</a> that are significantly faster (they don't require you to store the entire blockchain locally)."
+        answer2: "Please keep in mind that we also have alternate Electrum <a href='#wallets' target='_blank'>wallets</a> that are significantly faster (they don't require you to store the entire blockchain locally)."
       torandroidnoconnection:
         question: "Why am I Seeing No Connection on my Verge Tor Android app?"
         answer: "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu."
