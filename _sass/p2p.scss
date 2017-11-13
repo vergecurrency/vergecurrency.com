@@ -1,20 +1,21 @@
-.faq-page {
-  .tagline {
-    text-align: center;
-  }
+.p2p-page {
+	.tagline{
+		text-align: center;
+}
 
-  #toc {
-    max-height: 70%;
-  }
+#toc {
+	max-height: 70%;
+}
 
-  .faq-content-container {
-    padding: 20px;
 
-    .transition, p, ul li i:before, ul li i:after {
-      transition: all 0.25s ease-in-out;
-    }
+.p2p-header-container {
+	padding: 20px;
 
-    h1 {
+	.transition, p, ul li i:before, ul li i:after {
+		transition: all 0.25s ease-in-out;
+	}
+
+	h1 {
       color: $verge-blue;
     }
 
@@ -38,7 +39,53 @@
 
     p {
       color: rgba(48, 69, 92, 0.8);
-      font-size: 12px;
+      font-size: 27 px;
+      line-height: 12px;
+      letter-spacing: 1px;
+      position: relative;
+      overflow: hidden;
+      max-height: 800px;
+      opacity: 1;
+      transform: translate(0, 0);
+      margin-top: 14px;
+      z-index: 2;
+    }
+  }
+
+
+
+.p2p-content-container {
+	padding: 20px;
+
+	.transition, p, ul li i:before, ul li i:after {
+		transition: all 0.25s ease-in-out;
+	}
+
+	h1 {
+      color: $verge-blue;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: 3px;
+      font-weight: 100;
+    }
+
+    h2 {
+      font-size: 26px;
+      line-height: 34px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      display: block;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    p {
+      color: rgba(48, 69, 92, 0.8);
+      font-size: 17px;
       line-height: 26px;
       letter-spacing: 1px;
       position: relative;
@@ -114,6 +161,17 @@
       transform: translate(-2px, 0) rotate(-45deg);
     }
 
+	.row {
+	  padding: 0 80px;
+
+	  @media (max-width: 775px) {
+	    padding: 0 5%;
+	  }
+	}
+
+
+
+
     @keyframes flipdown {
       0% {
         opacity: 0;
@@ -139,7 +197,7 @@
     }
   }
 
-  .faq-toc-container {
+  .p2p-toc-container {
     @media (max-width: 775px) {
       display: none;
     }
@@ -197,7 +255,7 @@
   }
 
   #toc.sticky {
-    top: 100px;
+    top: 30px;
     max-height: 90%;
   }
 
