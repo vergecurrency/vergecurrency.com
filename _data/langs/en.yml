@@ -40,11 +40,11 @@ view_all_wallets: "View All Wallets"
 contest_enter: "Enter for a chance to win 70,000 Verge coins"
 mission:
   header: "Mission Statement"
-  paragraph: "Our mission is to empower people around the world by bringing blockchain transactions into everyday life. Verge currency makes it possible to engage in direct transactions quickly, efficiently and privately. With Verge currency, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."  
+  paragraph: "Our mission is to empower people around the world by bringing blockchain transactions into everyday life. Verge currency makes it possible to engage in direct transactions quickly, efficiently and privately. With Verge currency, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."
 info:
   about:
     header: "About Verge"
-    paragraph: "Verge Currency is a cryptocurrency designed for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy."    
+    paragraph: "Verge Currency is a cryptocurrency designed for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy."
     cards:
       privacy:
         header: "Completely anonymous and privacy-focused"
@@ -99,7 +99,7 @@ wallets:
   header: "Wallets"
   info:
     header: "Info:"
-    message: "If you are not installing an Electrum wallet, you can speed up your install by downloading the Verge blockchain from <a href='http://vergecurrency.de/' target='_blank'>here</a>."
+    message: "If you are not installing an Electrum wallet, you can speed up your install by downloading the Verge blockchain from <a href='https://verge-blockchain.com/' target='_blank'>here</a>."
   tabs:
     preferred: "Preferred"
     desktop: "Desktop"
@@ -155,9 +155,6 @@ vendors:
   #vendor: "rename me"
   #vendor: "rename me"
   #vendor: "rename me"
-
-
-#<font color='#08b4e0'>Released</font>
 roadmap:
   header: "Q4 Release Schedule"
   paragraph: "Release schedule will be updated on a per-quarter basis."
@@ -387,13 +384,13 @@ faq:
         answer2: "You are able to see all transactions on the blockchain, but you won't know who the transactions are going to or where the senders/receivers physically are located."
       richlist:
         question: "Where Can I View the Verge Rich List?"
-        answer: "You can view the rich list <a href='http://vergecurrency.info/richlist' target='_blank'>here</a>. If the site is down, please let us know since it is hosted on a community donated server."
+        answer: "You can view the rich list <a href='http://vergecurrency.info/richlist' target='_blank'>here</a> or <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a>. If first site is down, please let us know since it is hosted on a community donated server."
       wheretolearnmore:
         question: "Where Can I Go to Learn More About Verge?"
-        answer: "We are on a ton of different <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
+        answer: "We are on a ton of different <a href='#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
       roadmap:
         question: "Where Can I Find the Verge Roadmap?"
-        answer: "We have a <a href='https://vergecurrency.com/#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
+        answer: "We have a <a href='#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
     privacy:
       subheader: "Privacy"
       wraithprotocol:
@@ -427,7 +424,7 @@ faq:
         answer: "<a href='https://www.qt.io' target='_blank'>QT</a> is a cross-platform application and UI framework for developers using the C++ programming language. It allows developers to write code in C++ and then release their software to various software and hardware platforms. Per <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>, the toolkit was named QT because \"the letter Q looked appealing in Haavard's Emacs typeface, and 't' was inspired by Xt, the X toolkit\". "
       qtwallet:
         question: "What is a QT Wallet?"
-        answer: "QT wallets require that you download the entire <a href='https://vergecurrency.de/' target='_blank'>Verge blockchain</a> to your computer. In other words, your computer must download a record of every single Verge transaction that has ever occurred. Currently, the Verge blockchain is ~1GB and will continue to climb as more users make transactions. If you are using a QT wallet, make sure your device has enough extra storage to handle it."
+        answer: "QT wallets require that you download the entire <a href='https://verge-blockchain.com/' target='_blank'>Verge blockchain</a> to your computer. In other words, your computer must download a record of every single Verge transaction that has ever occurred. Currently, the Verge blockchain is ~1GB and will continue to climb as more users make transactions. If you are using a QT wallet, make sure your device has enough extra storage to handle it."
         answer2: "Every time you open your QT wallet, the wallet will synchronize and download the latest blockchain data to your computer. If you decide to use a QT wallet, you will most likely want to use it on a regular basis; or it could take an hour or more (depending on how long it has been since you opened your wallet last) to download the latest blockchain updates."
       backup:
         question: "How Do I Create a Backup of My Wallet?"
@@ -436,9 +433,12 @@ faq:
         answer3: "If you would like to encrypt your QT wallet, you can create a passphrase by going to <b>Settings -> Encrypt Wallet</b>. Once you have created a passphrase, you can create an encrypted backup of your wallet by going to <b>File -> Backup Wallet</b>. The private keys of the QT wallet are saved in a wallet.dat file. Whenever you send Verge coins, it will use the private key from the wallet.dat file. <b>Keep in mind that every time you create a new Verge wallet address, you MUST create a new backup</b>."
         answer4: "As long as you have your up-to-date wallet.dat file, you can recover and import your coins into a Verge wallet. If you lose your wallet.dat file, all of the coins you had in your wallet will be lost."
       longsync:
-        question: "My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?"
-        answer: "Yes, you can download the latest Verge <a href='https://vergecurrency.de' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://vergecurrency.de/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour."
-        answer2: "Please keep in mind that we also have alternate Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>wallets</a> that are significantly faster (they don't require you to store the entire blockchain locally)."
+        question: "My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?
+        answer: "Yes, you can download the latest Verge <a href='https://verge-blockchain.com/' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://verge-blockchain.com/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour."
+        answer2: "Please keep in mind that we also have alternate Electrum <a href='#wallets' target='_blank'>wallets</a> that are significantly faster (they don't require you to store the entire blockchain locally)."
+      torandroidnoconnection:
+        question: "Why am I Seeing No Connection on my Verge Tor Android app?"
+        answer: "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu."
     mining:
       subheader: "Mining"
       proof:
