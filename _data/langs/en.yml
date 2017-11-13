@@ -240,6 +240,7 @@ exchanges:
   binance: "Binance"
   hitbtc: "HitBTC"
   upbit: "UpBit"
+  changelly: "Changelly"
 footer:
   social:
     header: "Social"
