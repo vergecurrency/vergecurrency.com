@@ -450,12 +450,12 @@ faq:
         answer: "Verge uses multi-algorithm mining support. That means that individuals with different types of mining equipment are able to mine verge, which means more security through decentralization and a more fair distribution of coins among Verge’s mining community. Verge is one of the few cryptocurrencies that support five different hashing algorithms; Namely, Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
 p2p:
   subheader: "Intro"
-  header: "What are P2P Soltuions?"
+  header: "What are P2P Solutions?"
   paragraph: "Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal."
   paragraph2: "With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram. More platforms are in planning stages as we speak!"
   paragraph3: "More platforms (Slack & Reddit) are coming in the near future."
   paragraph4: "Use XVG to tip content creators, pay freelancers, donate to NGOs or show endorsement for the posts you like! All that with zero fees(small fee for transactions to external wallets), instant transactions and no setup!"
-  paragraph5: "Bellow are a series of guides to help you understand how to use our various P2P solutions."
+  paragraph5: "Below are a series of guides to help you understand how to use our various P2P solutions."
 p2ptoc:
   telegramintro: "Note: Your Telegram profile has to show a username (@<username>) for tips to work. Usernames can be set up in Telegram Settings."
   toc:
