@@ -1,0 +1,170 @@
+{% assign pageName = 'p2p' %}
+{% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
+{% assign pageLangCodes = site.p2p_lang_codes %}
+{% include head.html %}
+
+
+<body class="faq-container">
+  {% include shared/header.html %}
+  <div class="faq-page">
+    <h1 class="tagline">{{langPath.p2ptoc.toc.tagline | default: defaultLangPath.p2ptoc.toc.tagline}}</h1>
+    <div class="faq-toc-container col-md-4">
+      <div id="toc">
+        <h3 class="toc-header">{{langPath.faq.toc.header | default: defaultLangPath.faq.toc.header}}</h3>
+      </div>
+    </div>
+    <div class="faq-content-container col-md-8 bg-gray">
+      <div class="container">
+        <ul>
+          <li>
+            <input type="checkbox">
+            <i></i>
+				<h1>{{langPath.p2p.header | default: defaultLangPath.p2p.header}}</h1>
+		        <p>{{langPath.p2p.paragraph | default: defaultLangPath.p2p.paragraph}}</p>
+		        <p>{{langPath.p2p.paragraph2 | default: defaultLangPath.p2p.paragraph2}}</p>
+		        <p>{{langPath.p2p.paragraph3 | default: defaultLangPath.p2p.paragraph3}}</p>
+		        <p>{{langPath.p2p.paragraph4 | default: defaultLangPath.p2p.paragraph4}}</p>
+		        <p>{{langPath.p2p.paragraph5 | default: defaultLangPath.p2p.paragraph5}}</p>
+		    </li>
+		</ul>
+		<ul>
+		    <li>
+		    	<input type ="checkbox">
+		    	<i></i>
+	    		<h1>{{langPath.p2ptoc.toc.telegram.subheader | default: defaultLangPath.p2ptoc.toc.telegram.subheader}}</h1>  	
+			    	<p>
+			    	{{langPath.p2ptoc.telegramintro | defaults: defaultLangPath.p2ptoc.telegramintro}}
+					</p>
+		            <p>
+		              {{langPath.p2ptoc.toc.telegram.bullet1 | default: defaultLangPath.p2ptoc.toc.telegram.bullet1}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.telegram.bullet2 | default: defaultLangPath.p2ptoc.toc.telegram.bullet2}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.telegram.bullet3 | default: defaultLangPath.p2ptoc.toc.telegram.bullet3}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.telegram.bullet4 | default: defaultLangPath.p2ptoc.toc.telegram.bullet4}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.telegram.bullet5 | default: defaultLangPath.p2ptoc.toc.telegram.bullet5}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.telegram.bullet6 | default: defaultLangPath.p2ptoc.toc.telegram.bullet6}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.telegram.bullet7 | default: defaultLangPath.p2ptoc.toc.telegram.bullet7}}
+		            </p>
+	    	</li>
+	    </ul>
+		<ul>
+		    <li>
+		    	<input type ="checkbox">
+		    	<i></i>      
+        		<h1>{{langPath.p2ptoc.toc.twitter.subheader | default: defaultLangPath.faq.toc.twitter.subheader}}</h1>
+					<p>
+		              {{langPath.p2ptoc.toc.twitter.bullet1 | default: defaultLangPath.p2ptoc.toc.twitter.bullet1}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.twitter.bullet2 | default: defaultLangPath.p2ptoc.toc.twitter.bullet2}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.twitter.bullet3 | default: defaultLangPath.p2ptoc.toc.twitter.bullet3}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.twitter.bullet4 | default: defaultLangPath.p2ptoc.toc.twitter.bullet4}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.twitter.bullet4note | default: defaultLangPath.p2ptoc.toc.twitter.bullet4note}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.twitter.bullet5 | default: defaultLangPath.p2ptoc.toc.twitter.bullet5}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.twitter.bullet6 | default: defaultLangPath.p2ptoc.toc.twitter.bullet6}}
+		            </p>
+	        </li>
+	    </ul>
+		<ul>
+		    <li>
+		    	<input type ="checkbox">
+		    	<i></i>        
+        		<h1>{{langPath.p2ptoc.toc.discord.subheader | default: defaultLangPath.faq.toc.discord.subheader}}</h1>     	
+					<p>
+		              {{langPath.p2ptoc.toc.discord.bullet1 | default: defaultLangPath.p2ptoc.toc.discord.bullet1}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.discord.bullet2 | default: defaultLangPath.p2ptoc.toc.discord.bullet2}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.discord.bullet3 | default: defaultLangPath.p2ptoc.toc.discord.bullet3}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.discord.bullet4 | default: defaultLangPath.p2ptoc.toc.discord.bullet4}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.discord.bullet4note | default: defaultLangPath.p2ptoc.toc.discord.bullet4note}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.discord.bullet5 | default: defaultLangPath.p2ptoc.toc.discord.bullet5}}
+		            </p>
+		            <p>
+		              {{langPath.p2ptoc.toc.discord.bullet6 | default: defaultLangPath.p2ptoc.toc.discord.bullet6}}
+		            </p> 
+	         	</li>
+	         </ul>           
+    </div>
+  </div>
+  {% include shared/footer.html %}
+  <script src="/javascript/vendor/jqueryui.js"></script>
+  <script src="/javascript/vendor/jquery.tocify.js"></script>
+  <script>
+      (function(window, document, $) {
+          // Executes your code when the DOM is ready.  Acts the same as $(document).ready()
+          $(function() {
+              var $toc = $('#toc');
+
+              // Calls the tocify method on your HTML div
+              $toc.tocify({
+                  hashGenerator: function (text) {
+                    // prettify the text
+                    var hashValue = text.toLowerCase().replace(/\s/g, '-').replace(/\?/g, '');
+
+                    // fix double hyphens
+                    while (hashValue.indexOf('--') > -1) {
+                        hashValue = hashValue.replace(/--/g, '-');
+                    }
+
+                    // fix colon-space instances
+                    while (hashValue.indexOf(':-') > -1) {
+                        hashValue = hashValue.replace(/:-/g, '-');
+                    }
+
+                    return hashValue;
+                  },
+                  highlightOffset: 0,
+                  scrollTo: 20,
+                  ignoreSelector: '.tagline, footer h1'
+              });
+
+              $(window).on('scroll', function () {
+                  if (window.scrollY > 180) {
+                      $toc.addClass('sticky');
+                  } else {
+                      $toc.removeClass('sticky');
+                  }
+              });
+
+              if (window.scrollY > 180) {
+                  $toc.addClass('sticky');
+              } else {
+                  $toc.removeClass('sticky');
+              }
+
+              $(window).scroll();
+          });
+      }(window, document, window.jQuery));
+  </script>
+</body>
