@@ -63,7 +63,7 @@ wallets:
   header: "ウォレット"
   info:
     header: "Info:"
-    message: "Electrumウォレットをインストールしない場合には、 <a href='http://vergecurrency.de/' target='_blank'>ここで</a>Vergeブロックチェーンをダウンロードすればインストール時間が短縮できる。"
+    message: "Electrumウォレットをインストールしない場合には、 <a href='https://verge-blockchain.com/' target='_blank'>ここで</a>Vergeブロックチェーンをダウンロードすればインストール時間が短縮できる。"
   tabs:
     desktop: "デスクトップ"
     mobile: "モバイル"

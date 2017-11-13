@@ -47,7 +47,7 @@ info:
         header: "Équipe de développement active avec plusieurs contributeurs"
         paragraph: "L'Équipe de développement est active et toujours en contact rapproché avec la communauté. Vous pouvez facilement rejoindre les principaux dévelopeurs pour obtenir du support ou communiquer de nouvelles idées a propos de Verge."
       adoption:
-        header: "Prêt pour l'adoption de masse"    
+        header: "Prêt pour l'adoption de masse"
         paragraph: "Verge offre une grande sélection de portefeuilles securisés pour un grand nombre de systèmes d'opération. Le portefeuille Tor révolutionnaire pour android offre une anonymité mobile qui est une fonctionalité unique parmis les crypto-monnaies orienté vie privée."
       opensource:
         header: "Décentralisé et ouvert"
@@ -92,7 +92,7 @@ wallets:
   header: "Portefeuilles"
   info:
       header: "Informations:"
-      message: "Si vous n'installez pas un Electrum wallet, vous pouvez accélérer votre installation en téléchargeant la blockchain Verge <a href='http://vergecurrency.de/' target='_blank'>ici</a>."
+      message: "Si vous n'installez pas un Electrum wallet, vous pouvez accélérer votre installation en téléchargeant la blockchain Verge <a href='https://verge-blockchain.com' target='_blank'>ici</a>."
   tabs:
     desktop: "Bureau"
     mobile: "Mobile"
