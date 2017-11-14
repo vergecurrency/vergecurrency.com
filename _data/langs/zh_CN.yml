@@ -308,17 +308,17 @@ faq:
         answer: "是的，Verge为开源项目。您可以在<a href='https://github.com/vergecurrency' target='_blank'>github</a>上浏览我们的组织，以查看我们的所有库代码. Verge不是一家公司，且没有公司支持，认识到这一点很重要."
       getverge:
         question: "我怎样才能获得Verge币?"
-        answer: "有几种不同方法可以获得Verge（XVG）币.最常见的办法是在支持的<a href='https://vergecurrency.com/langs/zh_CN/#exchanges' target='_blank'>交易所</a>进行购买。用户还可以在集成<a href='https://vergecurrency.com/langs/zh_CN/#social' target='_blank'>社交</a>平台（使用官方Verge机器人）相互打赏. 如果您有安卓设备，您也可以使用您的移动Verge钱包<a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>应用</a>随时随地购买，还可以发送/接收货币."
+        answer: "有几种不同方法可以获得Verge（XVG）币.最常见的办法是在支持的<a href='#exchanges' target='_blank'>交易所</a>进行购买。用户还可以在集成<a href='#social' target='_blank'>社交</a>平台（使用官方Verge机器人）相互打赏. 如果您有安卓设备，您也可以使用您的移动Verge钱包<a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>应用</a>随时随地购买，还可以发送/接收货币."
       funded:
         question: "Verge开发如何筹资?"
-        answer: "Verge是一个开源项目，所以所有开发工作由开发人员和社区<a href='https://vergecurrency.com/langs/zh_CN/#donate' target='_blank'>捐款</a>资助. 我们目前正在探索其他方法来资助开发，包括开设官方Verge商店和多算法采矿池."
+        answer: "Verge是一个开源项目，所以所有开发工作由开发人员和社区<a href='#donate' target='_blank'>捐款</a>资助. 我们目前正在探索其他方法来资助开发，包括开设官方Verge商店和多算法采矿池."
       marketing:
         question: "为什么Verge不进行大量营销活动?"
         answer: "需要注意的是，Verge100%是由开发人员和社区资助. 目前，我们没有足够的社会捐款来支持大规模的营销活动。尽管如此，我们已经在利用<a href='https://coinomi.com/' target='_blank'>Coinomi</a> 和 <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a>开展广告活动."
         answer2: "我们还举办了自建的社会化媒体营销活动，最近在我们的动画<a href='vergecurrency.com/contest' target='_blank'>GIF 比赛中</a>进行了展示，期间我们将20万Verge币分发到我们的社区中. 您可以阅读 <a href='http://vergecurrency.com/contestrecap' target='_blank'>比赛概述</a>."
       numdevelopers:
         question: "Verge有多少开发人员？"
-        answer: "目前，Verge有好几个不同的开发团队。核心团队里有主要开发人员<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>，还有其他10名<a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>贡献者</a>. 网站团队有两名主要开发人员（<a href='https://github.com/gfranko' target='_blank'>gfranko</a> 和 <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>），还有其他16名<a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>贡献者</a>. 营销团队有主要贡献者<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>，还有许多其他贡献者. 您可以在我们网站看到所有<a href='https://vergecurrency.com/langs/zh_CN/#contributors' target='_blank'>贡献者</a>名单."
+        answer: "目前，Verge有好几个不同的开发团队。核心团队里有主要开发人员<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>，还有其他10名<a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>贡献者</a>. 网站团队有两名主要开发人员（<a href='https://github.com/gfranko' target='_blank'>gfranko</a> 和 <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>），还有其他16名<a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>贡献者</a>. 营销团队有主要贡献者<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>，还有许多其他贡献者. 您可以在我们网站看到所有<a href='#contributors' target='_blank'>贡献者</a>名单."
       whitepaper:
         question: "Verge有白皮书吗?"
         answer: "有，但我们称之为<a href='https://vergecurrency.com/assets/Verge-Black-Paper-Chinese.pdf' target='_blank'>黑皮书</a>."
@@ -346,13 +346,13 @@ faq:
         answer2: "您可以看到区块链上的所有交易，但您不知道是谁在交易或发送者/接受者所处的物理位置."
       richlist:
         question: "我在哪里可以看到Verge富豪榜?"
-        answer: "您可以在 <a href='http://vergecurrency.info/richlist' target='_blank'>这里</a>查看富豪榜. 如果站点关闭，请告诉我们，因为它托管在由社区捐赠的一台服务器上."
+        answer: "您可以在 <a href='https://verge-blockchain.info/richlist' target='_blank'>这里</a>查看富豪榜. 如果站点关闭，请告诉我们，因为它托管在由社区捐赠的一台服务器上."
       wheretolearnmore:
         question: "我在哪里可以了解更多关于Verge的知识?"
-        answer: "我们在各种<a href='https://vergecurrency.com/langs/zh_CN/#social' target='_blank'>社交</a> 平台上，如推特、Telegram、 Slack和Discord上非常活跃."
+        answer: "我们在各种<a href='#social' target='_blank'>社交</a> 平台上，如推特、Telegram、 Slack和Discord上非常活跃."
       roadmap:
         question: "我在哪里可以找到Verge路线图?"
-        answer: "在我们的网站上列有我们的<a href='https://vergecurrency.com/langs/zh_CN/#roadmap' target='_blank'>路线图</a>，通常会列出我们未来一两个个月的工作内容. 我们不喜欢把长期内容（超过3个月）放在我们的路线图上，因为对于加密货币来说，一切变化都太快了，我们无法预期那么远."
+        answer: "在我们的网站上列有我们的<a href='#roadmap' target='_blank'>路线图</a>，通常会列出我们未来一两个个月的工作内容. 我们不喜欢把长期内容（超过3个月）放在我们的路线图上，因为对于加密货币来说，一切变化都太快了，我们无法预期那么远."
     privacy:
       subheader: "隐私"
       whynotvpn:
@@ -380,7 +380,7 @@ faq:
         answer: "<a href='https://www.qt.io' target='_blank'>QT</a>是一种用C++编程语言开发的跨平台应用程序和用户界面UI框架。它允许开发人员采用C++编写代码，然后把他们的软件发布到各种软、硬件平台。根据 <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>维基百科</a>， 工具包被称为QT，是因为“字母Q在Haavard的Emacs中很有吸引力，而‘t’则是受到X工具包Xt的启发”."
       qtwallet:
         question: "什么是QT钱包?"
-        answer: "QT钱包需要您下载整个 <a href='https://vergecurrency.de/' target='_blank'>Verge区块链</a> 到您的计算机上。换句话说，您的计算机必须下载所发生过的每笔Verge交易记录。目前，Verge区块链为1GB，这个数字还会随着越来越多的用户交易而继续爬升。如果您使用的是QT钱包，请确保您的设备有足够的额外存储空间来处理这一问题."
+        answer: "QT钱包需要您下载整个 <a href='https://verge-blockchain.com/' target='_blank'>Verge区块链</a> 到您的计算机上。换句话说，您的计算机必须下载所发生过的每笔Verge交易记录。目前，Verge区块链为1GB，这个数字还会随着越来越多的用户交易而继续爬升。如果您使用的是QT钱包，请确保您的设备有足够的额外存储空间来处理这一问题."
         answer2: "每次您一打开QT钱包，钱包就会同步下载最新的区块链数据到您的计算机上. 如果您决定使用QT钱包，您很可能想定期使用它；否则它可能会花费一个小时或者更长时间（取决于您上次打开钱包后过了多久）下载最新的区块链更新."
       backup:
         question: "我如何创建我的钱包备份?"
@@ -390,8 +390,8 @@ faq:
         answer4: "只要您有最新的wallet.dat文件，您就可以恢复、导入Verge币到您的Verge钱包. 如果您丢失了wallet.dat文件，您钱包里的所有Verge币就会丢失."
       longsync:
         question: "我的钱包要很长时间才能同步. 有加快速度的办法吗?"
-        answer: "有，您可以下载最新的Verge <a href='https://vergecurrency.de' target='_blank'>区块链</a>. 下载最新区块链之后，请阅读所提供的 <a href='https://vergecurrency.de/howto' target='_blank'>指令</a>. 完成指令后，重新打开您的钱包，这样可以让钱包完成剩余块的同步. 最终同步需要花一个小时时间."
-        answer2: "请记住，我们还有备用Electrum <a href='https://vergecurrency.com/langs/zh_CN/#wallets' target='_blank'>钱包</a>, 这种钱包明显更快（不需要您在本地存储区块链)."
+        answer: "有，您可以下载最新的Verge <a href='https://verge-blockchain.com' target='_blank'>区块链</a>. 下载最新区块链之后，请阅读所提供的 <a href='https://verge-blockchain.com/howto' target='_blank'>指令</a>. 完成指令后，重新打开您的钱包，这样可以让钱包完成剩余块的同步. 最终同步需要花一个小时时间."
+        answer2: "请记住，我们还有备用Electrum <a href='#wallets' target='_blank'>钱包</a>, 这种钱包明显更快（不需要您在本地存储区块链)."
       torandroidnoconnection:
         question: "为什么我在我的Verge TOR安卓应用中没有看到连接?"
         answer: "如果在您的主余额屏中看到“无连接”，请打开机器人应用，并在左上方的菜单中选择“应用VPN模式”."

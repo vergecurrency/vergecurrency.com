@@ -202,7 +202,7 @@ contributors:
 donate:
   about:
     header: "개발 지원 (기부)"
-    paragraph: "Verge는 모든 개발은 여러분의 지원에 의해 이루어집니다" 
+    paragraph: "Verge는 모든 개발은 여러분의 지원에 의해 이루어집니다"
   wallets:
     verge:
       header: "Verge 지갑 주소"
@@ -307,17 +307,17 @@ faq:
         answer: "네, Verge는 오픈 소스 형태로 운영되고 있습니다. <a href='https://github.com/vergecurrency' target='_blank'>github</a>에서 프로젝트의 소스 코드와 운영 상황을 볼 수 있습니다. Verge 프로젝트가 사기업이나 은행 자본에 의해 운영되지 않게 하는 것은 이 프로젝트의 핵심적인 부분 입니다."
       getverge:
         question: "어떻게 Verge를 구하나요?"
-        answer: "Verge (XVG) 코인을 구하는 방법에는 여러가지가 있습니다. 가장 쉽고 일반적인 방법은 XVG를 지원하는 <a href='https://vergecurrency.com/#exchanges' target='_blank'>거래소</a>에서 코인을 구매하는 것입니다. 또한 사용자들은 서로 통합된 <a href='https://vergecurrency.com/#social' target='_blank'>social</a> 플랫폼을 사용하여 XVG 코인을 주고 받을 수 있습니다. 만약 안드로이드 기기를 사용하신다면, Verge 코인을 <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>모바일 지갑</a>을 통해 주고 받으실 수도 있습니다."
+        answer: "Verge (XVG) 코인을 구하는 방법에는 여러가지가 있습니다. 가장 쉽고 일반적인 방법은 XVG를 지원하는 <a href='#exchanges' target='_blank'>거래소</a>에서 코인을 구매하는 것입니다. 또한 사용자들은 서로 통합된 <a href='#social' target='_blank'>social</a> 플랫폼을 사용하여 XVG 코인을 주고 받을 수 있습니다. 만약 안드로이드 기기를 사용하신다면, Verge 코인을 <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>모바일 지갑</a>을 통해 주고 받으실 수도 있습니다."
       funded:
         question: "Verge의 개발은 어떻게 지원되고 있나요?"
-        answer: " Verge는 오픈 소스 프로젝트이므로, 모든 개발 활동은 개발자들 자신과 커뮤니티의 <a href='https://vergecurrency.com/#donate' target='_blank'>후원</a>에 의해 이뤄집니다. 현재 공식 Verge <b>구매 상점</b>이나 <b>다중 알고리즘 채굴 풀</b>등을 통한 개발 지원 방식을 고려하는 중입니다."
+        answer: " Verge는 오픈 소스 프로젝트이므로, 모든 개발 활동은 개발자들 자신과 커뮤니티의 <a href='#donate' target='_blank'>후원</a>에 의해 이뤄집니다. 현재 공식 Verge <b>구매 상점</b>이나 <b>다중 알고리즘 채굴 풀</b>등을 통한 개발 지원 방식을 고려하는 중입니다."
       marketing:
         question: "왜 Verge는 마케팅을 더 하지 않나요?"
         answer: "먼저 Verge는 100% 개발진과 커뮤니티로만 운영되고 있다는 사실을 알아두셔야 합니다. 이 프로젝트에 현재로서는 대량의 마케팅 캠페인을 시작할 만큼의 펀딩이 이루어 지고 있지 않습니다만, 저희 프로젝트에서는 <a href='https://coinomi.com/' target='_blank'>Coinomi</a> 와 <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a>과 같은 캠페인을 진행하고 있습니다."
         answer2: "저희는 현재 소셜 미디어 마케팅 캠페인을 진행하고 있습니다. 최근에 진행된 <a href='vergecurrency.com/contest' target='_blank'>GIF 콘테스트</a>에서는 참여자에게 200,000 코인 이상이 주어졌습니다. 컨테스트 결과를 <a href='http://vergecurrency.com/contestrecap' target='_blank'>여기</a>에서 확인하실 수 있습니다."
       numdevelopers:
         question: "Verge 개발진은 몇 명인가요??"
-        answer: "현재 Verge 프로젝트는 몇 개의 개발 팀으로 나뉘어 운영되고 있습니다. 코어 개발팀은 한명의 메인 개발자(<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) 와 10명의 다른 <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>컨트리뷰터들</a>로 이루어져 있습니다. 웹사이트 개발 팀은 두 명의 메인 개발자 (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> , <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) 와 16명의 <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>컨트리뷰터들</a>로 이루어져 있습니다. 마케팅 팀은 1명의 메인 컨트리뷰터 (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) 와 다른 다수의 컨트리뷰터들로 이루어져 있습니다. You can see a full list of our <a href='https://vergecurrency.com/#contributors' target='_blank'>contributors</a> on our website."
+        answer: "현재 Verge 프로젝트는 몇 개의 개발 팀으로 나뉘어 운영되고 있습니다. 코어 개발팀은 한명의 메인 개발자(<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) 와 10명의 다른 <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>컨트리뷰터들</a>로 이루어져 있습니다. 웹사이트 개발 팀은 두 명의 메인 개발자 (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> , <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) 와 16명의 <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>컨트리뷰터들</a>로 이루어져 있습니다. 마케팅 팀은 1명의 메인 컨트리뷰터 (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) 와 다른 다수의 컨트리뷰터들로 이루어져 있습니다. You can see a full list of our <a href='#contributors' target='_blank'>contributors</a> on our website."
       whitepaper:
         question: "Verge도 White Paper를 가지고 있나요?"
         answer: "물론입니다. 하지만 우리는 그것을 <a href='https://vergecurrency.com/assets/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>Black Paper</a>라고 부릅니다."
@@ -345,13 +345,13 @@ faq:
         answer2: "이를 통해 여러분은 블록체인에 기록된 모든 거래기록을 볼 수 있습니다. 하지만, 여러분은 해당 거래가 누구에 의해, 어디에서 이루어 졌고, 구매자와 판매자가 실제로 어디에 있는지는 알 수 없습니다."
       richlist:
         question: "가장 많은 Verge를 가진 사람은 어디에서 볼 수 있나요?"
-        answer: "Verge의 소유 리스트는 <a href='http://vergecurrency.info/richlist' target='_blank'>여기</a>에서 볼 수 있습니다. 만약 사이트 접속이 안된다면 저희에게 알려주세요. 해당 사이트는 커뮤니티의 지원에 의해 운영되는 서버로 호스팅 되고 있습니다."
+        answer: "Verge의 소유 리스트는 <a href='https://verge-blockchain.info/richlist' target='_blank'>여기</a>에서 볼 수 있습니다. 만약 사이트 접속이 안된다면 저희에게 알려주세요. 해당 사이트는 커뮤니티의 지원에 의해 운영되는 서버로 호스팅 되고 있습니다."
       wheretolearnmore:
         question: "Verge에 대한 정보를 어디에서 더 얻을 수 있나요?"
-        answer: "우리는 매우 다양한 종류의 <a href='https://vergecurrency.com/#social' target='_blank'>소셜</a> 플랫폼을 가지고 있습니다. 또한, 트위터, 텔레그램, 슬랙, 디스코스와 같은 곳 에서도 매우 활발히 활동하는 중입니다."
+        answer: "우리는 매우 다양한 종류의 <a href='#social' target='_blank'>소셜</a> 플랫폼을 가지고 있습니다. 또한, 트위터, 텔레그램, 슬랙, 디스코스와 같은 곳 에서도 매우 활발히 활동하는 중입니다."
       roadmap:
         question: "Verge에 대한 로드맵은 어디서 볼 수 있나요?"
-        answer: "Verge의 로드맵은 홈페이지의 <a href='https://vergecurrency.com/#roadmap' target='_blank'>이 곳</a>에 있습니다. 로드맵에 기재된 목록들은 우리가 다음 한 달 또는 두 달 동안 목표로 하고 일하는 목록들입니다. 암호화화폐 시장의 큰 변동성과 예측 불가성으로, 우리는 3 달 이상의 장기간 목표점을 로드맵에 제시하고 있지 않습니다."
+        answer: "Verge의 로드맵은 홈페이지의 <a href='#roadmap' target='_blank'>이 곳</a>에 있습니다. 로드맵에 기재된 목록들은 우리가 다음 한 달 또는 두 달 동안 목표로 하고 일하는 목록들입니다. 암호화화폐 시장의 큰 변동성과 예측 불가성으로, 우리는 3 달 이상의 장기간 목표점을 로드맵에 제시하고 있지 않습니다."
     privacy:
       subheader: "프라이버시"
       whynotvpn:
@@ -379,7 +379,7 @@ faq:
         answer: "<a href='https://www.qt.io' target='_blank'>QT</a>란, C++ 프로그래밍 언어를 사용하는 개발자를 위한 크로스 플랫폼 어플리케이션과 UI 프레임워크를 의미합니다. 개발자들은 QT를 사용하여 C++로 작성한 코드를 여러가지 소프트웨어, 하드웨어 플랫폼으로 배포할 수 있습니다. <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>에 따르면, 이 개발 도구의 이름의 유래를 알 수 있습니다. \"하버드의 이맥스 글꼴 중 Q라는 글자가 예뻐 보였고, t는 X 툴킷 Xt에서 따 와서 Qt라는 이름을 붙였다.\". "
       qtwallet:
         question: "QT 지갑이란 무엇인가요?"
-        answer: "QT 지갑을 사용하기 위해서는 전체 <a href='https://vergecurrency.de/' target='_blank'>Verge 블록체인</a>을 컴퓨터로 다운 받아야 합니다. 다시 말해서, 사용자의 컴퓨터에 Verge의 지금까지의 모든 거래 기록이 존재해야 합니다. 현재, Verge의 블록체인은 약 1GB 크기이며 사용자가 거래를 지속함에 따라 점점 커지고 있습니다. 만약 여러분이 QT 지갑을 사용하신다면, 다운로드에 필요한 저장공간이 충분한지 확인하셔야 합니다."
+        answer: "QT 지갑을 사용하기 위해서는 전체 <a href='https://verge-blockchain.com' target='_blank'>Verge 블록체인</a>을 컴퓨터로 다운 받아야 합니다. 다시 말해서, 사용자의 컴퓨터에 Verge의 지금까지의 모든 거래 기록이 존재해야 합니다. 현재, Verge의 블록체인은 약 1GB 크기이며 사용자가 거래를 지속함에 따라 점점 커지고 있습니다. 만약 여러분이 QT 지갑을 사용하신다면, 다운로드에 필요한 저장공간이 충분한지 확인하셔야 합니다."
         answer2: "QT 지갑을 열때 마다, 지갑은 자동적으로 최신의 블록체인과 컴퓨터의 데이터를 동기화 시킵니다. 만약 여러분이 QT 지갑을 쓰기로 결정하셨다면, 주기적으로 사용하시는게 좋습니다. 그렇지 않다면 그 전 동기화와의 시간에 따라 블록체인 동기화에 한 시간 이상이 소요될 수 있습니다."
       backup:
         question: "내 지갑의 백업은 어떻게 하나요?"
@@ -389,8 +389,8 @@ faq:
         answer4: "최신 상태의 wallet.dat만 있다면, 지갑을 복구하고 복구된 코인들을 지갑에 넣을 수 있습니다. 만약, wallet.dat 파일을 잃어버린다면, 지갑의 모든 코인을 사라지게 됩니다."
       longsync:
         question: "제 지갑을 동기화하는데 시간이 너무 오래 걸립니다. 동기화 속도를 높일 수 있는 방법이 없을까요?"
-        answer: "최신 Verge <a href='https://vergecurrency.de' target='_blank'>blockchain</a>을 다운로드 받으시면 됩니다. 다운로드 받은 후에는 <a href='https://vergecurrency.de/howto' target='_blank'>지시사항</a>을 참조하십시오. 지시사항을 수행한 후에 다시 지갑을 열면, 남은 블록들을 동기화 하기 위한 작업이 진행됩니다. 이 마지막 동기화는 약 한 시간정도 걸릴 수 있습니다."
-        answer2: "Electrum <a href='https://vergecurrency.com/#wallets' target='_blank'>지갑</a>을 선택하여 사용할 수도 있습니다. Electrum 지갑은 전체 블록체인 저장을 요구하지 않기 때문에 훨씬 빠르게 이용할 수 있습니다."
+        answer: "최신 Verge <a href='https://verge-blockchain.com' target='_blank'>blockchain</a>을 다운로드 받으시면 됩니다. 다운로드 받은 후에는 <a href='https://verge-blockchain.com/howto' target='_blank'>지시사항</a>을 참조하십시오. 지시사항을 수행한 후에 다시 지갑을 열면, 남은 블록들을 동기화 하기 위한 작업이 진행됩니다. 이 마지막 동기화는 약 한 시간정도 걸릴 수 있습니다."
+        answer2: "Electrum <a href='#wallets' target='_blank'>지갑</a>을 선택하여 사용할 수도 있습니다. Electrum 지갑은 전체 블록체인 저장을 요구하지 않기 때문에 훨씬 빠르게 이용할 수 있습니다."
       torandroidnoconnection:
         question: "왜 Verge TOR 안드로이드 앱에 No Connection 이라고 나오나요?"
         answer: "\"no connection\" 이라고 메인 잔고 화면에 표시된다면, Orbot 앱을 열어서 \"apps VPN mode\"을 상단 왼쪽 메뉴애서 선택하십시오."

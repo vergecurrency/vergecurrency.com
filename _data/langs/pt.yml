@@ -87,7 +87,7 @@ wallets:
   header: "Wallets"
   info:
     header: "Informação:"
-    message: "Se não estiver instalando a versão Electrum você pode acelerar sua instalação fazendo o download do blockchain Verge <a href='http://vergecurrency.de/' target='_blank'>aqui</a>."
+    message: "Se não estiver instalando a versão Electrum você pode acelerar sua instalação fazendo o download do blockchain Verge <a href='https://verge-blockchain.com' target='_blank'>aqui</a>."
   tabs:
     preferred: "Favoritas"
     desktop: "Desktop"
@@ -308,10 +308,10 @@ faq:
         answer: "Sim, Verge é um projeto open-source. Você pode navegar em nossa conta no <a href='https://github.com/vergecurrency' target='_blank'>GitHub</a> e acessar todos os repositórios/códigos. É importante notar que Verge não é uma empresa ou possui uma empresa por trás dando suporte."
       getverge:
         question: "Como posso adquirir Verge?"
-        answer: "Há várias maneiras de se adquirir moedas Verge (XVG). A mais comum é comprá-las em uma  <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a> (bolsa de valores) que negocia Verge. Usuários também podem doar uns aos outros em uma das plataformas <a href='https://vergecurrency.com/#social' target='_blank'>sociais</a> integradas (utilizando um bot Verge oficial). Se você possui um dispositivo Android, você também pode adquirir Verge acessando enviar/receber moedas no <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>aplicativo</a>."
+        answer: "Há várias maneiras de se adquirir moedas Verge (XVG). A mais comum é comprá-las em uma  <a href='#exchanges' target='_blank'>exchange</a> (bolsa de valores) que negocia Verge. Usuários também podem doar uns aos outros em uma das plataformas <a href='#social' target='_blank'>sociais</a> integradas (utilizando um bot Verge oficial). Se você possui um dispositivo Android, você também pode adquirir Verge acessando enviar/receber moedas no <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>aplicativo</a>."
       funded:
         question: "Como o desenvolvimento do Verge é financiado?"
-        answer: " Verge é um projeto open-source, portanto, todo trabalho de desenvolvimento é financiado através de <a href='https://vergecurrency.com/#donate' target='_blank'>doações</a> de desenvolvedores e comunidade. Atualmente estamos explorando outros métodos para financiar o desenvolvimento, incluindo uma <b>loja Verge</b> com produtos oficiais e <b>Mining Pool</b> com suporte a multi-algoritmo</b>."
+        answer: " Verge é um projeto open-source, portanto, todo trabalho de desenvolvimento é financiado através de <a href='#donate' target='_blank'>doações</a> de desenvolvedores e comunidade. Atualmente estamos explorando outros métodos para financiar o desenvolvimento, incluindo uma <b>loja Verge</b> com produtos oficiais e <b>Mining Pool</b> com suporte a multi-algoritmo</b>."
       marketing:
         question: "Por que Verge não investe mais em divulgação?"
         answer: "É importante lembrar o Verge é 100% financiado por desenvolvedores e comunidade. Atualmente não recebemos o suficiente da comunidade para investir em campanhas de marketing em larga escala. Apesar disso, realizamos campanhas (ads) na <a href='https://coinomi.com/' target='_blank'>Coinomi</a> e <a href='coinmarketcap.com' target='_blank'>Coinmarketcap</a>."
@@ -319,7 +319,7 @@ faq:
         Veja mais em <a href='http://vergecurrency.com/contestrecap' target='_blank'>resultados da competição</a>."
       numdevelopers:
         question: "Há quantos desenvolvedores Verge?"
-        answer: "Atualmente, Verge possui alguns times de desenvolvimento. O time principal possui um desenvolvedor líder (<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) e outros 10 <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>contribuidores</a>. O time que cuida do website possui dois desenvolvedores principais (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> e <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) al'em de outros 16 <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>contribuidores</a>. O time de marketing possui um contribuidor líder (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) e muitos outros contribuidores. Veja a lista completa de <a href='https://vergecurrency.com/#contributors' target='_blank'>contribuidores</a>  em nosso website."
+        answer: "Atualmente, Verge possui alguns times de desenvolvimento. O time principal possui um desenvolvedor líder (<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) e outros 10 <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>contribuidores</a>. O time que cuida do website possui dois desenvolvedores principais (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> e <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) al'em de outros 16 <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>contribuidores</a>. O time de marketing possui um contribuidor líder (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) e muitos outros contribuidores. Veja a lista completa de <a href='#contributors' target='_blank'>contribuidores</a>  em nosso website."
       whitepaper:
         question: "Verge possui um White Paper?"
         answer: "Sim, mas nós chamamos o nosso de <a href='https://vergecurrency.com/assets/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>Black Paper</a>."
@@ -347,13 +347,13 @@ faq:
         answer2: "Você é capaz de visualizar todas as transações do blockchain, porém, você não conseguirá identificar o remetente e destinatário bem como a localização física dos mesmos."
       richlist:
         question: "Onde eu posso verificar a lista dos mais \"Ricos do Verge\"?"
-        answer: "Você pode visualizar a lista <a href='http://vergecurrency.info/richlist' target='_blank'>aqui</a>. Se o site estiver fora do ar, por favor nos notifique, pois trata-se de um servidor doado pela comunidade."
+        answer: "Você pode visualizar a lista <a href='https://verge-blockchain.info/richlist' target='_blank'>aqui</a>. Se o site estiver fora do ar, por favor nos notifique, pois trata-se de um servidor doado pela comunidade."
       wheretolearnmore:
         question: "Onde posso aprender mais sobre o Verge?"
-        answer: "Nós estamos em inúmeras plataformas <a href='https://vergecurrency.com/#social' target='_blank'>sociais</a>. Somos muito ativos no Twitter, Telegram, Slack e Discord."
+        answer: "Nós estamos em inúmeras plataformas <a href='#social' target='_blank'>sociais</a>. Somos muito ativos no Twitter, Telegram, Slack e Discord."
       roadmap:
         question: "Onde posso encontrar o roadmap?"
-        answer: "Apresentamos o <a href='https://vergecurrency.com/#roadmap' target='_blank'>roadmap</a> em nosso site, onde geralmente listamos os itens em que estamos trabalhando pelos próximos um ou dois meses. Nós não gostamos de colocar itens de longo prazo (maiores que 3 meses) em nosso roadmap pois, em cripto, as coisas mudam rápido demais para anteciparmos tanto."
+        answer: "Apresentamos o <a href='#roadmap' target='_blank'>roadmap</a> em nosso site, onde geralmente listamos os itens em que estamos trabalhando pelos próximos um ou dois meses. Nós não gostamos de colocar itens de longo prazo (maiores que 3 meses) em nosso roadmap pois, em cripto, as coisas mudam rápido demais para anteciparmos tanto."
     privacy:
       subheader: "Privacidade"
       whynotvpn:
@@ -382,7 +382,7 @@ faq:
         answer: "<a href='https://www.qt.io' target='_blank'>QT</a> é uma aplicação multiplataforma e framework para UI para desenvolvedores C++. Ela permite que desenvolvedores C++ disponibilizem seus softwares para diferentes plataformas. Para o <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>, o toolkit recebeu o nome de QT por que \"a letra 'Q' era bonita nos Emacs de Harvard e a letra 't' foi inspirada no Xt, o toolkit X\"."
       qtwallet:
         question: "O que é uma wallet QT?"
-        answer: "Wallets QT requerem que você baixe todo  <a href='https://vergecurrency.de/' target='_blank'>blockchain Verge</a> em seu computador, em outras palavras, seu computador deve manter uma cópia de todas as transações já realizadas. Atualmente o blockchain Verge possui ~1GB e continuará aumentando, pois há cada vez mais usuários realizando transações. Se você está usando uma wallet QT certifique-se de que seu aparelho possui espaço extra suficiente para armazenamento do blockchain."
+        answer: "Wallets QT requerem que você baixe todo  <a href='https://verge-blockchain.com/' target='_blank'>blockchain Verge</a> em seu computador, em outras palavras, seu computador deve manter uma cópia de todas as transações já realizadas. Atualmente o blockchain Verge possui ~1GB e continuará aumentando, pois há cada vez mais usuários realizando transações. Se você está usando uma wallet QT certifique-se de que seu aparelho possui espaço extra suficiente para armazenamento do blockchain."
         answer2: "Toda vez que você abrir sua wallet QT ela irá sincronizar e baixar as últimas atualizações no blockchain para seu computador. Se decidir utilizar a wallet QT é melhor que você utilize-a regularmente, caso contrário pode levar uma hora ou mais para baixar as últimas atualizações no blockchain (dependendo de quanto tempo se passou desde a última vez que você abriu sua wallet)"
       backup:
         question: "Como crio um backup da minha wallet?"
@@ -392,8 +392,8 @@ faq:
         answer4: "Enquanto mantiver seu arquivo wallet.dat atualizado, você será capaz de recuperar e importar suas moedas para outra wallet Verge. Caso perca o arquivo wallet.dat todas as moedas contidas nela estarão perdidas."
       longsync:
         question: "Minha wallet está levando muito tempo para sincronizar.  Há algo que possa ser feito para acelerar esse processo?"
-        answer: "Sim, você pode fazer o download da última versão do blockchain Verge <a href='https://vergecurrency.de' target='_blank'>aqui</a>. Após efetuar o download, por favor leia as <a href='https://vergecurrency.de/howto' target='_blank'>instruções</a>. Assim que completar as instruções reabra a wallet e aguarde até que finalize a sincronização dos últimos blocos, o que pode levar até 1 hora."
-        answer2: "Lembre-se que nós fornecemos uma <a href='https://vergecurrency.com/#wallets' target='_blank'>wallet</a> Electrum, que é muito mais rápida pois não requer uma cópia do blockchain em sua máquina."
+        answer: "Sim, você pode fazer o download da última versão do blockchain Verge <a href='https://verge-blockchain.com/' target='_blank'>aqui</a>. Após efetuar o download, por favor leia as <a href='https://verge-blockchain.com/howto' target='_blank'>instruções</a>. Assim que completar as instruções reabra a wallet e aguarde até que finalize a sincronização dos últimos blocos, o que pode levar até 1 hora."
+        answer2: "Lembre-se que nós fornecemos uma <a href='#wallets' target='_blank'>wallet</a> Electrum, que é muito mais rápida pois não requer uma cópia do blockchain em sua máquina."
       torandroidnoconnection:
         question: "Por que eu aparece 'no connection' em minha wallet TOR Android?"
         answer: "Se você está vendo \"no connection\" na tela principal, por favor abra o aplicativo Orbot e selecione \"apps VPN mode\" no topo do menu esquerdo."
