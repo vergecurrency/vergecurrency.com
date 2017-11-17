@@ -153,40 +153,44 @@ roadmap:
   header: "Roadmap"
   paragraph: "Die Roadmap wird quartalsweise aktualisiert."
   blackpaper:
-    header: "\"Blackpaper"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 4. Juni 2017"
+    header: "\"Black\"paper"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 4. Juni 2017"
   electrum_i2P_server_client:
     header: "Electrum I2P Server / Client"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 4. Juni 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 4. Juni 2017"
   electrum_tor_server_client:
     header: "Electrum TOR Server / Client"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 5. Juni 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 5. Juni 2017"
   electrum_binaries:
     header: "Electrum Binaries"
     paragraph: "Binärdateien für eine einfach zu bedienende Lite Geldbörse."
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 7. Juni 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 7. Juni 2017"
   marketing_campaign:
     header: "Crypto Services Marketing-Kampagne"
     paragraph: "1 Jahr Anzeigenkampagne mit Coinomi gestartet"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 7. Juni 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 7. Juni 2017"
   redesign_website:
     header: "Verbessere Website"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 12. Juni 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 12. Juni 2017"
   radio:
     header: "Migration Verge Radio"
     paragraph: "In \"RadioCrypto\" umwandeln und in Geldbörse integrieren"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 26. Juni 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 26. Juni 2017"
   tor_android_wallet:
     header: "TOR Android Geldbörse"
     paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 31. July 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 31. July 2017"
   i2P_android_wallet:
     header: "I2P Android Geldbörse"
     paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
     date: "Q4, 2017"
   core_wallet_release:
-    header: "Neues Release Standard-Geldbörse"
-    paragraph: "Hinzufügen von neuen Features wie Münzkontrolle, RingCT, Update-Bibliotheken (openssl, Boost, etc.)"
+    header: "Core Wallet 3.0 Release Stage 1"
+    paragraph: "Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 15. November 2017"
+  core_wallet_release_2:
+    header: "Core Wallet 3.0 Release Stage 2"
+    paragraph: "Tor Integration & Optional Stealth Addressing"
     date: "Q4, 2017"
   rsk_smart_contracts:
     header: "RSK intelligente Verträge"
@@ -200,11 +204,11 @@ roadmap:
     paragraph: "Der Merchandise-Shop wird T-Shirts/Bekleidung anbieten, die Bezahlung kann mit XVG und BTC erfolgen."
     date: "Q4, 2017"
   blackpaper2:
-    header: "\"Black\" Paper 2.0"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 11. August 2017"
+    header: "\"Black\" Paper 3.0"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 11. August 2017"
   transfer_discord_service:
     header: "Verge über Discord-Dienst senden"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 16. August 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 16. August 2017"
   transfer_telegram_service:
     header: "Verge über Telegram-Dienst senden"
     date: "August 2017"
@@ -214,7 +218,7 @@ roadmap:
     date: "Q4, 2017"
   upgrade_electrum_client:
     header: "Upgrade Electrum-Client Programmcode"
-    date: "<font color='#08b4e0'>VERÖFFENTLICHT</font> 24. August 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 24. August 2017"
 footer:
   social:
     header: "Community"
