@@ -11,6 +11,10 @@ nav:
     title: "Hole dir Verge"
   wallets:
     title: "Geldbörsen"
+  vendors:
+    title: "Anbieter"
+  p2p:
+    title: "P2P Lösungen"
   roadmap:
     title: "Roadmap"
   developers:
