@@ -468,7 +468,7 @@ p2ptoc:
       bullet3: "3. <b>Deposit Coins:</b> send XVG coins to the address provided."
       bullet4: "4. <b>Check Balance:</b> send \"!balance\" as a direct message and see your balance in the reply."
       bullet5: "5. <b>Send Coins Over Telegram:</b> send \"!tip @<username><amount of XVG>\" in the group chat."
-      bullet6: "6. <b>Withdraw Telegram Wallet Balance:</b> send \"!withdraw <Verge Address>\" as a <b>Direct Message</b> to withdraw your whole wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
+      bullet6: "6. <b>Withdraw Telegram Wallet Balance:</b> send \"!withdraw <Verge Address>\" as a <b>Direct Message</b> to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
       bullet7: "7. <b>See Terms:</b> send \"!terms\" to display terms and conditions for using Verge Telegram Bot."
     twitter:
       subheader: "Twitter Bot Manual"

@@ -24,7 +24,7 @@
           <img class="verge-header-fixed-logo" src="/../../images/favicon/mstile-310x310.png" alt="Verge" title="Verge">
           <img class="logo" src="/vergelogo.svg" alt="Verge" title="Verge">
           <div class="verge-header-text-container">
-              <h3 class="verge-header-text">Verge</h3>
+          <h3 class="verge-header-text">Verge</h3>
           </div>
         </a>
       </div>
@@ -41,18 +41,10 @@
         <li class="nav-dropdown">
           <label>{{langPath.nav.community.title | default: defaultLangPath.nav.community.title}} <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
           <ul>
-            <li>
-              <a href="{{linkPath}}#developers">{{langPath.nav.developers.title | default: defaultLangPath.nav.developers.title}}</a>
-            </li>
-            <li>
-              <a href="{{linkPath}}#contributors">{{langPath.nav.contributors.title | default: defaultLangPath.nav.contributors.title}}</a>
-            </li>
-            <li>
-              <a href="{{linkPath}}#donate">{{langPath.nav.donate.title | default: defaultLangPath.nav.donate.title}}</a>
-            </li>
-            <li>
-              <a href="{{linkPath}}#social">{{langPath.nav.social.title | default: defaultLangPath.nav.social.title}}</a>
-            </li>
+            <li><a href="{{linkPath}}#developers">{{langPath.nav.developers.title | default: defaultLangPath.nav.developers.title}}</a></li>
+            <li><a href="{{linkPath}}#contributors">{{langPath.nav.contributors.title | default: defaultLangPath.nav.contributors.title}}</a></li>
+            <li><a href="{{linkPath}}#donate">{{langPath.nav.donate.title | default: defaultLangPath.nav.donate.title}}</a></li>
+            <li><a href="{{linkPath}}#social">{{langPath.nav.social.title | default: defaultLangPath.nav.social.title}}</a></li>
           </ul>
         </li>
         {% if include.hideLangDropdown == false %}
@@ -62,5 +54,4 @@
     </div>
   </div>
 </header>
-
 {% include shared/stickyheader.html hideLangDropdown=include.hideLangDropdown %}

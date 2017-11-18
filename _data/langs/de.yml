@@ -339,7 +339,7 @@ faq:
         answer2: "Bitte immer daran denken, es steht auch die alternative Electrum <a href='#wallets' target='_blank'>Geldbörse</a> zur Verfügung, die signifikant schneller ist (hier muss keine Blockchain heruntergeladen werden)."
       torandroidnoconnection:
         question: "Warum sehe ich \"no connection\" in meiner Verge TOR Android App?"
-        answer: "Wenn du \"no connection\" auf der App im Tab \"balance\" siehst, dann öffne bitte die Orbot App und wähle \"apps VPN mode\" im linken Menü aus."
+        answer: "Wenn du \"no connection\" auf der App im Tab \"balance\" siehst, öffne bitte die Orbot App und wähle \"apps VPN mode\" im linken Menü aus."
     mining:
       subheader: "Mining"
       proof:
@@ -348,3 +348,43 @@ faq:
       algorithms:
         question: "Welche Algorithmen unterstützt Verge?"
         answer: "Verge unterstützt Multi-Algorithmen-Mining. Dies bedeutet, dass jeder mit unterschiedlicher Minging Hardware minen kann. Das bedeutet mehr Sicherheit durch die Dezentralisierung und die faire Verteilung der Coins über die gesamte Verge Mining Community. Verge ist eine der wenigen Kryptowährungen, die fünf unterschiedliche Hashing-Algorithmen unterstützt, namentlich sind dies: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
+p2p:
+  subheader: "Einführung"
+  header: "Was sind P2P Lösungen?"
+  paragraph: "Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal."
+  paragraph2: "With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram. More platforms are in planning stages as we speak!"
+  paragraph3: "Weitere Plattformen (Slack & Reddit) werden bald folgen."
+  paragraph4: "Use XVG to tip content creators, pay freelancers, donate to NGOs or show endorsement for the posts you like! All that with zero fees(small fee for transactions to external wallets), instant transactions and no setup!"
+  paragraph5: "Im Folgenden finden Sie eine Reihe von Anleitungen, wie Sie unsere verschiedenen P2P-Lösungen verwenden können."
+p2ptoc:
+  telegramintro: "Info: Your Telegram profile has to show a username (@<username>) for tips to work. Benutzernamen können in den Telegram Einstellungen konfiguriert werden."
+  toc:
+    tagline: "P2P Lösungen"
+    header: "Inhalt"
+    telegram:
+      subheader: "Telegram Bot Handbuch"
+      bullet1: "1. <b>Füge den Verge Bot zu deiner Gruppe hinzu:</b> Suche in Telegram nach @VergeX_bot, klicke \"Zur Gruppe hinzufügen\" und wähle deine Gruppe aus."
+      bullet2: "2. <b>Erhalte deine Verge Telegram Adresse:</b> Sende \"!address\" als Direktnachricht an den Bot."
+      bullet3: "3. <b>Coins einzahlen:</b> Sende XVG Coins an die angegebene Adresse."
+      bullet4: "4. <b>Kontostand prüfen:</b> Sende \"!balance\" als Direktnachricht an den Bot und erhalte deinen Kontostand als Antwort zurück."
+      bullet5: "5. <b>Sende Coins über Telegram:</b> Sende \"!tip @<username><XVG Anzahl>\" in den Gruppen Chat."
+      bullet6: "6. <b>Coins transferieren:</b> Sende \"!withdraw <Verge Adresse>\" als <b>Direkt Nachricht</b> um deinen <b>gesamten</b> Kontostand (minus 2 XVG Abhebe Gebühr) zu deiner Verge Adresse zu transferieren."
+      bullet7: "7. <b>Zeige Geschäftsbedingungen:</b> Sende \"!terms\" um die Geschäftsbedingungen für den Verge Telegram Bot zu erhalten."
+    twitter:
+      subheader: "Twitter Bot Handbuch"
+      bullet1: "1. <b>Erhalte deine Verge Twitter Adresse:</b> Tweet \"@vergetips address\" um deine verknüpfte Twitter Verge Adresse zu erhalten."
+      bullet2: "2. <b>Coins einzahlen:</b> Sende XVG Coins an die angegebene Adresse."
+      bullet3: "3. <b>Kontostand prüfen:</b> Tweet \"@vergetips balance\" und erhalte deinen Kontostand in der Antwort."
+      bullet4: "4. <b>Sende Coins über Twitter:</b> Tweet \"@vergetips tip @<username><XVG Menge>\"."
+      bullet4note: "<b>Info:</b> Minimale tip Menge - 10 XVG."
+      bullet5: "5. <b>Coins transferieren:</b> Tweet \"@vergetips withdraw <Verge Adresse>\" um deinen <b>gesamten</b> Kontostand (minus 2 XVG Abhebe Gebühr) zu deiner Verge Adresse zu transferieren."
+      bullet6: "6. <b>Unterstütze Verge:</b> tip \"@vergecurrnecy\" um das Verge Team zu unterstützen!"
+    discord:
+      subheader: "Discord Bot Handbuch"
+      bullet1: "1. <b>Erhalte deine Verge Discord Adresse:</b> Sende \"@vergebot deposit\" um deine verknüpfte Discord Verge Adresse zu erhalten."
+      bullet2: "2. <b>Coins einzahlen:</b> Sende XVG Coins an die angegebene Adresse."
+      bullet3: "3. <b>Kontostand prüfen:</b> Sende \"@vergebot balance\" und erhalte deinen Kontostand in der Antwort."
+      bullet4: "4. <b>Sende Coins über Discord:</b> Sende \"@vergebot tip @<username> <XVG Menge>\"."
+      bullet4note: "<b>Info:</b> Minimale tip Menge - 10 XVG."
+      bullet5: "5. <b>Coins transferieren:</b> send \"@vergebot withdraw <Verge Adresse>\" um deinen <b>gesamten</b> Kontostand (minus 2 XVG Abhebe Gebühr) zu deiner Verge Adresse zu transferieren."
+      bullet6: "6. <b>Unterstütze Verge:</b> tip @vergedev um das Verge Team zu unterstützen!"
