@@ -15,7 +15,7 @@ nav:
     title: "Дорожная карта"
   community:
     title: "Сообщество"
-tagline: "VERGE (XVG) - Verge - это безопасная и анонимная криптовалюта. Мы уделяем особое внимание конфиденциальности."
+tagline: "Verge это <strong>безопасная</strong> и <strong>анонимная</strong> криптовалюта. Мы уделяем особое внимание <strong>конфиденциальности</strong>."
 intro_button: "Смотреть видео о Verge"
 close: "Close"
 download: "Скачать"
@@ -158,7 +158,7 @@ roadmap:
     date: "Август 2017 года"
   blackpaper2:
     header: "Blackpaper 2.0"
-    date: "<font color='#08b4e0'>Завершено</font> 11 августа, 2017"    
+    date: "<font color='#08b4e0'>Завершено</font> 11 августа, 2017"
   transfer_discord_service:
     header: "Возможность отправить Verge в Discord"
     date: "<font color='#08b4e0'>Завершено</font> 16 августа, 2017"
