@@ -160,12 +160,11 @@ roadmap:
   paragraph: "Release schedule will be updated on a per-quarter basis."
   blackpaper:
     header: "\"Black\" Paper v3.0"
-    date: "<font color='#08b4e0'>Released</font>"
+    date: "<font color='#08b4e0'>Released</font> 4. June 2017"
   core_wallet_release:
     header: "Core Wallet 3.0 Release Stage 1"
     paragraph: "Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability"
-    date: "<font color='#08b4e0'>Released</font>" 
-  core_wallet_release_2:
+    date: "<font color='#08b4e0'>Released</font> 15. November 2017"  core_wallet_release_2:
     header: "Core Wallet 3.0 Release Stage 2"
     paragraph: "Tor Integration & Optional Stealth Addressing"
     date: "Q4, 2017"
@@ -451,12 +450,12 @@ faq:
         answer: "Verge uses multi-algorithm mining support. That means that individuals with different types of mining equipment are able to mine verge, which means more security through decentralization and a more fair distribution of coins among Verge’s mining community. Verge is one of the few cryptocurrencies that support five different hashing algorithms; Namely, Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
 p2p:
   subheader: "Intro"
-  header: "What are P2P Soltuions?"
+  header: "What are P2P Solutions?"
   paragraph: "Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal."
   paragraph2: "With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram. More platforms are in planning stages as we speak!"
   paragraph3: "More platforms (Slack & Reddit) are coming in the near future."
   paragraph4: "Use XVG to tip content creators, pay freelancers, donate to NGOs or show endorsement for the posts you like! All that with zero fees(small fee for transactions to external wallets), instant transactions and no setup!"
-  paragraph5: "Bellow are a series of guides to help you understand how to use our various P2P solutions."
+  paragraph5: "Below are a series of guides to help you understand how to use our various P2P solutions."
 p2ptoc:
   telegramintro: "Note: Your Telegram profile has to show a username (@<username>) for tips to work. Usernames can be set up in Telegram Settings."
   toc:
@@ -469,7 +468,7 @@ p2ptoc:
       bullet3: "3. <b>Deposit Coins:</b> send XVG coins to the address provided."
       bullet4: "4. <b>Check Balance:</b> send \"!balance\" as a direct message and see your balance in the reply."
       bullet5: "5. <b>Send Coins Over Telegram:</b> send \"!tip @<username><amount of XVG>\" in the group chat."
-      bullet6: "6. <b>Withdraw Telegram Wallet Balance:</b> send \"!withdraw <Verge Address>\" as a <b>Direct Message</b> to withdraw your whole wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
+      bullet6: "6. <b>Withdraw Telegram Wallet Balance:</b> send \"!withdraw <Verge Address>\" as a <b>Direct Message</b> to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
       bullet7: "7. <b>See Terms:</b> send \"!terms\" to display terms and conditions for using Verge Telegram Bot."
     twitter:
       subheader: "Twitter Bot Manual"
@@ -487,13 +486,5 @@ p2ptoc:
       bullet3: "3. <b>Check Balance:</b> send \"@vergebot balance\" and see your balance in the reply."
       bullet4: "4. <b>Send Coins Over Discord:</b> send \"@vergebot tip @<username> <amount of XVG>\"."
       bullet4note: "<b>Note:</b> minimum tip amount - 10 XVG."
-      bullet5: "5. <b>Withdraw Twitter wallet balance:</b> send \"@vergebot withdraw <Verge address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
+      bullet5: "5. <b>Withdraw Discord wallet balance:</b> send \"@vergebot withdraw <Verge address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
       bullet6: "6. <b>Support Verge:</b> tip @vergedev to support the Verge Team!"
-
-
-
-
-
-
-
-

@@ -23,7 +23,7 @@ nav:
     title: "Communauté"
   social:
     title: "Réseaux Sociaux"
-tagline: "Verge est une crypto-monnaie sécurisée et anonyme, construite avec un respect de notre intimité éléctronique."
+tagline: "Verge est une crypto-monnaie <strong>sécurisée</strong> et <strong>anonyme</strong>, construite avec un respect de notre <strong>intimité éléctronique</strong>."
 intro_button: "Visionner la vidéo d'introduction"
 close: "Fermer"
 download: "Télécharger"
@@ -47,7 +47,7 @@ info:
         header: "Équipe de développement active avec plusieurs contributeurs"
         paragraph: "L'Équipe de développement est active et toujours en contact rapproché avec la communauté. Vous pouvez facilement rejoindre les principaux dévelopeurs pour obtenir du support ou communiquer de nouvelles idées a propos de Verge."
       adoption:
-        header: "Prêt pour l'adoption de masse"    
+        header: "Prêt pour l'adoption de masse"
         paragraph: "Verge offre une grande sélection de portefeuilles securisés pour un grand nombre de systèmes d'opération. Le portefeuille Tor révolutionnaire pour android offre une anonymité mobile qui est une fonctionalité unique parmis les crypto-monnaies orienté vie privée."
       opensource:
         header: "Décentralisé et ouvert"
