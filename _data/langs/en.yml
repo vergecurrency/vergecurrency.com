@@ -98,6 +98,7 @@ exchanges:
   changelly: "Changelly"
   nakamotox: "NakamotoX"
   coinswitch: "CoinSwitch"
+  coin2001: "Coin2001"
 wallets:
   header: "Wallets"
   info:
@@ -246,6 +247,7 @@ exchanges:
   changelly: "Changelly"
   nakamotox: "NakamotoX"
   coinswitch: "CoinSwitch"
+  coin2001: "Coin2001"
 footer:
   social:
     header: "Social"
