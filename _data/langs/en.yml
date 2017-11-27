@@ -95,6 +95,9 @@ exchanges:
   blocknet: "Blocknet"
   exchangedi2p: "ExchangeD.I2P"
   upbit: "UpBit"
+  changelly: "Changelly"
+  nakamotox: "NakamotoX"
+  coinswitch: "CoinSwitch"
 wallets:
   header: "Wallets"
   info:
