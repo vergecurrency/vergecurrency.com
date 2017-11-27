@@ -245,6 +245,7 @@ exchanges:
   upbit: "UpBit"
   changelly: "Changelly"
   nakamotox: "NakamotoX"
+  coinswitch: "CoinSwitch"
 footer:
   social:
     header: "Social"
