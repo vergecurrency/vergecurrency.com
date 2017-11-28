@@ -98,6 +98,7 @@ exchanges:
   changelly: "Changelly"
   nakamotox: "NakamotoX"
   coinswitch: "CoinSwitch"
+  coin2001: "Coin2001"
 wallets:
   header: "Wallets"
   info:
@@ -147,7 +148,7 @@ vendors:
   illroticbeats: "Illrotic Beats"
   fbs: "Falmouth Boat Security"
   effortless: "Effortless.IT"
-  #vendor: "rename me"
+  pmc: "Phuket Media Company"
   #vendor: "rename me"
   #vendor: "rename me"
   #vendor: "rename me"
@@ -245,6 +246,8 @@ exchanges:
   upbit: "UpBit"
   changelly: "Changelly"
   nakamotox: "NakamotoX"
+  coinswitch: "CoinSwitch"
+  coin2001: "Coin2001"
 footer:
   social:
     header: "Social"
