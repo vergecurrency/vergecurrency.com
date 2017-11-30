@@ -99,6 +99,7 @@ exchanges:
   nakamotox: "NakamotoX"
   coinswitch: "CoinSwitch"
   coin2001: "Coin2001"
+  cryptobridge: "CryptoBridge"
 wallets:
   header: "Wallets"
   info:
@@ -248,6 +249,7 @@ exchanges:
   nakamotox: "NakamotoX"
   coinswitch: "CoinSwitch"
   coin2001: "Coin2001"
+  cryptobridge: "CryptoBridge"
 footer:
   social:
     header: "Social"
