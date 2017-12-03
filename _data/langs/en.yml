@@ -100,6 +100,7 @@ exchanges:
   coinswitch: "CoinSwitch"
   coin2001: "Coin2001"
   cryptobridge: "CryptoBridge"
+  changenow: "ChangeNow"
 wallets:
   header: "Wallets"
   info:
@@ -250,6 +251,7 @@ exchanges:
   coinswitch: "CoinSwitch"
   coin2001: "Coin2001"
   cryptobridge: "CryptoBridge"
+  changenow: "ChangeNow"
 footer:
   social:
     header: "Social"
