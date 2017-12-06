@@ -9,28 +9,70 @@ nav:
     title: "Acerca de"
   exchanges:
     title: "Obtener Verge"
+  vendors:
+    title: "Vendedores"
   wallets:
     title: "Carteras"
   roadmap:
     title: "Mapa del Proyecto"
+  faq:
+    title: "FAQ"
+  p2p:
+    title: "Soluciones P2P"
+  developers:
+    title: "Desarrolladores"
+  contributors:
+    title: "Contribuidores"
+  donate:
+    title: "Donaciones"
   community:
     title: "Comunidad"
+  social:
+    title: "Social"
+  blog:
+    title: "Blog"
 tagline: "Verge es una criptomoneda <strong>segura</strong> y <strong>anónima</strong>, construida con un enfoque en la <strong>privacidad</strong>."
+intro_button: "Ver video de Introducción"
+close: "Cerrar"
 download: "Descargar"
 view: "Ver"
 view_all_wallets: "Ver todas las carteras"
+contest_enter: "Entra para tener la oportunidad de ganar 70,000 monedas Verge"
+mission:
+    header: "Declaración de Misión"
+    paragraph: "Nuestra misión es empoderar a las personas alrededor del mundo a través de transacciones de la cadena de bloques en el día a día. Verge hace posible estas transacciones directas de manera rápida, eficiente y privada. Con Verge las empresas e individuos tienen opciones flexibles para envíar y recibir pagos. Con solo presionar un botón, ofrecemos integraciones útiles y herramientas que permiten manejar transacciones a gran escala entre comerciantes y pagos privados a pequeña escala."
 info:
   about:
     header: "¿Por qué Verge?"
     paragraph: "Verge es una moneda descentralizada diseñada para usuarios que valoran la privacidad. Mejora la cadena de bloques original de Bitcoin utilizando múltiples redes centradas en el anonimato como Tor e i2p. Utiliza soporte de minería de algoritmos múltiples para mejorar la seguridad y proporcionar una distribución igual de monedas a los mineros."
+    cards:
+        privacy:
+            header: "Completamente enfocada en el anonimato y privacidad"
+            paragraph: "Verge usa multiples redes centralizadas en el anonimato, tales como Tor y I2P. Las direcciones IP de los usuarios están ofuscadas y las transacciones son completamente irrasteables."
+        community:
+            header: "Excelente apoyo de la comunidad"
+            paragraph: "Verge no es una compañía privada basada en monedas pre-minadas o ICO's. Todo el desarrollo y marketing es respaldado por miles de miembros de la comunidad."
+        speed:
+            header: "Transacciones ultra-rápidas"
+            paragraph: "La velocidad de las transacciones es ultra rápida comparada con otras monedas. La tecnología de verificación simple (TVS) permite que los tiempos promedio de confirmación de las transacciones sean de ~5 segundos."
+        development:
+            header: "Equipo de desarrollo activo con muchos contribuidores"
+            paragraph: "El equipo de desarrollo es activo y siempre se mantiene en contacto cercano con la comunidad. Muy facilmente puedes contactar a los desarrolladores principales para obtener soporte o presentar nuevas ideas sobre Verge."
+        adoption:
+            header: "Listo para adopción en masa"
+            paragraph: "Verge ofrece una amplia variedad de billeteras seguras para diferentes tipos de sistemas operativos. La revolucionaria cartera Tor Android ofrece anonimato móvil, siendo una característica única entre monedas orientadas a la privacidad."
+        opensource:
+            header: "Descentralizado y código abierto"
+            paragraph: "Verge es una moneda descentralizada basada en una plataforma de código abierto. No hay control central sobre la moneda."
   resources:
     header: "Recursos"
     black_paper: "Papel Negro"
     github: "Código fuente en Github"
     mining_pools: "Pools Mineras"
     mining_resources: "Recursos Mineros"
-    blockchain_explorer_prohashing: "Explorador de blockchain (ProHashing)"
-    blockchain_explorer_ccminer: "Explorador de blockchain (CCMiner.org)"
+    info: "Explorador de cadena de bloques (Verge)"
+    blockchain_explorer_prohashing: "Explorador de cadena de bloques (ProHashing)"
+    blockchain_explorer_ccminer: "Explorador de cadena de bloques (CCMiner.org)"
   tech_specs:
     header: "Especificaciones técnicas"
     symbol: "<b>Símbolo:</b> XVG"
@@ -38,15 +80,7 @@ info:
     block_time: "<b>Tiempo por Bloque:</b> 30 segundos"
     rpc_port: "<b>Puerto RPC:</b> 20102"
     p2p_port: "<b>Puerto P2P:</b> 21102"
-developers:
-  about:
-    header: "Para desarrolladores"
-    paragraph: "Escribir código es dificil. Nos gustaría hacer trabajar en Verge más fácil para tí , así que hemos reunido un conjunto de herramientas y los pusimos en una lista."
-  resources:
-    header: "Herramientas para desarrolladores"
-    github_gui: "GitHub Desktop"
-    rubygems_howto: "Como instalar RubyGems"
-    github_repos: "Nuestros repositorios en GitHub"
+
 exchanges:
   header: "Obtener Verge"
   paragraph: "Verge está orgulloso de ser incluido en los siguientes exchanges:"
@@ -57,87 +91,176 @@ exchanges:
   southxchange: "SouthXchange"
   novaexchange: "NovaExchange"
   cryptopia: "Cryptopia"
-  coingather: "CoinGather"
   coinspot: "CoinSpot"
+  blocknet: "Blocknet"
+  exchangedi2p: "ExchangeD.I2P"
+  nexchange: "Nexchange"
+  coinwale: "Coinwale"
+  binance: "Binance"
+  hitbtc: "HitBTC"
+  upbit: "UpBit"
+  changelly: "Changelly"
+  nakamotox: "NakamotoX"
+  coinswitch: "CoinSwitch"
+  coin2001: "Coin2001"
+  cryptobridge: "CryptoBridge"
+  changenow: "ChangeNow"
+  
 wallets:
   header: "Carteras"
+  info:
+    header: "Info:"
+    message: "Si no estás instalando una cartera Electrum, puedes acelerar la instalación descargando la cadena de bloques de Verge desdesde <a href='https://verge-blockchain.com/' target='_blank'>aquí</a>."
   tabs:
+    preferred: "Preferido"
     desktop: "Escritorio"
     mobile: "Móvil"
     other: "Otro"
-  windows: "Verge Cartera de Windows"
-  macosx: "Verge Cartera de Mac OSX"
-  android: "Verge Cartera Android"
-  archlinux: "Verge Cartera de ArchLinux"
-  centos: "Verge Cartera de CentOS"
-  debian: "Verge Cartera de Debian"
-  fedora: "Verge Cartera de Fedora"
-  web: "Verge Cartera Web"
-  web_tor: "Verge TOR Cartera Web"
-  web_i2P: "Verge i2P Cartera Web"
-  raspberry_pi: "Verge Raspberry Pi Código fuente"
-  electrum_linux: "Verge Cartera Linux Electrum"
-  electrum_linux_tor: "Verge Cartera TOR Linux Electrum"
-  electrum_windows: "Verge Cartera Windows Electrum"
-  electrum_windows_tor: "Verge Cartera TOR Windows Electrum"
-  paper: "Verge Cartera de Papel"
+  windows: "Cartera Windows de Verge"
+  macosx: "Cartera Mac OSX de Verge"
+  android: "Cartera TOR Android de Verge"
+  archlinux: "Cartera ArchLinux de Verge"
+  centos: "Cartera CentOS de Verge"
+  debian: "Cartera Debian de Verge"
+  fedora: "Cartera Fedora de Verge"
+  web: "Cartera Web de Verge"
+  web_tor: "Cartera TOR Web de Verge"
+  web_i2P: "Cartera Web I2P de Verge"
+  raspberry_pi: "Código fuente Verge de Raspberry Pi"
+  electrum_linux: "Cartera Linux Electrum de Verge"
+  electrum_linux_tor: "Cartera TOR Linux Electrum de Verge"
+  electrum_osx: "Cartera OSX Electrum de Verge"
+  electrum_osx_tor: "Cartera TOR OSX Electrum de Verge"
+  electrum_windows: "Cartera Windows Electrum de Verge"
+  electrum_windows_tor: "Cartera TOR Windows Electrum de Verge"
+  paper: "Cartera Verge de papel"
   daemon_docker: "Verge Daemon Docker Image"
-  coinomi: "Coinomi  Cartera Multi-Moneda Android"
+  coinomi: "Cartera Android multi-moneda de Coinomi"
+
+vendors:
+    header: "Vendedores de la vida real que aceptan Verge."
+    paragraph: "Todos los vendedores que se encuentran abajo aceptan Verge como método de pago por sus bienes y servicios."
+    pexpeppers: "PexPeppers"
+    incredebites: "Incredebites"
+    trebaltek: "Trebaltek"
+    renosportsbar: "Reno Sports Bar"
+    alwayshodl: "AlwaysHodl"
+    whiskermen: "WhiskerMen"
+    quantvm: "QuanTVm"
+    vfx: "VFX Learning"
+    cryptovfx: "Crypto VFX"
+    menke: "Menke IT - Service"
+    suzuri: "仮想通貨Verge Japan 公認SHOP"
+    haveaheartkc: "Have A Heart: Dog Rescue and Adoption"
+    illroticbeats: "Illrotic Beats"
+    fbs: "Falmouth Boat Security"
+    effortless: "Effortless.IT"
+    pmc: "Phuket Media Company"
+    meccamino: "Meccamino"
+    apetest: "APE Advisor Prep"
+    morningwish: "Morning Wish"
+    #vendor: "rename me"
+    #vendor: "rename me"
+    #vendor: "rename me"
+    #vendor: "rename me"
+    #vendor: "rename me"
+    #vendor: "rename me"
+    #vendor: "rename me"
+
 roadmap:
-  header: "Mapa del Proyecto"
+  header: "Programa de lanzamiento Q4"
+  paragraph: "El programa de lanzamiento será actualizado cada trimestre."
   blackpaper:
-    header: "Papel \"negro\""
-    date: "<font color='#08b4e0'>PUBLICADO</font> 4 de junio de 2017"
-  electrum_i2P_server_client:
-    header: "Electrum i2p Servidor / Cliente"
-    date: "<font color='#08b4e0'>PUBLICADO</font> 4 de junio de 2017"
-  electrum_tor_server_client:
-    header: "Electrum TOR Servidor / Cliente"
-    date: "<font color='#08b4e0'>PUBLICADO</font> 5 de junio de 2017"
-  electrum_binaries:
-    header: "Electrum Binarios"
-    paragraph: "Clientes binarios para carteras lite fáciles de usar."
-    date: "<font color='#08b4e0'>PUBLICADO</font> 7 de junio de 2017"
-  marketing_campaign:
-    header: "Campaña de marketing de Crypto Services"
-    paragraph: "Comenzó una campaña publicitaria de 1 año con Coinomi"
-    date: "<font color='#08b4e0'>PUBLICADO</font> 7 de junio de 2017"
-  redesign_website:
-    header: "Actualizar el sitio web de Verge"
-    date: "<font color='#08b4e0'>PUBLICADO</font> 12 de junio de 2017"
-  radio:
-    header: "Expandir Verge Radio"
-    paragraph: "Cambios en \"RadioCrypto\" y es incluido en carteras núcleo"
-    date: "<font color='#08b4e0'>PUBLICADO</font> 26 de junio de 2017"
-  tor_android_wallet:
-    header: "TOR Carteras android"
-    paragraph: "Cartera Android para transacciones Anonimas SOLAMENTE! (Cerca de terminar)"
-    date: "Julio de 2017"
-  i2P_android_wallet:
-    header: "i2P Carteras android"
-    paragraph: "Cartera Android para transacciones Anonimas SOLAMENTE! (Cerca de terminar)"
-    date: "Julio de 2017"
+    header: "Papel \"negro\" v3.0."
+    date: "<font color='#08b4e0'>Publicado</font> 4 de junio de 2017"
   core_wallet_release:
-    header: "Lanzamiento Nueva Cartera Núcleo"
-    paragraph: "Añadir nuevas funciones como el control de monedas, RingCT, librerías de actualización (openssl, boost, etc)"
-    date: "Julio de 2017"
+    header: "Etapa 1 del lanzamiento de la Cartera Core 3.0"
+    paragraph: "Revisión de la interfaz de usuario de billetera, VISP, Filtros Bloom, capacidad de intercambios atómicos."
+    date: "<font color='#08b4e0'>Publicado</font> 15 de Noviembre de 2017"
+  ore_wallet_release_2:
+    header: "Etapa 2 del lanzamiento de la Cartera Core 3.0"
+    paragraph: "Integración TOR y direccionamiento sigiloso opcional."
+    date: "Q4, 2017"
+  i2P_android_wallet:
+    header: "Cartera Android I2P"
+    paragraph: "Transacciones móviles anónimas a través de la red I2P."
+    date: "Q4, 2017"
   rsk_smart_contracts:
-    header: "RSK Contratos inteligentes"
-    paragraph: "Ahora están en testnet para bitcoin. El lanzamiento gira alrededor de esta fecha."
-    date: "Julio de 2017"
-  wallet_ui:
-    header: "Revisión de la interfaz de usuario de las Carteras"
-    date: "Julio de 2017"
+    header: "Contratos inteligentes RSK"
+    paragraph: "Se encuentra en un estado de prueba para bitcoin ahora. La fecha se encuentra estimada en esta línea de tiempo."
+    date: "Q4/Q1, 2017/2018"
   merchandise_store:
-    header: "Tienda Online de Mercancías"
-    paragraph: "Tienda Verge Merchandise tendrá camisetas / ropa que se pueden comprar con XVG y BTC."
-    date: "Julio de 2017"
-  transfer_discord_service:
-    header: "Servicio de Transferencia de Verge en Discord"
-    date: "Agosto, 2017"
-  transfer_telegram_service:
-    header: "Servicio de Transferencia de Verge en Telegram"
-    date: "Agosto, 2017"
+    header: "Tienda con mercancía Online"
+    paragraph: "Vestimenta con marca de Verge que puede ser comprada con XVG o BTC."
+    date: "Q4, 2017"
+  official_mining_pool:
+    header: "Actualización de minado."
+    paragraph: "Minero XVGui, Grupo oficial de minería, Guía de minería."
+    date: "Q4, 2017" 
+
+developers:
+  about:
+    header: "Para desarrolladores"
+    paragraph: "Escribir código es dificil. Nos gustaría hacerte trabajar en Verge más fácil, así que hemos reunido un conjunto de herramientas y han sido colocadas en una lista."
+  resources:
+    header: "Herramientas para desarrolladores"
+    github_gui: "Escritorio GitHub"
+    php: "Libreria PHP para la Cartera Verge"
+    ruby: "Recopilación de Ruby Gems para interactuar con la Cartera Verge"
+    python: "API de Verge vinculante para Python"
+    nodejs: "Cliente Node.js para Verge"
+    rubygems_howto: "Cómo instalar RubyGems"
+    github_repos: "Nuestros repositorios en GitHub"
+ 
+contributors:
+    about:
+        header: "Cointribuidores"
+        paragraph: "Verge es un programa de código abierto que se encuentra en constante crecimiento debido a su gran cantidad de contribuidores. Si tu también quieres contribuir, echale un vistazo a nuestros <a href='https://github.com/vergecurrency' target='_blank'>Repositorios GitHub</a> para ver donde puedes marcar la diferencia!"
+    wallets:
+        verge:
+            header: "Dirección de la Cartera Verge"
+            address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+        bitcoin:
+            headers: "Dirección de la Cartera Bitcoin"
+            address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+ 
+donate:
+    about:
+        header: "Dona para apoyar el Desarrollo"
+        paragraph: "Verge no es una moneda pre-minada, así que todo su desarrollo es realizado gracias a personas como tú."
+    wallets: 
+        verge:
+            header: "Dirección de la Cartera Verge"
+            addres: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
+        bitcoin:
+            header: "Dirección de la Cartera Bitcoin"
+            address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+
+exchanges:
+  header: "Obtener Verge"
+  paragraph: "Verge está orgulloso de ser incluido en los siguientes exchanges:"
+  bittrex: "Bittrex"
+  bitsquare: "BitSquare.io"
+  ccex: "C-Cex"
+  litebit: "Litebit.eu"
+  southxchange: "SouthXchange"
+  novaexchange: "NovaExchange"
+  cryptopia: "Cryptopia"
+  coinspot: "CoinSpot"
+  blocknet: "Blocknet"
+  exchangedi2p: "ExchangeD.I2P"
+  nexchange: "Nexchange"
+  coinwale: "Coinwale"
+  binance: "Binance"
+  hitbtc: "HitBTC"
+  upbit: "UpBit"
+  changelly: "Changelly"
+  nakamotox: "NakamotoX"
+  coinswitch: "CoinSwitch"
+  coin2001: "Coin2001"
+  cryptobridge: "CryptoBridge"
+  changenow: "ChangeNow"
+  
 footer:
   social:
     header: "Comunidad"
@@ -151,7 +274,239 @@ footer:
     telegram: "Telegram"
     verge_radio: "Verge Radio"
     discord: "Discord"
+    email: "Email"
+    linkedin: "LinkedIn"
+    instagram: "Instagram"
+    blog: "Blog"  
   tweets:
     header: "Tweets"
     by: "Tweets por @vergecurrency"
   copyright: "&copy; 2017 Verge"
+
+contest_page:
+    options:
+        header: "Opciones"
+        type: "Tipo"
+        animated: "Animado"
+        snapshot: "Snap Shot"
+        width: "Grosor"
+        height: "Altura"
+        filter: "Filtro"
+        none: "Ninguno"
+        blur: "Borroso"
+        sepia: "Sepia"
+        grayscale: "Escala de grises"
+        dark: "Oscuro"
+        contrast: "Contraste"
+        saturate: "Saturar"
+        invert: "Invertir"
+        secs: "segundos"
+        numberofframes: "Número de cuadros"
+        frameduration: "Duración del cuadro"
+    preview:
+        header: "Previsualización"
+    counter:
+        header: "El concurso ha finalizado"
+        subheader: "Estaremos anunciando a los ganadores el día Lunes
+    prizes:
+        header: "Premios"
+        first:
+            place: "1ro"
+            prize: "70,000 monedas"
+        second:
+            place: "2do"
+            prize: "50,000 monedas"
+        third:
+            place: "3ro"
+            prize: "35,000 monedas"
+        top5:
+            place: "4-5to"
+            prize: "Franela de Verge"
+    instructions:
+        header: "Instrucciones"
+        step1: "Crear un GIF <span class='highlight-section'>anónimo</span> sobre ti que haga <span class='highlight-section'>imposible decir quién eres.</span>"
+        step2: "Descarga tu GIF anónimo"
+        step3: "Envía un tweet a <a href='https://twitter.com/vergecurrency' target='_blank'>@vergecurrency</a> con tu GIF <span class='highlight-section'>anónimo</span> y con el hashtag <span class='highlight-section'>#xvgme</span>"
+        step4: "Los usuarios <span class='highlight-section'>top 5</span> que tengan <span class='highlight-section'>los retweets y likes más combinados</span> por su Tweet GIF Verge ganarán premios!"
+    error:
+        platformNotSupported: "Perdón, tu navegador no está siendo soportado. Porfavor usa Chrome o Firefox."
+        
+notificationbar:
+    close: "Cerrar"
+    torandroidrelease: "La nueva Cartera Tor Android de Verge está aquí!"
+    
+faq:
+    tagline: "Preguntas Frecuentes"
+    toc:
+        header: "Tabla de Contenidos"
+        general:
+            subheader: "General"
+            whatisverge:
+                question: "¿Qué es Verge?"
+                answer: "Verge es una criptomoneda diseñada para las personas y el uso diario. Mejora la cadena de bloques original de Bitcoin y tiene como objetivo cumplir con su propósito de proporcionar a las personas y empresas una forma rápida, eficiente y descentralizada de realizar transacciones directas mientras se mantiene su privacidad."
+            mission:
+                question: "¿Cuál es la misión de Verge?"
+                answer: "Nuestra misión es empoderar a las personas alrededor del mundo a través de transacciones de la cadena de bloques en el día a día. Verge hace posible estas transacciones directas de manera rápida, eficiente y privada. Con Verge las empresas e individuos tienen opciones flexibles para envíar y recibir pagos. Con solo presionar un botón, ofrecemos integraciones útiles y herramientas que permiten manejar transacciones a gran escala entre comerciantes y pagos privados a pequeña escala."
+            createdverge:
+                question: "¿Cuando se creó Verge?"
+                answer: "La criptomoneda Verge fue creada en el 2014 bajo el nombre de DogeCoinDark. En el 2016 fue renombrada a Verge Currency."
+            opensource:
+                question: "¿Es Verge una compañía privada y como es financiada?"
+                answer: "No, Verge es 100% código abierto y no es una compañía privada financiada a través de pre-minado o ICO. El desarrollo y el esfuerzo de marketing es apoyado gracias a los miles de miembros de la comunidad."
+            getverge:
+                question: "¿Como puedo obtener monedas Verge?"
+                answer: "Existen diferentes maneras de obtener monedas Verge (XVG). La opción más común es comprandolas en un <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a> aprobado. Los usuarios también pueden enviarse monedas entre ellos en plataformas <a href='https://vergecurrency.com/#social' target='_blank'>sociales</a> integradas (usando bots oficiales de Verge). Si tienes un dispositivo Android, también puedes obtener Verge en el camino y enviar/recibir monedas con tu <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>aplicación</a> de la Cartera móvil de Verge."
+            techdoc:
+                question: "¿Donde puedo conseguir documentación técnica sobre Verge?"
+                answer: "En el <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Papel Negro\"</a>. El código puedes conseguirlo en <a href='https://github.com/vergecurrency/vergecurrency' target='_blank'>\"github\"</a>."
+            premine:
+                question: "¿Verge fue pre-minado?"
+                answer: "No, Verge currency no fue pre-minado. El equipo de desarrollo y los contribuidores compraron las monades en el mercado abierto como cualquier otro. Un pre-minado es un mecanismo de financiación, mediante el cual los desarrolladores de una moneda asignan una cierta cantidad para ir a una dirección particular antes de liberarla al público."
+            supply:
+                question: "¿Cuál es el suministro total de Verge?"
+                answer: "El suministro máximo está capitalizado en 16.5 billones de XVG"
+            highsupply:
+                question: "¿Por qué el suministro total es tan alto?"
+                answer: "Verge está diseñado en ese sentido apropósito para permitir montos de pagos convenientes en el uso diario. A diferencia de Bitcoin, no tendrás que pagar 0.00004 BTC, por ejemplo. Otra razón es para reducir el riesgo de la manipulación del mercado haciendolo más difícil de controlar una porción más grande de el suministro total."
+            burning:
+                question: "¿El equipo de Verge está planeando quemar algunas monedas?"
+                answer: "No. Desde que no hubo un pre-minado o ICO, el equipo no posee una cantidad significante de monedas que podrían afectar a la distribución de la misma o la circulación total. Es por esto otra razón para un suministro total alto. Sin embargo, si deseas quemar algunas de tus monedas, sientéte libre de hacerlo o haz una donación al equipo ;)"
+            infaltion:
+                question: "¿Es una moneda inflacionaria?"
+                answer: "No, la circulación total está capitalizada."
+            transactionfee:
+                question: "¿Cuanto es la comisión por transacción?"
+                answer: "0.1 XVG."
+            transactionspeed:
+                question: "¿Qué tan rápidas son las transacciones?"
+                answer: "Dependiendo de la carga en la red, varía entre 5 y 10 segundos."
+            transactioncap:
+                question: "¿Cuál es la capacidad de transacción por segundo?"
+                answer: "100 transacciones por segundo. Con la tecnología RSK implementada, se proyecta que ese número llegará a ser 2000 transacciones por segundo."
+            maxsupply:
+                question: "¿Cuándo se alcanzará el suministro máximo?"
+                answer: "Se proyecta alcanzar en 8 a 10 años al momento de escribir (2017)."
+            rskactivated:
+                question: "¿Cuándo se activará RSK?"
+                answer: "La plataforma RSK está programada para lanzarse en diciembre. Luego, Verge Currency implementará su funcionalidad de contratos inteligentes."
+            atomicswaps:
+                question: "¿Cómo puedo usar Swaps atómicos?"
+                answer: "La capacidad de Swaps Atómicos se utiliza cuando se opera en intercambios descentralizados (DEX)."
+            vergebusiness:
+                question: "¿Cómo puedo aceptar Verge en mi negocio?"
+                answer: "Puedes integrar XVG en tu negocio mediante el uso de Coinpayments o utilizando las API existentes que se pueden encontrar en github."
+            vergecurrencyproject:
+                question: "¿Cómo puedo apoyar el proyecto de Verge?"
+                answer: "La forma más simple de apoyo es donando para financiar el desarrollo. Aquí se pueden encontrar las direcciones XVG y BTC. Si desea contribuir al proyecto en el área de desarrollo de software, marketing digital, video y diseño gráfico o cualquier otra cosa, complete este formulario o comuníquese directamente con nosotros por correo electrónico a contact@vergecurrency.com"
+            funded:
+                question: "¿Cómo se financia el desarrollo Verge?"
+                answer: "Verge es un proyecto de código abierto, por lo que todo el trabajo de desarrollo está financiado por los desarrolladores y las <a href='https://vergecurrency.com/#donate' target='_blank'>donaciones</a> de la comunidad. Actualmente estamos explorando otros métodos para financiar el desarrollo, incluida la apertura de una <br>Tienda de mercancías oficial de Verge </ b> y un <b>Grupo minero de algoritmos múltiples</b>."
+            publicledger:
+                question: "¿Por qué Verge tiene un libro público?"
+                answer: "Creemos que una cadena de bloques debe ser pública si es una moneda, por una amplia gama de razones, la mayoría de ellos para proteger a los usuarios de la moneda. Con una cadena de bloques pública, puede ver la distribución de monedas y cuántas personas están usando la moneda."
+                answer2: "Usted puede ver todas las transacciones en la cadena de bloques, pero no sabrá a quién van dirigidas las transacciones ni dónde se encuentran físicamente los remitentes/receptores."
+            richlist:
+                question: "¿Dónde puedo ver la Rich List de Verge?"
+                answer: "Puede ver la Rich List <a href='http://vergecurrency.info/richlist' target='_blank'>aquí</a> o <a href = 'https://verge-blockchain.info/richlist 'target =' _ blank'>aquí</a>. Si el primer sitio está caído, avísenos porque está alojado en un servidor donado por la comunidad."
+            wheretolearnmore:
+                question: "¿Dónde puedo aprender más sobre Verge?"
+                answer: "Estamos en una gran cantidad de diferentes plataformas <a href='#social' target='_blank'>sociales</a> y somos muy activos en Twitter, Telegram, Slack y Discord."
+            roadmap:
+                question: "¿Dónde puedo encontrar el Mapa de Proyectos de Verge?"
+                answer: "Tenemos un <a href='#roadmap' target='_blank'>Mapa de Proyectos</a> listada en nuestro sitio que generalmente muestra los elementos en los que estamos trabajando durante el próximo mes o dos. No nos gusta poner elementos a largo plazo (más de 3 meses) en nuestro Mapa de Proyecto, porque las cosas cambian muy rápido en criptografía para anticipar eso en el futuro."              
+        privacy:
+            subheader: "Privacidad"
+            wraithprotocol:
+                question: "¿Qués es el protocolo Wraith?"
+                answer: "El protocolo Wraith es una tecnología que permite al usuario a escoger entre el historial público o privado de las transacciones en la misma cadena de bloques. Más detalles pueden ser encontrados en el Papel Negro."
+            vergeanon:
+                question: "¿Por qué usar Verge para anonimato y no otra criptomoneda sobre Tor?"
+                answer: "Las Carteras de Verge tienen como características ya integradas redes Tor y I2P, por ello no es requerido ninguna configuración adicional. Solo descarga la Cartera y empieza a transferir con tu dirección IP ofuscada."
+            whytor:
+                question: "¿Por qué TOR y no simple un VPN?"
+                answer: "Ambos, Tor y I2P encriptan todo el tráfico en la red para que la dirección IP del usuario y sus datos no puedan ser accedidos. Una Virtual Private Network (VPN) también encripta el tráfico en la red, pero tienes que confiar en el proveedor de la VPN para que no archive ninguna actividad tuya (cosa que pueden y a veces hacen). Lee este argumento para más información sobre las caidas en los servicios de VPN."
+            vergemasternode:
+                question: "¿Verge tendrá Masternodes?"
+                answer: "No, nosotros creemos que los Masternodes son una debilidad y centralizan a las redes. Un hacker puede facilmente realizar un ataque DDOS (Distributed Denial of Service) en los Masternodes, causando que la red caiga."
+            torandroidconnection:
+                question: "¿Por qué estoy viendo Sin Conexión en mi aplicación TOR Android de Verge?"
+                answer: "Si llegas a ver \"sin conexión\" en tu pantalla principal, porfavor abre la aplicación Orbot y selecciona \"aplicaciones modo VPN\" en la parte superior izquierda del menú. Para una guía más detallada sobre como utilizar la Cartera Tor Android de Verge puedes encontrarla <a href ='https://medium.com/verge-currency-xvg/how-to-use-verge-tor-adroid-wallet-b3295570085d' target='_blank'>aquí</a>." 
+        wallets:
+            subheader: "Carteras"
+            whichwallet:
+                question: "¿Cuál cartera debería usar?"
+                answer: "Fundamentalmente, existen dos tipos de Carteras Verge que puedes usar; QT y/o Electrum. Para usuarios de todos los días, <b>te recomendamos que descargues una billetera Electrum</b>."
+            electrum:
+                question: "¿Qué es Electrum?"
+                answer: "<a href='https://electrum.org' target='_blank'>Electrum</a> es un <a href='https://github.com/spesmilo/electrum' target='_blank'>código abierto</a>" de la solución de Cartera Bitcoin Lite. Verge bifurcó la Cartera Electrum desde el código y actualizó el código para que pueda trabajar con la cadena de bloques de Verge."
+            electrumwallet:
+                question: "¿Qué es una Cartera Electrum?"
+                answer: "Una Cartera Electrum de Verge es una Cartera que se encuentra enfocada en la velocidad y bajo uso de recursos. La Cartera Electrum usa una tecnología llamada, <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV), que verifica transacciones en la cadena de bloques de Verge sin necesidad de descargar toda la cadena de bloques. La tecnología SPV permite que el tiempo promedio de transacción sea de ~5 segundos (en vez de ~30 segundos para aquellas que no sean Electrum). Para más preguntas generales de Electrum, porfavor dirigete a su página <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'>FAQ</a>."
+            qt:
+                question: "¿Qué es QT?"
+                answer: "Carteras QT requieren que tengas descargado entero <a href='https://verge-blockchain.com/' target='_blank'>la cadena de bloques Verge</a> en tu computadora. En otras palabras, tu computadora deberá descargar cada historial de transacción que ocurra en Verge. Actualmente, la cadena de bloques Verge es de ~1GB y continuará subiendo mientras más usuarios realicen transacciones. Si te encuentras utilizando la Cartera QT, asegurate de que tu equipo tenga suficiente almacenamiento extra para que pueda soportarlo."
+                answer2: "Cada vez que abres tu Cartera QT, la Cartera se sincronizara y descargará los últimos datos de la cadena de bloques a tu computadora. Si decides utilizar una Cartera QT, lo más seguro querrás darle un uso regular; o podría tomar una hora o más (dependiendo de hace cuando la Cartera fue abierta) para descargar la última actualización de la cadena de bloques."
+            backup:
+                question: "¿Cómo creo un respaldo de mi Cartera?"
+                answer: "Si te encuentras utilizando una Cartera Electrum, todo lo que debes hacer es mantener tu frase-semilla/clave-privada de 9 palabras segura. La primera vez que creas tu Cartera Verge tu frase-semilla privada es dada y puedes acceder a ella buscando en la configuración de la aplicación (es protegida por clave). Te recomendamos que no guardes tu frase-semilla privada guardada electronicamente, debido a que podría estar expuesta a que sea robada. Si alguien roba tu frase-semilla privada, podría robar todas tus monedas guardadas en la Cartera."
+                answer2: "Siempre que tengas tu frase-semilla privada, tendrás la opción de recuperar tu Cart cuera. Por ejemplo, si Bob se encuentra utilizando la Cartera TOR Android de Verge y accidentalmente se le cae su celular en el agua (dañandolo), facilmente el podrá recuperar su Cartera Verge en su nuevo teléfono descargando la aplicación de Verge y colocando su semilla-frase privada que fue dada originalmente en su teléfono anterior. Lo mismo es aplicado para las Carteras Electrum de Escritorio. Si no recuerdas tu semilla-frase privada, todas las monedas que tienes en tu Carteras serán perdidas."
+                answer3: "Si quieres encriptar tu Cartera QT, puedes crear una palabra clave dirigiendote a <b>Configuración -> Encriptar Cartera</b>. Una vez que hayas creado tu palabra clave, puedes crear el respaldo encriptado de tu Cartera dirigiéndote a <b>Archivos -> Respaldar Cartera</b>. Las llaves privadas de la Cartera QT son guardadas en un archivo wallet.dat. Cada vez que quieras mandar monedas Verge, usará tu llave privada del archivo wallet.dat. <b>Ten en mente que cada vez que creas una dirección nueva en tu Cartera Verge, DEBES crear un nuevo respaldo</b>."
+                answer4: "Siempre y cuando tengas actualizado tu archivo wallet.dav, puedes recuperar e importar monedas a tu Cartera Verge. Si pierdes tu archivo wallet.dat, todas las monedas que tengas en tu Cartera serán perdidas."
+            longsync:
+                question: "Mi cartera toma mucho tiempo para sincronizarse. ¿Puedo hacer algo para acelerar el proceso?"
+                answer: "Si, puedes descargar la última <a href='https://verge-blockchain.com/' target='_blank'>cadena de bloques</a> de Verge. Después de descargar la última cadena de bloques porfavor lee las siguientes <a href='https://verge-blockchain.com/howto' target='_blank'>instrucciones</a>. Después de haber completado las instrucciones y re-abierto tu Cartera, porfavor permite a la Cartera terminar de sincronizar los bloques pendientes. El final de la sincronización puede llegar a tardar hasta una hora."
+                answer2: "Porfavor ten en mente que también tenemos <a href='#wallets' target='_blank'>Carteras</a> Electrum alternas que son realmente rápidas (no requieren que guardes toda la cadena de bloques localmente)."
+            torandroidnoconnection:
+                question: "¿Por qué estoy viendo Sin Conexión en mi aplicación TOR Android de Verge?"
+                answer: "Si llegas a ver \"sin conexión\" en tu pantalla principal, porfavor abre la aplicación Orbot y selecciona \"aplicaciones modo VPN\" en la parte superior izquierda del menú."
+        mining:
+            subheader: "Minería"
+            proof:
+                question: "¿Es Verge POW o POS?"
+                answer: "Verge es 100% <b>POW</b> (Proof of Work). Nosotros creemos que los sistemas POS (Proof of Stake) injustamente benefician a usuarios que tienen la mayor cantidad de monedas; haciendo así al rico más rico. Esto también es un problema actual con las divisas FIAT tradicionales como por ejemplo (USD)." 
+            algorithms:
+                question: "¿Qué algoritmos soporta Verge?
+                answer: "Verge usa un sistema multi-algorítmico de minado. Esto quiere decir que individuos con diferentes tipos de equipos de minado pueden minar Verge, a su vez ayuda a tener más seguridad debido a la descentralización y más distribución de monedas entre la comunidad minera de Verge. Verge es una de las pocas monedas que admite cinco algoritmos diferentes: Scrypt, x17, groestl, blake2s y lyra2rev2."
+                
+p2p:
+    subheader: "Introducción"
+    header: "¿Qué son Soluciones P2P"
+    paragraph: "Verge está en constante movimiento hacia la adopción general. La integración de Verge en las plataformas de mensajerías y redes sociales es un paso estratégico e importante para lograr este objetivo."
+    paragraph2: "Sin ninguna instalación requerida por ninguna de las dos partes, las monedas XVG pueden enviarse y recibirse a través de Twitter, Discord y Telegram. ¡Más plataformas están por venir mientras hablamos!"
+    paragraph3: "Más plataformas (Slack y Reddit) están por venir en un futuro cercano."
+    paragraph4: "Utiliza XVG para dar propina a creadores, pagar freelancers, donar to NGOs o para demostrar cariño a posts que te gusten! Todo esto con cero (0) comisiones (pequeñas comisiones son aplicadas para transacciones hacia Carteras externas), transacciones instantanéas y sin configuración!"
+    paragraph5: "Abajo se encuentran una serie de guías para ayudarte a entender como usar nuestras diferentes soluciones P2P."
+
+p2ptoc:
+  telegramintro: "Nota: Tu perfil de Telegram tiene que mostrar un nombre de usuario (@<username>) para que los envíos funcionen. Los nombres de usuario pueden ser configurados en la Configuracion de Telegram"
+  toc:
+    tagline: "Soluciones P2P"
+    header: "Tabla de Contenidos"
+    telegram:
+      subheader: "Bot anual de Telegram"
+      bullet1: "1. <b>Añade el bot Verge a tu canal:</b> busca por @VergeX_bot en Telegram, clickea en \"Añadir a grupo\" y escoger tu canal de grupo."
+      bullet2: "2. <b>Mostrar tu dirección Verge en Telegram:</b> envíar \"!address\" como Mensaje Directo al bot."
+      bullet3: "3. <b>Depositar monedas:</b> envía monedas XVG a la dirección mostrada."
+      bullet4: "4. <b>Chequear balance:</b> envía \"!balance\" como Mensaje Directo al bot y te mostrará tu balance en la respuesta."
+      bullet5: "5. <b>Envíar monedas en Telegram:</b> envía \"!tip @<usuario><cantidad de XVG>\" en el chat del grupo."
+      bullet6: "6. <b>Retirar balance de tu Cartera Telegram:</b> envía \"!withdraw <dirección Verge>\" como <b>Mensaje Directo</b> para retirar <b>todo</b> tu balance en la Cartera (menos 2 XVG cobrados por comisión) a tu dirección Verge."
+      bullet7: "7. <b>Ver términos:</b> envía \"!terms\" para mostrar términos y condiciones del uso del Bot Verge en Telegram."
+    twitter:
+      subheader: "Bot Manual de Twitter"
+      bullet1: "1. <b>Mostrar tu dirección Verge en Twitter:</b> tweet \"@vergetips address\" para ver tu dirección Verge asociada con tu cuenta de Twitter."
+      bullet2: "2. <b>Depositar monedas:</b> envía monedas XVG a la dirección mostrada."
+      bullet3: "3. <b>Chequear balance:</b> tweet \"@vergetips balance\" y te mostrará tu balance en la respuesta."
+      bullet4: "4. <b>Envíar monedas en Twitter:</b> tweet \"@vergetips tip @<usuario><cantidad de XVG>\"."
+      bullet4note: "<b>Nota:</b> mínima cantidad de envío - 10 XVG"
+      bullet5: "5. <b>Retirar balance de tu Cartera Twitter:</b> tweet \"@vergetips withdraw <dirección Verge>\" para retirar <b>todo</b> tu balance en la Cartera (menos 2 XVG cobrados por comisión) a tu dirección Verge."
+      bullet6: "6. <b>Apoya a Verge:</b> envía monedas a  \"@vergecurrnecy\" para apoyar al equipo de Desarrollo!"
+    discord:
+      subheader: "Bot Manual de Discord"
+      bullet1: "1. <b>Mostrar tu dirección Verge en Discord:</b> envía \"@vergebot address\" para ver tu dirección Verge asociada con tu cuenta de Discord."
+      bullet2: "2. <b>Depositar monedas:</b> envía monedas XVG a la dirección mostrada."
+      bullet3: "3. <b>Chequear balance:</b> envía \"@vergebot balance\" y te mostrará tu balance en la respuesta."
+      bullet4: "4. <b>Enviar monedas en Discord:</b> envía \"@vergebot tip @<usuario> <cantidad de XVG>\"."
+      bullet4note: "<b>Nota:</b> mínima cantidad de envío - 10 XVG."
+      bullet5: "5. <b>Retirar balance de tu Cartera Twitter:</b> envía \"@vergebot withdraw <dirección Verge>\" para retirar <b>todo</b> tu balance en la Cartera (menos 2 XVG cobrados por comisión) a tu dirección Verge."
+      bullet6: "6. <b>Apoya a Verge:</b> envía monedas a  @vergedev para apoyar al equipo de Desarrollo!"
+    
