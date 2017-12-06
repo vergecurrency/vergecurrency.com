@@ -2,7 +2,7 @@
 lang_name: "Español"
 head:
   meta:
-    description: "VERGE (XVG) es una criptomoneda segura y anónima, construida con un enfoque en la privacidad."
+    description: "VERGE (XVG) es una criptomoneda segura y anónima, construida con enfoque en la privacidad."
   title: "Verge - Criptomoneda segura y anónima, construida con un enfoque en la privacidad"
 nav:
   about:
@@ -307,7 +307,7 @@ contest_page:
         header: "Previsualización"
     counter:
         header: "El concurso ha finalizado"
-        subheader: "Estaremos anunciando a los ganadores el día Lunes
+        subheader: "Estaremos anunciando a los ganadores el día Lunes"
     prizes:
         header: "Premios"
         first:
