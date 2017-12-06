@@ -3,7 +3,7 @@ lang_name: "Español"
 head:
   meta:
     description: "VERGE (XVG) es una criptomoneda segura y anónima, construida con enfoque en la privacidad."
-  title: "Verge - Criptomoneda segura y anónima, construida con un enfoque en la privacidad"
+  title: "Verge - Criptomoneda segura y anónima, construida con un enfoque la privacidad"
 nav:
   about:
     title: "Acerca de"
@@ -31,7 +31,7 @@ nav:
     title: "Social"
   blog:
     title: "Blog"
-tagline: "Verge es una criptomoneda <strong>segura</strong> y <strong>anónima</strong>, construida con un enfoque en la <strong>privacidad</strong>."
+tagline: "Verge es una criptomoneda <strong>segura</strong> y <strong>anónima</strong>, construida con enfoque en la <strong>privacidad</strong>."
 intro_button: "Ver video de Introducción"
 close: "Cerrar"
 download: "Descargar"
@@ -470,7 +470,7 @@ faq:
                 
 p2p:
     subheader: "Introducción"
-    header: "¿Qué son Soluciones P2P"
+    header: "¿Qué son Soluciones P2P?"
     paragraph: "Verge está en constante movimiento hacia la adopción general. La integración de Verge en las plataformas de mensajerías y redes sociales es un paso estratégico e importante para lograr este objetivo."
     paragraph2: "Sin ninguna instalación requerida por ninguna de las dos partes, las monedas XVG pueden enviarse y recibirse a través de Twitter, Discord y Telegram. ¡Más plataformas están por venir mientras hablamos!"
     paragraph3: "Más plataformas (Slack y Reddit) están por venir en un futuro cercano."
@@ -509,4 +509,4 @@ p2ptoc:
       bullet4note: "<b>Nota:</b> mínima cantidad de envío - 10 XVG."
       bullet5: "5. <b>Retirar balance de tu Cartera Twitter:</b> envía \"@vergebot withdraw <dirección Verge>\" para retirar <b>todo</b> tu balance en la Cartera (menos 2 XVG cobrados por comisión) a tu dirección Verge."
       bullet6: "6. <b>Apoya a Verge:</b> envía monedas a  @vergedev para apoyar al equipo de Desarrollo!"
-      
+    
