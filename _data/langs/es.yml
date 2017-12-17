@@ -80,7 +80,7 @@ info:
         block_time: "<b>Tiempo por Bloque:</b> 30 segundos"
         rpc_port: "<b>Puerto RPC:</b> 20102"
         p2p_port: "<b>Puerto P2P:</b> 21102"
- 
+
 exchanges:
     header: "Obtener Verge"
     paragraph: "Verge está orgullosa de ser incluida en los siguientes exchanges:"
@@ -105,7 +105,7 @@ exchanges:
     coin2001: "Coin2001"
     cryptobridge: "CryptoBridge"
     changenow: "ChangeNow"
- 
+
 wallets:
     header: "Carteras"
     info:
@@ -136,7 +136,7 @@ wallets:
     paper: "Cartera Verge de papel"
     daemon_docker: "Verge Daemon Docker Image"
     coinomi: "Cartera Android multi-moneda de Coinomi"
- 
+
 vendors:
     header: "Vendedores que aceptan Verge."
     paragraph: "Todos los vendedores que se encuentran a continuación aceptan Verge como método de pago por sus bienes y servicios."
@@ -165,8 +165,6 @@ vendors:
     #vendor: "rename me"
     #vendor: "rename me"
     #vendor: "rename me"
-    #vendor: "rename me"
- 
 roadmap:
     header: "Programa de lanzamiento Q4"
     paragraph: "El programa de lanzamiento será actualizado cada trimestre."
@@ -197,7 +195,7 @@ roadmap:
         header: "Actualización de minado."
         paragraph: "Minero XVGui, Grupo oficial de minería, Guía de minería."
         date: "Q4, 2017"
- 
+
 developers:
     about:
         header: "Para desarrolladores"
@@ -211,7 +209,7 @@ developers:
         nodejs: "Cliente Node.js para Verge"
         rubygems_howto: "Cómo instalar RubyGems"
         github_repos: "Nuestros repositorios en GitHub"
- 
+
 contributors:
     about:
         header: "Colaboradores"
@@ -223,7 +221,7 @@ contributors:
         bitcoin:
             headers: "Dirección de la Cartera Bitcoin"
             address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
- 
+
 donate:
     about:
         header: "Dona para apoyar el Desarrollo"
@@ -235,7 +233,7 @@ donate:
         bitcoin:
             header: "Dirección de la Cartera Bitcoin"
             address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
- 
+
 exchanges:
     header: "Obtener Verge"
     paragraph: "Verge está orgullosa de ser incluida en los siguientes exchanges:"
@@ -260,7 +258,7 @@ exchanges:
     coin2001: "Coin2001"
     cryptobridge: "CryptoBridge"
     changenow: "ChangeNow"
- 
+
 footer:
     social:
         header: "Comunidad"
@@ -277,12 +275,12 @@ footer:
         email: "Email"
         linkedin: "LinkedIn"
         instagram: "Instagram"
-        blog: "Blog"  
+        blog: "Blog"
     tweets:
         header: "Tweets"
         by: "Tweets por @vergecurrency"
     copyright: "&copy; 2017 Verge"
- 
+
 contest_page:
     options:
         header: "Opciones"
@@ -300,6 +298,7 @@ contest_page:
         contrast: "Contraste"
         saturate: "Saturar"
         invert: "Invertir"
+        interval: "Intervalo"
         secs: "segundos"
         numberofframes: "Número de cuadros"
         frameduration: "Duración del cuadro"
@@ -330,11 +329,11 @@ contest_page:
         step4: "Los usuarios <span class='highlight-section'>top 5</span> que tengan <span class='highlight-section'>los retweets y likes más combinados</span> por su Tweet GIF Verge ganarán premios!"
     error:
         platformNotSupported: "Perdón, tu navegador no está siendo soportado. Porfavor usa Chrome o Firefox."
-       
+
 notificationbar:
     close: "Cerrar"
     torandroidrelease: "La nueva Cartera Tor Android de Verge está aquí!"
-   
+
 faq:
     tagline: "Preguntas Frecuentes"
     toc:
@@ -413,7 +412,7 @@ faq:
                 answer: "Estamos en una gran cantidad de diferentes plataformas <a href='#social' target='_blank'>sociales</a> y somos muy activos en Twitter, Telegram, Slack y Discord."
             roadmap:
                 question: "¿Dónde puedo encontrar el Mapa de Proyectos de Verge?"
-                answer: "Tenemos un <a href='#roadmap' target='_blank'>Mapa de Proyectos</a> colgado en nuestro sitio que generalmente muestra los elementos en los que estamos trabajando durante el próximo mes o dos. No nos gusta poner elementos a largo plazo (más de 3 meses) en nuestro Mapa de Proyecto, porque las cosas cambian muy rápido en criptografía como para anticipar tanto."              
+                answer: "Tenemos un <a href='#roadmap' target='_blank'>Mapa de Proyectos</a> colgado en nuestro sitio que generalmente muestra los elementos en los que estamos trabajando durante el próximo mes o dos. No nos gusta poner elementos a largo plazo (más de 3 meses) en nuestro Mapa de Proyecto, porque las cosas cambian muy rápido en criptografía como para anticipar tanto."
         privacy:
             subheader: "Privacidad"
             wraithprotocol:
@@ -446,6 +445,10 @@ faq:
                question: "¿Qué es QT?"
                answer: "Carteras QT requieren que tengas descargado entero <a href='https://verge-blockchain.com/' target='_blank'>la cadena de bloques Verge</a> en tu computadora. En otras palabras, tu computadora deberá descargar cada historial de transacción que ocurra en Verge. Actualmente, la cadena de bloques Verge es de ~1GB y continuará subiendo mientras más usuarios realicen transacciones. Si te encuentras utilizando la Cartera QT, asegurate de que tu equipo tenga suficiente almacenamiento extra para que pueda soportarlo."
                answer2: "Cada vez que abres tu Cartera QT, la Cartera se sincronizara y descargará los últimos datos de la cadena de bloques a tu computadora. Si decides utilizar una Cartera QT, lo más seguro querrás darle un uso regular; o podría tomar una hora o más (dependiendo de hace cuando la Cartera fue abierta) para descargar la última actualización de la cadena de bloques."
+            qtwallet:
+               question: "What is a QT Wallet?"
+               answer: "QT wallets require that you download the entire <a href='https://verge-blockchain.com/' target='_blank'>Verge blockchain</a> to your computer. In other words, your computer must download a record of every single Verge transaction that has ever occurred. Currently, the Verge blockchain is ~1GB and will continue to climb as more users make transactions. If you are using a QT wallet, make sure your device has enough extra storage to handle it."
+               answer2: "Every time you open your QT wallet, the wallet will synchronize and download the latest blockchain data to your computer. If you decide to use a QT wallet, you will most likely want to use it on a regular basis; or it could take an hour or more (depending on how long it has been since you opened your wallet last) to download the latest blockchain updates."
             backup:
                question: "¿Cómo creo un respaldo de mi Cartera?"
                answer: "Si te encuentras utilizando una Cartera Electrum, todo lo que debes hacer es mantener tu frase-semilla/clave-privada de 9 palabras segura. La primera vez que creas tu Cartera Verge tu frase-semilla privada es dada y puedes acceder a ella buscando en la configuración de la aplicación (es protegida por clave). Te recomendamos que no guardes tu frase-semilla privada guardada electronicamente, debido a que podría estar expuesta a que sea robada. Si alguien roba tu frase-semilla privada, podría robar todas tus monedas guardadas en la Cartera."
@@ -459,15 +462,15 @@ faq:
             torandroidnoconnection:
                 question: "¿Por qué estoy viendo Sin Conexión en mi aplicación TOR Android de Verge?"
                 answer: "Si llegas a ver \"sin conexión\" en tu pantalla principal, porfavor abre la aplicación Orbot y selecciona \"aplicaciones modo VPN\" en la parte superior izquierda del menú."
-        mining:
-            subheader: "Minería"
-            proof:
-                question: "¿Es Verge POW o POS?"
-                answer: "Verge es 100% <b>POW</b> (Proof of Work). Nosotros creemos que los sistemas POS (Proof of Stake) injustamente benefician a usuarios que tienen la mayor cantidad de monedas; haciendo así al rico más rico, como las divisas FIAT tradicionales, como por ejemplo (USD)."
-            algorithms:
-                question: "¿Qué algoritmos soporta Verge?"
-               answer: "Verge usa un sistema multi-algorítmico de minado. Esto quiere decir que individuos con diferentes tipos de equipos de minado pueden minar Verge, a su vez ayuda a tener más seguridad debido a la descentralización y más distribución de monedas entre la comunidad minera de Verge. Verge es una de las pocas monedas que admite cinco algoritmos diferentes: Scrypt, x17, groestl, blake2s y lyra2rev2."
-               
+
+                mining:
+                  subheader: "Minería"
+                  proof:
+                    question: "¿Es Verge POW o POS?"
+                    answer: "Verge es 100% <b>POW</b> (Proof of Work). Nosotros creemos que los sistemas POS (Proof of Stake) injustamente benefician a usuarios que tienen la mayor cantidad de monedas; haciendo así al rico más rico, como las divisas FIAT tradicionales, como por ejemplo (USD)."
+                    algorithms:
+                      question: "¿Qué algoritmos soporta Verge?"
+                      answer: "Verge usa un sistema multi-algorítmico de minado. Esto quiere decir que individuos con diferentes tipos de equipos de minado pueden minar Verge, a su vez ayuda a tener más seguridad debido a la descentralización y más distribución de monedas entre la comunidad minera de Verge. Verge es una de las pocas monedas que admite cinco algoritmos diferentes: Scrypt, x17, groestl, blake2s y lyra2rev2."
 p2p:
     subheader: "Introducción"
     header: "¿Qué son Soluciones P2P"
@@ -476,7 +479,7 @@ p2p:
     paragraph3: "Más plataformas (Slack y Reddit) están por venir en un futuro cercano."
     paragraph4: "Utiliza XVG para dar propina a creadores, pagar freelancers, donar to ONGs o para demostrar cariño a posts que te gusten! Todo esto con cero (0) comisiones (pequeñas comisiones son aplicadas para transacciones hacia Carteras externas), transacciones instantanéas y sin configuración!"
     paragraph5: "Abajo se encuentran una serie de guías para ayudarte a entender como usar nuestras diferentes soluciones P2P."
- 
+
 p2ptoc:
     telegramintro: "Nota: Tu perfil de Telegram tiene que mostrar un nombre de usuario (@<username>) para que los envíos funcionen. Los nombres de usuario pueden ser configurados en la Configuracion de Telegram"
     toc:
