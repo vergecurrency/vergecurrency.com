@@ -463,14 +463,14 @@ faq:
                 question: "¿Por qué estoy viendo Sin Conexión en mi aplicación TOR Android de Verge?"
                 answer: "Si llegas a ver \"sin conexión\" en tu pantalla principal, porfavor abre la aplicación Orbot y selecciona \"aplicaciones modo VPN\" en la parte superior izquierda del menú."
 
- #mining:
-          #subheader: "Minería"
-          #  proof:
-          #      question: "¿Es Verge POW o POS?"
-          #      answer: "Verge es 100% <b>POW</b> (Proof of Work). Nosotros creemos que los sistemas POS (Proof of Stake) injustamente benefician a usuarios que tienen la mayor cantidad de monedas; haciendo así al rico más rico, como las divisas FIAT tradicionales, como por ejemplo (USD)."
-          #  algorithms:
-          #      question: "¿Qué algoritmos soporta Verge?"
-          #      answer: "Verge usa un sistema multi-algorítmico de minado. Esto quiere decir que individuos con diferentes tipos de equipos de minado pueden minar Verge, a su vez ayuda a tener más seguridad debido a la descentralización y más distribución de monedas entre la comunidad minera de Verge. Verge es una de las pocas monedas que admite cinco algoritmos diferentes: Scrypt, x17, groestl, blake2s y lyra2rev2."
+                mining:
+                  subheader: "Minería"
+                  proof:
+                    question: "¿Es Verge POW o POS?"
+                    answer: "Verge es 100% <b>POW</b> (Proof of Work). Nosotros creemos que los sistemas POS (Proof of Stake) injustamente benefician a usuarios que tienen la mayor cantidad de monedas; haciendo así al rico más rico, como las divisas FIAT tradicionales, como por ejemplo (USD)."
+                    algorithms:
+                      question: "¿Qué algoritmos soporta Verge?"
+                      answer: "Verge usa un sistema multi-algorítmico de minado. Esto quiere decir que individuos con diferentes tipos de equipos de minado pueden minar Verge, a su vez ayuda a tener más seguridad debido a la descentralización y más distribución de monedas entre la comunidad minera de Verge. Verge es una de las pocas monedas que admite cinco algoritmos diferentes: Scrypt, x17, groestl, blake2s y lyra2rev2."
 p2p:
     subheader: "Introducción"
     header: "¿Qué son Soluciones P2P"
