@@ -355,7 +355,7 @@ faq:
         answer: "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
       techdoc:
         question: "Where can i find technical documentation of Verge Currency?"
-        answer: "In the <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. The code can be found on <a href='https://github.com/vergecurrency/vergecurrency' target='_blank'>\"github\"</a>."
+        answer: "In the <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. The code can be found on <a href='https://github.com/vergecurrency' target='_blank'>\"github\"</a>."
       premine:
         question: "Did Verge Currency have a premine?"
         answer: "No, Verge Currency was not premined. The development team and contributors purchase the coins on the open market like anyone else. A premine is a funding mechanism, whereby the developers of a currency allocate a certain amount to go to a particular address before releasing it to the public."
