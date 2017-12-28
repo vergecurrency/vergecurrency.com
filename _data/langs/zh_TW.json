@@ -1,0 +1,187 @@
+{
+  "lang_name": "繁體中文",
+  "head": {
+    "meta": {
+      "description": "VERGE（XVG）是一個安全和匿名的加密安全性，專注於隱私。"
+    },
+    "title": "Verge - 安全和匿名的加密安全性，專注於隱私"
+  },
+  "nav": {
+    "about": {
+      "title": "關於"
+    },
+    "exchanges": {
+      "title": "獲取Verge"
+    },
+    "wallets": {
+      "title": "錢包"
+    },
+    "roadmap": {
+      "title": "路線圖"
+    },
+    "community": {
+      "title": "社區"
+    }
+  },
+  "tagline": "Verge是一個安全和匿名的加密機制，專注於隱私。",
+  "download": "下載",
+  "view": "視圖",
+  "view_all_wallets": "查看所有錢包",
+  "info": {
+    "about": {
+      "header": "為什麼邊緣？",
+      "paragraph": "Verge是一種分散的貨幣，專為那些重視隱私的用戶而設計。 它通過使用多個以匿名為中心的網絡（如Tor和i2p）改進了原始的比特幣塊鏈。 它利用多算法挖掘支持來提高安全性，並向礦工提供硬幣的均等分配。"
+    },
+    "resources": {
+      "header": "資源",
+      "black_paper": "黑紙",
+      "github": "Github上的源代碼",
+      "mining_pools": "採礦池",
+      "mining_resources": "礦業資源",
+      "blockchain_explorer_prohashing": "塊鏈資源管理器（ProHashing",
+      "blockchain_explorer_ccminer": "塊鏈資源管理器（CCMiner.org"
+    },
+    "tech_specs": {
+      "header": "技術規格",
+      "symbol": "<b>符號：</b> XVG",
+      "algo": "<b>算法：</b> Scrypt, x17, groestl, blake2s, & lyra2rev2",
+      "block_time": "<b>封鎖時間：</b> 30秒",
+      "rpc_port": "<b>RPC端口：</b> 20102",
+      "p2p_port": "<b>P2P端口：</b> 21102"
+    }
+  },
+  "developers": {
+    "about": {
+      "header": "",
+      "paragraph": ""
+    },
+    "resources": {
+      "header": "",
+      "github_gui": "",
+      "rubygems_howto": "",
+      "github_repos": ""
+    }
+  },
+  "exchanges": {
+    "header": "獲取Verge",
+    "paragraph": "Verge很榮幸能夠在以下交易所上市：",
+    "bittrex": "Bittrex",
+    "bitsquare": "BitSquare.io",
+    "ccex": "C-Cex",
+    "litebit": "Litebit.eu",
+    "southxchange": "SouthXchange",
+    "novaexchange": "NovaExchange",
+    "cryptopia": "Cryptopia",
+    "coingather": "CoinGather",
+    "coinspot": "CoinSpot"
+  },
+  "wallets": {
+    "header": "錢包",
+    "tabs": {
+      "desktop": "桌面",
+      "mobile": "移動",
+      "other": "其他"
+    },
+    "windows": "驗證Windows電子錢包",
+    "macosx": "Verge Mac OSX電子錢包",
+    "android": "Verge Android電子錢包",
+    "archlinux": "Verge ArchLinux電子錢包",
+    "centos": "Verge CentOS電子錢包",
+    "debian": "Verge Debian錢包",
+    "fedora": "Verge Fedora錢包",
+    "web": "Verge網絡電子錢包",
+    "web_tor": "Verge TOR網絡電子錢包",
+    "web_i2P": "Verge i2P網絡電子錢包",
+    "raspberry_pi": "Verge Raspberry Pi源代碼",
+    "electrum_linux": "Verge Linux Electrum電子錢包",
+    "electrum_linux_tor": "Verge TOR Linux Electrum電子錢包",
+    "electrum_windows": "Verge Windows Electrum電子錢包",
+    "electrum_windows_tor": "Verge TOR Windows Electrum電子錢包",
+    "paper": "Verge紙錢包",
+    "daemon_docker": "Verge Daemon Docker Image",
+    "coinomi": "Coinomi多貨幣Android電子錢包"
+  },
+  "roadmap": {
+    "header": "路線圖",
+    "blackpaper": {
+      "header": "“黑”紙",
+      "date": "<font color='#08b4e0'>出版</font> 2017年6月4日"
+    },
+    "electrum_i2P_server_client": {
+      "header": "Electrum i2p服務器/客戶端",
+      "date": "<font color='#08b4e0'>出版</font> 2017年6月4日"
+    },
+    "electrum_tor_server_client": {
+      "header": "Electrum TOR服務器/客戶端",
+      "date": "<font color='#08b4e0'>出版</font> 2017年6月5日"
+    },
+    "electrum_binaries": {
+      "header": "電子二進制",
+      "paragraph": "二元客戶易於使用的精美錢包。",
+      "date": "<font color='#08b4e0'>出版</font> 2017年6月7日"
+    },
+    "marketing_campaign": {
+      "header": "加密服務營銷活動",
+      "paragraph": "與Coinomi開始1年的廣告活動",
+      "date": "<font color='#08b4e0'>出版</font> 2017年6月7日"
+    },
+    "redesign_website": {
+      "header": "重新設計Verge網站",
+      "date": "<font color='#08b4e0'>出版</font> 2017年6月12日"
+    },
+    "radio": {
+      "header": "展開Verge Radio",
+      "paragraph": "轉換為“RadioCrypto”，並包含在核心錢包中",
+      "date": "2017年6月26日"
+    },
+    "tor_android_wallet": {
+      "header": "TOR Android錢包",
+      "paragraph": "Android電子錢包只供Anon交易！ （近完成）",
+      "date": "2017年7月"
+    },
+    "i2P_android_wallet": {
+      "header": "i2P Android錢包",
+      "paragraph": "Android電子錢包只供Anon交易！ （近完成）",
+      "date": "2017年7月"
+    },
+    "core_wallet_release": {
+      "header": "新核心錢包發行",
+      "paragraph": "添加新功能，包括硬幣控制，RingCT，更新庫（openssl，boost等）",
+      "date": "2017年7月"
+    },
+    "rsk_smart_contracts": {
+      "header": "RSK明智合約",
+      "paragraph": "他們現在在比特幣的testnet。 日期圍繞著這個時間軸。",
+      "date": "2017年7月"
+    },
+    "wallet_ui": {
+      "header": ">錢包UI檢修",
+      "date": "2017年7月"
+    },
+    "merchandise_store": {
+      "header": "商品在線商店",
+      "paragraph": "Verge商品店將擁有可以與XVG和BTC一起購買的T卹/服裝。",
+      "date": "2017年7月"
+    }
+  },
+  "footer": {
+    "social": {
+      "header": "社區",
+      "slack": "鬆弛",
+      "facebook": "Facebook的",
+      "twitter": "推特",
+      "irc": "IRC聊天",
+      "bitcointalk": "BitCoinTalk",
+      "reddit": "書籤交易",
+      "steam": "蒸汽",
+      "telegram": "電報",
+      "verge_radio": "Verge收音機",
+      "discord": "邊緣不和"
+    },
+    "tweets": {
+      "header": "推文",
+      "by": "推文由@vergecurrency"
+    },
+    "copyright": "&copy; 2017年"
+  }
+}

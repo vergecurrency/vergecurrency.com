@@ -104,6 +104,7 @@
       max-height: 0;
       opacity: 0;
       transform: translate(0, 50%);
+      margin:0;
     }
 
     ul li input[type=checkbox]:checked ~ i:before {
