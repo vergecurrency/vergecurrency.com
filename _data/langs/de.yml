@@ -187,7 +187,7 @@ roadmap:
   i2P_android_wallet:
     header: "I2P Android Geldbörse"
     paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
-    date: "Q4, 2017"
+    date: "Q1, 2018"
   core_wallet_release:
     header: "Core Wallet 3.0 Release Stage 1"
     paragraph: "Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability"
@@ -195,18 +195,18 @@ roadmap:
   core_wallet_release_2:
     header: "Core Wallet 3.0 Release Stage 2"
     paragraph: "Tor Integration & Optional Stealth Addressing"
-    date: "Q4, 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 01. Januar 2018"
   rsk_smart_contracts:
     header: "RSK intelligente Verträge"
     paragraph: "Wird aktuell im Bitcoin-Testnetzwerk getestet. Implementierung im Zeitraum dieser Roadmap."
-    date: "Q4/Q1, 2017/2018"
+    date: "Q1, 2018"
   wallet_ui:
     header: "Wallet Redesign Benutzeroberfläche"
-    date: "Juli-August 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 01. Januar 2018"
   merchandise_store:
     header: "Werbeartikel Online Store"
     paragraph: "Der Merchandise-Shop wird T-Shirts/Bekleidung anbieten, die Bezahlung kann mit XVG und BTC erfolgen."
-    date: "Q4, 2017"
+    date: "Q1, 2018"
   blackpaper2:
     header: "\"Black\" Paper 3.0"
     date: "<font color='#08b4e0'>Veröffentlicht</font> 11. August 2017"
@@ -238,7 +238,7 @@ footer:
     discord: "Verge Discord"
   tweets:
     header: "Tweets"
-    by: "Tweets by @vergecurrency"
+    by: "Tweets von @vergecurrency"
   copyright: "&copy; 2017 Verge"
 faq:
   tagline: "Frequently Asked Questions"
