@@ -13,10 +13,10 @@
 
         <input id="desktop-tab" type="radio" name="tabs" class="tab-radio">
         <label for="desktop-tab" class="tab-label">{{langPath.wallets.tabs.desktop | default: defaultLangPath.wallets.tabs.desktop}}</label>
-          
+
         <input id="mobile-tab" type="radio" name="tabs" class="tab-radio">
         <label for="mobile-tab" class="tab-label">{{langPath.wallets.tabs.mobile | default: defaultLangPath.wallets.tabs.mobile}}</label>
-          
+
         <input id="other-tab" type="radio" name="tabs" class="tab-radio">
         <label for="other-tab" class="tab-label">{{langPath.wallets.tabs.other | default: defaultLangPath.wallets.tabs.other}}</label>
 
@@ -190,6 +190,15 @@
               </a>
             </li>
             <li class="col-xs-12 col-sm-6 col-md-4">
+              <a href="https://github.com/vergecurrency/VERGE/releases/download/4.0/verge-qt-4.0-win64.zip" class="button wallet-download-button windows-download-button">
+                <i class="fa fa-windows wallet-download-button-icon" aria-hidden="true"></i>
+                <span class="wallet-download-button-download-text">
+                  {{langPath.download | default: defaultLangPath.download}}
+                </span>
+                <span class="wallet-download-button-description-text">{{langPath.wallets.windows4 | default: defaultLangPath.wallets.windows4}}</span>
+              </a>
+            </li>
+            <li class="col-xs-12 col-sm-6 col-md-4">
               <a href="https://github.com/vergecurrency/electrum-xvg" class="button wallet-download-button">
                 <div class="wallet-download-button-download-text">
                   {{langPath.download | default: defaultLangPath.download}}
@@ -225,6 +234,15 @@
                 </div>
                 <i class="fa fa-apple wallet-download-button-icon" aria-hidden="true"></i>
                 <div class="wallet-download-button-description-text">{{langPath.wallets.macosx | default: defaultLangPath.wallets.macosx}}</div>
+              </a>
+            </li>
+            <li class="col-xs-12 col-sm-6 col-md-4">
+              <a href="https://github.com/vergecurrency/VERGE/releases/download/4.0/Verge-Qt-4.0-OSX.dmg" class="button wallet-download-button macos-download-button">
+                <div class="wallet-download-button-download-text">
+                  {{langPath.download | default: defaultLangPath.download}}
+                </div>
+                <i class="fa fa-apple wallet-download-button-icon" aria-hidden="true"></i>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.macosx4 | default: defaultLangPath.wallets.macosx4}}</div>
               </a>
             </li>
             <li class="col-xs-12 col-sm-6 col-md-4">
