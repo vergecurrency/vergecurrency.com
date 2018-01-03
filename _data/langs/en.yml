@@ -197,6 +197,10 @@ roadmap:
     header: "Mining Update"
     paragraph: "XVGui Miner, Official Mining Pool, Mining Guide"
     date: "Q1, 2018"
+  new_website:
+    header: "New website"
+    paragraph: "New look, guides, updated roadmap, list of official core members, blog with official news, mobile friendly"
+    date: "Q1, 2018"
 
 developers:
   about:
