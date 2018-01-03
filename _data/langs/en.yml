@@ -178,7 +178,7 @@ roadmap:
     paragraph: "Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability"
     date: "<font color='#08b4e0'>Released</font> 15. November 2017"
   core_wallet_release_2:
-    header: "Core Wallet 3.0 Release Stage 2"
+    header: "Core Wallet 4.0 Release Stage 2"
     paragraph: "Tor Integration & Optional Stealth Addressing"
     date: "<font color='#08b4e0'>Released</font> 01. January 2018"
   i2P_android_wallet:
