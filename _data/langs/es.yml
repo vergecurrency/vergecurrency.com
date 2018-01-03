@@ -502,7 +502,7 @@ p2ptoc:
         bullet4: "4. <b>Envíar monedas en Twitter:</b> tweet \"@vergetips tip @<usuario><cantidad de XVG>\"."
         bullet4note: "<b>Nota:</b> mínima cantidad de envío - 10 XVG"
         bullet5: "5. <b>Retirar balance de tu Cartera Twitter:</b> tweet \"@vergetips withdraw <dirección Verge>\" para retirar <b>todo</b> tu balance en la Cartera (menos 2 XVG cobrados por comisión) a tu dirección Verge."
-        bullet6: "6. <b>Apoya a Verge:</b> envía monedas a  \"@vergecurrnecy\" para apoyar al equipo de Desarrollo!"
+        bullet6: "6. <b>Apoya a Verge:</b> envía monedas a  \"@vergecurrency\" para apoyar al equipo de Desarrollo!"
     discord:
         subheader: "Bot Manual de Discord"
         bullet1: "1. <b>Mostrar tu dirección Verge en Discord:</b> envía \"@vergebot address\" para ver tu dirección Verge asociada con tu cuenta de Discord."

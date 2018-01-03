@@ -382,7 +382,7 @@ p2ptoc:
       bullet4: "4. <b>Sende Coins über Twitter:</b> Tweet \"@vergetips tip @<username><XVG Menge>\"."
       bullet4note: "<b>Info:</b> Minimale tip Menge - 10 XVG."
       bullet5: "5. <b>Coins transferieren:</b> Tweet \"@vergetips withdraw <Verge Adresse>\" um deinen <b>gesamten</b> Kontostand (abzüglich einer Transaktionsgebühr von 2 XVG) zu deiner Verge Adresse zu transferieren."
-      bullet6: "6. <b>Unterstütze Verge:</b> tip \"@vergecurrnecy\" um das Verge Team zu unterstützen!"
+      bullet6: "6. <b>Unterstütze Verge:</b> tip \"@vergecurrency\" um das Verge Team zu unterstützen!"
     discord:
       subheader: "Discord Bot Handbuch"
       bullet1: "1. <b>Erhalte deine Verge Discord Adresse:</b> Sende \"@vergebot deposit\" um deine verknüpfte Discord Verge Adresse zu erhalten."
