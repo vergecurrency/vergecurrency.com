@@ -118,6 +118,7 @@ wallets:
     other: "Other"
   windows: "Verge Windows Wallet 3.0"
   windows4: "Verge Windows Wallet 4.0 (64-bit)"
+  auto_installer: "Verge Auto Installer"
   macosx: "Verge Mac OSX Wallet 3.0"
   macosx4: "Verge Mac OSX Wallet 4.0"
   android: "Verge TOR Android Wallet"
