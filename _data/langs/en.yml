@@ -139,6 +139,7 @@ wallets:
 vendors:
   header: "Real world vendors that accept Verge Currency."
   paragraph: "All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services."
+  nexwave: "Nexwave"
   pexpeppers: "PexPeppers"
   incredebites: "Incredebites"
   trebaltek: "Trebaltek"
@@ -161,6 +162,7 @@ vendors:
   ethminers: "Ethereum Miners"
   heightcare: "HeightCare"
   ovpn: "oVPN"
+  snel: "Snel"
   #vendor: "rename me"
   #vendor: "rename me"
   #vendor: "rename me"
