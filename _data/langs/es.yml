@@ -140,6 +140,7 @@ wallets:
 vendors:
     header: "Vendedores que aceptan Verge."
     paragraph: "Todos los vendedores que se encuentran a continuación aceptan Verge como método de pago por sus bienes y servicios."
+    nexwave: "Nexwave"
     pexpeppers: "PexPeppers"
     incredebites: "Incredebites"
     trebaltek: "Trebaltek"
@@ -159,6 +160,7 @@ vendors:
     meccamino: "Meccamino"
     apetest: "APE Advisor Prep"
     morningwish: "Morning Wish"
+    snel: "Snel"
     #vendor: "rename me"
     #vendor: "rename me"
     #vendor: "rename me"
