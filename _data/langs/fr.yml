@@ -214,7 +214,7 @@ footer:
   tweets:
     header: ""
     by: "Tweets par @vergecurrency"
-  copyright: "&copy; 2017 Verge"
+  copyright: "&copy; 2018 Verge"
   error:
     plateformNotSupported: "Désolé, votre navigateur n'est pas supporté. Utilisez Chrome ou Firefox pour une meilleure expérience."
 notificationbar:
