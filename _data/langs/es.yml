@@ -177,7 +177,7 @@ roadmap:
         header: "Etapa 1 del lanzamiento de la Cartera Core 3.0"
         paragraph: "Revisión de la interfaz de usuario de billetera, VISP, Filtros Bloom, capacidad de intercambios atómicos."
         date: "<font color='#08b4e0'>Publicado</font> 15 de Noviembre de 2017"
-    ore_wallet_release_2:
+    core_wallet_release_2:
         header: "Etapa 2 del lanzamiento de la Cartera Core 3.0"
         paragraph: "Integración TOR y direccionamiento sigiloso opcional."
         date: "Q4, 2017"
