@@ -116,6 +116,7 @@ wallets:
 vendors:
   header: "Bedrijven die Verge Currency als betaalmethode accepteren"
   paragraph: "Alle onderstaande bedrijven accepteren Verge Currency als betaalmethode voor hun goederen en services."
+  nexwave: "Nexwave"
   pexpeppers: "PexPeppers"
   incredebites: "Incredebites"
   trebaltek: "Trebaltek"
@@ -138,6 +139,7 @@ vendors:
   ethminers: "Ethereum Miners"
   heightcare: "HeightCare"
   ovpn: "oVPN"
+  snel: "Snel"
   #vendor: "rename me"
   #vendor: "rename me"
   #vendor: "rename me"
