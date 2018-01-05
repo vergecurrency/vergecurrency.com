@@ -7,15 +7,15 @@
 }
 
 .vendor-img {
-    height: 50px;
-    margin-top: 20px;
+    height: 60px;
+    margin-top: 10px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50%;
 }
 
 .vendor-title-text {
-    font-size: 22px;
+    font-size: 12px;
     color: $bg-dark;
     text-align: center;
 }
@@ -118,7 +118,7 @@
 
 @media (max-width: 550px) {
     .vendor-img {
-        height: 40px;
+        height: 50px;
     }
 
     .vendor-title-text {
