@@ -238,8 +238,8 @@ footer:
   tweets:
     header: "Twitter"
     by: "Последние твиты"
-  copyright: "&copy; 2017 Verge"
 
+  copyright: "&copy; 2018 Verge"
 faq:
   tagline: "Часто задаваемые вопросы"
   toc:
