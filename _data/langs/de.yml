@@ -242,8 +242,8 @@ footer:
     discord: "Verge Discord"
   tweets:
     header: "Tweets"
-    by: "Tweets von @vergecurrency"
-  copyright: "&copy; 2017 Verge"
+    by: "Tweets by @vergecurrency"
+  copyright: "&copy; 2018 Verge"
 faq:
   tagline: "Frequently Asked Questions"
   toc:
