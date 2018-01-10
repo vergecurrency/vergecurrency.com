@@ -202,7 +202,7 @@ contributors:
 donate:
   about:
     header: "개발 지원 (기부)"
-    paragraph: "Verge는 모든 개발은 여러분의 지원에 의해 이루어집니다" 
+    paragraph: "Verge는 모든 개발은 여러분의 지원에 의해 이루어집니다"
   wallets:
     verge:
       header: "Verge 지갑 주소"
@@ -238,7 +238,7 @@ footer:
   tweets:
     header: "트윗"
     by: "트윗 @vergecurrency"
-  copyright: "© 2017 Verge"
+  copyright: "© 2018 Verge"
 contest_page:
   options:
     header: "Options"

@@ -19,10 +19,32 @@ tagline: "Verge is een <strong>veilige</strong> en <strong>anonieme</strong> dig
 download: "Download"
 view: "Uitzicht"
 view_all_wallets: "Bekijk alle portemonnees"
+mission:
+  header: "Missie"
+  paragraph: "Onze missie is om mensen over de hele wereld de kans te bieden om blockchain transacties in hun dagelijks leven te integreren. Verge Currency maakt het mogelijk om directe transacties snel, efficiënt en privé uit te voeren.  Het gebruik van Verge Currency biedt bedrijven en individuen flexibele opties voor het verzenden en ontvangen van betalingen. Met één druk op de knop bieden we handige integraties en tools aan voor het afhandelen van zowel grootschalige transacties tussen bedrijven als kleinschalige privébetalingen."
 info:
   about:
     header: "Waarom Verge?"
     paragraph: "Verge is een gedecentraliseerde valuta ontworpen voor gebruikers die waarde hechten aan hun privacy. Verge is een verbetering op de Bitcoin blockchain door gebruik te maken van meerdere anonieme netwerken zoals Tor en i2p. Door gebruik te maken van meerdere algoritmes wordt de veiligheid verbeterd en hebben miners gelijke kansen."
+    cards:
+        privacy:
+          header: "Totaal anoniem en privacy gefocust"
+          paragraph: "Verge maakt gebruik van meerdere op anonimiteit gerichte netwerken zoals het Tor netwerk en I2P. De IP-adressen van de gebruikers zijn verborgen en de transacties zijn volledig onvindbaar."
+        community:
+          header: "Ondersteuning van de community"
+          paragraph: "Verge is geen bedrijf gefinancierd door pre-mined munten of ICO’s. Alle ontwikkeling en marketing wordt ondersteund door de duizenden leden van de community."
+        speed:
+          header: "Ultrasnelle transacties"
+          paragraph: "Vergeleken met andere munten zijn de transactietijden ultrasnel. Door het gebruik van de Simple Payment Verification (SPV) technologie daalt de gemiddelde bevestigingstijd van transacties naar ~5 seconden."
+        development:
+          header: "Actief ontwikkelaarsteam met veel bijdragers"
+          paragraph: "Het ontwikkelteam is actief en staat altijd in nauw contact met de community. Je kunt de hoofdontwikkelaars gemakkelijk bereiken voor ondersteuning of nieuwe ideeën over Verge."
+        adoption:
+          header: "Klaar voor massa adoptie"
+          paragraph: "Verge biedt een breed scala aan beveiligde portemonnees voor verschillende besturingssystemen. De revolutionaire Tor Android-portemonnee van Tor biedt mobiele anonimiteit, wat een uniek kenmerk onder privacy gerichte munten."
+        opensource:
+          header: "Gedecentraliseerd en open source"
+          paragraph: "Verge is een gedecentraliseerde valuta op basis van een open-sourceplatform. Er is geen centrale controle over de munt"
   resources:
     header: "Informatie"
     black_paper: "Black Paper"
@@ -41,7 +63,7 @@ info:
 developers:
   about:
     header: "Voor developers"
-    paragraph: "Het schrijven van code is moeilijk. Wij willen het je graag makkelijker maken om te werken aan Verge, daarom hebben wij een set aan tools verzameld en ze in een lijt verwerkt."
+    paragraph: "Het schrijven van code is moeilijk. Wij willen het je graag makkelijker maken om te werken aan Verge, daarom hebben wij een set aan tools verzameld en ze in een lijst verwerkt."
   resources:
     header: "Developers hulpmiddelen"
     php: "PHP Library voor de Verge wallet"
@@ -65,6 +87,10 @@ exchanges:
   coinspot: "CoinSpot"
 wallets:
   header: "Portemonnees"
+  info:
+    header: "Informatie:"
+    message: "Als je geen Electrum portemonnee installeert, kan je de installatie versnellen door <a href='https://verge-blockchain.com/' target='_blank'>hier</a> de Verge blockchain te downloaden."
+  tabs:
   tabs:
     desktop: "Desktop"
     mobile: "Mobiel"
@@ -87,8 +113,40 @@ wallets:
   paper: "Verge Paper Wallet"
   daemon_docker: "Verge Daemon Docker Image"
   coinomi: "Coinomi Multi Currency Android Wallet"
+vendors:
+  header: "Bedrijven die Verge Currency als betaalmethode accepteren"
+  paragraph: "Alle onderstaande bedrijven accepteren Verge Currency als betaalmethode voor hun goederen en services."
+  nexwave: "Nexwave"
+  pexpeppers: "PexPeppers"
+  incredebites: "Incredebites"
+  trebaltek: "Trebaltek"
+  renosportsbar: "Reno Sports Bar"
+  alwayshodl: "AlwaysHodl"
+  whiskermen: "WhiskerMen"
+  quantvm: "QuanTVm"
+  vfx: "VFX Learning"
+  cryptovfx: "Crypto VFX"
+  menke: "Menke IT - Service"
+  suzuri: "仮想通貨Verge Japan 公認SHOP"
+  haveaheartkc: "Have A Heart: Dog Rescue and Adoption"
+  illroticbeats: "Illrotic Beats"
+  fbs: "Falmouth Boat Security"
+  effortless: "Effortless.IT"
+  pmc: "Phuket Media Company"
+  meccamino: "Meccamino"
+  apetest: "APE Advisor Prep"
+  morningwish: "Morning Wish"
+  ethminers: "Ethereum Miners"
+  heightcare: "HeightCare"
+  ovpn: "oVPN"
+  snel: "Snel.com"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
+  #vendor: "rename me"
 roadmap:
   header: "Road Map"
+  paragraph: "De roadmap wordt per kwartaal geüpdatet."
   blackpaper:
     header: "\"Black Paper"
     date: "<font color='#08b4e0'>GEPUBLICEERD</font> 4 juni 2017"
@@ -136,6 +194,17 @@ roadmap:
     header: "Merchandise Online Store"
     paragraph: "Verge producten zoals t-shirts kunnen binnekort worden gekocht met XVG of BTC."
     date: "Juli 2017"
+    
+contributors:
+  about:
+    header: "Bijdragers"
+    paragraph: "Verge is open-source software welke constant verbetert wordt door zijn vele bijdragers. Als jij ook een bijdrage wilt leveren, neem dan een kijkje in onze <a href='https://github.com/vergecurrency' target='_blank'> Github-repositories </a> om te zien waar jij een verschil kunt maken!"
+
+donate:
+  about:
+    header: "Ondersteun de ontwikkeling met een donatie"
+    paragraph: "Verge is geen pre-mined munt, dus alle ontwikkeling wordt gefinancierd door mensen zoals jij!" 
+
 footer:
   social:
     header: "Community"
@@ -152,4 +221,4 @@ footer:
   tweets:
     header: "tweets"
     by: "Tweets door @vergecurrency"
-  copyright: "&copy; 2017 Verge"
+  copyright: "&copy; 2018 Verge"
