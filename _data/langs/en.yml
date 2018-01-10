@@ -267,6 +267,7 @@ exchanges:
   coin2001: "Coin2001"
   cryptobridge: "CryptoBridge"
   changenow: "ChangeNow"
+  tradesatoshi: "Tradesatoshi"
 
 footer:
   social:
