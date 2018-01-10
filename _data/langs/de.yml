@@ -10,7 +10,7 @@ nav:
   exchanges:
     title: "Hole dir Verge"
   wallets:
-    title: "Geldbörsen"
+    title: "Wallets"
   vendors:
     title: "Anbieter"
   p2p:
@@ -28,7 +28,7 @@ nav:
 tagline: "Verge ist eine <strong>sichere</strong> und <strong>anonyme</strong> Kryptowährung, entwickelt mit dem Fokus auf <strong>Privatsphäre</strong>."
 download: "Download"
 view: "Aussicht"
-view_all_wallets: "Alle Geldbörsen ansehen"
+view_all_wallets: "Alle Wallets ansehen"
 mission:
   header: "Unsere Mission"
   paragraph: "Unsere Mission ist es, Blockchain-Transaktionen für Menschen auf der ganzen Welt alltäglich zu machen. Mit Verge ist es möglich, direkte Transaktionen, schnell, effizient und privat vorzunehmen. Zahlungen können sowohl von Firmen, als auch von Privatpersonen, flexibel versendet und empfangen werden. Passende Werkzeuge ermöglichen skalierbare Hilfestellungen, sowohl für Verkäufer mit vielen Transaktionen, als auch für Privatpersonen mit wenigen Transaktionen."
@@ -51,7 +51,7 @@ info:
         paragraph: "Das Entwicklungsteam ist stetig aktiv und steht immer im engen Kontakt mit der Community. Du kannst die Entwickler leicht für Supportanfragen oder für Diskussion über neue Ideen erreichen."
       adoption:
         header: "Bereit für den Einsatz im Massenmarkt"
-        paragraph: "Verge bietet eine Vielzahl von Geldbörsen für verschiedene Betriebssysteme an. Die revolutionäre TOR Android Geldbörse ermöglicht sogar mobile Anonymität, welches ein einzigartiges Feature im Vergleich zu anderen Währungen darstellt, die auch mit Privatssphäre werben."
+        paragraph: "Verge bietet eine Vielzahl von Wallets für verschiedene Betriebssysteme an. Die revolutionäre TOR Android Wallet ermöglicht sogar mobile Anonymität, welches ein einzigartiges Feature im Vergleich zu anderen Währungen darstellt, die auch mit Privatssphäre werben."
       opensource:
         header: "Dezentral und Open-Source"
         paragraph: "Verge ist eine dezentrale Kryptowährung und basiert auf Open-Source Software. Es gibt keine zentrale Institution, die eine Kontrolle ausüben könnte."
@@ -77,8 +77,8 @@ developers:
   resources:
     header: "Entwickler-Tools"
     github_gui: "GitHub Desktop"
-    php: "PHP Library für die Verge Geldbörse"
-    ruby: "Ruby gem Wrapper zur Steuerung der Verge Geldbörse"
+    php: "PHP Library für die Verge Wallet"
+    ruby: "Ruby gem Wrapper zur Steuerung der Verge Wallet"
     python: "VERGE API zur Nutzung mit Python"
     nodejs: "Node.js Client für Verge"
     rubygems_howto: "Anleitung Installation RubyGems"
@@ -89,10 +89,10 @@ contributors:
     paragraph: "Verge ist Open Source und wird durch die vielen Unterstützer ständig weiterentwickelt. Wenn du auch zur Entwicklung beitragen möchtest, dann schau dir unsere <a href='https://github.com/vergecurrency' target='_blank'>Github Repositories</a> an, vielleicht findest du etwas, dass du verbessern kannst!"
   wallets:
     verge:
-      header: "Verge Geldbörse Adresse"
+      header: "Verge Wallet Adresse"
       address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
     bitcoin:
-      header: "Bitcoin Geldbörse Adresse"
+      header: "Bitcoin Wallet Adresse"
       address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
 donate:
   about:
@@ -100,10 +100,10 @@ donate:
     paragraph: "Verge ist keine 'pre-mined' Münze, die komplette Entwicklung wird von netten Leuten wie Dir finanziert."
   wallets:
     verge:
-      header: "Verge Geldbörse Adresse"
+      header: "Verge Wallet Adresse"
       address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
     bitcoin:
-      header: "Bitcoin Geldbörse Adresse"
+      header: "Bitcoin Wallet Adresse"
 address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
 exchanges:
   header: "Hole dir Verge"
@@ -121,35 +121,35 @@ exchanges:
   exchangedi2p: "ExchangeD.I2P"
   upbit: "UpBit"
 wallets:
-  header: "Geldbörsen"
+  header: "Wallets"
   info:
     header: "Info:"
-    message: "Falls du nicht die Electrum Geldbörse installierst, kannst du die Installation beschleunigen, indem du die Verge Blockchain <a href='https://verge-blockchain.com' target='_blank'>hier</a> herunterlädst."
+    message: "Falls du nicht die Electrum Wallet installierst, kannst du die Installation beschleunigen, indem du die Verge Blockchain <a href='https://verge-blockchain.com' target='_blank'>hier</a> herunterlädst."
   tabs:
     desktop: "Desktop"
     mobile: "Smartphone"
     other: "Andere"
-  windows: "Verge Windows Geldbörse"
-  macosx: "Verge Mac OSX Geldbörse"
-  android: "Verge Android Geldbörse"
-  coinpouch: "Coinpouch iOS Geldbörse"
-  archlinux: "Verge ArchLinux Geldbörse"
-  centos: "Verge CentOS Geldbörse"
-  debian: "Verge Debian Geldbörse"
-  fedora: "Verge Fedora Geldbörse"
-  web: "Verge Web Geldbörse"
-  web_tor: "Verge TOR Web Geldbörse"
-  web_i2P: "Verge I2P Web Geldbörse"
+  windows: "Verge Windows Wallet"
+  macosx: "Verge Mac OSX Wallet"
+  android: "Verge Android Wallet"
+  coinpouch: "Coinpouch iOS Wallet"
+  archlinux: "Verge ArchLinux Wallet"
+  centos: "Verge CentOS Wallet"
+  debian: "Verge Debian Wallet"
+  fedora: "Verge Fedora Wallet"
+  web: "Verge Web Wallet"
+  web_tor: "Verge TOR Web Wallet"
+  web_i2P: "Verge I2P Web Wallet"
   raspberry_pi: "Verge Raspberry-Pi-Quellcode"
-  electrum_linux: "Verge Linux Electrum Geldbörse"
-  electrum_linux_tor: "Verge TOR Linux Electrum Geldbörse"
-  electrum_osx: "Verge OSX Electrum Geldbörse"
-  electrum_osx_tor: "Verge Tor OSX Electrum Geldbörse"
-  electrum_windows: "Verge Windows Electrum Geldbörse"
-  electrum_windows_tor: "Verge TOR Windows Electrum Geldbörse"
-  paper: "Verge Papier-Geldbörse"
+  electrum_linux: "Verge Linux Electrum Wallet"
+  electrum_linux_tor: "Verge TOR Linux Electrum Wallet"
+  electrum_osx: "Verge OSX Electrum Wallet"
+  electrum_osx_tor: "Verge Tor OSX Electrum Wallet"
+  electrum_windows: "Verge Windows Electrum Wallet"
+  electrum_windows_tor: "Verge TOR Windows Electrum Wallet"
+  paper: "Verge Papier-Wallet"
   daemon_docker: "Verge Daemon Docker Build"
-  coinomi: "Coinomi Multi Währung Android Geldbörse"
+  coinomi: "Coinomi Multi Währung Android Wallet"
 vendors:
   header: "Geschäfte die Verge akzeptieren."
   paragraph: "Alle aufgelisteten Geschäfte akzeptieren gerne Verge als Zahlungsmittel für ihre Waren und Dienstleistungen."
@@ -167,7 +167,7 @@ roadmap:
     date: "<font color='#08b4e0'>Veröffentlicht</font> 5. Juni 2017"
   electrum_binaries:
     header: "Electrum Binaries"
-    paragraph: "Binärdateien für eine einfach zu bedienende Lite Geldbörse."
+    paragraph: "Binärdateien für eine einfach zu bedienende Lite Wallet."
     date: "<font color='#08b4e0'>Veröffentlicht</font> 7. Juni 2017"
   marketing_campaign:
     header: "Crypto Services Marketing-Kampagne"
@@ -178,35 +178,35 @@ roadmap:
     date: "<font color='#08b4e0'>Veröffentlicht</font> 12. Juni 2017"
   radio:
     header: "Migration Verge Radio"
-    paragraph: "In \"RadioCrypto\" umwandeln und in Geldbörse integrieren"
+    paragraph: "In \"RadioCrypto\" umwandeln und in Wallet integrieren"
     date: "<font color='#08b4e0'>Veröffentlicht</font> 26. Juni 2017"
   tor_android_wallet:
-    header: "TOR Android Geldbörse"
-    paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen"
+    header: "TOR Android Wallet"
+    paragraph: "Android Wallet ausschließlich nur für anonyme Transaktionen"
     date: "<font color='#08b4e0'>Veröffentlicht</font> 31. July 2017"
   i2P_android_wallet:
-    header: "I2P Android Geldbörse"
-    paragraph: "Android Geldbörse ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
-    date: "Q4, 2017"
+    header: "I2P Android Wallet"
+    paragraph: "Android Wallet ausschließlich nur für anonyme Transaktionen (kurz vor Fertigstellung)"
+    date: "Q1, 2018"
   core_wallet_release:
     header: "Core Wallet 3.0 Release Stage 1"
     paragraph: "Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability"
     date: "<font color='#08b4e0'>Veröffentlicht</font> 15. November 2017"
   core_wallet_release_2:
-    header: "Core Wallet 3.0 Release Stage 2"
+    header: "Core Wallet 4.0 Release Stage 2"
     paragraph: "Tor Integration & Optional Stealth Addressing"
-    date: "Q4, 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 01. Januar 2018"
   rsk_smart_contracts:
     header: "RSK intelligente Verträge"
     paragraph: "Wird aktuell im Bitcoin-Testnetzwerk getestet. Implementierung im Zeitraum dieser Roadmap."
-    date: "Q4/Q1, 2017/2018"
+    date: "Q1, 2018"
   wallet_ui:
     header: "Wallet Redesign Benutzeroberfläche"
-    date: "Juli-August 2017"
+    date: "<font color='#08b4e0'>Veröffentlicht</font> 01. Januar 2018"
   merchandise_store:
     header: "Werbeartikel Online Store"
     paragraph: "Der Merchandise-Shop wird T-Shirts/Bekleidung anbieten, die Bezahlung kann mit XVG und BTC erfolgen."
-    date: "Q4, 2017"
+    date: "Q1, 2018"
   blackpaper2:
     header: "\"Black\" Paper 3.0"
     date: "<font color='#08b4e0'>Veröffentlicht</font> 11. August 2017"
@@ -219,7 +219,11 @@ roadmap:
   official_mining_pool:
     header: "Offizieller Verge Multi-Algorithmen Mining Pool"
     paragraph: "Zur Unterstützung der Verge-Entwicklung wird eine Gebühr von 2 % erhoben"
-    date: "Q4, 2017"
+    date: "Q1, 2018"
+  new_website:
+    header: "Neue Webseite"
+    paragraph: "Neues Design, Anleitungen, Aktualisierte Roadmap, List mit offiziellen Team Mitgliedern, Blog mit aktuellen Nachrichten, mobilfreundlich"
+    date: "Q1, 2018"
   upgrade_electrum_client:
     header: "Upgrade Electrum-Client Programmcode"
     date: "<font color='#08b4e0'>Veröffentlicht</font> 24. August 2017"
@@ -314,33 +318,33 @@ faq:
         question: "Wird es bei Verge jemals Masternodes geben?"
         answer: "Nein niemals. Wir glauben, dass Masternodes eine Schwachstelle sind und das Netzwerk zentralisieren. Jeder Hacker kann mit einem DDOS (Distributed Denial of Service) die Masternodes angreifen und das Netzwerk lahmlegen. Auch kann eine Regierung per Gerichtsbeschluss die Herausgabe der Logfiles des Masternodes erwirken (die meisten sog. anonymen Coins loggen die IP-Adressen der Anwender auf den Masternode-Computern."
     wallets:
-      subheader: "Geldbörse"
+      subheader: "Wallet"
       whichwallet:
-        question: "Welche Geldbörse soll ich benutzen?"
-        answer: "Grundsätzlich gibt es zwei Arten von Verge Geldbörsen, einmal die QT Geldbörse und dann die Electrum Geldbörse. Für den täglichen Gebrauch <b>empfehlen wir den Download der Electrum-Geldbörse</b>."
+        question: "Welche Wallet soll ich benutzen?"
+        answer: "Grundsätzlich gibt es zwei Arten von Verge Wallets, einmal die QT Wallet und dann die Electrum Wallet. Für den täglichen Gebrauch <b>empfehlen wir den Download der Electrum-Wallet</b>."
       electrum:
         question: "Was ist Electrum?"
-        answer: "<a href='https://electrum.org' target='_blank'>Electrum</a> ist eine <a href='https://github.com/spesmilo/electrum' target='_blank'>open-source</a> Bitcoin lite Geldbörse. Verge hat den Basis-Programmcode der Electrum-Geldbörse übernommen (fork) und an die Verge Blockchain angepasst."
+        answer: "<a href='https://electrum.org' target='_blank'>Electrum</a> ist eine <a href='https://github.com/spesmilo/electrum' target='_blank'>open-source</a> Bitcoin lite Wallet. Verge hat den Basis-Programmcode der Electrum-Wallet übernommen (fork) und an die Verge Blockchain angepasst."
       electrumwallet:
-        question: "Was ist eine Electrum Geldbörse?"
-        answer: "Eine Verge Electrum Geldbörse ist eine Geldbörse, die auf Geschwindigkeit und geringen Ressourcenverbrauch hin optimiert ist. Die Electrum Geldbörse verwendet eine Technik mit Namen <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV)"
+        question: "Was ist eine Electrum Wallet?"
+        answer: "Eine Verge Electrum Wallet ist eine Wallet, die auf Geschwindigkeit und geringen Ressourcenverbrauch hin optimiert ist. Die Electrum Wallet verwendet eine Technik mit Namen <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV)"
       qt:
         question: "Was ist QT?"
         answer: "<a href='https://www.qt.io' target='_blank'>QT</a> ist eine cross-Plattform Anwendung und UI-Framework für Entwickler unter Einsatz der Programmiersprache C++. Es ermöglicht dem Entwickler Programmcode in C++ für verschiedene Software- und Hardwareplattformen zu schreiben. Nach <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a> wurde das Toolkit als QT benannt \"the letter Q looked appealing in Haavard's Emacs typeface, and 't' was inspired by Xt, the X toolkit\"."
       qtwallet:
-        question: "Was ist eine QT-Geldbörse?"
-        answer: "Die QT-Geldbörse erfordert den Download der kompletten <a href='https://verge-blockchain.com/' target='_blank'>Verge Blockchain</a> auf den Computer. Mit anderen Worten: der Computer muß jeden Datensatz von jeder einzelnen Transaktion seit 2014 herunterladen. Gegenwärtig ist die Blockchain ~1GB groß und sie wächst mit jeder Transaktion. Wenn du die QT-Geldbörse benutzen möchtest, benötigst du also entsprechend Platz auf der Festplatte."
-        answer2: "Jedesmal, wenn du die QT-Geldbörse startest synchronisiert sich die Geldbörse und lädt alle bei dir fehlenden Daten (Blöcke) der Blockchain auf deinen Computer nach. Wenn du dich für die QT-Geldbörse entscheidest solltest du diese regelmäßig starten, ansonsten kann es Stunden oder länger dauern, bis du alle fehlenden Daten der Blockchain geladen hast. Die Dauer für das Synchronisieren ist davon abhängig, wie lange du deine QT-Geldbörse nicht mehr gestartet hattest."
+        question: "Was ist eine QT-Wallet?"
+        answer: "Die QT-Wallet erfordert den Download der kompletten <a href='https://verge-blockchain.com/' target='_blank'>Verge Blockchain</a> auf den Computer. Mit anderen Worten: der Computer muß jeden Datensatz von jeder einzelnen Transaktion seit 2014 herunterladen. Gegenwärtig ist die Blockchain ~1GB groß und sie wächst mit jeder Transaktion. Wenn du die QT-Wallet benutzen möchtest, benötigst du also entsprechend Platz auf der Festplatte."
+        answer2: "Jedesmal, wenn du die QT-Wallet startest synchronisiert sich die Wallet und lädt alle bei dir fehlenden Daten (Blöcke) der Blockchain auf deinen Computer nach. Wenn du dich für die QT-Wallet entscheidest solltest du diese regelmäßig starten, ansonsten kann es Stunden oder länger dauern, bis du alle fehlenden Daten der Blockchain geladen hast. Die Dauer für das Synchronisieren ist davon abhängig, wie lange du deine QT-Wallet nicht mehr gestartet hattest."
       backup:
-        question: "Wie kann ich ein Backup meiner Geldbörse durchführen?"
-        answer: "Wenn du die Electrum-Geldbörse benutzt, dann brauchst du nur die 12 Wörter der seedphrase sicher aufzubewahren. Diese seedphrase wird dir beim ersten Start der Geldbörse genannt und du kannst dies auch unter Einstellungen in der App finden. Wir empfehlen, die seedphrase nicht elektronisch aufzubewahren, diese könnte vom Computer gestohlen werden. Wenn jemand die seedphrase stiehlt, dann kann er auch alle deine Coins stehlen."
-        answer2: "So lange du im Besitz der seedphrase bist, kannst du deine Coins auch in einer neuen Geldbörsen wiederherstellen. Wenn Bob zum Beispiel die Verge TOR Android Geldbörse benutzt und er sein Smartphone ins Wasser fallen läßt und es zerstört wird, kann er seine Geldbörse mit den Coins auf einem neuen Smartphone wiederherstellen, indem er einfach die App installiert und die alten 12 Wörter eingibt. Ohne diese alte seedphrase sind alle Coins der alten Geldbörse verloren."
-        answer3: "Wenn du deine QT-Geldbörse verschlüsseln möchtest, kannst du ganz einfach ein Passwort vergeben unter <b>Settings -> Encrypt Wallet</b>. Nachdem du ein Passwort vergeben hast, kannst ein verschlüsseltes Backup der Geldbörse anlegen unter <b>File -> Backup Wallet</b>. Die privaten Schlüssel der QT-Geldbörse liegen in der wallet.dat. Jedesmal, wenn du Coins sendest, dann werden die privaten Schlüssel aus der Datei wallet.dat benutzt. <b>Bitte unbedingt daran denken: Wenn du eine neue Adresse in der Geldbörse erzeugst, dann MUSST du ein neues Backup erzeugen</b>."
-        answer4: "Solange du die Datei wallet.dat besitzt, kannst du deine Coins in jede Verge Geldbörse importieren und erhälst so Zugriff auf deine Coins. Wenn du die Datei wallet.dat verlierst, dann sind deine Coins ebenfalls verloren."
+        question: "Wie kann ich ein Backup meiner Wallet durchführen?"
+        answer: "Wenn du die Electrum-Wallet benutzt, dann brauchst du nur die 12 Wörter der seedphrase sicher aufzubewahren. Diese seedphrase wird dir beim ersten Start der Wallet genannt und du kannst dies auch unter Einstellungen in der App finden. Wir empfehlen, die seedphrase nicht elektronisch aufzubewahren, diese könnte vom Computer gestohlen werden. Wenn jemand die seedphrase stiehlt, dann kann er auch alle deine Coins stehlen."
+        answer2: "So lange du im Besitz der seedphrase bist, kannst du deine Coins auch in einer neuen Wallets wiederherstellen. Wenn Bob zum Beispiel die Verge TOR Android Wallet benutzt und er sein Smartphone ins Wasser fallen läßt und es zerstört wird, kann er seine Wallet mit den Coins auf einem neuen Smartphone wiederherstellen, indem er einfach die App installiert und die alten 12 Wörter eingibt. Ohne diese alte seedphrase sind alle Coins der alten Wallet verloren."
+        answer3: "Wenn du deine QT-Wallet verschlüsseln möchtest, kannst du ganz einfach ein Passwort vergeben unter <b>Settings -> Encrypt Wallet</b>. Nachdem du ein Passwort vergeben hast, kannst ein verschlüsseltes Backup der Wallet anlegen unter <b>File -> Backup Wallet</b>. Die privaten Schlüssel der QT-Wallet liegen in der wallet.dat. Jedesmal, wenn du Coins sendest, dann werden die privaten Schlüssel aus der Datei wallet.dat benutzt. <b>Bitte unbedingt daran denken: Wenn du eine neue Adresse in der Wallet erzeugst, dann MUSST du ein neues Backup erzeugen</b>."
+        answer4: "Solange du die Datei wallet.dat besitzt, kannst du deine Coins in jede Verge Wallet importieren und erhälst so Zugriff auf deine Coins. Wenn du die Datei wallet.dat verlierst, dann sind deine Coins ebenfalls verloren."
       longsync:
-        question: "Das Synchronisieren der Geldbörse dauert sehr lange. Was kann ich tun, um dies zu beschleunigen?"
-        answer: "Du kannst die aktuelle Verge <a href='https://verge-blockchain.com/' target='_blank'>Blockchain</a> herunterladen. Nach dem Download lese bitte die <a href='https://verge-blockchain.com/howto' target='_blank'>Anleitung</a>. Nach Abarbeitung der Anleitung kannst du deine Geldbörse erneut öffnen. Erlaube dieser dabei unbedingt, die Synchronisation der verbleibenden Blöcke abzuschliessen. Dieser finale Synchronisations-Prozess kann bis zu einer Stunde dauern."
-        answer2: "Bitte immer daran denken, es steht auch die alternative Electrum <a href='#wallets' target='_blank'>Geldbörse</a> zur Verfügung, die signifikant schneller ist (hier muss keine Blockchain heruntergeladen werden)."
+        question: "Das Synchronisieren der Wallet dauert sehr lange. Was kann ich tun, um dies zu beschleunigen?"
+        answer: "Du kannst die aktuelle Verge <a href='https://verge-blockchain.com/' target='_blank'>Blockchain</a> herunterladen. Nach dem Download lese bitte die <a href='https://verge-blockchain.com/howto' target='_blank'>Anleitung</a>. Nach Abarbeitung der Anleitung kannst du deine Wallet erneut öffnen. Erlaube dieser dabei unbedingt, die Synchronisation der verbleibenden Blöcke abzuschliessen. Dieser finale Synchronisations-Prozess kann bis zu einer Stunde dauern."
+        answer2: "Bitte immer daran denken, es steht auch die alternative Electrum <a href='#wallets' target='_blank'>Wallet</a> zur Verfügung, die signifikant schneller ist (hier muss keine Blockchain heruntergeladen werden)."
       torandroidnoconnection:
         question: "Warum sehe ich \"no connection\" in meiner Verge TOR Android App?"
         answer: "Wenn du \"no connection\" auf der App im Tab \"balance\" siehst, öffne bitte die Orbot App und wähle \"apps VPN mode\" im linken Menü aus."
@@ -382,7 +386,7 @@ p2ptoc:
       bullet4: "4. <b>Sende Coins über Twitter:</b> Tweet \"@vergetips tip @<username><XVG Menge>\"."
       bullet4note: "<b>Info:</b> Minimale tip Menge - 10 XVG."
       bullet5: "5. <b>Coins transferieren:</b> Tweet \"@vergetips withdraw <Verge Adresse>\" um deinen <b>gesamten</b> Kontostand (abzüglich einer Transaktionsgebühr von 2 XVG) zu deiner Verge Adresse zu transferieren."
-      bullet6: "6. <b>Unterstütze Verge:</b> tip \"@vergecurrnecy\" um das Verge Team zu unterstützen!"
+      bullet6: "6. <b>Unterstütze Verge:</b> tip \"@vergecurrency\" um das Verge Team zu unterstützen!"
     discord:
       subheader: "Discord Bot Handbuch"
       bullet1: "1. <b>Erhalte deine Verge Discord Adresse:</b> Sende \"@vergebot deposit\" um deine verknüpfte Discord Verge Adresse zu erhalten."
