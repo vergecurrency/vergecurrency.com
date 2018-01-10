@@ -39,7 +39,7 @@ third parties. This effectively allows for the conversion of any traceable curre
 Other features of the Verge Core Wallet 4.0 include:
 --------------------
 
-* TOR Baked-in: TOR-integration by default and with no additional setup. TheIP-addresses of the users are totally concealed.
+* TOR Baked-in: TOR-integration by default and with no additional setup. The IP-addresses of the users are totally concealed.
 * Faster Sync: The block syncronization speed is faster thanks to 100+ additional seeds on the network.
 * Bloom Filters: Faster transaction times for full nodes with Bloom Filters (BIP37).
 * New UI: Smooth looking interface and an updated colour scheme.
