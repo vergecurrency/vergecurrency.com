@@ -116,8 +116,11 @@ wallets:
     desktop: "Desktop"
     mobile: "Mobile"
     other: "Other"
-  windows: "Verge Windows Wallet"
-  macosx: "Verge Mac OSX Wallet"
+  windows: "Verge Windows Wallet 3.0"
+  windows4: "Verge Windows Wallet 4.0 (64-bit)"
+  auto_installer: "Verge Auto Installer"
+  macosx: "Verge Mac OSX Wallet 3.0"
+  macosx4: "Verge Mac OSX Wallet 4.0"
   android: "Verge TOR Android Wallet"
   archlinux: "Verge ArchLinux Wallet"
   centos: "Verge CentOS Wallet"
@@ -139,6 +142,7 @@ wallets:
 vendors:
   header: "Real world vendors that accept Verge Currency."
   paragraph: "All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services."
+  nexwave: "Nexwave"
   pexpeppers: "PexPeppers"
   incredebites: "Incredebites"
   trebaltek: "Trebaltek"
@@ -150,7 +154,7 @@ vendors:
   cryptovfx: "Crypto VFX"
   menke: "Menke IT - Service"
   suzuri: "仮想通貨Verge Japan 公認SHOP"
-  haveaheartkc: "Have A Heart: Dog Rescue and Adoption"
+  haveaheartkc: "Have A Heart: Animal Rescue"
   illroticbeats: "Illrotic Beats"
   fbs: "Falmouth Boat Security"
   effortless: "Effortless.IT"
@@ -161,6 +165,8 @@ vendors:
   ethminers: "Ethereum Miners"
   heightcare: "HeightCare"
   ovpn: "oVPN"
+  snel: "Snel"
+  anutra: "Anutra Grain"
   #vendor: "rename me"
   #vendor: "rename me"
   #vendor: "rename me"
@@ -176,25 +182,29 @@ roadmap:
     paragraph: "Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability"
     date: "<font color='#08b4e0'>Released</font> 15. November 2017"
   core_wallet_release_2:
-    header: "Core Wallet 3.0 Release Stage 2"
+    header: "Core Wallet 4.0 Release Stage 2"
     paragraph: "Tor Integration & Optional Stealth Addressing"
-    date: "Q4, 2017"
+    date: "<font color='#08b4e0'>Released</font> 01. January 2018"
   i2P_android_wallet:
     header: "I2P Android Wallet"
     paragraph: "Anonymous mobile transactions over the I2P network"
-    date: "Q4, 2017"
+    date: "Q1, 2018"
   rsk_smart_contracts:
     header: "RSK Smart Contracts"
     paragraph: "They are in testnet for bitcoin now. Date revolves around this timeline."
-    date: "Q4/Q1, 2017/2018"
+    date: "Q1, 2018"
   merchandise_store:
     header: "Merchandise Online Store"
     paragraph: "Verge branded apparel that can be purchased with XVG and BTC."
-    date: "Q4, 2017"
+    date: "Q1, 2018"
   official_mining_pool:
     header: "Mining Update"
     paragraph: "XVGui Miner, Official Mining Pool, Mining Guide"
-    date: "Q4, 2017"
+    date: "Q1, 2018"
+  new_website:
+    header: "New website"
+    paragraph: "New look, guides, updated roadmap, list of official core members, blog with official news, mobile friendly"
+    date: "Q1, 2018"
 
 developers:
   about:
@@ -258,6 +268,7 @@ exchanges:
   coin2001: "Coin2001"
   cryptobridge: "CryptoBridge"
   changenow: "ChangeNow"
+  tradesatoshi: "Tradesatoshi"
 
 footer:
   social:
@@ -279,7 +290,7 @@ footer:
   tweets:
     header: "Tweets"
     by: "Tweets by @vergecurrency"
-  copyright: "&copy; 2017 Verge"
+  copyright: "&copy; 2018 Verge"
 
 contest_page:
   options:
