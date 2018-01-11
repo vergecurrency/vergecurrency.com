@@ -104,7 +104,7 @@ exchanges:
   coin2001: "Coin2001"
   cryptobridge: "CryptoBridge"
   changenow: "ChangeNow"
-  
+
 wallets:
   header: "Porte-monnaies"
   info:
@@ -135,7 +135,7 @@ wallets:
   paper: "Porte-monnaie papier"
   daemon_docker: "Image de Docker Daemon"
   coinomi: "Porte-monnaie Android Coinomi (multi-cryptomonnaie)"
-  
+
 vendors:
   header: "Détaillants qui accepte la cryptomonnaie Verge."
   paragraph: "Tous ces marchands acceptent fièrement le monnaie Verge comme mode de paiement pour leurs produits et leurs services."
@@ -161,7 +161,7 @@ vendors:
   ethminers: "Ethereum Miners"
   heightcare: "HeightCare"
   ovpn: "oVPN"
-  
+
 roadmap:
   header: "Quatrième trimestre, Q4"
   paragraph: "L'échéancier sera mis à jour chaque début de trimestre."
@@ -192,7 +192,7 @@ roadmap:
     header: "Mining Update"
     paragraph: "XVGui Miner, Official Mining Pool, Mining Guide"
     date: "Q4, 2017"
-    
+
 developers:
     about:
       header: "Développeurs"
@@ -206,7 +206,7 @@ developers:
       nodejs: "Node.js client pour Verge"
       rubygems_howto: "Comment installer RubyGems"
       github_repos: "Nos repositories GitHub"
-      
+
 contributors:
   about:
     header: "Contributeurs"
@@ -217,8 +217,8 @@ contributors:
       address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
     bitcoin:
       header: "Porte-monnaie Bitcoin"
-      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1 
- 
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+
 donate:
   about:
     header: "Supportez le développement"
@@ -230,7 +230,7 @@ donate:
     bitcoin:
       header: "Porte-monnaie Bitcoin"
       address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
-  
+
 footer:
   social:
     header: "Communauté"
@@ -252,7 +252,7 @@ footer:
     header: "Tweets"
     by: "Tweets par @vergecurrency"
   copyright: "&copy; 2017 Verge"
-  
+
 contest_page:
   options:
     header: "Options"
@@ -301,11 +301,11 @@ contest_page:
     step4: "Le <span class='highlight-section'>top 5</span> des utilisateurs qui obtienne <span class='highlight-section'>le plus de J'aime combiné et de retweets</span> pour leur GIF Verge Tweet gagneront des prix!"
   error:
     platformNotSupported: "Désolé, votre navigateur n'est pas supporté. Merci d'utiliser Chrome ou Firefox pour une meilleur expérience."
-    
+
 notificationbar:
   close: "Fermer"
   torandroidrelease: "Essayer le nouveau porte-monnaie Android ici!"
-  
+
 faq:
   tagline: "Foire aux questions"
   toc:
@@ -472,7 +472,7 @@ p2ptoc:
       bullet4: "4. <b>Send Coins Over Twitter:</b> tweet \"@vergetips tip @<username><amount of XVG>\"."
       bullet4note: "<b>Note:</b> minimum tip amount - 10 XVG"
       bullet5: "5. <b>Withdraw Twitter Wallet Balance:</b> tweet \"@vergetips withdraw <Verge Address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
-      bullet6: "6. <b>Support Verge:</b> tip \"@vergecurrnecy\" to support the Verge Team!"
+      bullet6: "6. <b>Support Verge:</b> tip \"@vergecurrency\" to support the Verge Team!"
     discord:
       subheader: "Discord Bot Manual"
       bullet1: "1. <b>Display your Verge Discord address:</b> send \"@vergebot deposit\" to see the Verge address associated with your Discord account."
