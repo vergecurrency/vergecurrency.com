@@ -30,6 +30,17 @@ input[type="radio"].tab-radio {
   border-bottom: 1px solid white;
 }
 
+@media (max-width:767px) {
+  .tab-label{
+    display:block;
+    border: 1px solid $light-gray;
+  }
+
+  .tab-radio:checked + label {
+    border-bottom: 1px solid $light-gray;
+  }
+}
+
 #preferred-tab:checked ~ #preferred-content,
 #desktop-tab:checked ~ #desktop-content,
 #mobile-tab:checked ~ #mobile-content,

@@ -31,18 +31,18 @@ view: "Aussicht"
 view_all_wallets: "Alle Wallets ansehen"
 mission:
   header: "Unsere Mission"
-  paragraph: "Unsere Mission ist es, Blockchain-Transaktionen für Menschen auf der ganzen Welt alltäglich zu machen. Mit Verge ist es möglich, direkte Transaktionen, schnell, effizient und privat vorzunehmen. Zahlungen können sowohl von Firmen, als auch von Privatpersonen, flexibel versendet und empfangen werden. Passende Werkzeuge ermöglichen skalierbare Hilfestellungen, sowohl für Verkäufer mit vielen Transaktionen, als auch für Privatpersonen mit wenigen Transaktionen."
+  paragraph: "Unser Ziel ist es, Blockchain-Transaktionen für Menschen auf der ganzen Welt alltäglich zu machen. Mit Verge ist es möglich, direkte Transaktionen, schnell, effizient und privat auszuführen. Zahlungen können sowohl von Firmen, als auch von Privatpersonen, flexibel versandt und empfangen werden. Passende Werkzeuge ermöglichen skalierbare Hilfestellungen, sowohl für Verkäufer mit vielen Transaktionen, als auch für Privatpersonen mit wenigen Transaktionen."
 info:
   about:
     header: "Über Verge"
-    paragraph: "Verge ist eine dezentrale Währung, entwickelt für Anwender denen die Privatsphäre wichtig ist. Durch den Einsatz von Netzwerken wie Tor und i2p, bei denen die Anonymität das zentrale Thema darstellt, verbessert Verge die originale Bitcoin Blockchain Technologie. Es ermöglicht Multi-Algorithmen-Mining, verbessert damit die Sicherheit und sorgt für eine gleichmäßige Verteilung der Coins unter den Minern"
+    paragraph: "Verge ist eine dezentrale Kryptowährung, die den Fokus auf Anonymität und Sicherheit legt. Durch die direkte Integration von Netzwerken wie TOR und I2p, bei denen Anonymität im Fokus steht, verbessert Verge die ursprüngliche Bitcoin Blockchain Technologie. Es ermöglicht Multi-Algorithmen-Mining, verbessert damit die Sicherheit und sorgt für eine gleichmäßige Verteilung der Coins unter den Minern"
     cards:
       privacy:
         header: "Vollständig anonym und auf Privatsphäre ausgerichtet"
-        paragraph: "Verge nutzt verschiedene Netzwerke wie TOR und i2P, bei denen die Anonymität das zentrale Thema darstellt. Die IP-Adressen sind verschleiert und die Transaktionen sind nicht zurückverfolgbar."
+        paragraph: "Verge nutzt verschiedene Netzwerke wie TOR und I2P, bei denen Anonymität im Fokus liegt. Die IP-Adressen sind verschleiert und die Transaktionen sind nicht zurückverfolgbar."
       community:
-        header: "Großartige Unterstützung durch die Commmunity"
-        paragraph: "Verge ist keine private Firma, die durch ein Premine von Coins (Premine siehe FAQ) oder einem ICO (InitialCoinOffering) finanziert wird. Die ganze Entwicklung und auch die Marketingkampagnen werden durch die vielen tausend Mitglieder der Community unterstützt."
+        header: "Großartige Unterstützung durch die Community"
+        paragraph: "Verge ist keine private Firma, die durch ein Premine von Coins (Premine siehe FAQ) oder einen ICO (Initial Coin Offering) finanziert wird. Die ganze Entwicklung und auch die Marketingkampagnen werden durch die Community unterstützt."
       speed:
         header: "Ultra schnelle Transaktionen"
         paragraph: "Im Vergleich mit anderen Kryptowährung sind die Transaktionen ultra schnell. Die sog. Simple Payment Verification (SPV) Technologie minimiert die Bestätigung von Transaktionen auf bis zu 5 Sekunden."
@@ -54,7 +54,7 @@ info:
         paragraph: "Verge bietet eine Vielzahl von Wallets für verschiedene Betriebssysteme an. Die revolutionäre TOR Android Wallet ermöglicht sogar mobile Anonymität, welches ein einzigartiges Feature im Vergleich zu anderen Währungen darstellt, die auch mit Privatssphäre werben."
       opensource:
         header: "Dezentral und Open-Source"
-        paragraph: "Verge ist eine dezentrale Kryptowährung und basiert auf Open-Source Software. Es gibt keine zentrale Institution, die eine Kontrolle ausüben könnte."
+        paragraph: "Verge ist eine dezentrale Kryptowährung und basiert auf Open-Source Software. Es gibt keine zentrale Institution, die eine richtungsweisende Kontrolle ausüben könnte."
   resources:
     header: "Ressourcen"
     black_paper: "Blackpaper"
@@ -73,7 +73,7 @@ info:
 developers:
   about:
     header: "Für Entwickler"
-    paragraph: "Eine Softwareentwicklung ist umfangreich und kompliziert. Damit es euch möglichst leicht fällt uns zu unterstützen, haben wir eine Liste mit Tools zusammengestellt."
+    paragraph: "Eine Softwareentwicklung ist umfangreich und kompliziert. Damit es euch möglichst leicht fällt uns zu unterstützen, haben wir eine Liste mit nützlichen Tools zusammengestellt."
   resources:
     header: "Entwickler-Tools"
     github_gui: "GitHub Desktop"
@@ -86,7 +86,7 @@ developers:
 contributors:
   about:
     header: "Unterstützer"
-    paragraph: "Verge ist Open Source und wird durch die vielen Unterstützer ständig weiterentwickelt. Wenn du auch zur Entwicklung beitragen möchtest, dann schau dir unsere <a href='https://github.com/vergecurrency' target='_blank'>Github Repositories</a> an, vielleicht findest du etwas, dass du verbessern kannst!"
+    paragraph: "Verge ist Open Source und wird durch die vielen Unterstützer ständig weiterentwickelt. Wenn du auch zur Entwicklung beitragen möchtest, dann schau dir unsere <a href='https://github.com/vergecurrency' target='_blank'>Github Repositories</a> an, vielleicht findest du etwas, das du verbessern kannst!"
   wallets:
     verge:
       header: "Verge Wallet Adresse"
@@ -97,7 +97,7 @@ contributors:
 donate:
   about:
     header: "Spende um die Entwicklung zu unterstützen"
-    paragraph: "Verge ist keine 'pre-mined' Münze, die komplette Entwicklung wird von netten Leuten wie Dir finanziert."
+    paragraph: "Verge ist keine 'pre-mined' Münze, die komplette Entwicklung wird von Communitymitgliedern wie Dir finanziert."
   wallets:
     verge:
       header: "Verge Wallet Adresse"
@@ -151,8 +151,8 @@ wallets:
   daemon_docker: "Verge Daemon Docker Build"
   coinomi: "Coinomi Multi Währung Android Wallet"
 vendors:
-  header: "Geschäfte die Verge akzeptieren."
-  paragraph: "Alle aufgelisteten Geschäfte akzeptieren gerne Verge als Zahlungsmittel für ihre Waren und Dienstleistungen."
+  header: "Händler die Verge akzeptieren."
+  paragraph: "Alle aufgelisteten Händler akzeptieren Verge als Zahlungsmittel für ihre Waren und Dienstleistungen."
 roadmap:
   header: "Roadmap"
   paragraph: "Die Roadmap wird quartalsweise aktualisiert."
@@ -252,10 +252,10 @@ faq:
       subheader: "Allgemeines"
       whatisverge:
         question: "Was ist Verge?"
-        answer: "Verge ist ein auf die Privatsphäre hin entwickeltes Buchungssystem mit einem öffentlichen Journal, dass durch die Blockchain-Technologie abgesichert wird. Die Basis bilden dezentralisierte Transaktionen, die durch eine globale Gemeinschaft unterstützt werden."
+        answer: "Verge ist eine auf die Privatsphäre und Anonymität fokussierte Kryptowährung mit einem öffentlichen Journal, das durch die Blockchain-Technologie abgesichert wird. Die Basis bilden dezentralisierte Transaktionen, die durch eine globale Gemeinschaft unterstützt werden."
       goal:
         question: "Was ist das Ziel von Verge?"
-        answer: "Dass eine Privatsphäre für die Masse zur Verfügung steht und dass die ursprüngliche Bitcoin-Vision mit Hilfe eines anonymen, aber öffentlichen Buchhaltungsjournal erhalten bleibt"
+        answer: "Wir möchten eine Kryptowährung als Zahlungsmittel anbieten, die die Privatspähre und Sicherheit der Nutzer gewährleistet."
       opensource:
         question: "Ist Verge Open-Source Software?"
         answer: "Ja, Verge ist ein Open-Source Projekt. Schau dir doch einfach die Organisation, die Repositories und Software auf <a href='https://github.com/vergecurrency' target='_blank'>GitHub</a> an."
@@ -266,9 +266,8 @@ faq:
         question: "Wie finanziert sich die Entwicklung von Verge?"
         answer: "Verge ist ein Open-Source Projekt, das bedeutet, dass die komplette Entwicklung durch die Entwickler und Community und deren <a href='#donate' target='_blank'>Spenden</a> finanziert wird."
       marketing:
-        question: "Warum ist der Marktanteil von Verge noch relativ klein?"
-        answer: "Dazu ist es wichtig zu wissen, dass die Finanzierung zu 100% nur durch die Entwickler und Community erfolgt. Aktuell nehmen wir nicht genug über Spenden ein, um eine großangelegte Werbekampagne starten zu können. Wir haben aber trotzdem eine Werbekampagne mit <a href='https://coinomi.com/' target='_blank'>Coinomi</a> und <a href='https://coinmarketcap.com' target='_blank'>Coinmarketcap</a> gestartet."
-        answer2: "Wir hatten auch eine eigene Medienkampagne in den sozialen Netzwerken in Form eines animierten <a href='https://vergecurrency.com/contest' target='_blank'>GIF Wettbewerbes</a> gestartet, bei dem über 200000 Coins an die Gewinner ausgeschüttet wurden. <a href='http://vergecurrency.com/contestrecap' target='_blank'>Hier</a> kannst du die Zusammenfassung lesen."
+        question: "Wo wird überall Marketing betrieben?"
+        answer: "Wir sind auf sämtlichen Social Media Kanälen am werben. Ebenfalls produzieren wir regelmäßig animierte Erklärvideos und weitere Teaser, um Verge zu verbreiten."
       numdevelopers:
         question: "Wie viele Personen sind an der Entwicklung von Verge beteiligt?"
         answer: "Es gibt gegenwärtig verschiedene Entwicklerteams. Das Hauptteam besteht aus dem Chefentwickler (<a href='https://github.com/justinvforvendetta' target='_blank'>Sunerok</a>) und 10 anderen <a href='https://github.com/vergecurrency/VERGE/graphs/contributors' target='_blank'>Unterstützern</a>. Das Team des Internetauftritts hat 2 Hauptentwickler (<a href='https://github.com/gfranko' target='_blank'>gfranko</a> and <a href='https://github.com/hellokarma' target='_blank'>hellokarma</a>) und 16 weitere <a href='https://github.com/vergecurrency/vergecurrency.com/graphs/contributors' target='_blank'>Unterstützer</a>. Das Marketingteam besteht aus einer Hauptperson (<a href='https://github.com/CryptoRekt' target='_blank'>cryptorekt</a>) und vielen weiteren Unterstützen. Die komplette Liste aller beteiligten <a href='#contributors' target='_blank'>Personen</a> läßt sich auf der Website einsehen."
@@ -292,11 +291,11 @@ faq:
         answer3: "Ein netter Nebeneffekt der vielen Coins ist, dass sich der Preis eines einzelnen VergeCoins viel mehr an dem Preis der realen Währungen orientiert (z.B. USD oder EURO). Dadurch müssen die Menschen nicht mit zu vielen Dezimalstellen rechnen (z.B. als negatives Beispiel: \"Ich sende dir 0.002 Bitcoin\")."
       whocontrolsprice:
         question: "Wer bestimmt den Preis der VergeCoins?"
-        answer: "Der monetäre Wert des VergeCoins wird durch die Käufer und Verkäufer bestimmt. Angebot und Nachfrage, wie fast überall, der Markt bestimmt den Wert, so einfach ist es."
+        answer: "Der monetäre Wert von Verge wird durch Angebot und Nachfrage gesteuert.
       publicledger:
         question: "Warum ist das Buchungsjournal öffentlich einsehbar?"
-        answer: "Wir glauben fest daran, dass die Blockchain öffentlich sein muss, wenn es sich um eine Kryptowährung handelt. Dafür gibt es mehrere Gründe und der wichtigste Grund ist einfach der Schutz der Anwender. Durch die öffentliche Buchhaltung bzw. Transaktionen, ist jeder in der Lage die Verteilung der Coins einzusehen und kann auch ermitteln wie viele Personen den Coin überhaupt verwenden."
-        answer2: "Jeder kann alle Transaktionen in der Blockchain einsehen, es läßt sich aber nicht ermitteln, an wen die Transaktion geht oder an welchem Aufenthaltsort sich die Transaktionspartner befinden."
+        answer: "Wir glauben fest daran, dass die Blockchain öffentlich sein muss, wenn es sich um eine Kryptowährung handelt. Durch den public ledger können gewerbliche Akzeptanzstellen leichter Verge als Zahlungsmittel anbieten (bürokratische Gründe). Alternativ bieten wir auch einen private ledger, der Nutzer hat somit die Wahl, wie er seine Transaktion ausführen möchte."
+        answer2: "Jeder kann alle Transaktionen in der Blockchain einsehen, es läßt sich aber nicht ermitteln, an welchem Aufenthaltsort sich die Transaktionspartner befinden (Geodaten & IPs bleiben verschleiert)."
       richlist:
         question: "Wo kann ich eine Liste der Personen mit den meisten Coins (RichList) einsehen"
         answer: "Die Übersicht steht <a href='https://verge-blockchain.info/richlist' target='_blank'>hier</a> zur Verfügung"
@@ -313,7 +312,7 @@ faq:
         answer: "Beide <a href='https://www.torproject.org/' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> verschlüsseln den Netzwerkverkehr so, dass die IP-Adresse des Anwenders nicht ermittelt werden kann. Ein VPN (Virtual Private Network) verschlüsselt den Netzwerkverkehr, man muss aber zusätzlich den Aussagen des VPN-Provider vertrauen, dass keine Aktivitäten aufgezeichnet werden (was diese können und oft auch machen). Hier kannst du mehr dazu <a href='https://gist.github.com/joepie91/5a9909939e6ce7d09e29' target='_blank'>erfahren</a>."
       otheranoncoins:
         question: "Worin unterscheidet sich Verge von anderen verfügbaren Kryptowährungen, die auch mit Anonymität werben?"
-        answer: "Andere Coins, die behaupten anonym zu sein, nehmen das Versprechen deine IP-Adresse zu verbergen nicht so ernst (Die Aussahme ist Monero, dort wird daran gearbeitet). Die meisten dieser anderen Coins loggen die IP-Adresse des Anwenders und behaupten nur, dass die Verbindungen anonym sind und maskieren/verstecken nur die Transaktionen in ihrem Netzwerk. Verge hat ein öffentliches Buchungsjournal und ermöglicht somit jedem alle Transaktionen nachzuvollziehen. Identität, Aufenthaltsort und IP-Adresse des Anwenders können jedoch durch den Einsatz von <a href='https://www.torproject.org/'' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> absolut nicht ermittelt werden."
+        answer: "Andere Coins, die behaupten anonym zu sein, nehmen das Versprechen deine IP-Adresse zu verbergen nicht besonders ernst. Die meisten dieser anderen Coins loggen die IP-Adresse des Anwenders und behaupten nur, dass die Verbindungen anonym sind und maskieren/verstecken nur die Transaktionen in ihrem Netzwerk. Verge hat ein öffentliches Buchungsjournal und ermöglicht somit jedem alle Transaktionen nachzuvollziehen. Identität, Aufenthaltsort und IP-Adresse des Anwenders können jedoch durch den Einsatz von <a href='https://www.torproject.org/'' target='_blank'>TOR</a> and <a href='https://geti2p.net/en/' target='_blank'>i2P</a> absolut nicht ermittelt werden."
       masternodes:
         question: "Wird es bei Verge jemals Masternodes geben?"
         answer: "Nein niemals. Wir glauben, dass Masternodes eine Schwachstelle sind und das Netzwerk zentralisieren. Jeder Hacker kann mit einem DDOS (Distributed Denial of Service) die Masternodes angreifen und das Netzwerk lahmlegen. Auch kann eine Regierung per Gerichtsbeschluss die Herausgabe der Logfiles des Masternodes erwirken (die meisten sog. anonymen Coins loggen die IP-Adressen der Anwender auf den Masternode-Computern."
@@ -359,18 +358,17 @@ faq:
 p2p:
   subheader: "Einführung"
   header: "Was sind P2P Lösungen?"
-  paragraph: "Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal."
-  paragraph2: "With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram. More platforms are in planning stages as we speak!"
-  paragraph3: "Weitere Plattformen (Slack & Reddit) werden bald folgen."
-  paragraph4: "Use XVG to tip content creators, pay freelancers, donate to NGOs or show endorsement for the posts you like! All that with zero fees(small fee for transactions to external wallets), instant transactions and no setup!"
-  paragraph5: "Im Folgenden finden Sie eine Reihe von Anleitungen, wie Sie unsere verschiedenen P2P-Lösungen verwenden können."
+  paragraph: "Verge bewegt sich ständig weiter in Richtung Massennutzung. Dieses Ziel soll durch die Integration von Vergetransaktionen auf Social Media Plattformen schneller erreicht werden."
+  paragraph2: "Ohne jegliche Vorinstallation können XVG Coins über Twitter, Discord und Telegram versandt und empfangen werden. Slack und Reddit werden bald folgen!" 
+  paragraph4: "Nutze XVG um Schriftsteller, Künstler, Freelancer, NGOs, etc. zu unterstützen und Ihnen direkt Geld zu senden. Nahezu kostenlos (0,2 XVG per Transaktion), innerhalb von max. 30 Sekunden, sicher und privat."
+  paragraph5: "Im Folgenden finden Sie eine Reihe von Anleitungen, wie Du unsere verschiedenen P2P-Lösungen verwenden können."
 p2ptoc:
-  telegramintro: "Info: Your Telegram profile has to show a username (@<username>) for tips to work. Benutzernamen können in den Telegram Einstellungen konfiguriert werden."
+  telegramintro: "Info: Dein Telegram-Account muss einen Nutzernamen (@<username>) haben, damit der Bot funktioniert. Benutzernamen können in den Telegram Einstellungen konfiguriert werden."
   toc:
     tagline: "P2P Lösungen"
     header: "Inhalt"
     telegram:
-      subheader: "Telegram Bot Handbuch"
+      subheader: "Telegram Bot Anleitung"
       bullet1: "1. <b>Füge den Verge Bot zu deiner Gruppe hinzu:</b> Suche in Telegram nach @VergeX_bot, klicke \"Zur Gruppe hinzufügen\" und wähle deine Gruppe aus."
       bullet2: "2. <b>Erhalte deine Verge Telegram Adresse:</b> Sende \"!address\" als Direktnachricht an den Bot."
       bullet3: "3. <b>Coins einzahlen:</b> Sende XVG Coins an die angegebene Adresse."
