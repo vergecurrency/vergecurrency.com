@@ -23,6 +23,24 @@
         <section id="preferred-content" class="tab-content">
           <ul class="footer-wallet-download-buttons-list twelve columns">
             <li class="col-xs-12 col-sm-6 col-md-4">
+              <a href="https://github.com/vergecurrency/VERGE/releases/download/4.0.1/VERGE-Qt-4.0.1.dmg" class="button wallet-download-button macos-download-button">
+                <div class="wallet-download-button-download-text">
+                  {{langPath.download | default: defaultLangPath.download}}
+                </div>
+                <i class="fa fa-apple wallet-download-button-icon" aria-hidden="true"></i>
+                <div class="wallet-download-button-description-text">{{langPath.wallets.macosx | default: defaultLangPath.wallets.macosx}}</div>
+              </a>
+            </li>
+            <li class="col-xs-12 col-sm-6 col-md-4">
+              <a href="https://github.com/vergecurrency/VERGE/releases/download/4.0.1/verge-4.0.1-win64.zip" class="button wallet-download-button windows-download-button">
+                <i class="fa fa-windows wallet-download-button-icon" aria-hidden="true"></i>
+                <span class="wallet-download-button-download-text">
+                  {{langPath.download | default: defaultLangPath.download}}
+                </span>
+                <span class="wallet-download-button-description-text">{{langPath.wallets.windows | default: defaultLangPath.wallets.windows}}</span>
+              </a>
+            </li>
+            <li class="col-xs-12 col-sm-6 col-md-4">
               <a href="https://github.com/vergecurrency/VERGE/releases/download/2.1/vergetorandroid.apk" class="button wallet-download-button android-download-button">
                 <div class="wallet-download-button-download-text">
                   {{langPath.download | default: defaultLangPath.download}}
