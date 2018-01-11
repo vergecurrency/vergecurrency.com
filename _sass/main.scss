@@ -72,6 +72,10 @@ a.view-all-wallets,
   padding: 70px 0;
 }
 
+@media (max-width:767px) {
+  padding:70px 15px;
+}
+
 .end-section {
   padding-bottom: 30px;
 }
