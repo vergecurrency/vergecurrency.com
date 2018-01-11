@@ -24,42 +24,43 @@
     }
   },
   "tagline": "Verge è una valuta digitale <strong>sicura</strong> e <strong>anonima</strong>, costruita con uno speciale focus sulla <strong>privacy</strong>.",
-  "download": "Download",
-  "view": "View",
-  "view_all_wallets": "View All Wallets",
+  "download": "Scarica",
+  "view": "Vedi",
+  "view_all_wallets": "Vedi tutti i portafogli",
   "info": {
     "about": {
       "header": "Perchè Verge?",
-      "paragraph": "Verge è una valuta digitale decentralizzata progettata per gli utenti che apprezzano la riservatezza. Verge migliora l'originale Blockchain Bitcoin utilizzando più reti più anonime come Tor e i2p. Verge utilizza un supporto multi-algoritmo di data mining per migliorare la sicurezza e offrire un'equa distribuzione di monete per i minatori."
+      "paragraph": "Verge è una valuta digitale decentralizzata progettata per gli utenti che apprezzano la riservatezza. Verge migliora l'originale Blockchain Bitcoin utilizzando più reti anonime come Tor e i2p. Verge utilizza un supporto multi-algoritmo di data mining per migliorare la sicurezza e offrire un'equa distribuzione di monete per i minatori."
     },
     "resources": {
       "header": "Risorse",
       "black_paper": "Black Paper",
       "github": "Codice sorgente su Github",
       "mining_pools": "Pool di data mining",
-      "mining_resources": "Risorse di mining",
+      "mining_resources": "Risorse per mining",
       "blockchain_explorer_prohashing": "Blockchain Explorer (ProHashing)",
       "blockchain_explorer_ccminer": "Blockchain Explorer (CCMiner.org)"
     },
     "tech_specs": {
       "header": "Specifiche tecniche",
-      "symbol": "<b>Symbol:</b> XVG",
-      "algo": "<b>Algorithm:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2",
-      "block_time": "<b>Tempo di blocco:</b> 30 secondi",
-      "rpc_port": "<b>RPC port:</b> 20102",
-      "p2p_port": "<b>P2P porta:</b> 21102"
+      "symbol": "<b>Simbolo:</b> XVG",
+      "algo": "<b>Algoritmo:</b> Scrypt, x17, groestl, blake2s, & lyra2rev2",
+      "block_time": "<b>Tempo per blocco:</b> 30 secondi",
+      "rpc_port": "<b>Porta RPC:</b> 20102",
+      "p2p_port": "<b>Porta P2P:</b> 21102"
     }
   },
   "developers": {
     "about": {
-      "header": "",
-      "paragraph": ""
+      "header": "Sviluppatori",
+      "paragraph": "Scrivere codice è difficile. Vorremmo rendere più facile per tutti lavorare su Verge, quindi abbiamo raccolto una serie di strumenti e li abbiamo inseriti in questo elenco."
     },
     "resources": {
-      "header": "",
-      "github_gui": "",
-      "rubygems_howto": "",
-      "github_repos": ""
+      "header": "Strumenti per sviluppatori",
+      "php": "Libreria PHP per il portafoglio Verge",
+      "nodejs": "Client Node.js per Verge",
+      "rubygems_howto": "Come installare RubyGems",
+      "github_repos": "Le nostre repository su Github"
     }
   },
   "exchanges": {
@@ -76,8 +77,13 @@
     "coinspot": "CoinSpot"
   },
   "wallets": {
-    "header": "Portafogli",
+    "header": "Portafoglio",
+    "info": {
+      "header": "Info:",
+      "message": "Se non stai installando un portafoglio Electrum, è possibile velocizzare l'installazione scaricando la blockchain Verge da <a href='https://verge-blockchain.com/' target='_blank'>qui</a>."
+    },
     "tabs": {
+      "preferred": "Preferito",
       "desktop": "Desktop",
       "mobile": "Mobile",
       "other": "Altro"
@@ -101,8 +107,13 @@
     "daemon_docker": "Verge Daemon immagine Docker",
     "coinomi": "Coinomi portafoglio multi valuta Android"
   },
+  "vendors": {
+    "header": "Venditori che accettano Verge.",
+    "paragraph": "Tutti i venditori qui sotto accettano con orgoglio Verge come metodo di pagamento per i loro beni e servizi."
+  },
   "roadmap": {
     "header": "Road Map",
+    "paragraph": "Il calendario di rilascio sarà aggiornato su base trimestrale.",
     "blackpaper": {
       "header": "\"Black\"Paper",
       "date": "<font color='#08b4e0'>Rilasciato</font> Giugno 4, 2017"
@@ -164,10 +175,32 @@
       "date": "Luglio, 2017"
     }
   },
+  "contributors": {
+    "about": {
+      "header": "Collaboratori",
+      "paragraph": "Verge è un software open-source che migliora costantemente grazie ai tantissimi collaboratori. Se vuoi contribuire, dai un' occhiata alle nostre <a href='https://github.com/vergecurrency' target='_blank'>repository Github</a> per vedere dove puoi fare la differenza!"
+    }
+  },
+  "donate": {
+    "about": {
+      "header": "Dona per sostenere lo sviluppo",
+      "paragraph": "Verge non è una moneta pre-minata, quindi tutto il suo sviluppo è finanziato da persone gentili come te."
+    },
+    "wallets": {
+      "verge": {
+        "header": "Indirizzo portafoglio Verge",
+        "address": "DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp"
+      },
+      "bitcoin": {
+        "header": "Indirizzo portafoglio Bitcoin",
+        "address": "142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1"
+      }
+    }
+  },
   "footer": {
     "social": {
-      "header": "Community",
-      "slack": "Lasco",
+      "header": "Comunità",
+      "slack": "Slack",
       "facebook": "Facebook",
       "twitter": "Twitter",
       "irc": "Chat IRC",
@@ -182,6 +215,6 @@
       "header": "Tweet",
       "by": "Tweet da @vergecurrency"
     },
-    "copyright": "&copy; 2017 Verge"
+    "copyright": "&copy; 2018 Verge"
   }
 }

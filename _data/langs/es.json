@@ -169,6 +169,7 @@
   "vendors": {
     "header": "Vendedores que aceptan Verge.",
     "paragraph": "Todos los vendedores que se encuentran a continuación aceptan Verge como método de pago por sus bienes y servicios.",
+    "nexwave": "Nexwave",
     "pexpeppers": "PexPeppers",
     "incredebites": "Incredebites",
     "trebaltek": "Trebaltek",
@@ -187,7 +188,8 @@
     "pmc": "Phuket Media Company",
     "meccamino": "Meccamino",
     "apetest": "APE Advisor Prep",
-    "morningwish": "Morning Wish"
+    "morningwish": "Morning Wish",
+    "snel": "Snel"
   },
   "roadmap": {
     "header": "Programa de lanzamiento Q4",
@@ -201,30 +203,30 @@
       "paragraph": "Revisión de la interfaz de usuario de billetera, VISP, Filtros Bloom, capacidad de intercambios atómicos.",
       "date": "<font color='#08b4e0'>Publicado</font> 15 de Noviembre de 2017"
     },
-    "ore_wallet_release_2": {
-      "header": "Etapa 2 del lanzamiento de la Cartera Core 3.0",
+    "core_wallet_release_2": {
+      "header": "Etapa 2 del lanzamiento de la Cartera Core 4.0",
       "paragraph": "Integración TOR y direccionamiento sigiloso opcional.",
-      "date": "Q4, 2017"
+      "date": "<font color='#08b4e0'>Publicado</font>"
     },
     "i2P_android_wallet": {
       "header": "Cartera Android I2P",
       "paragraph": "Transacciones móviles anónimas a través de la red I2P.",
-      "date": "Q4, 2017"
+      "date": "Q1, 2018"
     },
     "rsk_smart_contracts": {
       "header": "Contratos inteligentes RSK",
       "paragraph": "Se encuentra en un estado de prueba para bitcoin ahora. La fecha se encuentra estimada en esta línea de tiempo.",
-      "date": "Q4/Q1, 2017/2018"
+      "date": "Q1, 2018"
     },
     "merchandise_store": {
       "header": "Tienda con mercancía Online",
       "paragraph": "Vestimenta de Verge que puede ser comprada con XVG o BTC.",
-      "date": "Q4, 2017"
+      "date": "Q1, 2018"
     },
     "official_mining_pool": {
       "header": "Actualización de minado.",
       "paragraph": "Minero XVGui, Grupo oficial de minería, Guía de minería.",
-      "date": "Q4, 2017"
+      "date": "Q1, 2018"
     }
   },
   "developers": {
@@ -297,7 +299,7 @@
       "header": "Tweets",
       "by": "Tweets por @vergecurrency"
     },
-    "copyright": "&copy; 2017 Verge"
+    "copyright": "&copy; 2018 Verge"
   },
   "contest_page": {
     "options": {
@@ -575,7 +577,7 @@
       "bullet4": "4. <b>Envíar monedas en Twitter:</b> tweet \"@vergetips tip @<usuario><cantidad de XVG>\".",
       "bullet4note": "<b>Nota:</b> mínima cantidad de envío - 10 XVG",
       "bullet5": "5. <b>Retirar balance de tu Cartera Twitter:</b> tweet \"@vergetips withdraw <dirección Verge>\" para retirar <b>todo</b> tu balance en la Cartera (menos 2 XVG cobrados por comisión) a tu dirección Verge.",
-      "bullet6": "6. <b>Apoya a Verge:</b> envía monedas a  \"@vergecurrnecy\" para apoyar al equipo de Desarrollo!"
+      "bullet6": "6. <b>Apoya a Verge:</b> envía monedas a  \"@vergecurrency\" para apoyar al equipo de Desarrollo!"
     },
     "discord": {
       "subheader": "Bot Manual de Discord",
