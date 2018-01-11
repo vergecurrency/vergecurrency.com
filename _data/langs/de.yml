@@ -291,7 +291,7 @@ faq:
         answer3: "Ein netter Nebeneffekt der vielen Coins ist, dass sich der Preis eines einzelnen VergeCoins viel mehr an dem Preis der realen Währungen orientiert (z.B. USD oder EURO). Dadurch müssen die Menschen nicht mit zu vielen Dezimalstellen rechnen (z.B. als negatives Beispiel: \"Ich sende dir 0.002 Bitcoin\")."
       whocontrolsprice:
         question: "Wer bestimmt den Preis der VergeCoins?"
-        answer: "Der monetäre Wert von Verge wird durch Angebot und Nachfrage gesteuert.
+        answer: "Der monetäre Wert von Verge wird durch Angebot und Nachfrage gesteuert."
       publicledger:
         question: "Warum ist das Buchungsjournal öffentlich einsehbar?"
         answer: "Wir glauben fest daran, dass die Blockchain öffentlich sein muss, wenn es sich um eine Kryptowährung handelt. Durch den public ledger können gewerbliche Akzeptanzstellen leichter Verge als Zahlungsmittel anbieten (bürokratische Gründe). Alternativ bieten wir auch einen private ledger, der Nutzer hat somit die Wahl, wie er seine Transaktion ausführen möchte."
