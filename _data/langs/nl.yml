@@ -79,7 +79,19 @@ info:
     block_time: "<b>Block Tijd:</b> 30 seconds"
     rpc_port: "<b>RPC poort:</b> 20102"
     p2p_port: "<b>P2P poort:</b> 21102"
-
+developers:
+  about:
+    header: "Voor developers"
+    paragraph: "Het schrijven van code is moeilijk. Wij willen het je graag makkelijker maken om te werken aan Verge, daarom hebben wij een set aan tools verzameld en ze in een lijst verwerkt."
+  resources:
+    header: "Developers hulpmiddelen"
+    php: "PHP Library voor de Verge wallet"
+    ruby: "Ruby wrapped gem in combinatie met Verge wallet"
+    python: "VERGE API binding voor Python"
+    nodejs: "Node.js client voor VERGE"
+    rubygems_howto: "Hoe installeer je RubyGems"
+    github_gui: "GitHub Desktop"
+    github_repos: "Onze GitHub repositories"
 exchanges:
   header: "Verge aanschaffen"
   paragraph: "Verge is trots om dat wij worden vermeld op de volgende beurzen:"
@@ -106,10 +118,10 @@ exchanges:
   changenow: "ChangeNow"
 
 wallets:
-  header: "Wallets"
+  header: "Portemonnees"
   info:
-    header: "Info:"
-    message: "Als u geen Electrum wallet installeert, kunt u uw installatie versnellen door de Verge-blockchain hier te <a href='https://verge-blockchain.com/' target='_blank'>downloaden</a>."
+    header: "Informatie:"
+    message: "Als je geen Electrum portemonnee installeert, kan je de installatie versnellen door <a href='https://verge-blockchain.com/' target='_blank'>hier</a> de Verge blockchain te downloaden."
   tabs:
     preferred: "Voorkeur"
     desktop: "Desktop"
@@ -136,8 +148,9 @@ wallets:
   daemon_docker: "Verge Daemon Docker Image"
   coinomi: "Coinomi Multi Currency Android Wallet"
 vendors:
-  header: "leveranciers die in de echte wereled Verge accepteerd."
-  paragraph: "Alle onderstaande leveranciers accepteren Verge als betaalmethode voor hun goederen en services."
+  header: "Bedrijven die Verge Currency als betaalmethode accepteren"
+  paragraph: "Alle onderstaande bedrijven accepteren Verge Currency als betaalmethode voor hun goederen en services."
+  nexwave: "Nexwave"
   pexpeppers: "PexPeppers"
   incredebites: "Incredebites"
   trebaltek: "Trebaltek"
@@ -160,13 +173,14 @@ vendors:
   ethminers: "Ethereum Miners"
   heightcare: "HeightCare"
   ovpn: "oVPN"
+  snel: "Snel.com"
   #vendor: "rename me"
   #vendor: "rename me"
   #vendor: "rename me"
   #vendor: "rename me"
 roadmap:
-  header: "Q4 Release Schema"
-  paragraph: "Het release schema wordt per kwartaal bijgewerkt."
+  header: "Road Map"
+  paragraph: "De roadmap wordt per kwartaal geüpdatet."
   blackpaper:
     header: "\"Black\" Paper v3.0"
     date: "<font color='#08b4e0'>Released</font> 4. June 2017"
@@ -231,7 +245,7 @@ donate:
       address: DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp
     bitcoin:
       header: "Bitcoin Wallet Adres"
-      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1
+      address: 142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB
 
 footer:
   sociaal:
@@ -251,9 +265,9 @@ footer:
     instagram: "Instagram"
     blog: "Blog"
   tweets:
-    header: "Tweets"
-    by: "Tweets van @vergecurrency"
-  copyright: "&copy; <?php echo date("Y"); ?>Verge"
+    header: "tweets"
+    by: "Tweets door @vergecurrency"
+  copyright: "&copy; 2018 Verge"
   
 faq:
   tagline: "Veelgestelde Vragen"
@@ -430,4 +444,5 @@ p2ptoc:
       bullet4: "4. <b>Send Coins Over Discord:</b> send \"@vergebot tip @<username> <amount of XVG>\"."
       bullet4note: "<b>Note:</b> minimum tip amount - 10 XVG."
       bullet5: "5. <b>Withdraw Discord wallet balance:</b> send \"@vergebot withdraw <Verge address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
-bullet6: "6. <b>Support Verge:</b> tip @vergedev to support the Verge Team!"
+      bullet6: "6. <b>Support Verge:</b> tip @vergedev to support the Verge Team!"
+
