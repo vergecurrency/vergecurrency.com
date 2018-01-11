@@ -6,11 +6,11 @@ head:
   title: "Verge - veilige en anonieme digitale munteenheid, gebouwd met een focus op privacy"
 nav:
   about:
-    title: "Over Verge" 
+    title: "Over Verge"
   exchanges:
     title: "Verge Kopen"
   vendors:
-    title: "Vendors" 
+    title: "Vendors"
   wallets:
     title: "Wallets"
   roadmap:
@@ -40,7 +40,7 @@ view_all_wallets: "Bekijk alle wallets"
 contest_enter: "Neem deel om kans te maken op 70,000 Verge"
 mission:
   header: "Doelstelling"
-	paragraph: "Onze missie is om mensen over de hele wereld te motiveren door blockchain transacties in het dagelijks leven te integreren."Verge valuta maakt het mogelijk om direct transacties snel, efficiënt en privé aan te gaan. "Met Verge valuta hebben bedrijven en individuen flexibele opties voor het verzenden en ontvangen. Met één druk op de knop, Bieden wij nuttige integraties en hulpmiddelen waarmee ze grootschalige transacties kunnen uitvoeren tussen zowel handelaren en kleinschalige privé betalingen."
+paragraph: "Onze missie is om mensen over de hele wereld te motiveren door blockchain transacties in het dagelijks leven te integreren."Verge valuta maakt het mogelijk om direct transacties snel, efficiënt en privé aan te gaan. "Met Verge valuta hebben bedrijven en individuen flexibele opties voor het verzenden en ontvangen. Met één druk op de knop, Bieden wij nuttige integraties en hulpmiddelen waarmee ze grootschalige transacties kunnen uitvoeren tussen zowel handelaren en kleinschalige privé betalingen."
 info:
   about:
     header: "Over Verge"
@@ -268,7 +268,7 @@ footer:
     header: "tweets"
     by: "Tweets door @vergecurrency"
   copyright: "&copy; 2018 Verge"
-  
+
 faq:
   tagline: "Veelgestelde Vragen"
   toc:
@@ -445,4 +445,3 @@ p2ptoc:
       bullet4note: "<b>Note:</b> minimum tip amount - 10 XVG."
       bullet5: "5. <b>Withdraw Discord wallet balance:</b> send \"@vergebot withdraw <Verge address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address."
       bullet6: "6. <b>Support Verge:</b> tip @vergedev to support the Verge Team!"
-
