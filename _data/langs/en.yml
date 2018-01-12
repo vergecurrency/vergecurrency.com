@@ -84,27 +84,7 @@ info:
 exchanges:
   header: "Get Verge"
   paragraph: "Verge is proud to be listed on the following exchanges:"
-  bittrex: "Bittrex"
-  bitsquare: "BitSquare.io"
-  ccex: "C-Cex"
-  litebit: "Litebit.eu"
-  southxchange: "SouthXchange"
-  novaexchange: "NovaExchange"
-  cryptopia: "Cryptopia"
-  coinspot: "CoinSpot"
-  blocknet: "Blocknet"
-  exchangedi2p: "ExchangeD.I2P"
-  nexchange: "Nexchange"
-  coinwale: "Coinwale"
-  binance: "Binance"
-  hitbtc: "HitBTC"
-  upbit: "UpBit"
-  changelly: "Changelly"
-  nakamotox: "NakamotoX"
-  coinswitch: "CoinSwitch"
-  coin2001: "Coin2001"
-  cryptobridge: "CryptoBridge"
-  changenow: "ChangeNow"
+
 
 wallets:
   header: "Wallets"
