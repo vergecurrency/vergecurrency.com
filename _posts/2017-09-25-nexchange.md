@@ -3,10 +3,9 @@ layout:     post
 title:      "Nexchange Integration"
 subtitle:   "Welcome to VergeCurrency Family!"
 date:       2017-09-25 18:00:00
-authorName: "VergeCurrency Team"
-author:     "VergeCurrency"
+author:     "VergeCurrency Team"
 header-img: "images/post-header.png"
-permalink: /blog/nexchange/
+permalink:  /blog/nexchange/
 ---
 
 VergeCurrency Team is pleased to make an introduction of Nexchange to the community!
