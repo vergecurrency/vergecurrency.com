@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html class="blog">
-    {% assign pageName = 'blog' %}
-    {% assign langPath = site.data.langs[page.lang] %}
-    {% assign defaultLangPath = site.data.langs.en %}
-    {% include head.html %}
-    <!-- TODO: just a workaround -->
-    {% include shared/stickyBlogHeader.html stickyfootervisible=true hideLangDropdown=true %}
-    {{ content }}
-    {% include shared/footer.html %}
+{% assign pageName = 'blog' %}
+{% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
+{% include head.html %}
+<!-- TODO: just a workaround -->
+{% include shared/stickyBlogHeader.html stickyfootervisible=true hideLangDropdown=true %}
+{{ content }}
+{% include shared/footer.html %}
 </html>
