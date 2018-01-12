@@ -21,7 +21,7 @@
         padding: 0;
 
 		text-align: center;
-		
+
         @media (max-width: 1100px) {
             display: none;
         }
@@ -33,13 +33,13 @@
 
         h5 {
             margin-top: 0;
-            font-size: 22px;
+            font-size: 1.5em;
             color: $verge-blue;
         }
 
         p {
             line-height: inherit;
-            font-size: 18px;
+            font-size: 1em;
         }
     }
 
