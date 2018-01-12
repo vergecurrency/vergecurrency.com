@@ -3,7 +3,8 @@ layout:     post
 title:      "September Overview & The Roadmap Update"
 subtitle:   "Public Announcement"
 date:       2017-10-02 18:00:00
-author:     "VergeCurrency Team"
+authorName: "VergeCurrency Team"
+author:     "VergeCurrency"
 header-img: "images/post-header.png"
 permalink: /blog/september/
 ---

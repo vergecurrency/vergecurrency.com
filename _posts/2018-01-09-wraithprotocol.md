@@ -3,7 +3,8 @@ layout:     post
 title:      "Verge - the first \"Privacy as a Choice\" cryptocurrency with Wraith Protocol"
 subtitle:   "Press Release"
 date:       2018-01-09 21:49:00
-author:     "VergeCurrency Team"
+authorName: "VergeCurrency Team"
+author:     "VergeCurrency"
 header-img: "images/post-header.png"
 permalink: /blog/wraithprotocol/
 ---

@@ -3,7 +3,8 @@ layout:     post
 title:      "What is VergeCurrency?"
 subtitle:   "Verducate yourself!"
 date:       2017-09-27 18:00:00
-author:     "VergeCurrency Team"
+authorName: "VergeCurrency Team"
+author:     "VergeCurrency"
 header-img: "images/post-header.png"
 permalink: /blog/whatisverge/
 ---
