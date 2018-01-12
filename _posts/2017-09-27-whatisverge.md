@@ -5,7 +5,7 @@ subtitle:   "Verducate yourself!"
 date:       2017-09-27 18:00:00
 author:     "VergeCurrency Team"
 header-img: "images/post-header.png"
-permalink: /blog/whatisverge/
+permalink:  /blog/whatisverge/
 ---
 
 What is Verge?
