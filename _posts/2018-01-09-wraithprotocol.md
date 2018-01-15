@@ -5,7 +5,7 @@ subtitle:   "Press Release"
 date:       2018-01-09 21:49:00
 author:     "VergeCurrency Team"
 header-img: "images/post-header.png"
-permalink: /blog/wraithprotocol/
+permalink:  /blog/wraithprotocol/
 ---
 
 

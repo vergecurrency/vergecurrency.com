@@ -51,45 +51,45 @@
           $(function() {
               var $toc = $('#toc');
 
-              // Calls the tocify method on your HTML div
-              $toc.tocify({
-                  hashGenerator: function (text) {
-                    // prettify the text
-                    var hashValue = text.toLowerCase().replace(/\s/g, '-').replace(/\?/g, '');
+        // Calls the tocify method on your HTML div
+        $toc.tocify({
+          hashGenerator: function (text) {
+            // prettify the text
+            var hashValue = text.toLowerCase().replace(/\s/g, '-').replace(/\?/g, '');
 
-                    // fix double hyphens
-                    while (hashValue.indexOf('--') > -1) {
-                        hashValue = hashValue.replace(/--/g, '-');
-                    }
+            // fix double hyphens
+            while (hashValue.indexOf('--') > -1) {
+              hashValue = hashValue.replace(/--/g, '-');
+            }
 
-                    // fix colon-space instances
-                    while (hashValue.indexOf(':-') > -1) {
-                        hashValue = hashValue.replace(/:-/g, '-');
-                    }
+            // fix colon-space instances
+            while (hashValue.indexOf(':-') > -1) {
+              hashValue = hashValue.replace(/:-/g, '-');
+            }
 
-                    return hashValue;
-                  },
-                  highlightOffset: 0,
-                  scrollTo: 20,
-                  ignoreSelector: '.tagline, footer h1'
-              });
+            return hashValue;
+          },
+          highlightOffset: 0,
+          scrollTo: 20,
+          ignoreSelector: '.tagline, footer h1'
+        });
 
-              $(window).on('scroll', function () {
-                  if (window.scrollY > 180) {
-                      $toc.addClass('sticky');
-                  } else {
-                      $toc.removeClass('sticky');
-                  }
-              });
+        $(window).on('scroll', function () {
+          if (window.scrollY > 180) {
+            $toc.addClass('sticky');
+          } else {
+            $toc.removeClass('sticky');
+          }
+        });
 
-              if (window.scrollY > 180) {
-                  $toc.addClass('sticky');
-              } else {
-                  $toc.removeClass('sticky');
-              }
+        if (window.scrollY > 180) {
+          $toc.addClass('sticky');
+        } else {
+          $toc.removeClass('sticky');
+        }
 
-              $(window).scroll();
-          });
-      }(window, document, window.jQuery));
-  </script>
-</body>
+        $(window).scroll();
+      });
+    }(window, document, window.jQuery));
+    </script>
+  </body>
