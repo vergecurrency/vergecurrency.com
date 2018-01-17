@@ -364,7 +364,7 @@ faq:
         answer2: "You are able to see all transactions on the blockchain, but you won't know who the transactions are going to or where the senders/receivers physically are located."
       richlist:
         question: "Where Can I View the Verge Rich List?"
-        answer: "You can view the rich list <a href='http://vergecurrency.info/richlist' target='_blank'>here</a> or <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a>. If first site is down, please let us know since it is hosted on a community-donated server."
+        answer: "You can view the rich list <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a> or <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a>. If first site is down, please let us know since it is hosted on a community-donated server."
       wheretolearnmore:
         question: "Where Can I Go to Learn More About Verge?"
         answer: "We are on a ton of different <a href='#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
