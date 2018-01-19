@@ -313,7 +313,7 @@ faq:
         answer2: "Вы можете видеть все транзакции на блокчейне, но вы не будете знать, с кем идут транзакции или где физически находятся отправители / получатели."
       richlist:
         question: "Где я могу посмотреть на крупнейших держателей Verge?"
-        answer: "Вы можете увидеть список <a href='http://vergecurrency.info/richlist' target='_blank'>здесь</a> или <a href='https://verge-blockchain.info/richlist' target='_blank'>здесь</a>. Если первый сайт не работает, сообщите нам об этом, так как он размещен на сервере, предоставленном сообществом."
+        answer: "Вы можете увидеть список <a href='https://verge-blockchain.info/richlist' target='_blank'>здесь</a> или <a href='https://verge-blockchain.info/richlist' target='_blank'>здесь</a>. Если первый сайт не работает, сообщите нам об этом, так как он размещен на сервере, предоставленном сообществом."
       wheretolearnmore:
         question: "Где я могу узнать больше о Verge?"
         answer: "Мы используем массу социальных платформ <a href='#social' target='_blank'>полный список</a> наиболее активны в Twitter, Telegram, Slack, и Discord."
@@ -342,7 +342,7 @@ faq:
         answer2: "Говоря проще, вы можете просмотреть все транзакции на блокчейне, однако вы никогда не узнаете, кто именно получит транзакции и их физическое местоположение."
       richlist:
         question: "Где я могу посмотреть список Verge Rich?"
-        answer: "Вы можете посмотреть его по <a href='http://vergecurrency.info/richlist' target='_blank'>ссылке</a>. Если сайт не работает, пожалуйста, сообщите нам об этом, так как он существует на средства сообщества."
+        answer: "Вы можете посмотреть его по <a href='https://verge-blockchain.info/richlist' target='_blank'>ссылке</a>. Если сайт не работает, пожалуйста, сообщите нам об этом, так как он существует на средства сообщества."
       wheretolearnmore:
         question: "Где я могу узнать больше о Verge?"
         answer: "Мы постепенно охватываем все больше социальных <a href='https://vergecurrency.com/langs/ru/#social' target='_blank'>платформ</a>. Следите за нами в Twitter, Telegram, Slack и Discord."
