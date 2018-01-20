@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- iojs-v1
+sudo: false
+env:
+  global:
+  - secure: QRpiBO+ksklkJ/LUj82LEjYwftMN27LBbGJndWuKzWrc7QhktNJ1mpznMOuFvL9iTX5pNYiu0ofB7zKyANmfNmWkrovunZDRDi8VXR1n3wwQh54rE+TbJGUcC/ZDQdu0kebghKIv1IJziXSaYWJicNXUatlViExzEaV9G9AdcNE=
+cache:
+  directories:
+  - node_modules
+notifications:
+  email: false
+deploy:
+  provider: npm
+  email: npm@christophwitzko.com
+  skip_cleanup: true
+  api_key:
+    secure: CbVoqgawrJWMFb79dns9LXJi84yTy6y/3tg45NQ+iq3YhcmAw2+XBxYNjZq7je7OJgRbCr8WafBVNez1ZTRT2mJq8f2fITA/eUBTHNmKc4VJn+yeLJk5tMMImiv7WYceY6+dsIYfMkpE7Ha5wBIzgC0DXlfUwg1QCu4yuklr9ms=
+  on:
+    branch: master
+    repo: christophwitzko/git-refs

@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- iojs-v1
+sudo: false
+env:
+  global:
+    secure: SrLbD8eHsdqXerERekmcjzspNO3SR/toho9p9PPBlFzr3eJj/kuz0DqqVZEjtjm+4jKPpDwV//8SMCRmH/X1VOluav1XwyeiMKQxXzbQA2UDr+cRgt7OwPM5afmLKMEP2dbrBVkXpVbB9S/u+UKYAvFkui38SZ1ZRl3BNtGY5iE=
+cache:
+  directories:
+  - node_modules
+notifications:
+  email: false
+deploy:
+  provider: npm
+  email: npm@christophwitzko.com
+  skip_cleanup: true
+  api_key:
+    secure: BaImM/dih95KOz2eiF0vHz8scnfGblEJpYx1o0j8jjWLz01uB8ZACewYkm8Azx0fZYzc28rlVKuqhNgcqcFR5xrsi2nUxMWmlCSAisgRmSraro3aB+Gq9JQ5OvhZh8FN4opgepBKkgPpx1nhbEcSZQbyBV1mzRlnlYvNDoorr18=
+  on:
+    branch: master
+    repo: christophwitzko/path-object
