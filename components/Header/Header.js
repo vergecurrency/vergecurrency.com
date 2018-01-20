@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
 const Header = () => (
-  <nav class="row around-xs middle-xs top-sm">
-    <div class="col-xs-5 col-sm start-xs">
+  <nav className="row around-xs middle-xs top-sm">
+    <div className="col-xs-5 col-sm start-xs">
       <Link href="/">
         <img src="https://placehold.it/88x88" alt="Verge" />
       </Link>
     </div>
-    <div class="hidden-xs col-sm-9 end-sm">
+    <div className="hidden-xs col-sm-9 end-sm">
       <Link href="/about">
         <a>About</a>
       </Link>
@@ -27,7 +27,7 @@ const Header = () => (
         <a>Get Verge</a>
       </Link>
     </div>
-    <div class="col-xs-5 col-sm-1 end-xs">
+    <div className="col-xs-5 col-sm-1 end-xs">
       <img src="https://placehold.it/44x88" alt="Dropdown" />
     </div>
     <style jsx>{`
@@ -37,6 +37,7 @@ const Header = () => (
       }
 
       img {
+        cursor: pointer;
         vertical-align: middle
       }
 
@@ -51,7 +52,7 @@ const Header = () => (
       }
 
       a:hover {
-        color: red
+        color: yellow
       }
 
       a:last-child {
