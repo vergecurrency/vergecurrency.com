@@ -4,7 +4,11 @@ dist
 
 # dependencies
 node_modules
+
+# lockfiles
+# (don't ignore when ready for production)
 package-lock.json
+yarn.lock
 
 # logs
 *.log
