@@ -9,6 +9,8 @@ const Layout = (props) => (
       {props.children}
     </div>
 
+    <Footer />
+
     <style jsx>{`
       div:not(.container) {
         display: flex
