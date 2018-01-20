@@ -1,66 +1,94 @@
 import Link from 'next/link';
 
 const Header = () => (
-  <nav className="row around-xs middle-xs top-sm">
-    <div className="col-xs-5 col-sm start-xs">
+  <header className="row around-xs middle-xs top-sm">
+    <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
       <Link href="/">
-        <img src="https://placehold.it/88x88" alt="Verge" />
+        <a><img src="https://placehold.it/128x50" alt="Verge" /></a>
       </Link>
     </div>
-    <div className="hidden-xs col-sm-9 end-sm">
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-      <Link href="/wallets">
-        <a>Wallets</a>
-      </Link>
-      <Link href="/roadmap">
-        <a>Roadmap</a>
-      </Link>
-      <Link href="/community">
-        <a>Community</a>
-      </Link>
-      <Link href="/learn-more">
-        <a>Learn more</a>
-      </Link>
-      <Link href="/get-verge">
-        <a>Get Verge</a>
-      </Link>
-    </div>
-    <div className="col-xs-5 col-sm-1 end-xs">
-      <img src="https://placehold.it/44x88" alt="Dropdown" />
-    </div>
+    <nav className="col-xs-5 col-sm end-xs">
+      <div className="hidden-xs">
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+        <Link href="/wallets">
+          <a>Wallets</a>
+        </Link>
+        <Link href="/roadmap">
+          <a>Roadmap</a>
+        </Link>
+        <Link href="/community">
+          <a>Community</a>
+        </Link>
+        <Link href="/learn-more">
+          <a>Learn more</a>
+        </Link>
+        <Link href="/get-verge">
+          <a>Get Verge</a>
+        </Link>
+      </div>
+      <button>
+        =
+      </button>
+    </nav>
     <style jsx>{`
-      nav {
-        background: red
+      header {
         height: 88px
       }
 
-      img {
+      header > div,
+      button {
+        align-self: center
+      }
+
+      header > div img {
+        display: block
+      }
+
+      button {
         cursor: pointer;
+        width: 40px
+        height: 40px
+      }
+
+      nav > div,
+      button {
+        display: inline-block
         vertical-align: middle
       }
 
-      a {
+      nav a {
         color: #05131e
         font-family: 'Avenir Next', Arial, sans-serif
         font-size: 15px
         line-height: 88px
-        padding: 9px
-        margin: 9px
+        margin: 6px
+        padding: 6px
         text-decoration: none
       }
 
-      a:hover {
-        color: yellow
+      nav a:last-child {
+        font-weight: 600
+        margin-right: 12px
       }
 
-      a:last-child {
-        font-weight: 600
-        margin: 0
+      @media (min-width: 64em) {
+        nav a {
+          margin: 9px
+          padding: 9px
+        }
+
+        nav a:last-child {
+          margin-right: 18px
+        }
+      }
+
+      nav a:hover {
+        color: yellow
       }
     `}</style>
-  </nav>
+  </header>
 );
 
 export default Header;

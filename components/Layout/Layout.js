@@ -1,13 +1,25 @@
 import Header from '../Header/Header';
-
-const layoutStyle = {
-  border: '1px solid #DDD'
-}
+import Footer from '../Footer/Footer';
 
 const Layout = (props) => (
-  <div className="container" style={layoutStyle}>
+  <div>
     <Header />
-    {props.children}
+
+    <div className="container">
+      {props.children}
+    </div>
+
+    <style jsx>{`
+      div:not(.container) {
+        display: flex
+        flex-direction: column
+        min-height: 100vh
+      }
+
+      .container {
+        flex-grow: 1
+      }
+    `}</style>
   </div>
 );
 
