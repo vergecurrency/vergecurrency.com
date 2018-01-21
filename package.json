@@ -25,6 +25,7 @@
     "i18next-express-middleware": "^1.0.9",
     "i18next-node-fs-backend": "^1.0.0",
     "i18next-xhr-backend": "^1.5.1",
+    "isomorphic-unfetch": "^2.0.0",
     "next": "^4.2.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
