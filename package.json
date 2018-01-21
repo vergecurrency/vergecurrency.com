@@ -15,7 +15,7 @@
     "url": "git+https://StanFaas@bitbucket.org/StanFaas/vergecurrency.com.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Stan Faas & Edwin de Boer",
   "license": "ISC",
   "homepage": "https://bitbucket.org/StanFaas/vergecurrency.com#readme",
   "dependencies": {
