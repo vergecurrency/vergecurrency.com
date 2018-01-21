@@ -19,6 +19,8 @@ const Index = (props) => (
                 cryptocurrency.
               </h1>
               <p>Built with focus on privacy.</p>
+              <a href="btn btn-primary">Download OSX Wallet</a>
+              <a href="btn btn-secondary">Watch video</a>
             </div>  
           </div>
         </div>
