@@ -7,15 +7,19 @@ const Footer = ({ t }) => (
         <div className="col-xs">
           <div className="container">
             <div className="row around-xs middle-xs top-sm">
-              <div className="col-xs col-sm-11 start-xs">
+              <div className="col-xs-11 start-xs">
                 <h3>{t('footer:stay_updated')}</h3>
-                <p>{t('footer:stay_updated_text')}</p>
+                <div className="row">
+                  <div className="col-xs col-md-9 start-xs">
+                    <p>{t('footer:stay_updated_text')}</p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="row around-xs middle-xs top-sm">
-              <div className="col-xs col-sm-11 start-xs center-sm">
+              <div className="col-xs-11 center-xs">
                 <div className="row">
-                  <div className="col-xs col-sm-3">
+                  <div className="col-xs-6 col-sm-3">
                     <ul>
                       <li>
                         <h4>{t('footer:navigation')}</h4>
@@ -52,7 +56,7 @@ const Footer = ({ t }) => (
                       </li>
                     </ul>
                   </div>
-                  <div className="col-xs col-sm-3">
+                  <div className="col-xs-6 col-sm-3">
                     <ul>
                       <li>
                         <h4>{t('footer:developers')}</h4>
@@ -89,7 +93,7 @@ const Footer = ({ t }) => (
                       </li>
                     </ul>
                   </div>
-                  <div className="col-xs col-sm-3">
+                  <div className="col-xs-6 col-sm-3">
                     <ul>
                       <li>
                         <h4>{t('footer:community')}</h4>
@@ -121,7 +125,7 @@ const Footer = ({ t }) => (
                       </li>
                     </ul>
                   </div>
-                  <div className="col-xs col-sm-3">
+                  <div className="col-xs-6 col-sm-3">
                     <ul>
                       <li>
                         <h4>{t('footer:verge_core')}</h4>
@@ -183,29 +187,64 @@ const Footer = ({ t }) => (
     <style jsx>{`
       footer {
         background: #091721;
+        font-family: 'Avenir Next', Arial, sans-serif;
+        padding-top: 3rem;
       }
 
       footer > div:last-child {
         background: white;
+        margin-top: 3rem;
+      }
+
+      h3, h4 {
+        color: white;
+        font-size: .8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+      }
+
+      h3 { // optical illusion solved
+        margin-left: .1rem;
+      }
+
+      h3 + div p {
+        color: white;
+        font-size: 2rem
+        font-weight: 600;
+        line-height: 1.4;
+        margin-bottom: 2.5rem;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0 0 1.5rem;
+        padding: 0;
+        text-align: left;
+      }
+
+      @media (min-width: 48rem) {
+        h3 + div p {
+          line-height: auto;
+        }
+        ul {
+          margin-bottom: 0;
+        }
       }
 
       a {
         color: white;
-        font-family: 'Avenir Next', Arial, sans-serif;
-        font-size: 15px;
-        // line-height: 88px;
-        // margin: 9px;
-        // padding: 9px;
+        display: inline-block;
+        font-size: .8rem;
+        line-height: 1.3rem;
+        margin-bottom:.2rem;
         text-decoration: none;
+        text-transform: initial;
+        align-self: start;
       }
 
       a:hover {
         text-decoration: underline
-      }
-
-      a:last-child {
-        // font-weight: 600;
-        // margin: 0;
       }
     `}</style>
   </div>
