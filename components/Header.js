@@ -33,7 +33,7 @@ const Header = ({ t }) => (
           <button>
             =
           </button>
-        </nav>  
+        </nav>
       </div>
     </div>
     <style jsx>{`
@@ -41,7 +41,7 @@ const Header = ({ t }) => (
         height: 88px;
         position: fixed;
         width: 100%;
-        z-index:9;
+        z-index: 9;
       }
 
       header > div,
