@@ -422,7 +422,7 @@
         },
         "richlist": {
           "question": "가장 많은 Verge를 가진 사람은 어디에서 볼 수 있나요?",
-          "answer": "Verge의 소유 리스트는 <a href='http://vergecurrency.info/richlist' target='_blank'>여기</a>에서 볼 수 있습니다. 만약 사이트 접속이 안된다면 저희에게 알려주세요. 해당 사이트는 커뮤니티의 지원에 의해 운영되는 서버로 호스팅 되고 있습니다."
+          "answer": "Verge의 소유 리스트는 <a href='https://verge-blockchain.info/richlist' target='_blank'>여기</a>에서 볼 수 있습니다. 만약 사이트 접속이 안된다면 저희에게 알려주세요. 해당 사이트는 커뮤니티의 지원에 의해 운영되는 서버로 호스팅 되고 있습니다."
         },
         "wheretolearnmore": {
           "question": "Verge에 대한 정보를 어디에서 더 얻을 수 있나요?",
