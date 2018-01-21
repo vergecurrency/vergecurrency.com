@@ -1,40 +1,47 @@
 import Link from 'next/link';
 
 const Header = ({ t }) => (
-  <header className="row around-xs middle-xs top-sm">
-    <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
-      <Link href="/">
-        <a><img src="/static/img/vergecurrency-logo.png" alt="Verge Currency" /></a>
-      </Link>
-    </div>
-    <nav className="col-xs-5 col-sm end-xs">
-      <div className="hidden-xs">
-        <Link prefetch href="/about">
-          <a>{t('header:about')}</a>
-        </Link>
-        <Link href="/wallets">
-          <a>{t('header:wallets')}</a>
-        </Link>
-        <Link href="/roadmap">
-          <a>{t('header:roadmap')}</a>
-        </Link>
-        <Link href="/community">
-          <a>{t('header:community')}</a>
-        </Link>
-        <Link href="/learn-more">
-          <a>{t('header:learn_more')}</a>
-        </Link>
-        <Link prefetch href="/get-verge">
-          <a>{t('header:get_verge')}</a>
-        </Link>
+  <header>
+    <div className="container">
+      <div className="row around-xs middle-xs">
+        <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
+          <Link href="/">
+            <a><img src="/static/img/vergecurrency-logo.png" alt="Verge Currency" /></a>
+          </Link>
+        </div>
+        <nav className="col-xs-5 col-sm end-xs">
+          <div className="hidden-xs">
+            <Link prefetch href="/about">
+              <a>{t('header:about')}</a>
+            </Link>
+            <Link href="/wallets">
+              <a>{t('header:wallets')}</a>
+            </Link>
+            <Link href="/roadmap">
+              <a>{t('header:roadmap')}</a>
+            </Link>
+            <Link href="/community">
+              <a>{t('header:community')}</a>
+            </Link>
+            <Link href="/learn-more">
+              <a>{t('header:learn_more')}</a>
+            </Link>
+            <Link prefetch href="/get-verge">
+              <a>{t('header:get_verge')}</a>
+            </Link>
+          </div>
+          <button>
+            =
+          </button>
+        </nav>  
       </div>
-      <button>
-        =
-      </button>
-    </nav>
+    </div>
     <style jsx>{`
       header {
         height: 88px;
+        position: fixed;
+        width: 100%;
+        z-index:9;
       }
 
       header > div,

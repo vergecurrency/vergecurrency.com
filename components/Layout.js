@@ -20,9 +20,7 @@ const Layout = function (props) {
 
         <Header t={t} />
 
-        <div className="container-fluid">
-          {props.children}
-        </div>
+        {props.children}
 
         <Footer t={t} />
       </div>

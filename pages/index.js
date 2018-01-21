@@ -7,15 +7,20 @@ import Layout from '../components/Layout';
 
 const Index = (props) => (
   <Layout>
-    <div className="hero">
-      <div className="row">
-        <div className="col-sm-12">
-          <h1 className="text-center">
-            Privacy as a choice.
-            A secure and anonymous
-            cryptocurrency.
-          </h1>
-          <p>Built with focus on privacy.</p>
+    <div className="ribbon">
+      <div className="ribbon-img"></div>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-6 col-sm-offset-3 text-center">
+            <div className="ribbon-txt">
+              <h1>
+                Privacy as a choice.
+                A secure and anonymous
+                cryptocurrency.
+              </h1>
+              <p>Built with focus on privacy.</p>
+            </div>  
+          </div>
         </div>
       </div>
     </div>
@@ -42,8 +47,21 @@ const Index = (props) => (
         opacity: 0.6;
       }
 
-      .hero {
-        background: url('/static/img/home-hero-bg.jpg');
+      .ribbon {
+        position: relative;
+        min-height: 930px;
+        color: #fff;
+      }
+      .ribbon-img {
+        background-size: cover;
+        position: absolute;
+        min-width: 100%;
+        min-height: 930px;
+        z-index: -100;
+        background: url('/static/img/home-hero-bg.jpg') no-repeat center center;
+      }
+      .ribbon-txt {
+        margin-top:180px;
       }
     `}</style>
   </Layout>
