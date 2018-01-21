@@ -34,58 +34,58 @@ const Header = ({ t }) => (
     </nav>
     <style jsx>{`
       header {
-        height: 88px
+        height: 88px;
       }
 
       header > div,
       button {
-        align-self: center
+        align-self: center;
       }
 
       header > div img {
-        display: block
+        display: block;
       }
 
       button {
         cursor: pointer;
-        width: 40px
-        height: 40px
+        width: 40px;
+        height: 40px;
       }
 
       nav > div,
       button {
-        display: inline-block
-        vertical-align: middle
+        display: inline-block;
+        vertical-align: middle;
       }
 
       nav a {
-        color: #05131e
-        font-family: 'Avenir Next', Arial, sans-serif
-        font-size: 15px
-        line-height: 88px
-        margin: 6px
-        padding: 6px
-        text-decoration: none
+        color: #05131e;
+        font-family: 'Avenir Next', Arial, sans-serif;
+        font-size: 15px;
+        line-height: 88px;
+        margin: 6px;
+        padding: 6px;
+        text-decoration: none;
       }
 
       nav a:last-child {
-        font-weight: 600
-        margin-right: 12px
+        font-weight: 600;
+        margin-right: 12px;
       }
 
       @media (min-width: 64em) {
         nav a {
-          margin: 9px
-          padding: 9px
+          margin: 9px;
+          padding: 9px;
         }
 
         nav a:last-child {
-          margin-right: 18px
+          margin-right: 18px;
         }
       }
 
       nav a:hover {
-        color: yellow
+        color: yellow;
       }
     `}</style>
   </header>

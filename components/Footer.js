@@ -166,29 +166,29 @@ const Footer = ({ t }) => (
     </div>
     <style jsx>{`
       footer > div {
-        background: blue
+        background: blue;
       }
       footer > div:last-child {
-        background: white
+        background: white;
       }
 
       a {
-        color: yellow
-        font-family: 'Avenir Next', Arial, sans-serif
-        font-size: 15px
-        // line-height: 88px
-        // margin: 9px
-        // padding: 9px
-        text-decoration: none
+        color: yellow;
+        font-family: 'Avenir Next', Arial, sans-serif;
+        font-size: 15px;
+        // line-height: 88px;
+        // margin: 9px;
+        // padding: 9px;
+        text-decoration: none;
       }
 
       a:hover {
-        color: white
+        color: white;
       }
 
       a:last-child {
-        // font-weight: 600
-        // margin: 0
+        // font-weight: 600;
+        // margin: 0;
       }
     `}</style>
   </footer>
