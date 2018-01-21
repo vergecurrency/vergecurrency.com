@@ -38,10 +38,13 @@ const Header = ({ t }) => (
     </div>
     <style jsx>{`
       header {
-        height: 88px;
         position: fixed;
         width: 100%;
         z-index: 9;
+      }
+
+      .row {
+        height: 88px;
       }
 
       header > div,

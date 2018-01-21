@@ -4,69 +4,30 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
+import Ribbon from '../components/Ribbon';
 
-const Index = (props) => (
-  <Layout>
-    <div className="ribbon">
-      <div className="ribbon-img"></div>
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-6 col-sm-offset-3 text-center">
-            <div className="ribbon-txt">
-              <h1>
-                Privacy as a choice.
-                A secure and anonymous
-                cryptocurrency.
-              </h1>
-              <p>Built with focus on privacy.</p>
-              <a href="btn btn-primary">Download OSX Wallet</a>
-              <a href="btn btn-secondary">Watch video</a>
-            </div>  
-          </div>
-        </div>
-      </div>
-    </div>
-    <style jsx>{`
-      h1, a {
-        font-family: "Avenir Next", Arial, sans-serif;
-      }
+import { translate } from 'react-i18next';
+import i18n from '../i18n';
 
-      ul {
-        padding: 0;
-      }
+const Home = function (props) {
+  const { t } = props;
 
-      li {
-        list-style: none;
-        margin: 5px 0;
-      }
+  return (
+    <Layout>
+      <Ribbon
+        title={t("home:ribbon:title")}
+        text={t("home:ribbon:text")}
+        buttonPrimary={t("home:ribbon:buttonPrimary")}
+        buttonSecondary={t("home:ribbon:buttonSecondary")}
+      />
+    </Layout>
+  );
+}
 
-      a {
-        text-decoration: none;
-        color: blue;
-      }
+const Extended = translate(['header', 'footer', 'common', 'home', 'ribbon'], { i18n, wait: process.browser })(Home);
 
-      a:hover {
-        opacity: 0.6;
-      }
-
-      .ribbon {
-        position: relative;
-        min-height: 930px;
-        color: #fff;
-      }
-      .ribbon-img {
-        background-size: cover;
-        position: absolute;
-        min-width: 100%;
-        min-height: 930px;
-        z-index: -100;
-        background: url('/static/img/home-hero-bg.jpg') no-repeat center center;
-      }
-      .ribbon-txt {
-        margin-top:180px;
-      }
-    `}</style>
-  </Layout>
+Extended.getInitialProps = async ({ req }) => (
+  (true === (req && !process.browser)) ? i18n.getInitialProps(req, ['common', 'header', 'footer', 'home', 'ribbon']) : {}
 );
 
-export default Index
+export default Extended;

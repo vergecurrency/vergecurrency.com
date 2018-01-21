@@ -1,3 +1,8 @@
 {
-  "ribbon_h1": "Privacy as a <i>choice</i>.<br />A secure and anonymous<br />cryptocurrency."
+  "ribbon": {
+    "title": "Privacy as a <i>choice</i>.<br />A secure and anonymous<br />cryptocurrency.",
+    "text": "Built with focus on privacy.",
+    "buttonPrimary": "Download OSX Wallet",
+    "buttonSecondary": "Watch video"
+  }
 }
