@@ -1,20 +1,22 @@
-import Layout from '../components/Layout';
-import Head from 'next/head'
-import fetch from 'isomorphic-unfetch'
+import fetch from 'isomorphic-unfetch';
+
+import Head from 'next/head';
 import Link from 'next/link';
+
+import Layout from '../components/Layout';
 
 const Index = (props) => (
   <Layout>
     <h1>VergeCurrency Blog</h1>
-    <ul>
-      {props.items.map(item => (
-        <li key={item}>
+    <ul>{
+      props.items.map((item, index) => (
+        <li key={`${index}`}>
           <Link as={`${item.link}`} href={`${item.title}`}>
             <a>{item.title}</a>
           </Link>
         </li>
-      ))}
-    </ul>
+      ))
+    }</ul>
     <style jsx>{`
       h1, a {
         font-family: "Avenir Next", Arial, sans-serif;
@@ -39,7 +41,7 @@ const Index = (props) => (
       }
     `}</style>
   </Layout>
-)
+);
 
 Index.getInitialProps = async function () {
   const res = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2Fverge-currency-xvg')
@@ -52,7 +54,7 @@ Index.getInitialProps = async function () {
       dataID.push(guid)
     }
   }
-  
+
   dataIDpush(data.items);
 
   return {
