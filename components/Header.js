@@ -4,7 +4,7 @@ const Header = ({ t }) => (
   <header className="row around-xs middle-xs top-sm">
     <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
       <Link href="/">
-        <a><img src="https://placehold.it/128x50" alt="Verge" /></a>
+        <a><img src="/static/img/vergecurrency-logo.png" alt="Verge Currency" /></a>
       </Link>
     </div>
     <nav className="col-xs-5 col-sm end-xs">
@@ -59,7 +59,7 @@ const Header = ({ t }) => (
       }
 
       nav a {
-        color: #05131e;
+        color: #fff;
         font-family: 'Avenir Next', Arial, sans-serif;
         font-size: 15px;
         line-height: 88px;

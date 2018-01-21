@@ -12,14 +12,14 @@ const Layout = function (props) {
   return (
     <div>
       <Head>
-        <link rel="stylesheet" href="static/bootstrap-reboot.css" type="text/css" />
-        <link rel="stylesheet" href="static/responsive-display.css" type="text/css" />
+        <link rel="stylesheet" href="static/css/bootstrap-reboot.css" type="text/css" />
+        <link rel="stylesheet" href="static/css/responsive-display.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
       </Head>
 
       <Header t={t} />
 
-      <div className="container">
+      <div className="container-fluid">
         {props.children}
       </div>
 
