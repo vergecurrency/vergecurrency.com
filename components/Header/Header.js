@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Header = () => (
+const Header = ({ t }) => (
   <header className="row around-xs middle-xs top-sm">
     <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
       <Link href="/">
@@ -10,22 +10,22 @@ const Header = () => (
     <nav className="col-xs-5 col-sm end-xs">
       <div className="hidden-xs">
         <Link href="/about">
-          <a>About</a>
+          <a>{t('header:about')}</a>
         </Link>
         <Link href="/wallets">
-          <a>Wallets</a>
+          <a>{t('header:wallets')}</a>
         </Link>
         <Link href="/roadmap">
-          <a>Roadmap</a>
+          <a>{t('header:roadmap')}</a>
         </Link>
         <Link href="/community">
-          <a>Community</a>
+          <a>{t('header:community')}</a>
         </Link>
         <Link href="/learn-more">
-          <a>Learn more</a>
+          <a>{t('header:learn_more')}</a>
         </Link>
         <Link href="/get-verge">
-          <a>Get Verge</a>
+          <a>{t('header:get_verge')}</a>
         </Link>
       </div>
       <button>

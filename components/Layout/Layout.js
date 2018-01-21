@@ -3,7 +3,10 @@ import Head from 'next/head'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
-const Layout = (props) => (
+import { translate } from 'react-i18next';
+import i18n from '../../i18n';
+
+const Layout = ({ t, initialI18nStore }, props) => (
   <div>
     <Head>
       <link rel="stylesheet" href="static/bootstrap-reboot.css" type="text/css" />
@@ -11,13 +14,13 @@ const Layout = (props) => (
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
     </Head>
 
-    <Header />
+    <Header t={t} />
 
     <div className="container">
       {props.children}
     </div>
 
-    <Footer />
+    <Footer t={t} />
 
     <style jsx>{`
       div:not(.container) {
@@ -33,4 +36,10 @@ const Layout = (props) => (
   </div>
 );
 
-export default Layout;
+const Extended = translate(['header', 'footer', 'common'], { i18n, wait: process.browser })(Layout);
+
+Extended.getInitialProps = async ({ req }) => (
+  (true === (req && !process.browser)) ? i18n.getInitialProps(req, ['common', 'header', 'footer']) : {}
+);
+
+export default Extended;

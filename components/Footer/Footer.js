@@ -1,14 +1,13 @@
 import Link from 'next/link';
 
-
-const Footer = () => (
+const Footer = ({ t }) => (
   <footer>
     <div className="row">
       <div className="col-xs">
         <div className="row around-xs middle-xs top-sm">
           <div className="col-xs col-sm-11 start-xs">
-            <h3>STAY UPDATED</h3>
-            <p>Keep up with the latest news and articles, and find out all about events happening with Verge Currency</p>
+            <h3>{t('footer:stay_updated')}</h3>
+            <p>{t('footer:stay_updated_text')}</p>
           </div>
         </div>
         <div className="row around-xs middle-xs top-sm">
@@ -17,36 +16,36 @@ const Footer = () => (
               <div className="col-xs col-sm-3">
                 <ul>
                   <li>
-                    <h4>NAVIGATION</h4>
+                    <h4>{t('footer:navigation')}</h4>
                   </li>
                   <li>
                     <Link href="/about">
-                      <a>About</a>
+                      <a>{t('footer:about')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/get-verge">
-                      <a>Get Verge</a>
+                      <a>{t('footer:get_verge')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/vendors">
-                      <a>Vendors</a>
+                      <a>{t('footer:vendors')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/wallets">
-                      <a>Wallets</a>
+                      <a>{t('footer:wallets')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/roadmap">
-                      <a>Roadmap</a>
+                      <a>{t('footer:roadmap')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/p2p-solutions">
-                      <a>P2P Solutions</a>
+                      <a>{t('footer:p2p_solutions')}</a>
                     </Link>
                   </li>
                 </ul>
@@ -54,36 +53,36 @@ const Footer = () => (
               <div className="col-xs col-sm-3">
                 <ul>
                   <li>
-                    <h4>DEVELOPERS</h4>
+                    <h4>{t('footer:developers')}</h4>
                   </li>
                   <li>
                     <Link href="/developers/how-to-install-rubygems">
-                      <a>How to install RubyGems</a>
+                      <a>{t('footer:how_to_install_rubygems')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/developers/github-desktop">
-                      <a>GitHub Desktop</a>
+                      <a>{t('footer:github_desktop')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/developers/our-github-repositories">
-                      <a>Our GitHub repositories</a>
+                      <a>{t('footer:our_github_repositories')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/developers/php-library-for-verge-wallet">
-                      <a>PHP Library for Verge wallet</a>
+                      <a>{t('footer:php_library_for_verge_wallet')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/developers/ruby-wrapped-gem">
-                      <a>Ruby wrapped gem</a>
+                      <a>{t('footer:ruby_wrapped_gem')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/community/developers">
-                      <a>Click to see more</a>
+                      <a>{t('footer:click_to_see_more')}</a>
                     </Link>
                   </li>
                 </ul>
@@ -91,31 +90,31 @@ const Footer = () => (
               <div className="col-xs col-sm-3">
                 <ul>
                   <li>
-                    <h4>COMMUNITY</h4>
+                    <h4>{t('footer:community')}</h4>
                   </li>
                   <li>
                     <Link href="/community/developers">
-                      <a>Developers</a>
+                      <a>{t('footer:developers')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/community/contributers">
-                      <a>Contributers</a>
+                      <a>{t('footer:contributers')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/community/donate">
-                      <a>Donate</a>
+                      <a>{t('footer:donate')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/community/social">
-                      <a>Social</a>
+                      <a>{t('footer:social')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/community/get-involved">
-                      <a>Get involved</a>
+                      <a>{t('footer:get_involved')}</a>
                     </Link>
                   </li>
                 </ul>
@@ -123,36 +122,36 @@ const Footer = () => (
               <div className="col-xs col-sm-3">
                 <ul>
                   <li>
-                    <h4>VERGE CORE</h4>
+                    <h4>{t('footer:verge_core')}</h4>
                   </li>
                   <li>
                     <Link href="/our-team">
-                      <a>Our team</a>
+                      <a>{t('footer:our_team')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/about-us">
-                      <a>About us</a>
+                      <a>{t('footer:about_us')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/history">
-                      <a>History</a>
+                      <a>{t('footer:history')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/send-an-email">
-                      <a>Send an email</a>
+                      <a>{t('footer:send_an_email')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/press">
-                      <a>Press</a>
+                      <a>{t('footer:press')}</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/faq">
-                      <a>FAQ</a>
+                      <a>{t('footer:faq')}</a>
                     </Link>
                   </li>
                 </ul>

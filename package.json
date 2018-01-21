@@ -19,8 +19,15 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/StanFaas/vergecurrency.com#readme",
   "dependencies": {
+    "express": "^4.16.2",
+    "i18next": "^10.3.0",
+    "i18next-browser-languagedetector": "^2.1.0",
+    "i18next-express-middleware": "^1.0.9",
+    "i18next-node-fs-backend": "^1.0.0",
+    "i18next-xhr-backend": "^1.5.1",
     "next": "^4.2.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-i18next": "^7.3.1"
   }
 }
