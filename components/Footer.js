@@ -24,7 +24,7 @@ const Footer = ({ t }) => (
                     </Link>
                   </li>
                   <li>
-                    <Link href="/get-verge">
+                    <Link prefetch href="/get-verge">
                       <a>{t('footer:get_verge')}</a>
                     </Link>
                   </li>

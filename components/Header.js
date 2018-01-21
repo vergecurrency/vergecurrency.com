@@ -9,7 +9,7 @@ const Header = ({ t }) => (
     </div>
     <nav className="col-xs-5 col-sm end-xs">
       <div className="hidden-xs">
-        <Link href="/about">
+        <Link prefetch href="/about">
           <a>{t('header:about')}</a>
         </Link>
         <Link href="/wallets">
@@ -24,7 +24,7 @@ const Header = ({ t }) => (
         <Link href="/learn-more">
           <a>{t('header:learn_more')}</a>
         </Link>
-        <Link href="/get-verge">
+        <Link prefetch href="/get-verge">
           <a>{t('header:get_verge')}</a>
         </Link>
       </div>
