@@ -11,28 +11,30 @@ const Layout = function (props) {
 
   return (
     <div>
-      <Head>
-        <link rel="stylesheet" href="static/css/bootstrap-reboot.css" type="text/css" />
-        <link rel="stylesheet" href="static/css/responsive-display.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
-      </Head>
+      <div id="layout">
+        <Head>
+          <link rel="stylesheet" href="static/css/bootstrap-reboot.css" type="text/css" />
+          <link rel="stylesheet" href="static/css/responsive-display.css" type="text/css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
+        </Head>
 
-      <Header t={t} />
+        <Header t={t} />
 
-      <div className="container-fluid">
-        {props.children}
+        <div className="container-fluid">
+          {props.children}
+        </div>
+
+        <Footer t={t} />
       </div>
 
-      <Footer t={t} />
-
       <style jsx>{`
-        div:not(.container) {
+        #layout {
           display: flex;
           flex-direction: column;
           min-height: 100vh;
         }
 
-        .container {
+        .container-fluid {
           flex-grow: 1;
         }
       `}</style>
