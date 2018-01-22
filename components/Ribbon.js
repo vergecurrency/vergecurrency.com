@@ -32,48 +32,6 @@ const Ribbon = (props) => (
         </div>
       </div>
     </div>
-    <style jsx>{`
-      h1, a {
-        font-family: "Avenir Next", Arial, sans-serif;
-      }
-
-      ul {
-        padding: 0;
-      }
-
-      li {
-        list-style: none;
-        margin: 5px 0;
-      }
-
-      a {
-        color: blue;
-        text-decoration: none;
-      }
-
-      a:hover {
-        opacity: .6;
-      }
-
-      .ribbon {
-        color: #fff;
-        min-height: 930px;
-        position: relative;
-      }
-
-      .ribbon-img {
-        background: url('/static/img/home-hero-bg.jpg') no-repeat center center;
-        background-size: cover;
-        min-width: 100%;
-        min-height: 930px;
-        position: absolute;
-        z-index: -100;
-      }
-
-      .ribbon-txt {
-        margin-top: 180px;
-      }
-    `}</style>
   </div>
 );
 

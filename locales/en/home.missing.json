@@ -1,0 +1,13 @@
+{
+  "ribbon": {
+    "title": "ribbon.title",
+    "text": "ribbon.text",
+    "buttonPrimary": "ribbon.buttonPrimary",
+    "buttonSecondary": "ribbon.buttonSecondary"
+  },
+  "home": {
+    "ribbon": {
+      "title": "home.ribbon.title"
+    }
+  }
+}
