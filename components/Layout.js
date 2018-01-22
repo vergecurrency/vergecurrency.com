@@ -41,6 +41,6 @@ const Layout = function (props) {
   )
 };
 
-const Extended = translate(['header', 'footer', 'common', 'home'], { i18n, wait: process.browser })(Layout);
+const Extended = translate(['header', 'footer', 'common'], { i18n, wait: process.browser })(Layout);
 
 export default Extended;

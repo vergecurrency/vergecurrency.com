@@ -17,7 +17,7 @@ const options = {
   updateMissing: true,
 
   interpolation: {
-    escapeValue: false,
+    escapeValue: true,
     formatSeparator: ',',
     format: (value, format, lng) => {
       if (format === 'uppercase') return value.toUpperCase();
