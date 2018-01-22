@@ -19,7 +19,7 @@ const Home = function (props) {
           <div className="row center-xs">
             <div className="col-xs-10 col-sm-9 col-md-6 text-center">
               <div className="ribbon-txt">
-                <h1>{t("home:ribbon.title")}</h1>
+                <h1>{t("home:ribbon:title")}</h1>
                 <p>{t("home:ribbon.text")}</p>
                 <Link href="/">
                   <a className="btn btn-primary">{t("home:ribbon.buttonPrimary")}</a>
