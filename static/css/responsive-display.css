@@ -3,3 +3,6 @@
 @media (max-width: 47.9375em) {
   .hidden-xs { display: none !important; }
 }
+@-ms-viewport{
+  width: device-width;
+}

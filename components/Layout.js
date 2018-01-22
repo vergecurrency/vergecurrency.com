@@ -11,13 +11,14 @@ const Layout = function (props) {
 
   return (
     <div>
-      <div id="layout">
-        <Head>
-          <link rel="stylesheet" href="static/css/bootstrap-reboot.css" type="text/css" />
-          <link rel="stylesheet" href="static/css/responsive-display.css" type="text/css" />
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
-        </Head>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link rel="stylesheet" href="static/css/bootstrap-reboot.css" type="text/css" />
+        <link rel="stylesheet" href="static/css/responsive-display.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
+      </Head>
 
+      <div id="layout">
         <Header t={t} />
 
         {props.children}
@@ -27,14 +28,6 @@ const Layout = function (props) {
 
       <style jsx>{`
         #layout {
-          display: flex;
-          flex-direction: column;
-          min-height: 100vh;
-          overflow: hidden; // gg
-        }
-
-        .container-fluid {
-          flex-grow: 1;
         }
       `}</style>
     </div>
