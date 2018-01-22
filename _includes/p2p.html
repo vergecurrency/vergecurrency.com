@@ -16,115 +16,40 @@
     </div>
     <div class="faq-content-container col-md-8 bg-gray">
       <div class="container">
-        <ul>
-          <li>
-            <input type="checkbox">
-            <i></i>
-            <h1>{{langPath.p2p.header | default: defaultLangPath.p2p.header}}</h1>
-            <p>{{langPath.p2p.paragraph | default: defaultLangPath.p2p.paragraph}}</p>
-            <p>{{langPath.p2p.paragraph2 | default: defaultLangPath.p2p.paragraph2}}</p>
-            <p>{{langPath.p2p.paragraph3 | default: defaultLangPath.p2p.paragraph3}}</p>
-            <p>{{langPath.p2p.paragraph4 | default: defaultLangPath.p2p.paragraph4}}</p>
-            <p>{{langPath.p2p.paragraph5 | default: defaultLangPath.p2p.paragraph5}}</p>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <input type ="checkbox">
-            <i></i>
-            <h1>{{langPath.p2ptoc.toc.telegram.subheader | default: defaultLangPath.p2ptoc.toc.telegram.subheader}}</h1>
-            <p>
-              {{langPath.p2ptoc.telegramintro | defaults: defaultLangPath.p2ptoc.telegramintro}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.telegram.bullet1 | default: defaultLangPath.p2ptoc.toc.telegram.bullet1}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.telegram.bullet2 | default: defaultLangPath.p2ptoc.toc.telegram.bullet2}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.telegram.bullet3 | default: defaultLangPath.p2ptoc.toc.telegram.bullet3}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.telegram.bullet4 | default: defaultLangPath.p2ptoc.toc.telegram.bullet4}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.telegram.bullet5 | default: defaultLangPath.p2ptoc.toc.telegram.bullet5}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.telegram.bullet6 | default: defaultLangPath.p2ptoc.toc.telegram.bullet6}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.telegram.bullet7 | default: defaultLangPath.p2ptoc.toc.telegram.bullet7}}
-            </p>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <input type ="checkbox">
-            <i></i>
-            <h1>{{langPath.p2ptoc.toc.twitter.subheader | default: defaultLangPath.p2ptoc.toc.twitter.subheader}}</h1>
-            <p>
-              {{langPath.p2ptoc.toc.twitter.bullet1 | default: defaultLangPath.p2ptoc.toc.twitter.bullet1}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.twitter.bullet2 | default: defaultLangPath.p2ptoc.toc.twitter.bullet2}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.twitter.bullet3 | default: defaultLangPath.p2ptoc.toc.twitter.bullet3}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.twitter.bullet4 | default: defaultLangPath.p2ptoc.toc.twitter.bullet4}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.twitter.bullet4note | default: defaultLangPath.p2ptoc.toc.twitter.bullet4note}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.twitter.bullet5 | default: defaultLangPath.p2ptoc.toc.twitter.bullet5}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.twitter.bullet6 | default: defaultLangPath.p2ptoc.toc.twitter.bullet6}}
-            </p>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <input type ="checkbox">
-            <i></i>
-            <h1>{{langPath.p2ptoc.toc.discord.subheader | default: defaultLangPath.p2ptoc.toc.discord.subheader}}</h1>
-            <p>
-              {{langPath.p2ptoc.toc.discord.bullet1 | default: defaultLangPath.p2ptoc.toc.discord.bullet1}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.discord.bullet2 | default: defaultLangPath.p2ptoc.toc.discord.bullet2}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.discord.bullet3 | default: defaultLangPath.p2ptoc.toc.discord.bullet3}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.discord.bullet4 | default: defaultLangPath.p2ptoc.toc.discord.bullet4}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.discord.bullet4note | default: defaultLangPath.p2ptoc.toc.discord.bullet4note}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.discord.bullet5 | default: defaultLangPath.p2ptoc.toc.discord.bullet5}}
-            </p>
-            <p>
-              {{langPath.p2ptoc.toc.discord.bullet6 | default: defaultLangPath.p2ptoc.toc.discord.bullet6}}
-            </p>
-          </li>
-        </ul>
-      </div>
+        <div id="p2p"></div>
     </div>
-    {% include shared/footer.html %}
-    <script src="/javascript/vendor/jqueryui.js"></script>
-    <script src="/javascript/vendor/jquery.tocify.js"></script>
-    <script>
-    (function(window, document, $) {
-      // Executes your code when the DOM is ready.  Acts the same as $(document).ready()
-      $(function() {
-        var $toc = $('#toc');
+  </div>
+  {% include shared/footer.html %}
+  <script src="/javascript/vendor/jqueryui.js"></script>
+  <script src="/javascript/vendor/jquery.tocify.js"></script>
+  <script>
+    var obj = {{ langPath.p2ptoc.toc | default: defaultLangPath.p2ptoc.toc | jsonify }};
+
+    delete obj['header'] && delete obj['tagline'];
+
+    for (items in obj) {
+      $("#p2p").append(
+    	 	"<ul><li id='" + items + "'>" +
+          "<input type='checkbox'>" +
+          "<i></i>" +
+      		"<h1>" + obj[items].subheader + "</h1>" +
+        "</li></ul>"
+      );
+
+      delete obj[items]['subheader'];
+
+      for (subitems in obj[items]){
+        $("#" + items).append(
+          "<p>" + obj[items][subitems] + "</p>"
+        )
+      }
+    }
+  </script>
+  <script>
+      (function(window, document, $) {
+          // Executes your code when the DOM is ready.  Acts the same as $(document).ready()
+          $(function() {
+              var $toc = $('#toc');
 
         // Calls the tocify method on your HTML div
         $toc.tocify({
