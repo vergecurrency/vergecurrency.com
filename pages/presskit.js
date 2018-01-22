@@ -10,14 +10,14 @@ import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 const Presskit = function (props) {
-  const { t } = props;
+  const { t, initialI18nStore } = props;
 
   return (
     <Layout>
       <Ribbon
-        title={t("presskit:ribbon:title")}
-        text={t("presskit:ribbon:text")}
-        buttonPrimary={t("presskit:ribbon:buttonPrimary")}
+        title={t("presskit:ribbon.title")}
+        text={t("presskit:ribbon.text")}
+        buttonPrimary={t("presskit:ribbon.buttonPrimary")}
       />
     </Layout>
   );

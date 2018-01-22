@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { translate } from 'react-i18next';
 
 const Ribbon = (props) => (
   <div>

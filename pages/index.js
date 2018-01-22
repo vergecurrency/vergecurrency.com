@@ -10,15 +10,15 @@ import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 const Home = function (props) {
-  const { t } = props;
+  const { t, initialI18nStore } = props;
 
   return (
     <Layout>
       <Ribbon
-        title={t("home:ribbon:title")}
-        text={t("home:ribbon:text")}
-        buttonPrimary={t("home:ribbon:buttonPrimary")}
-        buttonSecondary={t("home:ribbon:buttonSecondary")}
+        title={t("home:ribbon.title")}
+        text={t("home:ribbon.text")}
+        buttonPrimary={t("home:ribbon.buttonPrimary")}
+        buttonSecondary={t("home:ribbon.buttonSecondary")}
       />
     </Layout>
   );
