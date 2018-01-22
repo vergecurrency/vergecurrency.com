@@ -8,7 +8,7 @@ import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 const Home = function (props) {
-  const { t, initialI18nStore } = props;
+  const { t } = props;
 
   return (
     <Layout>
@@ -33,55 +33,51 @@ const Home = function (props) {
         </div>
       </div>
       <style jsx>{`
-      h1, a {
-        font-family: "Avenir Next", Arial, sans-serif;
-      }
+        h1, a {
+          font-family: "Avenir Next", Arial, sans-serif;
+        }
 
-      ul {
-        padding: 0;
-      }
+        ul {
+          padding: 0;
+        }
 
-      li {
-        list-style: none;
-        margin: 5px 0;
-      }
+        li {
+          list-style: none;
+          margin: 5px 0;
+        }
 
-      a {
-        color: blue;
-        text-decoration: none;
-      }
+        a {
+          color: blue;
+          text-decoration: none;
+        }
 
-      a:hover {
-        opacity: .6;
-      }
+        a:hover {
+          opacity: .6;
+        }
 
-      .ribbon {
-        color: #fff;
-        min-height: 930px;
-        position: relative;
-      }
+        .ribbon {
+          color: #fff;
+          min-height: 930px;
+          position: relative;
+        }
 
-      .ribbon-img {
-        background: url('/static/img/home-hero-bg.jpg') no-repeat center center;
-        background-size: cover;
-        min-width: 100%;
-        min-height: 930px;
-        position: absolute;
-        z-index: -100;
-      }
+        .ribbon-img {
+          background: url('/static/img/home-hero-bg.jpg') no-repeat center center;
+          background-size: cover;
+          min-width: 100%;
+          min-height: 930px;
+          position: absolute;
+          z-index: -100;
+        }
 
-      .ribbon-txt {
-        margin-top: 180px;
-      }
-    `}</style>
+        .ribbon-txt {
+          margin-top: 180px;
+        }
+      `}</style>
     </Layout>
   );
 }
 
 const Extended = translate(['common', 'header', 'footer', 'home'], { i18n, wait: process.browser })(Home);
-
-Extended.getInitialProps = ({ req }) => (
-  (true === (req && !process.browser)) ? i18n.getInitialProps(req, ['common', 'header', 'footer', 'home']) : {}
-);
 
 export default Extended;

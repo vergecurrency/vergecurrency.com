@@ -25,8 +25,4 @@ const Presskit = function (props) {
 
 const Extended = translate(['header', 'footer', 'common', 'presskit', 'ribbon'], { i18n, wait: process.browser })(Presskit);
 
-Extended.getInitialProps = async ({ req }) => (
-  (true === (req && !process.browser)) ? i18n.getInitialProps(req, ['common', 'header', 'footer', 'presskit', 'ribbon']) : {}
-);
-
 export default Extended;

@@ -41,10 +41,6 @@ const Layout = function (props) {
   )
 };
 
-const Extended = translate(['header', 'footer', 'common'], { i18n, wait: process.browser })(Layout);
-
-Extended.getInitialProps = async ({ req }) => (
-  (true === (req && !process.browser)) ? i18n.getInitialProps(req, ['common', 'header', 'footer']) : {}
-);
+const Extended = translate(['header', 'footer', 'common', 'home'], { i18n, wait: process.browser })(Layout);
 
 export default Extended;
