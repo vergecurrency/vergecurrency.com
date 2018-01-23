@@ -4,5 +4,19 @@
     "text": "Built with focus on privacy.",
     "buttonPrimary": "Download OSX Wallet",
     "buttonSecondary": "Watch video"
+  },
+  "USPs": {
+    "first": {
+      "header": "A cryptocurrency designed for everyday use.",
+      "text": "Improving upon the original Bitcoin blockchain and aims to fulfill its initial purpose."
+    },
+    "second": {
+      "header": "Bringing blockchain into everyday life.",
+      "text": "Verge currency makes it possible to engage in direct transactions."
+    },
+    "third": {
+      "header": "Open Source Development & Community Driven.",
+      "text": "Verge is not a private company funded by pre-mined coins or ICO's."
+    }
   }
 }

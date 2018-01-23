@@ -19,7 +19,11 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/StanFaas/vergecurrency.com#readme",
   "dependencies": {
+    "autoprefixer": "7.1.5",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-plugin-wrap-in-js": "^1.1.0",
     "express": "^4.16.2",
+    "glob": "^7.1.2",
     "i18next": "^10.3.0",
     "i18next-browser-languagedetector": "^2.1.0",
     "i18next-express-middleware": "^1.0.9",
@@ -27,8 +31,15 @@
     "i18next-xhr-backend": "^1.5.1",
     "isomorphic-unfetch": "^2.0.0",
     "next": "^4.2.3",
+    "node-sass": "^4.4.0",
+    "normalize.css": "^7.0.0",
+    "nprogress": "^0.2.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.7",
+    "raw-loader": "^0.5.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-i18next": "^7.3.1"
+    "react-i18next": "^7.3.1",
+    "sass-loader": "^6.0.6"
   }
 }

@@ -22,58 +22,58 @@ const Home = function (props) {
                 <h1 dangerouslySetInnerHTML={{ __html: t("home:ribbon:title") }}></h1>
                 <p>{t("home:ribbon.text")}</p>
                 <Link href="/">
-                  <a className="btn btn-primary">{t("home:ribbon.buttonPrimary")}</a>
+                  <a className="btn btn-primary btn-wallet">{t("home:ribbon.buttonPrimary")}</a>
                 </Link>
                 <Link href="/">
-                  <a className="btn btn-secondary">{t("home:ribbon.buttonSecondary")}</a>
+                  <a className="btn btn-secondary btn-video">{t("home:ribbon.buttonSecondary")}</a>
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <style jsx>{`
-        h1, a {
-          font-family: "Avenir Next", Arial, sans-serif;
-        }
-
-        ul {
-          padding: 0;
-        }
-
-        li {
-          list-style: none;
-          margin: 5px 0;
-        }
-
-        a {
-          color: blue;
-          text-decoration: none;
-        }
-
-        a:hover {
-          opacity: .6;
-        }
-
-        .ribbon {
-          color: #fff;
-          min-height: 930px;
-          position: relative;
-        }
-
-        .ribbon-img {
-          background: url('/static/img/home-hero-bg.jpg') no-repeat center center;
-          background-size: cover;
-          min-width: 100%;
-          min-height: 930px;
-          position: absolute;
-          z-index: -100;
-        }
-
-        .ribbon-txt {
-          margin-top: 180px;
-        }
-      `}</style>
+      <div className="container white-container white-container--home">
+        <div className="row center-xs">
+          <div className="col-xs-9 col-sm-10">
+            <div className="row between-xs">
+              <div className="col-xs-12 col-sm-4 start-xs reason">
+                <h3>{t("home:USPs:first.header")}</h3>
+                <p>{t("home:USPs:first.text")}</p>
+              </div>
+              <div className="col-xs-12 col-sm-4 start-xs reason">
+                <h3>{t("home:USPs:second.header")}</h3>
+                <p>{t("home:USPs:second.text")}</p>
+              </div>
+              <div className="col-xs-12 col-sm-4 start-xs reason">
+                <h3>{t("home:USPs:third.header")}</h3>
+                <p>{t("home:USPs:third.text")}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container pt pb">
+        <div className="row">
+          <div className="col-md-2 col-sm-4 col-xs-6">
+              Mentioned in:
+          </div>
+          <div className="col-md-2 col-sm-4 col-xs-6">
+              Forbes
+          </div>
+          <div className="col-md-2 col-sm-4 col-xs-6">
+              Guardian
+          </div>
+          <div className="col-md-2 col-sm-4 col-xs-6">
+              the Sun
+          </div>
+          <div className="col-md-2 col-sm-4 col-xs-6">
+              USA Commerce
+          </div>
+          <div className="col-md-2 col-sm-4 col-xs-6">
+              The Motley Fool
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 }

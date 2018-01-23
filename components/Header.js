@@ -1,7 +1,19 @@
 import Link from 'next/link';
+import Head from 'next/head';
+import NProgress from 'nprogress';
+import Router from 'next/router';
+
+Router.onRouteChangeStart = (url) => {
+  NProgress.start()
+}
+Router.onRouteChangeComplete = () => NProgress.done()
+Router.onRouteChangeError = () => NProgress.done()
 
 const Header = ({ t }) => (
   <header>
+    <Head>
+      <link rel="stylesheet" type="text/css" href="../static/css/ngprogress.css" />
+    </Head>
     <div className="container">
       <div className="row around-xs middle-xs">
         <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
