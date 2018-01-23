@@ -16,6 +16,7 @@ const Layout = function (props) {
       <Head>
         <title>VergeCurrency.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link rel='shortcut icon' type='image/x-icon' href='../static/img/favicon.ico' />
         <link rel="stylesheet" href="static/css/bootstrap-reboot.css" type="text/css" />
         <link rel="stylesheet" href="static/css/responsive-display.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
