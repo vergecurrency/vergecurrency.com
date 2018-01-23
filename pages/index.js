@@ -27,6 +27,7 @@ const Home = function (props) {
                 <Link href="/">
                   <a className="btn btn-secondary btn-video">{t("home:ribbon.buttonSecondary")}</a>
                 </Link>
+                <p className="blackpaper">Read the <a href="#"><i>Blackpaper</i></a> of Verge Currency</p>
               </div>
             </div>
           </div>
@@ -37,15 +38,15 @@ const Home = function (props) {
           <div className="col-xs-9 col-sm-10">
             <div className="row between-xs">
               <div className="col-xs-12 col-sm-4 start-xs reason">
-                <h3>{t("home:USPs:first.header")}</h3>
+                <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:first.header") }}></h3>
                 <p>{t("home:USPs:first.text")}</p>
               </div>
               <div className="col-xs-12 col-sm-4 start-xs reason">
-                <h3>{t("home:USPs:second.header")}</h3>
+                <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:second.header") }}></h3>
                 <p>{t("home:USPs:second.text")}</p>
               </div>
               <div className="col-xs-12 col-sm-4 start-xs reason">
-                <h3>{t("home:USPs:third.header")}</h3>
+                <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:third.header") }}></h3>
                 <p>{t("home:USPs:third.text")}</p>
               </div>
             </div>
