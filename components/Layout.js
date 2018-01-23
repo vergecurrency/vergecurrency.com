@@ -34,6 +34,7 @@ const Layout = function (props) {
 
       <style jsx>{`
         #layout {
+          overflow: hidden;
         }
       `}</style>
     </div>
