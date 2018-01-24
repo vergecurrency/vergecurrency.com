@@ -114,13 +114,13 @@ const Presskit = function (props) {
                           <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
-                              0,0,0
+                              0, 0, 0
                             </p>
                           </div>
                           <div className="col-xs-12">
                             <p>
                               <small>CMYK</small><br />
-                              91,79,62,97
+                              91, 79, 62, 97
                             </p>
                           </div>
                         </div>
@@ -140,13 +140,13 @@ const Presskit = function (props) {
                           <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
-                              255,255,255
+                              255, 255, 255
                             </p>
                           </div>
                           <div className="col-xs-12">
                             <p>
                               <small>CMYK</small><br />
-                              0,0,0,0
+                              0, 0, 0, 0
                             </p>
                           </div>
                         </div>
@@ -166,13 +166,13 @@ const Presskit = function (props) {
                           <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
-                              0,149,193
+                              0, 149, 193
                             </p>
                           </div>
                           <div className="col-xs-12">
                             <p>
                               <small>CMYK</small><br />
-                              79,24,14,1
+                              79, 24, 14, 1
                             </p>
                           </div>
                         </div>
@@ -192,13 +192,13 @@ const Presskit = function (props) {
                           <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
-                              76,194,241
+                              76, 194, 241
                             </p>
                           </div>
                           <div className="col-xs-12">
                             <p>
                               <small>CMYK</small><br />
-                              63,0,0,0
+                              63, 0, 0, 0
                             </p>
                           </div>
                         </div>
@@ -218,13 +218,13 @@ const Presskit = function (props) {
                           <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
-                              0,105,148
+                              0, 105, 148
                             </p>
                           </div>
                           <div className="col-xs-12">
                             <p>
                               <small>CMYK</small><br />
-                              0,0,0,0
+                              0, 0, 0, 0
                             </p>
                           </div>
                         </div>
@@ -244,13 +244,13 @@ const Presskit = function (props) {
                           <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
-                              219,239,248
+                              219, 239, 248
                             </p>
                           </div>
                           <div className="col-xs-12">
                             <p>
                               <small>CMYK</small><br />
-                              17,0,3,0
+                              17, 0, 3, 0
                             </p>
                           </div>
                         </div>
@@ -270,13 +270,13 @@ const Presskit = function (props) {
                           <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
-                              0,61,88
+                              0, 61, 88
                             </p>
                           </div>
                           <div className="col-xs-12">
                             <p>
                               <small>CMYK</small><br />
-                              100,0,0,75
+                              100, 0, 0, 75
                             </p>
                           </div>
                         </div>
@@ -296,16 +296,16 @@ const Presskit = function (props) {
                           <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
-                              7,90,127
+                              7, 90, 127
                             </p>
                           </div>
                           <div className="col-xs-12">
-                          <p>
-                            <small>CMYK</small><br />
-                            100,0,0,56
-                          </p>
+                            <p>
+                              <small>CMYK</small><br />
+                              100, 0, 0, 56
+                            </p>
+                          </div>
                         </div>
-                      </div>
                       </div>
                     </div>
                   </div>

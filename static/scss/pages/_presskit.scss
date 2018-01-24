@@ -48,8 +48,7 @@
     }
 
     p {
-      font-size: 1rem;
-      letter-spacing: .067rem;
+      font-size: .9rem;
       padding: 0 .2rem;
 
       @media (min-width: $min-width-sm) {
@@ -57,13 +56,11 @@
       }
 
       small {
-        letter-spacing: .5px;
         opacity: .7;
       }
 
       strong {
         font-size: 110%;
-        letter-spacing: .5px;
       }
     }
   }
