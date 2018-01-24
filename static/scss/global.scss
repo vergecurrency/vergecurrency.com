@@ -6,6 +6,7 @@ $max-width-xs: 47.9375em; // as 48em is defined by flexboxgrid,
                           // this seems to scale along pretty well..
 
 // @import 'partials/menu';
+@import 'partials/header';
 @import 'partials/base';
 @import 'partials/button';
 @import 'partials/ribbon';
