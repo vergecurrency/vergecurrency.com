@@ -312,6 +312,18 @@ const Presskit = function (props) {
                 </div>
               </div>
             </div>
+            <div className="row center-xs">
+              <div className="col-xs-12">
+                <div className="container blue-container blue-container--presskit">
+                  <div className="row center-xs">
+                    <div className="col-xs-8">
+                      <h2>Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.</h2>
+                      <p>Verge Currency is a cryptocurrency designed for everyday use.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
