@@ -99,19 +99,19 @@ const Presskit = function (props) {
                 <div className="row center-xs pt pb colors">
                   <div className="col-xs-12">
                     <div className="row around-xs middle-xs">
-                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--black">
+                      <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--black">
                         <div className="row start-xs">
                           <div className="col-xs-12 color-guide"></div>
                           <div className="col-xs-12">
                             <p><strong>Black</strong></p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-5">
                             <p>
                               <small>HEX</small><br />
                               #000000
                             </p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
                               0,0,0
@@ -125,19 +125,19 @@ const Presskit = function (props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--white">
+                      <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--white">
                         <div className="row start-xs">
                           <div className="col-xs-12 color-guide"></div>
                           <div className="col-xs-12">
                             <p><strong>White</strong></p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-5">
                             <p>
                               <small>HEX</small><br />
                               #FFFFFF
                             </p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
                               255,255,255
@@ -151,19 +151,19 @@ const Presskit = function (props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--pacific-blue-1">
+                      <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--pacific-blue-1">
                         <div className="row start-xs">
                           <div className="col-xs-12 color-guide"></div>
                           <div className="col-xs-12">
                             <p><strong>Pacific Blue 1</strong></p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-5">
                             <p>
                               <small>HEX</small><br />
                               #0095C1
                             </p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
                               0,149,193
@@ -177,19 +177,19 @@ const Presskit = function (props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--picton-blue">
+                      <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--picton-blue">
                         <div className="row start-xs">
                           <div className="col-xs-12 color-guide"></div>
                           <div className="col-xs-12">
                             <p><strong>Picton Blue</strong></p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-5">
                             <p>
                               <small>HEX</small><br />
                               #4CC2F1
                             </p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
                               76,194,241
@@ -203,19 +203,19 @@ const Presskit = function (props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--allports">
+                      <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--allports">
                         <div className="row start-xs">
                           <div className="col-xs-12 color-guide"></div>
                           <div className="col-xs-12">
                             <p><strong>Allports</strong></p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-5">
                             <p>
                               <small>HEX</small><br />
                               #006994
                             </p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
                               0,105,148
@@ -229,19 +229,19 @@ const Presskit = function (props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--blizzard-blue">
+                      <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--blizzard-blue">
                         <div className="row start-xs">
                           <div className="col-xs-12 color-guide"></div>
                           <div className="col-xs-12">
                             <p><strong>Blizzard Blue</strong></p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-5">
                             <p>
                               <small>HEX</small><br />
                               #DBEFF8
                             </p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
                               219,239,248
@@ -255,19 +255,19 @@ const Presskit = function (props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--astronaut-blue">
+                      <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--astronaut-blue">
                         <div className="row start-xs">
                           <div className="col-xs-12 color-guide"></div>
                           <div className="col-xs-12">
                             <p><strong>Astronaut Blue</strong></p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-5">
                             <p>
                               <small>HEX</small><br />
                               #003D58
                             </p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
                               0,61,88
@@ -281,19 +281,19 @@ const Presskit = function (props) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--venice-blue">
+                      <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--venice-blue">
                         <div className="row start-xs">
                           <div className="col-xs-12 color-guide"></div>
                           <div className="col-xs-12">
                             <p><strong>Venice Blue</strong></p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-5">
                             <p>
                               <small>HEX</small><br />
                               #075A7F
                             </p>
                           </div>
-                          <div className="col-xs-6">
+                          <div className="col-xs-7">
                             <p>
                               <small>RGB</small><br />
                               7,90,127

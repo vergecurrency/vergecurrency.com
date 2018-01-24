@@ -4,6 +4,11 @@
 // - RESPONSIVE
 $max-width-xs: 47.9375em; // as 48em is defined by flexboxgrid,
                           // this seems to scale along pretty well..
+$min-width-xs: 30em;
+$min-width-sm: 48em;
+$min-width-md: 64em;
+$min-width-lg: 75em;
+
 // - COLORS
 $black:               #000;
 $white:               #fff;
