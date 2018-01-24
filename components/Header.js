@@ -4,10 +4,10 @@ import NProgress from 'nprogress';
 import Router from 'next/router';
 
 Router.onRouteChangeStart = (url) => {
-  NProgress.start()
+  NProgress.start();
 }
-Router.onRouteChangeComplete = () => NProgress.done()
-Router.onRouteChangeError = () => NProgress.done()
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouteChangeError = () => NProgress.done();
 
 const Header = ({ t }) => (
   <header>
@@ -48,68 +48,6 @@ const Header = ({ t }) => (
         </nav>
       </div>
     </div>
-    <style jsx>{`
-      header {
-        position: fixed;
-        width: 100%;
-        z-index: 9;
-      }
-
-      .row {
-        height: 88px;
-      }
-
-      header > div,
-      button {
-        align-self: center;
-      }
-
-      header > div img {
-        display: block;
-      }
-
-      button {
-        cursor: pointer;
-        width: 40px;
-        height: 40px;
-      }
-
-      nav > div,
-      button {
-        display: inline-block;
-        vertical-align: middle;
-      }
-
-      nav a {
-        color: #fff;
-        font-family: 'Avenir Next', Arial, sans-serif;
-        font-size: 15px;
-        line-height: 88px;
-        margin: 6px;
-        padding: 6px;
-        text-decoration: none;
-      }
-
-      nav a:last-child {
-        font-weight: 600;
-        margin-right: 12px;
-      }
-
-      @media (min-width: 64em) {
-        nav a {
-          margin: 9px;
-          padding: 9px;
-        }
-
-        nav a:last-child {
-          margin-right: 18px;
-        }
-      }
-
-      nav a:hover {
-        color: yellow;
-      }
-    `}</style>
   </header>
 );
 

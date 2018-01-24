@@ -1,0 +1,60 @@
+.ribbon {
+  color: $white;
+  min-height: 930px;
+  position: relative;
+
+  h1 {
+    color: inherit;
+  }
+
+  .blackpaper {
+    color: rgba(255, 255, 255, .7); // scss-lint:disable ColorVariable
+    font-weight: 400;
+    margin-top: 1rem;
+    text-shadow: 0 0 9px rgba(0, 0, 0, .27); // scss-lint:disable ColorVariable
+
+    a {
+      color: rgba(255, 255, 255, .7); // scss-lint:disable ColorVariable
+      text-decoration: underline;
+    }
+  }
+
+  &-img {
+    background: url('/static/img/home-hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 930px;
+    min-width: 100%;
+    position: absolute;
+    z-index: -100;
+  }
+
+  &-txt {
+    margin-top: 180px;
+  }
+
+  .btn {
+    &-wallet {
+      &::before {
+        content: '';
+        font-family: 'FontAwesome', sans-serif;
+        font-size: 1rem;
+        line-height: .8rem;
+        margin-right: 1rem;
+      }
+    }
+
+    &-video {
+      &::before {
+        content: '';
+        font-family: 'FontAwesome', sans-serif;
+        font-size: .8rem;
+        line-height: .8rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &--presskit {
+    min-height: 540px;
+  }
+}
