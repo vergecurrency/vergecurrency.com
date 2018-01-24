@@ -8,13 +8,45 @@
       max-height: 5rem;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: $max-width-xs) {
       img {
         margin-bottom: 2rem;
       }
 
       a {
         margin-top: 2rem;
+      }
+    }
+  }
+
+  .color {
+    box-shadow: 0 0 1rem 1px rgba(128, 128, 128, .24); // scss-lint:disable ColorVariable
+    margin-bottom: 3rem;
+
+    @each $_color, $_hex in $colors {
+      @at-root &--#{$_color} {
+        .color-guide {
+          background-color: $_hex;
+          height: 8rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+    p {
+      font-size: .9rem;
+      letter-spacing: 1px;
+      padding: 0 .3rem;
+
+      small {
+        font-size: .8rem;
+        letter-spacing: .5px;
+        opacity: .7;
+      }
+
+      strong {
+        font-size: 1.1rem;
+        letter-spacing: .5px;
       }
     }
   }

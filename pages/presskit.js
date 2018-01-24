@@ -25,9 +25,6 @@ const Presskit = function (props) {
                   <Link href="/">
                     <a className="btn btn-primary">{t("presskit:ribbon.buttonPrimary")}</a>
                   </Link>
-                  <Link href="/">
-                    <a className="btn btn-secondary">{t("presskit:ribbon.buttonSecondary")}</a>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -85,10 +82,231 @@ const Presskit = function (props) {
                       <div className="col-xs-12 col-sm-4" />
                       <div className="col-xs-12 col-sm-4">
                         <Link href="">
-                          <a className="btn btn-primary">Download logo here</a>
+                          <a className="btn btn-primary btn-primary--on-white-bg">Download logo here</a>
                         </Link>
                       </div>
-                      <div className="col-xs-12 col-sm-8" />
+                    </div>
+                  </div>
+                </div>
+                <div className="start-xs">
+                  <h2>Brand font</h2>
+                  <p>The official font used in Verge Currency branding is Avenir Next Regular.</p>
+                  <Link href="/">
+                    <a className="btn btn-inverted center-xs">Download font here</a>
+                  </Link>
+                  <p class="pt">The colors that are used for the logo and style elements:</p>
+                </div>
+                <div className="row center-xs pt pb colors">
+                  <div className="col-xs-12">
+                    <div className="row around-xs middle-xs">
+                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--black">
+                        <div className="row start-xs">
+                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12">
+                            <p><strong>Black</strong></p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>HEX</small><br />
+                              #000000
+                            </p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>RGB</small><br />
+                              0,0,0
+                            </p>
+                          </div>
+                          <div className="col-xs-12">
+                            <p>
+                              <small>CMYK</small><br />
+                              91,79,62,97
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--white">
+                        <div className="row start-xs">
+                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12">
+                            <p><strong>White</strong></p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>HEX</small><br />
+                              #FFFFFF
+                            </p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>RGB</small><br />
+                              255,255,255
+                            </p>
+                          </div>
+                          <div className="col-xs-12">
+                            <p>
+                              <small>CMYK</small><br />
+                              0,0,0,0
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--pacific-blue-1">
+                        <div className="row start-xs">
+                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12">
+                            <p><strong>Pacific Blue 1</strong></p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>HEX</small><br />
+                              #0095C1
+                            </p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>RGB</small><br />
+                              0,149,193
+                            </p>
+                          </div>
+                          <div className="col-xs-12">
+                            <p>
+                              <small>CMYK</small><br />
+                              79,24,14,1
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--picton-blue">
+                        <div className="row start-xs">
+                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12">
+                            <p><strong>Picton Blue</strong></p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>HEX</small><br />
+                              #4CC2F1
+                            </p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>RGB</small><br />
+                              76,194,241
+                            </p>
+                          </div>
+                          <div className="col-xs-12">
+                            <p>
+                              <small>CMYK</small><br />
+                              63,0,0,0
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--allports">
+                        <div className="row start-xs">
+                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12">
+                            <p><strong>Allports</strong></p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>HEX</small><br />
+                              #006994
+                            </p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>RGB</small><br />
+                              0,105,148
+                            </p>
+                          </div>
+                          <div className="col-xs-12">
+                            <p>
+                              <small>CMYK</small><br />
+                              0,0,0,0
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--blizzard-blue">
+                        <div className="row start-xs">
+                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12">
+                            <p><strong>Blizzard Blue</strong></p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>HEX</small><br />
+                              #DBEFF8
+                            </p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>RGB</small><br />
+                              219,239,248
+                            </p>
+                          </div>
+                          <div className="col-xs-12">
+                            <p>
+                              <small>CMYK</small><br />
+                              17,0,3,0
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--astronaut-blue">
+                        <div className="row start-xs">
+                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12">
+                            <p><strong>Astronaut Blue</strong></p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>HEX</small><br />
+                              #003D58
+                            </p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>RGB</small><br />
+                              0,61,88
+                            </p>
+                          </div>
+                          <div className="col-xs-12">
+                            <p>
+                              <small>CMYK</small><br />
+                              100,0,0,75
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-xs-10 col-sm-5 col-lg-3 color color--venice-blue">
+                        <div className="row start-xs">
+                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12">
+                            <p><strong>Venice Blue</strong></p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>HEX</small><br />
+                              #075A7F
+                            </p>
+                          </div>
+                          <div className="col-xs-6">
+                            <p>
+                              <small>RGB</small><br />
+                              7,90,127
+                            </p>
+                          </div>
+                          <div className="col-xs-12">
+                          <p>
+                            <small>CMYK</small><br />
+                            100,0,0,56
+                          </p>
+                        </div>
+                      </div>
+                      </div>
                     </div>
                   </div>
                 </div>

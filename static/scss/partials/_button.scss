@@ -1,3 +1,5 @@
+// scss-lint:disable ColorVariable
+
 .btn {
   background-image: none;
   border: 3px solid;
@@ -24,13 +26,26 @@
     margin-left: 3rem;
   }
 
-  &-primary {
-    $primary-color: #1db6dc;
+  $_primary-color: #1db6dc;
 
-    background: $primary-color;
-    border-color: $primary-color;
-    box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);// scss-lint:disable ColorVariable
+  &:hover {
+    box-shadow: 0 0 3.125rem rgba(255, 255, 255, .39);
     color: $white;
+  }
+
+  &-primary {
+    background: $_primary-color;
+    border-color: $_primary-color;
+    box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);
+    color: $white;
+
+    &--on-white-bg {
+      box-shadow: 0 0 3.125rem rgba(255, 255, 255, .39);
+
+      &:hover {
+        box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);
+      }
+    }
   }
 
   &-secondary {
@@ -39,8 +54,18 @@
     color: $white;
   }
 
-  &:hover {
-    box-shadow: 0 0 3.125rem rgba(255, 255, 255, .39); // scss-lint:disable ColorVariable
-    color: $white;
+  &-inverted {
+    border: 3px solid $_primary-color;
+    border-color: $_primary-color;
+    color: $_primary-color;
+
+    &:hover {
+      box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);
+      color: $_primary-color;
+    }
+  }
+
+  @at-root p + & {
+    margin-top: .5rem;
   }
 }

@@ -50,6 +50,12 @@ h3 {
 
 p {
   color: $font-color-paragraph;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: .75rem;
+
+  + p {
+    margin-top: -.25rem;
+  }
 }
