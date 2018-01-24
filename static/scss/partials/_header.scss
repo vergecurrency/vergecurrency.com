@@ -1,7 +1,9 @@
-header {
+#header {
   position: fixed;
   width: 100%;
   z-index: 9;
+  transition: all .2s ease-in-out;
+
   .row {
     height: 88px;
   }
@@ -46,5 +48,13 @@ header {
   }
   nav a:hover {
     color: blue;
+  }
+
+
+  &.scroll {
+    background: #fff;
+    a{
+      color: #111;
+    }
   }
 }

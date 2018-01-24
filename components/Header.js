@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import NProgress from 'nprogress';
 import Router from 'next/router';
+import Navbar from './Navbar';
 
 Router.onRouteChangeStart = (url) => {
   NProgress.start();
@@ -10,7 +11,7 @@ Router.onRouteChangeComplete = () => NProgress.done();
 Router.onRouteChangeError = () => NProgress.done();
 
 const Header = ({ t }) => (
-  <header>
+  <header id="header">
     <Head>
       <link rel="stylesheet" type="text/css" href="../static/css/ngprogress.css" />
     </Head>
@@ -48,6 +49,7 @@ const Header = ({ t }) => (
         </nav>
       </div>
     </div>
+    <Navbar />
   </header>
 );
 
