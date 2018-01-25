@@ -151,7 +151,7 @@ const Footer = ({ t }) => (
                         </Link>
                       </li>
                       <li>
-                        <Link href="/press">
+                        <Link href="/presskit">
                           <a>{t('footer:press')}</a>
                         </Link>
                       </li>

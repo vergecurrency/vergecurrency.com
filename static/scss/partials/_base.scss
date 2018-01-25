@@ -1,0 +1,65 @@
+$font-color-heading: #091721;
+$font-color-paragraph: #647886;
+
+html,
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  letter-spacing: .5px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+h1 {
+  color: $font-color-heading;
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+h2 {
+  color: $font-color-heading;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  color: $font-color-heading;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+p {
+  color: $font-color-paragraph;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: .75rem;
+
+  + p {
+    margin-top: -.25rem;
+  }
+
+  + h2 {
+    margin-top: 1.5rem;
+  }
+}

@@ -1,0 +1,60 @@
+.blue-container,
+.white-container {
+  background: $white;
+  margin-top: 0;
+  padding-bottom: 4rem;
+  padding-top: 12rem;
+  position: relative;
+
+  &--home,
+  &--presskit {
+    background: #07121b;
+    color: $white;
+    margin-top: -8rem;
+    padding-top: 4rem;
+    z-index: 1;
+
+    h3 {
+      color: $white;
+      font-size: 1.2rem;
+      font-weight: 600;
+
+      span {
+        color: #00cbff;
+      }
+    }
+
+    p {
+      color: $white;
+      font-size: .8125rem;
+      font-weight: 400;
+    }
+  }
+
+  &--presskit {
+    background: $white;
+    box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67); // scss-lint:disable ColorVariable
+    color: #647886;
+    top: 8rem;
+
+    h3 {
+      color: #091721;
+    }
+
+    p {
+      color: #647886;
+    }
+  }
+}
+
+.blue-container {
+  background-color: #daf0ff;
+  box-shadow: none;
+  margin-bottom: 8rem;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+
+  &--presskit {
+    box-shadow: inherit;
+  }
+}

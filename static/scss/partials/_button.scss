@@ -1,0 +1,71 @@
+// scss-lint:disable ColorVariable
+
+.btn {
+  background-image: none;
+  border: 3px solid;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.8;
+  margin-bottom: 0;
+  padding: 10px 20px;
+  text-align: center;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  transition: all .2s ease-in;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  + .btn {
+    margin-left: 3rem;
+  }
+
+  $_primary-color: #1db6dc;
+
+  &:hover {
+    box-shadow: 0 0 3.125rem rgba(255, 255, 255, .39);
+    color: $white;
+  }
+
+  &-primary {
+    background: $_primary-color;
+    border-color: $_primary-color;
+    box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);
+    color: $white;
+
+    &--on-white-bg {
+      box-shadow: 0 0 3.125rem rgba(255, 255, 255, .39);
+
+      &:hover {
+        box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);
+      }
+    }
+  }
+
+  &-secondary {
+    border: 3px solid $white;
+    border-color: $white;
+    color: $white;
+  }
+
+  &-inverted {
+    border: 3px solid $_primary-color;
+    border-color: $_primary-color;
+    color: $_primary-color;
+
+    &:hover {
+      box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);
+      color: $_primary-color;
+    }
+  }
+
+  @at-root p + & {
+    margin-top: .5rem;
+  }
+}

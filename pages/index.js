@@ -54,24 +54,27 @@ const Home = function (props) {
         </div>
       </div>
       <div className="container pt pb">
-        <div className="row">
-          <div className="col-md-2 col-sm-4 col-xs-6">
+        <div className="row center-xs">
+          <div className="col-md col-sm-4 col-xs-6">
               Mentioned in:
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md col-sm-4 col-xs-6">
               Forbes
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md col-sm-4 col-xs-6">
               Guardian
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md col-sm-4 col-xs-6">
               the Sun
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md col-sm-4 col-xs-6">
               USA Commerce
           </div>
-          <div className="col-md-2 col-sm-4 col-xs-6">
+          <div className="col-md col-sm-4 col-xs-6">
               The Motley Fool
+          </div>
+          <div className="col-md col-sm-4 col-xs-6">
+              Weetnietmeer
           </div>
         </div>
       </div>

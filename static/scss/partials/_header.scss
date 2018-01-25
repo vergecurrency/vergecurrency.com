@@ -1,0 +1,61 @@
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  transition: all .2s ease-in-out;
+
+  .row {
+    height: 88px;
+  }
+  header > div,
+  button {
+    align-self: center;
+  }
+  header > div img {
+    display: block;
+  }
+  button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  nav > div,
+  button {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  nav a {
+    color: #fff;
+    font-family: 'Avenir Next', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 88px;
+    margin: 6px;
+    padding: 6px;
+    text-decoration: none;
+  }
+  nav a:last-child {
+    font-weight: 600;
+    margin-right: 12px;
+  }
+  @media (min-width: 64em) {
+    nav a {
+      margin: 9px;
+      padding: 9px;
+    }
+    nav a:last-child {
+      margin-right: 18px;
+    }
+  }
+  nav a:hover {
+    color: blue;
+  }
+
+
+  &.scroll {
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.06);
+    a{
+      color: #111;
+    }
+  }
+}
