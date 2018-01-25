@@ -56,7 +56,7 @@
   "contest_enter": "Courer la chance de gagner 70,000 pièces Verge",
   "mission": {
     "header": "Notre mission",
-    "paragraph": "Our mission is to empower people around the world by bringing blockchain transactions into everyday life. Verge currency makes it possible to engage in direct transactions quickly, efficiently and privately. With Verge currency, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."
+    "paragraph": "Notre mission est de habiliter les personnes autour du monde en apportant les transactions via blockchain dans la vie de tous les jours.La device Verge rend possible de s'engager dans des transactions de façon rapide, efficace et privée.Avec la devise Verge les entreprises et les particuliers ont des options flexibles quant à l'envoi et la reception de paiements. Avec un clic de souris, nous offrons des outils et une intégration utile qui leur permet de gérer des transactions à grande échelle entre des marchands et des paiements privés à petite échelle."
   },
   "info": {
     "about": {
@@ -69,7 +69,7 @@
         },
         "community": {
           "header": "Support extraordinaire de la communauté",
-          "paragraph": "Verge n'est pas un compagnie privée ou subventionné par des crypto-monnaies minée a l'avance ou des offres initiale de crypto-monnaies (ICO). Tout le dévelopement et le marketing est supporté par les centaines de membres fesant partie de la communauté."
+          "paragraph": "Verge n'est pas un compagnie privée ou subventionné par des crypto-monnaies minée a l'avance ou des offres initiale de crypto-monnaies (ICO). Tout le développement et le marketing est supporté par les centaines de membres fesant partie de la communauté."
         },
         "speed": {
           "header": "Transactions Ultra-Rapides",
@@ -77,7 +77,7 @@
         },
         "development": {
           "header": "Équipe de développement active avec plusieurs contributeurs",
-          "paragraph": "L'Équipe de développement est active et toujours en contact rapproché avec la communauté. Vous pouvez facilement rejoindre les principaux dévelopeurs pour obtenir du support ou communiquer de nouvelles idées a propos de Verge."
+          "paragraph": "L'Équipe de développement est active et toujours en contact rapproché avec la communauté. Vous pouvez facilement rejoindre les principaux développeurs pour obtenir du support ou communiquer de nouvelles idées a propos de Verge."
         },
         "adoption": {
           "header": "Prêt pour l'adoption de masse",
@@ -373,23 +373,23 @@
         "subheader": "Général",
         "whatisverge": {
           "question": "Qu'est-ce que Verge",
-          "answer": "Verge est une cryptomonnaie conçu pour les personnes de tout les jours. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining your privacy."
+          "answer": "Verge est une cryptomonnaie conçue pour les personnes de tous les jours. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining your privacy."
         },
         "mission": {
           "question": "Quelle est le but de Verge?",
-          "answer": "Our mission is to empower people around the world by bringing blockchain transactions into everyday life. Verge Currency makes it possible to engage in direct transactions quickly, efficiently and privately. With Verge Currency, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."
+          "answer": "Notre mission est de habiliter les personnes autour du monde en apportant les transactions via blockchain dans la vie de tous les jours.La device Verge rend possible de s'engager dans des transactions de façon rapide, efficace et privée.Avec la devise Verge les entreprises et les particuliers ont des options flexibles quant à l'envoi et la reception de paiements. Avec un clic de souris, nous offrons des outils et une intégration utile qui leur permet de gérer des transactions à grande échelle entre des marchands et des paiements privés à petite échelle."
         },
         "createdverge": {
           "question": "Quand a-t-elle été créée?",
-          "answer": "La monnaie Verge à été créée sous le nom de DogeCoinDark. En 2016, il a été rebaptisé monnaie Verge."
+          "answer": "La monnaie Verge à été créée sous le nom de DogeCoinDark. En 2016, elle a été rebaptisée monnaie Verge."
         },
         "opensource": {
-          "question": "Est-ce que la monnaie est une entreprise privée et comment a-t-ell été fondée?",
-          "answer": "Non, la monnaie verge est un projet entièrement Open-source et elle n'est pas une entreprise privée fondée sous une ICO ou préminé. Le développement et l'effort marketing est le dévouement de millier de membres de la communauté."
+          "question": "Est-ce que la monnaie est une entreprise privée et comment a-t-elle été fondée?",
+          "answer": "Non, la monnaie verge est un projet entièrement Open-source et elle n'est pas une entreprise privée fondée sous une ICO ou préminée. Le développement et l'effort marketing est le dévouement de milliers de membres de la communauté."
         },
         "getverge": {
           "question": "Comment puis-je en acquérir?",
-          "answer": "Il y a plusieurs façon d'obtenir le monnaie Verge. Le plus commun est d'acheté directement sur une <a href='https://vergecurrency.com/#exchanges' target='_blank'>plateforme d'échange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
+          "answer": "Il y a plusieurs façon d'obtenir le monnaie Verge. Le plus commun est d'acheter directement sur une <a href='https://vergecurrency.com/#exchanges' target='_blank'>plateforme d'échange</a>. Les utilisateurs peuvent aussi effectuer des dons l'un l'autre sur des plateformes intégrées aux <a href='https://vergecurrency.com/#social' target='_blank'>réseaux sociaux</a> (en utilisant des bots Verge officiels). i vous possédez un dispositif Android, vous pouvez prendre Verge sur vous et envoyer/recevoir de la monnaie avec l'<a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>application</a> mobile Porte-monnaie Verge."
         },
         "techdoc": {
           "question": "Où puis-je trouver de la documentation technique?",
@@ -400,20 +400,20 @@
           "answer": "Non, Verge n'est pas pré-minée. L'équipe de développement et les contributeurs doivent aussi acheté leur monnaie comme les autres. A premine is a funding mechanism, whereby the developers of a currency allocate a certain amount to go to a particular address before releasing it to the public."
         },
         "supply": {
-          "question": "Quelle est l'approvisionnement total de Verge?",
+          "question": "Quel est l'approvisionnement total de Verge?",
           "answer": "Le maximum d'approvisionnement est plafonné à 16.5 billion XVG"
         },
         "highsupply": {
           "question": "Pourquoi l'approvisionnement total est si haut?",
-          "answer": "Verge Currency is designed this way on purpose to allow for convenient payment amounts in everyday use. As opposed to Bitcoin, you would not have pay with 0.00004 BTC, for example. Another reason is to reduce the risk of market manipulation by making it harder to control a big portion of the total supply."
+          "answer": "La devise Verge est conçue de cette façon intentionnellement pour garantir des montants de payment commodes pour l'usage de tous les jours.A l'invers du Bitcoin, vous n'auriez pas à payer un montant de 0.00004 BTC, par éxemple. Une autre raison est de réduire le risque d'une manipulation de marché en rendant plus difficile de contrôler une grande portion de l'approvisionnement total."
         },
         "burning": {
-          "question": "Is the Verge Currency team planning to burn coins?",
-          "answer": "No. Since there was no premine or ICO, the team does not hold a significant amount of coins to affect the coin distribution or total circulation. This is yet another reason for high total supply. However, if you feel like burning some of your own coins, please feel free to do so or donate to the team ;)"
+          "question": "Est-ce que l'équipe de Verge est en train de planifier de brûler des pièces?",
+          "answer": "Non, Comme il n'y a pas eu de pré-minage ni de ICO, l'équipe ne possède pas un montant signifiant de pièces pour affecter la distribution ou la circulation totale de la monnaie. Ceci est une autre raison du taux d'approvisionnement élevé. Cependant, si vous souhaitez brûler de la monnaie qui vous appartient, vous pouvez le faire ou nous faire don de ces monnaies ;)"
         },
         "infaltion": {
-          "question": "Is it a inflationary coin?",
-          "answer": "No, the total circulation is capped"
+          "question": "Est-ce une monnaie inflationniste?",
+          "answer": "Non, le montant total de circulation est défini."
         },
         "transactionfee": {
           "question": "À combien s'élèvent les frais de transaction?",
@@ -424,32 +424,32 @@
           "answer": "Selon la charge du réseau, elle varie entre 5 et 10 secondes."
         },
         "transactioncap": {
-          "question": "Quelle est la capacité de transaction par seconde?",
-          "answer": "100 transactions per second. With RSK technology implemented that number is projected to reach 2000 transactions per second."
+          "question": "Quelle est la capacité de transactions par seconde?",
+          "answer": "100 transactions par seconde. Avec la technologie RSK implémentée, ce chiffre devrait joindre les 2000 transactions par seconde."
         },
         "maxsupply": {
-          "question": "When will the maximum supply be reached?",
-          "answer": "It is projected to be reached in 8 to 10 years at the time of writing (2017)."
+          "question": "Quand est-ce que la quantité de monnaie maximale sera atteinte?",
+          "answer": "Il est prévu que cela arrive dans 8-10 ans à partir du moment oÙ cela est écrit (2017)."
         },
         "rskactivated": {
-          "question": "When will RSK be activated?",
-          "answer": "RKS platform is projected to be launched in December. After that Verge Currency will implement its smart contracts functionality."
+          "question": "Quand est-ce que RSK sera activé?",
+          "answer": "e lancement de la plateforme RSK est prévu pour Décembre. Apres cela la devise Verge implémentera sa fonctionnalité de contrats intelligents."
         },
         "atomicswaps": {
           "question": "How can i use atomic swaps?",
           "answer": "Atomic Swaps Capability is utilized when trading on decentralized exchanges (DEX)"
         },
         "vergebusiness": {
-          "question": "How can i accept Verge in my business?",
-          "answer": "You can integrate XVG in your business by using Coinpayments or using existing APIs that can be found on github."
+          "question": "Comment puis-je accepter Verge dans mon business?",
+          "answer": "Vous pouvez intégrer Verge dans votre business en utilisant Coinpayments ou en utilisant des APIs existantes présentes sur GitHub."
         },
         "vergecurrencyproject": {
-          "question": "How can I support Verge Currency project?",
-          "answer": "The simplest way of support is by donating to fund the development. XVG and BTC addresses can be found here. If you would like to contribute to the project in the area of software development, digital marketing, video and graphic design or any other, please fill out this form or reach out to us directly via email contact@vergecurrency.com."
+          "question": "Comment puis-je contribuer au projet Verge?",
+          "answer": "TLa façon la plus simple de contribuer est de faire un don à l'équipe de développement. Les adresses XVG et BTC sont disponibles ici. Si vous souhaitez contrinuer au projet en termes de développement logiciel, marketing digital, design graphique, vidéo ou autre, merci de remplir ce formulaire ou nous contacter directement via l'adresse e-mail contact@vergecurrency.com."
         },
         "funded": {
-          "question": "How Is Verge Development Funded?",
-          "answer": " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='https://vergecurrency.com/#donate' target='_blank'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
+          "question": "Comment est-ce que le développement de Verge est financé?",
+          "answer": "Verge est un projet open-source, donc tout le travail de développement est financé par les développeurs les <a href='https://vergecurrency.com/#donate' target='_blank'>dons</a> de la communauté.Nous sommes en train d'explorer d'autres méthodes de financement, y compris l'ouverture d'une <b>boutique</b> officielle Verge et un <b>Pool de minage multi-algorhitme</b>."
         },
         "publicledger": {
           "question": "Why Does Verge Have a Public Ledger?",
@@ -461,8 +461,8 @@
           "answer": "You can view the rich list <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a> or <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a>. If first site is down, please let us know since it is hosted on a community donated server."
         },
         "wheretolearnmore": {
-          "question": "Where Can I Go to Learn More About Verge?",
-          "answer": "We are on a ton of different <a href='#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
+          "question": "Où puis-je me renseigner ultérieurement sur Verge?",
+          "answer": "Nous sommes présents sur une tonne de différentes plateformes <a href='#social' target='_blank'>sociales</a> et sommes très actifs sur Twitter, Telegram, Slack, et Discord."
         },
         "roadmap": {
           "question": "Where Can I Find the Verge Roadmap?",
