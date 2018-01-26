@@ -3,7 +3,6 @@ import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Ribbon from '../components/Ribbon';
-import Wrapper from '../components/Wrapper';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
@@ -85,4 +84,4 @@ const Home = function (props) {
 
 const Extended = translate(['home'], { i18n, wait: process.browser })(Home);
 
-export default Wrapper(Extended);
+export default Extended;
