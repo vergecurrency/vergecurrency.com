@@ -28,8 +28,6 @@ export default class Navbar extends React.Component {
   }
 
   render() {
-    return (
-      true
-    );
+    return (true);
   }
 }
