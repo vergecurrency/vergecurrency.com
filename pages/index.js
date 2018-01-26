@@ -3,16 +3,17 @@ import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Ribbon from '../components/Ribbon';
-import Wrapper from '../components/Wrapper';
+import ServerProps from '../components/ServerProps';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 const Home = function (props) {
-  const { t } = props;
+  const { t, store } = props;
+  const showLoader = store && store.showLoader;
 
   return (
-    <Layout>
+    <Layout loading={ showLoader }>
       <div className="ribbon">
         <div className="ribbon-img" />
 
@@ -85,4 +86,4 @@ const Home = function (props) {
 
 const Extended = translate(['home'], { i18n, wait: process.browser })(Home);
 
-export default Wrapper(Extended);
+export default ServerProps(Extended);

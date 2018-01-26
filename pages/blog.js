@@ -4,12 +4,13 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
+import ServerProps from '../components/ServerProps';
 
-const Blog = (props) => (
-  <Layout>
+const Blog = ({ items, store }) => (
+  <Layout loading={ store && store.showLoader }>
     <h1>VergeCurrency Blog</h1>
       <ul>{
-        props.items.map((item, index) => (
+        items.map((item, index) => (
           <li key={`${index}`}>
             <Link as={`${item.link}`} href={`${item.title}`}>
               <a>{item.title}</a>
@@ -40,4 +41,4 @@ Index.getInitialProps = async function () {
   }
 }
 
-export default Blog
+export default ServerProps(Blog)

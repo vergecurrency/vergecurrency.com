@@ -7,11 +7,13 @@ import Ribbon from '../components/Ribbon';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
+import ServerProps from '../components/ServerProps';
+
 const Presskit = function (props) {
-  const { t } = props;
+  const { t, store } = props;
 
   return (
-    <Layout>
+    <Layout loading={ store && store.showLoader }>
       <div className="presskit">
         <div className="ribbon ribbon--presskit">
           <div className="ribbon-img" />
@@ -94,7 +96,7 @@ const Presskit = function (props) {
                   <Link href="/">
                     <a className="btn btn-inverted center-xs">Download font here</a>
                   </Link>
-                  <p class="pt">The colors that are used for the logo and style elements:</p>
+                  <p className="pt">The colors that are used for the logo and style elements:</p>
                 </div>
                 <div className="row center-xs pt pb colors">
                   <div className="col-xs-12">
@@ -333,4 +335,4 @@ const Presskit = function (props) {
 
 const Extended = translate(['presskit'], { i18n, wait: process.browser })(Presskit);
 
-export default Extended;
+export default ServerProps(Extended);
