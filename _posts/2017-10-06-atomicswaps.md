@@ -5,7 +5,7 @@ subtitle:   "Special news"
 date:       2017-10-06 17:30:00
 author:     "VergeCurrency Team"
 header-img: "images/post-header.png"
-permalink: /blog/atomicswaps/
+permalink:  /blog/atomicswaps/
 ---
 
 Dear Verge Community,

@@ -20,6 +20,8 @@ url: "https://vergecurrency.com" # the base hostname & protocol for your site, e
 enforce_ssl: https://vergecurrency.com
 twitter_username: vergecurrency
 github_username:  vergecurrency
+twitter:
+  username: vergecurrency
 
 # Build settings
 markdown: kramdown
@@ -27,10 +29,11 @@ highlighter: rouge
 permalink: pretty
 paginate: 5
 paginate_path: "blog/page:num/"
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-paginate
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -15,18 +15,18 @@
   {% include shared/footer.html %}
 </body>
 <script>
-  $(function() {
-    var uaParser = new UAParser(navigator.userAgent);
-    var userOS = ((uaParser.getOS() || {}).name || '').replace(/\s/g,'').toLowerCase();
-    var bodyElement = $('body');
+$(function() {
+  var uaParser = new UAParser(navigator.userAgent);
+  var userOS = ((uaParser.getOS() || {}).name || '').replace(/\s/g,'').toLowerCase();
+  var bodyElement = $('body');
 
-    bodyElement.addClass(userOS);
+  bodyElement.addClass(userOS);
 
-    // Makes all internal links smooth scroll
-    $(document).on('click', 'a[href^="#"]', function (event) {
-        $('html, body').animate({
-          scrollTop: $($.attr(this, 'href')).offset().top - 60
-        }, 1200);
-    });
+  // Makes all internal links smooth scroll
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top - 60
+    }, 1200);
   });
+});
 </script>
