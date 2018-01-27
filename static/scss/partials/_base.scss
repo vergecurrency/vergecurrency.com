@@ -21,9 +21,11 @@ li {
 }
 
 a {
+  color: #1db6dc;
   text-decoration: none;
 
   &:hover {
+    color: darken(#1db6dc, 10%);
     text-decoration: none;
   }
 }
@@ -54,10 +56,6 @@ p {
   font-weight: 400;
   line-height: 1.6;
   margin-bottom: .75rem;
-
-  + p {
-    margin-top: -.25rem;
-  }
 
   + h2 {
     margin-top: 1.5rem;
