@@ -45,6 +45,20 @@
       color: #647886;
     }
   }
+
+  &--pressreleases {
+    h3, p {
+      color: #333;
+    }
+    
+    h1 {
+      color: #091721;
+
+      + p {
+        color: #475056;
+      }
+    }
+  }
 }
 
 .blue-container {
@@ -57,4 +71,13 @@
   &--presskit {
     box-shadow: inherit;
   }
+}
+
+.gray-container {
+  background-color: #cccccc;
+  box-shadow: none;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 12rem;
+  padding-top: 12rem;
 }
