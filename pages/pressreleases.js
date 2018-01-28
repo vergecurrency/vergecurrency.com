@@ -23,8 +23,8 @@ const Pressreleases = function (props) {
                   <div className="date-container">
                     {t('date.label', { defaultValue: 'Press release' })} | <span className="date">September 29, 2017</span>
                   </div>
-                  <h1>VergeCurrency Listing on Binance Exchange</h1>
-                  <p>Verge getting on Binance Exchange</p>
+                  <h1>{ props.post.heading }</h1>
+                  <p>{ props.post.subheading }</p>
                 </div>
               </div>
             </div>
@@ -32,7 +32,7 @@ const Pressreleases = function (props) {
               <div className="col-xs-12">
                 <div className="container">
                   <div className="row center-xs">
-                    <div className="col-xs-10 gray-container gray-container--pressreleases">
+                    <div className="col-xs-10 gray-container gray-container--pressreleases" style={{ backgroundImage: `url(${ props.post.image })` }}>
 
                     </div>
                   </div>
@@ -121,7 +121,13 @@ Pressreleases.getInitialProps = async ({ req }) => {
   ];
 
   return {
-    items: Subnavigation_Items
+    items: Subnavigation_Items,
+    post: {
+      date: new Date(2017, 8, 29, 12, 30, 13, 37),
+      heading: 'VergeCurrency Listing on Binance Exchange',
+      subheading: 'Verge getting on Binance Exchange',
+      image: 'https://placehold.it/1920x1080'
+    }
   }
 }
 

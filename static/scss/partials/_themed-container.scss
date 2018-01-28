@@ -1,6 +1,9 @@
 .blue-container,
+.gray-container,
 .white-container {
+  // scss-lint:disable ColorVariable
   background: $white;
+  background-size: cover;
   margin-top: 0;
   padding-bottom: 4rem;
   padding-top: 12rem;
@@ -19,6 +22,7 @@
       font-size: 1.2rem;
       font-weight: 600;
 
+      // scss-lint:disable NestingDepth
       span {
         color: #00cbff;
       }
@@ -33,7 +37,7 @@
 
   &--presskit {
     background: $white;
-    box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67); // scss-lint:disable ColorVariable
+    box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67);
     color: #647886;
     top: 8rem;
 
@@ -47,13 +51,15 @@
   }
 
   &--pressreleases {
-    h3, p {
+    h3,
+    p {
       color: #333;
     }
-    
+
     h1 {
       color: #091721;
 
+      // scss-lint:disable NestingDepth
       + p {
         color: #475056;
       }
@@ -62,7 +68,7 @@
 }
 
 .blue-container {
-  background-color: #daf0ff;
+  background-color: #daf0ff; // scss-lint:disable ColorVariable
   box-shadow: none;
   margin-bottom: 12rem;
   padding-bottom: 6rem;
@@ -74,7 +80,7 @@
 }
 
 .gray-container {
-  background-color: #cccccc;
+  background-color: #ccc; // scss-lint:disable ColorVariable
   box-shadow: none;
   margin-bottom: 2rem;
   margin-top: 1rem;
