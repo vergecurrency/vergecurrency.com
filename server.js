@@ -13,14 +13,25 @@ const store = {
   initialized: false,
   showLoader: true,
   url: null,
-}
+};
+
+const routes = [
+  ['/', '/index'],
+  ['/home', '/home'],
+  ['/about', '/about'],
+  ['/blog', '/blog'],
+  ['/post', '/post'],
+  ['/presskit', '/presskit'],
+];
+
+const withStore = routes.map(([ endpoint, page ]) => endpoint);
 
 const initializer = (req, res, next) => {
   if (store.url === req.url) store.showLoader = true;
-  else if (!req.url.includes('_next')) {
+  else if (withStore.includes(req.url)) {
     store.url = req.url;
 
-    if (store.initialized) store.showLoader = false
+    if (store.initialized) store.showLoader = false;
     else store.initialized = true;
   }
 
@@ -50,12 +61,8 @@ i18n
 
         server.use(initializer);
 
-        server.get('/', (req, res) => {
-          return app.render(req, res, '/index', { store });
-        });
-
-        server.get('/about', (req, res) => {
-          return app.render(req, res, '/about', { store });
+        routes.forEach(([ endpoint, page ]) => {
+          server.get(endpoint, (req, res) => app.render(req, res, page, { store }));
         });
 
         // enable middleware for i18next
