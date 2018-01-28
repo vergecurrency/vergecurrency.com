@@ -7,12 +7,12 @@ import Subheader from '../components/Subheader';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-const Presskit = function (props) {
+const Pressreleases = function (props) {
   const { t } = props;
 
   return (
     <Layout>
-      <Subheader t={t} />
+      <Subheader t={t} items={props.items} />
 
       <div className="pressreleases">
         <div className="white-container white-container--pressreleases">
@@ -21,7 +21,7 @@ const Presskit = function (props) {
               <div className="col-xs-8">
                 <div className="start-xs">
                   <div className="date-container">
-                    Press release | <span class="date">September 29, 2017</span>
+                    Press release | <span className="date">September 29, 2017</span>
                   </div>
                   <h1>VergeCurrency Listing on Binance Exchange</h1>
                   <p>Verge getting on Binance Exchange</p>
@@ -32,7 +32,7 @@ const Presskit = function (props) {
               <div className="col-xs-12">
                 <div className="container">
                   <div className="row center-xs">
-                    <div className="col-xs-10 gray-container gray-container--presskit">
+                    <div className="col-xs-10 gray-container gray-container--pressreleases">
 
                     </div>
                   </div>
@@ -91,6 +91,35 @@ const Presskit = function (props) {
   );
 }
 
-const Extended = translate(['presskit'], { i18n, wait: process.browser })(Presskit);
+Pressreleases.getInitialProps = async ({ req }) => {
+  const Subnavigation_Items = [
+    {
+      'link': '/our-team',
+      'name': 'Verge Team'
+    },
+    {
+      'link': '/history',
+      'name': 'History'
+    },
+    {
+      'link': '/key-tech',
+      'name': 'Key Tech'
+    },
+    {
+      'link': '/press-releases',
+      'name': 'Press Releases'
+    },
+    {
+      'link': '/presskit',
+      'name': 'Presskit'
+    }
+  ];
+
+  return {
+    items: Subnavigation_Items
+  }
+}
+
+const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressreleases);
 
 export default Extended;
