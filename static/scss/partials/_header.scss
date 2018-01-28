@@ -1,119 +1,98 @@
+// scss-lint:disable IdSelector
 #header {
   position: fixed;
+  transition: all .2s ease-in-out;
   width: 100%;
   z-index: 9;
-  transition: all .2s ease-in-out;
 
   .row {
     height: 88px;
   }
-  header > div,
-  button {
-    align-self: center;
-  }
-  header > div img {
+
+  img {
     display: block;
   }
+
   button {
+    align-self: center;
     cursor: pointer;
-    width: 40px;
+    display: inline-block;
     height: 40px;
+    vertical-align: middle;
+    width: 40px;
   }
-  nav > div,
-  button {
+
+  .links {
     display: inline-block;
     vertical-align: middle;
   }
-  nav a {
-    color: #fff;
-    font-family: 'Avenir Next', Arial, sans-serif;
+
+  a {
+    color: $white;
     font-size: 15px;
     line-height: 88px;
     margin: 6px;
     padding: 6px;
     text-decoration: none;
-  }
-  nav a:last-child {
-    font-weight: 600;
-    margin-right: 12px;
-  }
-  @media (min-width: 64em) {
-    nav a {
+
+    &:last-child {
+      font-weight: bold;
+      margin-right: 12px;
+    }
+
+    @media (min-width: 64em) {
       margin: 9px;
       padding: 9px;
+
+      &:last-child {
+        margin-right: 18px;
+      }
     }
-    nav a:last-child {
-      margin-right: 18px;
-    }
-  }
-  nav a:hover {
-    color: blue;
   }
 
 
   &.scroll {
-    background: #fff;
-    box-shadow: 0 0 15px rgba(0,0,0,0.06);
-    a{
+    // scss-lint:disable ColorVariable
+    background: $white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+
+    a {
       color: #111;
     }
   }
 }
 
 #subheader {
-  background: rgb(11,119,146);
-  background: -moz-linear-gradient(top, rgba(11,119,146,1) 0%, rgba(14,148,182,1) 50%, rgba(15,157,193,1) 100%);
-  background: -webkit-linear-gradient(top, rgba(11,119,146,1) 0%,rgba(14,148,182,1) 50%,rgba(15,157,193,1) 100%);
-  background: linear-gradient(to bottom, rgba(11,119,146,1) 0%,rgba(14,148,182,1) 50%,rgba(15,157,193,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b7792', endColorstr='#0f9dc1',GradientType=0 );
+  // scss-lint:disable ColorVariable
+  background: linear-gradient(to bottom, rgba(11, 119, 146, 1) 0%,
+                                         rgba(14, 148, 182, 1) 50%,
+                                         rgba(15, 157, 193, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b7792', endColorstr='#0f9dc1', GradientType=0);
   position: fixed;
-  width: 100%;
   top: 88px;
-  z-index: 9;
   transition: all .2s ease-in-out;
+  width: 100%;
+  z-index: 9;
 
   .row {
     height: 44px;
   }
-  button {
-    align-self: center;
-  }
-  header > div img {
-    display: block;
-  }
-  nav > div {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  nav a {
-    color: #fff;
+
+  a {
+    color: $white;
     font-size: 15px;
-    line-height: 88px;
+    line-height: 44px;
     margin: 6px;
     padding: 6px;
     text-decoration: none;
-  }
-  nav a:last-child {
-    margin-right: 12px;
-  }
-  @media (min-width: 64em) {
-    nav a {
+
+    @media (min-width: 64em) {
       margin: 9px;
       padding: 9px;
-    }
-    nav a:last-child {
-      margin-right: 18px;
-    }
-  }
-  nav a:hover {
-    color: blue;
-  }
 
-
-  &.scroll {
-    background: #fff;
-    a{
-      color: #111;
+      &:last-child {
+        margin-right: 18px;
+      }
     }
   }
 }

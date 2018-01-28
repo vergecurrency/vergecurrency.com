@@ -17,11 +17,13 @@ li {
 }
 
 a {
-  color: #1db6dc;
+  $link-color: #1db6dc;
+
+  color: $link-color;
   text-decoration: none;
 
   &:hover {
-    color: darken(#1db6dc, 10%);
+    color: darken($link-color, 10%);
     text-decoration: none;
   }
 }

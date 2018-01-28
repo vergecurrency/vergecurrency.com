@@ -23,7 +23,7 @@ const Header = ({ t }) => (
           </Link>
         </div>
         <nav className="col-xs-5 col-sm end-xs">
-          <div className="hidden-xs">
+          <div className="links hidden-xs">
             <Link prefetch href="/about">
               <a>{t('header:about')}</a>
             </Link>
