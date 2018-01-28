@@ -21,7 +21,7 @@ const Pressreleases = function (props) {
               <div className="col-xs-8">
                 <div className="start-xs">
                   <div className="date-container">
-                    Press release | <span className="date">September 29, 2017</span>
+                    {t('date.label', { defaultValue: 'Press release' })} | <span className="date">September 29, 2017</span>
                   </div>
                   <h1>VergeCurrency Listing on Binance Exchange</h1>
                   <p>Verge getting on Binance Exchange</p>
@@ -95,22 +95,27 @@ Pressreleases.getInitialProps = async ({ req }) => {
   const Subnavigation_Items = [
     {
       'link': '/our-team',
+      'i18':  'submenu.ourTeam',
       'name': 'Verge Team'
     },
     {
       'link': '/history',
+      'i18':  'submenu.history',
       'name': 'History'
     },
     {
       'link': '/key-tech',
+      'i18':  'submenu.keyTech',
       'name': 'Key Tech'
     },
     {
       'link': '/press-releases',
+      'i18':  'submenu.pressReleases',
       'name': 'Press Releases'
     },
     {
       'link': '/presskit',
+      'i18':  'submenu.presskit',
       'name': 'Presskit'
     }
   ];

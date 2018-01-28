@@ -16,9 +16,9 @@ const Subheader = ({ t, items }) => (
       <div className="row around-xs middle-xs">
         <nav className="col-xs-12 center-xs">
           {
-            items.map((item, index) => (
-              <Link key={`${index}`} href={`${item.link}`}>
-                <a>{item.name}</a>
+            items.map(item => (
+              <Link key={`${item.i18}`} href={`${item.link}`}>
+                <a>{t(item.i18, { defaultValue: item.name })}</a>
               </Link>
             ))
           }

@@ -35,16 +35,16 @@ const Presskit = function (props) {
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
                 <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3>A cryptocurrency designed for everyday use.</h3>
-                  <p>Improving upon the original Bitcoin blockchain and aims to fulfill its initial purpose.</p>
+                  <h3>{t('common:reason-1.title', { defaultValue: 'A cryptocurrency designed for everyday use.' })}</h3>
+                  <p>{t('common:reason-1.text', { defaultValue: 'Improving upon the original Bitcoin blockchain and aims to fulfill its initial purpose.' })}</p>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3>Bringing blockchain into everyday life.</h3>
-                  <p>Verge currency makes it possible to engage in direct transactions.</p>
+                  <h3>{t('common:reason-2.title', { defaultValue: 'Bringing blockchain into everyday life.' })}</h3>
+                  <p>{t('common:reason-2.text', { defaultValue: 'Verge currency makes it possible to engage in direct transactions.' })}</p>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3>Open Source Development & Community Driven.</h3>
-                  <p>Verge is not a private company funded by pre-mined coins or ICO's.</p>
+                  <h3>{t('common:reason-3.title', { defaultValue: 'Open Source Development & Community Driven.' })}</h3>
+                  <p>{t('common:reason-3.text', { defaultValue: 'Verge is not a private company funded by pre-mined coins or ICO\'s.' })}</p>
                 </div>
               </div>
             </div>
@@ -346,6 +346,6 @@ const Presskit = function (props) {
   );
 }
 
-const Extended = translate(['presskit'], { i18n, wait: process.browser })(Presskit);
+const Extended = translate(['common', 'presskit'], { i18n, wait: process.browser })(Presskit);
 
 export default Extended;
