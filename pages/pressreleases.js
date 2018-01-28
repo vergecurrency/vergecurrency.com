@@ -7,6 +7,9 @@ import Subheader from '../components/Subheader';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
+import Moment from 'react-moment';
+import 'moment-timezone';
+
 const Pressreleases = function (props) {
   const { t } = props;
 
@@ -21,7 +24,7 @@ const Pressreleases = function (props) {
               <div className="col-xs-8">
                 <div className="start-xs">
                   <div className="date-container">
-                    {t('date.label', { defaultValue: 'Press release' })} | <span className="date">September 29, 2017</span>
+                    {t('date.label', { defaultValue: 'Press release' })} | <span className="date"><Moment format="MMMM Do YYYY">{ props.post.date }</Moment></span>
                   </div>
                   <h1>{ props.post.heading }</h1>
                   <p>{ props.post.subheading }</p>
@@ -32,9 +35,7 @@ const Pressreleases = function (props) {
               <div className="col-xs-12">
                 <div className="container">
                   <div className="row center-xs">
-                    <div className="col-xs-10 gray-container gray-container--pressreleases" style={{ backgroundImage: `url(${ props.post.image })` }}>
-
-                    </div>
+                    <div className="col-xs-10 gray-container gray-container--pressreleases" style={{ backgroundImage: `url(${ props.post.image })` }} />
                   </div>
                 </div>
               </div>
@@ -123,7 +124,7 @@ Pressreleases.getInitialProps = async ({ req }) => {
   return {
     items: Subnavigation_Items,
     post: {
-      date: new Date(2017, 8, 29, 12, 30, 13, 37),
+      date: new Date(2017, 8, 29, 12, 30, 13),
       heading: 'VergeCurrency Listing on Binance Exchange',
       subheading: 'Verge getting on Binance Exchange',
       image: 'https://placehold.it/1920x1080'
