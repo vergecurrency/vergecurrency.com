@@ -10,30 +10,22 @@ Router.onRouteChangeStart = (url) => {
 Router.onRouteChangeComplete = () => NProgress.done();
 Router.onRouteChangeError = () => NProgress.done();
 
-const Header = ({ t }) => (
+const Subheader = ({ t, items }) => (
   <header id="subheader" className="hidden-xs">
     <div className="container">
       <div className="row around-xs middle-xs">
         <nav className="col-xs-12 center-xs">
-          <Link href="">
-            <a>Verge Team</a>
-          </Link>
-          <Link href="">
-            <a>History</a>
-          </Link>
-          <Link href="">
-            <a>Key Tech</a>
-          </Link>
-          <Link href="">
-            <a>Press Releases</a>
-          </Link>
-          <Link href="">
-            <a>Presskit</a>
-          </Link>
+          {
+            items.map(item => (
+              <Link key={`${item.i18}`} href={`${item.link}`}>
+                <a>{t(item.i18, { defaultValue: item.name })}</a>
+              </Link>
+            ))
+          }
         </nav>
       </div>
     </div>
   </header>
 );
 
-export default Header;
+export default Subheader;
