@@ -13,7 +13,8 @@ const Home = function (props) {
   const showLoader = store && store.showLoader;
 
   return (
-    <Layout loading={ showLoader }>
+    // <Layout loading={ showLoader }>
+    <Layout>
       <div className="ribbon">
         <div className="ribbon-img" />
 
@@ -118,6 +119,25 @@ const Home = function (props) {
             <div className="col-md-4 benefits--imgs">
               <img src="../static/img/benefits-desktop.png" />
               <img src="../static/img/benefits-mobile.png" />  
+            </div>
+          </div>
+        </div>
+        <div className="wallets pt-lg pb-lg">
+          <div className="row">
+            <div className="col-sm-6 col-xs-12">
+              <a href="#" className="wallets--url spaced">Read about wallets</a>
+              <h2>Dont worry, we got your preffered platform covered. Download your wallet here.</h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-3">
+              Tor Android Wallet
+            </div>
+            <div className="col-md-3">
+              OSX Electrum Wallet
+            </div>
+            <div className="col-md-3">
+              Apple iOS Wallet
             </div>
           </div>
         </div>

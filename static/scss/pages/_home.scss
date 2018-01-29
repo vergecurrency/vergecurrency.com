@@ -47,3 +47,13 @@
     }
   }
 }
+
+.wallets {
+  &--url {
+    &::after {
+      content: "";
+      font-family: "FontAwesome", sans-serif;
+      margin-left: 10px;
+    }
+  }
+}
