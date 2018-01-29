@@ -141,6 +141,16 @@ const Home = function (props) {
             </div>
           </div>
         </div>
+        <div className="power-to-the-people white-container white-container--home white-container--home__empower">
+          <div className="row">
+            <div className="col-md-8 col-md-offset-2">
+              <span className="spaced">Empowering people</span>
+              <h3>Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.</h3>
+              <p>With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.</p>
+              <a href="#" className="btn btn-secondary">Get Verge</a>
+            </div>
+          </div>
+        </div>
       </div>
 
     </Layout>
