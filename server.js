@@ -22,6 +22,7 @@ const routes = [
   ['/blog', '/blog'],
   ['/post', '/post'],
   ['/presskit', '/presskit'],
+  ['/pressreleases', '/pressreleases']
 ];
 
 const withStore = routes.map(([ endpoint, page ]) => endpoint);

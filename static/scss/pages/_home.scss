@@ -1,0 +1,17 @@
+.intro {
+  .spaced {
+    color: #647886;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+.benefits {
+  background: #daf0ff;
+  &--item {
+    .spaced {
+      color: #1a3d55;
+    }
+  }
+}

@@ -15,13 +15,13 @@ const Subheader = ({ t, items }) => (
     <div className="container">
       <div className="row around-xs middle-xs">
         <nav className="col-xs-12 center-xs">
-          {
+          {/* {
             items.map(item => (
               <Link key={`${item.i18}`} href={`${item.link}`}>
                 <a>{t(item.i18, { defaultValue: item.name })}</a>
               </Link>
             ))
-          }
+          } */}
         </nav>
       </div>
     </div>

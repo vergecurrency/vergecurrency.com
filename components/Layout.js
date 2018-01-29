@@ -20,7 +20,7 @@ class Layout extends React.Component {
     super(props);
 
     this.state = {
-      loading: props && props.loading,
+      loading: props && props.loading
     }
   }
 
@@ -31,7 +31,7 @@ class Layout extends React.Component {
     const updateState = () => this.setState({ loading: false });
     const clearLoaderAfter = timer(loading, updateState);
 
-    clearLoaderAfter(5000);
+    clearLoaderAfter(100);
 
     return loading
       ? (
@@ -67,12 +67,6 @@ class Layout extends React.Component {
 
             <Footer t={t} />
           </div>
-
-          <style jsx>{`
-            #layout {
-              overflow: hidden;
-            }
-          `}</style>
         </div>
       )
   }

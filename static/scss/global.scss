@@ -30,6 +30,7 @@ $colors: (
   venice-blue: $venice-blue
 );
 
+//Partials
 // @import 'partials/menu';
 @import 'partials/header';
 @import 'partials/base';
@@ -37,7 +38,10 @@ $colors: (
 @import 'partials/ribbon';
 @import 'partials/themed-container';
 @import 'partials/preloader';
+@import 'partials/footer';
 
+//Pages
+@import 'pages/home';
 @import 'pages/presskit';
 @import 'pages/pressreleases';
 

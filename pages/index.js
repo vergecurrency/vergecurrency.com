@@ -35,51 +35,93 @@ const Home = function (props) {
           </div>
         </div>
       </div>
-      <div className="container white-container white-container--home">
-        <div className="row center-xs">
-          <div className="col-xs-9 col-sm-10">
-            <div className="row between-xs">
-              <div className="col-xs-12 col-sm-4 start-xs reason">
-                <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:first.header") }}></h3>
-                <p>{t("home:USPs:first.text")}</p>
-              </div>
-              <div className="col-xs-12 col-sm-4 start-xs reason">
-                <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:second.header") }}></h3>
-                <p>{t("home:USPs:second.text")}</p>
-              </div>
-              <div className="col-xs-12 col-sm-4 start-xs reason">
-                <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:third.header") }}></h3>
-                <p>{t("home:USPs:third.text")}</p>
+      <div className="container">
+        <div className="white-container white-container--home">
+          <div className="row center-xs">
+            <div className="col-xs-9 col-sm-10">
+              <div className="row between-xs">
+                <div className="col-xs-12 col-sm-4 start-xs reason">
+                  <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:first.header") }}></h3>
+                  <p>{t("home:USPs:first.text")}</p>
+                </div>
+                <div className="col-xs-12 col-sm-4 start-xs reason">
+                  <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:second.header") }}></h3>
+                  <p>{t("home:USPs:second.text")}</p>
+                </div>
+                <div className="col-xs-12 col-sm-4 start-xs reason">
+                  <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:third.header") }}></h3>
+                  <p>{t("home:USPs:third.text")}</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="container pt pb">
-        <div className="row center-xs">
-          <div className="col-md col-sm-4 col-xs-6">
-              Mentioned in:
+        <div className="mentions">
+          <div className="row center-xs middle-xs pt pb">
+            <div className="col-md col-sm-4 col-xs-6">
+              <span className="spaced">Mentioned in:</span>
+            </div>
+            <div className="col-md col-sm-4 col-xs-6">
+              <a href="#">
+                <img src="../static/img/mentioned-in/Forbes.svg" width="100" />
+              </a>
+            </div>
+            <div className="col-md col-sm-4 col-xs-6">
+              <a href="#">
+                <img src="../static/img/mentioned-in/The-Guardian.svg" width="200" />
+              </a>  
+            </div>
+            <div className="col-md col-sm-4 col-xs-6">
+              <a href="#">
+                <img src="../static/img/mentioned-in/The-Sun.svg" width="100" />
+              </a>
+            </div>
+            <div className="col-md col-sm-4 col-xs-6">
+              <a href="#">  
+                <img src="../static/img/mentioned-in/The-Motley-Fool.svg" width="100" />
+              </a>
+            </div>
           </div>
-          <div className="col-md col-sm-4 col-xs-6">
-              Forbes
+        </div>
+        <div className="intro">
+          <div className="row center-xs middle-xs pt-lg pb-lg">
+            <div className="col-sm-6">
+              <span className="spaced">Delivers what others can't</span>
+              <h2>Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.</h2>
+              <p>We care about your privacy. Do you?</p>
+            </div>
           </div>
-          <div className="col-md col-sm-4 col-xs-6">
-              Guardian
-          </div>
-          <div className="col-md col-sm-4 col-xs-6">
-              the Sun
-          </div>
-          <div className="col-md col-sm-4 col-xs-6">
-              USA Commerce
-          </div>
-          <div className="col-md col-sm-4 col-xs-6">
-              The Motley Fool
-          </div>
-          <div className="col-md col-sm-4 col-xs-6">
-              Weetnietmeer
+        </div>
+        <div className="benefits">
+          <div className="row pt pb">
+            <div className="col-xs-4">
+              <div className="benefits--item">
+                <span className="spaced">ANONYMITY</span>
+                <p>Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.</p>
+              </div>
+              <div className="benefits--item">
+                <span className="spaced">COMMUNITY DRIVEN</span>
+                <p>Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.</p>
+              </div>
+              <a href="#" className="benefits--url">Expand benefits</a>
+            </div>
+            <div className="col-xs-4">
+              <div className="benefits--item">
+                <span className="spaced">PRIVACY AS A CHOICE</span>
+                <p>Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.</p>
+              </div>
+              <div className="benefits--item">
+                <span className="spaced">MASS ADOPTION</span>
+                <p>Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so.</p>
+              </div>
+            </div>
+            <div className="col-xs-4">
+
+            </div>
           </div>
         </div>
       </div>
+
     </Layout>
   );
 }

@@ -4,19 +4,23 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
+import ServerProps from '../components/ServerProps';
+
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 import Moment from 'react-moment';
 import 'moment-timezone';
 
-import markdown from 'markdown-in-js'
+import markdown from 'markdown-in-js';
+import one from '../static/pressreleases/one';
 
 const Pressreleases = function (props) {
-  const { t } = props;
+  const { t, store } = props;
+  const showLoader = store && store.showLoader;
 
   return (
-    <Layout>
+    <Layout loading={ showLoader }>
       <Subheader t={t} items={props.items} />
 
       <div className="pressreleases">
@@ -26,10 +30,10 @@ const Pressreleases = function (props) {
               <div className="col-xs-8">
                 <div className="start-xs">
                   <div className="date-container">
-                    {t('date.label', { defaultValue: 'Press release' })} | <span className="date"><Moment format="MMMM Do YYYY">{ props.post.date }</Moment></span>
+                    {t('date.label', { defaultValue: 'Press release' })} | <span className="date"><Moment format="MMMM Do YYYY">{ one.date }</Moment></span>
                   </div>
-                  <h1>{ props.post.heading }</h1>
-                  <p>{ props.post.subheading }</p>
+                  <h1>{ one.post.heading }</h1>
+                  <p>{ one.post.subheading }</p>
                 </div>
               </div>
             </div>
@@ -37,7 +41,7 @@ const Pressreleases = function (props) {
               <div className="col-xs-12">
                 <div className="container">
                   <div className="row center-xs">
-                    <div className="col-xs-10 gray-container gray-container--pressreleases" style={{ backgroundImage: `url(${ props.post.image })` }} />
+                    <div className="col-xs-10 gray-container gray-container--pressreleases" style={{ backgroundImage: `url(${ one.post.image })` }} />
                   </div>
                 </div>
               </div>
@@ -56,7 +60,7 @@ const Pressreleases = function (props) {
   );
 }
 
-Pressreleases.getInitialProps = async ({ req }) => {
+Pressreleases.getInitialProps = () => {
   const Subnavigation_Items = [
     {
       'link': '/our-team',
@@ -131,4 +135,4 @@ Transaction speeds are ultra-fast compared to other coins. Simple Payment Verifi
 
 const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressreleases);
 
-export default Extended;
+export default ServerProps(Extended);
