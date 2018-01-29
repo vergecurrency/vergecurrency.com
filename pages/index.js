@@ -4,12 +4,13 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Ribbon from '../components/Ribbon';
 import ServerProps from '../components/ServerProps';
+import fetch from 'isomorphic-unfetch'
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 const Home = function (props) {
-  const { t, store } = props;
+  const { t, store, xvg } = props;
   const showLoader = store && store.showLoader;
 
   return (
@@ -172,11 +173,25 @@ const Home = function (props) {
               </div>
             </div>
           </div>
+          <div className="row">
+            <div className="col-xs-12">
+              <span>BTC Price</span>
+            </div>
+          </div>
         </div>
       </div>
 
     </Layout>
   );
+}
+
+Home.getInitialProps = function () {
+  const res = fetch(`https://api.coinmarketcap.com/v1/ticker/verge/`)
+  const xvg = res.json()
+
+  console.log("HELLO TEST XVG", xvg);
+
+  return { xvg }
 }
 
 const Extended = translate(['home'], { i18n, wait: process.browser })(Home);
