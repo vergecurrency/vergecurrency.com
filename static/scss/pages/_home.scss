@@ -68,3 +68,24 @@
     font-size: 1rem;
   }
 }
+
+.exchanges {
+  &--item {
+    border: 2px solid #e7e7e7;
+    box-shadow: 0 0 5px rgba(0,0,0,0.06);
+    display: flex;
+    padding: 15px;
+    transition: all .2s ease-in-out;
+    &:hover {
+      border: 2px solid #04a5f0;
+      cursor: pointer;
+      box-shadow: 0 0 19px rgba(0,0,0,0.18);
+    }
+    &__logo {margin-right: 15px;}
+    &__name {
+      display:flex;
+      flex-direction: column;
+      span:last-of-type {color: #b3b3b3; font-size:13px;}
+    }
+  }
+}

@@ -151,6 +151,28 @@ const Home = function (props) {
             </div>
           </div>
         </div>
+        <div className="exchanges pt-lg pb-lg">
+          <div className="row">
+            <div className="col-sm-6 col-xs-12">
+              <a href="#" className="wallets--url spaced">See more exchanges</a>
+              <h2>Trade Verge on the most popular exchanges. <br />
+              We’re proud to be listed on:</h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-3">
+              <div className="exchanges--item">
+                <div className="exchanges--item__logo">
+                  <img src="../static/img/bittrex-192.png" width="40" />
+                </div>
+                <div className="exchanges--item__name">
+                  <span>Bittrex</span>
+                  <span>bittrex.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </Layout>
