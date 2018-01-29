@@ -93,30 +93,31 @@ const Home = function (props) {
           </div>
         </div>
         <div className="benefits">
-          <div className="row pt pb">
-            <div className="col-xs-4">
+          <div className="row pt-lg pb-lg">
+            <div className="col-md-3 col-md-offset-1">
               <div className="benefits--item">
                 <span className="spaced">ANONYMITY</span>
                 <p>Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.</p>
               </div>
-              <div className="benefits--item">
+              <div className="benefits--item pt-lg">
                 <span className="spaced">COMMUNITY DRIVEN</span>
                 <p>Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.</p>
               </div>
-              <a href="#" className="benefits--url">Expand benefits</a>
+              <a href="#" className="benefits--url spaced">Expand benefits</a>
             </div>
-            <div className="col-xs-4">
-              <div className="benefits--item">
-                <span className="spaced">PRIVACY AS A CHOICE</span>
-                <p>Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.</p>
-              </div>
+            <div className="col-md-3 col-md-offset-1">
               <div className="benefits--item">
                 <span className="spaced">MASS ADOPTION</span>
                 <p>Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so.</p>
+              </div>  
+              <div className="benefits--item pt-lg">
+                <span className="spaced">PRIVACY AS A CHOICE</span>
+                <p>Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.</p>
               </div>
             </div>
-            <div className="col-xs-4">
-
+            <div className="col-md-4 benefits--imgs">
+              <img src="../static/img/benefits-desktop.png" />
+              <img src="../static/img/benefits-mobile.png" />  
             </div>
           </div>
         </div>

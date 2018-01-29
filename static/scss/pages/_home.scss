@@ -9,9 +9,41 @@
 
 .benefits {
   background: #daf0ff;
+  .spaced {
+    color: #1a3d55;
+  }
   &--item {
-    .spaced {
+    p {
+      font-size: 13px;
+      line-height: 23px;
       color: #1a3d55;
+    }
+  }
+  &--url {
+    display: block;
+    margin-top: 40px;
+    &::after {
+      content: "";
+      font-family: "FontAwesome", sans-serif;
+      margin-left: 10px;
+    }
+  }
+  &--imgs {
+    position: relative;
+    img {
+      position: absolute;
+      right: .5rem;
+      box-shadow: 0 0 90px rgba(0,0,0,0.18);
+      &:first-of-type {
+        border-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      &:last-of-type {
+        right: 198px;
+        top: 48px;
+        border-radius: 28px;
+      }
     }
   }
 }
