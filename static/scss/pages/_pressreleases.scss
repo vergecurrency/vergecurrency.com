@@ -1,11 +1,13 @@
 .pressreleases {
+  // scss-lint:disable COlorVariable
+
   .date-container {
     color: #475056;
     font-size: .8rem;
     font-weight: 600;
     letter-spacing: .2rem;
-    text-transform: uppercase;
     padding-bottom: 1rem;
+    text-transform: uppercase;
 
     .date {
       color: #0f9bbf;
@@ -19,6 +21,41 @@
 
     + p {
       font-size: 1.5rem;
+    }
+  }
+
+  .share {
+    color: #7a7a7a;
+    font-size: .9rem;
+    line-height: 1.5rem;
+
+    strong {
+      color: #091721;
+      font-size: 1.125rem;
+    }
+  }
+
+  @at-root .white-container, .gray-container {
+    // scss-lint:disable NestingDepth
+
+    &--pressreleases {
+      h3,
+      p {
+        color: #333;
+      }
+
+      h1 {
+        color: #091721;
+
+        + p {
+          color: #475056;
+        }
+      }
+
+      &-bottom {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+      }
     }
   }
 }

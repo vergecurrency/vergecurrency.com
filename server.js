@@ -22,6 +22,8 @@ const routes = [
   ['/blog', '/blog'],
   ['/post', '/post'],
   ['/presskit', '/presskit'],
+  ['/pressreleases', '/pressreleases'],
+  ['/press-releases', '/pressreleases']
 ];
 
 const withStore = routes.map(([ endpoint, page ]) => endpoint);
@@ -48,7 +50,7 @@ i18n
 
     // need to preload all the namespaces
     // add more namespaces as pages are created
-    ns: ['common', 'header', 'footer', 'home', 'presskit'],
+    ns: ['common', 'header', 'footer', 'home', 'presskit', 'pressreleases'],
     backend: {
       loadPath: __dirname + '/locales/{{lng}}/{{ns}}.json',
       addPath: __dirname + '/locales/{{lng}}/{{ns}}.missing.json'

@@ -1,0 +1,62 @@
+footer {
+  background: #091721;
+  font-family: 'Avenir Next', Arial, sans-serif;
+  padding-top: 3rem;
+
+  h3, h4 {
+    color: white;
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+  }
+  
+  h3 { // optical illusion solved
+    margin-left: .1rem;
+  }
+  
+  h3 + div p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 2.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    text-align: left;
+  }
+  
+  @media (min-width: 48rem) {
+    h3 + div p {
+      line-height: auto;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+  }
+  
+  a {
+    color: white;
+    display: inline-block;
+    font-size: .8rem;
+    line-height: 1.3rem;
+    margin-bottom:.2rem;
+    text-decoration: none;
+    text-transform: initial;
+    align-self: start;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+footer > div:last-child {
+  background: white;
+  margin-top: 3rem;
+}
+

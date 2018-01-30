@@ -10,13 +10,43 @@ Router.onRouteChangeStart = (url) => {
 Router.onRouteChangeComplete = () => NProgress.done();
 Router.onRouteChangeError = () => NProgress.done();
 
-const Subheader = ({ t, items }) => (
+const Subnavigation_Items = {
+  press: [
+    {
+      link: '/our-team',
+      i18:  'submenu.ourTeam',
+      name: 'Verge Team'
+    },
+    {
+      link: '/history',
+      i18:  'submenu.history',
+      name: 'History'
+    },
+    {
+      link: '/key-tech',
+      i18:  'submenu.keyTech',
+      name: 'Key Tech'
+    },
+    {
+      link: '/press-releases',
+      i18:  'submenu.pressReleases',
+      name: 'Press Releases'
+    },
+    {
+      link: '/presskit',
+      i18:  'submenu.presskit',
+      name: 'Presskit'
+    }
+  ]
+};
+
+const Subheader = ({ t, category }) => (
   <header id="subheader" className="hidden-xs">
     <div className="container">
       <div className="row around-xs middle-xs">
         <nav className="col-xs-12 center-xs">
           {
-            items.map(item => (
+            Subnavigation_Items[category].map(item => (
               <Link key={`${item.i18}`} href={`${item.link}`}>
                 <a>{t(item.i18, { defaultValue: item.name })}</a>
               </Link>

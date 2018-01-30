@@ -59,3 +59,19 @@ p {
     margin-top: 1.5rem;
   }
 }
+
+#layout {
+  overflow: hidden;
+}
+
+.spaced {
+  color: #9b9b9b;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.bb {
+  border-bottom: 1px solid #e7e7e7;
+}
