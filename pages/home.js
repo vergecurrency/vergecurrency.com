@@ -7,11 +7,13 @@ import Ribbon from '../components/Ribbon';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
+import ServerProps from '../components/ServerProps';
+
 const Home = function (props) {
-  const { t } = props;
+  const { t, store } = props;
 
   return (
-    <Layout>
+    <Layout loading={ store && store.showLoader }>
       <div className="ribbon">
         <div className="ribbon-img" />
 
@@ -84,4 +86,4 @@ const Home = function (props) {
 
 const Extended = translate(['home'], { i18n, wait: process.browser })(Home);
 
-export default Extended;
+export default ServerProps(Extended);
