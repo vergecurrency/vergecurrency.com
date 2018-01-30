@@ -84,6 +84,14 @@ $padding-vertical-mobile-lg: 4rem;
     padding-bottom: 0;
   }
 
+  .pt-small-xs {
+    padding-top: $padding-vertical-mobile-small;
+  }
+
+  .pb-small-xs {
+    padding-bottom: $padding-vertical-mobile-small;
+  }
+
   .pt {
     padding-top: $padding-vertical-mobile;
   }

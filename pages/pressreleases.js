@@ -26,12 +26,16 @@ const Pressreleases = function (props) {
 
       <div className="pressreleases">
         <div className="white-container white-container--pressreleases">
-          <div className="container pb">
+          <div className="container pb pb-xs-0">
             <div className="row center-xs">
-              <div className="col-xs-8">
+              <div className="col-xs-11 col-sm-8">
                 <div className="start-xs">
                   <div className="date-container">
-                    {t('date.label', { defaultValue: 'Press release' })} | <span className="date"><Moment format="MMMM Do YYYY">{ one.date }</Moment></span>
+                    {t('date.label', { defaultValue: 'Press release' })}
+                    <span className="hidden-xs">|</span>
+                    <span className="date">
+                      <Moment format="MMMM Do YYYY">{ one.date }</Moment>
+                    </span>
                   </div>
                   <h1>{ one.post.heading }</h1>
                   <p>{ one.post.subheading }</p>
@@ -42,20 +46,22 @@ const Pressreleases = function (props) {
               <div className="col-xs-12">
                 <div className="container">
                   <div className="row center-xs">
-                    <div className="col-xs-10 gray-container gray-container--pressreleases" style={{ backgroundImage: `url(${ one.post.image })` }} />
+                    <div className="col-xs-12 col-sm-10 image-container image-container--pressreleases" style={{ backgroundImage: `url(${ one.post.image })` }} />
                   </div>
                 </div>
               </div>
             </div>
             <div className="row center-xs">
-              <div className="col-xs-8">
+              <div className="col-xs-11 col-sm-8">
                 <div className="start-xs pb bb">
                   <Content />
                 </div>
-                <div className="between-xs pt-small">
-                  <div className="row share">
-                    <div className="col-xs-12 col-sm-4 start-xs"><strong>Share the release</strong></div>
-                    <div className="col-xs-12 col-sm-8 end-xs">
+                <div className="between-sm pt-small">
+                  <div className="row start-xs share">
+                    <div className="col-xs-12 col-sm-4">
+                      <strong>Share the release</strong>
+                    </div>
+                    <div className="col-xs-12 col-sm-8 end-sm">
                       Facebook
                       Twitter
                     </div>
@@ -65,11 +71,29 @@ const Pressreleases = function (props) {
             </div>
           </div>
         </div>
-        <div className="gray-container gray-container--pressreleases gray-container--bottom">
+        <div className="gray-container gray-container--pressreleases mb-0">
           <div className="container">
-            <div className="row center-xs">
-              <div className="col-xs-8">
+            <div className="row center-xs previous">
+              <div className="col-xs-11 start-xs">
                 <h3>Previous press releases</h3>
+
+                <div className="row around-xs pt-small">
+                  <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                    <span className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment></span>
+                    <h4>Update on Wraith. The release of Verge Core..</h4>
+                    <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                    <span className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment></span>
+                    <h4>Update on Wraith. The release of Verge Core..</h4>
+                    <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 start-xs">
+                    <span className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment></span>
+                    <h4>Update on Wraith. The release of Verge Core..</h4>
+                    <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

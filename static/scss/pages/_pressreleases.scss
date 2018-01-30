@@ -1,5 +1,5 @@
 .pressreleases {
-  // scss-lint:disable COlorVariable
+  // scss-lint:disable ColorVariable
 
   .date-container {
     color: #475056;
@@ -11,6 +11,10 @@
 
     .date {
       color: #0f9bbf;
+
+      @media (max-width: $max-width-xs) {
+        display: block;
+      }
     }
   }
 
@@ -35,12 +39,18 @@
     }
   }
 
-  @at-root .white-container, .gray-container {
+  @at-root .white-container {
     // scss-lint:disable NestingDepth
 
     &--pressreleases {
+      @media (max-width: $max-width-xs) {
+        padding-bottom: 2rem;
+        padding-top: 7rem;
+      }
+
       h3,
-      p {
+      p,
+      li {
         color: #333;
       }
 
@@ -51,11 +61,50 @@
           color: #475056;
         }
       }
+    }
+  }
 
-      &-bottom {
-        padding-top: 8rem;
-        padding-bottom: 8rem;
+  @at-root .gray-container {
+    // scss-lint:disable NestingDepth
+
+    &--pressreleases {
+      @media (max-width: $max-width-xs) {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
       }
+    }
+  }
+
+  .previous {
+    .date {
+      color: #091721;
+      font-size: .875rem;
+    }
+
+    h3 {
+      font-size: 1.9rem;
+    }
+
+    h4 {
+      font-size: 1.7rem;
+
+      // scss-lint:disable NestingDepth
+      &::after {
+        background-color: #091721;
+        content: ' ';
+        display: block;
+        height: .2rem;
+        margin-bottom: 1.2rem;
+        margin-left: 1px;
+        margin-top: .3rem;
+        width: 3rem;
+      }
+    }
+
+    p {
+      color: #475056;
+      font-size: .75rem;
+      font-style: italic;
     }
   }
 }
