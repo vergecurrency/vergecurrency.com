@@ -13,6 +13,7 @@ import Moment from 'react-moment';
 import 'moment-timezone';
 
 import markdown from 'markdown-in-js';
+
 import one from '../static/pressreleases/one';
 
 const Pressreleases = function (props) {
@@ -21,7 +22,7 @@ const Pressreleases = function (props) {
 
   return (
     <Layout loading={ showLoader }>
-      <Subheader t={t} items={props.items} />
+      <Subheader t={t} category='press' />
 
       <div className="pressreleases">
         <div className="white-container white-container--pressreleases">
@@ -48,9 +49,27 @@ const Pressreleases = function (props) {
             </div>
             <div className="row center-xs">
               <div className="col-xs-8">
-                <div className="start-xs">
+                <div className="start-xs pb bb">
                   <Content />
                 </div>
+                <div className="between-xs pt-small">
+                  <div className="row share">
+                    <div className="col-xs-12 col-sm-4 start-xs"><strong>Share the release</strong></div>
+                    <div className="col-xs-12 col-sm-8 end-xs">
+                      Facebook
+                      Twitter
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="gray-container gray-container--pressreleases gray-container--bottom">
+          <div className="container">
+            <div className="row center-xs">
+              <div className="col-xs-8">
+                <h3>Previous press releases</h3>
               </div>
             </div>
           </div>
@@ -58,46 +77,6 @@ const Pressreleases = function (props) {
       </div>
     </Layout>
   );
-}
-
-Pressreleases.getInitialProps = () => {
-  const Subnavigation_Items = [
-    {
-      'link': '/our-team',
-      'i18':  'submenu.ourTeam',
-      'name': 'Verge Team'
-    },
-    {
-      'link': '/history',
-      'i18':  'submenu.history',
-      'name': 'History'
-    },
-    {
-      'link': '/key-tech',
-      'i18':  'submenu.keyTech',
-      'name': 'Key Tech'
-    },
-    {
-      'link': '/press-releases',
-      'i18':  'submenu.pressReleases',
-      'name': 'Press Releases'
-    },
-    {
-      'link': '/presskit',
-      'i18':  'submenu.presskit',
-      'name': 'Presskit'
-    }
-  ];
-
-  return {
-    items: Subnavigation_Items,
-    post: {
-      date: new Date(2017, 8, 29, 12, 30, 13),
-      heading: 'VergeCurrency Listing on Binance Exchange',
-      subheading: 'Verge getting on Binance Exchange',
-      image: 'https://placehold.it/1920x1080'
-    }
-  }
 }
 
 const Content = () => markdown`

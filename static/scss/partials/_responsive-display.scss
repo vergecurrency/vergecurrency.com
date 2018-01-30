@@ -1,8 +1,10 @@
 // scss-lint:disable ImportantRule
 
 $padding-vertical-desktop: 3rem;
+$padding-vertical-desktop-small: 1.5rem;
 $padding-vertical-desktop-lg: 6rem;
 $padding-vertical-mobile: 2rem;
+$padding-vertical-mobile-small: 1rem;
 $padding-vertical-mobile-lg: 4rem;
 
 @-ms-viewport{
@@ -12,6 +14,10 @@ $padding-vertical-mobile-lg: 4rem;
 .mx-0 {
   margin-left: 0;
   margin-right: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 .mb-thin {
@@ -30,6 +36,15 @@ $padding-vertical-mobile-lg: 4rem;
   padding-bottom: $padding-vertical-desktop;
 }
 
+.pt-small {
+  padding-top: $padding-vertical-desktop-small;
+}
+
+.pb-small {
+  padding-bottom: $padding-vertical-desktop-small;
+}
+
+// TODO: Rename occurrences to avoid confusion with breakpoints
 .pt-lg {
   padding-top: $padding-vertical-desktop-lg;
 }
@@ -80,4 +95,13 @@ $padding-vertical-mobile-lg: 4rem;
   .pt-xs-0 {
     padding-top: 0;
   }
+
+  .pt-small {
+    padding-top: $padding-vertical-mobile-small;
+  }
+
+  .pb-small {
+    padding-bottom: $padding-vertical-mobile-small;
+  }
+
 }
