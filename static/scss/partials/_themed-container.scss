@@ -1,3 +1,5 @@
+// TODO: Refactor to bemmy classnames
+.image-container,
 .blue-container,
 .gray-container,
 .white-container {
@@ -65,6 +67,15 @@
 }
 
 .gray-container {
+  background-color: #f7f7f7; // scss-lint:disable ColorVariable
+  box-shadow: none;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 12rem;
+  padding-top: 12rem;
+}
+
+.image-container {
   background-color: #f7f7f7; // scss-lint:disable ColorVariable
   box-shadow: none;
   margin-bottom: 2rem;
