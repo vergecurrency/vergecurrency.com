@@ -1,3 +1,5 @@
+// TODO: Refactor to bemmy classnames
+.image-container,
 .blue-container,
 .gray-container,
 .white-container {
@@ -50,22 +52,6 @@
       color: #647886;
     }
   }
-
-  &--pressreleases {
-    h3,
-    p {
-      color: #333;
-    }
-
-    h1 {
-      color: #091721;
-
-      // scss-lint:disable NestingDepth
-      + p {
-        color: #475056;
-      }
-    }
-  }
 }
 
 .blue-container {
@@ -81,7 +67,16 @@
 }
 
 .gray-container {
-  background-color: #ccc; // scss-lint:disable ColorVariable
+  background-color: #f7f7f7; // scss-lint:disable ColorVariable
+  box-shadow: none;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 12rem;
+  padding-top: 12rem;
+}
+
+.image-container {
+  background-color: #f7f7f7; // scss-lint:disable ColorVariable
   box-shadow: none;
   margin-bottom: 2rem;
   margin-top: 1rem;
