@@ -248,6 +248,17 @@ const Home = function (props) {
                   Anonymous mobile transactions over the I2P network
                 </li>
               </ul>
+              <a href="#" className="spaced pt">Full roadmap here</a>
+            </div>
+          </div>
+        </div>
+        <div className="blog">
+          <div className="row pt pb center-xs middle-xs">
+            <div className="col-sm-8">
+              <a href="#" className="spaced">Go to the blog</a>
+              <h2>Check out our blog and to find out what is<br />
+                happening with Verge.</h2>
+              
             </div>
           </div>
         </div>

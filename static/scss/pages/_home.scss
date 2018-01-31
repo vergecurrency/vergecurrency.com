@@ -172,6 +172,35 @@
           top: 0.5rem;
         }
       }
+
+      &:last-of-type {
+        &::after {
+          content:"";
+          background: transparent;
+        }
+      }
+    }
+  }
+
+  .spaced {
+    color: #091721;
+
+    &::after {
+      content: "";
+      font-family: "FontAwesome", sans-serif;
+      margin-left: 10px;
+    }
+  }
+}
+
+.blog {
+  .spaced {
+    color: #091721;
+
+    &::after {
+      content: "";
+      font-family: "FontAwesome", sans-serif;
+      margin-left: 10px;
     }
   }
 }
