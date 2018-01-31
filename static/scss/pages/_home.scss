@@ -89,3 +89,89 @@
     }
   }
 }
+
+.vendors {
+  background: #daf0ff;
+  .spaced {
+    color: #769bb4;
+  }
+  &--story {
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      color: #4e555a;
+    }
+  }
+  &--list {
+    display: block;
+    a {
+      &::after {
+        content: "";
+        font-family: "FontAwesome", sans-serif;
+        margin-left: 10px;
+      }
+    }
+  }
+  &--imgs {
+    position: relative;
+    img {
+      position: absolute;
+      right: 7px;
+      top: -100px;
+    }
+  }
+}
+
+.roadmap {
+  background: #fbf4f0;
+  &--timeline {
+    list-style:none;
+    padding-left: 0;
+    li {
+      font-size:14px;
+      position:relative;
+      margin-top: 50px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        height: 40px;
+        width: 2px;
+        background: #e8d8cf;
+        left: 2px;
+        bottom: -45px;
+      }
+
+      h3 {margin-bottom:0;}
+      span {
+        color: #00aeff;
+      }
+      
+      &.planned {
+        &::before {
+          content: "";
+          width:30px;
+          height:30px;
+          background:#fff;
+          border-radius: 50%;
+          position: absolute;
+          left: -40px;
+          top: 0.5rem;
+        }
+      }
+
+      &.done {
+        &::before {
+          content: "";
+          width: 30px;
+          height: 30px;
+          background: #04a5f0;
+          border-radius: 50%;
+          position: absolute;
+          left: -40px;
+          top: 0.5rem;
+        }
+      }
+    }
+  }
+}

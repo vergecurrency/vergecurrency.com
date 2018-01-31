@@ -2,8 +2,10 @@
 
 $padding-vertical-desktop: 3rem;
 $padding-vertical-desktop-lg: 6rem;
+$padding-vertical-desktop-xlg: 9rem;
 $padding-vertical-mobile: 2rem;
 $padding-vertical-mobile-lg: 4rem;
+$padding-vertical-mobile-xlg: 6rem;
 
 @-ms-viewport{
   width: device-width;
@@ -36,6 +38,14 @@ $padding-vertical-mobile-lg: 4rem;
 
 .pb-lg {
   padding-bottom: $padding-vertical-desktop-lg;
+}
+
+.pt-xlg {
+  padding-top: $padding-vertical-desktop-xlg;
+}
+
+.pb-xlg {
+  padding-bottom: $padding-vertical-desktop-xlg;
 }
 
 .no-padding {

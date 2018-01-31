@@ -74,4 +74,9 @@ class Layout extends React.Component {
 
 const Extended = translate(['header', 'footer', 'common'], { i18n, wait: process.browser })(Layout);
 
+Extended.getInitialProps = async ({req}) => {
+  if (req && !process.browser) return i18n.getInitialProps(req, ['header', 'footer', 'home']);
+  return {};
+};
+
 export default Extended;

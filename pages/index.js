@@ -70,7 +70,7 @@ const Home = function (props) {
             </div>
             <div className="col-md col-sm-4 col-xs-6">
               <a href="#">
-                <img src="../static/img/mentioned-in/The-Guardian.svg" width="200" />
+                <img src="../static/img/mentioned-in/The-Guardian.svg" width="180" />
               </a>  
             </div>
             <div className="col-md col-sm-4 col-xs-6">
@@ -81,6 +81,11 @@ const Home = function (props) {
             <div className="col-md col-sm-4 col-xs-6">
               <a href="#">  
                 <img src="../static/img/mentioned-in/The-Motley-Fool.svg" width="100" />
+              </a>
+            </div>
+            <div className="col-md col-sm-4 col-xs-6">
+              <a href="#">  
+                <img src="../static/img/mentioned-in/Cryptovest.svg" width="150" />
               </a>
             </div>
           </div>
@@ -179,8 +184,74 @@ const Home = function (props) {
             </div>
           </div>
         </div>
+        <div className="vendors">
+          <div className="row pt-xlg pb-xlg">
+            <div className="col-md-5 col-md-offset-1">
+              <div className="vendors--story">
+                <span className="spaced">Accept Verge Currency</span>
+                <h2>Powering real world vendors that accept Verge Currency</h2>
+                <p>All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.<br /><br />
+                  Get started today and accept Verge in your store.</p>
+                <a href="#" class="btn btn-primary btn-primary--on-white-bg">Accept Verge Today</a>
+                <a href="#" class="btn btn-tertiary">See all vendors</a>
+              </div>  
+            </div>
+            <div className="col-md-6 vendors--imgs">
+              <img src="../static/img/vendors/vendor-story.png" /> 
+            </div>
+          </div>
+        </div>
+        <div className="vendors--list">
+          <div className="row pt-lg pb-lg center-xs middle-xs">
+            <div className="col-xs-12">
+              <h2>Latest vendors to accept Verge</h2>
+              <a href="#" className="spaced">See all vendors here</a>
+            </div>
+            <div className="col-xs-12 pt"></div> {/*odd solution - fix this later */}
+            <div className="col-md">
+              Nexwave
+            </div>
+            <div className="col-md">
+              HODL
+            </div>
+            <div className="col-md">
+              Crypto VFX
+            </div>
+            <div className="col-md">
+              Snel.com
+            </div>
+            <div className="col-md">
+              PMC
+            </div>
+            <div className="col-md">
+              RRRRR
+            </div>
+          </div>
+        </div>
+        <div className="roadmap">
+          <div className="row pt pb">
+            <div className="col-sm-8 col-sm-offset-4">
+              <h2>A roadmap with great features to come.<br />
+                Join us while we're still growing!</h2>
+              <ul className="roadmap--timeline">
+                <li className="done">
+                  <h3>"Black" Paper v3.0</h3>
+                  <span>Released</span> 4 June 2017
+                </li>
+                <li className="done">
+                  <h3>Test servers deployed</h3>
+                  <span>Released</span> 10 Aug 2017
+                </li>
+                <li className="planned">
+                  <h3>I2P Android Wallet</h3>
+                  Test servers <br />
+                  Anonymous mobile transactions over the I2P network
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-
     </Layout>
   );
 }
@@ -188,8 +259,6 @@ const Home = function (props) {
 Home.getInitialProps = function () {
   const res = fetch(`https://api.coinmarketcap.com/v1/ticker/verge/`)
   const xvg = res.json()
-
-  console.log("HELLO TEST XVG", xvg);
 
   return { xvg }
 }

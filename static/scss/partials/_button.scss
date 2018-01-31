@@ -36,7 +36,6 @@
   &-primary {
     background: $_primary-color;
     border-color: $_primary-color;
-    box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);
     color: $white;
 
     &--on-white-bg {
@@ -54,6 +53,13 @@
     color: $white;
   }
 
+  &-tertiary {
+    background: $dark-blue;
+    border: 3px solid $dark-blue;
+    border-color: $dark-blue;
+    color: $white;
+  }
+
   &-inverted {
     border: 3px solid $_primary-color;
     border-color: $_primary-color;
@@ -65,7 +71,7 @@
     }
   }
 
-  @at-root p + & {
-    margin-top: .5rem;
-  }
+  // @at-root p + & {
+  //   margin-top: .5rem;
+  // }
 }
