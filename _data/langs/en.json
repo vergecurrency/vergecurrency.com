@@ -173,7 +173,7 @@
     "paragraph": "All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services."
   },
   "roadmap": {
-    "header": "Q4 Release Schedule",
+    "header": "Q1  Release Schedule",
     "paragraph": "Release schedule will be updated on a per-quarter basis.",
     "blackpaper": {
       "header": "\"Black\" Paper v3.0",
@@ -396,8 +396,8 @@
           "question": "Is the Verge Currency team planning to burn coins?",
           "answer": "No. Since there was no pre-mine or ICO, the team does not hold a significant amount of coins to affect the coin distribution or total circulation. This is yet another reason for high total supply. However, if you feel like burning some of your own coins, please feel free to do so or donate to the team ;)."
         },
-        "infaltion": {
-          "question": "Is it a inflationary coin?",
+        "inflation": {
+          "question": "Is it an inflationary coin?",
           "answer": "No, the total circulation is capped."
         },
         "transactionfee": {
