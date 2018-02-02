@@ -217,48 +217,48 @@
   },
   "developers": {
     "about": {
-      "header": "Developers",
-      "paragraph": "Writing code is hard. We would like to make it easy for you to work on Verge, so we've gathered a set of tools and put them in a list."
+      "header": "Para Pengembang",
+      "paragraph": "Menulis kode itu susah. Kami ingin mempermudah Anda untuk bekerja pada Verge, jadi kami telah mengumpulkan satu set peralatan dan meletakkan mereka dalam daftar."
     },
     "resources": {
-      "header": "Developers' tools",
+      "header": "Perangkat Pengembang",
       "github_gui": "GitHub Desktop",
-      "php": "PHP Library for Verge wallet",
-      "ruby": "Ruby wrapped gem for interacting with Verge wallet",
-      "python": "Verge API binding for Python",
-      "nodejs": "Node.js client for Verge",
-      "rubygems_howto": "How to install RubyGems",
-      "github_repos": "Our GitHub repositories"
+      "php": "PHP Library untuk dompet Verge",
+      "ruby": "Ruby wrapped gem untuk berinteraksi dengan Dompet Verge",
+      "python": "Verge API binding untuk Python",
+      "nodejs": "Node.js client untuk Verge",
+      "rubygems_howto": "Bagaimana cara menginstal RubyGems",
+      "github_repos": "Repositori Github Kami"
     }
   },
   "contributors": {
     "about": {
-      "header": "Contributors",
-      "paragraph": "Verge is open-source software that is constantly improving due to its many contributors. If you would like to contribute as well, take a look at our <a href='https://github.com/vergecurrency' target='_blank'>Github repositories</a> to see where you could make a difference!"
+      "header": "Kontributor",
+      "paragraph": "Verge adalah perangkat lunak open-source yang secara konstan berkembang karena para kontributornya. Jika Anda ingin berkontribusi dengan baik, lihatlah pada <a href='https://github.com/vergecurrency' target='_blank'>Repositori Github kami</a> untuk melihat perbedaan yang dapat Anda buat!"
     },
     "wallets": {
       "verge": {
-        "header": "Verge Wallet Address",
+        "header": "Alamat Dompet Verge",
         "address": "DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp"
       },
       "bitcoin": {
-        "header": "Bitcoin Wallet Address",
+        "header": "Alamat Dompet Bitcoin",
         "address": "142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1"
       }
     }
   },
   "donate": {
     "about": {
-      "header": "Donate to Support Development",
-      "paragraph": "Verge is not a pre-mined coin, so all of its development is funded by kind people like you."
+      "header": "Donasi untuk Mendukung Pengembangan",
+      "paragraph": "Verge bukanlah coin pra-tambang, jadi semua pengembangan didanai oleh orang baik seperti Anda."
     },
     "wallets": {
       "verge": {
-        "header": "Verge Wallet Address",
+        "header": "Alamat Dompet Verge",
         "address": "DDd1pVWr8PPAw1z7DRwoUW6maWh5SsnCcp"
       },
       "bitcoin": {
-        "header": "Bitcoin Wallet Address",
+        "header": "Alamat Dompet Bitcoin",
         "address": "142r3vCAH3AzABiQjFPmcrSCp6TDzEDuB1"
       }
     }
