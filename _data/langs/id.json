@@ -100,8 +100,8 @@
       "blockchain_explorer_ccminer": "Blockchain Explorer (CCMiner.org)"
     },
     "tech_specs": {
-      "header": "Specifications",
-      "symbol": "<b>Symbol:</b> XVG",
+      "header": "Spesifikasi",
+      "symbol": "<b>Simbol:</b> XVG",
       "algo": "<b>Algo:</b> Scrypt, x17, groestl, blake2s, and lyra2rev2",
       "block_time": "<b>Block Time:</b> 30 seconds",
       "rpc_port": "<b>RPC port:</b> 20102",
@@ -109,8 +109,8 @@
     }
   },
   "exchanges": {
-    "header": "Get Verge",
-    "paragraph": "Verge is proud to be listed on the following exchanges:",
+    "header": "Dapatkan Verge",
+    "paragraph": "Verge bangga telah dicantumkan pada exchange berikut ini:",
     "bittrex": "Bittrex",
     "bitsquare": "BitSquare.io",
     "ccex": "C-Cex",
@@ -135,42 +135,42 @@
     "tradesatoshi": "Tradesatoshi"
   },
   "wallets": {
-    "header": "Wallets",
+    "header": "Dompet",
     "info": {
       "header": "Info:",
-      "message": "If you are not installing an Electrum wallet, you can speed up your install by downloading the Verge blockchain from <a href='https://verge-blockchain.com/' target='_blank'>here</a>."
+      "message": "Jika Anda tidak menginstal Dompet Electrum, Anda dapat meningkatkan kecepatan instalasi dengan mengunduh blockchain Verge dari <a href='https://verge-blockchain.com/' target='_blank'>sini</a>."
     },
     "tabs": {
-      "preferred": "Preferred",
+      "preferred": "Diutamakan",
       "desktop": "Desktop",
       "mobile": "Mobile",
       "other": "Other"
     },
-    "windows": "Verge Windows Wallet",
+    "windows": "Dompet Windows Verge",
     "auto_installer": "Verge Auto Installer",
-    "macosx": "Verge Mac OSX Wallet",
-    "android": "Verge TOR Android Wallet",
-    "archlinux": "Verge ArchLinux Wallet",
-    "centos": "Verge CentOS Wallet",
-    "debian": "Verge Debian Wallet",
-    "fedora": "Verge Fedora Wallet",
-    "web": "Verge Web Wallet",
-    "web_tor": "Verge Tor Web Wallet",
-    "web_i2P": "Verge I2P Web Wallet",
-    "raspberry_pi": "Verge Raspberry Pi Source Code",
-    "electrum_linux": "Verge Linux Electrum Wallet",
-    "electrum_linux_tor": "Verge Tor Linux Electrum Wallet",
-    "electrum_osx": "Verge OSX Electrum Wallet",
-    "electrum_osx_tor": "Verge Tor OSX Electrum Wallet",
-    "electrum_windows": "Verge Windows Electrum Wallet",
-    "electrum_windows_tor": "Verge Tor Windows Electrum Wallet",
-    "paper": "Verge Paper Wallet",
-    "daemon_docker": "Verge Daemon Docker Image",
-    "coinomi": "Coinomi Multi Currency Android Wallet"
+    "macosx": "Dompet Mac OSX Verge ",
+    "android": "Dompet TOR Android Verge",
+    "archlinux": "Dompet ArchLinux Verge",
+    "centos": "Dompet CentOS Verge",
+    "debian": "Dompet Debian Verge",
+    "fedora": "Dompet Fedora",
+    "web": "Dompet Web Verge",
+    "web_tor": "Dompet Tor Web Verge",
+    "web_i2P": "Dompet I2P Web Wallet",
+    "raspberry_pi": "Dompet Raspberry Pi Source Code",
+    "electrum_linux": "Dompet Linux Electrum Verge",
+    "electrum_linux_tor": "Dompet  Tor Linux Electrum Verge",
+    "electrum_osx": "Dompet  OSX Electrum Verge",
+    "electrum_osx_tor": "Dompet  Tor OSX Electrum Verge",
+    "electrum_windows": "Dompet Windows Electrum Verge",
+    "electrum_windows_tor": "Dompet  Tor Windows Electrum Verge",
+    "paper": "Dompet Kertas Verge",
+    "daemon_docker": "Dompet Daemon Docker Image",
+    "coinomi": "Coinomi Multi Currency Android Verge"
   },
   "vendors": {
-    "header": "Real world vendors that accept Verge Currency.",
-    "paragraph": "All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services."
+    "header": "Para pedagang di dunia nyata yang telah menerima Verge Currency.",
+    "paragraph": "Semua pedagang di bawah ini dengan bangga menerima Verge Currency sebagai metode pembayaran untuk barang dan jasa mereka."
   },
   "roadmap": {
     "header": "Q1  Release Schedule",
