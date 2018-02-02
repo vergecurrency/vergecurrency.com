@@ -61,22 +61,22 @@
   "info": {
     "about": {
       "header": "Tentang Verge",
-      "paragraph": "Verge Currency adalah mata uang kripto yang didesain untuk pemakaian harian. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.",
+      "paragraph": "Verge Currency adalah mata uang kripto yang didesain untuk pemakaian harian. Itu mengembangkan blockchain asli Bitcoin dan bertujuan untuk memenuhi tujuan awalnya melayani perseorangan dan bisnis dengan cepat, efisien, dan cara yang terdesentralisasi dalam menyediakan transaksi langsung sambil mempertahankan privasi pribadi.",
       "cards": {
         "privacy": {
-          "header": "Completely anonymous and privacy-focused",
-          "paragraph": "Verge uses multiple anonymity-centric networks such as Tor and I2P. The IP addresses of the users are obfuscated and the transactions are completely untraceable."
+          "header": "Anonim secara penuh dan fokus pada privasi",
+          "paragraph": "Verge menggunakan jaringan multiple anonymity-centric  semacam Tor dan I2P. Alamat IP para pengguna disamarkan dan transaksi secara penuh tidak terlacak."
         },
         "community": {
-          "header": "Excellent support from the community",
-          "paragraph": "Verge is not a private company funded by pre-mined coins or ICO's. All of the development and marketing is supported by the thousands of members of the community."
+          "header": "Dukungan yang luar biasa dari komunitas",
+          "paragraph": "Verge bukanlah perusahaan privat yang didanai melalui coin pra-tambang atau ICO. Seluruh pengembangan dan pemasaran didukung oleh ribuan anggota komunitas."
         },
         "speed": {
-          "header": "Ultra-fast transactions",
-          "paragraph": "Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds."
+          "header": "Transaksi Ultra-Cepat",
+          "paragraph": "Kecepatan transaksi adalah ultra-cepat dibandingkan dengan coin lainnya. Teknologi Simple Payment Verification (SPV) mengizinkan waktu konfirmasi transaksi rata-rata berkurang hingga 5 detik."
         },
         "development": {
-          "header": "Active development team with many contributors",
+          "header": "Tim pengembang aktif dengan banyak kontributor",
           "paragraph": "The development team is active and always in close contact with the community. You can easily reach the main developers for support or new ideas about Verge."
         },
         "adoption": {
