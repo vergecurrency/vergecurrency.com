@@ -358,19 +358,19 @@
         "subheader": "Umum",
         "whatisverge": {
           "question": "Apa itu Verge?",
-          "answer": "Verge adalah sebuah mata uang kripto yang didesain untuk orang-orang dan untuk penggunaan sehari-hari. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining your privacy."
+          "answer": "Verge adalah sebuah mata uang kripto yang didesain untuk orang-orang dan untuk penggunaan sehari-hari. Itu merupakan pengembangan dari Blockchain asli Bitcoin dan bertujuan untuk memenuhi tujuan awalnya membantu perseorangan dan bisnis dengan sebuah cara transaksi langsung yang cepat, efisien, dan terdesentralisasi sambil tetap menjaga privasi."
         },
         "mission": {
-          "question": "What is the Verge Currency Mission?",
-          "answer": "Our mission is to empower people around the world by bringing blockchain transactions into everyday life. Verge Currency makes it possible to engage in direct transactions quickly, efficiently and privately. With Verge Currency, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."
+          "question": "Apa Misi dari Verge Currency?",
+          "answer": "Misi kami adalah memberdayakan orang-orang di seluruh dunia dengan membawa transaksi blockchain ke dalam kehidupan sehari-hari. Verge Currency memungkin menghubungkan transaksi langsun secara cepat, efisien, dan cepat. Dengan Verge Currency, bisnis dan individu memiliki opsi yang fleksibel untuk mengirim dan menerima pembayaran. Dengan sekejap, kami menawarkan peralatan dan integrasi yang membuat mereka dapat mengatasi transaksi skala besar antara pedagang dengan pembayaran privat berskala kecil."
         },
         "createdverge": {
-          "question": "When was Verge Currency created?",
-          "answer": "Verge Currency was created in 2014 under the name DogeCoinDark. In 2016, it was rebranded to Verge Currency."
+          "question": "Kapan Verge Currency diciptakan?",
+          "answer": "Verge Currency diciptakan pada tahun 2014 dengan nama DogeCoinDark. Pada tahun 2016, itu berganti nama menjadi Verge Currency."
         },
         "opensource": {
-          "question": "Is Verge Currency a private company and how is it funded?",
-          "answer": "No, it is 100% open-source software and not a private company funded through an ICO or pre-mining. Development and marketing effort is supported by thousands of community members."
+          "question": "Apakah Verge Currency adalah perusahaan privat dan bagaimana itu didanai?",
+          "answer": "Tidak, itu 100% software open-source dan bukan perusahaan privat yang didanai melalui ICO atau pre-mining. Pengembangan dan pemasaran didukung didukung oleh ribuan anggota komunitas."
         },
         "getverge": {
           "question": "How Can I Get Verge Currency?",
