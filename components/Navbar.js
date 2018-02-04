@@ -11,7 +11,9 @@ export default class Navbar extends React.Component {
     switch (Router.route) {
       case "/":
       case "/index":
-      case "/presskit": {
+      case "/presskit":
+      case "/pressreleases":
+      {
         window.addEventListener('scroll', this.scrollEvent, true);
 
         break;

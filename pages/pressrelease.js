@@ -22,9 +22,9 @@ const Pressrelease = function (props) {
 
   return (
     <Layout loading={ showLoader }>
-      <Subheader t={t} category='press' />
+      <Subheader t={t} category='press' page='pressrelease' />
 
-      <div className="pressreleases">
+      <div className="pressrelease">
         <div className="white-container white-container--pressreleases">
           <div className="container pb pb-xs-0">
             <div className="row center-xs">

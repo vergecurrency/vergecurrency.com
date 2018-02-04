@@ -40,8 +40,8 @@ const Subnavigation_Items = {
   ]
 };
 
-const Subheader = ({ t, category }) => (
-  <header id="subheader" className="hidden-xs">
+const Subheader = ({ t, category, page }) => (
+  <header className={"hidden-xs subheader " + page + "--subheader" }>
     <div className="container">
       <div className="row around-xs middle-xs">
         <nav className="col-xs-12 center-xs">
