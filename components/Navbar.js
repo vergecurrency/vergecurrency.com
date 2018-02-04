@@ -4,7 +4,7 @@ import Router from 'next/router';
 export default class Navbar extends React.Component {
 
   scrollEvent = () => {
-    document.getElementById("header").className = window.scrollY > 10 ? 'scroll' : '';
+    document.getElementById("layout").className = window.scrollY > 10 ? 'scroll' : '';
   }
 
   componentDidMount() {
@@ -15,11 +15,10 @@ export default class Navbar extends React.Component {
       case "/pressreleases":
       {
         window.addEventListener('scroll', this.scrollEvent, true);
-
-        break;
       }
+      case "/pressreleases":
       default: {
-        document.getElementById("header").className = 'scroll';
+        document.getElementById("header").className = 'solid';
 
         break;
       }

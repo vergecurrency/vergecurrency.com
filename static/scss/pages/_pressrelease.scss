@@ -42,7 +42,7 @@
   @at-root .white-container {
     // scss-lint:disable NestingDepth
 
-    &--pressreleases {
+    &--pressrelease {
       @media (max-width: $max-width-xs) {
         padding-bottom: 2rem;
         padding-top: 7rem;
@@ -67,7 +67,7 @@
   @at-root .gray-container {
     // scss-lint:disable NestingDepth
 
-    &--pressreleases {
+    &--pressrelease {
       @media (max-width: $max-width-xs) {
         padding-bottom: 2rem;
         padding-top: 2rem;

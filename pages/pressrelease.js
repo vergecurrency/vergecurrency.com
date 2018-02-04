@@ -25,7 +25,7 @@ const Pressrelease = function (props) {
       <Subheader t={t} category='press' page='pressrelease' />
 
       <div className="pressrelease">
-        <div className="white-container white-container--pressreleases">
+        <div className="white-container white-container--pressrelease">
           <div className="container pb pb-xs-0">
             <div className="row center-xs">
               <div className="col-xs-11 col-sm-8">
@@ -44,7 +44,7 @@ const Pressrelease = function (props) {
               <div className="col-xs-12">
                 <div className="container">
                   <div className="row center-xs">
-                    <div className="col-xs-12 col-sm-10 image-container image-container--pressreleases" style={{ backgroundImage: `url(${ one.post.image })` }} />
+                    <div className="col-xs-12 col-sm-10 image-container image-container--pressrelease" style={{ backgroundImage: `url(${ one.post.image })` }} />
                   </div>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Pressrelease = function (props) {
             </div>
           </div>
         </div>
-        <div className="gray-container gray-container--pressreleases mb-0">
+        <div className="gray-container gray-container--pressrelease mb-0">
           <div className="container">
             <div className="row center-xs previous">
               <div className="col-xs-11 start-xs">

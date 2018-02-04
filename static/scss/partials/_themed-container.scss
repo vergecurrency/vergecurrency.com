@@ -13,7 +13,7 @@
   position: relative;
 
   &--home,
-  &--presskit {
+  &--press {
     background: #07121b;
     color: $white;
     margin-top: -8rem;
@@ -38,7 +38,7 @@
     }
   }
 
-  &--presskit {
+  &--press {
     background: $white;
     box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67);
     color: #647886;
