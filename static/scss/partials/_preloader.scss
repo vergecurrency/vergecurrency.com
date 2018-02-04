@@ -26,6 +26,9 @@
     visibility:hidden;
     transition:all .2s ease-in-out;
   }
+  img {
+    width:100%;
+  }
   #loader{
     position:fixed;
     margin:auto;

@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Ribbon from '../components/Ribbon';
+import Exchanges from '../components/Exchanges';
 import ServerProps from '../components/ServerProps';
 import fetch from 'isomorphic-unfetch'
 
@@ -13,9 +14,20 @@ const Home = function (props) {
   const { t, store, xvg } = props;
   const showLoader = store && store.showLoader;
 
+  let mentions = []
+  for (let i = 1; i < 6; i++){
+    mentions.push(
+      <div className="col-md col-sm-4 col-xs-6" key={i}>
+        <a href={t("home:mentioned:mention_" + i + ":url")}>
+          <img src={t("home:mentioned:mention_" + i + ":img")} width={t("home:mentioned:mention_" + i + ":width")} />
+        </a>
+      </div>
+    );
+  }
+
   return (
     // <Layout loading={ showLoader }>
-    <Layout>
+   <Layout>
       <div className="ribbon">
         <div className="ribbon-img" />
 
@@ -61,41 +73,17 @@ const Home = function (props) {
         <div className="mentions">
           <div className="row center-xs middle-xs pt pb">
             <div className="col-md col-sm-4 col-xs-6">
-              <span className="spaced">Mentioned in:</span>
+              <span className="spaced">{t("home:mentioned:mentioned_in")}</span>
             </div>
-            <div className="col-md col-sm-4 col-xs-6">
-              <a href="#">
-                <img src="../static/img/mentioned-in/Forbes.svg" width="100" />
-              </a>
-            </div>
-            <div className="col-md col-sm-4 col-xs-6">
-              <a href="#">
-                <img src="../static/img/mentioned-in/The-Guardian.svg" width="180" />
-              </a>  
-            </div>
-            <div className="col-md col-sm-4 col-xs-6">
-              <a href="#">
-                <img src="../static/img/mentioned-in/The-Sun.svg" width="100" />
-              </a>
-            </div>
-            <div className="col-md col-sm-4 col-xs-6">
-              <a href="#">  
-                <img src="../static/img/mentioned-in/The-Motley-Fool.svg" width="100" />
-              </a>
-            </div>
-            <div className="col-md col-sm-4 col-xs-6">
-              <a href="#">  
-                <img src="../static/img/mentioned-in/Cryptovest.svg" width="150" />
-              </a>
-            </div>
+            {mentions}
           </div>
         </div>
         <div className="intro">
           <div className="row center-xs middle-xs pt-lg pb-lg">
             <div className="col-sm-6">
-              <span className="spaced">Delivers what others can't</span>
-              <h2>Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.</h2>
-              <p>We care about your privacy. Do you?</p>
+              <span className="spaced">{t("home:intro:span")}</span>
+              <h2>{t("home:intro:h2")}</h2>
+              <p>{t("home:intro:p")}</p>
             </div>
           </div>
         </div>
@@ -103,23 +91,23 @@ const Home = function (props) {
           <div className="row pt-lg pb-lg">
             <div className="col-md-3 col-md-offset-1">
               <div className="benefits--item">
-                <span className="spaced">ANONYMITY</span>
-                <p>Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.</p>
+                <span className="spaced">{t("home:benefits:benefit_1:title")}</span>
+                <p>{t("home:benefits:benefit_1:text")}</p>
               </div>
               <div className="benefits--item pt-lg">
-                <span className="spaced">COMMUNITY DRIVEN</span>
-                <p>Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.</p>
+                <span className="spaced">{t("home:benefits:benefit_1:title")}</span>
+                <p>{t("home:benefits:benefit_1:text")}</p>
               </div>
-              <a href="#" className="benefits--url spaced">Expand benefits</a>
+              <a href={t("home:benefits:link:url")} className="benefits--url spaced">{t("home:benefits:link:title")}</a>
             </div>
             <div className="col-md-3 col-md-offset-1">
               <div className="benefits--item">
-                <span className="spaced">MASS ADOPTION</span>
-                <p>Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so.</p>
+                <span className="spaced">{t("home:benefits:benefit_3:title")}</span>
+                <p>{t("home:benefits:benefit_3:text")}</p>
               </div>  
               <div className="benefits--item pt-lg">
-                <span className="spaced">PRIVACY AS A CHOICE</span>
-                <p>Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.</p>
+                <span className="spaced">{t("home:benefits:benefit_4:title")}</span>
+                <p>{t("home:benefits:benefit_4:text")}</p>
               </div>
             </div>
             <div className="col-md-4 benefits--imgs">
@@ -131,8 +119,8 @@ const Home = function (props) {
         <div className="wallets pt-lg pb-lg">
           <div className="row">
             <div className="col-sm-6 col-xs-12">
-              <a href="#" className="wallets--url spaced">Read about wallets</a>
-              <h2>Dont worry, we got your preffered platform covered. Download your wallet here.</h2>
+              <a href={t("home:wallets:link:url")} className="wallets--url spaced">{t("home:wallets:link:title")}</a>
+              <h2>{t("home:wallets:header")}</h2>
             </div>
           </div>
           <div className="row">
@@ -165,19 +153,7 @@ const Home = function (props) {
               We’re proud to be listed on:</h2>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-3">
-              <div className="exchanges--item">
-                <div className="exchanges--item__logo">
-                  <img src="../static/img/bittrex-192.png" width="40" />
-                </div>
-                <div className="exchanges--item__name">
-                  <span>Bittrex</span>
-                  <span>bittrex.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Exchanges t={t} />
           <div className="row">
             <div className="col-xs-12">
               <span>BTC Price</span>
@@ -192,8 +168,8 @@ const Home = function (props) {
                 <h2>Powering real world vendors that accept Verge Currency</h2>
                 <p>All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.<br /><br />
                   Get started today and accept Verge in your store.</p>
-                <a href="#" class="btn btn-primary btn-primary--on-white-bg">Accept Verge Today</a>
-                <a href="#" class="btn btn-tertiary">See all vendors</a>
+                <a href="#" className="btn btn-primary btn-primary--on-white-bg">Accept Verge Today</a>
+                <a href="#" className="btn btn-tertiary">See all vendors</a>
               </div>  
             </div>
             <div className="col-md-6 vendors--imgs">
@@ -270,6 +246,8 @@ const Home = function (props) {
 Home.getInitialProps = function () {
   const res = fetch(`https://api.coinmarketcap.com/v1/ticker/verge/`)
   const xvg = res.json()
+
+
 
   return { xvg }
 }

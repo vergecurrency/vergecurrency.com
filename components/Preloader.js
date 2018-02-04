@@ -18,16 +18,17 @@ class Preloader extends React.Component {
 
   render() {
     return (
-      <div style={{backgroundColor: this.props.bgColor}} ref={'preload'} id={'preloader'}>
+      <div style={{ backgroundColor: this.props.bgColor }} ref={'preload'} id={'preloader'}>
+      <img src="../static/img/verge-intro.gif" />  
         <div id="loader">
-          <ul>
+          {/* <ul>
             <li style={{backgroundColor: this.props.color}} ></li>
             <li style={{backgroundColor: this.props.color}} ></li>
             <li style={{backgroundColor: this.props.color}} ></li>
             <li style={{backgroundColor: this.props.color}} ></li>
             <li style={{backgroundColor: this.props.color}} ></li>
             <li style={{backgroundColor: this.props.color}} ></li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     )

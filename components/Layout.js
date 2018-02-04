@@ -31,7 +31,7 @@ class Layout extends React.Component {
     const updateState = () => this.setState({ loading: false });
     const clearLoaderAfter = timer(loading, updateState);
 
-    clearLoaderAfter(100);
+    clearLoaderAfter(3000);
 
     return loading
       ? (
