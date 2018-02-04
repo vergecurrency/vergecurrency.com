@@ -32,7 +32,7 @@ const Presskit = function (props) {
             </div>
           </div>
         </div>
-        <div className="container white-container white-container--presskit">
+        <div className="container white-container white-container--press">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
