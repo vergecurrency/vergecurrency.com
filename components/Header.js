@@ -21,7 +21,7 @@ const Header = ({ t }) => (
           <Link href="/">
             <a>
             <svg version="1.1" viewBox="0 0 1907 365" xmlns="http://www.w3.org/2000/svg">
-              <g fill="none" fill-rule="evenodd">
+              <g fill="none" fillRule="evenodd">
               <g transform="translate(16 14)">
                 <polygon transform="translate(140 188.5) rotate(180) translate(-140 -188.5)" points="140 40 280 337 0 337" fill="#00CBFE"/>
                 <polygon transform="translate(140 148.5) rotate(180) translate(-140 -148.5)" points="140 0 280 297 -5.6843e-14 297" fill="#BFBFBF"/>

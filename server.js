@@ -61,7 +61,7 @@ i18n
       .then(() => {
         const server = express()
 
-        server.use(initializer);
+        // server.use(initializer);
 
         // routes.forEach(([ endpoint, page ]) => {
         //   server.get(endpoint, (req, res) => app.render(req, res, page, { store }));

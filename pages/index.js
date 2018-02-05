@@ -4,8 +4,8 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Ribbon from '../components/Ribbon';
 import Exchanges from '../components/Exchanges';
-import Cointicker from '../components/Cointicker';
-import fetch from 'isomorphic-unfetch'
+// import Cointicker from '../pages/cointicker';
+import fetch from 'isomorphic-unfetch';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
@@ -152,7 +152,7 @@ const Home = function (props) {
             </div>
           </div>
           <Exchanges t={t} />
-          <Cointicker />
+          {/* <Cointicker /> */}
           <div className="row">
             <div className="col-xs-12">
               <span>BTC Price</span>
