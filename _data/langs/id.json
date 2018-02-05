@@ -373,11 +373,11 @@
           "answer": "Tidak, itu 100% software open-source dan bukan perusahaan privat yang didanai melalui ICO atau pre-mining. Pengembangan dan pemasaran didukung didukung oleh ribuan anggota komunitas."
         },
         "getverge": {
-          "question": "How Can I Get Verge Currency?",
+          "question": "Bagaimana bisa saya mendapatkan Verge Currency?",
           "answer": "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
         },
         "techdoc": {
-          "question": "Where can I find technical documentation on Verge Currency?",
+          "question": "Dimana saya bisa menemukan dokumentasi teknis pada Verge Currency?",
           "answer": "In the <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. The Source Code can be found on <a href='https://github.com/vergecurrency' target='_blank'>\"GitHub\"</a>."
         },
         "premine": {
