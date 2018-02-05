@@ -7,11 +7,13 @@ import Ribbon from '../components/Ribbon';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
+import ServerProps from '../components/ServerProps';
+
 const Presskit = function (props) {
-  const { t } = props;
+  const { t, store } = props;
 
   return (
-    <Layout>
+    <Layout loading={ store && store.showLoader }>
       <div className="presskit">
         <div className="ribbon ribbon--presskit">
           <div className="ribbon-img" />
@@ -30,21 +32,21 @@ const Presskit = function (props) {
             </div>
           </div>
         </div>
-        <div className="container white-container white-container--presskit">
+        <div className="container white-container white-container--press">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
                 <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3>A cryptocurrency designed for everyday use.</h3>
-                  <p>Improving upon the original Bitcoin blockchain and aims to fulfill its initial purpose.</p>
+                  <h3>{t('common:reason-1.title', { defaultValue: 'A cryptocurrency designed for everyday use.' })}</h3>
+                  <p>{t('common:reason-1.text', { defaultValue: 'Improving upon the original Bitcoin blockchain and aims to fulfill its initial purpose.' })}</p>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3>Bringing blockchain into everyday life.</h3>
-                  <p>Verge currency makes it possible to engage in direct transactions.</p>
+                  <h3>{t('common:reason-2.title', { defaultValue: 'Bringing blockchain into everyday life.' })}</h3>
+                  <p>{t('common:reason-2.text', { defaultValue: 'Verge currency makes it possible to engage in direct transactions.' })}</p>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3>Open Source Development & Community Driven.</h3>
-                  <p>Verge is not a private company funded by pre-mined coins or ICO's.</p>
+                  <h3>{t('common:reason-3.title', { defaultValue: 'Open Source Development & Community Driven.' })}</h3>
+                  <p>{t('common:reason-3.text', { defaultValue: 'Verge is not a private company funded by pre-mined coins or ICO\'s.' })}</p>
                 </div>
               </div>
             </div>
@@ -91,10 +93,8 @@ const Presskit = function (props) {
                 <div className="start-xs">
                   <h2>Brand font</h2>
                   <p>The official font used in Verge Currency branding is Avenir Next Regular.</p>
-                  <Link href="/">
-                    <a className="btn btn-inverted center-xs">Download font here</a>
-                  </Link>
-                  <p class="pt">The colors that are used for the logo and style elements:</p>
+                  <p>Download font <Link href="/"><a>here</a></Link>.</p>
+                  <p className="pt">The colors that are used for the logo and style elements:</p>
                 </div>
                 <div className="row center-xs pt pb colors">
                   <div className="col-xs-12">
@@ -312,7 +312,7 @@ const Presskit = function (props) {
                 </div>
               </div>
             </div>
-            <div className="row center-xs">
+            <div className="row center-xs pb">
               <div className="col-xs-12">
                 <div className="container blue-container blue-container--presskit">
                   <div className="row center-xs">
@@ -324,6 +324,23 @@ const Presskit = function (props) {
                 </div>
               </div>
             </div>
+            <div className="row center-xs">
+              <div className="col-xs-10">
+                <div className="start-xs">
+                  <h2>Verge reference information</h2>
+                  <p className="pb">
+                    Verge Currency is a cryptocurrency designed for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.
+                  </p>
+                  <h2>Wraith Protocol</h2>
+                  <p>
+                    Wraith Protocol by Verge is a technology that allows the user to choose between public and private ledgers on the same blockchain. User anonymity is ensured in both cases thanks to the latest version of Tor integrated in Verge wallets.
+                  </p>
+                  <p>
+                    To find more about Verge check our <Link href="/faq"><a>FAQ</a></Link>, <Link href="/blog"><a>Blog</a></Link> and <Link href="/black-paper"><a>Black Paper</a></Link>.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -331,6 +348,6 @@ const Presskit = function (props) {
   );
 }
 
-const Extended = translate(['presskit'], { i18n, wait: process.browser })(Presskit);
+const Extended = translate(['common', 'presskit'], { i18n, wait: process.browser })(Presskit);
 
-export default Extended;
+export default ServerProps(Extended);

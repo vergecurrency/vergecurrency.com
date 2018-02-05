@@ -1,7 +1,13 @@
 // scss-lint:disable ImportantRule
 
 $padding-vertical-desktop: 3rem;
+$padding-vertical-desktop-small: 1.5rem;
+$padding-vertical-desktop-lg: 6rem;
+$padding-vertical-desktop-xlg: 9rem;
 $padding-vertical-mobile: 2rem;
+$padding-vertical-mobile-small: 1rem;
+$padding-vertical-mobile-lg: 4rem;
+$padding-vertical-mobile-xlg: 6rem;
 
 @-ms-viewport{
   width: device-width;
@@ -10,6 +16,10 @@ $padding-vertical-mobile: 2rem;
 .mx-0 {
   margin-left: 0;
   margin-right: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 .mb-thin {
@@ -26,6 +36,31 @@ $padding-vertical-mobile: 2rem;
 
 .pb {
   padding-bottom: $padding-vertical-desktop;
+}
+
+.pt-small {
+  padding-top: $padding-vertical-desktop-small;
+}
+
+.pb-small {
+  padding-bottom: $padding-vertical-desktop-small;
+}
+
+// TODO: Rename occurrences to avoid confusion with breakpoints
+.pt-lg {
+  padding-top: $padding-vertical-desktop-lg;
+}
+
+.pb-lg {
+  padding-bottom: $padding-vertical-desktop-lg;
+}
+
+.pt-xlg {
+  padding-top: $padding-vertical-desktop-xlg;
+}
+
+.pb-xlg {
+  padding-bottom: $padding-vertical-desktop-xlg;
 }
 
 .no-padding {
@@ -59,6 +94,14 @@ $padding-vertical-mobile: 2rem;
     padding-bottom: 0;
   }
 
+  .pt-small-xs {
+    padding-top: $padding-vertical-mobile-small;
+  }
+
+  .pb-small-xs {
+    padding-bottom: $padding-vertical-mobile-small;
+  }
+
   .pt {
     padding-top: $padding-vertical-mobile;
   }
@@ -70,4 +113,13 @@ $padding-vertical-mobile: 2rem;
   .pt-xs-0 {
     padding-top: 0;
   }
+
+  .pt-small {
+    padding-top: $padding-vertical-mobile-small;
+  }
+
+  .pb-small {
+    padding-bottom: $padding-vertical-mobile-small;
+  }
+
 }

@@ -1,0 +1,207 @@
+.intro {
+  .spaced {
+    color: #647886;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+.benefits {
+  background: #daf0ff;
+  .spaced {
+    color: #1a3d55;
+  }
+  &--item {
+    p {
+      font-size: 13px;
+      line-height: 23px;
+      color: #1a3d55;
+    }
+  }
+  &--url {
+    display: block;
+    margin-top: 40px;
+    &::after {
+      content: "";
+      font-family: "FontAwesome", sans-serif;
+      margin-left: 10px;
+    }
+  }
+  &--imgs {
+    position: relative;
+    img {
+      position: absolute;
+      right: .5rem;
+      box-shadow: 0 0 90px rgba(0,0,0,0.18);
+      &:first-of-type {
+        border-radius: 10px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      &:last-of-type {
+        right: 198px;
+        top: 48px;
+        border-radius: 28px;
+      }
+    }
+  }
+}
+
+.wallets {
+  &--url {
+    &::after {
+      content: "";
+      font-family: "FontAwesome", sans-serif;
+      margin-left: 10px;
+    }
+  }
+}
+
+.power-to-the-people {
+  margin-top: 0;
+  .spaced {color: #fff;}
+  h3 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+.exchanges {
+  &--item {
+    border: 2px solid #e7e7e7;
+    box-shadow: 0 0 5px rgba(0,0,0,0.06);
+    display: flex;
+    padding: 15px;
+    transition: all .2s ease-in-out;
+    margin-bottom: 16px;
+    &:hover {
+      border: 2px solid #04a5f0;
+      cursor: pointer;
+      box-shadow: 0 0 19px rgba(0,0,0,0.18);
+    }
+    &__logo {margin-right: 15px;}
+    &__name {
+      display:flex;
+      flex-direction: column;
+      span:last-of-type {color: #b3b3b3; font-size:13px;}
+    }
+  }
+}
+
+.vendors {
+  background: #daf0ff;
+  .spaced {
+    color: #769bb4;
+  }
+  &--story {
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      color: #4e555a;
+    }
+  }
+  &--list {
+    display: block;
+    a {
+      &::after {
+        content: "";
+        font-family: "FontAwesome", sans-serif;
+        margin-left: 10px;
+      }
+    }
+  }
+  &--imgs {
+    position: relative;
+    img {
+      position: absolute;
+      right: 7px;
+      top: -100px;
+    }
+  }
+}
+
+.roadmap {
+  background: #fbf4f0;
+  &--timeline {
+    list-style:none;
+    padding-left: 0;
+    li {
+      font-size:14px;
+      position:relative;
+      margin-top: 50px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        height: 40px;
+        width: 2px;
+        background: #e8d8cf;
+        left: 2px;
+        bottom: -45px;
+      }
+
+      h3 {margin-bottom:0;}
+      span {
+        color: #00aeff;
+      }
+      
+      &.planned {
+        &::before {
+          content: "";
+          width:30px;
+          height:30px;
+          background:#fff;
+          border-radius: 50%;
+          position: absolute;
+          left: -40px;
+          top: 0.5rem;
+        }
+      }
+
+      &.done {
+        &::before {
+          content: "";
+          width: 30px;
+          height: 30px;
+          background: #04a5f0;
+          border-radius: 50%;
+          position: absolute;
+          left: -40px;
+          top: 0.5rem;
+        }
+      }
+
+      &:last-of-type {
+        &::after {
+          content:"";
+          background: transparent;
+        }
+      }
+    }
+  }
+
+  .spaced {
+    color: #091721;
+
+    &::after {
+      content: "";
+      font-family: "FontAwesome", sans-serif;
+      margin-left: 10px;
+    }
+  }
+}
+
+.blog {
+  .spaced {
+    color: #091721;
+
+    &::after {
+      content: "";
+      font-family: "FontAwesome", sans-serif;
+      margin-left: 10px;
+    }
+  }
+}

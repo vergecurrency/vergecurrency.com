@@ -1,0 +1,110 @@
+.pressrelease {
+  // scss-lint:disable ColorVariable
+
+  .date-container {
+    color: #475056;
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+
+    .date {
+      color: #0f9bbf;
+
+      @media (max-width: $max-width-xs) {
+        display: block;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    margin-bottom: .25rem;
+
+    + p {
+      font-size: 1.5rem;
+    }
+  }
+
+  .share {
+    color: #7a7a7a;
+    font-size: .9rem;
+    line-height: 1.5rem;
+
+    strong {
+      color: #091721;
+      font-size: 1.125rem;
+    }
+  }
+
+  @at-root .white-container {
+    // scss-lint:disable NestingDepth
+
+    &--pressrelease {
+      @media (max-width: $max-width-xs) {
+        padding-bottom: 2rem;
+        padding-top: 7rem;
+      }
+
+      h3,
+      p,
+      li {
+        color: #333;
+      }
+
+      h1 {
+        color: #091721;
+
+        + p {
+          color: #475056;
+        }
+      }
+    }
+  }
+
+  @at-root .gray-container {
+    // scss-lint:disable NestingDepth
+
+    &--pressrelease {
+      @media (max-width: $max-width-xs) {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+      }
+    }
+  }
+
+  .previous {
+    .date {
+      color: #091721;
+      font-size: .875rem;
+    }
+
+    h3 {
+      font-size: 1.9rem;
+    }
+
+    h4 {
+      font-size: 1.7rem;
+
+      // scss-lint:disable NestingDepth
+      &::after {
+        background-color: #091721;
+        content: ' ';
+        display: block;
+        height: .2rem;
+        margin-bottom: 1.2rem;
+        margin-left: 1px;
+        margin-top: .3rem;
+        width: 3rem;
+      }
+    }
+
+    p {
+      color: #475056;
+      font-size: .75rem;
+      font-style: italic;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+.pressreleases {
+  // scss-lint:disable ColorVariable
+
+  &--subheader {
+    background: transparent;
+    border-bottom: 1px solid #05131e;
+
+    @at-root .scroll & {
+      background: $white;
+
+      a {
+        color: #111;
+      }
+    }
+  }
+
+  @at-root .white-container {
+    // scss-lint:disable NestingDepth
+
+    &--pressreleases {
+      @media (max-width: $max-width-xs) {
+        padding-bottom: 2rem;
+        padding-top: 12rem;
+      }
+
+      h3,
+      p,
+      li {
+        color: #333;
+      }
+
+      h1 {
+        color: #091721;
+
+        + p {
+          color: #475056;
+        }
+      }
+    }
+  }
+
+  @at-root .gray-container {
+    // scss-lint:disable NestingDepth
+
+    &--pressreleases {
+      @media (max-width: $max-width-xs) {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+      }
+    }
+  }
+
+  .latest,
+  .coverage {
+    .date {
+      color: #647886;
+      font-size: .8125rem;
+      font-weight: 700;
+
+      time {
+        padding-bottom: 1.1875rem;
+        position: relative;
+
+        &::after {
+          background-color: #e8e8e8;
+          content: ' ';
+          display: block;
+          height: .2rem;
+          margin-left: 1px;
+          margin-top: .8125rem;
+          position: absolute;
+          width: calc(75% - 2px);
+        }
+      }
+    }
+
+    h2 {
+      color: #05131e;
+      font-size: 1.625rem;
+    }
+
+    h3,
+    h4 {
+      color: #05131e;
+      font-size: 1.125rem;
+    }
+  }
+}

@@ -11,19 +11,19 @@ body {
   letter-spacing: .5px;
 }
 
-ul {
-  padding: 0;
-}
-
 li {
-  list-style: none;
-  margin: 5px 0;
+  margin-bottom: .25rem;
+  margin-top: .25rem;
 }
 
 a {
+  $link-color: #1db6dc;
+
+  color: $link-color;
   text-decoration: none;
 
   &:hover {
+    color: darken($link-color, 10%);
     text-decoration: none;
   }
 }
@@ -55,11 +55,23 @@ p {
   line-height: 1.6;
   margin-bottom: .75rem;
 
-  + p {
-    margin-top: -.25rem;
-  }
-
   + h2 {
     margin-top: 1.5rem;
   }
+}
+
+#layout {
+  overflow: hidden;
+}
+
+.spaced {
+  color: #9b9b9b;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.bb {
+  border-bottom: 1px solid #e7e7e7;
 }

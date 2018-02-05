@@ -4,19 +4,21 @@ import Router from 'next/router';
 export default class Navbar extends React.Component {
 
   scrollEvent = () => {
-    document.getElementById("header").className = window.scrollY > 10 ? 'scroll' : '';
+    document.getElementById("layout").className = window.scrollY > 10 ? 'scroll' : '';
   }
 
   componentDidMount() {
     switch (Router.route) {
       case "/":
-      case "/presskit": {
+      case "/index":
+      case "/presskit":
+      case "/pressreleases":
+      {
         window.addEventListener('scroll', this.scrollEvent, true);
-
-        break;
       }
+      case "/pressreleases":
       default: {
-        document.getElementById("header").className = 'scroll';
+        document.getElementById("header").className = 'solid';
 
         break;
       }
@@ -28,8 +30,6 @@ export default class Navbar extends React.Component {
   }
 
   render() {
-    return (
-      true
-    );
+    return (true);
   }
 }

@@ -18,5 +18,114 @@
       "header": "Open Source Development & <span>Community Driven.</span>",
       "text": "Verge is not a private company funded by pre-mined coins or ICO's."
     }
+  },
+  "mentioned": {
+    "mentioned_in": "Mentioned in",
+    "mention_1": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/Forbes.svg",
+      "width": "100"
+    },
+    "mention_2": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/The-Guardian.svg",
+      "width": "180"
+    },
+    "mention_3": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/The-Sun.svg",
+      "width": "100"
+    },
+    "mention_4": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/The-Motley-Fool.svg",
+      "width": "100"
+    },
+    "mention_5": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/Cryptovest.svg",
+      "width": "150"
+    }
+  },
+  "intro": {
+    "span": "Delivers what others can't",
+    "h2": "Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.",
+    "p": "We care about your privacy. Do you?"
+  },
+  "benefits": {
+    "link": {
+      "url": "#",
+      "title": "Expand benefits"
+    },
+    "benefit_1": {
+      "title": "ANONYMITY",
+      "text": "Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security."
+    },
+    "benefit_2": {
+      "title": "COMMUNITY DRIVEN",
+      "text": "Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining."
+    },
+    "benefit_3": {
+      "title": "MASS ADOPTION",
+      "text": "Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so."
+    },
+    "benefit_4": {
+      "title": "PRIVACY AS A CHOICE",
+      "text": "Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction."
+    }
+  },
+  "wallets": {
+    "link": {
+      "url": "#",
+      "title": "Read about wallets"
+    },
+    "header": "Dont worry, we got your preffered platform covered. Download your wallet here."
+  },
+  "empower_people": {
+
+  },
+  "exchanges": {
+    "exchange_1": {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    "exchange_2": {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    "exchange_3": {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    "exchange_4": {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    "exchange_5": {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    "exchange_6": {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    }
   }
 }

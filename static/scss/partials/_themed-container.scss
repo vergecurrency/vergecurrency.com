@@ -1,13 +1,19 @@
+// TODO: Refactor to bemmy classnames
+.image-container,
 .blue-container,
+.gray-container,
 .white-container {
+  // scss-lint:disable ColorVariable
   background: $white;
+  background-position: center;
+  background-size: cover;
   margin-top: 0;
   padding-bottom: 4rem;
   padding-top: 12rem;
   position: relative;
 
   &--home,
-  &--presskit {
+  &--press {
     background: #07121b;
     color: $white;
     margin-top: -8rem;
@@ -19,6 +25,7 @@
       font-size: 1.2rem;
       font-weight: 600;
 
+      // scss-lint:disable NestingDepth
       span {
         color: #00cbff;
       }
@@ -31,9 +38,9 @@
     }
   }
 
-  &--presskit {
+  &--press {
     background: $white;
-    box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67); // scss-lint:disable ColorVariable
+    box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67);
     color: #647886;
     top: 8rem;
 
@@ -48,13 +55,31 @@
 }
 
 .blue-container {
-  background-color: #daf0ff;
+  background-color: #daf0ff; // scss-lint:disable ColorVariable
   box-shadow: none;
-  margin-bottom: 8rem;
+  margin-bottom: 12rem;
   padding-bottom: 6rem;
   padding-top: 6rem;
 
   &--presskit {
     box-shadow: inherit;
   }
+}
+
+.gray-container {
+  background-color: #f7f7f7; // scss-lint:disable ColorVariable
+  box-shadow: none;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 12rem;
+  padding-top: 12rem;
+}
+
+.image-container {
+  background-color: #f7f7f7; // scss-lint:disable ColorVariable
+  box-shadow: none;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 12rem;
+  padding-top: 12rem;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 
 // VARIABLES
 // - RESPONSIVE
@@ -18,6 +18,7 @@ $allports:            #006994;
 $blizzard-blue:       #dbeff8;
 $astronaut-blue:      #003d58;
 $venice-blue:         #075a7f;
+$dark-blue:           #091721;
 
 $colors: (
   black: $black,
@@ -27,16 +28,25 @@ $colors: (
   allports: $allports,
   blizzard-blue: $blizzard-blue,
   astronaut-blue: $astronaut-blue,
-  venice-blue: $venice-blue
+  venice-blue: $venice-blue,
+  dark-blue: $dark-blue
 );
 
+//Partials
 // @import 'partials/menu';
 @import 'partials/header';
 @import 'partials/base';
 @import 'partials/button';
 @import 'partials/ribbon';
 @import 'partials/themed-container';
+@import 'partials/preloader';
+@import 'partials/footer';
 
+//Pages
+@import 'pages/home';
 @import 'pages/presskit';
+@import 'pages/pressreleases';
+@import 'pages/pressrelease';
 
+@import 'partials/markdown';
 @import 'partials/responsive-display';

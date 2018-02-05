@@ -1,0 +1,12 @@
+{
+  "date": {
+    "label": "Press release"
+  },
+  "submenu": {
+    "ourTeam": "Verge Team",
+    "history": "History",
+    "keyTech": "Key Tech",
+    "pressReleases": "Press Releases",
+    "presskit": "Presskit"
+  }
+}
