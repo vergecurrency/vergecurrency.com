@@ -381,8 +381,8 @@
           "answer": "In the <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. The Source Code can be found on <a href='https://github.com/vergecurrency' target='_blank'>\"GitHub\"</a>."
         },
         "premine": {
-          "question": "Did Verge Currency have a pre-mine?",
-          "answer": "No, Verge Currency was not pre-mined. The development team and contributors purchase the coins on the open market like anyone else. A premine is a funding mechanism, whereby the developers of a currency allocate a certain amount to go to a particular address before releasing it to the public."
+          "question": "Apakah Verge Currency memiliki kegiatan pra-tambang?",
+          "answer": "Tidak, Verge Currency tidak memiliki kegiatan pra-tambang. Tim pengembang dan para kontributor membeli koin pada pasar terbuka sama seperti orang lain. Kegiatan pra-tambang adalah mekanisme pendanaan, dimana para pengembang dari mata uang mengalokasikan sejumlah tertentu ke alamat tertentu sebelum merilisnya ke publik."
         },
         "supply": {
           "question": "What is the total supply of Verge Currency?",
@@ -393,20 +393,20 @@
           "answer": "Verge Currency is designed this way on purpose to allow for convenient payment amounts in everyday use. As opposed to Bitcoin, you would not have pay with 0.00004 BTC, for example. Another reason is to reduce the risk of market manipulation by making it harder to control a big portion of the total supply."
         },
         "burning": {
-          "question": "Is the Verge Currency team planning to burn coins?",
-          "answer": "No. Since there was no pre-mine or ICO, the team does not hold a significant amount of coins to affect the coin distribution or total circulation. This is yet another reason for high total supply. However, if you feel like burning some of your own coins, please feel free to do so or donate to the team ;)."
+          "question": "Apakah tim Verge Currency berencana untuk mengurangi jumlah koin?",
+          "answer": "Tidak. Karena tidak ada kegiatan pra-tambang ataupun ICO, tim benar-benar tidak memegang sejumlah koin yang berdampak pada distribusi koin atau total sirkulasi. Ini adalah alasan lain untuk total supply yang tinggi. Bagaimanapun, jika Anda merasa ingin menghapus beberapa jumlah koin Anda, itu terserah Anda atau lebih baik donasikan saja ke Tim ;)."
         },
         "inflation": {
-          "question": "Is it an inflationary coin?",
-          "answer": "No, the total circulation is capped."
+          "question": "Apakah koin bisa mengalami inflasi?",
+          "answer": "Tidak, Total sirkulasi sudah ditentukan."
         },
         "transactionfee": {
-          "question": "How much is the transaction fee?",
-          "answer": "0.1 XVG"
+          "question": "Seberapa besar biaya transaksi?",
+          "answer": "0,1 XVG"
         },
         "transactionspeed": {
-          "question": "How fast are transactions?",
-          "answer": "Depending on the load of the network, it varies between 5 and 10 seconds."
+          "question": "Seberapa cepat transaksi?",
+          "answer": "Tergantung load pada jaringan, itu bervariasi antara 5 sampai 10 detik."
         },
         "transactioncap": {
           "question": "What is the transaction capacity per second?",
