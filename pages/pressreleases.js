@@ -107,42 +107,84 @@ const Pressreleases = function (props) {
 
                 <div className="row around-xs pt-small pb">
                   <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                    <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                    <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
-                    </Link>
+                    <div className="row">
+                      <div className="col-xs-12 coverage--logo">
+                        <img src="/static/img/coverage/Business_Insider.svg" />
+                      </div>
+                      <div className="col-xs-12">
+                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
+                        <Link href="/">
+                          <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                    <h4>Verge price and how to buy it - what is XVG and is the</h4>
-                    <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
-                    </Link>
+                    <div className="row">
+                      <div className="col-xs-12 coverage--logo">
+                        <img src="/static/img/coverage/Forbes.svg" />
+                      </div>
+                      <div className="col-xs-12">
+                        <h4>Verge price and how to buy it - what is XVG and is the</h4>
+                        <Link href="/">
+                          <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs">
-                    <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                    <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
-                    </Link>
+                    <div className="row">
+                      <div className="col-xs-12 coverage--logo">
+                        <img src="/static/img/coverage/Huffington_Post.svg" />
+                      </div>
+                      <div className="col-xs-12">
+                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
+                        <Link href="/">
+                          <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="row around-xs pt-small">
                   <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                    <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                    <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
-                    </Link>
+                    <div className="row">
+                      <div className="col-xs-12 coverage--logo">
+                        <img src="/static/img/coverage/Mashable.svg" />
+                      </div>
+                      <div className="col-xs-12">
+                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
+                        <Link href="/">
+                          <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                    <h4>Verge price and how to buy it - what is XVG and is the</h4>
-                    <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
-                    </Link>
+                    <div className="row">
+                      <div className="col-xs-12 coverage--logo">
+                        <img src="/static/img/coverage/TechChrunch.svg" />
+                      </div>
+                      <div className="col-xs-12">
+                        <h4>Verge price and how to buy it - what is XVG and is the</h4>
+                        <Link href="/">
+                          <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs">
-                    <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                    <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
-                    </Link>
+                    <div className="row">
+                      <div className="col-xs-12 coverage--logo">
+                        <img src="/static/img/coverage/VVY_Tech_Savvy.png" />
+                      </div>
+                      <div className="col-xs-12">
+                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
+                        <Link href="/">
+                          <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

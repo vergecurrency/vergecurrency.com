@@ -74,6 +74,17 @@
       }
     }
 
+    &--logo {
+      height: 2rem;
+      margin-bottom: 1rem;
+
+      img {
+        margin: 0;
+        max-height: 2rem;
+        max-width: 11.5rem;
+      }
+    }
+
     h2 {
       color: #05131e;
       font-size: 1.625rem;
