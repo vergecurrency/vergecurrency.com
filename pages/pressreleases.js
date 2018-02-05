@@ -101,7 +101,7 @@ const Pressreleases = function (props) {
                 </div>
               </div>
             </div>
-            <div className="row center-xs coverage pt">
+            <div className="row center-xs coverage pt pb">
               <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
                 <h2>Press coverage</h2>
 
@@ -184,6 +184,18 @@ const Pressreleases = function (props) {
                           <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
                         </Link>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row center-xs pt pb">
+              <div className="col-xs-12">
+                <div className="container blue-container blue-container--presskit">
+                  <div className="row center-xs">
+                    <div className="col-xs-8">
+                      <h2>Verge Currency is a 100% open source project and the global Verge Community represents the man power driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place.</h2>
+                      <p>Verge is a secure and anonymous cryptocurrency, built with a focus on privacy.</p>
                     </div>
                   </div>
                 </div>
