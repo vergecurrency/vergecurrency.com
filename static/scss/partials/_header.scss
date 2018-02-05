@@ -49,6 +49,8 @@
       }
     }
   }
+  svg { width: 120px; }
+  svg path { fill: #fff; }
 
 
   &.scroll {
@@ -59,6 +61,8 @@
     a {
       color: #111;
     }
+
+    svg path { fill: #111; }
   }
 }
 
