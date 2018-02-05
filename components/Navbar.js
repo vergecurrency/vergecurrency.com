@@ -9,15 +9,26 @@ export default class Navbar extends React.Component {
 
   componentDidMount() {
     switch (Router.route) {
+      case "/pressreleases": {
+        document.getElementById("header").className = 'solid';
+
+        break;
+      }
+    }
+
+    switch (Router.route) {
       case "/":
       case "/index":
       case "/presskit":
       case "/pressreleases":
       {
         window.addEventListener('scroll', this.scrollEvent, true);
+
+        break;
       }
-      case "/pressreleases":
-      default: {
+
+      default:
+      {
         document.getElementById("header").className = 'solid';
 
         break;
