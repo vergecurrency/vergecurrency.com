@@ -1,6 +1,6 @@
 <footer class="section col-sm-12 end-section bg-dark">
   <div class="row">
-    <div class="six columns" id="social">
+    <div class="col-lg-2" id="social">
       <h1>{{langPath.footer.social.header | default: defaultLangPath.footer.social.header}}</h1>
       <ul class="fa-ul">
         <li><i class="fa fa-slack fa-fw" aria-hidden="true"></i>&nbsp;<a href="https://verge.typeform.com/to/RxDLtL" target="_blank">{{langPath.footer.social.slack | default: defaultLangPath.footer.social.slack}}</a></li>
@@ -19,7 +19,13 @@
         <li><i class="fa fa-steam fa-fw" aria-hidden="true"></i>&nbsp;<a href="https://steamcommunity.com/groups/vergecurrency" target="_blank">{{langPath.footer.social.steam | default: defaultLangPath.footer.social.steam}}</a></li>
       </ul>
     </div>
-    <div class="six columns" id="twitter-timeline">
+    <div class="col-lg-4">
+      <h1>Recent news</h1>
+          {% for post in site.posts limit:3 %}
+            <ul><li><a href="{{ post.url }}">{{ post.title }}</a></li></ul>
+          {% endfor %}
+    </div>
+    <div class="col-lg-6" id="twitter-timeline">
       <h1>{{langPath.footer.tweets.header | default: defaultLangPath.footer.tweets.header}}</h1>
         <a href="https://twitter.com/vergecurrency" data-chrome="noheader nofooter transparent noborders" data-theme="dark" data-link-color="#08b4e0" height="450px" class="twitter-timeline">
           {{langPath.footer.tweets.by | default: defaultLangPath.footer.tweets.by}}
