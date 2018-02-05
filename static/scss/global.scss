@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 
 // VARIABLES
 // - RESPONSIVE
@@ -46,6 +46,7 @@ $colors: (
 @import 'pages/home';
 @import 'pages/presskit';
 @import 'pages/pressreleases';
+@import 'pages/pressrelease';
 
 @import 'partials/markdown';
 @import 'partials/responsive-display';

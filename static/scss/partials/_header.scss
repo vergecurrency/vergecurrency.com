@@ -53,7 +53,7 @@
   svg path { fill: #fff; }
 
 
-  &.scroll {
+  @at-root .scroll &, &.solid {
     // scss-lint:disable ColorVariable
     background: $white;
     box-shadow: 0 0 15px rgba(0, 0, 0, .06);
@@ -66,11 +66,12 @@
   }
 }
 
-#subheader {
+.subheader {
   // scss-lint:disable ColorVariable
   background: linear-gradient(to bottom, rgba(11, 119, 146, 1) 0%,
                                          rgba(14, 148, 182, 1) 50%,
                                          rgba(15, 157, 193, 1) 100%);
+  border-bottom: 1px solid transparent;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b7792', endColorstr='#0f9dc1', GradientType=0);
   position: fixed;
   top: 88px;

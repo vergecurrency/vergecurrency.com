@@ -12,86 +12,140 @@ import i18n from '../i18n';
 import Moment from 'react-moment';
 import 'moment-timezone';
 
-import markdown from 'markdown-in-js';
-
-import one from '../static/pressreleases/one';
-
 const Pressreleases = function (props) {
   const { t, store } = props;
   const showLoader = store && store.showLoader;
 
   return (
     <Layout loading={ showLoader }>
-      <Subheader t={t} category='press' />
+      <Subheader t={t} category='press' page='pressreleases' />
 
       <div className="pressreleases">
-        <div className="white-container white-container--pressreleases">
-          <div className="container pb pb-xs-0">
+        <div className="ribbon ribbon--pressreleases">
+          <div className="ribbon-img" />
+
+          <div className="container pt">
             <div className="row center-xs">
-              <div className="col-xs-11 col-sm-8">
-                <div className="start-xs">
-                  <div className="date-container">
-                    {t('date.label', { defaultValue: 'Press release' })}
-                    <span className="hidden-xs">|</span>
-                    <span className="date">
-                      <Moment format="MMMM Do YYYY">{ one.date }</Moment>
-                    </span>
-                  </div>
-                  <h1>{ one.post.heading }</h1>
-                  <p>{ one.post.subheading }</p>
-                </div>
-              </div>
-            </div>
-            <div className="row center-xs">
-              <div className="col-xs-12">
-                <div className="container">
-                  <div className="row center-xs">
-                    <div className="col-xs-12 col-sm-10 image-container image-container--pressreleases" style={{ backgroundImage: `url(${ one.post.image })` }} />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row center-xs">
-              <div className="col-xs-11 col-sm-8">
-                <div className="start-xs pb bb">
-                  <Content />
-                </div>
-                <div className="between-sm pt-small">
-                  <div className="row start-xs share">
-                    <div className="col-xs-12 col-sm-4">
-                      <strong>Share the release</strong>
-                    </div>
-                    <div className="col-xs-12 col-sm-8 end-sm">
-                      Facebook
-                      Twitter
-                    </div>
-                  </div>
+              <div className="col-xs-10 col-sm-10 col-md-8 text-center">
+                <div className="ribbon-txt">
+                  <h1>{ t("pressreleases:ribbon.title", { defaultValue: "Press Releases & Coverage" }) }</h1>
+                  <p>{ t("pressreleases:ribbon.text", { defaultValue: "Official press releases from Verge Currencies can be found here." }) }</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="gray-container gray-container--pressreleases mb-0">
-          <div className="container">
-            <div className="row center-xs previous">
-              <div className="col-xs-11 start-xs">
-                <h3>Previous press releases</h3>
+        <div className="container white-container white-container--press">
+          <div className="row center-xs">
+            <div className="col-xs-9 col-sm-10">
+              <div className="row between-xs">
+                <div className="col-xs-12 col-sm-4 start-xs reason">
+                  <h3>{t('common:reason-1.title', { defaultValue: 'A cryptocurrency designed for everyday use.' })}</h3>
+                  <p>{t('common:reason-1.text', { defaultValue: 'Improving upon the original Bitcoin blockchain and aims to fulfill its initial purpose.' })}</p>
+                </div>
+                <div className="col-xs-12 col-sm-4 start-xs reason">
+                  <h3>{t('common:reason-2.title', { defaultValue: 'Bringing blockchain into everyday life.' })}</h3>
+                  <p>{t('common:reason-2.text', { defaultValue: 'Verge currency makes it possible to engage in direct transactions.' })}</p>
+                </div>
+                <div className="col-xs-12 col-sm-4 start-xs reason">
+                  <h3>{t('common:reason-3.title', { defaultValue: 'Open Source Development & Community Driven.' })}</h3>
+                  <p>{t('common:reason-3.text', { defaultValue: 'Verge is not a private company funded by pre-mined coins or ICO\'s.' })}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                <div className="row around-xs pt-small">
+        <div className="white-container white-container--pressreleases">
+          <div className="container pb pb-xs-0">
+            <div className="row center-xs latest pb">
+              <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
+                <h2>Press releases</h2>
+
+                <div className="row around-xs pt-small pb">
                   <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                    <span className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment></span>
-                    <h4>Update on Wraith. The release of Verge Core..</h4>
-                    <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                    <h3>Verge launches new website in the start of 2018</h3>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                    </Link>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                    <span className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment></span>
-                    <h4>Update on Wraith. The release of Verge Core..</h4>
-                    <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                    <h3>Wraith Protocol set to be released end of 2017</h3>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                    </Link>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs">
-                    <span className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment></span>
-                    <h4>Update on Wraith. The release of Verge Core..</h4>
-                    <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                    <h3>Understand Wraith Protocol in 5 simple steps</h3>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="row around-xs pt-small">
+                  <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                    <h3>Verge launches new website in the start of 2018</h3>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                    </Link>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                    <h3>Wraith Protocol set to be released end of 2017</h3>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                    </Link>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 start-xs">
+                    <h3>Understand Wraith Protocol in 5 simple steps</h3>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row center-xs coverage pt">
+              <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
+                <h2>Press coverage</h2>
+
+                <div className="row around-xs pt-small pb">
+                  <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                    <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                    </Link>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                    <h4>Verge price and how to buy it - what is XVG and is the</h4>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                    </Link>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 start-xs">
+                    <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="row around-xs pt-small">
+                  <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                    <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                    </Link>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                    <h4>Verge price and how to buy it - what is XVG and is the</h4>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                    </Link>
+                  </div>
+                  <div className="col-xs-12 col-sm-4 start-xs">
+                    <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
+                    <Link href="/">
+                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -102,39 +156,6 @@ const Pressreleases = function (props) {
     </Layout>
   );
 }
-
-const Content = () => markdown`
-VergeCurrency Team is very excited to announce that $XVG will be listed on Binance on the upcoming Monday, October 2nd.
-
-About Binance
--------------
-
-Binance is setting a new gold standard in cryptocurrency trading, based on its scalable and highly-redundant architecture. We believe that they will take the lead in this area now and into the future. As of today, Binance is already one of the biggest cryptocurrency exchanges by trading volume in the world.
-
-The team behind Binance is excellent, working hard to deliver superior trading experience to its users. Some of the many benefits Binance provides are:
-
-- Safety stability ensured by multi-tier & multi-cluster system architecture;
-- High performance (Binance is able to process over 1,4 mln of orders per second);
-- Great liquidity;
-- Multiplatform support (Web, Android, iOS, HTML5, PC, Mac);
-- Multilingual support (English, Spanish, Russian, Japanese, Korean, Chinese).
-
-With $XVG listing as the first and highly important step, we at VergeCurrency are looking forward to a mutually beneficial partnership in the time to come!
-
-What is Verge?
---------------
-
-For those who are new to VergeCurrency, below is a brief introduction. More details can be found in the previous blog post “What is Verge?”, as well as on our website.
-
-Verge is a cryptocurrency that focuses on total anonymity and privacy for its users.
-
-Whereas Bitcoin succeeded in the mission of creating a decentralised cryptocurrency, VergeCurrency brings it further by making transactions completely anonymous. The currency is virtually untraceable and the users of VergeCurrency can make instant anonymous transactions.
-
-How is this possible? VergeCurrency implements highly advanced blockchain technology built on top of services such as Tor and I2P that hides your personal data, such as IP-addresses and geolocation. With the future implementation of RSK technology, Verge will offer smart contracts functionality, while maintaining total confidentiality of the users, thus being the only cryptocurrency on the market combining such features.
-
-VergeCurrency is script based and makes it very easy to implement on an exchange.
-
-Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds. Also, there is a tipping bot cooked into the algorithm which helps translate the effectiveness of merging low fees, ultra-fast transaction speeds into a high-volume coin.`
 
 const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressreleases);
 
