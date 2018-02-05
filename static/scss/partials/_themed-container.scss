@@ -61,8 +61,13 @@
   padding-bottom: 6rem;
   padding-top: 6rem;
 
-  &--presskit {
+  &--presskit,
+  &--pressreleases {
     box-shadow: inherit;
+  }
+
+  &--pressreleases {
+    margin-bottom: 6rem;
   }
 }
 

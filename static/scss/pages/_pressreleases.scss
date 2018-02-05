@@ -96,4 +96,57 @@
       font-size: 1.125rem;
     }
   }
+
+  .previous {
+    .to-blog {
+      color: #475056;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .2rem;
+      text-transform: uppercase;
+
+      &::after {
+        content: '\2192';
+        font-size: 1rem;
+        margin-left: .5rem;
+      }
+    }
+
+    .date {
+      color: #091721;
+      font-size: .875rem;
+    }
+
+    h3 {
+      font-size: 1.9rem;
+    }
+
+    h4 {
+      font-size: 1.7rem;
+
+      // scss-lint:disable NestingDepth
+      &::after {
+        background-color: #091721;
+        content: ' ';
+        display: block;
+        height: .2rem;
+        margin-bottom: 1.2rem;
+        margin-left: 1px;
+        margin-top: .3rem;
+        width: 3rem;
+      }
+    }
+
+    p {
+      color: #475056;
+      font-size: .75rem;
+      font-style: italic;
+    }
+  }
+
+  .social {
+    h4 {
+      font-size: 1.5rem;
+    }
+  }
 }
