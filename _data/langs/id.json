@@ -102,8 +102,8 @@
     "tech_specs": {
       "header": "Spesifikasi",
       "symbol": "<b>Simbol:</b> XVG",
-      "algo": "<b>Algo:</b> Scrypt, x17, groestl, blake2s, and lyra2rev2",
-      "block_time": "<b>Block Time:</b> 30 seconds",
+      "algo": "<b>Algo:</b> Scrypt, x17, groestl, blake2s, dan lyra2rev2",
+      "block_time": "<b>Block Time:</b> 30 detik",
       "rpc_port": "<b>RPC port:</b> 20102",
       "p2p_port": "<b>P2P port:</b> 21102"
     }
@@ -374,7 +374,7 @@
         },
         "getverge": {
           "question": "Bagaimana bisa saya mendapatkan Verge Currency?",
-          "answer": "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
+          "answer": "Ada berbagai cara untuk mendapatkan coin Verge (XVG). Pilihan yang paling umum adalah membelinya pada <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a> yang didukung. Pengguna bisa juga memberi tip satu sama lain pada <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platform terintegrasi (menggunakan Verge bot resmi). Jika Anda memiliki sebuah perangkat Android, Anda juga dapat membawa Verge dan mengirim/menerima coin dengan aplikasi<a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>dompet mobile Verge</a>."
         },
         "techdoc": {
           "question": "Dimana saya bisa menemukan dokumentasi teknis pada Verge Currency?",
