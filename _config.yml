@@ -40,9 +40,9 @@ exclude:
 
 # Verge Wallet Links
 download:
+  # VERGE WALLET
   verge_wallet_windows        : 'https://github.com/vergecurrency/VERGE/releases/download/4.0stealth/VERGE-windows.zip'
   verge_wallet_macOS          : "https://github.com/vergecurrency/VERGE/releases/download/4.0stealth/VERGE-Qt-1-30-2018.dmg"
-  # VERGE WALLET
   verge_wallet_arch           : "https://github.com/vergecurrency/VERGE/releases/download/2.1/arch_2.1.0.tar"
   verge_wallet_centos         : "https://github.com/vergecurrency/VERGE/releases/download/2.1/centos7_2.1.0.tar"
   verge_wallet_debian         : "https://github.com/vergecurrency/VERGE/releases/download/2.1/debian8_v2.1.0.tar"
