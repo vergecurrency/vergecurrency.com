@@ -4,10 +4,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
-import ServerProps from '../components/ServerProps';
 
-const Blog = ({ items, store }) => (
-  <Layout loading={ store && store.showLoader }>
+const Blog = ({ items }) => (
+  <Layout>
     <h1>VergeCurrency Blog</h1>
       <ul>{
         items.map((item, index) => (
@@ -21,7 +20,7 @@ const Blog = ({ items, store }) => (
   </Layout>
 )
 
-Index.getInitialProps = async function () {
+Blog.getInitialProps = async function () {
   const res = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2Fverge-currency-xvg')
   const data = await res.json()
   const dataID = []
@@ -41,4 +40,4 @@ Index.getInitialProps = async function () {
   }
 }
 
-export default ServerProps(Blog)
+export default Blog;

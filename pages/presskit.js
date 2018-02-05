@@ -7,13 +7,11 @@ import Ribbon from '../components/Ribbon';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-import ServerProps from '../components/ServerProps';
-
 const Presskit = function (props) {
-  const { t, store } = props;
+  const { t } = props;
 
   return (
-    <Layout loading={ store && store.showLoader }>
+    <Layout>
       <div className="presskit">
         <div className="ribbon ribbon--presskit">
           <div className="ribbon-img" />
@@ -350,4 +348,4 @@ const Presskit = function (props) {
 
 const Extended = translate(['common', 'presskit'], { i18n, wait: process.browser })(Presskit);
 
-export default ServerProps(Extended);
+export default Extended;

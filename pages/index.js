@@ -5,15 +5,13 @@ import Layout from '../components/Layout';
 import Ribbon from '../components/Ribbon';
 import Exchanges from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
-import ServerProps from '../components/ServerProps';
 import fetch from 'isomorphic-unfetch'
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 const Home = function (props) {
-  const { t, store } = props;
-  const showLoader = store && store.showLoader;
+  const { t } = props;
 
   let mentions = []
   for (let i = 1; i < 6; i++){
@@ -27,7 +25,6 @@ const Home = function (props) {
   }
 
   return (
-    // <Layout loading={ showLoader }>
    <Layout>
       <div className="ribbon">
         <div className="ribbon-img" />
@@ -247,4 +244,4 @@ const Home = function (props) {
 
 const Extended = translate(['home'], { i18n, wait: process.browser })(Home);
 
-export default ServerProps(Extended);
+export default Extended;

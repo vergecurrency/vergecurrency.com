@@ -4,8 +4,6 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
-import ServerProps from '../components/ServerProps';
-
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
@@ -13,11 +11,10 @@ import Moment from 'react-moment';
 import 'moment-timezone';
 
 const Pressreleases = function (props) {
-  const { t, store } = props;
-  const showLoader = store && store.showLoader;
+  const { t } = props;
 
   return (
-    <Layout loading={ showLoader }>
+    <Layout>
       <Subheader t={t} category='press' page='pressreleases' />
 
       <div className="pressreleases">
@@ -159,4 +156,4 @@ const Pressreleases = function (props) {
 
 const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressreleases);
 
-export default ServerProps(Extended);
+export default Extended;

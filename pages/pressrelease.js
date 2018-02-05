@@ -4,8 +4,6 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
-import ServerProps from '../components/ServerProps';
-
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
@@ -17,11 +15,10 @@ import markdown from 'markdown-in-js';
 import one from '../static/pressreleases/one';
 
 const Pressrelease = function (props) {
-  const { t, store } = props;
-  const showLoader = store && store.showLoader;
+  const { t } = props;
 
   return (
-    <Layout loading={ showLoader }>
+    <Layout>
       <Subheader t={t} category='press' page='pressrelease' />
 
       <div className="pressrelease">
@@ -136,4 +133,4 @@ Transaction speeds are ultra-fast compared to other coins. Simple Payment Verifi
 
 const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressrelease);
 
-export default ServerProps(Extended);
+export default Extended;

@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 import Link from 'next/link';
 
-const About = () => (
+const Wallets = () => (
   <Layout>
     <h1>yes yall</h1>
     <p>This is the about page</p>
@@ -9,4 +9,4 @@ const About = () => (
   </Layout>
 )
 
-export default About;
+export default Wallets;
