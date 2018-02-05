@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Roadmap = () => (
   <Layout>
-    <div class="roadmap">
+    <div className="roadmap">
       <h1>This will be the roadmap page</h1>
     </div>
     <Link href="/"><a className="btn btn-primary">Home</a></Link>
