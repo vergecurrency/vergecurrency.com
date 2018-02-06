@@ -437,17 +437,17 @@
           "answer": " Verge adalah projek open-source, jadi semua pekerjaan pengembangan didanai oleh <a href='https://vergecurrency.com/#donate' target='_blank'>donasi</a> para pengembang dan komunitas . Kami sekarang tengah mengeksplor metode lain untuk mendanai pengembangan termasuk membuka sebuah <b>Toko Merchandise</b> resmi Verge dan <b>Multi-Algorithm Mining Pool</b>."
         },
         "publicledger": {
-          "question": "Why Does Verge Have a Public Ledger?",
-          "answer": "We believe a blockchain should be public if it is a currency, for a wide array of reasons; most of them to protect the users of the currency. With a public blockchain, you are able to see coin distribution and how many people are using the currency.",
-          "answer2": "You are able to see all transactions on the blockchain, but you won't know who the transactions are going to or where the senders/receivers physically are located."
+          "question": "Mengapa Verge memiliki Public Ledger (Buku Besar Publik)?",
+          "answer": "Kami yakin sebuah blockchain sebaiknya dipublikasikan jika itu adalah mata uang, untuk berbagai macam alasan; kebanyakan dari alasan tersebut adalah untuk melindungi pengguna mata uang. Dengan sebuah public blockchain, Anda dapat melihat distribusi koin dan berapa banyak orang yang menggunakan mata uang.",
+          "answer2": "Anda dapat melihat semua transaksi pada blockchain, tapi Anda tidak akan tahu transaksi ini menuju ke siapa atau dimana lokasi fisik si pengirim/penerima."
         },
         "richlist": {
-          "question": "Where Can I View the Verge Rich List?",
-          "answer": "You can view the rich list <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a> or <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a>. If first site is down, please let us know since it is hosted on a community-donated server."
+          "question": "Dimana saya dapat melihat daftar orang-orang kaya Verge?",
+          "answer": "Anda dapat melihat daftar orang-orang kaya Verge <a href='https://verge-blockchain.info/richlist' target='_blank'>di sini</a> atau <a href='https://verge-blockchain.info/richlist' target='_blank'>di sini</a>. Jika situs yang pertama down, tolong kasih tahu kami karena itu dihost dari server yang didanai oleh komunitas."
         },
         "wheretolearnmore": {
-          "question": "Where Can I Go to Learn More About Verge?",
-          "answer": "We are on a ton of different <a href='#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
+          "question": "Dimana saya bisa belajar lebih banyak mengenai Verge?",
+          "answer": "Kami memiliki banyak platform<a href='#social' target='_blank'>sosial</a> media dan sangat aktif di Twitter, Telegram, Slack, dan Discord."
         },
         "roadmap": {
           "question": "Where Can I Find the Verge Roadmap?",
