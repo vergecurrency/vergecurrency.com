@@ -313,26 +313,26 @@
       "header": "Preview"
     },
     "counter": {
-      "header": "Contest Has Ended",
-      "subheader": "We will be announcing all of the winners on Monday"
+      "header": "Kontes Telah Berakhir",
+      "subheader": "Kami akan mengumumkan semua pemenang pada hari senin."
     },
     "prizes": {
-      "header": "Prizes",
+      "header": "Hadiah",
       "first": {
-        "place": "1st",
-        "prize": "70,000 coins"
+        "place": "Ke-1",
+        "prize": "70.000 koin"
       },
       "second": {
-        "place": "2nd",
-        "prize": "50,000 coins"
+        "place": "Ke-2",
+        "prize": "50.000 koin"
       },
       "third": {
-        "place": "3rd",
-        "prize": "35,000 coins"
+        "place": "Ke-3",
+        "prize": "35.000 koin"
       },
       "top5": {
-        "place": "4-5th",
-        "prize": "Verge T-Shirt"
+        "place": "ke-4&5",
+        "prize": "Kaos Verge"
       }
     },
     "instructions": {
@@ -450,23 +450,23 @@
           "answer": "Kami memiliki banyak platform<a href='#social' target='_blank'>sosial</a> media dan sangat aktif di Twitter, Telegram, Slack, dan Discord."
         },
         "roadmap": {
-          "question": "Where Can I Find the Verge Roadmap?",
-          "answer": "We have a <a href='#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
+          "question": "Dimana saya bisa menemukan roadmap Verge?",
+          "answer": "Kami memiliki sebuah <a href='#roadmap' target='_blank'>roadmap</a> yang dicantumkan pada situs kami yang biasanya mencantumkan item-item yang sedang kami kerjakan pada bulan berikutnya atau dua bulan ke depan. Kami tidak suka untuk mencantumkan item-item jangka panjang (lebih besar dari tiga bulan) pada roadmap kami, karena hal-hal berubah sangat cepat di kripto dan untuk mengantisipasi perubahan itu sejauh ini."
         }
       },
       "privacy": {
-        "subheader": "Privacy",
+        "subheader": "Privasi",
         "wraithprotocol": {
-          "question": "What is the Wraith Protocol?",
-          "answer": "The Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. More details can be found on the blog and in the Blackpaper."
+          "question": "Apakah itu Wraith Protocol?",
+          "answer": "Wraith Protocol adalah teknologi yang mengizinkan pengguna untuk memilih antara public ledger (buku besar publik) atau private ledger (buku besar privat) yang pengguna akan pilih antara public dan private ledgers pada blockchain yang sama. Untuk lebih detailnya dapat ditemukan di blog dan di Blackpaper."
         },
         "vergeanon": {
-          "question": "Why use Verge for anonymity and not any other crypto over Tor?",
-          "answer": "Verge Currency wallets feature Tor and I2P networks already integrated, so that there is no additional setup required. Just download the wallet and start transacting with your IP-address obfuscated."
+          "question": "Mengapa menggunakan Verge untuk anonimitas dan tidak kripto lain pada jaringan Tor?",
+          "answer": "Dompet Verge Currency mengutamakan Tor dan jaringan I2P yang sudah terintegrasi, jadi tidak ada tambahan pengaturan yang diperlukan. Tinggal unduh dompet dan mulai bertransaksi dengan IP-address Anda yang disamarkan."
         },
         "whytor": {
-          "question": "Why TOR and not simply VPN?",
-          "answer": "Both Tor and I2P encrypt all network traffic so that a user's IP address and data cannot be accessed. A Virtual Private Network (VPN) also encrypts network traffic, but you must trust the VPN provider to not log any of your activity (which they can and often do). Read this gist for more information about the pitfalls of VPN services."
+          "question": "Kenapa TOR dan tidak secara sederhana menggunakan VPN?",
+          "answer": "Baik Tor dan I2P mengenkripsi semua lalu lintas jaringan sehingga IP-address pengguna dan data tidak dapat diakses. Sebuah Virtual Private Network (VPN) juga mengenkripsi lalu lintas jaringan, tapi Anda harus mempercaya penyedia VPN untuk tidak masuk pada apapun aktivitas Anda (yangmana mereka bisa dan sering melakukannya). Baca gist ini untuk informasi mengenai perangkap layanan VPN ."
         },
         "vergemasternode": {
           "question": "Will Verge Currency have Masternodes?",
