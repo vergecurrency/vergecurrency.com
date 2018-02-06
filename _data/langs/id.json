@@ -532,12 +532,12 @@
   },
   "p2p": {
     "subheader": "Intro",
-    "header": "What are P2P Solutions?",
-    "paragraph": "Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal.",
-    "paragraph2": "With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram. More platforms are in planning stages as we speak!",
-    "paragraph3": "More platforms (Slack & Reddit) are coming in the near future.",
-    "paragraph4": "Use XVG to tip content creators, pay freelancers, donate to NGOs or show endorsement for the posts you like! All that with zero fees(small fee for transactions to external wallets), instant transactions and no setup!",
-    "paragraph5": "Below are a series of guides to help you understand how to use our various P2P solutions."
+    "header": "Apa itu solusi P2P?",
+    "paragraph": "Verge secara konstan bergerak menuju adopsi mainstream. Integrasi Verge pada platform pesan dan media sosial adalah langkah strategis yang penting untuk menyelesaikan tujuan ini.",
+    "paragraph2": "Dengan tanpa instalasi yang dibutuhkan dari pihak lain, koin XVG bisa dikirim dan diterima melalui Twitter, Discord, dan Telegram. Lebih banyak platform sedang dalam tahap perencanaan seperti yang kami bicarakan!",
+    "paragraph3": "Platform lain (Slack & Reddit) akan dipakai tidak lagi.",
+    "paragraph4": "Penggunaan XVG untuk memberi tip pada para pekerja konten, membayar jasa freelancers, melakukan donasi pada NGO atau untuk menunjukkan dukungan pada postingan yang Anda sukai! Semua dengan biaya transaksi nol(biaya transaksi kecil untuk transaksi pada dompet eksternal), transaksi instan dan tanpa pengaturan!",
+    "paragraph5": "Di bawah ini adalah rangkaian petunjuk bagaimana cara menggunakan solusi P2P kami yang bervariasi."
   },
   "p2ptoc": {
     "telegramintro": "Note: Your Telegram profile has to show a username (@<username>) for tips to work. Usernames can be set up in Telegram Settings.",
