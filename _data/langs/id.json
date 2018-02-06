@@ -513,19 +513,19 @@
           "answer2": "Tolong ingat baik-baik bahwa kami juga menggunakan <a href='#wallets' target='_blank'>dompet</a> alternatif Electrum  yang secara signifikan lebih cepat(mereka tidak meminta Anda untuk menyimpan seluruh blockchain secara lokal)."
         },
         "torandroidnoconnection": {
-          "question": "Why am I Seeing No Connection on my Verge Tor Android app?",
-          "answer": "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu."
+          "question": "Kenapa saya melihat tulisan (No Connection) Tidak Ada Koneksi pada aplikasi Verge Tor Android saya?",
+          "answer": "Jika Anda melihat \"no connection\" pada layar saldo utama Anda, silahkan buka aplikasi Orbot dan pilih \"apps VPN mode\" di menu pojok kiri atas."
         }
       },
       "mining": {
-        "subheader": "Mining",
+        "subheader": "Penambangan",
         "proof": {
-          "question": "Is Verge PoW or PoS?",
-          "answer": "Verge is 100% <b>PoW</b> (Proof of Work). We believe PoS (Proof of Stake) systems unfairly benefit the users who have the most coins; making it so the rich get richer. This is also currently an issue with traditional fiat currencies (eg. USD)."
+          "question": "Apakah Verge PoW atau PoS?",
+          "answer": "Verge adalah 100% <b>PoW</b> (Proof of Work). Kami percaya bahwa sistem PoS (Proof of Stake) secara tidak adil menguntungkan para pengguna yang telah memiliki banyak koin; membuat orang kaya semakin kaya. Ini juga menjadi masalah yang dihadapi saat ini dengan mata uang fiat tradisional (contoh: USD Dollar)."
         },
         "algorithms": {
-          "question": "What Algorithms Does Verge Support?",
-          "answer": "Verge uses multi-algorithm mining support. That means that individuals with different types of mining equipment are able to mine verge, which means more security through decentralization and a more fair distribution of coins among the Verge mining community. Verge is one of the few cryptocurrencies that support five different hashing algorithms; Namely, Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
+          "question": "Algoritma apa yang dipakai untuk mendukung Verge?",
+          "answer": "Verge menggunakan dukungan multi-algorithm mining. Itu berarti individual dengan peralatan penambangan yang berbeda jenis dapat menambang verge, yang artinya lebih aman karena melalui desentralisasi dan distribusi koin yang lebih adil antara komunitas penambangan Verge. Verge adalah satu dari sedikit mata uang kripto yang mendukung lima algoritma hashing yang berbeda; Antara lain, Scrypt, X17, Lyra2rev2, myr-groestl dan blake2s."
         }
       }
     }
