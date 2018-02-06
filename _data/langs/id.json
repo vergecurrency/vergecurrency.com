@@ -378,19 +378,19 @@
         },
         "techdoc": {
           "question": "Dimana saya bisa menemukan dokumentasi teknis pada Verge Currency?",
-          "answer": "In the <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. The Source Code can be found on <a href='https://github.com/vergecurrency' target='_blank'>\"GitHub\"</a>."
+          "answer": "Di <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. Code sumber dapat ditemukan di <a href='https://github.com/vergecurrency' target='_blank'>\"GitHub\"</a>."
         },
         "premine": {
           "question": "Apakah Verge Currency memiliki kegiatan pra-tambang?",
           "answer": "Tidak, Verge Currency tidak memiliki kegiatan pra-tambang. Tim pengembang dan para kontributor membeli koin pada pasar terbuka sama seperti orang lain. Kegiatan pra-tambang adalah mekanisme pendanaan, dimana para pengembang dari mata uang mengalokasikan sejumlah tertentu ke alamat tertentu sebelum merilisnya ke publik."
         },
         "supply": {
-          "question": "What is the total supply of Verge Currency?",
-          "answer": "The maximum supply is capped at 16.5 billion XVG."
+          "question": "Berapa total supply dari Verge Currency?",
+          "answer": "Supply maksimal ditutup pada 16.5 miliar XVG."
         },
         "highsupply": {
-          "question": "Why is the total supply so high?",
-          "answer": "Verge Currency is designed this way on purpose to allow for convenient payment amounts in everyday use. As opposed to Bitcoin, you would not have pay with 0.00004 BTC, for example. Another reason is to reduce the risk of market manipulation by making it harder to control a big portion of the total supply."
+          "question": "Mengapa total supply sangat tinggi?",
+          "answer": "Verge Currency didesain seperti ini untuk sejumlah transaksi pembayaran sehari-hari secara mudah. Berlawanan dengan Bitcoin, Anda tidak harus membayar dengan 0.00004 BTC, sebagai contoh. Alasan lain adalah untuk mengurangi risiko manipulasi pasar dengan membuatnya lebih susah untuk mengontrol porsi besar dari total supply."
         },
         "burning": {
           "question": "Apakah tim Verge Currency berencana untuk mengurangi jumlah koin?",
@@ -409,20 +409,20 @@
           "answer": "Tergantung load pada jaringan, itu bervariasi antara 5 sampai 10 detik."
         },
         "transactioncap": {
-          "question": "What is the transaction capacity per second?",
-          "answer": "100 transactions per second. With RSK technology implemented that number is projected to reach 2000 transactions per second."
+          "question": "Berapa kapasitas transaksi per detik?",
+          "answer": "100 transaksi per detik. Dengan teknologi RSK yang dijalankan angka tersebut diproyeksikan mencapai 2000 trasaksi per detik."
         },
         "maxsupply": {
-          "question": "When will the maximum supply be reached?",
-          "answer": "It is projected to be reached in 8 to 10 years at the time of writing (2017)."
+          "question": "Kapan supply maksimal akan tercapai?",
+          "answer": "Itu diproyeksikan akan tercapai dalam 8 hingga 10 tahun pada waktu dokumen ini ditulis (2017)."
         },
         "rskactivated": {
-          "question": "When will RSK be activated?",
-          "answer": "RSK platform is projected to be launched in December. After that Verge Currency will implement its smart contracts functionality."
+          "question": "Kapan RSK akan diaktivasi",
+          "answer": "Platform RSK akan diproyeksikan untuk diluncurkan pada Desember. Setelah itu Verge Currency akan mengimplementasikan fungsionalitas dari smart contract."
         },
         "atomicswaps": {
-          "question": "How can I use Atomic Swaps?",
-          "answer": "Atomic Swaps Capability is utilized when trading on decentralized exchanges (DEX)."
+          "question": "Bagaimana cara saya mengaktivasi Atomic Swaps?",
+          "answer": "Kemampuan Atomic Swaps dimanfaatkan ketika trading pada decentralized exchanges (DEX) atau exchange yang terdesentralisasi."
         },
         "vergebusiness": {
           "question": "How can I accept Verge for my business?",
