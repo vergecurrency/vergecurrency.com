@@ -425,16 +425,16 @@
           "answer": "Kemampuan Atomic Swaps dimanfaatkan ketika trading pada decentralized exchanges (DEX) atau exchange yang terdesentralisasi."
         },
         "vergebusiness": {
-          "question": "How can I accept Verge for my business?",
-          "answer": "You can integrate XVG in your business by using Coinpayments or using existing APIs that can be found on GitHub."
+          "question": "Bagaimana saya bisa menerima pembayaran dengan Verge pada bisnis saya?",
+          "answer": "Anda bisa mengintegrasikan XVG dalam bisnis Anda dengan menggunakan Coinpayments atau menggunakan APIs yang tersedia yang bisa ditemukan di GitHub."
         },
         "vergecurrencyproject": {
-          "question": "How can I support the Verge Currency project?",
-          "answer": "The simplest way of support is by donating to fund the development. XVG and BTC addresses can be found here. If you would like to contribute to the project in the area of software development, digital marketing, video and graphic design or any other, please fill out this form or reach out to us directly via email contact@vergecurrency.com."
+          "question": "Bagaimana cara saya mendukung projek Verge Currency?",
+          "answer": "Cara paling sederhana untuk mendukung adalah melalui donasi untuk mendanai pengembangan. Alamat XVG dan BTC dapat ditemukan di sini. Jika Anda ingin berkontribusi pada projek di area pengembangan software, digital marketing, video dan graphic design atau yang lainnya, silahkan isi form ini atau hubungi kami secara langsung melalui email contact@vergecurrency.com."
         },
         "funded": {
-          "question": "How Is Verge Development Funded?",
-          "answer": " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='https://vergecurrency.com/#donate' target='_blank'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
+          "question": "Bagaimana pengembangan Verge didanai?",
+          "answer": " Verge adalah projek open-source, jadi semua pekerjaan pengembangan didanai oleh <a href='https://vergecurrency.com/#donate' target='_blank'>donasi</a> para pengembang dan komunitas . Kami sekarang tengah mengeksplor metode lain untuk mendanai pengembangan termasuk membuka sebuah <b>Toko Merchandise</b> resmi Verge dan <b>Multi-Algorithm Mining Pool</b>."
         },
         "publicledger": {
           "question": "Why Does Verge Have a Public Ledger?",
