@@ -488,15 +488,15 @@
           "answer": "<a href='https://electrum.org' target='_blank'>Electrum</a> adalah sebuah solusi dompet ringan Bitcoin yang bersifat <a href='https://github.com/spesmilo/electrum' target='_blank'>open-source</a>. Verge telah mem-forking kode dasar dompet Electrum dan mengupdatenya agar dapat bekerja dengan jaringan blockchain Verge."
         },
         "electrumwallet": {
-          "question": "What Is an Electrum Wallet?",
-          "answer": "A Verge Electrum wallet is a wallet that is focused on speed and low resource usage. Electrum wallets use a technology called, <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV), that verifies transactions on the Verge blockchain without needing to download the entire blockchain. The SPV technology allows average transaction confirmation times to drop to ~5 seconds (instead of ~30 seconds for non-Electrum). For more general questions about Electrum, please go to their <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'>FAQ</a> page."
+          "question": "Apakah itu dompet Electrum?",
+          "answer": "Sebuah dompet Electrum Verge adalah sebuah dompet yang berfokus pada kecepatan dan penggunaan dengan sumber daya rendah. Dompet Electrum menggunakan teknologi yang disebut, <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV), yang memverifikasi transaksi pada blockchain Verge tanpa perlu mengunduh keseluruhan blockchain. Teknologi SPV mengizinkan waktu konfirmasi transaksi rata-rata menurun hingga ~5 detik (dibandingkan waktu ~30 detik jika menggunakan non-Electrum). Untuk pertanyaan yang lebih detail mengenai Electrum, silahkan kunjungi halaman <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'>FAQ</a> mereka."
         },
         "qt": {
-          "question": "What Is QT?",
-          "answer": "<a href='https://www.qt.io' target='_blank'>QT</a> is a cross-platform application and UI framework for developers using the C++ programming language. It allows developers to write code in C++ and then release their software to various software and hardware platforms. Per <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>, the toolkit was named QT because \"the letter Q looked appealing in Haavard's Emacs typeface, and 't' was inspired by Xt, the X toolkit\". "
+          "question": "Apa itu QT?",
+          "answer": "<a href='https://www.qt.io' target='_blank'>QT</a> adalah aplikasi lintas platform dan framework UI framework bagi para pengembang yang menggunakan bahasa pemprograman C++. Itu mengizinkan para pengembang untuk menulis kode dalam C++ dan kemudian merilis software mereka pada berbagai macam platform software dan hardware. Menurut <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>, toolkit tersebut dinamai QT karena \"huruf Q tampak menarik dalam jenis huruf Emacs Haavard, dan 't' terinspirasi oleh Xt, singkatan dari X toolkit\". "
         },
         "qtwallet": {
-          "question": "What is a QT Wallet?",
+          "question": "Apakah itu dompet QT?",
           "answer": "QT wallets require that you download the entire <a href='https://verge-blockchain.com/' target='_blank'>Verge blockchain</a> to your computer. In other words, your computer must download a record of every single Verge transaction that has ever occurred. Currently, the Verge blockchain is ~1GB and will continue to climb as more users make transactions. If you are using a QT wallet, make sure your device has enough extra storage to handle it.",
           "answer2": "Every time you open your QT wallet, the wallet will synchronize and download the latest blockchain data to your computer. If you decide to use a QT wallet, you will most likely want to use it on a regular basis; or it could take an hour or more (depending on how long it has been since you opened your wallet last) to download the latest blockchain updates."
         },
