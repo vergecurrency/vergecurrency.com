@@ -540,39 +540,39 @@
     "paragraph5": "Di bawah ini adalah rangkaian petunjuk bagaimana cara menggunakan solusi P2P kami yang bervariasi."
   },
   "p2ptoc": {
-    "telegramintro": "Note: Your Telegram profile has to show a username (@<username>) for tips to work. Usernames can be set up in Telegram Settings.",
+    "telegramintro": "Catatan: Profil Telegram Anda harus menunjukkan sebuah username (@<username>) agar tips bekerja. Username bisa diatur dalam pengaturan Telegram.",
     "toc": {
-      "tagline": "P2P Solutions",
-      "header": "Table of Contents",
+      "tagline": "Solusi P2P",
+      "header": "Daftar Isi",
       "telegram": {
-        "subheader": "Telegram Bot Manual",
-        "bullet1": "1. <b>Add Verge Bot to your channel:</b> search for @VergeX_bot in Telegram, click \"Add to group\" and choose your group channel.",
-        "bullet2": "2. <b>Display your Verge Telegram address:</b> send \"!address\" as a direct message to the bot.",
-        "bullet3": "3. <b>Deposit Coins:</b> send XVG coins to the address provided.",
-        "bullet4": "4. <b>Check Balance:</b> send \"!balance\" as a direct message and see your balance in the reply.",
-        "bullet5": "5. <b>Send Coins Over Telegram:</b> send \"!tip @<username><amount of XVG>\" in the group chat.",
-        "bullet6": "6. <b>Withdraw Telegram Wallet Balance:</b> send \"!withdraw <Verge Address>\" as a <b>Direct Message</b> to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address.",
-        "bullet7": "7. <b>See Terms:</b> send \"!terms\" to display terms and conditions for using Verge Telegram Bot."
+        "subheader": "Manual Telegram",
+        "bullet1": "1. <b>Tambahkan Bot Verge untuk channel Anda:</b> cari @VergeX_bot dalam Telegram, klik \"Add to group\" dan pilih grup channel Anda.",
+        "bullet2": "2. <b>Tampilkan alamat Telegram Verge Anda:</b> kirim perintah \"!address\" sebagai sebuah pesan langsung pada bot.",
+        "bullet3": "3. <b>Deposit Koin:</b> kirim koin XVG pada alamat yang tersedia.",
+        "bullet4": "4. <b>Cek Saldo:</b> kirim perintah \"!balance\" sebagai pesan langsung dan lihat saldo Anda pada balasan.",
+        "bullet5": "5. <b>Kirim Koin lewat Telegram:</b> kirim perintah \"!tip @<username><jumlah XVG>\" dalam chat grup.",
+        "bullet6": "6. <b>Menarik Saldo Dompet Telegram:</b> kirim perintah \"!withdraw <Alamat Verge>\" sebagai sebuah <b>Pesan Langsung</b> untuk menarik  <b>seluruh</b> saldo dompet Anda (dikurangi biaya penarikan 2 XVG) pada alamat Verge Anda.",
+        "bullet7": "7. <b>Lihat istilah:</b> kirim \"!terms\" untuk menampilkan istilah dan kondisi untuk penggunaan Bot Verge Telegram."
       },
       "twitter": {
-        "subheader": "Twitter Bot Manual",
-        "bullet1": "1. <b>Display your verge Twitter address:</b> tweet \"@vergetips address\" to see the Verge address associated with you Twitter account.",
-        "bullet2": "2. <b>Deposit Coins:</b> send XVG coins to the address provided.",
-        "bullet3": "3. <b>Check Balance:</b> tweet \"@vergetips balance\" and see your balance in the reply.",
-        "bullet4": "4. <b>Send Coins Over Twitter:</b> tweet \"@vergetips tip @<username><amount of XVG>\".",
-        "bullet4note": "<b>Note:</b> minimum tip amount - 10 XVG",
-        "bullet5": "5. <b>Withdraw Twitter Wallet Balance:</b> tweet \"@vergetips withdraw <Verge Address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address.",
-        "bullet6": "6. <b>Support Verge:</b> tip \"@vergecurrency\" to support the Verge Team!"
+        "subheader": "Manual Twitter Bot",
+        "bullet1": "1. <b>Tampilkan alamat Twitter Verge Anda:</b> mengetwit \"@vergetips address\" untuk melihat alamat Verge yang berasosiasi dengan akun Twitter Anda.",
+        "bullet2": "2. <b>Deposit Koin:</b> kirim koin XVG pada alamat yang tersedia .",
+        "bullet3": "3. <b>Cek Saldo:</b> mengetwit \"@vergetips balance\" dan lihat saldo Anda pada balasan.",
+        "bullet4": "4. <b>Kirim koin melalui Twitter:</b> mengetwit \"@vergetips tip @<username><jumlah XVG>\".",
+        "bullet4note": "<b>Catatan:</b> jumlah tip minimal - 10 XVG",
+        "bullet5": "5. <b>Menarik saldo dompet Twitter</b> mengetwit \"@vergetips withdraw <Alamat Verge>\" untuk menarik <b>seluruh</b> saldo dompet Anda (dikurangi biaya penarikan 2 XVG) untuk alamat Verge Anda.",
+        "bullet6": "6. <b>Dukung Verge:</b> beri tip pada \"@vergecurrency\" untuk mendukung tim Verge!"
       },
       "discord": {
-        "subheader": "Discord Bot Manual",
-        "bullet1": "1. <b>Display your Verge Discord address:</b> send \"@vergebot deposit\" to see the Verge address associated with your Discord account.",
-        "bullet2": "2. <b>Deposit Coins:</b> send XVG coins to the address provided.",
-        "bullet3": "3. <b>Check Balance:</b> send \"@vergebot balance\" and see your balance in the reply.",
-        "bullet4": "4. <b>Send Coins Over Discord:</b> send \"@vergebot tip @<username> <amount of XVG>\".",
-        "bullet4note": "<b>Note:</b> minimum tip amount - 10 XVG.",
-        "bullet5": "5. <b>Withdraw Discord wallet balance:</b> send \"@vergebot withdraw <Verge address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address.",
-        "bullet6": "6. <b>Support Verge:</b> tip @vergedev to support the Verge Team!"
+        "subheader": "Manual Discord Bot",
+        "bullet1": "1. <b>Tampilkan alamat Discord Verge Anda:</b> kirim \"@vergebot deposit\" untuk melihat alamat Verge Anda yang berhubungan dengan akun Discord Anda.",
+        "bullet2": "2. <b>Deposit Koin:</b> kirim koin XVG pada alamat yang tersedia.",
+        "bullet3": "3. <b>Cek Saldo:</b> kirim \"@vergebot balance\" dan lihat saldo Anda pada balasan.",
+        "bullet4": "4. <b>Kirim Koin lewat Discord:</b> kirim \"@vergebot tip @<username> <jumlah XVG>\".",
+        "bullet4note": "<b>Catatan:</b> jumlah tip minimal - 10 XVG.",
+        "bullet5": "5. <b>Tarik saldo dompet Discord Anda:</b> kirim \"@vergebot withdraw <Verge address>\" untuk menarik <b>seluruh</b> saldo dompet Anda (dikurangi biaya transaksi 2 XVG) pada alamat Verge Anda.",
+        "bullet6": "6. <b>Dukung Verge:</b> beri tip pada @vergedev untuk mendukung tim Verge!"
       }
     }
   }
