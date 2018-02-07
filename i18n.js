@@ -32,6 +32,11 @@ if (process && !process.release) {
     .use(XHR)
     // .use(Cache)
     .use(LanguageDetector);
+} else {
+  const locales = require('locales/index.js');
+
+  options.lng = 'en';
+  options.resources = locales;
 }
 
 // initialize if not already initialized
