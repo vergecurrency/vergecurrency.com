@@ -1,3 +1,5 @@
+// import React from 'react';
+
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -9,6 +11,7 @@ import i18n from '../i18n';
 
 const Presskit = function (props) {
   const { t } = props;
+  // const { t, initialI18nStore } = props;
 
   return (
     <Layout>
