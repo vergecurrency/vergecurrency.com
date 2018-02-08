@@ -10,6 +10,9 @@ import i18n from '../i18n';
 import Moment from 'react-moment';
 import 'moment-timezone';
 
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import brands from '@fortawesome/fontawesome-free-brands'
+
 const Pressreleases = function (props) {
   const { t } = props;
 
@@ -243,8 +246,44 @@ const Pressreleases = function (props) {
                     <div className="col-xs-12 col-sm-5 start-xs">
                       <h4>Get social with Verge. Be a part of the Verge community.</h4>
                     </div>
-                    <div className="col-xs-12 col-sm-7">
-
+                    <div className="col-xs-12 col-sm-7 col-md-5 col-md-offset-2 col--full-height">
+                      <div className="row start-xs center-sm between-md pb-xs">
+                        <div className="pt-xs social__icon">
+                          <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
+                            <a className="social__link social__link--facebook"><FontAwesomeIcon icon={ ["fab","facebook"] } size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://github.com/vergecurrency?tab=repositories" target="_blank">
+                            <a className="social__link social__link--github"><FontAwesomeIcon icon={ ["fab","github"] } size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://t.me/VERGExvg" target="_blank">
+                            <a className="social__link social__link--telegram"><FontAwesomeIcon icon={ ["fab","telegram"] } size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank">
+                            <a className="social__link social__link--youtube"><FontAwesomeIcon icon={ ["fab","youtube"] } size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://www.reddit.com/r/vergecurrency/" target="_blank">
+                            <a className="social__link social__link--reddit"><FontAwesomeIcon icon={ ["fab","reddit"] } size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://www.twitter.com/vergecurrency" target="_blank">
+                            <a className="social__link social__link--twitter"><FontAwesomeIcon icon={ ["fab","twitter"] } size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://discord.gg/vergecurrency" target="_blank">
+                            <a className="social__link social__link--discord"><FontAwesomeIcon icon={ ["fab","discord"] } size="2x" /></a>
+                          </Link>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

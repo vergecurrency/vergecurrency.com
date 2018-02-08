@@ -13,6 +13,13 @@ $padding-vertical-mobile-xlg: 6rem;
   width: device-width;
 }
 
+.col--full-height {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
 .mb-thin {
   margin-bottom: .5rem;
 }
