@@ -5,7 +5,10 @@ module.exports = {
   exportPathMap: function() {
     return {
       '/': { page: '/' },
-      '/presskit': { page: '/presskit' }
+      '/about': { page: '/about' },
+      '/presskit': { page: '/presskit' },
+      '/pressrelease': { page: '/pressrelease' },
+      '/pressreleases': { page: '/pressreleases' },
     }
   },
 

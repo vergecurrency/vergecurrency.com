@@ -53,7 +53,8 @@ i18n
     ns: ['common', 'header', 'footer', 'home', 'presskit', 'pressreleases'],
     backend: {
       loadPath: __dirname + '/locales/{{lng}}/{{ns}}.json',
-      addPath: __dirname + '/locales/{{lng}}/{{ns}}.missing.json'
+      addPath: __dirname + '/locales/{{lng}}/{{ns}}.missing.json',
+      reloadInterval: 10000
     }
   }, () => {
     // loaded translations we can bootstrap our routes
