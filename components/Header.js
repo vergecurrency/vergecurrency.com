@@ -13,7 +13,9 @@ Router.onRouteChangeError = () => NProgress.done();
 const Header = ({ t }) => (
   <header id="header">
     <Head>
-      <link rel="stylesheet" type="text/css" href="../static/css/ngprogress.css" />
+      <style type="text/css">
+        @import url(/static/css/ngprogress.css);
+      </style>
     </Head>
     <div className="container">
       <div className="row around-xs middle-xs">
