@@ -28,8 +28,8 @@ const Pressreleases = function (props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-10 col-md-8 text-center">
                 <div className="ribbon-txt">
-                  <h1>{ t("pressreleases:ribbon.title", { defaultValue: "Press Releases & Coverage" }) }</h1>
-                  <p>{ t("pressreleases:ribbon.text", { defaultValue: "Official press releases from Verge Currencies can be found here." }) }</p>
+                  <h1>{ t('pressreleases:ribbon.title', { defaultValue: 'Press Releases & Coverage' }) }</h1>
+                  <p>{ t('pressreleases:ribbon.text', { defaultValue: 'Official press releases from Verge Currencies can be found here.' }) }</p>
                 </div>
               </div>
             </div>
