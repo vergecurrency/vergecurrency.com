@@ -7,9 +7,6 @@ import Subheader from '../components/Subheader';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-import Moment from 'react-moment';
-import 'moment-timezone';
-
 const Business = function (props) {
   const { t } = props;
 

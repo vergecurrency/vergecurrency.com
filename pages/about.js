@@ -1,5 +1,6 @@
-import Layout from '../components/Layout';
 import Link from 'next/link';
+
+import Layout from '../components/Layout';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
@@ -18,7 +19,7 @@ const About = function (props) {
                   <h1>Meet the Verge Team</h1>
                   <p>The grassroots culture is what makes Verge<br />unique and dynamic.</p>
                   <Link href="/">
-                    <a className="btn btn-primary">{t("presskit:ribbon.buttonPrimary")}</a>
+                    <a className="btn btn-primary">{t("about:ribbon.buttonPrimary")}</a>
                   </Link>
                 </div>
               </div>

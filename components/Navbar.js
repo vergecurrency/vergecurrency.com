@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
+
 import Router from 'next/router';
 
 export default class Navbar extends React.Component {
-
   scrollEvent = () => {
     document.getElementById("layout").className = window.scrollY > 10 ? 'scroll' : '';
   }

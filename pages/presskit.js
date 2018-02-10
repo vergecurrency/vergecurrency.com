@@ -1,11 +1,9 @@
-import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
-
 
 const Presskit = function (props) {
   const { t } = props;

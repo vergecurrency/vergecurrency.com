@@ -1,17 +1,15 @@
-import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
-import { translate } from 'react-i18next';
-import i18n from '../i18n';
-
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import brands from '@fortawesome/fontawesome-free-brands'
 import Moment from 'react-moment';
 import 'moment-timezone';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import brands from '@fortawesome/fontawesome-free-brands'
+import { translate } from 'react-i18next';
+import i18n from '../i18n';
 
 const Pressreleases = function (props) {
   const { t } = props;

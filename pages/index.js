@@ -1,10 +1,8 @@
-import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
-import Ribbon from '../components/Ribbon';
 import Exchanges from '../components/Exchanges';
-// import Cointicker from '../pages/cointicker';
+
 import fetch from 'isomorphic-unfetch';
 
 import { translate } from 'react-i18next';
@@ -17,8 +15,8 @@ const Home = function (props) {
   for (let i = 1; i < 6; i++){
     mentions.push(
       <div className="col-xs-6 col-md col-sm-4 col-xs-6" key={i}>
-        <a href={t("home:mentioned:mention_" + i + ":url")}>
-          <img src={t("home:mentioned:mention_" + i + ":img")} width={t("home:mentioned:mention_" + i + ":width")} />
+        <a href={t("home:mentioned.mention_" + i + ":url")}>
+          <img src={t("home:mentioned.mention_" + i + ":img")} width={t("home:mentioned.mention_" + i + ":width")} />
         </a>
       </div>
     );
@@ -34,7 +32,7 @@ const Home = function (props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
-                  <h1 dangerouslySetInnerHTML={{ __html: t("home:ribbon:title") }}></h1>
+                  <h1 dangerouslySetInnerHTML={{ __html: t("home:ribbon.title") }}></h1>
                   <p>{t("home:ribbon.text")}</p>
                   <Link href="/">
                     <a className="btn btn-primary btn-wallet">{t("home:ribbon.buttonPrimary")}</a>
@@ -54,16 +52,16 @@ const Home = function (props) {
               <div className="col-xs-9 col-sm-10">
                 <div className="row between-xs">
                   <div className="col-xs-12 col-sm-4 start-xs reason pb-xs">
-                    <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:first.header") }}></h3>
-                    <p>{t("home:USPs:first.text")}</p>
+                    <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs.first.header") }}></h3>
+                    <p>{t("home:USPs.first.text")}</p>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs reason pb-xs">
-                    <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:second.header") }}></h3>
-                    <p>{t("home:USPs:second.text")}</p>
+                    <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs.second.header") }}></h3>
+                    <p>{t("home:USPs.second.text")}</p>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs reason">
-                    <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:third.header") }}></h3>
-                    <p>{t("home:USPs:third.text")}</p>
+                    <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs.third.header") }}></h3>
+                    <p>{t("home:USPs.third.text")}</p>
                   </div>
                 </div>
               </div>
@@ -72,7 +70,7 @@ const Home = function (props) {
           <div className="white-container white-container--home mentions">
             <div className="row center-xs middle-xs pt pb">
               <div className="col-xs-12 col-md col-sm-4 col-xs-6">
-                <span className="spaced">{t("home:mentioned:mentioned_in")}</span>
+                <span className="spaced">{t("home:mentioned.mentioned_in")}</span>
               </div>
             </div>
             <div className="row">
@@ -82,9 +80,9 @@ const Home = function (props) {
           <div className="intro">
             <div className="row center-xs middle-xs pt-lg pb-lg">
               <div className="col-sm-6">
-                <span className="spaced">{t("home:intro:span")}</span>
-                <h2>{t("home:intro:h2")}</h2>
-                <p>{t("home:intro:p")}</p>
+                <span className="spaced">{t("home:intro.span")}</span>
+                <h2>{t("home:intro.h2")}</h2>
+                <p>{t("home:intro.p")}</p>
               </div>
             </div>
           </div>
@@ -92,23 +90,23 @@ const Home = function (props) {
             <div className="row pt-lg pb-lg">
               <div className="col-md-3 col-md-offset-1">
                 <div className="benefits--item">
-                  <span className="spaced">{t("home:benefits:benefit_1:title")}</span>
-                  <p>{t("home:benefits:benefit_1:text")}</p>
+                  <span className="spaced">{t("home:benefits.benefit_1.title")}</span>
+                  <p>{t("home:benefits.benefit_1.text")}</p>
                 </div>
                 <div className="benefits--item pt-lg">
-                  <span className="spaced">{t("home:benefits:benefit_1:title")}</span>
-                  <p>{t("home:benefits:benefit_1:text")}</p>
+                  <span className="spaced">{t("home:benefits.benefit_1.title")}</span>
+                  <p>{t("home:benefits.benefit_1.text")}</p>
                 </div>
-                <a href={t("home:benefits:link:url")} className="benefits--url spaced">{t("home:benefits:link:title")}</a>
+                <a href={t("home:benefits.link:url")} className="benefits--url spaced">{t("home:benefits.link.title")}</a>
               </div>
               <div className="col-md-3 col-md-offset-1">
                 <div className="benefits--item">
-                  <span className="spaced">{t("home:benefits:benefit_3:title")}</span>
-                  <p>{t("home:benefits:benefit_3:text")}</p>
+                  <span className="spaced">{t("home:benefits.benefit_3.title")}</span>
+                  <p>{t("home:benefits.benefit_3.text")}</p>
                 </div>
                 <div className="benefits--item pt-lg">
-                  <span className="spaced">{t("home:benefits:benefit_4:title")}</span>
-                  <p>{t("home:benefits:benefit_4:text")}</p>
+                  <span className="spaced">{t("home:benefits.benefit_4.title")}</span>
+                  <p>{t("home:benefits.benefit_4.text")}</p>
                 </div>
               </div>
               <div className="col-md-4 benefits--imgs">
@@ -120,8 +118,8 @@ const Home = function (props) {
           <div className="wallets pt-lg pb-lg">
             <div className="row">
               <div className="col-sm-6 col-xs-12">
-                <a href={t("home:wallets:link:url")} className="wallets--url spaced">{t("home:wallets:link:title")}</a>
-                <h2>{t("home:wallets:header")}</h2>
+                <a href={t("home:wallets.link.url")} className="wallets--url spaced">{t("home:wallets.link.title")}</a>
+                <h2>{t("home:wallets.header")}</h2>
               </div>
             </div>
             <div className="row">
