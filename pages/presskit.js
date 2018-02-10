@@ -28,7 +28,7 @@ const Presskit = function (props) {
             </div>
           </div>
         </div>
-        <div className="container white-container white-container--press">
+        <div className="container themed-container themed-container--press">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
@@ -48,7 +48,7 @@ const Presskit = function (props) {
             </div>
           </div>
         </div>
-        <div className="white-container">
+        <div className="themed-container">
           <div className="container pt pb">
             <div className="row center-xs">
               <div className="col-xs-10">
@@ -310,11 +310,11 @@ const Presskit = function (props) {
             </div>
             <div className="row center-xs pb">
               <div className="col-xs-12">
-                <div className="container blue-container blue-container--presskit">
+                <div className="container themed-container--blue themed-container--blue--presskit">
                   <div className="row center-xs">
                     <div className="col-xs-8">
-                      <h2>{t('presskit:blue-container:big', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.'})}</h2>
-                      <p>{t('presskit:blue-container:small', { defaultValue: 'Verge Currency is a cryptocurrency designed for everyday use.' })}</p>
+                      <h2>{t('presskit:themed-container--blue:big', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.'})}</h2>
+                      <p>{t('presskit:themed-container--blue:small', { defaultValue: 'Verge Currency is a cryptocurrency designed for everyday use.' })}</p>
                     </div>
                   </div>
                 </div>

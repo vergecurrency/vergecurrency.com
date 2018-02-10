@@ -1,11 +1,5 @@
-// TODO: Refactor to bemmy classnames
-
-.image-container,
-.blue-container,
-.gray-container,
-.linen-container,
-.white-container {
-  // scss-lint:disable ColorVariable
+.themed-container {
+  // scss-lint:disable ColorVariable PlaceholderInExtend
 
   background: $white;
   background-position: center;
@@ -14,6 +8,54 @@
   padding-bottom: 4rem;
   padding-top: 12rem;
   position: relative;
+
+  &--blue,
+  &--gray,
+  &--image,
+  &--linen {
+    @extend .themed-container;
+  }
+
+  &--business,
+  &--home,
+  &--pressrelease,
+  &--pressreleases {
+    @media (max-width: $max-width-xs) {
+      padding-bottom: 2rem;
+      padding-top: 12rem;
+    }
+
+    h3,
+    p,
+    li {
+      color: #333;
+    }
+
+    h1 {
+      color: #091721;
+
+      + p {
+        color: #475056;
+      }
+    }
+  }
+
+  &--pressrelease {
+    @media (max-width: $max-width-xs) {
+      padding-bottom: 2rem;
+      padding-top: 7rem;
+    }
+  }
+
+  &--home {
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+
+    @media (min-width: $min-width-sm) {
+      padding-bottom: 4rem;
+      padding-top: 8rem;
+    }
+  }
 
   &--press {
     background: $white;
@@ -40,67 +82,70 @@
       font-weight: 400;
     }
   }
-}
 
-.blue-container {
-  // scss-lint:disable ColorVariable
+  &--blue {
+    background-color: #daf0ff;
+    margin-bottom: 12rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
 
-  background-color: #daf0ff;
-  box-shadow: none;
-  margin-bottom: 12rem;
-  padding-bottom: 6rem;
-  padding-top: 6rem;
+    &--home {
+      background-color: #07121b;
+      margin-bottom: 0;
+      margin-top: -8rem;
+      padding-bottom: 4rem;
+      padding-top: 4rem;
 
-  &--home {
-    background-color: #07121b;
-    box-shadow: inherit;
-    margin-bottom: 0;
-    margin-top: 8rem;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
+      h3 {
+        color: $white;
+        font-size: rem(19px);
+        font-weight: 600;
 
-    h3 {
-      color: $white;
-      font-size: rem(19px);
-      font-weight: 600;
+        span {
+          color: #00cbff;
+        }
+      }
 
-      // scss-lint:disable NestingDepth
-      span {
-        color: #00cbff;
+      p {
+        color: $white;
+        font-size: rem(13px);
+        font-weight: 400;
       }
     }
 
-    p {
-      color: $white;
-      font-size: rem(13px);
-      font-weight: 400;
+    &--pressreleases {
+      margin-bottom: 6rem;
     }
   }
 
-  &--presskit,
-  &--pressreleases {
-    box-shadow: inherit;
+  &--gray,
+  &--image {
+    background-color: #f7f7f7;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 12rem;
+    padding-top: 12rem;
   }
 
-  &--pressreleases {
-    margin-bottom: 6rem;
+  &--gray {
+    &--pressrelease,
+    &--pressreleases {
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+      }
+    }
   }
-}
 
-.gray-container {
-  background-color: #f7f7f7; // scss-lint:disable ColorVariable
-  box-shadow: none;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  padding-bottom: 12rem;
-  padding-top: 12rem;
-}
+  &--linen {
+    background: #fcf1eb;
 
-.image-container {
-  background-color: #f7f7f7; // scss-lint:disable ColorVariable
-  box-shadow: none;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  padding-bottom: 12rem;
-  padding-top: 12rem;
+    &--press {
+      margin-top: -8rem;
+      padding-top: 4rem;
+    }
+  }
 }

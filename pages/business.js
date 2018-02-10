@@ -31,7 +31,7 @@ const Business = function (props) {
           </div>
         </div>
 
-        <div className="container linen-container linen-container--press">
+        <div className="container themed-container--linen themed-container--linen--press">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
@@ -52,7 +52,7 @@ const Business = function (props) {
           </div>
         </div>
 
-        <div className="white-container white-container--business">
+        <div className="themed-container themed-container--business">
           <div className="container pb pb-xs-0">
             <div className="row center-xs middle-xs latest pb">
               <div className="col-xs-11 col-sm-6 start-xs">
@@ -113,7 +113,7 @@ const Business = function (props) {
             </div>
             <div className="row center-xs pt pb">
               <div className="col-xs-12">
-                <div className="container blue-container blue-container--business">
+                <div className="container themed-container--blue themed-container--blue--business">
                   <div className="row center-xs">
                     <div className="col-xs-8">
                       <h2>Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so. The choice is yours, the choice going mainstream.</h2>

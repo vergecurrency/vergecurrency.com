@@ -14,48 +14,6 @@
     }
   }
 
-  @at-root .linen-container {
-    &--press {
-      top: 0;
-    }
-  }
-
-  @at-root .white-container {
-    // scss-lint:disable NestingDepth
-
-    &--business {
-      @media (max-width: $max-width-xs) {
-        padding-bottom: 2rem;
-        padding-top: 12rem;
-      }
-
-      h3,
-      p,
-      li {
-        color: #333;
-      }
-
-      h1 {
-        color: #091721;
-
-        + p {
-          color: #475056;
-        }
-      }
-    }
-  }
-
-  @at-root .gray-container {
-    // scss-lint:disable NestingDepth
-
-    &--pressreleases {
-      @media (max-width: $max-width-xs) {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-      }
-    }
-  }
-
   .vendors {
     &--logo {
       height: 2rem;

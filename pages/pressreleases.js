@@ -18,7 +18,7 @@ const Pressreleases = function (props) {
     <Layout>
       <Subheader t={t} category='press' page='pressreleases' />
 
-      <div className="pressreleases">
+      <div className="pressreleases press">
         <div className="ribbon ribbon--pressreleases">
           <div className="ribbon-img" />
 
@@ -33,7 +33,7 @@ const Pressreleases = function (props) {
             </div>
           </div>
         </div>
-        <div className="container white-container white-container--press">
+        <div className="container themed-container themed-container--press">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
@@ -54,7 +54,7 @@ const Pressreleases = function (props) {
           </div>
         </div>
 
-        <div className="white-container white-container--pressreleases">
+        <div className="themed-container themed-container--pressreleases">
           <div className="container pb pb-xs-0">
             <div className="row center-xs latest pb">
               <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
@@ -192,7 +192,7 @@ const Pressreleases = function (props) {
             </div>
             <div className="row center-xs pt pb">
               <div className="col-xs-12">
-                <div className="container blue-container blue-container--pressreleases">
+                <div className="container themed-container--blue themed-container--blue--pressreleases">
                   <div className="row center-xs">
                     <div className="col-xs-8">
                       <h2>Verge Currency is a 100% open source project and the global Verge Community represents the man power driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place.</h2>

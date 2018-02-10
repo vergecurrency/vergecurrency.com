@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import brands from '@fortawesome/fontawesome-free-brands'
 import Moment from 'react-moment';
 import 'moment-timezone';
 
@@ -23,8 +25,8 @@ const Pressrelease = function (props) {
     <Layout>
       <Subheader t={t} category='press' page='pressrelease' />
 
-      <div className="pressrelease">
-        <div className="white-container white-container--pressrelease">
+      <div className="pressrelease press">
+        <div className="themed-container themed-container--pressrelease">
           <div className="container pb pb-xs-0">
             <div className="row center-xs">
               <div className="col-xs-11 col-sm-8">
@@ -43,7 +45,7 @@ const Pressrelease = function (props) {
               <div className="col-xs-12">
                 <div className="container">
                   <div className="row center-xs">
-                    <div className="col-xs-12 col-sm-10 image-container image-container--pressrelease" style={{ backgroundImage: `url(${ one.post.image })` }} />
+                    <div className="col-xs-12 col-sm-10 themed-container--image themed-container--image--pressrelease" style={{ backgroundImage: `url(${ one.post.image })` }} />
                   </div>
                 </div>
               </div>
@@ -72,7 +74,7 @@ const Pressrelease = function (props) {
             </div>
           </div>
         </div>
-        <div className="gray-container gray-container--pressrelease mb-0">
+        <div className="themed-container--gray themed-container--gray--pressrelease mb-0">
           <div className="container">
             <div className="row center-xs previous">
               <div className="col-xs-11 start-xs">
@@ -93,6 +95,55 @@ const Pressrelease = function (props) {
                     <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
                     <h4>Update on Wraith. The release of Verge Core..</h4>
                     <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="row center-xs social">
+              <div className="col-xs-11 center-xs">
+                <div className="row around-xs pt">
+                  <div className="col-xs-12 col-sm-5 start-xs">
+                    <h4>Get social with Verge. Be a part of the Verge community.</h4>
+                  </div>
+                  <div className="col-xs-12 col-sm-7 col-md-5 col-md-offset-2 col--full-height">
+                    <div className="row start-xs center-sm between-md pb-xs">
+                      <div className="pt-xs social__icon">
+                        <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
+                          <a className="social__link social__link--facebook"><FontAwesomeIcon icon={ ["fab","facebook"] } size="2x" /></a>
+                        </Link>
+                      </div>
+                      <div className="pt-xs social__icon">
+                        <Link href="https://github.com/vergecurrency?tab=repositories" target="_blank">
+                          <a className="social__link social__link--github"><FontAwesomeIcon icon={ ["fab","github"] } size="2x" /></a>
+                        </Link>
+                      </div>
+                      <div className="pt-xs social__icon">
+                        <Link href="https://t.me/VERGExvg" target="_blank">
+                          <a className="social__link social__link--telegram"><FontAwesomeIcon icon={ ["fab","telegram"] } size="2x" /></a>
+                        </Link>
+                      </div>
+                      <div className="pt-xs social__icon">
+                        <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank">
+                          <a className="social__link social__link--youtube"><FontAwesomeIcon icon={ ["fab","youtube"] } size="2x" /></a>
+                        </Link>
+                      </div>
+                      <div className="pt-xs social__icon">
+                        <Link href="https://www.reddit.com/r/vergecurrency/" target="_blank">
+                          <a className="social__link social__link--reddit"><FontAwesomeIcon icon={ ["fab","reddit"] } size="2x" /></a>
+                        </Link>
+                      </div>
+                      <div className="pt-xs social__icon">
+                        <Link href="https://www.twitter.com/vergecurrency" target="_blank">
+                          <a className="social__link social__link--twitter"><FontAwesomeIcon icon={ ["fab","twitter"] } size="2x" /></a>
+                        </Link>
+                      </div>
+                      <div className="pt-xs social__icon">
+                        <Link href="https://discord.gg/vergecurrency" target="_blank">
+                          <a className="social__link social__link--discord"><FontAwesomeIcon icon={ ["fab","discord"] } size="2x" /></a>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

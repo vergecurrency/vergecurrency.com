@@ -334,32 +334,4 @@
       }
     }
   }
-
-  @at-root .white-container {
-    // scss-lint:disable NestingDepth
-
-    &--home {
-      padding-bottom: 2rem;
-      padding-top: 7rem;
-
-      @media (min-width: $min-width-sm) {
-        padding-bottom: 4rem;
-        padding-top: 0;
-      }
-
-      h3,
-      p,
-      li {
-        color: #333;
-      }
-
-      h1 {
-        color: #091721;
-
-        + p {
-          color: #475056;
-        }
-      }
-    }
-  }
 }
