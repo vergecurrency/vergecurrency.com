@@ -5,6 +5,11 @@
 
   h1 {
     color: inherit;
+    margin-bottom: 1rem;
+
+    + p {
+      margin-bottom: 1rem;
+    }
   }
 
   .blackpaper {
@@ -29,7 +34,11 @@
   }
 
   &-txt {
-    margin-top: 180px;
+    margin-top: 17.5vh;
+
+    @media (min-width: $min-width-sm) {
+      margin-top: 180px;
+    }
   }
 
   .btn {
@@ -54,11 +63,37 @@
     }
   }
 
-  &--pressreleases {
-    min-height: 540px;
+  &--about,
+  &--business {
+    // scss-lint:disable ColorVariable
+
+    background: #042c42;
+    background: -moz-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
+    background: -webkit-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
+    background: radial-gradient(ellipse at center, #042c42 0%, 05131e 46%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#042c42', endColorstr='#05131e', GradientType=1);
+    min-height: 770px;
+
+    p {
+      color: $white;
+    }
   }
 
+  &--pressreleases,
   &--presskit {
     min-height: 540px;
+  }
+  
+  &--about {
+    min-height: 400px;
+    background: #042c42;
+    background: -moz-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
+    background: -webkit-radial-gradient(center, ellipse cover, #042c42 0%,#05131e 46%);
+    background: radial-gradient(ellipse at center, #042c42 0%,#05131e 46%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#042c42', endColorstr='#05131e',GradientType=1 );
+  }
+
+  &--business {
+    min-height: 40rem;
   }
 }

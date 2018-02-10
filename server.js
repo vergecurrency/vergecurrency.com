@@ -9,36 +9,36 @@ const i18nextMiddleware = require('i18next-express-middleware');
 const Backend = require('i18next-node-fs-backend');
 const i18n = require('./i18n');
 
-const store = {
-  initialized: false,
-  showLoader: true,
-  url: null,
-};
+// const store = {
+//   initialized: false,
+//   showLoader: true,
+//   url: null,
+// };
 
-const routes = [
-  ['/', '/index'],
-  ['/home', '/home'],
-  ['/about', '/about'],
-  ['/blog', '/blog'],
-  ['/post', '/post'],
-  ['/presskit', '/presskit'],
-  ['/pressreleases', '/pressreleases'],
-  ['/press-releases', '/pressreleases']
-];
+// const routes = [
+//   ['/', '/index'],
+//   ['/home', '/home'],
+//   ['/about', '/about'],
+//   ['/blog', '/blog'],
+//   ['/post', '/post'],
+//   ['/presskit', '/presskit'],
+//   ['/pressreleases', '/pressreleases'],
+//   ['/press-releases', '/pressreleases']
+// ];
 
-const withStore = routes.map(([ endpoint, page ]) => endpoint);
+// const withStore = routes.map(([ endpoint, page ]) => endpoint);
 
-const initializer = (req, res, next) => {
-  if (store.url === req.url) store.showLoader = true;
-  else if (withStore.includes(req.url)) {
-    store.url = req.url;
+// const initializer = (req, res, next) => {
+//   if (store.url === req.url) store.showLoader = true;
+//   else if (withStore.includes(req.url)) {
+//     store.url = req.url;
 
-    if (store.initialized) store.showLoader = false;
-    else store.initialized = true;
-  }
+//     if (store.initialized) store.showLoader = false;
+//     else store.initialized = true;
+//   }
 
-  next();
-}
+//   next();
+// }
 
 // init i18next with serverside settings
 // using i18next-express-middleware
@@ -53,7 +53,8 @@ i18n
     ns: ['common', 'header', 'footer', 'home', 'presskit', 'pressreleases'],
     backend: {
       loadPath: __dirname + '/locales/{{lng}}/{{ns}}.json',
-      addPath: __dirname + '/locales/{{lng}}/{{ns}}.missing.json'
+      addPath: __dirname + '/locales/{{lng}}/{{ns}}.missing.json',
+      reloadInterval: 10000
     }
   }, () => {
     // loaded translations we can bootstrap our routes
@@ -61,11 +62,11 @@ i18n
       .then(() => {
         const server = express()
 
-        server.use(initializer);
+        // server.use(initializer);
 
-        routes.forEach(([ endpoint, page ]) => {
-          server.get(endpoint, (req, res) => app.render(req, res, page, { store }));
-        });
+        // routes.forEach(([ endpoint, page ]) => {
+        //   server.get(endpoint, (req, res) => app.render(req, res, page, { store }));
+        // });
 
         // enable middleware for i18next
         server.use(i18nextMiddleware.handle(i18n));

@@ -1,6 +1,7 @@
 # build output
 dist
 .next
+out/
 
 # dependencies
 node_modules
@@ -15,7 +16,6 @@ yarn.lock
 
 # coverage
 .nyc_output
-coverage
 
 # test output
 test/**/out

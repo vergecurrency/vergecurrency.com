@@ -1,27 +1,26 @@
-import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
-import ServerProps from '../components/ServerProps';
-
-import { translate } from 'react-i18next';
-import i18n from '../i18n';
-
 import Moment from 'react-moment';
 import 'moment-timezone';
 
 import markdown from 'markdown-in-js';
-
 import one from '../static/pressreleases/one';
 
-const Pressrelease = function (props) {
-  const { t, store } = props;
-  const showLoader = store && store.showLoader;
+import { translate } from 'react-i18next';
+import i18n from '../i18n';
 
+const CurrentUrl = 'https://vergecurrency.com/blog/wraithprotocol/'; // TODO: Determine correct url -- Component Mount
+const TwitterStatus = `${one.summary} ${CurrentUrl}`; // TODO: Implement truncate on post title
+
+const Pressrelease = function (props) {
+  const { t } = props;
+
+  // TODO: Dynamic history
   return (
-    <Layout loading={ showLoader }>
+    <Layout>
       <Subheader t={t} category='press' page='pressrelease' />
 
       <div className="pressrelease">
@@ -57,11 +56,15 @@ const Pressrelease = function (props) {
                 <div className="between-sm pt-small">
                   <div className="row start-xs share">
                     <div className="col-xs-12 col-sm-4">
-                      <strong>Share the release</strong>
+                      <strong>{t('pressreleases:share-release', { defaultValue: 'Share the release' })}</strong>
                     </div>
                     <div className="col-xs-12 col-sm-8 end-sm">
-                      Facebook
-                      Twitter
+                      <Link href={ `https://www.facebook.com/sharer/sharer.php?u=${CurrentUrl} ` }>
+                        <a>Facebook</a>
+                      </Link>
+                      <Link href={ `https://twitter.com/home?status=${TwitterStatus}` }>
+                        <a>Twitter</a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -136,4 +139,4 @@ Transaction speeds are ultra-fast compared to other coins. Simple Payment Verifi
 
 const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressrelease);
 
-export default ServerProps(Extended);
+export default Extended;

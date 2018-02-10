@@ -2,6 +2,7 @@
 .image-container,
 .blue-container,
 .gray-container,
+.linen-container,
 .white-container {
   // scss-lint:disable ColorVariable
   background: $white;
@@ -12,13 +13,49 @@
   padding-top: 12rem;
   position: relative;
 
-  &--home,
   &--press {
-    background: #07121b;
-    color: $white;
+    background: $white;
+    box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67);
+    color: #647886;
     margin-top: -8rem;
     padding-top: 4rem;
-    z-index: 1;
+    top: 8rem;
+    z-index: 2;
+
+    h3 {
+      color: #091721;
+      font-size: 1.2rem;
+      font-weight: 600;
+
+      span {
+        color: #00cbff;
+      }
+    }
+
+    p {
+      color: #647886;
+      font-size: .8125rem;
+      font-weight: 400;
+    }
+  }
+}
+
+.blue-container {
+  // scss-lint:disable ColorVariable
+
+  background-color: #daf0ff;
+  box-shadow: none;
+  margin-bottom: 12rem;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+
+  &--home {
+    background-color: #07121b;
+    box-shadow: inherit;
+    margin-bottom: 0;
+    margin-top: -8rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
 
     h3 {
       color: $white;
@@ -38,31 +75,13 @@
     }
   }
 
-  &--press {
-    background: $white;
-    box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67);
-    color: #647886;
-    top: 8rem;
-
-    h3 {
-      color: #091721;
-    }
-
-    p {
-      color: #647886;
-    }
-  }
-}
-
-.blue-container {
-  background-color: #daf0ff; // scss-lint:disable ColorVariable
-  box-shadow: none;
-  margin-bottom: 12rem;
-  padding-bottom: 6rem;
-  padding-top: 6rem;
-
-  &--presskit {
+  &--presskit,
+  &--pressreleases {
     box-shadow: inherit;
+  }
+
+  &--pressreleases {
+    margin-bottom: 6rem;
   }
 }
 
