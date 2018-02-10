@@ -71,6 +71,18 @@
     }
   }
 
+  &-github {
+    &::before {
+      content: "";
+      font-family: "FontAwesome", sans-serif;
+      font-size: 26px;
+      color: #fff;
+      margin-right: 15px;
+      line-height: 10px;
+      vertical-align: middle;
+    }
+  }
+
   // @at-root p + & {
   //   margin-top: .5rem;
   // }
