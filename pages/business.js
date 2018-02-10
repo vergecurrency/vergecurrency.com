@@ -10,9 +10,6 @@ import i18n from '../i18n';
 import Moment from 'react-moment';
 import 'moment-timezone';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import brands from '@fortawesome/fontawesome-free-brands'
-
 const Business = function (props) {
   const { t } = props;
 
@@ -60,8 +57,8 @@ const Business = function (props) {
 
         <div className="white-container white-container--business">
           <div className="container pb pb-xs-0">
-            <div className="row center-xs latest pb">
-              <div className="col-xs-11 col-sm-10 col-lg-12 start-xs">
+            <div className="row center-xs middle-xs latest pb">
+              <div className="col-xs-11 col-sm-6 start-xs">
                 <h3>Accept Verge Currency</h3>
                 <h2>Powering real world vendors that accept Verge Currency</h2>
 
@@ -75,54 +72,43 @@ const Business = function (props) {
                   <a className="btn btn-secondary">{t("business:accept.buttonSecondary", { defaultValue: 'See all vendors' } )}</a>
                 </Link>
               </div>
+              <div className="col-xs-11 col-sm-6 end-xs">
+                <img src="/static/img/vendors/vendor-story.png" />
+              </div>
             </div>
             <div className="row center-xs vendors pt pb">
-              <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
+              <div className="col-xs-11 col-sm-11 center-xs">
                 <h3>Latest vendors</h3>
 
-                <div className="row around-xs pt-small pb pb-xs-0">
-                  <div className="col-xs-4 col-sm-3 col-md-2 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 vendors--logo">
-                        <img src="/static/img/coverage/Business_Insider.svg" />
-                      </div>
+                <div className="row center-xs between-xs pt-small pb pb-xs-0">
+                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                    <div className="vendors--logo">
+                      <img src="/static/img/vendors/latest/Nexwave.svg" />
                     </div>
                   </div>
-                  <div className="col-xs-4 col-sm-3 col-md-2 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 vendors--logo">
-                        <img src="/static/img/coverage/Forbes.svg" />
-                      </div>
+                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                    <div className="vendors--logo">
+                      <img src="/static/img/vendors/latest/HODL.svg" />
                     </div>
                   </div>
-                  <div className="col-xs-4 col-sm-3 col-md-2 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 vendors--logo">
-                        <img src="/static/img/coverage/Huffington_Post.svg" />
-                      </div>
+                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                    <div className="vendors--logo">
+                      <img src="/static/img/vendors/latest/CryptoVfx.svg" />
                     </div>
                   </div>
-                </div>
-                <div className="row around-xs pt-small pt-xs-0">
-                  <div className="col-xs-4 col-sm-3 col-md-2 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 vendors--logo">
-                        <img src="/static/img/coverage/Mashable.svg" />
-                      </div>
+                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                    <div className="vendors--logo">
+                      <img src="/static/img/vendors/latest/Snel.svg" />
                     </div>
                   </div>
-                  <div className="col-xs-4 col-sm-3 col-md-2 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 vendors--logo">
-                        <img src="/static/img/coverage/TechChrunch.svg" />
-                      </div>
+                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                    <div className="vendors--logo">
+                      <img src="/static/img/vendors/latest/PMC.svg" />
                     </div>
                   </div>
-                  <div className="col-xs-4 col-sm-3 col-md-2 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 vendors--logo">
-                        <img src="/static/img/coverage/VVY_Tech_Savvy.png" />
-                      </div>
+                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                    <div className="vendors--logo">
+                      <img src="/static/img/vendors/latest/last.svg" />
                     </div>
                   </div>
                 </div>
@@ -133,8 +119,8 @@ const Business = function (props) {
                 <div className="container blue-container blue-container--business">
                   <div className="row center-xs">
                     <div className="col-xs-8">
-                      <h2>Verge Currency is a 100% open source project and the global Verge Community represents the man power driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place.</h2>
-                      <p>Verge is a secure and anonymous cryptocurrency, built with a focus on privacy.</p>
+                      <h2>Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so. The choice is yours, the choice going mainstream.</h2>
+                      <p>Start accepting Verge on your store or webshop today.</p>
                     </div>
                   </div>
                 </div>
@@ -142,84 +128,50 @@ const Business = function (props) {
             </div>
 
             <div className="container">
-              <div className="row center-xs previous">
+              <div className="row center-xs benefits">
                 <div className="col-xs-11 center-xs">
-                  <div className="pb-small">
-                    <Link href="/blog">
-                      <a className="to-blog">Go to the blog</a>
-                    </Link>
-                  </div>
-
                   <div className="row center-xs previous">
-                    <div className="col-xs-11 col-sm-7 center-xs">
-                      <h3>
-                        Check out our blog and to find out what is happening with Verge.
-                      </h3>
+                    <div className="col-xs-12 col-sm-8 col-md-6 center-xs start-sm">
+                      <h3>{t('business:benefits.header', { defaultValue: 'The benefits of accepting Verge as a payment method are many. Some of them:' })}</h3>
+                    </div>
+                    <div className="col-xs-12 col-sm-4 col-md-6 center-xs end-sm">
+                      <Link href="/">
+                        <a className="btn btn-primary">{t("business:benefits.buttonPrimary", { defaultValue: 'Accept Verge today' } )}</a>
+                      </Link>
                     </div>
                   </div>
                   <div className="row around-xs pt">
-                    <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                      <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
-                      <h4>Update on Wraith. The release of Verge Core..</h4>
-                      <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
+                      <h4>{t('business:benefits.anonimity.title', { defaultValue: 'Anonymity' })}</h4>
+                      <p>{t('business:benefits.anonimity.text', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                      <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
-                      <h4>Meet the Verge Team and Our Future Vision</h4>
-                      <p>We have been extremely busy over the last few months and it’s finally time to introduce the team and share our future vision.</p>
+                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
+                      <h4>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h4>
+                      <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-4 start-xs">
-                      <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
-                      <h4>Verge Moves Towards Decentralized Future</h4>
-                      <p>Recently we have witnessed an increasing number of problems related to centralised crypto-exchanges.</p>
+                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
+                      <h4>{t('business:benefits.community.title', { defaultValue: 'Community driven' })}</h4>
+                      <p>{t('business:benefits.community.text', { defaultValue: 'Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.' })}</p>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row center-xs social">
-                <div className="col-xs-11 center-xs">
-                  <div className="row around-xs pt">
-                    <div className="col-xs-12 col-sm-5 start-xs">
-                      <h4>Get social with Verge. Be a part of the Verge community.</h4>
+                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
+                      <h4>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h4>
+                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-7 col-md-5 col-md-offset-2 col--full-height">
-                      <div className="row start-xs center-sm between-md pb-xs">
-                        <div className="pt-xs social__icon">
-                          <Link href="https://www.facebook.com/VERGEcurrency">
-                            <a target="_blank" className="social__link social__link--facebook"><FontAwesomeIcon icon={ ["fab","facebook"] } size="2x" /></a>
-                          </Link>
-                        </div>
-                        <div className="pt-xs social__icon">
-                          <Link href="https://github.com/vergecurrency?tab=repositories">
-                            <a target="_blank" className="social__link social__link--github"><FontAwesomeIcon icon={ ["fab","github"] } size="2x" /></a>
-                          </Link>
-                        </div>
-                        <div className="pt-xs social__icon">
-                          <Link href="https://t.me/VERGExvg">
-                            <a target="_blank" className="social__link social__link--telegram"><FontAwesomeIcon icon={ ["fab","telegram"] } size="2x" /></a>
-                          </Link>
-                        </div>
-                        <div className="pt-xs social__icon">
-                          <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
-                            <a target="_blank" className="social__link social__link--youtube"><FontAwesomeIcon icon={ ["fab","youtube"] } size="2x" /></a>
-                          </Link>
-                        </div>
-                        <div className="pt-xs social__icon">
-                          <Link href="https://www.reddit.com/r/vergecurrency/">
-                            <a target="_blank" className="social__link social__link--reddit"><FontAwesomeIcon icon={ ["fab","reddit"] } size="2x" /></a>
-                          </Link>
-                        </div>
-                        <div className="pt-xs social__icon">
-                          <Link href="https://www.twitter.com/vergecurrency">
-                            <a target="_blank" className="social__link social__link--twitter"><FontAwesomeIcon icon={ ["fab","twitter"] } size="2x" /></a>
-                          </Link>
-                        </div>
-                        <div className="pt-xs social__icon">
-                          <Link href="https://discord.gg/vergecurrency">
-                            <a target="_blank" className="social__link social__link--discord"><FontAwesomeIcon icon={ ["fab","discord"] } size="2x" /></a>
-                          </Link>
-                        </div>
-                      </div>
+                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
+                      <h4>{t('business:benefits.anonimity.title', { defaultValue: 'Anonymity' })}</h4>
+                      <p>{t('business:benefits.anonimity.text', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.' })}</p>
+                    </div>
+                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
+                      <h4>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h4>
+                      <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.' })}</p>
+                    </div>
+                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
+                      <h4>{t('business:benefits.community.title', { defaultValue: 'Community driven' })}</h4>
+                      <p>{t('business:benefits.community.text', { defaultValue: 'Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.' })}</p>
+                    </div>
+                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs">
+                      <h4>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h4>
+                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so.' })}</p>
                     </div>
                   </div>
                 </div>
