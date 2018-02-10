@@ -9,6 +9,7 @@ module.exports = {
       '/presskit': { page: '/presskit' },
       '/pressrelease': { page: '/pressrelease' },
       '/pressreleases': { page: '/pressreleases' },
+      '/cointicker': { page: '/cointicker' }
     }
   },
 

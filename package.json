@@ -6,9 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "export": "next export"
+    "build": "next build && next export",
+    "start": "NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +26,8 @@
     "express": "^4.16.2",
     "glob": "^7.1.2",
     "glob-all": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1",
     "i18next": "^10.3.0",
     "i18next-browser-languagedetector": "^2.1.0",
     "i18next-express-middleware": "^1.0.10",

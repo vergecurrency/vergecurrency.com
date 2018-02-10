@@ -40,7 +40,7 @@ class Layout extends React.Component {
             <title>VergeCurrency.com</title>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
             <link rel='shortcut icon' type='image/x-icon' href='../static/img/favicon.ico' />
-            <link rel="stylesheet" href="static/css/bootstrap-reboot.css" type="text/css" />
+            <link rel="stylesheet" href="/static/css/bootstrap-reboot.css" type="text/css" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
             <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
@@ -54,7 +54,7 @@ class Layout extends React.Component {
             <title>VergeCurrency.com</title>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
             <link rel='shortcut icon' type='image/x-icon' href='../static/img/favicon.ico' />
-            <link rel="stylesheet" href="static/css/bootstrap-reboot.css" type="text/css" />
+            <link rel="stylesheet" href="/static/css/bootstrap-reboot.css" type="text/css" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
             <style dangerouslySetInnerHTML={{ __html: stylesheet }} />

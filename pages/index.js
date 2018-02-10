@@ -13,7 +13,7 @@ import i18n from '../i18n';
 const Home = function (props) {
   const { t } = props;
 
-  let mentions = []
+  let mentions = [];
   for (let i = 1; i < 6; i++){
     mentions.push(
       <div className="col-md col-sm-4 col-xs-6" key={i}>
