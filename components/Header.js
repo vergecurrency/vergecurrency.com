@@ -17,7 +17,7 @@ const Header = ({ t }) => (
         @import url(/static/css/ngprogress.css);
       </style>
     </Head>
-    <div className="container">
+    <div className="container container--with-gutter">
       <div className="row around-xs middle-xs">
         <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
           <Link href="/">

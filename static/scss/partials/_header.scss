@@ -1,12 +1,13 @@
 // scss-lint:disable IdSelector
 #header {
+  left: 0;
   position: fixed;
+  right: 0;
   transition: all .2s ease-in-out;
-  width: 100%;
   z-index: 9;
 
   .row {
-    height: 88px;
+    height: 5.5rem;
   }
 
   img {
@@ -17,9 +18,9 @@
     align-self: center;
     cursor: pointer;
     display: inline-block;
-    height: 40px;
+    height: 3rem;
     vertical-align: middle;
-    width: 40px;
+    width: 3rem;
   }
 
   .links {
@@ -27,87 +28,58 @@
     vertical-align: middle;
   }
 
-  a {
+  nav a {
     color: $white;
-    font-size: 15px;
-    line-height: 88px;
-    margin: 6px;
-    padding: 6px;
+    font-size: .9375rem;
+    line-height: 5.5rem;
+    margin: .375rem;
+    padding: .375rem;
     text-decoration: none;
 
     &:last-child {
       font-weight: bold;
-      margin-right: 12px;
+      margin-right: .75rem;
     }
 
-    @media (min-width: 64em) {
-      margin: 9px;
-      padding: 9px;
+    @media (min-width: $min-width-md) {
+      margin: .5625rem;
+      padding: .5625rem;
 
       &:last-child {
         margin-right: 18px;
       }
     }
   }
-  svg { width: 120px; }
-  svg path { fill: #fff; }
+
+  svg {
+    width: 7.5rem;
+
+    path {
+      fill: $white;
+    }
+  }
 
   .menu {
     &--hamburger {
-      vertical-align: middle;
-      background: url(/static/img/menu.svg);
+      background: url('/static/img/menu.svg');
       background-size: cover;
-      width: 28px;
-      height: 28px;
       display: inline-block;
+      height: 1.75rem;
+      vertical-align: middle;
+      width: 1.75rem;
     }
   }
 
-  @at-root .scroll &, &.solid {
+  @at-root .scroll &,
+           &.solid {
     // scss-lint:disable ColorVariable
+
     background: $white;
     box-shadow: 0 0 15px rgba(0, 0, 0, .06);
 
-    a {
-      color: #111;
-    }
-
-    svg path { fill: #111; }
-  }
-}
-
-.subheader {
-  // scss-lint:disable ColorVariable
-  background: linear-gradient(to bottom, rgba(11, 119, 146, 1) 0%,
-                                         rgba(14, 148, 182, 1) 50%,
-                                         rgba(15, 157, 193, 1) 100%);
-  border-bottom: 1px solid transparent;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b7792', endColorstr='#0f9dc1', GradientType=0);
-  position: fixed;
-  top: 88px;
-  transition: all .2s ease-in-out;
-  width: 100%;
-  z-index: 9;
-
-  .row {
-    height: 44px;
-  }
-
-  a {
-    color: $white;
-    font-size: 15px;
-    line-height: 44px;
-    margin: 6px;
-    padding: 6px;
-    text-decoration: none;
-
-    @media (min-width: 64em) {
-      margin: 9px;
-      padding: 9px;
-
-      &:last-child {
-        margin-right: 18px;
-      }
+    nav a,
+    svg path {
+      fill: #111;
     }
   }
 }

@@ -70,7 +70,7 @@ const Home = function (props) {
           <div className="white-container white-container--home">
             <div className="row center-xs mentions pt">
               <div className="col-xs-11 col-sm-11 center-xs">
-                <span className="spaced">{t("home:mentioned.mentioned_in")}</span>
+                <h6>{t("home:mentioned.mentioned_in")}</h6>
 
                 <div className="row center-xs middle-xs">
                   {mentions}
@@ -80,7 +80,7 @@ const Home = function (props) {
             <div className="intro">
               <div className="row center-xs middle-xs pt pb-lg">
                 <div className="col-sm-6">
-                  <span className="spaced">{t("home:intro.span")}</span>
+                  <h6>{t("home:intro.span")}</h6>
                   <h2>{t("home:intro.h2")}</h2>
                   <p>{t("home:intro.p")}</p>
                 </div>
@@ -90,22 +90,22 @@ const Home = function (props) {
               <div className="row pt-lg pb-lg">
                 <div className="col-md-3 col-md-offset-1">
                   <div className="benefits--item">
-                    <span className="spaced">{t("home:benefits.benefit_1.title")}</span>
+                    <h6>{t("home:benefits.benefit_1.title")}</h6>
                     <p>{t("home:benefits.benefit_1.text")}</p>
                   </div>
                   <div className="benefits--item pt-lg">
-                    <span className="spaced">{t("home:benefits.benefit_1.title")}</span>
+                    <h6>{t("home:benefits.benefit_1.title")}</h6>
                     <p>{t("home:benefits.benefit_1.text")}</p>
                   </div>
                   <a href={t("home:benefits.link:url")} className="benefits--url spaced">{t("home:benefits.link.title")}</a>
                 </div>
                 <div className="col-md-3 col-md-offset-1">
                   <div className="benefits--item">
-                    <span className="spaced">{t("home:benefits.benefit_3.title")}</span>
+                    <h6>{t("home:benefits.benefit_3.title")}</h6>
                     <p>{t("home:benefits.benefit_3.text")}</p>
                   </div>
                   <div className="benefits--item pt-lg">
-                    <span className="spaced">{t("home:benefits.benefit_4.title")}</span>
+                    <h6>{t("home:benefits.benefit_4.title")}</h6>
                     <p>{t("home:benefits.benefit_4.text")}</p>
                   </div>
                 </div>
@@ -200,7 +200,7 @@ const Home = function (props) {
             <div className="power-to-the-people white-container white-container--home white-container--home__empower">
               <div className="row">
                 <div className="col-md-8 col-md-offset-2">
-                  <span className="spaced">Empowering people</span>
+                  <h6>Empowering people</h6>
                   <h3>Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.</h3>
                   <p>With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.</p>
                   <a href="#" className="btn btn-secondary">Get Verge</a>
@@ -227,7 +227,7 @@ const Home = function (props) {
               <div className="row pt-xlg pb-xlg">
                 <div className="col-md-5 col-md-offset-1">
                   <div className="vendors--story">
-                    <span className="spaced">Accept Verge Currency</span>
+                    <h6>Accept Verge Currency</h6>
                     <h2>Powering real world vendors that accept Verge Currency</h2>
                     <p>All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.<br /><br />
                     Get started today and accept Verge in your store.</p>

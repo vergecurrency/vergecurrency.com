@@ -13,6 +13,11 @@ $padding-vertical-mobile-xlg: 6rem;
   width: device-width;
 }
 
+.container--with-gutter {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .col--full-height {
   display: flex;
   flex-direction: column;

@@ -61,6 +61,14 @@ h3 {
   font-weight: 600;
 }
 
+h6 {
+  color: #9b9b9b; // scss-lint:disable ColorVariable
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .1875rem;
+  text-transform: uppercase;
+}
+
 p {
   color: $font-color-paragraph;
   font-size: 1rem;

@@ -1,8 +1,25 @@
+// scss-lint:disable ColorVariable
+
+%wallet-icon--after {
+  background: url('/static/img/wallets/tor.svg');
+  background-size: cover;
+  border-radius: 50%;
+  bottom: -10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  content: '';
+  display: block;
+  height: 28px;
+  position: absolute;
+  right: -5px;
+  width: 28px;
+}
+
 .home {
   .intro {
-    .spaced {
+    h6 {
       color: #647886;
     }
+
     p {
       font-size: 18px;
     }
@@ -10,40 +27,48 @@
 
   .benefits {
     background: #daf0ff;
-    .spaced {
+
+    h6 {
       color: #1a3d55;
     }
+
     &--item {
       p {
+        color: #1a3d55;
         font-size: 13px;
         line-height: 23px;
-        color: #1a3d55;
       }
     }
+
     &--url {
       display: block;
       margin-top: 40px;
+
       &::after {
-        content: "";
+        content: '';
         font-family: "FontAwesome", sans-serif;
         margin-left: 10px;
       }
     }
+
     &--imgs {
       position: relative;
+
       img {
+        box-shadow: 0 0 90px rgba(0, 0, 0, .18);
         position: absolute;
         right: .5rem;
-        box-shadow: 0 0 90px rgba(0,0,0,0.18);
+
         &:first-of-type {
-          border-radius: 10px;
-          border-top-right-radius: 0;
+          border-radius: 10px; // scss-lint:disable PropertySortOrder
           border-bottom-right-radius: 0;
+          border-top-right-radius: 0;
         }
+
         &:last-of-type {
+          border-radius: 28px;
           right: 198px;
           top: 48px;
-          border-radius: 28px;
         }
       }
     }
@@ -52,7 +77,7 @@
   .wallets {
     &--url {
       &::after {
-        content: "";
+        content: '';
         font-family: "FontAwesome", sans-serif;
         margin-left: 10px;
       }
@@ -61,34 +86,22 @@
     &--item {
       margin: 15px 0;
 
-      a {display: flex;}
+      a {
+        display: flex;
+      }
 
       &__disabled {
         -webkit-filter: saturate(0);
         filter: saturate(0);
-        opacity: 0.3;
+        opacity: .3;
       }
     }
 
-    %IconAfter {
-      content: "";
-      background: url('/static/img/wallets/tor.svg');
-      background-size: cover;
-      width: 28px;
-      height: 28px;
-      display: block;
-      position: absolute;
-      right: -5px;
-      bottom: -10px;
-      border-radius: 50%;
-      box-shadow: 0 0 50px rgba(0,0,0,0.2);
-    }
-
     &--icon {
-      width: 46px;
       height: 46px;
-      position: relative;
       margin-right: 20px;
+      position: relative;
+      width: 46px;
 
       &__android {
         background: url('/static/img/wallets/android.svg');
@@ -96,7 +109,7 @@
 
         &--tor {
           &::after {
-            @extend %IconAfter;
+            @extend %wallet-icon--after;
           }
         }
       }
@@ -107,7 +120,7 @@
 
         &--tor {
           &::after {
-            @extend %IconAfter;
+            @extend %wallet-icon--after;
           }
         }
       }
@@ -118,7 +131,7 @@
 
         &--tor {
           &::after {
-            @extend %IconAfter;
+            @extend %wallet-icon--after;
           }
         }
       }
@@ -129,24 +142,37 @@
 
         &--tor {
           &::after {
-            @extend %IconAfter;
+            @extend %wallet-icon--after;
           }
         }
       }
     }
 
     &--text {
-      h4 {margin-bottom: 0; line-height: 18px; color: #000;}
-      span {font-size: 13px; color: #797979;}
+      h4 {
+        color: #000;
+        line-height: 18px;
+        margin-bottom: 0;
+      }
+
+      span {
+        color: #797979;
+        font-size: 13px;
+      }
     }
   }
 
   .power-to-the-people {
     margin-top: 0;
-    .spaced {color: #fff;}
+
+    h6 {
+      color: #fff;
+    }
+
     h3 {
       font-size: 1.8rem;
     }
+
     p {
       font-size: 1rem;
     }
@@ -155,49 +181,64 @@
   .exchanges {
     &--item {
       border: 2px solid #e7e7e7;
-      box-shadow: 0 0 5px rgba(0,0,0,0.06);
+      box-shadow: 0 0 5px rgba(0, 0, 0, .06);
       display: flex;
+      margin-bottom: 16px;
       padding: 15px;
       transition: all .2s ease-in-out;
-      margin-bottom: 16px;
+
       &:hover {
         border: 2px solid #04a5f0;
+        box-shadow: 0 0 19px rgba(0, 0, 0, .18);
         cursor: pointer;
-        box-shadow: 0 0 19px rgba(0,0,0,0.18);
       }
-      &__logo {margin-right: 15px;}
+
+      &__logo {
+        margin-right: 15px;
+      }
+
       &__name {
-        display:flex;
+        display: flex;
         flex-direction: column;
-        span:last-of-type {color: #b3b3b3; font-size:13px;}
+
+        span:last-of-type {
+          color: #b3b3b3;
+          font-size: 13px;
+        }
       }
     }
   }
 
   .vendors {
     background: #daf0ff;
-    .spaced {
+
+    h6 {
       color: #769bb4;
     }
+
     &--story {
       p {
+        color: #4e555a;
         font-size: 16px;
         line-height: 26px;
-        color: #4e555a;
       }
     }
+
     &--list {
       display: block;
+
       a {
         &::after {
-          content: "";
+          content: '';
           font-family: "FontAwesome", sans-serif;
           margin-left: 10px;
         }
       }
     }
+
     &--imgs {
       position: relative;
+
       img {
         position: absolute;
         right: 7px;
@@ -208,69 +249,74 @@
 
   .roadmap {
     background: #fbf4f0;
+
     &--timeline {
-      list-style:none;
+      list-style: none;
       padding-left: 0;
+
       li {
-        font-size:14px;
-        position:relative;
+        font-size: 14px;
         margin-top: 50px;
+        position: relative;
 
         &::after {
-          content: "";
-          position: absolute;
-          height: 40px;
-          width: 2px;
           background: #e8d8cf;
-          left: 2px;
           bottom: -45px;
+          content: '';
+          height: 40px;
+          left: 2px;
+          position: absolute;
+          width: 2px;
         }
 
-        h3 {margin-bottom:0;}
+        h3 {
+          margin-bottom: 0;
+        }
+
         span {
           color: #00aeff;
         }
 
         &.planned {
           &::before {
-            content: "";
-            width:30px;
-            height:30px;
-            background:#fff;
+            background: #fff;
             border-radius: 50%;
-            position: absolute;
+            content: '';
+            height: 30px;
             left: -40px;
-            top: 0.5rem;
+            position: absolute;
+            top: .5rem;
+            width: 30px;
           }
         }
 
         &.done {
           &::before {
-            content: "";
-            width: 30px;
-            height: 30px;
             background: #04a5f0;
             border-radius: 50%;
-            position: absolute;
+            content: '';
+            height: 30px;
             left: -40px;
-            top: 0.5rem;
+            position: absolute;
+            top: .5rem;
+            width: 30px;
           }
         }
 
         &:last-of-type {
           &::after {
-            content:"";
             background: transparent;
+            content: '';
           }
         }
       }
     }
 
-    .spaced {
+    h6 {
       color: #091721;
 
       &::after {
-        content: "";
+        content: '';
         font-family: "FontAwesome", sans-serif;
         margin-left: 10px;
       }
@@ -278,11 +324,11 @@
   }
 
   .blog {
-    .spaced {
+    h6 {
       color: #091721;
 
       &::after {
-        content: "";
+        content: '';
         font-family: "FontAwesome", sans-serif;
         margin-left: 10px;
       }
