@@ -16,7 +16,7 @@ const Home = function (props) {
   let mentions = [];
   for (let i = 1; i < 6; i++){
     mentions.push(
-      <div className="col-md col-sm-4 col-xs-6" key={i}>
+      <div className="col-xs-6 col-md col-sm-4 col-xs-6" key={i}>
         <a href={t("home:mentioned:mention_" + i + ":url")}>
           <img src={t("home:mentioned:mention_" + i + ":img")} width={t("home:mentioned:mention_" + i + ":width")} />
         </a>
@@ -49,15 +49,15 @@ const Home = function (props) {
           </div>
         </div>
         <div className="container">
-          <div className="white-container white-container--home">
+          <div className="blue-container blue-container--home">
             <div className="row center-xs">
               <div className="col-xs-9 col-sm-10">
                 <div className="row between-xs">
-                  <div className="col-xs-12 col-sm-4 start-xs reason">
+                  <div className="col-xs-12 col-sm-4 start-xs reason pb-xs">
                     <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:first.header") }}></h3>
                     <p>{t("home:USPs:first.text")}</p>
                   </div>
-                  <div className="col-xs-12 col-sm-4 start-xs reason">
+                  <div className="col-xs-12 col-sm-4 start-xs reason pb-xs">
                     <h3 dangerouslySetInnerHTML={{ __html: t("home:USPs:second.header") }}></h3>
                     <p>{t("home:USPs:second.text")}</p>
                   </div>
@@ -69,11 +69,13 @@ const Home = function (props) {
               </div>
             </div>
           </div>
-          <div className="mentions">
+          <div className="white-container white-container--home mentions">
             <div className="row center-xs middle-xs pt pb">
-              <div className="col-md col-sm-4 col-xs-6">
+              <div className="col-xs-12 col-md col-sm-4 col-xs-6">
                 <span className="spaced">{t("home:mentioned:mentioned_in")}</span>
               </div>
+            </div>
+            <div className="row">
               {mentions}
             </div>
           </div>

@@ -5,6 +5,11 @@
 
   h1 {
     color: inherit;
+    margin-bottom: 1rem;
+
+    + p {
+      margin-bottom: 1rem;
+    }
   }
 
   .blackpaper {
@@ -29,7 +34,11 @@
   }
 
   &-txt {
-    margin-top: 180px;
+    margin-top: 17.5vh;
+
+    @media (min-width: $min-width-sm) {
+      margin-top: 180px;
+    }
   }
 
   .btn {
