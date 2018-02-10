@@ -56,6 +56,88 @@
       margin-left: 10px;
     }
   }
+
+  &--item {
+    margin: 15px 0;
+
+    a {display: flex;}
+
+    &__disabled {
+      -webkit-filter: saturate(0);
+      filter: saturate(0);
+      opacity: 0.3;
+    }
+  }
+
+  %IconAfter {
+    content: "";
+    background: url('/static/img/wallets/tor.svg');
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    right: -5px;
+    bottom: -10px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+  }
+
+  &--icon {
+    width: 46px;
+    height: 46px;
+    position: relative;
+    margin-right: 20px;
+
+    &__android {
+      background: url('/static/img/wallets/android.svg');
+      background-size: cover;
+
+      &--tor {
+        &::after {
+          @extend %IconAfter;
+        }
+      }
+    }
+
+    &__apple {
+      background: url('/static/img/wallets/apple.svg');
+      background-size: cover;
+
+      &--tor {
+        &::after {
+          @extend %IconAfter;
+        }
+      }
+    }
+
+    &__windows {
+      background: url('/static/img/wallets/windows.svg');
+      background-size: cover;
+
+      &--tor {
+        &::after {
+          @extend %IconAfter;
+        }
+      }
+    }
+
+    &__linux {
+      background: url('/static/img/wallets/linux.svg');
+      background-size: cover;
+
+      &--tor {
+        &::after {
+          @extend %IconAfter;
+        }
+      }
+    }
+  }
+
+  &--text {
+    h4 {margin-bottom: 0; line-height: 18px; color: #000;}
+    span {font-size: 13px; color: #797979;}
+  }
 }
 
 .power-to-the-people {
