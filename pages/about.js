@@ -1,6 +1,6 @@
-import Link from 'next/link';
-
 import Layout from '../components/Layout';
+import Contributors from '../components/Contributors';
+import Link from 'next/link';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
@@ -18,9 +18,6 @@ const About = function (props) {
                 <div className="ribbon-txt">
                   <h1>Meet the Verge Team</h1>
                   <p>The grassroots culture is what makes Verge<br />unique and dynamic.</p>
-                  <Link href="/">
-                    <a className="btn btn-primary">{t("about:ribbon.buttonPrimary")}</a>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -81,8 +78,11 @@ const About = function (props) {
                   <h2>Want to contribute to Verge Currency? Join our community on Github</h2>
                   <p>Verge is open-source software that is constantly improving due to its many contributors. If you would like to contribute as well, take a look at our Github repositories to see where you could make a difference!</p>
                 </div>
-                <div className="col-sm-4">
-                  <a href="#" className="btn btn-primary">Go to verge repo</a>
+                <div className="col-sm-4 end-xs">
+                  <a href="#" className="btn btn-tertiary btn-github">Go to verge repo</a>
+                </div>
+                <div className="col-xs-12">
+                  <Contributors />
                 </div>
               </div>
             </div>
