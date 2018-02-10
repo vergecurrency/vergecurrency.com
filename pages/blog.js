@@ -1,21 +1,23 @@
-import fetch from 'isomorphic-unfetch';
-
-import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
 
+import fetch from 'isomorphic-unfetch';
+
+import { translate } from 'react-i18next';
+import i18n from '../i18n';
+
 const Blog = ({ items }) => (
   <Layout>
     <h1>VergeCurrency Blog</h1>
-      <ul>{
-        items.map((item, index) => (
-          <li key={`${index}`}>
-            <Link as={`${item.link}`} href={`${item.title}`}>
-              <a>{item.title}</a>
-            </Link>
-          </li>
-        ))
+    <ul>{
+      items.map((item, index) => (
+        <li key={`${index}`}>
+          <Link as={`${item.link}`} href={`${item.title}`}>
+            <a>{item.title}</a>
+          </Link>
+        </li>
+      ))
     }</ul>
   </Layout>
 )

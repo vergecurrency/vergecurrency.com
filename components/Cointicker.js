@@ -1,7 +1,6 @@
-import fetch from 'isomorphic-unfetch';
+import Link from 'next/link';
 
-import Head from 'next/head';
-import Link from 'next/link'; 
+import fetch from 'isomorphic-unfetch';
 
 const Cointicker = ({ usd, btc, eur }) => (
   <div>

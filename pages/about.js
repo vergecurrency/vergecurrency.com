@@ -2,6 +2,8 @@ import Layout from '../components/Layout';
 import Contributors from '../components/Contributors';
 import Link from 'next/link';
 
+import Layout from '../components/Layout';
+
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 

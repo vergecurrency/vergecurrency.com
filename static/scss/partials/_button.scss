@@ -5,25 +5,30 @@
   border: 3px solid;
   border-radius: 0;
   cursor: pointer;
-  display: inline-block;
+  display: block;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.8;
   margin-bottom: 0;
   padding: 10px 20px;
   text-align: center;
-  -ms-touch-action: manipulation;
   touch-action: manipulation;
   transition: all .2s ease-in;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
 
+  @media (min-width: $min-width-sm) {
+    display: inline-block;
+  }
+
   + .btn {
-    margin-left: 3rem;
+    margin-top: 1rem;
+
+    @media (min-width: $min-width-sm) {
+      margin-left: 3rem;
+      margin-top: 0;
+    }
   }
 
   $_primary-color: #1db6dc;

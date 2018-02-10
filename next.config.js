@@ -6,6 +6,7 @@ module.exports = {
     return {
       '/': { page: '/' },
       '/about': { page: '/about' },
+      '/business': { page: '/business' },
       '/presskit': { page: '/presskit' },
       '/pressrelease': { page: '/pressrelease' },
       '/pressreleases': { page: '/pressreleases' },

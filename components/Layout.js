@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+
 import Head from 'next/head';
 import Router from 'next/router';
-
-import stylesheet from '../static/scss/global.scss';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -10,6 +9,8 @@ import Preloader from './Preloader';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
+
+import stylesheet from '../static/scss/global.scss';
 
 const timer = (predicate, fn) => timeout => {
   if (predicate) setTimeout(fn, timeout);

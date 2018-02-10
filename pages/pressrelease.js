@@ -1,18 +1,16 @@
-import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
-import { translate } from 'react-i18next';
-import i18n from '../i18n';
-
 import Moment from 'react-moment';
 import 'moment-timezone';
 
 import markdown from 'markdown-in-js';
-
 import one from '../static/pressreleases/one';
+
+import { translate } from 'react-i18next';
+import i18n from '../i18n';
 
 const CurrentUrl = 'https://vergecurrency.com/blog/wraithprotocol/'; // TODO: Determine correct url -- Component Mount
 const TwitterStatus = `${one.summary} ${CurrentUrl}`; // TODO: Implement truncate on post title
