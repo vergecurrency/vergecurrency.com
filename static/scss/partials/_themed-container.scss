@@ -12,14 +12,14 @@
   background-size: cover;
   margin-top: 0;
   padding-bottom: 4rem;
-  padding-top: 12rem
+  padding-top: 12rem;
   position: relative;
 
   &--press {
     background: $white;
     box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67);
     color: #647886;
-    margin-top: rem(-128px);
+    margin-top: 8rem;
     padding-top: 4rem;
     top: 8rem;
     z-index: 2;
@@ -47,7 +47,7 @@
 
   background-color: #daf0ff;
   box-shadow: none;
-  margin-bottom: 12rem
+  margin-bottom: 12rem;
   padding-bottom: 6rem;
   padding-top: 6rem;
 
@@ -55,7 +55,7 @@
     background-color: #07121b;
     box-shadow: inherit;
     margin-bottom: 0;
-    margin-top: rem(-128px);
+    margin-top: 8rem;
     padding-bottom: 4rem;
     padding-top: 4rem;
 
@@ -92,8 +92,8 @@
   box-shadow: none;
   margin-bottom: 2rem;
   margin-top: 1rem;
-  padding-bottom: 12rem
-  padding-top: 12rem
+  padding-bottom: 12rem;
+  padding-top: 12rem;
 }
 
 .image-container {
@@ -101,6 +101,6 @@
   box-shadow: none;
   margin-bottom: 2rem;
   margin-top: 1rem;
-  padding-bottom: 12rem
-  padding-top: 12rem
+  padding-bottom: 12rem;
+  padding-top: 12rem;
 }

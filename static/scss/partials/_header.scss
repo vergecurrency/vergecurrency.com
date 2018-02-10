@@ -69,7 +69,10 @@
     background: $white;
     box-shadow: 0 0 rem(15px) rgba(0, 0, 0, .06);
 
-    nav a,
+    nav a {
+      color: #111;
+    }
+    
     svg path {
       fill: #111;
     }

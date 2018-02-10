@@ -26,7 +26,7 @@
       @at-root &--#{$_color} {
         .color-guide {
           background-color: $_hex;
-          box-shadow: rem(-8px) rem(-4px) 1rem; 1px rgba(164, 164, 164, .99); // scss-lint:disable ColorVariable
+          box-shadow: -.5rem -.25rem 1rem 1px rgba(164, 164, 164, .99); // scss-lint:disable ColorVariable
           height: 9rem;
           margin-bottom: rem(13px);
 
@@ -42,7 +42,7 @@
     }
 
     > .row {
-      box-shadow: 0 0 1rem; 1px rgba(128, 128, 128, .24); // scss-lint:disable ColorVariable
+      box-shadow: 0 0 1rem 1px rgba(128, 128, 128, .24); // scss-lint:disable ColorVariable
       margin: 0;
       overflow: hidden;
     }
