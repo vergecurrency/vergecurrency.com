@@ -6,19 +6,17 @@ import i18n from '../i18n';
 
 const About = function (props) {
   const { t } = props;
-  // const { t, initialI18nStore } = props;
 
   return (
     <Layout>
       <div className="about">
         <div className="ribbon ribbon--about">
-
           <div className="container">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
-                  <h1 dangerouslySetInnerHTML={{ __html: t("presskit:ribbon.title") }}></h1>
-                  <p>{t("presskit:ribbon.text")}</p>
+                  <h1>Meet the Verge Team</h1>
+                  <p>The grassroots culture is what makes Verge<br />unique and dynamic.</p>
                   <Link href="/">
                     <a className="btn btn-primary">{t("presskit:ribbon.buttonPrimary")}</a>
                   </Link>

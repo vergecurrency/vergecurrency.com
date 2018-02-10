@@ -52,6 +52,16 @@
   svg { width: 120px; }
   svg path { fill: #fff; }
 
+  .menu {
+    &--hamburger {
+      vertical-align: middle;
+      background: url(/static/img/menu.svg);
+      background-size: cover;
+      width: 28px;
+      height: 28px;
+      display: inline-block;
+    }
+  }
 
   @at-root .scroll &, &.solid {
     // scss-lint:disable ColorVariable

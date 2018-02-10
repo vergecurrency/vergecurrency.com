@@ -35,7 +35,7 @@ const Header = ({ t }) => (
             </a>
           </Link>
         </div>
-        <nav className="col-xs-5 col-sm end-xs">
+        <nav className="col-xs-5 col-sm end-xs menu">
           <div className="links hidden-xs">
             <Link prefetch href="/about">
               <a>{t('header:about', { defaultValue: 'About' } )}</a>
@@ -55,10 +55,8 @@ const Header = ({ t }) => (
             <Link prefetch href="/get-verge">
               <a>{t('header:get_verge', { defaultValue: 'Get Verge' } )}</a>
             </Link>
+            <a href="#" className="menu--hamburger"></a>
           </div>
-          <button>
-            =
-          </button>
         </nav>
       </div>
     </div>

@@ -64,6 +64,12 @@
   
   &--about {
     min-height: 770px;
-    background: #05131e; 
+    background: #042c42;
+    background: -moz-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
+    background: -webkit-radial-gradient(center, ellipse cover, #042c42 0%,#05131e 46%);
+    background: radial-gradient(ellipse at center, #042c42 0%,#05131e 46%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#042c42', endColorstr='#05131e',GradientType=1 );
+
+    p {color: #fff;}
   }
 }
