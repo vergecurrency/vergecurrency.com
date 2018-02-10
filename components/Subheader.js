@@ -11,6 +11,24 @@ Router.onRouteChangeComplete = () => NProgress.done();
 Router.onRouteChangeError = () => NProgress.done();
 
 const Subnavigation_Items = {
+  get: [
+    {
+      link: '/accept-verge',
+      i18:  'submenu.acceptVerge',
+      name: 'Accept Verge'
+    },
+    {
+      link: '/vendors',
+      i18:  'submenu.vendors',
+      name: 'Vendors'
+    },
+    {
+      link: '/guides',
+      i18:  'submenu.guides',
+      name: 'Guides'
+    },
+  ],
+
   press: [
     {
       link: '/our-team',
