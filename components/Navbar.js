@@ -23,6 +23,7 @@ export default class Navbar extends React.Component {
       case "/pressreleases":
       {
         window.addEventListener('scroll', this.scrollEvent, true);
+        this.scrollEvent();
 
         break;
       }

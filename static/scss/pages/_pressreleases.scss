@@ -96,4 +96,126 @@
       font-size: 1.125rem;
     }
   }
+
+  .previous {
+    .to-blog {
+      color: #475056;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .2rem;
+      text-transform: uppercase;
+
+      &::after {
+        content: '\2192';
+        font-size: 1rem;
+        margin-left: .5rem;
+      }
+    }
+
+    .date {
+      color: #091721;
+      font-size: .875rem;
+    }
+
+    h3 {
+      font-size: 1.9rem;
+    }
+
+    h4 {
+      font-size: 1.7rem;
+
+      // scss-lint:disable NestingDepth
+      &::after {
+        background-color: #091721;
+        content: ' ';
+        display: block;
+        height: .2rem;
+        margin-bottom: 1.2rem;
+        margin-left: 1px;
+        margin-top: .3rem;
+        width: 3rem;
+      }
+    }
+
+    p {
+      color: #475056;
+      font-size: .75rem;
+      font-style: italic;
+    }
+  }
+
+  .social {
+    h4 {
+      font-size: 1.5rem;
+    }
+
+    &__icon {
+      padding-left: .25rem;
+      padding-right: .25rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-left: .5rem;
+        padding-right: .5rem;
+      }
+
+      svg {
+        font-size: 9.6vw;
+        max-width: 2.5rem;
+        transition: .2s all;
+        width: 9.6vw;
+
+        @media (min-width: $min-width-sm) {
+          font-size: 2rem;
+          width: 2rem;
+        }
+      }
+
+      &:first-child {
+        padding-left: .5rem;
+      }
+
+      &:last-child {
+        padding-right: .5rem;
+      }
+    }
+
+    &__link {
+      transition: .2s all;
+
+      @each $network, $color in (
+        facebook: #3c5898,
+        github:   #25292e,
+        telegram: #179cdf,
+        youtube:  #ff0002,
+        reddit:   #ff4401,
+        twitter:  #1da1f2,
+        discord:  #18191c
+      ) {
+        &--#{$network} {
+          color: $color;
+
+          @media (min-width: $min-width-sm) {
+            position: relative;
+
+            &::after {
+              background: $color;
+              content: ' ';
+              display: block;
+              height: .2rem;
+              opacity: 0;
+              position: absolute;
+              top: 1.6rem;
+              transition: .2s all ease;
+              width: 0%;
+            }
+
+            &:hover::after {
+              opacity: 1;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
 }
