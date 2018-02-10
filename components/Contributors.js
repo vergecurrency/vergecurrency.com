@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import LazyImage, { Source } from 'react-image-lazyload';
 
 class Contributors extends React.Component {
   constructor(props) {
@@ -24,10 +25,18 @@ class Contributors extends React.Component {
             {
               this.state.contributors.map(x => {
                 return (
-                <div key={x.id} className="col-sm-3">
-                  <a href={x.html_url} target="_blank">
-                    <img src={x.avatar_url} alt={x.login} width="40" style={{marginRight: '10px'}} />
-                    {x.login} ({x.contributions})
+                <div key={x.id} className="col-xs-6 col-sm-2">
+                  <a href={x.html_url} target="_blank" className="contributors--item">
+                    <div className="contributors--item__img">
+                      <LazyImage
+                          src={x.avatar_url}
+                          backgroundColor="#1db5db"
+                      ></LazyImage>
+                    </div>
+                    <div className="contributors--item__author">{x.login}</div>
+                    <div className="contributors--item__profile">
+                      <a href={x.html_url}>View profile</a>
+                    </div>
                   </a>
                 </div>)
               })
@@ -37,7 +46,7 @@ class Contributors extends React.Component {
       )
     }
 
-    return (<span>Loading...</span>);
+    return (<span>Loading contributors...</span>);
   }
 }
 
