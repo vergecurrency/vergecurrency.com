@@ -4,14 +4,14 @@
   background: url('/static/img/wallets/tor.svg');
   background-size: cover;
   border-radius: 50%;
-  bottom: -10px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  bottom: rem(-10px);
+  box-shadow: 0 0 rem(50px) rgba(0, 0, 0, .2);
   content: '';
   display: block;
-  height: 28px;
+  height: rem(28px);
   position: absolute;
-  right: -5px;
-  width: 28px;
+  right: rem(-5px);
+  width: rem(28px);
 }
 
 .home {
@@ -21,7 +21,7 @@
     }
 
     p {
-      font-size: 18px;
+      font-size: rem(18px);
     }
   }
 
@@ -35,19 +35,19 @@
     &--item {
       p {
         color: #1a3d55;
-        font-size: 13px;
-        line-height: 23px;
+        font-size: rem(13px);
+        line-height: rem(23px);
       }
     }
 
     &--url {
       display: block;
-      margin-top: 40px;
+      margin-top: rem(40px);
 
       &::after {
         content: '';
         font-family: "FontAwesome", sans-serif;
-        margin-left: 10px;
+        margin-left: rem(10px);
       }
     }
 
@@ -55,20 +55,20 @@
       position: relative;
 
       img {
-        box-shadow: 0 0 90px rgba(0, 0, 0, .18);
+        box-shadow: 0 0 rem(90px) rgba(0, 0, 0, .18);
         position: absolute;
         right: .5rem;
 
         &:first-of-type {
-          border-radius: 10px; // scss-lint:disable PropertySortOrder
+          border-radius: rem(10px); // scss-lint:disable PropertySortOrder
           border-bottom-right-radius: 0;
           border-top-right-radius: 0;
         }
 
         &:last-of-type {
-          border-radius: 28px;
-          right: 198px;
-          top: 48px;
+          border-radius: rem(28px);
+          right: rem(198px);
+          top: 3rem;
         }
       }
     }
@@ -79,29 +79,28 @@
       &::after {
         content: '';
         font-family: "FontAwesome", sans-serif;
-        margin-left: 10px;
+        margin-left: rem(10px);
       }
     }
 
     &--item {
-      margin: 15px 0;
+      margin: rem(15px) 0;
 
       a {
         display: flex;
       }
 
       &__disabled {
-        -webkit-filter: saturate(0);
         filter: saturate(0);
         opacity: .3;
       }
     }
 
     &--icon {
-      height: 46px;
-      margin-right: 20px;
+      height: rem(46px);
+      margin-right: rem(20px);
       position: relative;
-      width: 46px;
+      width: rem(46px);
 
       &__android {
         background: url('/static/img/wallets/android.svg');
@@ -151,13 +150,13 @@
     &--text {
       h4 {
         color: #000;
-        line-height: 18px;
+        line-height: rem(18px);
         margin-bottom: 0;
       }
 
       span {
         color: #797979;
-        font-size: 13px;
+        font-size: rem(13px);
       }
     }
   }
@@ -166,11 +165,11 @@
     margin-top: 0;
 
     h6 {
-      color: #fff;
+      color: $white;
     }
 
     h3 {
-      font-size: 1.8rem;
+      font-size: rem(29px);
     }
 
     p {
@@ -181,20 +180,20 @@
   .exchanges {
     &--item {
       border: 2px solid #e7e7e7;
-      box-shadow: 0 0 5px rgba(0, 0, 0, .06);
+      box-shadow: 0 0 rem(5px) rgba(0, 0, 0, .06);
       display: flex;
-      margin-bottom: 16px;
-      padding: 15px;
+      margin-bottom: 1rem;
+      padding: rem(15px);
       transition: all .2s ease-in-out;
 
       &:hover {
-        border: 2px solid #04a5f0;
-        box-shadow: 0 0 19px rgba(0, 0, 0, .18);
+        border-color: #04a5f0;
+        box-shadow: 0 0 rem(19px) rgba(0, 0, 0, .18);
         cursor: pointer;
       }
 
       &__logo {
-        margin-right: 15px;
+        margin-right: rem(15px);
       }
 
       &__name {
@@ -203,7 +202,7 @@
 
         span:last-of-type {
           color: #b3b3b3;
-          font-size: 13px;
+          font-size: rem(13px);
         }
       }
     }
@@ -219,8 +218,8 @@
     &--story {
       p {
         color: #4e555a;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 1rem;
+        line-height: rem(26px);
       }
     }
 
@@ -231,7 +230,7 @@
         &::after {
           content: '';
           font-family: "FontAwesome", sans-serif;
-          margin-left: 10px;
+          margin-left: rem(10px);
         }
       }
     }
@@ -241,8 +240,8 @@
 
       img {
         position: absolute;
-        right: 7px;
-        top: -100px;
+        right: rem(7px);
+        top: rem(-100px);
       }
     }
   }
@@ -255,18 +254,19 @@
       padding-left: 0;
 
       li {
-        font-size: 14px;
-        margin-top: 50px;
+        font-size: rem(14px);
+        margin-top: rem(50px);
         position: relative;
 
         &::after {
           background: #e8d8cf;
-          bottom: -45px;
+          bottom: rem(-45px);
           content: '';
-          height: 40px;
-          left: 2px;
+          height: rem(40px);
+          left: rem(2px);
+          min-width: 2px;
           position: absolute;
-          width: 2px;
+          width: rem(2px);
         }
 
         h3 {
@@ -279,14 +279,14 @@
 
         &.planned {
           &::before {
-            background: #fff;
+            background: $white;
             border-radius: 50%;
             content: '';
-            height: 30px;
-            left: -40px;
+            height: rem(30px);
+            left: rem(-40px);
             position: absolute;
             top: .5rem;
-            width: 30px;
+            width: rem(30px);
           }
         }
 
@@ -295,11 +295,11 @@
             background: #04a5f0;
             border-radius: 50%;
             content: '';
-            height: 30px;
-            left: -40px;
+            height: rem(30px);
+            left: rem(-40px);
             position: absolute;
             top: .5rem;
-            width: 30px;
+            width: rem(30px);
           }
         }
 
@@ -318,7 +318,7 @@
       &::after {
         content: '';
         font-family: "FontAwesome", sans-serif;
-        margin-left: 10px;
+        margin-left: rem(10px);
       }
     }
   }
@@ -330,7 +330,7 @@
       &::after {
         content: '';
         font-family: "FontAwesome", sans-serif;
-        margin-left: 10px;
+        margin-left: rem(10px);
       }
     }
   }

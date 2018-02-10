@@ -20,7 +20,7 @@
     &--pressreleases {
       @media (max-width: $max-width-xs) {
         padding-bottom: 2rem;
-        padding-top: 12rem;
+        padding-top: 12rem
       }
 
       h3,
@@ -54,20 +54,20 @@
   .coverage {
     .date {
       color: #647886;
-      font-size: .8125rem;
+      font-size: rem(13px);
       font-weight: 700;
 
       time {
-        padding-bottom: 1.1875rem;
+        padding-bottom: rem(19px);
         position: relative;
 
         &::after {
           background-color: #e8e8e8;
           content: ' ';
           display: block;
-          height: .2rem;
+          height: rem(3px);
           margin-left: 1px;
-          margin-top: .8125rem;
+          margin-top: rem(13px);
           position: absolute;
           width: calc(75% - 2px);
         }
@@ -81,19 +81,19 @@
       img {
         margin: 0;
         max-height: 2rem;
-        max-width: 11.5rem;
+        max-width: rem(184px);
       }
     }
 
     h2 {
       color: #05131e;
-      font-size: 1.625rem;
+      font-size: rem(26px);
     }
 
     h3,
     h4 {
       color: #05131e;
-      font-size: 1.125rem;
+      font-size: rem(18px);
     }
   }
 
@@ -102,7 +102,7 @@
       color: #475056;
       font-size: .75rem;
       font-weight: 700;
-      letter-spacing: .2rem;
+      letter-spacing: rem(3.2px);
       text-transform: uppercase;
 
       &::after {
@@ -114,25 +114,25 @@
 
     .date {
       color: #091721;
-      font-size: .875rem;
+      font-size: rem(14px);
     }
 
     h3 {
-      font-size: 1.9rem;
+      font-size: rem(30.4px);
     }
 
     h4 {
-      font-size: 1.7rem;
+      font-size: rem(27.2px);
 
       // scss-lint:disable NestingDepth
       &::after {
         background-color: #091721;
         content: ' ';
         display: block;
-        height: .2rem;
-        margin-bottom: 1.2rem;
+        height: rem(3.2px);
+        margin-bottom: rem(19px);
         margin-left: 1px;
-        margin-top: .3rem;
+        margin-top: rem(4.8px);
         width: 3rem;
       }
     }
@@ -146,7 +146,7 @@
 
   .social {
     h4 {
-      font-size: 1.5rem;
+      font-size: rem(24px);
     }
 
     &__icon {
@@ -160,7 +160,7 @@
 
       svg {
         font-size: 9.6vw;
-        max-width: 2.5rem;
+        max-width: rem(40px);
         transition: .2s all;
         width: 9.6vw;
 
@@ -201,10 +201,10 @@
               background: $color;
               content: ' ';
               display: block;
-              height: .2rem;
+              height: rem(3.2px);
               opacity: 0;
               position: absolute;
-              top: 1.6rem;
+              top: rem(25.6px);
               transition: .2s all ease;
               width: 0%;
             }

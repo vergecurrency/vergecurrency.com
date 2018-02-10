@@ -10,7 +10,9 @@ $min-width-sm: 48em;
 $min-width-md: 64em;
 $min-width-lg: 75em;
 
-// - COLORS
+$base-font-size: 16px;
+
+// - BRAND COLORS
 $black:               #000;
 $white:               #fff;
 $pacific-blue-1:      #0095c1;
@@ -32,6 +34,10 @@ $colors: (
   venice-blue: $venice-blue,
   dark-blue: $dark-blue
 );
+
+@function rem($pixels, $size: $base-font-size) {
+  @return $pixels / ($size / (1rem * 1));
+}
 
 //Partials
 // @import 'partials/menu';

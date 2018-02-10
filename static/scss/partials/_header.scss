@@ -1,4 +1,5 @@
 // scss-lint:disable IdSelector
+
 #header {
   left: 0;
   position: fixed;
@@ -7,20 +8,11 @@
   z-index: 9;
 
   .row {
-    height: 5.5rem;
+    height: rem(88px);
   }
 
   img {
     display: block;
-  }
-
-  button {
-    align-self: center;
-    cursor: pointer;
-    display: inline-block;
-    height: 3rem;
-    vertical-align: middle;
-    width: 3rem;
   }
 
   .links {
@@ -30,10 +22,10 @@
 
   nav a {
     color: $white;
-    font-size: .9375rem;
-    line-height: 5.5rem;
-    margin: .375rem;
-    padding: .375rem;
+    font-size: rem(15px);
+    line-height: rem(88px);
+    margin: rem(6px);
+    padding: rem(6px);
     text-decoration: none;
 
     &:last-child {
@@ -42,17 +34,17 @@
     }
 
     @media (min-width: $min-width-md) {
-      margin: .5625rem;
-      padding: .5625rem;
+      margin: rem(9px);
+      padding: rem(9px);
 
       &:last-child {
-        margin-right: 18px;
+        margin-right: rem(18px);
       }
     }
   }
 
   svg {
-    width: 7.5rem;
+    width: rem(120px);
 
     path {
       fill: $white;
@@ -64,9 +56,9 @@
       background: url('/static/img/menu.svg');
       background-size: cover;
       display: inline-block;
-      height: 1.75rem;
+      height: rem(28px);
       vertical-align: middle;
-      width: 1.75rem;
+      width: rem(28px);
     }
   }
 
@@ -75,7 +67,7 @@
     // scss-lint:disable ColorVariable
 
     background: $white;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .06);
+    box-shadow: 0 0 rem(15px) rgba(0, 0, 0, .06);
 
     nav a,
     svg path {

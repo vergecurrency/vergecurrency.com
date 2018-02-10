@@ -1,30 +1,32 @@
 // TODO: Refactor to bemmy classnames
+
 .image-container,
 .blue-container,
 .gray-container,
 .linen-container,
 .white-container {
   // scss-lint:disable ColorVariable
+
   background: $white;
   background-position: center;
   background-size: cover;
   margin-top: 0;
   padding-bottom: 4rem;
-  padding-top: 12rem;
+  padding-top: 12rem
   position: relative;
 
   &--press {
     background: $white;
     box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67);
     color: #647886;
-    margin-top: -8rem;
+    margin-top: rem(-128px);
     padding-top: 4rem;
     top: 8rem;
     z-index: 2;
 
     h3 {
       color: #091721;
-      font-size: 1.2rem;
+      font-size: rem(19px);
       font-weight: 600;
 
       span {
@@ -34,7 +36,7 @@
 
     p {
       color: #647886;
-      font-size: .8125rem;
+      font-size: rem(13px);
       font-weight: 400;
     }
   }
@@ -45,7 +47,7 @@
 
   background-color: #daf0ff;
   box-shadow: none;
-  margin-bottom: 12rem;
+  margin-bottom: 12rem
   padding-bottom: 6rem;
   padding-top: 6rem;
 
@@ -53,13 +55,13 @@
     background-color: #07121b;
     box-shadow: inherit;
     margin-bottom: 0;
-    margin-top: -8rem;
+    margin-top: rem(-128px);
     padding-bottom: 4rem;
     padding-top: 4rem;
 
     h3 {
       color: $white;
-      font-size: 1.2rem;
+      font-size: rem(19px);
       font-weight: 600;
 
       // scss-lint:disable NestingDepth
@@ -70,7 +72,7 @@
 
     p {
       color: $white;
-      font-size: .8125rem;
+      font-size: rem(13px);
       font-weight: 400;
     }
   }
@@ -90,8 +92,8 @@
   box-shadow: none;
   margin-bottom: 2rem;
   margin-top: 1rem;
-  padding-bottom: 12rem;
-  padding-top: 12rem;
+  padding-bottom: 12rem
+  padding-top: 12rem
 }
 
 .image-container {
@@ -99,6 +101,6 @@
   box-shadow: none;
   margin-bottom: 2rem;
   margin-top: 1rem;
-  padding-bottom: 12rem;
-  padding-top: 12rem;
+  padding-bottom: 12rem
+  padding-top: 12rem
 }

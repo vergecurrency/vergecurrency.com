@@ -6,29 +6,29 @@
   border-bottom: 1px solid transparent;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b7792', endColorstr='#0f9dc1', GradientType=0);
   position: fixed;
-  top: 88px;
+  top: rem(88px);
   transition: all .2s ease-in-out;
   width: 100%;
   z-index: 9;
 
   .row {
-    height: 44px;
+    height: rem(44px);
   }
 
   a {
     color: $white;
-    font-size: 15px;
-    line-height: 44px;
-    margin: 6px;
-    padding: 6px;
+    font-size: rem(15px);
+    line-height: rem(44px);
+    margin: rem(6px);
+    padding: rem(6px);
     text-decoration: none;
 
-    @media (min-width: 64em) {
-      margin: 9px;
-      padding: 9px;
+    @media (min-width: $min-width-md) {
+      margin: rem(9px);
+      padding: rem(9px);
 
       &:last-child {
-        margin-right: 18px;
+        margin-right: rem(18px);
       }
     }
   }

@@ -6,11 +6,11 @@
   border-radius: 0;
   cursor: pointer;
   display: block;
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: normal;
   line-height: 1.8;
   margin-bottom: 0;
-  padding: 10px 20px;
+  padding: rem(10px) rem(20px);
   text-align: center;
   touch-action: manipulation;
   transition: all .2s ease-in;
@@ -31,12 +31,12 @@
     }
   }
 
-  $_primary-color: #1db6dc;
-
   &:hover {
-    box-shadow: 0 0 3.125rem rgba(255, 255, 255, .39);
+    box-shadow: 0 0 rem(50px) rgba(255, 255, 255, .39);
     color: $white;
   }
+
+  $_primary-color: #1db6dc;
 
   &-primary {
     background: $_primary-color;
@@ -44,10 +44,10 @@
     color: $white;
 
     &--on-white-bg {
-      box-shadow: 0 0 3.125rem rgba(255, 255, 255, .39);
+      box-shadow: 0 0 rem(50px) rgba(255, 255, 255, .39);
 
       &:hover {
-        box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);
+        box-shadow: 0 0 rem(50px) rgba(3, 197, 247, .39);
       }
     }
   }
@@ -71,24 +71,20 @@
     color: $_primary-color;
 
     &:hover {
-      box-shadow: 0 0 3.125rem rgba(3, 197, 247, .39);
+      box-shadow: 0 0 rem(50px) rgba(3, 197, 247, .39);
       color: $_primary-color;
     }
   }
 
   &-github {
     &::before {
-      content: "";
+      color: $white;
+      content: '';
       font-family: "FontAwesome", sans-serif;
-      font-size: 26px;
-      color: #fff;
-      margin-right: 15px;
-      line-height: 10px;
+      font-size: rem(26px);
+      line-height: rem(10px);
+      margin-right: rem(15px);
       vertical-align: middle;
     }
   }
-
-  // @at-root p + & {
-  //   margin-top: .5rem;
-  // }
 }
