@@ -231,13 +231,8 @@ const Home = function (props) {
                   We’re proud to be listed on:</h2>
                 </div>
               </div>
-              <Exchanges t={t} />
+              <Exchanges />
               <Cointicker />
-              <div className="row">
-                <div className="col-xs-12">
-                  <span>BTC Price</span>
-                </div>
-              </div>
             </div>
             <div className="vendors">
               <div className="row pt-xlg pb-xlg">
