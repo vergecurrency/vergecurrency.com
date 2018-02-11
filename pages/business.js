@@ -53,10 +53,10 @@ const Business = function (props) {
         </div>
 
         <div className="themed-container themed-container--business">
-          <div className="container pb pb-xs-0">
-            <div className="row center-xs middle-xs latest pb">
-              <div className="col-xs-11 col-sm-6 start-xs">
-                <h3>Accept Verge Currency</h3>
+          <div className="container">
+            <div className="row center-xs middle-xs accept pb">
+              <div className="col-xs-11 col-sm-6 col-md-5 start-xs">
+                <h6>Accept Verge Currency</h6>
                 <h2>Powering real world vendors that accept Verge Currency</h2>
 
                 <p>All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.</p>
@@ -66,16 +66,24 @@ const Business = function (props) {
                   <a className="btn btn-primary">{t("business:accept.buttonPrimary", { defaultValue: 'Accept Verge today' } )}</a>
                 </Link>
                 <Link href="/">
-                  <a className="btn btn-secondary">{t("business:accept.buttonSecondary", { defaultValue: 'See all vendors' } )}</a>
+                  <a className="btn btn-tertiary">{t("business:accept.buttonTertiary", { defaultValue: 'See all vendors' } )}</a>
                 </Link>
               </div>
-              <div className="col-xs-11 col-sm-6 end-xs">
-                <img src="/static/img/vendors/vendor-story.png" />
+
+              <div className="col-xs-11 col-sm-5 col-md-6 col-lg-5 col-lg-offset-1 center-xs">
+                <div className="row end-sm">
+                  <div className="col-xs-12 col-sm-5 col-lg-6 pt-xs">
+                    <img className="img-responsive" src="/static/img/vendors/app-left.png" />
+                  </div>
+                  <div className="col-xs-12 col-sm-5 col-sm-offset-1 col-lg-6 col-lg-offset-0 pt-xs">
+                    <img className="img-responsive" src="/static/img/vendors/app-right.png" />
+                  </div>
+                </div>
               </div>
             </div>
             <div className="row center-xs vendors pt pb">
               <div className="col-xs-11 col-sm-11 center-xs">
-                <h3>Latest vendors</h3>
+                <h6>Latest vendors</h6>
 
                 <div className="row center-xs between-xs pt-small pb pb-xs-0">
                   <div className="col-xs-4 col-sm-2 center-xs pb-xs">
@@ -111,7 +119,7 @@ const Business = function (props) {
                 </div>
               </div>
             </div>
-            <div className="row center-xs pt pb">
+            <div className="row center-xs pb">
               <div className="col-xs-12">
                 <div className="container themed-container--blue themed-container--blue--business">
                   <div className="row center-xs">
@@ -127,47 +135,47 @@ const Business = function (props) {
             <div className="container">
               <div className="row center-xs benefits">
                 <div className="col-xs-11 center-xs">
-                  <div className="row center-xs previous">
-                    <div className="col-xs-12 col-sm-8 col-md-6 center-xs start-sm">
+                  <div className="row center-xs middle-xs previous">
+                    <div className="col-xs-12 col-sm-7 col-lg-6 center-xs start-sm first-sm">
                       <h3>{t('business:benefits.header', { defaultValue: 'The benefits of accepting Verge as a payment method are many. Some of them:' })}</h3>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-6 center-xs end-sm">
+                    <div className="col-xs-12 col-sm-5 col-lg-6 center-xs end-sm first-xs pb-xs">
                       <Link href="/">
                         <a className="btn btn-primary">{t("business:benefits.buttonPrimary", { defaultValue: 'Accept Verge today' } )}</a>
                       </Link>
                     </div>
                   </div>
                   <div className="row around-xs pt">
-                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
-                      <h4>{t('business:benefits.anonimity.title', { defaultValue: 'Anonymity' })}</h4>
+                    <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
+                      <h6>{t('business:benefits.anonimity.title', { defaultValue: 'Anonymity' })}</h6>
                       <p>{t('business:benefits.anonimity.text', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
-                      <h4>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h4>
+                    <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
+                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h6>
                       <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
-                      <h4>{t('business:benefits.community.title', { defaultValue: 'Community driven' })}</h4>
+                    <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
+                      <h6>{t('business:benefits.community.title', { defaultValue: 'Community driven' })}</h6>
                       <p>{t('business:benefits.community.text', { defaultValue: 'Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
-                      <h4>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h4>
+                    <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
+                      <h6>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h6>
                       <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
-                      <h4>{t('business:benefits.anonimity.title', { defaultValue: 'Anonymity' })}</h4>
+                    <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
+                      <h6>{t('business:benefits.anonimity.title', { defaultValue: 'Anonymity' })}</h6>
                       <p>{t('business:benefits.anonimity.text', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
-                      <h4>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h4>
+                    <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
+                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h6>
                       <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs pb-small">
-                      <h4>{t('business:benefits.community.title', { defaultValue: 'Community driven' })}</h4>
+                    <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
+                      <h6>{t('business:benefits.community.title', { defaultValue: 'Community driven' })}</h6>
                       <p>{t('business:benefits.community.text', { defaultValue: 'Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.' })}</p>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-3 start-xs">
-                      <h4>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h4>
+                    <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm">
+                      <h6>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h6>
                       <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so.' })}</p>
                     </div>
                   </div>
