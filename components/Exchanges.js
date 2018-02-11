@@ -3,7 +3,6 @@ import Link from 'next/link';
 const exchangeLocale = require('../locales/index').en.exchanges.exchanges;
 
 const Exchanges = function (props) {
-
   let exchanges = [];
   let key = 0;
   
