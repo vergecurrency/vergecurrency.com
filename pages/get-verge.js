@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Exchanges from '../components/Exchanges';
+import Cointicker from '../components/Cointicker';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
@@ -19,7 +20,8 @@ const GetVerge = function (props) {
               We’re proud to be listed on</h2>
             </div>  
           </div>
-          <Exchanges t={t} />
+          <Exchanges />
+          <Cointicker />
         </div>
       </div>
     </Layout>
