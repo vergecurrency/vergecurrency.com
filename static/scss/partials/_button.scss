@@ -65,6 +65,24 @@
     color: $white;
   }
 
+  &-white {
+    background: $white;
+    border: 3px solid $white;
+    color: $black;
+
+    &:hover {
+      color: $black;
+    }
+
+    &:not([href]):not([tabindex]) {
+      color: $black;
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+
   &-inverted {
     border: 3px solid $_primary-color;
     border-color: $_primary-color;

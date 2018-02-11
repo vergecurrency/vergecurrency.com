@@ -49,6 +49,7 @@ $colors: (
 @import 'partials/themed-container';
 @import 'partials/preloader';
 @import 'partials/footer';
+@import 'partials/wallets';
 
 //Pages
 @import 'pages/home';
@@ -58,6 +59,7 @@ $colors: (
 @import 'pages/presskit';
 @import 'pages/pressreleases';
 @import 'pages/pressrelease';
+@import 'pages/wallets';
 
 @import 'partials/markdown';
 @import 'partials/responsive-display';

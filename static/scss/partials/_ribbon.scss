@@ -84,7 +84,7 @@
     min-height: rem(540px);
   }
 
-  &--about {
+  &--about, &--wallets {
     // scss-lint:disable ColorVariable DuplicateProperty
 
     background: #042c42;
@@ -93,6 +93,10 @@
     background: radial-gradient(ellipse at center, #042c42 0%, #05131e 46%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#042c42', endColorstr='#05131e', GradientType=1);
     min-height: 25rem;
+  }
+
+  &--wallets {
+    min-height: 35rem;
   }
 
   &--business {

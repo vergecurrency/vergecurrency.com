@@ -1,0 +1,50 @@
+.wallets {
+  .benefits {
+    background: #daf0ff;
+
+    h6 {
+      color: #1a3d55;
+    }
+
+    &--item {
+      p {
+        color: #1a3d55;
+        font-size: rem(13px);
+        line-height: rem(23px);
+      }
+    }
+
+    &--url {
+      display: block;
+      margin-top: rem(40px);
+
+      &::after {
+        content: '';
+        font-family: "FontAwesome", sans-serif;
+        margin-left: rem(10px);
+      }
+    }
+
+    &--imgs {
+      position: relative;
+
+      img {
+        box-shadow: 0 0 rem(90px) rgba(0, 0, 0, .18);
+        position: absolute;
+        right: .5rem;
+
+        &:first-of-type {
+          border-radius: rem(10px); // scss-lint:disable PropertySortOrder
+          border-bottom-right-radius: 0;
+          border-top-right-radius: 0;
+        }
+
+        &:last-of-type {
+          border-radius: rem(28px);
+          right: rem(198px);
+          top: 3rem;
+        }
+      }
+    }
+  }
+}

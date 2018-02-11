@@ -80,7 +80,7 @@ const Home = function (props) {
 
             <div className="row center-xs middle-xs pt pb-lg intro">
               <div className="col-xs-9 col-sm-6">
-                <h6>{t("home:intro.span")}</h6>
+                <span className="spaced">{t("home:intro.span")}</span>
                 <div className="pt-xs">
                   <h2>{t("home:intro.h2")}</h2>
                   <p>{t("home:intro.p")}</p>
