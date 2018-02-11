@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Exchanges from '../components/Exchanges';
+import Cointicker from '../components/Cointicker';
 
 import fetch from 'isomorphic-unfetch';
 
@@ -230,13 +231,8 @@ const Home = function (props) {
                   We’re proud to be listed on:</h2>
                 </div>
               </div>
-              <Exchanges t={t} />
-              {/* <Cointicker /> */}
-              <div className="row">
-                <div className="col-xs-12">
-                  <span>BTC Price</span>
-                </div>
-              </div>
+              <Exchanges />
+              <Cointicker />
             </div>
             <div className="vendors">
               <div className="row pt-xlg pb-xlg">
