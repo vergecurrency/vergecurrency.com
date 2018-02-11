@@ -1,0 +1,46 @@
+{
+  "exchanges": [
+    {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    },
+    {
+      "img": "../static/img/bittrex-192.png",
+      "img_width": "40",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "#"
+    }
+  ]
+}

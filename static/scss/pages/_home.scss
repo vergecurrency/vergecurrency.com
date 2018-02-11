@@ -90,37 +90,6 @@
     }
   }
 
-  .exchanges {
-    &--item {
-      border: 2px solid #e7e7e7;
-      box-shadow: 0 0 rem(5px) rgba(0, 0, 0, .06);
-      display: flex;
-      margin-bottom: 1rem;
-      padding: rem(15px);
-      transition: all .2s ease-in-out;
-
-      &:hover {
-        border-color: #04a5f0;
-        box-shadow: 0 0 rem(19px) rgba(0, 0, 0, .18);
-        cursor: pointer;
-      }
-
-      &__logo {
-        margin-right: rem(15px);
-      }
-
-      &__name {
-        display: flex;
-        flex-direction: column;
-
-        span:last-of-type {
-          color: #b3b3b3;
-          font-size: rem(13px);
-        }
-      }
-    }
-  }
-
   .vendors {
     background: #daf0ff;
 

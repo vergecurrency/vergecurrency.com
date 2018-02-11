@@ -341,6 +341,6 @@ const Home = function (props) {
   );
 }
 
-     const Extended = translate(['home'], { i18n, wait: process.browser })(Home);
+const Extended = translate(['home'], { i18n, wait: process.browser })(Home);
 
-     export default Extended;
+export default Extended;

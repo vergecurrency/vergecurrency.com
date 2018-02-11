@@ -50,6 +50,7 @@ $colors: (
 @import 'partials/preloader';
 @import 'partials/footer';
 @import 'partials/wallets';
+@import 'partials/exchanges';
 
 //Pages
 @import 'pages/home';
@@ -61,6 +62,7 @@ $colors: (
 @import 'pages/pressrelease';
 @import 'pages/wallets';
 @import 'pages/roadmap';
+@import 'pages/get-verge';
 
 @import 'partials/markdown';
 @import 'partials/responsive-display';
