@@ -9,6 +9,7 @@
   padding-top: 12rem;
   position: relative;
 
+  &--dark,
   &--blue,
   &--gray,
   &--image,
@@ -17,6 +18,7 @@
   }
 
   &--business,
+  &--dark,
   &--home,
   &--pressrelease,
   &--pressreleases {
@@ -115,6 +117,31 @@
 
     &--pressreleases {
       margin-bottom: 6rem;
+    }
+  }
+
+  &--dark {
+    &--home {
+      background-color: #07121b;
+      margin-bottom: 0;
+      padding-bottom: 6rem;
+      padding-top: 6rem;
+
+      h3 {
+        color: $white;
+        font-size: rem(19px);
+        font-weight: 600;
+
+        span {
+          color: #00cbff;
+        }
+      }
+
+      p {
+        color: $white;
+        font-size: rem(13px);
+        font-weight: 400;
+      }
     }
   }
 

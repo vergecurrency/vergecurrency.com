@@ -206,7 +206,7 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
-            <div className="power-to-the-people themed-container themed-container--home themed-container--home__empower">
+            <div className="power-to-the-people themed-container--dark themed-container--dark--home">
               <div className="row">
                 <div className="col-md-8 col-md-offset-2">
                   <h6>Empowering people</h6>
