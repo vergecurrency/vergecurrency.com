@@ -39,12 +39,10 @@
     }
 
     &--logo {
-      height: 2rem;
-      margin-bottom: 1rem;
-
       img,
       svg {
-        margin: 0;
+        margin: 0 0 1rem;
+        margin-bottom: 1rem;
         max-height: 2rem;
         max-width: rem(184px);
       }

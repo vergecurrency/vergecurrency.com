@@ -7,15 +7,16 @@ import Subheader from '../components/Subheader';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
+
 import Moment from 'react-moment';
 import 'moment-timezone';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-import LogoBusiness_Insider from "../static/img/coverage/Business_Insider.svg";
+import LogoBusinessInsider from "../static/img/coverage/Business_Insider.svg";
 import LogoForbes from "../static/img/coverage/Forbes.svg";
-import LogoHuffington_Post from "../static/img/coverage/Huffington_Post.svg";
+import LogoHuffingtonPost from "../static/img/coverage/Huffington_Post.svg";
 import LogoMashable from "../static/img/coverage/Mashable.svg";
 import LogoTechChrunch from "../static/img/coverage/TechChrunch.svg";
 
@@ -118,7 +119,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <LogoBusiness_Insider />
+                        <LogoBusinessInsider />
                       </div>
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
@@ -144,7 +145,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <LogoHuffington_Post />
+                        <LogoHuffingtonPost />
                       </div>
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
