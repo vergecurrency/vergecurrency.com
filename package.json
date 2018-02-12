@@ -25,6 +25,7 @@
     "autoprefixer": "^7.2.5",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-wrap-in-js": "^1.1.0",
+    "cryptowatch-embed": "^0.3.2",
     "css-loader": "^0.28.9",
     "express": "^4.16.2",
     "glob": "^7.1.2",

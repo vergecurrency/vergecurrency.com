@@ -6,11 +6,13 @@ module.exports = {
     return {
       '/': { page: '/' },
       '/about': { page: '/about' },
+      '/wallets': { page: '/wallets' },
+      '/roadmap' : { page: '/roadmap' },
       '/business': { page: '/business' },
       '/presskit': { page: '/presskit' },
       '/pressrelease': { page: '/pressrelease' },
       '/pressreleases': { page: '/pressreleases' },
-      '/cointicker': { page: '/cointicker' }
+      '/get-verge' : { page: '/get-verge'}
     }
   },
 
