@@ -57,4 +57,16 @@ footer {
     background: $white;
     margin-top: 3rem;
   }
+
+  .bottom {
+    height: 4rem;
+
+    svg {
+      margin-top: .75rem;
+    }
+
+    @media (min-width: $min-width-sm) {
+      height: 3rem;
+    }
+  }
 }
