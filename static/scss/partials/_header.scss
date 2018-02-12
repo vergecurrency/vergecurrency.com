@@ -47,6 +47,7 @@
     width: rem(120px);
 
     .st2 {
+      fill: $white;
       transition: .2s all;
     }
   }
@@ -75,7 +76,7 @@
 
     svg {
       .st2 {
-        fill: #0F1928;
+        fill: #0f1928;
       }
     }
   }

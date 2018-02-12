@@ -1,6 +1,6 @@
 import React from 'react';
 
-import VergeLogo from '../static/img/verge-logo-white.svg';
+import VergeLogoWhite from '../static/img/verge-logo-white.svg';
 
 import Head from 'next/head';
 import Link from 'next/link';
@@ -26,7 +26,7 @@ const Header = ({ t }) => (
         <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
           <Link href="/">
             <a>
-              <VergeLogo />
+              <VergeLogoWhite />
             </a>
           </Link>
         </div>
