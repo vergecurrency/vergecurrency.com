@@ -46,8 +46,8 @@
   svg {
     width: rem(120px);
 
-    path {
-      fill: $white;
+    .st2 {
+      transition: .2s all;
     }
   }
 
@@ -73,8 +73,10 @@
       color: #111;
     }
 
-    svg path {
-      fill: #111;
+    svg {
+      .st2 {
+        fill: #0F1928;
+      }
     }
   }
 }

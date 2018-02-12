@@ -2,42 +2,36 @@
   "exchanges": [
     {
       "img": "../static/img/exchanges/bittrex-192.png",
-      "img_width": "40",
       "title": "Bittrex",
       "link": "bittrex.com",
       "url": "bittrex.com"
     },
     {
       "img": "../static/img/exchanges/binance.svg",
-      "img_width": "40",
       "title": "Binance",
       "link": "binance.com",
       "url": "#"
     },
     {
       "img": "../static/img/exchanges/litebit.png",
-      "img_width": "40",
       "title": "Litebit",
       "link": "litebit.eu",
       "url": "#"
     },
     {
       "img": "../static/img/exchanges/bitsquare.png",
-      "img_width": "40",
       "title": "Bitsquare",
       "link": "bitsquare.io",
       "url": "#"
     },
     {
       "img": "../static/img/exchanges/upbit.png",
-      "img_width": "40",
       "title": "UPbit",
       "link": "upbit.com",
       "url": "#"
     },
     {
       "img": "../static/img/exchanges/nexchange.png",
-      "img_width": "40",
       "title": "Nexchange",
       "link": "nexchange.io",
       "url": "#"

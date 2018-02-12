@@ -23,8 +23,10 @@
     "@fortawesome/fontawesome-free-brands": "^5.0.6",
     "@fortawesome/react-fontawesome": "^0.0.17",
     "autoprefixer": "^7.2.5",
+    "babel-plugin-inline-react-svg": "^0.5.2",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-wrap-in-js": "^1.1.0",
+    "cryptowatch-embed": "^0.3.2",
     "css-loader": "^0.28.9",
     "express": "^4.16.2",
     "glob": "^7.1.2",
@@ -53,6 +55,7 @@
     "react-i18next": "^7.3.4",
     "react-image-lazyload": "0.0.18",
     "react-moment": "^0.7.0",
+    "react-web-tabs": "^0.4.3",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
     "webpack": "^3.10.0"

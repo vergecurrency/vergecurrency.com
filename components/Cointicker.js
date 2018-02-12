@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import fetch from 'isomorphic-unfetch';
 
 class Cointicker extends React.Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class Cointicker extends React.Component {
     if (this.state.coinData.length > 0) {
       return (
         <div>
-          <div className="row">
+          <div className="row pt pb">
             <div className="col-sm-2">
               <span className="spaced">Symbol</span>
               <p>{this.state.coinData[0].symbol}</p>
