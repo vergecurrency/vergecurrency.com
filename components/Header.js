@@ -22,7 +22,7 @@ const Header = ({ t }) => (
       </style>
     </Head>
     <div className="container container--with-gutter">
-      <div className="row around-xs middle-xs">
+      <div className="row between-xs around-sm middle-xs">
         <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
           <Link href="/">
             <a>
