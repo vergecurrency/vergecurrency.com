@@ -56,11 +56,11 @@ const Business = function (props) {
           <div className="container">
             <div className="row center-xs middle-xs accept pb">
               <div className="col-xs-11 col-sm-6 col-md-5 start-xs">
-                <h6>Accept Verge Currency</h6>
-                <h2>Powering real world vendors that accept Verge Currency</h2>
+                <h6>{t('business:accept.super', { defaultValue: 'Accept Verge Currency' } )}</h6>
+                <h2>{t('business:accept.title', { defaultValue: 'Powering real world vendors that accept Verge Currency' } )}</h2>
 
-                <p>All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.</p>
-                <p>Get started today and accept Verge in your store.</p>
+                <p>{t('business:accept.text-1', { defaultValue: 'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.' } )}</p>
+                <p>{t('business:accept.text-2', { defaultValue: 'Get started today and accept Verge in your store.' } )}</p>
 
                 <Link href="/">
                   <a className="btn btn-primary">{t("business:accept.buttonPrimary", { defaultValue: 'Accept Verge today' } )}</a>
@@ -83,7 +83,7 @@ const Business = function (props) {
             </div>
             <div className="row center-xs vendors pt pb">
               <div className="col-xs-11 col-sm-11 center-xs">
-                <h6>Latest vendors</h6>
+                <h6>{t('business:vendors.latest', { defaultValue: 'Latest vendors' } )}</h6>
 
                 <div className="row center-xs between-xs middle-xs pt-small pb pb-xs-0">
                   <div className="col-xs-6 col-sm-2 center-xs pb-xs">
@@ -140,8 +140,8 @@ const Business = function (props) {
                 <div className="container themed-container--blue themed-container--blue--business">
                   <div className="row center-xs">
                     <div className="col-xs-8">
-                      <h2>Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so. The choice is yours, the choice going mainstream.</h2>
-                      <p>Start accepting Verge on your store or webshop today.</p>
+                      <h2>{t('business:bluecontainer.big', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so. The choice is yours, the choice going mainstream.' } )}</h2>
+                      <p>{t('business:bluecontainer.small', { defaultValue: 'Start accepting Verge on your store or webshop today.' } )}</p>
                     </div>
                   </div>
                 </div>
