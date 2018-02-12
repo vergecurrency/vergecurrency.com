@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
@@ -10,6 +12,12 @@ import 'moment-timezone';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
+
+import LogoBusiness_Insider from "../static/img/coverage/Business_Insider.svg";
+import LogoForbes from "../static/img/coverage/Forbes.svg";
+import LogoHuffington_Post from "../static/img/coverage/Huffington_Post.svg";
+import LogoMashable from "../static/img/coverage/Mashable.svg";
+import LogoTechChrunch from "../static/img/coverage/TechChrunch.svg";
 
 const Pressreleases = function (props) {
   const { t } = props;
@@ -110,7 +118,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/Business_Insider.svg" />
+                        <LogoBusiness_Insider />
                       </div>
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
@@ -123,7 +131,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/Forbes.svg" />
+                        <LogoForbes />
                       </div>
                       <div className="col-xs-12">
                         <h4>Verge price and how to buy it - what is XVG and is the</h4>
@@ -136,7 +144,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/Huffington_Post.svg" />
+                        <LogoHuffington_Post />
                       </div>
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
@@ -151,7 +159,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/Mashable.svg" />
+                        <LogoMashable />
                       </div>
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
@@ -164,7 +172,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/TechChrunch.svg" />
+                        <LogoTechChrunch />
                       </div>
                       <div className="col-xs-12">
                         <h4>Verge price and how to buy it - what is XVG and is the</h4>
