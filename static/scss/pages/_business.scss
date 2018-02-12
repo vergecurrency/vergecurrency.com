@@ -38,13 +38,15 @@
 
   .vendors {
     &--logo {
-      height: 2rem;
-      margin-bottom: 1rem;
 
       img {
-        margin: 0;
-        max-height: 2rem;
-        max-width: 11.5rem;
+        margin: 0 0 1rem;
+        max-height: 2.5rem;
+        max-width: rem(120px);
+
+        @media (min-width: $min-width-sm) {
+          max-height: rem(60px);
+        }
       }
     }
 
@@ -68,14 +70,14 @@
 
     h6 {
       color: #1a3d55;
-      
+
       @media (min-width: $min-width-sm) {
         font-size: .75rem;
       }
     }
 
     p {
-      
+
       @media (min-width: $min-width-sm) {
         font-size: rem(13px);
       }

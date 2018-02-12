@@ -85,41 +85,57 @@ const Business = function (props) {
               <div className="col-xs-11 col-sm-11 center-xs">
                 <h6>Latest vendors</h6>
 
-                <div className="row center-xs between-xs pt-small pb pb-xs-0">
-                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                <div className="row center-xs between-xs middle-xs pt-small pb pb-xs-0">
+                  <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <img src="/static/img/vendors/latest/Nexwave.svg" />
+                      <Link href="https://www.nexwave.ca">
+                        <a target="_blank">
+                          <img src="/static/img/vendors/latest/Nexwave.png" />
+                        </a>
+                      </Link>
                     </div>
                   </div>
-                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                  <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <img src="/static/img/vendors/latest/HODL.svg" />
+                      <Link href="https://www.alwayshodl.com">
+                        <a target="_blank">
+                          <img src="/static/img/vendors/latest/HODL.jpg" />
+                        </a>
+                      </Link>
                     </div>
                   </div>
-                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                  <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <img src="/static/img/vendors/latest/CryptoVfx.svg" />
+                      <img src="/static/img/vendors/latest/CryptoVfx.png" />
                     </div>
                   </div>
-                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                  <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <img src="/static/img/vendors/latest/Snel.svg" />
+                      <Link href="https://www.snel.com">
+                        <a target="_blank">
+                          <img src="/static/img/vendors/latest/Snel.png" />
+                        </a>
+                      </Link>
                     </div>
                   </div>
-                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                  <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <img src="/static/img/vendors/latest/PMC.svg" />
+                      <Link href="https://www.snel.com">
+                        <a target="_blank">
+                          <img src="/static/img/vendors/latest/PMC.png" />
+                        </a>
+                      </Link>
                     </div>
                   </div>
-                  <div className="col-xs-4 col-sm-2 center-xs pb-xs">
+                  <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <img src="/static/img/vendors/latest/last.svg" />
+                      <img src="/static/img/vendors/latest/RenoSportsBar.jpg" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="row center-xs pb">
+            <div className="row center-xs pt pb">
               <div className="col-xs-12">
                 <div className="container themed-container--blue themed-container--blue--business">
                   <div className="row center-xs">
@@ -136,7 +152,7 @@ const Business = function (props) {
               <div className="row center-xs benefits">
                 <div className="col-xs-11 center-xs">
                   <div className="row center-xs middle-xs previous">
-                    <div className="col-xs-12 col-sm-7 col-lg-6 center-xs start-sm first-sm">
+                    <div className="col-xs-12 col-sm-7 col-lg-6 center-xs start-sm first-sm pt-xs">
                       <h3>{t('business:benefits.header', { defaultValue: 'The benefits of accepting Verge as a payment method are many. Some of them:' })}</h3>
                     </div>
                     <div className="col-xs-12 col-sm-5 col-lg-6 center-xs end-sm first-xs pb-xs">
@@ -145,7 +161,7 @@ const Business = function (props) {
                       </Link>
                     </div>
                   </div>
-                  <div className="row around-xs pt">
+                  <div className="row around-xs start-sm pt">
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
                       <h6>{t('business:benefits.anonimity.title', { defaultValue: 'Anonymity' })}</h6>
                       <p>{t('business:benefits.anonimity.text', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.' })}</p>
