@@ -4,6 +4,11 @@ import Layout from '../components/Layout';
 import Exchanges from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
 
+import fontawesome from '@fortawesome/fontawesome'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faApple } from '@fortawesome/fontawesome-free-brands'
+import { faPlay } from '@fortawesome/fontawesome-free-solid'
+
 import fetch from 'isomorphic-unfetch';
 
 import { translate } from 'react-i18next';
@@ -36,10 +41,10 @@ const Home = function (props) {
                   <h1 dangerouslySetInnerHTML={{ __html: t("home:ribbon.title") }}></h1>
                   <p>{t("home:ribbon.text")}</p>
                   <Link href="/">
-                    <a className="btn btn-primary btn-wallet">{t("home:ribbon.buttonPrimary")}</a>
+                    <a className="btn btn-primary btn-wallet"><FontAwesomeIcon icon={ faApple } /> {t("home:ribbon.buttonPrimary")}</a>
                   </Link>
                   <Link href="/">
-                    <a className="btn btn-secondary btn-video">{t("home:ribbon.buttonSecondary")}</a>
+                    <a className="btn btn-secondary btn-video"><FontAwesomeIcon icon={ faPlay } /> {t("home:ribbon.buttonSecondary")}</a>
                   </Link>
                   <p className="blackpaper">Read the <a href="#"><i>Blackpaper</i></a> of Verge Currency</p>
                 </div>
@@ -207,9 +212,9 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
-            <div className="power-to-the-people themed-container--dark themed-container--dark--home">
-              <div className="row">
-                <div className="col-md-8 col-md-offset-2">
+            <div className="themed-container--dark themed-container--dark--home">
+              <div className="row center-xs power-to-the-people">
+                <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
                   <h6>Empowering people</h6>
                   <h3>Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.</h3>
                   <p>With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.</p>

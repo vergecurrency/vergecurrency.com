@@ -43,22 +43,16 @@
 
   .btn {
     &-wallet {
-      &::before {
-        content: '';
-        font-family: 'FontAwesome', sans-serif;
+      svg {
         font-size: 1rem;
-        line-height: rem(13px);
-        margin-right: 1rem;
+        margin-right: .75rem;
       }
     }
 
     &-video {
-      &::before {
-        content: '';
-        font-family: 'FontAwesome', sans-serif;
-        font-size: rem(13px);
-        line-height: rem(13px);
-        margin-right: 1rem;
+      svg {
+        font-size: .75rem;
+        margin-right: .75rem;
       }
     }
   }
@@ -84,7 +78,8 @@
     min-height: rem(540px);
   }
 
-  &--about, &--wallets {
+  &--about,
+  &--wallets {
     // scss-lint:disable ColorVariable DuplicateProperty
 
     background: #042c42;
