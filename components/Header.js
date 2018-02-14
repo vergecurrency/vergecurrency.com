@@ -44,8 +44,8 @@ const Header = ({ t }) => (
             <Link href="/community">
               <a>{t('header:community', { defaultValue: 'Community' } )}</a>
             </Link>
-            <Link href="/learn-more">
-              <a>{t('header:learn_more', { defaultValue: 'Learn more' } )}</a>
+            <Link href="/resources/introduction">
+              <a>{t('header:resources', { defaultValue: 'Resources' } )}</a>
             </Link>
             <Link prefetch href="/get-verge">
               <a>{t('header:get_verge', { defaultValue: 'Get Verge' } )}</a>
