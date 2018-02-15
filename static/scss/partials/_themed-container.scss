@@ -136,8 +136,13 @@
     &--home {
       background-color: #07121b;
       margin-bottom: 0;
-      padding-bottom: 6rem;
-      padding-top: 6rem;
+      padding-bottom: 4rem;
+      padding-top: 4rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+      }
 
       h3 {
         color: $white;
