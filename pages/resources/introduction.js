@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 import Sidebar from '../../components/resources/Sidebar';
 import Content from '../../components/resources/Content';
-import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 
 export default () => (
   <Layout>
