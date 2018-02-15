@@ -12,7 +12,8 @@ module.exports = {
       '/presskit': { page: '/presskit' },
       '/pressrelease': { page: '/pressrelease' },
       '/pressreleases': { page: '/pressreleases' },
-      '/get-verge' : { page: '/get-verge'}
+      '/get-verge': { page: '/get-verge' },
+      '/vendors': { page: '/vendors' }
     }
   },
 
