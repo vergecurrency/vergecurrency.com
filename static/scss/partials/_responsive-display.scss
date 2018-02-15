@@ -1,7 +1,7 @@
 // scss-lint:disable ImportantRule
 
 $padding-vertical-desktop: 3rem;
-$padding-vertical-desktop-small: 1.5rem;
+$padding-vertical-desktop-small: rem(24px);
 $padding-vertical-desktop-lg: 6rem;
 $padding-vertical-desktop-xlg: 9rem;
 $padding-vertical-mobile: 2rem;
@@ -11,6 +11,11 @@ $padding-vertical-mobile-xlg: 6rem;
 
 @-ms-viewport{
   width: device-width;
+}
+
+.container--with-gutter {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .col--full-height {

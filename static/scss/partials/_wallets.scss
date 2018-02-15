@@ -1,0 +1,86 @@
+.wallets {
+  &--url {
+    &::after {
+      content: '';
+      font-family: "FontAwesome", sans-serif;
+      margin-left: rem(10px);
+    }
+  }
+
+  &--item {
+    margin: rem(15px) 0;
+
+    a {
+      display: flex;
+    }
+
+    &__disabled {
+      filter: saturate(0);
+      opacity: .3;
+    }
+  }
+
+  &--icon {
+    height: rem(46px);
+    margin-right: rem(20px);
+    position: relative;
+    width: rem(46px);
+
+    &__android {
+      background: url('/static/img/wallets/android.svg');
+      background-size: cover;
+
+      &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+
+    &__apple {
+      background: url('/static/img/wallets/apple.svg');
+      background-size: cover;
+
+      &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+
+    &__windows {
+      background: url('/static/img/wallets/windows.svg');
+      background-size: cover;
+
+      &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+
+    &__linux {
+      background: url('/static/img/wallets/linux.svg');
+      background-size: cover;
+
+      &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+  }
+
+  &--text {
+    h4 {
+      color: #000;
+      line-height: rem(18px);
+      margin-bottom: 0;
+    }
+
+    span {
+      color: #797979;
+      font-size: rem(13px);
+    }
+  }
+}

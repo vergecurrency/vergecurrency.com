@@ -14,69 +14,73 @@
     }
   }
 
-  @at-root .linen-container {
-    &--press {
-      top: 0;
+  .accept {
+    h2 {
+      color: #333;
+      font-size: rem(27px);
+      margin-bottom: 1.5rem;
     }
-  }
 
-  @at-root .white-container {
-    // scss-lint:disable NestingDepth
-
-    &--business {
-      @media (max-width: $max-width-xs) {
-        padding-bottom: 2rem;
-        padding-top: 12rem;
-      }
-
-      h3,
-      p,
-      li {
-        color: #333;
-      }
-
-      h1 {
-        color: #091721;
-
-        + p {
-          color: #475056;
-        }
-      }
+    p {
+      color: #4e555a;
+      margin-bottom: 1.5rem;
     }
-  }
 
-  @at-root .gray-container {
-    // scss-lint:disable NestingDepth
+    .btn + .btn {
+      margin-bottom: 1.5rem;
 
-    &--pressreleases {
-      @media (max-width: $max-width-xs) {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+      @media (min-width: $min-width-sm) {
+        margin-bottom: 0;
+        margin-left: 1rem;
       }
     }
   }
 
   .vendors {
     &--logo {
-      height: 2rem;
-      margin-bottom: 1rem;
 
       img {
-        margin: 0;
-        max-height: 2rem;
-        max-width: 11.5rem;
+        margin: 0 0 1rem;
+        max-height: 2.5rem;
+        max-width: rem(120px);
+
+        @media (min-width: $min-width-sm) {
+          max-height: rem(60px);
+        }
       }
     }
 
     h2 {
       color: #05131e;
-      font-size: 1.625rem;
+      font-size: rem(26px);
     }
 
     h3,
     h4 {
       color: #05131e;
-      font-size: 1.125rem;
+      font-size: rem(18px);
+    }
+  }
+
+  .benefits {
+    h3 {
+      color: #091721;
+      font-size: rem(27px);
+    }
+
+    h6 {
+      color: #1a3d55;
+
+      @media (min-width: $min-width-sm) {
+        font-size: .75rem;
+      }
+    }
+
+    p {
+
+      @media (min-width: $min-width-sm) {
+        font-size: rem(13px);
+      }
     }
   }
 }

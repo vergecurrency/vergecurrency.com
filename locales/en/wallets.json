@@ -1,0 +1,8 @@
+{
+  "wallets": [
+    {
+      "name": "ios wallet",
+      "img": "./src/img.jpg"
+    }
+  ]
+}

@@ -1,15 +1,26 @@
+import React from 'react';
+
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import brands from '@fortawesome/fontawesome-free-brands'
+import { faFacebook, faGithub, faTelegram,
+         faYoutube,  faReddit, faTwitter, faDiscord
+       } from '@fortawesome/fontawesome-free-brands'
+
 import Moment from 'react-moment';
 import 'moment-timezone';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
+
+import LogoBusinessInsider from "../static/img/coverage/Business_Insider.svg";
+import LogoForbes from "../static/img/coverage/Forbes.svg";
+import LogoHuffingtonPost from "../static/img/coverage/Huffington_Post.svg";
+import LogoMashable from "../static/img/coverage/Mashable.svg";
+import LogoTechChrunch from "../static/img/coverage/TechChrunch.svg";
 
 const Pressreleases = function (props) {
   const { t } = props;
@@ -18,7 +29,7 @@ const Pressreleases = function (props) {
     <Layout>
       <Subheader t={t} category='press' page='pressreleases' />
 
-      <div className="pressreleases">
+      <div className="pressreleases press">
         <div className="ribbon ribbon--pressreleases">
           <div className="ribbon-img" />
 
@@ -33,7 +44,7 @@ const Pressreleases = function (props) {
             </div>
           </div>
         </div>
-        <div className="container white-container white-container--press">
+        <div className="container themed-container themed-container--press">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
@@ -54,7 +65,7 @@ const Pressreleases = function (props) {
           </div>
         </div>
 
-        <div className="white-container white-container--pressreleases">
+        <div className="themed-container themed-container--pressreleases">
           <div className="container pb pb-xs-0">
             <div className="row center-xs latest pb">
               <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
@@ -110,7 +121,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/Business_Insider.svg" />
+                        <LogoBusinessInsider />
                       </div>
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
@@ -123,7 +134,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/Forbes.svg" />
+                        <LogoForbes />
                       </div>
                       <div className="col-xs-12">
                         <h4>Verge price and how to buy it - what is XVG and is the</h4>
@@ -136,7 +147,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/Huffington_Post.svg" />
+                        <LogoHuffingtonPost />
                       </div>
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
@@ -151,7 +162,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/Mashable.svg" />
+                        <LogoMashable />
                       </div>
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
@@ -164,7 +175,7 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/TechChrunch.svg" />
+                        <LogoTechChrunch />
                       </div>
                       <div className="col-xs-12">
                         <h4>Verge price and how to buy it - what is XVG and is the</h4>
@@ -192,7 +203,7 @@ const Pressreleases = function (props) {
             </div>
             <div className="row center-xs pt pb">
               <div className="col-xs-12">
-                <div className="container blue-container blue-container--pressreleases">
+                <div className="container themed-container--blue themed-container--blue--pressreleases">
                   <div className="row center-xs">
                     <div className="col-xs-8">
                       <h2>Verge Currency is a 100% open source project and the global Verge Community represents the man power driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place.</h2>
@@ -248,37 +259,37 @@ const Pressreleases = function (props) {
                       <div className="row start-xs center-sm between-md pb-xs">
                         <div className="pt-xs social__icon">
                           <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
-                            <a className="social__link social__link--facebook"><FontAwesomeIcon icon={ ["fab","facebook"] } size="2x" /></a>
+                            <a className="social__link social__link--facebook"><FontAwesomeIcon icon={ faFacebook } size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://github.com/vergecurrency?tab=repositories" target="_blank">
-                            <a className="social__link social__link--github"><FontAwesomeIcon icon={ ["fab","github"] } size="2x" /></a>
+                            <a className="social__link social__link--github"><FontAwesomeIcon icon={ faGithub } size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://t.me/VERGExvg" target="_blank">
-                            <a className="social__link social__link--telegram"><FontAwesomeIcon icon={ ["fab","telegram"] } size="2x" /></a>
+                            <a className="social__link social__link--telegram"><FontAwesomeIcon icon={ faTelegram } size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank">
-                            <a className="social__link social__link--youtube"><FontAwesomeIcon icon={ ["fab","youtube"] } size="2x" /></a>
+                            <a className="social__link social__link--youtube"><FontAwesomeIcon icon={ faYoutube } size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://www.reddit.com/r/vergecurrency/" target="_blank">
-                            <a className="social__link social__link--reddit"><FontAwesomeIcon icon={ ["fab","reddit"] } size="2x" /></a>
+                            <a className="social__link social__link--reddit"><FontAwesomeIcon icon={ faReddit } size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://www.twitter.com/vergecurrency" target="_blank">
-                            <a className="social__link social__link--twitter"><FontAwesomeIcon icon={ ["fab","twitter"] } size="2x" /></a>
+                            <a className="social__link social__link--twitter"><FontAwesomeIcon icon={ faTwitter } size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://discord.gg/vergecurrency" target="_blank">
-                            <a className="social__link social__link--discord"><FontAwesomeIcon icon={ ["fab","discord"] } size="2x" /></a>
+                            <a className="social__link social__link--discord"><FontAwesomeIcon icon={ faDiscord } size="2x" /></a>
                           </Link>
                         </div>
                       </div>

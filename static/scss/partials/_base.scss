@@ -1,3 +1,5 @@
+ // scss-lint:disable ColorVariable
+
 $font-color-heading: #091721;
 $font-color-paragraph: #647886;
 
@@ -11,12 +13,12 @@ body {
   }
 
   @media (min-width: $min-width-sm) {
-    font-size: 16px;
+    font-size: $base-font-size;
   }
 }
 
 body {
-  letter-spacing: .5px;
+  letter-spacing: rem(.5px);
 }
 
 li {
@@ -39,26 +41,38 @@ a {
 
 h1 {
   color: $font-color-heading;
-  font-size: 2.5rem;
+  font-size: rem(40px);
   font-weight: 600;
   line-height: 125%;
 
   @media (min-width: $min-width-xs--iphone-plus) {
-    font-size: 3.125rem;
-    line-height: 3.5rem;
+    font-size: rem(50px);
+    line-height: rem(56px);
   }
 }
 
 h2 {
   color: $font-color-heading;
-  font-size: 1.5rem;
+  font-size: rem(24px);
   font-weight: 600;
 }
 
 h3 {
   color: $font-color-heading;
-  font-size: 1.2rem;
+  font-size: rem(19px);
   font-weight: 600;
+}
+
+h6 {
+  color: #9b9b9b;
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: rem(3px);
+  text-transform: uppercase;
+
+  a {
+    color: inherit;
+  }
 }
 
 p {
@@ -69,19 +83,19 @@ p {
   margin-bottom: .75rem;
 
   + h2 {
-    margin-top: 1.5rem;
+    margin-top: rem(24px);
   }
 }
 
-#layout {
+#layout { // scss-lint:disable IdSelector
   overflow: hidden;
 }
 
 .spaced {
   color: #9b9b9b;
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: 600;
-  letter-spacing: 3px;
+  letter-spacing: rem(3px);
   text-transform: uppercase;
 }
 

@@ -14,60 +14,24 @@
     }
   }
 
-  @at-root .white-container {
-    // scss-lint:disable NestingDepth
-
-    &--pressreleases {
-      @media (max-width: $max-width-xs) {
-        padding-bottom: 2rem;
-        padding-top: 12rem;
-      }
-
-      h3,
-      p,
-      li {
-        color: #333;
-      }
-
-      h1 {
-        color: #091721;
-
-        + p {
-          color: #475056;
-        }
-      }
-    }
-  }
-
-  @at-root .gray-container {
-    // scss-lint:disable NestingDepth
-
-    &--pressreleases {
-      @media (max-width: $max-width-xs) {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-      }
-    }
-  }
-
   .latest,
   .coverage {
     .date {
       color: #647886;
-      font-size: .8125rem;
+      font-size: rem(13px);
       font-weight: 700;
 
       time {
-        padding-bottom: 1.1875rem;
+        padding-bottom: rem(19px);
         position: relative;
 
         &::after {
           background-color: #e8e8e8;
           content: ' ';
           display: block;
-          height: .2rem;
+          height: rem(3px);
           margin-left: 1px;
-          margin-top: .8125rem;
+          margin-top: rem(13px);
           position: absolute;
           width: calc(75% - 2px);
         }
@@ -75,25 +39,24 @@
     }
 
     &--logo {
-      height: 2rem;
-      margin-bottom: 1rem;
-
-      img {
-        margin: 0;
+      img,
+      svg {
+        margin: 0 0 1rem;
+        margin-bottom: 1rem;
         max-height: 2rem;
-        max-width: 11.5rem;
+        max-width: rem(184px);
       }
     }
 
     h2 {
       color: #05131e;
-      font-size: 1.625rem;
+      font-size: rem(26px);
     }
 
     h3,
     h4 {
       color: #05131e;
-      font-size: 1.125rem;
+      font-size: rem(18px);
     }
   }
 
@@ -102,7 +65,7 @@
       color: #475056;
       font-size: .75rem;
       font-weight: 700;
-      letter-spacing: .2rem;
+      letter-spacing: rem(3.2px);
       text-transform: uppercase;
 
       &::after {
@@ -114,25 +77,25 @@
 
     .date {
       color: #091721;
-      font-size: .875rem;
+      font-size: rem(14px);
     }
 
     h3 {
-      font-size: 1.9rem;
+      font-size: rem(30.4px);
     }
 
     h4 {
-      font-size: 1.7rem;
+      font-size: rem(27.2px);
 
       // scss-lint:disable NestingDepth
       &::after {
         background-color: #091721;
         content: ' ';
         display: block;
-        height: .2rem;
-        margin-bottom: 1.2rem;
+        height: rem(3.2px);
+        margin-bottom: rem(19px);
         margin-left: 1px;
-        margin-top: .3rem;
+        margin-top: rem(4.8px);
         width: 3rem;
       }
     }
@@ -141,81 +104,6 @@
       color: #475056;
       font-size: .75rem;
       font-style: italic;
-    }
-  }
-
-  .social {
-    h4 {
-      font-size: 1.5rem;
-    }
-
-    &__icon {
-      padding-left: .25rem;
-      padding-right: .25rem;
-
-      @media (min-width: $min-width-sm) {
-        padding-left: .5rem;
-        padding-right: .5rem;
-      }
-
-      svg {
-        font-size: 9.6vw;
-        max-width: 2.5rem;
-        transition: .2s all;
-        width: 9.6vw;
-
-        @media (min-width: $min-width-sm) {
-          font-size: 2rem;
-          width: 2rem;
-        }
-      }
-
-      &:first-child {
-        padding-left: .5rem;
-      }
-
-      &:last-child {
-        padding-right: .5rem;
-      }
-    }
-
-    &__link {
-      transition: .2s all;
-
-      @each $network, $color in (
-        facebook: #3c5898,
-        github:   #25292e,
-        telegram: #179cdf,
-        youtube:  #ff0002,
-        reddit:   #ff4401,
-        twitter:  #1da1f2,
-        discord:  #18191c
-      ) {
-        &--#{$network} {
-          color: $color;
-
-          @media (min-width: $min-width-sm) {
-            position: relative;
-
-            &::after {
-              background: $color;
-              content: ' ';
-              display: block;
-              height: .2rem;
-              opacity: 0;
-              position: absolute;
-              top: 1.6rem;
-              transition: .2s all ease;
-              width: 0%;
-            }
-
-            &:hover::after {
-              opacity: 1;
-              width: 100%;
-            }
-          }
-        }
-      }
     }
   }
 }

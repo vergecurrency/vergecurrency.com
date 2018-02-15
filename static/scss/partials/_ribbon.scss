@@ -1,6 +1,6 @@
 .ribbon {
   color: $white;
-  min-height: 930px;
+  min-height: rem(930px);
   position: relative;
 
   h1 {
@@ -16,7 +16,7 @@
     color: rgba(255, 255, 255, .7); // scss-lint:disable ColorVariable
     font-weight: 400;
     margin-top: 1rem;
-    text-shadow: 0 0 9px rgba(0, 0, 0, .27); // scss-lint:disable ColorVariable
+    text-shadow: 0 0 rem(9px) rgba(0, 0, 0, .27); // scss-lint:disable ColorVariable
 
     a {
       color: rgba(255, 255, 255, .7); // scss-lint:disable ColorVariable
@@ -27,7 +27,7 @@
   &-img {
     background: url('/static/img/home-hero-bg.jpg') no-repeat center center;
     background-size: cover;
-    min-height: 930px;
+    min-height: rem(930px);
     min-width: 100%;
     position: absolute;
     z-index: -100;
@@ -37,42 +37,36 @@
     margin-top: 17.5vh;
 
     @media (min-width: $min-width-sm) {
-      margin-top: 180px;
+      margin-top: rem(180px);
     }
   }
 
   .btn {
     &-wallet {
-      &::before {
-        content: '';
-        font-family: 'FontAwesome', sans-serif;
+      svg {
         font-size: 1rem;
-        line-height: .8rem;
-        margin-right: 1rem;
+        margin-right: .75rem;
       }
     }
 
     &-video {
-      &::before {
-        content: '';
-        font-family: 'FontAwesome', sans-serif;
-        font-size: .8rem;
-        line-height: .8rem;
-        margin-right: 1rem;
+      svg {
+        font-size: .75rem;
+        margin-right: .75rem;
       }
     }
   }
 
   &--about,
   &--business {
-    // scss-lint:disable ColorVariable
+    // scss-lint:disable ColorVariable DuplicateProperty
 
     background: #042c42;
     background: -moz-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
     background: -webkit-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
     background: radial-gradient(ellipse at center, #042c42 0%, 05131e 46%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#042c42', endColorstr='#05131e', GradientType=1);
-    min-height: 770px;
+    min-height: rem(770px);
 
     p {
       color: $white;
@@ -81,16 +75,23 @@
 
   &--pressreleases,
   &--presskit {
-    min-height: 540px;
+    min-height: rem(540px);
   }
-  
-  &--about {
-    min-height: 400px;
+
+  &--about,
+  &--wallets {
+    // scss-lint:disable ColorVariable DuplicateProperty
+
     background: #042c42;
     background: -moz-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
-    background: -webkit-radial-gradient(center, ellipse cover, #042c42 0%,#05131e 46%);
-    background: radial-gradient(ellipse at center, #042c42 0%,#05131e 46%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#042c42', endColorstr='#05131e',GradientType=1 );
+    background: -webkit-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
+    background: radial-gradient(ellipse at center, #042c42 0%, #05131e 46%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#042c42', endColorstr='#05131e', GradientType=1);
+    min-height: 25rem;
+  }
+
+  &--wallets {
+    min-height: 35rem;
   }
 
   &--business {

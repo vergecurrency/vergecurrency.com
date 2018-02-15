@@ -1,7 +1,7 @@
 .presskit {
   .logos {
     img {
-      border: .3rem solid $white;
+      border: rem(5px) solid $white;
       box-shadow: 0 0 .5rem 1px rgba(128, 128, 128, .24); // scss-lint:disable ColorVariable
       box-sizing: content-box;
       margin-bottom: 3rem;
@@ -28,7 +28,7 @@
           background-color: $_hex;
           box-shadow: -.5rem -.25rem 1rem 1px rgba(164, 164, 164, .99); // scss-lint:disable ColorVariable
           height: 9rem;
-          margin-bottom: .8rem;
+          margin-bottom: rem(13px);
 
           @media (min-width: $min-width-sm) {
             height: 8rem;
@@ -48,11 +48,11 @@
     }
 
     p {
-      font-size: .9rem;
-      padding: 0 .2rem;
+      font-size: rem(14px);
+      padding: 0 rem(3px);
 
       @media (min-width: $min-width-sm) {
-        font-size: .8rem;
+        font-size: rem(13px);
       }
 
       small {
