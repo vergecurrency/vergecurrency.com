@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 import Layout from '../components/Layout';
 
 import { translate } from 'react-i18next';
@@ -9,8 +8,8 @@ const Wallets = function (props) {
   const { t } = props;
 
   const handleScrollToElement = (event) => {
-    const tesNode = document.getElementById('wallets');
-    window.scrollTo(0, tesNode.offsetTop);
+    const allWallets = document.getElementById('wallets');
+    window.scrollTo(0, allWallets.offsetTop);
   }
 
   return (
