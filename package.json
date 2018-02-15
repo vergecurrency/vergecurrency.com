@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://StanFaas@bitbucket.org/StanFaas/vergecurrency.com.git"
+    "url": "git@github.com:StanFaas/vergecurrency.com-new.git"
   },
   "keywords": [],
   "author": "Stan Faas & Edwin de Boer",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/StanFaas/vergecurrency.com#readme",
+  "homepage": "https://www.vergecurrency.com",
   "dependencies": {
     "@alienfast/i18next-loader": "^1.0.14",
     "@fortawesome/fontawesome": "^1.1.3",
