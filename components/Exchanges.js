@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Router from 'next/router'
 
 const exchangeLocale = require('../locales/index').en.exchanges.exchanges;
 
@@ -8,7 +9,7 @@ const Exchanges = function (props) {
   
   exchangeLocale.map(x => {
     exchanges.push(
-      <div className="col-xs col-md-3" key={key}>
+      <div className="col-xs col-md-3" key={key} onClick={() => location.href = x.url}>
         <div className="exchanges--item">
           <div className="exchanges--item__logo">
             <img src={x.img} width="40" />

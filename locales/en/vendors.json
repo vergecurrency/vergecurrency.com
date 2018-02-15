@@ -2,32 +2,32 @@
   "vendors": [
     {
       "title": "CryptoVFX",
-      "logo": "../static/img/vendors/CryptoVFX.png",
+      "img": "../static/img/vendors/latest/CryptoVFX.png",
       "link": "#"
     },
     {
       "title": "HODL",
-      "logo": "../static/img/vendors/HODL.jpg",
+      "img": "../static/img/vendors/latest/HODL.jpg",
       "link": "#"
     },
     {
       "title": "Nexwave",
-      "logo": "../static/img/vendors/Nexwave.png",
+      "img": "../static/img/vendors/latest/Nexwave.png",
       "link": "#"
     },
     {
       "title": "PMC",
-      "logo": "../static/img/vendors/PMC.png",
+      "img": "../static/img/vendors/latest/PMC.png",
       "link": "#"
     },
     {
       "title": "Reno Sports Bar",
-      "logo": "../static/img/vendors/RenoSportsBar.jpg",
+      "img": "../static/img/vendors/latest/RenoSportsBar.jpg",
       "link": "#"
     },
     {
       "title": "Snel",
-      "logo": "../static/img/vendors/Snel.png",
+      "img": "../static/img/vendors/latest/Snel.png",
       "link": "#"
     }
   ]

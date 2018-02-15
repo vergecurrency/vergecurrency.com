@@ -14,8 +14,8 @@ const Vendors = function (props) {
             <img src={x.img} width="40" />
           </div>
           <div className="vendors--item__name">
-            <span>{x.title}</span>
-            <span>{x.link}</span>
+            <a href={x.link} target="_blank"><span>{x.title}</span></a>
+            {/* <span>{x.link}</span> */}
           </div>
         </div>
       </div>
