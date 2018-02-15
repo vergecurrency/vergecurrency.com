@@ -4,7 +4,10 @@ import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import brands from '@fortawesome/fontawesome-free-brands'
+import { faFacebook, faGithub, faTelegram,
+         faYoutube,  faReddit, faTwitter, faDiscord
+       } from '@fortawesome/fontawesome-free-brands'
+
 import Moment from 'react-moment';
 import 'moment-timezone';
 
@@ -110,37 +113,37 @@ const Pressrelease = function (props) {
                     <div className="row start-xs center-sm between-md pb-xs">
                       <div className="pt-xs social__icon">
                         <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
-                          <a className="social__link social__link--facebook"><FontAwesomeIcon icon={ ["fab","facebook"] } size="2x" /></a>
+                          <a className="social__link social__link--facebook"><FontAwesomeIcon icon={ faFacebook } size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://github.com/vergecurrency?tab=repositories" target="_blank">
-                          <a className="social__link social__link--github"><FontAwesomeIcon icon={ ["fab","github"] } size="2x" /></a>
+                          <a className="social__link social__link--github"><FontAwesomeIcon icon={ faGithub } size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://t.me/VERGExvg" target="_blank">
-                          <a className="social__link social__link--telegram"><FontAwesomeIcon icon={ ["fab","telegram"] } size="2x" /></a>
+                          <a className="social__link social__link--telegram"><FontAwesomeIcon icon={ faTelegram } size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank">
-                          <a className="social__link social__link--youtube"><FontAwesomeIcon icon={ ["fab","youtube"] } size="2x" /></a>
+                          <a className="social__link social__link--youtube"><FontAwesomeIcon icon={ faYoutube } size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://www.reddit.com/r/vergecurrency/" target="_blank">
-                          <a className="social__link social__link--reddit"><FontAwesomeIcon icon={ ["fab","reddit"] } size="2x" /></a>
+                          <a className="social__link social__link--reddit"><FontAwesomeIcon icon={ faReddit } size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://www.twitter.com/vergecurrency" target="_blank">
-                          <a className="social__link social__link--twitter"><FontAwesomeIcon icon={ ["fab","twitter"] } size="2x" /></a>
+                          <a className="social__link social__link--twitter"><FontAwesomeIcon icon={ faTwitter } size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://discord.gg/vergecurrency" target="_blank">
-                          <a className="social__link social__link--discord"><FontAwesomeIcon icon={ ["fab","discord"] } size="2x" /></a>
+                          <a className="social__link social__link--discord"><FontAwesomeIcon icon={ faDiscord } size="2x" /></a>
                         </Link>
                       </div>
                     </div>
