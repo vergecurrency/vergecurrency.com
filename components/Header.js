@@ -41,8 +41,8 @@ const Header = ({ t }) => (
             <Link href="/roadmap">
               <a>{t('header:roadmap', { defaultValue: 'Roadmap' } )}</a>
             </Link>
-            <Link href="/community">
-              <a>{t('header:community', { defaultValue: 'Community' } )}</a>
+            <Link href="/vendors">
+              <a>{t('header:vendors', { defaultValue: 'Vendors' } )}</a>
             </Link>
             <Link href="/resources/introduction">
               <a>{t('header:resources', { defaultValue: 'Resources' } )}</a>
