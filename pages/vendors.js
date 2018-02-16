@@ -20,10 +20,10 @@ const VendorsPage = (props) => {
           </div>
           <Vendors />
           <div className="row pt">
-            <div className="col-xs-12 col-sm-9">
-              <span className="spaced">lorem ipsum dolor simit</span>
+            <div className="col-xs-12 col-sm-7 col-sm-offset-1">
+              <h3>Are you interested in Verge Currency? Start accepting Verge today!</h3>
             </div>
-            <div className="col-xs-12 col-sm-3">
+            <div className="col-xs-12 col-sm-3 col-sm-offset-1">
               <a className="btn btn-primary">Accept verge today</a>
             </div>
           </div>
