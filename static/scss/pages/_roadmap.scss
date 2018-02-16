@@ -69,9 +69,7 @@
       color: #091721;
 
       &::after {
-        content: '';
-        font-family: "FontAwesome", sans-serif;
-        margin-left: rem(10px);
+        @extend %gray-arrow-right;
       }
     }
   }

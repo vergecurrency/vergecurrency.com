@@ -39,6 +39,12 @@ $colors: (
   @return $pixels / ($size / (1rem * 1));
 }
 
+%gray-arrow-right {
+  content: '\2192';
+  font-size: 1rem;
+  margin-left: .5rem;
+}
+
 //Partials
 // @import 'partials/menu';
 @import 'partials/header';

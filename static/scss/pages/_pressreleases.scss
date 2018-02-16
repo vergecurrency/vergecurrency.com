@@ -69,9 +69,7 @@
       text-transform: uppercase;
 
       &::after {
-        content: '\2192';
-        font-size: 1rem;
-        margin-left: .5rem;
+        @extend %gray-arrow-right;
       }
     }
 

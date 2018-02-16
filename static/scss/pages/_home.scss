@@ -45,9 +45,7 @@
       margin-top: rem(40px);
 
       &::after {
-        content: '';
-        font-family: "FontAwesome", sans-serif;
-        margin-left: rem(10px);
+        @extend %gray-arrow-right;
       }
     }
 
@@ -111,12 +109,8 @@
     &--list {
       display: block;
 
-      a {
-        &::after {
-          content: '';
-          font-family: "FontAwesome", sans-serif;
-          margin-left: rem(10px);
-        }
+      a::after {
+        @extend %gray-arrow-right;
       }
     }
 
@@ -136,9 +130,7 @@
       color: #091721;
 
       &::after {
-        content: '';
-        font-family: "FontAwesome", sans-serif;
-        margin-left: rem(10px);
+        @extend %gray-arrow-right;
       }
     }
   }
