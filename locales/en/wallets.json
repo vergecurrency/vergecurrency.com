@@ -1,8 +1,10 @@
 {
   "wallets": [
     {
-      "name": "ios wallet",
-      "img": "./src/img.jpg"
+      "name": "Tor Android Wallet",
+      "url": "#",
+      "classNames": "wallets--icon__android",
+      "available": true
     }
   ]
 }

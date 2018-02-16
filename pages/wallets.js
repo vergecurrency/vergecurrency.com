@@ -4,7 +4,11 @@ import Layout from '../components/Layout';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-const Wallets = function (props) {
+import fontawesome from '@fortawesome/fontawesome'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faApple } from '@fortawesome/fontawesome-free-brands'
+
+const WalletsPage = function (props) {
   const { t } = props;
 
   const handleScrollToElement = (event) => {
@@ -24,7 +28,7 @@ const Wallets = function (props) {
                   <p>Download our latest Core wallet to store <br />
                     your Verge Currency with.</p>
                   <Link href="/">
-                    <a className="btn btn-primary btn-wallet">{t("home:ribbon.buttonPrimary")}</a>
+                    <a className="btn btn-primary btn-wallet"><FontAwesomeIcon icon={faApple} /> {t("home:ribbon.buttonPrimary")}</a>
                   </Link>
                   <a onClick={() => handleScrollToElement()} className="btn btn-white">See all our wallets</a>
                 </div>
@@ -177,6 +181,6 @@ const Wallets = function (props) {
   )
 }
 
-const Extended = translate(['common', 'wallets'], { i18n, wait: process.browser })(Wallets);
+const Extended = translate(['common', 'wallets'], { i18n, wait: process.browser })(WalletsPage);
 
 export default Extended;

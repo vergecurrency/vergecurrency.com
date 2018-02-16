@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Exchanges from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
+import Mentions from '../components/Mentions';
 
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
@@ -16,17 +17,6 @@ import i18n from '../i18n';
 
 const Home = function (props) {
   const { t } = props;
-  let mentions = [];
-
-  for (let i = 1; i < 6; i++) {
-    mentions.push(
-      <div className="col-xs-12 col-sm-4 col-md center-xs middle-xs col--full-height pb-xs" key={ i }>
-        <Link href={t("home:mentioned.mention_" + i + ":url")}>
-          <a><img src={t("home:mentioned.mention_" + i + ":img")} width={t("home:mentioned.mention_" + i + ":width")} />{/* TODO: Keep this clean. Translations aren't meant for this.. */ }</a>
-        </Link>
-      </div>
-    );
-  }
 
   return (
     <Layout>
@@ -40,7 +30,7 @@ const Home = function (props) {
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t("home:ribbon.title") }}></h1>
                   <p>{t("home:ribbon.text")}</p>
-                  <Link href="/">
+                  <Link href="/wallets">
                     <a className="btn btn-primary btn-wallet"><FontAwesomeIcon icon={ faApple } /> {t("home:ribbon.buttonPrimary")}</a>
                   </Link>
                   <Link href="/">
@@ -77,10 +67,7 @@ const Home = function (props) {
             <div className="row center-xs mentions">
               <div className="col-xs-11 col-sm-11 center-xs">
                 <h6>{t("home:mentioned.mentioned_in")}</h6>
-
-                <div className="row center-xs middle-xs pt-xs pb-xs">
-                  { mentions }
-                </div>
+                <Mentions />
               </div>
             </div>
 
@@ -218,7 +205,7 @@ const Home = function (props) {
                   <h6>Empowering people</h6>
                   <h3>Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.</h3>
                   <p>With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.</p>
-                  <Link href="#">
+                  <Link href="/get-verge">
                     <a className="btn btn-secondary">Get Verge</a>
                   </Link>
                 </div>
@@ -228,7 +215,7 @@ const Home = function (props) {
               <div className="row">
                 <div className="col-sm-6 col-xs-12">
                   <h6>
-                    <Link href="#">
+                    <Link href="/exchanges">
                       <a className="wallets--url spaced">See more exchanges</a>
                     </Link>
                   </h6>
@@ -247,10 +234,10 @@ const Home = function (props) {
                     <h2>Powering real world vendors that accept Verge Currency</h2>
                     <p>All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.<br /><br />
                     Get started today and accept Verge in your store.</p>
-                    <Link href="#">
+                    <Link href="/vendors">
                       <a className="btn btn-primary btn-primary--on-white-bg">Accept Verge Today</a>
                     </Link>
-                    <Link href="#">
+                    <Link href="/vendors">
                       <a className="btn btn-tertiary">See all vendors</a>
                     </Link>
                   </div>
@@ -265,7 +252,7 @@ const Home = function (props) {
                 <div className="col-xs-12">
                   <h2>Latest vendors to accept Verge</h2>
                   <h6>
-                    <Link href="#">
+                    <Link href="/vendors">
                       <a className="spaced">See all vendors here</a>
                     </Link>
                   </h6>
@@ -313,7 +300,7 @@ const Home = function (props) {
                   </ul>
 
                   <h6>
-                    <Link href="#">
+                    <Link href="/roadmap">
                       <a className="spaced pt">Full roadmap here</a>
                     </Link>
                   </h6>
@@ -324,7 +311,7 @@ const Home = function (props) {
               <div className="row pt pb center-xs middle-xs">
                 <div className="col-sm-8">
                   <h6>
-                    <Link href="#">
+                    <Link href="/blog">
                       <a className="spaced">Go to the blog</a>
                     </Link>
                   </h6>

@@ -51,7 +51,7 @@ const Header = ({ t }) => (
               <a>{t('header:get_verge', { defaultValue: 'Get Verge' } )}</a>
             </Link>
 
-            <a href="#" className="menu--hamburger"></a>
+            {/* <a href="#" className="menu--hamburger"></a> */}
           </div>
         </nav>
       </div>
