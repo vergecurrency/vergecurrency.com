@@ -25,6 +25,11 @@ $padding-vertical-mobile-xlg: 6rem;
   justify-content: center;
 }
 
+.col--horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
 .mb-thin {
   margin-bottom: .5rem;
 }
