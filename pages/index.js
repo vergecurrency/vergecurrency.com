@@ -82,35 +82,37 @@ const Home = function (props) {
             </div>
 
             <div className="themed-container--blue themed-container--blue--home">
-              <div className="row center-xs start-sm benefits">
-                <div className="col-xs-9 col-sm-5 col-md-3 col-md-offset-1 start-sm">
-                  <div className="benefits--item">
-                    <h6>{t("home:benefits.benefit_1.title")}</h6>
-                    <p>{t("home:benefits.benefit_1.text")}</p>
+              <div className="row center-xs">
+                <div className="col-xs-9 col-sm-5 col-md-6">
+                  <div className="row start-xs benefits pb-xs">
+                    <div className="col-xs-12 col-md-6 pb pb-xs-0">
+                      <h6>{t("home:benefits.benefit_1.title")}</h6>
+                      <p>{t("home:benefits.benefit_1.text")}</p>
+                    </div>
+                    <div className="col-xs-12 col-md-6 pt-xs pb pb-xs-0">
+                      <h6>{t("home:benefits.benefit_2.title")}</h6>
+                      <p>{t("home:benefits.benefit_2.text")}</p>
+                    </div>
+                    <div className="col-xs-12 col-md-6 pb pb-xs-0 pt-xs">
+                      <h6>{t("home:benefits.benefit_3.title")}</h6>
+                      <p>{t("home:benefits.benefit_3.text")}</p>
+                    </div>
+                    <div className="col-xs-12 col-md-6 pt-xs">
+                      <h6>{t("home:benefits.benefit_4.title")}</h6>
+                      <p>{t("home:benefits.benefit_4.text")}</p>
+                    </div>
                   </div>
-                  <div className="benefits--item pt-lg">
-                    <h6>{t("home:benefits.benefit_1.title")}</h6>
-                    <p>{t("home:benefits.benefit_1.text")}</p>
-                  </div>
-                  <h6>
+                  <h6 className="center-xs start-sm">
                     <Link href={t("home:benefits.link:url")}>
-                      <a className="benefits--url spaced">{t("home:benefits.link.title")}</a>
+                      <a className="benefits--url">{t("home:benefits.link.title")}</a>
                     </Link>
                   </h6>
                 </div>
-                <div className="col-xs-9 col-md-3 col-md-offset-1">
-                  <div className="benefits--item">
-                    <h6>{t("home:benefits.benefit_3.title")}</h6>
-                    <p>{t("home:benefits.benefit_3.text")}</p>
+                <div className="col-sm-5 col-md-4 col-md-3 hidden-xs">
+                  <div className="benefits--imgs hidden-xs">
+                    <img src="../static/img/benefits-desktop.png" />
+                    <img src="../static/img/benefits-mobile.png" />
                   </div>
-                  <div className="benefits--item pt-lg">
-                    <h6>{t("home:benefits.benefit_4.title")}</h6>
-                    <p>{t("home:benefits.benefit_4.text")}</p>
-                  </div>
-                </div>
-                <div className="col-md-4 benefits--imgs hidden-xs">
-                  <img src="../static/img/benefits-desktop.png" />
-                  <img src="../static/img/benefits-mobile.png" />
                 </div>
               </div>
             </div>
