@@ -42,7 +42,7 @@ const Home = function (props) {
             </div>
           </div>
         </div>
-        <div className="container themed-container--blue themed-container--blue--home">
+        <div className="container themed-container--dark themed-container--dark--home">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
@@ -80,9 +80,10 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
-            <div className="benefits"> {/* TODO: refactor into themed container */}
-              <div className="row center-xs start-sm pt-lg pb-lg">
-                <div className="col-xs-9 col-md-3 col-md-offset-1">
+
+            <div className="themed-container--blue themed-container--blue--home">
+              <div className="row center-xs start-sm benefits">
+                <div className="col-xs-9 col-sm-5 col-md-3 col-md-offset-1 start-sm">
                   <div className="benefits--item">
                     <h6>{t("home:benefits.benefit_1.title")}</h6>
                     <p>{t("home:benefits.benefit_1.text")}</p>
@@ -113,6 +114,7 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
+
             <div className="wallets pt-lg pb-lg">
               <div className="row center-xs start-sm">
                 <div className="col-sm-6 col-xs-9 start-xs">
