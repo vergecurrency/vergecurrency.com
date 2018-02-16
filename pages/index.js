@@ -126,75 +126,75 @@ const Home = function (props) {
               </div>
               <div className="row center-xs start-sm">
                 <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                    <div className="wallets--icon wallets--icon__android wallets--icon__android--tor"></div>
-                    <div className="wallets--text">
+                  <a href="#">
+                    <span className="wallets--icon wallets--icon__android wallets--icon__android--tor"></span>
+                    <span className="wallets--text">
                       <h4>Tor Android Wallet</h4>
                       <span>Download here</span>
-                    </div>
+                    </span>
                   </a>
                 </div>
                 <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                    <div className="wallets--icon wallets--icon__apple"></div>
-                    <div className="wallets--text">
+                  <a href="#">
+                    <span className="wallets--icon wallets--icon__apple"></span>
+                    <span className="wallets--text">
                       <h4>OSX Electrum Wallet</h4>
                       <span>Download here</span>
-                    </div>
+                    </span>
                   </a>
                 </div>
                 <div className="col-xs-9 col-md-3 wallets--item start-xs wallets--item__disabled">
-                  <a href="#">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                    <div className="wallets--icon wallets--icon__apple"></div>
-                    <div className="wallets--text">
+                  <a href="#">
+                    <span className="wallets--icon wallets--icon__apple"></span>
+                    <span className="wallets--text">
                       <h4>Apple iOS Wallet</h4>
                       <span>Available soon!</span>
-                    </div>
+                    </span>
                   </a>
                 </div>
                 <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                    <div className="wallets--icon wallets--icon__apple wallets--icon__apple--tor"></div>
-                    <div className="wallets--text">
+                  <a href="#">
+                    <span className="wallets--icon wallets--icon__apple wallets--icon__apple--tor"></span>
+                    <span className="wallets--text">
                       <h4>OSX Tor Electrum Wallet</h4>
                       <span>Download here</span>
-                    </div>
+                    </span>
                   </a>
                 </div>
                 <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                    <div className="wallets--icon wallets--icon__windows"></div>
-                    <div className="wallets--text">
+                  <a href="#">
+                    <span className="wallets--icon wallets--icon__windows"></span>
+                    <span className="wallets--text">
                       <h4>Windows Electrum Wallet</h4>
                       <span>Download here</span>
-                    </div>
+                    </span>
                   </a>
                 </div>
                 <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                    <div className="wallets--icon wallets--icon__windows wallets--icon__windows--tor"></div>
-                    <div className="wallets--text">
+                  <a href="#">
+                    <span className="wallets--icon wallets--icon__windows wallets--icon__windows--tor"></span>
+                    <span className="wallets--text">
                       <h4>Windows Tor Wallet</h4>
                       <span>Download here</span>
-                    </div>
+                    </span>
                   </a>
                 </div>
                 <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                    <div className="wallets--icon wallets--icon__linux"></div>
-                    <div className="wallets--text">
+                  <a href="#">
+                    <span className="wallets--icon wallets--icon__linux"></span>
+                    <span className="wallets--text">
                       <h4>Linux Electrum Wallet</h4>
                       <span>Download here</span>
-                    </div>
+                    </span>
                   </a>
                 </div>
                 <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                    <div className="wallets--icon wallets--icon__linux wallets--icon__linux--tor"></div>
-                    <div className="wallets--text">
+                  <a href="#">
+                    <span className="wallets--icon wallets--icon__linux wallets--icon__linux--tor"></span>
+                    <span className="wallets--text">
                       <h4>Linux Tor Electrum Wallet</h4>
                       <span>Download here</span>
-                    </div>
+                    </span>
                   </a>
                 </div>
               </div>
