@@ -1,4 +1,5 @@
 import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
 
 import VergeLogoWhite from '../static/img/verge-logo-white.svg';
 
@@ -9,6 +10,10 @@ import Router from 'next/router';
 import NProgress from 'nprogress';
 
 import Navbar from './Navbar';
+import MenuItems from './MenuItems';
+
+import { translate } from 'react-i18next';
+import i18n from '../i18n';
 
 Router.onRouteChangeStart = (url) => NProgress.start();
 Router.onRouteChangeComplete = () => NProgress.done();
@@ -31,27 +36,13 @@ const Header = ({ t }) => (
           </Link>
         </div>
         <nav className="col-xs-5 col-sm end-xs menu">
-          <div className="links hidden-xs">
-            <Link prefetch href="/about">
-              <a>{t('header:about', { defaultValue: 'About' } )}</a>
-            </Link>
-            <Link href="/wallets">
-              <a>{t('header:wallets', { defaultValue: 'Wallets' } )}</a>
-            </Link>
-            <Link href="/roadmap">
-              <a>{t('header:roadmap', { defaultValue: 'Roadmap' } )}</a>
-            </Link>
-            <Link href="/vendors">
-              <a>{t('header:vendors', { defaultValue: 'Vendors' } )}</a>
-            </Link>
-            <Link href="/resources/introduction">
-              <a>{t('header:resources', { defaultValue: 'Resources' } )}</a>
-            </Link>
-            <Link prefetch href="/get-verge">
-              <a>{t('header:get_verge', { defaultValue: 'Get Verge' } )}</a>
-            </Link>
-
-            {/* <a href="#" className="menu--hamburger"></a> */}
+          <div className="hidden-xs">
+            <MenuItems t={t} />
+          </div>
+          <div className="visible-xs">
+            <Menu right>
+              <MenuItems t={t} />
+            </Menu>  
           </div>
         </nav>
       </div>
