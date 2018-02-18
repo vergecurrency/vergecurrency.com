@@ -110,17 +110,23 @@
   }
 
   .vendors {
-    background: #daf0ff;
-
-    h6 {
-      color: #769bb4;
+    h2 {
+      color: #333;
+      font-size: rem(27px);
+      margin-bottom: 1.5rem;
     }
 
-    &--story {
-      p {
-        color: #4e555a;
-        font-size: 1rem;
-        line-height: rem(26px);
+    p {
+      color: #4e555a;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn + .btn {
+      margin-bottom: 1.5rem;
+
+      @media (min-width: $min-width-sm) {
+        margin-bottom: 0;
+        margin-left: 1rem;
       }
     }
 
@@ -132,13 +138,28 @@
       }
     }
 
-    &--imgs {
+    &--img {
+      max-width: 80vw;
       position: relative;
+      right: -10%;
+      transition: .2s all;
 
-      img {
+      @media (min-width: $min-width-sm) {
+        height: 50%;
+        max-width: auto;
         position: absolute;
-        right: rem(7px);
-        top: rem(-100px);
+        right: 0;
+        top: 8rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        height: 80%;
+        top: 4rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        height: 75%;
+        top: 4.5rem;
       }
     }
   }

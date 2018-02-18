@@ -241,29 +241,32 @@ const Home = function (props) {
                     </div>
                   </div>
                 </div>
+
                 <Cointicker />
-                
               </div>
             </div>
 
-            <div className="vendors">
-              <div className="row pt-xlg pb-xlg">
-                <div className="col-md-5 col-md-offset-1">
-                  <div className="vendors--story">
-                    <h6>Accept Verge Currency</h6>
-                    <h2>Powering real world vendors that accept Verge Currency</h2>
-                    <p>All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.<br /><br />
-                    Get started today and accept Verge in your store.</p>
-                    <Link href="/vendors">
-                      <a className="btn btn-primary btn-primary--on-white-bg">Accept Verge Today</a>
+            <div className="themed-container--blue themed-container--blue--home">
+              <div className="container">
+                <div className="row center-xs middle-xs vendors pb">
+                  <div className="col-xs-11 col-sm-6 col-md-5 start-xs">
+                    <h6>{t('home:vendors.super', { defaultValue: 'Accept Verge Currency' } )}</h6>
+                    <h2>{t('home:vendors.title', { defaultValue: 'Powering real world vendors that accept Verge Currency' } )}</h2>
+
+                    <p>{t('home:vendors.text-1', { defaultValue: 'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.' } )}</p>
+                    <p>{t('home:vendors.text-2', { defaultValue: 'Get started today and accept Verge in your store.' } )}</p>
+
+                    <Link href="/get-verge">
+                      <a className="btn btn-primary btn-primary--on-white-bg">{t("home:vendors.buttonPrimary", { defaultValue: 'Accept Verge today' } )}</a>
                     </Link>
                     <Link href="/vendors">
-                      <a className="btn btn-tertiary">See all vendors</a>
+                      <a className="btn btn-tertiary">{t("home:vendors.buttonTertiary", { defaultValue: 'See all vendors' } )}</a>
                     </Link>
                   </div>
-                </div>
-                <div className="col-md-6 vendors--imgs">
-                  <img src="../static/img/vendors/vendor-story.png" />
+
+                  <div className="col-xs-11 col-sm-4 col-md-5 end-xs">
+                    <img className="vendors--img" src="../static/img/vendors/vendor-story.png" />
+                  </div>
                 </div>
               </div>
             </div>
