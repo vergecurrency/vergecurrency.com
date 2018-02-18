@@ -12,7 +12,7 @@ import { faPlay } from '@fortawesome/fontawesome-free-solid'
 
 import fetch from 'isomorphic-unfetch';
 
-import { translate } from 'react-i18next';
+import { translate, Interpolate } from 'react-i18next';
 import i18n from '../i18n';
 
 const Home = function (props) {
@@ -65,13 +65,13 @@ const Home = function (props) {
         <div className="themed-container themed-container--home">
           <div className="container">
             <div className="row center-xs mentions">
-              <div className="col-xs-11 col-sm-11 center-xs">
+              <div className="col-xs-11 center-xs">
                 <h6>{t("home:mentioned.mentioned_in")}</h6>
                 <Mentions />
               </div>
             </div>
 
-            <div className="row center-xs middle-xs pt pb-lg intro">
+            <div className="row center-xs middle-xs pt intro">
               <div className="col-xs-9 col-sm-6">
                 <span className="spaced">{t("home:intro.span")}</span>
                 <div className="pt-xs">
@@ -117,89 +117,97 @@ const Home = function (props) {
               </div>
             </div>
 
-            <div className="wallets pt-lg pb-lg">
-              <div className="row center-xs start-sm">
-                <div className="col-sm-6 col-xs-9 start-xs">
-                  <h6>
-                    <Link href={t("home:wallets.link.url")}>
-                      <a className="wallets--url spaced">{t("home:wallets.link.title")}</a>
-                    </Link>
-                  </h6>
-                  <h2>{t("home:wallets.header")}</h2>
-                </div>
-              </div>
-              <div className="row center-xs start-sm">
-                <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">
-                    <span className="wallets--icon wallets--icon__android wallets--icon__android--tor"></span>
-                    <span className="wallets--text">
-                      <h4>Tor Android Wallet</h4>
-                      <span>Download here</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">
-                    <span className="wallets--icon wallets--icon__apple"></span>
-                    <span className="wallets--text">
-                      <h4>OSX Electrum Wallet</h4>
-                      <span>Download here</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="col-xs-9 col-md-3 wallets--item start-xs wallets--item__disabled">
-                  <a href="#">
-                    <span className="wallets--icon wallets--icon__apple"></span>
-                    <span className="wallets--text">
-                      <h4>Apple iOS Wallet</h4>
-                      <span>Available soon!</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">
-                    <span className="wallets--icon wallets--icon__apple wallets--icon__apple--tor"></span>
-                    <span className="wallets--text">
-                      <h4>OSX Tor Electrum Wallet</h4>
-                      <span>Download here</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">
-                    <span className="wallets--icon wallets--icon__windows"></span>
-                    <span className="wallets--text">
-                      <h4>Windows Electrum Wallet</h4>
-                      <span>Download here</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">
-                    <span className="wallets--icon wallets--icon__windows wallets--icon__windows--tor"></span>
-                    <span className="wallets--text">
-                      <h4>Windows Tor Wallet</h4>
-                      <span>Download here</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">
-                    <span className="wallets--icon wallets--icon__linux"></span>
-                    <span className="wallets--text">
-                      <h4>Linux Electrum Wallet</h4>
-                      <span>Download here</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                  <a href="#">
-                    <span className="wallets--icon wallets--icon__linux wallets--icon__linux--tor"></span>
-                    <span className="wallets--text">
-                      <h4>Linux Tor Electrum Wallet</h4>
-                      <span>Download here</span>
-                    </span>
-                  </a>
+            <div className="wallets">
+              <div className="row center-xs mentions">
+                <div className="col-xs-9 col-sm-10 center-xs">
+                  <div className="row center-xs start-md">
+                    <div className="col-xs-12 col-lg-10">
+                      <div className="start-sm pb-small">
+                        <h6>
+                          <Link href={t("home:wallets.link.url")}>
+                            <a className="wallets--url spaced">{t("home:wallets.link.title")}</a>
+                          </Link>
+                        </h6>
+                        <h2>
+                          <Interpolate i18nKey="home:wallets.header" br={ <span> <br className="hidden-xs" /></span> } />
+                        </h2>
+                      </div>
+                      <div className="row center-xs start-sm">
+                        <div className="col-xs-12 col-sm-6 col-md-4 wallets--item start-xs">
+                          <a href="#">
+                            <span className="wallets--icon wallets--icon__android wallets--icon__android--tor"></span>
+                            <span className="wallets--text">
+                              <h4>Tor Android Wallet</h4>
+                              <span>Download here</span>
+                            </span>
+                          </a>
+                        </div>
+                        <div className="col-xs-12 col-sm-5 col-md-4 wallets--item start-xs">
+                          <a href="#">
+                            <span className="wallets--icon wallets--icon__apple"></span>
+                            <span className="wallets--text">
+                              <h4>OSX Electrum Wallet</h4>
+                              <span>Download here</span>
+                            </span>
+                          </a>
+                        </div>
+                        <div className="col-xs-12 col-sm-6 col-md-4 wallets--item start-xs wallets--item__disabled">
+                          <a href="#">
+                            <span className="wallets--icon wallets--icon__apple"></span>
+                            <span className="wallets--text">
+                              <h4>Apple iOS Wallet</h4>
+                              <span>Available soon!</span>
+                            </span>
+                          </a>
+                        </div>
+                        <div className="col-xs-12 col-sm-5 col-md-4 wallets--item start-xs">
+                          <a href="#">
+                            <span className="wallets--icon wallets--icon__apple wallets--icon__apple--tor"></span>
+                            <span className="wallets--text">
+                              <h4>OSX Tor Electrum Wallet</h4>
+                              <span>Download here</span>
+                            </span>
+                          </a>
+                        </div>
+                        <div className="col-xs-12 col-sm-6 col-md-4 wallets--item start-xs">
+                          <a href="#">
+                            <span className="wallets--icon wallets--icon__windows"></span>
+                            <span className="wallets--text">
+                              <h4>Windows Electrum Wallet</h4>
+                              <span>Download here</span>
+                            </span>
+                          </a>
+                        </div>
+                        <div className="col-xs-12 col-sm-5 col-md-4 wallets--item start-xs">
+                          <a href="#">
+                            <span className="wallets--icon wallets--icon__windows wallets--icon__windows--tor"></span>
+                            <span className="wallets--text">
+                              <h4>Windows Tor Wallet</h4>
+                              <span>Download here</span>
+                            </span>
+                          </a>
+                        </div>
+                        <div className="col-xs-12 col-sm-6 col-md-4 wallets--item start-xs">
+                          <a href="#">
+                            <span className="wallets--icon wallets--icon__linux"></span>
+                            <span className="wallets--text">
+                              <h4>Linux Electrum Wallet</h4>
+                              <span>Download here</span>
+                            </span>
+                          </a>
+                        </div>
+                        <div className="col-xs-12 col-sm-5 col-md-4 wallets--item start-xs">
+                          <a href="#">
+                            <span className="wallets--icon wallets--icon__linux wallets--icon__linux--tor"></span>
+                            <span className="wallets--text">
+                              <h4>Linux Tor Electrum Wallet</h4>
+                              <span>Download here</span>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -215,7 +223,7 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
-            <div className="exchanges pt-lg pb-lg">
+            <div className="exchanges pb-lg">
               <div className="row">
                 <div className="col-sm-6 col-xs-12">
                   <h6>

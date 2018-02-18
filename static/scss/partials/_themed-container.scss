@@ -95,7 +95,8 @@
       color: #1a3d55;
     }
 
-    h3, h6 {
+    h3,
+    h6 {
       color: #1a3d55;
     }
 
@@ -113,6 +114,11 @@
 
     &--pressreleases {
       margin-bottom: 6rem;
+    }
+
+    &--home {
+      margin-bottom: 6rem;
+      margin-top: 6rem;
     }
   }
 
@@ -144,8 +150,8 @@
     @at-root .themed-container {
       & &--dark--home {
         background-color: #07121b;
-        margin-bottom: 0;
-        margin-top: 0;
+        margin-bottom: 6rem;
+        margin-top: 6rem;
         padding-bottom: 4rem;
         padding-top: 4rem;
 
