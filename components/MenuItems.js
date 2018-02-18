@@ -5,7 +5,7 @@ const MenuItems = ({ t }) => {
   return (
     <div className="links">
       <Link prefetch href="/">
-        <a className="hidden-sm">{t('header:home', { defaultValue: 'Home' })}</a>
+        <a className="visible-xs">{t('header:home', { defaultValue: 'Home' })}</a>
       </Link>
       <Link prefetch href="/about">
         <a>{t('header:about', { defaultValue: 'About' })}</a>
