@@ -11,7 +11,7 @@ const mentions = function (props) {
     mentions.push(
       <div className="col-xs-12 col-sm-4 col-md center-xs middle-xs col--full-height pb-xs" key={key}>
         <Link href={x.url}>
-          <a><img src={x.img} width={x.width} />{/* TODO: Keep this clean. Translations aren't meant for this.. */}</a>
+          <a><img src={x.img} width={x.width} /></a>
         </Link>
       </div>
     )
@@ -19,7 +19,7 @@ const mentions = function (props) {
   })
 
   return (
-    <div className="row center-xs middle-xs pt-xs pb-xs">
+    <div className="row center-xs middle-xs pt-xs">
       {mentions}
     </div>
   )
