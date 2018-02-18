@@ -64,27 +64,25 @@ const Home = function (props) {
         </div>
         <div className="themed-container themed-container--home">
           <div className="container">
-            <div className="row center-xs mentions">
-              <div className="col-xs-11 center-xs">
+            <div className="row center-xs mentions pb">
+              <div className="col-xs-11">
                 <h6>{t("home:mentioned.mentioned_in")}</h6>
                 <Mentions />
               </div>
             </div>
 
-            <div className="row center-xs middle-xs pt intro">
-              <div className="col-xs-9 col-sm-6">
-                <span className="spaced">{t("home:intro.span")}</span>
-                <div className="pt-xs">
-                  <h2>{t("home:intro.h2")}</h2>
-                  <p>{t("home:intro.p")}</p>
-                </div>
+            <div className="row center-xs intro pt">
+              <div className="col-xs-11 col-sm-7 col-lg-6">
+                <h6>{t("home:intro.span")}</h6>
+                <h2>{t("home:intro.h2")}</h2>
+                <p>{t("home:intro.p")}</p>
               </div>
             </div>
 
             <div className="themed-container--blue themed-container--blue--home">
               <div className="row center-xs">
-                <div className="col-xs-9 col-sm-5 col-md-6">
-                  <div className="row start-xs benefits pb-xs">
+                <div className="col-xs-10 col-sm-5 col-md-6 col-lg-7">
+                  <div className="row start-xs benefits">
                     <div className="col-xs-12 col-md-6 pb pb-xs-0">
                       <h6>{t("home:benefits.benefit_1.title")}</h6>
                       <p>{t("home:benefits.benefit_1.text")}</p>
@@ -108,7 +106,7 @@ const Home = function (props) {
                     </Link>
                   </h6>
                 </div>
-                <div className="col-sm-5 col-md-4 col-md-3 hidden-xs">
+                <div className="col-sm-5 col-md-4 col-md-3 col-lg-3 hidden-xs">
                   <div className="benefits--imgs hidden-xs">
                     <img src="../static/img/benefits-desktop.png" />
                     <img src="../static/img/benefits-mobile.png" />
@@ -118,7 +116,7 @@ const Home = function (props) {
             </div>
 
             <div className="wallets">
-              <div className="row center-xs mentions">
+              <div className="row center-xs">
                 <div className="col-xs-9 col-sm-10 center-xs">
                   <div className="row center-xs start-md">
                     <div className="col-xs-12 col-lg-10">
@@ -211,6 +209,7 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
+
             <div className="themed-container--dark themed-container--dark--home">
               <div className="row center-xs power-to-the-people">
                 <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
@@ -223,21 +222,30 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
-            <div className="exchanges pb-lg">
-              <div className="row">
-                <div className="col-sm-6 col-xs-12">
-                  <h6>
-                    <Link href="/exchanges">
-                      <a className="wallets--url spaced">See more exchanges</a>
-                    </Link>
-                  </h6>
-                  <h2>Trade Verge on the most popular exchanges. <br />
-                  We’re proud to be listed on:</h2>
+
+            <div className="exchanges">
+              <div className="row center-xs">
+                <div className="col-xs-9 col-sm-10 center-xs">
+                  <div className="row center-xs start-md">
+                    <div className="col-xs-12 col-lg-10">
+                      <div className="start-sm pb-small">
+                        <h6>
+                          <Link href="/exchanges">
+                            <a className="wallets--url spaced">See more exchanges</a>
+                          </Link>
+                        </h6>
+                        <h2>Trade Verge on the most popular exchanges. <br />We’re proud to be listed on:</h2>
+                      </div>
+
+                      <Exchanges />
+                    </div>
+                  </div>
                 </div>
+                <Cointicker />
+                
               </div>
-              <Exchanges />
-              <Cointicker />
             </div>
+
             <div className="vendors">
               <div className="row pt-xlg pb-xlg">
                 <div className="col-md-5 col-md-offset-1">
@@ -259,6 +267,7 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
+
             <div className="vendors--list">
               <div className="row pt-lg pb-lg center-xs middle-xs">
                 <div className="col-xs-12">
@@ -290,6 +299,7 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
+
             <div className="roadmap">
               <div className="row pt pb">
                 <div className="col-sm-8 col-sm-offset-4">

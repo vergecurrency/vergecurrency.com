@@ -16,12 +16,17 @@
 
 .home {
   .intro {
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+
     h6 {
       color: #647886;
     }
 
     p {
       font-size: rem(18px);
+      margin-bottom: 0;
     }
   }
 
@@ -46,9 +51,11 @@
         height: 60%;
         top: 11.5%;
       }
+
       @media (min-width: $min-width-lg) {
         top: 16%;
       }
+
       img {
         box-shadow: 0 0 rem(90px) rgba(0, 0, 0, .18);
         max-height: 100%;
@@ -75,7 +82,7 @@
           }
 
           @media (min-width: $min-width-lg) {
-            right: 17rem;
+            right: 12rem;
             top: 9rem;
           }
         }
