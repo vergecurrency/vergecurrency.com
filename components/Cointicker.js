@@ -20,7 +20,7 @@ class Cointicker extends React.Component {
   render() {
     if (this.state.coinData.length > 0) {
       return (
-        <div>
+        <div className="col-xs-12">
           <div className="row pt pb">
             <div className="col-xs-6 col-sm-2">
               <span className="spaced">Symbol</span>

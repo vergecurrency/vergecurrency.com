@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Exchanges from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
 import Mentions from '../components/Mentions';
+import Vendors from '../components/Vendors';
 
 import fontawesome from '@fortawesome/fontawesome'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
@@ -282,24 +283,7 @@ const Home = function (props) {
                   </h6>
                 </div>
                 <div className="col-xs-12 pt"></div> {/*odd solution - fix this later */}
-                <div className="col-md">
-                  Nexwave
-                </div>
-                <div className="col-md">
-                  HODL
-                </div>
-                <div className="col-md">
-                  Crypto VFX
-                </div>
-                <div className="col-md">
-                  Snel.com
-                </div>
-                <div className="col-md">
-                  PMC
-                </div>
-                <div className="col-md">
-                  RRRRR
-                </div>
+                <Vendors />
               </div>
             </div>
 
