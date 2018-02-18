@@ -60,6 +60,9 @@
       height: rem(28px);
       vertical-align: middle;
       width: rem(28px);
+      @media (min-width: $min-width-sm) {
+        display: none !important;
+      }
     }
   }
 
@@ -78,6 +81,80 @@
       .st2 {
         fill: #0f1928;
       }
+    }
+  }
+
+  @media (max-width: $max-width-xs){
+    .links {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    nav a {
+      color: $white;
+      line-height: initial;
+    }
+    @at-root .scroll &,
+           &.solid {
+
+      .bm-burger-bars {
+        background: #111;
+      }
+      nav a {
+        color: $white;
+      }
+    }
+    /* Position and sizing of burger button */
+    .bm-burger-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      right: 20px;
+      top: 30px;
+    }
+
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+      background: #fff;
+      height: 1px !important;
+    }
+
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+    }
+
+    /* Color/shape of close button cross */
+    .bm-cross {
+      background: #bdc3c7;
+    }
+
+    /* General sidebar styles */
+    .bm-menu {
+      background: #111;
+      font-size: 1.15em;
+    }
+
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+
+    /* Wrapper for item list */
+    .bm-item-list {
+      color: #fff;
+      padding: 0.8em;
+    }
+
+    /* Styling of overlay */
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+      top:0;right:0;bottom:0;left:0;
+    }
+    .bm-menu-wrap {
+      top:0;
+      min-height: 101%;
     }
   }
 }

@@ -94,6 +94,12 @@ $padding-vertical-mobile-xlg: 6rem;
   max-width: 100%;
 }
 
+@media (min-width: $min-width-sm) {
+  .visible-xs {
+    display: none !important;
+  }
+}
+
 @media (max-width: $max-width-xs) {
   .hidden-xs {
     display: none !important;

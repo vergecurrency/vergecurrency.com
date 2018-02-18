@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Router from 'next/router'
+import Router from 'next/router';
 
 const exchangeLocale = require('../locales/index').en.exchanges.exchanges;
 
