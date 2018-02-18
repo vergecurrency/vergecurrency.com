@@ -209,6 +209,7 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
+
             <div className="themed-container--dark themed-container--dark--home">
               <div className="row center-xs power-to-the-people">
                 <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
@@ -221,21 +222,30 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
-            <div className="exchanges pb-lg">
-              <div className="row">
-                <div className="col-sm-6 col-xs-12">
-                  <h6>
-                    <Link href="/exchanges">
-                      <a className="wallets--url spaced">See more exchanges</a>
-                    </Link>
-                  </h6>
-                  <h2>Trade Verge on the most popular exchanges. <br />
-                  We’re proud to be listed on:</h2>
+
+            <div className="exchanges">
+              <div className="row center-xs">
+                <div className="col-xs-9 col-sm-10 center-xs">
+                  <div className="row center-xs start-md">
+                    <div className="col-xs-12 col-lg-10">
+                      <div className="start-sm pb-small">
+                        <h6>
+                          <Link href="/exchanges">
+                            <a className="wallets--url spaced">See more exchanges</a>
+                          </Link>
+                        </h6>
+                        <h2>Trade Verge on the most popular exchanges. <br />We’re proud to be listed on:</h2>
+                      </div>
+
+                      <Exchanges />
+                    </div>
+                  </div>
                 </div>
+                <Cointicker />
+                
               </div>
-              <Exchanges />
-              <Cointicker />
             </div>
+
             <div className="vendors">
               <div className="row pt-xlg pb-xlg">
                 <div className="col-md-5 col-md-offset-1">
@@ -257,6 +267,7 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
+
             <div className="vendors--list">
               <div className="row pt-lg pb-lg center-xs middle-xs">
                 <div className="col-xs-12">
@@ -288,6 +299,7 @@ const Home = function (props) {
                 </div>
               </div>
             </div>
+
             <div className="roadmap">
               <div className="row pt pb">
                 <div className="col-sm-8 col-sm-offset-4">
