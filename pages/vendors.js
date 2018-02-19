@@ -11,6 +11,7 @@ const VendorsPage = (props) => {
   return(
     <Layout>
       <div className="vendors">
+        <div className="container">
         <div className="intro pt-lg pb-lg">
           <div className="row center-xs middle-xs">
             <div className="col-sm-6">
@@ -18,6 +19,7 @@ const VendorsPage = (props) => {
               <h2>Vendors proudly accept Verge Currency as a method of payment for their services.</h2>
             </div>
           </div>
+        </div>
           <Vendors />
           <div className="row pt">
             <div className="col-xs-12 col-sm-7 col-sm-offset-1">
