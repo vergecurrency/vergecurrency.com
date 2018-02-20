@@ -1,4 +1,4 @@
-## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/StanFaas/vergecurrency.com-new)
+[![Build Status](https://travis-ci.org/StanFaas/vergecurrency.com-new.png?branch=master)](https://travis-ci.org/StanFaas/vergecurrency.com-new) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/StanFaas/vergecurrency.com-new)
 
 # vergecurrency.com
 Built in ReactJS with NextJS on top of it.
