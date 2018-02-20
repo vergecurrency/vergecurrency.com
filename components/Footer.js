@@ -180,38 +180,38 @@ const Footer = ({ t }) => (
       <div className="row between-xs bottom middle-xs">
         <div className="col-xs-8 col--horizontal">
           <div className="social__icon">
-            <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
-              <a className="social__link social__link--facebook"><FontAwesomeIcon icon={ faFacebook } /></a>
+            <Link href="https://www.facebook.com/VERGEcurrency">
+              <a target="_blank" className="social__link social__link--facebook"><FontAwesomeIcon icon={ faFacebook } /></a>
             </Link>
           </div>
           <div className="social__icon hidden-xs">
-            <Link href="https://github.com/vergecurrency?tab=repositories" target="_blank">
-              <a className="social__link social__link--github"><FontAwesomeIcon icon={ faGithub } /></a>
+            <Link href="https://github.com/vergecurrency?tab=repositories">
+              <a target="_blank" className="social__link social__link--github"><FontAwesomeIcon icon={ faGithub } /></a>
             </Link>
           </div>
           <div className="social__icon">
-            <Link href="https://t.me/VERGExvg" target="_blank">
-              <a className="social__link social__link--telegram"><FontAwesomeIcon icon={ faTelegram } /></a>
+            <Link href="https://t.me/VERGExvg">
+              <a target="_blank" className="social__link social__link--telegram"><FontAwesomeIcon icon={ faTelegram } /></a>
             </Link>
           </div>
           <div className="social__icon">
-            <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank">
-              <a className="social__link social__link--youtube"><FontAwesomeIcon icon={ faYoutube } /></a>
+            <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
+              <a target="_blank" className="social__link social__link--youtube"><FontAwesomeIcon icon={ faYoutube } /></a>
             </Link>
           </div>
           <div className="social__icon">
-            <Link href="https://www.reddit.com/r/vergecurrency/" target="_blank">
-              <a className="social__link social__link--reddit"><FontAwesomeIcon icon={ faReddit } /></a>
+            <Link href="https://www.reddit.com/r/vergecurrency/">
+              <a target="_blank" className="social__link social__link--reddit"><FontAwesomeIcon icon={ faReddit } /></a>
             </Link>
           </div>
           <div className="social__icon">
-            <Link href="https://www.twitter.com/vergecurrency" target="_blank">
-              <a className="social__link social__link--twitter"><FontAwesomeIcon icon={ faTwitter } /></a>
+            <Link href="https://www.twitter.com/vergecurrency">
+              <a target="_blank" className="social__link social__link--twitter"><FontAwesomeIcon icon={ faTwitter } /></a>
             </Link>
           </div>
           <div className="social__icon">
-            <Link href="https://discord.gg/vergecurrency" target="_blank">
-              <a className="social__link social__link--discord"><FontAwesomeIcon icon={ faDiscord } /></a>
+            <Link href="https://discord.gg/vergecurrency">
+              <a target="_blank" className="social__link social__link--discord"><FontAwesomeIcon icon={ faDiscord } /></a>
             </Link>
           </div>
         </div>
