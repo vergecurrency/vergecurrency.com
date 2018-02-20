@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- "node"
+cache: npm
+script: npm run build
+env:
+global:
+    secure: <this is your encrypted NOW token. It was added when you ran travis encrypt>
