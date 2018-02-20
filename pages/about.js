@@ -82,7 +82,9 @@ const About = function (props) {
                   <p>Verge is open-source software that is constantly improving due to its many contributors. If you would like to contribute as well, take a look at our Github repositories to see where you could make a difference!</p>
                 </div>
                 <div className="col-sm-4 end-xs">
-                  <a href="#" className="btn btn-tertiary btn-github">Go to verge repo</a>
+                  <Link href="https://github.com/vergecurrency/">
+                    <a target="_blank" className="btn btn-tertiary btn-github">Go to verge repo</a>
+                  </Link>
                 </div>
                 <div className="col-xs-12">
                   <Contributors />

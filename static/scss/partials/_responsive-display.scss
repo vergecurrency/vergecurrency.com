@@ -25,6 +25,11 @@ $padding-vertical-mobile-xlg: 6rem;
   justify-content: center;
 }
 
+.col--horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
 .mb-thin {
   margin-bottom: .5rem;
 }
@@ -87,6 +92,12 @@ $padding-vertical-mobile-xlg: 6rem;
   display: block;
   margin: 0 auto;
   max-width: 100%;
+}
+
+@media (min-width: $min-width-sm) {
+  .visible-xs {
+    display: none !important;
+  }
 }
 
 @media (max-width: $max-width-xs) {

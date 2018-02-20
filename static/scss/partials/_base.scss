@@ -15,6 +15,9 @@ body {
   @media (min-width: $min-width-sm) {
     font-size: $base-font-size;
   }
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {

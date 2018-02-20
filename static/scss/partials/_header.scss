@@ -30,7 +30,6 @@
 
     &:last-child {
       font-weight: bold;
-      margin-right: .75rem;
     }
 
     @media (min-width: $min-width-md) {
@@ -60,6 +59,9 @@
       height: rem(28px);
       vertical-align: middle;
       width: rem(28px);
+      @media (min-width: $min-width-sm) {
+        display: none !important;
+      }
     }
   }
 
@@ -78,6 +80,78 @@
       .st2 {
         fill: #0f1928;
       }
+    }
+  }
+
+  @media (max-width: $max-width-xs){
+    .links {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    nav a {
+      color: $white;
+      line-height: initial;
+      margin-right: 0;
+      padding-right: 0;
+    }
+    @at-root .scroll &,
+           &.solid {
+
+      .bm-burger-bars {
+        background: #111;
+      }
+      nav a {
+        color: $white;
+      }
+    }
+
+    .bm-burger-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      right: 20px;
+      top: 30px;
+    }
+
+    .bm-burger-bars {
+      background: #fff;
+      height: 1px !important;
+    }
+
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+      top: 10px;
+      right: 10px;
+    }
+
+    .bm-cross {
+      background: #bdc3c7;
+    }
+
+    .bm-menu {
+      background: #111;
+      font-size: 1.15em;
+    }
+
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+
+    .bm-item-list {
+      color: #fff;
+      padding: 0.8em;
+    }
+
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+      top:0;right:0;bottom:0;left:0;
+    }
+    
+    .bm-menu-wrap {
+      top:0;
+      min-height: 101%;
     }
   }
 }

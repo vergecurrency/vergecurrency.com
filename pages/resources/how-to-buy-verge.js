@@ -8,7 +8,7 @@ export default () => (
     <div className="learnmore pt-lg">
       <div className="container">
         <Content>
-          <div className="test">
+          <div className="htbv">
             <h1>How to buy Verge</h1>
           </div>
         </Content>

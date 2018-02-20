@@ -16,48 +16,53 @@
 
 .home {
   .intro {
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+
     h6 {
       color: #647886;
     }
 
     p {
       font-size: rem(18px);
+      margin-bottom: 0;
     }
   }
 
   .benefits {
-    background: #daf0ff;
-
-    h6 {
-      color: #1a3d55;
-    }
-
-    &--item {
-      p {
-        color: #1a3d55;
-        font-size: rem(13px);
-        line-height: rem(23px);
-      }
-    }
-
     &--url {
-      display: block;
-      margin-top: rem(40px);
+      color: #9b9b9b;
 
       &::after {
-        content: '';
-        font-family: "FontAwesome", sans-serif;
-        margin-left: rem(10px);
+        @extend %gray-arrow-right;
       }
     }
 
     &--imgs {
-      position: relative;
+      height: 75%;
+      max-width: 50vw;
+      position: absolute;
+      right: 0;
+      top: 11.5%;
+      width: 100%;
+
+      @media (min-width: $min-width-md) {
+        height: 60%;
+        top: 11.5%;
+      }
+
+      @media (min-width: $min-width-lg) {
+        top: 16%;
+      }
 
       img {
         box-shadow: 0 0 rem(90px) rgba(0, 0, 0, .18);
+        max-height: 100%;
+        max-width: 100%;
         position: absolute;
-        right: .5rem;
+        right: 0;
+        transition: .2s all;
 
         &:first-of-type {
           border-radius: rem(10px); // scss-lint:disable PropertySortOrder
@@ -67,8 +72,19 @@
 
         &:last-of-type {
           border-radius: rem(28px);
-          right: rem(198px);
-          top: 3rem;
+          bottom: 0;
+          right: 7rem;
+
+          @media (min-width: $min-width-md) {
+            bottom: auto;
+            right: rem(198px);
+            top: 3rem;
+          }
+
+          @media (min-width: $min-width-lg) {
+            right: 12rem;
+            top: 9rem;
+          }
         }
       }
     }
@@ -94,39 +110,56 @@
   }
 
   .vendors {
-    background: #daf0ff;
-
-    h6 {
-      color: #769bb4;
+    h2 {
+      color: #333;
+      font-size: rem(27px);
+      margin-bottom: 1.5rem;
     }
 
-    &--story {
-      p {
-        color: #4e555a;
-        font-size: 1rem;
-        line-height: rem(26px);
+    p {
+      color: #4e555a;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn + .btn {
+      margin-bottom: 1.5rem;
+
+      @media (min-width: $min-width-sm) {
+        margin-bottom: 0;
+        margin-left: 1rem;
       }
     }
 
     &--list {
       display: block;
 
-      a {
-        &::after {
-          content: '';
-          font-family: "FontAwesome", sans-serif;
-          margin-left: rem(10px);
-        }
+      a::after {
+        @extend %gray-arrow-right;
       }
     }
 
-    &--imgs {
+    &--img {
+      max-width: 80vw;
       position: relative;
+      right: -10%;
+      transition: .2s all;
 
-      img {
+      @media (min-width: $min-width-sm) {
+        height: 50%;
+        max-width: auto;
         position: absolute;
-        right: rem(7px);
-        top: rem(-100px);
+        right: 0;
+        top: 8rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        height: 80%;
+        top: 4rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        height: 75%;
+        top: 4.5rem;
       }
     }
   }
@@ -136,9 +169,7 @@
       color: #091721;
 
       &::after {
-        content: '';
-        font-family: "FontAwesome", sans-serif;
-        margin-left: rem(10px);
+        @extend %gray-arrow-right;
       }
     }
   }

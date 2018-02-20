@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);
 
 // VARIABLES
 // - RESPONSIVE
@@ -37,6 +37,12 @@ $colors: (
 
 @function rem($pixels, $size: $base-font-size) {
   @return $pixels / ($size / (1rem * 1));
+}
+
+%gray-arrow-right {
+  content: '\2192';
+  font-size: 1rem;
+  margin-left: .5rem;
 }
 
 //Partials

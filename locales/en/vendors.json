@@ -2,33 +2,39 @@
   "vendors": [
     {
       "title": "CryptoVFX",
-      "logo": "../static/img/vendors/CryptoVFX.png",
-      "link": "#"
+      "img": "../static/img/vendors/latest/CryptoVFX.png",
+      "link": "CryptoVFX.com", 
+      "url": "#"
     },
     {
       "title": "HODL",
-      "logo": "../static/img/vendors/HODL.jpg",
-      "link": "#"
+      "img": "../static/img/vendors/latest/HODL.jpg",
+      "link": "HODL.com",
+      "url": "#"
     },
     {
       "title": "Nexwave",
-      "logo": "../static/img/vendors/Nexwave.png",
-      "link": "#"
+      "img": "../static/img/vendors/latest/Nexwave.png",
+      "link": "Nexwave.ca",
+      "url": "#"
     },
     {
       "title": "PMC",
-      "logo": "../static/img/vendors/PMC.png",
-      "link": "#"
+      "img": "../static/img/vendors/latest/PMC.png",
+      "link": "PMC.com", 
+      "url": "#"
     },
     {
       "title": "Reno Sports Bar",
-      "logo": "../static/img/vendors/RenoSportsBar.jpg",
-      "link": "#"
+      "img": "../static/img/vendors/latest/RenoSportsBar.jpg",
+      "link": "RenoSportsBar.com", 
+      "url": "#"
     },
     {
       "title": "Snel",
-      "logo": "../static/img/vendors/Snel.png",
-      "link": "#"
+      "img": "../static/img/vendors/latest/Snel.png",
+      "link": "Snel.com", 
+      "url": "#"
     }
   ]
 }

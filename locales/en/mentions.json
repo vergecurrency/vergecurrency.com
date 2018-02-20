@@ -1,0 +1,29 @@
+{
+  "mentions": [
+    {
+      "url": "#",
+      "img": "../static/img/mentioned-in/Forbes.svg",
+      "width": "100"
+    },
+    {
+      "url": "#",
+      "img": "../static/img/mentioned-in/The-Guardian.svg",
+      "width": "180"
+    },
+    {
+      "url": "#",
+      "img": "../static/img/mentioned-in/The-Sun.svg",
+      "width": "100"
+    },
+    {
+      "url": "#",
+      "img": "../static/img/mentioned-in/The-Motley-Fool.svg",
+      "width": "100"
+    },
+    {
+      "url": "#",
+      "img": "../static/img/mentioned-in/Cryptovest.svg",
+      "width": "150"
+    }
+  ]
+}

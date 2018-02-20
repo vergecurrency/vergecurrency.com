@@ -76,56 +76,9 @@
   },
   "wallets": {
     "link": {
-      "url": "#",
+      "url": "/wallets",
       "title": "Read about wallets"
     },
-    "header": "Dont worry, we got your preffered platform covered. Download your wallet here."
-  },
-  "empower_people": {
-
-  },
-  "exchanges": {
-    "exchange_1": {
-      "img": "../static/img/bittrex-192.png",
-      "img_width": "40",
-      "title": "Bittrex",
-      "link": "bittrex.com",
-      "url": "#"
-    },
-    "exchange_2": {
-      "img": "../static/img/bittrex-192.png",
-      "img_width": "40",
-      "title": "Bittrex",
-      "link": "bittrex.com",
-      "url": "#"
-    },
-    "exchange_3": {
-      "img": "../static/img/bittrex-192.png",
-      "img_width": "40",
-      "title": "Bittrex",
-      "link": "bittrex.com",
-      "url": "#"
-    },
-    "exchange_4": {
-      "img": "../static/img/bittrex-192.png",
-      "img_width": "40",
-      "title": "Bittrex",
-      "link": "bittrex.com",
-      "url": "#"
-    },
-    "exchange_5": {
-      "img": "../static/img/bittrex-192.png",
-      "img_width": "40",
-      "title": "Bittrex",
-      "link": "bittrex.com",
-      "url": "#"
-    },
-    "exchange_6": {
-      "img": "../static/img/bittrex-192.png",
-      "img_width": "40",
-      "title": "Bittrex",
-      "link": "bittrex.com",
-      "url": "#"
-    }
+    "header": "Dont worry, we got your preffered platform covered.{{br}}Download your wallet here."
   }
 }

@@ -1,4 +1,6 @@
 .wallets {
+  // scss-lint:disable ColorVariable
+
   .benefits {
     background: #daf0ff;
 
@@ -19,9 +21,7 @@
       margin-top: rem(40px);
 
       &::after {
-        content: '';
-        font-family: "FontAwesome", sans-serif;
-        margin-left: rem(10px);
+        @extend %gray-arrow-right;
       }
     }
 

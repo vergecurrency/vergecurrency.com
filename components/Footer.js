@@ -2,6 +2,11 @@ import React from 'react';
 
 import Link from 'next/link';
 
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faFacebook, faGithub, faTelegram,
+  faYoutube,  faReddit, faTwitter, faDiscord
+} from '@fortawesome/fontawesome-free-brands'
+
 import VergeLogo from '../static/img/verge-logo.svg';
 
 const Footer = ({ t }) => (
@@ -171,29 +176,55 @@ const Footer = ({ t }) => (
         </div>
       </div>
     </div>
-    <div className="row">
-      <div className="col-xs">
-        <div className="container container--with-gutter">
-          <div className="row around-xs middle-xs top-sm">
-            <div className="col-xs col-sm-11 start-xs">
-              <div className="row between-xs bottom middle-xs">
-                <div className="col-xs-8">
-                  Bottom Footer
-                </div>
-                <div className="col-xs-4 end-xs">
-                  <Link href="/">
-                    <a>
-                      <VergeLogo width="120" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
+    <div className="container--with-gutter">
+      <div className="row between-xs bottom middle-xs">
+        <div className="col-xs-8 col--horizontal">
+          <div className="social__icon">
+            <Link href="https://www.facebook.com/VERGEcurrency">
+              <a target="_blank" className="social__link social__link--facebook"><FontAwesomeIcon icon={ faFacebook } /></a>
+            </Link>
           </div>
-          <div className="row around-xs middle-xs top-sm">
-            <div className="col-xs col-sm-11 start-xs center-sm">
-            </div>
+          <div className="social__icon hidden-xs">
+            <Link href="https://github.com/vergecurrency?tab=repositories">
+              <a target="_blank" className="social__link social__link--github"><FontAwesomeIcon icon={ faGithub } /></a>
+            </Link>
           </div>
+          <div className="social__icon">
+            <Link href="https://t.me/VERGExvg">
+              <a target="_blank" className="social__link social__link--telegram"><FontAwesomeIcon icon={ faTelegram } /></a>
+            </Link>
+          </div>
+          <div className="social__icon">
+            <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
+              <a target="_blank" className="social__link social__link--youtube"><FontAwesomeIcon icon={ faYoutube } /></a>
+            </Link>
+          </div>
+          <div className="social__icon">
+            <Link href="https://www.reddit.com/r/vergecurrency/">
+              <a target="_blank" className="social__link social__link--reddit"><FontAwesomeIcon icon={ faReddit } /></a>
+            </Link>
+          </div>
+          <div className="social__icon">
+            <Link href="https://www.twitter.com/vergecurrency">
+              <a target="_blank" className="social__link social__link--twitter"><FontAwesomeIcon icon={ faTwitter } /></a>
+            </Link>
+          </div>
+          <div className="social__icon">
+            <Link href="https://discord.gg/vergecurrency">
+              <a target="_blank" className="social__link social__link--discord"><FontAwesomeIcon icon={ faDiscord } /></a>
+            </Link>
+          </div>
+        </div>
+        <div className="col-xs-4 end-xs">
+          <Link href="/">
+            <a className="verge-logo">
+              <VergeLogo width="120" />
+            </a>
+          </Link>
+        </div>
+      </div>
+      <div className="row around-xs middle-xs top-sm">
+        <div className="col-xs col-sm-11 start-xs center-sm">
         </div>
       </div>
     </div>
