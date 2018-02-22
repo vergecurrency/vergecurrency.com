@@ -1,4 +1,4 @@
-const resources = require('./locales/index.js');
+const Resources = require('./locales/index.js');
 
 const i18n = require('i18next');
 const LanguageDetector = require('i18next-browser-languagedetector');
@@ -14,7 +14,7 @@ const options = {
   initImmediate: false,
   appendNamespaceToMissingKey: true,
 
-  resources: resources,
+  resources: Resources,
 
   debug: false,
   saveMissing: false,
@@ -23,15 +23,15 @@ const options = {
   interpolation: {
     escapeValue: true,
     formatSeparator: ',',
-    format: (value, format, lng) => {
+    format: (value, format) => {
       if (format === 'uppercase') return value.toUpperCase();
       return value;
-    }
+    },
   },
 
   react: {
-    wait: false
-  }
+    wait: false,
+  },
 };
 
 if (process.browser) {
