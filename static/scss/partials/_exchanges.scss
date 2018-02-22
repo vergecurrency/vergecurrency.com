@@ -21,9 +21,21 @@
       display: flex;
       flex-direction: column;
 
-      span:last-of-type {
-        color: #b3b3b3;
+      h4 {
+        color: #000;
+        font-size: rem(18px);
+        line-height: rem(18px);
+        margin-bottom: 0;
+      }
+
+      span {
+        color: #797979;
         font-size: rem(13px);
+
+        &:last-of-type {
+          color: #b3b3b3;
+          font-size: rem(13px);
+        }
       }
     }
   }

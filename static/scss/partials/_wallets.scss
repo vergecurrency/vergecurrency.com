@@ -33,10 +33,10 @@
   }
 
   &--icon {
-    height: rem(46px);
+    height: rem(42px);
     margin-right: rem(20px);
     position: relative;
-    width: rem(46px);
+    width: rem(42px);
 
     &__android {
       background: url("/static/img/wallets/android.svg");
@@ -86,7 +86,7 @@
   &--text {
     h4 {
       color: #000;
-      line-height: rem(18px);
+      line-height: rem(14px);
       margin-bottom: 0;
     }
 

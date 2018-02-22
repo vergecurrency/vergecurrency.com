@@ -1,7 +1,7 @@
 {
   "wallets": [
     {
-      "name": "Tor Android Wallet",
+      "name": "Android Tor Wallet",
       "url": "#",
       "classNames": "wallets--icon__android wallets--icon__android--tor",
       "available": true

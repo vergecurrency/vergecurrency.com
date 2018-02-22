@@ -9,12 +9,12 @@ function Exchanges() {
       onKeyDown={() => { location.href = x.url; }}
       role="presentation"
     >
-      <div className="exchanges--item">
+      <div className="exchanges--item middle-xs">
         <div className="exchanges--item__logo">
           <img src={x.img} width="40" alt="img" />
         </div>
         <div className="exchanges--item__name">
-          <span>{x.title}</span>
+          <h4>{x.title}</h4>
           <span>{x.link}</span>
         </div>
       </div>

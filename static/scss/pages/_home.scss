@@ -13,7 +13,7 @@
       top: -40vw;
       transform: rotate(30deg);
       transform-origin: center;
-      width: 3px;
+      width: 2px;
       z-index: 0;
 
       @media (min-width: $min-width-sm) {
@@ -26,17 +26,17 @@
     &:first-child::before,
     &:last-child::before {
       display: none;
+
+      @media (min-width: $min-width-sm) {
+        display: inline-block;
+      }
     }
 
     &--inner {
-      padding: 0 1rem;
+      padding: 0 1.5rem;
       position: relative;
       text-align: left;
       z-index: 1;
-
-      p {
-        padding: 0 1.5rem 0 0;
-      }
     }
   }
 
@@ -56,12 +56,8 @@
   }
 
   .benefits {
-    &--url {
-      color: #9b9b9b;
-
-      &::after {
-        @extend %gray-arrow-right;
-      }
+    &--url::after {
+      @extend %gray-arrow-right;
     }
 
     &--imgs {
@@ -130,7 +126,13 @@
 
     p {
       font-size: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .exchanges {
+    &--url::after {
+      @extend %gray-arrow-right;
     }
   }
 

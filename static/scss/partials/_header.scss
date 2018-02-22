@@ -29,7 +29,7 @@
     text-decoration: none;
 
     &:last-child {
-      font-weight: bold;
+      font-weight: 600;
     }
 
     @media (min-width: $min-width-md) {
@@ -148,7 +148,7 @@
       background: rgba(0, 0, 0, 0.3);
       top:0;right:0;bottom:0;left:0;
     }
-    
+
     .bm-menu-wrap {
       top:0;
       min-height: 101%;

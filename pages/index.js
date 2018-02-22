@@ -48,19 +48,19 @@ function Home(props) {
                 <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
                   <div className="reason--inner">
                     <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.first.header') }} />
-                    <p>{t('home:USPs.first.text')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('home:USPs.first.text') }} />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
                   <div className="reason--inner">
                     <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.second.header') }} />
-                    <p>{t('home:USPs.second.text')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('home:USPs.second.text') }} />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
                   <div className="reason--inner">
                     <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.third.header') }} />
-                    <p>{t('home:USPs.third.text')}</p>
+                    <p dangerouslySetInnerHTML={{ __html: t('home:USPs.third.text') }} />
                   </div>
                 </div>
               </div>
@@ -71,8 +71,14 @@ function Home(props) {
           <div className="container">
             <div className="row center-xs mentions pb">
               <div className="col-xs-11">
-                <h6>{t('home:mentioned.mentioned_in')}</h6>
-                <Mentions />
+                <div className="row between-md middle-md">
+                  <div className="col-xs-12 col-md-2">
+                    <h6>{t('home:mentioned.mentioned_in')}</h6>
+                  </div>
+                  <div className="col-xs-12 col-md">
+                    <Mentions />
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -128,7 +134,7 @@ function Home(props) {
                       <div className="start-sm pb-small">
                         <h6>
                           <Link href={t('home:wallets.link.url')}>
-                            <a href={t('home:wallets.link.url')} className="wallets--url spaced">{t('home:wallets.link.title')}</a>
+                            <a href={t('home:wallets.link.url')} className="wallets--url">{t('home:wallets.link.title')}</a>
                           </Link>
                         </h6>
                         <h2>
@@ -149,33 +155,27 @@ function Home(props) {
                   <h3>Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.</h3>
                   <p>With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.</p>
                   <Link href="/get-verge">
-                    <a href="/get-verge" className="btn btn-secondary">Get Verge</a>
+                    <a href="/get-verge" className="btn btn-white">Get Verge today</a>
                   </Link>
                 </div>
               </div>
             </div>
 
-            <div className="exchanges">
-              <div className="row center-xs">
-                <div className="col-xs-9 col-sm-10 center-xs">
-                  <div className="row center-xs start-md">
-                    <div className="col-xs-12 col-lg-10">
-                      <div className="start-sm pb-small">
-                        <h6>
-                          <Link href="/exchanges">
-                            <a href="/exchanges" className="wallets--url spaced">See more exchanges</a>
-                          </Link>
-                        </h6>
-                        <h2>Trade Verge on the most popular exchanges. <br />We’re proud to be listed on:</h2>
-                      </div>
-
-                      <Exchanges />
-                    </div>
-                  </div>
+            <div className="row center-xs">
+              <div className="col-xs-9 col-sm-10 center-xs exchanges">
+                <div className="start-sm pb-small">
+                  <h6>
+                    <Link href="/exchanges">
+                      <a href="/exchanges" className="exchanges--url">See more exchanges</a>
+                    </Link>
+                  </h6>
+                  <h2>Trade Verge on the most popular exchanges. <br />We’re proud to be listed on:</h2>
                 </div>
 
-                <Cointicker />
+                <Exchanges />
               </div>
+
+              <Cointicker />
             </div>
 
             <div className="themed-container--blue themed-container--blue--home">
