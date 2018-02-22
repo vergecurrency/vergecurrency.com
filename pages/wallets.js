@@ -18,7 +18,7 @@ function WalletsPage(props) {
 
   return (
     <Layout>
-      <div className="wallets">
+      <div className="wallet">
         <div className="ribbon ribbon--wallets">
           <div className="container">
             <div className="row center-xs">
@@ -95,7 +95,7 @@ function WalletsPage(props) {
               </div>
             </div>
           </div>
-          <div className="wallets pt-lg pb-lg" id="wallets">
+          <div className="pt-lg pb-lg">
             <div className="row center-xs start-sm">
               <div className="col-sm-6 col-xs-9 start-xs">
                 <span className="spaced">WALLETS FOR ALL PLATFORMS</span>
