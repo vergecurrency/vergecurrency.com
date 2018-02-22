@@ -53,7 +53,7 @@
 
   .menu {
     &--hamburger {
-      background: url('/static/img/menu.svg');
+      background: url("/static/img/menu.svg");
       background-size: cover;
       display: inline-block;
       height: rem(28px);

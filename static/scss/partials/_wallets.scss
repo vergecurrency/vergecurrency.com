@@ -25,7 +25,7 @@
     width: rem(46px);
 
     &__android {
-      background: url('/static/img/wallets/android.svg');
+      background: url("/static/img/wallets/android.svg");
       background-size: cover;
 
       &--tor {
@@ -36,7 +36,7 @@
     }
 
     &__apple {
-      background: url('/static/img/wallets/apple.svg');
+      background: url("/static/img/wallets/apple.svg");
       background-size: cover;
 
       &--tor {
@@ -47,7 +47,7 @@
     }
 
     &__windows {
-      background: url('/static/img/wallets/windows.svg');
+      background: url("/static/img/wallets/windows.svg");
       background-size: cover;
 
       &--tor {
@@ -58,7 +58,7 @@
     }
 
     &__linux {
-      background: url('/static/img/wallets/linux.svg');
+      background: url("/static/img/wallets/linux.svg");
       background-size: cover;
 
       &--tor {
