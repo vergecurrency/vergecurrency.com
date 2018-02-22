@@ -1,3 +1,4 @@
+/* global document window */
 import { translate } from 'react-i18next';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faApple } from '@fortawesome/fontawesome-free-brands';
@@ -28,9 +29,17 @@ function WalletsPage(props) {
                     your Verge Currency with.
                   </p>
                   <Link href="/">
-                    <a href="/" className="btn btn-primary btn-wallet"><FontAwesomeIcon icon={faApple} /> {t('home:ribbon.buttonPrimary')}</a>
+                    <a href="/" className="btn btn-primary btn-wallet">
+                      <FontAwesomeIcon icon={faApple} /> {t('home:ribbon.buttonPrimary')}
+                    </a>
                   </Link>
-                  <button onClick={() => handleScrollToElement()} onKeyDown={() => handleScrollToElement()} className="btn btn-white">See all our wallets</button>
+                  <button
+                    onClick={() => handleScrollToElement()}
+                    onKeyDown={() => handleScrollToElement()}
+                    className="btn btn-white"
+                  >
+                    See all our wallets
+                  </button>
                 </div>
               </div>
             </div>
@@ -41,7 +50,11 @@ function WalletsPage(props) {
             <div className="col-xs-9 col-sm-6">
               <span className="spaced">Wallets</span>
               <div className="pt-xs">
-                <h2>Download our latest Core Wraith Wallets for<br /> Windows, Linux and OSX or store your Verge on<br /> your mobile with our Tor wallet.</h2>
+                <h2>
+                  Download our latest Core Wraith Wallets for<br />
+                  Windows, Linux and OSX or store your Verge on<br />
+                  your mobile with our Tor wallet.
+                </h2>
                 <p>Our core wallet is secure, easy and fast. Transactions in<br /> less than 30 seconds.</p>
               </div>
             </div>
@@ -59,7 +72,9 @@ function WalletsPage(props) {
                 </div>
                 <h6>
                   <Link href={t('home:benefits.link:url')}>
-                    <a href={t('home:benefits.link:url')} className="benefits--url spaced">{t('home:benefits.link.title')}</a>
+                    <a href={t('home:benefits.link:url')} className="benefits--url spaced">
+                      {t('home:benefits.link.title')}
+                    </a>
                   </Link>
                 </h6>
               </div>
@@ -166,14 +181,23 @@ function WalletsPage(props) {
           </div>
           <div className="guide">
             <div className="row center-xs middle-xs pt pb">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/R48e1mp_5qA" title="Verge YouTube video" />
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/R48e1mp_5qA"
+                title="Verge YouTube video"
+              />
             </div>
           </div>
           <div className="row center-xs middle-xs pt pb-lg intro">
             <div className="col-xs-9 col-sm-6">
               <span className="spaced">WRAITH PROTOCOL</span>
               <div className="pt-xs">
-                <h2>Wraith Protocol is a technology that allows the user to seamlessly switch between public And private ledgers on the Verge Blockchain. For the first time, users are now free to choose which ledger they want to utilize.</h2>
+                <h2>
+                  Wraith Protocol is a technology that allows the user to seamlessly
+                  switch between public And private ledgers on the Verge Blockchain.
+                  For the first time, users are now free to choose which ledger they want to utilize.
+                </h2>
               </div>
             </div>
           </div>
