@@ -45,17 +45,23 @@ function Home(props) {
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
-                <div className="col-xs-12 col-sm-4 start-xs reason pb-xs">
-                  <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.first.header') }} />
-                  <p>{t('home:USPs.first.text')}</p>
+                <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
+                  <div className="reason--inner">
+                    <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.first.header') }} />
+                    <p>{t('home:USPs.first.text')}</p>
+                  </div>
                 </div>
-                <div className="col-xs-12 col-sm-4 start-xs reason pb-xs">
-                  <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.second.header') }} />
-                  <p>{t('home:USPs.second.text')}</p>
+                <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
+                  <div className="reason--inner">
+                    <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.second.header') }} />
+                    <p>{t('home:USPs.second.text')}</p>
+                  </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.third.header') }} />
-                  <p>{t('home:USPs.third.text')}</p>
+                  <div className="reason--inner">
+                    <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.third.header') }} />
+                    <p>{t('home:USPs.third.text')}</p>
+                  </div>
                 </div>
               </div>
             </div>

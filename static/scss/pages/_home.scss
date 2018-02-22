@@ -1,5 +1,45 @@
 // scss-lint:disable ColorVariable
 .home {
+  .reason {
+    position: relative;
+    text-align: center;
+
+    &::before {
+      background: #202A32;
+      content: " ";
+      display: inline-block;
+      height: 100vw;
+      position: absolute;
+      top: -40vw;
+      transform: rotate(30deg);
+      transform-origin: center;
+      width: 3px;
+      z-index: 0;
+
+      @media (min-width: $min-width-sm) {
+        height: rem(250px);
+        margin-left: -3rem;
+        top: rem(-60px);
+      }
+    }
+
+    &:first-child::before,
+    &:last-child::before {
+      display: none;
+    }
+
+    &--inner {
+      padding: 0 1rem;
+      position: relative;
+      text-align: left;
+      z-index: 1;
+
+      p {
+        padding: 0 1.5rem 0 0;
+      }
+    }
+  }
+
   .intro {
     h2 {
       margin-bottom: 1.5rem;
