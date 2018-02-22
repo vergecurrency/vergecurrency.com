@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-const Presskit = function (props) {
+function Presskit(props) {
   const { t } = props;
 
   return (
@@ -18,10 +18,10 @@ const Presskit = function (props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
-                  <h1 dangerouslySetInnerHTML={{ __html: t("presskit:ribbon.title") }}></h1>
-                  <p>{t("presskit:ribbon.text")}</p>
+                  <h1 dangerouslySetInnerHTML={{ __html: t('presskit:ribbon.title') }} />
+                  <p>{t('presskit:ribbon.text')}</p>
                   <Link href="/">
-                    <a className="btn btn-primary">{t("presskit:ribbon.buttonPrimary")}</a>
+                    <a href="/" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary')}</a>
                   </Link>
                 </div>
               </div>
@@ -63,24 +63,24 @@ const Presskit = function (props) {
                   <div className="col-xs-12 col-sm-10">
                     <div className="row around-xs middle-xs">
                       <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/1600x800" />
+                        <img className="img-responsive" src="https://placehold.it/1600x800" alt="img" />
                       </div>
                       <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/1600x800" />
+                        <img className="img-responsive" src="https://placehold.it/1600x800" alt="img" />
                       </div>
                       <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/800x800" />
+                        <img className="img-responsive" src="https://placehold.it/800x800" alt="img" />
                       </div>
                       <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/1600x800" />
+                        <img className="img-responsive" src="https://placehold.it/1600x800" alt="img" />
                       </div>
                       <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/1200x800" />
+                        <img className="img-responsive" src="https://placehold.it/1200x800" alt="img" />
                       </div>
                       <div className="col-xs-12 col-sm-4" />
                       <div className="col-xs-12 col-sm-4">
-                        <Link href="">
-                          <a className="btn btn-primary btn-primary--on-white-bg">{t('presskit:logo.download', { defaultValue: 'Download logo here' })}</a>
+                        <Link href="/">
+                          <a href="/" className="btn btn-primary btn-primary--on-white-bg">{t('presskit:logo.download', { defaultValue: 'Download logo here' })}</a>
                         </Link>
                       </div>
                     </div>
@@ -89,7 +89,7 @@ const Presskit = function (props) {
                 <div className="start-xs">
                   <h2>{t('presskit:font.title', { defaultValue: 'Brand font' })}</h2>
                   <p>{t('presskit:font.text', { defaultValue: 'The official font used in Verge Currency branding is Avenir Next Regular.' })}</p>
-                  <p><Link href="/"><a>{t('presskit:font.download', { defaultValue: 'Download font here' })}</a></Link>.</p>
+                  <p><Link href="/"><a href="/">{t('presskit:font.download', { defaultValue: 'Download font here' })}</a></Link>.</p>
                   <p className="pt">{t('presskit:colors', { defaultValue: 'The colors that are used for the logo and style elements:' })}</p>
                 </div>
                 <div className="row center-xs pt pb colors">
@@ -97,7 +97,7 @@ const Presskit = function (props) {
                     <div className="row around-xs middle-xs">
                       <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--black">
                         <div className="row start-xs">
-                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12 color-guide" />
                           <div className="col-xs-12">
                             <p><strong>Black</strong></p>
                           </div>
@@ -123,7 +123,7 @@ const Presskit = function (props) {
                       </div>
                       <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--white">
                         <div className="row start-xs">
-                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12 color-guide" />
                           <div className="col-xs-12">
                             <p><strong>White</strong></p>
                           </div>
@@ -149,7 +149,7 @@ const Presskit = function (props) {
                       </div>
                       <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--pacific-blue-1">
                         <div className="row start-xs">
-                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12 color-guide" />
                           <div className="col-xs-12">
                             <p><strong>Pacific Blue 1</strong></p>
                           </div>
@@ -175,7 +175,7 @@ const Presskit = function (props) {
                       </div>
                       <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--picton-blue">
                         <div className="row start-xs">
-                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12 color-guide" />
                           <div className="col-xs-12">
                             <p><strong>Picton Blue</strong></p>
                           </div>
@@ -201,7 +201,7 @@ const Presskit = function (props) {
                       </div>
                       <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--allports">
                         <div className="row start-xs">
-                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12 color-guide" />
                           <div className="col-xs-12">
                             <p><strong>Allports</strong></p>
                           </div>
@@ -227,7 +227,7 @@ const Presskit = function (props) {
                       </div>
                       <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--blizzard-blue">
                         <div className="row start-xs">
-                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12 color-guide" />
                           <div className="col-xs-12">
                             <p><strong>Blizzard Blue</strong></p>
                           </div>
@@ -253,7 +253,7 @@ const Presskit = function (props) {
                       </div>
                       <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--astronaut-blue">
                         <div className="row start-xs">
-                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12 color-guide" />
                           <div className="col-xs-12">
                             <p><strong>Astronaut Blue</strong></p>
                           </div>
@@ -279,7 +279,7 @@ const Presskit = function (props) {
                       </div>
                       <div className="col-xs-10 col-sm-4 col-md-3 col-lg-3 color color--venice-blue">
                         <div className="row start-xs">
-                          <div className="col-xs-12 color-guide"></div>
+                          <div className="col-xs-12 color-guide" />
                           <div className="col-xs-12">
                             <p><strong>Venice Blue</strong></p>
                           </div>
@@ -313,7 +313,7 @@ const Presskit = function (props) {
                 <div className="container themed-container--blue themed-container--blue--presskit">
                   <div className="row center-xs">
                     <div className="col-xs-8">
-                      <h2>{t('presskit:themed-container--blue:big', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.'})}</h2>
+                      <h2>{t('presskit:themed-container--blue:big', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.' })}</h2>
                       <p>{t('presskit:themed-container--blue:small', { defaultValue: 'Verge Currency is a cryptocurrency designed for everyday use.' })}</p>
                     </div>
                   </div>
@@ -329,10 +329,10 @@ const Presskit = function (props) {
                   <p>{t('presskit:wraith.text', { defaultValue: 'Wraith Protocol by Verge is a technology that allows the user to choose between public and private ledgers on the same blockchain. User anonymity is ensured in both cases thanks to the latest version of Tor integrated in Verge wallets.' })}</p>
                   <p>
                     <span>{t('presskit:findoutmore.text.intro', { defaultValue: 'To find more about Verge check our' })} </span>
-                    <span><Link href="/faq"><a>{t('presskit:findoutmore.text.link.faq', { defaultValue: 'FAQ' })}</a></Link>, </span>
-                    <span><Link href="/blog"><a>{t('presskit:findoutmore.text.link.blog', { defaultValue: 'Blog' })}</a></Link> </span>
+                    <span><Link href="/faq"><a href="/faq">{t('presskit:findoutmore.text.link.faq', { defaultValue: 'FAQ' })}</a></Link>, </span>
+                    <span><Link href="/blog"><a href="/blog">{t('presskit:findoutmore.text.link.blog', { defaultValue: 'Blog' })}</a></Link> </span>
                     <span>{t('presskit:findoutmore.text.and', { defaultValue: 'and' })} </span>
-                    <span><Link href="/black-paper"><a>{t('presskit:findoutmore.text.link.black-paper', { defaultValue: 'Black Paper' })}</a></Link>.</span>
+                    <span><Link href="/black-paper"><a href="/black-paper">{t('presskit:findoutmore.text.link.black-paper', { defaultValue: 'Black Paper' })}</a></Link>.</span>
                   </p>
                 </div>
               </div>

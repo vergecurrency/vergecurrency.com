@@ -3,16 +3,17 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faTelegram,
-         faYoutube,  faReddit, faTwitter, faDiscord
-       } from '@fortawesome/fontawesome-free-brands'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {
+  faFacebook, faGithub, faTelegram,
+  faYoutube, faReddit, faTwitter, faDiscord,
+} from '@fortawesome/fontawesome-free-brands';
 
 import Moment from 'react-moment';
 import 'moment-timezone';
 
 import markdown from 'markdown-in-js';
-import one from '../static/pressreleases/one';
+import one from '../static/pressreleases/one.json';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
@@ -20,13 +21,13 @@ import i18n from '../i18n';
 const CurrentUrl = 'https://vergecurrency.com/blog/wraithprotocol/'; // TODO: Determine correct url -- Component Mount
 const TwitterStatus = `${one.summary} ${CurrentUrl}`; // TODO: Implement truncate on post title
 
-const Pressrelease = function (props) {
+function Pressrelease(props) {
   const { t } = props;
 
   // TODO: Dynamic history
   return (
     <Layout>
-      <Subheader t={t} category='press' page='pressrelease' />
+      <Subheader t={t} category="press" page="pressrelease" />
 
       <div className="pressrelease press">
         <div className="themed-container themed-container--pressrelease">
@@ -48,7 +49,7 @@ const Pressrelease = function (props) {
               <div className="col-xs-12">
                 <div className="container">
                   <div className="row center-xs">
-                    <div className="col-xs-12 col-sm-10 themed-container--image themed-container--image--pressrelease" style={{ backgroundImage: `url(${ one.post.image })` }} />
+                    <div className="col-xs-12 col-sm-10 themed-container--image themed-container--image--pressrelease" style={ {backgroundImage: `url( ${one.post.image})` }} />
                   </div>
                 </div>
               </div>
@@ -64,11 +65,11 @@ const Pressrelease = function (props) {
                       <strong>{t('pressreleases:share-release', { defaultValue: 'Share the release' })}</strong>
                     </div>
                     <div className="col-xs-12 col-sm-8 end-sm">
-                      <Link href={ `https://www.facebook.com/sharer/sharer.php?u=${CurrentUrl} ` }>
-                        <a>Facebook</a>
+                      <Link href={`https://www.facebook.com/sharer/sharer.php?u=${CurrentUrl}`}>
+                        <a href={`https://www.facebook.com/sharer/sharer.php?u=${CurrentUrl}`}>Facebook</a>
                       </Link>
-                      <Link href={ `https://twitter.com/home?status=${TwitterStatus}` }>
-                        <a>Twitter</a>
+                      <Link href={`https://twitter.com/home?status=${TwitterStatus}`}>
+                        <a href={`https://twitter.com/home?status=${TwitterStatus}`}>Twitter</a>
                       </Link>
                     </div>
                   </div>
@@ -113,7 +114,7 @@ const Pressrelease = function (props) {
                     <div className="row start-xs center-sm between-md pb-xs">
                       <div className="pt-xs social__icon">
                         <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
-                          <a className="social__link social__link--facebook"><FontAwesomeIcon icon={ faFacebook } size="2x" /></a>
+                          <a href="https://www.facebook.com/VERGEcurrency" target="_blank" className="social__link social__link--facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
