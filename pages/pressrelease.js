@@ -49,7 +49,7 @@ function Pressrelease(props) {
               <div className="col-xs-12">
                 <div className="container">
                   <div className="row center-xs">
-                    <div className="col-xs-12 col-sm-10 themed-container--image themed-container--image--pressrelease" style={ {backgroundImage: `url( ${one.post.image})` }} />
+                    <div className="col-xs-12 col-sm-10 themed-container--image themed-container--image--pressrelease" style={{ backgroundImage: `url( ${one.post.image})` }} />
                   </div>
                 </div>
               </div>
@@ -114,7 +114,7 @@ function Pressrelease(props) {
                     <div className="row start-xs center-sm between-md pb-xs">
                       <div className="pt-xs social__icon">
                         <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
-                          <a href="https://www.facebook.com/VERGEcurrency" target="_blank" className="social__link social__link--facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                          <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">

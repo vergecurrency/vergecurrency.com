@@ -5,6 +5,7 @@ import { faApple } from '@fortawesome/fontawesome-free-brands';
 
 import Link from 'next/link';
 import Layout from '../components/Layout';
+import Wallets from '../components/Wallets';
 import i18n from '../i18n';
 
 function WalletsPage(props) {
@@ -104,80 +105,7 @@ function WalletsPage(props) {
                 </h2>
               </div>
             </div>
-            <div className="row center-xs start-sm">
-              <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                <a href="/">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                  <div className="wallets--icon wallets--icon__android wallets--icon__android--tor" />
-                  <div className="wallets--text">
-                    <h4>Tor Android Wallet</h4>
-                    <span>Download here</span>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                <a href="/">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                  <div className="wallets--icon wallets--icon__apple" />
-                  <div className="wallets--text">
-                    <h4>OSX Electrum Wallet</h4>
-                    <span>Download here</span>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xs-9 col-md-3 wallets--item start-xs wallets--item__disabled">
-                <a href="/">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                  <div className="wallets--icon wallets--icon__apple" />
-                  <div className="wallets--text">
-                    <h4>Apple iOS Wallet</h4>
-                    <span>Available soon!</span>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                <a href="/">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                  <div className="wallets--icon wallets--icon__apple wallets--icon__apple--tor" />
-                  <div className="wallets--text">
-                    <h4>OSX Tor Electrum Wallet</h4>
-                    <span>Download here</span>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                <a href="/">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                  <div className="wallets--icon wallets--icon__windows" />
-                  <div className="wallets--text">
-                    <h4>Windows Electrum Wallet</h4>
-                    <span>Download here</span>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                <a href="/">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                  <div className="wallets--icon wallets--icon__windows wallets--icon__windows--tor" />
-                  <div className="wallets--text">
-                    <h4>Windows Tor Wallet</h4>
-                    <span>Download here</span>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                <a href="/">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                  <div className="wallets--icon wallets--icon__linux" />
-                  <div className="wallets--text">
-                    <h4>Linux Electrum Wallet</h4>
-                    <span>Download here</span>
-                  </div>
-                </a>
-              </div>
-              <div className="col-xs-9 col-md-3 wallets--item start-xs">
-                <a href="/">{/* TODO: Some browsers will ignore div inside a. Refactor! */}
-                  <div className="wallets--icon wallets--icon__linux wallets--icon__linux--tor" />
-                  <div className="wallets--text">
-                    <h4>Linux Tor Electrum Wallet</h4>
-                    <span>Download here</span>
-                  </div>
-                </a>
-              </div>
-            </div>
+            <Wallets />
           </div>
           <div className="guide">
             <div className="row center-xs middle-xs pt pb">

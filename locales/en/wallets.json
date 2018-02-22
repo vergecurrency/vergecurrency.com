@@ -3,7 +3,49 @@
     {
       "name": "Tor Android Wallet",
       "url": "#",
-      "classNames": "wallets--icon__android",
+      "classNames": "wallets--icon__android wallets--icon__android--tor",
+      "available": true
+    },
+    {
+      "name": "OSX Electrum Wallet",
+      "url": "#",
+      "classNames": "wallets--icon__apple",
+      "available": true
+    },
+    {
+      "name": "Apple iOS Wallet",
+      "url": "#",
+      "classNames": "wallets--icon__apple",
+      "available": false
+    },
+    {
+      "name": "OSX Tor Electrum Wallet",
+      "url": "#",
+      "classNames": "wallets--icon__apple wallets--icon__apple--tor",
+      "available": true
+    },
+    {
+      "name": "Windows Electrum Wallet",
+      "url": "#",
+      "classNames": "wallets--icon__windows",
+      "available": true
+    },
+    {
+      "name": "Windows Tor Wallet",
+      "url": "#",
+      "classNames": "wallets--icon__windows wallets--icon__windows--tor",
+      "available": true
+    },
+    {
+      "name": "Linux Electrum Wallet",
+      "url": "#",
+      "classNames": "wallets--icon__linux",
+      "available": true
+    },
+    {
+      "name": "Linux Tor Electrum Wallet",
+      "url": "#",
+      "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "available": true
     }
   ]

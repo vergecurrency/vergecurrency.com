@@ -5,6 +5,7 @@ import Exchanges from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
 import Mentions from '../components/Mentions';
 import Vendors from '../components/Vendors';
+import Wallets from '../components/Wallets';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faApple } from '@fortawesome/fontawesome-free-brands';
@@ -128,80 +129,7 @@ function Home(props) {
                           <Interpolate i18nKey="home:wallets.header" br={<span> <br className="hidden-xs" /></span>} />
                         </h2>
                       </div>
-                      <div className="row center-xs start-sm">
-                        <div className="col-xs-12 col-sm-6 col-md-4 wallets--item start-xs">
-                          <a href="/">
-                            <span className="wallets--icon wallets--icon__android wallets--icon__android--tor" />
-                            <span className="wallets--text">
-                              <h4>Tor Android Wallet</h4>
-                              <span>Download here</span>
-                            </span>
-                          </a>
-                        </div>
-                        <div className="col-xs-12 col-sm-5 col-md-4 wallets--item start-xs">
-                          <a href="/">
-                            <span className="wallets--icon wallets--icon__apple" />
-                            <span className="wallets--text">
-                              <h4>OSX Electrum Wallet</h4>
-                              <span>Download here</span>
-                            </span>
-                          </a>
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 wallets--item start-xs wallets--item__disabled">
-                          <a href="/">
-                            <span className="wallets--icon wallets--icon__apple" />
-                            <span className="wallets--text">
-                              <h4>Apple iOS Wallet</h4>
-                              <span>Available soon!</span>
-                            </span>
-                          </a>
-                        </div>
-                        <div className="col-xs-12 col-sm-5 col-md-4 wallets--item start-xs">
-                          <a href="/">
-                            <span className="wallets--icon wallets--icon__apple wallets--icon__apple--tor" />
-                            <span className="wallets--text">
-                              <h4>OSX Tor Electrum Wallet</h4>
-                              <span>Download here</span>
-                            </span>
-                          </a>
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 wallets--item start-xs">
-                          <a href="/">
-                            <span className="wallets--icon wallets--icon__windows" />
-                            <span className="wallets--text">
-                              <h4>Windows Electrum Wallet</h4>
-                              <span>Download here</span>
-                            </span>
-                          </a>
-                        </div>
-                        <div className="col-xs-12 col-sm-5 col-md-4 wallets--item start-xs">
-                          <a href="/">
-                            <span className="wallets--icon wallets--icon__windows wallets--icon__windows--tor" />
-                            <span className="wallets--text">
-                              <h4>Windows Tor Wallet</h4>
-                              <span>Download here</span>
-                            </span>
-                          </a>
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-4 wallets--item start-xs">
-                          <a href="/">
-                            <span className="wallets--icon wallets--icon__linux" />
-                            <span className="wallets--text">
-                              <h4>Linux Electrum Wallet</h4>
-                              <span>Download here</span>
-                            </span>
-                          </a>
-                        </div>
-                        <div className="col-xs-12 col-sm-5 col-md-4 wallets--item start-xs">
-                          <a href="/">
-                            <span className="wallets--icon wallets--icon__linux wallets--icon__linux--tor" />
-                            <span className="wallets--text">
-                              <h4>Linux Tor Electrum Wallet</h4>
-                              <span>Download here</span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
+                      <Wallets />
                     </div>
                   </div>
                 </div>

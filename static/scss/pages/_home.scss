@@ -1,19 +1,4 @@
 // scss-lint:disable ColorVariable
-
-%wallet-icon--after {
-  background: url("/static/img/wallets/tor.svg");
-  background-size: cover;
-  border-radius: 50%;
-  bottom: rem(-10px);
-  box-shadow: 0 0 rem(50px) rgba(0, 0, 0, .2);
-  content: "";
-  display: block;
-  height: rem(28px);
-  position: absolute;
-  right: rem(-5px);
-  width: rem(28px);
-}
-
 .home {
   .intro {
     h2 {
