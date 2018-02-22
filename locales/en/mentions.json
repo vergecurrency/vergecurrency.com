@@ -1,27 +1,27 @@
 {
   "mentions": [
     {
-      "url": "#",
+      "url": "https://forbes.com",
       "img": "../static/img/mentioned-in/Forbes.svg",
       "width": "100"
     },
     {
-      "url": "#",
+      "url": "https://theguardian.com",
       "img": "../static/img/mentioned-in/The-Guardian.svg",
       "width": "180"
     },
     {
-      "url": "#",
+      "url": "https://thesun.co.uk",
       "img": "../static/img/mentioned-in/The-Sun.svg",
       "width": "100"
     },
     {
-      "url": "#",
+      "url": "https://themotleyfool.com",
       "img": "../static/img/mentioned-in/The-Motley-Fool.svg",
       "width": "100"
     },
     {
-      "url": "#",
+      "url": "https://cryptovest.com",
       "img": "../static/img/mentioned-in/Cryptovest.svg",
       "width": "150"
     }
