@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import fetch from 'isomorphic-unfetch';
 
 class Cointicker extends React.Component {
@@ -6,15 +6,15 @@ class Cointicker extends React.Component {
     super(props);
 
     this.state = {
-      coinData: []
-    }
+      coinData: [],
+    };
   }
 
   componentWillMount() {
-    const url = "https://api.coinmarketcap.com/v1/ticker/verge/?convert=EUR"
+    const url = 'https://api.coinmarketcap.com/v1/ticker/verge/?convert=EUR';
     fetch(url)
       .then(response => response.json())
-      .then(data => this.setState({ coinData: data }))
+      .then(data => this.setState({ coinData: data }));
   }
 
   render() {
@@ -40,15 +40,23 @@ class Cointicker extends React.Component {
             </div>
             <div className="col-xs-6 col-sm-2">
               <span className="spaced">Market cap</span>
-              <p>{parseFloat(this.state.coinData[0].market_cap_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')} USD</p>
+              <p>
+                {parseFloat(this.state.coinData[0].market_cap_usd)
+                  .toFixed(2)
+                  .replace(/(\d)(?=(\d{3})+\.)/g, '$1,')} USD
+              </p>
             </div>
             <div className="col-xs-6 col-sm-2">
               <span className="spaced">Volume</span>
-              <p>{parseFloat(this.state.coinData[0]["24h_volume_usd"]).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')} USD</p>
+              <p>
+                {parseFloat(this.state.coinData[0]['24h_volume_usd'])
+                  .toFixed(2)
+                  .replace(/(\d)(?=(\d{3})+\.)/g, '$1,')} USD
+              </p>
             </div>
           </div>
         </div>
-      )
+      );
     }
 
     return (<span>Loading cointicker...</span>);

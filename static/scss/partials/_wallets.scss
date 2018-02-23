@@ -1,3 +1,17 @@
+%wallet-icon--after {
+  background: url("/static/img/wallets/tor.svg");
+  background-size: cover;
+  border-radius: 50%;
+  bottom: rem(-10px);
+  box-shadow: 0 0 rem(50px) rgba(0, 0, 0, .2);
+  content: "";
+  display: block;
+  height: rem(28px);
+  position: absolute;
+  right: rem(-5px);
+  width: rem(28px);
+}
+
 .wallets {
   &--url {
     &::after {
@@ -19,13 +33,13 @@
   }
 
   &--icon {
-    height: rem(46px);
+    height: rem(42px);
     margin-right: rem(20px);
     position: relative;
-    width: rem(46px);
+    width: rem(42px);
 
     &__android {
-      background: url('/static/img/wallets/android.svg');
+      background: url("/static/img/wallets/android.svg");
       background-size: cover;
 
       &--tor {
@@ -36,7 +50,7 @@
     }
 
     &__apple {
-      background: url('/static/img/wallets/apple.svg');
+      background: url("/static/img/wallets/apple.svg");
       background-size: cover;
 
       &--tor {
@@ -47,7 +61,7 @@
     }
 
     &__windows {
-      background: url('/static/img/wallets/windows.svg');
+      background: url("/static/img/wallets/windows.svg");
       background-size: cover;
 
       &--tor {
@@ -58,7 +72,7 @@
     }
 
     &__linux {
-      background: url('/static/img/wallets/linux.svg');
+      background: url("/static/img/wallets/linux.svg");
       background-size: cover;
 
       &--tor {
@@ -72,7 +86,7 @@
   &--text {
     h4 {
       color: #000;
-      line-height: rem(18px);
+      line-height: rem(14px);
       margin-bottom: 0;
     }
 

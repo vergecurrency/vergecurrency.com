@@ -5,10 +5,11 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faTelegram,
-         faYoutube,  faReddit, faTwitter, faDiscord
-       } from '@fortawesome/fontawesome-free-brands'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {
+  faFacebook, faGithub, faTelegram,
+  faYoutube, faReddit, faTwitter, faDiscord,
+} from '@fortawesome/fontawesome-free-brands';
 
 import Moment from 'react-moment';
 import 'moment-timezone';
@@ -16,18 +17,18 @@ import 'moment-timezone';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-import LogoBusinessInsider from "../static/img/coverage/Business_Insider.svg";
-import LogoForbes from "../static/img/coverage/Forbes.svg";
-import LogoHuffingtonPost from "../static/img/coverage/Huffington_Post.svg";
-import LogoMashable from "../static/img/coverage/Mashable.svg";
-import LogoTechChrunch from "../static/img/coverage/TechChrunch.svg";
+import LogoBusinessInsider from '../static/img/coverage/Business_Insider.svg';
+import LogoForbes from '../static/img/coverage/Forbes.svg';
+import LogoHuffingtonPost from '../static/img/coverage/Huffington_Post.svg';
+import LogoMashable from '../static/img/coverage/Mashable.svg';
+import LogoTechChrunch from '../static/img/coverage/TechChrunch.svg';
 
-const Pressreleases = function (props) {
+function Pressreleases(props) {
   const { t } = props;
 
   return (
     <Layout>
-      <Subheader t={t} category='press' page='pressreleases' />
+      <Subheader t={t} category="press" page="pressreleases" />
 
       <div className="pressreleases press">
         <div className="ribbon ribbon--pressreleases">
@@ -75,19 +76,19 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <h3>Verge launches new website in the start of 2018</h3>
                     <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
                     </Link>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <h3>Wraith Protocol set to be released end of 2017</h3>
                     <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
                     </Link>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs">
                     <h3>Understand Wraith Protocol in 5 simple steps</h3>
                     <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
                     </Link>
                   </div>
                 </div>
@@ -95,19 +96,19 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <h3>Verge launches new website in the start of 2018</h3>
                     <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
                     </Link>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <h3>Wraith Protocol set to be released end of 2017</h3>
                     <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
                     </Link>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs">
                     <h3>Understand Wraith Protocol in 5 simple steps</h3>
                     <Link href="/">
-                      <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
                     </Link>
                   </div>
                 </div>
@@ -126,7 +127,7 @@ const Pressreleases = function (props) {
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
                         <Link href="/">
-                          <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
                         </Link>
                       </div>
                     </div>
@@ -139,7 +140,7 @@ const Pressreleases = function (props) {
                       <div className="col-xs-12">
                         <h4>Verge price and how to buy it - what is XVG and is the</h4>
                         <Link href="/">
-                          <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
                         </Link>
                       </div>
                     </div>
@@ -152,7 +153,7 @@ const Pressreleases = function (props) {
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
                         <Link href="/">
-                          <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
                         </Link>
                       </div>
                     </div>
@@ -167,7 +168,7 @@ const Pressreleases = function (props) {
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
                         <Link href="/">
-                          <a className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
+                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
                         </Link>
                       </div>
                     </div>
@@ -180,7 +181,7 @@ const Pressreleases = function (props) {
                       <div className="col-xs-12">
                         <h4>Verge price and how to buy it - what is XVG and is the</h4>
                         <Link href="/">
-                          <a className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
+                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
                         </Link>
                       </div>
                     </div>
@@ -188,12 +189,12 @@ const Pressreleases = function (props) {
                   <div className="col-xs-12 col-sm-4 start-xs pb-xs">
                     <div className="row">
                       <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/VVY_Tech_Savvy.png" />
+                        <img src="/static/img/coverage/VVY_Tech_Savvy.png" alt="Tech savy" />
                       </div>
                       <div className="col-xs-12">
                         <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
                         <Link href="/">
-                          <a className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
+                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
                         </Link>
                       </div>
                     </div>
@@ -219,7 +220,7 @@ const Pressreleases = function (props) {
                 <div className="col-xs-11 center-xs">
                   <div className="pb-small">
                     <Link href="/blog">
-                      <a className="to-blog">Go to the blog</a>
+                      <a href="/blog" className="to-blog">Go to the blog</a>
                     </Link>
                   </div>
 
@@ -259,37 +260,37 @@ const Pressreleases = function (props) {
                       <div className="row start-xs center-sm between-md pb-xs">
                         <div className="pt-xs social__icon">
                           <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
-                            <a className="social__link social__link--facebook"><FontAwesomeIcon icon={ faFacebook } size="2x" /></a>
+                            <a href="https://www.facebook.com/VERGEcurrency" className="social__link social__link--facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://github.com/vergecurrency?tab=repositories" target="_blank">
-                            <a className="social__link social__link--github"><FontAwesomeIcon icon={ faGithub } size="2x" /></a>
+                            <a href="https://github.com/vergecurrency?tab=repositories" className="social__link social__link--github"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://t.me/VERGExvg" target="_blank">
-                            <a className="social__link social__link--telegram"><FontAwesomeIcon icon={ faTelegram } size="2x" /></a>
+                            <a href="https://t.me/VERGExvg" className="social__link social__link--telegram"><FontAwesomeIcon icon={faTelegram} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank">
-                            <a className="social__link social__link--youtube"><FontAwesomeIcon icon={ faYoutube } size="2x" /></a>
+                            <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" className="social__link social__link--youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://www.reddit.com/r/vergecurrency/" target="_blank">
-                            <a className="social__link social__link--reddit"><FontAwesomeIcon icon={ faReddit } size="2x" /></a>
+                            <a href="https://www.reddit.com/r/vergecurrency/" className="social__link social__link--reddit"><FontAwesomeIcon icon={faReddit} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://www.twitter.com/vergecurrency" target="_blank">
-                            <a className="social__link social__link--twitter"><FontAwesomeIcon icon={ faTwitter } size="2x" /></a>
+                            <a href="https://www.twitter.com/vergecurrency" className="social__link social__link--twitter"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://discord.gg/vergecurrency" target="_blank">
-                            <a className="social__link social__link--discord"><FontAwesomeIcon icon={ faDiscord } size="2x" /></a>
+                            <a href="https://discord.gg/vergecurrency" className="social__link social__link--discord"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
                           </Link>
                         </div>
                       </div>

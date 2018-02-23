@@ -13,7 +13,7 @@
         &::after {
           background: #e8d8cf;
           bottom: rem(-45px);
-          content: '';
+          content: "";
           height: rem(40px);
           left: rem(2px);
           min-width: 2px;
@@ -33,7 +33,7 @@
           &::before {
             background: $white;
             border-radius: 50%;
-            content: '';
+            content: "";
             height: rem(30px);
             left: rem(-40px);
             position: absolute;
@@ -47,7 +47,7 @@
           &::before {
             background: #04a5f0;
             border-radius: 50%;
-            content: '';
+            content: "";
             height: rem(30px);
             left: rem(-40px);
             position: absolute;
@@ -59,7 +59,7 @@
         &:last-of-type {
           &::after {
             background: transparent;
-            content: '';
+            content: "";
           }
         }
       }

@@ -7,15 +7,15 @@
   },
   "USPs": {
     "first": {
-      "header": "A <span>cryptocurrency</span> designed for everyday use.",
-      "text": "Improving upon the original Bitcoin blockchain and aims to fulfill its initial purpose."
+      "header": "A <span>cryptocurrency</span> designed <br>for everyday use.",
+      "text": "Improving upon the original Bitcoin block&shy;chain and aims to fulfill its initial purpose."
     },
     "second": {
-      "header": "Bringing <span>blockchain</span> into everyday life.",
+      "header": "Bringing <span>blockchain</span> <br>into everyday life.",
       "text": "Verge currency makes it possible to engage in direct transactions."
     },
     "third": {
-      "header": "Open Source Development & <span>Community Driven.</span>",
+      "header": "Open Source Development <br>& <span>Community Driven.</span>",
       "text": "Verge is not a private company funded by pre-mined coins or ICO's."
     }
   },

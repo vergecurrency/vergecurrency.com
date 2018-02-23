@@ -1,20 +1,45 @@
 // scss-lint:disable ColorVariable
-
-%wallet-icon--after {
-  background: url('/static/img/wallets/tor.svg');
-  background-size: cover;
-  border-radius: 50%;
-  bottom: rem(-10px);
-  box-shadow: 0 0 rem(50px) rgba(0, 0, 0, .2);
-  content: '';
-  display: block;
-  height: rem(28px);
-  position: absolute;
-  right: rem(-5px);
-  width: rem(28px);
-}
-
 .home {
+  .reason {
+    position: relative;
+    text-align: center;
+
+    &::before {
+      background: #202A32;
+      content: " ";
+      display: inline-block;
+      height: 100vw;
+      position: absolute;
+      top: -40vw;
+      transform: rotate(30deg);
+      transform-origin: center;
+      width: 2px;
+      z-index: 0;
+
+      @media (min-width: $min-width-sm) {
+        height: rem(250px);
+        margin-left: -3rem;
+        top: rem(-60px);
+      }
+    }
+
+    &:first-child::before,
+    &:last-child::before {
+      display: none;
+
+      @media (min-width: $min-width-sm) {
+        display: inline-block;
+      }
+    }
+
+    &--inner {
+      padding: 0 1.5rem;
+      position: relative;
+      text-align: left;
+      z-index: 1;
+    }
+  }
+
   .intro {
     h2 {
       margin-bottom: 1.5rem;
@@ -31,12 +56,8 @@
   }
 
   .benefits {
-    &--url {
-      color: #9b9b9b;
-
-      &::after {
-        @extend %gray-arrow-right;
-      }
+    &--url::after {
+      @extend %gray-arrow-right;
     }
 
     &--imgs {
@@ -105,7 +126,13 @@
 
     p {
       font-size: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .exchanges {
+    &--url::after {
+      @extend %gray-arrow-right;
     }
   }
 

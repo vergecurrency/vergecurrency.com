@@ -8,11 +8,13 @@ const Roadmap = () => (
       <div className="row pt-lg pb-lg">
         <div className="col-sm-8 col-sm-offset-4">
           <span className="spaced">Roadmap</span>
-          <h2>A roadmap with great features to come.<br />
-            Join us while we're still growing!</h2>
+          <h2>
+            A roadmap with great features to come.<br />
+            Join us while we&apos;re still growing!
+          </h2>
           <ul className="roadmap--timeline">
             <li className="done">
-              <h3>"Black" Paper v3.0</h3>
+              <h3>&quot;Black&quot; Paper v3.0</h3>
               <span>Released</span> 4 June 2017
             </li>
             <li className="done">
@@ -27,14 +29,14 @@ const Roadmap = () => (
           </ul>
 
           <h6>
-            <Link href="#">
-              <a className="spaced pt">Full roadmap here</a>
+            <Link href="/roadmap">
+              <a href="/roadmap" className="spaced pt">Full roadmap here</a>
             </Link>
           </h6>
         </div>
       </div>
     </div>
   </Layout>
-)
+);
 
 export default Roadmap;

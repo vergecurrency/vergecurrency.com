@@ -1,15 +1,15 @@
-var gulp = require('gulp');
-var webserver = require('gulp-webserver');
+const gulp = require('gulp');
+const webserver = require('gulp-webserver');
 
-var paths = {
+const paths = {
   dist: 'out',
 };
 
-gulp.task('serve', function () {
-  return gulp.src(paths.dist)
+gulp.task('serve', () => (
+  gulp.src(paths.dist)
     .pipe(webserver({
       port: 3001,
-    }));
-});
+    }))
+));
 
 gulp.task('default', ['serve']);

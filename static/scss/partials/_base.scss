@@ -5,7 +5,7 @@ $font-color-paragraph: #647886;
 
 html,
 body {
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
   font-size: 14px;
 
   @media (min-width: $min-width-xs--iphone-plus) {
@@ -66,15 +66,20 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-weight: 600;
+}
+
 h6 {
   color: #9b9b9b;
   font-size: .75rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: rem(3px);
   text-transform: uppercase;
 
   a {
     color: inherit;
+    font-weight: 700;
   }
 }
 

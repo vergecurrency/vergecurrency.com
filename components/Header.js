@@ -12,10 +12,7 @@ import NProgress from 'nprogress';
 import Navbar from './Navbar';
 import MenuItems from './MenuItems';
 
-import { translate } from 'react-i18next';
-import i18n from '../i18n';
-
-Router.onRouteChangeStart = (url) => NProgress.start();
+Router.onRouteChangeStart = () => { NProgress.start(); };
 Router.onRouteChangeComplete = () => NProgress.done();
 Router.onRouteChangeError = () => NProgress.done();
 
@@ -30,7 +27,7 @@ const Header = ({ t }) => (
       <div className="row between-xs around-sm middle-xs">
         <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
           <Link href="/">
-            <a>
+            <a href="/">
               <VergeLogoWhite />
             </a>
           </Link>
@@ -42,7 +39,7 @@ const Header = ({ t }) => (
           <div className="visible-xs">
             <Menu right>
               <MenuItems t={t} />
-            </Menu>  
+            </Menu>
           </div>
         </nav>
       </div>

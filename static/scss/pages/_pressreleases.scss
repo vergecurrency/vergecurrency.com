@@ -27,7 +27,7 @@
 
         &::after {
           background-color: #e8e8e8;
-          content: ' ';
+          content: " ";
           display: block;
           height: rem(3px);
           margin-left: 1px;
@@ -88,7 +88,7 @@
       // scss-lint:disable NestingDepth
       &::after {
         background-color: #091721;
-        content: ' ';
+        content: " ";
         display: block;
         height: rem(3.2px);
         margin-bottom: rem(19px);

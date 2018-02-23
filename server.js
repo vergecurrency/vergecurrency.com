@@ -1,9 +1,9 @@
-const express = require('express')
-const next = require('next')
+const express = require('express');
+const next = require('next');
 
-const dev = process.env.NODE_ENV !== 'production'
-const app = next({ dev })
-const handle = app.getRequestHandler()
+const dev = process.env.NODE_ENV !== 'production';
+const app = next({ dev });
+const handle = app.getRequestHandler();
 
 const i18nextMiddleware = require('i18next-express-middleware');
 const Backend = require('i18next-node-fs-backend');
@@ -52,15 +52,15 @@ i18n
     // add more namespaces as pages are created
     ns: ['common', 'header', 'footer', 'home', 'presskit', 'pressreleases'],
     backend: {
-      loadPath: __dirname + '/locales/{{lng}}/{{ns}}.json',
-      addPath: __dirname + '/locales/{{lng}}/{{ns}}.missing.json',
-      reloadInterval: 10000
-    }
+      loadPath: `${__dirname}/locales/{{lng}}/{{ns}}.json`,
+      addPath: `${__dirname}/locales/{{lng}}/{{ns}}.missing.json`,
+      reloadInterval: 10000,
+    },
   }, () => {
     // loaded translations we can bootstrap our routes
     app.prepare()
       .then(() => {
-        const server = express()
+        const server = express();
 
         // server.use(initializer);
 
@@ -72,17 +72,17 @@ i18n
         server.use(i18nextMiddleware.handle(i18n));
 
         // serve locales for client
-        server.use('/locales', express.static(__dirname + '/locales'))
+        server.use('/locales', express.static(`${__dirname}/locales`));
 
         // missing keys
         server.post('/locales/add/:lng/:ns', i18nextMiddleware.missingKeyHandler(i18n));
 
         // use next.js
-        server.get('*', (req, res) => handle(req, res))
+        server.get('*', (req, res) => handle(req, res));
 
         server.listen(3000, (err) => {
-          if (err) throw err
-          console.log('> Ready on http://localhost:3000')
-        })
-      })
+          if (err) throw err;
+          console.log('> Ready on http://localhost:3000');
+        });
+      });
   });
