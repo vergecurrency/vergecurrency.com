@@ -1,0 +1,14 @@
+.key-tech {
+  &--subheader {
+    background: transparent;
+    border-bottom: 1px solid #05131e;
+
+    @at-root .scroll & {
+      background: $white;
+
+      a {
+        color: #111;
+      }
+    }
+  }
+}
