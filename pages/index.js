@@ -220,28 +220,28 @@ function Home(props) {
 
             <div className="container themed-container--linen themed-container--linen--home">
               <div className="row center-xs roadmap">
-                <div className="col-xs-11 col-sm-8 col-lg-6 start-xs center-lg">
+                <div className="col-xs-11 col-sm-8 col-md-6 start-xs center-lg">
                   <h2>
                     A roadmap with great features to come.<br />
                     Join us while we&apos;re still growing!
                   </h2>
                   <div className="row start-xs center-sm">
                     <div className="col-xs-10 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-12 col-lg-9 start-xs">
-                      <ul className="roadmap--timeline">
-                        <li className="done">
+                      <ul className="roadmap__timeline roadmap__timeline--home pb">
+                        <li className="roadmap__item roadmap__item--done">
                           <h3>&quot;Black&quot; Paper v3.0</h3>
                           <span>Released</span> 4 June 2017
                         </li>
-                        <li className="done">
+                        <li className="roadmap__item roadmap__item--done">
                           <h3>Core Wallet 3.0 Release Stage 1</h3>
                           Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability<br />
                           <span>Released</span> 4 June 2017
                         </li>
-                        <li className="planned">
+                        <li className="roadmap__item roadmap__item--planned">
                           <h3>I2P Android Wallet</h3>
                           Anonymous mobile transactions over the I2P network
                         </li>
-                        <li className="planned">
+                        <li className="roadmap__item roadmap__item--planned">
                           <h3>Mining Update</h3>
                           XVGui Miner, Official Mining Pool, Mining Guide
                         </li>

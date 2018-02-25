@@ -199,6 +199,16 @@
         padding-top: 4rem;
       }
     }
+
+    &--roadmap {
+      margin-bottom: 0;
+      padding-bottom: 4rem;
+      padding-top: 6rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-top: 8rem;
+      }
+    }
   }
 
   &--linen {
