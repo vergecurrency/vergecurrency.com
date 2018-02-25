@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 const Roadmap = () => (
   <Layout>
-    <div className="roadmap">
+    <div className="roadmap pt-lg">
       <div className="row pt-lg pb-lg">
         <div className="col-sm-8 col-sm-offset-4">
           <span className="spaced">Roadmap</span>

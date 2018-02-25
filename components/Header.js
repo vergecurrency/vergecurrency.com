@@ -44,7 +44,9 @@ const Header = ({ t }) => (
         </nav>
       </div>
     </div>
-    <Navbar />
+    <Navbar
+      key="profile-nav-bar"
+    />
   </header>
 );
 

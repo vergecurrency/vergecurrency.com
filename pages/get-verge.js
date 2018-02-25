@@ -11,7 +11,7 @@ function GetVerge() {
     <Layout>
       <div className="get-verge pt-lg">
         <div className="container">
-          <div className="row center-xs middle-xs pt pb">
+          <div className="row center-xs middle-xs pb-lg pt-lg">
             <div className="col-sm-6 col-xs-12">
               <span className="spaced">Get verge</span>
               <h2>Trade Verge on the most popular exchanges. We’re proud to be listed on</h2>

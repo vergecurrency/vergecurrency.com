@@ -25,7 +25,6 @@ function About() {
         <div className="intro pt-lg pb-lg">
           <div className="row center-xs middle-xs">
             <div className="col-sm-6">
-              {/* <span class="spaced">Delivers what others can't</span> */}
               <h2>
                 Verge Currency is a 100% open source project
                 and the global Verge Community represents the man power driving it forward.
