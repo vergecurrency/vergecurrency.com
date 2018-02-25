@@ -38,7 +38,7 @@ function Pressrelease(props) {
                   <div className="date-container">
                     {t('date.label', { defaultValue: 'Press release' })}
                     <span className="hidden-xs">|</span>
-                    <Moment format="MMMM Do YYYY" className="date">{ one.date }</Moment>
+                    <Moment format="YYYY/MM/DD" className="date">{ one.date }</Moment>
                   </div>
                   <h1>{ one.post.heading }</h1>
                   <p>{ one.post.subheading }</p>
@@ -86,17 +86,17 @@ function Pressrelease(props) {
 
                 <div className="row around-xs pt-small">
                   <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                    <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
+                    <Moment format="YYYY/MM/DD" className="date">2018-01-01</Moment>
                     <h4>Update on Wraith. The release of Verge Core..</h4>
                     <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                    <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
+                    <Moment format="YYYY/MM/DD" className="date">2018-01-01</Moment>
                     <h4>Update on Wraith. The release of Verge Core..</h4>
                     <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
                   </div>
                   <div className="col-xs-12 col-sm-4 start-xs">
-                    <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
+                    <Moment format="YYYY/MM/DD" className="date">2018-01-01</Moment>
                     <h4>Update on Wraith. The release of Verge Core..</h4>
                     <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
                   </div>
@@ -119,32 +119,32 @@ function Pressrelease(props) {
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://github.com/vergecurrency?tab=repositories" target="_blank">
-                          <a className="social__link social__link--github"><FontAwesomeIcon icon={ faGithub } size="2x" /></a>
+                          <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://t.me/VERGExvg" target="_blank">
-                          <a className="social__link social__link--telegram"><FontAwesomeIcon icon={ faTelegram } size="2x" /></a>
+                          <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram"><FontAwesomeIcon icon={faTelegram} size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank">
-                          <a className="social__link social__link--youtube"><FontAwesomeIcon icon={ faYoutube } size="2x" /></a>
+                          <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://www.reddit.com/r/vergecurrency/" target="_blank">
-                          <a className="social__link social__link--reddit"><FontAwesomeIcon icon={ faReddit } size="2x" /></a>
+                          <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit"><FontAwesomeIcon icon={faReddit} size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://www.twitter.com/vergecurrency" target="_blank">
-                          <a className="social__link social__link--twitter"><FontAwesomeIcon icon={ faTwitter } size="2x" /></a>
+                          <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
                         <Link href="https://discord.gg/vergecurrency" target="_blank">
-                          <a className="social__link social__link--discord"><FontAwesomeIcon icon={ faDiscord } size="2x" /></a>
+                          <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
                         </Link>
                       </div>
                     </div>
@@ -190,7 +190,7 @@ How is this possible? VergeCurrency implements highly advanced blockchain techno
 
 VergeCurrency is script based and makes it very easy to implement on an exchange.
 
-Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds. Also, there is a tipping bot cooked into the algorithm which helps translate the effectiveness of merging low fees, ultra-fast transaction speeds into a high-volume coin.`
+Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds. Also, there is a tipping bot cooked into the algorithm which helps translate the effectiveness of merging low fees, ultra-fast transaction speeds into a high-volume coin.`;
 
 const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressrelease);
 

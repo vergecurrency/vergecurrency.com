@@ -1,5 +1,10 @@
 module.exports = {
     "extends": "airbnb",
+    "globals": {
+        "document": true,
+        "window": true,
+        "process": true,
+    },
     rules: {
         'max-len': ['warn', { 'code': 120 }],
         camelcase: 0, // Foo_foo can be Relay compiler generated type.
@@ -30,5 +35,5 @@ module.exports = {
         'no-console': process.env.NODE_ENV === 'production' ? 2 : 0,
         'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
         "react/react-in-jsx-scope": "off",
-    }
+    },
 };
