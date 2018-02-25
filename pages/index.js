@@ -90,7 +90,7 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="themed-container--blue themed-container--blue--home">
+            <div className="themed-container--blue themed-container--blue--benefits">
               <div className="row center-xs">
                 <div className="col-xs-10 col-sm-5 col-md-6 col-lg-7">
                   <div className="row start-xs benefits">
