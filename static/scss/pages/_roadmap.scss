@@ -3,6 +3,7 @@
     list-style: none;
     margin-bottom: 0;
     padding-left: 0;
+    transition: .2s all;
 
     @media (min-width: $min-width-sm) {
       left: 8rem;
@@ -11,6 +12,7 @@
       &--home {
         left: 0;
         position: static;
+        transition: .2s all;
       }
     }
   }
@@ -86,12 +88,15 @@
     left: -3rem;
     margin-top: 0;
     position: relative;
+    transition: .2s all;
 
     @media (min-width: $min-width-sm) {
       position: absolute;
     }
 
     span {
+      transition: .2s all;
+
       @media (min-width: $min-width-sm) {
         left: -11rem;
         position: absolute;
