@@ -5,33 +5,18 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import {
-  faFacebook, faGithub, faTelegram,
-  faYoutube, faReddit, faTwitter, faDiscord,
-} from '@fortawesome/fontawesome-free-brands';
-
-import Moment from 'react-moment';
-import 'moment-timezone';
-
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-import LogoBusinessInsider from '../static/img/coverage/Business_Insider.svg';
-import LogoForbes from '../static/img/coverage/Forbes.svg';
-import LogoHuffingtonPost from '../static/img/coverage/Huffington_Post.svg';
-import LogoMashable from '../static/img/coverage/Mashable.svg';
-import LogoTechChrunch from '../static/img/coverage/TechChrunch.svg';
-
-function Pressreleases(props) {
+function KeyTech(props) {
   const { t } = props;
 
   return (
     <Layout>
       <Subheader t={t} category="press" page="key-tech" />
 
-      <div className="pressreleases press">
-        <div className="ribbon ribbon--pressreleases">
+      <div className="key-tech press">
+        <div className="ribbon ribbon--key-tech">
           <div className="ribbon-img" />
 
           <div className="container pt">
@@ -46,13 +31,101 @@ function Pressreleases(props) {
           </div>
         </div>
         <div className="container themed-container themed-container--dark">
-          ..
+          <h2>Wraith Protocol</h2>
+          <p>
+            Wraith Protocol is a technology that allows the user to seamlessly switch between public and private
+            ledgers on the Verge Blockchain. Users are now free to choose which ledger they want to utilize.
+          </p>
+          <p>
+            When Wraith Protocol is turned ON — the transaction data is hidden and not visible via the blockchain
+            explorer. Optional stealth addressing keeps transactions hidden and not linked to your public address.
+          </p>
+          <p>
+            If Wraith Protocol is OFF, transactions are linked to your public address and are publicly viewable via the
+            blockchain explorer.
+          </p>
+          <Link href="/blog">
+            <a className="btn btn-primary">Read about Wraith on our blog</a>
+          </Link>
+
+          <h6>Key features</h6>
+          <h2>
+            Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the
+            ingredients that make Verge perfectly positioned for mass adoption.
+          </h2>
+          <p>Transaction speeds are ultra-fast compared to other coins.</p>
+
+          <div className="row">
+            <div className="col-xs-12 col-sm-6">
+              <h3>Tor IP obfuscation</h3>
+              <p>
+                Tor, derived from an acronym for the original software project name “The Onion Router”, is an IP
+                obfuscation service which enables anonymous communication across a layered circuit based network.
+              </p>
+              <p>
+                Verge integrates Tor in its Core, Electrum and Android wallets, thereby eliminating any single point at
+                which the communicating peers can be determined through network surveillance that relies upon knowing
+                its source and destination.
+              </p>
+            </div>
+            <div className="col-xs-12 col-sm-6">
+              <h3>I2P tunneling</h3>
+              <p>
+                I2P is a highly obfuscated tunneling service using ipv6 that anonymizes all Verge data being sent over
+                the network.
+              </p>
+              <p>
+                As Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users. As
+                Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users.
+              </p>
+              <p>
+                As Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users.
+              </p>
+            </div>
+            <div className="col-xs-12 col-sm-6">
+              <h3>Atomic Swaps</h3>
+              <p>
+                Atomic Swaps, or atomic cross-chain trading, is a technology that enables direct peer-to-peer trading
+                across separate blockchains with BIP65 support and eliminates the need for trusted third parties.
+              </p>
+              <p>
+                Traditional centralized exchanges can be replaced by decentralized exchanges (DEX), which means you
+                always keep your funds in your wallet and do not rely on an intermediary. By enabling Atomic Swaps
+                capability, Verge takes a proactive step towards a decentralized future.
+              </p>
+            </div>
+            <div className="col-xs-12 col-sm-6">
+              <h3>Multi-algorithm Mining</h3>
+              <p>
+                Verge Currency uses Proof of Work (POW) mining principle. It is one of the few cryptocurrencies to have
+                a multi-algorithm support.
+              </p>
+              <p>
+                Verge has 5 different hash functions: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s.  Such design
+                allows for a more equal access. Verge is not a private company funded by pre-mined coins or ICO&apos;s.
+              </p>
+              <p>
+                Therefore allowing our community to mine Verge with good technology is vital.
+              </p>
+            </div>
+          </div>
+
+          <h6>Integrations</h6>
+          <h2>Powering real world  mainstream adoption with P2P integrations</h2>
+          <p>
+            Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media
+            platforms is an important strategic step to accomplish this goal.
+          </p>
+          <p>
+            With no installation required from either party, XVG coins can be sent and received over Twitter, Discord
+            and Telegram. More platforms are in planning stages as we speak!
+          </p>
         </div>
       </div>
     </Layout>
   );
 }
 
-const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressreleases);
+const Extended = translate(['key-tech'], { i18n, wait: process.browser })(KeyTech);
 
 export default Extended;
