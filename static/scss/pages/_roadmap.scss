@@ -1,75 +1,67 @@
 .roadmap {
-    background: #fbf4f0;
+  &--timeline {
+    list-style: none;
+    padding-left: 0;
 
-    &--timeline {
-      list-style: none;
-      padding-left: 0;
+    li {
+      // Added variables for correct spacing of alterations of these lines
+      $connector-line-wrapper-height: 4rem;
+      $connector-line-gap: .5rem;
+      $connector-line-height: $connector-line-wrapper-height - (3 * $connector-line-gap);
+      $connector-line-offset-y: -($connector-line-height + $connector-line-gap);
 
-      li {
-        font-size: rem(14px);
-        margin-top: rem(50px);
-        position: relative;
-
-        &::after {
-          background: #e8d8cf;
-          bottom: rem(-45px);
-          content: "";
-          height: rem(40px);
-          left: rem(2px);
-          min-width: 2px;
-          position: absolute;
-          width: rem(2px);
-        }
-
-        h3 {
-          margin-bottom: 0;
-        }
-
-        span {
-          color: #00aeff;
-        }
-
-        &.planned {
-          &::before {
-            background: $white;
-            border-radius: 50%;
-            content: "";
-            height: rem(30px);
-            left: rem(-40px);
-            position: absolute;
-            top: .5rem;
-            width: rem(30px);
-            box-shadow: 0 0 80px rgba(0,0,0,0.2);
-          }
-        }
-
-        &.done {
-          &::before {
-            background: #04a5f0;
-            border-radius: 50%;
-            content: "";
-            height: rem(30px);
-            left: rem(-40px);
-            position: absolute;
-            top: .5rem;
-            width: rem(30px);
-          }
-        }
-
-        &:last-of-type {
-          &::after {
-            background: transparent;
-            content: "";
-          }
-        }
-      }
-    }
-
-    h6 {
-      color: #091721;
+      font-size: rem(14px);
+      margin-bottom: $connector-line-wrapper-height;
+      margin-top: 0;
+      position: relative;
 
       &::after {
-        @extend %gray-arrow-right;
+        background: #e7d8ce;
+        bottom: $connector-line-offset-y;
+        content: "";
+        height: $connector-line-height;
+        left: rem(2px);
+        min-width: 2px;
+        position: absolute;
+        width: rem(2px);
+      }
+
+      h3 {
+        margin-bottom: 0;
+      }
+
+      span {
+        color: #00aeff;
+      }
+
+      &::before {
+        border-radius: 50%;
+        content: "";
+        height: rem(30px);
+        left: -3rem;
+        position: absolute;
+        top: .5rem;
+        width: rem(30px);
+      }
+
+      &.planned {
+        &::before {
+          background: $white;
+          box-shadow: 0 0 80px rgba(0, 0, 0, .2);
+        }
+      }
+
+      &.done {
+        &::before {
+          background: #04a5f0;
+        }
+      }
+
+      &:last-of-type {
+        &::after {
+          display: none;
+        }
       }
     }
   }
+}

@@ -204,6 +204,28 @@
   &--linen {
     background: #fcf1eb;
 
+    &--home {
+      padding-bottom: 4rem;
+      padding-top: 4rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+      }
+
+      h2 {
+        margin-bottom: 2rem;
+      }
+
+      h6 {
+        color: #091721;
+
+        a::after {
+          @extend %gray-arrow-right;
+        }
+      }
+    }
+
     &--press {
       margin-top: -8rem;
       padding-top: 4rem;
