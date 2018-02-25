@@ -1,5 +1,5 @@
 /* global document window */
-import { translate } from 'react-i18next';
+import { translate, Interpolate } from 'react-i18next';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faApple } from '@fortawesome/fontawesome-free-brands';
 
@@ -99,18 +99,24 @@ function WalletsPage(props) {
             </div>
           </div>
 
-          <div className="pt-lg pb-lg">
-            <div className="row center-xs start-sm">
-              <div className="col-sm-6 col-xs-9 start-xs">
-                <span className="spaced">WALLETS FOR ALL PLATFORMS</span>
-                <h2>
-                  We got your preffered platform covered. <br />
-                  Download your wallet here.
-                </h2>
+          <div className="wallets">
+            <div className="row center-xs">
+              <div className="col-xs-9 col-sm-10 center-xs">
+                <div className="row center-xs start-md">
+                  <div className="col-xs-12 col-lg-10">
+                    <div className="start-sm pb-small">
+                      <h6>Wallets for all platforms</h6>
+                      <h2>
+                        <Interpolate i18nKey="home:wallets.header" br={<span> <br className="hidden-xs" /></span>} />
+                      </h2>
+                    </div>
+                    <Wallets />
+                  </div>
+                </div>
               </div>
             </div>
-            <Wallets />
           </div>
+
           <div className="guide">
             <div className="row center-xs middle-xs pt pb">
               <iframe
