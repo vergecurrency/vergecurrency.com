@@ -110,16 +110,28 @@ function KeyTech(props) {
             </div>
           </div>
 
-          <h6>Integrations</h6>
-          <h2>Powering real world  mainstream adoption with P2P integrations</h2>
-          <p>
-            Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media
-            platforms is an important strategic step to accomplish this goal.
-          </p>
-          <p>
-            With no installation required from either party, XVG coins can be sent and received over Twitter, Discord
-            and Telegram. More platforms are in planning stages as we speak!
-          </p>
+          <div className="themed-container--blue themed-container--blue--integrations">
+            <div className="row center-xs">
+              <div className="col-xs-10 col-sm-6 col-md-5 col-lg-4 start-xs">
+                <h6>Integrations</h6>
+                <h2>Powering real world mainstream adoption with P2P integrations</h2>
+
+                <p>
+                  Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social
+                  media platforms is an important strategic step to accomplish this goal.
+                </p>
+                <p>
+                  With no installation required from either party, XVG coins can be sent and received over Twitter,
+                  Discord and Telegram. More platforms are in planning stages as we speak!
+                </p>
+              </div>
+              <div className="col-sm-4 col-md-5 col-lg-6 hidden-xs">
+                <div className="integrations--imgs hidden-xs">
+                  ..
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>

@@ -90,7 +90,7 @@ function WalletsPage(props) {
                   </Link>
                 </h6>
               </div>
-              <div className="col-sm-5 col-md-4 col-md-3 col-lg-3 hidden-xs">
+              <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
                 <div className="benefits--imgs hidden-xs">
                   <img src="../static/img/benefits-desktop.png" alt="Benefits desktop" />
                   <img src="../static/img/benefits-mobile.png" alt="Benefits mobile" />
