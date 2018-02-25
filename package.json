@@ -52,6 +52,7 @@
     "node-sass": "^4.4.0",
     "normalize.css": "^7.0.0",
     "nprogress": "^0.2.0",
+    "platform": "^1.3.5",
     "postcss-easy-import": "^3.0.0",
     "postcss-loader": "^2.1.0",
     "prop-types": "^15.6.0",

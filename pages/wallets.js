@@ -1,11 +1,9 @@
-/* global document window */
 import { translate } from 'react-i18next';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faApple } from '@fortawesome/fontawesome-free-brands';
 
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import Wallets from '../components/Wallets';
+import WalletsBtn from '../components/WalletsBtn';
 import i18n from '../i18n';
 
 function WalletsPage(props) {
@@ -29,11 +27,7 @@ function WalletsPage(props) {
                     Download our latest Core wallet to store <br />
                     your Verge Currency with.
                   </p>
-                  <Link href="/">
-                    <a href="/" className="btn btn-primary btn-wallet">
-                      <FontAwesomeIcon icon={faApple} /> {t('home:ribbon.buttonPrimary')}
-                    </a>
-                  </Link>
+                  <WalletsBtn t={t} />
                   <button
                     onClick={() => handleScrollToElement()}
                     onKeyDown={() => handleScrollToElement()}
