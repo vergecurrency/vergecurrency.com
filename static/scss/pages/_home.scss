@@ -103,10 +103,6 @@
 
     &--list {
       display: block;
-
-      a::after {
-        @extend %gray-arrow-right;
-      }
     }
 
     &--img {
