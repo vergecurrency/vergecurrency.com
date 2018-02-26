@@ -173,6 +173,18 @@
       }
     }
 
+    &--wraith {
+      background-color: #040e15;
+      background-image: url(/static/img/key-tech/Wraith.png); // scss-lint:disable UrlQuotes
+      background-position: top right;
+      background-repeat: no-repeat;
+      background-size: 50%;
+
+      @media (min-width: $min-width-sm) {
+        background-size: contain;
+      }
+    }
+
     @at-root .themed-container {
       & &--dark--home {
         background-color: #07121b;
