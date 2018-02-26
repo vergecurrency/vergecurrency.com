@@ -42,6 +42,26 @@
       background: url("/static/img/wallets/android.svg");
       background-size: cover;
 
+      &-white {
+        background: transparent;
+        @at-root .wallets {
+          &--icon {
+            margin-right: 0;
+            padding-left: rem(20px);
+          }
+        }
+
+        &:before {
+          content: "";
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          margin-left: -25px;
+          background: url("/static/img/wallets/android-white.svg");
+          background-size: cover;
+        }
+      }
+
       &--tor {
         &::after {
           @extend %wallet-icon--after;
@@ -52,6 +72,26 @@
     &__apple {
       background: url("/static/img/wallets/apple.svg");
       background-size: cover;
+
+      &-white {
+        background: transparent;
+        @at-root .wallets {
+          &--icon {
+            margin-right: 0;
+            padding-left: rem(20px);
+          }
+        }
+
+        &:before {
+          content: "";
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          margin-left: -25px;
+          background: url("/static/img/wallets/apple-white.svg");
+          background-size: cover;
+        }
+      }
 
       &--tor {
         &::after {
@@ -64,6 +104,26 @@
       background: url("/static/img/wallets/windows.svg");
       background-size: cover;
 
+      &-white {
+        background: transparent;
+        @at-root .wallets {
+          &--icon {
+            margin-right: 0;
+            padding-left: rem(20px);
+          }
+        }
+
+        &:before {
+          content: "";
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          margin-left: -25px;
+          background: url("/static/img/wallets/windows-white.svg");
+          background-size: cover;
+        }
+      }
+
       &--tor {
         &::after {
           @extend %wallet-icon--after;
@@ -74,6 +134,26 @@
     &__linux {
       background: url("/static/img/wallets/linux.svg");
       background-size: cover;
+
+      &-white {
+        background: transparent;
+        @at-root .wallets {
+          &--icon {
+            margin-right: 0;
+            padding-left: rem(20px);
+          }
+        }
+
+        &:before {
+          content: "";
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          margin-left: -25px;
+          background: url("/static/img/wallets/linux-white.svg");
+          background-size: cover;
+        }
+      }
 
       &--tor {
         &::after {

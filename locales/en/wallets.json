@@ -1,52 +1,76 @@
 {
   "wallets": [
     {
+      "name": "Download your wallet",
+      "url": "/wallets",
+      "className": "",
+      "classWhite": "",
+      "available": true,
+      "os": "all"
+    },
+    {
       "name": "Android Tor Wallet",
       "url": "#",
       "classNames": "wallets--icon__android wallets--icon__android--tor",
-      "available": true
+      "classWhite": "wallets--icon__android-white wallets--icon__android--tor-white",
+      "available": true,
+      "os": "Android"
     },
     {
       "name": "OSX Electrum Wallet",
       "url": "#",
       "classNames": "wallets--icon__apple",
-      "available": true
+      "classWhite": "wallets--icon__apple-white",
+      "available": true,
+      "os": "OS X"
     },
     {
       "name": "Apple iOS Wallet",
       "url": "#",
       "classNames": "wallets--icon__apple",
-      "available": false
+      "classWhite": "wallets--icon__apple-white",
+      "available": false,
+      "os": "iOS"
     },
     {
       "name": "OSX Tor Electrum Wallet",
       "url": "#",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
-      "available": true
+      "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
+      "available": true,
+      "os": "OS X"
     },
     {
       "name": "Windows Electrum Wallet",
       "url": "#",
       "classNames": "wallets--icon__windows",
-      "available": true
+      "classWhite": "wallets--icon__windows-white",
+      "available": true,
+      "os": "Windows"
     },
     {
       "name": "Windows Tor Wallet",
       "url": "#",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
-      "available": true
+      "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
+      "available": true,
+      "os": "Windows"
     },
     {
       "name": "Linux Electrum Wallet",
       "url": "#",
       "classNames": "wallets--icon__linux",
-      "available": true
+      "classWhite": "wallets--icon__linux-white",
+      "available": true,
+      "os": "Ubuntu"
     },
     {
       "name": "Linux Tor Electrum Wallet",
       "url": "#",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
-      "available": true
+      "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
+      "available": true,
+      "os": "Ubuntu"
     }
   ]
 }
