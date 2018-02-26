@@ -43,7 +43,7 @@ const Subnavigation_Items = {
       name: 'Key Tech',
     },
     {
-      link: '/press-releases',
+      link: '/pressreleases',
       i18: 'submenu.press_releases',
       name: 'Press Releases',
     },

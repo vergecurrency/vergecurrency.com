@@ -6,7 +6,7 @@ import Vendors from '../components/Vendors';
 function VendorsPage() {
   return (
     <Layout>
-      <div className="vendors">
+      <div className="vendors pt-lg">
         <div className="container">
           <div className="intro pt-lg pb-lg">
             <div className="row center-xs middle-xs">

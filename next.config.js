@@ -13,6 +13,7 @@ module.exports = {
       '/pressrelease': { page: '/pressrelease' },
       '/pressreleases': { page: '/pressreleases' },
       '/get-verge': { page: '/get-verge' },
+      '/key-tech': { page: '/key-tech' },
       '/vendors': { page: '/vendors' },
     };
   },

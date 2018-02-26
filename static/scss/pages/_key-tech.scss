@@ -1,0 +1,33 @@
+.key-tech {
+  background-color: #091721;
+  color: $white;
+
+  .ribbon {
+    z-index: 0;
+  }
+
+  .bb {
+    border-color: #112332;
+  }
+
+  &--subheader {
+    background: transparent;
+    border-bottom: 1px solid #05131e;
+
+    @at-root .scroll & {
+      background: $white;
+
+      a {
+        color: #111;
+      }
+    }
+  }
+
+  .content {
+    h2,
+    h3,
+    p {
+      color: $white;
+    }
+  }
+}

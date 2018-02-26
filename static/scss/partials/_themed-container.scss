@@ -116,7 +116,7 @@
       margin-bottom: 6rem;
     }
 
-    &--home {
+    &--benefits {
       margin-bottom: 6rem;
       margin-top: 6rem;
       padding-bottom: 4rem;
@@ -136,15 +136,25 @@
         }
       }
     }
+
+    &--integrations {
+      margin-bottom: 0;
+      margin-top: 6rem;
+    }
   }
 
   &--dark {
-    &--home {
+    &--home,
+    &--wraith {
       background-color: #07121b;
-      margin-bottom: 0;
+      margin-bottom: 6rem;
       margin-top: -8rem;
       padding-bottom: 6rem;
       padding-top: 6rem;
+
+      h2 {
+        color: $white;
+      }
 
       h3 {
         color: $white;
@@ -199,10 +209,42 @@
         padding-top: 4rem;
       }
     }
+
+    &--roadmap {
+      margin-bottom: 0;
+      padding-bottom: 4rem;
+      padding-top: 6rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-top: 8rem;
+      }
+    }
   }
 
   &--linen {
     background: #fcf1eb;
+
+    &--home {
+      padding-bottom: 4rem;
+      padding-top: 4rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+      }
+
+      h2 {
+        margin-bottom: 2rem;
+      }
+
+      h6 {
+        color: #091721;
+
+        a::after {
+          @extend %gray-arrow-right;
+        }
+      }
+    }
 
     &--press {
       margin-top: -8rem;
