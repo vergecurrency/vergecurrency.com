@@ -6,9 +6,9 @@ import Cointicker from '../components/Cointicker';
 import Mentions from '../components/Mentions';
 import Vendors from '../components/Vendors';
 import Wallets from '../components/Wallets';
+import WalletsBtn from '../components/WalletsBtn';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faApple } from '@fortawesome/fontawesome-free-brands';
 import { faPlay } from '@fortawesome/fontawesome-free-solid';
 
 import { translate, Interpolate } from 'react-i18next';
@@ -29,9 +29,7 @@ function Home(props) {
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t('home:ribbon.title') }} />
                   <p>{t('home:ribbon.text')}</p>
-                  <Link href="/wallets">
-                    <a href="/wallets" className="btn btn-primary btn-wallet"><FontAwesomeIcon icon={faApple} /> {t('home:ribbon.buttonPrimary')}</a>
-                  </Link>
+                  <WalletsBtn />
                   <Link href="/">
                     <a href="/" className="btn btn-secondary btn-video"><FontAwesomeIcon icon={faPlay} /> {t('home:ribbon.buttonSecondary')}</a>
                   </Link>

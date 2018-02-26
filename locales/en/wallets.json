@@ -1,6 +1,14 @@
 {
   "wallets": [
     {
+      "name": "Download your wallet",
+      "url": "/wallets",
+      "className": "",
+      "classWhite": "",
+      "available": true,
+      "os": "all"
+    },
+    {
       "name": "Android Tor Wallet",
       "url": "#",
       "classNames": "wallets--icon__android wallets--icon__android--tor",
