@@ -22,6 +22,21 @@
 }
 
 .wallets {
+  &__button {
+    display: inline;
+
+    + .btn {
+      margin-top: 1rem;
+      width: 100%;
+
+      @media (min-width: $min-width-sm) {
+        margin-left: 1rem;
+        margin-top: 0;
+        width: auto;
+      }
+    }
+  }
+
   &--url {
     &::after {
       @extend %gray-arrow-right;
