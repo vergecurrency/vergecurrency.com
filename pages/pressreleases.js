@@ -204,7 +204,7 @@ function Pressreleases(props) {
             </div>
             <div className="row center-xs pt pb">
               <div className="col-xs-12">
-                <div className="container themed-container--blue themed-container--blue--pressreleases">
+                <div className="container themed-container__blue themed-container__blue--pressreleases">
                   <div className="row center-xs">
                     <div className="col-xs-8">
                       <h2>Verge Currency is a 100% open source project and the global Verge Community represents the man power driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place.</h2>

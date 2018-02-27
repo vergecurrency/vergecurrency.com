@@ -41,7 +41,7 @@ function WalletsPage(props) {
           </div>
         </div>
         <div className="container">
-          <div className="row center-xs middle-xs pt pb-lg intro">
+          <div className="row center-xs middle-xs pt-lg pb-lg intro">
             <div className="col-xs-9 col-sm-6">
               <span className="spaced">Wallets</span>
               <div className="pt-xs">
@@ -55,7 +55,7 @@ function WalletsPage(props) {
             </div>
           </div>
 
-          <div className="themed-container--blue themed-container--blue--benefits">
+          <div className="themed-container__blue themed-container__blue--benefits">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-5 col-md-6 col-lg-7">
                 <div className="row start-xs benefits">
@@ -94,7 +94,7 @@ function WalletsPage(props) {
           </div>
 
           <div className="wallets">
-            <div className="row center-xs">
+            <div className="row center-xs pt-lg pb">
               <div className="col-xs-9 col-sm-10 center-xs">
                 <div className="row center-xs start-md">
                   <div className="col-xs-12 col-lg-10">

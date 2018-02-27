@@ -30,7 +30,7 @@ function Business(props) {
           </div>
         </div>
 
-        <div className="container themed-container--linen themed-container--linen--press">
+        <div className="container themed-container__linen themed-container__linen--press">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
@@ -136,7 +136,7 @@ function Business(props) {
             </div>
             <div className="row center-xs pt pb">
               <div className="col-xs-12">
-                <div className="container themed-container--blue themed-container--blue--business">
+                <div className="container themed-container__blue themed-container__blue--business">
                   <div className="row center-xs">
                     <div className="col-xs-8">
                       <h2>{t('business:bluecontainer.big', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so. The choice is yours, the choice going mainstream.' })}</h2>
