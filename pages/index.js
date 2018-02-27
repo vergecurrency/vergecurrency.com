@@ -210,9 +210,8 @@ function Home(props) {
                       <a href="/vendors" className="spaced">See all vendors here</a>
                     </Link>
                   </h6>
+                  <Vendors />
                 </div>
-                <div className="col-xs-12 pt" /> {/*odd solution - fix this later */}
-                <Vendors />
               </div>
             </div>
 
