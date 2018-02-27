@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 const Roadmap = () => (
   <Layout>
     <div className="roadmap">
-      <div className="themed-container--gray themed-container--gray--roadmap">
+      <div className="themed-container__gray themed-container__gray--roadmap">
         <div className="container">
           <div className="row center-xs roadmap">
             <div className="col-xs-11 col-sm-8 col-lg-6 start-xs center-sm">

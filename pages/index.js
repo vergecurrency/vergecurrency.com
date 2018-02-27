@@ -39,7 +39,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <div className="container themed-container--dark themed-container--dark--home">
+        <div className="container themed-container__dark themed-container__dark--home">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
@@ -80,7 +80,7 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="row center-xs intro pt">
+            <div className="row center-xs intro pt pb-lg">
               <div className="col-xs-11 col-sm-7 col-lg-6">
                 <h6>{t('home:intro.span')}</h6>
                 <h2>{t('home:intro.h2')}</h2>
@@ -88,7 +88,7 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="themed-container--blue themed-container--blue--benefits">
+            <div className="themed-container__blue themed-container__blue--benefits">
               <div className="row center-xs">
                 <div className="col-xs-10 col-sm-5 col-md-6 col-lg-7">
                   <div className="row start-xs benefits">
@@ -125,7 +125,7 @@ function Home(props) {
             </div>
 
             <div className="wallets">
-              <div className="row center-xs">
+              <div className="row center-xs pt-lg pb-lg">
                 <div className="col-xs-9 col-sm-10 center-xs">
                   <div className="row center-xs start-md">
                     <div className="col-xs-12 col-lg-10">
@@ -146,7 +146,7 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="themed-container--dark themed-container--dark--home">
+            <div className="themed-container__dark themed-container__dark--home">
               <div className="row center-xs power-to-the-people">
                 <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
                   <h6>Empowering people</h6>
@@ -159,7 +159,7 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="row center-xs">
+            <div className="row center-xs pt-lg pb">
               <div className="col-xs-9 col-sm-10 center-xs exchanges">
                 <div className="start-sm pb-small">
                   <h6>
@@ -176,9 +176,9 @@ function Home(props) {
               <Cointicker />
             </div>
 
-            <div className="themed-container--blue themed-container--blue--home">
+            <div className="themed-container__blue themed-container__blue--home">
               <div className="container">
-                <div className="row center-xs middle-xs vendors pb">
+                <div className="row center-xs middle-xs vendors">
                   <div className="col-xs-11 col-sm-6 col-md-5 start-xs">
                     <h6>{t('home:vendors.super', { defaultValue: 'Accept Verge Currency' })}</h6>
                     <h2>{t('home:vendors.title', { defaultValue: 'Powering real world vendors that accept Verge Currency' })}</h2>
@@ -215,7 +215,7 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="container themed-container--linen themed-container--linen--home">
+            <div className="container themed-container__linen themed-container__linen--home">
               <div className="row center-xs roadmap">
                 <div className="col-xs-11 col-sm-8 col-md-6 start-xs center-lg">
                   <h2>

@@ -308,19 +308,15 @@ function Presskit(props) {
                 </div>
               </div>
             </div>
-            <div className="row center-xs pb">
-              <div className="col-xs-12">
-                <div className="container themed-container--blue themed-container--blue--presskit">
-                  <div className="row center-xs">
-                    <div className="col-xs-8">
-                      <h2>{t('presskit:themed-container--blue:big', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.' })}</h2>
-                      <p>{t('presskit:themed-container--blue:small', { defaultValue: 'Verge Currency is a cryptocurrency designed for everyday use.' })}</p>
-                    </div>
-                  </div>
+            <div className="container themed-container__blue themed-container__blue--presskit">
+              <div className="row center-xs">
+                <div className="col-xs-8">
+                  <h2>{t('presskit:themed-container__blue:big', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.' })}</h2>
+                  <p>{t('presskit:themed-container__blue:small', { defaultValue: 'Verge Currency is a cryptocurrency designed for everyday use.' })}</p>
                 </div>
               </div>
             </div>
-            <div className="row center-xs">
+            <div className="row center-xs pt-lg">
               <div className="col-xs-10">
                 <div className="start-xs">
                   <h2>{t('presskit:reference.title', { defaultValue: 'Verge reference information' })}</h2>

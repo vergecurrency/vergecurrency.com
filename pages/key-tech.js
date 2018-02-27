@@ -32,7 +32,7 @@ function KeyTech(props) {
         </div>
 
         <div className="container pb-lg bb">
-          <div className="themed-container--dark themed-container--dark--wraith wraith">
+          <div className="themed-container__dark themed-container__dark--wraith wraith">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
                 <h2>Wraith Protocol</h2>
@@ -55,8 +55,8 @@ function KeyTech(props) {
               <div className="col-sm-4 col-md-5 hidden-xs" />
             </div>
           </div>
-          <div className="key-features content">
-            <div className="row center-xs">
+          <div className="key-features content pb">
+            <div className="row center-xs pt-lg pb">
               <div className="col-xs-10 col-sm-8">
                 <h6>Key features</h6>
                 <h2>
@@ -66,7 +66,7 @@ function KeyTech(props) {
                 <p>Transaction speeds are ultra-fast compared to other coins.</p>
               </div>
             </div>
-            <div className="row center-xs">
+            <div className="row center-xs pb-lg">
               <div className="col-xs-10">
                 <div className="row start-xs">
                   <div className="col-xs-12 col-sm-6 feature__item">
@@ -139,12 +139,11 @@ function KeyTech(props) {
             </div>
           </div>
 
-          <div className="themed-container--blue themed-container--blue--integrations">
+          <div className="themed-container__blue themed-container__blue--integrations">
             <div className="row center-xs integrations">
               <div className="col-xs-10 col-sm-6 col-md-5 col-lg-4 start-xs">
                 <h6>Integrations</h6>
                 <h2>Powering real world mainstream adoption with P2P integrations</h2>
-
                 <p>
                   Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social
                   media platforms is an important strategic step to accomplish this goal.
