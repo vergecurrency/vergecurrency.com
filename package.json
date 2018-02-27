@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
     "build": "next build && next export",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "lint": "./node_modules/.bin/eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,10 @@
   },
   "keywords": [],
   "author": "Stan Faas & Edwin de Boer",
+  "contributors": [
+    "StanFaas <stanfaas@gmail.com>",
+    "EdwinB89 <edwinb276@gmail.com>"
+  ],
   "license": "ISC",
   "homepage": "https://www.vergecurrency.com",
   "dependencies": {
@@ -47,6 +52,7 @@
     "node-sass": "^4.4.0",
     "normalize.css": "^7.0.0",
     "nprogress": "^0.2.0",
+    "platform": "^1.3.5",
     "postcss-easy-import": "^3.0.0",
     "postcss-loader": "^2.1.0",
     "prop-types": "^15.6.0",

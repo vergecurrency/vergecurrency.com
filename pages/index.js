@@ -6,9 +6,9 @@ import Cointicker from '../components/Cointicker';
 import Mentions from '../components/Mentions';
 import Vendors from '../components/Vendors';
 import Wallets from '../components/Wallets';
+import WalletsBtn from '../components/WalletsBtn';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faApple } from '@fortawesome/fontawesome-free-brands';
 import { faPlay } from '@fortawesome/fontawesome-free-solid';
 
 import { translate, Interpolate } from 'react-i18next';
@@ -29,9 +29,7 @@ function Home(props) {
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t('home:ribbon.title') }} />
                   <p>{t('home:ribbon.text')}</p>
-                  <Link href="/wallets">
-                    <a href="/wallets" className="btn btn-primary btn-wallet"><FontAwesomeIcon icon={faApple} /> {t('home:ribbon.buttonPrimary')}</a>
-                  </Link>
+                  <WalletsBtn />
                   <Link href="/">
                     <a href="/" className="btn btn-secondary btn-video"><FontAwesomeIcon icon={faPlay} /> {t('home:ribbon.buttonSecondary')}</a>
                   </Link>
@@ -90,7 +88,7 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="themed-container--blue themed-container--blue--home">
+            <div className="themed-container--blue themed-container--blue--benefits">
               <div className="row center-xs">
                 <div className="col-xs-10 col-sm-5 col-md-6 col-lg-7">
                   <div className="row start-xs benefits">
@@ -117,7 +115,7 @@ function Home(props) {
                     </Link>
                   </h6>
                 </div>
-                <div className="col-sm-5 col-md-4 col-md-3 col-lg-3 hidden-xs">
+                <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
                   <div className="benefits--imgs hidden-xs">
                     <img src="../static/img/benefits-desktop.png" alt="Benefits desktop" />
                     <img src="../static/img/benefits-mobile.png" alt="Benefits mobile" />
@@ -218,34 +216,42 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="roadmap">
-              <div className="row pt pb">
-                <div className="col-sm-8 col-sm-offset-4">
+            <div className="container themed-container--linen themed-container--linen--home">
+              <div className="row center-xs roadmap">
+                <div className="col-xs-11 col-sm-8 col-md-6 start-xs center-lg">
                   <h2>
                     A roadmap with great features to come.<br />
                     Join us while we&apos;re still growing!
                   </h2>
-                  <ul className="roadmap--timeline">
-                    <li className="done">
-                      <h3>&quot;Black&quot; Paper v3.0</h3>
-                      <span>Released</span> 4 June 2017
-                    </li>
-                    <li className="done">
-                      <h3>Test servers deployed</h3>
-                      <span>Released</span> 10 Aug 2017
-                    </li>
-                    <li className="planned">
-                      <h3>I2P Android Wallet</h3>
-                      Test servers <br />
-                      Anonymous mobile transactions over the I2P network
-                    </li>
-                  </ul>
+                  <div className="row start-xs center-sm">
+                    <div className="col-xs-10 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-12 col-lg-9 start-xs">
+                      <ul className="roadmap__timeline roadmap__timeline--home pb">
+                        <li className="roadmap__item roadmap__item--done">
+                          <h3>&quot;Black&quot; Paper v3.0</h3>
+                          <span>Released</span> 4 June 2017
+                        </li>
+                        <li className="roadmap__item roadmap__item--done">
+                          <h3>Core Wallet 3.0 Release Stage 1</h3>
+                          Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability<br />
+                          <span>Released</span> 4 June 2017
+                        </li>
+                        <li className="roadmap__item roadmap__item--planned">
+                          <h3>I2P Android Wallet</h3>
+                          Anonymous mobile transactions over the I2P network
+                        </li>
+                        <li className="roadmap__item roadmap__item--planned">
+                          <h3>Mining Update</h3>
+                          XVGui Miner, Official Mining Pool, Mining Guide
+                        </li>
+                      </ul>
 
-                  <h6>
-                    <Link href="/roadmap">
-                      <a href="/roadmap" className="spaced pt">Full roadmap here</a>
-                    </Link>
-                  </h6>
+                      <h6>
+                        <Link href="/roadmap">
+                          <a href="/roadmap">Full roadmap here</a>
+                        </Link>
+                      </h6>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

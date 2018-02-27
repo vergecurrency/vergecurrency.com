@@ -1,0 +1,6 @@
+.walletBtn {
+  display: inline-block;
+  &+ .btn {
+    margin-left: 3em;
+  }
+}

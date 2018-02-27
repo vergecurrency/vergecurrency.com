@@ -58,6 +58,8 @@ $colors: (
 @import 'partials/wallets';
 @import 'partials/exchanges';
 @import 'partials/sidebar';
+@import 'partials/benefits';
+@import 'partials/walletBtn';
 
 //Pages
 @import 'pages/home';
@@ -71,6 +73,7 @@ $colors: (
 @import 'pages/roadmap';
 @import 'pages/get-verge';
 @import 'pages/vendors';
+@import 'pages/key-tech';
 
 @import 'partials/markdown';
 @import 'partials/responsive-display';

@@ -1,0 +1,88 @@
+.key-tech {
+  background-color: #091721;
+  color: $white;
+
+  .ribbon {
+    z-index: 0;
+  }
+
+  .bb {
+    border-color: #112332;
+  }
+
+  &--subheader {
+    background: transparent;
+    border-bottom: 1px solid #05131e;
+
+    @at-root .scroll & {
+      background: $white;
+
+      a {
+        color: #111;
+      }
+    }
+  }
+
+  .content {
+    h2,
+    h3,
+    p {
+      color: $white;
+    }
+  }
+
+  .feature {
+    &__image {
+      margin: -4rem auto -2rem;
+      transform: translateX(-1rem);
+      width: calc(100% + 4rem);
+
+      @media (min-width: $min-width-sm) {
+        transform: translateX(-.5rem);
+        width: calc(100% + 2rem);
+      }
+    }
+
+    &__item {
+      margin-bottom: 2rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .integrations {
+    position: relative;
+
+    &--imgs {
+      background-image: url(/static/img/key-tech/social.png); // scss-lint:disable UrlQuotes
+      background-position: center right;
+      background-repeat: no-repeat;
+      // background-size: cover;
+      height: 210%;
+      position: absolute;
+      right: 0;
+      top: -10rem;
+      transition: .2s all;
+      width: 100%;
+      z-index: 0;
+
+      @media (min-width: $min-width-sm) {
+        background-size: contain;
+        height: 220%;
+        left: 6rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        left: -2rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        height: 230%;
+        left: -5rem;
+        top: -12rem;
+      }
+    }
+  }
+}

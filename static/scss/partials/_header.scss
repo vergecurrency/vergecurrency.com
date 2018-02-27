@@ -59,6 +59,7 @@
       height: rem(28px);
       vertical-align: middle;
       width: rem(28px);
+
       @media (min-width: $min-width-sm) {
         display: none !important;
       }
@@ -83,35 +84,39 @@
     }
   }
 
-  @media (max-width: $max-width-xs){
+  @media (max-width: $max-width-xs) {
     .links {
       display: flex;
       flex-direction: column;
-      margin-top: 30px;
+      margin-top: rem(30px);
     }
+
     nav a {
       color: $white;
+      font-size: 1.5rem;
       line-height: initial;
       margin-right: 0;
+      margin-top: 1rem;
       padding-right: 0;
     }
-    @at-root .scroll &,
-           &.solid {
 
+    @at-root .scroll &,
+             &.solid {
       .bm-burger-bars {
         background: #111;
       }
+
       nav a {
         color: $white;
       }
     }
 
     .bm-burger-button {
+      height: rem(30px);
       position: fixed;
-      width: 36px;
-      height: 30px;
-      right: 20px;
-      top: 30px;
+      right: rem(20px);
+      top: rem(30px);
+      width: rem(36px);
     }
 
     .bm-burger-bars {
@@ -120,10 +125,10 @@
     }
 
     .bm-cross-button {
-      height: 24px;
-      width: 24px;
-      top: 10px;
-      right: 10px;
+      height: rem(24px);
+      right: rem(10px);
+      top: rem(10px);
+      width: rem(24px);
     }
 
     .bm-cross {
@@ -132,7 +137,7 @@
 
     .bm-menu {
       background: #111;
-      font-size: 1.15em;
+      font-size: 1.15rem;
     }
 
     .bm-morph-shape {
@@ -141,17 +146,20 @@
 
     .bm-item-list {
       color: #fff;
-      padding: 0.8em;
+      padding: 1.5rem .8rem .8rem;
     }
 
     .bm-overlay {
-      background: rgba(0, 0, 0, 0.3);
-      top:0;right:0;bottom:0;left:0;
+      background: rgba(0, 0, 0, .3);
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
     }
 
     .bm-menu-wrap {
-      top:0;
       min-height: 101%;
+      top: 0;
     }
   }
 }
