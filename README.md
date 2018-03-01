@@ -82,6 +82,10 @@ _ESLint the pages_
 
 _EsLint the whole project_
 
+```
+./node_modules/.bin/eslint */*.js
+```
+
 ### Node SASS Lint
 
 _Lint a single file_
