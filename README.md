@@ -9,7 +9,7 @@ The lightning fast Verge website built with NextJS on top of ReactJS.
 
 You need the following prerequisites to be able to both install and get the project running on your local machine.
 
-**Mac:**
+### Mac:
 
 Open your preferred terminal and install the following packages in the correct order.
 
@@ -28,9 +28,39 @@ _Yarn:_
 brew install yarn
 ```
 
+### Windows:
+
+_NodeJS:_
+```
+Download the windows installer here:
+https://nodejs.org/en/download/
+```
+
+_Yarn:_
+```
+Download the windows installer here:
+https://yarnpkg.com/lang/en/docs/install/
+```
+
+### Linux:
+
+_NodeJS:_
+
+*Tip:* You need **Ruby**, **GCC** and **Homebrew** before installing NodeJS.
+
+```
+brew install node
+```
+
+_Yarn:_
+
+```
+brew install yarn
+```
+
 ## Installing
 
-Get up and running by following the next steps:
+Use your favorite terminal to get up and running by following the next steps:
 
 _Clone the project into a directory on your machine:_
 
