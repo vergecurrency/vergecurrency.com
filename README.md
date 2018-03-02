@@ -138,6 +138,8 @@ We're using the NextJS build system. To build, just run the following command:
 yarn run build
 ```
 
+It will then build and export the whole project.
+
 To run the build locally:
 
 ```
