@@ -149,6 +149,11 @@ gulp
 ## Built With
 
 * [NextJS](https://github.com/zeit/next.js/) - The SSR framework used
+* [i18next](https://www.i18next.com/) - Used for translations
+* [ESLint](https://eslint.org/) - Used for JavaScript linting
+* [sass-lint](https://github.com/sasstools/sass-lint) - Used for SCSS linting
+* [postcss-loader](https://github.com/postcss/postcss-loader) - Used for transforming styles with Webpack.
+* [autoprefixer](https://github.com/postcss/autoprefixer) - Used to parse CSS and add vendor prefixes to rules by Can I use.
 
 ## Contributing
 
