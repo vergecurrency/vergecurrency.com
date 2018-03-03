@@ -4,29 +4,23 @@
   background: $white;
   background-position: center;
   background-size: cover;
-  margin-top: 0;
   padding-bottom: 4rem;
   padding-top: 12rem;
   position: relative;
 
-  &--dark,
-  &--blue,
-  &--gray,
-  &--image,
-  &--linen {
+  &__dark,
+  &__blue,
+  &__gray,
+  &__image,
+  &__linen {
     @extend .themed-container;
   }
 
+  &__dark,
   &--business,
-  &--dark,
   &--home,
   &--pressrelease,
   &--pressreleases {
-    // @media (max-width: $max-width-xs) {
-      // padding-bottom: 2rem;
-      // padding-top: 12rem;
-    // }
-
     h3,
     p,
     li {
@@ -63,7 +57,6 @@
     background: $white;
     box-shadow: 0 0 2rem 1px rgba(66, 66, 66, .67);
     color: #647886;
-    margin-top: 8rem;
     padding-top: 4rem;
     top: 8rem;
     z-index: 2;
@@ -85,9 +78,8 @@
     }
   }
 
-  &--blue {
+  &__blue {
     background-color: #daf0ff;
-    margin-bottom: 12rem;
     padding-bottom: 6rem;
     padding-top: 6rem;
 
@@ -101,8 +93,6 @@
     }
 
     &--business {
-      margin-bottom: 4rem;
-
       h2 {
         margin-bottom: 1rem;
       }
@@ -112,13 +102,7 @@
       }
     }
 
-    &--pressreleases {
-      margin-bottom: 6rem;
-    }
-
     &--benefits {
-      margin-bottom: 6rem;
-      margin-top: 6rem;
       padding-bottom: 4rem;
       padding-top: 4rem;
 
@@ -136,19 +120,17 @@
         }
       }
     }
-
-    &--integrations {
-      margin-bottom: 0;
-      margin-top: 6rem;
-    }
   }
 
-  &--dark {
+  &__dark {
+    &--home {
+      margin-top: -8rem;
+    }
+
     &--home,
     &--wraith {
       background-color: #07121b;
-      margin-bottom: 6rem;
-      margin-top: -8rem;
+      margin-top: -16rem;
       padding-bottom: 6rem;
       padding-top: 6rem;
 
@@ -170,6 +152,7 @@
         color: $white;
         font-size: rem(13px);
         font-weight: 400;
+        margin-bottom: 1rem;
       }
     }
 
@@ -186,10 +169,9 @@
     }
 
     @at-root .themed-container {
-      & &--dark--home {
+      & &__dark--home {
         background-color: #07121b;
-        margin-bottom: 6rem;
-        margin-top: 6rem;
+        margin-top: 0;
         padding-bottom: 4rem;
         padding-top: 4rem;
 
@@ -201,16 +183,14 @@
     }
   }
 
-  &--gray,
-  &--image {
+  &__gray,
+  &__image {
     background-color: #f7f7f7;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
     padding-bottom: 12rem;
     padding-top: 12rem;
   }
 
-  &--gray {
+  &__gray {
     &--pressrelease,
     &--pressreleases {
       padding-bottom: 2rem;
@@ -223,7 +203,6 @@
     }
 
     &--roadmap {
-      margin-bottom: 0;
       padding-bottom: 4rem;
       padding-top: 6rem;
 
@@ -233,7 +212,7 @@
     }
   }
 
-  &--linen {
+  &__linen {
     background: #fcf1eb;
 
     &--home {
@@ -259,7 +238,6 @@
     }
 
     &--press {
-      margin-top: -8rem;
       padding-top: 4rem;
     }
   }

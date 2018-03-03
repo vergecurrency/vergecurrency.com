@@ -6,7 +6,7 @@ import Vendors from '../components/Vendors';
 function VendorsPage() {
   return (
     <Layout>
-      <div className="vendors pt-lg">
+      <div className="vendors pt-lg pb-lg">
         <div className="container">
           <div className="intro pt-lg pb-lg">
             <div className="row center-xs middle-xs">
@@ -17,7 +17,7 @@ function VendorsPage() {
             </div>
           </div>
           <Vendors />
-          <div className="row pt">
+          <div className="row pt-lg">
             <div className="col-xs-12 col-sm-7 col-sm-offset-1">
               <h3>Are you interested in Verge Currency? Start accepting Verge today!</h3>
             </div>

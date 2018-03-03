@@ -12,12 +12,12 @@ class WalletsBtn extends React.Component {
     const wltBtn = () => (
       renderToString(<Link href={wlt.url}><a href={wlt.url} className="btn btn-primary btn-wallet"><span className={`wallets--icon ${wlt.classWhite}`}>{wlt.name}</span></a></Link>)
     );
-    document.querySelector('.walletBtn').innerHTML = wltBtn();
+    document.querySelector('.wallets__button').innerHTML = wltBtn();
   }
 
   render() {
     return (
-      <div className="walletBtn" />
+      <div className="wallets__button" />
     );
   }
 }

@@ -32,12 +32,12 @@ function Pressrelease(props) {
       <div className="pressrelease press">
         <div className="themed-container themed-container--pressrelease">
           <div className="container pb pb-xs-0">
-            <div className="row center-xs">
+            <div className="row center-xs pb-small">
               <div className="col-xs-11 col-sm-8">
                 <div className="start-xs">
                   <div className="date-container">
                     {t('date.label', { defaultValue: 'Press release' })}
-                    <span className="hidden-xs">|</span>
+                    <span className="hidden-xs"> | </span>
                     <Moment format="YYYY/MM/DD" className="date">{ one.date }</Moment>
                   </div>
                   <h1>{ one.post.heading }</h1>
@@ -46,15 +46,9 @@ function Pressrelease(props) {
               </div>
             </div>
             <div className="row center-xs">
-              <div className="col-xs-12">
-                <div className="container">
-                  <div className="row center-xs">
-                    <div className="col-xs-12 col-sm-10 themed-container--image themed-container--image--pressrelease" style={{ backgroundImage: `url( ${one.post.image})` }} />
-                  </div>
-                </div>
-              </div>
+              <div className="col-xs-12 col-sm-10 themed-container__image themed-container__image--pressrelease" style={{ backgroundImage: `url( ${one.post.image})` }} />
             </div>
-            <div className="row center-xs">
+            <div className="row center-xs pt-small">
               <div className="col-xs-11 col-sm-8">
                 <div className="start-xs pb bb">
                   <Content />
@@ -78,7 +72,7 @@ function Pressrelease(props) {
             </div>
           </div>
         </div>
-        <div className="themed-container--gray themed-container--gray--pressrelease mb-0">
+        <div className="themed-container__gray themed-container__gray--pressrelease mb-0">
           <div className="container">
             <div className="row center-xs previous">
               <div className="col-xs-11 start-xs">
