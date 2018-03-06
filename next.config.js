@@ -15,6 +15,7 @@ module.exports = {
       '/get-verge': { page: '/get-verge' },
       '/key-tech': { page: '/key-tech' },
       '/vendors': { page: '/vendors' },
+      '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
     };
   },
 
