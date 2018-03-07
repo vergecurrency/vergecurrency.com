@@ -9,7 +9,14 @@ import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import {
+  faFacebook, faGithub, faTelegram,
+  faYoutube, faReddit, faTwitter, faDiscord,
+} from '@fortawesome/fontawesome-free-brands';
 import { faPlay } from '@fortawesome/fontawesome-free-solid';
+
+import Moment from 'react-moment';
+import 'moment-timezone';
 
 import { translate, Interpolate } from 'react-i18next';
 import i18n from '../i18n';
@@ -276,6 +283,78 @@ function Home(props) {
                     happening with Verge.
                   </h2>
 
+                </div>
+              </div>
+            </div>
+            <div className="press">
+              <div className="row center-xs previous">
+                <div className="col-xs-11 start-xs">
+                  <div className="row around-xs pt-small">
+                    <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                      <Moment format="YYYY/MM/DD" className="date">2018-01-01</Moment>
+                      <h4>Update on Wraith. The release of Verge Core..</h4>
+                      <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                    </div>
+                    <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
+                      <Moment format="YYYY/MM/DD" className="date">2018-01-01</Moment>
+                      <h4>Update on Wraith. The release of Verge Core..</h4>
+                      <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                    </div>
+                    <div className="col-xs-12 col-sm-4 start-xs">
+                      <Moment format="YYYY/MM/DD" className="date">2018-01-01</Moment>
+                      <h4>Update on Wraith. The release of Verge Core..</h4>
+                      <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="row center-xs social">
+                <div className="col-xs-11 center-xs">
+                  <div className="row around-xs pt">
+                    <div className="col-xs-12 col-sm-5 start-xs">
+                      <h4>Get social with Verge. Be a part of the Verge community.</h4>
+                    </div>
+                    <div className="col-xs-12 col-sm-7 col-md-5 col-md-offset-2 col--full-height">
+                      <div className="row start-xs center-sm between-md pb-xs">
+                        <div className="pt-xs social__icon">
+                          <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
+                            <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://github.com/vergecurrency?tab=repositories" target="_blank">
+                            <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://t.me/VERGExvg" target="_blank">
+                            <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram"><FontAwesomeIcon icon={faTelegram} size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank">
+                            <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://www.reddit.com/r/vergecurrency/" target="_blank">
+                            <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit"><FontAwesomeIcon icon={faReddit} size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://www.twitter.com/vergecurrency" target="_blank">
+                            <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+                          </Link>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://discord.gg/vergecurrency" target="_blank">
+                            <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
