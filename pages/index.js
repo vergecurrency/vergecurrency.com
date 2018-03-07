@@ -210,13 +210,14 @@ function Home(props) {
 
             <div className="vendors--list">
               <div className="row pt-large pb-large center-xs middle-xs">
-                <div className="col-xs-12">
+                <div className="col-xs-10">
                   <h2>Latest vendors to accept Verge</h2>
                   <h6>
                     <Link href="/vendors">
-                      <a href="/vendors" className="spaced">See all vendors here</a>
+                      <a href="/vendors" className="vendors--url">See all vendors here</a>
                     </Link>
                   </h6>
+
                   <Vendors />
                 </div>
               </div>

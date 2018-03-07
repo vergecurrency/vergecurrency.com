@@ -4,7 +4,7 @@ const vendorsLocale = require('../locales/index').en.vendors.vendors;
 
 function Vendors() {
   const vendors = vendorsLocale.map(x => (
-    <div className="col-xs-12 col-sm-4 col-md center-xs middle-xs col--full-height pb-xs" key={x.title}>
+    <div className="col-xs-12 col-sm-4 col-md center-xs middle-xs col--full-height pb--sm" key={x.title}>
       <Link href={x.url}>
         <a href={x.url} className="vendors--url">
           <img src={x.img} width="100" alt="img" />
