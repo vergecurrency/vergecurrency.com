@@ -49,10 +49,26 @@ $padding-vertical-mobile-xlarge: 6rem;
 
 .pt {
   padding-top: $padding-vertical-desktop;
+
+  &--sm {
+    padding-top: $padding-vertical-desktop;
+
+    @media (min-width: $min-width-md) {
+      padding-bottom: 0;
+    }
+  }
 }
 
 .pb {
   padding-bottom: $padding-vertical-desktop;
+
+  &--sm {
+    padding-bottom: $padding-vertical-desktop;
+
+    @media (min-width: $min-width-md) {
+      padding-bottom: 0;
+    }
+  }
 }
 
 .pt-small {
@@ -63,7 +79,6 @@ $padding-vertical-mobile-xlarge: 6rem;
   padding-bottom: $padding-vertical-desktop-small;
 }
 
-// TODO: Rename occurrences to avoid confusion with breakpoints
 .pt-large {
   padding-top: $padding-vertical-desktop-large;
 }
