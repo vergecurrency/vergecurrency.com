@@ -41,7 +41,7 @@ function WalletsPage(props) {
           </div>
         </div>
         <div className="container">
-          <div className="row center-xs middle-xs pt-lg pb-lg intro">
+          <div className="row center-xs middle-xs pt-large pb-large intro">
             <div className="col-xs-9 col-sm-6">
               <span className="spaced">Wallets</span>
               <div className="pt-xs">
@@ -94,7 +94,7 @@ function WalletsPage(props) {
           </div>
 
           <div className="wallets">
-            <div className="row center-xs pt-lg pb">
+            <div className="row center-xs pt-large pb">
               <div className="col-xs-9 col-sm-10 center-xs">
                 <div className="row center-xs start-md">
                   <div className="col-xs-12 col-lg-10">
@@ -121,7 +121,7 @@ function WalletsPage(props) {
               />
             </div>
           </div>
-          <div className="row center-xs middle-xs pt pb-lg intro">
+          <div className="row center-xs middle-xs pt pb-large intro">
             <div className="col-xs-9 col-sm-6">
               <span className="spaced">WRAITH PROTOCOL</span>
               <div className="pt-xs">

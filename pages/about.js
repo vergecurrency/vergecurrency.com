@@ -22,7 +22,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="intro pt-lg pb-lg">
+        <div className="intro pt-large pb-large">
           <div className="row center-xs middle-xs">
             <div className="col-sm-6">
               <h2>
@@ -41,7 +41,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="team pb-lg">
+        <div className="team pb-large">
           <div className="row center-xs">
             <div className="col-sm-2">
               <div className="team--member">

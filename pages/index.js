@@ -80,7 +80,7 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="row center-xs intro pt pb-lg">
+            <div className="row center-xs intro pt pb-large">
               <div className="col-xs-11 col-sm-7 col-lg-6">
                 <h6>{t('home:intro.span')}</h6>
                 <h2>{t('home:intro.h2')}</h2>
@@ -125,7 +125,7 @@ function Home(props) {
             </div>
 
             <div className="wallets">
-              <div className="row center-xs pt-lg pb-lg">
+              <div className="row center-xs pt-large pb-large">
                 <div className="col-xs-9 col-sm-10 center-xs">
                   <div className="row center-xs start-md">
                     <div className="col-xs-12 col-lg-10">
@@ -159,7 +159,7 @@ function Home(props) {
               </div>
             </div>
 
-            <div className="row center-xs pt-lg pb">
+            <div className="row center-xs pt-large pb">
               <div className="col-xs-10 center-xs exchanges bb">
                 <div className="start-sm pb-small">
                   <h6>
@@ -209,7 +209,7 @@ function Home(props) {
             </div>
 
             <div className="vendors--list">
-              <div className="row pt-lg pb-lg center-xs middle-xs">
+              <div className="row pt-large pb-large center-xs middle-xs">
                 <div className="col-xs-12">
                   <h2>Latest vendors to accept Verge</h2>
                   <h6>

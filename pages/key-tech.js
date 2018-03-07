@@ -31,7 +31,7 @@ function KeyTech(props) {
           </div>
         </div>
 
-        <div className="container pb-lg bb">
+        <div className="container pb-large bb">
           <div className="themed-container__dark themed-container__dark--wraith wraith">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
@@ -56,7 +56,7 @@ function KeyTech(props) {
             </div>
           </div>
           <div className="key-features content pb">
-            <div className="row center-xs pt-lg pb">
+            <div className="row center-xs pt-large pb">
               <div className="col-xs-10 col-sm-8">
                 <h6>Key features</h6>
                 <h2>
@@ -66,7 +66,7 @@ function KeyTech(props) {
                 <p>Transaction speeds are ultra-fast compared to other coins.</p>
               </div>
             </div>
-            <div className="row center-xs pb-lg">
+            <div className="row center-xs pb-large">
               <div className="col-xs-10">
                 <div className="row start-xs">
                   <div className="col-xs-12 col-sm-6 feature__item">
