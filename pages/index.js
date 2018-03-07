@@ -160,20 +160,27 @@ function Home(props) {
             </div>
 
             <div className="row center-xs pt-lg pb">
-              <div className="col-xs-9 col-sm-10 center-xs exchanges">
+              <div className="col-xs-10 center-xs exchanges bb">
                 <div className="start-sm pb-small">
                   <h6>
                     <Link href="/exchanges">
                       <a href="/exchanges" className="exchanges--url">See more exchanges</a>
                     </Link>
                   </h6>
-                  <h2>Trade Verge on the most popular exchanges. <br />We’re proud to be listed on:</h2>
+                  <h2>Trade Verge on the most popular exchanges. <span className="hidden-xs"><br /></span>We’re proud to be listed on:</h2>
                 </div>
 
                 <Exchanges />
-              </div>
 
-              <Cointicker />
+                <Cointicker />
+              </div>
+              <div className="col-xs-10 center-xs end-sm pt-small">
+                <h6>
+                  <Link href="/get-verge">
+                    <a href="/get-verge" className="exchanges--url">See chart here</a>
+                  </Link>
+                </h6>
+              </div>
             </div>
 
             <div className="themed-container__blue themed-container__blue--home">
