@@ -193,7 +193,7 @@ function Home(props) {
             <div className="themed-container__blue themed-container__blue--home">
               <div className="container">
                 <div className="row center-xs middle-xs vendors">
-                  <div className="col-xs-11 col-sm-6 col-md-5 start-xs">
+                  <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
                     <h6>{t('home:vendors.super', { defaultValue: 'Accept Verge Currency' })}</h6>
                     <h2>{t('home:vendors.title', { defaultValue: 'Powering real world vendors that accept Verge Currency' })}</h2>
 
@@ -232,7 +232,7 @@ function Home(props) {
 
             <div className="container themed-container__linen themed-container__linen--home">
               <div className="row center-xs roadmap">
-                <div className="col-xs-11 col-sm-8 col-md-6 start-xs center-lg">
+                <div className="col-xs-10 col-sm-8 col-md-6 start-xs center-lg">
                   <h2>
                     A roadmap with great features to come.<br />
                     Join us while we&apos;re still growing!
@@ -271,7 +271,7 @@ function Home(props) {
             </div>
             <div className="blog">
               <div className="row pt pb center-xs middle-xs">
-                <div className="col-sm-8">
+                <div className="col-xs-10 col-sm-8">
                   <h6>
                     <Link href="/blog">
                       <a href="/blog" className="spaced">Go to the blog</a>
@@ -279,7 +279,7 @@ function Home(props) {
                   </h6>
 
                   <h2>
-                    Check out our blog and to find out what is<br />
+                    Check out our blog and to find out what is <span className="hidden-xs"><br /></span>
                     happening with Verge.
                   </h2>
 
