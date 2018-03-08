@@ -87,6 +87,10 @@
       margin-bottom: 1.5rem;
     }
 
+    h6 {
+      color: #779cb5;
+    }
+
     p {
       color: #4e555a;
       margin-bottom: 1.5rem;
@@ -103,6 +107,14 @@
 
     &--list {
       display: block;
+
+      h6 {
+        a::after {
+          @extend %gray-arrow-right;
+
+          display: inline;
+        }
+      }
     }
 
     &--img {
@@ -140,4 +152,38 @@
       }
     }
   }
+
+  .previous {
+    .date {
+      color: #091721;
+      font-size: rem(14px);
+    }
+
+    h3 {
+      font-size: rem(30px);
+    }
+
+    h4 {
+      font-size: rem(27px);
+
+      // scss-lint:disable NestingDepth
+      &::after {
+        background-color: #091721;
+        content: " ";
+        display: block;
+        height: rem(3px);
+        margin-bottom: rem(19px);
+        margin-left: 1px;
+        margin-top: rem(5px);
+        width: 3rem;
+      }
+    }
+
+    p {
+      color: #475056;
+      font-size: .75rem;
+      font-style: italic;
+    }
+  }
+
 }

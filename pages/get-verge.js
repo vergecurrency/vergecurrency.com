@@ -9,9 +9,9 @@ import i18n from '../i18n';
 function GetVerge() {
   return (
     <Layout>
-      <div className="get-verge pt-lg">
+      <div className="get-verge pt-large">
         <div className="container">
-          <div className="row center-xs middle-xs pb-lg pt-lg">
+          <div className="row center-xs middle-xs pb-large pt-large">
             <div className="col-sm-6 col-xs-12">
               <span className="spaced">Get verge</span>
               <h2>Trade Verge on the most popular exchanges. We’re proud to be listed on</h2>
@@ -20,7 +20,7 @@ function GetVerge() {
           <Exchanges />
           <Cointicker />
           <Coinchart />
-          <div className="row center-xs middle-xs pt pb-lg intro">
+          <div className="row center-xs middle-xs pt pb-large intro">
             <div className="col-xs-9 col-sm-6">
               <span className="spaced">DELIVERS WHAT OTHERS CAN’T</span>
               <div className="pt-xs">

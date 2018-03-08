@@ -120,6 +120,16 @@
         }
       }
     }
+
+    &--home {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+      }
+    }
   }
 
   &__dark {
