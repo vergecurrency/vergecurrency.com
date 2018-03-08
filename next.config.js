@@ -17,6 +17,7 @@ module.exports = {
       '/vendors': { page: '/vendors' },
       '/developers/vendor-integration': { page: '/developers/vendor-integration' },
       '/developers/p2p-solutions-guide': { page: '/developers/p2p-solutions-guide' },
+      '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
     };
   },
 
