@@ -1,9 +1,30 @@
  // scss-lint:disable ColorVariable
 
 .about {
+  .btn-github {
+    @media (min-width: $min-width-sm) {
+      padding-left: rem(52px);
+    }
+
+    &::before {
+      background-image: url("/static/img/github.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      content: "";
+      height: rem(20px);
+      margin-left: -2rem;
+      position: absolute;
+      width: rem(20px);
+    }
+  }
+
   .team {
     &--member {
       width: 100%;
+
+      h3 {
+        margin-top: 1rem;
+      }
     }
   }
 
@@ -15,16 +36,18 @@
       padding: .75rem;
 
       img {
-        width: 100%;
-        min-height: 134px;
         background: $pacific-blue-1;
+        // min-height: 134px;
+        height: auto;
+        width: auto;
       }
 
       &__author {
         color: #000;
         font-size: rem(14px);
-        font-weight: 800;
+        font-weight: 700;
         padding-bottom: rem(5px);
+        text-align: center;
       }
 
       &__profile {

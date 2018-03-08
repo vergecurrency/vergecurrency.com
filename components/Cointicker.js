@@ -21,37 +21,37 @@ class Cointicker extends React.Component {
     if (this.state.coinData.length > 0) {
       return (
         <div className="col-xs-12">
-          <div className="row pt pb">
-            <div className="col-xs-6 col-sm-2">
+          <div className="row pt pb-small">
+            <div className="col-xs-6 col-sm-4 col-lg-2">
               <span className="spaced">Symbol</span>
               <p>{this.state.coinData[0].symbol}</p>
             </div>
-            <div className="col-xs-6 col-sm-2">
+            <div className="col-xs-6 col-sm-4 col-lg-2">
               <span className="spaced">BTC Price</span>
               <p>{this.state.coinData[0].price_btc}</p>
             </div>
-            <div className="col-xs-6 col-sm-2">
+            <div className="col-xs-6 col-sm-4 col-lg-2">
               <span className="spaced">USD Price</span>
-              <p>$ {this.state.coinData[0].price_usd}</p>
+              <p>$&nbsp;{this.state.coinData[0].price_usd}</p>
             </div>
-            <div className="col-xs-6 col-sm-2">
+            <div className="col-xs-6 col-sm-4 col-lg-2">
               <span className="spaced">EUR Price</span>
-              <p>€ {this.state.coinData[0].price_eur}</p>
+              <p>€&nbsp;{this.state.coinData[0].price_eur}</p>
             </div>
-            <div className="col-xs-6 col-sm-2">
+            <div className="col-xs-6 col-sm-4 col-lg-2">
               <span className="spaced">Market cap</span>
               <p>
-                {parseFloat(this.state.coinData[0].market_cap_usd)
+                $&nbsp;{parseFloat(this.state.coinData[0].market_cap_usd)
                   .toFixed(2)
-                  .replace(/(\d)(?=(\d{3})+\.)/g, '$1,')} USD
+                  .replace(/(\d)(?=(\d{3})+\.)/g, '$1,')}
               </p>
             </div>
-            <div className="col-xs-6 col-sm-2">
+            <div className="col-xs-6 col-sm-4 col-lg-2">
               <span className="spaced">Volume</span>
               <p>
-                {parseFloat(this.state.coinData[0]['24h_volume_usd'])
+                $&nbsp;{parseFloat(this.state.coinData[0]['24h_volume_usd'])
                   .toFixed(2)
-                  .replace(/(\d)(?=(\d{3})+\.)/g, '$1,')} USD
+                  .replace(/(\d)(?=(\d{3})+\.)/g, '$1,')}
               </p>
             </div>
           </div>
