@@ -59,8 +59,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="/p2p-solutions">
-                        <a href="/p2p-solutions">{t('footer:p2p_solutions', { defaultValue: 'P2P Solutions' })}</a>
+                      <Link href="/developers/p2p-solutions-guide">
+                        <a href="/developers/p2p-solutions-guide">{t('footer:p2p_solutions', { defaultValue: 'P2P Solutions' })}</a>
                       </Link>
                     </li>
                   </ul>
