@@ -16,6 +16,7 @@ module.exports = {
       '/key-tech': { page: '/key-tech' },
       '/vendors': { page: '/vendors' },
       '/developers/vendor-integration': { page: '/developers/vendor-integration' },
+      '/developers/p2p-solutions-guide': { page: '/developers/p2p-solutions-guide' },
     };
   },
 
