@@ -160,7 +160,7 @@ function Home(props) {
             </div>
 
             <div className="row center-xs pt-lg pb">
-              <div className="col-xs-9 col-sm-10 center-xs exchanges">
+              <div className="col-xs-9 col-sm-10 start-xs exchanges">
                 <div className="start-sm pb-small">
                   <h6>
                     <Link href="/exchanges">
