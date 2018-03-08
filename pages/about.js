@@ -84,17 +84,20 @@ function About() {
           <div className="row center-xs">
             <div className="col-xs-10">
               <div className="row center-xs start-sm">
-                <div className="col-xs-12 col-sm-8">
-                  <h2>Want to contribute to Verge Currency? Join our community on Github</h2>
+                <div className="col-xs-12 col-sm-8 col-lg-6 pb-small pb-xs-0">
+                  <h2>
+                    Want to contribute to Verge Currency? <span className="hidden-xs"><br /></span>
+                    Join our community on Github
+                  </h2>
                   <p>
                     Verge is open-source software that is constantly improving due
                     to its many contributors. If you would like to contribute as well,
                     take a look at our Github repositories to see where you could make a difference!
                   </p>
                 </div>
-                <div className="col-xs-12 col-sm-4 end-xs">
+                <div className="col-xs-12 col-sm-4 col-lg-6 end-xs">
                   <Link href="https://github.com/vergecurrency/VERGE">
-                    <a href="https://github.com/vergecurrency/VERGE" target="_blank" rel="noopener noreferrer" className="btn btn-tertiary btn-github">Go to verge repo</a>
+                    <a href="https://github.com/vergecurrency/VERGE" target="_blank" rel="noopener noreferrer" className="btn btn-tertiary btn-github">Go to Verge repo</a>
                   </Link>
                 </div>
                 <div className="col-xs-12">

@@ -1,14 +1,22 @@
  // scss-lint:disable ColorVariable
 
 .about {
-  // TODO: We could use this for GitHub logo. Need good SVG.
-  // .btn-github {
-  //   &::before {
-  //     @extend %wallet-icon--before;
-  //
-  //     background-image: url("/static/img/wallets/apple-white.svg");
-  //   }
-  // }
+  .btn-github {
+    @media (min-width: $min-width-sm) {
+      padding-left: rem(52px);
+    }
+
+    &::before {
+      background-image: url("/static/img/github.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      content: "";
+      height: rem(20px);
+      margin-left: -2rem;
+      position: absolute;
+      width: rem(20px);
+    }
+  }
 
   .team {
     &--member {
