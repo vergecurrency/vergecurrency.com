@@ -35,6 +35,11 @@
         width: auto;
       }
     }
+
+    .wallets--icon {
+      margin-right: 0;
+      padding-left: rem(20px);
+    }
   }
 
   &--url {
@@ -69,13 +74,6 @@
       &-white {
         background: transparent;
 
-        @at-root .wallets {
-          &--icon {
-            margin-right: 0;
-            padding-left: rem(20px);
-          }
-        }
-
         &::before {
           @extend %wallet-icon--before;
 
@@ -96,13 +94,6 @@
 
       &-white {
         background: transparent;
-
-        @at-root .wallets {
-          &--icon {
-            margin-right: 0;
-            padding-left: rem(20px);
-          }
-        }
 
         &::before {
           @extend %wallet-icon--before;
@@ -125,13 +116,6 @@
       &-white {
         background: transparent;
 
-        @at-root .wallets {
-          &--icon {
-            margin-right: 0;
-            padding-left: rem(20px);
-          }
-        }
-
         &::before {
           @extend %wallet-icon--before;
 
@@ -152,13 +136,6 @@
 
       &-white {
         background: transparent;
-
-        @at-root .wallets {
-          &--icon {
-            margin-right: 0;
-            padding-left: rem(20px);
-          }
-        }
 
         &::before {
           @extend %wallet-icon--before;

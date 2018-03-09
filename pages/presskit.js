@@ -316,7 +316,7 @@ function Presskit(props) {
                 </div>
               </div>
             </div>
-            <div className="row center-xs pt-lg">
+            <div className="row center-xs pt-large">
               <div className="col-xs-10">
                 <div className="start-xs">
                   <h2>{t('presskit:reference.title', { defaultValue: 'Verge reference information' })}</h2>

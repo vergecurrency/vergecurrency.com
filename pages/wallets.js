@@ -24,7 +24,7 @@ function WalletsPage(props) {
                 <div className="ribbon-txt">
                   <h1>Download our Wallet</h1>
                   <p>
-                    Download our latest Core wallet to store <br />
+                    Download our latest Core wallet to store <span className="hidden-xs"><br /></span>
                     your Verge Currency with.
                   </p>
                   <WalletsBtn t={t} />
@@ -41,17 +41,18 @@ function WalletsPage(props) {
           </div>
         </div>
         <div className="container">
-          <div className="row center-xs middle-xs pt-lg pb-lg intro">
-            <div className="col-xs-9 col-sm-6">
-              <span className="spaced">Wallets</span>
-              <div className="pt-xs">
-                <h2>
-                  Download our latest Core Wraith Wallets for<br />
-                  Windows, Linux and OSX or store your Verge on<br />
-                  your mobile with our Tor wallet.
-                </h2>
-                <p>Our core wallet is secure, easy and fast. Transactions in<br /> less than 30 seconds.</p>
-              </div>
+          <div className="row center-xs middle-xs pt-large pb-large">
+            <div className="col-xs-10 col-sm-6">
+              <h6>Wallets</h6>
+              <h2>
+                Download our latest Core Wraith Wallets for <span className="hidden-xs"><br /></span>
+                Windows, Linux and OSX or store your Verge on <span className="hidden-xs"><br /></span>
+                your mobile with our Tor wallet.
+              </h2>
+              <p>
+                Our core wallet is secure, easy and fast. Transactions in <span className="hidden-xs"><br /></span>
+                less than 30 seconds.
+              </p>
             </div>
           </div>
 
@@ -94,8 +95,8 @@ function WalletsPage(props) {
           </div>
 
           <div className="wallets">
-            <div className="row center-xs pt-lg pb">
-              <div className="col-xs-9 col-sm-10 center-xs">
+            <div className="row center-xs pt-large pb-large">
+              <div className="col-xs-10 center-xs">
                 <div className="row center-xs start-md">
                   <div className="col-xs-12 col-lg-10">
                     <div className="start-sm pb-small">
@@ -112,7 +113,7 @@ function WalletsPage(props) {
           </div>
 
           <div className="guide">
-            <div className="row center-xs middle-xs pt pb">
+            <div className="row center-xs middle-xs">
               <iframe
                 width="560"
                 height="315"
@@ -121,8 +122,8 @@ function WalletsPage(props) {
               />
             </div>
           </div>
-          <div className="row center-xs middle-xs pt pb-lg intro">
-            <div className="col-xs-9 col-sm-6">
+          <div className="row center-xs middle-xs pt-large pb-large intro">
+            <div className="col-xs-10 col-sm-6">
               <span className="spaced">WRAITH PROTOCOL</span>
               <div className="pt-xs">
                 <h2>
@@ -139,6 +140,6 @@ function WalletsPage(props) {
   );
 }
 
-const Extended = translate(['common', 'wallets'], { i18n, wait: process.browser })(WalletsPage);
+const Extended = translate(['common', 'wallets', 'home'], { i18n, wait: process.browser })(WalletsPage);
 
 export default Extended;
