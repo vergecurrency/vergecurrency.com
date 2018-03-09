@@ -9,28 +9,30 @@ import i18n from '../i18n';
 function GetVerge() {
   return (
     <Layout>
-      <div className="get-verge pt-large">
+      <div className="get-verge pt-large pb">
         <div className="container">
-          <div className="row center-xs middle-xs pb-large pt-large">
-            <div className="col-sm-6 col-xs-12">
-              <span className="spaced">Get verge</span>
-              <h2>Trade Verge on the most popular exchanges. We’re proud to be listed on</h2>
+          <div className="row center-xs middle-xs pt pb">
+            <div className="col-xs-10">
+              <h6>Get verge</h6>
+              <h2 className="mb">Trade Verge on the most popular exchanges. We’re proud to be listed on</h2>
+
+              <Exchanges />
+
+              <Cointicker />
             </div>
           </div>
-          <Exchanges />
-          <Cointicker />
+          
           <Coinchart />
-          <div className="row center-xs middle-xs pt pb-large intro">
-            <div className="col-xs-9 col-sm-6">
-              <span className="spaced">DELIVERS WHAT OTHERS CAN’T</span>
-              <div className="pt-xs">
-                <h2>
-                  Verge uses multiple anonymity-centric networks such as TOR and I2P.
-                  The IP addresses of the users are fully obfuscated and
-                  transactions are completely untraceable.
-                </h2>
-                <p>We care about your privacy. Do you?</p>
-              </div>
+
+          <div className="row center-xs middle-xs pt pb">
+            <div className="col-xs-10 col-sm-6">
+              <h6>DELIVERS WHAT OTHERS CAN’T</h6>
+              <h2>
+                Verge uses multiple anonymity-centric networks such as TOR and I2P.
+                The IP addresses of the users are fully obfuscated and
+                transactions are completely untraceable.
+              </h2>
+              <p>We care about your privacy. Do you?</p>
             </div>
           </div>
         </div>
