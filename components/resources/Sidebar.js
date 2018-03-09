@@ -13,17 +13,17 @@ export default () => (
     </ul>
     <span className="spaced">FAQ</span>
     <ul>
-      <li><ActiveLink href="/faq/general">General</ActiveLink></li>
+      <li><ActiveLink href="/faq">General</ActiveLink></li>
       <li><ActiveLink href="/faq/privacy">Privacy</ActiveLink></li>
-      <li><ActiveLink href="/faq/mining">Mining</ActiveLink></li>
       <li><ActiveLink href="/faq/wallets">Wallets</ActiveLink></li>
+      <li><ActiveLink href="/faq/mining">Mining</ActiveLink></li>
       <li><ActiveLink href="/faq/legal">Legal</ActiveLink></li>
     </ul>
     <span className="spaced">P2P</span>
     <ul>
-      <li><ActiveLink href="#">Telegram Bot Manual</ActiveLink></li>
-      <li><ActiveLink href="#">Twitter Bot Manual</ActiveLink></li>
-      <li><ActiveLink href="#">Discord Bot Manual</ActiveLink></li>
+      <li><ActiveLink href="/p2p">Telegram Bot Manual</ActiveLink></li>
+      <li><ActiveLink href="/p2p">Twitter Bot Manual</ActiveLink></li>
+      <li><ActiveLink href="/p2p">Discord Bot Manual</ActiveLink></li>
     </ul>
   </div>
 );

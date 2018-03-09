@@ -119,7 +119,7 @@
     },
     "torandroidnoconnection": {
       "question": "Why am I Seeing No Connection on my Verge Tor Android app?",
-      "answer": "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu. A more detailed guide on how to use the Verge Tor Android Wallet can be found <a href ='https://medium.com/verge-currency-xvg/how-to-use-verge-tor-adroid-wallet-b3295570085d' target='_blank'>here</a>."
+      "answer": "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu. A more detailed guide on how to use the Verge Tor Android Wallet can be found <a href='https://medium.com/verge-currency-xvg/how-to-use-verge-tor-adroid-wallet-b3295570085d' target='_blank'>here</a>."
     }
   },
   "wallets": {
@@ -172,5 +172,9 @@
       "question": "What Algorithms Does Verge Support?",
       "answer": "Verge uses multi-algorithm mining support. That means that individuals with different types of mining equipment are able to mine verge, which means more security through decentralization and a more fair distribution of coins among the Verge mining community. Verge is one of the few cryptocurrencies that support five different hashing algorithms; Namely, Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
     }
+  },
+  "legal": {
+    "subheader": "Legal",
+    "statement": "This website does not collect any user information, or share any user information with any third parties."
   }
 }
