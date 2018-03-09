@@ -15,10 +15,21 @@ module.exports = {
       '/get-verge': { page: '/get-verge' },
       '/key-tech': { page: '/key-tech' },
       '/vendors': { page: '/vendors' },
+      '/faq': { page: '/faq' },
+      '/faq/privacy': { page: '/faq/privacy' },
+      '/faq/wallets': { page: '/faq/wallets' },
+      '/faq/mining': { page: '/faq/mining' },
+      '/faq/legal': { page: '/faq/legal' },
+      '/p2p': { page: '/p2p' },
+      '/p2p/twitter-bot': { page: '/p2p/twitter-bot' },
+      '/p2p/discord-bot': { page: '/p2p/discord-bot' },
+      '/guides/introduction': { page: '/guides/introduction' },
+      '/guides/getting-started': { page: '/guides/getting-started' },
+      '/guides/how-to-buy-verge': { page: '/guides/how-to-buy-verge' },
       '/developers/vendor-integration': { page: '/developers/vendor-integration' },
-      '/developers/p2p-solutions-guide': { page: '/developers/p2p-solutions-guide' },
       '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
       '/developers/vergecurrency-repositories': { page: '/developers/vergecurrency-repositories' },
+
     };
   },
 

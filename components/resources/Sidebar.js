@@ -22,8 +22,8 @@ export default () => (
     <span className="spaced">P2P</span>
     <ul>
       <li><ActiveLink href="/p2p">Telegram Bot Manual</ActiveLink></li>
-      <li><ActiveLink href="/p2p">Twitter Bot Manual</ActiveLink></li>
-      <li><ActiveLink href="/p2p">Discord Bot Manual</ActiveLink></li>
+      <li><ActiveLink href="/p2p/twitter-bot">Twitter Bot Manual</ActiveLink></li>
+      <li><ActiveLink href="/p2p/discord-bot">Discord Bot Manual</ActiveLink></li>
     </ul>
   </div>
 );
