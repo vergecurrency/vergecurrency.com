@@ -84,7 +84,6 @@ footer {
       width: rem(34px);
 
       @media (min-width: $min-width-sm) {
-        margin-top: .25rem;
         width: auto;
       }
 
@@ -112,6 +111,13 @@ footer {
             width: 4rem;
           }
         }
+
+        &:first-child {
+          @media (min-width: $min-width-sm) {
+            padding-left: 0;
+            margin-left: rem(-12px);
+          }
+        }
       }
 
       &__link {
@@ -135,6 +141,14 @@ footer {
           }
         }
       }
+    }
+  }
+
+  .col--faux {
+    padding-right: .5rem;
+
+    @media (min-width: $min-width-sm) {
+      padding-right: 2.5rem;
     }
   }
 }
