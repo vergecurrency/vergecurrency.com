@@ -216,7 +216,7 @@ function Pressreleases(props) {
             </div>
 
             <div className="container">
-              <div className="row center-xs previous">
+              <div className="row pt center-xs previous">
                 <div className="col-xs-11 center-xs">
                   <div className="pb-small">
                     <Link href="/blog">

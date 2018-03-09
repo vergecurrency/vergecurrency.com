@@ -21,7 +21,7 @@ function GetVerge() {
               <Cointicker />
             </div>
           </div>
-          
+
           <Coinchart />
 
           <div className="row center-xs middle-xs pt pb">
