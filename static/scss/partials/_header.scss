@@ -20,16 +20,21 @@
     vertical-align: middle;
   }
 
-  nav a {
+  nav a, nav span {
     color: $white;
     font-size: rem(15px);
     line-height: rem(88px);
     margin: rem(6px);
     padding: rem(6px);
     text-decoration: none;
+    transition: all .2s ease-in;
 
     &:last-child {
       font-weight: 600;
+    }
+
+    &:hover {
+      color: $picton-blue;
     }
 
     @media (min-width: $min-width-md) {
@@ -38,6 +43,56 @@
 
       &:last-child {
         margin-right: rem(18px);
+      }
+    }
+  }
+
+  .submenu {
+    position: relative;
+    display: inline-block;
+    line-height: rem(15px);
+
+    svg {
+      width: 2em;
+      transition: transform .2s ease-in-out;
+    }
+
+    &:hover {
+      cursor: pointer;
+      svg {
+        transform: rotate(180deg);
+      }
+      .submenu--content {
+        visibility: visible;
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(0%);
+        transition-delay: 0s, 0s, 0.3s;
+      }
+    }
+    
+    &--content {
+      visibility: hidden;
+      opacity: 0;
+      z-index: -1;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      top: 30px;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+      transform: translateY(-2em);
+      top: 100%;
+      text-align: left;
+      a {
+        padding: 10px;
+        line-height: rem(15px);
+        &:last-child {
+          font-weight: 500;
+          margin-right: 0;
+        }
       }
     }
   }
@@ -73,8 +128,13 @@
     background: $white;
     box-shadow: 0 0 rem(15px) rgba(0, 0, 0, .06);
 
-    nav a {
+    nav a, nav span {
       color: #111;
+      transition: all .2s ease-in;
+
+      &:hover {
+        color: $picton-blue;
+      }
     }
 
     svg {
