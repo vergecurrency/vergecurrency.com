@@ -18,16 +18,23 @@ $padding-vertical-mobile-xlarge: 6rem;
   padding-right: 1rem;
 }
 
-.col--full-height {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: center;
-}
+.col {
+  &--full-height {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+  }
 
-.col--horizontal {
-  display: flex;
-  flex-direction: row;
+  &--horizontal {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &--no-gutter {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .mb-thin {
