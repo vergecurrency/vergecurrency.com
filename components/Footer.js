@@ -71,8 +71,8 @@ const Footer = ({ t }) => (
                       <h4>{t('footer:subheading.developers', { defaultValue: 'DEVELOPERS' })}</h4>
                     </li>
                     <li>
-                      <Link href="/developers/how-to-install-rubygems">
-                        <a href="/developers/how-to-install-rubygems">{t('footer:how_to_install_rubygems', { defaultValue: 'How to install RubyGems' })}</a>
+                      <Link href="/developers">
+                        <a href="/developers">{t('footer:how_to_install_rubygems', { defaultValue: 'How to install RubyGems' })}</a>
                       </Link>
                     </li>
                     <li>
@@ -81,8 +81,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="/developers/our-github-repositories">
-                        <a href="/developers/our-github-repositories">{t('footer:our_github_repositories', { defaultValue: 'Our GitHub repositories' })}</a>
+                      <Link href="/developers/vergecurrency-repositories">
+                        <a href="/developers/vergecurrency-repositories">{t('footer:our_github_repositories', { defaultValue: 'Our GitHub repositories' })}</a>
                       </Link>
                     </li>
                     <li>
@@ -96,8 +96,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="/community/developers">
-                        <a href="/community/developers">{t('footer:click_to_see_more', { defaultValue: 'Click to see more' })}</a>
+                      <Link href="/developers">
+                        <a href="/developers">{t('footer:click_to_see_more', { defaultValue: 'Click to see more' })}</a>
                       </Link>
                     </li>
                   </ul>
@@ -108,8 +108,8 @@ const Footer = ({ t }) => (
                       <h4>{t('footer:subheading.community', { defaultValue: 'COMMUNITY' })}</h4>
                     </li>
                     <li>
-                      <Link href="/community/developers">
-                        <a href="/community/developers">{t('footer:developers', { defaultValue: 'Developers' })}</a>
+                      <Link href="/developers">
+                        <a href="/developers">{t('footer:developers', { defaultValue: 'Developers' })}</a>
                       </Link>
                     </li>
                     <li>
