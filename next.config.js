@@ -28,7 +28,6 @@ module.exports = {
       '/guides/how-to-buy-verge': { page: '/guides/how-to-buy-verge' },
       '/developers': { page: '/developers' },
       '/developers/github-desktop': { page: '/developers/github-desktop' },
-      '/developers/how-to-install-rubygems': { page: '/developers/how-to-install-rubygems' },
       '/developers/verge-vendor-integration': { page: '/developers/verge-vendor-integration' },
       '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
       '/developers/vergecurrency-repositories': { page: '/developers/vergecurrency-repositories' },
