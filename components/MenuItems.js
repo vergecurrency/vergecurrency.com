@@ -22,9 +22,9 @@ const MenuItems = ({ t }) => (
     <span className="submenu">
       {t('header:resources', { defaultValue: 'Resources' })}<FontAwesomeIcon icon={faChevronDown} />
       <div className="submenu__content">
-        <Link href="/guides">
+        {/* <Link href="/guides">
           <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
-        </Link>
+        </Link> */}
         <Link href="/faq">
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}</a>
         </Link>
