@@ -17,14 +17,18 @@ export default () => (
             </ul>
             <p>
               To upgrade to the latest RubyGems:<br />
-              <code>$ gem update --system</code><br />
+              <pre><code>$ gem update --system</code></pre>
               # may need to be administrator or root
             </p>
             <p><strong> NOTE: </strong> RubyGems 1.1 and 1.2 have problems upgrading when there is no rubygems-update installed. You will need to use the following instructions if you see Nothing to update. If you have an older version of RubyGems installed, then you can still do it in two steps:</p>
-            <p>$ gem install rubygems-update</p>
-            <p># again, might need to be admin/root</p>
-            <p>$ update_rubygems</p>
-            <p># ... here too</p>
+            <p>
+              <pre>
+                <code>
+                  $ gem install rubygems-update<br />
+                  $ update_rubygems
+                </code>
+              </pre>
+            </p>
             <p>If you don&#39;t have any RubyGems installed, there is still the pre-gem approach to getting software, doing it manually:</p>
             <ol>
               <li>Download from one of the links listed above</li>

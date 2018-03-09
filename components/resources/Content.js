@@ -4,7 +4,7 @@ import Sidebar from './Sidebar';
 export default ({ children }) => (
   <div className="row">
     <Sidebar />
-    <div className="col-sm-9 pt">
+    <div className="col-sm-8 pt">
       {children}
     </div>
   </div>

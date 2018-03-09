@@ -18,7 +18,6 @@ function Wallets() {
         </div>
       );
     }
-    console.log('yes');
   });
 
   return (

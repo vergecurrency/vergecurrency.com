@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/fontawesome-free-solid';
 
 const MenuItems = ({ t }) => (
   <div className="links">
@@ -17,9 +19,23 @@ const MenuItems = ({ t }) => (
     <Link href="/vendors">
       <a href="/vendors">{t('header:vendors', { defaultValue: 'Vendors' })}</a>
     </Link>
-    <Link href="/resources/introduction">
-      <a href="/resources/introduction">{t('header:resources', { defaultValue: 'Resources' })}</a>
-    </Link>
+    <span className="submenu">
+      {t('header:resources', { defaultValue: 'Resources' })}<FontAwesomeIcon icon={faChevronDown} />
+      <div className="submenu__content">
+        <Link href="/guides">
+          <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
+        </Link>
+        <Link href="/faq">
+          <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}</a>
+        </Link>
+        <Link href="/p2p">
+          <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}</a>
+        </Link>
+        <Link href="/developers">
+          <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>
+        </Link>
+      </div>
+    </span>
     <Link prefetch href="/get-verge">
       <a href="/get-verge">{t('header:get_verge', { defaultValue: 'Get Verge' })}</a>
     </Link>
