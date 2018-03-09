@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
 
@@ -11,10 +9,10 @@ function P2P_Solutions_Guide(props) {
 
   return (
     <Layout>
-      <div className="learnmore pt-lg">
+      <div className="learnmore pt-large">
         <div className="container">
           <Content>
-            <div className="rubygems">
+            <div className="p2p">
               <h1>{t('p2p:headers:title', { defaultValue: 'P2P Solutions Guide' })}</h1>
               <h2>{t('p2p:headers:telegram', { defaultValue: 'Telegram Bot Manual' })}</h2>
               <ol>
@@ -56,7 +54,7 @@ function P2P_Solutions_Guide(props) {
       </div>
     </Layout>
   );
-};
+}
 
 const Extended = translate(['p2p'], { i18n, wait: process.browser })(P2P_Solutions_Guide);
 

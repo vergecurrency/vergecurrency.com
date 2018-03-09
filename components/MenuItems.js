@@ -21,7 +21,10 @@ const MenuItems = ({ t }) => (
     </Link>
     <span className="submenu">
       {t('header:resources', { defaultValue: 'Resources' })}<FontAwesomeIcon icon={faChevronDown} />
-      <div className="submenu--content">
+      <div className="submenu__content">
+        <Link href="/guides">
+          <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
+        </Link>
         <Link href="/faq">
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}</a>
         </Link>
@@ -30,9 +33,6 @@ const MenuItems = ({ t }) => (
         </Link>
         <Link href="/developers">
           <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>
-        </Link>
-        <Link href="/guides">
-          <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
         </Link>
       </div>
     </span>

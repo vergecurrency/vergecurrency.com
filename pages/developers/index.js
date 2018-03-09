@@ -6,8 +6,8 @@ export default () => (
     <div className="learnmore pt-large">
       <div className="container">
         <Content>
-          <div className="faq-general">
-            <h1>General</h1>
+          <div className="developers">
+            <h1>Developers</h1>
           </div>
         </Content>
       </div>
