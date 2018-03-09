@@ -102,6 +102,16 @@
       }
     }
 
+    &--pressreleases {
+      padding-bottom: 4rem;
+      padding-top: 4rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+      }
+    }
+
     &--benefits {
       padding-bottom: 4rem;
       padding-top: 4rem;
