@@ -19,6 +19,7 @@ Router.onRouteChangeError = () => NProgress.done();
 const Header = ({ t }) => (
   <header id="header">
     <Head>
+      <meta name="theme-color" content="#4cc2f1" />
       <link rel="manifest" href="/static/manifest.json" />
       <style type="text/css">
         @import url(/static/css/ngprogress.css);

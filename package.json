@@ -68,6 +68,7 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
     "sw-precache-webpack-plugin": "^0.11.5",
+    "uglifyjs-webpack-plugin": "^1.2.3",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
@@ -77,6 +78,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
-    "sass-lint": "^1.12.1"
+    "sass-lint": "^1.12.1",
+    "sw-precache-webpack-plugin": "^0.11.5"
   }
 }

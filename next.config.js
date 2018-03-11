@@ -1,6 +1,8 @@
 const path = require('path');
 const glob = require('glob-all');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
+// const webpack = require('webpack');
+const Uglify = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   exportPathMap() {
@@ -95,6 +97,15 @@ module.exports = {
         },
       },
     );
+
+    // config.plugins = config.plugins.filter(plugin => (plugin.constructor.name !== 'UglifyJsPlugin'));
+
+    // config.plugins.push(new webpack.optimize.UglifyJsPlugin());
+
+    config.plugins = config.plugins.filter(plugin => (plugin.constructor.name !== 'UglifyJsPlugin'));
+
+    config.plugins.push(new Uglify());
+
     return config;
   },
 };
