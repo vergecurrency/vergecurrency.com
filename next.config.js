@@ -34,17 +34,17 @@ module.exports = {
       '/developers/verge-vendor-integration': { page: '/developers/verge-vendor-integration' },
       '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
       '/developers/vergecurrency-repositories': { page: '/developers/vergecurrency-repositories' },
-
     };
   },
 
   webpack: (config, { dev }) => {
-    const oldEntry = config.entry;
-    config.entry = () => oldEntry().then((entry) => {
-      entry['main.js'].push(path.resolve('./offline'));
-      return entry;
-    });
     if (!dev) {
+      const oldEntry = config.entry;
+      config.entry = () => oldEntry().then((entry) => {
+        entry['main.js'].push(path.resolve('./offline'));
+        return entry;
+      });
+
       config.plugins.push(new SWPrecacheWebpackPlugin({
         cacheId: 'VergePWA',
         filepath: path.resolve('./static/sw.js'),
@@ -61,6 +61,8 @@ module.exports = {
           urlPattern: /^http.*/,
         }],
       }));
+      config.plugins = config.plugins.filter(plugin => (plugin.constructor.name !== 'UglifyJsPlugin'));
+      config.plugins.push(new Uglify());
     }
     config.module.rules.push(
       {
@@ -97,14 +99,6 @@ module.exports = {
         },
       },
     );
-
-    // config.plugins = config.plugins.filter(plugin => (plugin.constructor.name !== 'UglifyJsPlugin'));
-
-    // config.plugins.push(new webpack.optimize.UglifyJsPlugin());
-
-    config.plugins = config.plugins.filter(plugin => (plugin.constructor.name !== 'UglifyJsPlugin'));
-
-    config.plugins.push(new Uglify());
 
     return config;
   },

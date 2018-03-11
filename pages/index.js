@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import LazyLoad from 'react-lazyload';
 
 import Layout from '../components/Layout';
 import Exchanges from '../components/Exchanges';
@@ -124,8 +125,12 @@ function Home(props) {
                 </div>
                 <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
                   <div className="benefits--imgs hidden-xs">
-                    <img src="../static/img/benefits-desktop.png" alt="Benefits desktop" />
-                    <img src="../static/img/benefits-mobile.png" alt="Benefits mobile" />
+                    <LazyLoad height={430}>
+                      <img src="../static/img/benefits-desktop.png" alt="Benefits desktop" />
+                    </LazyLoad>
+                    <LazyLoad height={385}>
+                      <img src="../static/img/benefits-mobile.png" alt="Benefits mobile" />
+                    </LazyLoad>
                   </div>
                 </div>
               </div>
@@ -318,37 +323,37 @@ function Home(props) {
                     <div className="col-xs-12 col-sm-7 col-md-5 col-md-offset-2 col--full-height">
                       <div className="row start-xs center-sm between-md pb-xs">
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.facebook.com/VERGEcurrency" target="_blank">
+                          <Link href="https://www.facebook.com/VERGEcurrency">
                             <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://github.com/vergecurrency?tab=repositories" target="_blank">
+                          <Link href="https://github.com/vergecurrency?tab=repositories">
                             <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://t.me/VERGExvg" target="_blank">
+                          <Link href="https://t.me/VERGExvg">
                             <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram"><FontAwesomeIcon icon={faTelegram} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank">
+                          <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
                             <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.reddit.com/r/vergecurrency/" target="_blank">
+                          <Link href="https://www.reddit.com/r/vergecurrency/">
                             <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit"><FontAwesomeIcon icon={faReddit} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.twitter.com/vergecurrency" target="_blank">
+                          <Link href="https://www.twitter.com/vergecurrency">
                             <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://discord.gg/vergecurrency" target="_blank">
+                          <Link href="https://discord.gg/vergecurrency">
                             <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
                           </Link>
                         </div>

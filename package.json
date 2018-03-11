@@ -62,7 +62,7 @@
     "react-burger-menu": "^2.2.3",
     "react-dom": "^16.2.0",
     "react-i18next": "^7.3.4",
-    "react-image-lazyload": "0.0.18",
+    "react-lazyload": "^2.3.0",
     "react-moment": "^0.7.0",
     "react-web-tabs": "^0.4.3",
     "sass-loader": "^6.0.6",
