@@ -1,10 +1,12 @@
 const express = require('express');
+const path = require('path');
 const next = require('next');
 
 const dev = process.env.NODE_ENV !== 'production';
-const app = next({ dev });
+const app = next({ dir: '.', dev });
 const handle = app.getRequestHandler();
 
+const { createServer } = require('http');
 const i18nextMiddleware = require('i18next-express-middleware');
 const Backend = require('i18next-node-fs-backend');
 const i18n = require('./i18n');
@@ -60,27 +62,35 @@ i18n
     // loaded translations we can bootstrap our routes
     app.prepare()
       .then(() => {
-        const server = express();
+        const e = express();
 
-        // server.use(initializer);
+        // e.use(initializer);
 
         // routes.forEach(([ endpoint, page ]) => {
-        //   server.get(endpoint, (req, res) => app.render(req, res, page, { store }));
+        //   e.get(endpoint, (req, res) => app.render(req, res, page, { store }));
         // });
 
         // enable middleware for i18next
-        server.use(i18nextMiddleware.handle(i18n));
+        e.use(i18nextMiddleware.handle(i18n));
 
         // serve locales for client
-        server.use('/locales', express.static(`${__dirname}/locales`));
+        e.use('/locales', express.static(`${__dirname}/locales`));
 
         // missing keys
-        server.post('/locales/add/:lng/:ns', i18nextMiddleware.missingKeyHandler(i18n));
+        e.post('/locales/add/:lng/:ns', i18nextMiddleware.missingKeyHandler(i18n));
 
         // use next.js
-        server.get('*', (req, res) => handle(req, res));
+        e.get('*', (req, res) => handle(req, res));
 
-        server.listen(3000, (err) => {
+        const s = createServer((req, res) => {
+          if (req.url === '/sw.js') {
+            app.serveStatic(req, res, path.resolve('./static/sw.js'));
+          } else {
+            handle(req, res);
+          }
+        });
+
+        s.listen(3000, (err) => {
           if (err) throw err;
           console.log('> Ready on http://localhost:3000');
         });
