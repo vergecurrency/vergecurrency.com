@@ -1,8 +1,9 @@
 const path = require('path');
 const glob = require('glob-all');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
-// const webpack = require('webpack');
+const webpack = require('webpack');
 const Uglify = require('uglifyjs-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   exportPathMap() {
@@ -99,6 +100,9 @@ module.exports = {
         },
       },
     );
+
+    config.plugins.push(new BundleAnalyzerPlugin());
+    config.plugins.push(new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/));
 
     return config;
   },
