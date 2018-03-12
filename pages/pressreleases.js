@@ -3,7 +3,6 @@ import React from 'react';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
-import Subheader from '../components/Subheader';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
@@ -28,8 +27,6 @@ function Pressreleases(props) {
 
   return (
     <Layout>
-      <Subheader t={t} category="press" page="pressreleases" />
-
       <div className="pressreleases press">
         <div className="ribbon ribbon--pressreleases">
           <div className="ribbon-img" />

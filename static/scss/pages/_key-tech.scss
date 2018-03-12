@@ -55,6 +55,10 @@
   .integrations {
     position: relative;
 
+    &--text {
+      z-index:1;
+    }
+
     &--imgs {
       background-image: url(/static/img/key-tech/social.png); // scss-lint:disable UrlQuotes
       background-position: center right;
