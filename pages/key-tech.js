@@ -3,7 +3,6 @@ import React from 'react';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
-import Subheader from '../components/Subheader';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
@@ -13,8 +12,6 @@ function KeyTech(props) {
 
   return (
     <Layout>
-      <Subheader t={t} category="press" page="key-tech" />
-
       <div className="key-tech press">
         <div className="ribbon ribbon--key-tech">
           <div className="ribbon-img" />
@@ -49,7 +46,7 @@ function KeyTech(props) {
                   via the blockchain explorer.
                 </p>
                 <Link href="/blog">
-                  <a className="btn btn-primary">Read about Wraith on our blog</a>
+                  <a href="/blog" className="btn btn-primary">Read about Wraith on our blog</a>
                 </Link>
               </div>
               <div className="col-sm-4 col-md-5 hidden-xs" />
