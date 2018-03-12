@@ -4,6 +4,7 @@ const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const webpack = require('webpack');
 const Uglify = require('uglifyjs-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+var CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
   exportPathMap() {
@@ -62,8 +63,6 @@ module.exports = {
           urlPattern: /^http.*/,
         }],
       }));
-      config.plugins = config.plugins.filter(plugin => (plugin.constructor.name !== 'UglifyJsPlugin'));
-      config.plugins.push(new Uglify());
     }
     config.module.rules.push(
       {
@@ -100,9 +99,54 @@ module.exports = {
         },
       },
     );
+    config.plugins = config.plugins.filter(plugin => (plugin.constructor.name !== 'UglifyJsPlugin'));
+    config.plugins.push(new webpack.optimize.UglifyJsPlugin({
+      uglifyOptions: {
+        compress: {
+          arrows: false,
+          booleans: false,
+          cascade: false,
+          collapse_vars: false,
+          comparisons: false,
+          computed_props: false,
+          hoist_funs: false,
+          hoist_props: false,
+          hoist_vars: false,
+          if_return: false,
+          inline: false,
+          join_vars: false,
+          keep_infinity: true,
+          loops: false,
+          negate_iife: false,
+          properties: false,
+          reduce_funcs: false,
+          reduce_vars: false,
+          sequences: false,
+          side_effects: false,
+          switches: false,
+          top_retain: false,
+          toplevel: false,
+          typeofs: false,
+          unused: false,
 
+          // Switch off all types of compression except those needed to convince
+          // react-devtools that we're using a production build
+          conditionals: true,
+          dead_code: true,
+          evaluate: true,
+        },
+        mangle: true,
+      },
+    }));
     config.plugins.push(new BundleAnalyzerPlugin());
     config.plugins.push(new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/));
+    config.plugins.push(new CompressionPlugin({
+      asset: '[path].gz[query]',
+      algorithm: 'gzip',
+      test: /\.js$|\.css$|\.html$/,
+      threshold: 10240,
+      minRatio: 0.8,
+    }));
 
     return config;
   },
