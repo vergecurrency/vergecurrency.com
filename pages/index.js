@@ -214,7 +214,9 @@ function Home(props) {
                   </div>
 
                   <div className="col-xs-11 col-sm-4 col-md-5 end-xs">
-                    <img className="vendors--img" src="../static/img/vendors/vendor-story.png" alt="Vendor Story" />
+                    <LazyLoad height={375}>
+                      <img className="vendors--img" src="../static/img/vendors/vendor-story.png" alt="Vendor Story" />
+                    </LazyLoad>
                   </div>
                 </div>
               </div>
