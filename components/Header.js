@@ -19,6 +19,8 @@ Router.onRouteChangeError = () => NProgress.done();
 const Header = ({ t }) => (
   <header id="header">
     <Head>
+      <meta name="theme-color" content="#4cc2f1" />
+      <link rel="manifest" href="/static/manifest.json" />
       <style type="text/css">
         @import url(/static/css/ngprogress.css);
       </style>
@@ -27,7 +29,7 @@ const Header = ({ t }) => (
       <div className="row between-xs around-sm middle-xs">
         <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
           <Link href="/">
-            <a href="/">
+            <a href="/" name="Verge homepage">
               <VergeLogoWhite />
             </a>
           </Link>

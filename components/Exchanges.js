@@ -1,3 +1,5 @@
+import LazyLoad from 'react-lazyload';
+
 const exchangeLocale = require('../locales/index').en.exchanges.exchanges;
 
 function Exchanges() {
@@ -11,7 +13,9 @@ function Exchanges() {
     >
       <div className="exchanges--item middle-xs">
         <div className="exchanges--item__logo">
-          <img src={x.img} width="40" alt="img" />
+          <LazyLoad height={40}>
+            <img src={x.img} width="40" alt="img" />
+          </LazyLoad>
         </div>
         <div className="exchanges--item__name">
           <h4>{x.title}</h4>
