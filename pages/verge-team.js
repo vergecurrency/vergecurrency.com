@@ -9,8 +9,8 @@ import i18n from '../i18n';
 function VergeTeam() {
   return (
     <Layout>
-      <div className="VergeTeam">
-        <div className="ribbon ribbon--VergeTeam">
+      <div className="about">
+        <div className="ribbon ribbon--about">
           <div className="container">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
