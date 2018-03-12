@@ -8,7 +8,7 @@ function FAQ_General(props) {
   const { t } = props;
   return (
     <Layout>
-      <div className="learnmore pt-large">
+      <div className="learnmore">
         <div className="container">
           <Content>
             <div className="faq">
