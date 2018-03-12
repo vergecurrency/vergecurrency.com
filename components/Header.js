@@ -29,7 +29,7 @@ const Header = ({ t }) => (
       <div className="row between-xs around-sm middle-xs">
         <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
           <Link href="/">
-            <a href="/" name="Verge homepage">
+            <a className="verge-logo" href="/" name="Verge homepage">
               <VergeLogoWhite />
             </a>
           </Link>

@@ -77,14 +77,14 @@ footer {
     }
 
     .verge-logo {
-      margin-bottom: 0;
       margin-top: .75rem;
       overflow: hidden;
       transition: .2s all;
       width: rem(34px);
 
       @media (min-width: $min-width-sm) {
-        width: auto;
+        margin-right: rem(24px);
+        width: rem(120px);
       }
 
       @media (min-width: $min-width-md) {
@@ -104,18 +104,7 @@ footer {
 
           @media (min-width: $min-width-sm) {
             font-size: 1.5rem;
-            width: 3rem;
-          }
-
-          @media (min-width: $min-width-sm) {
-            width: 4rem;
-          }
-        }
-
-        &:first-child {
-          @media (min-width: $min-width-sm) {
-            padding-left: 0;
-            margin-left: rem(-12px);
+            width: 3.5rem;
           }
         }
       }

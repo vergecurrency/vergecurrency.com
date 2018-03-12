@@ -18,6 +18,7 @@
   .links {
     display: inline-block;
     vertical-align: middle;
+    padding-right: .5rem;
   }
 
   nav a, nav span {
@@ -70,7 +71,7 @@
         transition-delay: 0s, 0s, 0.3s;
       }
     }
-    
+
     &__content {
       background: $astronaut-blue;
       visibility: hidden;
@@ -97,7 +98,7 @@
     }
   }
 
-  svg {
+  .verge-logo svg {
     width: rem(120px);
 
     .st2 {
@@ -137,7 +138,9 @@
       }
     }
 
-    svg {
+    .verge-logo svg {
+      margin-left: -.25rem;
+
       .st2 {
         fill: #0f1928;
       }
