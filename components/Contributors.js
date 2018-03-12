@@ -1,6 +1,6 @@
 import React from 'react';
-import LazyImage from 'react-image-lazyload';
 import fetch from 'isomorphic-unfetch';
+import LazyLoad from 'react-lazyload';
 
 class Contributors extends React.Component {
   constructor(props) {
@@ -25,17 +25,16 @@ class Contributors extends React.Component {
           <div className="row center-xs pt-xs pb">
             {
               this.state.contributors.map((x, i) => (
-                <div key={x.id} className={(i === 0 ? 'col-xs-9' : 'col-xs-6') + ` col-xs-6 col-sm-4 col-md-3 col-lg-2`}>
+                <div key={x.id} className={(i === 0 ? 'col-xs-9' : 'col-xs-6') + ' col-xs-6 col-sm-4 col-md-3 col-lg-2'}>
                   <a href={x.html_url} target="_blank" className="contributors--item">
                     <div className="contributors--item__img">
-                      <LazyImage
-                        src={x.avatar_url}
-                        backgroundColor="#1db5db"
-                      />
+                      <LazyLoad height={130}>
+                        <img src={x.avatar_url} alt={x.login} />
+                      </LazyLoad>
                     </div>
                     <div className="contributors--item__author">{x.login}</div>
                     <div className="contributors--item__profile">
-                      <a href={x.html_url}>View on GitHub</a>
+                      <span>View on GitHub</span>
                     </div>
                   </a>
                 </div>
