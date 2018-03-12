@@ -6,11 +6,11 @@ import Contributors from '../components/Contributors';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-function About() {
+function VergeTeam() {
   return (
     <Layout>
-      <div className="about">
-        <div className="ribbon ribbon--about">
+      <div className="VergeTeam">
+        <div className="ribbon ribbon--VergeTeam">
           <div className="container">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
@@ -112,6 +112,6 @@ function About() {
   );
 }
 
-const Extended = translate(['common', 'about'], { i18n, wait: process.browser })(About);
+const Extended = translate(['common', 'about'], { i18n, wait: process.browser })(VergeTeam);
 
 export default Extended;

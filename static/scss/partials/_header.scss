@@ -52,6 +52,12 @@
     display: inline-block;
     line-height: rem(15px);
 
+    a {
+      margin: 0;
+      padding: 0;
+      line-height: 0;
+    }
+
     svg {
       width: 2em;
       transition: transform .2s ease-in-out;
