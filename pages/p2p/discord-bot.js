@@ -9,7 +9,7 @@ function P2P_discord_bot(props) {
 
   return (
     <Layout>
-      <div className="learnmore pt-large">
+      <div className="learnmore">
         <div className="container">
           <Content>
             <div className="p2p">
