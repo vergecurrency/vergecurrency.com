@@ -62,11 +62,6 @@ module.exports = {
           urlPattern: /^http.*/,
         }],
       }));
-      config.plugins.push(new webpack.DefinePlugin({
-        'process.env': {
-          NODE_ENV: JSON.stringify('production'),
-        },
-      }));
       config.plugins = config.plugins.filter(plugin => (plugin.constructor.name !== 'UglifyJsPlugin'));
       config.plugins.push(new webpack.optimize.UglifyJsPlugin({
         uglifyOptions: {
@@ -115,7 +110,7 @@ module.exports = {
           mangle: true,
         },
       }));
-      // config.plugins.push(new BundleAnalyzerPlugin());
+      // config.plugins.push(new BundleAnalyzerPlugin()); <-- use to analyze the bundle size
       config.plugins.push(new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/));
       config.plugins.push(new webpack.optimize.AggressiveMergingPlugin());
     }
