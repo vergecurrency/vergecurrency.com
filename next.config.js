@@ -2,8 +2,7 @@ const path = require('path');
 const glob = require('glob-all');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const webpack = require('webpack');
-const Uglify = require('uglifyjs-webpack-plugin');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   exportPathMap() {
@@ -141,7 +140,7 @@ module.exports = {
           unsafe: true,
           unsafe_comps: true,
           screw_ie8: true,
-          
+
           // Switch off all types of compression except those needed to convince
           // react-devtools that we're using a production build
           conditionals: true,
