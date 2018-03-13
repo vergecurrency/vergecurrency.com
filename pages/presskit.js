@@ -32,22 +32,22 @@ function Presskit(props) {
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
-                <div className="col-xs-12 col-sm-4 start-xs reason">
+                <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
                   <div className="reason--inner">
-                    <h3>{t('common:reason-1.title', { defaultValue: 'A cryptocurrency designed for everyday use.' })}</h3>
-                    <p>{t('common:reason-1.text', { defaultValue: 'Improving upon the original Bitcoin blockchain and aims to fulfill its initial purpose.' })}</p>
+                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.first.header') }} />
+                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.first.text') }} />
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
+                  <div className="reason--inner">
+                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.second.header') }} />
+                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.second.text') }} />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
                   <div className="reason--inner">
-                    <h3>{t('common:reason-2.title', { defaultValue: 'Bringing blockchain into everyday life.' })}</h3>
-                    <p>{t('common:reason-2.text', { defaultValue: 'Verge currency makes it possible to engage in direct transactions.' })}</p>
-                  </div>
-                </div>
-                <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <div className="reason--inner">
-                    <h3>{t('common:reason-3.title', { defaultValue: 'Open Source Development & Community Driven.' })}</h3>
-                    <p>{t('common:reason-3.text', { defaultValue: 'Verge is not a private company funded by pre-mined coins or ICO\'s.' })}</p>
+                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.third.header') }} />
+                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.third.text') }} />
                   </div>
                 </div>
               </div>
