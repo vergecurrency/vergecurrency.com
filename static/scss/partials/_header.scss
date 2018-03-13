@@ -20,7 +20,6 @@
     vertical-align: middle;
     padding-right: .5rem;
   }
-
   nav a, nav span {
     color: $white;
     font-size: rem(15px);
@@ -29,10 +28,6 @@
     padding: rem(6px);
     text-decoration: none;
     transition: all .2s ease-in;
-
-    &:last-child {
-      font-weight: 600;
-    }
 
     &:hover {
       color: $picton-blue;
@@ -46,6 +41,9 @@
         margin-right: rem(18px);
       }
     }
+  }
+  nav .links > a:last-child {
+    font-weight: 500;
   }
 
   .submenu {
@@ -91,7 +89,6 @@
         padding: 10px;
         line-height: rem(15px);
         &:last-child {
-          font-weight: 500;
           margin-right: 0;
         }
       }
@@ -99,6 +96,7 @@
   }
 
   .verge-logo svg {
+    margin-left: -.25rem;
     width: rem(120px);
 
     .st2 {
@@ -139,8 +137,6 @@
     }
 
     .verge-logo svg {
-      margin-left: -.25rem;
-
       .st2 {
         fill: #0f1928;
       }
