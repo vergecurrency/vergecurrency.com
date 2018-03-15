@@ -312,6 +312,6 @@ function Pressreleases(props) {
   );
 }
 
-const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressreleases);
+const Extended = translate(['common', 'pressreleases'], { i18n, wait: process.browser })(Pressreleases);
 
 export default Extended;
