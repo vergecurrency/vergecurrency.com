@@ -2,10 +2,10 @@ import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 
 import Layout from '../components/Layout';
-import Exchanges from '../components/Exchanges';
+import { HomeExchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
-import Mentions from '../components/Mentions';
-import Vendors from '../components/Vendors';
+import { Mentions } from '../components/Mentions';
+import { LatestVendors } from '../components/Vendors';
 import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
 
@@ -182,7 +182,7 @@ function Home(props) {
                   <h2>Trade Verge on the most popular exchanges. <span className="hidden-xs"><br /></span>We’re proud to be listed on:</h2>
                 </div>
 
-                <Exchanges />
+                <HomeExchanges />
 
                 <Cointicker />
               </div>
@@ -232,7 +232,7 @@ function Home(props) {
                     </Link>
                   </h6>
 
-                  <Vendors />
+                  <LatestVendors />
                 </div>
               </div>
             </div>

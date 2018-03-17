@@ -3,7 +3,7 @@ import LazyLoad from 'react-lazyload';
 
 const vendorsLocale = require('../locales/index').en.vendors.vendors;
 
-function Vendors() {
+export const LatestVendors = () => {
   const vendors = vendorsLocale.map(x => (
     <div className="col-xs-12 col-sm-4 col-md center-xs middle-xs col--full-height pb--sm" key={x.title}>
       <Link href={x.url}>
@@ -21,6 +21,4 @@ function Vendors() {
       {vendors}
     </div>
   );
-}
-
-export default Vendors;
+};

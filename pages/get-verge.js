@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import Exchanges from '../components/Exchanges';
+import { Exchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
 import Coinchart from '../components/Coinchart';
 import { translate } from 'react-i18next';
