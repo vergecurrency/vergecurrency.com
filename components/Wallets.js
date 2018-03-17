@@ -18,8 +18,6 @@ function Wallets() {
         </div>
       );
     }
-
-    return <div>Failed to load wallets..</div>;
   });
 
   return (

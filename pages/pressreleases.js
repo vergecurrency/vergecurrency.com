@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import MediumPosts from '../components/Medium';
+import { FullMentions } from '../components/Mentions';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
@@ -77,88 +78,7 @@ function Pressreleases(props) {
               <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
                 <h2>Press coverage</h2>
 
-                <div className="row around-xs pt-small pb pb-xs-0">
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoBusinessInsider />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoForbes />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Verge price and how to buy it - what is XVG and is the</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoHuffingtonPost />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="row around-xs pt-small pt-xs-0">
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoMashable />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoTechChrunch />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Verge price and how to buy it - what is XVG and is the</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/VVY_Tech_Savvy.png" alt="Tech savy" />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <FullMentions />
               </div>
             </div>
             <div className="row center-xs pt pb">

@@ -25,18 +25,16 @@ class MediumPosts extends React.Component {
     return (
       <div className="row around-xs start-sm pt-small pb">
         {
-          this.state.pressreleases.map((x) => {
-            return (
-              <div className="col-xs-12 col-sm-4 start-xs pb-xs pt-small pb">
-                <Link href={x.link}>
-                  <a href={x.link} className="date" target="_blank">
-                    <h3 dangerouslySetInnerHTML={{ __html: x.title }} />
-                    <Moment format="MMMM Do YYYY">{x.pubDate}</Moment> - Read
-                  </a>
-                </Link>
-              </div>
-            );
-          })
+          this.state.pressreleases.map(x => (
+            <div className="col-xs-12 col-sm-4 start-xs pb-xs pt-small pb" key={x.title}>
+              <Link href={x.link}>
+                <a href={x.link} className="date" target="_blank">
+                  <h3 dangerouslySetInnerHTML={{ __html: x.title }} />
+                  <Moment format="MMMM Do YYYY">{x.pubDate}</Moment> - Read
+                </a>
+              </Link>
+            </div>
+          ))
         }
       </div>
     );
