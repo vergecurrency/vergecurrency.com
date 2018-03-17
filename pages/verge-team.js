@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import Layout from '../components/Layout';
 import Contributors from '../components/Contributors';
+import Team from '../components/Team';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
@@ -43,40 +44,7 @@ function VergeTeam() {
         <div className="team pt-xs pb-large">
           <div className="row center-xs">
             <div className="col-xs-10 col-lg-8">
-              <div className="row center-xs between-xs">
-                <div className="col-xs col-md-3">
-                  <div className="team--member pb-xs">
-                    <img src="../static/img/team/sunerok.png" alt="Sunerok" />
-                    <h3>Sunerok</h3>
-                    <span>Lead Developer</span>
-                    <p>Network security and blockchain expert</p>
-                  </div>
-                </div>
-                <div className="col-xs col-md-3">
-                  <div className="team--member pb-xs">
-                    <img src="../static/img/team/sunerok.png" alt="Sunerok" />
-                    <h3>Sunerok</h3>
-                    <span>Lead Developer</span>
-                    <p>Network security and blockchain expert</p>
-                  </div>
-                </div>
-                <div className="col-xs col-md-3">
-                  <div className="team--member pb-xs">
-                    <img src="../static/img/team/sunerok.png" alt="Sunerok" />
-                    <h3>Sunerok</h3>
-                    <span>Lead Developer</span>
-                    <p>Network security and blockchain expert</p>
-                  </div>
-                </div>
-                <div className="col-xs col-md-3">
-                  <div className="team--member">
-                    <img src="../static/img/team/sunerok.png" alt="Sunerok" />
-                    <h3>Sunerok</h3>
-                    <span>Lead Developer</span>
-                    <p>Network security and blockchain expert</p>
-                  </div>
-                </div>
-              </div>
+              <Team />
             </div>
           </div>
         </div>

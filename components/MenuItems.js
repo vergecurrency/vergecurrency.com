@@ -25,9 +25,9 @@ const MenuItems = ({ t }) => (
         <Link href="/presskit">
           <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
         </Link>
-        <Link href="/pressreleases">
+        {/* <Link href="/pressreleases">
           <a href="/pressreleases">{t('header:pressreleases', { defaultValue: 'Press Releases' })}</a>
-        </Link>
+        </Link> */}
       </div>
     </span>
     <Link href="/wallets">
