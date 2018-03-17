@@ -13,7 +13,7 @@ function Vendor_Integration(props) {
 
   return (
     <Layout>
-      <div className="learnmore pt-large">
+      <div className="learnmore">
         <div className="container">
           <Content>
             <div className="rubygems">
@@ -41,14 +41,14 @@ function Vendor_Integration(props) {
               <h2 className="pt-small">{t('vendor-integration:python:title', { defaultValue: 'Python' })}</h2>
               <p>{t('vendor-integration:python:text', { defaultValue: 'This repository contains a set of Python libraries that allows easy access to the Verge Peer-to-Peer cryptocurrency client API.' })}</p>
               <Link href="https://github.com/vergecurrency/verge-python">
-                <a target="_blank" href="https://github.com/vergecurrency/verge-python">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/vergecurrency/verge-python">
                   https://github.com/vergecurrency/verge-python
                 </a>
               </Link>
               <h2 className="pt-small">{t('vendor-integration:graphics:title', { defaultValue: 'Graphics' })}</h2>
               <p>{t('vendor-integration:graphics:text', { defaultValue: 'Here Vendors can find necessary graphics and logos if required for integration into their websites' })}</p>
               <Link href="https://github.com/vergecurrency/verge-graphics/tree/master/Verge-Vendor-Icons">
-                <a target="_blank" href="https://github.com/vergecurrency/verge-graphics/tree/master/Verge-Vendor-Icons">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/vergecurrency/verge-graphics/tree/master/Verge-Vendor-Icons">
                   https://github.com/vergecurrency/verge-graphics/tree/master/Verge-Vendor-Icons
                 </a>
               </Link>

@@ -102,6 +102,16 @@
       }
     }
 
+    &--pressreleases {
+      padding-bottom: 4rem;
+      padding-top: 4rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+      }
+    }
+
     &--benefits {
       padding-bottom: 4rem;
       padding-top: 4rem;
@@ -245,10 +255,32 @@
           @extend %gray-arrow-right;
         }
       }
+
     }
 
     &--press {
       padding-top: 4rem;
+      top: 3rem;
+      z-index: 1;
+
+      h3 {
+        font-size: rem(19px);
+        font-weight: 600;
+      }
+
+      p {
+        font-size: rem(13px);
+        font-weight: 400;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  &--press {
+    h3 {
+      span {
+        color: inherit;
+      }
     }
   }
 }

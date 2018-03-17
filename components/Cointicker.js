@@ -59,7 +59,7 @@ class Cointicker extends React.Component {
       );
     }
 
-    return (<span>Loading cointicker...</span>);
+    return <span>Loading cointicker...</span>;
   }
 }
 

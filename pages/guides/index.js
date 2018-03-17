@@ -3,7 +3,7 @@ import Content from '../../components/resources/Content';
 
 export default () => (
   <Layout>
-    <div className="learnmore pt-large">
+    <div className="learnmore">
       <div className="container">
         <Content>
           <div className="guides">

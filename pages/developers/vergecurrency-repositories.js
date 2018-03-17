@@ -13,7 +13,7 @@ function VergeCurrency_Repositories(props) {
 
   return (
     <Layout>
-      <div className="learnmore pt-large">
+      <div className="learnmore">
         <div className="container">
           <Content>
             <div className="rubygems">

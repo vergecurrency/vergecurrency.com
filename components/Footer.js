@@ -177,52 +177,55 @@ const Footer = ({ t }) => (
         </div>
       </div>
     </div>
-    <div className="container--with-gutter">
-      <div className="container">
-        <div className="row between-xs bottom middle-xs">
-          <div className="col-xs-8 col--no-gutter col--horizontal">
-            <div className="social__icon">
-              <Link href="https://www.facebook.com/VERGEcurrency">
-                <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook" name="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
+
+    <div className="row">
+      <div className="col-xs">
+        <div className="container">
+          <div className="row middle-xs bottom">
+            <div className="col-xs-8 col--horizontal">
+              <div className="social__icon">
+                <Link href="https://www.facebook.com/VERGEcurrency">
+                  <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook" name="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
+                </Link>
+              </div>
+              <div className="social__icon hidden-xs">
+                <Link href="https://github.com/vergecurrency?tab=repositories">
+                  <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github" name="Github"><FontAwesomeIcon icon={faGithub} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://t.me/VERGExvg">
+                  <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram" name="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
+                  <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube" name="Youtube"><FontAwesomeIcon icon={faYoutube} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://www.reddit.com/r/vergecurrency/">
+                  <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit" name="Reddit"><FontAwesomeIcon icon={faReddit} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://www.twitter.com/vergecurrency">
+                  <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter" name="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://discord.gg/vergecurrency">
+                  <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord" name="Discord"><FontAwesomeIcon icon={faDiscord} /></a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-xs-4 end-xs">
+              <Link href="/">
+                <a href="/" className="verge-logo" name="Verge Currency Logo">
+                  <VergeLogo width="120" />
+                </a>
               </Link>
             </div>
-            <div className="social__icon hidden-xs">
-              <Link href="https://github.com/vergecurrency?tab=repositories">
-                <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github" name="Github"><FontAwesomeIcon icon={faGithub} /></a>
-              </Link>
-            </div>
-            <div className="social__icon">
-              <Link href="https://t.me/VERGExvg">
-                <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram" name="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
-              </Link>
-            </div>
-            <div className="social__icon">
-              <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
-                <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube" name="Youtube"><FontAwesomeIcon icon={faYoutube} /></a>
-              </Link>
-            </div>
-            <div className="social__icon">
-              <Link href="https://www.reddit.com/r/vergecurrency/">
-                <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit" name="Reddit"><FontAwesomeIcon icon={faReddit} /></a>
-              </Link>
-            </div>
-            <div className="social__icon">
-              <Link href="https://www.twitter.com/vergecurrency">
-                <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter" name="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
-              </Link>
-            </div>
-            <div className="social__icon">
-              <Link href="https://discord.gg/vergecurrency">
-                <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord" name="Discord"><FontAwesomeIcon icon={faDiscord} /></a>
-              </Link>
-            </div>
-          </div>
-          <div className="col--faux end-xs">
-            <Link href="/">
-              <a href="/" className="verge-logo" name="Verge Currency Logo">
-                <VergeLogo width="120" />
-              </a>
-            </Link>
           </div>
         </div>
       </div>

@@ -2,10 +2,10 @@ import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 
 import Layout from '../components/Layout';
-import Exchanges from '../components/Exchanges';
+import { HomeExchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
-import Mentions from '../components/Mentions';
-import Vendors from '../components/Vendors';
+import { Mentions } from '../components/Mentions';
+import { LatestVendors } from '../components/Vendors';
 import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
 
@@ -53,20 +53,20 @@ function Home(props) {
               <div className="row between-xs">
                 <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
                   <div className="reason--inner">
-                    <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.first.header') }} />
-                    <p dangerouslySetInnerHTML={{ __html: t('home:USPs.first.text') }} />
+                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.first.header') }} />
+                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.first.text') }} />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
                   <div className="reason--inner">
-                    <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.second.header') }} />
-                    <p dangerouslySetInnerHTML={{ __html: t('home:USPs.second.text') }} />
+                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.second.header') }} />
+                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.second.text') }} />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
                   <div className="reason--inner">
-                    <h3 dangerouslySetInnerHTML={{ __html: t('home:USPs.third.header') }} />
-                    <p dangerouslySetInnerHTML={{ __html: t('home:USPs.third.text') }} />
+                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.third.header') }} />
+                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.third.text') }} />
                   </div>
                 </div>
               </div>
@@ -182,7 +182,7 @@ function Home(props) {
                   <h2>Trade Verge on the most popular exchanges. <span className="hidden-xs"><br /></span>We’re proud to be listed on:</h2>
                 </div>
 
-                <Exchanges />
+                <HomeExchanges />
 
                 <Cointicker />
               </div>
@@ -232,7 +232,7 @@ function Home(props) {
                     </Link>
                   </h6>
 
-                  <Vendors />
+                  <LatestVendors />
                 </div>
               </div>
             </div>
@@ -372,6 +372,6 @@ function Home(props) {
   );
 }
 
-const Extended = translate(['home'], { i18n, wait: process.browser })(Home);
+const Extended = translate(['common', 'home'], { i18n, wait: process.browser })(Home);
 
 export default Extended;
