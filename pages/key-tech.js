@@ -3,7 +3,6 @@ import React from 'react';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
-import Subheader from '../components/Subheader';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
@@ -13,8 +12,6 @@ function KeyTech(props) {
 
   return (
     <Layout>
-      <Subheader t={t} category="press" page="key-tech" />
-
       <div className="key-tech press">
         <div className="ribbon ribbon--key-tech">
           <div className="ribbon-img" />
@@ -49,7 +46,7 @@ function KeyTech(props) {
                   via the blockchain explorer.
                 </p>
                 <Link href="/blog">
-                  <a className="btn btn-primary">Read about Wraith on our blog</a>
+                  <a href="/blog" className="btn btn-primary">Read about Wraith on our blog</a>
                 </Link>
               </div>
               <div className="col-sm-4 col-md-5 hidden-xs" />
@@ -71,7 +68,7 @@ function KeyTech(props) {
                 <div className="row start-xs">
                   <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__tor">
-                      <img className="img-responsive feature__image" src="static/img/key-tech/Tor.png" />
+                      <img className="img-responsive feature__image" src="static/img/key-tech/Tor.png" alt="Tor" />
                     </div>
                     <h3>Tor IP obfuscation</h3>
                     <p>
@@ -86,7 +83,7 @@ function KeyTech(props) {
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__i2p">
-                      <img className="img-responsive feature__image" src="static/img/key-tech/I2P.png" />
+                      <img className="img-responsive feature__image" src="static/img/key-tech/I2P.png" alt="I2P" />
                     </div>
                     <h3>I2P tunneling</h3>
                     <p>
@@ -103,7 +100,7 @@ function KeyTech(props) {
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__atomic">
-                      <img className="img-responsive feature__image" src="static/img/key-tech/Atomic.png" />
+                      <img className="img-responsive feature__image" src="static/img/key-tech/Atomic.png" alt="Atomic Swaps" />
                     </div>
                     <h3>Atomic Swaps</h3>
                     <p>
@@ -118,7 +115,7 @@ function KeyTech(props) {
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__mining">
-                      <img className="img-responsive feature__image" src="static/img/key-tech/Verge.png" />
+                      <img className="img-responsive feature__image" src="static/img/key-tech/Verge.png" alt="Multi Algorithm mining" />
                     </div>
                     <h3>Multi-algorithm Mining</h3>
                     <p>
@@ -141,7 +138,7 @@ function KeyTech(props) {
 
           <div className="themed-container__blue themed-container__blue--integrations">
             <div className="row center-xs integrations">
-              <div className="col-xs-10 col-sm-6 col-md-5 col-lg-4 start-xs">
+              <div className="col-xs-10 col-sm-6 col-md-5 col-lg-4 start-xs integrations--text">
                 <h6>Integrations</h6>
                 <h2>Powering real world mainstream adoption with P2P integrations</h2>
                 <p>

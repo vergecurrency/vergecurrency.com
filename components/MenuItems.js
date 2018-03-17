@@ -7,9 +7,29 @@ const MenuItems = ({ t }) => (
     <Link prefetch href="/">
       <a href="/" className="visible-xs">{t('header:home', { defaultValue: 'Home' })}</a>
     </Link>
-    <Link prefetch href="/about">
-      <a href="/about">{t('header:about', { defaultValue: 'About' })}</a>
-    </Link>
+    <span className="submenu">
+      {t('header:about', { defaultValue: 'About' })}<FontAwesomeIcon icon={faChevronDown} />
+      <div className="submenu__content">
+        <Link prefetch href="/about">
+          <a href="/about">{t('header:about', { defaultValue: 'About Us' })}</a>
+        </Link>
+        <Link href="/verge-team">
+          <a href="/verge-team">{t('header:verge-team', { defaultValue: 'Verge Team' })}</a>
+        </Link>
+        <Link href="/key-tech">
+          <a href="/key-tech">{t('header:key-tech', { defaultValue: 'Key Tech' })}</a>
+        </Link>
+        <Link href="/history">
+          <a href="/history">{t('header:history', { defaultValue: 'History' })}</a>
+        </Link>
+        <Link href="/presskit">
+          <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
+        </Link>
+        {/* <Link href="/pressreleases">
+          <a href="/pressreleases">{t('header:pressreleases', { defaultValue: 'Press Releases' })}</a>
+        </Link> */}
+      </div>
+    </span>
     <Link href="/wallets">
       <a href="/wallets">{t('header:wallets', { defaultValue: 'Wallets' })}</a>
     </Link>

@@ -276,7 +276,7 @@ function Home(props) {
                 </div>
               </div>
             </div>
-            <div className="blog">
+            {/* <div className="blog">
               <div className="row pt pb center-xs middle-xs">
                 <div className="col-xs-10 col-sm-8">
                   <h6>
@@ -292,9 +292,9 @@ function Home(props) {
 
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="press">
-              <div className="row center-xs previous">
+              {/* <div className="row center-xs previous">
                 <div className="col-xs-11 start-xs">
                   <div className="row around-xs pt-small">
                     <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
@@ -314,7 +314,7 @@ function Home(props) {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="row center-xs social">
                 <div className="col-xs-11 center-xs">

@@ -56,6 +56,12 @@
     line-height: rem(15px);
     position: relative;
 
+    a {
+      margin: 0;
+      padding: 0;
+      line-height: 0;
+    }
+
     svg {
       left: 0;
       margin-left: .5rem;
