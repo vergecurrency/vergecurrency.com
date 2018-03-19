@@ -1,0 +1,41 @@
+{% assign pageName = 'donate' %}
+{% assign langPath = site.data.langs[page.lang] %}
+{% assign defaultLangPath = site.data.langs.en %}
+{% include head.html %}
+<body class="donate-page">
+  {% include shared/header.html hide_lang_dropdown=true %}
+  
+  <section class="section col-sm-12" id="donate">
+    <div class="row">
+      <div class="col-xs-12">
+        <p style="margin-bottom: 1.5em;">
+          Verge Community,<br>
+          We are excited to announce a brand new crowd funding initiative in order to help progress forward in the crypto space. It has come to our attention over the past couple months that there has been an increased demand for several things:
+        </p>
+        <ul style="font-size:1em;">
+          <li><strong>Ledger Nano hardware</strong> wallet integration and support</li>
+          <li>Wraith protocol <strong>iOS enabled wallet</strong> applications</li>
+          <li>Advanced Marketing tactics which <strong>span the globe</strong></li>
+          <li><strong>Partnerships with large scale companies</strong></li>
+          <li><strong>Real world adoption</strong></li>
+        </ul>
+        <p style="margin-top: 1.5em; margin-bottom: 1.5em;">At Verge we are always striving to achieve new heights and deliver products or software implementations that are requested by the community. Listening to our community members and taking in feedback is not only one of the core founding principles of Verge but it is inherent in our open source nature. Verge is continuously looking to grow and improve to ensure you, the user of our product, are getting the best possible experience you can.</p>
+        <p style="margin-bottom: 1.5em;">As many of you are aware no one on the Verge staff are paid to do the work they do and generally any marketing efforts that come from our team our funded out of our own day job salaries. That is why we need your help. In order for us to be able to provide these services to you, our community, we need to raise a substantial amount of funding.</p>        
+        <p style="margin-bottom: 1.5em;">Below you will find a donation address, anything you can contribute is greatly appreciated.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6">
+        <img class="donate-verge-logo" src="../../images/favicon/mstile-310x310.png" alt="Verge" title="Verge">
+        <h3 class="donate-wallet-header">{{langPath.donate.wallets.verge.header | default: defaultLangPath.donate.wallets.verge.header}}</h3>
+        <div>
+          <a href="https://verge-blockchain.info/address/{{langPath.donate.wallets.verge.address | defaultLangPath.donate.wallets.verge.address}}"
+            target="_blank">
+            {{langPath.donate.wallets.verge.address | default: defaultLangPath.donate.wallets.verge.address}}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include shared/footer.html %}
+</body>
