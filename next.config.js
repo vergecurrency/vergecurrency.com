@@ -36,6 +36,7 @@ module.exports = {
       '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
       '/developers/vergecurrency-repositories': { page: '/developers/vergecurrency-repositories' },
       '/commnity/get-involved': { page: '/community/get-involved' },
+      '/commnity/donate': { page: '/community/donate' },
       '/commnity/social': { page: '/community/social' },
     };
   },
