@@ -71,7 +71,7 @@
     },
     "vergebusiness": {
       "question": "How can I accept Verge for my business?",
-      "answer": "You can integrate XVG in your business by using Coinpayments or using existing APIs that can be found on GitHub."
+      "answer": "You can integrate XVG in your business by using Coinpayments or using existing APIs that can be found on GitHub. <a href='/developers/verge-vendor-integration'>Click here</a> for more information."
     },
     "vergecurrencyproject": {
       "question": "How can I support the Verge Currency project?",
