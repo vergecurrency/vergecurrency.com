@@ -75,7 +75,7 @@
     },
     "vergecurrencyproject": {
       "question": "How can I support the Verge Currency project?",
-      "answer": "The simplest way of support is by donating to fund the development. XVG and BTC addresses can be found here. If you would like to contribute to the project in the area of software development, digital marketing, video and graphic design or any other, please fill out this form or reach out to us directly via email contact@vergecurrency.com."
+      "answer": "The simplest way of support is by donating to fund the development. XVG and BTC addresses can be found here. If you would like to contribute to the project in the area of software development, digital marketing, video and graphic design or any other, please fill out this form or reach out to us directly via email <a href='mailto:contact@vergecurrency.com'>contact@vergecurrency.com</a>."
     },
     "funded": {
       "question": "How Is Verge Development Funded?",
