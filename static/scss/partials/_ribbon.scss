@@ -25,7 +25,7 @@
   }
 
   &-img {
-    background: url("/static/img/home-hero-bg.jpg") no-repeat center center;
+    background: url(/static/img/home-hero-bg.jpg) no-repeat center center;
     background-size: cover;
     min-height: rem(930px);
     min-width: 100%;
@@ -58,27 +58,6 @@
   }
 
   &--about,
-  &--business {
-    // scss-lint:disable ColorVariable DuplicateProperty
-
-    background: #042c42;
-    background: -moz-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
-    background: -webkit-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
-    background: radial-gradient(ellipse at center, #042c42 0%, 05131e 46%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#042c42', endColorstr='#05131e', GradientType=1);
-    min-height: rem(770px);
-
-    p {
-      color: $white;
-    }
-  }
-
-  &--pressreleases,
-  &--presskit {
-    min-height: rem(540px);
-  }
-
-  &--about,
   &--wallets {
     // scss-lint:disable ColorVariable DuplicateProperty
 
@@ -87,14 +66,34 @@
     background: -webkit-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
     background: radial-gradient(ellipse at center, #042c42 0%, #05131e 46%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#042c42', endColorstr='#05131e', GradientType=1);
+  }
+
+  &--about {
     min-height: 25rem;
   }
 
+  &--pressreleases,
+  &--presskit {
+    min-height: 25rem;
+  }
+
+  &--business,
   &--wallets {
-    min-height: 35rem;
+    min-height: 30rem;
   }
 
   &--business {
-    min-height: 40rem;
+    p {
+      color: $white;
+    }
+
+    .ribbon-img {
+      background: url(/static/img/business-hero-bg.jpg) no-repeat center center;
+      background-size: cover;
+      min-height: rem(930px);
+      min-width: 100%;
+      position: absolute;
+      z-index: -100;
+    }
   }
 }

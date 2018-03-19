@@ -1,0 +1,60 @@
+{
+  "team": [
+    {
+      "img": "../static/img/team/sunerok.png",
+      "name": "Sunerok",
+      "role": "Lead Developer",
+      "occupation": "Network security and blockchain expert",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/cryptorekt.jpg",
+      "name": "CryptoRekt",
+      "role": "Technical consultant, Marketing Advisor",
+      "occupation": "Sr. Systems Engineer at Cisco",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/benji.jpg",
+      "name": "Benji",
+      "role": "Head of Marketing",
+      "occupation": "Content management & PR specialist",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/spookykid.jpg",
+      "name": "SpookyKid",
+      "role": "Recruiter and Marketing Advisor",
+      "occupation": "",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/cees.jpg",
+      "name": "Cees",
+      "role": "Online Marketing Strategist",
+      "occupation": "Marketing, Recruiter & Facebook Specialist",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/maeotsu.jpg",
+      "name": "Maeotsu",
+      "role": "Graphic designer",
+      "occupation": "",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/erik.jpg",
+      "name": "Erik",
+      "role": "Graphic designer",
+      "occupation": "",
+      "linkedin": "",
+      "twitter": ""
+    }
+  ]
+}

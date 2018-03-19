@@ -1,12 +1,9 @@
-import Link from 'next/link';
-
 import Layout from '../../components/Layout';
-import Sidebar from '../../components/resources/Sidebar';
 import Content from '../../components/resources/Content';
 
 export default () => (
   <Layout>
-    <div className="learnmore pt-lg">
+    <div className="learnmore">
       <div className="container">
         <Content>
           <div className="introduction">
@@ -16,4 +13,4 @@ export default () => (
       </div>
     </div>
   </Layout>
-)
+);

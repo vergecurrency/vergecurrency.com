@@ -3,7 +3,8 @@ import React from 'react';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
-import Subheader from '../components/Subheader';
+import MediumPosts from '../components/Medium';
+import { FullMentions } from '../components/Mentions';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
@@ -28,8 +29,6 @@ function Pressreleases(props) {
 
   return (
     <Layout>
-      <Subheader t={t} category="press" page="pressreleases" />
-
       <div className="pressreleases press">
         <div className="ribbon ribbon--pressreleases">
           <div className="ribbon-img" />
@@ -49,17 +48,23 @@ function Pressreleases(props) {
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
               <div className="row between-xs">
-                <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3>{t('common:reason-1.title', { defaultValue: 'A cryptocurrency designed for everyday use.' })}</h3>
-                  <p>{t('common:reason-1.text', { defaultValue: 'Improving upon the original Bitcoin blockchain and aims to fulfill its initial purpose.' })}</p>
+                <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
+                  <div className="reason--inner">
+                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.first.header') }} />
+                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.first.text') }} />
+                  </div>
+                </div>
+                <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
+                  <div className="reason--inner">
+                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.second.header') }} />
+                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.second.text') }} />
+                  </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3>{t('common:reason-2.title', { defaultValue: 'Bringing blockchain into everyday life.' })}</h3>
-                  <p>{t('common:reason-2.text', { defaultValue: 'Verge currency makes it possible to engage in direct transactions.' })}</p>
-                </div>
-                <div className="col-xs-12 col-sm-4 start-xs reason">
-                  <h3>{t('common:reason-3.title', { defaultValue: 'Open Source Development & Community Driven.' })}</h3>
-                  <p>{t('common:reason-3.text', { defaultValue: 'Verge is not a private company funded by pre-mined coins or ICO\'s.' })}</p>
+                  <div className="reason--inner">
+                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.third.header') }} />
+                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.third.text') }} />
+                  </div>
                 </div>
               </div>
             </div>
@@ -72,139 +77,19 @@ function Pressreleases(props) {
               <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
                 <h2>Press releases</h2>
 
-                <div className="row around-xs pt-small pb">
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <h3>Verge launches new website in the start of 2018</h3>
-                    <Link href="/">
-                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
-                    </Link>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <h3>Wraith Protocol set to be released end of 2017</h3>
-                    <Link href="/">
-                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
-                    </Link>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs">
-                    <h3>Understand Wraith Protocol in 5 simple steps</h3>
-                    <Link href="/">
-                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
-                    </Link>
-                  </div>
-                </div>
-                <div className="row around-xs pt-small">
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <h3>Verge launches new website in the start of 2018</h3>
-                    <Link href="/">
-                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
-                    </Link>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <h3>Wraith Protocol set to be released end of 2017</h3>
-                    <Link href="/">
-                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
-                    </Link>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs">
-                    <h3>Understand Wraith Protocol in 5 simple steps</h3>
-                    <Link href="/">
-                      <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
-                    </Link>
-                  </div>
-                </div>
+                <MediumPosts />
               </div>
             </div>
             <div className="row center-xs coverage pt pb">
               <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
                 <h2>Press coverage</h2>
 
-                <div className="row around-xs pt-small pb pb-xs-0">
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoBusinessInsider />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoForbes />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Verge price and how to buy it - what is XVG and is the</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoHuffingtonPost />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="row around-xs pt-small pt-xs-0">
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoMashable />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2017</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <LogoTechChrunch />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Verge price and how to buy it - what is XVG and is the</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jun 2017</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                    <div className="row">
-                      <div className="col-xs-12 coverage--logo">
-                        <img src="/static/img/coverage/VVY_Tech_Savvy.png" alt="Tech savy" />
-                      </div>
-                      <div className="col-xs-12">
-                        <h4>Crypto Watch: Verge (XVG) Price Climbs 800%</h4>
-                        <Link href="/">
-                          <a href="/" className="date"><Moment format="MMMM Do YYYY">1 jan 2018</Moment> - Read</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <FullMentions />
               </div>
             </div>
             <div className="row center-xs pt pb">
               <div className="col-xs-12">
-                <div className="container themed-container--blue themed-container--blue--pressreleases">
+                <div className="container themed-container__blue themed-container__blue--pressreleases">
                   <div className="row center-xs">
                     <div className="col-xs-8">
                       <h2>Verge Currency is a 100% open source project and the global Verge Community represents the man power driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place.</h2>
@@ -216,7 +101,7 @@ function Pressreleases(props) {
             </div>
 
             <div className="container">
-              <div className="row center-xs previous">
+              <div className="row pt center-xs previous">
                 <div className="col-xs-11 center-xs">
                   <div className="pb-small">
                     <Link href="/blog">
@@ -306,6 +191,6 @@ function Pressreleases(props) {
   );
 }
 
-const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressreleases);
+const Extended = translate(['common', 'pressreleases'], { i18n, wait: process.browser })(Pressreleases);
 
 export default Extended;

@@ -1,17 +1,18 @@
+import Link from 'next/link';
+import LazyLoad from 'react-lazyload';
+
 const vendorsLocale = require('../locales/index').en.vendors.vendors;
 
-function Vendors() {
+export const LatestVendors = () => {
   const vendors = vendorsLocale.map(x => (
-    <div className="col-xs col-md-3" key={x.title}>
-      <div className="vendors--item">
-        <div className="vendors--item__logo">
-          <img src={x.img} width="40" alt="img" />
-        </div>
-        <div className="vendors--item__name">
-          <a href={x.url} target="_blank"><span>{x.title}</span></a>
-          <span>{x.link}</span>
-        </div>
-      </div>
+    <div className="col-xs-12 col-sm-4 col-md center-xs middle-xs col--full-height pb--sm" key={x.title}>
+      <Link href={x.url}>
+        <a href={x.url} className="vendors--url">
+          <LazyLoad height={50}>
+            <img src={x.img} width="100" alt="img" />
+          </LazyLoad>
+        </a>
+      </Link>
     </div>
   ));
 
@@ -20,6 +21,4 @@ function Vendors() {
       {vendors}
     </div>
   );
-}
-
-export default Vendors;
+};

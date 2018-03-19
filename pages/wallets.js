@@ -1,11 +1,9 @@
-/* global document window */
-import { translate } from 'react-i18next';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faApple } from '@fortawesome/fontawesome-free-brands';
+import { translate, Interpolate } from 'react-i18next';
 
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import Wallets from '../components/Wallets';
+import WalletsBtn from '../components/WalletsBtn';
 import i18n from '../i18n';
 
 function WalletsPage(props) {
@@ -26,14 +24,10 @@ function WalletsPage(props) {
                 <div className="ribbon-txt">
                   <h1>Download our Wallet</h1>
                   <p>
-                    Download our latest Core wallet to store <br />
+                    Download our latest Core wallet to store <span className="hidden-xs"><br /></span>
                     your Verge Currency with.
                   </p>
-                  <Link href="/">
-                    <a href="/" className="btn btn-primary btn-wallet">
-                      <FontAwesomeIcon icon={faApple} /> {t('home:ribbon.buttonPrimary')}
-                    </a>
-                  </Link>
+                  <WalletsBtn t={t} />
                   <button
                     onClick={() => handleScrollToElement()}
                     onKeyDown={() => handleScrollToElement()}
@@ -47,68 +41,79 @@ function WalletsPage(props) {
           </div>
         </div>
         <div className="container">
-          <div className="row center-xs middle-xs pt pb-lg intro">
-            <div className="col-xs-9 col-sm-6">
-              <span className="spaced">Wallets</span>
-              <div className="pt-xs">
-                <h2>
-                  Download our latest Core Wraith Wallets for<br />
-                  Windows, Linux and OSX or store your Verge on<br />
-                  your mobile with our Tor wallet.
-                </h2>
-                <p>Our core wallet is secure, easy and fast. Transactions in<br /> less than 30 seconds.</p>
-              </div>
+          <div className="row center-xs middle-xs pt-large pb-large">
+            <div className="col-xs-10 col-sm-6">
+              <h6>Wallets</h6>
+              <h2>
+                Download our latest Core Wraith Wallets for <span className="hidden-xs"><br /></span>
+                Windows, Linux and OSX or store your Verge on <span className="hidden-xs"><br /></span>
+                your mobile with our Tor wallet.
+              </h2>
+              <p>
+                Our core wallet is secure, easy and fast. Transactions in <span className="hidden-xs"><br /></span>
+                less than 30 seconds.
+              </p>
             </div>
           </div>
-          <div className="benefits"> {/* TODO: refactor into themed container */}
-            <div className="row center-xs start-sm pt-lg pb-lg">
-              <div className="col-xs-9 col-md-3 col-md-offset-1">
-                <div className="benefits--item">
-                  <h6>{t('home:benefits.benefit_1.title')}</h6>
-                  <p>{t('home:benefits.benefit_1.text')}</p>
+
+          <div className="themed-container__blue themed-container__blue--benefits">
+            <div className="row center-xs">
+              <div className="col-xs-10 col-sm-5 col-md-6 col-lg-7">
+                <div className="row start-xs benefits">
+                  <div className="col-xs-12 col-md-6 pb pb-xs-0">
+                    <h6>{t('home:benefits.benefit_1.title')}</h6>
+                    <p>{t('home:benefits.benefit_1.text')}</p>
+                  </div>
+                  <div className="col-xs-12 col-md-6 pt-xs pb pb-xs-0">
+                    <h6>{t('home:benefits.benefit_2.title')}</h6>
+                    <p>{t('home:benefits.benefit_2.text')}</p>
+                  </div>
+                  <div className="col-xs-12 col-md-6 pb pb-xs-0 pt-xs">
+                    <h6>{t('home:benefits.benefit_3.title')}</h6>
+                    <p>{t('home:benefits.benefit_3.text')}</p>
+                  </div>
+                  <div className="col-xs-12 col-md-6 pt-xs">
+                    <h6>{t('home:benefits.benefit_4.title')}</h6>
+                    <p>{t('home:benefits.benefit_4.text')}</p>
+                  </div>
                 </div>
-                <div className="benefits--item pt-lg">
-                  <h6>{t('home:benefits.benefit_1.title')}</h6>
-                  <p>{t('home:benefits.benefit_1.text')}</p>
-                </div>
-                <h6>
+                <h6 className="center-xs start-sm">
                   <Link href={t('home:benefits.link:url')}>
-                    <a href={t('home:benefits.link:url')} className="benefits--url spaced">
+                    <a href={t('home:benefits.link:url')} className="benefits--url">
                       {t('home:benefits.link.title')}
                     </a>
                   </Link>
                 </h6>
               </div>
-              <div className="col-xs-9 col-md-3 col-md-offset-1">
-                <div className="benefits--item">
-                  <h6>{t('home:benefits.benefit_3.title')}</h6>
-                  <p>{t('home:benefits.benefit_3.text')}</p>
+              <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
+                <div className="benefits--imgs hidden-xs">
+                  <img src="../static/img/benefits-desktop.png" alt="Benefits desktop" />
+                  <img src="../static/img/benefits-mobile.png" alt="Benefits mobile" />
                 </div>
-                <div className="benefits--item pt-lg">
-                  <h6>{t('home:benefits.benefit_4.title')}</h6>
-                  <p>{t('home:benefits.benefit_4.text')}</p>
-                </div>
-              </div>
-              <div className="col-md-4 benefits--imgs hidden-xs">
-                <img src="../static/img/benefits-desktop.png" alt="benefits desktop" />
-                <img src="../static/img/benefits-mobile.png" alt="benefits mobile" />
               </div>
             </div>
           </div>
-          <div className="pt-lg pb-lg">
-            <div className="row center-xs start-sm">
-              <div className="col-sm-6 col-xs-9 start-xs">
-                <span className="spaced">WALLETS FOR ALL PLATFORMS</span>
-                <h2>
-                  We got your preffered platform covered. <br />
-                  Download your wallet here.
-                </h2>
+
+          <div className="wallets">
+            <div className="row center-xs pt-large pb-large">
+              <div className="col-xs-10 center-xs">
+                <div className="row center-xs start-md">
+                  <div className="col-xs-12 col-lg-10">
+                    <div className="start-sm pb-small">
+                      <h6>Wallets for all platforms</h6>
+                      <h2>
+                        <Interpolate i18nKey="home:wallets.header" br={<span> <br className="hidden-xs" /></span>} />
+                      </h2>
+                    </div>
+                    <Wallets />
+                  </div>
+                </div>
               </div>
             </div>
-            <Wallets />
           </div>
+
           <div className="guide">
-            <div className="row center-xs middle-xs pt pb">
+            <div className="row center-xs middle-xs">
               <iframe
                 width="560"
                 height="315"
@@ -117,8 +122,8 @@ function WalletsPage(props) {
               />
             </div>
           </div>
-          <div className="row center-xs middle-xs pt pb-lg intro">
-            <div className="col-xs-9 col-sm-6">
+          <div className="row center-xs middle-xs pt-large pb-large intro">
+            <div className="col-xs-10 col-sm-6">
               <span className="spaced">WRAITH PROTOCOL</span>
               <div className="pt-xs">
                 <h2>
@@ -135,6 +140,6 @@ function WalletsPage(props) {
   );
 }
 
-const Extended = translate(['common', 'wallets'], { i18n, wait: process.browser })(WalletsPage);
+const Extended = translate(['common', 'wallets', 'home'], { i18n, wait: process.browser })(WalletsPage);
 
 export default Extended;

@@ -31,13 +31,6 @@
         display: inline-block;
       }
     }
-
-    &--inner {
-      padding: 0 1.5rem;
-      position: relative;
-      text-align: left;
-      z-index: 1;
-    }
   }
 
   .intro {
@@ -52,62 +45,6 @@
     p {
       font-size: rem(18px);
       margin-bottom: 0;
-    }
-  }
-
-  .benefits {
-    &--url::after {
-      @extend %gray-arrow-right;
-    }
-
-    &--imgs {
-      height: 75%;
-      max-width: 50vw;
-      position: absolute;
-      right: 0;
-      top: 11.5%;
-      width: 100%;
-
-      @media (min-width: $min-width-md) {
-        height: 60%;
-        top: 11.5%;
-      }
-
-      @media (min-width: $min-width-lg) {
-        top: 16%;
-      }
-
-      img {
-        box-shadow: 0 0 rem(90px) rgba(0, 0, 0, .18);
-        max-height: 100%;
-        max-width: 100%;
-        position: absolute;
-        right: 0;
-        transition: .2s all;
-
-        &:first-of-type {
-          border-radius: rem(10px); // scss-lint:disable PropertySortOrder
-          border-bottom-right-radius: 0;
-          border-top-right-radius: 0;
-        }
-
-        &:last-of-type {
-          border-radius: rem(28px);
-          bottom: 0;
-          right: 7rem;
-
-          @media (min-width: $min-width-md) {
-            bottom: auto;
-            right: rem(198px);
-            top: 3rem;
-          }
-
-          @media (min-width: $min-width-lg) {
-            right: 12rem;
-            top: 9rem;
-          }
-        }
-      }
     }
   }
 
@@ -143,6 +80,10 @@
       margin-bottom: 1.5rem;
     }
 
+    h6 {
+      color: #779cb5;
+    }
+
     p {
       color: #4e555a;
       margin-bottom: 1.5rem;
@@ -160,8 +101,12 @@
     &--list {
       display: block;
 
-      a::after {
-        @extend %gray-arrow-right;
+      h6 {
+        a::after {
+          @extend %gray-arrow-right;
+
+          display: inline;
+        }
       }
     }
 
@@ -200,4 +145,38 @@
       }
     }
   }
+
+  .previous {
+    .date {
+      color: #091721;
+      font-size: rem(14px);
+    }
+
+    h3 {
+      font-size: rem(30px);
+    }
+
+    h4 {
+      font-size: rem(27px);
+
+      // scss-lint:disable NestingDepth
+      &::after {
+        background-color: #091721;
+        content: " ";
+        display: block;
+        height: rem(3px);
+        margin-bottom: rem(19px);
+        margin-left: 1px;
+        margin-top: rem(5px);
+        width: 3rem;
+      }
+    }
+
+    p {
+      color: #475056;
+      font-size: .75rem;
+      font-style: italic;
+    }
+  }
+
 }

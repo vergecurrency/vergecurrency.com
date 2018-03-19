@@ -35,32 +35,32 @@ const Footer = ({ t }) => (
                     </li>
                     <li>
                       <Link href="/about">
-                        <a href="/about">{t('footer:about', { defaultValue: 'About' })}</a>
+                        <a href="/about" name="About">{t('footer:about', { defaultValue: 'About' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link prefetch href="/get-verge">
-                        <a href="/get-verge">{t('footer:get_verge', { defaultValue: 'Get Verge' })}</a>
+                        <a href="/get-verge" name="Get Verge">{t('footer:get_verge', { defaultValue: 'Get Verge' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/vendors">
-                        <a href="/vendors">{t('footer:vendors', { defaultValue: 'Vendors' })}</a>
+                        <a href="/vendors" name="Vendors">{t('footer:vendors', { defaultValue: 'Vendors' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/wallets">
-                        <a href="/wallets">{t('footer:wallets', { defaultValue: 'Wallets' })}</a>
+                        <a href="/wallets" name="Wallets">{t('footer:wallets', { defaultValue: 'Wallets' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/roadmap">
-                        <a href="/roadmap">{t('footer:roadmap', { defaultValue: 'Roadmap' })}</a>
+                        <a href="/roadmap" name="Roadmap">{t('footer:roadmap', { defaultValue: 'Roadmap' })}</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/p2p-solutions">
-                        <a href="/p2p-solutions">{t('footer:p2p_solutions', { defaultValue: 'P2P Solutions' })}</a>
+                      <Link href="/developers/p2p-solutions-guide">
+                        <a href="/developers/p2p-solutions-guide" name="P2P guide">{t('footer:p2p_solutions', { defaultValue: 'P2P Solutions' })}</a>
                       </Link>
                     </li>
                   </ul>
@@ -71,33 +71,33 @@ const Footer = ({ t }) => (
                       <h4>{t('footer:subheading.developers', { defaultValue: 'DEVELOPERS' })}</h4>
                     </li>
                     <li>
-                      <Link href="/developers/how-to-install-rubygems">
-                        <a href="/developers/how-to-install-rubygems">{t('footer:how_to_install_rubygems', { defaultValue: 'How to install RubyGems' })}</a>
+                      <Link href="/developers">
+                        <a href="/developers" name="Install rubygems">{t('footer:how_to_install_rubygems', { defaultValue: 'How to install RubyGems' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/developers/github-desktop">
-                        <a href="/developers/github-desktop">{t('footer:github_desktop', { defaultValue: 'GitHub Desktop' })}</a>
+                        <a href="/developers/github-desktop" name="Github desktop">{t('footer:github_desktop', { defaultValue: 'GitHub Desktop' })}</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/developers/our-github-repositories">
-                        <a href="/developers/our-github-repositories">{t('footer:our_github_repositories', { defaultValue: 'Our GitHub repositories' })}</a>
+                      <Link href="/developers/vergecurrency-repositories">
+                        <a href="/developers/vergecurrency-repositories" name="Verge repos">{t('footer:our_github_repositories', { defaultValue: 'Our GitHub repositories' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/developers/php-library-for-verge-wallet">
-                        <a href="/developers/php-library-for-verge-wallet">{t('footer:php_library_for_verge_wallet', { defaultValue: 'PHP Library for Verge wallet' })}</a>
+                        <a href="/developers/php-library-for-verge-wallet" name="Php library">{t('footer:php_library_for_verge_wallet', { defaultValue: 'PHP Library for Verge wallet' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/developers/ruby-wrapped-gem">
-                        <a href="/developers/ruby-wrapped-gem">{t('footer:ruby_wrapped_gem', { defaultValue: 'Ruby wrapped gem' })}</a>
+                        <a href="/developers/ruby-wrapped-gem" name="Ruby wrapped gem">{t('footer:ruby_wrapped_gem', { defaultValue: 'Ruby wrapped gem' })}</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/community/developers">
-                        <a href="/community/developers">{t('footer:click_to_see_more', { defaultValue: 'Click to see more' })}</a>
+                      <Link href="/developers">
+                        <a href="/developers" name="See more">{t('footer:click_to_see_more', { defaultValue: 'Click to see more' })}</a>
                       </Link>
                     </li>
                   </ul>
@@ -108,28 +108,28 @@ const Footer = ({ t }) => (
                       <h4>{t('footer:subheading.community', { defaultValue: 'COMMUNITY' })}</h4>
                     </li>
                     <li>
-                      <Link href="/community/developers">
-                        <a href="/community/developers">{t('footer:developers', { defaultValue: 'Developers' })}</a>
+                      <Link href="/developers">
+                        <a href="/developers" name="Developers">{t('footer:developers', { defaultValue: 'Developers' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/community/contributers">
-                        <a href="/community/contributers">{t('footer:contributers', { defaultValue: 'Contributers' })}</a>
+                        <a href="/community/contributers" name="Contributors">{t('footer:contributers', { defaultValue: 'Contributers' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/community/donate">
-                        <a href="/community/donate">{t('footer:donate', { defaultValue: 'Donate' })}</a>
+                        <a href="/community/donate" name="Donate">{t('footer:donate', { defaultValue: 'Donate' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/community/social">
-                        <a href="/community/social">{t('footer:social', { defaultValue: 'Social' })}</a>
+                        <a href="/community/social" name="Social media">{t('footer:social', { defaultValue: 'Social' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/community/get-involved">
-                        <a href="/community/get-involved">{t('footer:get_involved', { defaultValue: 'Get involved' })}</a>
+                        <a href="/community/get-involved" name="Get involved">{t('footer:get_involved', { defaultValue: 'Get involved' })}</a>
                       </Link>
                     </li>
                   </ul>
@@ -141,32 +141,32 @@ const Footer = ({ t }) => (
                     </li>
                     <li>
                       <Link href="/our-team">
-                        <a href="/our-team">{t('footer:our_team', { defaultValue: 'Our team' })}</a>
+                        <a href="/our-team" name="Our team">{t('footer:our_team', { defaultValue: 'Our team' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/about-us">
-                        <a href="/about-us">{t('footer:about_us', { defaultValue: 'About us' })}</a>
+                        <a href="/about-us" name="About us">{t('footer:about_us', { defaultValue: 'About us' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/history">
-                        <a href="/history">{t('footer:history', { defaultValue: 'History' })}</a>
+                        <a href="/history" name="History">{t('footer:history', { defaultValue: 'History' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/send-an-email">
-                        <a href="/send-an-email">{t('footer:send_an_email', { defaultValue: 'Send an email' })}</a>
+                        <a href="/send-an-email" name="Send an email">{t('footer:send_an_email', { defaultValue: 'Send an email' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/presskit">
-                        <a href="/presskit">{t('footer:press', { defaultValue: 'Press' })}</a>
+                        <a href="/presskit" name="Presskit">{t('footer:press', { defaultValue: 'Press' })}</a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/faq">
-                        <a href="/faq">{t('footer:faq', { defaultValue: 'FAQ' })}</a>
+                        <a href="/faq" name="FAQ">{t('footer:faq', { defaultValue: 'FAQ' })}</a>
                       </Link>
                     </li>
                   </ul>
@@ -177,55 +177,57 @@ const Footer = ({ t }) => (
         </div>
       </div>
     </div>
-    <div className="container--with-gutter">
-      <div className="row between-xs bottom middle-xs">
-        <div className="col-xs-8 col--horizontal">
-          <div className="social__icon">
-            <Link href="https://www.facebook.com/VERGEcurrency">
-              <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook"><FontAwesomeIcon icon={faFacebook} /></a>
-            </Link>
-          </div>
-          <div className="social__icon hidden-xs">
-            <Link href="https://github.com/vergecurrency?tab=repositories">
-              <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github"><FontAwesomeIcon icon={faGithub} /></a>
-            </Link>
-          </div>
-          <div className="social__icon">
-            <Link href="https://t.me/VERGExvg">
-              <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram"><FontAwesomeIcon icon={faTelegram} /></a>
-            </Link>
-          </div>
-          <div className="social__icon">
-            <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
-              <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube"><FontAwesomeIcon icon={faYoutube} /></a>
-            </Link>
-          </div>
-          <div className="social__icon">
-            <Link href="https://www.reddit.com/r/vergecurrency/">
-              <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit"><FontAwesomeIcon icon={faReddit} /></a>
-            </Link>
-          </div>
-          <div className="social__icon">
-            <Link href="https://www.twitter.com/vergecurrency">
-              <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter"><FontAwesomeIcon icon={faTwitter} /></a>
-            </Link>
-          </div>
-          <div className="social__icon">
-            <Link href="https://discord.gg/vergecurrency">
-              <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord"><FontAwesomeIcon icon={faDiscord} /></a>
-            </Link>
+
+    <div className="row">
+      <div className="col-xs">
+        <div className="container">
+          <div className="row middle-xs bottom">
+            <div className="col-xs-8 col--horizontal">
+              <div className="social__icon">
+                <Link href="https://www.facebook.com/VERGEcurrency">
+                  <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook" name="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
+                </Link>
+              </div>
+              <div className="social__icon hidden-xs">
+                <Link href="https://github.com/vergecurrency?tab=repositories">
+                  <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github" name="Github"><FontAwesomeIcon icon={faGithub} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://t.me/VERGExvg">
+                  <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram" name="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
+                  <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube" name="Youtube"><FontAwesomeIcon icon={faYoutube} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://www.reddit.com/r/vergecurrency/">
+                  <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit" name="Reddit"><FontAwesomeIcon icon={faReddit} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://www.twitter.com/vergecurrency">
+                  <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter" name="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
+                <Link href="https://discord.gg/vergecurrency">
+                  <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord" name="Discord"><FontAwesomeIcon icon={faDiscord} /></a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-xs-4 end-xs">
+              <Link href="/">
+                <a href="/" className="verge-logo" name="Verge Currency Logo">
+                  <VergeLogo width="120" />
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
-        <div className="col-xs-4 end-xs">
-          <Link href="/">
-            <a href="/" className="verge-logo">
-              <VergeLogo width="120" />
-            </a>
-          </Link>
-        </div>
-      </div>
-      <div className="row around-xs middle-xs top-sm">
-        <div className="col-xs col-sm-11 start-xs center-sm" />
       </div>
     </div>
   </footer>

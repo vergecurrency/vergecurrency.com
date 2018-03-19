@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
     "build": "next build && next export",
-    "start": "NODE_ENV=production node server.js"
+    "prestart": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "./node_modules/.bin/eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -15,6 +17,10 @@
   },
   "keywords": [],
   "author": "Stan Faas & Edwin de Boer",
+  "contributors": [
+    "StanFaas <stanfaas@gmail.com>",
+    "EdwinB89 <edwinb276@gmail.com>"
+  ],
   "license": "ISC",
   "homepage": "https://www.vergecurrency.com",
   "dependencies": {
@@ -27,6 +33,7 @@
     "babel-plugin-inline-react-svg": "^0.5.2",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-wrap-in-js": "^1.1.0",
+    "compression": "^1.7.2",
     "cryptowatch-embed": "^0.3.2",
     "css-loader": "^0.28.9",
     "express": "^4.16.2",
@@ -47,6 +54,7 @@
     "node-sass": "^4.4.0",
     "normalize.css": "^7.0.0",
     "nprogress": "^0.2.0",
+    "platform": "^1.3.5",
     "postcss-easy-import": "^3.0.0",
     "postcss-loader": "^2.1.0",
     "prop-types": "^15.6.0",
@@ -55,11 +63,13 @@
     "react-burger-menu": "^2.2.3",
     "react-dom": "^16.2.0",
     "react-i18next": "^7.3.4",
-    "react-image-lazyload": "0.0.18",
+    "react-lazyload": "^2.3.0",
     "react-moment": "^0.7.0",
     "react-web-tabs": "^0.4.3",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
+    "sw-precache-webpack-plugin": "^0.11.5",
+    "uglifyjs-webpack-plugin": "^1.2.3",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
@@ -69,6 +79,9 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
-    "sass-lint": "^1.12.1"
+    "sass-lint": "^1.12.1",
+    "sw-precache-webpack-plugin": "^0.11.5",
+    "uglify-js": "git://github.com/mishoo/UglifyJS2#harmony-v2.8.22",
+    "webpack-bundle-analyzer": "^2.11.1"
   }
 }
