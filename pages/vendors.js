@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
-import Vendors from '../components/Vendors';
+import { LatestVendors } from '../components/Vendors';
 
 function VendorsPage() {
   return (
@@ -17,7 +17,7 @@ function VendorsPage() {
             </div>
           </div>
 
-          <Vendors />
+          <LatestVendors />
 
           <div className="row center-xs pt">
             <div className="col-xs-10">

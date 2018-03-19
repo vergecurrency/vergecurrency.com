@@ -1,5 +1,4 @@
 import Layout from '../components/Layout';
-import Link from 'next/link';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';

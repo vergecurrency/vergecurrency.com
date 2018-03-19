@@ -16,7 +16,6 @@ import {
 } from '@fortawesome/fontawesome-free-brands';
 import { faPlay } from '@fortawesome/fontawesome-free-solid';
 
-import Moment from 'react-moment';
 import 'moment-timezone';
 
 import { translate, Interpolate } from 'react-i18next';
