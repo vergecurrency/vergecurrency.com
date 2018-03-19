@@ -9,6 +9,7 @@ module.exports = {
     return {
       '/': { page: '/' },
       '/about': { page: '/about' },
+      '/about-us': { page: '/about' },
       '/wallets': { page: '/wallets' },
       '/roadmap': { page: '/roadmap' },
       '/business': { page: '/business' },
