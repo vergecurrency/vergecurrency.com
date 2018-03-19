@@ -25,6 +25,10 @@ export default () => (
       <li><ActiveLink href="/p2p/twitter-bot">Twitter Bot Manual</ActiveLink></li>
       <li><ActiveLink href="/p2p/discord-bot">Discord Bot Manual</ActiveLink></li>
     </ul>
+    <h6>Community</h6>
+    <ul>
+      <li><ActiveLink href="/community/get-involved">Get involved</ActiveLink></li>
+    </ul>
     <h6>Developers</h6>
     <ul>
       <li><ActiveLink href="/developers">How to install RubyGems</ActiveLink></li>
