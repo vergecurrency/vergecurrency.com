@@ -10,6 +10,7 @@ module.exports = {
       '/': { page: '/' },
       '/about': { page: '/about' },
       '/about-us': { page: '/about' },
+      '/benefits': { page: '/benefits' },
       '/wallets': { page: '/wallets' },
       '/roadmap': { page: '/roadmap' },
       '/business': { page: '/business' },
