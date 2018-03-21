@@ -39,6 +39,8 @@ module.exports = {
       '/commnity/get-involved': { page: '/community/get-involved' },
       '/commnity/donate': { page: '/community/donate' },
       '/commnity/social': { page: '/community/social' },
+      '/community/send-an-email': { page: '/community/send-an-email' },
+      '/send-an-email': { page: '/community/send-an-email' },
     };
   },
 
