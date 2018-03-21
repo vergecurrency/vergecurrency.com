@@ -36,9 +36,9 @@ module.exports = {
       '/developers/verge-vendor-integration': { page: '/developers/verge-vendor-integration' },
       '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
       '/developers/vergecurrency-repositories': { page: '/developers/vergecurrency-repositories' },
-      '/commnity/get-involved': { page: '/community/get-involved' },
-      '/commnity/donate': { page: '/community/donate' },
-      '/commnity/social': { page: '/community/social' },
+      '/community/get-involved': { page: '/community/get-involved' },
+      '/community/donate': { page: '/community/donate' },
+      '/community/social': { page: '/community/social' },
       '/community/send-an-email': { page: '/community/send-an-email' },
       '/send-an-email': { page: '/community/send-an-email' },
     };
