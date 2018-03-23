@@ -102,8 +102,8 @@
     "tech_specs": {
       "header": "Spesifikasi",
       "symbol": "<b>Simbol:</b> XVG",
-      "algo": "<b>Algo:</b> Scrypt, x17, groestl, blake2s, and lyra2rev2",
-      "block_time": "<b>Block Time:</b> 30 seconds",
+      "algo": "<b>Algo:</b> Scrypt, x17, groestl, blake2s, dan lyra2rev2",
+      "block_time": "<b>Block Time:</b> 30 detik",
       "rpc_port": "<b>RPC port:</b> 20102",
       "p2p_port": "<b>P2P port:</b> 21102"
     }
@@ -312,26 +312,26 @@
       "header": "Preview"
     },
     "counter": {
-      "header": "Contest Has Ended",
-      "subheader": "We will be announcing all of the winners on Monday"
+      "header": "Kontes Telah Berakhir",
+      "subheader": "Kami akan mengumumkan semua pemenang pada hari senin."
     },
     "prizes": {
-      "header": "Prizes",
+      "header": "Hadiah",
       "first": {
-        "place": "1st",
-        "prize": "70,000 coins"
+        "place": "Ke-1",
+        "prize": "70.000 koin"
       },
       "second": {
-        "place": "2nd",
-        "prize": "50,000 coins"
+        "place": "Ke-2",
+        "prize": "50.000 koin"
       },
       "third": {
-        "place": "3rd",
-        "prize": "35,000 coins"
+        "place": "Ke-3",
+        "prize": "35.000 koin"
       },
       "top5": {
-        "place": "4-5th",
-        "prize": "Verge T-Shirt"
+        "place": "ke-4&5",
+        "prize": "Kaos Verge"
       }
     },
     "instructions": {
@@ -369,209 +369,209 @@
         },
         "opensource": {
           "question": "Apakah Verge Currency adalah perusahaan privat dan bagaimana itu didanai?",
-          "answer": "Tidak, itu 100% software open-source dan bukan perusahaan privat yang didanai melalui ICO atau pre-mining. Pengembangan dan pemasaran didukung didukung oleh ribuan anggota komunitas."
+          "answer": "Tidak, itu 100% software open-source dan bukan perusahaan privat yang didanai melalui ICO atau pra-tambang. Pengembangan dan pemasaran didukung didukung oleh ribuan anggota komunitas."
         },
         "getverge": {
-          "question": "How Can I Get Verge Currency?",
-          "answer": "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
+          "question": "Bagaimana bisa saya mendapatkan Verge Currency?",
+          "answer": "Ada berbagai cara untuk mendapatkan coin Verge (XVG). Pilihan yang paling umum adalah membelinya pada <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a> yang didukung. Pengguna bisa juga memberi tip satu sama lain pada <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platform terintegrasi (menggunakan Verge bot resmi). Jika Anda memiliki sebuah perangkat Android, Anda juga dapat membawa Verge dan mengirim/menerima coin dengan aplikasi<a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>dompet mobile Verge</a>."
         },
         "techdoc": {
-          "question": "Where can I find technical documentation on Verge Currency?",
-          "answer": "In the <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. The Source Code can be found on <a href='https://github.com/vergecurrency' target='_blank'>\"GitHub\"</a>."
+          "question": "Dimana saya bisa menemukan dokumentasi teknis pada Verge Currency?",
+          "answer": "Di <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. Code sumber dapat ditemukan di <a href='https://github.com/vergecurrency' target='_blank'>\"GitHub\"</a>."
         },
         "premine": {
-          "question": "Did Verge Currency have a pre-mine?",
-          "answer": "No, Verge Currency was not pre-mined. The development team and contributors purchase the coins on the open market like anyone else. A premine is a funding mechanism, whereby the developers of a currency allocate a certain amount to go to a particular address before releasing it to the public."
+          "question": "Apakah Verge Currency memiliki kegiatan pra-tambang?",
+          "answer": "Tidak, Verge Currency tidak memiliki kegiatan pra-tambang. Tim pengembang dan para kontributor membeli koin pada pasar terbuka sama seperti orang lain. Kegiatan pra-tambang adalah mekanisme pendanaan, dimana para pengembang dari mata uang mengalokasikan sejumlah tertentu ke alamat tertentu sebelum merilisnya ke publik."
         },
         "supply": {
-          "question": "What is the total supply of Verge Currency?",
-          "answer": "The maximum supply is capped at 16.5 billion XVG."
+          "question": "Berapa total supply dari Verge Currency?",
+          "answer": "Supply maksimal ditutup pada 16.5 miliar XVG."
         },
         "highsupply": {
-          "question": "Why is the total supply so high?",
-          "answer": "Verge Currency is designed this way on purpose to allow for convenient payment amounts in everyday use. As opposed to Bitcoin, you would not have pay with 0.00004 BTC, for example. Another reason is to reduce the risk of market manipulation by making it harder to control a big portion of the total supply."
+          "question": "Mengapa total supply sangat tinggi?",
+          "answer": "Verge Currency didesain seperti ini untuk sejumlah transaksi pembayaran sehari-hari secara mudah. Berlawanan dengan Bitcoin, Anda tidak harus membayar dengan 0.00004 BTC, sebagai contoh. Alasan lain adalah untuk mengurangi risiko manipulasi pasar dengan membuatnya lebih susah untuk mengontrol porsi besar dari total supply."
         },
         "burning": {
-          "question": "Is the Verge Currency team planning to burn coins?",
-          "answer": "No. Since there was no pre-mine or ICO, the team does not hold a significant amount of coins to affect the coin distribution or total circulation. This is yet another reason for high total supply. However, if you feel like burning some of your own coins, please feel free to do so or donate to the team ;)."
+          "question": "Apakah tim Verge Currency berencana untuk mengurangi jumlah koin?",
+          "answer": "Tidak. Karena tidak ada kegiatan pra-tambang ataupun ICO, tim benar-benar tidak memegang sejumlah koin yang berdampak pada distribusi koin atau total sirkulasi. Ini adalah alasan lain untuk total supply yang tinggi. Bagaimanapun, jika Anda merasa ingin menghapus beberapa jumlah koin Anda, itu terserah Anda atau lebih baik donasikan saja ke Tim ;)."
         },
         "inflation": {
-          "question": "Is it an inflationary coin?",
-          "answer": "No, the total circulation is capped."
+          "question": "Apakah koin bisa mengalami inflasi?",
+          "answer": "Tidak, Total sirkulasi sudah ditentukan."
         },
         "transactionfee": {
-          "question": "How much is the transaction fee?",
-          "answer": "0.1 XVG"
+          "question": "Seberapa besar biaya transaksi?",
+          "answer": "0,1 XVG"
         },
         "transactionspeed": {
-          "question": "How fast are transactions?",
-          "answer": "Depending on the load of the network, it varies between 5 and 10 seconds."
+          "question": "Seberapa cepat transaksi?",
+          "answer": "Tergantung load pada jaringan, itu bervariasi antara 5 sampai 10 detik."
         },
         "transactioncap": {
-          "question": "What is the transaction capacity per second?",
-          "answer": "100 transactions per second. With RSK technology implemented that number is projected to reach 2000 transactions per second."
+          "question": "Berapa kapasitas transaksi per detik?",
+          "answer": "100 transaksi per detik. Dengan teknologi RSK yang dijalankan angka tersebut diproyeksikan mencapai 2000 trasaksi per detik."
         },
         "maxsupply": {
-          "question": "When will the maximum supply be reached?",
-          "answer": "It is projected to be reached in 8 to 10 years at the time of writing (2017)."
+          "question": "Kapan supply maksimal akan tercapai?",
+          "answer": "Itu diproyeksikan akan tercapai dalam 8 hingga 10 tahun pada waktu dokumen ini ditulis (2017)."
         },
         "rskactivated": {
-          "question": "When will RSK be activated?",
-          "answer": "RSK platform is projected to be launched in December. After that Verge Currency will implement its smart contracts functionality."
+          "question": "Kapan RSK akan diaktivasi",
+          "answer": "Platform RSK akan diproyeksikan untuk diluncurkan pada Desember. Setelah itu Verge Currency akan mengimplementasikan fungsionalitas dari smart contract."
         },
         "atomicswaps": {
-          "question": "How can I use Atomic Swaps?",
-          "answer": "Atomic Swaps Capability is utilized when trading on decentralized exchanges (DEX)."
+          "question": "Bagaimana cara saya mengaktivasi Atomic Swaps?",
+          "answer": "Kemampuan Atomic Swaps dimanfaatkan ketika trading pada decentralized exchanges (DEX) atau exchange yang terdesentralisasi."
         },
         "vergebusiness": {
-          "question": "How can I accept Verge for my business?",
-          "answer": "You can integrate XVG in your business by using Coinpayments or using existing APIs that can be found on GitHub."
+          "question": "Bagaimana saya bisa menerima pembayaran dengan Verge pada bisnis saya?",
+          "answer": "Anda bisa mengintegrasikan XVG dalam bisnis Anda dengan menggunakan Coinpayments atau menggunakan APIs yang tersedia yang bisa ditemukan di GitHub."
         },
         "vergecurrencyproject": {
-          "question": "How can I support the Verge Currency project?",
-          "answer": "The simplest way of support is by donating to fund the development. XVG and BTC addresses can be found here. If you would like to contribute to the project in the area of software development, digital marketing, video and graphic design or any other, please fill out this form or reach out to us directly via email contact@vergecurrency.com."
+          "question": "Bagaimana cara saya mendukung projek Verge Currency?",
+          "answer": "Cara paling sederhana untuk mendukung adalah melalui donasi untuk mendanai pengembangan. Alamat XVG dan BTC dapat ditemukan di sini. Jika Anda ingin berkontribusi pada projek di area pengembangan software, digital marketing, video dan graphic design atau yang lainnya, silahkan isi form ini atau hubungi kami secara langsung melalui email contact@vergecurrency.com."
         },
         "funded": {
-          "question": "How Is Verge Development Funded?",
-          "answer": " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='https://vergecurrency.com/#donate' target='_blank'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
+          "question": "Bagaimana pengembangan Verge didanai?",
+          "answer": " Verge adalah projek open-source, jadi semua pekerjaan pengembangan didanai oleh <a href='https://vergecurrency.com/#donate' target='_blank'>donasi</a> para pengembang dan komunitas . Kami sekarang tengah mengeksplor metode lain untuk mendanai pengembangan termasuk membuka sebuah <b>Toko Merchandise</b> resmi Verge dan <b>Multi-Algorithm Mining Pool</b>."
         },
         "publicledger": {
-          "question": "Why Does Verge Have a Public Ledger?",
-          "answer": "We believe a blockchain should be public if it is a currency, for a wide array of reasons; most of them to protect the users of the currency. With a public blockchain, you are able to see coin distribution and how many people are using the currency.",
-          "answer2": "You are able to see all transactions on the blockchain, but you won't know who the transactions are going to or where the senders/receivers physically are located."
+          "question": "Mengapa Verge memiliki Public Ledger (Buku Besar Publik)?",
+          "answer": "Kami yakin sebuah blockchain sebaiknya dipublikasikan jika itu adalah mata uang, untuk berbagai macam alasan; kebanyakan dari alasan tersebut adalah untuk melindungi pengguna mata uang. Dengan sebuah public blockchain, Anda dapat melihat distribusi koin dan berapa banyak orang yang menggunakan mata uang.",
+          "answer2": "Anda dapat melihat semua transaksi pada blockchain, tapi Anda tidak akan tahu transaksi ini menuju ke siapa atau dimana lokasi fisik si pengirim/penerima."
         },
         "richlist": {
-          "question": "Where Can I View the Verge Rich List?",
-          "answer": "You can view the rich list <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a> or <a href='https://verge-blockchain.info/richlist' target='_blank'>here</a>. If first site is down, please let us know since it is hosted on a community-donated server."
+          "question": "Dimana saya dapat melihat daftar orang-orang kaya Verge?",
+          "answer": "Anda dapat melihat daftar orang-orang kaya Verge <a href='https://verge-blockchain.info/richlist' target='_blank'>di sini</a> atau <a href='https://verge-blockchain.info/richlist' target='_blank'>di sini</a>. Jika situs yang pertama down, tolong kasih tahu kami karena itu dihost dari server yang didanai oleh komunitas."
         },
         "wheretolearnmore": {
-          "question": "Where Can I Go to Learn More About Verge?",
-          "answer": "We are on a ton of different <a href='#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
+          "question": "Dimana saya bisa belajar lebih banyak mengenai Verge?",
+          "answer": "Kami memiliki banyak platform<a href='#social' target='_blank'>sosial</a> media dan sangat aktif di Twitter, Telegram, Slack, dan Discord."
         },
         "roadmap": {
-          "question": "Where Can I Find the Verge Roadmap?",
-          "answer": "We have a <a href='#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
+          "question": "Dimana saya bisa menemukan roadmap Verge?",
+          "answer": "Kami memiliki sebuah <a href='#roadmap' target='_blank'>roadmap</a> yang dicantumkan pada situs kami yang biasanya mencantumkan item-item yang sedang kami kerjakan pada bulan berikutnya atau dua bulan ke depan. Kami tidak suka untuk mencantumkan item-item jangka panjang (lebih besar dari tiga bulan) pada roadmap kami, karena hal-hal berubah sangat cepat di kripto dan untuk mengantisipasi perubahan itu sejauh ini."
         }
       },
       "privacy": {
-        "subheader": "Privacy",
+        "subheader": "Privasi",
         "wraithprotocol": {
-          "question": "What is the Wraith Protocol?",
-          "answer": "The Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. More details can be found on the blog and in the Blackpaper."
+          "question": "Apakah itu Wraith Protocol?",
+          "answer": "Wraith Protocol adalah teknologi yang mengizinkan pengguna untuk memilih antara public ledger (buku besar publik) atau private ledger (buku besar privat) yang pengguna akan pilih antara public dan private ledgers pada blockchain yang sama. Untuk lebih detailnya dapat ditemukan di blog dan di Blackpaper."
         },
         "vergeanon": {
-          "question": "Why use Verge for anonymity and not any other crypto over Tor?",
-          "answer": "Verge Currency wallets feature Tor and I2P networks already integrated, so that there is no additional setup required. Just download the wallet and start transacting with your IP-address obfuscated."
+          "question": "Mengapa menggunakan Verge untuk anonimitas dan tidak kripto lain pada jaringan Tor?",
+          "answer": "Dompet Verge Currency mengutamakan Tor dan jaringan I2P yang sudah terintegrasi, jadi tidak ada tambahan pengaturan yang diperlukan. Tinggal unduh dompet dan mulai bertransaksi dengan IP-address Anda yang disamarkan."
         },
         "whytor": {
-          "question": "Why TOR and not simply VPN?",
-          "answer": "Both Tor and I2P encrypt all network traffic so that a user's IP address and data cannot be accessed. A Virtual Private Network (VPN) also encrypts network traffic, but you must trust the VPN provider to not log any of your activity (which they can and often do). Read this gist for more information about the pitfalls of VPN services."
+          "question": "Kenapa TOR dan tidak secara sederhana menggunakan VPN?",
+          "answer": "Baik Tor dan I2P mengenkripsi semua lalu lintas jaringan sehingga IP-address pengguna dan data tidak dapat diakses. Sebuah Virtual Private Network (VPN) juga mengenkripsi lalu lintas jaringan, tapi Anda harus mempercaya penyedia VPN untuk tidak masuk pada apapun aktivitas Anda (yangmana mereka bisa dan sering melakukannya). Baca gist ini untuk informasi mengenai perangkap layanan VPN ."
         },
         "vergemasternode": {
-          "question": "Will Verge Currency have Masternodes?",
-          "answer": "No, we believe Masternodes are a weakness and centralize the network. A hacker could very easily perform a DDOS (Distributed Denial of Service) attack on the Masternodes, causing the network to be brought down."
+          "question": "Akankah Verge Currency mempunyai Masternodes?",
+          "answer": "Tidak, kami yakin Masternodes adalah jaringan yang lemah dan tersentralisasi. Seorang hacker bisa sangat mudah melakukan sebuah serangan DDOS (Distributed Denial of Service) pada Masternodes, menyebabkan jaringan turun."
         },
         "torandroidnoconnection": {
-          "question": "Why am I Seeing No Connection on my Verge Tor Android app?",
-          "answer": "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu. A more detailed guide on how to use the Verge Tor Android Wallet can be found <a href ='https://medium.com/verge-currency-xvg/how-to-use-verge-tor-adroid-wallet-b3295570085d' target='_blank'>here</a>."
+          "question": "Mengapa saya tidak melihat adanya koneksi pada aplikasi Verge Tor Android saya?",
+          "answer": "Jika Anda melihat tulisan \"no connection\" pada layar saldo utama Anda, silahkan buka aplikasi Orbot dan pilih menu \"apps VPN mode\" di kiri atas menu. Petunjuk lebih detail mengenai penggunaan dompet Verge Tor Android bisa ditemukan <a href ='https://medium.com/verge-currency-xvg/how-to-use-verge-tor-adroid-wallet-b3295570085d' target='_blank'>di sini</a>."
         }
       },
       "wallets": {
-        "subheader": "Wallets",
+        "subheader": "Dompet",
         "whichwallet": {
-          "question": "Which Verge Wallet Should I Use?",
-          "answer": "Fundamentally, there are two types of Verge wallets you can use; QT and/or Electrum. For everyday users, <b>we recommend you download an Electrum wallet</b>."
+          "question": "Dompet Verge yang mana sebaiknya saya pakai?",
+          "answer": "Secara fundamental, ada dua jenis dompet Verge yang dapat Anda gunakan; QT dan/atau Electrum. Bagi para pengguna harian, <b>Kami merekomendasikan Anda untuk mengunduh sebuah dompet Electrum</b>."
         },
         "electrum": {
-          "question": "What Is Electrum?",
-          "answer": "<a href='https://electrum.org' target='_blank'>Electrum</a> is an <a href='https://github.com/spesmilo/electrum' target='_blank'>open-source</a> Bitcoin lite wallet solution. Verge has forked the Electrum wallet codebase and updated to have it work with the Verge blockchain."
+          "question": "Apa itu Electrum?",
+          "answer": "<a href='https://electrum.org' target='_blank'>Electrum</a> adalah sebuah solusi dompet ringan Bitcoin yang bersifat <a href='https://github.com/spesmilo/electrum' target='_blank'>open-source</a>. Verge telah mem-forking kode dasar dompet Electrum dan mengupdatenya agar dapat bekerja dengan jaringan blockchain Verge."
         },
         "electrumwallet": {
-          "question": "What Is an Electrum Wallet?",
-          "answer": "A Verge Electrum wallet is a wallet that is focused on speed and low resource usage. Electrum wallets use a technology called, <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV), that verifies transactions on the Verge blockchain without needing to download the entire blockchain. The SPV technology allows average transaction confirmation times to drop to ~5 seconds (instead of ~30 seconds for non-Electrum). For more general questions about Electrum, please go to their <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'>FAQ</a> page."
+          "question": "Apakah itu dompet Electrum?",
+          "answer": "Sebuah dompet Electrum Verge adalah sebuah dompet yang berfokus pada kecepatan dan penggunaan dengan sumber daya rendah. Dompet Electrum menggunakan teknologi yang disebut, <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'>Simple Payment Verification</a> (SPV), yang memverifikasi transaksi pada blockchain Verge tanpa perlu mengunduh keseluruhan blockchain. Teknologi SPV mengizinkan waktu konfirmasi transaksi rata-rata menurun hingga ~5 detik (dibandingkan waktu ~30 detik jika menggunakan non-Electrum). Untuk pertanyaan yang lebih detail mengenai Electrum, silahkan kunjungi halaman <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'>FAQ</a> mereka."
         },
         "qt": {
-          "question": "What Is QT?",
-          "answer": "<a href='https://www.qt.io' target='_blank'>QT</a> is a cross-platform application and UI framework for developers using the C++ programming language. It allows developers to write code in C++ and then release their software to various software and hardware platforms. Per <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>, the toolkit was named QT because \"the letter Q looked appealing in Haavard's Emacs typeface, and 't' was inspired by Xt, the X toolkit\". "
+          "question": "Apa itu QT?",
+          "answer": "<a href='https://www.qt.io' target='_blank'>QT</a> adalah aplikasi lintas platform dan framework UI framework bagi para pengembang yang menggunakan bahasa pemprograman C++. Itu mengizinkan para pengembang untuk menulis kode dalam C++ dan kemudian merilis software mereka pada berbagai macam platform software dan hardware. Menurut <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'>Wikipedia</a>, toolkit tersebut dinamai QT karena \"huruf Q tampak menarik dalam jenis huruf Emacs Haavard, dan 't' terinspirasi oleh Xt, singkatan dari X toolkit\". "
         },
         "qtwallet": {
-          "question": "What is a QT Wallet?",
-          "answer": "QT wallets require that you download the entire <a href='https://verge-blockchain.com/' target='_blank'>Verge blockchain</a> to your computer. In other words, your computer must download a record of every single Verge transaction that has ever occurred. Currently, the Verge blockchain is ~1GB and will continue to climb as more users make transactions. If you are using a QT wallet, make sure your device has enough extra storage to handle it.",
-          "answer2": "Every time you open your QT wallet, the wallet will synchronize and download the latest blockchain data to your computer. If you decide to use a QT wallet, you will most likely want to use it on a regular basis; or it could take an hour or more (depending on how long it has been since you opened your wallet last) to download the latest blockchain updates."
+          "question": "Apakah itu dompet QT?",
+          "answer": "Dompet QT meminta Anda mengunduh seluruh <a href='https://verge-blockchain.com/' target='_blank'>blockchain Verge</a> pada komputer Anda. Dengan kata lain, komputer Anda harus mengunduh sebuah rekaman dari setiap satu transaski Verge yang pernah terjadi. Saat ini, blockchain Verge blockchain adalah berukuran ~1GB akan terus meningkat sebanyak transaksi yang dilakukan pengguna. Jika Anda menggunakan dompet QT, pastikan peralatan Anda memiliki cukup penyimpanan ekstra untuk mengatasinya.",
+          "answer2": "Setiap kali Anda membuka dompet QT, dompet akan melakukan sinkronisasi dan mengunduh data blockchain terbaru pada komputer Anda. Jika Anda memutuskan untuk menggunakan dompet QT, Anda kemungkinan besar akan menggunakannya secara teratur; atau itu akan membutuhkan waktu satu jam atau lebih (tergantung berapa lama sejak Anda membuka dompet itu terakhir kalinya) untuk mengunduh update terbaru dari blockchain."
         },
         "backup": {
-          "question": "How Do I Create a Backup of My Wallet?",
-          "answer": "If you are using an Electrum wallet, all you have to do is keep your 9 word seedphrase secure. You are provided your seedphrase when you first create your Verge wallet and can access it by looking in your app  settings (it is password protected). We recommend that you do not store your seedphrase electronically, since that would make it possible for it to be stolen. If someone steals your seedphrase, then they could steal all of your coins.",
-          "answer2": "As long as you have your seedphrase, you will always be able to recover your wallet. For example, if Bob is using the Verge TOR Android wallet and accidentally drops his phone in water (breaking it), he can easily recover his Verge wallet on his new phone by re-downloading the Verge app and entering the seedphrase that was provided to him originally on his previous phone. Same applied for Desktop Electrum wallets. If you do not remember your seedphrase, all of the coins you had in your wallet will be lost.",
-          "answer3": "If you would like to encrypt your QT wallet, you can create a passphrase by going to <b>Settings -> Encrypt Wallet</b>. Once you have created a passphrase, you can create an encrypted backup of your wallet by going to <b>File -> Backup Wallet</b>. The private keys of the QT wallet are saved in a wallet.dat file. Whenever you send Verge coins, it will use the private key from the wallet.dat file. <b>Keep in mind that every time you create a new Verge wallet address, you MUST create a new backup</b>.",
-          "answer4": "As long as you have your up-to-date wallet.dat file, you can recover and import your coins into a Verge wallet. If you lose your wallet.dat file, all of the coins you had in your wallet will be lost."
+          "question": "Bagaimana cara saya menjalankan backup pada dompet saya?",
+          "answer": "Jika Anda tengah menggunakan dompet Electrum, semua hal yang Anda perlukan adalah menjaga keamanan 9 kata seedphrase. Anda akan diberi seedphrase ketika Anda pertama kali membuat dompet Verge dan dapat mengaksesnya dengan memasukan pengaturan aplikasi (dilindungi dengan password). Kami merekomendasikan Anda untuk tidak menyimpan seedphare pada media elektronik, karena akan membuatnya lebih mudah dicuri. Jika seseorang mencuri seedphrase Anda, mereka dapat mencuri semua koin Anda.",
+          "answer2": "Sepanjang Anda memiliki seedphrase, Anda akan selalu dapat memulihkan dompet Anda. Sebagai contoh, jika Bob sedang menggunakan dompet Verge TOR Android dan secara tidak sengaja menjatuhkan ponselnya ke air (merusaknya), dia dapat dengan mudah memulihkan dompet Vergenya pada ponsel barunya dengan mengunduh ulang aplikasi Verge dan memasukkan seedphrase yang telah diberikan padanya sama seperti pada ponsel sebelumnya. Hal ini berlaku juga pada dompet desktop Electrum. Jka Anda tidak ingat seedphrase Anda, semua koin yang Anda simpan di dalam dompet akan hilang.",
+          "answer3": "jika Anda ingin mengenkripsi dompet QT Anda, Anda dapat membuat sebuah passphrase dengan memasuki menu <b>Settings -> Encrypt Wallet</b>. Sekali Anda membuat passphrase, Anda dapat membuat sebuah backup yang terenkripsi dari dompet Anda dengan menuju menu <b>File -> Backup Wallet</b>. Kunci privat dari dompet QT disimpan pada sebuah file wallet.dat. Kapanpun Anda menyimpan koin Verge, itu akan menggunakan kunci private key dari file wallet.dat. <b>Ingat baik-baik bahwa setiap kali Anda membuat alamat dompet Verge yang baru, Anda harus membuat backup dompet yang baru</b>.",
+          "answer4": "Sepanjang Anda sering mengupdate file wallet.dat, Anda dapat memulihkan dan mengimpor koin Anda ke sebuah dompet Verge. Jika Anda kehilangan file wallet.dat, semua koin yang Anda simpan di dalam dompet akan hilang."
         },
         "longsync": {
-          "question": "My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?",
-          "answer": "Yes, you can download the latest Verge <a href='https://verge-blockchain.com/' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://verge-blockchain.com/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour.",
-          "answer2": "Please keep in mind that we also have alternate Electrum <a href='#wallets' target='_blank'>wallets</a> that are significantly faster (they don't require you to store the entire blockchain locally)."
+          "question": "Dompet saya memerlukan waktu yang lama untuk sinkronisasi. Apakah ada cara untuk mempercepatnya?",
+          "answer": "Ya, Anda dapat mengunduh <a href='https://verge-blockchain.com/' target='_blank'>blockchain Verge</a> terbaru. Setelah Anda mengunduh blockchain terbaru, silahkan membaca<a href='https://verge-blockchain.com/howto' target='_blank'>instruksi</a> yang telah diberikan. Setelah Anda menyelesaikan instruksi dan membuka ulang dompet Anda, silahkan izinkan dompet untuk melakukan sinkronisasi atas blok-blok yang tersisa. Sinkronisasi akhir akan memerlukan waktu sampai dengan satu jam.",
+          "answer2": "Tolong ingat baik-baik bahwa kami juga menggunakan <a href='#wallets' target='_blank'>dompet</a> alternatif Electrum  yang secara signifikan lebih cepat(mereka tidak meminta Anda untuk menyimpan seluruh blockchain secara lokal)."
         },
         "torandroidnoconnection": {
-          "question": "Why am I Seeing No Connection on my Verge Tor Android app?",
-          "answer": "If you see \"no connection\" on your main balance screen, please open the Orbot app and select \"apps VPN mode\" in the top left menu."
+          "question": "Kenapa saya melihat tulisan (No Connection) Tidak Ada Koneksi pada aplikasi Verge Tor Android saya?",
+          "answer": "Jika Anda melihat \"no connection\" pada layar saldo utama Anda, silahkan buka aplikasi Orbot dan pilih \"apps VPN mode\" di menu pojok kiri atas."
         }
       },
       "mining": {
-        "subheader": "Mining",
+        "subheader": "Penambangan",
         "proof": {
-          "question": "Is Verge PoW or PoS?",
-          "answer": "Verge is 100% <b>PoW</b> (Proof of Work). We believe PoS (Proof of Stake) systems unfairly benefit the users who have the most coins; making it so the rich get richer. This is also currently an issue with traditional fiat currencies (eg. USD)."
+          "question": "Apakah Verge PoW atau PoS?",
+          "answer": "Verge adalah 100% <b>PoW</b> (Proof of Work). Kami percaya bahwa sistem PoS (Proof of Stake) secara tidak adil menguntungkan para pengguna yang telah memiliki banyak koin; membuat orang kaya semakin kaya. Ini juga menjadi masalah yang dihadapi saat ini dengan mata uang fiat tradisional (contoh: USD Dollar)."
         },
         "algorithms": {
-          "question": "What Algorithms Does Verge Support?",
-          "answer": "Verge uses multi-algorithm mining support. That means that individuals with different types of mining equipment are able to mine verge, which means more security through decentralization and a more fair distribution of coins among the Verge mining community. Verge is one of the few cryptocurrencies that support five different hashing algorithms; Namely, Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
+          "question": "Algoritma apa yang dipakai untuk mendukung Verge?",
+          "answer": "Verge menggunakan dukungan multi-algorithm mining. Itu berarti individual dengan peralatan penambangan yang berbeda jenis dapat menambang verge, yang artinya lebih aman karena melalui desentralisasi dan distribusi koin yang lebih adil antara komunitas penambangan Verge. Verge adalah satu dari sedikit mata uang kripto yang mendukung lima algoritma hashing yang berbeda; Antara lain, Scrypt, X17, Lyra2rev2, myr-groestl dan blake2s."
         }
       }
     }
   },
   "p2p": {
     "subheader": "Intro",
-    "header": "What are P2P Solutions?",
-    "paragraph": "Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal.",
-    "paragraph2": "With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram. More platforms are in planning stages as we speak!",
-    "paragraph3": "More platforms (Slack & Reddit) are coming in the near future.",
-    "paragraph4": "Use XVG to tip content creators, pay freelancers, donate to NGOs or show endorsement for the posts you like! All that with zero fees(small fee for transactions to external wallets), instant transactions and no setup!",
-    "paragraph5": "Below are a series of guides to help you understand how to use our various P2P solutions."
+    "header": "Apa itu solusi P2P?",
+    "paragraph": "Verge secara konstan bergerak menuju adopsi mainstream. Integrasi Verge pada platform pesan dan media sosial adalah langkah strategis yang penting untuk menyelesaikan tujuan ini.",
+    "paragraph2": "Dengan tanpa instalasi yang dibutuhkan dari pihak lain, koin XVG bisa dikirim dan diterima melalui Twitter, Discord, dan Telegram. Lebih banyak platform sedang dalam tahap perencanaan seperti yang kami bicarakan!",
+    "paragraph3": "Platform lain (Slack & Reddit) akan dipakai tidak lagi.",
+    "paragraph4": "Penggunaan XVG untuk memberi tip pada para pekerja konten, membayar jasa freelancers, melakukan donasi pada NGO atau untuk menunjukkan dukungan pada postingan yang Anda sukai! Semua dengan biaya transaksi nol(biaya transaksi kecil untuk transaksi pada dompet eksternal), transaksi instan dan tanpa pengaturan!",
+    "paragraph5": "Di bawah ini adalah rangkaian petunjuk bagaimana cara menggunakan solusi P2P kami yang bervariasi."
   },
   "p2ptoc": {
-    "telegramintro": "Note: Your Telegram profile has to show a username (@<username>) for tips to work. Usernames can be set up in Telegram Settings.",
+    "telegramintro": "Catatan: Profil Telegram Anda harus menunjukkan sebuah username (@<username>) agar tips bekerja. Username bisa diatur dalam pengaturan Telegram.",
     "toc": {
-      "tagline": "P2P Solutions",
-      "header": "Table of Contents",
+      "tagline": "Solusi P2P",
+      "header": "Daftar Isi",
       "telegram": {
-        "subheader": "Telegram Bot Manual",
-        "bullet1": "1. <b>Add Verge Bot to your channel:</b> search for @VergeX_bot in Telegram, click \"Add to group\" and choose your group channel.",
-        "bullet2": "2. <b>Display your Verge Telegram address:</b> send \"!address\" as a direct message to the bot.",
-        "bullet3": "3. <b>Deposit Coins:</b> send XVG coins to the address provided.",
-        "bullet4": "4. <b>Check Balance:</b> send \"!balance\" as a direct message and see your balance in the reply.",
-        "bullet5": "5. <b>Send Coins Over Telegram:</b> send \"!tip @<username><amount of XVG>\" in the group chat.",
-        "bullet6": "6. <b>Withdraw Telegram Wallet Balance:</b> send \"!withdraw <Verge Address>\" as a <b>Direct Message</b> to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address.",
-        "bullet7": "7. <b>See Terms:</b> send \"!terms\" to display terms and conditions for using Verge Telegram Bot."
+        "subheader": "Manual Telegram",
+        "bullet1": "1. <b>Tambahkan Bot Verge untuk channel Anda:</b> cari @VergeX_bot dalam Telegram, klik \"Add to group\" dan pilih grup channel Anda.",
+        "bullet2": "2. <b>Tampilkan alamat Telegram Verge Anda:</b> kirim perintah \"!address\" sebagai sebuah pesan langsung pada bot.",
+        "bullet3": "3. <b>Deposit Koin:</b> kirim koin XVG pada alamat yang tersedia.",
+        "bullet4": "4. <b>Cek Saldo:</b> kirim perintah \"!balance\" sebagai pesan langsung dan lihat saldo Anda pada balasan.",
+        "bullet5": "5. <b>Kirim Koin lewat Telegram:</b> kirim perintah \"!tip @<username><jumlah XVG>\" dalam chat grup.",
+        "bullet6": "6. <b>Menarik Saldo Dompet Telegram:</b> kirim perintah \"!withdraw <Alamat Verge>\" sebagai sebuah <b>Pesan Langsung</b> untuk menarik  <b>seluruh</b> saldo dompet Anda (dikurangi biaya penarikan 2 XVG) pada alamat Verge Anda.",
+        "bullet7": "7. <b>Lihat istilah:</b> kirim \"!terms\" untuk menampilkan istilah dan kondisi untuk penggunaan Bot Verge Telegram."
       },
       "twitter": {
-        "subheader": "Twitter Bot Manual",
-        "bullet1": "1. <b>Display your verge Twitter address:</b> tweet \"@vergetips address\" to see the Verge address associated with you Twitter account.",
-        "bullet2": "2. <b>Deposit Coins:</b> send XVG coins to the address provided.",
-        "bullet3": "3. <b>Check Balance:</b> tweet \"@vergetips balance\" and see your balance in the reply.",
-        "bullet4": "4. <b>Send Coins Over Twitter:</b> tweet \"@vergetips tip @<username><amount of XVG>\".",
-        "bullet4note": "<b>Note:</b> minimum tip amount - 10 XVG",
-        "bullet5": "5. <b>Withdraw Twitter Wallet Balance:</b> tweet \"@vergetips withdraw <Verge Address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address.",
-        "bullet6": "6. <b>Support Verge:</b> tip \"@vergecurrency\" to support the Verge Team!"
+        "subheader": "Manual Twitter Bot",
+        "bullet1": "1. <b>Tampilkan alamat Twitter Verge Anda:</b> mengetwit \"@vergetips address\" untuk melihat alamat Verge yang berasosiasi dengan akun Twitter Anda.",
+        "bullet2": "2. <b>Deposit Koin:</b> kirim koin XVG pada alamat yang tersedia .",
+        "bullet3": "3. <b>Cek Saldo:</b> mengetwit \"@vergetips balance\" dan lihat saldo Anda pada balasan.",
+        "bullet4": "4. <b>Kirim koin melalui Twitter:</b> mengetwit \"@vergetips tip @<username><jumlah XVG>\".",
+        "bullet4note": "<b>Catatan:</b> jumlah tip minimal - 10 XVG",
+        "bullet5": "5. <b>Menarik saldo dompet Twitter</b> mengetwit \"@vergetips withdraw <Alamat Verge>\" untuk menarik <b>seluruh</b> saldo dompet Anda (dikurangi biaya penarikan 2 XVG) untuk alamat Verge Anda.",
+        "bullet6": "6. <b>Dukung Verge:</b> beri tip pada \"@vergecurrency\" untuk mendukung tim Verge!"
       },
       "discord": {
-        "subheader": "Discord Bot Manual",
-        "bullet1": "1. <b>Display your Verge Discord address:</b> send \"@vergebot deposit\" to see the Verge address associated with your Discord account.",
-        "bullet2": "2. <b>Deposit Coins:</b> send XVG coins to the address provided.",
-        "bullet3": "3. <b>Check Balance:</b> send \"@vergebot balance\" and see your balance in the reply.",
-        "bullet4": "4. <b>Send Coins Over Discord:</b> send \"@vergebot tip @<username> <amount of XVG>\".",
-        "bullet4note": "<b>Note:</b> minimum tip amount - 10 XVG.",
-        "bullet5": "5. <b>Withdraw Discord wallet balance:</b> send \"@vergebot withdraw <Verge address>\" to withdraw your <b>whole</b> wallet balance (minus 2 XVG withdrawal fee) to your Verge address.",
-        "bullet6": "6. <b>Support Verge:</b> tip @vergedev to support the Verge Team!"
+        "subheader": "Manual Discord Bot",
+        "bullet1": "1. <b>Tampilkan alamat Discord Verge Anda:</b> kirim \"@vergebot deposit\" untuk melihat alamat Verge Anda yang berhubungan dengan akun Discord Anda.",
+        "bullet2": "2. <b>Deposit Koin:</b> kirim koin XVG pada alamat yang tersedia.",
+        "bullet3": "3. <b>Cek Saldo:</b> kirim \"@vergebot balance\" dan lihat saldo Anda pada balasan.",
+        "bullet4": "4. <b>Kirim Koin lewat Discord:</b> kirim \"@vergebot tip @<username> <jumlah XVG>\".",
+        "bullet4note": "<b>Catatan:</b> jumlah tip minimal - 10 XVG.",
+        "bullet5": "5. <b>Tarik saldo dompet Discord Anda:</b> kirim \"@vergebot withdraw <Verge address>\" untuk menarik <b>seluruh</b> saldo dompet Anda (dikurangi biaya transaksi 2 XVG) pada alamat Verge Anda.",
+        "bullet6": "6. <b>Dukung Verge:</b> beri tip pada @vergedev untuk mendukung tim Verge!"
       }
     }
   }
