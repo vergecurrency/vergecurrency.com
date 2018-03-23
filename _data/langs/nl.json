@@ -48,20 +48,20 @@
     }
   },
   "tagline": "Verge is een <strong>veilige</strong> en <strong>anonieme</strong> digitale munteenheid, gebouwd met een focus op <strong>privacy</strong>.",
-  "intro_button": "Bekijk introductie Video",
+  "intro_button": "Bekijk introductie video",
   "close": "Sluit",
   "download": "Download",
   "view": "Bekijk",
   "view_all_wallets": "Bekijk alle wallets",
-  "contest_enter": "Neem deel om kans te maken op 70,000 Verge",
+  "contest_enter": "Neem deel om kans te maken op 70.000 Verge",
   "mission": {
     "header": "Doelstelling",
-    "paragraph": "Onze missie is om mensen over de hele wereld te motiveren om blockchain transacties in het dagelijks leven te integreren. Verge valuta maakt het mogelijk om direct transacties snel, efficiënt en privé aan te gaan. Met Verge valuta hebben bedrijven en individuen flexibele opties voor het verzenden en ontvangen hiervan. Met één druk op de knop, bieden wij nuttige integraties en hulpmiddelen waarmee ze grootschalige transacties kunnen uitvoeren tussen zowel handelaren en kleinschalige privé betalingen."
+    "paragraph": "Onze missie is om mensen over de hele wereld te motiveren om blockchain-transacties in het dagelijks leven te integreren. Verge maakt het mogelijk om direct transacties snel, efficiënt en privé aan te gaan. Met Verge hebben bedrijven en individuen flexibele opties voor het verzenden en ontvangen hiervan. Met één druk op de knop, bieden wij nuttige integraties en hulpmiddelen waarmee ze grootschalige transacties kunnen uitvoeren tussen zowel handelaren en kleinschalige privé betalingen."
   },
   "info": {
     "about": {
       "header": "Over Verge",
-      "paragraph": "Verge is een cryptovaluta ontworpen voor dagelijks gebruik, met zijn verbeterde blockchain technologie in tegenstelling tot de originele Bitcoin-blockchain, en richt zich op het oorspronkelijke doel om particuliere en bedrijven een snelle, efficiënte en gedecentraliseerde manier te bieden om directe transacties te maken met behoud van persoonlijke privacy.",
+      "paragraph": "Verge is een digitale munteenheid ontworpen voor dagelijks gebruik en, met zijn verbeterde blockchain technologie in tegenstelling tot de originele Bitcoin-blockchain, richt Verge zich op het oorspronkelijke doel om particuliere en bedrijven een snelle, efficiënte en gedecentraliseerde manier te bieden om directe transacties te maken met behoud van persoonlijke privacy.",
       "cards": {
         "privacy": {
           "header": "Compleet anoniem en gefocused op privacy",
@@ -69,7 +69,7 @@
         },
         "community": {
           "header": "Grote steun van de gemeenschap",
-          "paragraph": "Verge is geen privébedrijf dat wordt gefinancierd door voor geminede coins of coins van ICO's. Alle ontwikkeling en marketing wordt ondersteund door de duizenden leden van de gemeenschap."
+          "paragraph": "Verge is geen commercieel bedrijf dat wordt gefinancierd door geminede coins of door middel van ICO's. Alle ontwikkeling en marketing wordt ondersteund door de duizenden leden van de gemeenschap."
         },
         "speed": {
           "header": "Razend snelle Transacties",
@@ -81,7 +81,7 @@
         },
         "adoption": {
           "header": "Klaar voor massale acceptatie",
-          "paragraph": "Verge biedt een breed scala aan beveiligde wallets voor meerdere besturingssystemen. De revolutionaire Android wallet van Tor biedt mobiele anonimiteit, wat een uniek kenmerk is van privacy gerichte munten."
+          "paragraph": "Verge biedt een breed scala aan beveiligde wallets voor meerdere besturingssystemen. De revolutionaire Android-wallet van Tor biedt mobiele anonimiteit, wat een uniek kenmerk is van privacy-gerichte munten."
         },
         "opensource": {
           "header": "Gedecentraliseerde en open-source",
@@ -111,7 +111,7 @@
   "developers": {
     "about": {
       "header": "Ontwikkelaars",
-      "paragraph": "Het schrijven van code is moeilijk. We willen het je gemakkelijk maken om aan Verge te werken, dus we hebben een aantal hulpprogramma's verzameld en deze in een lijst geplaatst."
+      "paragraph": "Het schrijven van code is moeilijk. We willen het je gemakkelijk maken om aan Verge te werken dus we hebben een aantal hulpprogramma's verzameld en deze in een lijst geplaatst."
     },
     "resources": {
       "header": "Hulpmiddelen voor ontwikkelaars ",
@@ -121,7 +121,7 @@
       "python": "Verge API binding voor Python",
       "nodejs": "Node.js client voor Verge",
       "rubygems_howto": "Hoe installeer je RubyGems",
-      "github_repos": "Onze GitHub repositories"
+      "github_repos": "Onze GitHub-repositories"
     }
   },
   "exchanges": {
@@ -149,10 +149,10 @@
     "changenow": "ChangeNow"
   },
   "wallets": {
-    "header": "Portemonnees",
+    "header": "Wallets",
     "info": {
       "header": "Informatie:",
-      "message": "Als je geen Electrum-portemonnee installeert, kun je de installatie versnellen door <a href='https://verge-blockchain.com/' target='_blank'>hier</a> de Verge-blockchain te downloaden."
+      "message": "Als je geen Electrum-wallet installeert, kun je de installatie versnellen door <a href='https://verge-blockchain.com/' target='_blank'>hier</a> de Verge-blockchain te downloaden."
     },
     "tabs": {
       "preferred": "Voorkeur",
@@ -182,8 +182,8 @@
     "coinomi": "Coinomi Multi Currency Android Wallet"
   },
   "vendors": {
-    "header": "Bedrijven die Verge Currency als betaalmethode accepteren",
-    "paragraph": "Alle onderstaande bedrijven accepteren Verge valuta als betaalmethode voor hun goederen en services.",
+    "header": "Bedrijven die Verge als betaalmethode accepteren",
+    "paragraph": "Alle onderstaande bedrijven accepteren Verge als betaalmethode voor hun goederen en services.",
     "nexwave": "Nexwave",
     "pexpeppers": "PexPeppers",
     "incredebites": "Incredebites",
@@ -214,12 +214,12 @@
     "paragraph": "De roadmap wordt per kwartaal geüpdatet.",
     "blackpaper": {
       "header": "\"Black\" Paper v3.0",
-      "date": "<font color='#08b4e0'>Released</font> 4. June 2017"
+      "date": "<font color='#08b4e0'>Gereleased</font> 4 juni 2017"
     },
     "core_wallet_release": {
       "header": "Core Wallet 3.0 Release Stage 1",
       "paragraph": "Wallet UI Revisie, VISP, Bloom-filters, Atomic Swaps mogelijkheden",
-      "date": "<font color='#08b4e0'>Released</font> 15. November 2017"
+      "date": "<font color='#08b4e0'>Gereleased</font> 15 november 2017"
     },
     "core_wallet_release_2": {
       "header": "Core Wallet 3.0 Release Stage 2",
@@ -238,7 +238,7 @@
     },
     "merchandise_store": {
       "header": "Merchandise Online Store",
-      "paragraph": "Verge Merchandise die kan worden gekocht met XVG en BTC.",
+      "paragraph": "Verge Merchandise dat kan worden gekocht met XVG en BTC.",
       "date": "Q4, 2017"
     },
     "official_mining_pool": {
@@ -250,7 +250,7 @@
   "contributors": {
     "about": {
       "header": "Bijdragers",
-      "paragraph": "Verge is opensource software die constant verbetert door zijn vele bijdragen. Als u ook een bijdrage wilt leveren, neem dan een kijkje in onze <a href='https://github.com/vergecurrency' target='_blank'> Github-bibliotheken </a> om te zien waar u een verschil kunt maken! "
+      "paragraph": "Verge is open-source software dat constant verbetert door zijn vele bijdragen. Als u ook een bijdrage wilt leveren, neem dan een kijkje in onze <a href='https://github.com/vergecurrency' target='_blank'> Github-bibliotheken </a> om te zien waar u een verschil kunt maken! "
     },
     "wallets": {
       "verge": {
@@ -266,7 +266,7 @@
   "donate": {
     "about": {
       "header": "Doneer ter ondersteuning van de ontwikkeling",
-      "paragraph": "Verge is geen gepre-mined coin, dus al haar ontwikkeling wordt gefinancierd door aardige mensen zoals jij."
+      "paragraph": "Verge is geen gepre-mined coin, dus alle ontwikkeling wordt gefinancierd door aardige mensen zoals jij."
     },
     "wallets": {
       "verge": {
@@ -310,7 +310,7 @@
       "general": {
         "subheader": "Algemeen",
         "whatisverge": {
-          "question": "What is Verge?",
+          "question": "Wat is Verge?",
           "answer": "Verge is a cryptocurrency designed for people and for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining your privacy."
         },
         "mission": {
