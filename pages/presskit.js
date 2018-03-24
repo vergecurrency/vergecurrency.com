@@ -24,9 +24,7 @@ function Presskit(props) {
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t('presskit:ribbon.title') }} />
                   <p>{t('presskit:ribbon.text')}</p>
-                  <Link href="/">
-                    <a href="/" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary')}</a>
-                  </Link>
+                  <a href="/static/img/press/logo/verge-logo.zip" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary')}</a>
                 </div>
               </div>
             </div>
@@ -73,25 +71,16 @@ function Presskit(props) {
                   <div className="col-xs-12 col-sm-10">
                     <div className="row around-xs middle-xs">
                       <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/1600x800" alt="img" />
+                        <img className="img-responsive" src="/static/img/press/logo/verge-logo.png" alt="Verge Logo" />
                       </div>
                       <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/1600x800" alt="img" />
+                        <img style={{ backgroundColor: '#061C2D' }} className="img-responsive" src="/static/img/press/logo/verge-logo-white.png" alt="Verge Logo (White)" />
                       </div>
                       <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/800x800" alt="img" />
+                        <img style={{ padding: '1rem 2rem' }} className="img-responsive" src="/static/img/press/logo/verge-symbol.png" alt="Verge Symbol" />
                       </div>
                       <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/1600x800" alt="img" />
-                      </div>
-                      <div className="col-xs-12 col-sm-4">
-                        <img className="img-responsive" src="https://placehold.it/1200x800" alt="img" />
-                      </div>
-                      <div className="col-xs-12 col-sm-4" />
-                      <div className="col-xs-12 col-sm-4">
-                        <Link href="/">
-                          <a href="/" className="btn btn-primary btn-primary--on-white-bg">{t('presskit:logo.download', { defaultValue: 'Download logo here' })}</a>
-                        </Link>
+                        <a href="/static/img/press/logo/verge-logo.zip" className="btn btn-primary btn-primary--on-white-bg">{t('presskit:logo.download', { defaultValue: 'Download logo here' })}</a>
                       </div>
                     </div>
                   </div>
@@ -99,7 +88,7 @@ function Presskit(props) {
                 <div className="start-xs">
                   <h2>{t('presskit:font.title', { defaultValue: 'Brand font' })}</h2>
                   <p>{t('presskit:font.text', { defaultValue: 'The official font used in Verge Currency branding is Avenir Next Regular.' })}</p>
-                  <p><Link href="/"><a href="/">{t('presskit:font.download', { defaultValue: 'Download font here' })}</a></Link>.</p>
+                  {/* <p><Link href="/"><a href="/">{t('presskit:font.download', { defaultValue: 'Download font here' })}</a></Link>.</p> */}
                   <p className="pt">{t('presskit:colors', { defaultValue: 'The colors that are used for the logo and style elements:' })}</p>
                 </div>
                 <div className="row center-xs pt pb colors">
