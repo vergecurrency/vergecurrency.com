@@ -9,28 +9,28 @@ export const HomeExchanges = () => {
         <div
           className="col-xs col-md-3"
           key={x.title}
-          onClick={() => { location.href = x.url; }}
-          onKeyDown={() => { location.href = x.url; }}
           role="presentation"
         >
-          <div className="exchanges--item middle-xs">
-            <div className="exchanges--item__logo">
-              <LazyLoad height={40}>
-                <img src={x.img} width="40" alt="img" />
-              </LazyLoad>
+          <a href={x.url} target="_blank" rel="noopener">
+            <div className="exchanges--item middle-xs">
+              <div className="exchanges--item__logo">
+                <LazyLoad height={40}>
+                  <img src={x.img} alt="img" />
+                </LazyLoad>
+              </div>
+              <div className="exchanges--item__name">
+                <h4>{x.title}</h4>
+                <span>{x.link}</span>
+              </div>
             </div>
-            <div className="exchanges--item__name">
-              <h4>{x.title}</h4>
-              <span>{x.link}</span>
-            </div>
-          </div>
+          </a>
         </div>
       );
     }
   });
 
   return (
-    <div className="row">
+    <div className="row start-sm">
       {exchanges}
     </div>
   );
@@ -41,26 +41,26 @@ export const Exchanges = () => {
     <div
       className="col-xs col-md-3"
       key={x.title}
-      onClick={() => { location.href = x.url; }}
-      onKeyDown={() => { location.href = x.url; }}
       role="presentation"
     >
-      <div className="exchanges--item middle-xs">
-        <div className="exchanges--item__logo">
-          <LazyLoad height={40}>
-            <img src={x.img} width="40" alt="img" />
-          </LazyLoad>
+      <a href={x.url} target="_blank" rel="noopener">
+        <div className="exchanges--item middle-xs">
+          <div className="exchanges--item__logo">
+            <LazyLoad height={40}>
+              <img src={x.img} alt="img" />
+            </LazyLoad>
+          </div>
+          <div className="exchanges--item__name">
+            <h4>{x.title}</h4>
+            <span>{x.link}</span>
+          </div>
         </div>
-        <div className="exchanges--item__name">
-          <h4>{x.title}</h4>
-          <span>{x.link}</span>
-        </div>
-      </div>
+      </a>
     </div>
   ));
 
   return (
-    <div className="row">
+    <div className="row start-sm">
       {exchanges}
     </div>
   );

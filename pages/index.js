@@ -174,8 +174,8 @@ function Home(props) {
               <div className="col-xs-10 start-xs exchanges bb">
                 <div className="start-sm pb-small">
                   <h6>
-                    <Link href="/exchanges">
-                      <a href="/exchanges" className="exchanges--url">See more exchanges</a>
+                    <Link href="/get-verge">
+                      <a href="/get-verge" className="exchanges--url">See more exchanges</a>
                     </Link>
                   </h6>
                   <h2>Trade Verge on the most popular exchanges. <span className="hidden-xs"><br /></span>We’re proud to be listed on:</h2>

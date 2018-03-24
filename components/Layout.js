@@ -18,8 +18,8 @@ class Layout extends React.Component {
       <div id="layout">
         <Head>
           <title>VergeCurrency.com</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-          <link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" key="viewport" />
+          <link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico" key="favicon" />
 
           <style type="text/css">
             @import url(/static/css/bootstrap-reboot.css);

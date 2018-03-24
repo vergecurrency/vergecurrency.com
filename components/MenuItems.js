@@ -13,16 +13,16 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/about">
           <a href="/about">{t('header:about', { defaultValue: 'About Us' })}</a>
         </Link>
-        <Link href="/verge-team">
+        <Link prefetch href="/verge-team">
           <a href="/verge-team">{t('header:verge-team', { defaultValue: 'Verge Team' })}</a>
         </Link>
-        <Link href="/key-tech">
+        <Link prefetch href="/key-tech">
           <a href="/key-tech">{t('header:key-tech', { defaultValue: 'Key Tech' })}</a>
         </Link>
-        <Link href="/history">
+        <Link prefetch href="/history">
           <a href="/history">{t('header:history', { defaultValue: 'History' })}</a>
         </Link>
-        <Link href="/presskit">
+        <Link prefetch href="/presskit">
           <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
         </Link>
         {/* <Link href="/pressreleases">
@@ -30,13 +30,13 @@ const MenuItems = ({ t }) => (
         </Link> */}
       </div>
     </span>
-    <Link href="/wallets">
+    <Link prefetch href="/wallets">
       <a href="/wallets">{t('header:wallets', { defaultValue: 'Wallets' })}</a>
     </Link>
-    <Link href="/roadmap">
+    <Link prefetch href="/roadmap">
       <a href="/roadmap">{t('header:roadmap', { defaultValue: 'Roadmap' })}</a>
     </Link>
-    <Link href="/vendors">
+    <Link prefetch href="/vendors">
       <a href="/vendors">{t('header:vendors', { defaultValue: 'Vendors' })}</a>
     </Link>
     <span className="submenu">
@@ -45,13 +45,13 @@ const MenuItems = ({ t }) => (
         {/* <Link href="/guides">
           <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
         </Link> */}
-        <Link href="/faq">
+        <Link prefetch href="/faq">
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}</a>
         </Link>
-        <Link href="/p2p">
+        <Link prefetch href="/p2p">
           <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}</a>
         </Link>
-        <Link href="/developers">
+        <Link prefetch href="/developers">
           <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>
         </Link>
       </div>

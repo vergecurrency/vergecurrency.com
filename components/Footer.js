@@ -59,8 +59,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="/developers/p2p-solutions-guide">
-                        <a href="/developers/p2p-solutions-guide" name="P2P guide">{t('footer:p2p_solutions', { defaultValue: 'P2P Solutions' })}</a>
+                      <Link href="/p2p">
+                        <a href="/p2p" name="P2P guide">{t('footer:p2p_solutions', { defaultValue: 'P2P Solutions' })}</a>
                       </Link>
                     </li>
                   </ul>
@@ -68,7 +68,7 @@ const Footer = ({ t }) => (
                 <div className="col-xs-6 col-sm-3">
                   <ul>
                     <li>
-                      <h4>{t('footer:subheading.developers', { defaultValue: 'DEVELOPERS' })}</h4>
+                      <h4>{t('footer:subheading.developers', { defaultValue: 'DEVELOPERS TOOLS' })}</h4>
                     </li>
                     <li>
                       <Link href="/developers">
@@ -113,8 +113,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="/community/contributers">
-                        <a href="/community/contributers" name="Contributors">{t('footer:contributers', { defaultValue: 'Contributers' })}</a>
+                      <Link href="/verge-team">
+                        <a href="/verge-team" name="Contributors">{t('footer:contributers', { defaultValue: 'Contributers' })}</a>
                       </Link>
                     </li>
                     <li>
@@ -140,8 +140,8 @@ const Footer = ({ t }) => (
                       <h4>{t('footer:subheading.verge_core', { defaultValue: 'VERGE CORE' })}</h4>
                     </li>
                     <li>
-                      <Link href="/our-team">
-                        <a href="/our-team" name="Our team">{t('footer:our_team', { defaultValue: 'Our team' })}</a>
+                      <Link href="/verge-team">
+                        <a href="/verge-team" name="Our team">{t('footer:our_team', { defaultValue: 'Our team' })}</a>
                       </Link>
                     </li>
                     <li>
