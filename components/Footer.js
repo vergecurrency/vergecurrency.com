@@ -135,11 +135,11 @@ const Footer = ({ t }) => (
                         <a href="/community/donate" name="Donate">{t('footer:donate', { defaultValue: 'Donate' })}</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/community/social">
                         <a href="/community/social" name="Social media">{t('footer:social', { defaultValue: 'Social' })}</a>
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="/community/get-involved">
                         <a href="/community/get-involved" name="Get involved">{t('footer:get_involved', { defaultValue: 'Get involved' })}</a>

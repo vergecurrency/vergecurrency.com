@@ -38,7 +38,7 @@ module.exports = {
       '/developers/vergecurrency-repositories': { page: '/developers/vergecurrency-repositories' },
       '/community/get-involved': { page: '/community/get-involved' },
       '/community/donate': { page: '/community/donate' },
-      '/community/social': { page: '/community/social' },
+      // '/community/social': { page: '/community/social' },
       '/community/send-an-email': { page: '/community/send-an-email' },
       '/send-an-email': { page: '/community/send-an-email' },
     };
