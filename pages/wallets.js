@@ -32,13 +32,13 @@ function WalletsPage(props) {
                     your Verge Currency with.
                   </p>
                   <WalletsBtn t={t} />
-                  <button
+                  {/* <button
                     onClick={() => handleScrollToElement()}
                     onKeyDown={() => handleScrollToElement()}
                     className="btn btn-white"
                   >
                     See all our wallets
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

@@ -7,6 +7,9 @@ const MenuItems = ({ t }) => (
     <Link prefetch href="/">
       <a href="/" className="visible-xs">{t('header:home', { defaultValue: 'Home' })}</a>
     </Link>
+    <Link prefetch href="/donate">
+      <a href="/donate">{t('header:donate', { defaultValue: 'Donate' })}</a>
+    </Link>
     <span className="submenu">
       {t('header:about', { defaultValue: 'About' })}<FontAwesomeIcon icon={faChevronDown} />
       <div className="submenu__content">
@@ -19,9 +22,9 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/key-tech">
           <a href="/key-tech">{t('header:key-tech', { defaultValue: 'Key Tech' })}</a>
         </Link>
-        <Link prefetch href="/history">
+        {/* <Link prefetch href="/history">
           <a href="/history">{t('header:history', { defaultValue: 'History' })}</a>
-        </Link>
+        </Link> */}
         <Link prefetch href="/presskit">
           <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
         </Link>

@@ -162,11 +162,11 @@ const Footer = ({ t }) => (
                         <a href="/about-us" name="About us">{t('footer:about_us', { defaultValue: 'About us' })}</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/history">
                         <a href="/history" name="History">{t('footer:history', { defaultValue: 'History' })}</a>
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="/send-an-email">
                         <a href="/send-an-email" name="Send an email">{t('footer:send_an_email', { defaultValue: 'Send an email' })}</a>
