@@ -41,6 +41,7 @@ module.exports = {
       '/community/donate': { page: '/donate' },
       // '/community/social': { page: '/community/social' },
       '/community/send-an-email': { page: '/community/send-an-email' },
+      '/community/mining': { page: '/community/mining' },
       '/send-an-email': { page: '/community/send-an-email' },
     };
   },
