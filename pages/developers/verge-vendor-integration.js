@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import Link from 'next/link'
+import Link from 'next/link';
+import Head from 'next/head';
 
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
@@ -13,6 +14,9 @@ function Vendor_Integration(props) {
 
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.verge-vendor-integration.title', { defaultValue: 'Verge Vendor Integration - VergeCurrency.com' })}</title>
+      </Head>
       <div className="learnmore">
         <div className="container">
           <Content>
@@ -58,8 +62,8 @@ function Vendor_Integration(props) {
       </div>
     </Layout>
   );
-};
+}
 
-const Extended = translate(['vendor-integration'], { i18n, wait: process.browser })(Vendor_Integration);
+const Extended = translate(['vendor-integration', 'common'], { i18n, wait: process.browser })(Vendor_Integration);
 
 export default Extended;

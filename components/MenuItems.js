@@ -51,8 +51,8 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/p2p">
           <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}</a>
         </Link>
-        <Link prefetch href="/community/donate">
-          <a href="/community/donate">{t('header:community', { defaultValue: 'Community' })}</a>
+        <Link prefetch href="/donate">
+          <a href="/donate">{t('header:community', { defaultValue: 'Community' })}</a>
         </Link>
         <Link prefetch href="/developers">
           <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>

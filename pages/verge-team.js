@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Layout from '../components/Layout';
 import Contributors from '../components/Contributors';
@@ -7,9 +8,14 @@ import Team from '../components/Team';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-function VergeTeam() {
+function VergeTeam(props) {
+  const { t } = props;
+
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.verge-team.title', { defaultValue: 'Verge Team - VergeCurrency.com' })}</title>
+      </Head>
       <div className="about">
         <div className="ribbon ribbon--about">
           <div className="container">
@@ -80,6 +86,6 @@ function VergeTeam() {
   );
 }
 
-const Extended = translate(['common', 'about'], { i18n, wait: process.browser })(VergeTeam);
+const Extended = translate(['common', 'verge-team'], { i18n, wait: process.browser })(VergeTeam);
 
 export default Extended;

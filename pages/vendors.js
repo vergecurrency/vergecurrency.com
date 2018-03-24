@@ -1,11 +1,20 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Layout from '../components/Layout';
 import { LatestVendors } from '../components/Vendors';
 
-function VendorsPage() {
+import { translate } from 'react-i18next';
+import i18n from '../i18n';
+
+function VendorsPage(props) {
+  const { t } = props;
+
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.vendors.title', { defaultValue: 'Vendors - VergeCurrency.com' })}</title>
+      </Head>
       <div className="vendors pt-large pb">
         <div className="container">
           <div className="intro pt pb">
@@ -42,4 +51,6 @@ function VendorsPage() {
   );
 }
 
-export default VendorsPage;
+const Extended = translate(['common'], { i18n, wait: process.browser })(VendorsPage);
+
+export default Extended;

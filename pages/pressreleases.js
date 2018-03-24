@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Layout from '../components/Layout';
 import MediumPosts from '../components/Medium';
@@ -29,6 +30,9 @@ function Pressreleases(props) {
 
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.pressreleases.title', { defaultValue: 'Pressreleases - VergeCurrency.com' })}</title>
+      </Head>
       <div className="pressreleases press">
         <div className="ribbon ribbon--pressreleases">
           <div className="ribbon-img" />
