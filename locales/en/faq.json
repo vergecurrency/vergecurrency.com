@@ -19,7 +19,7 @@
     },
     "getverge": {
       "question": "How Can I Get Verge Currency?",
-      "answer": "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='https://vergecurrency.com/#exchanges' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='https://vergecurrency.com/#social' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
+      "answer": "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='/get-verge' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='/p2p' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
     },
     "techdoc": {
       "question": "Where can I find technical documentation on Verge Currency?",
@@ -71,15 +71,15 @@
     },
     "vergebusiness": {
       "question": "How can I accept Verge for my business?",
-      "answer": "You can integrate XVG in your business by using Coinpayments or using existing APIs that can be found on GitHub."
+      "answer": "You can integrate XVG in your business by using Coinpayments or using existing APIs that can be found on GitHub. <a href='/developers/verge-vendor-integration'>Click here</a> for more information."
     },
     "vergecurrencyproject": {
       "question": "How can I support the Verge Currency project?",
-      "answer": "The simplest way of support is by donating to fund the development. XVG and BTC addresses can be found here. If you would like to contribute to the project in the area of software development, digital marketing, video and graphic design or any other, please fill out this form or reach out to us directly via email contact@vergecurrency.com."
+      "answer": "The simplest way of support is by donating to fund the development. XVG and BTC addresses can be found here. If you would like to contribute to the project in the area of software development, digital marketing, video and graphic design or any other, please fill out this form or reach out to us directly via email <a href='mailto:contact@vergecurrency.com'>contact@vergecurrency.com</a>."
     },
     "funded": {
       "question": "How Is Verge Development Funded?",
-      "answer": " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='https://vergecurrency.com/#donate' target='_blank'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
+      "answer": " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='/donate'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
     },
     "publicledger": {
       "question": "Why Does Verge Have a Public Ledger?",
@@ -92,11 +92,11 @@
     },
     "wheretolearnmore": {
       "question": "Where Can I Go to Learn More About Verge?",
-      "answer": "We are on a ton of different <a href='#social' target='_blank'>social</a> platforms and are very active on Twitter, Telegram, Slack, and Discord."
+      "answer": "We are on a ton of different social platforms and are very active on Twitter, Telegram, Slack, and Discord."
     },
     "roadmap": {
       "question": "Where Can I Find the Verge Roadmap?",
-      "answer": "We have a <a href='#roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
+      "answer": "We have a <a href='/roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
     }
   },
   "privacy": {
@@ -155,7 +155,7 @@
     "longsync": {
       "question": "My Wallet Is Taking A Long Time To Sync. Is There Anything I Can Do To Speed It Up?",
       "answer": "Yes, you can download the latest Verge <a href='https://verge-blockchain.com/' target='_blank'>blockchain</a>. After you download the latest blockchain, please read the provided <a href='https://verge-blockchain.com/howto' target='_blank'>instructions</a>. After you complete the instructions and re-open your wallet, please allow the wallet to finish syncing the remaining blocks. This final sync can take up to an hour.",
-      "answer2": "Please keep in mind that we also have alternate Electrum <a href='#wallets' target='_blank'>wallets</a> that are significantly faster (they don't require you to store the entire blockchain locally)."
+      "answer2": "Please keep in mind that we also have alternate Electrum <a href='/wallets' target='_blank'>wallets</a> that are significantly faster (they don't require you to store the entire blockchain locally)."
     },
     "torandroidnoconnection": {
       "question": "Why am I Seeing No Connection on my Verge Tor Android app?",

@@ -1,5 +1,6 @@
 import React from 'react';
 import ActiveLink from './ActiveLink';
+import Link from 'next/link';
 
 export default () => (
   <div className="sidebar pt-small pb-xs">
@@ -25,6 +26,14 @@ export default () => (
       <li><ActiveLink href="/p2p/twitter-bot">Twitter Bot Manual</ActiveLink></li>
       <li><ActiveLink href="/p2p/discord-bot">Discord Bot Manual</ActiveLink></li>
     </ul>
+    <h6>Community</h6>
+    <ul>
+      <li><ActiveLink href="/community/get-involved">Get involved</ActiveLink></li>
+      {/* <li><ActiveLink href="/community/social">Social</ActiveLink></li> */}
+      <li><ActiveLink href="/donate">Donate</ActiveLink></li>
+      <li><ActiveLink href="/community/xvg-mining-pools">Mining pools</ActiveLink></li>
+      <li><ActiveLink href="/community/mining">How to mine?</ActiveLink></li>
+    </ul>
     <h6>Developers</h6>
     <ul>
       <li><ActiveLink href="/developers">How to install RubyGems</ActiveLink></li>
@@ -32,6 +41,16 @@ export default () => (
       <li><ActiveLink href="/developers/vergecurrency-repositories">Our GitHub repositories</ActiveLink></li>
       <li><ActiveLink href="/developers/verge-vendor-integration">Verge Vendor integration</ActiveLink></li>
       <li><ActiveLink href="/developers/wallet-setup-instructions">Wallet setup instructions</ActiveLink></li>
+      <li>
+        <Link href="https://github.com/vergecurrency/php-verge">
+          <a href="https://github.com/vergecurrency/php-verge" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>PHP Library for Verge wallet</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="https://github.com/vergecurrency/verge-ruby">
+          <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>Ruby wrapped gem for interacting with Verge wallet</a>
+        </Link>
+      </li>
     </ul>
   </div>
 );

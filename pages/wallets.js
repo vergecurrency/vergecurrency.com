@@ -1,6 +1,7 @@
 import { translate, Interpolate } from 'react-i18next';
 
 import Link from 'next/link';
+import Head from 'next/head';
 import Layout from '../components/Layout';
 import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
@@ -16,6 +17,9 @@ function WalletsPage(props) {
 
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.wallets.title', { defaultValue: 'Wallets - VergeCurrency.com' })}</title>
+      </Head>
       <div className="wallet">
         <div className="ribbon ribbon--wallets">
           <div className="container">
@@ -28,13 +32,13 @@ function WalletsPage(props) {
                     your Verge Currency with.
                   </p>
                   <WalletsBtn t={t} />
-                  <button
+                  {/* <button
                     onClick={() => handleScrollToElement()}
                     onKeyDown={() => handleScrollToElement()}
                     className="btn btn-white"
                   >
                     See all our wallets
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

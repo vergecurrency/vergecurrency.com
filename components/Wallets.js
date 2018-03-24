@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const walletsLocale = require('../locales/index').en.wallets.wallets;
 
 function Wallets() {
@@ -8,13 +10,15 @@ function Wallets() {
           className={`col-xs-12 col-sm-6 col-md-4 wallets--item start-xs ${x.available ? '' : 'wallets--item__disabled'}`}
           key={x.name}
         >
-          <a href={x.url}>
-            <div className={`wallets--icon ${x.classNames}`} />
-            <div className="wallets--text">
-              <h4>{x.name}</h4>
-              <span>{x.available ? 'Download here' : 'Available soon!'}</span>
-            </div>
-          </a>
+          <Link href={x.url}>
+            <a href={x.url} target="_blank" rel="noopener noreferrer">
+              <div className={`wallets--icon ${x.classNames}`} />
+              <div className="wallets--text">
+                <h4>{x.name}</h4>
+                <span>{x.available ? 'Download here' : 'Available soon!'}</span>
+              </div>
+            </a>
+          </Link>
         </div>
       );
     }

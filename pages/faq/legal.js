@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
 
@@ -6,8 +8,12 @@ import i18n from '../../i18n';
 
 function FAQ_legal(props) {
   const { t } = props;
+
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.faq.legal.title', { defaultValue: 'FAQ - Legal - VergeCurrency.com' })}</title>
+      </Head>
       <div className="learnmore">
         <div className="container">
           <Content>
@@ -23,6 +29,6 @@ function FAQ_legal(props) {
   );
 }
 
-const Extended = translate(['faq'], { i18n, wait: process.browser })(FAQ_legal);
+const Extended = translate(['faq', 'common'], { i18n, wait: process.browser })(FAQ_legal);
 
 export default Extended;

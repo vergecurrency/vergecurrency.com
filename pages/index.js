@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
+import Head from 'next/head';
 
 import Layout from '../components/Layout';
 import { HomeExchanges } from '../components/Exchanges';
@@ -26,6 +27,9 @@ function Home(props) {
 
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.home.title', { defaultValue: 'Verge - Secure and anonymous cryptocurrency, built with a focus on privacy - VergeCurrency.com' })}</title>
+      </Head>
       <div className="home">
         <div className="ribbon">
           <div className="ribbon-img" />
@@ -37,10 +41,10 @@ function Home(props) {
                   <h1 dangerouslySetInnerHTML={{ __html: t('home:ribbon.title') }} />
                   <p>{t('home:ribbon.text')}</p>
                   <WalletsBtn />
-                  <Link href="/">
-                    <a href="/" className="btn btn-secondary btn-video" name="home-vid"><FontAwesomeIcon icon={faPlay} /> {t('home:ribbon.buttonSecondary')}</a>
+                  <Link href="/donate">
+                    <a href="/donate" className="btn btn-secondary" name="Donate now">DONATE NOW</a>
                   </Link>
-                  <p className="blackpaper">Read the <a href="/" name="blackpaper"><i>Blackpaper</i></a> of Verge Currency</p>
+                  <p className="blackpaper">Read the <Link href="/static/blackpaper/Verge-Anonymity-Centric-CryptoCurrency.pdf"><a href="/static/blackpaper/Verge-Anonymity-Centric-CryptoCurrency.pdf" target="_blank" rel="noopener noreferrer" name="blackpaper"><i>Blackpaper</i></a></Link> of Verge Currency</p>
                 </div>
               </div>
             </div>
@@ -72,7 +76,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <div className="themed-container themed-container--home">
+        <div className="themed-container themed-container--home pt">
           <div className="container">
             <div className="row center-xs mentions pb">
               <div className="col-xs-11">
@@ -174,8 +178,8 @@ function Home(props) {
               <div className="col-xs-10 start-xs exchanges bb">
                 <div className="start-sm pb-small">
                   <h6>
-                    <Link href="/exchanges">
-                      <a href="/exchanges" className="exchanges--url">See more exchanges</a>
+                    <Link href="/get-verge">
+                      <a href="/get-verge" className="exchanges--url">See more exchanges</a>
                     </Link>
                   </h6>
                   <h2>Trade Verge on the most popular exchanges. <span className="hidden-xs"><br /></span>We’re proud to be listed on:</h2>
@@ -204,7 +208,7 @@ function Home(props) {
                     <p>{t('home:vendors.text-1', { defaultValue: 'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.' })}</p>
                     <p>{t('home:vendors.text-2', { defaultValue: 'Get started today and accept Verge in your store.' })}</p>
 
-                    <Link href="/get-verge">
+                    <Link href="/developers/verge-vendor-integration">
                       <a href="/get-verge" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'Accept Verge today' })}</a>
                     </Link>
                     <Link href="/vendors">
@@ -251,20 +255,30 @@ function Home(props) {
                           <span>Released</span> 4 June 2017
                         </li>
                         <li className="roadmap__item roadmap__item--done">
-                          <h3>Core Wallet 3.0 Release Stage 1</h3>
-                          Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability<br />
-                          <span>Released</span> 4 June 2017
+                          <h3>Core Wallet 4.0 Release Stage 2</h3>
+                          Tor Integration & Optional Stealth Addressing<br />
+                          <span>Released</span> 1 January 2018
+                        </li>
+                        <li className="roadmap__item roadmap__item--done">
+                          <h3>New website</h3>
+                          New look, guides, updated roadmap, list of official core members, blog with official news, mobile friendly<br />
+                          <span>Released</span> 24 March 2018
+                        </li>
+                        <li className="roadmap__item roadmap__item--planned">
+                          <h3>Merchandise Online Store</h3>
+                          Verge branded apparel that can be purchased with XVG and BTC.<br />
+                          <b>Q1</b>
+                        </li>
+                        <li className="roadmap__item roadmap__item--planned">
+                          <h3>RingCT integration</h3>
+                          <b>Q2</b>
                         </li>
                         <li className="roadmap__item roadmap__item--planned">
                           <h3>I2P Android Wallet</h3>
-                          Anonymous mobile transactions over the I2P network
-                        </li>
-                        <li className="roadmap__item roadmap__item--planned">
-                          <h3>Mining Update</h3>
-                          XVGui Miner, Official Mining Pool, Mining Guide
+                          Anonymous mobile transactions over the I2P network<br />
+                          <b>Q2</b>
                         </li>
                       </ul>
-
                       <h6>
                         <Link href="/roadmap">
                           <a href="/roadmap" name="Full roadmap here">Full roadmap here</a>

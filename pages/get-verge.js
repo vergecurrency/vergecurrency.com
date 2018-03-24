@@ -1,19 +1,27 @@
+import Head from 'next/head';
+
 import Layout from '../components/Layout';
+
 import { Exchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
 import Coinchart from '../components/Coinchart';
+
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
+function GetVerge(props) {
+  const { t } = props;
 
-function GetVerge() {
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.get-verge.title', { defaultValue: 'Get Verge - VergeCurrency.com' })}</title>
+      </Head>
       <div className="get-verge pt-large pb">
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <div className="col-xs-10">
-              <h6>Get verge</h6>
+              <h6>Get Verge</h6>
               <h2 className="mb">Trade Verge on the most popular exchanges. We’re proud to be listed on</h2>
 
               <Exchanges />
@@ -41,6 +49,6 @@ function GetVerge() {
   );
 }
 
-const Extended = translate(['home'], { i18n, wait: process.browser })(GetVerge);
+const Extended = translate(['home', 'common'], { i18n, wait: process.browser })(GetVerge);
 
 export default Extended;

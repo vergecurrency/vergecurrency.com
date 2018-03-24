@@ -59,8 +59,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="/developers/p2p-solutions-guide">
-                        <a href="/developers/p2p-solutions-guide" name="P2P guide">{t('footer:p2p_solutions', { defaultValue: 'P2P Solutions' })}</a>
+                      <Link href="/p2p">
+                        <a href="/p2p" name="P2P guide">{t('footer:p2p_solutions', { defaultValue: 'P2P Solutions' })}</a>
                       </Link>
                     </li>
                   </ul>
@@ -68,7 +68,7 @@ const Footer = ({ t }) => (
                 <div className="col-xs-6 col-sm-3">
                   <ul>
                     <li>
-                      <h4>{t('footer:subheading.developers', { defaultValue: 'DEVELOPERS' })}</h4>
+                      <h4>{t('footer:subheading.developers', { defaultValue: 'DEVELOPERS TOOLS' })}</h4>
                     </li>
                     <li>
                       <Link href="/developers">
@@ -85,14 +85,27 @@ const Footer = ({ t }) => (
                         <a href="/developers/vergecurrency-repositories" name="Verge repos">{t('footer:our_github_repositories', { defaultValue: 'Our GitHub repositories' })}</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/developers/php-library-for-verge-wallet">
                         <a href="/developers/php-library-for-verge-wallet" name="Php library">{t('footer:php_library_for_verge_wallet', { defaultValue: 'PHP Library for Verge wallet' })}</a>
                       </Link>
-                    </li>
-                    <li>
+
+                      </li>
+                      <li>
                       <Link href="/developers/ruby-wrapped-gem">
                         <a href="/developers/ruby-wrapped-gem" name="Ruby wrapped gem">{t('footer:ruby_wrapped_gem', { defaultValue: 'Ruby wrapped gem' })}</a>
+                      </Link>
+
+                    </li> */}
+
+                    <li>
+                      <Link href="https://github.com/vergecurrency/php-verge">
+                        <a href="https://github.com/vergecurrency/php-verge" rel="noopener noreferrer" target="_blank">{t('footer:php_library_for_verge_wallet', { defaultValue: 'PHP Library for Verge wallet' })}</a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://github.com/vergecurrency/verge-ruby">
+                        <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank">{t('footer:ruby_wrapped_gem', { defaultValue: 'Ruby wrapped gem' })}</a>
                       </Link>
                     </li>
                     <li>
@@ -113,20 +126,20 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="/community/contributers">
-                        <a href="/community/contributers" name="Contributors">{t('footer:contributers', { defaultValue: 'Contributers' })}</a>
+                      <Link href="/verge-team">
+                        <a href="/verge-team" name="Contributors">{t('footer:contributers', { defaultValue: 'Contributers' })}</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/community/donate">
-                        <a href="/community/donate" name="Donate">{t('footer:donate', { defaultValue: 'Donate' })}</a>
+                      <Link href="/donate">
+                        <a href="/donate" name="Donate">{t('footer:donate', { defaultValue: 'Donate' })}</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/community/social">
                         <a href="/community/social" name="Social media">{t('footer:social', { defaultValue: 'Social' })}</a>
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="/community/get-involved">
                         <a href="/community/get-involved" name="Get involved">{t('footer:get_involved', { defaultValue: 'Get involved' })}</a>
@@ -140,20 +153,20 @@ const Footer = ({ t }) => (
                       <h4>{t('footer:subheading.verge_core', { defaultValue: 'VERGE CORE' })}</h4>
                     </li>
                     <li>
-                      <Link href="/our-team">
-                        <a href="/our-team" name="Our team">{t('footer:our_team', { defaultValue: 'Our team' })}</a>
+                      <Link href="/verge-team">
+                        <a href="/verge-team" name="Our team">{t('footer:our_team', { defaultValue: 'Our team' })}</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/about-us">
-                        <a href="/about-us" name="About us">{t('footer:about_us', { defaultValue: 'About us' })}</a>
+                      <Link href="/about">
+                        <a href="/about" name="About us">{t('footer:about_us', { defaultValue: 'About us' })}</a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/history">
                         <a href="/history" name="History">{t('footer:history', { defaultValue: 'History' })}</a>
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="/send-an-email">
                         <a href="/send-an-email" name="Send an email">{t('footer:send_an_email', { defaultValue: 'Send an email' })}</a>

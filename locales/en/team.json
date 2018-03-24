@@ -11,7 +11,7 @@
     {
       "img": "../static/img/team/cryptorekt.jpg",
       "name": "CryptoRekt",
-      "role": "Technical consultant, Marketing Advisor",
+      "role": "Technical Writer and Advisor",
       "occupation": "Sr. Systems Engineer at Cisco",
       "linkedin": "",
       "twitter": ""
@@ -33,10 +33,42 @@
       "twitter": ""
     },
     {
+      "img": "../static/img/team/verge.jpg",
+      "name": "StanFaas",
+      "role": "Lead Web Developer",
+      "occupation": "Sr. Front-end developer",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "EdwinB89",
+      "role": "Front-end Developer",
+      "occupation": "Front-end developer",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "Peter Hodges",
+      "role": "Media & Visuals Creator",
+      "occupation": "Visual Effects, 3D Artist & Film Maker",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
       "img": "../static/img/team/cees.jpg",
       "name": "Cees",
       "role": "Online Marketing Strategist",
       "occupation": "Marketing, Recruiter & Facebook Specialist",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "Mihael",
+      "role": "Community management",
+      "occupation": "Offshore Marine engineer",
       "linkedin": "",
       "twitter": ""
     },
@@ -49,10 +81,74 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/erik.jpg",
-      "name": "Erik",
-      "role": "Graphic designer",
-      "occupation": "",
+      "img": "../static/img/team/verge.jpg",
+      "name": "GreentAzn",
+      "role": "Marketing & Operations",
+      "occupation": "Digital Marketing Strategist & Lead Project Manager",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "Kareem",
+      "role": "Creative Director (UK) & International Business Ops Manager",
+      "occupation": "Creative & Tech",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/hassan.png",
+      "name": "Hassan",
+      "role": "Lead UI Designer",
+      "occupation": "UI/UX Designer & Webdesigner",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/cryptogirl.png",
+      "name": "Dini",
+      "role": "Project Management",
+      "occupation": "PM Health & Tech",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "Kris",
+      "role": "Core Advisor: Marketing & Operations",
+      "occupation": "Entrepeneur",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "Nick Gaudiano",
+      "role": "Marketing & Media Creator",
+      "occupation": "Entrepeneur",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "Sourcedexter",
+      "role": "Bot developer & India marketing lead",
+      "occupation": "Data science engineer",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "Yakuza112",
+      "role": "Advisor",
+      "occupation": "Webdeveloper",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "Arend",
+      "role": "Marketing and Technology Integration",
+      "occupation": "Student and Entrepeneur",
       "linkedin": "",
       "twitter": ""
     }

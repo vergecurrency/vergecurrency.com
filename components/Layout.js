@@ -17,9 +17,10 @@ class Layout extends React.Component {
     return (
       <div id="layout">
         <Head>
-          <title>VergeCurrency.com</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-          <link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico" />
+          <title key="title">VergeCurrency.com</title>
+          <meta key="description" name="description" content={t('common:meta.all.description', { defaultValue: 'Verge Currency (XVG) is a secure and anonymous cryptocurrency, built with a focus on privacy.' })} />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" key="viewport" />
+          <link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico" key="favicon" />
 
           <style type="text/css">
             @import url(/static/css/bootstrap-reboot.css);
@@ -45,7 +46,7 @@ class Layout extends React.Component {
 const Extended = translate(['header', 'footer', 'common'], { i18n, wait: process.browser })(Layout);
 
 Extended.getInitialProps = async ({ req }) => {
-  if (req && !process.browser) return i18n.getInitialProps(req, ['header', 'footer', 'home']);
+  if (req && !process.browser) return i18n.getInitialProps(req, ['header', 'footer', 'home', 'common']);
   return {};
 };
 
