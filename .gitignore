@@ -2,7 +2,6 @@
 dist
 .next
 out/
-docs/
 
 # dependencies
 node_modules
