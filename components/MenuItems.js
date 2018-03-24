@@ -7,6 +7,9 @@ const MenuItems = ({ t }) => (
     <Link prefetch href="/">
       <a href="/" className="visible-xs">{t('header:home', { defaultValue: 'Home' })}</a>
     </Link>
+    <Link prefetch href="/donate">
+      <a href="/donate">{t('header:donate', { defaultValue: 'Donate' })}</a>
+    </Link>
     <span className="submenu">
       {t('header:about', { defaultValue: 'About' })}<FontAwesomeIcon icon={faChevronDown} />
       <div className="submenu__content">
