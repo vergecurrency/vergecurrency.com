@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import Head from 'next/head';
 
-import Layout from '../../components/Layout';
-import Content from '../../components/resources/Content';
+import Layout from '../components/Layout';
+import Content from '../components/resources/Content';
 
 import { translate } from 'react-i18next';
-import i18n from '../../i18n';
+import i18n from '../i18n';
 
 function Donate(props) {
   const { t } = props;

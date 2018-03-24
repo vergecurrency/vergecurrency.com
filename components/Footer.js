@@ -131,8 +131,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="/community/donate">
-                        <a href="/community/donate" name="Donate">{t('footer:donate', { defaultValue: 'Donate' })}</a>
+                      <Link href="/donate">
+                        <a href="/donate" name="Donate">{t('footer:donate', { defaultValue: 'Donate' })}</a>
                       </Link>
                     </li>
                     {/* <li>

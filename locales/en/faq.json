@@ -79,7 +79,7 @@
     },
     "funded": {
       "question": "How Is Verge Development Funded?",
-      "answer": " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='/community/donate'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
+      "answer": " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='/donate'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
     },
     "publicledger": {
       "question": "Why Does Verge Have a Public Ledger?",
