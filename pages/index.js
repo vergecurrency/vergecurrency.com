@@ -76,7 +76,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <div className="themed-container themed-container--home">
+        <div className="themed-container themed-container--home pt">
           <div className="container">
             <div className="row center-xs mentions pb">
               <div className="col-xs-11">
