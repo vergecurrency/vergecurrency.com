@@ -1,5 +1,6 @@
 import React from 'react';
 import ActiveLink from './ActiveLink';
+import Link from 'next/link';
 
 export default () => (
   <div className="sidebar pt-small pb-xs">
@@ -38,6 +39,16 @@ export default () => (
       <li><ActiveLink href="/developers/vergecurrency-repositories">Our GitHub repositories</ActiveLink></li>
       <li><ActiveLink href="/developers/verge-vendor-integration">Verge Vendor integration</ActiveLink></li>
       <li><ActiveLink href="/developers/wallet-setup-instructions">Wallet setup instructions</ActiveLink></li>
+      <li>
+        <Link href="https://github.com/vergecurrency/php-verge">
+          <a href="https://github.com/vergecurrency/php-verge" rel="noopener noreferrer" target="_blank" style={{color: 'rgb(51, 51, 51)'}}>PHP Library for Verge wallet</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="https://github.com/vergecurrency/verge-ruby">
+          <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank" style={{color: 'rgb(51, 51, 51)'}}>Ruby wrapped gem for interacting with Verge wallet</a>
+        </Link>
+      </li>
     </ul>
   </div>
 );
