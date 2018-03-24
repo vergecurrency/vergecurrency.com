@@ -13,12 +13,12 @@ const MiningPools = () => (
               <strong>Scrypt</strong>
               <li><Link href="https://aikapool.com/xvg"><a href="https://aikapool.com/xvg" target="_blank" rel="noopener noreferrer">[SCRYPT] Aikapool</a></Link></li>
               <li><Link href="https://verge-scrypt.miningpoolhub.com/"><a href="https://verge-scrypt.miningpoolhub.com/" target="_blank" rel="noopener noreferrer">[SCRYPT] MiningPoolHub.com</a></Link></li>
-              <li><Link href="https://xvg.thecoin.pw/index.php?page=statistics&action=pool"><a href="https://xvg.thecoin.pw/index.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] TheCoin.pw</a></Link></li>
+              {/* <li><Link href="https://xvg.thecoin.pw/index.php?page=statistics&action=pool"><a href="https://xvg.thecoin.pw/index.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] TheCoin.pw</a></Link></li> */}
               <li><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">[SCRYPT] ZPool</a></Link></li>
               <li><Link href="http://scrypt.ispace.co.uk/coindetails/?coin=xvg&id=79"><a href="http://scrypt.ispace.co.uk/coindetails/?coin=xvg&id=79" target="_blank" rel="noopener noreferrer">[SCRYPT] iSpace Mining Pools</a></Link></li>
               <li><Link href="https://www.mining-dutch.nl/pools/verge.php?page=statistics&action=pool"><a href="https://www.mining-dutch.nl/pools/verge.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] mining-dutch.nl</a></Link></li>
               <li><Link href="http://pool.atomicapool.com/mining_urls"><a href="http://pool.atomicapool.com/mining_urls" target="_blank" rel="noopener noreferrer">[SCRYPT] Atomica Pool</a></Link></li>
-              <li><Link href="http://www.digitalmines.us/"><a href="http://www.digitalmines.us/" target="_blank" rel="noopener noreferrer">[SCRYPT] DigitalMines.us</a></Link></li>
+              {/* <li><Link href="http://www.digitalmines.us/"><a href="http://www.digitalmines.us/" target="_blank" rel="noopener noreferrer">[SCRYPT] DigitalMines.us</a></Link></li> */}
               <li><Link href="http://xvg.mastermining.net/index.php?page=statistics&action=pool"><a href="http://xvg.mastermining.net/index.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] MasterMining.net</a></Link></li>
               <li><Link href="https://www.multipool.us/dashboard/pool/xvg"><a href="https://www.multipool.us/dashboard/pool/xvg" target="_blank" rel="noopener noreferrer">[SCRYPT] Multipool.us</a></Link></li>
               <strong>Myr-Groestl</strong>

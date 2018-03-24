@@ -19,7 +19,7 @@
     },
     "getverge": {
       "question": "How Can I Get Verge Currency?",
-      "answer": "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='/exchanges' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='/p2p' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
+      "answer": "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='/get-verge' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='/p2p' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergeandroid.wallet' target='_blank'>app</a>."
     },
     "techdoc": {
       "question": "Where can I find technical documentation on Verge Currency?",
