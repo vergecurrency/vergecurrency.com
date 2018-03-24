@@ -18,7 +18,7 @@ export default () => (
               <li>How are other cryptocurrencies doing this at the moment?</li>
               <li>How can the core team do to faciliate or help achieve this?</li>
             </ol>
-            <p>You can send your Pitch and/or C.V. to:</p>
+            <p>You can send your Pitch and/or C.V. to: <b>contact@vergecurrency.com</b></p>
           </div>
         </Content>
       </div>
