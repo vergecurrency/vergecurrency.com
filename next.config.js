@@ -3,8 +3,10 @@ const glob = require('glob-all');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const webpack = require('webpack');
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
+  assetPrefix: isProduction ? '/vergecurrency.com' : '',
   exportPathMap() {
     return {
       '/': { page: '/' },
