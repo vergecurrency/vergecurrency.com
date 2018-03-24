@@ -41,8 +41,7 @@ const Roadmap = () => (
                     <li className="roadmap__item roadmap__item--done">
                       <h3>New website</h3>
                       New look, guides, updated roadmap, list of official core members, blog with official news, mobile friendly<br />
-                      <span>Released</span> X March 2018
-                      {/* TODO: Replace with correct day */}
+                      <span>Released</span> 24 March 2018
                     </li>
                     <li className="roadmap__item roadmap__item--planned">
                       <h3>Merchandise Online Store</h3>
