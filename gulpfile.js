@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const webserver = require('gulp-webserver');
 
 const paths = {
-  dist: 'out',
+  dist: 'docs',
 };
 
 gulp.task('serve', () => (

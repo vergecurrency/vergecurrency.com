@@ -23,7 +23,6 @@ module.exports = {
       '/developer/verge-vendor-integration': { page: '/developers/verge-vendor-integration' },
       '/developers/vergecurrency-repositories': { page: '/developers/vergecurrency-repositories' },
       '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
-      '/exchanges': { page: '/exchanges' },
       '/faq': { page: '/faq' },
       '/faq/legal': { page: '/faq/legal' },
       '/faq/mining': { page: '/faq/mining' },
