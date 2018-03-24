@@ -41,10 +41,10 @@ function Home(props) {
                   <h1 dangerouslySetInnerHTML={{ __html: t('home:ribbon.title') }} />
                   <p>{t('home:ribbon.text')}</p>
                   <WalletsBtn />
-                  <Link href="/">
-                    <a href="/" className="btn btn-secondary btn-video" name="home-vid"><FontAwesomeIcon icon={faPlay} /> {t('home:ribbon.buttonSecondary')}</a>
+                  <Link href="/donate">
+                    <a href="/donate" className="btn btn-secondary" name="Donate now">DONATE NOW</a>
                   </Link>
-                  <p className="blackpaper">Read the <a href="/" name="blackpaper"><i>Blackpaper</i></a> of Verge Currency</p>
+                  <p className="blackpaper">Read the <Link href="/static/blackpaper/Verge-Anonymity-Centric-CryptoCurrency.pdf"><a href="/static/blackpaper/Verge-Anonymity-Centric-CryptoCurrency.pdf" target="_blank" rel="noopener noreferrer" name="blackpaper"><i>Blackpaper</i></a></Link> of Verge Currency</p>
                 </div>
               </div>
             </div>

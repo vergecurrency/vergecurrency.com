@@ -31,6 +31,8 @@ export default () => (
       <li><ActiveLink href="/community/get-involved">Get involved</ActiveLink></li>
       {/* <li><ActiveLink href="/community/social">Social</ActiveLink></li> */}
       <li><ActiveLink href="/community/donate">Donate</ActiveLink></li>
+      <li><ActiveLink href="/community/xvg-mining-pools">Mining pools</ActiveLink></li>
+      <li><ActiveLink href="/community/mining">How to mine?</ActiveLink></li>
     </ul>
     <h6>Developers</h6>
     <ul>
@@ -41,12 +43,12 @@ export default () => (
       <li><ActiveLink href="/developers/wallet-setup-instructions">Wallet setup instructions</ActiveLink></li>
       <li>
         <Link href="https://github.com/vergecurrency/php-verge">
-          <a href="https://github.com/vergecurrency/php-verge" rel="noopener noreferrer" target="_blank" style={{color: 'rgb(51, 51, 51)'}}>PHP Library for Verge wallet</a>
+          <a href="https://github.com/vergecurrency/php-verge" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>PHP Library for Verge wallet</a>
         </Link>
       </li>
       <li>
         <Link href="https://github.com/vergecurrency/verge-ruby">
-          <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank" style={{color: 'rgb(51, 51, 51)'}}>Ruby wrapped gem for interacting with Verge wallet</a>
+          <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>Ruby wrapped gem for interacting with Verge wallet</a>
         </Link>
       </li>
     </ul>
