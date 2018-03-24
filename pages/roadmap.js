@@ -65,7 +65,7 @@ function Roadmap(props) {
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>RSK Smart Contracts</h3>
                         They are in testnet for Bitcoin now. Date revolves around this timeline.<br />
-                        <s>Q4 2017</s> <b>Q1</b>
+                        <s>Q4 2017</s> <b>Q2</b>
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>RingCT integration</h3>
