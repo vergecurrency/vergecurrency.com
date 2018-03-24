@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
@@ -13,11 +14,14 @@ function VergeCurrency_Repositories(props) {
 
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.vergecurrency-repositories.title', { defaultValue: 'Verge Currency Repositories - VergeCurrency.com' })}</title>
+      </Head>
       <div className="learnmore">
         <div className="container">
           <Content>
             <div className="rubygems">
-              <h1>{t('verge-repos:title', { defaultValue: 'VergeCurrency Repositories' })}</h1>
+              <h1>{t('verge-repos:title', { defaultValue: 'Verge Currency Repositories' })}</h1>
               <h2>{t('verge-repos:primary', { defaultValue: 'Primary Repository' })}</h2>
               <Link href="https://github.com/vergecurrency/VERGE">
                 <a href="https://github.com/vergecurrency/VERGE" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/VERGE</a>

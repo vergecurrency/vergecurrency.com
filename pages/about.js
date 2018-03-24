@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import Layout from '../components/Layout';
 
 import { translate } from 'react-i18next';
@@ -5,8 +7,12 @@ import i18n from '../i18n';
 
 function About(props) {
   const { t } = props;
+
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.about.title', { defaultValue: 'About - VergeCurrency.com' })}</title>
+      </Head>
       <div className="about">
         <div className="ribbon ribbon--about">
           <div className="container">

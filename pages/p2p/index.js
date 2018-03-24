@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
+import Head from 'next/head';
 
 import { translate } from 'react-i18next';
 import i18n from '../../i18n';
@@ -9,6 +10,9 @@ function P2P_Solutions_Guide(props) {
 
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.telegram-bot-manual.title', { defaultValue: 'Telegram Bot Manual - VergeCurrency.com' })}</title>
+      </Head>
       <div className="learnmore">
         <div className="container">
           <Content>
@@ -31,6 +35,6 @@ function P2P_Solutions_Guide(props) {
   );
 }
 
-const Extended = translate(['p2p'], { i18n, wait: process.browser })(P2P_Solutions_Guide);
+const Extended = translate(['p2p', 'common'], { i18n, wait: process.browser })(P2P_Solutions_Guide);
 
 export default Extended;

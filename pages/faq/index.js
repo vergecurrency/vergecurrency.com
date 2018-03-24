@@ -3,11 +3,16 @@ import Content from '../../components/resources/Content';
 
 import { translate } from 'react-i18next';
 import i18n from '../../i18n';
+import Head from 'next/head';
 
 function FAQ_General(props) {
   const { t } = props;
+
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.faq.index.title', { defaultValue: 'Frequently Asked Questions - VergeCurrency.com' })}</title>
+      </Head>
       <div className="learnmore">
         <div className="container">
           <Content>
@@ -69,6 +74,6 @@ function FAQ_General(props) {
   );
 }
 
-const Extended = translate(['faq'], { i18n, wait: process.browser })(FAQ_General);
+const Extended = translate(['faq', 'common'], { i18n, wait: process.browser })(FAQ_General);
 
 export default Extended;

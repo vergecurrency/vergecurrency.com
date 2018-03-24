@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
+import Head from 'next/head';
 
 import { translate } from 'react-i18next';
 import i18n from '../../i18n';
@@ -9,6 +10,9 @@ function P2P_discord_bot(props) {
 
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.discord-bot-manual.title', { defaultValue: 'Discord Bot Manual - VergeCurrency.com' })}</title>
+      </Head>
       <div className="learnmore">
         <div className="container">
           <Content>
@@ -33,6 +37,6 @@ function P2P_discord_bot(props) {
   );
 }
 
-const Extended = translate(['p2p'], { i18n, wait: process.browser })(P2P_discord_bot);
+const Extended = translate(['p2p', 'common'], { i18n, wait: process.browser })(P2P_discord_bot);
 
 export default Extended;

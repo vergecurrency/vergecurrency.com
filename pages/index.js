@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
-import Head from 'next/head'
+import Head from 'next/head';
 
 import Layout from '../components/Layout';
 import { HomeExchanges } from '../components/Exchanges';
@@ -28,8 +28,7 @@ function Home(props) {
   return (
     <Layout>
       <Head>
-        <title>{t('common:meta.home.title', { defaultValue: 'Verge - Secure and anonymous cryptocurrency, built with a focus on privacy' })}</title>
-        <meta name="description" content={t('common:meta.home.description', { defaultValue: 'VERGE (XVG) is a secure and anonymous cryptocurrency, built with a focus on privacy.' })} />
+        <title key="title">{t('common:meta.home.title', { defaultValue: 'Verge - Secure and anonymous cryptocurrency, built with a focus on privacy - VergeCurrency.com' })}</title>
       </Head>
       <div className="home">
         <div className="ribbon">

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Link from 'next/link';
+import Head from 'next/head';
 
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
@@ -13,6 +14,9 @@ function Vendor_Integration(props) {
 
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.wallet-setup-instructions.title', { defaultValue: 'Wallet Setup Instructions - VergeCurrency.com' })}</title>
+      </Head>
       <div className="learnmore">
         <div className="container">
           <Content>
@@ -248,6 +252,6 @@ function Vendor_Integration(props) {
   );
 }
 
-const Extended = translate(['wallet-setup'], { i18n, wait: process.browser })(Vendor_Integration);
+const Extended = translate(['wallet-setup', 'common'], { i18n, wait: process.browser })(Vendor_Integration);
 
 export default Extended;
