@@ -204,7 +204,7 @@ function Home(props) {
                     <p>{t('home:vendors.text-1', { defaultValue: 'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.' })}</p>
                     <p>{t('home:vendors.text-2', { defaultValue: 'Get started today and accept Verge in your store.' })}</p>
 
-                    <Link href="/get-verge">
+                    <Link href="/developers/verge-vendor-integration">
                       <a href="/get-verge" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'Accept Verge today' })}</a>
                     </Link>
                     <Link href="/vendors">
@@ -251,20 +251,30 @@ function Home(props) {
                           <span>Released</span> 4 June 2017
                         </li>
                         <li className="roadmap__item roadmap__item--done">
-                          <h3>Core Wallet 3.0 Release Stage 1</h3>
-                          Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability<br />
-                          <span>Released</span> 4 June 2017
+                          <h3>Core Wallet 4.0 Release Stage 2</h3>
+                          Tor Integration & Optional Stealth Addressing<br />
+                          <span>Released</span> 1 January 2018
+                        </li>
+                        <li className="roadmap__item roadmap__item--done">
+                          <h3>New website</h3>
+                          New look, guides, updated roadmap, list of official core members, blog with official news, mobile friendly<br />
+                          <span>Released</span> 24 March 2018
+                        </li>
+                        <li className="roadmap__item roadmap__item--planned">
+                          <h3>Merchandise Online Store</h3>
+                          Verge branded apparel that can be purchased with XVG and BTC.<br />
+                          <b>Q1</b>
+                        </li>
+                        <li className="roadmap__item roadmap__item--planned">
+                          <h3>RingCT integration</h3>
+                          <b>Q2</b>
                         </li>
                         <li className="roadmap__item roadmap__item--planned">
                           <h3>I2P Android Wallet</h3>
-                          Anonymous mobile transactions over the I2P network
-                        </li>
-                        <li className="roadmap__item roadmap__item--planned">
-                          <h3>Mining Update</h3>
-                          XVGui Miner, Official Mining Pool, Mining Guide
+                          Anonymous mobile transactions over the I2P network<br />
+                          <b>Q2</b>
                         </li>
                       </ul>
-
                       <h6>
                         <Link href="/roadmap">
                           <a href="/roadmap" name="Full roadmap here">Full roadmap here</a>
