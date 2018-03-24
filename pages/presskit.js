@@ -335,10 +335,10 @@ function Presskit(props) {
                   <p>{t('presskit:wraith.text', { defaultValue: 'Wraith Protocol by Verge is a technology that allows the user to choose between public and private ledgers on the same blockchain. User anonymity is ensured in both cases thanks to the latest version of Tor integrated in Verge wallets.' })}</p>
                   <p>
                     <span>{t('presskit:findoutmore.text.intro', { defaultValue: 'To find more about Verge check our' })} </span>
-                    <span><Link href="/faq"><a href="/faq">{t('presskit:findoutmore.text.link.faq', { defaultValue: 'FAQ' })}</a></Link>, </span>
-                    <span><Link href="/blog"><a href="/blog">{t('presskit:findoutmore.text.link.blog', { defaultValue: 'Blog' })}</a></Link> </span>
-                    <span>{t('presskit:findoutmore.text.and', { defaultValue: 'and' })} </span>
-                    <span><Link href="/black-paper"><a href="/black-paper">{t('presskit:findoutmore.text.link.black-paper', { defaultValue: 'Black Paper' })}</a></Link>.</span>
+                    <span><Link href="/faq"><a href="/faq">{t('presskit:findoutmore.text.link.faq', { defaultValue: 'FAQ' })}</a></Link>.</span>
+                    {/* <span><Link href="/blog"><a href="/blog">{t('presskit:findoutmore.text.link.blog', { defaultValue: 'Blog' })}</a></Link> </span>
+                      <span>{t('presskit:findoutmore.text.and', { defaultValue: 'and' })} </span>
+                    <span><Link href="/black-paper"><a href="/black-paper">{t('presskit:findoutmore.text.link.black-paper', { defaultValue: 'Black Paper' })}</a></Link>.</span> */}
                   </p>
                 </div>
               </div>
