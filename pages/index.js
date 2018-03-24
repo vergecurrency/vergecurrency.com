@@ -204,7 +204,7 @@ function Home(props) {
                     <p>{t('home:vendors.text-1', { defaultValue: 'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.' })}</p>
                     <p>{t('home:vendors.text-2', { defaultValue: 'Get started today and accept Verge in your store.' })}</p>
 
-                    <Link href="/get-verge">
+                    <Link href="/developers/verge-vendor-integration">
                       <a href="/get-verge" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'Accept Verge today' })}</a>
                     </Link>
                     <Link href="/vendors">
