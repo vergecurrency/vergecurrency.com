@@ -127,7 +127,7 @@ const Footer = ({ t }) => (
                     </li>
                     <li>
                       <Link href="/verge-team">
-                        <a href="/verge-team" name="Contributors">{t('footer:contributers', { defaultValue: 'Contributers' })}</a>
+                        <a href="/verge-team" name="Contributors">{t('footer:contributors', { defaultValue: 'Contributors' })}</a>
                       </Link>
                     </li>
                     <li>
