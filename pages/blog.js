@@ -4,7 +4,7 @@ import fetch from 'isomorphic-unfetch';
 
 const Blog = ({ items }) => (
   <Layout>
-    <h1>VergeCurrency Blog</h1>
+    <h1>Verge Currency Blog</h1>
     <ul>
       {
         items.map(item => (

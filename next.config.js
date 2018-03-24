@@ -37,9 +37,11 @@ module.exports = {
       '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
       '/developers/vergecurrency-repositories': { page: '/developers/vergecurrency-repositories' },
       '/community/get-involved': { page: '/community/get-involved' },
-      '/community/donate': { page: '/community/donate' },
+      '/donate': { page: '/donate' },
+      '/community/donate': { page: '/donate' },
       // '/community/social': { page: '/community/social' },
       '/community/send-an-email': { page: '/community/send-an-email' },
+      '/community/mining': { page: '/community/mining' },
       '/send-an-email': { page: '/community/send-an-email' },
     };
   },

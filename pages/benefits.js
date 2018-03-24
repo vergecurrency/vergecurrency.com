@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import Layout from '../components/Layout';
 
 import { translate } from 'react-i18next';
@@ -5,8 +7,12 @@ import i18n from '../i18n';
 
 function Benefits(props) {
   const { t } = props;
+
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.benefits.title', { defaultValue: 'Benefits - VergeCurrency.com' })}</title>
+      </Head>
       <div className="benefits">
         <div className="themed-container">
           <div className="container">

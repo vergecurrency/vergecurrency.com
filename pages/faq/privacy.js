@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
 
@@ -6,8 +8,12 @@ import i18n from '../../i18n';
 
 function FAQ_privacy(props) {
   const { t } = props;
+
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.faq.privacy.title', { defaultValue: 'FAQ - Privacy - VergeCurrency.com' })}</title>
+      </Head>
       <div className="learnmore">
         <div className="container">
           <Content>
@@ -31,6 +37,6 @@ function FAQ_privacy(props) {
   );
 }
 
-const Extended = translate(['faq'], { i18n, wait: process.browser })(FAQ_privacy);
+const Extended = translate(['faq', 'common'], { i18n, wait: process.browser })(FAQ_privacy);
 
 export default Extended;

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Head from 'next/head';
 import Link from 'next/link';
 
 import Layout from '../components/Layout';
@@ -12,6 +13,9 @@ function KeyTech(props) {
 
   return (
     <Layout>
+      <Head>
+        <title key="title">{t('common:meta.key-tech.title', { defaultValue: 'Key Tech - VergeCurrency.com' })}</title>
+      </Head>
       <div className="key-tech press">
         <div className="ribbon ribbon--key-tech">
           <div className="ribbon-img" />
@@ -161,6 +165,6 @@ function KeyTech(props) {
   );
 }
 
-const Extended = translate(['key-tech'], { i18n, wait: process.browser })(KeyTech);
+const Extended = translate(['key-tech', 'common'], { i18n, wait: process.browser })(KeyTech);
 
 export default Extended;
