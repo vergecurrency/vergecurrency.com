@@ -1,0 +1,78 @@
+.press {
+  // scss-lint:disable ColorVariable
+
+  .social {
+    h4 {
+      font-size: rem(24px);
+    }
+
+    &__icon {
+      padding-left: .25rem;
+      padding-right: .25rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-left: .5rem;
+        padding-right: .5rem;
+      }
+
+      svg {
+        font-size: 9.6vw;
+        max-width: rem(40px);
+        transition: .2s all;
+        width: 9.6vw;
+
+        @media (min-width: $min-width-sm) {
+          font-size: 2rem;
+          width: 2rem;
+        }
+      }
+
+      &:first-child {
+        padding-left: .5rem;
+      }
+
+      &:last-child {
+        padding-right: .5rem;
+      }
+    }
+
+    &__link {
+      transition: .2s all;
+
+      @each $network, $color in (
+        facebook: #3c5898,
+        github:   #25292e,
+        telegram: #179cdf,
+        youtube:  #ff0002,
+        reddit:   #ff4401,
+        twitter:  #1da1f2,
+        discord:  #18191c
+      ) {
+        &--#{$network} {
+          color: $color;
+
+          @media (min-width: $min-width-sm) {
+            position: relative;
+
+            &::after {
+              background: $color;
+              content: " ";
+              display: block;
+              height: rem(3px);
+              opacity: 0;
+              position: absolute;
+              top: rem(26px);
+              transition: .2s all ease;
+              width: 0%;
+            }
+
+            &:hover::after {
+              opacity: 1;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

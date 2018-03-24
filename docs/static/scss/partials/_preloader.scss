@@ -1,0 +1,131 @@
+#preloader{
+  z-index:9999;
+  position:fixed;
+  left:0;
+  top:0;
+  height:100vh;
+  width:100vw;
+  -webkit-box-pack:center;
+  -webkit-justify-content:center;
+  -ms-flex-pack:center;
+  justify-content:center;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-transition:opacity .3s linear, visibility .2s linear .3s;
+  transition:opacity .3s linear, visibility .2s linear .3s;
+  opacity:1;
+  transition:all .2s ease-in-out;
+  .close{
+    opacity:0;
+    visibility:hidden;
+    transition:all .2s ease-in-out;
+  }
+  img {
+    width:100%;
+  }
+  #loader{
+    position:fixed;
+    margin:auto;
+    left:0;
+    right:0;
+    top:50%;
+    width:90px;
+    ul{
+      margin:0;
+      list-style:none;
+      width:90px;
+      position:relative;
+      padding:0;
+      height:10px;
+      li{
+        position:absolute;
+        width:2px;
+        height:0;
+        background-color:#000;
+        bottom:0;
+        &:nth-child(1){
+          left:0;
+          -webkit-animation:sequence1 1s ease infinite 0;
+          animation:sequence1 1s ease infinite 0;
+        }
+        &:nth-child(2){
+          left:15px;
+          -webkit-animation:sequence2 1s ease infinite 0.1s;
+          animation:sequence2 1s ease infinite 0.1s
+        }
+        &:nth-child(3){
+          left:30px;
+          -webkit-animation:sequence1 1s ease-in-out infinite 0.2s;
+          animation:sequence1 1s ease-in-out infinite 0.2s
+        }
+        &:nth-child(4){
+          left:45px;
+          -webkit-animation:sequence2 1s ease-in infinite 0.3s;
+          animation:sequence2 1s ease-in infinite 0.3s
+        }
+        &:nth-child(5){
+          left:60px;
+          -webkit-animation:sequence1 1s ease-in-out infinite 0.4s;
+          animation:sequence1 1s ease-in-out infinite 0.4s
+        }
+        &:nth-child(6){
+          left:75px;
+          -webkit-animation:sequence2 1s ease infinite 0.5s;
+          animation:sequence2 1s ease infinite 0.5s
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes sequence1{
+  0%{
+      height:10px;
+  }
+  50%{
+      height:50px;
+  }
+  100%{
+      height:10px;
+  }
+}
+@keyframes sequence1{
+  0%{
+      height:10px
+  }
+  50%{
+      height:50px
+  }
+  100%{
+      height:10px
+  }
+}
+@-webkit-keyframes sequence2{
+  0%{
+      height:20px
+  }
+  50%{
+      height:65px
+  }
+  100%{
+      height:20px
+  }
+}
+@keyframes sequence2{
+  0%{
+      height:20px
+  }
+  50%{
+      height:65px
+  }
+  100%{
+      height:20px
+  }
+}
+
