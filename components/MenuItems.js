@@ -19,9 +19,9 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/key-tech">
           <a href="/key-tech">{t('header:key-tech', { defaultValue: 'Key Tech' })}</a>
         </Link>
-        <Link prefetch href="/history">
+        {/* <Link prefetch href="/history">
           <a href="/history">{t('header:history', { defaultValue: 'History' })}</a>
-        </Link>
+        </Link> */}
         <Link prefetch href="/presskit">
           <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
         </Link>
