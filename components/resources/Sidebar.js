@@ -30,7 +30,7 @@ export default () => (
     <ul>
       <li><ActiveLink href="/community/get-involved">Get involved</ActiveLink></li>
       {/* <li><ActiveLink href="/community/social">Social</ActiveLink></li> */}
-      <li><ActiveLink href="/community/donate">Donate</ActiveLink></li>
+      <li><ActiveLink href="/donate">Donate</ActiveLink></li>
       <li><ActiveLink href="/community/xvg-mining-pools">Mining pools</ActiveLink></li>
       <li><ActiveLink href="/community/mining">How to mine?</ActiveLink></li>
     </ul>

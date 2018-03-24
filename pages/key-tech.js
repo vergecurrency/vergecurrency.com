@@ -49,9 +49,9 @@ function KeyTech(props) {
                   If Wraith Protocol is OFF, transactions are linked to your public address and are publicly viewable
                   via the blockchain explorer.
                 </p>
-                <Link href="/blog">
+                {/* <Link href="/blog">
                   <a href="/blog" className="btn btn-primary">Read about Wraith on our blog</a>
-                </Link>
+                </Link> */}
               </div>
               <div className="col-sm-4 col-md-5 hidden-xs" />
             </div>

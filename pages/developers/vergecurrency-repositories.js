@@ -50,7 +50,7 @@ function VergeCurrency_Repositories(props) {
               <Link href="https://github.com/vergecurrency/verge-graphics">
                 <a href="https://github.com/vergecurrency/verge-graphics" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/verge-graphics</a>
               </Link>
-              <h2>{t('verge-repos:vendor-integration', { defaultValue: 'Verge Vendor Integration' })} (<Link href="/developers/verge-vendor-integration"><a href="/developer/verge-vendor-integration">{t('common:more', { defaultValue: 'more' })}</a></Link>)</h2>
+              <h2>{t('verge-repos:vendor-integration', { defaultValue: 'Verge Vendor Integration' })} (<Link href="/developers/verge-vendor-integration"><a href="/developers/verge-vendor-integration">{t('common:more', { defaultValue: 'more' })}</a></Link>)</h2>
               <Link href="https://github.com/vergecurrency/nodejs-verge">
                 <a href="https://github.com/vergecurrency/nodejs-verge" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/nodejs-verge</a>
               </Link><br />
