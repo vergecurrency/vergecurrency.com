@@ -7,12 +7,6 @@
       "url": "https://bittrex.com"
     },
     {
-      "img": "../static/img/exchanges/binance.svg",
-      "title": "Binance",
-      "link": "binance.com",
-      "url": "https://binance.com"
-    },
-    {
       "img": "../static/img/exchanges/southxchange.png",
       "title": "SouthXchange",
       "link": "southxchange.com",
@@ -119,6 +113,12 @@
       "title": "Godex",
       "link": "godex.io",
       "url": "https://godex.io"
+    },
+    {
+      "img": "../static/img/exchanges/binance.svg",
+      "title": "Binance",
+      "link": "binance.com",
+      "url": "https://binance.com"
     },
     {
       "img": "../static/img/exchanges/litebit.png",
