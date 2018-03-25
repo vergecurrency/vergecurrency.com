@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 import { HomeExchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
 import { Mentions } from '../components/Mentions';
-import { LatestVendors } from '../components/Vendors';
+import { HomeVendors } from '../components/Vendors';
 import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
 
@@ -15,7 +15,6 @@ import {
   faFacebook, faGithub, faTelegram,
   faYoutube, faReddit, faTwitter, faDiscord,
 } from '@fortawesome/fontawesome-free-brands';
-import { faPlay } from '@fortawesome/fontawesome-free-solid';
 
 import 'moment-timezone';
 
@@ -235,7 +234,7 @@ function Home(props) {
                     </Link>
                   </h6>
 
-                  <LatestVendors />
+                  <HomeVendors />
                 </div>
               </div>
             </div>

@@ -27,6 +27,7 @@ export const HomeExchanges = () => {
         </div>
       );
     }
+    return true;
   });
 
   return (
