@@ -96,10 +96,6 @@ function KeyTech(props) {
                     </p>
                     <p>
                       As Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users.
-                      As Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users.
-                    </p>
-                    <p>
-                      As Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users.
                     </p>
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
