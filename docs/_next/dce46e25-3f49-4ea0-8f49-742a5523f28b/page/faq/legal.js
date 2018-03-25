@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/faq/legal', function() {
+            var comp = module.exports=webpackJsonp([27],{332:function(e,t,l){e.exports=l(333)},333:function(e,t,l){"use strict";(function(e){function a(e){return e&&e.__esModule?e:{default:e}}function n(e){var t=e.t;return r.default.createElement(m.default,null,r.default.createElement(c.default,null,r.default.createElement("title",{key:"title"},t("common:meta.faq.legal.title",{defaultValue:"FAQ - Legal - VergeCurrency.com"}))),r.default.createElement("div",{className:"learnmore"},r.default.createElement("div",{className:"container"},r.default.createElement(s.default,null,r.default.createElement("div",{className:"faq"},r.default.createElement("h1",null,t("faq:legal:subheader",{defaultValue:"Legal"})),r.default.createElement("p",{dangerouslySetInnerHTML:{__html:t("faq:legal:statement")}}))))))}Object.defineProperty(t,"__esModule",{value:!0});var u=l(0),r=a(u),f=l(4),c=a(f),d=l(2),m=a(d),o=l(9),s=a(o),i=l(3),E=l(5),g=a(E),p=(0,i.translate)(["faq","common"],{i18n:g.default,wait:e.browser})(n);t.default=p}).call(t,l(1))}},[332]);
+            return { page: comp.default }
+          })
+        
