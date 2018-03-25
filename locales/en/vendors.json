@@ -191,6 +191,324 @@
       "img": "../static/img/vendors/latest/giacobbeandco.png",
       "link": "https://giacobbeandco.com", 
       "url": "https://giacobbeandco.com"
-    }                                         
+    },
+    {
+      "title": "Ditchit",
+      "img": "../static/img/vendors/latest/ditchit.png",
+      "link": "ditchit.io", 
+      "url": "http://ditchit.io"
+    },
+    {
+      "title": "Kick Ass Coins",
+      "img": "../static/img/vendors/latest/kickasscoins.png",
+      "link": "kickasscoins.com", 
+      "url": "http://kickasscoins.com"
+    },
+    {
+      "title": "Elite Exteriors",
+      "img": "../static/img/vendors/latest/eliteexteriors.png",
+      "link": "eliteexteriors.biz", 
+      "url": "http://eliteexteriors.biz"
+    },
+    {
+      "title": "Crypto Emporium",
+      "img": "../static/img/vendors/latest/cryptoemporium.jpg",
+      "link": "cryptoemporium.eu", 
+      "url": "http://cryptoemporium.eu"
+    },
+    {
+      "title": "Hostagron",
+      "img": "../static/img/vendors/latest/hostragon.png",
+      "link": "hostragon.com", 
+      "url": "http://hostragon.com"
+    },
+    {
+      "title": "MyWhaleBay",
+      "img": "../static/img/vendors/latest/mywhalebay.png",
+      "link": "mywhalebay.com", 
+      "url": "http://mywhalebay.com"
+    },
+    {
+      "title": "megaXcoin",
+      "img": "../static/img/vendors/latest/megaxstore.png",
+      "link": "megaxstore.com", 
+      "url": "http://megaxstore.com"
+    },
+    {
+      "title": "FlixTV",
+      "img": "../static/img/vendors/latest/flixtv.png",
+      "link": "flixtv.com.br", 
+      "url": "http://flixtv.com.br"
+    },
+    {
+      "title": "Cart-King.com",
+      "img": "../static/img/vendors/latest/cartking.png",
+      "link": "cart-king.com", 
+      "url": "http://cart-king.com"
+    },
+    {
+      "title": "Kester Visuals",
+      "img": "../static/img/vendors/latest/kestervisuals.png",
+      "link": "kestervisuals.nl", 
+      "url": "http://kestervisuals.nl"
+    },
+    {
+      "title": "M&M verhuizingen",
+      "img": "../static/img/vendors/latest/mmverhuizingen.png",
+      "link": "mmverhuizingen.nl", 
+      "url": "http://mmverhuizingen.nl"
+    },
+    {
+      "title": "Amsterdam Removal",
+      "img": "../static/img/vendors/latest/amsterdamremoval.png",
+      "link": "amsterdamremoval.nl", 
+      "url": "http://amsterdamremoval.nl"
+    },
+    {
+      "title": "LoveShots",
+      "img": "../static/img/vendors/latest/loveshots.png",
+      "link": "loveshots.nl", 
+      "url": "http://loveshots.nl"
+    },
+    {
+      "title": "Welex Food Company",
+      "img": "../static/img/vendors/latest/welexfood.png",
+      "link": "welexfood.com", 
+      "url": "http://welexfood.com"
+    },
+    {
+      "title": "OR Mining LTD",
+      "img": "../static/img/vendors/latest/ormining.png",
+      "link": "ormining.co.uk", 
+      "url": "http://ormining.co.uk"
+    },
+    {
+      "title": "Watch Wizard",
+      "img": "../static/img/vendors/latest/watchwizard.png",
+      "link": "watchwizard.co.uk", 
+      "url": "http://watchwizard.co.uk"
+    },
+    {
+      "title": "AMG-IT Solutions",
+      "img": "../static/img/vendors/latest/amgsitolutions.png",
+      "link": "amg-it.co.uk", 
+      "url": "http://amg-it.co.uk"
+    },
+    {
+      "title": "Albatross Film Service",
+      "img": "../static/img/vendors/latest/albatross.jpg",
+      "link": "albatrossfilmservice.com", 
+      "url": "http://albatrossfilmservice.com"
+    },
+    {
+      "title": "Neema Legal",
+      "img": "../static/img/vendors/latest/neemalegal.png",
+      "link": "neemalegal.com.au", 
+      "url": "http://neemalegal.com.au"
+    },
+    {
+      "title": "Suns Limited",
+      "img": "../static/img/vendors/latest/sunslimited.png",
+      "link": "sunslimited.com", 
+      "url": "http://sunslimited.com"
+    },
+    {
+      "title": "MLK Group",
+      "img": "../static/img/vendors/latest/mlkgroup.png",
+      "link": "mlkgroup.com.au", 
+      "url": "http://mlkgroup.com.au"
+    },
+    {
+      "title": "Scoop these Games",
+      "img": "../static/img/vendors/latest/scoopthis.jpg",
+      "link": "scoopthisgames.com", 
+      "url": "http://scoopthisgames.com"
+    },
+    {
+      "title": "101Vape",
+      "img": "../static/img/vendors/latest/101Vape.jpg",
+      "link": "101vape.com", 
+      "url": "http://101vape.com"
+    },
+    {
+      "title": "VPS City",
+      "img": "../static/img/vendors/latest/vpscity.png",
+      "link": "vps-city.com", 
+      "url": "http://vps-city.com"
+    },
+    {
+      "title": "Retro Towers",
+      "img": "../static/img/vendors/latest/retrotowers.png",
+      "link": "retrotowers.co.uk", 
+      "url": "http://retrotowers.co.uk"
+    },
+    {
+      "title": "143VPN",
+      "img": "../static/img/vendors/latest/143VPN.png",
+      "link": "143vpn.com", 
+      "url": "http://143vpn.com"
+    },
+    {
+      "title": "Coinhost",
+      "img": "../static/img/vendors/latest/coinhost.png",
+      "link": "coinhost.io", 
+      "url": "http://coinhost.io"
+    },
+    {
+      "title": "Buy Hemp CBD Oil",
+      "img": "../static/img/vendors/latest/buyhempcbdoil.png",
+      "link": "buyhempcbdoil.com", 
+      "url": "http://buyhempcbdoil.com"
+    },
+    {
+      "title": "Filament-ABS",
+      "img": "../static/img/vendors/latest/filamentabs.jpg",
+      "link": "filament-abs.fr", 
+      "url": "http://filament-abs.fr"
+    },
+    {
+      "title": "All-mints.com ",
+      "img": "../static/img/vendors/latest/allmints.png",
+      "link": "all-mints.com", 
+      "url": "http://all-mints.com"
+    },
+    {
+      "title": "EarthVPN",
+      "img": "../static/img/vendors/latest/earthvpn.png",
+      "link": "earthvpn.com", 
+      "url": "http://earthvpn.com"
+    },
+    {
+      "title": "Ballistic Bodyboards",
+      "img": "../static/img/vendors/latest/Ballistic.png",
+      "link": "getballistic.com", 
+      "url": "http://getballistic.com"
+    },
+    {
+      "title": "B.P. Fragrance",
+      "img": "../static/img/vendors/latest/bpfragrance.jpg",
+      "link": "bpfragrance.nl", 
+      "url": "http://bpfragrance.nl"
+    },
+    {
+      "title": "Ad Infinitum Shop",
+      "img": "../static/img/vendors/latest/adinfinitumhub.png",
+      "link": "adinfinitumhub.com", 
+      "url": "http://adinfinitumhub.com"
+    },
+    {
+      "title": "Proper Pool",
+      "img": "../static/img/vendors/latest/properpool.jpg",
+      "link": "properpool.com", 
+      "url": "http://properpool.com"
+    },
+    {
+      "title": "Social MIMI",
+      "img": "../static/img/vendors/latest/socialmimi.png",
+      "link": "social-mimi.com", 
+      "url": "http://social-mimi.com"
+    },
+    {
+      "title": "Sardis Marketplace",
+      "img": "../static/img/vendors/latest/sardismarketplace.png",
+      "link": "sardismarketplace.com", 
+      "url": "http://sardismarketplace.com"
+    },
+    {
+      "title": "bitcoincards",
+      "img": "../static/img/vendors/latest/bitcoincards.png",
+      "link": "bitcoincards.io", 
+      "url": "http://bitcoincards.io"
+    },
+    {
+      "title": "CoinStuff",
+      "img": "../static/img/vendors/latest/coinstuff.png",
+      "link": "coinstuff.in", 
+      "url": "http://coinstuff.in"
+    },
+    {
+      "title": "4coingigs",
+      "img": "../static/img/vendors/latest/4coingigs.png",
+      "link": "4coingigs.com", 
+      "url": "http://4coingigs.com"
+    },
+    {
+      "title": "Relevé Escuela de Baile",
+      "img": "../static/img/vendors/latest/releve.png",
+      "link": "releve.com.mx", 
+      "url": "http://releve.com.mx/academia"
+    },
+    {
+      "title": "OnlineLIC.net",
+      "img": "../static/img/vendors/latest/onlinelic.png",
+      "link": "onlinelic.net", 
+      "url": "http://onlinelic.net"
+    },
+    {
+      "title": "Sheldon Store",
+      "img": "../static/img/vendors/latest/sheldon.jpg",
+      "link": "sheldon.store", 
+      "url": "http://sheldon.store"
+    },
+    {
+      "title": "Rabbits Foot Custom Brews",
+      "img": "../static/img/vendors/latest/rabbitsfoot.png",
+      "link": "rabbitsfootcustombrews.com", 
+      "url": "http://rabbitsfootcustombrews.com"
+    },
+    {
+      "title": "White Sands Hosting",
+      "img": "../static/img/vendors/latest/whitesands.png",
+      "link": "whitesandshosting.com", 
+      "url": "http://whitesandshosting.com"
+    },
+    {
+      "title": "Frank and Beans Underwear",
+      "img": "../static/img/vendors/latest/frankandbeans.png",
+      "link": "frankandbeans.com.au", 
+      "url": "http://frankandbeans.com.au"
+    },
+    {
+      "title": "EIGREsi",
+      "img": "../static/img/vendors/latest/EIGREsi.png",
+      "link": "eigre.si", 
+      "url": "http://eigre.si"
+    },
+    {
+      "title": "1gbits",
+      "img": "../static/img/vendors/latest/1gbits.png",
+      "link": "1gbits.com", 
+      "url": "http://1gbits.com"
+    },
+    {
+      "title": "Laptoppowerbank.com",
+      "img": "../static/img/vendors/latest/laptoppowerbank.png",
+      "link": "laptoppowerbank.com", 
+      "url": "http://laptoppowerbank.com"
+    },
+    {
+      "title": "Pete Cho",
+      "img": "../static/img/vendors/latest/petecho.png",
+      "link": "petecho.com", 
+      "url": "http://petecho.com"
+    },
+    {
+      "title": "Almeritek",
+      "img": "../static/img/vendors/latest/almeritek.png",
+      "link": "almeritek.com", 
+      "url": "http://almeritek.com"
+    },
+    {
+      "title": "Endeavor Woodworks",
+      "img": "../static/img/vendors/latest/endeavorwoodworks.png",
+      "link": "endeavorwoodworks.com", 
+      "url": "http://endeavorwoodworks.com"
+    },
+    {
+      "title": "Hidester VPN",
+      "img": "../static/img/vendors/latest/hidester.png",
+      "link": "hidester.com", 
+      "url": "http://hidester.com"
+    }                                        
   ]
 }
