@@ -65,18 +65,10 @@
       "os": "Windows"
     },
     {
-      "name": "Windows Tor Wallet",
+      "name": "Windows Electrum Tor Wallet",
       "url": "https://github.com/vergecurrency/electrum-xvg-tor/releases/download/2.4.1/electrum-xvg-tor-win-amd64.zip",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
-      "available": true,
-      "os": "Windows"
-    },
-    {
-      "name": "Windows Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/releases/download/4.0stealth/VERGE-windows.zip",
-      "classNames": "wallets--icon__windows",
-      "classWhite": "wallets--icon__windows-white",
       "available": true,
       "os": "Windows"
     },
