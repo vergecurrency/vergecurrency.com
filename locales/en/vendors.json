@@ -2,7 +2,7 @@
   "vendors": [
     {
       "title": "Fractal Visuals",
-      "img": "../static/img/vendors/latest/fractalvisuals.png",
+      "img": "../static/img/vendors/latest/FractalVisuals.png",
       "link": "FractalVisuals.com", 
       "url": "https://FractalVisuals.com/"
     },
@@ -32,7 +32,7 @@
     },
     {
       "title": "Trebaltek",
-      "img": "../static/img/vendors/latest/Trebaltek.png",
+      "img": "../static/img/vendors/latest/trebaltek.png",
       "link": "trebaltek.ca", 
       "url": "http://trebaltek.ca"
     },
@@ -50,13 +50,13 @@
     },
     {
       "title": "WhiskerMen",
-      "img": "../static/img/vendors/latest/Whiskermen.png",
+      "img": "../static/img/vendors/latest/whiskermen.png",
       "link": "Whiskermen.com", 
       "url": "https://Whiskermen.com/"
     },
     {
       "title": "QuanTVm",
-      "img": "../static/img/vendors/latest/QuanTVm.png",
+      "img": "../static/img/vendors/latest/quantvm.png",
       "link": "quantvmstick.com", 
       "url": "http://www.quantvmstick.com"
     },
@@ -104,13 +104,13 @@
     },
     {
       "title": "Effortless.IT",
-      "img": "../static/img/vendors/latest/Effortless.png",
-      "link": "CryptoVFX.com", 
-      "url": "CryptoVFX.com"
+      "img": "../static/img/vendors/latest/effortless.png",
+      "link": "Effortless.it", 
+      "url": "https://effortless.it"
     },
     {
       "title": "Phuket Media Company",
-      "img": "../static/img/vendors/latest/pmc.png",
+      "img": "../static/img/vendors/latest/PMC.png",
       "link": "phuketmediacompany.com", 
       "url": "http://phuketmediacompany.com/"
     },
@@ -158,7 +158,7 @@
     },
     {
       "title": "Snel.com",
-      "img": "../static/img/vendors/latest/snel.png",
+      "img": "../static/img/vendors/latest/Snel.png",
       "link": "snel.com", 
       "url": "https://www.snel.com/"
     },
@@ -326,7 +326,7 @@
     },
     {
       "title": "101Vape",
-      "img": "../static/img/vendors/latest/101Vape.jpg",
+      "img": "../static/img/vendors/latest/101vape.jpg",
       "link": "101vape.com", 
       "url": "http://101vape.com"
     },
@@ -344,7 +344,7 @@
     },
     {
       "title": "143VPN",
-      "img": "../static/img/vendors/latest/143VPN.png",
+      "img": "../static/img/vendors/latest/143vpn.png",
       "link": "143vpn.com", 
       "url": "http://143vpn.com"
     },
@@ -380,7 +380,7 @@
     },
     {
       "title": "Ballistic Bodyboards",
-      "img": "../static/img/vendors/latest/Ballistic.png",
+      "img": "../static/img/vendors/latest/ballistic.png",
       "link": "getballistic.com", 
       "url": "http://getballistic.com"
     },
@@ -470,7 +470,7 @@
     },
     {
       "title": "EIGREsi",
-      "img": "../static/img/vendors/latest/EIGREsi.png",
+      "img": "../static/img/vendors/latest/eigresi.png",
       "link": "eigre.si", 
       "url": "http://eigre.si"
     },
@@ -494,7 +494,7 @@
     },
     {
       "title": "Almeritek",
-      "img": "../static/img/vendors/latest/almeritek.png",
+      "img": "../static/img/vendors/latest/Almeritek.png",
       "link": "almeritek.com", 
       "url": "http://almeritek.com"
     },
