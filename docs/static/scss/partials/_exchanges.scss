@@ -45,3 +45,13 @@
     }
   }
 }
+
+.vendors {
+  &--item {
+    &__name {
+      h4 {
+        font-size: 0.85rem;
+      }
+    }
+  }
+}
