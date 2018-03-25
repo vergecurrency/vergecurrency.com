@@ -33,13 +33,13 @@ function VendorsPage(props) {
               <div className="row start-xs between-xs">
                 <div className="col-xs-12 col-sm-8 pb-xs">
                   <h3>
-                    Are you interested in Verge Currency? <span className="hidden-xs"><br /></span>
+                    "Are you interested in Verge Currency?" <span className="hidden-xs"><br /></span>
                     Start accepting Verge today!
                   </h3>
                 </div>
                 <div className="col-xs-12 col-sm-4 end-sm">
-                  <Link href="/get-verge">
-                    <a href="/get-verge" className="btn btn-primary">Accept Verge today</a>
+                  <Link href="get-verge">
+                    <a href="get-verge" className="btn btn-primary">Accept Verge today</a>
                   </Link>
                 </div>
               </div>
