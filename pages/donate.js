@@ -66,6 +66,13 @@ function Donate(props) {
                   </a>
                 </Link>
               </p>
+              <p>
+                <Link href="https://prohashing.com/explorer/Verge/DLv25ww5CipJngsKMYemBTBWH14CUpucxX/">
+                  <a rel="noopener noreferrer" href="https://prohashing.com/explorer/Verge/DLv25ww5CipJngsKMYemBTBWH14CUpucxX/" target="_blank">
+                    DLv25ww5CipJngsKMYemBTBWH14CUpucxX
+                  </a>
+                </Link>
+              </p>
             </div>
           </Content>
         </div>
