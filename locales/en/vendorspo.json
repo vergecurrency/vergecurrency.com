@@ -1,706 +1,514 @@
 {
   "vendors": [
     {
-      "title": "CryptoVFX",
-      "img": "../static/img/vendors/latest/CryptoVFX.png",
-      "link": "CryptoVFX.com", 
-      "url": "http://cryptovfx.com"
+      "title": "Fractal Visuals",
+      "img": "../static/img/vendors/latest/fractalvisuals.png",
+      "link": "https://FractalVisuals.com/", 
+      "url": "https://FractalVisuals.com/"
     },
     {
-      "title": "HODL",
-      "img": "../static/img/vendors/latest/HODL.jpg",
-      "link": "HODL.com",
-      "url": "http://hodl.com"
+      "title": "PexPeppers",
+      "img": "../static/img/vendors/latest/pexpeppers.png",
+      "link": "https://www.pexpeppers.com/", 
+      "url": "https://www.pexpeppers.com/"
+    },
+    {
+      "title": "Folux Solutions",
+      "img": "../static/img/vendors/latest/foluxsolutions.png",
+      "link": "https://www.foluxsolutions.com/", 
+      "url": "https://www.foluxsolutions.com/"
+    },
+    {
+      "title": "Incredebites",
+      "img": "../static/img/vendors/latest/incredebites.png",
+      "link": "https://www.yelp.com/biz/incredebites-burbank",
+      "url": "https://www.yelp.com/biz/incredebites-burbank"
     },
     {
       "title": "Nexwave",
       "img": "../static/img/vendors/latest/Nexwave.png",
       "link": "Nexwave.ca",
-      "url": "http://nexwave.ca"
+      "url": "Nexwave.ca"
     },
     {
-      "title": "PMC",
-      "img": "../static/img/vendors/latest/PMC.png",
-      "link": "PMC.com", 
-      "url": "http://pmc.com"
+      "title": "Trebaltek",
+      "img": "../static/img/vendors/latest/Trebaltek.png",
+      "link": "http://trebaltek.ca", 
+      "url": "http://trebaltek.ca"
     },
     {
       "title": "Reno Sports Bar",
       "img": "../static/img/vendors/latest/RenoSportsBar.jpg",
-      "link": "RenoSportsBar.com", 
-      "url": "http://renosportsbar.com"
+      "link": "https://www.yelp.com/biz/reno-bar-hastings", 
+      "url": "https://www.yelp.com/biz/reno-bar-hastings"
     },
     {
-      "title": "Snel",
-      "img": "../static/img/vendors/latest/Snel.png",
-      "link": "Snel.com", 
-      "url": "http://snel.com"
+      "title": "Alwayshodl",
+      "img": "../static/img/vendors/latest/alwayshodl.png",
+      "link": "https://alwayshodl.com/", 
+      "url": "https://alwayshodl.com/"
     },
     {
-      "title": "PexPeppers",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "pexpeppers.com", 
-      "url": "http://pexpeppers.com"
+      "title": "WhiskerMen",
+      "img": "../static/img/vendors/latest/Whiskermen.png",
+      "link": "https://Whiskermen.com/", 
+      "url": "https://Whiskermen.com/"
     },
     {
-      "title": "incredEbites",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "yelp.com/biz/incredebites-burbank", 
-      "url": "http://yelp.com/biz/incredebites-burbank"
-    },
-    {
-      "title": "Trebaltek",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "trebaltek.ca", 
-      "url": "http://trebaltek.ca/"
-    },
-    {
-      "title": "Whiskermen",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "whiskermen.com", 
-      "url": "http://whiskermen.com"
-    },
-    {
-      "title": "QuanTVmStick",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "quantvmstick.com", 
-      "url": "http://quantvmstick.com"
+      "title": "QuanTVm",
+      "img": "../static/img/vendors/latest/QuanTVm.png",
+      "link": "http://www.quantvmstick.com", 
+      "url": "ttp://www.quantvmstick.com"
     },
     {
       "title": "VFX Learning",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "vfxlearning.com", 
-      "url": "http://vfxlearning.com"
+      "img": "../static/img/vendors/latest/vfx.png",
+      "link": "http://www.vfxlearning.com", 
+      "url": "ttp://www.vfxlearning.com"
     },
     {
-      "title": "Menke IT-Service",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "menke-it-service.de", 
-      "url": "http://menke-it-service.de"
+      "title": "Crypto VFX",
+      "img": "../static/img/vendors/latest/CryptoVFX.png",
+      "link": "CryptoVFX.com", 
+      "url": "CryptoVFX.com"
     },
     {
-      "title": "Suzuri",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "suzuri.jp/verge", 
-      "url": "http://suzuri.jp/verge"
+      "title": "Menke IT - Service",
+      "img": "../static/img/vendors/latest/menke.png",
+      "link": "https://www.menke-it-service.de/",
+      "url": "https://www.menke-it-service.de/"
     },
     {
-      "title": "Have a Heart",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "haveaheartkc.com", 
-      "url": "http://haveaheartkc.com"
+      "title": "仮想通貨Verge Japan 公認SHOP",
+      "img": "../static/img/vendors/latest/suzuri.png",
+      "link": "https://suzuri.jp/verge",
+      "url": "https://suzuri.jp/verge"
+    },
+    {
+      "title": "Have A Heart: Animal Rescue",
+      "img": "../static/img/vendors/latest/haveaheartkc.png",
+      "link": "http://haveaheartkc.com/", 
+      "url": "http://haveaheartkc.com/"
+    },
+    {
+      "title": "Illrotic Beats",
+      "img": "../static/img/vendors/latest/illroticbeats.png",
+      "link": "http://illroticbeats.com/", 
+      "url": "http://illroticbeats.com/"
     },
     {
       "title": "Falmouth Boat Security",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "falmouthboatsecurity.com", 
+      "img": "../static/img/vendors/latest/fbs.png",
+      "link": "http://falmouthboatsecurity.com", 
       "url": "http://falmouthboatsecurity.com"
     },
     {
       "title": "Effortless.IT",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "effortless.it", 
-      "url": "http://effortless.it"
+      "img": "../static/img/vendors/latest/Effortless.png",
+      "link": "CryptoVFX.com", 
+      "url": "CryptoVFX.com"
     },
     {
       "title": "Phuket Media Company",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "phuketmediacompany.com", 
-      "url": "http://phuketmediacompany.com"
+      "img": "../static/img/vendors/latest/pmc.png",
+      "link": "http://phuketmediacompany.com/", 
+      "url": "http://phuketmediacompany.com/"
     },
     {
       "title": "Meccamino",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "meccamino.com.au", 
-      "url": "http://meccamino.com.au"
+      "img": "../static/img/vendors/latest/meccamino.jpg",
+      "link": "https://meccamino.com.au/", 
+      "url": "https://meccamino.com.au/"
     },
     {
       "title": "APE Advisor Prep",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "apetest.com", 
+      "img": "../static/img/vendors/latest/apetest.png",
+      "link": "https://apetest.com/edu/", 
       "url": "https://apetest.com/edu/"
     },
     {
       "title": "Morning Wish",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "morningwish.ie", 
-      "url": "http://morningwish.ie"
+      "img": "../static/img/vendors/latest/morningwish.png",
+      "link": "https://www.morningwish.ie/", 
+      "url": "https://www.morningwish.ie/"
     },
     {
       "title": "Ethereum Miners",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "ethereumminers.nl", 
-      "url": "http://ethereumminers.nl"
+      "img": "../static/img/vendors/latest/ethminers.jpg",
+      "link": "https://www.ethereumminers.nl/", 
+      "url": "https://www.ethereumminers.nl/"
     },
     {
       "title": "HeightCare",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "heightcare.nl", 
-      "url": "http://heightcare.nl"
+      "img": "../static/img/vendors/latest/heightcare.png",
+      "link": "http://www.heightcare.nl/", 
+      "url": "http://www.heightcare.nl/"
     },
     {
       "title": "oVPN",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "vcp.ovpn.to", 
-      "url": "http://vcp.ovpn.to"
+      "img": "../static/img/vendors/latest/ovpn.png",
+      "link": "https://vcp.ovpn.to/", 
+      "url": "https://vcp.ovpn.to/"
     },
     {
-      "title": "AdInfusion",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "adinfusion.com/san-francisco-seo-company", 
-      "url": "http://adinfusion.com/san-francisco-seo-company/"
+      "title": "Adinfusion",
+      "img": "../static/img/vendors/latest/adinfusion.png",
+      "link": "http://www.adinfusion.com/san-francisco-seo-company/", 
+      "url": "http://www.adinfusion.com/san-francisco-seo-company/"
+    },
+    {
+      "title": "Snel.com",
+      "img": "../static/img/vendors/latest/snel.png",
+      "link": "https://www.snel.com/", 
+      "url": "https://www.snel.com/"
     },
     {
       "title": "Anutra Grain",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "anutra.com", 
+      "img": "../static/img/vendors/latest/anutra.png",
+      "link": "https://anutra.com/verge/", 
       "url": "https://anutra.com/verge/"
     },
     {
-      "title": "Maze",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "mazefit.com", 
-      "url": "http://mazefit.com"
-    },
-    {
-      "title": "Fractal Visuals",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "fractalvisuals.com", 
-      "url": "http://fractalvisuals.com"
-    },
-    {
-      "title": "Folux Solutions",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "foluxsolutions.com", 
-      "url": "http://foluxsolutions.com"
+      "title": "Mazefit",
+      "img": "../static/img/vendors/latest/mazefit.png",
+      "link": "https://Mazefit.com/", 
+      "url": "https://Mazefit.com/"
     },
     {
       "title": "Titan Concealment",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "titanconcealment.com", 
-      "url": "http://titanconcealment.com"
+      "img": "../static/img/vendors/latest/titanconcealment.png",
+      "link": "https://www.titanconcealment.com/", 
+      "url": "https://www.titanconcealment.com/"
     },
     {
       "title": "Crypto Whale Clothing",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "cryptowhaleclothing.com", 
-      "url": "http://cryptowhaleclothing.com"
+      "img": "../static/img/vendors/latest/cryptowhaleclothing.png",
+      "link": "https://cryptowhaleclothing.com/", 
+      "url": "https://cryptowhaleclothing.com/"
     },
     {
-      "title": "Cryptocoin Mining",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "cryptocoinmining.nl", 
-      "url": "http://cryptocoinmining.nl"
+      "title": "Giacobbe & Co.",
+      "img": "../static/img/vendors/latest/giacobbeandco.png",
+      "link": "https://giacobbeandco.com", 
+      "url": "https://giacobbeandco.com"
     },
     {
       "title": "Ditchit",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/ditchit.png",
       "link": "ditchit.io", 
       "url": "http://ditchit.io"
     },
     {
       "title": "Kick Ass Coins",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/kickasscoins.png",
       "link": "kickasscoins.com", 
       "url": "http://kickasscoins.com"
     },
     {
       "title": "Elite Exteriors",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/eliteexteriors.png",
       "link": "eliteexteriors.biz", 
       "url": "http://eliteexteriors.biz"
     },
     {
       "title": "Crypto Emporium",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/cryptoemporium.jpg",
       "link": "cryptoemporium.eu", 
       "url": "http://cryptoemporium.eu"
     },
     {
       "title": "Hostagron",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/hostragon.png",
       "link": "hostragon.com", 
       "url": "http://hostragon.com"
     },
     {
       "title": "MyWhaleBay",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/mywhalebay.png",
       "link": "mywhalebay.com", 
       "url": "http://mywhalebay.com"
     },
     {
-      "title": "ProDroneDeals",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "prodronedeals.com", 
-      "url": "http://prodronedeals.com"
-    },
-    {
       "title": "megaXcoin",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/megaxstore.png",
       "link": "megaxstore.com", 
       "url": "http://megaxstore.com"
     },
     {
-      "title": "MondoWorks",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "mondoart.net", 
-      "url": "http://mondoart.net"
-    },
-    {
       "title": "FlixTV",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/flixtv.png",
       "link": "flixtv.com.br", 
       "url": "http://flixtv.com.br"
     },
     {
-      "title": "Jensen Home",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "jensenhome.co", 
-      "url": "http://jensenhome.co"
-    },
-    {
-      "title": "Giacobbe & Company",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "giacobbeandco.com", 
-      "url": "http://giacobbeandco.com/pages/verge"
-    },
-    {
-      "title": "Oriental Spoon",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "tabelog.com", 
-      "url": "http://tabelog.com/osaka/A2701/A270103/27094256/"
-    },
-    {
       "title": "Cart-King.com",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/cartking.png",
       "link": "cart-king.com", 
       "url": "http://cart-king.com"
     },
     {
       "title": "Kester Visuals",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/kestervisuals.png",
       "link": "kestervisuals.nl", 
       "url": "http://kestervisuals.nl"
     },
     {
       "title": "M&M verhuizingen",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/mmverhuizingen.png",
       "link": "mmverhuizingen.nl", 
       "url": "http://mmverhuizingen.nl"
     },
     {
       "title": "Amsterdam Removal",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/amsterdamremoval.png",
       "link": "amsterdamremoval.nl", 
       "url": "http://amsterdamremoval.nl"
     },
     {
       "title": "LoveShots",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/loveshots.png",
       "link": "loveshots.nl", 
       "url": "http://loveshots.nl"
     },
     {
       "title": "Welex Food Company",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/welexfood.png",
       "link": "welexfood.com", 
       "url": "http://welexfood.com"
     },
     {
       "title": "OR Mining LTD",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/ormining.png",
       "link": "ormining.co.uk", 
       "url": "http://ormining.co.uk"
     },
     {
       "title": "Watch Wizard",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/watchwizard.png",
       "link": "watchwizard.co.uk", 
       "url": "http://watchwizard.co.uk"
     },
     {
-      "title": "Ghost Technologies",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "gtehk.ninja", 
-      "url": "http://gtehk.ninja"
-    },
-    {
       "title": "AMG-IT Solutions",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/amgsitolutions.png",
       "link": "amg-it.co.uk", 
       "url": "http://amg-it.co.uk"
     },
     {
       "title": "Albatross Film Service",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/albatross.jpg",
       "link": "albatrossfilmservice.com", 
       "url": "http://albatrossfilmservice.com"
     },
     {
-      "title": "JBreen Designs",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "facebook.com/JBreenDesigns", 
-      "url": "http://facebook.com/JBreenDesigns"
-    },
-    {
       "title": "Neema Legal",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/neemalegal.png",
       "link": "neemalegal.com.au", 
       "url": "http://neemalegal.com.au"
     },
     {
       "title": "Suns Limited",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/sunslimited.png",
       "link": "sunslimited.com", 
       "url": "http://sunslimited.com"
     },
     {
       "title": "MLK Group",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/mlkgroup.png",
       "link": "mlkgroup.com.au", 
       "url": "http://mlkgroup.com.au"
     },
     {
       "title": "Scoop these Games",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/scoopthis.jpg",
       "link": "scoopthisgames.com", 
       "url": "http://scoopthisgames.com"
     },
     {
-      "title": "Enrico Martina",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "enricomartina.it", 
-      "url": "http://enricomartina.it"
-    },
-    {
       "title": "101Vape",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/101Vape.jpg",
       "link": "101vape.com", 
       "url": "http://101vape.com"
     },
     {
       "title": "VPS City",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/vpscity.png",
       "link": "vps-city.com", 
       "url": "http://vps-city.com"
     },
     {
       "title": "Retro Towers",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/retrotowers.png",
       "link": "retrotowers.co.uk", 
       "url": "http://retrotowers.co.uk"
     },
     {
       "title": "143VPN",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/143VPN.png",
       "link": "143vpn.com", 
       "url": "http://143vpn.com"
     },
     {
-      "title": "Bit Stickers",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "bitstickers.net", 
-      "url": "http://bitstickers.net"
-    },
-    {
-      "title": "uTop.us",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "uTop.us", 
-      "url": "http://uTop.us"
-    },
-    {
-      "title": "Salts Worldwide",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "saltsworldwide.com", 
-      "url": "http://saltsworldwide.com"
-    },
-    {
-      "title": "Essential Oil",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "1eo.us", 
-      "url": "http://1eo.us"
-    },
-    {
-      "title": "UBBBK",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "ubbbk.com", 
-      "url": "http://ubbbk.com"
-    },
-    {
-      "title": "Cryptoart",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "cryptoart.com", 
-      "url": "http://cryptoart.com"
-    },
-    {
-      "title": "Monovm.com",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "monovm.com", 
-      "url": "http://monovm.com"
-    },
-    {
-      "title": "Free Press Publications",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "btcshop.FPP.cc", 
-      "url": "http://btcshop.FPP.cc"
-    },
-    {
-      "title": "HireCrypto",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "hirecrypto.com", 
-      "url": "http://hirecrypto.com"
-    },
-    {
       "title": "Coinhost",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/coinhost.png",
       "link": "coinhost.io", 
       "url": "http://coinhost.io"
     },
     {
       "title": "Buy Hemp CBD Oil",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/buyhempcbdoil.png",
       "link": "buyhempcbdoil.com", 
       "url": "http://buyhempcbdoil.com"
     },
     {
-      "title": "Ewazan.com",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "ewazan.com", 
-      "url": "http://ewazan.com"
-    },
-    {
       "title": "Filament-ABS",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/filamentabs.jpg",
       "link": "filament-abs.fr", 
       "url": "http://filament-abs.fr"
     },
     {
       "title": "All-mints.com ",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/allmints.png",
       "link": "all-mints.com", 
       "url": "http://all-mints.com"
     },
     {
       "title": "EarthVPN",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/earthvpn.png",
       "link": "earthvpn.com", 
       "url": "http://earthvpn.com"
     },
     {
-      "title": "Marketing Heaven",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "themarketingheaven.com", 
-      "url": "http://themarketingheaven.com"
-    },
-    {
       "title": "Ballistic Bodyboards",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/Ballistic.png",
       "link": "getballistic.com", 
       "url": "http://getballistic.com"
     },
     {
-      "title": "Cheap Lightning",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "cheaplightning.com", 
-      "url": "http://cheaplightning.com"
-    },
-    {
-      "title": "Trebaltek Music",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "trebaltek.ca", 
-      "url": "http://trebaltek.ca/trebaltek-crypto-buy.html"
-    },
-    {
       "title": "B.P. Fragrance",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/bpfragrance.jpg",
       "link": "bpfragrance.nl", 
       "url": "http://bpfragrance.nl"
     },
     {
-      "title": "Coinzone",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "coinzone.shop", 
-      "url": "http://coinzone.shop"
-    },
-    {
-      "title": "OHM Handpans",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "ohmhandpans.com", 
-      "url": "http://ohmhandpans.com"
-    },
-    {
       "title": "Ad Infinitum Shop",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/adinfinitumhub.png",
       "link": "adinfinitumhub.com", 
       "url": "http://adinfinitumhub.com"
     },
     {
       "title": "Proper Pool",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/properpool.jpg",
       "link": "properpool.com", 
       "url": "http://properpool.com"
     },
     {
       "title": "Social MIMI",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/socialmimi.png",
       "link": "social-mimi.com", 
       "url": "http://social-mimi.com"
     },
     {
-      "title": "BlackLuxMatters",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "blackluxmatters.com", 
-      "url": "http://blackluxmatters.com"
-    },
-    {
-      "title": "The Sun Token Store",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "suntoken.com", 
-      "url": "http://suntoken.com"
-    },
-    {
-      "title": "MyBeanstalk Crypto Wear",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "shop.mybeanstalk.co", 
-      "url": "http://shop.mybeanstalk.co"
-    },
-    {
       "title": "Sardis Marketplace",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/sardismarketplace.png",
       "link": "sardismarketplace.com", 
       "url": "http://sardismarketplace.com"
     },
     {
       "title": "bitcoincards",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/bitcoincards.png",
       "link": "bitcoincards.io", 
       "url": "http://bitcoincards.io"
     },
     {
-      "title": "DotCom Exchange",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "dotcomx.com", 
-      "url": "http://dotcomx.com"
-    },
-    {
-      "title": "Hostinger",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "hostinger.com", 
-      "url": "http://hostinger.com"
-    },
-    {
       "title": "CoinStuff",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/coinstuff.png",
       "link": "coinstuff.in", 
       "url": "http://coinstuff.in"
     },
     {
       "title": "4coingigs",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/4coingigs.png",
       "link": "4coingigs.com", 
       "url": "http://4coingigs.com"
     },
     {
       "title": "Relevé Escuela de Baile",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/releve.png",
       "link": "releve.com.mx", 
       "url": "http://releve.com.mx/academia"
     },
     {
-      "title": "Triton Aquariums",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "tritonaquariums.com", 
-      "url": "http://tritonaquariums.com"
-    },
-    {
       "title": "OnlineLIC.net",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/onlinelic.png",
       "link": "onlinelic.net", 
       "url": "http://onlinelic.net"
     },
     {
       "title": "Sheldon Store",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/sheldon.jpg",
       "link": "sheldon.store", 
       "url": "http://sheldon.store"
     },
     {
       "title": "Rabbits Foot Custom Brews",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/rabbitsfoot.png",
       "link": "rabbitsfootcustombrews.com", 
       "url": "http://rabbitsfootcustombrews.com"
     },
     {
       "title": "White Sands Hosting",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/whitesands.png",
       "link": "whitesandshosting.com", 
       "url": "http://whitesandshosting.com"
     },
     {
       "title": "Frank and Beans Underwear",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/frankandbeans.png",
       "link": "frankandbeans.com.au", 
       "url": "http://frankandbeans.com.au"
     },
     {
       "title": "EIGREsi",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/EIGREsi.png",
       "link": "eigre.si", 
       "url": "http://eigre.si"
     },
     {
-      "title": "Dream",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "shopadream.com", 
-      "url": "http://shopadream.com"
-    },
-    {
       "title": "1gbits",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/1gbits.png",
       "link": "1gbits.com", 
       "url": "http://1gbits.com"
     },
     {
       "title": "Laptoppowerbank.com",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/laptoppowerbank.png",
       "link": "laptoppowerbank.com", 
       "url": "http://laptoppowerbank.com"
     },
     {
       "title": "Pete Cho",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/petecho.png",
       "link": "petecho.com", 
       "url": "http://petecho.com"
     },
     {
-      "title": "CryptoGifts",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "cryptogifts.store", 
-      "url": "http://cryptogifts.store"
-    },
-    {
       "title": "Almeritek",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/almeritek.png",
       "link": "almeritek.com", 
       "url": "http://almeritek.com"
     },
     {
       "title": "Endeavor Woodworks",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/endeavorwoodworks.png",
       "link": "endeavorwoodworks.com", 
       "url": "http://endeavorwoodworks.com"
     },
     {
-      "title": "Wolf Audio",
-      "img": "../static/img/vendors/latest/....png",
-      "link": "wolfaudioamsterdam.com", 
-      "url": "http://wolfaudioamsterdam.com"
-    },
-    {
       "title": "Hidester VPN",
-      "img": "../static/img/vendors/latest/....png",
+      "img": "../static/img/vendors/latest/hidester.png",
       "link": "hidester.com", 
       "url": "http://hidester.com"
-    }
+    }                                        
   ]
 }
