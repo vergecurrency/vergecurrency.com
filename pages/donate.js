@@ -41,6 +41,13 @@ function Donate(props) {
                   </a>
                 </Link>
               </p>
+              <p>
+                <Link href="https://prohashing.com/explorer/Verge/DLv25ww5CipJngsKMYemBTBWH14CUpucxX/">
+                  <a rel="noopener noreferrer" href="https://prohashing.com/explorer/Verge/DLv25ww5CipJngsKMYemBTBWH14CUpucxX/" target="_blank">
+                    DLv25ww5CipJngsKMYemBTBWH14CUpucxX
+                  </a>
+                </Link>
+              </p>
               <iframe width="560" height="315" title="Why Donate" src="https://www.youtube.com/embed/XEtq5gfZ_Rk" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen/>
               <p>At Verge we are always striving to achieve new heights and deliver products or software implementations that are requested by the community. Listening to our community members and taking in feedback is not only one of the core founding principles of Verge, but it is inherent in our open-source nature. Verge is continuously looking to grow and improve to ensure you, the user of our product, are getting the best possible experience you can.</p>
               <p>As many of you are aware, no one on the Verge staff is paid to do the work they do and generally any marketing efforts that come from our team are funded out of our own day job salaries. That is why we need your help. In order for us to be able to provide these services to you, our community, we need to raise a substantial amount of funding.</p>
