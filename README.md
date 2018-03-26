@@ -44,18 +44,21 @@ https://yarnpkg.com/lang/en/docs/install/
 
 ### Linux:
 
+**Ubuntu/Debian**
+
 _NodeJS:_
 
-*Tip:* You need **Ruby**, **GCC** and **Homebrew** before installing NodeJS.
-
 ```
-brew install node
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
 
 _Yarn:_
 
 ```
-brew install yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
 ```
 
 ## Installing
