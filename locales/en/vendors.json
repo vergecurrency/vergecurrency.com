@@ -7,6 +7,18 @@
       "url": "https://FractalVisuals.com/"
     },
     {
+      "title": "Crypto Emporium",
+      "img": "../static/img/vendors/latest/cryptoemporium.jpg",
+      "link": "cryptoemporium.eu", 
+      "url": "http://cryptoemporium.eu"
+    },
+    {
+      "title": "Incredebites",
+      "img": "../static/img/vendors/latest/incredebites.png",
+      "link": "Incredebites Burbank",
+      "url": "https://www.yelp.com/biz/incredebites-burbank"
+    },
+    {
       "title": "PexPeppers",
       "img": "../static/img/vendors/latest/pexpeppers.png",
       "link": "pexpeppers.com", 
@@ -18,12 +30,7 @@
       "link": "foluxsolutions.com", 
       "url": "https://www.foluxsolutions.com/"
     },
-    {
-      "title": "Incredebites",
-      "img": "../static/img/vendors/latest/incredebites.png",
-      "link": "Incredebites Burbank",
-      "url": "https://www.yelp.com/biz/incredebites-burbank"
-    },
+
     {
       "title": "Nexwave",
       "img": "../static/img/vendors/latest/Nexwave.png",
@@ -191,12 +198,6 @@
       "img": "../static/img/vendors/latest/eliteexteriors.png",
       "link": "eliteexteriors.biz", 
       "url": "http://eliteexteriors.biz"
-    },
-    {
-      "title": "Crypto Emporium",
-      "img": "../static/img/vendors/latest/cryptoemporium.jpg",
-      "link": "cryptoemporium.eu", 
-      "url": "http://cryptoemporium.eu"
     },
     {
       "title": "Hostragon",
