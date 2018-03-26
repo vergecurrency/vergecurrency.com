@@ -149,11 +149,11 @@ function Vendor_Integration(props) {
                 <li>
                   <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/dev-notes.md">
                     <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/dev-notes.md" target="_blank" rel="noopener noreferrer">
-                      {t('wallet-setup:line-036', { defaultValue: 'Can be found here' })}
+                      {t('wallet-setup:line-038', { defaultValue: 'Can be found here' })}
                     </a>
                   </Link>
                 </li>
-                </ul>
+              </ul>
             </div>
           </Content>
         </div>
