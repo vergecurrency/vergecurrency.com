@@ -176,6 +176,10 @@
       }
     }
 
+    &--home {
+         margin-top: -1.5rem;
+    }
+
     &--wraith {
       background-color: #040e15;
       background-image: url(/static/img/key-tech/Wraith.png); // scss-lint:disable UrlQuotes
