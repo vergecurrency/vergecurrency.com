@@ -80,7 +80,7 @@ cd vergecurrency.com-new
 _Install dependencies:_
 
 ```
-yarn
+yarn install
 ```
 
 _Run the application:_
