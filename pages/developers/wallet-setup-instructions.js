@@ -67,17 +67,6 @@ function Vendor_Integration(props) {
                 <li>{t('wallet-setup:line-018', { defaultValue: 'Download the pre-compiled software.' })}</li>
                 <li>{t('wallet-setup:line-019', { defaultValue: 'Double click the DMG' })}</li>
                 <li>{t('wallet-setup:line-020', { defaultValue: 'Drag the Verge-Qt to your Applications folder' })}</li>
-                <li>
-                  {t('wallet-setup:line-021', { defaultValue: 'Install required boost dependency via homebrew' })}
-                  <pre>
-                    <code>
-                      xcode-select --install<br />
-                      ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;<br />
-                      brew doctor<br />
-                      brew install boost
-                    </code>
-                  </pre>
-                </li>
                 <li>{t('wallet-setup:line-022', { defaultValue: 'Double click the Verge-Qt application to open it.' })}</li>
                 <li>{t('wallet-setup:line-023', { defaultValue: 'Go grab a ☕️ while it syncs with the blockchain' })}</li>
                 <li>{t('wallet-setup:line-024', { defaultValue: 'Note: It may look like it is frozen or hung while it is indexing and syncing the blockchain. It\'s not. It\'s chugging away, but currently the UI doesn\'t give you a lot of feedback on status. We\'re working to fix that. Syncing takes a while to complete (ie. > 10 minutes or more) so just be patient.' })}</li>
