@@ -154,7 +154,7 @@ module.exports = {
           include: ['**/*.json', '!**/*.missing.json'],
           basenameAsNamespace: true,
         },
-      },
+      }
     );
     config.plugins.push(new webpack.DefinePlugin({
       'process.env': {
