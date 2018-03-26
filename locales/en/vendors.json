@@ -61,18 +61,6 @@
       "url": "http://www.quantvmstick.com"
     },
     {
-      "title": "VFX Learning",
-      "img": "../static/img/vendors/latest/vfx.png",
-      "link": "vfxlearning.com", 
-      "url": "http://www.vfxlearning.com"
-    },
-    {
-      "title": "Crypto VFX",
-      "img": "../static/img/vendors/latest/CryptoVFX.png",
-      "link": "CryptoVFX.com", 
-      "url": "http://CryptoVFX.com"
-    },
-    {
       "title": "Menke IT - Service",
       "img": "../static/img/vendors/latest/menke.png",
       "link": "menke-it-service.de",
