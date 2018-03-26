@@ -155,95 +155,16 @@ function Vendor_Integration(props) {
                   </Link>
                 </li>
               </ul>
-              <h2>{t('wallet-setup:line-039', { defaultValue: 'Developer Notes' })}</h2>
-              <h3>{t('wallet-setup:line-040', { defaultValue: 'The Easy Method:' })}</h3>
-              <p className="note">
-                {t('wallet-setup:line-041', { defaultValue: 'Note: Sometimes linux user permissions are not set up properly, and causes failed compiling in linux. Please ensure your user has access or do the install from root if these problems arise.' })}
-              </p>
-              <pre>
-                <code>
-                  sudo rm -Rf ~/VERGE  #(if you already have it)<br />
-                  sudo apt-get -y install git && cd ~ && git clone https://github.com/vergecurrency/VERGE && cd VERGE && sh go.sh
-                </code>
-              </pre>
-              <h3>{t('wallet-setup:line-042', { defaultValue: 'The slightly longer version:' })}</h3>
-              <p>
-                {t('wallet-setup:line-043', { defaultValue: 'Install the dependencies. Note: If you are on debian, you will also need to apt-get install libcanberra-gtk-module.' })}
-              </p>
-              <pre>
-                <code>
-                  sudo add-apt-repository ppa:bitcoin/bitcoin<br />
-                  sudo apt-get update<br />
-                  sudo apt-get install \<br />
-                  libdb4.8-dev libdb4.8++-dev build-essential \<br />
-                  libtool autotools-dev automake pkg-config libssl-dev libevent-dev \<br />
-                  bsdmainutils git libboost-all-dev libminiupnpc-dev libqt5gui5 \<br />
-                  libqt5core5a libqt5dbus5 libevent-dev qttools5-dev \<br />
-                  qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev \<br />
-                  libseccomp-dev libcap-dev
-                </code>
-              </pre>
-              <p>{t('wallet-setup:line-044', { defaultValue: 'Clone the git repository and compile the daemon and gui wallet:' })}</p>
-              <pre>
-                <code>
-                  git clone https://github.com/vergecurrency/verge && cd verge && ./autogen.sh && ./configure && make
-                </code>
-              </pre>
-              <p className="note">{t('wallet-setup:line-045', { defaultValue: 'Note: If you get a "memory exhausted" error, make a swap file.' })}</p>
-              <Link href="https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04">
-                <a href="https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04" target="_blank" rel="noopener noreferrer">
-                  (https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
-                </a>
-              </Link>
-              <h3>{t('wallet-setup:line-046', { defaultValue: 'Mac OS X Wallet' })}</h3>
-              <p className="note">{t('wallet-setup:line-047', { defaultValue: 'Note: This has only been confirmed to work on OS X Sierra (10.12) and OS X High Sierra (10.13) with XCode 9.2 and Apple LLVM version 9.0.0 (clang-900.0.39.2).' })}</p>
-              <ol>
+              <h2>{t('wallet-setup:line-035', { defaultValue: 'Developer Notes' })}</h2>
+              <ul>
                 <li>
-                  {t('wallet-setup:line-048', { defaultValue: 'Ensure you have mysql and boost installed.' })}
-                  <pre>
-                    <code>
-                      brew install mysql boost
-                    </code>
-                  </pre>
+                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/dev-notes.md">
+                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/dev-notes.md" target="_blank" rel="noopener noreferrer">
+                      {t('wallet-setup:line-036', { defaultValue: 'Can be found here' })}
+                    </a>
+                  </Link>
                 </li>
-                <li>
-                  {t('wallet-setup:line-049', { defaultValue: 'Ensure you have python 2.7 installed and in your path (OS X comes with this by default)' })}
-                  <pre>
-                    <code>
-                      python --version
-                    </code>
-                  </pre>
-                </li>
-                <li>
-                  {t('wallet-setup:line-050', { defaultValue: 'Export the required environment variables' })}
-                  <pre>
-                    <code>
-                      export VERGE_PLATFORM=&squo;mac&squo;<br />
-                      export CXX=clang++<br />
-                      export CC=clang
-                    </code>
-                  </pre>
-                </li>
-                <li>
-                  {t('wallet-setup:line-051', { defaultValue: 'Run your build commands' })}
-                  <pre>
-                    <code>
-                      ./building/common.sh<br />
-                      ./building/mac/requirements.sh<br />
-                      ./building/mac/build.sh
-                    </code>
-                  </pre>
-                </li>
-                <li>{t('wallet-setup:line-052', { defaultValue: 'Grab a ☕️ and wait it out' })}</li>
-                <li>
-                  {t('wallet-setup:line-053', { defaultValue: 'Create the .dmg file' })}
-                  <pre>
-                    <code>
-                      ./building/mac/dist.sh
-                    </code>
-                  </pre>
-                </li>
-              </ol>
+                </ul>
             </div>
           </Content>
         </div>
