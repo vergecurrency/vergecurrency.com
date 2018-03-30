@@ -10,7 +10,8 @@
     "prestart": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "./node_modules/.bin/eslint . --fix",
-    "deploy": "yarn build"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
