@@ -11,7 +11,7 @@
     "start": "NODE_ENV=production node server.js",
     "lint": "./node_modules/.bin/eslint . --fix",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -t true -d docs"
   },
   "repository": {
     "type": "git",
