@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/sass-lint static/scss",
     "dev": "node server.js",
-    "build": "next build && next export -o docs && echo 'vergecurrency.com' > ./docs/CNAME && echo '' > ./docs/.nojekyll",
+    "build": "next build && next export -o docs && echo 'vergecurrency.com' > docs/CNAME && echo '' > docs/.nojekyll",
     "prestart": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "./node_modules/.bin/eslint . --fix",
