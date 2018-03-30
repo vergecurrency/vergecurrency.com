@@ -4,7 +4,7 @@
   "description": "Built in ReactJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/sass-lint static/scss",
     "dev": "node server.js",
     "build": "next build && next export -o docs",
     "prestart": "next build",
