@@ -1,5 +1,10 @@
 language: node_js
 node_js:
-- "node"
-cache: npm
-script: npm run build
+  - "node"
+
+after_success:
+  - git config --global user.name "StanFaas"
+  - git config --global user.email "stanfaas@gmail.com"
+  - git remote rm origin
+  - git remote add origin https://StanFaas:${GH_TOKEN}@github.com/vergecurrency/vergecurrency.com.git
+  - npm run deploy
