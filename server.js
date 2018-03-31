@@ -12,10 +12,6 @@ const Backend = require('i18next-node-fs-backend');
 const i18n = require('./i18n');
 // const compression = require('compression');
 
-const redirects = [
-  { from: '/donationrewards', to: 'https://goo.gl/forms/NN0yxsqJb3DlMk9C3' },
-];
-
 // init i18next with serverside settings
 // using i18next-express-middleware
 i18n
@@ -49,14 +45,6 @@ i18n
 
         // missing keys
         e.post('/locales/add/:lng/:ns', i18nextMiddleware.missingKeyHandler(i18n));
-
-        redirects.forEach(({
-          from, to, type = 301, method = 'get',
-        }) => {
-          e[method](from, (req, res) => {
-            res.redirect(type, to);
-          });
-        });
 
         // use next.js
         e.get('*', (req, res) => handle(req, res));
