@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/community/send-an-email', function() {
+            var comp = module.exports=webpackJsonp([38],{309:function(e,t,l){e.exports=l(310)},310:function(e,t,l){"use strict";(function(e){function a(e){return e&&e.__esModule?e:{default:e}}function n(e){var t=e.t;return r.default.createElement(f.default,null,r.default.createElement(d.default,null,r.default.createElement("title",{key:"title"},t("common:meta.send-an-email.title",{defaultValue:"Send An Email - VergeCurrency.com"}))),r.default.createElement("div",{className:"learnmore"},r.default.createElement("div",{className:"container"},r.default.createElement(i.default,null,r.default.createElement("div",{className:"rubygems"},r.default.createElement("h1",null,"Send an email"),r.default.createElement("p",null,"contact@vergecurrency.com"))))))}Object.defineProperty(t,"__esModule",{value:!0});var u=l(0),r=a(u),c=l(4),d=a(c),m=l(2),f=a(m),o=l(9),i=a(o),s=l(3),E=l(5),v=a(E),p=(0,s.translate)(["common"],{i18n:v.default,wait:e.browser})(n);t.default=p}).call(t,l(1))}},[309]);
+            return { page: comp.default }
+          })
+        

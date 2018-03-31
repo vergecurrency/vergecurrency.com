@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/community/social', function() {
+            var comp = module.exports=webpackJsonp([37],{311:function(e,t,a){e.exports=a(312)},312:function(e,t,a){"use strict";(function(e){function l(e){return e&&e.__esModule?e:{default:e}}function n(e){var t=e.t;return r.default.createElement(m.default,null,r.default.createElement(d.default,null,r.default.createElement("title",{key:"title"},t("common:meta.social.title",{defaultValue:"Social - VergeCurrency.com"}))),r.default.createElement("div",{className:"learnmore"},r.default.createElement("div",{className:"container"},r.default.createElement(o.default,null,r.default.createElement("div",{className:"rubygems"},r.default.createElement("img",{src:"https://media.discordapp.net/attachments/417250713291194368/418822151521566720/IMG_20180301_182816_834.jpg?width=675&height=663",className:"img-responsive"}))))))}Object.defineProperty(t,"__esModule",{value:!0});var u=a(0),r=l(u),c=a(4),d=l(c),i=a(2),m=l(i),s=a(9),o=l(s),f=a(3),p=a(5),E=l(p),v=(0,f.translate)(["common"],{i18n:E.default,wait:e.browser})(n);t.default=v}).call(t,a(1))}},[311]);
+            return { page: comp.default }
+          })
+        
