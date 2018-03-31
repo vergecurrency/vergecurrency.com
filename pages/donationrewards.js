@@ -1,13 +1,10 @@
 import React from 'react';
+import DonationRedirect from '../components/DonationRedirect';
 
 class DonationRewards extends React.Component {
-  constructor(props) {
-    super(props);
-    window.location.replace('http://stackoverflow.com');
-  }
   render() {
     return (
-      <div />
+      <DonationRedirect />
     );
   }
 }

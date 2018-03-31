@@ -42,6 +42,7 @@ module.exports = {
       '/vendors': { page: '/vendors' },
       '/verge-team': { page: '/verge-team' },
       '/wallets': { page: '/wallets' },
+      '/donationrewards': { page: '/donationrewards' },
     };
   },
 
