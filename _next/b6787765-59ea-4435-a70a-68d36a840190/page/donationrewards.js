@@ -1,6 +1,0 @@
-
-          window.__NEXT_REGISTER_PAGE('/donationrewards', function() {
-            var comp = module.exports=webpackJsonp([14],{327:function(e,t,u){e.exports=u(328)},328:function(e,t,u){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var o=u(11),l=n(o),r=u(7),f=n(r),a=u(8),d=n(a),i=u(12),c=n(i),s=u(13),p=n(s),_=u(0),h=n(_),m=u(329),v=n(m),y=function(e){function t(){return(0,f.default)(this,t),(0,c.default)(this,(t.__proto__||(0,l.default)(t)).apply(this,arguments))}return(0,p.default)(t,e),(0,d.default)(t,[{key:"render",value:function(){return h.default.createElement(v.default,null)}}]),t}(h.default.Component);t.default=y},329:function(e,t,u){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var o=u(11),l=n(o),r=u(7),f=n(r),a=u(8),d=n(a),i=u(12),c=n(i),s=u(13),p=n(s),_=u(0),h=n(_),m=function(e){function t(){return(0,f.default)(this,t),(0,c.default)(this,(t.__proto__||(0,l.default)(t)).apply(this,arguments))}return(0,p.default)(t,e),(0,d.default)(t,[{key:"componentDidMount",value:function(){window.location.replace("https://goo.gl/forms/VchWxA9LmuDMoNRg1")}},{key:"render",value:function(){return!0}}]),t}(h.default.Component);t.default=m}},[327]);
-            return { page: comp.default }
-          })
-        
