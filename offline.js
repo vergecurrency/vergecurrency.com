@@ -10,6 +10,6 @@ if (
       console.error('Error during worker registration: ', e)
     ));
 }
-if (location.protocol != 'https:') {
+if (location.protocol !== 'https:') {
   location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 }
