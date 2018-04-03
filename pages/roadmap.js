@@ -72,6 +72,10 @@ function Roadmap(props) {
                         <b>Q2</b>
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
+                        <h3>Official iOS wallet</h3>
+                        <b>Q2</b>
+                      </li>
+                      <li className="roadmap__item roadmap__item--planned">
                         <h3>I2P Android Wallet</h3>
                         Anonymous mobile transactions over the I2P network<br />
                         <b>Q2</b>
