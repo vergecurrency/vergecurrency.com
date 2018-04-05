@@ -18,6 +18,7 @@ const MiningPools = () => (
               <li><Link href="http://scrypt.ispace.co.uk/coindetails/?coin=xvg&id=79"><a href="http://scrypt.ispace.co.uk/coindetails/?coin=xvg&id=79" target="_blank" rel="noopener noreferrer">[SCRYPT] iSpace Mining Pools</a></Link></li>
               <li><Link href="https://www.mining-dutch.nl/pools/verge.php?page=statistics&action=pool"><a href="https://www.mining-dutch.nl/pools/verge.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] mining-dutch.nl</a></Link></li>
               <li><Link href="http://pool.atomicapool.com/mining_urls"><a href="http://pool.atomicapool.com/mining_urls" target="_blank" rel="noopener noreferrer">[SCRYPT] Atomica Pool</a></Link></li>
+              {/* <li><Link href="http://www.digitalmines.us/"><a href="http://www.digitalmines.us/" target="_blank" rel="noopener noreferrer">[SCRYPT] DigitalMines.us</a></Link></li> */}
               <li><Link href="http://xvg.mastermining.net/index.php?page=statistics&action=pool"><a href="http://xvg.mastermining.net/index.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] MasterMining.net</a></Link></li>
               <li><Link href="https://www.multipool.us/dashboard/pool/xvg"><a href="https://www.multipool.us/dashboard/pool/xvg" target="_blank" rel="noopener noreferrer">[SCRYPT] Multipool.us</a></Link></li>
               <strong>Myr-Groestl</strong>
@@ -28,7 +29,6 @@ const MiningPools = () => (
               <strong>Lyra2Rev2</strong>
               <li><Link href="http://xvg-lyra.idcray.com/"><a href="http://xvg-lyra.idcray.com/" target="_blank" rel="noopener noreferrer">[Lyra2re] IDcray </a></Link></li>
               <li><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">[Lyra2re] ZPool</a></Link></li>
-              {/* <li><Link href="https://xvg-lyra.suprnova.cc/"><a href="https://xvg-lyra.suprnova.cc/" target="_blank" rel="noopener noreferrer"> Suprnova Lyra2REV2</a></Link></li> */}
               <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[Lyra2Rev2] AntMinePool</a></Link></li>
               <strong>Blake2s</strong>
               <li><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">[Blake2s] ZPool</a></Link></li>
