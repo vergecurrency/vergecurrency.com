@@ -22,6 +22,7 @@ const MiningPools = () => (
               <li><Link href="http://xvg.mastermining.net/index.php?page=statistics&action=pool"><a href="http://xvg.mastermining.net/index.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] MasterMining.net</a></Link></li>
               <li><Link href="https://www.multipool.us/dashboard/pool/xvg"><a href="https://www.multipool.us/dashboard/pool/xvg" target="_blank" rel="noopener noreferrer">[SCRYPT] Multipool.us</a></Link></li>
               <strong>Myr-Groestl</strong>
+              <li><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">[myr-groestl] Poolovich </a></Link></li>
               <li><Link href="http://xvg-mg.idcray.com/"><a href="http://xvg-mg.idcray.com/" target="_blank" rel="noopener noreferrer">[myr-groestl] IDcray </a></Link></li>
               <li><Link href="http://www.zpool.ca/site/mining][myr-groestl"><a href="http://www.zpool.ca/site/mining][myr-groestl" target="_blank" rel="noopener noreferrer"> ZPool</a></Link></li>
               <li><Link href="https://profit-pool.org/"><a href="https://profit-pool.org/" target="_blank" rel="noopener noreferrer"> Profit Pool</a></Link></li>
@@ -38,6 +39,7 @@ const MiningPools = () => (
               <li><Link href="http://nlpool.nl"><a href="http://nlpool.nl" target="_blank" rel="noopener noreferrer">[Blake2s] NLpool.nl</a></Link></li>
               <li><Link href="http://luckypool.xyz"><a href="http://luckypool.xyz" target="_blank" rel="noopener noreferrer">[Blake2s] LuckyPool</a></Link></li>
               <strong>x17</strong>
+              <li><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">[x17] Poolovich </a></Link></li>
               <li><Link href="http://yiimp.ccminer.org/"><a href="http://yiimp.ccminer.org/" target="_blank" rel="noopener noreferrer">[x17] Yiimp</a></Link></li>
               <li><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">[x17] ZPool</a></Link></li>
               <li><Link href="https://umine.org"><a href="https://umine.org" target="_blank" rel="noopener noreferrer">[x17] Umine.org</a></Link></li>
