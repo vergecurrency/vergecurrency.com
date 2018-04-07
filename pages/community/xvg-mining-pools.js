@@ -22,12 +22,14 @@ const MiningPools = () => (
               <li><Link href="http://xvg.mastermining.net/index.php?page=statistics&action=pool"><a href="http://xvg.mastermining.net/index.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] MasterMining.net</a></Link></li>
               <li><Link href="https://www.multipool.us/dashboard/pool/xvg"><a href="https://www.multipool.us/dashboard/pool/xvg" target="_blank" rel="noopener noreferrer">[SCRYPT] Multipool.us</a></Link></li>
               <strong>Myr-Groestl</strong>
+	      <li><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">[myr-groestl] HashFaster </a></Link></li>
               <li><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">[myr-groestl] Poolovich </a></Link></li>
               <li><Link href="http://xvg-mg.idcray.com/"><a href="http://xvg-mg.idcray.com/" target="_blank" rel="noopener noreferrer">[myr-groestl] IDcray </a></Link></li>
               <li><Link href="http://www.zpool.ca/site/mining][myr-groestl"><a href="http://www.zpool.ca/site/mining][myr-groestl" target="_blank" rel="noopener noreferrer"> ZPool</a></Link></li>
               <li><Link href="https://profit-pool.org/"><a href="https://profit-pool.org/" target="_blank" rel="noopener noreferrer"> Profit Pool</a></Link></li>
               <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[myr-groestl] AntMinePool</a></Link></li>
               <strong>Lyra2Rev2</strong>
+	      <li><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">[Lyra2re] HashFaster </a></Link></li>
               <li><Link href="http://xvg-lyra.idcray.com/"><a href="http://xvg-lyra.idcray.com/" target="_blank" rel="noopener noreferrer">[Lyra2re] IDcray </a></Link></li>
               <li><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">[Lyra2re] ZPool</a></Link></li>
               <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[Lyra2Rev2] AntMinePool</a></Link></li>
