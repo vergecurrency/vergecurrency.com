@@ -168,8 +168,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li> */}
                     <li>
-                      <Link href="/send-an-email">
-                        <a href="/send-an-email" name="Send an email">{t('footer:send_an_email', { defaultValue: 'Send an email' })}</a>
+                      <Link href="/community/send-an-email/">
+                        <a href="/community/send-an-email/" name="Send an email">{t('footer:send_an_email', { defaultValue: 'Send an email' })}</a>
                       </Link>
                     </li>
                     <li>

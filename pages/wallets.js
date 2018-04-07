@@ -10,11 +10,6 @@ import i18n from '../i18n';
 function WalletsPage(props) {
   const { t } = props;
 
-  const handleScrollToElement = () => {
-    const allWallets = document.getElementById('wallets');
-    window.scrollTo(0, allWallets.offsetTop);
-  };
-
   return (
     <Layout>
       <Head>
@@ -32,13 +27,6 @@ function WalletsPage(props) {
                     your Verge Currency with.
                   </p>
                   <WalletsBtn t={t} />
-                  {/* <button
-                    onClick={() => handleScrollToElement()}
-                    onKeyDown={() => handleScrollToElement()}
-                    className="btn btn-white"
-                  >
-                    See all our wallets
-                  </button> */}
                 </div>
               </div>
             </div>

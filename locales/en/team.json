@@ -17,14 +17,6 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/benji.jpg",
-      "name": "Benji",
-      "role": "Head of Marketing",
-      "occupation": "Content management & PR specialist",
-      "linkedin": "",
-      "twitter": ""
-    },
-    {
       "img": "../static/img/team/spookykid.jpg",
       "name": "SpookyKid",
       "role": "Recruiter and Marketing Advisor",
@@ -123,7 +115,7 @@
     {
       "img": "../static/img/team/verge.jpg",
       "name": "Nick Gaudiano",
-      "role": "Marketing & Media Creator",
+      "role": "Marketing & media",
       "occupation": "Entrepeneur",
       "linkedin": "",
       "twitter": ""

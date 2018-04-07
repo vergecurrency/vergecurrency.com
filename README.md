@@ -1,5 +1,5 @@
-[![VergeCurrency](https://raw.githubusercontent.com/StanFaas/vergecurrency.com-new/templates/static/img/verge-github-badge.png?token=ATeDLCSlmXsYOdjKgTbcVZy2nDAoJr_xks5anSyLwA%3D%3D)](https://github.com/vergecurrency/vergecurrency.com)
-[![Build Status](https://travis-ci.com/StanFaas/vergecurrency.com-new.svg?token=92fFoYC7i7DYVecsmqGv&branch=master)](https://travis-ci.com/StanFaas/vergecurrency.com-new) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/StanFaas/vergecurrency.com-new)
+[![VergeCurrency](https://raw.githubusercontent.com/vergecurrency/vergecurrency.com/master/static/img/verge-github-badge.png)](https://github.com/vergecurrency/vergecurrency.com)
+[![Build Status](https://travis-ci.com/StanFaas/vergecurrency.com-new.svg?token=92fFoYC7i7DYVecsmqGv&branch=master)](https://travis-ci.com/StanFaas/vergecurrency.com-new) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vergecurrency/vergecurrency.com)
 
 # Vergecurrency.com
 
@@ -44,18 +44,21 @@ https://yarnpkg.com/lang/en/docs/install/
 
 ### Linux:
 
+**Ubuntu/Debian**
+
 _NodeJS:_
 
-*Tip:* You need **Ruby**, **GCC** and **Homebrew** before installing NodeJS.
-
 ```
-brew install node
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
 
 _Yarn:_
 
 ```
-brew install yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
 ```
 
 ## Installing
@@ -77,7 +80,7 @@ cd vergecurrency.com-new
 _Install dependencies:_
 
 ```
-yarn
+yarn install
 ```
 
 _Run the application:_
@@ -130,7 +133,7 @@ _Lint all the SCSS files_
 ./node_modules/.bin/sass-lint -c ./.sasslintrc '**/*.scss'
 ```
 
-## Deployment
+## Local deployment
 
 We're using the NextJS build system. To build, just run the following command:
 

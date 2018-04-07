@@ -2,6 +2,9 @@
 dist
 .next
 out/
+docs/*
+!docs/.nojekyll
+!docs/CNAME
 
 # dependencies
 node_modules

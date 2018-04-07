@@ -4,12 +4,14 @@
   "description": "Built in ReactJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/sass-lint static/scss",
     "dev": "node server.js",
-    "build": "next build && next export -o docs",
+    "build": "next build && next export -o docs && echo 'vergecurrency.com' > docs/CNAME && echo '' > docs/.nojekyll",
     "prestart": "next build",
     "start": "NODE_ENV=production node server.js",
-    "lint": "./node_modules/.bin/eslint . --fix"
+    "lint": "./node_modules/.bin/eslint . --fix",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -t true -d docs"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,7 @@
     "cryptowatch-embed": "^0.3.2",
     "css-loader": "^0.28.9",
     "express": "^4.16.2",
+    "gh-pages": "^1.1.0",
     "glob": "^7.1.2",
     "glob-all": "^3.1.0",
     "gulp": "^3.9.1",

@@ -18,7 +18,7 @@
     },
     {
       "name": "OSX TOR Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/releases/download/4.0stealth/VERGE-Qt-1-30-2018.dmg",
+      "url": "https://github.com/vergecurrency/VERGE/releases/download/4.0.2/VERGE-Qt-4-7-2018.dmg",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,

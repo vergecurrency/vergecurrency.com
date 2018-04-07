@@ -1,12 +1,12 @@
 const express = require('express');
-const path = require('path');
+// const path = require('path');
 const next = require('next');
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dir: '.', dev });
 const handle = app.getRequestHandler();
 
-const { createServer } = require('http');
+// const { createServer } = require('http');
 const i18nextMiddleware = require('i18next-express-middleware');
 const Backend = require('i18next-node-fs-backend');
 const i18n = require('./i18n');
@@ -49,22 +49,22 @@ i18n
         // use next.js
         e.get('*', (req, res) => handle(req, res));
 
-        // e.listen(3000, (err) => {
-        //   if (err) throw err;
-        //   console.log('> Ready on http://localhost:3000');
-        // });
-
-        const s = createServer((req, res) => {
-          if (req.url === '/sw.js') {
-            app.serveStatic(req, res, path.resolve('./static/sw.js'));
-          } else {
-            handle(req, res);
-          }
-        });
-
-        s.listen(3000, (err) => {
+        e.listen(3000, (err) => {
           if (err) throw err;
           console.log('> Ready on http://localhost:3000');
         });
+
+        // const s = createServer((req, res) => {
+        //   if (req.url === '/sw.js') {
+        //     app.serveStatic(req, res, path.resolve('./static/sw.js'));
+        //   } else {
+        //     handle(req, res);
+        //   }
+        // });
+
+        // s.listen(3000, (err) => {
+        //   if (err) throw err;
+        //   console.log('> Ready on http://localhost:3000');
+        // });
       });
   });
