@@ -137,6 +137,12 @@
       "title": "Nexchange",
       "link": "nexchange.io",
       "url": "https://nexchange.io"
+    },
+    {
+      "img": "../static/img/exchanges/cryptohub.jpg",
+      "title": "Cryptohub",
+      "link": "cryptohub.online",
+      "url": "https://cryptohub.online/market/XVG/"
     }
   ]
 }
