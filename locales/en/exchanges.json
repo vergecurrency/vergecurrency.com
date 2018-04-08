@@ -19,10 +19,10 @@
       "url": "https://www.southxchange.com/Market/Book/XVG/BTC"
     },
     {
-      "img": "../static/img/exchanges/novaexchange.png",
-      "title": "NovaExchange",
-      "link": "novaexchange.com",
-      "url": "https://novaexchange.com/market/BTC_XVG/"
+      "img": "../static/img/exchanges/godex.png",
+      "title": "Godex",
+      "link": "godex.io",
+      "url": "https://godex.io"
     },
     {
       "img": "../static/img/exchanges/cryptopia.png",
@@ -115,10 +115,10 @@
       "url": "https://coinsready.io"
     },
     {
-      "img": "../static/img/exchanges/godex.png",
-      "title": "Godex",
-      "link": "godex.io",
-      "url": "https://godex.io"
+      "img": "../static/img/exchanges/novaexchange.png",
+      "title": "NovaExchange",
+      "link": "novaexchange.com",
+      "url": "https://novaexchange.com/market/BTC_XVG/"
     },
     {
       "img": "../static/img/exchanges/litebit.png",
