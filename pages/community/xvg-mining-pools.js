@@ -48,7 +48,8 @@ const MiningPools = () => (
               <li><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">[x17] ZPool</a></Link></li>
               <li><Link href="https://umine.org"><a href="https://umine.org" target="_blank" rel="noopener noreferrer">[x17] Umine.org</a></Link></li>
               <li><Link href="http://multipool.sonofatech.com"><a href="http://multipool.sonofatech.com" target="_blank" rel="noopener noreferrer">[x17] Sonofatech.com</a></Link></li>
-              <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[x17] AntMinePool</a></Link></li>
+              <li><Link href="http://nlpool.nl"><a href="http://nlpool.nl" target="_blank" rel="noopener noreferrer">[x17] NLPOOL.NL</a></Link></li>
+	      <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[x17] AntMinePool</a></Link></li>
               <li><Link href="http://verge.carpecrypto.me/"><a href="http://verge.carpecrypto.me/" target="_blank" rel="noopener noreferrer">[x17] CarpeCrypto Verge Pool</a></Link></li>
               <strong>Multi Algorithm (hash to verge)</strong>
               <li><Link href="https://hash-to-coins.com/index.php"><a href="https://hash-to-coins.com/index.php" target="_blank" rel="noopener noreferrer">Hash to Coins</a></Link></li>
