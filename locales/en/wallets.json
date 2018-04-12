@@ -33,14 +33,6 @@
       "os": "Windows"
     },
     {
-      "name": "OSX Electrum Wallet",
-      "url": "https://github.com/vergecurrency/electrum-xvg/releases/download/2.4/electrum-xvg-2.4-macosx.dmg",
-      "classNames": "wallets--icon__apple",
-      "classWhite": "wallets--icon__apple-white",
-      "available": true,
-      "os": "OS X"
-    },
-    {
       "name": "Apple iOS Wallet",
       "url": "#",
       "classNames": "wallets--icon__apple",
@@ -57,28 +49,12 @@
       "os": "OS X"
     },
     {
-      "name": "Windows Electrum Wallet",
-      "url": "https://github.com/vergecurrency/electrum-xvg/releases/download/2.4.1/electrum-xvg-win-amd64.zip",
-      "classNames": "wallets--icon__windows",
-      "classWhite": "wallets--icon__windows-white",
-      "available": true,
-      "os": "Windows"
-    },
-    {
       "name": "Windows Electrum Tor Wallet",
       "url": "https://github.com/vergecurrency/electrum-xvg-tor/releases/download/2.4.1/electrum-xvg-tor-win-amd64.zip",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
       "os": "Windows"
-    },
-    {
-      "name": "Linux Electrum Wallet",
-      "url": "https://github.com/vergecurrency/electrum-xvg",
-      "classNames": "wallets--icon__linux",
-      "classWhite": "wallets--icon__linux-white",
-      "available": true,
-      "os": "Ubuntu"
     },
     {
       "name": "Linux Tor Electrum Wallet",
