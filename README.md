@@ -1,5 +1,5 @@
 [![VergeCurrency](https://raw.githubusercontent.com/vergecurrency/vergecurrency.com/master/static/img/verge-github-badge.png)](https://github.com/vergecurrency/vergecurrency.com)
-[![Build Status](https://travis-ci.com/StanFaas/vergecurrency.com-new.svg?token=92fFoYC7i7DYVecsmqGv&branch=master)](https://travis-ci.com/StanFaas/vergecurrency.com-new) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vergecurrency/vergecurrency.com)
+[![Build Status](https://travis-ci.org/vergecurrency/vergecurrency.com.svg?branch=master)](https://travis-ci.org/vergecurrency/vergecurrency.com) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vergecurrency/vergecurrency.com)
 
 # Vergecurrency.com
 
@@ -68,13 +68,13 @@ Use your favorite terminal to get up and running by following the next steps:
 _Clone the project into a directory on your machine:_
 
 ```
-git clone https://github.com/StanFaas/vergecurrency.com-new.git
+git clone https://github.com/vergecurrency/vergecurrency.com.git
 ```
 
 _Cd into the newly created directory:_
 
 ```
-cd vergecurrency.com-new
+cd vergecurrency.com
 ```
 
 _Install dependencies:_
