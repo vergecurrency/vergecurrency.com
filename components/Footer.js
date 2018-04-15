@@ -145,6 +145,11 @@ const Footer = ({ t }) => (
                         <a href="/community/get-involved" name="Get involved">{t('footer:get_involved', { defaultValue: 'Get involved' })}</a>
                       </Link>
                     </li>
+                    <li>
+                      <Link href="https://vergefora.com">
+                        <a href="https://vergefora.com" target="_blank" rel="noopener noreferrer">{t('header:forums', { defaultValue: 'Forums' })}</a>
+                      </Link>
+                    </li>
                   </ul>
                 </div>
                 <div className="col-xs-6 col-sm-3">
