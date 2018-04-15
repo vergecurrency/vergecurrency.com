@@ -28,6 +28,9 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/presskit">
           <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
         </Link>
+        <Link href="https://vergefora.com">
+          <a href="https://vergefora.com" target="_blank" rel="noopener noreferrer">{t('header:forums', { defaultValue: 'Forums' })}</a>
+        </Link>
         {/* <Link href="/pressreleases">
           <a href="/pressreleases">{t('header:pressreleases', { defaultValue: 'Press Releases' })}</a>
         </Link> */}
