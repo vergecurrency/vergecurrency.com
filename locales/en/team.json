@@ -25,7 +25,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/kris.jpg",
       "name": "Kris Chase",
       "role": "Communications & Marketing Advisor",
       "occupation": "Serial Entrepreneur & Investor",
@@ -33,7 +33,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/greenazn.jpg",
       "name": "Han GreentAzn",
       "role": "Marketing  - Lead Project Manager",
       "occupation": "Digital Marketing Strategist",
@@ -49,10 +49,18 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/kareem.jpg",
       "name": "Kareem",
       "role": "Creative Director (UK) & International Business Ops Manager",
       "occupation": "Creative & Tech",
+      "linkedin": "",
+      "twitter": ""
+    },
+    {
+      "img": "../static/img/team/stanfaas.jpg",
+      "name": "StanFaas",
+      "role": "Lead Web Developer",
+      "occupation": "Sr. Front-end developer",
       "linkedin": "",
       "twitter": ""
     },
@@ -65,7 +73,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/mihael.jpg",
       "name": "Mihael",
       "role": "Community Manager",
       "occupation": "Offshore Marine engineer",
@@ -73,7 +81,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/peter.jpg",
       "name": "Peter Hodges",
       "role": "Media & Visuals Creator",
       "occupation": "Visual Effects, 3D Artist & Film Maker",
@@ -81,7 +89,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/nickgaudiano.jpg",
       "name": "Nick Gaudiano",
       "role": "Media & Visuals Creator; Marketing",
       "occupation": "Entrepeneur",
@@ -97,15 +105,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
-      "name": "StanFaas",
-      "role": "Lead Web Developer",
-      "occupation": "Sr. Front-end developer",
-      "linkedin": "",
-      "twitter": ""
-    },
-    {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/edwin.jpg",
       "name": "EdwinB89",
       "role": "Front-end Developer",
       "occupation": "Front-end developer",
@@ -121,7 +121,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/sourcedexter.jpg",
       "name": "Sourcedexter",
       "role": "Bot developer & India marketing lead",
       "occupation": "Data science engineer",
@@ -129,7 +129,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/yakuza.jpg",
       "name": "Yakuza112",
       "role": "Advisor",
       "occupation": "Webdeveloper",
@@ -137,7 +137,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/arend.jpg",
       "name": "Arend",
       "role": "Marketing and Technology Integration",
       "occupation": "Student and Entrepeneur",
@@ -145,7 +145,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/verge.jpg",
+      "img": "../static/img/team/akashiro.jpg",
       "name": "Akashiro",
       "role": "Tech Support and Integration",
       "occupation": "",
