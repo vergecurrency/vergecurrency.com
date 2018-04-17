@@ -14,6 +14,7 @@ export default class Navbar extends React.Component {
       case '/presskit':
       case '/pressreleases':
       case '/key-tech':
+      case '/get-started':
       {
         window.addEventListener('scroll', this.scrollEvent, true);
         this.scrollEvent();

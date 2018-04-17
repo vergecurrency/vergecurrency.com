@@ -43,6 +43,7 @@ module.exports = {
       '/verge-team': { page: '/verge-team' },
       '/wallets': { page: '/wallets' },
       '/donationrewards': { page: '/donationrewards' },
+      '/get-started': { page: '/get-started' },
     };
   },
 

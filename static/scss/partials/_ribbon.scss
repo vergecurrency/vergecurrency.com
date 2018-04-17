@@ -97,3 +97,11 @@
     }
   }
 }
+.ribbon-getstarted {
+  background: url(/static/img/bg-gettingstarted.png) no-repeat center center;
+  background-size: cover;
+  min-height: rem(930px);
+  min-width: 100%;
+  position: absolute;
+  z-index: -100;
+}
