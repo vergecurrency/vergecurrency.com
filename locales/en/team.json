@@ -22,7 +22,7 @@
       "role": "Online Marketing Strategist",
       "occupation": "Social Media Specialist & Recruiter",
       "linkedin": "",
-      "twitter": ""
+      "twitter": "https://twitter.com/xvgmarketingeu"
     },
     {
       "img": "../static/img/team/kris.jpg",
@@ -49,7 +49,7 @@
       "twitter": ""
     },
     {
-      "img": "../static/img/team/kareem.jpg",
+      "img": "../static/img/team/verge.jpg",
       "name": "Kareem",
       "role": "Creative Director (UK) & International Business Ops Manager",
       "occupation": "Creative & Tech",
@@ -62,7 +62,7 @@
       "role": "Lead Web Developer",
       "occupation": "Sr. Front-end developer",
       "linkedin": "",
-      "twitter": ""
+      "twitter": "https://twitter.com/StanFaas"
     },
     {
       "img": "../static/img/team/cryptogirl.png",
