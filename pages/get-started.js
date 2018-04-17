@@ -157,7 +157,7 @@ function GetStarted(props) {
                   <li>Create a new standard wallet and save your wallet seed (Write it on a notepad and store somewhere safe) and set your wallet password.</li>
                 </ol>
                 <p>Create a new standard wallet and save your wallet seed (Write it on a notepad and store somewhere safe) and set your wallet password.</p>
-                <h3>Recieve XVG</h3>
+                <h3>Receive XVG</h3>
                 <ol type="I">
                   <li>On wallet home screen, click the “Address” tab, copy a address of your choice that you’d like to receive the Verge (XVG).</li>
                   <li>Then, go to “Receive” tab and paste that address into the receiving address space, provide a description and amount of xvg to receive then click save.</li>
