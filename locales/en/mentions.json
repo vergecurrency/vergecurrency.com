@@ -1,27 +1,27 @@
 {
   "mentions": [
     {
-      "url": "https://forbes.com",
+      "url": "https://www.forbes.com/sites/jessedamiani/2017/12/19/crypto-watch-verge-xvg-price-climbs-800-in-a-week-what-is-xvg-and-why-is-it-growing-so-fast/#372615db444e",
       "img": "../static/img/mentioned-in/Forbes.svg",
       "width": "100"
     },
     {
-      "url": "https://theguardian.com",
+      "url": "https://www.theguardian.com/technology/2018/jan/07/bitcoin-crypto-currencies-mcafee",
       "img": "../static/img/mentioned-in/The-Guardian.svg",
       "width": "180"
     },
     {
-      "url": "https://thesun.co.uk",
+      "url": "https://www.thesun.co.uk/money/5180704/verge-price-news-xvg-value-gpb-usd-today-cryptocurrency-bitcoin/",
       "img": "../static/img/mentioned-in/The-Sun.svg",
       "width": "100"
     },
     {
-      "url": "https://www.fool.com",
+      "url": "https://www.fool.com/investing/2017/12/22/meet-verge-a-little-known-cryptocurrency-thats-ris.aspx",
       "img": "../static/img/mentioned-in/The-Motley-Fool.svg",
       "width": "100"
     },
     {
-      "url": "https://cryptovest.com",
+      "url": "https://cryptovest.com/news/xvg-on-the-verge-of-greatness-big-things-could-be-happening-soon-says-the-team/",
       "img": "../static/img/mentioned-in/CryptoVest.svg",
       "width": "150"
     }
