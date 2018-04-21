@@ -49,7 +49,7 @@
       "os": "OS X"
     },
     {
-      "name": "Windows Electrum Tor Wallet",
+      "name": "Windows Tor Electrum Wallet",
       "url": "https://github.com/vergecurrency/electrum-xvg-tor/releases/download/2.4.1/electrum-xvg-tor-win-amd64.zip",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
