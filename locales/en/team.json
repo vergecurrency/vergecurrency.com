@@ -5,23 +5,23 @@
       "name": "Sunerok",
       "role": "Lead Developer",
       "occupation": "Network security and blockchain expert",
-      "linkedin": "",
-      "twitter": ""
+      "github": "https://github.com/justinvforvendetta",
+      "twitter": "https://twitter.com/justinvendetta"
     },
     {
       "img": "../static/img/team/cryptorekt.jpg",
       "name": "CryptoRekt",
       "role": "Technical Writer and Advisor",
       "occupation": "Systems Engineer",
-      "linkedin": "",
-      "twitter": ""
+      "github": "",
+      "twitter": "https://twitter.com/CryptoRekt"
     },
     {
       "img": "../static/img/team/cees.jpg",
       "name": "Cees",
       "role": "Online Marketing Strategist",
       "occupation": "Social Media Specialist & Recruiter",
-      "linkedin": "",
+      "github": "",
       "twitter": "https://twitter.com/xvgmarketingeu"
     },
     {
@@ -29,23 +29,23 @@
       "name": "Kris Chase",
       "role": "Communications & Marketing Advisor",
       "occupation": "Serial Entrepreneur & Investor",
-      "linkedin": "",
-      "twitter": ""
+      "github": "",
+      "twitter": "https://twitter.com/ItsKrisChase"
     },
     {
       "img": "../static/img/team/greenazn.jpg",
       "name": "Han GreentAzn",
       "role": "Marketing  - Lead Project Manager",
       "occupation": "Digital Marketing Strategist",
-      "linkedin": "",
-      "twitter": ""
+      "github": "",
+      "twitter": "https://twitter.com/greentazn"
     },
     {
       "img": "../static/img/team/spookykid.jpg",
       "name": "SpookyKid",
       "role": "Intl. Business Development & Recruiter",
       "occupation": "",
-      "linkedin": "",
+      "github": "",
       "twitter": ""
     },
     {
@@ -53,7 +53,7 @@
       "name": "Kareem",
       "role": "Creative Director (UK) & International Business Ops Manager",
       "occupation": "Creative & Tech",
-      "linkedin": "",
+      "github": "",
       "twitter": ""
     },
     {
@@ -61,7 +61,7 @@
       "name": "StanFaas",
       "role": "Lead Web Developer",
       "occupation": "Sr. Front-end developer",
-      "linkedin": "",
+      "github": "https://github.com/StanFaas",
       "twitter": "https://twitter.com/StanFaas"
     },
     {
@@ -69,47 +69,55 @@
       "name": "Dini",
       "role": "Head of Project Management",
       "occupation": "PM Health & Tech",
-      "linkedin": "",
-      "twitter": ""
+      "github": "",
+      "twitter": "https://twitter.com/CryptoXVGGirl"
     },
     {
       "img": "../static/img/team/mihael.jpg",
       "name": "Mihael",
       "role": "Community Manager",
       "occupation": "Offshore Marine engineer",
-      "linkedin": "",
-      "twitter": ""
+      "github": "",
+      "twitter": "https://twitter.com/mihael_xvg"
     },
     {
       "img": "../static/img/team/peter.jpg",
       "name": "Peter Hodges",
       "role": "Media & Visuals Creator",
       "occupation": "Visual Effects, 3D Artist & Film Maker",
-      "linkedin": "",
-      "twitter": ""
+      "github": "",
+      "twitter": "https://twitter.com/peterisanartist"
     },
     {
       "img": "../static/img/team/nickgaudiano.jpg",
       "name": "Nick Gaudiano",
       "role": "Media & Visuals Creator; Marketing",
       "occupation": "Entrepeneur",
-      "linkedin": "",
-      "twitter": ""
+      "github": "",
+      "twitter": "https://twitter.com/XVGGAUDI"
     },
     {
       "img": "../static/img/team/hassan.png",
       "name": "Hassan",
       "role": "Lead UI Designer & Graphics",
       "occupation": "UI/UX Designer & Webdesigner",
-      "linkedin": "",
-      "twitter": ""
+      "github": "",
+      "twitter": "https://twitter.com/waveon3"
+    },
+    {
+      "img": "../static/img/team/phanti.jpg",
+      "name": "Phanti",
+      "role": "Vendor & exchange outreach / Finance",
+      "occupation": "Banking & Finance",
+      "github": "",
+      "twitter": "https://twitter.com/PhanTi_91"
     },
     {
       "img": "../static/img/team/edwin.jpg",
       "name": "EdwinB89",
       "role": "Front-end Developer",
       "occupation": "Front-end developer",
-      "linkedin": "",
+      "github": "https://github.com/EdwinB89",
       "twitter": ""
     },
     {
@@ -117,7 +125,7 @@
       "name": "Maeotsu",
       "role": "Graphic designer",
       "occupation": "",
-      "linkedin": "",
+      "github": "",
       "twitter": ""
     },
     {
@@ -125,7 +133,7 @@
       "name": "Sourcedexter",
       "role": "Bot developer & India marketing lead",
       "occupation": "Data science engineer",
-      "linkedin": "",
+      "github": "",
       "twitter": ""
     },
     {
@@ -133,15 +141,15 @@
       "name": "Yakuza112",
       "role": "Advisor",
       "occupation": "Webdeveloper",
-      "linkedin": "",
-      "twitter": ""
+      "github": "https://github.com/Yakuza112",
+      "twitter": "https://twitter.com/Yakuza112"
     },
     {
       "img": "../static/img/team/arend.jpg",
       "name": "Arend",
       "role": "Marketing and Technology Integration",
       "occupation": "Student and Entrepeneur",
-      "linkedin": "",
+      "github": "",
       "twitter": ""
     },
     {
@@ -149,7 +157,7 @@
       "name": "Akashiro",
       "role": "Tech Support and Integration",
       "occupation": "",
-      "linkedin": "",
+      "github": "",
       "twitter": ""
     },
     {
@@ -157,7 +165,7 @@
       "name": "XVGMonk",
       "role": "Tech Support and Integration",
       "occupation": "",
-      "linkedin": "",
+      "github": "",
       "twitter": ""
     }
   ]
