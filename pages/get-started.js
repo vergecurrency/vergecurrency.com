@@ -144,7 +144,7 @@ function GetStarted(props) {
                 <Link href="/wallets">
                   <a href="/wallets" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'Download Wallets here' })}</a>
                 </Link>
-                <img src="/static/img/get-started/verge-wallet.png" alt="verge wallet" />
+                <img src="/static/img/get-started/verge-wallet-electrum.png" alt="verge electrum wallet" />
               </div>
             </div>
             <div className="row start-xs intro pt">
