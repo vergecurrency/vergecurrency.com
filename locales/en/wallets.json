@@ -17,7 +17,7 @@
       "os": "Android"
     },
     {
-      "name": "OSX TOR Wallet",
+      "name": "OSX Tor QT Wallet",
       "url": "https://github.com/vergecurrency/VERGE/releases/download/4.0.2/VERGE-Qt-4-7-2018.dmg",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
@@ -25,7 +25,7 @@
       "os": "OS X"
     },
     {
-      "name": "Windows TOR Wallet",
+      "name": "Windows Tor QT Wallet",
       "url": "https://github.com/vergecurrency/VERGE/releases/download/4.0.2/release_windows.zip",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
