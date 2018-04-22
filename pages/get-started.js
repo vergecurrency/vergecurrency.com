@@ -159,7 +159,7 @@ function GetStarted(props) {
                 <p>Create a new standard wallet and save your wallet seed (Write it on a notepad and store somewhere safe) and set your wallet password.</p>
                 <h3>Receive XVG</h3>
                 <ol type="I">
-                  <li>On wallet home screen, click the “Address” tab, copy a address of your choice that you’d like to receive the Verge (XVG).</li>
+                  <li>On wallet home screen, click the “Address” tab, copy an address of your choice that you’d like to receive the Verge (XVG).</li>
                   <li>Then, go to “Receive” tab and paste that address into the receiving address space, provide a description and amount of xvg to receive then click save.</li>
                   <li>Proceed to send your Verge (XVG) to that address you just copied from the designated platform you’re sending from.</li>
                 </ol>
@@ -170,7 +170,7 @@ function GetStarted(props) {
                 <p>Done!</p>
                 <div className="protip protip-white">
                   <div className="text">
-                    <strong>Protip:</strong> Be sure to hand write or print out your recovery phrases, loosing this will result in permanent loss of coins from your wallet.
+                    <strong>Protip:</strong> Be sure to hand write or print out your recovery phrases, losing this will result in permanent loss of coins from your wallet.
                   </div>
                 </div>
               </div>
