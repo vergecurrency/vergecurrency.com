@@ -15,7 +15,7 @@ function VendorsPage(props) {
       <Head>
         <title key="title">{t('common:meta.vendors.title', { defaultValue: 'Vendors - VergeCurrency.com' })}</title>
       </Head>
-      <div className="vendors pt-large pb">
+      <div className="themed-container__gray themed-container__gray--roadmap">
         <div className="container">
           <div className="intro pt pb">
             <div className="row center-xs middle-xs">
