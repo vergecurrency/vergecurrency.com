@@ -37,10 +37,11 @@
       }
 
       .icon {
-        height: 20px;
-        width: 20px;
+        height: 16px;
+        width: 16px;
         display: block;
         background-size: cover;
+        margin-top: 2px;
         &.iconlink {
           margin-left: 10px;
         }
