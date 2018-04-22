@@ -120,7 +120,7 @@ function WalletsPage(props) {
               <div className="pt-xs">
                 <h2>
                   Wraith Protocol is a technology that allows the user to seamlessly
-                  switch between public And private ledgers on the Verge Blockchain.
+                  switch between public and private ledgers on the Verge Blockchain.
                   For the first time, users are now free to choose which ledger they want to utilize.
                 </h2>
               </div>
