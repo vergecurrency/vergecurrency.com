@@ -38,8 +38,8 @@ function VendorsPage(props) {
                   </h3>
                 </div>
                 <div className="col-xs-12 col-sm-4 end-sm">
-                  <Link href="/get-verge">
-                    <a href="/get-verge" className="btn btn-primary">Accept Verge today</a>
+                  <Link href="https://vergecurrency.com/developers/verge-vendor-integration/">
+                    <a href="https://vergecurrency.com/developers/verge-vendor-integration/" className="btn btn-primary">Accept Verge today</a>
                   </Link>
                 </div>
               </div>
