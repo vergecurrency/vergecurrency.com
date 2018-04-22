@@ -103,17 +103,6 @@ function WalletsPage(props) {
               </div>
             </div>
           </div>
-
-          <div className="guide">
-            <div className="row center-xs middle-xs">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/R48e1mp_5qA"
-                title="Verge YouTube video"
-              />
-            </div>
-          </div>
           <div className="row center-xs middle-xs pt-large pb-large intro">
             <div className="col-xs-10 col-sm-6">
               <span className="spaced">WRAITH PROTOCOL</span>
