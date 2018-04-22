@@ -1,6 +1,18 @@
 {
   "vendors": [
     {
+      "title": "PornHub",
+      "img": "../static/img/vendors/latest/PornHub_MG.png",
+      "link": "PornHub.com (+18)", 
+      "url": "https://pornhub.com/"
+    },
+    {
+      "title": "Brazzers",
+      "img": "../static/img/vendors/latest/Brazzers_MG.png",
+      "link": "Brazzers.com (+18)", 
+      "url": "https://brazzers.com/"
+    },
+    {
       "title": "Fractal Visuals",
       "img": "../static/img/vendors/latest/FractalVisuals.png",
       "link": "FractalVisuals.com", 
