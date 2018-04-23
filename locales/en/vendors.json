@@ -48,12 +48,17 @@
       "link": "foluxsolutions.com", 
       "url": "https://www.foluxsolutions.com/"
     },
-
     {
       "title": "Nexwave",
       "img": "../static/img/vendors/latest/Nexwave.png",
       "link": "Nexwave.ca",
       "url": "https://Nexwave.ca"
+    },
+    {
+      "title": "Bulldesign",
+      "img": "../static/img/vendors/latest/bulldesign.png",
+      "link": "Bulldesign.dk",
+      "url": "https://bulldesign.dk"
     },
     {
       "title": "Trebaltek",
