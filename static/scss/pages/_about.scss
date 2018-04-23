@@ -24,6 +24,10 @@
       .flexIt {
         display: flex;
         justify-content: start;
+
+        @media screen and (max-width:767px) {
+          justify-content: center;
+        }
       }
 
       h3 {
