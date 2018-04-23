@@ -28,7 +28,7 @@ export const Mentions = () => {
 
 export const FullMentions = () => {
   const fullmentions = mentionLocale.map(x => (
-    <div className="col-xs-12 col-sm-4 start-xs pb-xs" key={x.url}>
+    <div className="col-xs-12 col-sm-4 start-xs pb-xs pb" key={x.url}>
       <div className="row">
         <div className="col-xs-12 coverage--logo">
           <Link href={x.url}>
@@ -39,11 +39,13 @@ export const FullMentions = () => {
             </a>
           </Link>
         </div>
-        <div className="col-xs-12">
+        <div className="col-xs-12 coverage--text">
           <Link href={x.url}>
             <a href={x.url} className="date">
-              <h4 dangerouslySetInnerHTML={{ __html: x.title }} />
-              <Moment format="MMMM Do YYYY">{x.date}</Moment> - Read
+              <div>
+                <h4 dangerouslySetInnerHTML={{ __html: x.title }} />
+                <Moment format="MMMM Do YYYY">{x.date}</Moment> - Read
+              </div>
             </a>
           </Link>
         </div>
@@ -52,7 +54,7 @@ export const FullMentions = () => {
   ));
 
   return (
-    <div className="row around-xs pt-small pb pb-xs-0">
+    <div className="row start-xs pt-small pb pb-xs-0">
       {fullmentions}
     </div>
   );

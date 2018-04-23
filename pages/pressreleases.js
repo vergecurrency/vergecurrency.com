@@ -77,14 +77,14 @@ function Pressreleases(props) {
 
         <div className="themed-container themed-container--pressreleases">
           <div className="container pb pb-xs-0">
-            <div className="row center-xs latest pb">
-              <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
+            <div className="row center-xs previous pb pt">
+              <div className="col-xs-11 start-xs">
                 <h2>Press releases</h2>
 
                 <MediumPosts />
               </div>
             </div>
-            <div className="row center-xs coverage pt pb">
+            <div className="row center-xs coverage">
               <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
                 <h2>Press coverage</h2>
 
@@ -105,40 +105,6 @@ function Pressreleases(props) {
             </div>
 
             <div className="container">
-              <div className="row pt center-xs previous">
-                <div className="col-xs-11 center-xs">
-                  <div className="pb-small">
-                    <Link href="/blog">
-                      <a href="/blog" className="to-blog">Go to the blog</a>
-                    </Link>
-                  </div>
-
-                  <div className="row center-xs previous">
-                    <div className="col-xs-11 col-sm-7 center-xs">
-                      <h3>
-                        Check out our blog and to find out what is happening with Verge.
-                      </h3>
-                    </div>
-                  </div>
-                  <div className="row around-xs pt">
-                    <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                      <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
-                      <h4>Update on Wraith. The release of Verge Core..</h4>
-                      <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
-                    </div>
-                    <div className="col-xs-12 col-sm-4 start-xs pb-xs">
-                      <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
-                      <h4>Meet the Verge Team and Our Future Vision</h4>
-                      <p>We have been extremely busy over the last few months and it’s finally time to introduce the team and share our future vision.</p>
-                    </div>
-                    <div className="col-xs-12 col-sm-4 start-xs">
-                      <Moment format="MMMM Do YYYY" className="date">1 jan 2018</Moment>
-                      <h4>Verge Moves Towards Decentralized Future</h4>
-                      <p>Recently we have witnessed an increasing number of problems related to centralised crypto-exchanges.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div className="row center-xs social">
                 <div className="col-xs-11 center-xs">
                   <div className="row around-xs pt">

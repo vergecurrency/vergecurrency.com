@@ -46,6 +46,17 @@
         max-height: 2rem;
         max-width: rem(184px);
       }
+
+      a {
+        display: flex;
+      }
+    }
+
+    &--text {
+      a {
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     h2 {
@@ -102,6 +113,7 @@
       color: #475056;
       font-size: .75rem;
       font-style: italic;
+      margin-bottom: 0;
     }
   }
 }
