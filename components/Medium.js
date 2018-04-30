@@ -31,7 +31,7 @@ class MediumPosts extends React.Component {
       return content;
     };
     return (
-      <div className="row around-xs start-sm pt-small pb">
+      <div className="row around-xs start-sm pt-small pb mentions--medium">
         {
           this.state.pressreleases.map(x => (
             <div className="col-xs-12 col-sm-4 start-xs pb-xs pt-small pb" key={x.title}>
