@@ -8,6 +8,7 @@
   padding-top: 12rem;
   position: relative;
 
+  &__transparent,
   &__dark,
   &__blue,
   &__gray,
@@ -83,6 +84,22 @@
     color: #4e5c66;
   }
 
+  &__transparent {
+    background-color: transparent;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+
+    &--meetup {
+
+      @media (min-width: $min-width-sm) {
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-image: url(/static/img/meetup/ship.png); // scss-lint:disable UrlQuotes
+      }
+    }
+  }
+
   &__blue {
     background-color: #daf0ff;
     padding-bottom: 6rem;
@@ -153,6 +170,7 @@
     }
 
     &--home,
+    &--meetup,
     &--wraith {
       background-color: #07121b;
       margin-top: -16rem;
@@ -178,6 +196,19 @@
         font-size: rem(13px);
         font-weight: 400;
         margin-bottom: 1rem;
+      }
+    }
+
+    &--meetup {
+      margin-top: 0;
+
+      h3 {
+        font-size: rem(30px);
+        margin-bottom: 2rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
     }
 
