@@ -95,6 +95,14 @@ p {
   }
 }
 
+.text--larger {
+  font-size: rem(20px);
+}
+
+.text--smaller {
+  font-size: rem(14px);
+}
+
 #layout { // scss-lint:disable IdSelector
   overflow: hidden;
 }
