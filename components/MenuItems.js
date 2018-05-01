@@ -31,10 +31,10 @@ const MenuItems = ({ t }) => (
         <Link href="https://vergefora.com">
           <a href="https://vergefora.com" target="_blank" rel="noopener noreferrer">{t('header:forums', { defaultValue: 'Forums' })}</a>
         </Link>
-        <Link href="/pressreleases">
+        <Link prefetch href="/pressreleases">
           <a href="/pressreleases">{t('header:pressreleases', { defaultValue: 'Press Releases' })}</a>
         </Link>
-        <Link href="/meetup">
+        <Link prefetch href="/meetup">
       <a href="/meetup">{t('header:meetup', { defaultValue: 'Meetup' })}</a>
     </Link>
       </div>
