@@ -19,6 +19,12 @@
       "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-XVG"
     },
     {
+      "img": "../static/img/exchanges/bitfinex.png",
+      "title": "Bitfinex",
+      "link": "bitfinex.com",
+      "url": "https://bitfinex.com"
+    },
+    {
       "img": "../static/img/exchanges/fexpro.png",
       "title": "FexPro",
       "link": "fexpro.io",
