@@ -1,0 +1,138 @@
+.meetup {
+  @media (min-width: $min-width-sm) {
+    background-color: #EFF3F6;
+    background-image: url(/static/img/meetup/verge-meetup-top.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+
+    &__counters {
+      background-color: #EFF3F6;
+    }
+  }
+
+  &--bottom {
+    background: url(/static/img/meetup/meetup-bottom.png) bottom center no-repeat;
+    height: 12rem;
+    background-size: 640px;
+  }
+
+  &__counter-number {
+    font-size: rem(60px);
+    color: $picton-blue;
+  }
+
+  &--ribbon {
+    @media (min-width: $min-width-sm) {
+      height: 80vh;
+
+      p {
+        color: white;
+        margin-bottom: 2rem;
+      }
+    }
+
+    h1 {
+      @media (min-width: $min-width-sm) {
+        color: white;
+        margin-top: rem(40px);
+      }
+
+      font-size: rem(52px);
+      margin-bottom: 1rem;
+
+      span {
+        color: $picton-blue;
+      }
+    }
+  }
+
+  &--programme {
+    h2 {
+      font-size: rem(24px);
+
+      @media (min-width: $min-width-sm) {
+        font-size: rem(30px);
+      }
+
+      span {
+        color: $picton-blue;
+      }
+    }
+  }
+
+  &--tickets {
+    h2 {
+      font-size: rem(28px);
+
+      @media (min-width: $min-width-sm) {
+        font-size: rem(36px);
+      }
+
+      span {
+        color: $picton-blue;
+      }
+    }
+
+    .col--ticket {
+      background: white;
+      box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .67);
+      padding: 2rem;
+    }
+  }
+
+  &--media {
+    h2 {
+      font-size: rem(28px);
+
+      @media (min-width: $min-width-sm) {
+        font-size: rem(36px);
+      }
+
+      span {
+        color: $picton-blue;
+      }
+    }
+
+    .col--fullheight {
+      position: relative;
+
+      img {
+        margin-bottom: 1rem;
+
+        @media (min-width: $min-width-sm) {
+          margin-bottom: rem(18px);
+        }
+
+        @media (min-width: $min-width-md) {
+          margin-bottom: rem(23px);
+        }
+
+        @media (min-width: $min-width-lg) {
+          margin-bottom: rem(27px);
+        }
+
+        // position: absolute;
+
+        &:first-child {
+          // margin-bottom: rem(27px);
+          // top: 0;
+        }
+
+        &:last-child {
+          // bottom: 0;
+        }
+
+        &:first-child:last-child {
+          // position: static;
+          // margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .tickets__price {
+    font-size: rem(36px);
+    color: $picton-blue;
+  }
+}
