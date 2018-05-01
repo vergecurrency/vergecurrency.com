@@ -121,6 +121,11 @@ const Footer = ({ t }) => (
                       <h4>{t('footer:subheading.community', { defaultValue: 'COMMUNITY' })}</h4>
                     </li>
                     <li>
+                      <Link href="/meetup">
+                        <a href="/meetup" name="Meetup">{t('footer:meetup', { defaultValue: 'Meetup' })}</a>
+                      </Link>
+                    </li>
+                    <li>
                       <Link href="/developers">
                         <a href="/developers" name="Developers">{t('footer:developers', { defaultValue: 'Developers' })}</a>
                       </Link>
