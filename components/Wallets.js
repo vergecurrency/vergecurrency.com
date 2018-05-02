@@ -18,15 +18,15 @@ function Wallets() {
                 <span>{x.available ? 'Download here' : 'Available soon!'}</span>
               </div>
             </a>
-		  </Link>		  
-		  <br />
+	   </Link>		  
+          <br />
           <Link href={x.url2}>
             <a href={x.url2} target="_blank" rel="noopener noreferrer">
               <div className="wallets--text">			
 			   <span>{x.availableinstructions ? 'Install Instructions' : 'Instructions available soon!'}</span>
 			  </div>
             </a>
-          </Link>		  
+           </Link>		  
         </div>
       );
     }
