@@ -22,7 +22,7 @@ i18n
 
     // need to preload all the namespaces
     // add more namespaces as pages are created
-    ns: ['common', 'header', 'footer', 'home', 'presskit', 'pressreleases'],
+    ns: ['common', 'header', 'footer', 'home', 'presskit', 'pressreleases', 'meetup'],
     backend: {
       loadPath: `${__dirname}/locales/{{lng}}/{{ns}}.json`,
       addPath: `${__dirname}/locales/{{lng}}/{{ns}}.missing.json`,

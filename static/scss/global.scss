@@ -60,6 +60,7 @@ $colors: (
 @import 'partials/sidebar';
 @import 'partials/benefits';
 @import 'partials/reason';
+@import 'partials/mentions';
 
 //Pages
 @import 'pages/home';
@@ -75,6 +76,7 @@ $colors: (
 @import 'pages/vendors';
 @import 'pages/key-tech';
 @import 'pages/getstarted';
+@import 'pages/meetup';
 
 @import 'partials/learnmore';
 @import 'partials/markdown';

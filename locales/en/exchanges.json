@@ -1,16 +1,40 @@
 {
   "exchanges": [
     {
+      "img": "../static/img/exchanges/binance.svg",
+      "title": "Binance",
+      "link": "binance.com",
+      "url": "https://binance.com"
+    },
+    {
       "img": "../static/img/exchanges/bittrex-192.png",
       "title": "Bittrex",
       "link": "bittrex.com",
       "url": "https://bittrex.com"
     },
     {
-      "img": "../static/img/exchanges/binance.svg",
-      "title": "Binance",
-      "link": "binance.com",
-      "url": "https://binance.com"
+      "img": "../static/img/exchanges/upbit.png",
+      "title": "UPBit",
+      "link": "uptbit.com",
+      "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-XVG"
+    },
+    {
+      "img": "../static/img/exchanges/fexpro.png",
+      "title": "FexPro",
+      "link": "fexpro.io",
+      "url": "https://fexpro.io/Home/Exchange?type=XVG/BTC&buytype=BTC"
+    },
+    {
+      "img": "../static/img/exchanges/hitbtc.png",
+      "title": "HitBTC",
+      "link": "hitbtc.com",
+      "url": "https://hitbtc.com/XVG-to-BTC"
+    },
+    {
+      "img": "../static/img/exchanges/cryptopia.png",
+      "title": "Cryptopia",
+      "link": "cryptopia.co.nz",
+      "url": "https://www.cryptopia.co.nz/Exchange/?market=XVG_BTC"
     },
     {
       "img": "../static/img/exchanges/southxchange.png",
@@ -23,12 +47,6 @@
       "title": "Godex",
       "link": "godex.io",
       "url": "https://godex.io"
-    },
-    {
-      "img": "../static/img/exchanges/cryptopia.png",
-      "title": "Cryptopia",
-      "link": "cryptopia.co.nz",
-      "url": "https://www.cryptopia.co.nz/Exchange/?market=XVG_BTC"
     },
     {
       "img": "../static/img/exchanges/coinspot.png",
@@ -53,18 +71,6 @@
       "title": "CoinWale",
       "link": "coinwale.com",
       "url": "https://coinwale.com"
-    },
-    {
-      "img": "../static/img/exchanges/hitbtc.png",
-      "title": "HitBTC",
-      "link": "hitbtc.com",
-      "url": "https://hitbtc.com/XVG-to-BTC"
-    },
-    {
-      "img": "../static/img/exchanges/upbit.png",
-      "title": "UPBit",
-      "link": "uptbit.com",
-      "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-XVG"
     },
     {
       "img": "../static/img/exchanges/changelly.png",
