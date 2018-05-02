@@ -7,6 +7,12 @@
       "url": "https://binance.com"
     },
     {
+      "img": "../static/img/exchanges/bitfinex.jpg",
+      "title": "Bitfinex",
+      "link": "bitfinex.com",
+      "url": "https://www.bitfinex.com/"
+    },
+    {
       "img": "../static/img/exchanges/bittrex-192.png",
       "title": "Bittrex",
       "link": "bittrex.com",
