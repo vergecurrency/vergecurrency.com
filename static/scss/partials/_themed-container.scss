@@ -90,26 +90,12 @@
     padding-top: 6rem;
 
     &--meetup {
+
       @media (min-width: $min-width-sm) {
-        background-image: url(/static/img/meetup/ship.png); // scss-lint:disable UrlQuotes
-        background-position: right 32.5%;
+        background-position: center right;
         background-repeat: no-repeat;
-        background-size: 47.5%;
-        transition: .2s all;
-
-        a {
-          min-height: rem(256px);
-        }
-      }
-
-      @media (min-width: $min-width-md) {
-        background-position: right 37.5%;
-        background-size: 55%;
-      }
-
-      @media (min-width: $min-width-lg) {
-        background-position: 90% 35%;
         background-size: 50%;
+        background-image: url(/static/img/meetup/ship.png); // scss-lint:disable UrlQuotes
       }
     }
   }

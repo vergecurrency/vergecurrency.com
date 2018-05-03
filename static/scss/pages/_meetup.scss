@@ -1,14 +1,50 @@
 .meetup {
+  @media (min-width: $min-width-sm) {
+    background-color: #EFF3F6;
+    background-image: url(/static/img/meetup/verge-meetup-top.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+
+    &__counters {
+      background-color: #EFF3F6;
+    }
+  }
+
   &--bottom {
     background: url(/static/img/meetup/meetup-bottom.png) bottom center no-repeat;
-    background-size: rem(640px);
     height: 12rem;
+    background-size: 640px;
   }
 
   &__counter-number {
-    color: $picton-blue;
     font-size: rem(60px);
-    font-weight: 500;
+    color: $picton-blue;
+  }
+
+  &--ribbon {
+    @media (min-width: $min-width-sm) {
+      height: 80vh;
+
+      p {
+        color: white;
+        margin-bottom: 2rem;
+      }
+    }
+
+    h1 {
+      @media (min-width: $min-width-sm) {
+        color: white;
+        margin-top: rem(40px);
+      }
+
+      font-size: rem(52px);
+      margin-bottom: 1rem;
+
+      span {
+        color: $picton-blue;
+      }
+    }
   }
 
   &--programme {
@@ -40,35 +76,8 @@
 
     .col--ticket {
       background: white;
-      box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .33);
-      margin-bottom: 2rem;
+      box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .67);
       padding: 2rem;
-
-      @media (min-width: $min-width-sm) {
-        margin-bottom: 0;
-        padding: rem(24px);
-      }
-
-      @media (min-width: $min-width-md) {
-        box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .5);
-        padding: 2rem;
-      }
-
-      &:nth-of-type(2) {
-        z-index: 1;
-
-        @media (min-width: $min-width-sm) {
-          box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .5);
-        }
-      }
-
-      &:last-of-type {
-        margin-bottom: 0;
-      }
-
-      .btn {
-        width: 100%;
-      }
     }
   }
 
@@ -102,12 +111,28 @@
         @media (min-width: $min-width-lg) {
           margin-bottom: rem(27px);
         }
+
+        // position: absolute;
+
+        &:first-child {
+          // margin-bottom: rem(27px);
+          // top: 0;
+        }
+
+        &:last-child {
+          // bottom: 0;
+        }
+
+        &:first-child:last-child {
+          // position: static;
+          // margin-bottom: 0;
+        }
       }
     }
   }
 
   .tickets__price {
-    color: $picton-blue;
     font-size: rem(36px);
+    color: $picton-blue;
   }
 }
