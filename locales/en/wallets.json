@@ -16,7 +16,7 @@
       "available": true,
       "os": "Android",
       "url2": "https://www.youtube.com/watch?v=K26u9_Qg9_E",
-      "availableinstructions": true	  
+      "availableinstructions": true
     },
     {
       "name": "OSX Tor QT Wallet",
@@ -36,7 +36,7 @@
       "available": true,
       "os": "Windows",
       "url2": "https://github.com/vergecurrency/VERGE/wiki/Windows-Verge-QT-Wallet-Beginner's-Guide",
-      "availableinstructions": true	  
+      "availableinstructions": true
     },
     {
       "name": "Apple iOS Wallet",
@@ -87,6 +87,6 @@
       "os": "Ubuntu",
       "url2": "https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-linux.md",
       "availableinstructions": true
-    }    
+    }
   ]
 }

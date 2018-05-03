@@ -50,8 +50,9 @@
 
   &--item {
     margin: rem(15px) 0;
+    white-space: nowrap;
 
-    a {
+    > div {
       display: flex;
     }
 
@@ -62,6 +63,7 @@
   }
 
   &--icon {
+    display: inline-block;
     height: rem(42px);
     margin-right: rem(20px);
     position: relative;
@@ -153,15 +155,35 @@
   }
 
   &--text {
-    h4 {
+    display: inline-block;
+
+    > a {
+      color: #797979;
+      display: block;
+      font-size: rem(13px);
+    }
+
+    h4, h4 a {
       color: #000;
-      line-height: rem(14px);
       margin-bottom: 0;
     }
 
-    span {
-      color: #797979;
-      font-size: rem(13px);
+    > a {
+      transition: .2s all;
+
+      &:hover {
+        color: $picton-blue;
+      }
+    }
+
+    @at-root .wallets--item__disabled & {
+      a {
+        cursor: default;
+      }
+
+      > a:hover {
+        color: #797979;
+      }
     }
   }
 }
