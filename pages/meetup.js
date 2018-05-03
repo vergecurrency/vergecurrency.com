@@ -12,26 +12,35 @@ function Meetup(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">{t('common:meta.meetup.title', { defaultValue: 'Verge Meetup - VergeCurrency.com' })}</title>
+        <title key="title">{t('common:meta.meetup.title', { defaultValue: 'The First Verge Meetup in Amsterdam 9th of June, 2018 - VergeCurrency.com' })}</title>
+        <meta key="description" name="description" content={t('common:meta.meetup.description', { defaultValue: 'The meet-up will take place on the 9th of June in Amsterdam, the capital of the Netherlands, and will take place on a boat, which we will cruise on through the Amsterdam canals.' })} />
         <script src="https://www.universe.com/embed2.js" data-state=""></script>
       </Head>
       <div className="meetup pt-large pb">
-        <div className="container">
-          <div className="row center-xs start-sm middle-xs pt pb">
-            <div className="col-xs-10 col-sm-9 col-md-8 meetup--ribbon">
-              <h1>The First Verge Meetup in <span>Amsterdam</span> 9th of June, 2018</h1>
-              <p>We are really pleased to announce that we will be holding the very first Verge meet-up ever!</p>
-              <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
+        <div className="ribbon ribbon--meetup">
+          <div className="ribbon-img" />
+
+          <div className="container">
+            <div className="row center-xs">
+              <div className="col-xs-10 col-sm-9 text-center">
+                <div className="ribbon-txt">
+                  <h1>Join The First Verge Meetup in <span>Amsterdam</span> June 9th, 2018</h1>
+                  <p>We are really pleased to announce that we will be <br className="hidden-xs" />holding the very first Verge meet-up ever!</p>
+                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
 
+        <div className="container">
           <div className="row center-xs middle-xs pt">
             <div className="col-xs-10 pb bb">
               <div className="meetup__counters">
                 <div className="row">
                   <div className="col-xs-6 col-sm-3 pb">
                     <div className="meetup__counter-number">600</div>
-                    <div className="meetup__counter-text">Tickets Available</div>
+                    <div className="meetup__counter-text">tickets available</div>
                   </div>
                   <div className="col-xs-6 col-sm-3 pb">
                     <div className="meetup__counter-number">1st</div>
@@ -43,7 +52,7 @@ function Meetup(props) {
                   </div>
                   <div className="col-xs-6 col-sm-3 pb">
                     <div className="meetup__counter-number">10+</div>
-                    <div className="meetup__counter-text">Core Members</div>
+                    <div className="meetup__counter-text">Core members</div>
                   </div>
                 </div>
               </div>
@@ -53,8 +62,8 @@ function Meetup(props) {
           <div className="container pb-large bb">
             <div className="themed-container__transparent themed-container__transparent--meetup pb-xs-0">
               <div className="row center-xs">
-                <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
-                  <h2>Holding the very first Verge meet-up ever.</h2>
+                <div className="col-xs-10 col-sm-6 col-md-5 start-sm">
+                  <h2>Holding the very first Verge <br className="visible-md" />meet-up ever.</h2>
                   <p class="text--larger">
                     The meet-up will take place on the 9th of June in Amsterdam, the capital of the Netherlands, and will take place on a boat, which we will cruise on through the Amsterdam canals.
                   </p>
@@ -62,7 +71,7 @@ function Meetup(props) {
                     We will have several speakers and special guests during this event who will provide information about the Verge Currency project, blockchain development in general, as well as touch on topics related to other developments in the crypto space.
                   </p>
                 </div>
-                <div className="col-sm-4 col-md-5 hidden-xs" />
+                <a href="https://www.docks.nl" target="_blank" rel="noreferrer noopener" className="col-xs-10 col-sm-4 col-md-5"><span className="visible-xs">Visit DOCKS</span></a>
               </div>
             </div>
           </div>
@@ -71,16 +80,13 @@ function Meetup(props) {
         <div className="container meetup--media">
           <div className="row center-xs middle-xs pt pb">
             <div className="col-xs-10 col-sm-8 col-md-5">
-              <h2>
-                Verge Meetup on a <span>ship</span>.<br />
-                Location and place.
-              </h2>
-              <p>The meetup will take place on a boat, which we will cruise on through the Amsterdam canals.</p>
+              <h2>Verge Meetup on a <span>ship</span>. <br className="hidden-xs" />Location and place.</h2>
+              <p className="pb-small">The meetup will take place on a boat, which we will cruise on through the Amsterdam canals.</p>
               <img src="/static/img/meetup/squiggly.png" className="img-responsive" />
             </div>
           </div>
 
-          <div className="row center-xs middle-xs pt pb">
+          <div className="row center-xs middle-xs pt">
             <div className="col-xs-10">
               <div className="row center-xs">
                 <div className="col-xs-12 col-sm-4 col--fullheight">
@@ -98,14 +104,14 @@ function Meetup(props) {
             </div>
           </div>
 
-          <div className="row center-xs middle-xs pt pb">
+          <div className="row center-xs middle-xs pb">
             <div className="col-xs-10">
               <div className="row">
                 <div className="col-xs-12">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.505135614645!2d4.902052188500803!3d52.37939260409592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b646f89b21%3A0xb1f631c99dabe1b5!2sDe+Ruijterkade%2C+Amsterdam!5e0!3m2!1snl!2snl!4v1525194929869" width="100%" height="400" frameborder="0"></iframe>
                 </div>
               </div>
-              <div className="row top-xs middle-sm pt-small">
+              <div className="row top-xs middle-sm pt">
                 <div className="col-xs-6 col-sm-3 start-xs">
                   <h3>Address</h3>
                   <p>
@@ -120,7 +126,7 @@ function Meetup(props) {
                   </p>
                 </div>
                 <div className="col-xs-12 col-sm-3">
-                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
+                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
                 </div>
               </div>
             </div>
@@ -146,14 +152,14 @@ function Meetup(props) {
         </div>
         <div className="container meetup--tickets">
           <div className="row center-xs pt">
-            <div className="col-xs-10 col-md-9">
+            <div className="col-xs-10 col-md-11 col-lg-9">
               <h2>
                 Verge Meetup <span>Ticket Costs</span>.
               </h2>
               <p>There are 3 kinds of tickets available for purchase.</p>
 
-              <div className="row center-xs between-sm pt">
-                <div className="col-xs-8 col-sm-4 col-md-3 col--ticket">
+              <div className="row center-xs around-sm pt">
+                <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
                   <div className="bb">
                     <h4>Evening Only</h4>
                     <p>Buy Ticket Today</p>
@@ -170,7 +176,7 @@ function Meetup(props) {
                     Get to meet other crypto and Verge enthusiasts
                   </p>
                 </div>
-                <div className="col-xs-8 col-sm-4 col-md-3 col--ticket">
+                <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
                   <div className="bb">
                     <h4>Afternoon + Evening</h4>
                     <p>Buy Ticket Today</p>
@@ -194,7 +200,7 @@ function Meetup(props) {
                   </p>
                 </div>
 
-                <div className="col-xs-8 col-sm-4 col-md-3 col--ticket">
+                <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
                   <div className="bb">
                     <h4>VIP Ticket</h4>
                     <p>Buy Ticket Today</p>
@@ -221,7 +227,7 @@ function Meetup(props) {
 
         <div className="container meetup--programme pt">
           <div className="row center-xs pt">
-            <div className="col-xs-10 col-sm-4 col-sm-offset-1 start-sm">
+            <div className="col-xs-10 col-sm-4 col-sm-offset-1 start-sm pb-xs">
               <h2>
                 Program <span>Outline</span>
               </h2>
