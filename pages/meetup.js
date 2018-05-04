@@ -6,6 +6,8 @@ import Layout from '../components/Layout';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
+import { Sponsors } from '../components/Sponsors.js';
+
 function Meetup(props) {
   const { t } = props;
 
@@ -34,6 +36,8 @@ function Meetup(props) {
         </div>
 
         <div className="container">
+          <Sponsors />
+
           <div className="row center-xs middle-xs pt">
             <div className="col-xs-10 pb bb">
               <div className="meetup__counters">
@@ -64,7 +68,7 @@ function Meetup(props) {
               <div className="row center-xs">
                 <div className="col-xs-10 col-sm-6 col-md-5 start-sm">
                   <h2>Holding the very first Verge <br className="visible-md" />meet-up ever.</h2>
-                  <p class="text--larger">
+                  <p className="text--larger">
                     The meet-up will take place on the 9th of June in Amsterdam, the capital of the Netherlands, and will take place on a boat, which we will cruise on through the Amsterdam canals.
                   </p>
                   <p>
@@ -108,7 +112,7 @@ function Meetup(props) {
             <div className="col-xs-10">
               <div className="row">
                 <div className="col-xs-12">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.505135614645!2d4.902052188500803!3d52.37939260409592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b646f89b21%3A0xb1f631c99dabe1b5!2sDe+Ruijterkade%2C+Amsterdam!5e0!3m2!1snl!2snl!4v1525194929869" width="100%" height="400" frameborder="0"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.505135614645!2d4.902052188500803!3d52.37939260409592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b646f89b21%3A0xb1f631c99dabe1b5!2sDe+Ruijterkade%2C+Amsterdam!5e0!3m2!1snl!2snl!4v1525194929869" width="100%" height="400" frameBorder="0"></iframe>
                 </div>
               </div>
               <div className="row top-xs middle-sm pt">
@@ -165,10 +169,10 @@ function Meetup(props) {
                     <p>Buy Ticket Today</p>
                     <p className="tickets__price">€ 35</p>
                   </div>
-                  <div class="pt-small pb-small">
+                  <div className="pt-small pb-small">
                     <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
                   </div>
-                  <p class="text--smaller start-sm">
+                  <p className="text--smaller start-sm">
                     <b>What you get:</b><br />
                     Access to our awesome party in the evening
                     <br />
@@ -182,10 +186,10 @@ function Meetup(props) {
                     <p>Buy Ticket Today</p>
                     <p className="tickets__price">€ 75</p>
                   </div>
-                  <div class="pt-small pb-small">
+                  <div className="pt-small pb-small">
                     <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
                   </div>
-                  <p class="text--smaller start-sm">
+                  <p className="text--smaller start-sm">
                     <b>What you get:</b><br />
                     Access to both the afternoon and evening program.
                     <br />
@@ -206,10 +210,10 @@ function Meetup(props) {
                     <p>Buy Ticket Today</p>
                     <p className="tickets__price">€ 175</p>
                   </div>
-                  <div class="pt-small pb-small">
+                  <div className="pt-small pb-small">
                     <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
                   </div>
-                  <p class="text--smaller start-sm">
+                  <p className="text--smaller start-sm">
                     <b>What you get:</b><br />
                     All-inclusive drinks and snacks
                     <br />
@@ -241,7 +245,7 @@ function Meetup(props) {
                 <b>Evening program:</b><br />
                 19:30 until 00:00
               </p>
-              <p class="text--smaller">
+              <p className="text--smaller">
                 There are 3 kinds of tickets available for purchase: If your ticket includes the afternoon program, you will have access to a dinner buffet and unlimited soft drinks and/or other non-alcoholic beverages.<br /><br />
                 The evening program will have snacks available which are also included in the ticket price.
               </p>

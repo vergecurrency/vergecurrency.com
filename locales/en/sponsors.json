@@ -1,0 +1,19 @@
+{
+  "sponsors": [
+    {
+      "img": "../static/img/meetup/sponsors/Hyatt-Place.png",
+      "title": "Hyatt Place",
+      "height": 80
+    },
+    {
+      "img": "../static/img/meetup/sponsors/Subway.png",
+      "title": "Subway",
+      "height": 50
+    },
+    {
+      "img": "../static/img/meetup/sponsors/TokenPay.png",
+      "title": "TokenPay",
+      "height": 35
+    }
+  ]
+}
