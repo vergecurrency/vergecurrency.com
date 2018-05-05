@@ -530,19 +530,19 @@
     },
     {
       "title": "Oportoapart",
-      "img": "../static/img/vendors/latest/Oportoapart.png",
+      "img": "../static/img/vendors/latest/oportoapart.png",
       "link": "oportoapart.com/", 
       "url": "http://oportoapart.com/"
     },
     {
       "title": "Vaporshop Schelle",
-      "img": "../static/img/vendors/latest/vaporshopschelle.png",
+      "img": "../static/img/vendors/latest/vaporshopschelle.jpg",
       "link": "vaporshopschelle.be", 
       "url": "http://vaporshopschelle.be/"
     },
     {
       "title": "Ketogenius",
-      "img": "../static/img/vendors/latest/ketogenius.png",
+      "img": "../static/img/vendors/latest/ketogenius.jpg",
       "link": "ketogenius.co.uk", 
       "url": "https://www.ketogenius.co.uk/"
     },
@@ -560,7 +560,7 @@
     },
     {
       "title": "BitcoinGallery.art",
-      "img": "../static/img/vendors/latest/bitcoingallery.png",
+      "img": "../static/img/vendors/latest/bitcoingallery.jpg",
       "link": "sigmasixdesign.com/bitcoin-gallery", 
       "url": "http://www.sigmasixdesign.com/bitcoin-gallery"
     },
