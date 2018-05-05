@@ -155,6 +155,12 @@
       "title": "Cryptohub",
       "link": "cryptohub.online",
       "url": "https://cryptohub.online/market/XVG/"
+    },
+    {
+      "img": "../static/img/exchanges/bitbns.jpg",
+      "title": "Bitbns",
+      "link": "bitbns.com",
+      "url": "https://bitbns.com/"
     }
   ]
 }
