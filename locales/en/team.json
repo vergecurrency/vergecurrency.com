@@ -167,6 +167,14 @@
       "occupation": "",
       "github": "",
       "twitter": ""
+    },
+        {
+      "img": "../static/img/team/birb.jpg",
+      "name": "wit_sec_birb",
+      "role": "Advisor and Marketing",
+      "occupation": "Procurement",
+      "github": "",
+      "twitter": "https://twitter.com/wit_sec_birb"
     }
   ]
 }
