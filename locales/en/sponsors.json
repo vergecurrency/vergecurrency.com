@@ -27,8 +27,14 @@
     {
       "img": "../static/img/meetup/sponsors/HeightCare.png",
       "title": "TokenPay",
-      "height": 35,
+      "height": 30,
       "url": "http://www.heightcare.nl/"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/David-Gokhshtein.jpg",
+      "title": "David Gokhshtein",
+      "height": 60,
+      "url": "http://www.davidgokhshtein.com"
     }
   ]
 }
