@@ -160,7 +160,16 @@
       color: #797979;
       display: block;
       font-size: rem(13px);
+      margin-bottom: .5rem;
       transition: .2s all;
+
+      @media (min-width: $min-width-sm) {
+        margin-bottom: rem(5px);
+      }
+
+      @media (min-width: $min-width-md) {
+        margin-bottom: 0;
+      }
 
       &:hover {
         color: $picton-blue;
@@ -170,7 +179,10 @@
     h4 {
       color: #000;
       line-height: rem(18px);
-      margin-bottom: 0;
+
+      @media (min-width: $min-width-md) {
+        margin-bottom: rem(2px);
+      }
 
       a {
         color: #000;
