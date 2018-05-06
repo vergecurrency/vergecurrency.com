@@ -17,6 +17,18 @@
       "title": "TokenPay",
       "height": 35,
       "url": "https://www.tokenpay.com/"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/CryptoDen.jpg",
+      "title": "CryptoDen",
+      "height": 35,
+      "url": "https://discord.gg/5trYv7T"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/HeightCare.png",
+      "title": "TokenPay",
+      "height": 35,
+      "url": "http://www.heightcare.nl/"
     }
   ]
 }
