@@ -15,7 +15,7 @@ function WalletsPage(props) {
       <Head>
         <title key="title">{t('common:meta.wallets.title', { defaultValue: 'Wallets - VergeCurrency.com' })}</title>
       </Head>
-      <div className="wallet">
+      <div>
         <div className="ribbon ribbon--wallets">
           <div className="container">
             <div className="row center-xs">
@@ -32,7 +32,7 @@ function WalletsPage(props) {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container wallet">
           <div className="row center-xs middle-xs pt-large pb-large">
             <div className="col-xs-10 col-sm-6">
               <h6>Wallets</h6>

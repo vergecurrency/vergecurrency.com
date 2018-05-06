@@ -63,7 +63,6 @@
   }
 
   &--icon {
-    display: inline-block;
     height: rem(42px);
     margin-right: rem(20px);
     position: relative;
@@ -161,19 +160,27 @@
       color: #797979;
       display: block;
       font-size: rem(13px);
-    }
-
-    h4, h4 a {
-      color: #000;
-      margin-bottom: 0;
-    }
-
-    > a {
       transition: .2s all;
 
       &:hover {
         color: $picton-blue;
       }
+    }
+
+    h4 {
+      color: #000;
+      line-height: rem(18px);
+      margin-bottom: 0;
+
+      a {
+        color: #000;
+        margin-bottom: 0;
+      }
+    }
+
+    span {
+      color: #797979;
+      font-size: rem(13px);
     }
 
     @at-root .wallets--item__disabled & {
