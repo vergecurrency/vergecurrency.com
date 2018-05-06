@@ -3,17 +3,20 @@
     {
       "img": "../static/img/meetup/sponsors/Hyatt-Place.png",
       "title": "Hyatt Place",
-      "height": 80
+      "height": 80,
+      "url": "https://amsterdamairport.place.hyatt.com/en/hotel/home.html"
     },
     {
       "img": "../static/img/meetup/sponsors/Subway.png",
       "title": "Subway",
-      "height": 50
+      "height": 50,
+      "url": ""
     },
     {
       "img": "../static/img/meetup/sponsors/TokenPay.png",
       "title": "TokenPay",
-      "height": 35
+      "height": 35,
+      "url": "https://www.tokenpay.com/"
     }
   ]
 }

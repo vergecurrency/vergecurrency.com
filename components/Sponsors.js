@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 
 const sponsorLocale = require('../locales/index').en.sponsors.sponsors;
@@ -9,9 +10,13 @@ export const Sponsors = () => {
       key={s.title}
       role="presentation"
     >
-      <LazyLoad height={s.height}>
-        <img className="img-responsive sponsors__logo" src={s.img} style={{maxHeight: s.height}} alt={s.title} />
-      </LazyLoad>
+      <Link href={s.url}>
+        <a href={s.url} target="_blank" rel="noopener">
+          <LazyLoad height={s.height}>
+            <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+          </LazyLoad>
+        </a>
+      </Link>
     </div>
   ));
 
