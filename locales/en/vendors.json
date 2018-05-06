@@ -109,12 +109,6 @@
       "url": "http://haveaheartkc.com"
     },
     {
-      "title": "Illrotic Beats",
-      "img": "../static/img/vendors/latest/illroticbeats.png",
-      "link": "illroticbeats.com", 
-      "url": "http://illroticbeats.com/"
-    },
-    {
       "title": "Falmouth Boat Security",
       "img": "../static/img/vendors/latest/fbs.png",
       "link": "falmouthboatsecurity.com", 
@@ -515,6 +509,66 @@
       "img": "../static/img/vendors/latest/hidester.png",
       "link": "hidester.com", 
       "url": "http://hidester.com"
-    }                                        
+    },
+    {
+      "title": "Air Stream Jets",
+      "img": "../static/img/vendors/latest/airstreamjets.png",
+      "link": "airstreamjets.com/", 
+      "url": "http://airstreamjets.com/"
+    },
+    {
+      "title": "ORIC",
+      "img": "../static/img/vendors/latest/oric.png",
+      "link": "oric.space", 
+      "url": "https://oric.space/"
+    },
+    {
+      "title": "Oportoapart",
+      "img": "../static/img/vendors/latest/oportoapart.png",
+      "link": "oportoapart.com/", 
+      "url": "http://oportoapart.com/"
+    },
+    {
+      "title": "Vaporshop Schelle",
+      "img": "../static/img/vendors/latest/vaporshopschelle.jpg",
+      "link": "vaporshopschelle.be", 
+      "url": "http://vaporshopschelle.be/"
+    },
+    {
+      "title": "Ketogenius",
+      "img": "../static/img/vendors/latest/ketogenius.jpg",
+      "link": "ketogenius.co.uk", 
+      "url": "https://www.ketogenius.co.uk/"
+    },
+    {
+      "title": "Chess lessons",
+      "img": "../static/img/vendors/latest/chesslessons.png",
+      "link": "chesslessons.com", 
+      "url": "https://chesslessons.com/store/"
+    },
+    {
+      "title": "PrivateInternetAccess",
+      "img": "../static/img/vendors/latest/PrivateInternetAccess.png",
+      "link": "Privateinternetaccess.com", 
+      "url": "https://www.privateinternetaccess.com/"
+    },
+    {
+      "title": "BitcoinGallery.art",
+      "img": "../static/img/vendors/latest/bitcoingallery.jpg",
+      "link": "sigmasixdesign.com/bitcoin-gallery", 
+      "url": "http://www.sigmasixdesign.com/bitcoin-gallery"
+    },
+    {
+      "title": "Birsa Cleaning",
+      "img": "../static/img/vendors/latest/birsacleaning.png",
+      "link": "birsacleaning.com", 
+      "url": "https://www.birsacleaning.com/"
+    },
+    {
+      "title": "High Life Goods",
+      "img": "../static/img/vendors/latest/highlife.png",
+      "link": "highlifegoods.com", 
+      "url": "http://highlifegoods.com/"
+    }                                                                                     
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "sponsors": [
+    {
+      "img": "../static/img/meetup/sponsors/Hyatt-Place.png",
+      "title": "Hyatt Place",
+      "height": 80,
+      "url": "https://amsterdamairport.place.hyatt.com/en/hotel/home.html"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/Subway.png",
+      "title": "Subway",
+      "height": 50,
+      "url": "http://www.subway.com/nl-NL"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/TokenPay.png",
+      "title": "TokenPay",
+      "height": 35,
+      "url": "https://www.tokenpay.com/"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/CryptoDen.jpg",
+      "title": "CryptoDen",
+      "height": 35,
+      "url": "https://discord.gg/5trYv7T"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/HeightCare.png",
+      "title": "TokenPay",
+      "height": 30,
+      "url": "http://www.heightcare.nl/"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/David-Gokhshtein.jpg",
+      "title": "David Gokhshtein",
+      "height": 60,
+      "url": "http://www.davidgokhshtein.com"
+    }
+  ]
+}

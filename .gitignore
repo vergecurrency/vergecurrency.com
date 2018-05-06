@@ -24,3 +24,6 @@ yarn.lock
 test/**/out
 .DS_Store
 locales/**/*.missing.json
+
+# IDE specific
+.vscode/

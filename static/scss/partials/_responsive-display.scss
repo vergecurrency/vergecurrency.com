@@ -9,6 +9,9 @@ $spacing-vertical-mobile-small: 1rem;
 $spacing-vertical-mobile-large: 4rem;
 $spacing-vertical-mobile-xlarge: 6rem;
 
+$spacing-horizontal-desktop: rem(20px);
+$spacing-horizontal-desktop-large: rem(40px);
+
 @-ms-viewport{
   width: device-width;
 }
@@ -94,6 +97,15 @@ $spacing-vertical-mobile-xlarge: 6rem;
   }
 }
 
+.px {
+  &-large {
+    @media (min-width: $min-width-sm) {
+      padding-left: $spacing-horizontal-desktop-large;
+      padding-right: $spacing-horizontal-desktop-large;
+    }
+  }
+}
+
 .pt-small {
   padding-top: $spacing-vertical-desktop-small;
 }
@@ -132,9 +144,23 @@ $spacing-vertical-mobile-xlarge: 6rem;
   max-width: 100%;
 }
 
-@media (min-width: $min-width-sm) {
-  .visible-xs {
-    display: none !important;
+.visible {
+  &-xs {
+    @media (min-width: $min-width-sm) {
+      display: none !important;
+    }
+  }
+
+  &-md {
+    display: none;
+
+    @media (min-width: $min-width-md) {
+      display: initial;
+    }
+
+    @media (min-width: $min-width-lg) {
+      display: none;
+    }
   }
 }
 
