@@ -50,8 +50,9 @@
 
   &--item {
     margin: rem(15px) 0;
+    white-space: nowrap;
 
-    a {
+    > div {
       display: flex;
     }
 
@@ -153,15 +154,55 @@
   }
 
   &--text {
+    display: inline-block;
+
+    > a {
+      color: #797979;
+      display: block;
+      font-size: rem(13px);
+      margin-bottom: .5rem;
+      transition: .2s all;
+
+      @media (min-width: $min-width-sm) {
+        margin-bottom: rem(5px);
+      }
+
+      @media (min-width: $min-width-md) {
+        margin-bottom: 0;
+      }
+
+      &:hover {
+        color: $picton-blue;
+      }
+    }
+
     h4 {
       color: #000;
-      line-height: rem(14px);
-      margin-bottom: 0;
+      line-height: rem(18px);
+
+      @media (min-width: $min-width-md) {
+        margin-bottom: rem(2px);
+      }
+
+      a {
+        color: #000;
+        margin-bottom: 0;
+      }
     }
 
     span {
       color: #797979;
       font-size: rem(13px);
+    }
+
+    @at-root .wallets--item__disabled & {
+      a {
+        cursor: default;
+      }
+
+      > a:hover {
+        color: #797979;
+      }
     }
   }
 }
