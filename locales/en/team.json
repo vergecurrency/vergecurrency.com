@@ -175,6 +175,14 @@
       "occupation": "Procurement",
       "github": "",
       "twitter": "https://twitter.com/wit_sec_birb"
+    },
+    {
+      "img": "../static/img/team/stack.jpg",
+      "name": "Stack",
+      "role": "Technical Advisor",
+      "occupation": "Software Engineer",
+      "github": "",
+      "twitter": "https://twitter.com/CmplxStack"
     }
   ]
 }
