@@ -35,6 +35,12 @@
       "title": "David Gokhshtein",
       "height": 60,
       "url": "http://www.davidgokhshtein.com"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/Crypto-Whale-Clothing.png",
+      "title": "Crypto Whale Clothing",
+      "height": 60,
+      "url": "https://cryptowhaleclothing.com"
     }
   ]
 }
