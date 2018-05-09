@@ -1,12 +1,6 @@
 {
   "sponsors": [
     {
-      "img": "../static/img/meetup/sponsors/Hyatt-Place.png",
-      "title": "Hyatt Place",
-      "height": 80,
-      "url": "https://amsterdamairport.place.hyatt.com/en/hotel/home.html"
-    },
-    {
       "img": "../static/img/meetup/sponsors/Subway.png",
       "title": "Subway",
       "height": 50,
