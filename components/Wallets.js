@@ -10,22 +10,28 @@ function Wallets() {
           className={`col-xs-12 col-sm-6 col-md-4 wallets--item start-xs ${x.available ? '' : 'wallets--item__disabled'}`}
           key={x.name}
         >
-          <a href={x.url} target="_blank" rel="noopener noreferrer">
-            <span className={`wallets--icon ${x.classNames}`} />
-          </a>
-          <span className="wallets--text">
-            <h4>
+          <div className='row-md-12'>
+            <div className='col-md-2'>
               <a href={x.url} target="_blank" rel="noopener noreferrer">
-                {x.name}
+                <div className={`wallets--icon ${x.classNames}`} />
               </a>
-            </h4>
-            <a href={x.url} target="_blank" rel="noopener noreferrer">
-              {x.available ? 'Download here' : 'Available soon!'}
-            </a>
-            <a href={x.url2} target="_blank" rel="noopener noreferrer">
-              {x.availableinstructions ? 'Install Instructions' : 'Instructions available soon!'}
-            </a>
-          </span>
+            </div>
+            <div className='col-md-10'>
+              <span className="wallets--text">
+                <h4>
+                  <a href={x.url} target="_blank" rel="noopener noreferrer">
+                    {x.name}
+                  </a>
+                </h4>
+                <a href={x.url} target="_blank" rel="noopener noreferrer">
+                  {x.available ? 'Download here' : 'Available soon!'}
+                </a>
+                <a href={x.url2} target="_blank" rel="noopener noreferrer">
+                  {x.availableinstructions ? 'Install Instructions' : 'Instructions available soon!'}
+                </a>
+              </span>
+            </div>
+          </div>
         </div>
       );
     }
