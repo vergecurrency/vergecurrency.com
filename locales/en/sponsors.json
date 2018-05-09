@@ -35,6 +35,12 @@
       "title": "Crypto Whale Clothing",
       "height": 60,
       "url": "https://cryptowhaleclothing.com"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/Autokey.jpg",
+      "title": "Autokey",
+      "height": 35,
+      "url": "http://www.skybrake.ie"
     }
   ]
 }
