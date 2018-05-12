@@ -208,7 +208,7 @@ function Home(props) {
                     <p>{t('home:vendors.text-2', { defaultValue: 'Get started today and accept Verge in your store.' })}</p>
 
                     <Link href="/developers/verge-vendor-integration">
-                      <a href="/get-verge" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'Accept Verge today' })}</a>
+                      <a href="/developers/verge-vendor-integration" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'Accept Verge today' })}</a>
                     </Link>
                     <Link href="/vendors">
                       <a href="/vendors" className="btn btn-tertiary" name="See all vendors">{t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors' })}</a>
