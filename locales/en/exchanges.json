@@ -67,6 +67,12 @@
       "url": "https://blocknet.co"
     },
     {
+      "img": "../static/img/exchanges/litebit.png",
+      "title": "Litebit",
+      "link": "litebit.eu",
+      "url": "https://litebit.eu"
+    },
+    {
       "img": "../static/img/exchanges/exchanged.jpg",
       "title": "ExchangeD",
       "link": "DeepWeb link",
@@ -131,12 +137,6 @@
       "title": "NovaExchange",
       "link": "novaexchange.com",
       "url": "https://novaexchange.com/market/BTC_XVG/"
-    },
-    {
-      "img": "../static/img/exchanges/litebit.png",
-      "title": "Litebit",
-      "link": "litebit.eu",
-      "url": "https://litebit.eu"
     },
     {
       "img": "../static/img/exchanges/bitsquare.png",
