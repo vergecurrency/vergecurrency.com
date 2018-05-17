@@ -6,7 +6,7 @@ const sponsorLocale = require('../locales/index').en.sponsors.sponsors;
 export const Sponsors = () => {
   const Sponsors = sponsorLocale.map(s => (
     <div
-      className="col-xs-4 col-sm-3 center-xs pb-xs"
+      className="col-xs-4 col-sm-3 center-xs pb-xs sponsors__single"
       key={s.title}
       role="presentation"
     >

@@ -13,6 +13,12 @@
       "url": "https://www.tokenpay.com/"
     },
     {
+      "img": "../static/img/meetup/sponsors/litebit.png",
+      "title": "Litebit",
+      "height": 35,
+      "url": "https://www.litebit.eu"
+    },
+    {
       "img": "../static/img/meetup/sponsors/CryptoDen.jpg",
       "title": "CryptoDen",
       "height": 35,
@@ -47,6 +53,12 @@
       "title": "Coinbaas",
       "height": 35,
       "url": "https://t.me/joinchat/GOzXO0XX4kcFYB_DCn7u0g"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/xwise.png",
+      "title": "Xwise",
+      "height": 35,
+      "url": "https://www.xwise.eu"
     }
   ]
 }
