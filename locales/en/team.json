@@ -183,6 +183,14 @@
       "occupation": "Software Engineer",
       "github": "",
       "twitter": "https://twitter.com/CmplxStack"
+    },
+    {
+      "img": "../static/img/team/verge.jpg",
+      "name": "marpme",
+      "role": "Full-Stack Developer",
+      "occupation": "Frontend Engineer",
+      "github": "https://github.com/marpme",
+      "twitter": "https://twitter.com/marpme_"
     }
   ]
 }
