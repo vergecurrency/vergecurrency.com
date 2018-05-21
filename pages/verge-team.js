@@ -11,8 +11,6 @@ import i18n from '../i18n'
 
 const teamCategories = Object.values(require('../locales/index').en.team)
 
-console.log(teamCategories)
-
 function VergeTeam(props) {
   const { t } = props
 
