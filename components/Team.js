@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 const Team = props => {
-  console.log(props)
   return props.members.map(member => (
     <div className="col-xs col-md-3" key={member.name}>
       <div className="team--member pb-xs">
