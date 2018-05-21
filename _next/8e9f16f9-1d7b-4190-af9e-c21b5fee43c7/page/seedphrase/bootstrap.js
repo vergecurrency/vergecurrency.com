@@ -1,6 +1,6 @@
 
           window.__NEXT_REGISTER_PAGE('/seedphrase/bootstrap', function() {
-            var comp = module.exports=webpackJsonp([46],{399:function(t,e,i){t.exports=i(400)},400:function(t,e,i){"use strict";var o=i(39),n=function(t){return t&&t.__esModule?t:{default:t}}(o);/*!
+            var comp = module.exports=webpackJsonp([46],{399:function(t,e,i){t.exports=i(400)},400:function(t,e,i){"use strict";var o=i(40),n=function(t){return t&&t.__esModule?t:{default:t}}(o);/*!
  * Bootstrap v3.2.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
