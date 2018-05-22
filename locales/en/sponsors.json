@@ -59,6 +59,12 @@
       "title": "Xwise",
       "height": 35,
       "url": "https://www.xwise.eu"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/bunker501.png",
+      "title": "Bunker501",
+      "height": 35,
+      "url": "https://bunker501.nl/"
     }
   ]
 }

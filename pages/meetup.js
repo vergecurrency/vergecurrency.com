@@ -214,10 +214,16 @@ function Meetup(props) {
                   </div>
                   <p className="text--smaller start-sm">
                     <b>What you get:</b><br />
-                    All-inclusive drinks and snacks
+                    Get on board between 14:45 and 15:15.
+                    <br />
+                    <br />
+                    All-inclusive drinks and snacks (wine, beer, soda, coffee & tea)
                     <br />
                     <br />
                     Exclusive bar access
+                    <br />
+                    <br />
+                    Verge / TokenPay limited edition T-shirt
                     <br />
                     <br />
                     + All perks of the <i>“Afternoon + Evening”</i>
@@ -239,10 +245,10 @@ function Meetup(props) {
                 The boat departs at 15:30 (Not a minute later).<br /><br />
 
                 <b>Afternoon program:</b><br />
-                15:00 until 19:30  (includes a dinner buffet)<br /><br />
+                Board between 14.45 and 15.15 until 19:30  (includes a dinner buffet)<br /><br />
 
                 <b>Evening program:</b><br />
-                19:30 until 00:00
+                Board between 19.15 and 19.45 until 00:00
               </p>
               <p className="text--smaller">
                 There are 3 kinds of tickets available for purchase: If your ticket includes the afternoon program, you will have access to a dinner buffet and unlimited soft drinks and/or other non-alcoholic beverages.<br /><br />
