@@ -1,40 +1,39 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
-const teamLocale = require('../locales/index').en.team.team;
-
-function Team() {
-  const team = teamLocale.map((x) => {
-    return (
-      <div className="col-xs col-md-3" key={x.name}>
-        <div className="team--member pb-xs">
-          <img src={x.img} alt={x.name} />
-          <div className="flexIt">
-            <h3>{x.name}</h3>
-            <div className="socials">
-              <Link href={x.twitter}>
-                <a className={`icon iconlink ${x.twitter ? '' : 'hidden'}`} href={x.twitter} target="_blank" rel="noopener noreferrer">
-                  <i className="icon icon--twitter" />
-                </a>
-              </Link>
-              <Link href={x.github}>
-                <a className={`icon iconlink ${x.github ? '' : 'hidden'}`} href={x.github} target="_blank" rel="noopener noreferrer">
-                  <i className="icon icon--github" />
-                </a>
-              </Link>
-            </div>
+const Team = props => {
+  return props.members.map(member => (
+    <div className="col-xs col-md-3" key={member.name}>
+      <div className="team--member pb-xs">
+        <img src={member.img} alt={member.name} />
+        <div className="flexIt">
+          <h3>{member.name}</h3>
+          <div className="socials">
+            <Link href={member.twitter}>
+              <a
+                className={`icon iconlink ${member.twitter ? '' : 'hidden'}`}
+                href={member.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="icon icon--twitter" />
+              </a>
+            </Link>
+            <Link href={member.github}>
+              <a
+                className={`icon iconlink ${member.github ? '' : 'hidden'}`}
+                href={member.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="icon icon--github" />
+              </a>
+            </Link>
           </div>
-          <span>{x.role}</span>
-          <p>{x.occupation}</p>
         </div>
+        <span>{member.role}</span>
+        <p>{member.occupation}</p>
       </div>
-    );
-  });
-
-  return (
-    <div className="row between-xs start-sm">
-      {team}
     </div>
-  );
+  ))
 }
-
-export default Team;
+export default Team

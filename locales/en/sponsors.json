@@ -59,6 +59,18 @@
       "title": "Xwise",
       "height": 35,
       "url": "https://www.xwise.eu"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/mycro.jpg",
+      "title": "Mycrojobs",
+      "height": 50,
+      "url": "https://www.mycrojobs.io"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/bunker501.png",
+      "title": "Bunker501",
+      "height": 35,
+      "url": "https://bunker501.nl/"
     }
   ]
 }
