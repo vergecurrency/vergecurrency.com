@@ -91,12 +91,6 @@
       "url": "https://changelly.com"
     },
     {
-      "img": "../static/img/exchanges/nakamotox.png",
-      "title": "NakamotoX",
-      "link": "nakamotox.com",
-      "url": "https://nakamotox.com"
-    },
-    {
       "img": "../static/img/exchanges/coinswitch.png",
       "title": "CoinSwitch",
       "link": "coinswitch.co",
