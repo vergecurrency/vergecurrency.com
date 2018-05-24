@@ -77,6 +77,12 @@
       "title": "Crypto Suite",
       "height": 50,
       "url": "http://bit.ly/TheCryptoSuite"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/thepack.png",
+      "title": "The Pack",
+      "height": 50,
+      "url": "https://the-pack.nl/"
     }
   ]
 }
