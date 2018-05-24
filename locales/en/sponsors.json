@@ -71,6 +71,12 @@
       "title": "Bunker501",
       "height": 35,
       "url": "https://bunker501.nl/"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/cryptosuite.png",
+      "title": "Crypto Suite",
+      "height": 50,
+      "url": "http://bit.ly/TheCryptoSuite"
     }
   ]
 }
