@@ -1,17 +1,21 @@
-import Head from 'next/head';
+import Head from 'next/head'
 
-import Layout from '../components/Layout';
+import Layout from '../components/Layout'
 
-import { translate } from 'react-i18next';
-import i18n from '../i18n';
+import { translate } from 'react-i18next'
+import i18n from '../i18n'
 
 function Roadmap(props) {
-  const { t } = props;
+  const { t } = props
 
   return (
     <Layout>
       <Head>
-        <title key="title">{t('common:meta.roadmap.title', { defaultValue: 'Roadmap - VergeCurrency.com' })}</title>
+        <title key="title">
+          {t('common:meta.roadmap.title', {
+            defaultValue: 'Roadmap - VergeCurrency.com',
+          })}
+        </title>
       </Head>
       <div className="roadmap">
         <div className="themed-container__gray themed-container__gray--roadmap">
@@ -23,6 +27,19 @@ function Roadmap(props) {
                   A roadmap with great features to come.<br />
                   Join us while we&apos;re still growing!
                 </h2>
+
+                <p>
+                  As an open-source community &amp; volunteer-driven project,
+                  our roadmap is meant as a general guideline for how we are
+                  developing Verge into one of the best cryptocurrency options
+                  out there.
+                </p>
+                <p>
+                  In the spirit of transparency and in good faith to the
+                  community, we want this roadmap to be made public. However,
+                  please keep in mind that this roadmap is subject to change
+                  based on priorities, unplanned developments and new ideas.
+                </p>
 
                 <div className="row start-xs center-sm pt">
                   <div className="col-xs-10 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-10 col-lg-9 start-xs">
@@ -36,7 +53,8 @@ function Roadmap(props) {
                       </li>
                       <li className="roadmap__item roadmap__item--done">
                         <h3>Core Wallet 3.0 Release Stage 1</h3>
-                        Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps Capability<br />
+                        Wallet UI Overhaul, VISP, Bloom Filters, Atomic Swaps
+                        Capability<br />
                         <span>Released</span> 15 November 2017
                       </li>
                       <li className="roadmap__year roadmap__year--current">
@@ -49,12 +67,14 @@ function Roadmap(props) {
                       </li>
                       <li className="roadmap__item roadmap__item--done">
                         <h3>New website</h3>
-                        New look, guides, updated roadmap, list of official core members, blog with official news, mobile friendly<br />
+                        New look, guides, updated roadmap, list of official core
+                        members, blog with official news, mobile friendly<br />
                         <span>Released</span> 24 March 2018
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Merchandise Online Store</h3>
-                        Verge branded apparel that can be purchased with XVG and BTC.<br />
+                        Verge branded apparel that can be purchased with XVG and
+                        BTC.<br />
                         <b>Q1</b>
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
@@ -64,7 +84,8 @@ function Roadmap(props) {
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>RSK Smart Contracts</h3>
-                        They are in testnet for Bitcoin now. Date revolves around this timeline.<br />
+                        They are in testnet for Bitcoin now. Date revolves
+                        around this timeline.<br />
                         <s>Q4 2017</s> <b>Q2</b>
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
@@ -108,9 +129,12 @@ function Roadmap(props) {
         </div>
       </div>
     </Layout>
-  );
+  )
 }
 
-const Extended = translate(['common', 'roadmap'], { i18n, wait: process.browser })(Roadmap);
+const Extended = translate(['common', 'roadmap'], {
+  i18n,
+  wait: process.browser,
+})(Roadmap)
 
-export default Extended;
+export default Extended
