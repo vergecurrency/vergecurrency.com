@@ -246,6 +246,20 @@ function Home(props) {
                     A roadmap with great features to come.<br />
                     Join us while we&apos;re still growing!
                   </h2>
+				  
+                  <p>
+                  As an open-source community &amp; volunteer-driven project,
+                  our roadmap is meant as a general guideline for how we are
+                  developing Verge into one of the best cryptocurrency options
+                  out there.
+                  </p>
+                  <p>
+                  In the spirit of transparency and in good faith to the
+                  community, we want this roadmap to be made public. However,
+                  please keep in mind that this roadmap is subject to change
+                  based on priorities, unplanned developments and new ideas.
+                  </p>
+					
                   <div className="row start-xs center-sm">
                     <div className="col-xs-10 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-12 col-lg-9 start-xs">
                       <ul className="roadmap__timeline roadmap__timeline--home pb">
