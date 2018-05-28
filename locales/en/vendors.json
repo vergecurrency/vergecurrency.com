@@ -139,12 +139,6 @@
       "url": "https://apetest.com/edu/"
     },
     {
-      "title": "Morning Wish",
-      "img": "../static/img/vendors/latest/morningwish.png",
-      "link": "morningwish.ie", 
-      "url": "https://www.morningwish.ie/"
-    },
-    {
       "title": "HeightCare",
       "img": "../static/img/vendors/latest/heightcare.png",
       "link": "heightcare.nl", 
@@ -563,6 +557,30 @@
       "img": "../static/img/vendors/latest/highlife.png",
       "link": "highlifegoods.com", 
       "url": "http://highlifegoods.com/"
-    }                                                                                     
+    },        
+    {
+      "title": "Trednus",
+      "img": "../static/img/vendors/latest/trednus.png",
+      "link": "trendus.no", 
+      "url": "https://trendus.no/"
+    },
+    {
+      "title": "Check-Coin",
+      "img": "../static/img/vendors/latest/check-coin.png",
+      "link": "check-coin.com", 
+      "url": "https://check-coin.com/"
+    },
+    {
+      "title": "HippTee",
+      "img": "../static/img/vendors/latest/hipptee.png",
+      "link": "hipptee.com", 
+      "url": "https://hipptee.com/"
+    },
+    {
+      "title": "Atomixx Blends",
+      "img": "../static/img/vendors/latest/atomixxblends.png",
+      "link": "atomixxblends.com", 
+      "url": "https://www.atomixxblends.com/"
+    }	
   ]
 }
