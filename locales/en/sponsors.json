@@ -83,6 +83,12 @@
       "title": "The Pack",
       "height": 50,
       "url": "https://the-pack.nl/"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/financial-services.jpg",
+      "title": "Financial Services",
+      "height": 50,
+      "url": "http://stta.io"
     }
   ]
 }
