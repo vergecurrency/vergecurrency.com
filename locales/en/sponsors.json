@@ -89,6 +89,12 @@
       "title": "Financial Services",
       "height": 50,
       "url": "http://stta.io"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/crypto_investors.jpg",
+      "title": "Dutch Crypto Investors",
+      "height": 60,
+      "url": "#"
     }
   ]
 }
