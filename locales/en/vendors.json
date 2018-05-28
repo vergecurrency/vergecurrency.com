@@ -403,12 +403,6 @@
       "url": "http://bitcoincards.io"
     },
     {
-      "title": "CoinStuff",
-      "img": "../static/img/vendors/latest/coinstuff.png",
-      "link": "coinstuff.in", 
-      "url": "http://coinstuff.in"
-    },
-    {
       "title": "4coingigs",
       "img": "../static/img/vendors/latest/4coingigs.png",
       "link": "4coingigs.com", 
