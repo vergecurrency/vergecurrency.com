@@ -11,6 +11,14 @@
         "twitter": "https://twitter.com/justinvendetta"
       },
       {
+        "img": "../static/img/team/marpme.png",
+        "name": "Marvin - marpme",
+        "role": "Product Developer",
+        "occupation": "Software Engineer",
+        "github": "https://github.com/marpme",
+        "twitter": "https://twitter.com/marpme_"
+      },
+      {
         "img": "../static/img/team/stanfaas.jpg",
         "name": "StanFaas",
         "role": "Lead Web Developer",
