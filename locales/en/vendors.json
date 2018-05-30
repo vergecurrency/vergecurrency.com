@@ -569,6 +569,12 @@
       "img": "../static/img/vendors/latest/atomixxblends.png",
       "link": "atomixxblends.com", 
       "url": "https://www.atomixxblends.com/"
-    }	
-  ]
+    },
+    {
+      "title": "Green Pearl",
+      "img": "../static/img/vendors/latest/greenpearl.png",
+      "link": "greenpearl.nl", 
+      "url": "https://www.greenpearl.nl/"
+    }
+  ] 
 }
