@@ -575,6 +575,24 @@
       "img": "../static/img/vendors/latest/greenpearl.png",
       "link": "greenpearl.nl", 
       "url": "https://www.greenpearl.nl/"
+    },
+    {
+      "title": "Amor4Fitness",
+      "img": "../static/img/vendors/latest/amor4fitness.png",
+      "link": "amor4fitness.net", 
+      "url": "https://amor4fitness.net"
+    },
+    {
+      "title": "Pharmaxtracts",
+      "img": "../static/img/vendors/latest/pharmaxtracts.png",
+      "link": "pharmaxtracts.com", 
+      "url": "https://pharmaxtracts.com"
+    },
+    {
+      "title": "Sharkchild",
+      "img": "../static/img/vendors/latest/sharkchild.png",
+      "link": "shop.sharkchild.com", 
+      "url": "https://shop.sharkchild.com"
     }
   ] 
 }
