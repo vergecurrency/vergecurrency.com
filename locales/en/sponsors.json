@@ -95,6 +95,18 @@
       "title": "Dutch Crypto Investors",
       "height": 60,
       "url": "#"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/blacktower.png",
+      "title": "Blacktower financial management group",
+      "height": 60,
+      "url": "https://www.blacktowerfm.com/locations/the-netherlands"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/greenpearl.jpeg",
+      "title": "Green Pearl",
+      "height": 60,
+      "url": "http://greenpearl.nl"
     }
   ]
 }
