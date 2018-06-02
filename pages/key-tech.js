@@ -38,16 +38,17 @@ function KeyTech(props) {
               <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
                 <h2>Wraith Protocol</h2>
                 <p>
-                  Wraith Protocol is a technology that allows the user to seamlessly switch between public and private
-                  ledgers on the Verge Blockchain. Users are now free to choose which ledger they want to utilize.
+                  Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive
+                  payments privately across our blockchain by enabling stealth addressing services. Additionally this update
+                  removes our QT wallet users of clearnet and migrates everyone to SSL enabled Tor. 
                 </p>
                 <p>
-                  When Wraith Protocol is turned ON — the transaction data is hidden and not visible via the blockchain
-                  explorer. Optional stealth addressing keeps transactions hidden and not linked to your public address.
+                  Through this system, users now have an additional layer of base IP obfuscation as well as the option to 
+                  utilize stealth addressing services for their transactions.
                 </p>
                 <p>
-                  If Wraith Protocol is OFF, transactions are linked to your public address and are publicly viewable
-                  via the blockchain explorer.
+                  Wraith Protocol allows for complete anonymity to be maintained while providing a safe and secure method of
+                  sending and receiving Verge coins.
                 </p>
                 {/* <Link href="/blog">
                   <a href="/blog" className="btn btn-primary">Read about Wraith on our blog</a>
