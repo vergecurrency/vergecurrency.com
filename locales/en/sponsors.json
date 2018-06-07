@@ -93,8 +93,8 @@
     {
       "img": "../static/img/meetup/sponsors/crypto_investors.jpg",
       "title": "Dutch Crypto Investors",
-      "height": 60,
-      "url": "#"
+      "height": 80,
+      "url": "https://dutchcryptoinvestors.com"
     },
     {
       "img": "../static/img/meetup/sponsors/greenpearl.jpeg",
@@ -113,6 +113,12 @@
       "title": "XVG Whale",
       "height": 60,
       "url": "#"
+    },
+    {
+      "img": "../static/img/meetup/sponsors/cbdolie.jpg",
+      "title": "De wonderen van CBD olie",
+      "height": 60,
+      "url": "https://dewonderenvancbdolie.nl/"
     }
   ]
 }
