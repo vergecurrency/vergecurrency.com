@@ -37,6 +37,12 @@
       "url": "https://hitbtc.com/XVG-to-BTC"
     },
     {
+      "img": "../static/img/exchanges/indacoin.svg",
+      "title": "Indacoin",
+      "link": "indacoin.com",
+      "url": "https://indacoin.com/en_GB/change?discount=85519"
+    },
+    {
       "img": "../static/img/exchanges/cryptopia.png",
       "title": "Cryptopia",
       "link": "cryptopia.co.nz",
