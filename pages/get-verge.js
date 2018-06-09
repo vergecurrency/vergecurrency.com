@@ -22,7 +22,7 @@ function GetVerge(props) {
           <div className="row center-xs middle-xs pt pb">
             <div className="col-xs-10">
               <h6>Get Verge</h6>
-              <h2 className="mb">Verge can be traded at the following exchanges:</h2>
+              <h2 className="mb">Trade Verge on the most popular exchanges. We’re proud to be listed on: </h2>
 
               <Exchanges />
 
