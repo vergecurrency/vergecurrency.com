@@ -24,7 +24,7 @@ function Presskit(props) {
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t('presskit:ribbon.title') }} />
                   <p>{t('presskit:ribbon.text')}</p>
-		   {/* <a href="/static/img/press/logo/verge-logo-presskit.zip" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary')}</a> */}
+		   {/* <a href="/static/img/press/logo/verge-logo.zip" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary')}</a> */}
                 </div>
               </div>
             </div>		  	
