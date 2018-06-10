@@ -492,11 +492,5 @@
       "link": "hidester.com", 
       "url": "http://hidester.com"
     },
-    {
-      "title": "Bookcoin",
-      "img": "../static/img/vendors/latest/bookcoin.png",
-      "link": "Bookcoin", 
-      "url": "https://bookcoinshop.com/"
-    }
   ]
 }
