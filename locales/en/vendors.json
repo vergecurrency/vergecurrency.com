@@ -600,5 +600,11 @@
       "link": "whopper.io", 
       "url": "https://whopper.io"
     }
+    {
+      "title": "Bookcoin",
+      "img": "../static/img/vendors/latest/Bookcoin.png",
+      "link": "Bookcoin", 
+      "url": "https://bookcoinshop.com/"
+    },
   ] 
 }
