@@ -89,9 +89,9 @@ function VergeTeam(props) {
                   </p>
                 </div>
                 <div className="col-xs-12 col-sm-4 col-lg-6 end-xs">
-                  <Link href="https://github.com/vergecurrency/VERGE">
+                  <Link href="https://github.com/vergecurrency?tab=repositories">
                     <a
-                      href="https://github.com/vergecurrency/VERGE"
+                      href="https://github.com/vergecurrency?tab=repositories"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-tertiary btn-github"
