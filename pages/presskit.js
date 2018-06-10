@@ -27,7 +27,7 @@ function Presskit(props) {
 		   {/* <a href="/static/img/press/logo/verge-logo.zip" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary')}</a> */}
                 </div>
               </div>
-            </div>	  	
+            </div>
           </div>
         </div>
         <div className="container themed-container themed-container--press">
