@@ -17,14 +17,14 @@ function Presskit(props) {
       <div className="presskit">
         <div className="ribbon ribbon--presskit">
           <div className="ribbon-img" />
-          
+
           <div className="container">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t('presskit:ribbon.title') }} />
                   <p>{t('presskit:ribbon.text')}</p>
-					  {/* <a href="/static/img/press/logo/verge-logo-presskit.zip" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary')}</a> */}
+		   {/* <a href="/static/img/press/logo/verge-logo-presskit.zip" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary')}</a> */}
                 </div>
               </div>
             </div>		  	
