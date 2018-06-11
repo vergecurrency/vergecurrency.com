@@ -46,8 +46,8 @@ function VergeTeam(props) {
           <div className="row center-xs middle-xs">
             <div className="col-xs-10 col-sm-6">
               <h2>
-                Verge Currency is a 100% open source project and the global
-                Verge Community represents the man power driving it forward.
+                Verge Currency is a 100% open-source project, and the global
+                Verge Community represents the manpower driving it forward.
                 Verge is not a company, there was no ICO held upon the launch
                 and no pre-mining took place.  All contributors, including
                 the Core Team, are unpaid volunteers who donate their time
