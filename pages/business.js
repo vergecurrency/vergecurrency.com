@@ -147,7 +147,7 @@ function Business(props) {
                 <div className="container themed-container__blue themed-container__blue--business">
                   <div className="row center-xs">
                     <div className="col-xs-8">
-                      <h2>{t('business:bluecontainer.big', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption.  The choice is yours, the choice going mainstream.' })}</h2>
+                      <h2>{t('business:bluecontainer.big', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption.  The choice is yours, the choice going mainstream.' })}</h2>
                       <p>{t('business:bluecontainer.small', { defaultValue: 'Start accepting Verge on your store or webshop today.' })}</p>
                     </div>
                   </div>
@@ -183,7 +183,7 @@ function Business(props) {
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
                       <h6>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h6>
-                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption.' })}</p>
+                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
                       <h6>{t('business:benefits.anonimity.title', { defaultValue: 'Anonymity' })}</h6>
@@ -199,7 +199,7 @@ function Business(props) {
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm">
                       <h6>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h6>
-                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption.' })}</p>
+                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption.' })}</p>
                     </div>
                   </div>
                 </div>
