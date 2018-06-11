@@ -110,7 +110,7 @@ function WalletsPage(props) {
                 <h2>
                   Wraith Protocol is a technology upgrade package that enables our users to be able to send and recieve
                   payments privately across our blockchain by enabling stealth addressing services. Additionally this update
-                  removes our QT wallet users of of clearnet and migrates everyone to SSL enabledTor. Through this system,
+                  removes our QT wallet users off of clearnet and migrates everyone to SSL enabledTor. Through this system,
                   users now have an additional layer of base IP obfuscation as well as the option to utilize stealth addressing
                   services for their transactions.
                 </h2>
