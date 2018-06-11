@@ -49,7 +49,10 @@ function VergeTeam(props) {
                 Verge Currency is a 100% open source project and the global
                 Verge Community represents the man power driving it forward.
                 Verge is not a company, there was no ICO held upon the launch
-                and no pre-mining took place.
+                and no pre-mining took place.  All contributors, including
+                the Core Team, are unpaid volunteers who donate their time
+                and energy into the project because they are passionate and
+                believe in Verge.
               </h2>
               <p>
                 Below are just some of the most active community members who
@@ -89,9 +92,9 @@ function VergeTeam(props) {
                   </p>
                 </div>
                 <div className="col-xs-12 col-sm-4 col-lg-6 end-xs">
-                  <Link href="https://github.com/vergecurrency/VERGE">
+                  <Link href="https://github.com/vergecurrency?tab=repositories">
                     <a
-                      href="https://github.com/vergecurrency/VERGE"
+                      href="https://github.com/vergecurrency?tab=repositories"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-tertiary btn-github"
