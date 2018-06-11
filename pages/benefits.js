@@ -45,7 +45,7 @@ function Benefits(props) {
                   </p>
                   <h3>4. Wraith Protocol</h3>
                   <p>
-                    Through this innovative new system, users who value transparency and accountability, e.g. merchants, have the option to have transactions viewable on the blockchain. On the other hand, it also provides an option to those who prefer transactions to vanish entirely. Wraith Protocol allows for complete anonymity to be maintained while providing a safe and secure method of sending and receiving Verge coins without transactions being traceable on a publicly accessible ledger.
+                    Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.
                   </p>
                   <h3>5. Attract new customers</h3>
                   <p>
