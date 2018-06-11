@@ -25,12 +25,6 @@ const MenuItems = ({ t }) => (
         {/* <Link prefetch href="/history">
           <a href="/history">{t('header:history', { defaultValue: 'History' })}</a>
         </Link> */}
-        <Link prefetch href="/presskit">
-          <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
-        </Link>
-        <Link href="https://vergefora.com">
-          <a href="https://vergefora.com" target="_blank" rel="noopener noreferrer">{t('header:forums', { defaultValue: 'Forums' })}</a>
-        </Link>
         <Link prefetch href="/pressreleases">
           <a href="/pressreleases">{t('header:pressreleases', { defaultValue: 'Press Releases' })}</a>
         </Link>
@@ -63,8 +57,14 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/community/get-involved">
           <a href="/community/get-involved">{t('header:community', { defaultValue: 'Community' })}</a>
         </Link>
+        <Link href="https://vergefora.com">
+          <a href="https://vergefora.com" target="_blank" rel="noopener noreferrer">{t('header:forums', { defaultValue: 'Forums' })}</a>
+        </Link>                                            
         <Link prefetch href="/developers">
           <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>
+        </Link>
+        <Link prefetch href="/presskit">
+          <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
         </Link>
       </div>
     </span>
