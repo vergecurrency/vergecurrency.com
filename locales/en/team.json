@@ -101,6 +101,14 @@
         "twitter": "https://twitter.com/CryptoXVGGirl"
       },
       {
+        "img": "../static/img/team/chris.png",
+        "name": "Chris",
+        "role": "Project and outreach",
+        "occupation": "Operational manager",
+        "github": "",
+        "twitter": "https://twitter.com/christiaan_jim"
+      },
+      {
         "img": "../static/img/team/kris.jpg",
         "name": "Kris Chase",
         "role": "Marketing & Operations Advisor",
