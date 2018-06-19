@@ -603,8 +603,32 @@
     {
       "title": "Bookcoin",
       "img": "../static/img/vendors/latest/bookcoin.png",
-      "link": "Bookcoin", 
+      "link": "bookcoinshop.com", 
       "url": "https://bookcoinshop.com/"
+    },
+    {
+      "title": "Bamb-u",
+      "img": "../static/img/vendors/latest/bambu.jpg",
+      "link": "bamb-u.com", 
+      "url": "https://www.bamb-u.com"
+    },
+    {
+      "title": "Pachanko Studio",
+      "img": "../static/img/vendors/latest/pachanko.png",
+      "link": "pachankostudio.com", 
+      "url": "https://www.pachankostudio.com"
+    },
+    {
+      "title": "Evolution Host",
+      "img": "../static/img/vendors/latest/evolutionhost.png",
+      "link": "evolution-host.com", 
+      "url": "https://evolution-host.com"
+    },
+    {
+      "title": "TorGuard",
+      "img": "../static/img/vendors/latest/torguard.png",
+      "link": "torguard.net", 
+      "url": "https://torguard.net"
     }
   ] 
 }
