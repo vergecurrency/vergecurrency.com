@@ -614,7 +614,7 @@
     },
     {
       "title": "Pachanko Studio",
-      "img": "../static/img/vendors/latest/pachanko.png",
+      "img": "../static/img/vendors/latest/pachanko.jpg",
       "link": "pachankostudio.com", 
       "url": "https://www.pachankostudio.com"
     },
@@ -629,6 +629,18 @@
       "img": "../static/img/vendors/latest/torguard.png",
       "link": "torguard.net", 
       "url": "https://torguard.net"
+    },
+    {
+      "title": "Ganoderma Coffee",
+      "img": "../static/img/vendors/latest/ganodermacoffee.png",
+      "link": "ganodermacoffee.com", 
+      "url": "https://www.ganodermacoffee.com/index.php"
+    },
+    {
+      "title": "Muddy Adventures",
+      "img": "../static/img/vendors/latest/muddyadventures.png",
+      "link": "muddyadventures.es", 
+      "url": "http://www.muddyadventures.es"
     }
   ] 
 }
