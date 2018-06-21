@@ -31,6 +31,12 @@
       "url": "http://cryptoemporium.eu"
     },
     {
+      "title": "TrafficJunky",
+      "img": "../static/img/vendors/latest/trafficjunky.png",
+      "link": "TrafficJunky",
+      "url": "https://www.trafficjunky.com/"
+    },    
+    {
       "title": "Incredebites",
       "img": "../static/img/vendors/latest/incredebites.png",
       "link": "Incredebites Burbank",
@@ -641,6 +647,12 @@
       "img": "../static/img/vendors/latest/muddyadventures.png",
       "link": "muddyadventures.es", 
       "url": "http://www.muddyadventures.es"
+    },
+    {
+      "title": "FLOGmall",
+      "img": "../static/img/vendors/latest/flogmall-logo.png",
+      "link": "flogmall.com", 
+      "url": "https://flogmall.com"
     }
   ] 
 }
