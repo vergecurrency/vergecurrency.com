@@ -15,7 +15,7 @@
     },
     "opensource": {
       "question": "Is Verge Currency a private company and how is it funded?",
-      "answer": "No, it is 100% open-source software and not a private company funded through an ICO or pre-mining. Development and marketing effort is supported by thousands of community members."
+      "answer": "No, it is 100% open-source software and not a private company funded through an ICO or pre-mining. Development and marketing effort is supported by thousands of volunteer community members."
     },
     "getverge": {
       "question": "How Can I Get Verge Currency?",
@@ -103,7 +103,7 @@
     "subheader": "Privacy",
     "wraithprotocol": {
       "question": "What is the Wraith Protocol?",
-      "answer": "The Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. More details can be found on the blog and in the Blackpaper."
+      "answer": "Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services. Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.  More details can be found on the blog and in the Blackpaper."
     },
     "vergeanon": {
       "question": "Why use Verge for anonymity and not any other crypto over Tor?",

@@ -43,6 +43,12 @@
       "url": "https://indacoin.com/en_GB/change?discount=85519"
     },
     {
+      "img": "../static/img/exchanges/xchange.svg",
+      "title": "Xchange",
+      "link": "Xchange.me",
+      "url": "https://xchange.me/"
+    },
+    {
       "img": "../static/img/exchanges/cryptopia.png",
       "title": "Cryptopia",
       "link": "cryptopia.co.nz",
@@ -146,9 +152,9 @@
     },
     {
       "img": "../static/img/exchanges/nexchange.png",
-      "title": "Nexchange",
-      "link": "nexchange.io",
-      "url": "https://nexchange.io"
+      "title": "N.exchange",
+      "link": "n.exchange",
+      "url": "https://n.exchange"
     },
     {
       "img": "../static/img/exchanges/cryptohub.jpg",

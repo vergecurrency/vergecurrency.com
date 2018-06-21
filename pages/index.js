@@ -190,8 +190,8 @@ function Home(props) {
               </div>
               <div className="col-xs-10 center-xs end-sm pt-small">
                 <h6>
-                  <Link href="/get-verge">
-                    <a href="/get-verge" className="exchanges--url" name="See chart">See chart here</a>
+                  <Link href="https://coinmarketcap.com/currencies/verge/">
+                    <a href="https://coinmarketcap.com/currencies/verge/"  target="_blank" rel="noopener noreferrer" className="" name="See chart">See chart here</a>
                   </Link>
                 </h6>
               </div>

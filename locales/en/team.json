@@ -98,7 +98,15 @@
         "role": "Head of Project Management",
         "occupation": "PM Health & Tech",
         "github": "",
-        "twitter": "https://twitter.com/CryptoXVGGirl"
+        "twitter": "https://twitter.com/CryptoGirlDini"
+      },
+      {
+        "img": "../static/img/team/chris.png",
+        "name": "Chris",
+        "role": "Project and outreach",
+        "occupation": "Operational manager",
+        "github": "",
+        "twitter": "https://twitter.com/christiaan_jim"
       },
       {
         "img": "../static/img/team/kris.jpg",
