@@ -641,6 +641,12 @@
       "img": "../static/img/vendors/latest/muddyadventures.png",
       "link": "muddyadventures.es", 
       "url": "http://www.muddyadventures.es"
+    },
+    {
+      "title": "FLOGmall",
+      "img": "../static/img/vendors/latest/flogmall-logo.png",
+      "link": "flogmall.com", 
+      "url": "https://flogmall.com"
     }
   ] 
 }
