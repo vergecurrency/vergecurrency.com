@@ -11,6 +11,7 @@ const MiningPools = () => (
             <h1>Verge Pools</h1>
             <ul className="pools-list">
               <strong>Scrypt</strong>
+              <li><Link href="http://blockmasters.co"><a href="http://blockmasters.co" target="_blank" rel="noopener noreferrer">[SCRYPT] Block Masters</a></Link></li>
               <li><Link href="https://aikapool.com/xvg"><a href="https://aikapool.com/xvg" target="_blank" rel="noopener noreferrer">[SCRYPT] Aikapool</a></Link></li>
               <li><Link href="https://verge-scrypt.miningpoolhub.com/"><a href="https://verge-scrypt.miningpoolhub.com/" target="_blank" rel="noopener noreferrer">[SCRYPT] MiningPoolHub.com</a></Link></li>
               {/* <li><Link href="https://xvg.thecoin.pw/index.php?page=statistics&action=pool"><a href="https://xvg.thecoin.pw/index.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] TheCoin.pw</a></Link></li> */}
@@ -29,6 +30,7 @@ const MiningPools = () => (
               <li><Link href="https://profit-pool.org/"><a href="https://profit-pool.org/" target="_blank" rel="noopener noreferrer"> Profit Pool</a></Link></li>
               <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[myr-groestl] AntMinePool</a></Link></li>
               <strong>Lyra2Rev2</strong>
+              <li><Link href="http://blockmasters.co/"><a href="http://blockmasters.co/" target="_blank" rel="noopener noreferrer">[Lyra2Rev2] Block Masters </a></Link></li>
               <li><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">[Lyra2Rev2] Poolovich </a></Link></li>
               <li><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">[Lyra2re] HashFaster </a></Link></li>
               <li><Link href="http://xvg-lyra.idcray.com/"><a href="http://xvg-lyra.idcray.com/" target="_blank" rel="noopener noreferrer">[Lyra2re] IDcray </a></Link></li>
@@ -43,6 +45,7 @@ const MiningPools = () => (
               <li><Link href="http://luckypool.xyz"><a href="http://luckypool.xyz" target="_blank" rel="noopener noreferrer">[Blake2s] LuckyPool</a></Link></li>
               <li><Link href="https://poolio.mmcs.world/"><a href="https://poolio.mmcs.world/" target="_blank" rel="noopener noreferrer">[Blake2s] pOOlio.mmcs.world</a></Link></li>
               <strong>x17</strong>
+              <li><Link href="http://blockmasters.co/"><a href="http://blockmasters.co/" target="_blank" rel="noopener noreferrer">[x17] Block Masters </a></Link></li> 
               <li><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">[x17] HashFaster </a></Link></li>    
               <li><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">[x17] Poolovich </a></Link></li>
               <li><Link href="http://yiimp.ccminer.org/"><a href="http://yiimp.ccminer.org/" target="_blank" rel="noopener noreferrer">[x17] Yiimp</a></Link></li>
