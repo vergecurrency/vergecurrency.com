@@ -1,9 +1,38 @@
+.roadmap-update-progress {
+  margin-top: 15px;
+  display: inline-flex;
+  align-items: end;
+
+  .progress {
+    transform: rotate(-90deg);
+
+    &.progress-text {
+      margin-left: 15px;
+      margin-bottom: 0px;
+      transform: rotate(0deg);
+    }
+  }
+
+  .progress__meter,
+  .progress__value {
+    fill: none;
+  }
+
+  .progress__meter {
+    stroke: #e6e6e6;
+  }
+
+  .progress__value {
+    stroke: #04a5f0;
+    stroke-linecap: round;
+  }
+}
 .roadmap {
   &__timeline {
     list-style: none;
     margin-bottom: 0;
     padding-left: 0;
-    transition: .2s all;
+    transition: 0.2s all;
 
     @media (min-width: $min-width-sm) {
       left: 8rem;
@@ -12,7 +41,7 @@
       &--home {
         left: 0;
         position: static;
-        transition: .2s all;
+        transition: 0.2s all;
       }
     }
   }
@@ -20,8 +49,9 @@
   &__item {
     // Added variables for correct spacing of alterations of these lines
     $connector-line-wrapper-height: 4rem;
-    $connector-line-gap: .5rem;
-    $connector-line-height: $connector-line-wrapper-height - (3 * $connector-line-gap);
+    $connector-line-gap: 0.5rem;
+    $connector-line-height: $connector-line-wrapper-height -
+      (3 * $connector-line-gap);
     $connector-line-offset-y: -($connector-line-height + $connector-line-gap);
 
     font-size: rem(14px);
@@ -39,18 +69,18 @@
 
     &::before {
       border-radius: 50%;
-      content: "";
+      content: '';
       height: rem(30px);
       left: -3rem;
       position: absolute;
-      top: .5rem;
+      top: 0.5rem;
       width: rem(30px);
     }
 
     &--planned {
       &::before {
         background: $white;
-        box-shadow: 0 0 80px rgba(0, 0, 0, .2);
+        box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
       }
     }
 
@@ -63,7 +93,7 @@
     &::after {
       background: #e7d8ce;
       bottom: $connector-line-offset-y;
-      content: "";
+      content: '';
       height: $connector-line-height;
       left: rem(2px);
       min-width: 2px;
@@ -88,14 +118,14 @@
     left: -3rem;
     margin-top: 0;
     position: relative;
-    transition: .2s all;
+    transition: 0.2s all;
 
     @media (min-width: $min-width-sm) {
       position: absolute;
     }
 
     span {
-      transition: .2s all;
+      transition: 0.2s all;
 
       @media (min-width: $min-width-sm) {
         left: -11rem;
