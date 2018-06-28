@@ -218,20 +218,20 @@
         "twitter": "https://twitter.com/waveon3"
       },
       {
-        "img": "../static/img/team/maeotsu.jpg",
-        "name": "Maeotsu",
-        "role": "Graphic designer",
-        "occupation": "",
-        "github": "",
-        "twitter": ""
-      },
-      {
         "img": "../static/img/team/RBull.jpg",
         "name": "RBull",
         "role": "Outreach Operational Manager",
         "occupation": "Customer Service Manager",
         "github": "",
         "twitter": "https://twitter.com/Rbull076"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Tonton Lowan",
+        "role": "Social Media Specialist, PR for French speaking countries.",
+        "occupation": "Entrepreneur",
+        "github": "",
+        "twitter": "https://twitter.com/vergeliever"
       }
     ]
   },
