@@ -77,10 +77,10 @@ function Roadmap(props) {
                         BTC.<br />
                         <b>Q1</b>
                       </li>
-                      <li className="roadmap__item roadmap__item--planned">
+                      <li className="roadmap__item roadmap__item--done">
                         <h3>Mining Update</h3>
                         XVGui Miner, Official Mining Pool, Mining Guide<br />
-                        <b>Q1</b>
+                        <span>Released</span> 24 June 2018
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>RSK Smart Contracts</h3>
