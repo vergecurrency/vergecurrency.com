@@ -86,6 +86,14 @@
         "occupation": "Banking & Finance",
         "github": "",
         "twitter": "https://twitter.com/PhanTi_91"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "CryptoSam",
+        "role": "Procurement & Fulfillment",
+        "occupation": "Territory Sales Manager",
+        "github": "https://github.com/CryptoSamantha",
+        "twitter": "https://twitter.com/cryptosamantha"
       }
     ]
   },
@@ -216,6 +224,14 @@
         "occupation": "",
         "github": "",
         "twitter": ""
+      },
+      {
+        "img": "../static/img/team/RBull.jpg",
+        "name": "RBull",
+        "role": "Outreach Operational Manager",
+        "occupation": "Customer Service Manager",
+        "github": "",
+        "twitter": "https://twitter.com/Rbull076"
       }
     ]
   },
