@@ -147,6 +147,14 @@
         "occupation": "Software Engineer",
         "github": "",
         "twitter": "https://twitter.com/CmplxStack"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "ddefying",
+        "role": "Technical Advisor",
+        "occupation": "Corporate Transaction Attorney",
+        "github": "",
+        "twitter": "https://twitter.com/cheetosologist"
       }
     ]
   },
