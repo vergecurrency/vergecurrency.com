@@ -64,6 +64,14 @@
         "twitter": "https://twitter.com/mihael_xvg"
       },
       {
+        "img": "../static/img/team/CC66.png",
+        "name": "Jason/CC66",
+        "role": "Community Manager",
+        "occupation": "Social Engineer",
+        "github": "",
+        "twitter": "https://twitter.com/CoinCrazy66"
+      },
+      {
         "img": "../static/img/team/verge.jpg",
         "name": "Kareem",
         "role": "Intl. Business Development",
