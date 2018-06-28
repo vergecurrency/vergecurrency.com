@@ -71,43 +71,50 @@ function Roadmap(props) {
                         members, blog with official news, mobile friendly<br />
                         <span>Released</span> 24 March 2018
                       </li>
+                      <li className="roadmap__item roadmap__item--done">
+                        <h3>Verge MeetUp</h3>
+                        First Verge Meetup in Amsterdam<br />
+                        with several speakers and special guests,<br /> 
+                        who will provide information about the Verge Currency project<br />
+                        <span>organized</span> 09 June 2018
+                      </li>
+                      <li className="roadmap__item roadmap__item--done">
+                        <h3>Mining Update</h3>
+                        XVGui Miner for Windows & Mining Guide<br />
+                        <span>Released</span> 24 June 2018
+                      </li>
+                      <li className="roadmap__item roadmap__item--planned">
+                        <h3>RSK Smart Contracts</h3>
+                        They are in testnet for Bitcoin now. It´s nearly finished 
+                        and the next Step of this RoadMap.<br />
+                        <b>Q3 (July)</b>
+                      </li>
+                      <li className="roadmap__item roadmap__item--planned">
+                        <h3>Official iOS wallet</h3>
+                        <b>Q3</b>
+                      </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Merchandise Online Store</h3>
                         Verge branded apparel that can be purchased with XVG and
                         BTC.<br />
-                        <b>Q1</b>
-                      </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>Mining Update</h3>
-                        XVGui Miner, Official Mining Pool, Mining Guide<br />
-                        <b>Q1</b>
-                      </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>RSK Smart Contracts</h3>
-                        They are in testnet for Bitcoin now. Date revolves
-                        around this timeline.<br />
-                        <s>Q4 2017</s> <b>Q2</b>
+                        <b>Q3</b>
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>RingCT integration</h3>
-                        <b>Q2</b>
-                      </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>Official iOS wallet</h3>
-                        <b>Q2</b>
+                        <b>Q4</b>
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>I2P Android Wallet</h3>
                         Anonymous mobile transactions over the I2P network<br />
-                        <b>Q2</b>
+                        <b>Q4</b>
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Tor I2P Electrum Wallet</h3>
-                        <b>Q3</b>
+                        <b>Q4</b>
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Test Tor I2P Electrum Wallet</h3>
-                        <b>Q3</b>
+                        <b>Q1 2019</b>
                       </li>
                       {/* <li className="roadmap__year roadmap__year--next">
                         <span>2019</span>
