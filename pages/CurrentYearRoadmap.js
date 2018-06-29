@@ -56,7 +56,7 @@ const roadMap = [
     done: false,
     doneDate: '',
     title: 'RingCT Integration',
-    description: 'Ring Confidential Transactions - advanded masking of transaction amounts',
+    description: 'Ring Confidential Transactions - advanced masking of transaction amounts',
     progress: 35,
     progressState: 'integrating',
   },
