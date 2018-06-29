@@ -86,7 +86,7 @@ const MenuItems = ({ t }) => (
           <a href="https://www.investfeed.com/currency/XVG" target="_blank" rel="noopener noreferrer">
             {t('header:investfeed', { defaultValue: 'investfeed' })}
           </a>
-        </link>
+        </Link>
         <Link href="https://discord.gg/vergecurrency">
           <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer">
             {t('header:discord', { defaultValue: 'Discord' })}
