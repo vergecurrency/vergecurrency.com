@@ -58,7 +58,7 @@ function Roadmap(props) {
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Test Tor I2P Electrum Wallet</h3>
-        </li>*/}
+                      </li>*/}
                     </ul>
                   </div>
                 </div>
