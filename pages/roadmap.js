@@ -58,7 +58,7 @@ function Roadmap(props) {
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Merchandise Online Store</h3>
                         Verge branded apparel that can be purchased with XVG and BTC.<br />
-                        <RadialProgress percentage={90} text={'Testing products'} />
+                        <RadialProgress percentage={90} text={'testing products'} />
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Mining Update</h3>
@@ -83,7 +83,7 @@ function Roadmap(props) {
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Official iOS wallet</h3>
                         iOS wallet with full-fledged feature set like a normal wallet. <br />
-                        <RadialProgress percentage={10} text={'planning iOS integration'} />
+                        <RadialProgress percentage={10} text={'planning started'} />
                       </li>
                       <li className="roadmap__year roadmap__year--next">
                         <span>2019</span>
