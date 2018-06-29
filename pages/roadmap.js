@@ -62,7 +62,7 @@ function Roadmap(props) {
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Mining Update</h3>
-                        XVGui Miner, Official Mining Pool, Mining Guide<br />
+                        XVGui Miner for Windows, Official Mining Pool & Mining Guide<br />
                         <RadialProgress percentage={75} text={'work in progress'} />
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
@@ -76,14 +76,14 @@ function Roadmap(props) {
                         <RadialProgress percentage={35} text={'integrating'} />
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
-                        <h3>RSK Smart Contracts</h3>
-                        They are in testnet for Bitcoin now. Date revolves around this timeline.<br />
-                        <RadialProgress percentage={40} text={'investigating integration'} />
+                        <h3>RSK</h3>
+                        RSK Smart Contract Integration<br />
+                        <RadialProgress percentage={25} text={'investigating integration'} />
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Official iOS wallet</h3>
                         iOS wallet with full-fledged feature set like a normal wallet. <br />
-                        <RadialProgress percentage={15} text={'planning started'} />
+                        <RadialProgress percentage={10} text={'planning started'} />
                       </li>
                       <li className="roadmap__year roadmap__year--next">
                         <span>2019</span>
