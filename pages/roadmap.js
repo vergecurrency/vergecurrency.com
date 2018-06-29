@@ -72,7 +72,7 @@ function Roadmap(props) {
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>RingCT Integration</h3>
-                        Ring Confidential Transactions - advanded masking of transaction amounts<br />
+                        Ring Confidential Transactions - advanced masking of transaction amounts<br />
                         <RadialProgress percentage={35} text={'integrating'} />
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
