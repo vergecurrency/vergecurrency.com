@@ -1,9 +1,9 @@
 import Head from 'next/head';
 
 import Layout from '../components/Layout';
-import RadialProgress from '../components/RadialProgress';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
+import CurrentYearRoadmap from './CurrentYearRoadmap';
 
 function Roadmap(props) {
   const { t } = props;
@@ -44,47 +44,7 @@ function Roadmap(props) {
                       <li className="roadmap__year roadmap__year--current">
                         <span>2018</span>
                       </li>
-                      <li className="roadmap__item roadmap__item--done">
-                        <h3>Core Wallet 4.0 Release Stage 2</h3>
-                        Tor Integration & Optional Stealth Addressing<br />
-                        <span>Released</span> 1 January 2018
-                      </li>
-                      <li className="roadmap__item roadmap__item--done">
-                        <h3>New website</h3>
-                        New look, guides, updated roadmap, list of official core members, blog with official news,
-                        mobile friendly<br />
-                        <span>Released</span> 24 March 2018
-                      </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>Merchandise Online Store</h3>
-                        Verge branded apparel that can be purchased with XVG and BTC.<br />
-                        <RadialProgress percentage={90} text={'testing products'} />
-                      </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>Mining Update</h3>
-                        XVGui Miner for Windows, Official Mining Pool & Mining Guide<br />
-                        <RadialProgress percentage={75} text={'work in progress'} />
-                      </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>Rebased Codebase</h3>
-                        Rebasing the entire codebase to include the newest standards shared by bitcoin.<br />
-                        <RadialProgress percentage={50} text={'rebasing'} />
-                      </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>RingCT Integration</h3>
-                        Ring Confidential Transactions - advanded masking of transaction amounts<br />
-                        <RadialProgress percentage={35} text={'integrating'} />
-                      </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>RSK</h3>
-                        RSK Smart Contract Integration<br />
-                        <RadialProgress percentage={25} text={'investigating integration'} />
-                      </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>Official iOS wallet</h3>
-                        iOS wallet with full-fledged feature set like a normal wallet. <br />
-                        <RadialProgress percentage={10} text={'planning started'} />
-                      </li>
+                      <CurrentYearRoadmap />
                       <li className="roadmap__year roadmap__year--next">
                         <span>2019</span>
                       </li>

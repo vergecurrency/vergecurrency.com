@@ -1,0 +1,94 @@
+import react from 'react';
+import RadialProgress from '../components/RadialProgress';
+import { max } from 'moment';
+
+const roadMap = [
+  {
+    done: true,
+    doneDate: '1st January 2018',
+    title: 'Core Wallet 4.0 Release Stage 2',
+    description: 'Tor Integration & Optional Stealth Addressing',
+    progress: 100,
+    progressState: '',
+  },
+  {
+    done: true,
+    doneDate: '24th March 2018',
+    title: 'New website',
+    description:
+      'New look, guides, updated roadmap, list of official core members, blog with official news, mobile friendly',
+    progress: 100,
+    progressState: '',
+  },
+  {
+    done: true,
+    doneDate: '9th June 2018',
+    title: 'First Verge Meetup',
+    description: 'First verge meetup in Netherlands, Amsterdam',
+    progress: 100,
+    progressState: '',
+  },
+  {
+    done: false,
+    doneDate: '',
+    title: 'Merchandise Online Store',
+    description: 'Verge branded apparel that can be purchased with XVG and BTC.',
+    progress: 90,
+    progressState: 'testing products',
+  },
+  {
+    done: false,
+    doneDate: '',
+    title: 'Mining Update',
+    description: 'XVGui Miner for Windows, Official Mining Pool & Mining Guide',
+    progress: 75,
+    progressState: 'work in progress',
+  },
+  {
+    done: false,
+    doneDate: '',
+    title: 'Rebased Codebase',
+    description: 'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
+    progress: 50,
+    progressState: 'rebasing',
+  },
+  {
+    done: false,
+    doneDate: '',
+    title: 'RingCT Integration',
+    description: 'Ring Confidential Transactions - advanded masking of transaction amounts',
+    progress: 35,
+    progressState: 'integrating',
+  },
+  {
+    done: false,
+    doneDate: '',
+    title: 'RSK',
+    description: 'RSK Smart Contract Integration',
+    progress: 25,
+    progressState: 'investigating integration',
+  },
+  {
+    done: false,
+    doneDate: '',
+    title: 'Official iOS wallet',
+    description: 'iOS wallet with full-fledged feature set like a normal wallet.',
+    progress: 10,
+    progressState: 'planning started',
+  },
+];
+
+export default ({ start = 0, maxLength = roadMap.length }) =>
+  roadMap.slice(start, start + maxLength).map(mapItem => (
+    <li className={`roadmap__item roadmap__item--${mapItem.done ? 'done' : 'planned'}`}>
+      <h3>{mapItem.title}</h3>
+      {mapItem.description} <br />
+      {mapItem.done ? (
+        <div className="roadmap-update-progress">
+          <span>Released</span> <div className="progress progress-text">{mapItem.doneDate}</div>
+        </div>
+      ) : (
+        <RadialProgress percentage={mapItem.progress} text={mapItem.progressState} />
+      )}
+    </li>
+  ));

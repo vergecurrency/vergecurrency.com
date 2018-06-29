@@ -12,14 +12,20 @@ import WalletsBtn from '../components/WalletsBtn';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
-  faFacebook, faGithub, faTelegram,
-  faYoutube, faReddit, faTwitter, faDiscord,
+  faFacebook,
+  faGithub,
+  faTelegram,
+  faYoutube,
+  faReddit,
+  faTwitter,
+  faDiscord,
 } from '@fortawesome/fontawesome-free-brands';
 
 import 'moment-timezone';
 
 import { translate, Interpolate } from 'react-i18next';
 import i18n from '../i18n';
+import CurrentYearRoadmap from './CurrentYearRoadmap';
 
 function Home(props) {
   const { t } = props;
@@ -27,7 +33,12 @@ function Home(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">{t('common:meta.home.title', { defaultValue: 'Verge - Secure and anonymous cryptocurrency, built with a focus on privacy - VergeCurrency.com' })}</title>
+        <title key="title">
+          {t('common:meta.home.title', {
+            defaultValue:
+              'Verge - Secure and anonymous cryptocurrency, built with a focus on privacy - VergeCurrency.com',
+          })}
+        </title>
       </Head>
       <div className="home">
         <div className="ribbon">
@@ -41,9 +52,21 @@ function Home(props) {
                   <p>{t('home:ribbon.text')}</p>
                   <WalletsBtn />
                   <Link href="/get-started" prefetch>
-                    <a href="/get-started" className="btn btn-secondary" name="Get Started with Verge">Get Started with Verge</a>
+                    <a href="/get-started" className="btn btn-secondary" name="Get Started with Verge">
+                      Get Started with Verge
+                    </a>
                   </Link>
-                  <p className="blackpaper">Read the <a href="/static/blackpaper/Verge-Anonymity-Centric-CryptoCurrency.pdf" target="_blank" rel="noopener noreferrer"><i>Blackpaper</i></a> of Verge Currency</p>
+                  <p className="blackpaper">
+                    Read the{' '}
+                    <a
+                      href="/static/blackpaper/Verge-Anonymity-Centric-CryptoCurrency.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>Blackpaper</i>
+                    </a>{' '}
+                    of Verge Currency
+                  </p>
                 </div>
               </div>
             </div>
@@ -121,7 +144,9 @@ function Home(props) {
                   </div>
                   <h6 className="center-xs start-sm">
                     <Link href={t('home:benefits.link:url')}>
-                      <a href={t('home:benefits.link:url')} className="benefits--url">{t('home:benefits.link.title')}</a>
+                      <a href={t('home:benefits.link:url')} className="benefits--url">
+                        {t('home:benefits.link.title')}
+                      </a>
                     </Link>
                   </h6>
                 </div>
@@ -146,11 +171,21 @@ function Home(props) {
                       <div className="start-sm pb-small">
                         <h6>
                           <Link href={t('home:wallets.link.url')}>
-                            <a href={t('home:wallets.link.url')} className="wallets--url">{t('home:wallets.link.title')}</a>
+                            <a href={t('home:wallets.link.url')} className="wallets--url">
+                              {t('home:wallets.link.title')}
+                            </a>
                           </Link>
                         </h6>
                         <h2>
-                          <Interpolate i18nKey="home:wallets.header" br={<span> <br className="hidden-xs" /></span>} />
+                          <Interpolate
+                            i18nKey="home:wallets.header"
+                            br={
+                              <span>
+                                {' '}
+                                <br className="hidden-xs" />
+                              </span>
+                            }
+                          />
                         </h2>
                       </div>
                       <Wallets />
@@ -164,10 +199,20 @@ function Home(props) {
               <div className="row center-xs power-to-the-people">
                 <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
                   <h6>Empowering people</h6>
-                  <h3>Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.</h3>
-                  <p>With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.</p>
+                  <h3>
+                    Our mission is to <span>empower people</span> around the world by bringing blockchain transactions
+                    into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly,
+                    efficiently and <span>privately</span>.
+                  </h3>
+                  <p>
+                    With Verge, businesses and individuals have flexible options for sending and receiving payments.
+                    With the flip of a switch, we offer helpful integrations and tools that enable them to handle large
+                    scale transactions between merchants and small scale private payments.
+                  </p>
                   <Link href="/get-verge">
-                    <a href="/get-verge" className="btn btn-white" name="Get Verge">Get Verge today</a>
+                    <a href="/get-verge" className="btn btn-white" name="Get Verge">
+                      Get Verge today
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -178,10 +223,17 @@ function Home(props) {
                 <div className="start-sm pb-small">
                   <h6>
                     <Link href="/get-verge">
-                      <a href="/get-verge" className="exchanges--url">See more exchanges</a>
+                      <a href="/get-verge" className="exchanges--url">
+                        See more exchanges
+                      </a>
                     </Link>
                   </h6>
-                  <h2>Trade Verge on the most popular exchanges. <span className="hidden-xs"><br /></span>We’re proud to be listed on:</h2>
+                  <h2>
+                    Trade Verge on the most popular exchanges.{' '}
+                    <span className="hidden-xs">
+                      <br />
+                    </span>We’re proud to be listed on:
+                  </h2>
                 </div>
 
                 <HomeExchanges />
@@ -191,7 +243,15 @@ function Home(props) {
               <div className="col-xs-10 center-xs end-sm pt-small">
                 <h6>
                   <Link href="https://coinmarketcap.com/currencies/verge/">
-                    <a href="https://coinmarketcap.com/currencies/verge/"  target="_blank" rel="noopener noreferrer" className="" name="See chart">See chart here</a>
+                    <a
+                      href="https://coinmarketcap.com/currencies/verge/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=""
+                      name="See chart"
+                    >
+                      See chart here
+                    </a>
                   </Link>
                 </h6>
               </div>
@@ -202,16 +262,35 @@ function Home(props) {
                 <div className="row center-xs middle-xs vendors">
                   <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
                     <h6>{t('home:vendors.super', { defaultValue: 'Accept Verge Currency' })}</h6>
-                    <h2>{t('home:vendors.title', { defaultValue: 'Powering real world vendors that accept Verge Currency' })}</h2>
+                    <h2>
+                      {t('home:vendors.title', {
+                        defaultValue: 'Powering real world vendors that accept Verge Currency',
+                      })}
+                    </h2>
 
-                    <p>{t('home:vendors.text-1', { defaultValue: 'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.' })}</p>
-                    <p>{t('home:vendors.text-2', { defaultValue: 'Get started today and accept Verge in your store.' })}</p>
+                    <p>
+                      {t('home:vendors.text-1', {
+                        defaultValue:
+                          'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.',
+                      })}
+                    </p>
+                    <p>
+                      {t('home:vendors.text-2', { defaultValue: 'Get started today and accept Verge in your store.' })}
+                    </p>
 
                     <Link href="/developers/verge-vendor-integration">
-                      <a href="/developers/verge-vendor-integration" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'Accept Verge today' })}</a>
+                      <a
+                        href="/developers/verge-vendor-integration"
+                        className="btn btn-primary btn-primary--on-white-bg"
+                        name="Accept Verge Today"
+                      >
+                        {t('home:vendors.buttonPrimary', { defaultValue: 'Accept Verge today' })}
+                      </a>
                     </Link>
                     <Link href="/vendors">
-                      <a href="/vendors" className="btn btn-tertiary" name="See all vendors">{t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors' })}</a>
+                      <a href="/vendors" className="btn btn-tertiary" name="See all vendors">
+                        {t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors' })}
+                      </a>
                     </Link>
                   </div>
 
@@ -230,7 +309,9 @@ function Home(props) {
                   <h2>Latest vendors to accept Verge</h2>
                   <h6>
                     <Link href="/vendors">
-                      <a href="/vendors" className="vendors--url" name="See vendors">See all vendors here</a>
+                      <a href="/vendors" className="vendors--url" name="See vendors">
+                        See all vendors here
+                      </a>
                     </Link>
                   </h6>
 
@@ -246,55 +327,27 @@ function Home(props) {
                     A roadmap with great features to come.<br />
                     Join us while we&apos;re still growing!
                   </h2>
-				  
+
                   <p>
-                  As an open-source community &amp; volunteer-driven project,
-                  our roadmap is meant as a general guideline for how we are
-                  developing Verge into one of the best cryptocurrency options
-                  out there.
+                    As an open-source community &amp; volunteer-driven project, our roadmap is meant as a general
+                    guideline for how we are developing Verge into one of the best cryptocurrency options out there.
                   </p>
                   <p>
-                  In the spirit of transparency and in good faith to the
-                  community, we want this roadmap to be made public. However,
-                  please keep in mind that this roadmap is subject to change
-                  based on priorities, unplanned developments and new ideas.
+                    In the spirit of transparency and in good faith to the community, we want this roadmap to be made
+                    public. However, please keep in mind that this roadmap is subject to change based on priorities,
+                    unplanned developments and new ideas.
                   </p>
-					
+
                   <div className="row start-xs center-sm">
                     <div className="col-xs-10 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-12 col-lg-9 start-xs">
                       <ul className="roadmap__timeline roadmap__timeline--home pb">
-                        <li className="roadmap__item roadmap__item--done">
-                          <h3>&quot;Black&quot; Paper v3.0</h3>
-                          <span>Released</span> 4 June 2017
-                        </li>
-                        <li className="roadmap__item roadmap__item--done">
-                          <h3>Core Wallet 4.0 Release Stage 2</h3>
-                          Tor Integration & Optional Stealth Addressing<br />
-                          <span>Released</span> 1 January 2018
-                        </li>
-                        <li className="roadmap__item roadmap__item--done">
-                          <h3>New website</h3>
-                          New look, guides, updated roadmap, list of official core members, blog with official news, mobile friendly<br />
-                          <span>Released</span> 24 March 2018
-                        </li>
-                        <li className="roadmap__item roadmap__item--planned">
-                          <h3>Merchandise Online Store</h3>
-                          Verge branded apparel that can be purchased with XVG and BTC.<br />
-                          <b>Q1</b>
-                        </li>
-                        <li className="roadmap__item roadmap__item--planned">
-                          <h3>RingCT integration</h3>
-                          <b>Q2</b>
-                        </li>
-                        <li className="roadmap__item roadmap__item--planned">
-                          <h3>I2P Android Wallet</h3>
-                          Anonymous mobile transactions over the I2P network<br />
-                          <b>Q2</b>
-                        </li>
+                        <CurrentYearRoadmap start={2} maxLength={5} />
                       </ul>
                       <h6>
                         <Link href="/roadmap">
-                          <a href="/roadmap" name="Full roadmap here">Full roadmap here</a>
+                          <a href="/roadmap" name="Full roadmap here">
+                            Full roadmap here
+                          </a>
                         </Link>
                       </h6>
                     </div>
@@ -352,37 +405,93 @@ function Home(props) {
                       <div className="row start-xs center-sm between-md pb-xs">
                         <div className="pt-xs social__icon">
                           <Link href="https://www.facebook.com/VERGEcurrency">
-                            <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook" name="Facebook link"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                            <a
+                              href="https://www.facebook.com/VERGEcurrency"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="social__link social__link--facebook"
+                              name="Facebook link"
+                            >
+                              <FontAwesomeIcon icon={faFacebook} size="2x" />
+                            </a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://github.com/vergecurrency?tab=repositories">
-                            <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github" name="GitHub link"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+                            <a
+                              href="https://github.com/vergecurrency?tab=repositories"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="social__link social__link--github"
+                              name="GitHub link"
+                            >
+                              <FontAwesomeIcon icon={faGithub} size="2x" />
+                            </a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://t.me/VERGExvg">
-                            <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram" name="Telegram link"><FontAwesomeIcon icon={faTelegram} size="2x" /></a>
+                            <a
+                              href="https://t.me/VERGExvg"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="social__link social__link--telegram"
+                              name="Telegram link"
+                            >
+                              <FontAwesomeIcon icon={faTelegram} size="2x" />
+                            </a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
-                            <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube" name="Youtube link"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
+                            <a
+                              href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="social__link social__link--youtube"
+                              name="Youtube link"
+                            >
+                              <FontAwesomeIcon icon={faYoutube} size="2x" />
+                            </a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://www.reddit.com/r/vergecurrency/">
-                            <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit" name="Reddit link"><FontAwesomeIcon icon={faReddit} size="2x" /></a>
+                            <a
+                              href="https://www.reddit.com/r/vergecurrency/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="social__link social__link--reddit"
+                              name="Reddit link"
+                            >
+                              <FontAwesomeIcon icon={faReddit} size="2x" />
+                            </a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://www.twitter.com/vergecurrency">
-                            <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter" name="Twitter link"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+                            <a
+                              href="https://www.twitter.com/vergecurrency"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="social__link social__link--twitter"
+                              name="Twitter link"
+                            >
+                              <FontAwesomeIcon icon={faTwitter} size="2x" />
+                            </a>
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://discord.gg/vergecurrency">
-                            <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord" name="Discord link"><FontAwesomeIcon icon={faDiscord} size="2x" /></a>
+                            <a
+                              href="https://discord.gg/vergecurrency"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="social__link social__link--discord"
+                              name="Discord link"
+                            >
+                              <FontAwesomeIcon icon={faDiscord} size="2x" />
+                            </a>
                           </Link>
                         </div>
                       </div>
