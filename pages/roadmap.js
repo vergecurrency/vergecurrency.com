@@ -78,12 +78,12 @@ function Roadmap(props) {
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>RSK Smart Contracts</h3>
                         They are in testnet for Bitcoin now. Date revolves around this timeline.<br />
-                        <RadialProgress percentage={10} text={'investigating integration'} />
+                        <RadialProgress percentage={40} text={'investigating integration'} />
                       </li>
                       <li className="roadmap__item roadmap__item--planned">
                         <h3>Official iOS wallet</h3>
                         iOS wallet with full-fledged feature set like a normal wallet. <br />
-                        <RadialProgress percentage={10} text={'planning started'} />
+                        <RadialProgress percentage={15} text={'planning started'} />
                       </li>
                       <li className="roadmap__year roadmap__year--next">
                         <span>2019</span>
