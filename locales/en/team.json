@@ -37,7 +37,7 @@
       {
         "img": "../static/img/team/sourcedexter.jpg",
         "name": "Sourcedexter",
-        "role": "Bot developer & India marketing lead",
+        "role": "Bot Developer & India Marketing Lead",
         "occupation": "Data science engineer",
         "github": "https://github.com/sourcedexter",
         "twitter": "https://twitter.com/sourcedexter"
@@ -59,7 +59,7 @@
         "img": "../static/img/team/mihael.jpg",
         "name": "Mihael",
         "role": "Community Manager",
-        "occupation": "Offshore Marine engineer",
+        "occupation": "Offshore Marine Engineer",
         "github": "",
         "twitter": "https://twitter.com/mihael_xvg"
       },
@@ -119,8 +119,8 @@
       {
         "img": "../static/img/team/chris.png",
         "name": "Chris",
-        "role": "Project and outreach",
-        "occupation": "Operational manager",
+        "role": "Project and Outreach",
+        "occupation": "Operational Manager",
         "github": "",
         "twitter": "https://twitter.com/christiaan_jim"
       },
@@ -163,7 +163,15 @@
         "occupation": "Corporate Transaction Attorney",
         "github": "",
         "twitter": "https://twitter.com/cheetosologist"
-      }
+      },
+      {
+        "img": "../static/img/team/jeffs1.png",
+        "name": "Jeff",
+        "role": "Technical Advisor",
+        "occupation": "Systems Engineer",
+        "github": "https://github.com/jrsikors",
+        "twitter": ""
+      }      
     ]
   },
   "marketing": {
