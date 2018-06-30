@@ -245,14 +245,6 @@
         "occupation": "",
         "github": "",
         "twitter": ""
-      },
-      {
-        "img": "../static/img/team/verge.jpg",
-        "name": "XVGMonk",
-        "role": "Tech Support and Integration",
-        "occupation": "",
-        "github": "",
-        "twitter": ""
       }
     ]
   }
