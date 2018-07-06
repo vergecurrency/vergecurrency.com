@@ -659,6 +659,12 @@
       "img": "../static/img/vendors/latest/bunker501.png",
       "link": "bunker501.nl", 
       "url": "https://bunker501.nl/"
-    }    
+    },
+    {
+      "title": "Hot and Sensuous",
+      "img": "../static/img/vendors/latest/hotandsensuous.png",
+      "link": "hotandsensuous.com (+18)", 
+      "url": "https://www.hotandsensuous.com/"
+    }     
   ] 
 }
