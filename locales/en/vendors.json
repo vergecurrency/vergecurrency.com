@@ -55,12 +55,6 @@
       "url": "https://www.foluxsolutions.com/"
     },
     {
-      "title": "Nexwave",
-      "img": "../static/img/vendors/latest/Nexwave.png",
-      "link": "Nexwave.ca",
-      "url": "https://Nexwave.ca"
-    },
-    {
       "title": "Bulldesign",
       "img": "../static/img/vendors/latest/bulldesign.png",
       "link": "Bulldesign.dk",
@@ -72,6 +66,18 @@
       "link": "trebaltek.ca", 
       "url": "http://trebaltek.ca"
     },
+    {
+      "title": "Evolution Host",
+      "img": "../static/img/vendors/latest/evolutionhost.png",
+      "link": "evolution-host.com", 
+      "url": "https://evolution-host.com"
+    },
+    {
+      "title": "Nexwave",
+      "img": "../static/img/vendors/latest/Nexwave.png",
+      "link": "Nexwave.ca",
+      "url": "https://Nexwave.ca"
+    },    
     {
       "title": "Reno Sports Bar",
       "img": "../static/img/vendors/latest/RenoSportsBar.jpg",
@@ -623,12 +629,6 @@
       "img": "../static/img/vendors/latest/pachanko.jpg",
       "link": "pachankostudio.com", 
       "url": "https://www.pachankostudio.com"
-    },
-    {
-      "title": "Evolution Host",
-      "img": "../static/img/vendors/latest/evolutionhost.png",
-      "link": "evolution-host.com", 
-      "url": "https://evolution-host.com"
     },
     {
       "title": "TorGuard",
