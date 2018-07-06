@@ -665,6 +665,12 @@
       "img": "../static/img/vendors/latest/hotandsensuous.png",
       "link": "hotandsensuous.com (+18)", 
       "url": "https://www.hotandsensuous.com/"
-    }     
-  ] 
+    },
+    {
+      "title": "Crypto Poker Club",
+      "img": "../static/img/vendors/latest/cryptopokerclub.png",
+      "link": "t.me/CryptoPokerFam (Telegram Group)", 
+      "url": "https://t.me/CryptoPokerFam"
+    }
+  ]
 }
