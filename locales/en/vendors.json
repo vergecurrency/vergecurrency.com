@@ -671,12 +671,6 @@
       "img": "../static/img/vendors/latest/cryptopokerclub.png",
       "link": "t.me/CryptoPokerFam", 
       "url": "https://t.me/CryptoPokerFam"
-    },
-    {
-      "title": "Tokenpay Store",
-      "img": "../static/img/vendors/latest/tokenbusiness.png",
-      "link": "token-business.com", 
-      "url": "https://token-business.com"
     }
   ]
 }
