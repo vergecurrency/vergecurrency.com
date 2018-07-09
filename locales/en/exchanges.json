@@ -179,6 +179,12 @@
       "title": "CoinDeal",
       "link": "coindeal.com",
       "url": "https://coindeal.com/"
+    },
+    {
+      "img": "../static/img/exchanges/bitvavo.png",
+      "title": "Bitvavo",
+      "link": "bitvavo.com",
+      "url": "https://bitvavo.com/"
     }
   ]
 }
