@@ -115,22 +115,10 @@
       "url": "https://suzuri.jp/verge"
     },
     {
-      "title": "HAH: Animal Rescue",
-      "img": "../static/img/vendors/latest/haveaheartkc.png",
-      "link": "haveaheartkc.com", 
-      "url": "http://haveaheartkc.com"
-    },
-    {
       "title": "Falmouth Boat Security",
       "img": "../static/img/vendors/latest/fbs.png",
       "link": "falmouthboatsecurity.com", 
       "url": "http://falmouthboatsecurity.com"
-    },
-    {
-      "title": "Effortless.IT",
-      "img": "../static/img/vendors/latest/effortless.png",
-      "link": "Effortless.it", 
-      "url": "https://effortless.it"
     },
     {
       "title": "Phuket Media Company",
@@ -227,12 +215,6 @@
       "img": "../static/img/vendors/latest/hostagon.png",
       "link": "hostragon.com", 
       "url": "http://hostragon.com"
-    },
-    {
-      "title": "MyWhaleBay",
-      "img": "../static/img/vendors/latest/mywhalebay.png",
-      "link": "mywhalebay.com", 
-      "url": "http://mywhalebay.com"
     },
     {
       "title": "megaXcoin",
@@ -389,18 +371,6 @@
       "img": "../static/img/vendors/latest/adinfinitumhub.png",
       "link": "adinfinitumhub.com", 
       "url": "http://adinfinitumhub.com"
-    },
-    {
-      "title": "Proper Pool",
-      "img": "../static/img/vendors/latest/properpool.jpg",
-      "link": "properpool.com", 
-      "url": "http://properpool.com"
-    },
-    {
-      "title": "Social MIMI",
-      "img": "../static/img/vendors/latest/socialmimi.png",
-      "link": "social-mimi.com", 
-      "url": "http://social-mimi.com"
     },
     {
       "title": "Sardis Marketplace",
@@ -565,12 +535,6 @@
       "url": "https://trendus.no/"
     },
     {
-      "title": "Check-Coin",
-      "img": "../static/img/vendors/latest/check-coin.png",
-      "link": "check-coin.com", 
-      "url": "https://check-coin.com/"
-    },
-    {
       "title": "HippTee",
       "img": "../static/img/vendors/latest/hipptee.png",
       "link": "hipptee.com", 
@@ -671,6 +635,12 @@
       "img": "../static/img/vendors/latest/cryptopokerclub.png",
       "link": "t.me/CryptoPokerFam", 
       "url": "https://t.me/CryptoPokerFam"
-    }
+    },
+    {
+      "title": "Royal Queen Seeds",
+      "img": "../static/img/vendors/latest/royalqueenseeds.png",
+      "link": "royalqueenseeds.com", 
+      "url": "https://www.royalqueenseeds.com"
+    }    
   ]
 }
