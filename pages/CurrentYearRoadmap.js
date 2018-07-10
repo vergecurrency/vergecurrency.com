@@ -49,7 +49,7 @@ const roadMap = [
     doneDate: '',
     title: 'Rebased Codebase',
     description: 'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
-    progress: 50,
+    progress: 80,
     progressState: 'rebasing',
   },
   {
