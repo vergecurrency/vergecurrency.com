@@ -1,6 +1,4 @@
-import react from 'react';
 import RadialProgress from '../components/RadialProgress';
-import { max } from 'moment';
 
 const roadMap = [
   {

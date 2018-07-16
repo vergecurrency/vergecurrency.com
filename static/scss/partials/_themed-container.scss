@@ -280,6 +280,15 @@
         padding-top: 8rem;
       }
     }
+
+    &--pdr {
+      padding-bottom: 4rem;
+      padding-top: 6rem;
+
+      @media (min-width: $min-width-sm) {
+        padding-top: 8rem;
+      }
+    }
   }
 
   &__linen {
