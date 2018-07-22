@@ -7,21 +7,100 @@ import i18n from '../i18n';
 const WHILE_DONATORS = [
   'Queen Dini',
   'Kaution17',
+  'no',
   'Rénier Britz',
   '(KR) Jong Chan Lee',
   'Danblockchain',
   'ahmetakkaya',
+  'wit_sec_birb',
+  'zorospain',
+  'Nate L.',
+  'Gray Matter Group',
+  'Jody31',
 ];
 
 const DOLPHIN_DONATORS = [
+  'Kie',
   'VergeLife',
-  'VergeLife',
-  'VergeLife',
-  'VergeLife',
-  'VergeLife',
-  'VergeLife',
-  'VergeLife',
-  'VergeLife',
+  'satish',
+  'Wallie',
+  'BIO9000',
+  'KraToZz',
+  'TBechs',
+  'clava',
+  'Snarf',
+  'BlueManRising',
+  'Christian Forner',
+  '4ever',
+  'Darren',
+  'John Schmansky',
+  'Avichai Peretz',
+  'Hawk',
+  'yeicripto',
+  'Piropig',
+  'Binance',
+  'JakeJames37',
+  'Candace Hart',
+  'mammothine',
+  'Empire Exterminators',
+  'Sachin Bhatt',
+  'hi',
+  'KRYPTOKID2U',
+  'Bruno Rubio',
+  'Rhino97X',
+  'nesstopher',
+  'Ok',
+  'CryptoChristus',
+  'Hepterso',
+  'wolny-finansowo',
+  'JimmyB',
+  'GoldPerson',
+  'Louie',
+  'Supatoll',
+  'Velaru.com',
+  'Kipruto Hatton',
+  'noodles',
+  'Daperre',
+  'ElTejon119',
+  'Mk3pete',
+  'Dolphin daniel',
+  'VergeCoin @Verge5034',
+  'Kevinjansie13',
+  'Scdc2012',
+  'Yilo0711',
+  'Z Man',
+  'DarKsidE555',
+  'XVGYoda',
+  'Julio Jimenez',
+  'Mendo',
+  'Crypt0kid',
+  'Muzahid',
+  'Foodmandoo',
+  'DragonKingz',
+  'Nieuwenhuis, E.',
+  'Nono',
+  'VictorAlfonso',
+  'Xvg_bullant',
+  'n0n00b',
+  'HS',
+  'Cryptofuture68_wvh',
+  'KryptoKing80',
+  'AdizAvatar',
+  'Durkjan',
+  'JanginLeejiwon',
+  'Crypto Senf',
+  'robertbent',
+  'Domonkosbrn',
+  'Robertv1979',
+  'drkn8t',
+  'Robert Gasso',
+  'XVG Clown Fish',
+  'cjbaker5',
+  'euGenius Vision',
+  'u4ric',
+  '$XVGHODLER',
+  'jockser',
+  'MCNR',
 ];
 
 function PartnershipDonationRewards(props) {
@@ -31,8 +110,8 @@ function PartnershipDonationRewards(props) {
     <Layout>
       <Head>
         <title key="title">
-          {t('common:meta.prizes.title', {
-            defaultValue: 'Donation Prizes - VergeCurrency.com',
+          {t('common:meta.partnership_donation_rewards.title', {
+            defaultValue: 'Partnership Donation Rewards - VergeCurrency.com',
           })}
         </title>
       </Head>
@@ -68,7 +147,12 @@ function PartnershipDonationRewards(props) {
             <div className="row text-center pt-large">
               <h2 className="col-xs-12">Dolphin Donators</h2>
             </div>
-            <div className="row">
+            <div
+              className="row"
+              style={{
+                justifyContent: 'center',
+              }}
+            >
               {DOLPHIN_DONATORS.map(donator => (
                 <div className="col-xs-12 col-md-3 pt-small">
                   <div className="card">
@@ -80,21 +164,21 @@ function PartnershipDonationRewards(props) {
               ))}
             </div>
           </div>
-          <div className="container text-center">
-            <div className="row pt-xlarge justify-content-center">
-              <h5 className="mindgeek-partnership-title">MINDGEEK PARTNERSHIP</h5>
-            </div>
-            <div className="row justify-content-center">
-              <h2>
-                Read more about the partnership
-                <br />
-                with Mindgeek here
-              </h2>
-            </div>
-            <div className="row justify-content-center pt-small">
-              <a href="/" className="btn btn-lg btn-primary">Partnerships</a>
-            </div>
-          </div>
+          {/*<div className="container text-center">*/}
+          {/*<div className="row pt-xlarge justify-content-center">*/}
+          {/*<h5 className="mindgeek-partnership-title">MINDGEEK PARTNERSHIP</h5>*/}
+          {/*</div>*/}
+          {/*<div className="row justify-content-center">*/}
+          {/*<h2>*/}
+          {/*Read more about the partnership*/}
+          {/*<br />*/}
+          {/*with Mindgeek here*/}
+          {/*</h2>*/}
+          {/*</div>*/}
+          {/*<div className="row justify-content-center pt-small">*/}
+          {/*<a href="/" className="btn btn-lg btn-primary">Partnerships</a>*/}
+          {/*</div>*/}
+          {/*</div>*/}
         </div>
       </div>
     </Layout>
