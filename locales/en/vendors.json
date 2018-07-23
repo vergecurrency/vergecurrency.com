@@ -635,6 +635,12 @@
       "img": "../static/img/vendors/latest/royalqueenseeds.png",
       "link": "royalqueenseeds.com", 
       "url": "https://www.royalqueenseeds.com"
-    }    
+    },
+    {
+      "title": "Dead Day Revolution",
+      "img": "../static/img/vendors/latest/deaddayrevo.png",
+      "link": "deaddayrevolution.com/shop", 
+      "url": "https://deaddayrevolution.com/shop"
+    }   
   ]
 }
