@@ -641,6 +641,12 @@
       "img": "../static/img/vendors/latest/deaddayrevo.png",
       "link": "deaddayrevolution.com/shop", 
       "url": "https://deaddayrevolution.com/shop"
-    }   
+    }, 
+    {
+      "title": "BabyMoss",
+      "img": "../static/img/vendors/latest/babymoss.jpg",
+      "link": "babymoss.com", 
+      "url": "https://babymoss.com"
+    }  
   ]
 }
