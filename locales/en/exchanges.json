@@ -185,6 +185,12 @@
       "title": "Bitvavo",
       "link": "bitvavo.com",
       "url": "https://bitvavo.com/"
-    }
+    },
+    {
+      "img": "../static/img/exchanges/bitminereu.png",
+      "title": "Bitminer.eu",
+      "link": "bitminer.eu",
+      "url": "https://bitminer.eu/"
+    }    
   ]
 }
