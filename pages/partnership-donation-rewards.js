@@ -4,8 +4,8 @@ import Layout from '../components/Layout';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-const WHILE_DONATORS = [
-  'Queen Dini',
+const WHALE_DONATORS = [
+  'Dini',
   'Kaution17',
   'no',
   'Rénier Britz',
@@ -131,7 +131,7 @@ function PartnershipDonationRewards(props) {
               <h2 className="col-xs-12">Whale Donators</h2>
             </div>
             <div className="row">
-              {WHILE_DONATORS.map(donator => (
+              {WHALE_DONATORS.map(donator => (
                 <div className="col-xs-12 col-md-4 pt-small">
                   <div className="card">
                     <div className="card-body text-center">
