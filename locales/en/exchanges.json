@@ -191,6 +191,12 @@
       "title": "Bitminer.eu",
       "link": "bitminer.eu",
       "url": "https://bitminer.eu/"
-    }    
+    },
+    {
+      "img": "../static/img/exchanges/changehero.png",
+      "title": "ChangeHero",
+      "link": "changehero.io",
+      "url": "https://changehero.io/"
+    }
   ]
 }
