@@ -60,18 +60,18 @@
       "link": "pracnyas.shop", 
       "url": "https://pracnyas.shop/"
     }, 
+   {
+      "title": "Souilmi",
+      "img": "../static/img/vendors/latest/souilmi.png",
+      "link": "souilmi.com", 
+      "url": "https://www.souilmi.com/"
+    },
     {
       "title": "Boatsters",
       "img": "../static/img/vendors/latest/boatsters.png",
       "link": "boatsters.com", 
       "url": "https://www.boatsters.com/"
     }, 
-    {
-      "title": "Souilmi",
-      "img": "../static/img/vendors/latest/souilmi.png",
-      "link": "souilmi.com", 
-      "url": "https://www.souilmi.com/"
-    },
     {
       "title": "Folux Solutions",
       "img": "../static/img/vendors/latest/foluxsolutions.png",
