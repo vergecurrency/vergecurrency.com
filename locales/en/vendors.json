@@ -43,11 +43,11 @@
       "url": "https://www.pexpeppers.com/"
     },
     {
-      "title": "Folux Solutions",
-      "img": "../static/img/vendors/latest/foluxsolutions.png",
-      "link": "foluxsolutions.com", 
-      "url": "https://www.foluxsolutions.com/"
-    },
+      "title": "Dead Day Revolution",
+      "img": "../static/img/vendors/latest/deaddayrevo.png",
+      "link": "deaddayrevolution.com/shop", 
+      "url": "https://deaddayrevolution.com/shop"
+    },    
     {
       "title": "Evolution Host",
       "img": "../static/img/vendors/latest/evolutionhost.png",
@@ -71,6 +71,12 @@
       "img": "../static/img/vendors/latest/souilmi.png",
       "link": "souilmi.com", 
       "url": "https://www.souilmi.com/"
+    },
+    {
+      "title": "Folux Solutions",
+      "img": "../static/img/vendors/latest/foluxsolutions.png",
+      "link": "foluxsolutions.com", 
+      "url": "https://www.foluxsolutions.com/"
     },
     {
       "title": "Incredebites",
@@ -654,12 +660,6 @@
       "link": "royalqueenseeds.com", 
       "url": "https://www.royalqueenseeds.com"
     },
-    {
-      "title": "Dead Day Revolution",
-      "img": "../static/img/vendors/latest/deaddayrevo.png",
-      "link": "deaddayrevolution.com/shop", 
-      "url": "https://deaddayrevolution.com/shop"
-    }, 
     {
       "title": "BabyMoss",
       "img": "../static/img/vendors/latest/babymoss.png",
