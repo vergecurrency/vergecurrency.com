@@ -31,9 +31,9 @@ const Team = props => {
           </div>
         </div>
         <h5>{member.role}</h5>
-	      <h5><i>{member.location}</i></h5>
-		    <p><h5>{member.occupation}</h5></p>
-		    <br />
+        <h5><i>{member.location}</i></h5>
+        <p><h5>{member.occupation}</h5></p>
+        <br />
       </div>
     </div>
   ))
