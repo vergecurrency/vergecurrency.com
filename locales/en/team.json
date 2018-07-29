@@ -6,7 +6,7 @@
         "img": "../static/img/team/sunerok.png",
         "name": "Sunerok",
         "role": "Lead Developer",
-        "occupation": "Network security & blockchain expert",
+        "occupation": "Network Security & Blockchain Expert",
         "github": "https://github.com/justinvforvendetta",
         "twitter": "https://twitter.com/justinvendetta",
 	"location": "Florida, USA"
@@ -42,7 +42,7 @@
         "img": "../static/img/team/sourcedexter.jpg",
         "name": "Sourcedexter",
         "role": "Bot Dev & India Marketing Lead",
-        "occupation": "Data science engineer",
+        "occupation": "Data Science Engineer",
         "github": "https://github.com/sourcedexter",
         "twitter": "https://twitter.com/sourcedexter",
 	"location": "Bangalore, India"
@@ -82,7 +82,7 @@
       {
         "img": "../static/img/team/phanti.jpg",
         "name": "Phanti",
-        "role": "Vendor & exchange outreach / Finance",
+        "role": "Vendor & Exchange Outreach / Finance",
         "occupation": "Banking & Finance",
         "github": "",
         "twitter": "https://twitter.com/PhanTi_91",
@@ -105,7 +105,7 @@
       {
         "img": "../static/img/team/cryptorekt.jpg",
         "name": "CryptoRekt",
-        "role": "Technical Writer and Advisor",
+        "role": "Technical Writer & Advisor",
         "occupation": "Systems Engineer",
         "github": "https://github.com/cryptorekt",
         "twitter": "https://twitter.com/CryptoRekt",
@@ -123,7 +123,7 @@
       {
         "img": "../static/img/team/chris.png",
         "name": "Chris",
-        "role": "Project and Outreach",
+        "role": "Project & Outreach",
         "occupation": "Operational Manager",
         "github": "",
         "twitter": "https://twitter.com/christiaan_jim",
@@ -150,7 +150,7 @@
       {
         "img": "../static/img/team/birb.jpg",
         "name": "wit_sec_birb",
-        "role": "Advisor and Marketing",
+        "role": "Advisor & Marketing",
         "occupation": "Procurement",
         "github": "",
         "twitter": "https://twitter.com/wit_sec_birb",
@@ -227,8 +227,8 @@
       {
         "img": "../static/img/team/arend.jpg",
         "name": "Arend",
-        "role": "Marketing and Technology Integration",
-        "occupation": "Student and Entrepeneur",
+        "role": "Marketing & Technology Integration",
+        "occupation": "Student & Entrepeneur",
         "github": "https://github.com/arendgb",
         "twitter": "https://twitter.com/Arend_XVG",
 	"location": "The Netherlands"
@@ -286,7 +286,7 @@
       {
         "img": "../static/img/team/akashiro.jpg",
         "name": "Akashiro",
-        "role": "Tech Support and Integration",
+        "role": "Tech Support & Integration",
         "occupation": "",
         "github": "",
         "twitter": "",
