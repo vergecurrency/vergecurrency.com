@@ -46,7 +46,16 @@
         "github": "https://github.com/sourcedexter",
         "twitter": "https://twitter.com/sourcedexter",
 	"location": "Bangalore, India"
-      }
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Swen",
+        "role": "Product Developer",
+        "occupation": "Full Stack Senior Web Developer",
+        "github": "https://github.com/SwenVanZanten",
+        "twitter": "https://twitter.com/SwenVanZanten",
+	"location": "Voorhout, The Netherlands"
+      }	   
     ]
   },
   "businessdevelopment": {
@@ -191,6 +200,15 @@
         "github": "",
         "twitter": "https://twitter.com/vergecanada",
 	"location": "Alberta, Canada"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Ernstjan",
+        "role": "Vendor Outreach",
+        "occupation": "Management Consultant",
+        "github": "",
+        "twitter": "https://twitter.com/ernstjanalbers",
+	"location": "Leusden, The Netherlands"
       }
     ]
   },
@@ -277,6 +295,15 @@
         "github": "",
         "twitter": "https://twitter.com/Desolatorbtc",
 	"location": "Istanbul, Turkey"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Alexandre",
+        "role": "Community Relations Specialist",
+        "occupation": "Corporate English Teacher / Editor",
+        "github": "",
+        "twitter": "https://twitter.com/xvgninja",
+	"location": "Germany"
       }
     ]
   },
