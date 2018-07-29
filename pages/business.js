@@ -174,7 +174,7 @@ function Business(props) {
                       <p>{t('business:benefits.anonimity.text', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
-                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h6>
+                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy is our standard' })}</h6>
                       <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
@@ -190,7 +190,7 @@ function Business(props) {
                       <p>{t('business:benefits.anonimity.text', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
-                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h6>
+                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy is our standard' })}</h6>
                       <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
