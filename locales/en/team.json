@@ -182,7 +182,16 @@
         "github": "https://github.com/jrsikors",
         "twitter": "",
 	"location": "Texas, USA"
-      }      
+      },
+      {
+        "img": "../static/img/team/verge.png",
+        "name": "Mark",
+        "role": "International Marketing Advisor",
+        "occupation": "Finance / Credit Specialist",
+        "github": "",
+        "twitter": "https://twitter.com/vergecanada",
+	"location": "Alberta, Canada"
+      }
     ]
   },
   "marketing": {
