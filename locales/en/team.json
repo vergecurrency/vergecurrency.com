@@ -295,6 +295,15 @@
         "github": "",
         "twitter": "https://twitter.com/Desolatorbtc",
 	"location": "Istanbul, Turkey"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Alexandre",
+        "role": "Community Relations Specialist",
+        "occupation": "Corporate English Teacher / Editor",
+        "github": "",
+        "twitter": "https://twitter.com/xvgninja",
+	"location": "Germany"
       }
     ]
   },
