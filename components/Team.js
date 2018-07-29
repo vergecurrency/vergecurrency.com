@@ -30,8 +30,10 @@ const Team = props => {
             </Link>
           </div>
         </div>
-        <span>{member.role}</span>
-        <p>{member.occupation}</p>
+        <h5>{member.role}</h5>
+        <h5><i>{member.location}</i></h5>
+        <p><h5>{member.occupation}</h5></p>
+        <br />
       </div>
     </div>
   ))
