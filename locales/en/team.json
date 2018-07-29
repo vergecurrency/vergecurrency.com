@@ -54,7 +54,7 @@
         "occupation": "Full Stack Senior Web Developer",
         "github": "https://github.com/SwenVanZanten",
         "twitter": "https://twitter.com/SwenVanZanten",
-	"location": "Leusden, The Netherlands"
+	"location": "Voorhout, The Netherlands"
       }	   
     ]
   },
@@ -200,6 +200,15 @@
         "github": "",
         "twitter": "https://twitter.com/vergecanada",
 	"location": "Alberta, Canada"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Ernstjan",
+        "role": "Vendor Outreach",
+        "occupation": "Management Consultant",
+        "github": "",
+        "twitter": "https://twitter.com/ernstjanalbers",
+	"location": "Leusden, The Netherlands"
       }
     ]
   },
