@@ -46,7 +46,16 @@
         "github": "https://github.com/sourcedexter",
         "twitter": "https://twitter.com/sourcedexter",
 	"location": "Bangalore, India"
-      }
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Swen",
+        "role": "Product Developer",
+        "occupation": "Full Stack Senior Web Developer",
+        "github": "https://github.com/SwenVanZanten",
+        "twitter": "https://twitter.com/SwenVanZanten",
+	"location": "Leusden, The Netherlands"
+      }	   
     ]
   },
   "businessdevelopment": {
