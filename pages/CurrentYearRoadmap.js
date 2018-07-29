@@ -71,8 +71,8 @@ const roadMap = [
     doneDate: '',
     title: 'Official iOS wallet',
     description: 'iOS wallet with full-fledged feature set like a normal wallet.',
-    progress: 10,
-    progressState: 'planning started',
+    progress: 15,
+    progressState: 'development started',
   },
 ];
 
