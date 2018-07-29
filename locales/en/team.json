@@ -209,6 +209,15 @@
         "github": "",
         "twitter": "https://twitter.com/ernstjanalbers",
 	"location": "Leusden, The Netherlands"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Lloyd - Swizzlesticks",
+        "role": "Technical Writer & Advisor",
+        "occupation": "Owner/CIO - Managed Services Provider",
+        "github": "",
+        "twitter": "https://twitter.com/3wizzlesticks",
+	"location": "Kentucky, USA"
       }
     ]
   },
