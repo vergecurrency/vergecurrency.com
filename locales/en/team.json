@@ -184,7 +184,7 @@
 	"location": "Texas, USA"
       },
       {
-        "img": "../static/img/team/verge.png",
+        "img": "../static/img/team/verge.jpg",
         "name": "Mark",
         "role": "International Marketing Advisor",
         "occupation": "Finance / Credit Specialist",
@@ -263,11 +263,20 @@
       {
         "img": "../static/img/team/verge.jpg",
         "name": "Tonton Lowan",
-        "role": "Social Media Specialist, PR for French speaking countries.",
+        "role": "Social Media Specialist, PR for French Speaking Countries",
         "occupation": "Entrepreneur",
         "github": "",
         "twitter": "https://twitter.com/vergeliever",
-    	"location": "France & Taiwan"
+	"location": "France & Taiwan"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Numan",
+        "role": "Marketing Operations",
+        "occupation": "Lead System Engineer",
+        "github": "",
+        "twitter": "https://twitter.com/Desolatorbtc",
+	"location": "Istanbul, Turkey"
       }
     ]
   },
