@@ -36,7 +36,7 @@ function Home(props) {
         <title key="title">
           {t('common:meta.home.title', {
             defaultValue:
-              'Verge - Secure and anonymous cryptocurrency, built with a focus on privacy - VergeCurrency.com',
+              'Verge - Secure and anonymous cryptocurrency, built for everyday use - VergeCurrency.com',
           })}
         </title>
       </Head>
