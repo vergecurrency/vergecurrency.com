@@ -313,7 +313,17 @@
         "github": "",
         "twitter": "https://twitter.com/xvgninja",
 	"location": "Germany"
+      },
+      {
+        "img": "../static/img/team/rondo_p.png",
+        "name": "Rondo",
+        "role": "Marketing",
+        "occupation": "Creative Advertising",
+        "github": "",
+        "twitter": "https://twitter.com/verge_russia",
+	"location": "Moscow, Russia"
       }
+
     ]
   },
   "support": {
