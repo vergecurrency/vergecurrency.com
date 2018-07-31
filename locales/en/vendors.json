@@ -25,10 +25,10 @@
       "url": "https://FractalVisuals.com/"
     },
     {
-      "title": "Crypto Emporium",
-      "img": "../static/img/vendors/latest/cryptoemporium.jpg",
-      "link": "cryptoemporium.eu", 
-      "url": "http://cryptoemporium.eu"
+      "title": "BabyMoss",
+      "img": "../static/img/vendors/latest/babymoss.png",
+      "link": "babymoss.com", 
+      "url": "https://babymoss.com"
     },
     {
       "title": "TrafficJunky",
@@ -37,22 +37,58 @@
       "url": "https://www.trafficjunky.com/"
     },    
     {
-      "title": "Incredebites",
-      "img": "../static/img/vendors/latest/incredebites.png",
-      "link": "Incredebites Burbank",
-      "url": "https://www.yelp.com/biz/incredebites-burbank"
-    },
-    {
       "title": "PexPeppers",
       "img": "../static/img/vendors/latest/pexpeppers.png",
       "link": "pexpeppers.com", 
       "url": "https://www.pexpeppers.com/"
     },
     {
+      "title": "Dead Day Revolution",
+      "img": "../static/img/vendors/latest/deaddayrevo.png",
+      "link": "deaddayrevolution.com/shop", 
+      "url": "https://deaddayrevolution.com/shop"
+    },    
+    {
+      "title": "Evolution Host",
+      "img": "../static/img/vendors/latest/evolutionhost.png",
+      "link": "evolution-host.com", 
+      "url": "https://evolution-host.com"
+    },
+    {
+      "title": "Pracnyas Shop",
+      "img": "../static/img/vendors/latest/pracnyas.png",
+      "link": "pracnyas.shop", 
+      "url": "https://pracnyas.shop/"
+    }, 
+   {
+      "title": "Souilmi",
+      "img": "../static/img/vendors/latest/souilmi.png",
+      "link": "souilmi.com", 
+      "url": "https://www.souilmi.com/"
+    },
+    {
+      "title": "Boatsters",
+      "img": "../static/img/vendors/latest/boatsters.png",
+      "link": "boatsters.com", 
+      "url": "https://www.boatsters.com/"
+    },
+    {
+      "title": "Crypto Emporium",
+      "img": "../static/img/vendors/latest/cryptoemporium.jpg",
+      "link": "cryptoemporium.eu", 
+      "url": "http://cryptoemporium.eu"
+    },
+    {
       "title": "Folux Solutions",
       "img": "../static/img/vendors/latest/foluxsolutions.png",
       "link": "foluxsolutions.com", 
       "url": "https://www.foluxsolutions.com/"
+    },
+    {
+      "title": "Incredebites",
+      "img": "../static/img/vendors/latest/incredebites.png",
+      "link": "Incredebites Burbank",
+      "url": "https://www.yelp.com/biz/incredebites-burbank"
     },
     {
       "title": "Bulldesign",
@@ -65,13 +101,7 @@
       "img": "../static/img/vendors/latest/trebaltek.png",
       "link": "trebaltek.ca", 
       "url": "http://trebaltek.ca"
-    },
-    {
-      "title": "Evolution Host",
-      "img": "../static/img/vendors/latest/evolutionhost.png",
-      "link": "evolution-host.com", 
-      "url": "https://evolution-host.com"
-    },
+    },    
     {
       "title": "Nexwave",
       "img": "../static/img/vendors/latest/Nexwave.png",
@@ -635,6 +665,6 @@
       "img": "../static/img/vendors/latest/royalqueenseeds.png",
       "link": "royalqueenseeds.com", 
       "url": "https://www.royalqueenseeds.com"
-    }    
+    }
   ]
 }

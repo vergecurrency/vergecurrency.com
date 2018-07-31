@@ -35,16 +35,16 @@ function Donate(props) {
               </ul>
               <h3>Donate now:</h3>
               <p>
-                <Link href="https://verge-blockchain.info/address/DLv25ww5CipJngsKMYemBTBWH14CUpucxX">
-                  <a rel="noopener noreferrer" href="https://verge-blockchain.info/address/DLv25ww5CipJngsKMYemBTBWH14CUpucxX" target="_blank">
-                    DLv25ww5CipJngsKMYemBTBWH14CUpucxX
+                <Link href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV">
+                  <a rel="noopener noreferrer" href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank">
+                    DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV
                   </a>
                 </Link>
               </p>
               <p>
-                <Link href="https://prohashing.com/explorer/Verge/DLv25ww5CipJngsKMYemBTBWH14CUpucxX/">
-                  <a rel="noopener noreferrer" href="https://prohashing.com/explorer/Verge/DLv25ww5CipJngsKMYemBTBWH14CUpucxX/" target="_blank">
-                    DLv25ww5CipJngsKMYemBTBWH14CUpucxX
+                <Link href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV/">
+                  <a rel="noopener noreferrer" href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV/" target="_blank">
+                    DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV
                   </a>
                 </Link>
               </p>
@@ -60,16 +60,16 @@ function Donate(props) {
 
               <h3>Donate now:</h3>
               <p>
-                <Link href="https://verge-blockchain.info/address/DLv25ww5CipJngsKMYemBTBWH14CUpucxX">
-                  <a rel="noopener noreferrer" href="https://verge-blockchain.info/address/DLv25ww5CipJngsKMYemBTBWH14CUpucxX" target="_blank">
-                    DLv25ww5CipJngsKMYemBTBWH14CUpucxX
+                <Link href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV">
+                  <a rel="noopener noreferrer" href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank">
+                    DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV
                   </a>
                 </Link>
               </p>
               <p>
                 <Link href="https://prohashing.com/explorer/Verge/DLv25ww5CipJngsKMYemBTBWH14CUpucxX/">
-                  <a rel="noopener noreferrer" href="https://prohashing.com/explorer/Verge/DLv25ww5CipJngsKMYemBTBWH14CUpucxX/" target="_blank">
-                    DLv25ww5CipJngsKMYemBTBWH14CUpucxX
+                  <a rel="noopener noreferrer" href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV/" target="_blank">
+                    DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV
                   </a>
                 </Link>
               </p>
