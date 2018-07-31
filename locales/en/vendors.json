@@ -25,10 +25,10 @@
       "url": "https://FractalVisuals.com/"
     },
     {
-      "title": "Crypto Emporium",
-      "img": "../static/img/vendors/latest/cryptoemporium.jpg",
-      "link": "cryptoemporium.eu", 
-      "url": "http://cryptoemporium.eu"
+      "title": "BabyMoss",
+      "img": "../static/img/vendors/latest/babymoss.png",
+      "link": "babymoss.com", 
+      "url": "https://babymoss.com"
     },
     {
       "title": "TrafficJunky",
@@ -71,7 +71,13 @@
       "img": "../static/img/vendors/latest/boatsters.png",
       "link": "boatsters.com", 
       "url": "https://www.boatsters.com/"
-    }, 
+    },
+    {
+      "title": "Crypto Emporium",
+      "img": "../static/img/vendors/latest/cryptoemporium.jpg",
+      "link": "cryptoemporium.eu", 
+      "url": "http://cryptoemporium.eu"
+    },
     {
       "title": "Folux Solutions",
       "img": "../static/img/vendors/latest/foluxsolutions.png",
@@ -659,12 +665,6 @@
       "img": "../static/img/vendors/latest/royalqueenseeds.png",
       "link": "royalqueenseeds.com", 
       "url": "https://www.royalqueenseeds.com"
-    },
-    {
-      "title": "BabyMoss",
-      "img": "../static/img/vendors/latest/babymoss.png",
-      "link": "babymoss.com", 
-      "url": "https://babymoss.com"
-    } 
+    }
   ]
 }
