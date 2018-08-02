@@ -197,6 +197,18 @@
       "title": "ChangeHero",
       "link": "changehero.io",
       "url": "https://changehero.io/"
+    },
+    {
+      "img": "../static/img/exchanges/simpleswap.png",
+      "title": "SimpleSwap",
+      "link": "simpleswap.io/",
+      "url": "https://simpleswap.io/"
+    },
+    {
+      "img": "../static/img/exchanges/coinpulse.png",
+      "title": "CoinPulse",
+      "link": "coinpulse.io/",
+      "url": "https://www.coinpulse.io/"
     }
   ]
 }
