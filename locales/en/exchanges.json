@@ -7,6 +7,12 @@
       "url": "https://binance.com"
     },
     {
+      "img": "../static/img/exchanges/huobi.jpg",
+      "title": "Huobi",
+      "link": "huobi.com",
+      "url": "https://www.huobi.com/xvg_btc/exchange/"
+    },
+    {
       "img": "../static/img/exchanges/bittrex-192.png",
       "title": "Bittrex",
       "link": "bittrex.com",
