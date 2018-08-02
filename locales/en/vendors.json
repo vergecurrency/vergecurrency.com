@@ -25,22 +25,28 @@
       "url": "https://FractalVisuals.com/"
     },
     {
-      "title": "BabyMoss",
-      "img": "../static/img/vendors/latest/babymoss.png",
-      "link": "babymoss.com", 
-      "url": "https://babymoss.com"
-    },
-    {
       "title": "TrafficJunky",
       "img": "../static/img/vendors/latest/trafficjunky.png",
       "link": "TrafficJunky.com",
       "url": "https://www.trafficjunky.com/"
-    },    
+    },
     {
       "title": "PexPeppers",
       "img": "../static/img/vendors/latest/pexpeppers.png",
       "link": "pexpeppers.com", 
       "url": "https://www.pexpeppers.com/"
+    },
+    {
+      "title": "Blunt Umbrellas",
+      "img": "../static/img/vendors/latest/bluntumbrellas.png",
+      "link": "bluntumbrellas.com", 
+      "url": "https://www.bluntumbrellas.com/"
+    },    
+    {
+      "title": "BabyMoss",
+      "img": "../static/img/vendors/latest/babymoss.png",
+      "link": "babymoss.com", 
+      "url": "https://babymoss.com"
     },
     {
       "title": "Dead Day Revolution",

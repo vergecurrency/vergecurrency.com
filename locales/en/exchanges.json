@@ -7,6 +7,12 @@
       "url": "https://binance.com"
     },
     {
+      "img": "../static/img/exchanges/huobi.jpg",
+      "title": "Huobi",
+      "link": "huobi.com",
+      "url": "https://www.huobi.com/xvg_btc/exchange/"
+    },
+    {
       "img": "../static/img/exchanges/bittrex-192.png",
       "title": "Bittrex",
       "link": "bittrex.com",
@@ -170,7 +176,7 @@
     },
     {
       "img": "../static/img/exchanges/cryptomate.png",
-      "title": "Cryptomate (COMING SOON)",
+      "title": "Cryptomate",
       "link": "cryptomate.co.uk",
       "url": "https://cryptomate.co.uk/"
     },
@@ -197,6 +203,18 @@
       "title": "ChangeHero",
       "link": "changehero.io",
       "url": "https://changehero.io/"
+    },
+    {
+      "img": "../static/img/exchanges/simpleswap.png",
+      "title": "SimpleSwap",
+      "link": "simpleswap.io",
+      "url": "https://simpleswap.io/"
+    },
+    {
+      "img": "../static/img/exchanges/coinpulse.png",
+      "title": "CoinPulse",
+      "link": "coinpulse.io",
+      "url": "https://www.coinpulse.io/"
     }
   ]
 }
