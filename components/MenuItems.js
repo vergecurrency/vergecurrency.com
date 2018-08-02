@@ -52,8 +52,18 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/faq">
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}</a>
         </Link>
+        <Link href="https://verge.zendesk.com">
+          <a href="https://verge.zendesk.com" target="_blank" rel="noopener noreferrer">
+          {t('header:wiki', { defaultValue: 'Wiki' })}
+          </a>
+        </Link>
         <Link prefetch href="/p2p">
           <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}</a>
+        </Link>
+        <Link href="https://vergecurrency.network/">
+          <a href="https://vergecurrency.network/" target="_blank" rel="noopener noreferrer">
+          {t('header:status', { defaultValue: 'Network Status' })}
+          </a>
         </Link>
         <Link prefetch href="/developers">
           <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>
@@ -99,7 +109,7 @@ const MenuItems = ({ t }) => (
         </Link>
         <Link href="https://www.facebook.com/VERGEcurrency">
           <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer">
-            {t('header:facebook', { defaultValue: 'FaceBook' })}
+            {t('header:facebook', { defaultValue: 'Facebook' })}
           </a>
         </Link>
         <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
@@ -113,7 +123,7 @@ const MenuItems = ({ t }) => (
           </a>
         </Link>
         <Link prefetch href="/community/get-involved">
-          <a href="/community/get-involved">{t('header:contact', { defaultValue: 'Contact Direct' })}</a>
+          <a href="/community/get-involved">{t('header:contact', { defaultValue: 'Email' })}</a>
         </Link>
       </div>
     </span>
