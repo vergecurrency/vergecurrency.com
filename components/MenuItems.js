@@ -60,7 +60,7 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/p2p">
           <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}</a>
         </Link>
-        <Link prefetch href="/p2p">
+        <Link href="https://vergecurrency.network/">
           <a href="https://vergecurrency.network/" target="_blank" rel="noopener noreferrer">
           {t('header:status', { defaultValue: 'Network Status' })}
           </a>
