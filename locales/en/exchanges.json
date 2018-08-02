@@ -170,7 +170,7 @@
     },
     {
       "img": "../static/img/exchanges/cryptomate.png",
-      "title": "Cryptomate (COMING SOON)",
+      "title": "Cryptomate",
       "link": "cryptomate.co.uk",
       "url": "https://cryptomate.co.uk/"
     },
@@ -201,13 +201,13 @@
     {
       "img": "../static/img/exchanges/simpleswap.png",
       "title": "SimpleSwap",
-      "link": "simpleswap.io/",
+      "link": "simpleswap.io",
       "url": "https://simpleswap.io/"
     },
     {
       "img": "../static/img/exchanges/coinpulse.png",
       "title": "CoinPulse",
-      "link": "coinpulse.io/",
+      "link": "coinpulse.io",
       "url": "https://www.coinpulse.io/"
     }
   ]
