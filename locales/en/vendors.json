@@ -37,6 +37,12 @@
       "url": "https://www.pexpeppers.com/"
     },
     {
+      "title": "Tree of Life Guitars",
+      "img": "../static/img/vendors/latest/treeoflifeguitars.png",
+      "link": "treeoflifeguitars.co.uk", 
+      "url": "https://treeoflifeguitars.co.uk/"
+    },    
+    {
       "title": "Token Business",
       "img": "../static/img/vendors/latest/tokenbusiness.png",
       "link": "token-business.com", 
