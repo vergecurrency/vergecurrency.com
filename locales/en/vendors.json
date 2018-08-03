@@ -37,6 +37,12 @@
       "url": "https://www.pexpeppers.com/"
     },
     {
+      "title": "DIOXYME",
+      "img": "../static/img/vendors/latest/dioxyme.png",
+      "link": "shop.dioxyme.com", 
+      "url": "https://shop.dioxyme.com/"
+    },     
+    {
       "title": "Tree of Life Guitars",
       "img": "../static/img/vendors/latest/treeoflifeguitars.png",
       "link": "treeoflifeguitars.co.uk", 
