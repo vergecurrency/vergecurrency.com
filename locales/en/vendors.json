@@ -47,6 +47,18 @@
       "img": "../static/img/vendors/latest/treeoflifeguitars.png",
       "link": "treeoflifeguitars.co.uk", 
       "url": "https://treeoflifeguitars.co.uk/"
+    },
+    {
+      "title": "Randonnée Mïcklà",
+      "img": "../static/img/vendors/latest/randonnee.png",
+      "link": "traineau.ca/", 
+      "url": "http://www.traineau.ca/"
+    },
+    {
+      "title": "The Bitcoin Family",
+      "img": "../static/img/vendors/latest/thebitcoinfamily.png",
+      "link": "yolofamilytravel.com/", 
+      "url": "https://yolofamilytravel.com/"
     },    
     {
       "title": "Token Business",
