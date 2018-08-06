@@ -49,6 +49,18 @@
       "url": "https://treeoflifeguitars.co.uk/"
     },
     {
+      "title": "R3BEL FITNESS",
+      "img": "../static/img/vendors/latest/rebelfitness.jpg",
+      "link": "r3bel.fitness/", 
+      "url": "http://r3bel.fitness/"
+    },
+    {
+      "title": "Wardona BV",
+      "img": "../static/img/vendors/latest/wardona.png",
+      "link": "wardona.nl/", 
+      "url": "http://wardona.nl/"
+    },
+    {
       "title": "Randonnée Mïcklà",
       "img": "../static/img/vendors/latest/randonnee.png",
       "link": "traineau.ca/", 
