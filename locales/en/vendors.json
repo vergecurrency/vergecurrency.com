@@ -49,6 +49,12 @@
       "url": "https://treeoflifeguitars.co.uk/"
     },
     {
+      "title": "BIM Trainings",
+      "img": "../static/img/vendors/latest/blm.jpg",
+      "link": "bimtrainings.com/", 
+      "url": "http://bimtrainings.com/"
+    },
+    {
       "title": "R3BEL FITNESS",
       "img": "../static/img/vendors/latest/rebelfitness.jpg",
       "link": "r3bel.fitness/", 
