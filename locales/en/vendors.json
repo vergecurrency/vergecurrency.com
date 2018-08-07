@@ -725,6 +725,12 @@
       "img": "../static/img/vendors/latest/royalqueenseeds.png",
       "link": "royalqueenseeds.com", 
       "url": "https://www.royalqueenseeds.com"
+    },
+    {
+      "title": "Earea",
+      "img": "../static/img/vendors/latest/earea.png",
+      "link": "earea.de", 
+      "url": "https://www.earea.de"
     }
   ]
 }
