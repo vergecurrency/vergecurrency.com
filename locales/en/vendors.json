@@ -41,12 +41,6 @@
       "img": "../static/img/vendors/latest/dioxyme.png",
       "link": "shop.dioxyme.com", 
       "url": "https://shop.dioxyme.com/"
-    },
-    {
-      "title": "Earea",
-      "img": "../static/img/vendors/latest/earea.png",
-      "link": "earea.de", 
-      "url": "https://www.earea.de"
     },     
     {
       "title": "Tree of Life Guitars",
@@ -59,6 +53,12 @@
       "img": "../static/img/vendors/latest/woodentimepiece.png",
       "link": "woodentimepiece.com/", 
       "url": "https://www.woodentimepiece.com/"
+    },
+    {
+      "title": "BIM Trainings",
+      "img": "../static/img/vendors/latest/blm.jpg",
+      "link": "bimtrainings.com/", 
+      "url": "http://bimtrainings.com/"
     },
     {
       "title": "R3BEL FITNESS",
@@ -523,6 +523,12 @@
       "url": "http://eigre.si"
     },
     {
+      "title": "1gbits",
+      "img": "../static/img/vendors/latest/1gbits.png",
+      "link": "1gbits.com", 
+      "url": "http://1gbits.com"
+    },
+    {
       "title": "Laptoppowerbank.com",
       "img": "../static/img/vendors/latest/laptoppowerbank.png",
       "link": "laptoppowerbank.com", 
@@ -719,6 +725,6 @@
       "img": "../static/img/vendors/latest/royalqueenseeds.png",
       "link": "royalqueenseeds.com", 
       "url": "https://www.royalqueenseeds.com"
-    }    
+    }
   ]
 }
