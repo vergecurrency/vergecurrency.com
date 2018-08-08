@@ -47,6 +47,12 @@
       "img": "../static/img/vendors/latest/earea.png",
       "link": "earea.de", 
       "url": "https://www.earea.de"
+    },
+    {
+      "title": "BIM Trainings",
+      "img": "../static/img/vendors/latest/blm.jpg",
+      "link": "bimtrainings.com/", 
+      "url": "http://bimtrainings.com/"
     },     
     {
       "title": "Tree of Life Guitars",
