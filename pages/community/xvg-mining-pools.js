@@ -41,6 +41,7 @@ const MiningPools = () => (
               <li><Link href="https://pool.unimining.net/site/mining"><a href="https://pool.unimining.net/site/mining" target="_blank" rel="noopener noreferrer">[Blake2s] UniMining</a></Link></li>
               <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[Blake2s] AntMinePool</a></Link></li>
               <li><Link href="http://verge.blake2s.com"><a href="http://verge.blake2s.com" target="_blank" rel="noopener noreferrer">[Blake2s] Verge Blake2s</a></Link></li>
+              <li><Link href="http://bsod.pw/site/gomining?algo=blake2s"><a href="http://bsod.pw/site/gomining?algo=blake2s" target="_blank" rel="noopener noreferrer">[Blake2s] BSOD.PW</a></Link></li>
               <li><Link href="http://nlpool.nl"><a href="http://nlpool.nl" target="_blank" rel="noopener noreferrer">[Blake2s] NLpool.nl</a></Link></li>
               <li><Link href="http://luckypool.xyz"><a href="http://luckypool.xyz" target="_blank" rel="noopener noreferrer">[Blake2s] LuckyPool</a></Link></li>
               <li><Link href="https://poolio.mmcs.world/"><a href="https://poolio.mmcs.world/" target="_blank" rel="noopener noreferrer">[Blake2s] pOOlio.mmcs.world</a></Link></li>
