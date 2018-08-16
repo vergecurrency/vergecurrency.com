@@ -225,15 +225,6 @@
     "title": "Marketing Team",
     "members": [
       {
-        "img": "../static/img/team/cees.jpg",
-        "name": "Cees",
-        "role": "Online Marketing Strategist",
-        "occupation": "Social Media Specialist & Recruiter",
-        "github": "",
-        "twitter": "https://twitter.com/xvgmarketingeu",
-	"location": "The Netherlands"
-      },
-      {
         "img": "../static/img/team/greenazn.jpg",
         "name": "Han GreentAzn",
         "role": "Marketing & Operations Advisor",
