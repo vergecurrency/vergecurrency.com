@@ -2,8 +2,8 @@
   "ribbon": {
     "title": "Privatsphäre ist unser <i>Standard</i>.<br />Eine sichere und anonyme<br />Kryptowährung.",
     "text": "Für den täglichen Gebrauch entwickelt.",
-    "buttonPrimary": "OSX Wallet downloaded",
-    "buttonSecondary": "Starte Video"
+    "buttonPrimary": "OSX Wallet downloaden",
+    "buttonSecondary": "Video starten"
   },
   "mentioned": {
     "mentioned_in": "Erwähnt in",
@@ -35,8 +35,8 @@
   },
   "intro": {
     "span": "Liefert, was andere nicht können",
-    "h2": "Verge verwendet mehrere anonymitätsorientierte Netzwerke wie TOR und I2P. Die IP-Adressen der Benutzer sind vollständig verschleiert und Transaktionen sind vollständig unauffindbar.",
-    "p": "Wir legen wert auf Ihre Privatsphäre. Tust du es auch?"
+    "h2": "Verge verwendet mehrere anonymitätsorientierte Netzwerke, wie TOR und I2P. Die IP-Adressen und Transaktionen der Benutzer werden vollständig verschleiert.",
+    "p": "Wir legen wert auf deine Privatsphäre. Tust du es auch?"
   },
   "benefits": {
     "link": {
