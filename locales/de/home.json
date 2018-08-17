@@ -2,7 +2,7 @@
   "ribbon": {
     "title": "Privatsphäre ist unser <i>Standard</i>.<br />Eine sichere und anonyme<br />Kryptowährung.",
     "text": "Für den täglichen Gebrauch entwickelt.",
-    "buttonPrimary": "Download OSX Wallet",
+    "buttonPrimary": "OSX Wallet downloaded",
     "buttonSecondary": "Starte Video"
   },
   "mentioned": {
@@ -34,30 +34,30 @@
     }
   },
   "intro": {
-    "span": "Delivers what others can't",
-    "h2": "Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.",
-    "p": "We care about your privacy. Do you?"
+    "span": "Liefert, was andere nicht können",
+    "h2": "Verge verwendet mehrere anonymitätsorientierte Netzwerke wie TOR und I2P. Die IP-Adressen der Benutzer sind vollständig verschleiert und Transaktionen sind vollständig unauffindbar.",
+    "p": "Wir legen wert auf Ihre Privatsphäre. Tust du es auch?"
   },
   "benefits": {
     "link": {
       "url": "/benefits",
-      "title": "Expand benefits"
+      "title": "Erweiterte Vorteile"
     },
     "benefit_1": {
       "title": "ANONYMITÄT",
-      "text": "Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security."
+      "text": "Verge verwendet mehrere anonymitätsorientierte Netzwerke wie TOR und I2P. Die IP-Adressen der Benutzer sind vollständig verschleiert. Die Core QT Wallet verfügt über eine integrierte TOR-Integration sowie eine SSL-Verschlüsselung, welche zusätzliche Sicherheit bietet."
     },
     "benefit_2": {
-      "title": "COMMUNITY DRIVEN",
-      "text": "Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining."
+      "title": "ANGETRIEBEN DURCH DIE COMMUNITY",
+      "text": "Verge ist ein Open-Source-Projekt mit einem aktiven Entwicklerteam aus der ganzen Welt. Das Entwicklerteam steht immer in engem Kontakt mit der Community. Verge ist keine private Firma, die durch ein ICO oder Premine finanziert wird."
     },
     "benefit_3": {
       "title": "MASS ADOPTION",
-      "text": "Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption."
+      "text": "Geringe Gebühren, schnelle Transaktionen, hohes Volumen im Umlauf, Multiplatform Support, \"Wraith Protocol\" sind die Bestandteile, die Verge in die perfekte Position für Mass Adoption bringen."
     },
     "benefit_4": {
       "title": "PRIVATSPHÄRE IST UNSER STANDARD",
-      "text": "Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services. Additionally this update removes our QT wallet users of clearnet and migrates everyone to SSL enabled Tor."
+      "text": "Wraith Protocol ist ein Technologie Upgrade Paket, welches unseren Benutzern erlaubt, mithilfe der \"Stealth\" Technologie, Zahlungen privat zu senden bzw. zu empfangen. Zusätzlich entfernt dieses Update unsere QT Wallet-Benutzer vom Clearnet und migriert alle auf SSL-fähiges Tor."
     }
   },
   "wallets": {
@@ -65,6 +65,6 @@
       "url": "/wallets",
       "title": "Lese mehr über Wallets"
     },
-    "header": "Don't worry, we've got your preferred platform covered.{{br}}Download your wallet here."
+    "header": "Keine Sorge, wir haben Ihre bevorzugte Plattform abgedeckt.{{br}}Downloade deine Wallet hier."
   }
 }
