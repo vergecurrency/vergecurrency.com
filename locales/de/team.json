@@ -1,12 +1,12 @@
 {
   "developer": {
-    "title": "Development Team",
+    "title": "Entwicklungsteam",
     "members": [
       {
         "img": "../static/img/team/sunerok.png",
         "name": "Sunerok",
-        "role": "Lead Developer",
-        "occupation": "Network Security & Blockchain Expert",
+        "role": "Leitender Entwickler",
+        "occupation": "Netzwerksicherheit & Blockchain-Experte",
         "github": "https://github.com/justinvforvendetta",
         "twitter": "https://twitter.com/justinvendetta",
 	"location": "Florida, USA"
@@ -14,47 +14,47 @@
       {
         "img": "../static/img/team/marpme.png",
         "name": "Marvin - marpme",
-        "role": "Product Developer",
-        "occupation": "Software Engineer",
+        "role": "Produkt Entwickler",
+        "occupation": "Softwareentwickler",
         "github": "https://github.com/marpme",
         "twitter": "https://twitter.com/marpme_",
-    	"location": "Berlin, Germany"
+    	"location": "Berlin, Deutschland"
       },
       {
         "img": "../static/img/team/stanfaas.jpg",
         "name": "StanFaas",
-        "role": "Lead Web Developer",
-        "occupation": "Sr. Front-end developer",
+        "role": "Leitender Webentwickler",
+        "occupation": "Sr. Frontend-Entwickler",
         "github": "https://github.com/StanFaas",
         "twitter": "https://twitter.com/StanFaas",
-	"location": "The Netherlands"
+	"location": "Niederlande"
       },
       {
         "img": "../static/img/team/edwin.jpg",
         "name": "EdwinB89",
-        "role": "Front-end Developer",
-        "occupation": "Front-end developer",
+        "role": "Frontend-Entwickler",
+        "occupation": "Frontend-Entwickler",
         "github": "https://github.com/EdwinB89",
         "twitter": "",
-	"location": "The Netherlands"
+	"location": "Niederlande"
       },
       {
         "img": "../static/img/team/sourcedexter.jpg",
         "name": "Sourcedexter",
-        "role": "Bot Dev & India Marketing Lead",
+        "role": "Bot Entwickler & Marketinleiter Indien",
         "occupation": "Data Science Engineer",
         "github": "https://github.com/sourcedexter",
         "twitter": "https://twitter.com/sourcedexter",
-	"location": "Bangalore, India"
+	"location": "Bangalore, Indien"
       },
       {
         "img": "../static/img/team/verge.jpg",
         "name": "Swen",
-        "role": "Product Developer",
-        "occupation": "Full Stack Senior Web Developer",
+        "role": "Produkt Entwickler",
+        "occupation": "Full Stack Senior Web Entwickler",
         "github": "https://github.com/SwenVanZanten",
         "twitter": "https://twitter.com/SwenVanZanten",
-	"location": "Voorhout, The Netherlands"
+	"location": "Voorhout, Niederlande"
       }
     ]
   },
@@ -77,7 +77,7 @@
         "occupation": "Offshore Marine Engineer",
         "github": "",
         "twitter": "https://twitter.com/mihael_xvg",
-	"location": "Rijeka, Croatia"
+	"location": "Rijeka, Kroatien"
       },
       {
         "img": "../static/img/team/CC66.png",
@@ -95,7 +95,7 @@
         "occupation": "Banking & Finance",
         "github": "",
         "twitter": "https://twitter.com/PhanTi_91",
-	"location": "Stuttgart, Germany"
+	"location": "Stuttgart, Deutschland"
       },
       {
         "img": "../static/img/team/verge.jpg",
@@ -109,7 +109,7 @@
     ]
   },
   "advisor": {
-    "title": "Advisors",
+    "title": "Berater",
     "members": [
       {
         "img": "../static/img/team/cryptorekt.jpg",
@@ -127,7 +127,7 @@
         "occupation": "PM Health & Tech",
         "github": "",
         "twitter": "https://twitter.com/CryptoGirlDini",
-	"location": "Rotterdam, The Netherlands"
+	"location": "Rotterdam, Niederlande"
       },
       {
         "img": "../static/img/team/chris.png",
@@ -136,7 +136,7 @@
         "occupation": "Operational Manager",
         "github": "",
         "twitter": "https://twitter.com/christiaan_jim",
-	"location": "Amsterdam, The Netherlands"
+	"location": "Amsterdam, Niederlande"
       },
       {
         "img": "../static/img/team/kris.jpg",
@@ -145,7 +145,7 @@
         "occupation": "Serial Entrepreneur & Investor",
         "github": "",
         "twitter": "https://twitter.com/ItsKrisChase",
-	"location": "Canada"
+	"location": "Kanada"
       },
       {
         "img": "../static/img/team/yakuza.jpg",
@@ -154,7 +154,7 @@
         "occupation": "Web Developer",
         "github": "https://github.com/Yakuza112",
         "twitter": "https://twitter.com/Yakuza112",
-	"location": "Wuppertal, Germany"
+	"location": "Wuppertal, Niederlande"
       },
       {
         "img": "../static/img/team/birb.jpg",
@@ -163,7 +163,7 @@
         "occupation": "Procurement",
         "github": "",
         "twitter": "https://twitter.com/wit_sec_birb",
-	"location": "Melbourne, Australia"
+	"location": "Melbourne, Australien"
       },
       {
         "img": "../static/img/team/stack.jpg",
@@ -199,7 +199,7 @@
         "occupation": "Finance / Credit Specialist",
         "github": "",
         "twitter": "https://twitter.com/vergecanada",
-	"location": "Alberta, Canada"
+	"location": "Alberta, Kanada"
       },
       {
         "img": "../static/img/team/verge.jpg",
@@ -208,7 +208,7 @@
         "occupation": "Management Consultant",
         "github": "",
         "twitter": "https://twitter.com/ernstjanalbers",
-	"location": "Leusden, The Netherlands"
+	"location": "Leusden, Niederlande"
       },
       {
         "img": "../static/img/team/verge.jpg",
@@ -249,7 +249,7 @@
         "occupation": "Student & Entrepeneur",
         "github": "https://github.com/arendgb",
         "twitter": "https://twitter.com/Arend_XVG",
-	"location": "The Netherlands"
+	"location": "Niederlande"
       },
       {
         "img": "../static/img/team/peter.jpg",
@@ -267,7 +267,7 @@
         "occupation": "UI/UX Designer & Webdesigner",
         "github": "",
         "twitter": "https://twitter.com/waveon3",
-	"location": "Odense, Denmark"
+	"location": "Odense, Dänemark"
       },
       {
         "img": "../static/img/team/RBull.jpg",
@@ -276,7 +276,7 @@
         "occupation": "Customer Service Manager",
         "github": "",
         "twitter": "https://twitter.com/Rbull076",
-	"location": "Breda, The Netherlands"
+	"location": "Breda, Niederlande"
       },
       {
         "img": "../static/img/team/verge.jpg",
@@ -285,7 +285,7 @@
         "occupation": "Entrepreneur",
         "github": "",
         "twitter": "https://twitter.com/vergeliever",
-	"location": "France & Taiwan"
+	"location": "Frankreich & Taiwan"
       },
       {
         "img": "../static/img/team/verge.jpg",
@@ -294,7 +294,7 @@
         "occupation": "Lead System Engineer",
         "github": "",
         "twitter": "https://twitter.com/Desolatorbtc",
-	"location": "Istanbul, Turkey"
+	"location": "Istanbul, Türkei"
       },
       {
         "img": "../static/img/team/verge.jpg",
@@ -303,7 +303,7 @@
         "occupation": "Corporate English Teacher / Editor",
         "github": "",
         "twitter": "https://twitter.com/xvgninja",
-	"location": "Germany"
+	"location": "Deutschland"
       },
       {
         "img": "../static/img/team/rondo_p.png",
@@ -312,7 +312,7 @@
         "occupation": "Creative Advertising",
         "github": "",
         "twitter": "https://twitter.com/verge_russia",
-	"location": "Moscow, Russia"
+	"location": "Moskau, Russland"
       }
 
     ]
@@ -327,7 +327,7 @@
         "occupation": "",
         "github": "",
         "twitter": "",
-	"location": "The Netherlands"
+	"location": "Niederlande"
       }
     ]
   }

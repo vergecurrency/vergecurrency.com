@@ -1,0 +1,70 @@
+{
+  "ribbon": {
+    "title": "Privatsphäre ist unser <i>Standard</i>.<br />Eine sichere und anonyme<br />Kryptowährung.",
+    "text": "Für den täglichen Gebrauch entwickelt.",
+    "buttonPrimary": "OSX Wallet downloaden",
+    "buttonSecondary": "Video starten"
+  },
+  "mentioned": {
+    "mentioned_in": "Erwähnt in",
+    "mention_1": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/Forbes.svg",
+      "width": "100"
+    },
+    "mention_2": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/The-Guardian.svg",
+      "width": "180"
+    },
+    "mention_3": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/The-Sun.svg",
+      "width": "100"
+    },
+    "mention_4": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/The-Motley-Fool.svg",
+      "width": "100"
+    },
+    "mention_5": {
+      "url": "#",
+      "img": "../static/img/mentioned-in/Cryptovest.svg",
+      "width": "150"
+    }
+  },
+  "intro": {
+    "span": "Liefert, was andere nicht können",
+    "h2": "Verge verwendet mehrere anonymitätsorientierte Netzwerke, wie TOR und I2P. Die IP-Adressen und Transaktionen der Benutzer werden vollständig verschleiert.",
+    "p": "Wir legen wert auf deine Privatsphäre. Tust du es auch?"
+  },
+  "benefits": {
+    "link": {
+      "url": "/benefits",
+      "title": "Erweiterte Vorteile"
+    },
+    "benefit_1": {
+      "title": "ANONYMITÄT",
+      "text": "Verge verwendet mehrere anonymitätsorientierte Netzwerke wie TOR und I2P. Die IP-Adressen der Benutzer sind vollständig verschleiert. Die Core QT Wallet verfügt über eine integrierte TOR-Integration sowie eine SSL-Verschlüsselung, welche zusätzliche Sicherheit bietet."
+    },
+    "benefit_2": {
+      "title": "ANGETRIEBEN DURCH DIE COMMUNITY",
+      "text": "Verge ist ein Open-Source-Projekt mit einem aktiven Entwicklerteam aus der ganzen Welt. Das Entwicklerteam steht immer in engem Kontakt mit der Community. Verge ist keine private Firma, die durch ein ICO oder Premine finanziert wird."
+    },
+    "benefit_3": {
+      "title": "MASS ADOPTION",
+      "text": "Geringe Gebühren, schnelle Transaktionen, hohes Volumen im Umlauf, Multiplatform Support, \"Wraith Protocol\" sind die Bestandteile, die Verge in die perfekte Position für Mass Adoption bringen."
+    },
+    "benefit_4": {
+      "title": "PRIVATSPHÄRE IST UNSER STANDARD",
+      "text": "Wraith Protocol ist ein Technologie Upgrade Paket, welches unseren Benutzern erlaubt, mithilfe der \"Stealth\" Technologie, Zahlungen privat zu senden bzw. zu empfangen. Zusätzlich entfernt dieses Update unsere QT Wallet-Benutzer vom Clearnet und migriert alle auf SSL-fähiges Tor."
+    }
+  },
+  "wallets": {
+    "link": {
+      "url": "/wallets",
+      "title": "Lese mehr über Wallets"
+    },
+    "header": "Keine Sorge, wir haben Ihre bevorzugte Plattform abgedeckt.{{br}}Downloade deine Wallet hier."
+  }
+}

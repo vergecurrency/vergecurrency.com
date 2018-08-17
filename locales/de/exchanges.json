@@ -1,0 +1,220 @@
+{
+  "exchanges": [
+    {
+      "img": "../static/img/exchanges/binance.svg",
+      "title": "Binance",
+      "link": "binance.com",
+      "url": "https://binance.com"
+    },
+    {
+      "img": "../static/img/exchanges/huobi.jpg",
+      "title": "Huobi",
+      "link": "huobi.com",
+      "url": "https://www.huobi.com/xvg_btc/exchange/"
+    },
+    {
+      "img": "../static/img/exchanges/bittrex-192.png",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "https://bittrex.com"
+    },
+    {
+      "img": "../static/img/exchanges/upbit.png",
+      "title": "UPBit",
+      "link": "uptbit.com",
+      "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-XVG"
+    },
+    {
+      "img": "../static/img/exchanges/bitfinex.png",
+      "title": "Bitfinex",
+      "link": "bitfinex.com",
+      "url": "https://bitfinex.com"
+    },
+    {
+      "img": "../static/img/exchanges/fexpro.png",
+      "title": "FexPro",
+      "link": "fexpro.io",
+      "url": "https://fexpro.io/Home/Exchange?type=XVG/BTC&buytype=BTC"
+    },
+    {
+      "img": "../static/img/exchanges/hitbtc.png",
+      "title": "HitBTC",
+      "link": "hitbtc.com",
+      "url": "https://hitbtc.com/XVG-to-BTC"
+    },
+    {
+      "img": "../static/img/exchanges/indacoin.svg",
+      "title": "Indacoin",
+      "link": "indacoin.com",
+      "url": "https://indacoin.com/en_GB/change?discount=85519"
+    },
+    {
+      "img": "../static/img/exchanges/xchange.svg",
+      "title": "Xchange",
+      "link": "Xchange.me",
+      "url": "https://xchange.me/"
+    },
+    {
+      "img": "../static/img/exchanges/cryptopia.png",
+      "title": "Cryptopia",
+      "link": "cryptopia.co.nz",
+      "url": "https://www.cryptopia.co.nz/Exchange/?market=XVG_BTC"
+    },
+    {
+      "img": "../static/img/exchanges/southxchange.png",
+      "title": "SouthXchange",
+      "link": "southxchange.com",
+      "url": "https://www.southxchange.com/Market/Book/XVG/BTC"
+    },
+    {
+      "img": "../static/img/exchanges/godex.png",
+      "title": "Godex",
+      "link": "godex.io",
+      "url": "https://godex.io"
+    },
+    {
+      "img": "../static/img/exchanges/coinspot.png",
+      "title": "CoinSpot",
+      "link": "coinspot.com.au",
+      "url": "https://www.coinspot.com.au/buy/xvg"
+    },
+    {
+      "img": "../static/img/exchanges/blocknet.png",
+      "title": "BlockNet",
+      "link": "blocknet.co",
+      "url": "https://blocknet.co"
+    },
+    {
+      "img": "../static/img/exchanges/litebit.png",
+      "title": "Litebit",
+      "link": "litebit.eu",
+      "url": "https://litebit.eu"
+    },
+    {
+      "img": "../static/img/exchanges/exchanged.jpg",
+      "title": "ExchangeD",
+      "link": "DeepWeb link",
+      "url": "https://bitcointalk.org/index.php?topic=1092682.0"
+    },
+    {
+      "img": "../static/img/exchanges/coinwale.png",
+      "title": "CoinWale",
+      "link": "coinwale.com",
+      "url": "https://coinwale.com"
+    },
+    {
+      "img": "../static/img/exchanges/changelly.png",
+      "title": "Changelly",
+      "link": "changelly.com",
+      "url": "https://changelly.com"
+    },
+    {
+      "img": "../static/img/exchanges/coinswitch.png",
+      "title": "CoinSwitch",
+      "link": "coinswitch.co",
+      "url": "https://coinswitch.co"
+    },
+    {
+      "img": "../static/img/exchanges/coin2001.png",
+      "title": "Coin2001",
+      "link": "coin2001.com",
+      "url": "https://coin2001.com"
+    },
+    {
+      "img": "../static/img/exchanges/cryptobridge.png",
+      "title": "CryptoBridge",
+      "link": "crypto-bridge.org",
+      "url": "https://crypto-bridge.org"
+    },
+    {
+      "img": "../static/img/exchanges/changenow.png",
+      "title": "ChangeNow",
+      "link": "changenow.io",
+      "url": "https://changenow.io"
+    },
+    {
+      "img": "../static/img/exchanges/tradesatoshi.png",
+      "title": "TradeSatoshi",
+      "link": "tradesatoshi.com",
+      "url": "https://tradesatoshi.com/Exchange?market=XVG_BTC"
+    },
+    {
+      "img": "../static/img/exchanges/coinsready.png",
+      "title": "CoinsReady",
+      "link": "coinsready.io",
+      "url": "https://coinsready.io"
+    },
+    {
+      "img": "../static/img/exchanges/novaexchange.png",
+      "title": "NovaExchange",
+      "link": "novaexchange.com",
+      "url": "https://novaexchange.com/market/BTC_XVG/"
+    },
+    {
+      "img": "../static/img/exchanges/bitsquare.png",
+      "title": "Bitsquare",
+      "link": "bitsquare.io",
+      "url": "https://bitsquare.io"
+    },
+    {
+      "img": "../static/img/exchanges/nexchange.png",
+      "title": "N.exchange",
+      "link": "n.exchange",
+      "url": "https://n.exchange"
+    },
+    {
+      "img": "../static/img/exchanges/cryptohub.jpg",
+      "title": "Cryptohub",
+      "link": "cryptohub.online",
+      "url": "https://cryptohub.online/market/XVG/"
+    },
+    {
+      "img": "../static/img/exchanges/bitbns.png",
+      "title": "Bitbns",
+      "link": "bitbns.com",
+      "url": "https://bitbns.com/"
+    },
+    {
+      "img": "../static/img/exchanges/cryptomate.png",
+      "title": "Cryptomate",
+      "link": "cryptomate.co.uk",
+      "url": "https://cryptomate.co.uk/"
+    },
+    {
+      "img": "../static/img/exchanges/coindeal.png",
+      "title": "CoinDeal",
+      "link": "coindeal.com",
+      "url": "https://coindeal.com/"
+    },
+    {
+      "img": "../static/img/exchanges/bitvavo.png",
+      "title": "Bitvavo",
+      "link": "bitvavo.com",
+      "url": "https://bitvavo.com/"
+    },
+    {
+      "img": "../static/img/exchanges/bitminereu.png",
+      "title": "Bitminer.eu",
+      "link": "bitminer.eu",
+      "url": "https://bitminer.eu/"
+    },
+    {
+      "img": "../static/img/exchanges/changehero.png",
+      "title": "ChangeHero",
+      "link": "changehero.io",
+      "url": "https://changehero.io/"
+    },
+    {
+      "img": "../static/img/exchanges/simpleswap.png",
+      "title": "SimpleSwap",
+      "link": "simpleswap.io",
+      "url": "https://simpleswap.io/"
+    },
+    {
+      "img": "../static/img/exchanges/coinpulse.png",
+      "title": "CoinPulse",
+      "link": "coinpulse.io",
+      "url": "https://www.coinpulse.io/"
+    }
+  ]
+}
