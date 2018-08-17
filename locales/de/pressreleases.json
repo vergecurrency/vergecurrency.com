@@ -1,0 +1,12 @@
+{
+  "date": {
+    "label": "Pressemitteilung"
+  },
+  "submenu": {
+    "ourTeam": "Verge Team",
+    "history": "Historie",
+    "keyTech": "Schlüsseltechnologie",
+    "pressReleases": "Pressemitteilungen",
+    "presskit": "Pressemappe"
+  }
+}
