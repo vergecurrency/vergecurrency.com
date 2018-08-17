@@ -1,0 +1,334 @@
+{
+  "developer": {
+    "title": "Entwicklungsteam",
+    "members": [
+      {
+        "img": "../static/img/team/sunerok.png",
+        "name": "Sunerok",
+        "role": "Leitender Entwickler",
+        "occupation": "Netzwerksicherheit & Blockchain-Experte",
+        "github": "https://github.com/justinvforvendetta",
+        "twitter": "https://twitter.com/justinvendetta",
+	"location": "Florida, USA"
+      },
+      {
+        "img": "../static/img/team/marpme.png",
+        "name": "Marvin - marpme",
+        "role": "Produkt Entwickler",
+        "occupation": "Softwareentwickler",
+        "github": "https://github.com/marpme",
+        "twitter": "https://twitter.com/marpme_",
+    	"location": "Berlin, Deutschland"
+      },
+      {
+        "img": "../static/img/team/stanfaas.jpg",
+        "name": "StanFaas",
+        "role": "Leitender Webentwickler",
+        "occupation": "Sr. Frontend-Entwickler",
+        "github": "https://github.com/StanFaas",
+        "twitter": "https://twitter.com/StanFaas",
+	"location": "Niederlande"
+      },
+      {
+        "img": "../static/img/team/edwin.jpg",
+        "name": "EdwinB89",
+        "role": "Frontend-Entwickler",
+        "occupation": "Frontend-Entwickler",
+        "github": "https://github.com/EdwinB89",
+        "twitter": "",
+	"location": "Niederlande"
+      },
+      {
+        "img": "../static/img/team/sourcedexter.jpg",
+        "name": "Sourcedexter",
+        "role": "Bot Entwickler & Marketinleiter Indien",
+        "occupation": "Data Science Engineer",
+        "github": "https://github.com/sourcedexter",
+        "twitter": "https://twitter.com/sourcedexter",
+	"location": "Bangalore, Indien"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Swen",
+        "role": "Produkt Entwickler",
+        "occupation": "Full Stack Senior Web Entwickler",
+        "github": "https://github.com/SwenVanZanten",
+        "twitter": "https://twitter.com/SwenVanZanten",
+	"location": "Voorhout, Niederlande"
+      }
+    ]
+  },
+  "businessdevelopment": {
+    "title": "Business Development Team",
+    "members": [
+      {
+        "img": "../static/img/team/spookykid.jpg",
+        "name": "SpookyKid",
+        "role": "Intl. Business Development & Recruiter",
+        "occupation": "",
+        "github": "",
+        "twitter": "https://twitter.com/Secret_0taKu",
+	"location": "USA"
+      },
+      {
+        "img": "../static/img/team/mihael.jpg",
+        "name": "Mihael",
+        "role": "Community Manager",
+        "occupation": "Offshore Marine Engineer",
+        "github": "",
+        "twitter": "https://twitter.com/mihael_xvg",
+	"location": "Rijeka, Kroatien"
+      },
+      {
+        "img": "../static/img/team/CC66.png",
+        "name": "Jason - CC66",
+        "role": "Community Manager",
+        "occupation": "Social Engineering Specialist",
+        "github": "",
+        "twitter": "https://twitter.com/CoinCrazy66",
+	"location": "Tennessee, USA"
+      },
+      {
+        "img": "../static/img/team/phanti.jpg",
+        "name": "Phanti",
+        "role": "Vendor & Exchange Outreach / Finance",
+        "occupation": "Banking & Finance",
+        "github": "",
+        "twitter": "https://twitter.com/PhanTi_91",
+	"location": "Stuttgart, Deutschland"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "CryptoSam",
+        "role": "Procurement & Fulfillment",
+        "occupation": "Territory Sales Manager",
+        "github": "https://github.com/CryptoSamantha",
+        "twitter": "https://twitter.com/cryptosamantha",
+	"location": "Missouri, USA"
+      }
+    ]
+  },
+  "advisor": {
+    "title": "Berater",
+    "members": [
+      {
+        "img": "../static/img/team/cryptorekt.jpg",
+        "name": "CryptoRekt",
+        "role": "Technical Writer & Advisor",
+        "occupation": "Systems Engineer",
+        "github": "https://github.com/cryptorekt",
+        "twitter": "https://twitter.com/CryptoRekt",
+	"location": "California, USA"
+      },
+      {
+        "img": "../static/img/team/cryptogirl.png",
+        "name": "Dini",
+        "role": "Head of Project Management",
+        "occupation": "PM Health & Tech",
+        "github": "",
+        "twitter": "https://twitter.com/CryptoGirlDini",
+	"location": "Rotterdam, Niederlande"
+      },
+      {
+        "img": "../static/img/team/chris.png",
+        "name": "Chris",
+        "role": "Project & Outreach",
+        "occupation": "Operational Manager",
+        "github": "",
+        "twitter": "https://twitter.com/christiaan_jim",
+	"location": "Amsterdam, Niederlande"
+      },
+      {
+        "img": "../static/img/team/kris.jpg",
+        "name": "Kris Chase",
+        "role": "Marketing & Operations Advisor",
+        "occupation": "Serial Entrepreneur & Investor",
+        "github": "",
+        "twitter": "https://twitter.com/ItsKrisChase",
+	"location": "Kanada"
+      },
+      {
+        "img": "../static/img/team/yakuza.jpg",
+        "name": "Yakuza112",
+        "role": "Technical Advisor",
+        "occupation": "Web Developer",
+        "github": "https://github.com/Yakuza112",
+        "twitter": "https://twitter.com/Yakuza112",
+	"location": "Wuppertal, Niederlande"
+      },
+      {
+        "img": "../static/img/team/birb.jpg",
+        "name": "wit_sec_birb",
+        "role": "Advisor & Marketing",
+        "occupation": "Procurement",
+        "github": "",
+        "twitter": "https://twitter.com/wit_sec_birb",
+	"location": "Melbourne, Australien"
+      },
+      {
+        "img": "../static/img/team/stack.jpg",
+        "name": "Stack",
+        "role": "Technical Advisor",
+        "occupation": "Software Engineer",
+        "github": "",
+        "twitter": "https://twitter.com/CmplxStack",
+	"location": "USA"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "ddefying",
+        "role": "Technical Advisor",
+        "occupation": "Corporate Transaction Attorney",
+        "github": "",
+        "twitter": "https://twitter.com/cheetosologist",
+	"location": "California, USA"
+      },
+      {
+        "img": "../static/img/team/jeffs1.png",
+        "name": "Jeff",
+        "role": "Technical Advisor",
+        "occupation": "Systems Engineer",
+        "github": "https://github.com/jrsikors",
+        "twitter": "",
+	"location": "Texas, USA"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Mark",
+        "role": "International Marketing Advisor",
+        "occupation": "Finance / Credit Specialist",
+        "github": "",
+        "twitter": "https://twitter.com/vergecanada",
+	"location": "Alberta, Kanada"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Ernstjan",
+        "role": "Vendor Outreach",
+        "occupation": "Management Consultant",
+        "github": "",
+        "twitter": "https://twitter.com/ernstjanalbers",
+	"location": "Leusden, Niederlande"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Lloyd - Swizzlesticks",
+        "role": "Technical Writer & Advisor",
+        "occupation": "Owner/CIO - Managed Services Provider",
+        "github": "",
+        "twitter": "https://twitter.com/3wizzlesticks",
+	"location": "Kentucky, USA"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing Team",
+    "members": [
+      {
+        "img": "../static/img/team/greenazn.jpg",
+        "name": "Han GreentAzn",
+        "role": "Marketing & Operations Advisor",
+        "occupation": "Head of Marketing",
+        "github": "",
+        "twitter": "https://twitter.com/greentazn",
+	"location": "California, USA"
+      },
+      {
+        "img": "../static/img/team/nickgaudiano.jpg",
+        "name": "Nick Gaudiano",
+        "role": "Media & Visuals Creator; Marketing",
+        "occupation": "Entrepeneur",
+        "github": "",
+        "twitter": "https://twitter.com/XVGGAUDI",
+	"location": "Texas, USA"
+      },
+      {
+        "img": "../static/img/team/arend.jpg",
+        "name": "Arend",
+        "role": "Marketing & Technology Integration",
+        "occupation": "Student & Entrepeneur",
+        "github": "https://github.com/arendgb",
+        "twitter": "https://twitter.com/Arend_XVG",
+	"location": "Niederlande"
+      },
+      {
+        "img": "../static/img/team/peter.jpg",
+        "name": "Peter Hodges",
+        "role": "Media & Visuals Creator",
+        "occupation": "Visual Effects, 3D Artist & Film Maker",
+        "github": "",
+        "twitter": "https://twitter.com/peterisanartist",
+	"location": "USA"
+      },
+      {
+        "img": "../static/img/team/hassan.png",
+        "name": "Hassan",
+        "role": "Lead UI Designer & Graphics",
+        "occupation": "UI/UX Designer & Webdesigner",
+        "github": "",
+        "twitter": "https://twitter.com/waveon3",
+	"location": "Odense, Dänemark"
+      },
+      {
+        "img": "../static/img/team/RBull.jpg",
+        "name": "RBull",
+        "role": "Outreach Operational Manager",
+        "occupation": "Customer Service Manager",
+        "github": "",
+        "twitter": "https://twitter.com/Rbull076",
+	"location": "Breda, Niederlande"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Tonton Lowan",
+        "role": "Social Media & PR-French Speaking Countries",
+        "occupation": "Entrepreneur",
+        "github": "",
+        "twitter": "https://twitter.com/vergeliever",
+	"location": "Frankreich & Taiwan"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Numan",
+        "role": "Marketing Operations",
+        "occupation": "Lead System Engineer",
+        "github": "",
+        "twitter": "https://twitter.com/Desolatorbtc",
+	"location": "Istanbul, Türkei"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Alexandre",
+        "role": "Community Relations Specialist",
+        "occupation": "Corporate English Teacher / Editor",
+        "github": "",
+        "twitter": "https://twitter.com/xvgninja",
+	"location": "Deutschland"
+      },
+      {
+        "img": "../static/img/team/rondo_p.png",
+        "name": "Rondo",
+        "role": "Marketing",
+        "occupation": "Creative Advertising",
+        "github": "",
+        "twitter": "https://twitter.com/verge_russia",
+	"location": "Moskau, Russland"
+      }
+
+    ]
+  },
+  "support": {
+    "title": "Technical Support Team",
+    "members": [
+      {
+        "img": "../static/img/team/akashiro.jpg",
+        "name": "Akashiro",
+        "role": "Tech Support & Integration",
+        "occupation": "",
+        "github": "",
+        "twitter": "",
+	"location": "Niederlande"
+      }
+    ]
+  }
+}
