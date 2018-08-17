@@ -170,7 +170,7 @@
     },
     "algorithms": {
       "question": "What Algorithms Does Verge Support?",
-      "answer": "Verge uses multi-algorithm mining support. That means that individuals with different types of mining equipment are able to mine verge, which means more security through decentralization and a more fair distribution of coins among the Verge mining community. Verge is one of the few cryptocurrencies that support five different hashing algorithms, namely: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
+      "answer": "Verge uses multi-algorithm mining support. That means that individuals with different types of mining equipment are able to mine verge, which means more security through decentralization and a more fair distribution of coins among the Verge mining community. Verge is one of the few cryptocurrencies that support five different hashing algorithm, namely: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s."
     }
   },
   "legal": {
