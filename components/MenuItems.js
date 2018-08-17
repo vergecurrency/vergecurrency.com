@@ -74,7 +74,7 @@ const MenuItems = ({ t }) => (
       </div>
     </span>
     <span className="submenu">
-      {t('header:Find Us', { defaultValue: 'Find Us' })}
+      {t('header:findUs', { defaultValue: 'Find Us' })}
       <FontAwesomeIcon icon={faChevronDown} />
       <div className="submenu__content">
         <Link href="https://www.twitter.com/vergecurrency">

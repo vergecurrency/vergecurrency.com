@@ -1,8 +1,21 @@
 {
+  "home" : "Home",
+  "getstarted" : "Get Started",
   "about": "About",
   "wallets": "Wallets",
   "roadmap": "Roadmap",
   "vendors": "Vendors",
   "resources": "Resources",
-  "get_verge": "Get Verge"
+  "get_verge": "Get Verge",
+  "findUs": "Find Us",
+  "verge-team" : "Verge Team",
+  "key-tech" : "Key Tech",
+  "pressreleases" : "Press Releases",
+  "faq" : "FAQ",
+  "wiki": "Wiki",
+  "p2p" : "P2P",
+  "developers" : "Developers",
+  "presskit" : "Presskit",
+  "forums" : "Forums",
+  "contact" : "Email"
 }
