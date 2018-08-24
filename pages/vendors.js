@@ -21,7 +21,7 @@ function VendorsPage(props) {
             <div className="row center-xs middle-xs">
               <div className="col-xs-10 col-sm-6">
                 <h6>Vendors using Verge</h6>
-                <h2>Vendors proudly accept Verge Currency as a method of payment for their services.</h2>
+                <h2>Vendors proudly accept Verge Currency as a method of payment for their goods and services.</h2>
               </div>
             </div>
           </div>
