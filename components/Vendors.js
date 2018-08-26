@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 
-const vendorsLocale = require('../locales/index').en.vendors.vendors;
+const vendorsLocale = require('../lists/vendors').vendors;
 
 export const HomeVendors = () => {
   const vendors = vendorsLocale.map((x, i) => {

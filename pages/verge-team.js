@@ -9,7 +9,7 @@ import TeamCategory from '../components/TeamCategory'
 import { translate } from 'react-i18next'
 import i18n from '../i18n'
 
-const teamCategories = Object.values(require('../locales/index').en.team)
+const teamCategories = Object.values(require('../lists/team'))
 
 function VergeTeam(props) {
   const { t } = props

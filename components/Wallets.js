@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const walletsLocale = require('../locales/index').en.wallets.wallets;
+const walletsLocale = require('../lists/wallets').wallets;
 
 function Wallets() {
   const wallets = walletsLocale.map((x, i) => {
