@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 
-const sponsorLocale = require('../locales/index').en.sponsors.sponsors;
+const sponsorLocale = require('../lists/sponsors').sponsors;
 
 export const Sponsors = () => {
   const Sponsors = sponsorLocale.map(s => (
