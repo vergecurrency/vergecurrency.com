@@ -43,6 +43,12 @@
       "url": "https://shop.dioxyme.com/"
     },
     {
+      "title": "Serious Carbon",
+      "img": "../static/img/vendors/latest/seriouscarbon.png",
+      "link": "seriouscarbon.com", 
+      "url": "https://seriouscarbon.com"
+    },
+    {
       "title": "Monovm",
       "img": "../static/img/vendors/latest/monovm.png",
       "link": "monovm.com", 
