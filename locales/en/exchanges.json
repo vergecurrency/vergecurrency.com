@@ -121,6 +121,12 @@
       "url": "https://coin2001.com"
     },
     {
+      "img": "../static/img/exchanges/anycoindirect.png",
+      "title": "AnycoinDirect",
+      "link": "anycoindirect.eu",
+      "url": "https://anycoindirect.eu"
+    },
+    {
       "img": "../static/img/exchanges/cryptobridge.png",
       "title": "CryptoBridge",
       "link": "crypto-bridge.org",
