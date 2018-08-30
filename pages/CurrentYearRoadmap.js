@@ -47,7 +47,7 @@ const roadMap = [
     doneDate: '',
     title: 'Rebased Codebase',
     description: 'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
-    progress: 80,
+    progress: 90,
     progressState: 'rebasing',
   },
   {
@@ -71,7 +71,7 @@ const roadMap = [
     doneDate: '',
     title: 'Official iOS wallet',
     description: 'iOS wallet with full-fledged feature set like a normal wallet.',
-    progress: 15,
+    progress: 20,
     progressState: 'development started',
   },
 ];
