@@ -4,7 +4,7 @@
     "members": [
       {
         "img": "../static/img/team/sunerok.png",
-        "name": "Sunerok",
+        "name": "Justin - Sunerok",
         "role": "Lead Developer",
         "occupation": "Network Security & Blockchain Expert",
         "github": "https://github.com/justinvforvendetta",
@@ -22,7 +22,7 @@
       },
       {
         "img": "../static/img/team/stanfaas.jpg",
-        "name": "StanFaas",
+        "name": "Stan - StanFaas",
         "role": "Lead Web Developer",
         "occupation": "Sr. Front-end developer",
         "github": "https://github.com/StanFaas",
@@ -31,7 +31,7 @@
       },
       {
         "img": "../static/img/team/edwin.jpg",
-        "name": "EdwinB89",
+        "name": "Edwin - EdwinB89",
         "role": "Front-end Developer",
         "occupation": "Front-end developer",
         "github": "https://github.com/EdwinB89",
@@ -40,7 +40,7 @@
       },
       {
         "img": "../static/img/team/sourcedexter.jpg",
-        "name": "Sourcedexter",
+        "name": "Akshay - Sourcedexter",
         "role": "Bot Dev & India Marketing Lead",
         "occupation": "Data Science Engineer",
         "github": "https://github.com/sourcedexter",
@@ -90,7 +90,7 @@
       },
       {
         "img": "../static/img/team/phanti.jpg",
-        "name": "Phanti",
+        "name": "Jonas - Phanti",
         "role": "Vendor & Exchange Outreach / Finance",
         "occupation": "Banking & Finance",
         "github": "",
@@ -99,7 +99,7 @@
       },
       {
         "img": "../static/img/team/verge.jpg",
-        "name": "CryptoSam",
+        "name": "Samantha - CryptoSam",
         "role": "Procurement & Fulfillment",
         "occupation": "Territory Sales Manager",
         "github": "https://github.com/CryptoSamantha",
@@ -158,7 +158,7 @@
       },
       {
         "img": "../static/img/team/birb.jpg",
-        "name": "wit_sec_birb",
+        "name": "Dan - wit_sec_birb",
         "role": "Advisor & Marketing",
         "occupation": "Procurement",
         "github": "",
@@ -167,7 +167,7 @@
       },
       {
         "img": "../static/img/team/stack.jpg",
-        "name": "Stack",
+        "name": "Mike - Stack",
         "role": "Technical Advisor",
         "occupation": "Software Engineer",
         "github": "",
@@ -218,6 +218,15 @@
         "github": "",
         "twitter": "https://twitter.com/3wizzlesticks",
 	"location": "Kentucky, USA"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Nathan - BlueManRising",
+        "role": "Advisor",
+        "occupation": "Civil Engineer",
+        "github": "",
+        "twitter": "https://twitter.com/nkazier",
+	"location": "New Jersey, USA"
       }
     ]
   },
@@ -226,7 +235,7 @@
     "members": [
       {
         "img": "../static/img/team/greenazn.jpg",
-        "name": "Han GreentAzn",
+        "name": "Han - GreentAzn",
         "role": "Marketing & Operations Advisor",
         "occupation": "Head of Marketing",
         "github": "",
@@ -271,7 +280,7 @@
       },
       {
         "img": "../static/img/team/RBull.jpg",
-        "name": "RBull",
+        "name": "Ronald - RBull",
         "role": "Outreach Operational Manager",
         "occupation": "Customer Service Manager",
         "github": "",
@@ -280,7 +289,7 @@
       },
       {
         "img": "../static/img/team/verge.jpg",
-        "name": "Tonton Lowan",
+        "name": "Lohann - Tonton Lowan",
         "role": "Social Media&PR-French Speaking Countries",
         "occupation": "Entrepreneur",
         "github": "",
@@ -307,7 +316,7 @@
       },
       {
         "img": "../static/img/team/rondo_p.png",
-        "name": "Rondo",
+        "name": "Andrey - Rondo",
         "role": "Marketing",
         "occupation": "Creative Advertising",
         "github": "",
