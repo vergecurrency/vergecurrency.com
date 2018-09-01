@@ -4,7 +4,7 @@ import LazyLoad from 'react-lazyload';
 import Moment from 'react-moment';
 import 'moment-timezone';
 
-const mentionLocale = require('../locales/index').en.mentions.mentions;
+const mentionLocale = require('../lists/mentions').mentions;
 
 export const Mentions = () => {
   const mentions = mentionLocale.map((x, i) => {

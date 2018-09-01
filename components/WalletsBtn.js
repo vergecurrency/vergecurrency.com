@@ -3,7 +3,7 @@ import { renderToString } from 'react-dom/server';
 import Link from 'next/link';
 
 const platform = require('platform');
-const walletsLocale = require('../locales/index').en.wallets.wallets;
+const walletsLocale = require('../lists/wallets').wallets;
 
 class WalletsBtn extends React.Component {
   componentDidMount() {
