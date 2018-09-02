@@ -43,6 +43,12 @@
       "url": "https://shop.dioxyme.com/"
     },
     {
+      "title": "Whale Apparel",
+      "img": "../static/img/vendors/latest/whaleapparel.png",
+      "link": "whaleapparel.com", 
+      "url": "https://whaleapparel.com"
+    },
+    {
       "title": "Serious Carbon",
       "img": "../static/img/vendors/latest/seriouscarbon.png",
       "link": "seriouscarbon.com", 
