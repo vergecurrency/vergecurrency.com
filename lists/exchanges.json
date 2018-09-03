@@ -31,6 +31,12 @@
       "url": "https://bitfinex.com"
     },
     {
+      "img": "../static/img/exchanges/changehero.png",
+      "title": "ChangeHero",
+      "link": "changehero.io",
+      "url": "https://changehero.io/"
+    },    
+    {
       "img": "../static/img/exchanges/fexpro.png",
       "title": "FexPro",
       "link": "fexpro.io",
@@ -203,12 +209,6 @@
       "title": "Bitminer.eu",
       "link": "bitminer.eu",
       "url": "https://bitminer.eu/"
-    },
-    {
-      "img": "../static/img/exchanges/changehero.png",
-      "title": "ChangeHero",
-      "link": "changehero.io",
-      "url": "https://changehero.io/"
     },
     {
       "img": "../static/img/exchanges/simpleswap.png",
