@@ -5,7 +5,7 @@ const vendorsLocale = require('../lists/vendors').vendors;
 
 export const HomeVendors = () => {
   const vendors = vendorsLocale.map((x, i) => {
-    if (i < 12) {
+    if (i < 20) {
       return (
         <div className="col-xs-12 col-sm-6 col-md-3 center-xs middle-xs col--full-height pb--sm" key={x.title}>
           <Link href={x.url}>
@@ -15,6 +15,7 @@ export const HomeVendors = () => {
               </LazyLoad>
             </a>
           </Link>
+         <br /> <br />
         </div>
       );
     }
