@@ -9,7 +9,7 @@ export const HomeVendors = () => {
       return (
         <div className="col-xs-12 col-sm-6 col-md-3 center-xs middle-xs col--full-height pb--sm" key={x.title}>
           <Link href={x.url}>
-            <a href={x.url} className="vendors--url">
+            <a href={x.url} className="vendors--url" target="_blank" rel="noopener">
               <LazyLoad height={50}>
                 <img src={x.img} width="100" alt="img" />
               </LazyLoad>
