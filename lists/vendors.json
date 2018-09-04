@@ -85,6 +85,12 @@
       "url": "https://treeoflifeguitars.co.uk/"
     },
     {
+      "title": "Bamb-u",
+      "img": "../static/img/vendors/latest/bambu.jpg",
+      "link": "bamb-u.com", 
+      "url": "https://www.bamb-u.com"
+    },
+    {
       "title": "Wooden Timepiece",
       "img": "../static/img/vendors/latest/woodentimepiece.png",
       "link": "woodentimepiece.com/", 
@@ -689,12 +695,6 @@
       "img": "../static/img/vendors/latest/bookcoin.png",
       "link": "Bookcoinshop.com", 
       "url": "https://bookcoinshop.com/"
-    },
-    {
-      "title": "Bamb-u",
-      "img": "../static/img/vendors/latest/bambu.jpg",
-      "link": "bamb-u.com", 
-      "url": "https://www.bamb-u.com"
     },
     {
       "title": "Pachanko Studio",
