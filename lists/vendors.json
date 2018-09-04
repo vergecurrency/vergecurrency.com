@@ -97,6 +97,18 @@
       "url": "http://r3bel.fitness/"
     },
     {
+      "title": "Dead Day Revolution",
+      "img": "../static/img/vendors/latest/deaddayrevo.png",
+      "link": "deaddayrevolution.com/shop", 
+      "url": "https://deaddayrevolution.com/shop"
+    },    
+    {
+      "title": "Evolution Host",
+      "img": "../static/img/vendors/latest/evolutionhost.png",
+      "link": "evolution-host.com", 
+      "url": "https://evolution-host.com"
+    },
+    {
       "title": "Wardona BV",
       "img": "../static/img/vendors/latest/wardona.png",
       "link": "wardona.nl/", 
@@ -131,18 +143,6 @@
       "img": "../static/img/vendors/latest/babymoss.png",
       "link": "babymoss.com", 
       "url": "https://babymoss.com"
-    },
-    {
-      "title": "Dead Day Revolution",
-      "img": "../static/img/vendors/latest/deaddayrevo.png",
-      "link": "deaddayrevolution.com/shop", 
-      "url": "https://deaddayrevolution.com/shop"
-    },    
-    {
-      "title": "Evolution Host",
-      "img": "../static/img/vendors/latest/evolutionhost.png",
-      "link": "evolution-host.com", 
-      "url": "https://evolution-host.com"
     },
     {
       "title": "Pracnyas Shop",
