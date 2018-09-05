@@ -1,7 +1,26 @@
 {
   "ribbon": {
     "title": "Presskit & brand assets",
-    "text": "This is our press kit for media coverage that you can use.",
+    "text": "This is our press kit for media coverage that you can use. We would please ask you to  not alter our logo in any way. We prepared guidelines to help you use Verge brand and assets, including our logo, fonts, and colour palettes.",
     "buttonPrimary": "Download complete kit"
+  },
+  "coverage": {
+    "title": "Press kit",
+    "text": "This is our press kit for media coverage that you can use."    
+  },
+  "logo": {
+    "title": "Verge logo",
+    "text": "You can use the Verge logos to link to vergecurrency.com and to attach it to a blog post, news article, or press release about Verge."    
+  },
+  "font": {
+    "title": "Brand font",
+    "text": "The official font used in Verge Currency branding is Avenir Next Regular.",
+    "colors": "The colors that are used for the logo and style elements:"    
+  },
+  "reference": {
+    "text1": "Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.",
+    "text2": "Verge Currency is a cryptocurrency designed for everyday use.",
+    "title": "Verge reference information",
+    "more": "To find more about Verge check our"
   }
 }
