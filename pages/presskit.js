@@ -61,9 +61,9 @@ function Presskit(props) {
               <div className="col-xs-10">
                 <div className="start-xs">
                   <h2>{t('presskit:coverage.title', { defaultValue: 'Press kit' })}</h2>
-                  <p>{t('presskit:coverage.text', { defaultValue: 'This is our press kit for media coverage that you can use.' }) }
+                  <p>{t('presskit:ribbon.text', { defaultValue: 'This is our press kit for media coverage that you can use.' }) }
                       &nbsp;
-                     {t('presskit:coverage.text2', { defaultValue: 'We would please ask you to  not alter our logo in any way. We prepared guidelines to help you use Verge brand and assets, including our logo, fonts, and colour palettes.' }) }
+                     {t('presskit:ribbon.text2', { defaultValue: 'We would please ask you to  not alter our logo in any way. We prepared guidelines to help you use Verge brand and assets, including our logo, fonts, and colour palettes.' }) }
                   </p>
 
                   <h2>{t('presskit:logo.title', { defaultValue: 'Verge logo' })}</h2>
