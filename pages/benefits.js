@@ -46,6 +46,7 @@ function Benefits(props) {
                   <h3>4. {t('commmon:wraith.title', { defaultValue: 'Wraith Protocol' })}</h3>
                   <p>
                   {t('common:wraith:text1', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })}
+                  &nbsp;
                   {t('common:wraith:text2', { defaultValue: 'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.' })}
                   </p>
                   <h3>5. {t('benefits:body.benefit5', { defaultValue: 'Attract new customers' })}</h3>
