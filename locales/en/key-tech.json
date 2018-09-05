@@ -1,0 +1,30 @@
+{
+  "body": {
+    "ribbontitle": "Verge Key Tech",
+    "ribbontext": "Explore our key technology features. Read and learn more about Wraith, Tor, I2P and much more.",
+    "wraithtitle": "Wraith Protocol",
+    "wraith1": "Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services. Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.",
+    "wraith2": "Through this system, users now have an additional layer of base IP obfuscation as well as the option to utilize stealth addressing services for their transactions.",
+    "wraith3": "Wraith Protocol allows for complete anonymity to be maintained while providing a safe and secure method of sending and receiving Verge coins.",    
+    "keytitle": "Key features",
+    "keytext1": "Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption.",
+    "keytext2": "Transaction speeds are ultra-fast compared to other coins.",
+    "tortitle": "Tor IP obfuscation",
+    "tortext1": "Tor, derived from an acronym for the original software project name The Onion Router, is an IP obfuscation service which enables anonymous communication across a layered circuit based network.",
+    "tortext2": "Verge integrates Tor in all of our wallets, thereby eliminating any single point at which the communicating peers can be determined through network surveillance that relies upon knowing its source and destination.",
+    "i2ptitle": "I2P tunneling",
+    "i2ptext1": "I2P is a highly obfuscated tunneling service using ipv6 that anonymizes all Verge data being sent over the network.",
+    "i2ptext2": "As Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users.",
+    "atstitle": "Atomic Swaps",
+    "atstext1": "Atomic Swaps, or atomic cross-chain trading, is a technology that enables direct peer-to-peer trading across separate blockchains with BIP65 support and eliminates the need for trusted third parties.",
+    "atstext2": "Traditional centralized exchanges can be replaced by decentralized exchanges (DEX), which means you always keep your funds in your wallet and do not rely on an intermediary. By enabling Atomic Swaps capability, Verge takes a proactive step towards a decentralized future.",
+    "algtitle": "Multi-algorithm Mining",
+    "algtext1": "Verge Currency uses Proof of Work (POW) mining principle. It is one of the few cryptocurrencies to have a multi-algorithm support.",
+    "algtext2": "Verge has 5 different hash functions: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s.  Such design allows for a more equal access. Verge is not a private company funded by pre-mined coins or an ICO.",
+    "algtext3": "Allowing our community to mine Verge with good technology is vital.",
+    "inttitle": "Integrations",
+    "inttext1": "Powering real world mainstream adoption with P2P integrations",
+    "inttext2": "Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal.",
+    "inttext3": "With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram."    
+  }
+}
