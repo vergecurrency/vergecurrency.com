@@ -36,15 +36,16 @@ function KeyTech(props) {
           <div className="themed-container__dark themed-container__dark--wraith wraith">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
-                <h2>{t('about:body.wraithtitle', { defaultValue: 'Wraith Protocol' })}</h2>
+                <h2>{t('common:wraith.title', { defaultValue: 'Wraith Protocol' })}</h2>
                 <p>
-                  {t('about:body.wraith1', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services. Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.' })}
+                  {t('common:wraith.text1', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })}                  
+                  {t('common:wraith.text2', { defaultValue: 'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.' })}
                 </p>
                 <p>
-                  {t('about:body.wraith2', { defaultValue: 'Through this system, users now have an additional layer of base IP obfuscation as well as the option to utilize stealth addressing services for their transactions.' })}
+                  {t('common:wraith.text3', { defaultValue: 'Through this system, users now have an additional layer of base IP obfuscation as well as the option to utilize stealth addressing services for their transactions.' })}
                 </p>
                 <p>
-                  {t('about:body.wraith3', { defaultValue: 'Wraith Protocol allows for complete anonymity to be maintained while providing a safe and secure method of sending and receiving Verge coins.' })}
+                  {t('common:wraith.text4', { defaultValue: 'Wraith Protocol allows for complete anonymity to be maintained while providing a safe and secure method of sending and receiving Verge coins.' })}
                 </p>
               </div>
               <div className="col-sm-4 col-md-5 hidden-xs" />
