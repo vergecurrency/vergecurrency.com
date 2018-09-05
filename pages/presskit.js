@@ -23,8 +23,7 @@ function Presskit(props) {
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t('presskit:ribbon.title') }} />
-                  <p>{t('presskit:ribbon.text')}</p>
-		  {/* <a href="/static/img/press/logo/verge-logo.zip" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary')}</a> */}
+                  <p>{t('presskit:ribbon.text')}</p>		  
                 </div>
               </div>
             </div>
@@ -62,7 +61,10 @@ function Presskit(props) {
               <div className="col-xs-10">
                 <div className="start-xs">
                   <h2>{t('presskit:coverage.title', { defaultValue: 'Press kit' })}</h2>
-                  <p>{t('presskit:coverage.text', { defaultValue: 'This is our press kit for media coverage that you can use. We would please ask you to  not alter our logo in any way. We prepared guidelines to help you use Verge brand and assets, including our logo, fonts, and colour palettes.' }) }</p>
+                  <p>{t('presskit:ribbon.text', { defaultValue: 'This is our press kit for media coverage that you can use.' }) }
+                      &nbsp;
+                     {t('presskit:ribbon.text2', { defaultValue: 'We would please ask you to  not alter our logo in any way. We prepared guidelines to help you use Verge brand and assets, including our logo, fonts, and colour palettes.' }) }
+                  </p>
 
                   <h2>{t('presskit:logo.title', { defaultValue: 'Verge logo' })}</h2>
                   <p>{t('presskit:logo.text', { defaultValue: 'You can use the Verge logos to link to vergecurrency.com and to attach it to a blog post, news article, or press release about Verge.' })}</p>
@@ -87,9 +89,8 @@ function Presskit(props) {
                 </div>
                 <div className="start-xs">
                   <h2>{t('presskit:font.title', { defaultValue: 'Brand font' })}</h2>
-                  <p>{t('presskit:font.text', { defaultValue: 'The official font used in Verge Currency branding is Avenir Next Regular.' })}</p>
-                  {/* <p><Link href="/"><a href="/">{t('presskit:font.download', { defaultValue: 'Download font here' })}</a></Link>.</p> */}
-                  <p className="pt">{t('presskit:colors', { defaultValue: 'The colors that are used for the logo and style elements:' })}</p>
+                  <p>{t('presskit:font.text', { defaultValue: 'The official font used in Verge Currency branding is Avenir Next Regular.' })}</p>                  
+                  <p className="pt">{t('presskit:font.colors', { defaultValue: 'The colors that are used for the logo and style elements:' })}</p>
                 </div>
                 <div className="row center-xs pt pb colors">
                   <div className="col-xs-12">
@@ -310,8 +311,8 @@ function Presskit(props) {
             <div className="container themed-container__blue themed-container__blue--presskit">
               <div className="row center-xs">
                 <div className="col-xs-8">
-                  <h2>{t('presskit:themed-container__blue:big', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.' })}</h2>
-                  <p>{t('presskit:themed-container__blue:small', { defaultValue: 'Verge Currency is a cryptocurrency designed for everyday use.' })}</p>
+                  <h2>{t('presskit:reference:text1', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.' })}</h2>
+                  <p>{t('presskit:reference:text2', { defaultValue: 'Verge Currency is a cryptocurrency designed for everyday use.' })}</p>
                 </div>
               </div>
             </div>
@@ -319,15 +320,20 @@ function Presskit(props) {
               <div className="col-xs-10">
                 <div className="start-xs">
                   <h2>{t('presskit:reference.title', { defaultValue: 'Verge reference information' })}</h2>
-                  <p className="pb">{t('presskit:reference.text', { defaultValue: 'Verge Currency is a cryptocurrency designed for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.' })}</p>
-                  <h2>{t('presskit:wraith.title', { defaultValue: 'Wraith Protocol' })}</h2>
-                  <p>{t('presskit:wraith.text', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services. Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.' })}</p>
+                  <p className="pb">
+                  {t('presskit:reference.text2', { defaultValue: 'Verge Currency is a cryptocurrency designed for everyday use.' })} 
+                  &nbsp;
+                  {t('presskit:reference.text1', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.' })}
+                  </p>
+                  <h2>{t('commmon:wraith.title', { defaultValue: 'Wraith Protocol' })}</h2>
                   <p>
-                    <span>{t('presskit:findoutmore.text.intro', { defaultValue: 'To find more about Verge check our' })} </span>
-                    <span><Link href="/faq"><a href="/faq">{t('presskit:findoutmore.text.link.faq', { defaultValue: 'FAQ' })}</a></Link>.</span>
-                    {/* <span><Link href="/blog"><a href="/blog">{t('presskit:findoutmore.text.link.blog', { defaultValue: 'Blog' })}</a></Link> </span>
-                      <span>{t('presskit:findoutmore.text.and', { defaultValue: 'and' })} </span>
-                    <span><Link href="/black-paper"><a href="/black-paper">{t('presskit:findoutmore.text.link.black-paper', { defaultValue: 'Black Paper' })}</a></Link>.</span> */}
+                  {t('common:wraith:text1', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })}
+                  &nbsp; 
+                  {t('common:wraith:text2', { defaultValue: 'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.' })}
+                  </p>
+                  <p>
+                    <span>{t('presskit:reference.more', { defaultValue: 'To find more about Verge check our' })} </span>
+                    <span><Link href="/faq"><a href="/faq">FAQ</a></Link>.</span>               
                   </p>
                 </div>
               </div>
