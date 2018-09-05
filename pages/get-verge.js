@@ -21,8 +21,8 @@ function GetVerge(props) {
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <div className="col-xs-10">
-              <h6>Get Verge</h6>
-              <h2 className="mb">Trade Verge on the most popular exchanges. We’re proud to be listed on: </h2>
+              <h6>{t('get-verge:body.title', { defaultValue: 'Get Verge' })}</h6>
+              <h2 className="mb">{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges. We’re proud to be listed on:' })}</h2>
 
               <Exchanges />
 
@@ -34,13 +34,11 @@ function GetVerge(props) {
 
           <div className="row center-xs middle-xs pt pb">
             <div className="col-xs-10 col-sm-6">
-              <h6>DELIVERS WHAT OTHERS CAN’T</h6>
+              <h6>{t('get-verge:body.title2', { defaultValue: 'DELIVERS WHAT OTHERS CAN\’T' })}</h6>
               <h2>
-                Verge uses multiple anonymity-centric networks such as TOR and I2P.
-                The IP addresses of the users are fully obfuscated and
-                transactions are completely untraceable.
+              {t('get-verge:body.delivers', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.' })}
               </h2>
-              <p>We care about your privacy. Do you?</p>
+              <p>{t('get-verge:body.privacy', { defaultValue: 'We care about your privacy. Do you?' })}</p>
             </div>
           </div>
         </div>
@@ -49,6 +47,6 @@ function GetVerge(props) {
   );
 }
 
-const Extended = translate(['home', 'common'], { i18n, wait: process.browser })(GetVerge);
+const Extended = translate(['home', 'common', 'get-verge'], { i18n, wait: process.browser })(GetVerge);
 
 export default Extended;
