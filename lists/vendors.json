@@ -43,6 +43,12 @@
       "url": "https://shop.dioxyme.com/"
     },
     {
+      "title": "Crypto Planet",
+      "img": "../static/img/vendors/latest/cryptoplanet.png",
+      "link": "cryptoplanet.store", 
+      "url": "https://www.cryptoplanet.store"
+    }, 
+    {
       "title": "Whale Apparel",
       "img": "../static/img/vendors/latest/whaleapparel.png",
       "link": "whaleapparel.com", 
@@ -85,6 +91,12 @@
       "url": "https://treeoflifeguitars.co.uk/"
     },
     {
+      "title": "Bamb-u",
+      "img": "../static/img/vendors/latest/bambu.jpg",
+      "link": "bamb-u.com", 
+      "url": "https://www.bamb-u.com"
+    },
+    {
       "title": "Wooden Timepiece",
       "img": "../static/img/vendors/latest/woodentimepiece.png",
       "link": "woodentimepiece.com/", 
@@ -95,6 +107,18 @@
       "img": "../static/img/vendors/latest/rebelfitness.jpg",
       "link": "r3bel.fitness/", 
       "url": "http://r3bel.fitness/"
+    },
+    {
+      "title": "Dead Day Revolution",
+      "img": "../static/img/vendors/latest/deaddayrevo.png",
+      "link": "deaddayrevolution.com/shop", 
+      "url": "https://deaddayrevolution.com/shop"
+    },    
+    {
+      "title": "Evolution Host",
+      "img": "../static/img/vendors/latest/evolutionhost.png",
+      "link": "evolution-host.com", 
+      "url": "https://evolution-host.com"
     },
     {
       "title": "Wardona BV",
@@ -131,18 +155,6 @@
       "img": "../static/img/vendors/latest/babymoss.png",
       "link": "babymoss.com", 
       "url": "https://babymoss.com"
-    },
-    {
-      "title": "Dead Day Revolution",
-      "img": "../static/img/vendors/latest/deaddayrevo.png",
-      "link": "deaddayrevolution.com/shop", 
-      "url": "https://deaddayrevolution.com/shop"
-    },    
-    {
-      "title": "Evolution Host",
-      "img": "../static/img/vendors/latest/evolutionhost.png",
-      "link": "evolution-host.com", 
-      "url": "https://evolution-host.com"
     },
     {
       "title": "Pracnyas Shop",
@@ -689,12 +701,6 @@
       "img": "../static/img/vendors/latest/bookcoin.png",
       "link": "Bookcoinshop.com", 
       "url": "https://bookcoinshop.com/"
-    },
-    {
-      "title": "Bamb-u",
-      "img": "../static/img/vendors/latest/bambu.jpg",
-      "link": "bamb-u.com", 
-      "url": "https://www.bamb-u.com"
     },
     {
       "title": "Pachanko Studio",
