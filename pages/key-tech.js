@@ -54,11 +54,11 @@ function KeyTech(props) {
           <div className="key-features content pb">
             <div className="row center-xs pt-large pb">
               <div className="col-xs-10 col-sm-8">
-                <h6>{t('about:body.keytitle', { defaultValue: 'Key features' })}</h6>
+                <h6>{t('key-tech:body.keytitle', { defaultValue: 'Key features' })}</h6>
                 <h2>
-                  {t('about:body.keytext1', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption.' })}
+                  {t('key-tech:body.keytext1', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption.' })}
                 </h2>
-                <p>{t('about:body.keytext2', { defaultValue: 'Transaction speeds are ultra-fast compared to other coins.' })}</p>
+                <p>{t('key-tech:body.keytext2', { defaultValue: 'Transaction speeds are ultra-fast compared to other coins.' })}</p>
               </div>
             </div>
             <div className="row center-xs pb-large">
@@ -68,51 +68,51 @@ function KeyTech(props) {
                     <div className="feature__image feature__tor">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/Tor.png" alt="Tor" />
                     </div>
-                    <h3>{t('about:body.tortitle', { defaultValue: 'Tor IP obfuscation' })}</h3>
+                    <h3>{t('key-tech:body.tortitle', { defaultValue: 'Tor IP obfuscation' })}</h3>
                     <p>
-                      {t('about:body.tortext1', { defaultValue: 'Tor, derived from an acronym for the original software project name The Onion Router, is an IP obfuscation service which enables anonymous communication across a layered circuit based network.' })}
+                      {t('key-tech:body.tortext1', { defaultValue: 'Tor, derived from an acronym for the original software project name The Onion Router, is an IP obfuscation service which enables anonymous communication across a layered circuit based network.' })}
                     </p>
                     <p>
-                      {t('about:body.tortext2', { defaultValue: 'Verge integrates Tor in all of our wallets, thereby eliminating any single point at which the communicating peers can be determined through network surveillance that relies upon knowing its source and destination.' })}
+                      {t('key-tech:body.tortext2', { defaultValue: 'Verge integrates Tor in all of our wallets, thereby eliminating any single point at which the communicating peers can be determined through network surveillance that relies upon knowing its source and destination.' })}
                     </p>
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__i2p">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/I2P.png" alt="I2P" />
                     </div>
-                    <h3>{t('about:body.i2ptitle', { defaultValue: 'I2P tunneling' })}</h3>
+                    <h3>{t('key-tech:body.i2ptitle', { defaultValue: 'I2P tunneling' })}</h3>
                     <p>
-                      {t('about:body.i2ptext1', { defaultValue: 'I2P is a highly obfuscated tunneling service using ipv6 that anonymizes all Verge data being sent over the network.' })}
+                      {t('key-tech:body.i2ptext1', { defaultValue: 'I2P is a highly obfuscated tunneling service using ipv6 that anonymizes all Verge data being sent over the network.' })}
                     </p>
                     <p>
-                      {t('about:body.i2ptext2', { defaultValue: 'As Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users.' })}
+                      {t('key-tech:body.i2ptext2', { defaultValue: 'As Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users.' })}
                     </p>
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__atomic">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/Atomic.png" alt="Atomic Swaps" />
                     </div>
-                    <h3>{t('about:body.atstitle', { defaultValue: 'Atomic Swaps' })}</h3>
+                    <h3>{t('key-tech:body.atstitle', { defaultValue: 'Atomic Swaps' })}</h3>
                     <p>
-                      {t('about:body.atstext1', { defaultValue: 'Atomic Swaps, or atomic cross-chain trading, is a technology that enables direct peer-to-peer trading across separate blockchains with BIP65 support and eliminates the need for trusted third parties.' })}
+                      {t('key-tech:body.atstext1', { defaultValue: 'Atomic Swaps, or atomic cross-chain trading, is a technology that enables direct peer-to-peer trading across separate blockchains with BIP65 support and eliminates the need for trusted third parties.' })}
                     </p>
                     <p>
-                      {t('about:body.atstext2', { defaultValue: 'Traditional centralized exchanges can be replaced by decentralized exchanges (DEX), which means you always keep your funds in your wallet and do not rely on an intermediary. By enabling Atomic Swaps capability, Verge takes a proactive step towards a decentralized future.' })}
+                      {t('key-tech:body.atstext2', { defaultValue: 'Traditional centralized exchanges can be replaced by decentralized exchanges (DEX), which means you always keep your funds in your wallet and do not rely on an intermediary. By enabling Atomic Swaps capability, Verge takes a proactive step towards a decentralized future.' })}
                     </p>
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__mining">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/Verge.png" alt="Multi Algorithm mining" />
                     </div>
-                    <h3>{t('about:body.algtitle', { defaultValue: 'Multi-algorithm Mining' })}</h3>
+                    <h3>{t('key-tech:body.algtitle', { defaultValue: 'Multi-algorithm Mining' })}</h3>
                     <p>
-                      {t('about:body.algtext1', { defaultValue: 'Verge Currency uses Proof of Work (POW) mining principle. It is one of the few cryptocurrencies to have a multi-algorithm support.' })}
+                      {t('key-tech:body.algtext1', { defaultValue: 'Verge Currency uses Proof of Work (POW) mining principle. It is one of the few cryptocurrencies to have a multi-algorithm support.' })}
                     </p>
                     <p>
-                      {t('about:body.algtext2', { defaultValue: 'Verge has 5 different hash functions: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s.  Such design allows for a more equal access. Verge is not a private company funded by pre-mined coins or an ICO.' })}
+                      {t('key-tech:body.algtext2', { defaultValue: 'Verge has 5 different hash functions: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s.  Such design allows for a more equal access. Verge is not a private company funded by pre-mined coins or an ICO.' })}
                     </p>
                     <p>
-                      {t('about:body.algtext3', { defaultValue: 'Allowing our community to mine Verge with good technology is vital.' })}
+                      {t('key-tech:body.algtext3', { defaultValue: 'Allowing our community to mine Verge with good technology is vital.' })}
                     </p>
                   </div>
                 </div>
@@ -123,13 +123,13 @@ function KeyTech(props) {
           <div className="themed-container__blue themed-container__blue--integrations">
             <div className="row center-xs integrations">
               <div className="col-xs-10 col-sm-6 col-md-5 col-lg-4 start-xs integrations--text">
-                <h6>{t('about:body.inttitle', { defaultValue: 'Integrations' })}</h6>
-                <h2>{t('about:body.inttext1', { defaultValue: 'Powering real world mainstream adoption with P2P integrations' })}</h2>
+                <h6>{t('key-tech:body.inttitle', { defaultValue: 'Integrations' })}</h6>
+                <h2>{t('key-tech:body.inttext1', { defaultValue: 'Powering real world mainstream adoption with P2P integrations' })}</h2>
                 <p>
-                  {t('about:body.inttext2', { defaultValue: 'Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal.' })}
+                  {t('key-tech:body.inttext2', { defaultValue: 'Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal.' })}
                 </p>
                 <p>
-                  {t('about:body.inttext3', { defaultValue: 'With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram.' })}
+                  {t('key-tech:body.inttext3', { defaultValue: 'With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram.' })}
                 </p>
               </div>
               <div className="col-sm-4 col-md-5 col-lg-6 hidden-xs">
