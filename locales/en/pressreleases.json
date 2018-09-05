@@ -1,12 +1,11 @@
 {
-  "date": {
-    "label": "Press release"
+  "ribbon": {
+    "title": "Press Releases & Coverage",
+    "text": "Official press releases from Verge Currencies can be found here."
   },
-  "submenu": {
-    "ourTeam": "Verge Team",
-    "history": "History",
-    "keyTech": "Key Tech",
-    "pressReleases": "Press Releases",
-    "presskit": "Presskit"
+  "body": {
+    "releases": "Press Releases",
+    "coverage": "Press Coverage",
+    "social": "Get social with Verge. Be a part of the Verge community."
   }
 }
