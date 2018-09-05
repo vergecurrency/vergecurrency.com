@@ -67,7 +67,7 @@ function KeyTech(props) {
                     <div className="feature__image feature__tor">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/Tor.png" alt="Tor" />
                     </div>
-                    <h3>{t('about:body.tortitle', { defaultValue: 'xxx' })}Tor IP obfuscation</h3>
+                    <h3>{t('about:body.tortitle', { defaultValue: 'Tor IP obfuscation' })}</h3>
                     <p>
                       {t('about:body.tortext1', { defaultValue: 'Tor, derived from an acronym for the original software project name The Onion Router, is an IP obfuscation service which enables anonymous communication across a layered circuit based network.' })}
                     </p>
