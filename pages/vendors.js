@@ -20,8 +20,8 @@ function VendorsPage(props) {
           <div className="intro pt pb">
             <div className="row center-xs middle-xs">
               <div className="col-xs-10 col-sm-6">
-                <h6>Vendors using Verge</h6>
-                <h2>Vendors proudly accept Verge Currency as a method of payment for their goods and services.</h2>
+                <h6>{t('vendors:body.header', { defaultValue: 'Vendors using Verge' })}</h6>
+                <h2>{t('common:vendors.text1', { defaultValue: 'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.' })}</h2>
               </div>
             </div>
           </div>
@@ -33,13 +33,12 @@ function VendorsPage(props) {
               <div className="row start-xs between-xs">
                 <div className="col-xs-12 col-sm-8 pb-xs">
                   <h3>
-                    "Are you interested in Verge Currency?" <span className="hidden-xs"><br /></span>
-                    Start accepting Verge today!
+                  {t('common:vendors.text2', { defaultValue: 'Get started today and accept Verge in your store!' })}
                   </h3>
                 </div>
                 <div className="col-xs-12 col-sm-4 end-sm">
                   <Link href="https://vergecurrency.com/developers/verge-vendor-integration/">
-                    <a href="https://vergecurrency.com/developers/verge-vendor-integration/" className="btn btn-primary">Accept Verge today</a>
+                    <a href="https://vergecurrency.com/developers/verge-vendor-integration/" className="btn btn-primary">{t('common:vendors.text3', { defaultValue: 'Accept Verge today' })}</a>
                   </Link>
                 </div>
               </div>
@@ -51,6 +50,6 @@ function VendorsPage(props) {
   );
 }
 
-const Extended = translate(['common'], { i18n, wait: process.browser })(VendorsPage);
+const Extended = translate(['common', 'vendors'], { i18n, wait: process.browser })(VendorsPage);
 
 export default Extended;
