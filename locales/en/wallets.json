@@ -1,0 +1,10 @@
+{
+  "body": {    
+     "header1": "Download our Wallet",
+     "header2": "Wallets",
+     "text1": "Download our latest Core wallet to store <span className=hidden-xs><br /></span> your Verge Currency with.",
+     "text2": "Download our latest Core Wraith Wallets for <span className=hidden-xs><br /></span> Windows, Linux and OSX or store your Verge on <span className=hidden-xs><br /></span> your mobile with our Tor wallet.",
+     "text3": "Our core wallet is secure, easy and fast. Transactions in <span className=hidden-xs><br /></span> less than 30 seconds.",
+     "header3": "Wallets for all platforms"
+  }
+}

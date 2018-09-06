@@ -21,11 +21,8 @@ function WalletsPage(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
-                  <h1>Download our Wallet</h1>
-                  <p>
-                    Download our latest Core wallet to store <span className="hidden-xs"><br /></span>
-                    your Verge Currency with.
-                  </p>
+                  <h1>{t('wallets:body.header1', { defaultValue: 'Download our Wallet' })}</h1>
+                  <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text1', { defaultValue: 'Download our latest Core wallet to store <span className="hidden-xs"><br /></span> your Verge Currency with.' }) }} />
                   <WalletsBtn t={t} />
                 </div>
               </div>
@@ -35,16 +32,9 @@ function WalletsPage(props) {
         <div className="container wallet">
           <div className="row center-xs middle-xs pt-large pb-large">
             <div className="col-xs-10 col-sm-6">
-              <h6>Wallets</h6>
-              <h2>
-                Download our latest Core Wraith Wallets for <span className="hidden-xs"><br /></span>
-                Windows, Linux and OSX or store your Verge on <span className="hidden-xs"><br /></span>
-                your mobile with our Tor wallet.
-              </h2>
-              <p>
-                Our core wallet is secure, easy and fast. Transactions in <span className="hidden-xs"><br /></span>
-                less than 30 seconds.
-              </p>
+              <h6>{t('wallets:body.header2', { defaultValue: 'Wallets' })}</h6>
+              <h2 dangerouslySetInnerHTML={{ __html: t('wallets:body.text2', { defaultValue: 'Download our latest Core Wraith Wallets for <span className="hidden-xs"><br /></span> Windows, Linux and OSX or store your Verge on <span className="hidden-xs"><br /></span> your mobile with our Tor wallet.' }) }} />
+              <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text3', { defaultValue: 'Our core wallet is secure, easy and fast. Transactions in <span className="hidden-xs"><br /></span> less than 30 seconds.' }) }} />
             </div>
           </div>
 
@@ -92,7 +82,7 @@ function WalletsPage(props) {
                 <div className="row center-xs start-md">
                   <div className="col-xs-12 col-lg-10">
                     <div className="start-sm pb-small">
-                      <h6>Wallets for all platforms</h6>
+                      <h6>{t('wallets:body.header3', { defaultValue: 'Wallets for all platforms' })}</h6>
                       <h2>
                         <Interpolate i18nKey="home:wallets.header" br={<span> <br className="hidden-xs" /></span>} />
                       </h2>
@@ -105,14 +95,13 @@ function WalletsPage(props) {
           </div>
           <div className="row center-xs middle-xs pt-large pb-large intro">
             <div className="col-xs-10 col-sm-6">
-              <span className="spaced">WRAITH PROTOCOL</span>
+              <span className="spaced">{t('common:wraith.title', { defaultValue: 'WRAITH PROTOCOL' })}</span>
               <div className="pt-xs">
                 <h2>
-                  Wraith Protocol is a technology upgrade package that enables our users to be able to send and recieve
-                  payments privately across our blockchain by enabling stealth addressing services. Additionally this update
-                  removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor. Through this system,
-                  users now have an additional layer of base IP obfuscation as well as the option to utilize stealth addressing
-                  services for their transactions.
+                 {t('common:wraith.text1', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })} &nbsp;
+                 {t('common:wraith.text2', { defaultValue: 'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.' })} &nbsp;
+                 {t('common:wraith.text3', { defaultValue: 'Through this system, users now have an additional layer of base IP obfuscation as well as the option to utilize stealth addressing services for their transactions.' })} &nbsp;
+                 {t('common:wraith.text4', { defaultValue: 'Wraith Protocol allows for complete anonymity to be maintained while providing a safe and secure method of sending and receiving Verge coins.' })}
                 </h2>
               </div>
             </div>
