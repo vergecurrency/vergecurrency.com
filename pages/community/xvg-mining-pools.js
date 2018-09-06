@@ -11,6 +11,7 @@ const MiningPools = () => (
             <h1>Verge Pools</h1>
             <ul className="pools-list">
               <strong>Scrypt</strong>
+			  <li><Link href="http://bsod.pw/site/gomining?algo=xvgscrypt"><a href="http://bsod.pw/site/gomining?algo=blake2s" target="_blank" rel="noopener noreferrer">[SCRYPT] BSOD.PW</a></Link></li>
               <li><Link href="http://blockmasters.co"><a href="http://blockmasters.co" target="_blank" rel="noopener noreferrer">[SCRYPT] Block Masters</a></Link></li>
               <li><Link href="https://aikapool.com/xvg"><a href="https://aikapool.com/xvg" target="_blank" rel="noopener noreferrer">[SCRYPT] Aikapool</a></Link></li>
               <li><Link href="https://verge-scrypt.miningpoolhub.com/"><a href="https://verge-scrypt.miningpoolhub.com/" target="_blank" rel="noopener noreferrer">[SCRYPT] MiningPoolHub.com</a></Link></li>
@@ -23,6 +24,7 @@ const MiningPools = () => (
               <li><Link href="http://xvg.mastermining.net/index.php?page=statistics&action=pool"><a href="http://xvg.mastermining.net/index.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">[SCRYPT] MasterMining.net</a></Link></li>
               <li><Link href="https://www.multipool.us/dashboard/pool/xvg"><a href="https://www.multipool.us/dashboard/pool/xvg" target="_blank" rel="noopener noreferrer">[SCRYPT] Multipool.us</a></Link></li>
               <strong>Myr-Groestl</strong>
+			  <li><Link href="http://bsod.pw/site/gomining?algo=xvggroestl"><a href="http://bsod.pw/site/gomining?algo=blake2s" target="_blank" rel="noopener noreferrer">[myr-groestl] BSOD.PW</a></Link></li>
               <li><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">[myr-groestl] HashFaster </a></Link></li>
               <li><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">[myr-groestl] Poolovich </a></Link></li>
               <li><Link href="http://xvg-mg.idcray.com/"><a href="http://xvg-mg.idcray.com/" target="_blank" rel="noopener noreferrer">[myr-groestl] IDcray </a></Link></li>
@@ -30,6 +32,7 @@ const MiningPools = () => (
               <li><Link href="https://profit-pool.org/"><a href="https://profit-pool.org/" target="_blank" rel="noopener noreferrer"> Profit Pool</a></Link></li>
               <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[myr-groestl] AntMinePool</a></Link></li>
               <strong>Lyra2Rev2</strong>
+			  <li><Link href="http://bsod.pw/site/gomining?algo=xvglyra"><a href="http://bsod.pw/site/gomining?algo=blake2s" target="_blank" rel="noopener noreferrer">[Lyra2REv2] BSOD.PW</a></Link></li>
               <li><Link href="http://blockmasters.co/"><a href="http://blockmasters.co/" target="_blank" rel="noopener noreferrer">[Lyra2Rev2] Block Masters </a></Link></li>
               <li><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">[Lyra2Rev2] Poolovich </a></Link></li>
               <li><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">[Lyra2re] HashFaster </a></Link></li>
@@ -41,11 +44,12 @@ const MiningPools = () => (
               <li><Link href="https://pool.unimining.net/site/mining"><a href="https://pool.unimining.net/site/mining" target="_blank" rel="noopener noreferrer">[Blake2s] UniMining</a></Link></li>
               <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[Blake2s] AntMinePool</a></Link></li>
               <li><Link href="http://verge.blake2s.com"><a href="http://verge.blake2s.com" target="_blank" rel="noopener noreferrer">[Blake2s] Verge Blake2s</a></Link></li>
-              <li><Link href="http://bsod.pw/site/gomining?algo=blake2s"><a href="http://bsod.pw/site/gomining?algo=blake2s" target="_blank" rel="noopener noreferrer">[Blake2s] BSOD.PW</a></Link></li>
+              <li><Link href="http://bsod.pw/site/gomining?algo=xvg"><a href="http://bsod.pw/site/gomining?algo=blake2s" target="_blank" rel="noopener noreferrer">[Blake2s] BSOD.PW</a></Link></li>
               <li><Link href="http://nlpool.nl"><a href="http://nlpool.nl" target="_blank" rel="noopener noreferrer">[Blake2s] NLpool.nl</a></Link></li>
               <li><Link href="http://luckypool.xyz"><a href="http://luckypool.xyz" target="_blank" rel="noopener noreferrer">[Blake2s] LuckyPool</a></Link></li>
               <li><Link href="https://poolio.mmcs.world/"><a href="https://poolio.mmcs.world/" target="_blank" rel="noopener noreferrer">[Blake2s] pOOlio.mmcs.world</a></Link></li>
               <strong>x17</strong>
+			  <li><Link href="http://bsod.pw/site/gomining?algo=xvgx17"><a href="http://bsod.pw/site/gomining?algo=blake2s" target="_blank" rel="noopener noreferrer">[x17] BSOD.PW</a></Link></li>
               <li><Link href="http://blockmasters.co/"><a href="http://blockmasters.co/" target="_blank" rel="noopener noreferrer">[x17] Block Masters </a></Link></li> 
               <li><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">[x17] HashFaster </a></Link></li>    
               <li><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">[x17] Poolovich </a></Link></li>
