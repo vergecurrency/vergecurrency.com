@@ -22,20 +22,13 @@ function Roadmap(props) {
           <div className="container">
             <div className="row center-xs roadmap">
               <div className="col-xs-11 col-sm-8 col-lg-6 start-xs center-sm">
-                <h6>Roadmap</h6>
-                <h2>
-                  A roadmap with great features to come.<br />
-                  Join us while we&apos;re still growing!
-                </h2>
-
+                <h6>{t('roadmap:body.title', { defaultValue: 'Roadmap' })}</h6>
+                <h2 dangerouslySetInnerHTML={{ __html: t('roadmap:body.text1', { defaultValue: 'A roadmap with great features to come.<br /> Join us while we\'re still growing!' }) }} />
                 <p>
-                  As an open-source community &amp; volunteer-driven project, our roadmap is meant as a general
-                  guideline for how we are developing Verge into one of the best cryptocurrency options out there.
+                {t('roadmap:body.text2', { defaultValue: 'As an open-source community and volunteer-driven project, our roadmap is meant as a general guideline for how we are developing Verge into one of the best cryptocurrency options out there.' })}
                 </p>
                 <p>
-                  In the spirit of transparency and in good faith to the community, we want this roadmap to be made
-                  public. However, please keep in mind that this roadmap is subject to change based on priorities,
-                  unplanned developments and new ideas.
+                {t('roadmap:body.text3', { defaultValue: 'In the spirit of transparency and in good faith to the community, we want this roadmap to be made public. However, please keep in mind that this roadmap is subject to change based on priorities, unplanned developments and new ideas.' })}
                 </p>
 
                 <div className="row start-xs center-sm pt">
