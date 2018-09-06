@@ -19,8 +19,8 @@ function About(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
-                  <h1>{t('about:body.title1', { defaultValue: 'About Verge' })}</h1>
-                    <p dangerouslySetInnerHTML={{ __html: t('about:body.grassroots', { defaultValue: 'The grassroots culture is what makes Verge <span className="hidden-xs"><br /></span> unique and dynamic.' }) }} />
+                  <h1>{t('about:body.header', { defaultValue: 'About Verge' })}</h1>
+                    <p dangerouslySetInnerHTML={{ __html: t('common:texts.grassroots', { defaultValue: 'The grassroots culture is what makes Verge <span className="hidden-xs"><br /></span> unique and dynamic.' }) }} />
                 </div>
               </div>
             </div>

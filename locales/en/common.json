@@ -22,7 +22,8 @@
     },
   "texts": {    
     "open": "Verge Currency is a 100% open-source project, and the global Verge Community represents the manpower driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place. All contributors, including the Core Team, are unpaid volunteers who donate their time and energy into the project because they are passionate and believe in Verge.",
-    "use": "Verge is a secure and anonymous cryptocurrency, built for everyday use."
+    "use": "Verge is a secure and anonymous cryptocurrency, built for everyday use.",
+    "grassroots": "The grassroots culture is what makes Verge <span className=hidden-xs><br /></span> unique and dynamic."
     },
   "vendors": {
     "text1": "All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.",
