@@ -55,7 +55,16 @@
         "github": "https://github.com/SwenVanZanten",
         "twitter": "https://twitter.com/SwenVanZanten",
 	"location": "Voorhout, The Netherlands"
-      }	   
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Manuel",
+        "role": "Product Developer",
+        "occupation": "Software Engineer",
+        "github": "https://github.com/Cabrasm",
+        "twitter": "https://twitter.com/CabrasManuel",
+	"location": "Switzerland"
+      }	   	   
     ]
   },
   "businessdevelopment": {
