@@ -49,11 +49,11 @@ function Home(props) {
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t('home:ribbon.title') }} />
-                  <p>{t('home:ribbon.text')}</p>
+                  <p>{t('home:ribbon.text1')}</p>
                   <WalletsBtn />
                   <Link href="/get-started" prefetch>
                     <a href="/get-started" className="btn btn-secondary" name="Get Started with Verge">
-                      Get Started with Verge
+                    {t('home:ribbon.text2')}
                     </a>
                   </Link>
                   <p className="blackpaper">
@@ -139,7 +139,7 @@ function Home(props) {
                     </div>
                     <div className="col-xs-12 col-md-6 pt-xs">
                       <h6>{t('home:benefits.benefit_4.title')}</h6>
-                      <p>{t('home:benefits.benefit_4.text')}</p>
+                      <p>{t('common:wraith.text1')} &nbsp; {t('common:wraith.text2')}</p>
                     </div>
                   </div>
                   <h6 className="center-xs start-sm">
@@ -198,20 +198,14 @@ function Home(props) {
             <div className="themed-container__dark themed-container__dark--home">
               <div className="row center-xs power-to-the-people">
                 <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
-                  <h6>Empowering people</h6>
-                  <h3>
-                    Our mission is to <span>empower people</span> around the world by bringing blockchain transactions
-                    into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly,
-                    efficiently and <span>privately</span>.
-                  </h3>
+                  <h6>{t('home:mission.header', { defaultValue: 'Empowering people' })}</h6>
+                  <h3 dangerouslySetInnerHTML={{ __html: t('home:mission.text1', { defaultValue: 'Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.' }) }} />
                   <p>
-                    With Verge, businesses and individuals have flexible options for sending and receiving payments.
-                    With the flip of a switch, we offer helpful integrations and tools that enable them to handle large
-                    scale transactions between merchants and small scale private payments.
+                  {t('home:mission.text2', { defaultValue: 'With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.' })}
                   </p>
                   <Link href="/get-verge">
                     <a href="/get-verge" className="btn btn-white" name="Get Verge">
-                      Get Verge today
+                    {t('home:getverge.text1', { defaultValue: 'Get Verge today' })}
                     </a>
                   </Link>
                 </div>
@@ -224,15 +218,16 @@ function Home(props) {
                   <h6>
                     <Link href="/get-verge">
                       <a href="/get-verge" className="exchanges--url">
-                        See more exchanges
+                      {t('home:getverge.text2', { defaultValue: 'See more exchanges' })}
                       </a>
                     </Link>
                   </h6>
                   <h2>
-                    Trade Verge on the most popular exchanges.{' '}
+                  {t('home:getverge.text3', { defaultValue: 'Trade Verge on the most popular exchanges.' })}
+                    {' '}
                     <span className="hidden-xs">
                       <br />
-                    </span>We’re proud to be listed on:
+                    </span>{t('home:getverge.text4', { defaultValue: 'We\’re proud to be listed on:' })}
                   </h2>
                 </div>
 
@@ -250,7 +245,7 @@ function Home(props) {
                       className=""
                       name="See chart"
                     >
-                      See chart here
+                      {t('home:getverge.text5', { defaultValue: 'See chart here' })}
                     </a>
                   </Link>
                 </h6>
@@ -269,13 +264,13 @@ function Home(props) {
                     </h2>
 
                     <p>
-                      {t('home:vendors.text-1', {
+                      {t('home:vendors.text1', {
                         defaultValue:
                           'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.',
                       })}
                     </p>
                     <p>
-                      {t('home:vendors.text-2', { defaultValue: 'Get started today and accept Verge in your store.' })}
+                      {t('home:vendors.text2', { defaultValue: 'Get started today and accept Verge in your store.' })}
                     </p>
 
                     <Link href="/developers/verge-vendor-integration">
@@ -289,7 +284,7 @@ function Home(props) {
                     </Link>
                     <Link href="/vendors">
                       <a href="/vendors" className="btn btn-tertiary" name="See all vendors">
-                        {t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors' })}
+                        {t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors here' })}
                       </a>
                     </Link>
                   </div>
@@ -306,11 +301,11 @@ function Home(props) {
             <div className="vendors--list">
               <div className="row pt-large pb-large center-xs middle-xs">
                 <div className="col-xs-10">
-                  <h2>Latest vendors to accept Verge</h2>
+                  <h2>{t('home:vendors.text3', { defaultValue: 'Latest vendors to accept Verge' })}</h2>
                   <h6>
                     <Link href="/vendors">
                       <a href="/vendors" className="vendors--url" name="See vendors">
-                        See all vendors here
+                      {t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors here' })}
                       </a>
                     </Link>
                   </h6>
@@ -323,22 +318,15 @@ function Home(props) {
             <div className="container themed-container__linen themed-container__linen--home">
               <div className="row center-xs roadmap">
                 <div className="col-xs-10 col-sm-8 col-md-6 start-xs center-lg">
-                  <h2>
-                    A roadmap with great features to come.<br />
-                    Join us while we&apos;re still growing!
-                  </h2>
-
-                  <p>
-                    As an open-source community &amp; volunteer-driven project, our roadmap is meant as a general
-                    guideline for how we are developing Verge into one of the best cryptocurrency options out there.
-                  </p>
-                  <p>
-                    In the spirit of transparency and in good faith to the community, we want this roadmap to be made
-                    public. However, please keep in mind that this roadmap is subject to change based on priorities,
-                    unplanned developments and new ideas.
-                  </p>
-
-                  <div className="row start-xs center-sm">
+                <h2 dangerouslySetInnerHTML={{ __html: t('roadmap:body.text1', { defaultValue: 'A roadmap with great features to come.<br /> Join us while we\'re still growing!' }) }} />
+                <p>
+                {t('roadmap:body.text2', { defaultValue: 'As an open-source community and volunteer-driven project, our roadmap is meant as a general guideline for how we are developing Verge into one of the best cryptocurrency options out there.' })}
+                </p>
+                <p>
+                {t('roadmap:body.text3', { defaultValue: 'In the spirit of transparency and in good faith to the community, we want this roadmap to be made public. However, please keep in mind that this roadmap is subject to change based on priorities, unplanned developments and new ideas.' })}
+                </p>
+                <br />
+                   <div className="row start-xs center-sm">
                     <div className="col-xs-10 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-12 col-lg-9 start-xs">
                       <ul className="roadmap__timeline roadmap__timeline--home pb">
                         <CurrentYearRoadmap start={2} maxLength={5} />
@@ -346,7 +334,7 @@ function Home(props) {
                       <h6>
                         <Link href="/roadmap">
                           <a href="/roadmap" name="Full roadmap here">
-                            Full roadmap here
+                          {t('home:roadmap.text1', { defaultValue: 'Full roadmap here' })}                            
                           </a>
                         </Link>
                       </h6>
@@ -355,51 +343,12 @@ function Home(props) {
                 </div>
               </div>
             </div>
-            {/* <div className="blog">
-              <div className="row pt pb center-xs middle-xs">
-                <div className="col-xs-10 col-sm-8">
-                  <h6>
-                    <Link href="/blog">
-                      <a href="/blog" className="spaced" name="Go to blog">Go to the blog</a>
-                    </Link>
-                  </h6>
-
-                  <h2>
-                    Check out our blog and to find out what is <span className="hidden-xs"><br /></span>
-                    happening with Verge.
-                  </h2>
-
-                </div>
-              </div>
-            </div> */}
             <div className="press">
-              {/* <div className="row center-xs previous">
-                <div className="col-xs-11 start-xs">
-                  <div className="row around-xs pt-small">
-                    <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                      <Moment format="YYYY/MM/DD" className="date">2018-01-01</Moment>
-                      <h4>Update on Wraith. The release of Verge Core..</h4>
-                      <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
-                    </div>
-                    <div className="col-xs-12 col-sm-4 start-xs pb-small-xs">
-                      <Moment format="YYYY/MM/DD" className="date">2018-01-01</Moment>
-                      <h4>Update on Wraith. The release of Verge Core..</h4>
-                      <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
-                    </div>
-                    <div className="col-xs-12 col-sm-4 start-xs">
-                      <Moment format="YYYY/MM/DD" className="date">2018-01-01</Moment>
-                      <h4>Update on Wraith. The release of Verge Core..</h4>
-                      <p>In order to hopefully bring some clarity, after talking with the lead developer Sunerok and some of the other Verge developer.</p>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-
               <div className="row center-xs social">
                 <div className="col-xs-11 center-xs">
                   <div className="row around-xs pt">
                     <div className="col-xs-12 col-sm-5 start-xs">
-                      <h4>Get social with Verge. Be a part of the Verge community.</h4>
+                      <h4>{t('home:social.header', { defaultValue: 'Get social with Verge. Be a part of the Verge community.' })}</h4>
                     </div>
                     <div className="col-xs-12 col-sm-7 col-md-5 col-md-offset-2 col--full-height">
                       <div className="row start-xs center-sm between-md pb-xs">
@@ -507,6 +456,6 @@ function Home(props) {
   );
 }
 
-const Extended = translate(['common', 'home'], { i18n, wait: process.browser })(Home);
+const Extended = translate(['common', 'home', 'roadmap'], { i18n, wait: process.browser })(Home);
 
 export default Extended;
