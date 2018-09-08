@@ -97,10 +97,10 @@
       "url": "https://www.bamb-u.com"
     },
     {
-      "title": "Wooden Timepiece",
-      "img": "../static/img/vendors/latest/woodentimepiece.png",
-      "link": "woodentimepiece.com/", 
-      "url": "https://www.woodentimepiece.com/"
+      "title": "Warmane Trade",
+      "img": "../static/img/vendors/latest/warmanetrade.png",
+      "link": "warmanetrade.com", 
+      "url": "http://www.warmanetrade.com/"
     },
     {
       "title": "R3BEL FITNESS",
@@ -119,6 +119,12 @@
       "img": "../static/img/vendors/latest/evolutionhost.png",
       "link": "evolution-host.com", 
       "url": "https://evolution-host.com"
+    },
+    {
+      "title": "Wooden Timepiece",
+      "img": "../static/img/vendors/latest/woodentimepiece.png",
+      "link": "woodentimepiece.com/", 
+      "url": "https://www.woodentimepiece.com/"
     },
     {
       "title": "Wardona BV",
