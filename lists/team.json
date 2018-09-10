@@ -71,15 +71,6 @@
     "title": "Business Development Team",
     "members": [
       {
-        "img": "../static/img/team/spookykid.jpg",
-        "name": "SpookyKid",
-        "role": "Intl. Business Development & Recruiter",
-        "occupation": "",
-        "github": "",
-        "twitter": "https://twitter.com/Secret_0taKu",
-	"location": "USA"
-      },
-      {
         "img": "../static/img/team/mihael.jpg",
         "name": "Mihael",
         "role": "Community Manager",
