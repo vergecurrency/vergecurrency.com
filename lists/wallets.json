@@ -87,6 +87,16 @@
       "os": "Ubuntu",
       "url2": "https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-linux.md",
       "availableinstructions": true
+    },
+    {
+      "name": "Paper Wallet",
+      "url": "https://vergecurrency.com/paper-wallet/",
+      "classNames": "",
+      "classWhite": "",
+      "available": true,
+      "os": "",
+      "url2": "https://vergecurrency.com/paper-wallet/",
+      "availableinstructions": true
     }
   ]
 }
