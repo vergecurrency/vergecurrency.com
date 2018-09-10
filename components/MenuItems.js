@@ -60,7 +60,7 @@ const MenuItems = ({ t }) => (
         </Link>
         <Link href="https://vergecurrency.com/paper-wallet/">
           <a href="https://vergecurrency.com/paper-wallet/" target="_blank" rel="noopener noreferrer">
-          {t('header:paper wallet generator', { defaultValue: 'Paper Wallet Generator' })}
+          {t('header:paperwallet', { defaultValue: 'Paper Wallet Generator' })}
           </a>
         </Link>
         <Link prefetch href="/p2p">
