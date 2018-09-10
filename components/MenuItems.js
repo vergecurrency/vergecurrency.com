@@ -50,15 +50,22 @@ const MenuItems = ({ t }) => (
           <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
         </Link> */}
         <Link prefetch href="/faq">
-          <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}</a>
+          <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}
+          </a>
         </Link>
         <Link href="https://verge.zendesk.com">
           <a href="https://verge.zendesk.com" target="_blank" rel="noopener noreferrer">
           {t('header:wiki', { defaultValue: 'Wiki' })}
           </a>
         </Link>
+        <Link href="https://vergecurrency.com/paper-wallet/">
+          <a href="https://vergecurrency.com/paper-wallet/" target="_blank" rel="noopener noreferrer">
+          {t('header:paper wallet generator', { defaultValue: 'Paper Wallet Generator' })}
+          </a>
+        </Link>
         <Link prefetch href="/p2p">
-          <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}</a>
+          <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}
+          </a>
         </Link>
         <Link href="https://vergecurrency.network/">
           <a href="https://vergecurrency.network/" target="_blank" rel="noopener noreferrer">
@@ -66,10 +73,12 @@ const MenuItems = ({ t }) => (
           </a>
         </Link>
         <Link prefetch href="/developers">
-          <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>
+          <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}
+          </a>
         </Link>
         <Link prefetch href="/presskit">
-          <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
+          <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}
+          </a>
         </Link>
       </div>
     </span>
