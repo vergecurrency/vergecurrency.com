@@ -56,7 +56,7 @@ function WalletsPage(props) {
                   </div>
                   <div className="col-xs-12 col-md-6 pt-xs">
                     <h6>{t('home:benefits.benefit_4.title')}</h6>
-                    <p>{t('home:benefits.benefit_4.text')}</p>
+                    <p>{t('common:wraith.text1')} {' '} {t('common:wraith.text2')} </p>
                   </div>
                 </div>
                 <h6 className="center-xs start-sm">
