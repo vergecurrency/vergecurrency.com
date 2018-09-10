@@ -151,7 +151,22 @@
         }
       }
     }
-  }
+
+    &__paperwallet {
+      background: url(/static/img/wallets/paperwallet.svg);
+      background-size: cover;
+
+      &-white {
+        background: transparent;
+
+        &::before {
+          @extend %wallet-icon--before;
+
+          background-image: url(/static/img/wallets/paperwallet-white.svg);
+        }
+      }
+    }
+  }  
 
   &--text {
     display: inline-block;
