@@ -58,11 +58,6 @@ const MenuItems = ({ t }) => (
           {t('header:wiki', { defaultValue: 'Wiki' })}
           </a>
         </Link>
-        <Link href="https://vergecurrency.com/paper-wallet/">
-          <a href="https://vergecurrency.com/paper-wallet/" target="_blank" rel="noopener noreferrer">
-          {t('header:paperwallet', { defaultValue: 'Paper Wallet Generator' })}
-          </a>
-        </Link>
         <Link prefetch href="/p2p">
           <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}
           </a>
