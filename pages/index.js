@@ -156,7 +156,14 @@ function Home(props) {
                       <img src="../static/img/benefits-desktop.png" alt="Benefits desktop" />
                     </LazyLoad>
                     <LazyLoad height={385}>
-                      <img src="../static/img/benefits-mobile.png" alt="Benefits mobile" />
+                      <img
+                        src="../static/img/benefits-mobile.png"
+                        srcSet="
+                          ../static/img/benefits-mobile.png 1x,
+                          ../static/img/benefits-mobile@2x.png 2x
+                        "
+                        alt="Benefits mobile"
+                      />
                     </LazyLoad>
                   </div>
                 </div>
@@ -291,7 +298,15 @@ function Home(props) {
 
                   <div className="col-xs-11 col-sm-4 col-md-5 end-xs">
                     <LazyLoad height={375}>
-                      <img className="vendors--img" src="../static/img/vendors/vendor-story.png" alt="Vendor Story" />
+                      <img
+                        className="vendors--img"
+                        src="../static/img/vendors/vendor-story.png"
+                        srcSet="
+                          ../static/img/vendors/vendor-story.png 1x,
+                          ../static/img/vendors/vendor-story@2x.png 2x
+                        "
+                        alt="Vendor Story"
+                      />
                     </LazyLoad>
                   </div>
                 </div>
