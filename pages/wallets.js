@@ -70,7 +70,14 @@ function WalletsPage(props) {
               <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
                 <div className="benefits--imgs hidden-xs">
                   <img src="../static/img/benefits-desktop.png" alt="Benefits desktop" />
-                  <img src="../static/img/benefits-mobile.png" alt="Benefits mobile" />
+                  <img
+                    src="../static/img/benefits-mobile.png"
+                    srcSet="
+                          ../static/img/benefits-mobile.png 1x,
+                          ../static/img/benefits-mobile@2x.png 2x
+                        "
+                    alt="Benefits mobile"
+                  />
                 </div>
               </div>
             </div>

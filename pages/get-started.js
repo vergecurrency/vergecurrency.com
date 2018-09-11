@@ -184,7 +184,14 @@ function GetStarted(props) {
                 <Link href="/vendors">
                   <a href="/vendors" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'See all vendors' })}</a>
                 </Link>
-                <img src="/static/img/get-started/verge-mobile-wallet.png" alt="Verge mobile wallet" />
+                <img
+                  src="/static/img/get-started/verge-mobile-wallet.png"
+                  srcSet="
+                    ../static/img/get-started/verge-mobile-wallet.png 1x,
+                    ../static/img/get-started/verge-mobile-wallet@2x.png 2x
+                  "
+                  alt="Verge mobile wallet"
+                />
               </div>
             </div>
             <div className="row start-xs intro pt">
