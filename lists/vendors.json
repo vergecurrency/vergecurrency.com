@@ -49,6 +49,12 @@
       "url": "https://www.cryptoplanet.store"
     }, 
     {
+      "title": "Crypto House of Poker",
+      "img": "../static/img/vendors/latest/cryptopokerclub.png",
+      "link": "t.me/CryptoPokerFam", 
+      "url": "https://t.me/CryptoPokerFam"
+    },
+    {
       "title": "Whale Apparel",
       "img": "../static/img/vendors/latest/whaleapparel.png",
       "link": "whaleapparel.com", 
@@ -103,12 +109,6 @@
       "url": "http://www.warmanetrade.com/"
     },
     {
-      "title": "R3BEL FITNESS",
-      "img": "../static/img/vendors/latest/rebelfitness.jpg",
-      "link": "r3bel.fitness/", 
-      "url": "http://r3bel.fitness/"
-    },
-    {
       "title": "Dead Day Revolution",
       "img": "../static/img/vendors/latest/deaddayrevo.png",
       "link": "deaddayrevolution.com/shop", 
@@ -119,6 +119,12 @@
       "img": "../static/img/vendors/latest/evolutionhost.png",
       "link": "evolution-host.com", 
       "url": "https://evolution-host.com"
+    },
+    {
+      "title": "R3BEL FITNESS",
+      "img": "../static/img/vendors/latest/rebelfitness.jpg",
+      "link": "r3bel.fitness/", 
+      "url": "http://r3bel.fitness/"
     },
     {
       "title": "Wooden Timepiece",
@@ -743,12 +749,6 @@
       "img": "../static/img/vendors/latest/hotandsensuous.png",
       "link": "hotandsensuous.com (+18)", 
       "url": "https://www.hotandsensuous.com/"
-    },
-    {
-      "title": "Crypto House of Poker",
-      "img": "../static/img/vendors/latest/cryptopokerclub.png",
-      "link": "t.me/CryptoPokerFam", 
-      "url": "https://t.me/CryptoPokerFam"
     },
     {
       "title": "Royal Queen Seeds",
