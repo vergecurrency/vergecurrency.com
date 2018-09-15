@@ -48,14 +48,14 @@ function Donate(props) {
               <h3>{t('donate:body.donate', { defaultValue: 'Please help us and donate to Verge at this Verge address:,' })}</h3>
               <p>
                 <Link href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV">
-                  <a rel="noopener noreferrer" href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank">
+                  <a href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank">
                     DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV
                   </a>
                 </Link>
               </p>
               <p>
                 <Link href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV">
-                  <a rel="noopener noreferrer" href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV/" target="_blank">
+                  <a href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank">
                     DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV
                   </a>
                 </Link>
