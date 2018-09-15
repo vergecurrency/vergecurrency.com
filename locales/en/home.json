@@ -55,9 +55,6 @@
   "vendors": {
     "super": "Accept Verge Currency",
     "title": "Powering real world vendors that accept Verge Currency",
-    "text1": "All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.",
-    "text2": "Get started today and accept Verge in your store.",
-    "buttonPrimary": "Accept Verge today",
     "buttonTertiary": "See all vendors here",
     "text3": "Latest vendors to accept Verge"
   },
