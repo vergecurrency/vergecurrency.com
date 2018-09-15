@@ -1,0 +1,16 @@
+{
+  "body": {
+    "header": "Donate to Support Development",
+    "intro": "Verge Community,",
+    "text1": "At Verge we are always striving to achieve new heights and deliver products or software implementations that are requested by the community.",
+    "text2": "Listening to our community members and taking in feedback is not only one of the core founding principles of Verge, but it is inherent in our open-source nature.",
+    "text3": "Verge is continuously looking to grow and improve to ensure that you, the user of our product, are getting the best possible experience you can.",
+    "text4": "As many of you are aware, no one on the Verge staff is paid to do the work they do and generally anything that requires a payment comes from members of the Core Team’s own income.",
+    "text5": "100% of the donations we receive will be used specifically and only for Verge related needs.",
+    "text6": "Here are some examples of needs that your donations will be used for:",
+    "expense1": "Servers for websites, Insight API and wallets, both mobile and desktop",
+    "expense2": "Marketing & Advertisement",
+    "expense3": "Development assistance",
+    "donate": "Please help us and donate to Verge at this Verge address:"
+  }
+}
