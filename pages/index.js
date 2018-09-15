@@ -143,9 +143,9 @@ function Home(props) {
                     </div>
                   </div>
                   <h6 className="center-xs start-sm">
-                    <Link href={t('home:benefits.link:url')}>
-                      <a href={t('home:benefits.link:url')} className="benefits--url">
-                        {t('home:benefits.link.title')}
+                    <Link href="/benefits">
+                      <a href="/benefits" className="benefits--url">
+                      {t('home:benefits.link.title', { defaultValue: 'Expand Benefits' })}
                       </a>
                     </Link>
                   </h6>
@@ -177,8 +177,8 @@ function Home(props) {
                     <div className="col-xs-12 col-lg-10">
                       <div className="start-sm pb-small">
                         <h6>
-                          <Link href={t('home:wallets.link.url')}>
-                            <a href={t('home:wallets.link.url')} className="wallets--url">
+                          <Link href="/wallets">
+                            <a href="/wallets" className="wallets--url">
                               {t('home:wallets.link.title')}
                             </a>
                           </Link>
