@@ -19,6 +19,18 @@
       "url": "https://bittrex.com"
     },
     {
+      "img": "../static/img/exchanges/changehero.png",
+      "title": "ChangeHero",
+      "link": "changehero.io",
+      "url": "https://changehero.io/"
+    },
+    {
+      "img": "../static/img/exchanges/bitcoinmeester.jpg",
+      "title": "Bitcoin Meester",
+      "link": "bitcoinmeester.nl",
+      "url": "https://www.bitcoinmeester.nl"
+    },    
+    {
       "img": "../static/img/exchanges/upbit.png",
       "title": "UPBit",
       "link": "uptbit.com",
@@ -29,13 +41,7 @@
       "title": "Bitfinex",
       "link": "bitfinex.com",
       "url": "https://bitfinex.com"
-    },
-    {
-      "img": "../static/img/exchanges/changehero.png",
-      "title": "ChangeHero",
-      "link": "changehero.io",
-      "url": "https://changehero.io/"
-    },    
+    },   
     {
       "img": "../static/img/exchanges/fexpro.png",
       "title": "FexPro",
