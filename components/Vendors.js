@@ -29,28 +29,43 @@ export const HomeVendors = () => {
   );
 };
 
-export const LatestVendors = () => {
-  const vendors = vendorsLocale.map(x => (
-    <div
-      className="col-xs col-md-3"
-      key={x.title}
-      role="presentation"
-    >
-      <a href={x.url} target="_blank" rel="noopener">
-        <div className="vendors--item middle-xs">
-          <div className="vendors--item__logo">
-            <LazyLoad height={40}>
-              <img src={x.img} alt="img" />
-            </LazyLoad>
-          </div>
-          <div className="vendors--item__name">
-            <h4>{x.title}</h4>
-            <span>{x.link}</span>
-          </div>
+const checkIfFilterIsOff = (filters) => 
+  Object.values(filters).every(val => val === false)
+
+const filterVendorList = (vendors, filters) => 
+  checkIfFilterIsOff(filters) ? vendors : vendors.filter(
+    vendor => 
+      vendor.categories.retail === filters.retail &&
+      vendor.categories.foodAndBev === filters.foodAndBev &&
+      vendor.categories.service === filters.service &&
+      vendor.categories.entertainment === filters.entertainment &&
+      vendor.categories.travel === filters.travel &&
+      vendor.categories.education === filters.education
+  )
+
+export const LatestVendors = (categoriesFilter) => {
+  const vendors = filterVendorList(vendorsLocale, categoriesFilter)
+    .map(vendor => (
+        <div
+          className="col-xs col-md-3"
+          key={vendor.title}
+          role="presentation"
+        >
+          <a href={vendor.url} target="_blank" rel="noopener">
+            <div className="vendors--item middle-xs">
+              <div className="vendors--item__logo">
+                <LazyLoad height={40}>
+                  <img src={vendor.img} alt="img" />
+                </LazyLoad>
+              </div>
+              <div className="vendors--item__name">
+                <h4>{vendor.title}</h4>
+                <span>{vendor.link}</span>
+              </div>
+            </div>
+          </a>
         </div>
-      </a>
-    </div>
-  ));
+    ));
 
   return (
     <div className="row pt">
