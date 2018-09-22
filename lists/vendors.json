@@ -77,7 +77,7 @@
             "url": "https://www.pexpeppers.com/",
             "categories": {
                 "retail": true,
-                "foodAndBev": false,
+                "foodAndBev": true,
                 "service": false,
                 "entertainment": false,
                 "travel": false,
@@ -112,6 +112,20 @@
                 "education": false
             }
         },
+        {
+            "title": "euGenius Vision",
+            "img": "../static/img/vendors/latest/euGenius-vision.png",
+            "link": "eugeniusvision.com",
+            "url": "https://eugeniusvision.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },        
         {
             "title": "Crypto House of Poker",
             "img": "../static/img/vendors/latest/cryptopokerclub.png",
@@ -708,34 +722,6 @@
             "categories": {
                 "retail": false,
                 "foodAndBev": true,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Mazefit",
-            "img": "../static/img/vendors/latest/mazefit.png",
-            "link": "Mazefit.com",
-            "url": "https://Mazefit.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Titan Concealment",
-            "img": "../static/img/vendors/latest/titanconcealment.png",
-            "link": "titanconcealment.com",
-            "url": "https://www.titanconcealment.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
                 "service": false,
                 "entertainment": false,
                 "travel": false,
