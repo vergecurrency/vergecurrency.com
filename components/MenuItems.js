@@ -10,7 +10,7 @@ const MenuItems = ({ t }) => (
       </a>
     </Link>
     <Link prefetch href="/get-started">
-      <a href="/get-started">{t('header:getstarted', { defaultValue: 'Get Started' })}</a>
+      <a href="/get-started">{t('header:get-started', { defaultValue: 'Get Started' })}</a>
     </Link>
     <span className="submenu">
       {t('header:about', { defaultValue: 'About' })}
@@ -25,11 +25,11 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/key-tech">
           <a href="/key-tech">{t('header:key-tech', { defaultValue: 'Key Tech' })}</a>
         </Link>
-        {/* <Link prefetch href="/history">
-          <a href="/history">{t('header:history', { defaultValue: 'History' })}</a>
-        </Link> */}
+         <Link prefetch href="/benefits">
+          <a href="/history">{t('header:benefits', { defaultValue: 'Benefits' })}</a>
+        </Link>
         <Link prefetch href="/pressreleases">
-          <a href="/pressreleases">{t('header:pressreleases', { defaultValue: 'Press Releases' })}</a>
+          <a href="/pressreleases">{t('header:press-releases', { defaultValue: 'Press Releases' })}</a>
         </Link>
       </div>
     </span>
@@ -64,7 +64,7 @@ const MenuItems = ({ t }) => (
         </Link>
         <Link href="https://vergecurrency.network/">
           <a href="https://vergecurrency.network/" target="_blank" rel="noopener noreferrer">
-          {t('header:status', { defaultValue: 'Network Status' })}
+          {t('header:network-status', { defaultValue: 'Network Status' })}
           </a>
         </Link>
         <Link prefetch href="/developers">
@@ -78,7 +78,7 @@ const MenuItems = ({ t }) => (
       </div>
     </span>
     <span className="submenu">
-      {t('header:Find Us', { defaultValue: 'Find Us' })}
+      {t('header:find-us', { defaultValue: 'Find Us' })}
       <FontAwesomeIcon icon={faChevronDown} />
       <div className="submenu__content">
         <Link href="https://www.twitter.com/vergecurrency">
@@ -132,7 +132,7 @@ const MenuItems = ({ t }) => (
       </div>
     </span>
     <Link prefetch href="/get-verge">
-      <a href="/get-verge">{t('header:get_verge', { defaultValue: 'Get Verge' })}</a>
+      <a href="/get-verge">{t('header:get-verge', { defaultValue: 'Get Verge' })}</a>
     </Link>
   </div>
 );
