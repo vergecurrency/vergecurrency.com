@@ -254,11 +254,11 @@
       {
         "img": "../static/img/team/arend.jpg",
         "name": "Arend",
-        "role": "Marketing & Technology Integration",
-        "occupation": "Student & Entrepeneur",
+        "role": "Payment Integration Manager",
+        "occupation": "Student Entrepeneur",
         "github": "https://github.com/arendgb",
         "twitter": "https://twitter.com/Arend_XVG",
-	"location": "The Netherlands"
+	"location": "Tilburg, The Netherlands"
       },
       {
         "img": "../static/img/team/peter.jpg",

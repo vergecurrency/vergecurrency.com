@@ -55,6 +55,12 @@
       "url": "https://hitbtc.com/XVG-to-BTC"
     },
     {
+      "img": "../static/img/exchanges/coinswitch.png",
+      "title": "CoinSwitch",
+      "link": "verge.coinswitch.co",
+      "url": "https://verge.coinswitch.co"
+    },
+    {
       "img": "../static/img/exchanges/indacoin.svg",
       "title": "Indacoin",
       "link": "indacoin.com",
@@ -119,12 +125,6 @@
       "title": "Changelly",
       "link": "changelly.com",
       "url": "https://changelly.com"
-    },
-    {
-      "img": "../static/img/exchanges/coinswitch.png",
-      "title": "CoinSwitch",
-      "link": "coinswitch.co",
-      "url": "https://coinswitch.co"
     },
     {
       "img": "../static/img/exchanges/coin2001.png",
