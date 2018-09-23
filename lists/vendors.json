@@ -505,6 +505,20 @@
             }
         },
         {
+            "title": "Law Offices of Jason D.Knott, P.A.",
+            "img": "../static/img/vendors/latest/LawofficesJasonD.Knott.jpg",
+            "link": "lawofficesofjasonknott.com",
+            "url": "https://lawofficesofjasonknott.com",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "Trebaltek",
             "img": "../static/img/vendors/latest/trebaltek.png",
             "link": "trebaltek.ca",
