@@ -35,7 +35,7 @@
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
       "os": "Windows",
-      "url2": "https://github.com/vergecurrency/VERGE/wiki/Windows-Verge-QT-Wallet-Beginner's-Guide",
+      "url2": "https://verge.zendesk.com/hc/en-us/articles/360007059592-Verge-Qt-Wallet-Installation-Guide-for-Windows",
       "availableinstructions": true
     },
     {
