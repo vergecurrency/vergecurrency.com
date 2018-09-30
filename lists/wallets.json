@@ -25,7 +25,7 @@
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
       "os": "OS X",
-      "url2": "https://github.com/vergecurrency/VERGE/wiki/Mac-OS",
+      "url2": "https://verge.zendesk.com/hc/en-us/articles/360007364291-Verge-Qt-Wallet-Installation-Guide-for-Mac",
       "availableinstructions": true
     },
     {
@@ -35,7 +35,7 @@
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
       "os": "Windows",
-      "url2": "https://github.com/vergecurrency/VERGE/wiki/Windows-Verge-QT-Wallet-Beginner's-Guide",
+      "url2": "https://verge.zendesk.com/hc/en-us/articles/360007059592-Verge-Qt-Wallet-Installation-Guide-for-Windows",
       "availableinstructions": true
     },
     {
@@ -65,7 +65,7 @@
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
       "os": "Windows",
-      "url2": "https://github.com/vergecurrency/VERGE/wiki/Electrum-XVG-Tor-Beginner's-Guide",
+      "url2": "https://verge.zendesk.com/hc/en-us/articles/360015942172--Tor-Electrum-XVG-Beginner-s-Guide",
       "availableinstructions": true
     },
     {
