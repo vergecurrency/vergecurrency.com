@@ -30,7 +30,8 @@ const roadMap = [
     done: false,
     doneDate: '',
     title: 'Merchandise Online Store',
-    description: 'Verge branded apparel that can be purchased with XVG and BTC.',
+    description:
+      'Verge branded apparel that can be purchased with XVG and BTC.',
     progress: 90,
     progressState: 'testing products',
   },
@@ -46,15 +47,26 @@ const roadMap = [
     done: false,
     doneDate: '',
     title: 'Rebased Codebase',
-    description: 'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
+    description:
+      'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
     progress: 90,
     progressState: 'rebasing',
   },
   {
     done: false,
     doneDate: '',
+    title: 'Desktop Wallet',
+    description:
+      'Electron based wallet with better performance and minimalistic UI design',
+    progress: 80,
+    progressState: 'preparing release',
+  },
+  {
+    done: false,
+    doneDate: '',
     title: 'RingCT Integration',
-    description: 'Ring Confidential Transactions - advanced masking of transaction amounts',
+    description:
+      'Ring Confidential Transactions - advanced masking of transaction amounts',
     progress: 35,
     progressState: 'integrating',
   },
@@ -70,23 +82,32 @@ const roadMap = [
     done: false,
     doneDate: '',
     title: 'Official iOS wallet',
-    description: 'iOS wallet with full-fledged feature set like a normal wallet.',
+    description:
+      'iOS wallet with full-fledged feature set like a normal wallet.',
     progress: 20,
-    progressState: 'development started',
+    progressState: 'development ongoing',
   },
 ];
 
 export default ({ start = 0, maxLength = roadMap.length }) =>
   roadMap.slice(start, start + maxLength).map(mapItem => (
-    <li className={`roadmap__item roadmap__item--${mapItem.done ? 'done' : 'planned'}`}>
+    <li
+      className={`roadmap__item roadmap__item--${
+        mapItem.done ? 'done' : 'planned'
+      }`}
+    >
       <h3>{mapItem.title}</h3>
       {mapItem.description} <br />
       {mapItem.done ? (
         <div className="roadmap-update-progress">
-          <span>Released</span> <div className="progress progress-text">{mapItem.doneDate}</div>
+          <span>Released</span>{' '}
+          <div className="progress progress-text">{mapItem.doneDate}</div>
         </div>
       ) : (
-        <RadialProgress percentage={mapItem.progress} text={mapItem.progressState} />
+        <RadialProgress
+          percentage={mapItem.progress}
+          text={mapItem.progressState}
+        />
       )}
     </li>
   ));
