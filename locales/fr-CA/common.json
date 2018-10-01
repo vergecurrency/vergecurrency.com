@@ -1,0 +1,33 @@
+{
+  "USPs": {
+    "first": {
+      "header": "Une <span> crypto-monnaie</span> conçu <br> pour l'usage quotidien.",
+      "text": "Améliorer la blockchain Bitcoin originale et vise à atteindre son objectif initial."
+    },
+    "second": {
+      "header": "Faire entrer <span>  la technologie blockchain </ span> dans la vie de tous les jours.",
+      "text": " Verge currency permet d'effectuer des transactions directes."
+    },
+    "third": {
+      "header": "Développement Open Source & <span> Axé sur la communauté </ span>",
+      "text": "Verge n'est pas une entreprise privée financée par des pièces pré-minées ou des ICO."
+    }
+  },
+  "wraith": {    
+      "title": "Le protocole Wraith",
+      "text1": "Le protocol Wraith est un paquet de mise à niveau technologique qui permet à nos utilisateurs d’envoyer et de recevoir des paiements en privé sur notre blockchain en activant les services d’adressage furtif.",
+      "text2": "De plus, cette mise à jour supprime les utilisateurs de votre portefeuille QT de clearnet et migre tout le monde vers Tor compatible SSL.",
+      "text3": "Grâce à ce système, les utilisateurs disposent désormais d’une couche supplémentaire de masquage IP de base, ainsi que de la possibilité d’utiliser des services d’adressage furtif pour leurs transactions.",
+      "text4": "Le protocole Wraith permet de conserver l'anonymat complet tout en fournissant une méthode sûre et sécurisée d'envoi et de réception des pièces Verge."       
+    },
+  "texts": {    
+    "open": "Verge Currency est un projet 100% open-source, et la communauté mondiale Verge représente la main-d'œuvre qui la propulse. Verge n'est pas une entreprise, il n'y avait pas d'ICO lors du lancement et aucun pré-minage n'a eu lieu. Tous les contributeurs, y compris l'équipe principale, sont des bénévoles non rémunérés qui consacrent leur temps et leur énergie au projet car ils sont passionnés et croient en Verge.",
+    "use": "Verge est une crypto-monnaie sécurisée et anonyme, conçue pour un usage quotidien.",
+    "grassroots": "La culture de base est ce qui fait de Verge <span className=hidden-xs><br /></span> une crypto monaie unique et dynamique"
+    },
+  "vendors": {
+    "text1": "Tous les fournisseurs ci-dessous acceptent fièrement Verge Currency comme méthode de paiement pour leurs biens et services.",
+    "text2": "Commencez dès aujourd'hui et acceptez Verge dans votre magasin!",
+    "text3": "Accepter Verge aujourd'hui" 
+  }
+}
