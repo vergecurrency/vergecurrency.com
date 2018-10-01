@@ -1,0 +1,168 @@
+{
+  "general": {
+    "subheader": "Général",
+    "whatisverge": {
+      "question": "Qu'est-ce que Verge?",
+      "answer": "Verge est une crypto-monnaie conçue pour les personnes et pour un usage quotidien. Il améliore la blockchain du Bitcoin originale et vise à atteindre son objectif initial, à savoir fournir aux particuliers et aux entreprises un moyen rapide, efficace et décentralisé et de faire des transactions directes tout en préservant votre vie privée."
+    },
+    "mission": {
+      "question": "Qu'est-ce que la mission Verge Currency?",
+      "answer": "Notre mission est de responsabiliser les gens du monde entier en intégrant les transactions blockchain dans la vie quotidienne. Verge Currency permet de réaliser des transactions directes rapidement, efficacement et en privé. Avec Verge Currency, les entreprises et les particuliers ont des options flexibles pour envoyer et recevoir des paiements. À l’aide d’un bouton à bascule, nous proposons des intégrations et des outils utiles qui leur permettent de gérer des transactions à grande échelle entre des commerçants et des paiements privés à petite échelle."
+    },
+    "createdverge": {
+      "question": "Quand est-ce que Verge Currency a été créé?",
+      "answer": "Verge Currency a été créée en 2014 sous le nom DogeCoinDark. En 2016, il a été rebaptisé Verge Currency."
+    },
+    "opensource": {
+      "question": "Est-ce que Verge Currency est une entreprise privée et comment est-elle financée?",
+      "answer": "Non, il s’agit d’un logiciel 100% open-source et non d’une société privée financée par un ICO ou d'un pré-minage. Les efforts de développement et de marketing sont soutenus par des milliers de membres bénévoles de la communauté."
+    },
+    "getverge": {
+      "question": "Comment puis-je obtenir une Verge Currency?",
+      "answer": "Il existe différentes manières d'obtenir des pièces Verge (XVG). L'option la plus courante consiste à les acheter sur un <a href='/get-verge' target='_blank'> échange supporté </a>. Les utilisateurs peuvent également recevoir et envoyé des tips à leur pair <a href='/p2p' target='_blank'>  </a> (en utilisant les robots officiels Verge). Si vous avez un appareil Android, vous pouvez également prendre Verge en déplacement et envoyer / recevoir des pièces avec votre portefeuille mobile Verge <a href = 'https: //play.google.com/store/apps/details? Id = com. vergeandroid.wallet 'target =' _ blank '> application </a>."
+    },
+    "techdoc": {
+      "question": "Où puis-je trouver de la documentation technique sur Verge Currency?",
+      "answer": "Dans le <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'> ""Blackpaper"" </a>. Le code source se trouve sur <a href='https://github.com/vergecurrency' target='_blank'> ""GitHub"" </a>."
+    },
+    "premine": {
+      "question": "Est-ce que Verge Currency est une crypto-monnaie pré-minée?",
+      "answer": "Non, Verge Currency n'a pas été pré-minée. L'équipe de développement et les contributeurs achètent les pièces sur le marché libre comme n'importe qui d'autre.  Un pré-minage est un mécanisme de financement, selon lequel les développeurs d'une devise allouent un certain montant pour se rendre à une adresse particulière avant de la diffuser au public."
+    },
+    "supply": {
+      "question": "Quelle est la quantité totale de Verge Currency un fois tout miner?",
+      "answer": "L'offre maximale est plafonnée à 16,5 milliards de XVG."
+    },
+    "highsupply": {
+      "question": "Pourquoi la quantitée totale est si élevée?",
+      "answer": "Verge Currency est conçu de cette manière pour permettre un paiement pratique dans la vie quotidienne. Par opposition à Bitcoin, vous ne devriez pas avoir de salaire avec 0,00004 BTC, par exemple. Une autre raison est de réduire le risque de manipulation du marché en rendant plus difficile le contrôle d'une grande partie de l'offre totale."
+    },
+    "burning": {
+      "question": "L'équipe Verge Currency prévoit-elle détruire des pièces?",
+      "answer": "Comme il n'y avait pas de pré-mine ou d'ICO, l'équipe ne détient pas une quantité importante de pièces pour affecter la distribution des pièces ou la circulation totale. Ceci est une autre raison pour une offre totale élevée. Cependant, si vous avez envie de vous départir de certaines de vos pièces, n'hésitez pas à le faire en faisant un don à l’équipe;)."
+    },
+    "infaltion": {
+      "question": "Est-ce une pièce inflationniste?",
+      "answer": "Non, la circulation totale est plafonnée."
+    },
+    "transactionfee": {
+      "question": "Combien coûtent les frais de transaction?",
+      "answer": "0.1 XVG"
+    },
+    "transactionspeed": {
+      "question": "Quelle est la vitesse moyenne d'une transaction?",
+      "answer": "Selon la charge du réseau, elle varie entre 5 et 10 secondes."
+    },
+    "transactioncap": {
+      "question": "Quelle est la capacité de transaction par seconde?",
+      "answer": "100 transactions par seconde. Avec la technologie RSK implémentée, ce nombre devrait atteindre 2000 transactions par seconde."
+    },
+    "maxsupply": {
+      "question": "Quand l'approvisionnement maximal sera-t-il atteint?",
+      "answer": "Il est prévu qu’il soit atteint dans 8 à 10 ans au moment de la rédaction de ce rapport (2017)."
+    },
+    "rskactivated": {
+      "question": "Quand est-ce que RSK sera activé?",
+      "answer": "La plate-forme RSK devrait être lancée en décembre. Après cela, Verge Currency implémentera ses fonctionnalités de contrats intelligents."
+    },
+    "atomicswaps": {
+      "question": "Comment puis-je utiliser les Atomic Swap?",
+      "answer": "La capacité de Atomic Swaps est utilisée lors de transactions sur des bourses décentralisées (DEX)."
+    },
+    "vergebusiness": {
+      "question": "Comment puis-je accepter Verge pour mon entreprise?",
+      "answer": "Vous pouvez intégrer XVG dans votre entreprise en utilisant Coinpayments ou en utilisant les API existantes disponibles sur GitHub. <a href='/developers/verge-vendor-integration'> Cliquez ici </a> pour plus d'informations."
+    },
+    "vergecurrencyproject": {
+      "question": "Comment puis-je soutenir le projet Verge Currency?",
+      "answer": "Le moyen le plus simple de soutien est de faire un don pour financer le développement. Les adresses XVG et BTC peuvent être trouvées ici. Si vous souhaitez contribuer au projet dans le domaine du développement de logiciels, du marketing numérique, de la conception graphique et vidéo ou autre, veuillez remplir ce formulaire ou nous contacter directement par e-mail <a href = 'mailto: contact @ vergecurrency .com '> contact@vergecurrency.com </a>"
+    },
+    "funded": {
+      "question": "Comment le développement de Verge est-il financé?",
+      "answer": "Verge est un projet open source. Tous les travaux de développement sont donc financés par les développeurs et les dons de la communauté <a href='/donate'> </a>. Nous explorons actuellement d’autres méthodes pour financer le développement, notamment l’ouverture d’un <b> Merchandise Store </ b> et d’un <b> Multi-Algorithm Mining Pool officiels </ b>."
+    },
+    "publicledger": {
+      "question": "Pourquoi Verge a-t-il un registre public?",
+      "answer": "Nous pensons qu'une blockchain devrait être publique si c'est une monnaie, pour un large éventail de raisons; la plupart d'entre eux pour protéger les utilisateurs de la monnaie. Avec une blockchain publique, vous pouvez voir la distribution des pièces et combien de personnes utilisent la monnaie.",
+      "answer2": "Vous êtes en mesure de voir toutes les transactions sur la blockchain, mais vous ne saurez pas à qui les transactions vont ou où se trouvent physiquement les expéditeurs / destinataires."
+    },
+    "richlist": {
+      "question": "Où puis-je voir la liste des porte-feuilles les plus riches de verge?",
+      "answer": "Vous pouvez voir la liste de porte-feuilles le plus riches <a href='https://verge-blockchain.info/richlist' target='_blank'> ici </a> ou <a href = 'https: //verge-blockchain.info/ richlist 'target =' _ blank '> ici </a> Si le premier site est arrêté, veuillez nous en informer, car il est hébergé sur un serveur fourni par la communauté."
+    },
+    "wheretolearnmore": {
+      "question": "Où puis-je aller pour en savoir plus sur Verge?",
+      "answer": "Nous sommes sur une tonne de plates-formes sociales différentes et sommes très actifs sur Twitter, Telegram, Slack et Discord."
+    },
+    "roadmap": {
+      "question": "Où puis-je trouver la feuille de route de Verge?",
+      "answer": "Nous avons une <a href='/roadmap' target='_blank'> feuille de route </a> répertoriée sur notre site qui montre généralement les éléments sur lesquels nous travaillons pour le mois ou les deux prochains. Nous n'aimons pas mettre des éléments à long terme (plus de 3 mois) sur notre feuille de route, car les choses changent trop vite dans la cryptographie pour anticiper cela de très loin."
+    }
+  },
+  "privacy": {
+    "subheader": "Intimité",
+    "wraithprotocol": {
+      "question": "Qu'est-ce que le protocole Wraith?",
+      "answer": "Plus de détails peuvent être trouvés sur le blog et dans le Blackpaper."
+    },
+    "vergeanon": {
+      "question": "Pourquoi utiliser Verge pour l'anonymat et pas d'autres cryptos sur Tor?",
+      "answer": "Les portefeuilles Verge Currency sont dotés de réseaux Tor et I2P déjà intégrés, de sorte qu’aucune configuration supplémentaire n’est requise. Il suffit de télécharger le portefeuille et de commencer à effectuer des transactions avec votre adresse IP masquée."
+    },
+    "whytor": {
+      "question": "Pourquoi TOR et pas simplement VPN?",
+      "answer": "Tor et I2P chiffrent tous les trafics du réseau pour empêcher l'accès à l'adresse IP et aux données d'un utilisateur. Un réseau privé virtuel (VPN) crypte également le trafic réseau, mais vous devez faire confiance au fournisseur de VPN pour ne pas enregistrer vos activités (ce qu’elles peuvent faire souvent). Lisez cet aperçu pour plus d'informations sur les pièges des services VPN."
+    },
+    "vergemasternode": {
+      "question": "Verge Currency aura-t-il Masternodes?",
+      "answer": "Non, nous pensons que Masternodes est une faiblesse et que nous centralisons le réseau. Un pirate informatique pourrait très facilement effectuer une attaque DDOS (Distributed Denial of Service) sur les Masternodes, provoquant la destruction du réseau."
+    },
+    "torandroidnoconnection": {
+      "question": "Pourquoi je ne vois aucune connexion sur mon application Android Verge Tor?",
+      "answer": "Si vous voyez \"pas de connexion\" sur votre écran de balance principale, ouvrez l'application Orbot et sélectionnez "apps VPN mode" dans le menu en haut à gauche. Un guide plus détaillé sur la façon d'utiliser le portefeuille Android de Verge Tor peut être trouvé 'target =' _ blank '> ici </a>."
+    }
+  },
+  "wallets": {
+    "subheader": "Portefeuilles",
+    "whichwallet": {
+      "question": "Quel portefeuille Verge devrais-je utiliser?",
+      "answer": "Fondamentalement, vous pouvez utiliser deux types de portefeuilles Verge; QT et / ou Electrum. Pour les utilisateurs ordinaires, <b> nous vous recommandons de télécharger un portefeuille Electrum </ b>."
+    },
+    "electrum": {
+      "question": "Qu'est-ce qu'èélectrum?",
+      "answer": "<a href='https://electrum.org' target='_blank'> Electrum </a> est un <a href='https://github.com/spesmilo/electrum' target='_blank'> ouvert -source </a> Solution de portefeuille Bitcoin Lite. Verge a créé le code portefeuille Electrum et l'a mis à jour pour qu'il fonctionne avec la blockchain Verge."
+    },
+    "electrumwallet": {
+      "question": "Qu'est-ce qu'un portefeuille Electrum?",
+      "answer": "Un portefeuille Verge Electrum est un portefeuille axé sur la vitesse et la faible utilisation des ressources. Les portefeuilles Electrum utilisent une technologie appelée <a href='http://docs.electrum.org/en/latest/spv.html' target='_blank'> Vérification simple des paiements </a> (SPV), qui vérifie les transactions. sur la blockchain Verge sans avoir à télécharger la chaîne de blocs entière. La technologie SPV permet de réduire le délai moyen de confirmation des transactions à environ 5 secondes (au lieu de 30 secondes pour les applications autres que Electrum). Pour des questions plus générales sur Electrum, veuillez consulter la page <a href='http://docs.electrum.org/en/latest/faq.html' target='_blank'> FAQ </a>."
+    },
+    "qt": {
+      "question": "Qu'est-ce que QT?",
+      "answer": "<a href='https://www.qt.io' target='_blank'> QT </a> est une application multi-plateforme et une infrastructure d'interface utilisateur pour les développeurs utilisant le langage de programmation C ++. Il permet aux développeurs d’écrire du code en C ++, puis de publier leur logiciel sur diverses plates-formes logicielles et matérielles. Par <a href='https://en.wikipedia.org/wiki/Qt_(software)' target='_blank'> Wikipedia </a>, la boîte à outils s'appelait QT car \"la lettre Q semblait attrayante dans les Emacs de Harvard. \"t\" a été inspiré par Xt, la boîte à outils X\"."
+    },
+    "qtwallet": {
+      "question": "Qu'est-ce qu'un portefeuille QT?",
+      "answer": "Les portefeuilles QT nécessitent que vous téléchargiez l'intégralité de la blockchain <a href='https://verge-blockchain.com/' target='_blank'> Verge </a> sur votre ordinateur. En d'autres termes, votre ordinateur doit télécharger un enregistrement de chaque transaction Verge unique jamais effectuée. Actuellement, la blockchain Verge est d'environ 1 Go et continuera à grimper au fur et à mesure que les utilisateurs effectuent des transactions. Si vous utilisez un portefeuille QT, assurez-vous que votre périphérique dispose de suffisamment d'espace de stockage pour le gérer.",
+      "answer2": "Chaque fois que vous ouvrez votre portefeuille QT, le portefeuille se synchronise et télécharge les dernières données de la chaîne de blocs sur votre ordinateur. Si vous décidez d'utiliser un portefeuille QT, vous souhaiterez probablement l'utiliser régulièrement; ou cela peut prendre une heure ou plus (selon le temps écoulé depuis la dernière ouverture de votre portefeuille) pour télécharger les dernières mises à jour de la blockchain."
+    },
+    "help": {
+      "question": "Ou puis-je trouver de l'aide pour des problèmes de portefeuille?",
+      "answer": "Veuiller sil-vous-plait visité ce cite pour être assistez"
+    }
+  },
+  "mining": {
+    "subheader": "Minage",
+    "proof": {
+      "question": "Est-ce que Verge PoW ou PoS?",
+      "answer": "Verge est 100% <b> PoW </ b> (Proof of work). Nous pensons que les systèmes PoS (Proof of Stake) profitent injustement aux utilisateurs qui ont le plus de pièces. faire en sorte que les riches deviennent plus riches. Ceci est également actuellement un problème avec les monnaies fiduciaires traditionnelles (par exemple. USD)."
+    },
+    "algorithms": {
+      "question": "Quels algorithmes Verge prend-il en charge?",
+      "answer": "Verge utilise un support minier multi-algorithmes. Cela signifie que les individus possédant différents types d'équipements miniers sont en mesure d'exploiter les limites, ce qui signifie plus de sécurité grâce à la décentralisation et à une distribution plus équitable des pièces de monnaie parmi la communauté minière de Verge. Verge est l'une des rares crypto-monnaies prenant en charge cinq algorithmes de hachage différents. À savoir, Scrypt, X17, Lyra2rev2, myr-groestl et blake2s."
+    }
+  },
+  "legal": {
+    "subheader": "Légal",
+    "statement": "Ce site Web ne collecte aucune information utilisateur et ne partage aucune information utilisateur avec des tiers."
+  }
+}

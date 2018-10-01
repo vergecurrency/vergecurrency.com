@@ -1,0 +1,26 @@
+{
+  "ribbon": {
+    "title": "Dossier de presse & actifs de la marque",
+    "text": "Ceci est notre dossier de presse pour la couverture médiatique que vous pouvez utiliser.",
+    "text2": "Nous vous prions de ne pas modifier notre logo de quelque manière que ce soit. Nous avons élaboré des directives pour vous aider à utiliser la marque et les ressources Verge, notamment notre logo, nos polices et nos palettes de couleurs.",
+    "buttonPrimary": "Télécharger le dossier complet"
+  },
+  "coverage": {
+    "title": "dossier de presse" 
+  },
+  "logo": {
+    "title": "Le Logo de Verge",
+    "text": "Vous pouvez utiliser les logos Verge pour créer un lien vers vergecurrency.com et le joindre à un article de blog, à un article d'actualité ou à un communiqué de presse sur Verge."    
+  },
+  "font": {
+    "title": "Police de la marque",
+    "text": "La police officielle utilisée dans la marque Verge Currency est Avenir Next Regular.",
+    "colors": "Les couleurs utilisées pour les éléments du logo et de style:"    
+  },
+  "reference": {
+    "text1": "Verge améliore la blockchain originale et vise à remplir son objectif initial, à savoir fournir aux particuliers et aux entreprises un moyen rapide, efficace et décentralisé de faire des transactions directes tout en préservant la confidentialité des données personnelles.",
+    "text2": "Verge Currency est une crypto-monnaie conçue pour un usage quotidien.",
+    "title": "Verge information de référence",
+    "more": "Pour en savoir plus sur Verge, consultez notre"
+  }
+}
