@@ -69,66 +69,13 @@ const MenuItems = ({ t }) => (
           </a>
         </Link>
         <Link prefetch href="/developers">
-          <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}
-          </a>
+          <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>
         </Link>
         <Link prefetch href="/presskit">
-          <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}
-          </a>
+          <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
         </Link>
-      </div>
-    </span>
-    <span className="submenu">
-      {t('header:find-us', { defaultValue: 'Find Us' })}
-      <FontAwesomeIcon icon={faChevronDown} />
-      <div className="submenu__content">
-        <Link href="https://www.twitter.com/vergecurrency">
-          <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer">
-            {t('header:twitter', { defaultValue: 'Twitter' })}
-          </a>
-        </Link>
-        <Link href="https://www.reddit.com/r/vergecurrency/">
-          <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer">
-            {t('header:reddit', { defaultValue: 'Reddit' })}
-          </a>
-        </Link>
-        <Link href="https://vergefora.com">
-          <a href="https://vergefora.com" target="_blank" rel="noopener noreferrer">
-            {t('header:forums', { defaultValue: 'Forums' })}
-          </a>
-        </Link>
-        <Link href="https://www.investfeed.com/currency/XVG">
-          <a href="https://www.investfeed.com/currency/XVG" target="_blank" rel="noopener noreferrer">
-            {t('header:investfeed', { defaultValue: 'investFeed' })}
-          </a>
-        </Link>
-        <Link href="https://discord.gg/vergecurrency">
-          <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer">
-            {t('header:discord', { defaultValue: 'Discord' })}
-          </a>
-        </Link>
-        <Link href="https://t.me/VERGExvg">
-          <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer">
-            {t('header:telegram', { defaultValue: 'Telegram' })}
-          </a>
-        </Link>
-        <Link href="https://www.facebook.com/VERGEcurrency">
-          <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer">
-            {t('header:facebook', { defaultValue: 'Facebook' })}
-          </a>
-        </Link>
-        <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
-          <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer">
-            {t('header:youtube', { defaultValue: 'YouTube' })}
-          </a>
-        </Link>
-        <Link href="https://github.com/vergecurrency?tab=repositories">
-          <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer">
-            {t('header:github', { defaultValue: 'GitHub' })}
-          </a>
-        </Link>
-        <Link prefetch href="/community/get-involved">
-          <a href="/community/get-involved">{t('header:contact', { defaultValue: 'Email' })}</a>
+        <Link prefetch href="/find-us">
+          <a href="/find-us">{t('header:find-us', { defaultValue: 'Find Us' })}</a>
         </Link>
       </div>
     </span>

@@ -47,7 +47,8 @@ module.exports = {
       '/pressreleases': { page: '/pressreleases' },
       '/meetup': { page: '/meetup' },
       '/partnership-donation-rewards': { page: '/partnership-donation-rewards' },
-      '/partnership-donation-mentions': { page: '/partnership-donation-mentions' }
+      '/partnership-donation-mentions': { page: '/partnership-donation-mentions' },
+      '/find-us': { page: '/find-us' },
     };
   },
 
