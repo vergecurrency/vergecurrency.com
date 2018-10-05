@@ -149,6 +149,15 @@ To run the build locally:
 gulp
 ```
 
+## Translations
+
+### Folder structure
+Make sure you only use the short name for languages. So for example the folder name for the English language is `en`, Russian will be `ru` and France will be `fr`. If you would use a folder name that has a different name it will not work. So for example `en-GB` wouldn't work. If you feel this is a thing that we should allow, then please contact me on Discord (StanFaas).
+
+### New translations
+When adding a new language to our locales folder you should make sure to add the language code (folder name) to the `languages.json` file.
+This file can be found in: `./lists/languages.json`. Be aware that the language will be active directly after you add it to that file.
+
 ## Built With
 
 * [NextJS](https://github.com/zeit/next.js/) - The SSR framework used

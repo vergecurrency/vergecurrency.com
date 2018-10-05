@@ -70,7 +70,7 @@
       transition: transform .2s ease-in-out;
       width: rem(12px);
 
-      @media (min-width: $min-width-sm) {
+      @media (min-width: $min-width-md) {
         left: rem(4px);
         margin-left: rem(6px);
         top: rem(2px);
@@ -78,7 +78,7 @@
       }
     }
 
-    @media (min-width: $min-width-sm) {
+    @media (min-width: $min-width-md) {
       &:hover {
         cursor: pointer;
 
@@ -102,7 +102,7 @@
       margin-top: 1rem;
       transition: all .3s ease-in-out 0s, visibility 0s linear .3s, z-index 0s linear .01s;
 
-      @media (min-width: $min-width-sm) {
+      @media (min-width: $min-width-md) {
         background: $astronaut-blue;
         box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, .2);
         margin-top: -2rem;
@@ -146,7 +146,7 @@
     nav a {
       transition: all .2s ease-in;
 
-      @media (min-width: $min-width-sm) {
+      @media (min-width: $min-width-md) {
         color: #111;
       }
 
@@ -161,7 +161,7 @@
       }
     }
 
-    @media (min-width: $min-width-sm) {
+    @media (min-width: $min-width-md) {
       .submenu {
         color: #111;
 
@@ -172,7 +172,7 @@
     }
   }
 
-  @media (max-width: $max-width-xs) {
+  @media (max-width: $max-width-sm) {
     .links {
       display: flex;
       flex-direction: column;
@@ -270,6 +270,20 @@
     .bm-menu-wrap {
       min-height: 101%;
       top: 0;
+    }
+  }
+
+  .language {
+    position: relative;
+    display: inline;
+    &--select {
+      border: 1px solid #ccc;
+      height: 34px;
+
+      @media (max-width: $max-width-sm) {
+        width: 100%;
+        margin-bottom: 50px;
+      }
     }
   }
 }

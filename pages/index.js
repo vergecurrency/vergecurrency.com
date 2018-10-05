@@ -53,7 +53,7 @@ function Home(props) {
                   <WalletsBtn />
                   <Link href="/get-started" prefetch>
                     <a href="/get-started" className="btn btn-secondary" name="Get Started with Verge">
-                    {t('home:ribbon.text2')}
+                      {t('home:ribbon.text2')}
                     </a>
                   </Link>
                   <p className="blackpaper">
@@ -145,7 +145,7 @@ function Home(props) {
                   <h6 className="center-xs start-sm">
                     <Link href="/benefits">
                       <a href="/benefits" className="benefits--url">
-                      {t('home:benefits.link.title', { defaultValue: 'Expand Benefits' })}
+                        {t('home:benefits.link.title', { defaultValue: 'Expand Benefits' })}
                       </a>
                     </Link>
                   </h6>
@@ -208,11 +208,11 @@ function Home(props) {
                   <h6>{t('home:mission.header', { defaultValue: 'Empowering people' })}</h6>
                   <h3 dangerouslySetInnerHTML={{ __html: t('home:mission.text1', { defaultValue: 'Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.' }) }} />
                   <p>
-                  {t('home:mission.text2', { defaultValue: 'With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.' })}
+                    {t('home:mission.text2', { defaultValue: 'With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.' })}
                   </p>
                   <Link href="/get-verge">
                     <a href="/get-verge" className="btn btn-white" name="Get Verge">
-                    {t('home:getverge.text1', { defaultValue: 'Get Verge today' })}
+                      {t('home:getverge.text1', { defaultValue: 'Get Verge today' })}
                     </a>
                   </Link>
                 </div>
@@ -225,16 +225,16 @@ function Home(props) {
                   <h6>
                     <Link href="/get-verge">
                       <a href="/get-verge" className="exchanges--url">
-                      {t('home:getverge.text2', { defaultValue: 'See more exchanges' })}
+                        {t('home:getverge.text2', { defaultValue: 'See more exchanges' })}
                       </a>
                     </Link>
                   </h6>
                   <h2>
-                  {t('home:getverge.text3', { defaultValue: 'Trade Verge on the most popular exchanges.' })}
+                    {t('home:getverge.text3', { defaultValue: 'Trade Verge on the most popular exchanges.' })}
                     {' '}
                     <span className="hidden-xs">
                       <br />
-                    </span>{t('home:getverge.text4', { defaultValue: 'We\’re proud to be listed on:' })}
+                    </span>{t('home:getverge.text4', { defaultValue: 'We’re proud to be listed on:' })}
                   </h2>
                 </div>
 
@@ -320,7 +320,7 @@ function Home(props) {
                   <h6>
                     <Link href="/vendors">
                       <a href="/vendors" className="vendors--url" name="See vendors">
-                      {t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors here' })}
+                        {t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors here' })}
                       </a>
                     </Link>
                   </h6>
@@ -333,15 +333,15 @@ function Home(props) {
             <div className="container themed-container__linen themed-container__linen--home">
               <div className="row center-xs roadmap">
                 <div className="col-xs-10 col-sm-8 col-md-6 start-xs center-lg">
-                <h2 dangerouslySetInnerHTML={{ __html: t('roadmap:body.text1', { defaultValue: 'A roadmap with great features to come.<br /> Join us while we\'re still growing!' }) }} />
-                <p>
-                {t('roadmap:body.text2', { defaultValue: 'As an open-source community and volunteer-driven project, our roadmap is meant as a general guideline for how we are developing Verge into one of the best cryptocurrency options out there.' })}
-                </p>
-                <p>
-                {t('roadmap:body.text3', { defaultValue: 'In the spirit of transparency and in good faith to the community, we want this roadmap to be made public. However, please keep in mind that this roadmap is subject to change based on priorities, unplanned developments and new ideas.' })}
-                </p>
-                <br />
-                   <div className="row start-xs center-sm">
+                  <h2 dangerouslySetInnerHTML={{ __html: t('roadmap:body.text1', { defaultValue: 'A roadmap with great features to come.<br /> Join us while we\'re still growing!' }) }} />
+                  <p>
+                    {t('roadmap:body.text2', { defaultValue: 'As an open-source community and volunteer-driven project, our roadmap is meant as a general guideline for how we are developing Verge into one of the best cryptocurrency options out there.' })}
+                  </p>
+                  <p>
+                    {t('roadmap:body.text3', { defaultValue: 'In the spirit of transparency and in good faith to the community, we want this roadmap to be made public. However, please keep in mind that this roadmap is subject to change based on priorities, unplanned developments and new ideas.' })}
+                  </p>
+                  <br />
+                  <div className="row start-xs center-sm">
                     <div className="col-xs-10 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-12 col-lg-9 start-xs">
                       <ul className="roadmap__timeline roadmap__timeline--home pb">
                         <CurrentYearRoadmap start={2} maxLength={5} />
@@ -349,7 +349,7 @@ function Home(props) {
                       <h6>
                         <Link href="/roadmap">
                           <a href="/roadmap" name="Full roadmap here">
-                          {t('home:roadmap.text1', { defaultValue: 'Full roadmap here' })}                            
+                            {t('home:roadmap.text1', { defaultValue: 'Full roadmap here' })}
                           </a>
                         </Link>
                       </h6>

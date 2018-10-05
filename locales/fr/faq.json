@@ -23,7 +23,7 @@
     },
     "techdoc": {
       "question": "Où puis-je trouver de la documentation technique sur Verge Currency?",
-      "answer": "Dans le <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'> ""Blackpaper"" </a>. Le code source se trouve sur <a href='https://github.com/vergecurrency' target='_blank'> ""GitHub"" </a>."
+      "answer": "Dans le <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'> \"Blackpaper\" </a>. Le code source se trouve sur <a href='https://github.com/vergecurrency' target='_blank'> \"GitHub\" </a>."
     },
     "premine": {
       "question": "Est-ce que Verge Currency est une crypto-monnaie pré-minée?",
@@ -119,7 +119,7 @@
     },
     "torandroidnoconnection": {
       "question": "Pourquoi je ne vois aucune connexion sur mon application Android Verge Tor?",
-      "answer": "Si vous voyez \"pas de connexion\" sur votre écran de balance principale, ouvrez l'application Orbot et sélectionnez "apps VPN mode" dans le menu en haut à gauche. Un guide plus détaillé sur la façon d'utiliser le portefeuille Android de Verge Tor peut être trouvé 'target =' _ blank '> ici </a>."
+      "answer": "Si vous voyez \"pas de connexion\" sur votre écran de balance principale, ouvrez l'application Orbot et sélectionnez \"apps VPN mode\" dans le menu en haut à gauche. Un guide plus détaillé sur la façon d'utiliser le portefeuille Android de Verge Tor peut être trouvé 'target =' _ blank '> ici </a>."
     }
   },
   "wallets": {

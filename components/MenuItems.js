@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import LanguageSwitcher from './LanguageSwitcher';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/fontawesome-free-solid';
 
@@ -25,7 +26,7 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/key-tech">
           <a href="/key-tech">{t('header:key-tech', { defaultValue: 'Key Tech' })}</a>
         </Link>
-         <Link prefetch href="/benefits">
+        <Link prefetch href="/benefits">
           <a href="/history">{t('header:benefits', { defaultValue: 'Benefits' })}</a>
         </Link>
         <Link prefetch href="/pressreleases">
@@ -55,7 +56,7 @@ const MenuItems = ({ t }) => (
         </Link>
         <Link href="https://verge.zendesk.com">
           <a href="https://verge.zendesk.com" target="_blank" rel="noopener noreferrer">
-          {t('header:wiki', { defaultValue: 'Wiki' })}
+            {t('header:wiki', { defaultValue: 'Wiki' })}
           </a>
         </Link>
         <Link prefetch href="/p2p">
@@ -64,7 +65,7 @@ const MenuItems = ({ t }) => (
         </Link>
         <Link href="https://vergecurrency.network/">
           <a href="https://vergecurrency.network/" target="_blank" rel="noopener noreferrer">
-          {t('header:network-status', { defaultValue: 'Network Status' })}
+            {t('header:network-status', { defaultValue: 'Network Status' })}
           </a>
         </Link>
         <Link prefetch href="/developers">
@@ -134,6 +135,7 @@ const MenuItems = ({ t }) => (
     <Link prefetch href="/get-verge">
       <a href="/get-verge">{t('header:get-verge', { defaultValue: 'Get Verge' })}</a>
     </Link>
+    <LanguageSwitcher />
   </div>
 );
 
