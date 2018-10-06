@@ -96,7 +96,7 @@ function VergeTeam(props) {
                       {t('verge-team:body.text5', { defaultValue: 'Go to Verge repo' })}
                     </a>
                   </Link>
-                </div>             
+                </div>
                 <div className="col-xs-12">
                   <Contributors />
                 </div>
