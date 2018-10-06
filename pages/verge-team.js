@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import Contributors from '../components/Contributors'
 import Team from '../components/Team'
 import TeamCategory from '../components/TeamCategory'
+import TGAdmins from '../components/TGAdmins'
 
 import { translate } from 'react-i18next'
 import i18n from '../i18n'
@@ -59,6 +60,14 @@ function VergeTeam(props) {
             </div>
           </div>
         </div>
+        <div className="team pt-xs pb-large">
+          <div className="row center-xs">
+            <div className="col-xs-10 col-lg-8">
+            <h2>Telegram Admins</h2>
+            <TGAdmins />
+            </div>
+          </div>
+        </div>   
         <div className="contributors">
           <div className="row center-xs">
             <div className="col-xs-10">
@@ -87,7 +96,7 @@ function VergeTeam(props) {
                       {t('verge-team:body.text5', { defaultValue: 'Go to Verge repo' })}
                     </a>
                   </Link>
-                </div>
+                </div>             
                 <div className="col-xs-12">
                   <Contributors />
                 </div>
