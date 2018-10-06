@@ -24,6 +24,16 @@ function TGAdmins() {
                   <FontAwesomeIcon icon={faTelegram} size="1x" />
                 </a>
               </Link>
+              <Link href={tgadmins.twitter}>
+              <a
+                className={`icon iconlink ${tgadmins.twitter ? '' : 'hidden'}`}
+                href={tgadmins.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="icon icon--twitter" />
+              </a>
+              </Link>
             </div>
           </div>
           <br />
