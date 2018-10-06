@@ -4,6 +4,7 @@ const TGAdminsLocale = require('../lists/tgadmins').tgadmins;
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
   faTelegram,
+  faTwitter,
 } from '@fortawesome/fontawesome-free-brands';
 
 function TGAdmins() {
@@ -21,27 +22,27 @@ function TGAdmins() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon icon={faTelegram} size="1x" />
+                <FontAwesomeIcon icon={faTelegram} size="1x" />
                 </a>
               </Link>
               <Link href={tgadmins.twitter}>
-              <a
-                className={`icon iconlink ${tgadmins.twitter ? '' : 'hidden'}`}
-                href={tgadmins.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="icon icon--twitter" />
-              </a>
+                <a
+                  className={`icon iconlink ${tgadmins.twitter ? '' : 'hidden'}`}
+                  href={tgadmins.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <FontAwesomeIcon icon={faTwitter} size="1x" />
+                </a>
               </Link>
             </div>
           </div>
           <br />
         </div>
       </div>     
-      );
-    
+      );    
   });
+
   return (
     <div className="row center-xs start-sm">
       {tgadmins}
