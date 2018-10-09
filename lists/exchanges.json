@@ -227,6 +227,12 @@
       "title": "CoinPulse",
       "link": "coinpulse.io",
       "url": "https://www.coinpulse.io/"
+    },
+    {
+      "img": "../static/img/exchanges/swaplab.png",
+      "title": "SwapLab",
+      "link": "swaplab.cc",
+      "url": "https://swaplab.cc/"
     }
   ]
 }
