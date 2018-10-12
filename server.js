@@ -12,13 +12,18 @@ const Backend = require('i18next-node-fs-backend');
 const i18n = require('./i18n');
 // const compression = require('compression');
 
+const Resources = require('./locales/index.js');
+const languageList = require('./lists/languages').languages;
+
 // init i18next with serverside settings
 // using i18next-express-middleware
 i18n
   .use(Backend)
   .use(i18nextMiddleware.LanguageDetector)
   .init({
-    preload: ['en', 'de', 'nl', 'jp'],
+    preload: languageList,
+    load: 'languageOnly', // no region specific locals like en-US, de-DE
+    resources: Resources,
 
     // need to preload all the namespaces
     // add more namespaces as pages are created

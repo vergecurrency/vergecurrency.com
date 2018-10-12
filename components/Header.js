@@ -27,7 +27,7 @@ const Header = ({ t }) => (
     </Head>
     <div className="container container--with-gutter">
       <div className="row between-xs around-sm middle-xs">
-        <div className="col-xs-5 col-sm-1 col-md-2 start-xs middle-xs">
+        <div className="col-xs-5 col-sm-1 start-xs middle-xs">
           <Link href="/">
             <a className="verge-logo" href="/" name="Verge homepage">
               <VergeLogoWhite />
@@ -35,10 +35,10 @@ const Header = ({ t }) => (
           </Link>
         </div>
         <nav className="col-xs-5 col-sm end-xs menu">
-          <div className="hidden-xs">
+          <div className="hidden-xs hidden-sm">
             <MenuItems t={t} />
           </div>
-          <div className="visible-xs">
+          <div className="visible-sm">
             <Menu right>
               <MenuItems t={t} />
             </Menu>

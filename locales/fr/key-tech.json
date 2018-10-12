@@ -1,0 +1,26 @@
+{
+  "body": {
+    "ribbontitle": "Thecnologie principale de Verge",
+    "ribbontext": "Explorez nos principales fonctionnalités technologiques. Lisez et apprenez plus sur Wraith, Tor, I2P et beaucoup plus.",    
+    "keytitle": "Principales caractéristiques",
+    "keytext1": "Des frais peu élevés, des transactions rapides, un grand volume de circulation, un support multiplateforme, le protocole Wraith sont les ingrédients qui font que Verge est parfaitement positionné pour une adoption massive.",
+    "keytext2": "Les vitesses de transaction sont ultra-rapides par rapport aux autres pièces.",
+    "tortitle": "Masquage à l'aide de TOR IP",
+    "tortext1": "Tor, dérivé d'un acronyme pour le nom du projet logiciel d'origine, Onion Router, est un service IP d'obscurcissement qui permet une communication anonyme sur un réseau à base de circuits en couches.",
+    "tortext2": "Verge intègre Tor dans tous ses portefeuilles, éliminant ainsi tout point unique permettant de déterminer les pairs communicants grâce à la surveillance du réseau qui repose sur la connaissance de sa source et de sa destination.",
+    "i2ptitle": "Tunnel via IP2",
+    "i2ptext1": "I2P est un service de tunnel hautement privé utilisant ipv6 qui anonymise toutes les données Verge envoyées sur le réseau.",
+    "i2ptext2": "Au fur et à mesure que Verge progresse, I2P est en train de devenir l'une des technologies clés garantissant l'anonymat des utilisateurs.",
+    "atstitle": "Atomic Swaps",
+    "atstext1": "Atomic Swaps, ou atomic cross-chain trading, est une technologie qui permet un échange d'égal à égal sur différentes chaînes de blocs avec le support BIP65 et élimine le besoin de tiers de confiance.",
+    "atstext2": "Les échanges centralisés traditionnels peuvent être remplacés par des échanges décentralisés (DEX), ce qui signifie que vous conservez toujours vos fonds dans votre portefeuille et ne dépendez pas d'un intermédiaire. En activant la capacité de permutation atomique, Verge fait un pas en avant proactif vers un avenir décentralisé.",
+    "algtitle": "Minage multi-algorithmes",
+    "algtext1": "Verge Currency utilise le principe de minage POW (Proof of Work). C'est l'une des rares crypto-monnaies à disposer d'un support multi-algorithmes.",
+    "algtext2": "Verge a 5 fonctions de hachage différentes: Scrypt, X17, Lyra2rev2, myr-groestl et blake2s. Une telle conception permet un accès plus équitable. Verge n'est pas une entreprise privée financée par des pièces pré-minée ou un ICO.",
+    "algtext3": "Permettre à notre communauté de miner Verge avec une bonne technologie est essentiel.",
+    "inttitle": "Intégrations",
+    "inttext1": "Activer l'adoption du monde réel avec les intégrations P2P",
+    "inttext2": "Verge évolue constamment vers l'adoption grand public. L'intégration de Verge sur les plates-formes de messagerie et de médias sociaux est une étape stratégique importante pour atteindre cet objectif.",
+    "inttext3": "En l'absence d'installation de l'une des parties, les pièces XVG peuvent être envoyées et reçues via Twitter, Discord et Telegram."
+  }
+}
