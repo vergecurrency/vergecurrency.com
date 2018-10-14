@@ -10,7 +10,8 @@
     "prestart": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "./node_modules/.bin/eslint . --fix",
-    "predeploy": "yarn build",
+    "updateLanguages": "node locales/updateLanguages.js",
+    "predeploy": "yarn updateLanguages && yarn build",
     "deploy": "gh-pages -t true -m 'Travis CI automated build' -d docs"
   },
   "repository": {
