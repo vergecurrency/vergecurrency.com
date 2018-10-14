@@ -2,7 +2,7 @@ const fs = require('fs')
 const https = require('https')
 const fetch = require('isomorphic-unfetch')
 
-const TOKEN = process.env.PO_TOKEN || require('./token.json').token
+const TOKEN = process.env.PO_TOKEN // || require('./token.json').token
 const ID = '214541'
 
 const unfetchPOEditor = (url, data = {}) => {
