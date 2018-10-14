@@ -48,6 +48,7 @@ unfetchPOEditor('https://api.poeditor.com/v2/languages/list')
       response.result &&
       response.result.languages instanceof Array &&
       response.result.languages.filter(lang => lang.percentage >= 85)
+        .filter(lang => lang.code !== 'fa' && lang.code !== 'ku' )
   )
   .then(languages =>
     Promise.all(
