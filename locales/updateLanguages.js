@@ -2,7 +2,12 @@ const fs = require('fs')
 const https = require('https')
 const fetch = require('isomorphic-unfetch')
 
-const TOKEN = process.env.PO_TOKEN // || require('./token.json').token
+if(process && process.env && !process.env.PO_TOKEN){
+  console.warn('Process enviroment variable PO_TOKEN wasn`t supplied, so we skip the language update process.')
+  process.exit(0)
+}
+
+const TOKEN = process.env.PO_TOKEN 
 const ID = '214541'
 
 const unfetchPOEditor = (url, data = {}) => {
