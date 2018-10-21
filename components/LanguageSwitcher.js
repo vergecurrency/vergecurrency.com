@@ -20,15 +20,11 @@ class LanguageSwitcher extends React.Component {
       </option>
     ));
     
-//maybe if you put an if statement before this to check for document like
-    //if (document) {
-      if(i18n.language == "ru" || i18n.language == "fr") {
+      if(i18n.language == "ar" || i18n.language == "ku" || i18n.language == "fa") {
         document.body.style.direction = "rtl"
       } else {
         document.body.style.direction = null
       }
-      //end the document if
-      //}
 
     return (
       <div className="language">
