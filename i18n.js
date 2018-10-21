@@ -7,7 +7,6 @@ const reactI18nextModule = require('react-i18next');
 const languageList = require('./lists/languages').languages;
 
 const options = {
-  lng: 'en',
   fallbackLng: languageList,
   load: 'languageOnly', // no region specific locals like en-US, de-DE
 
@@ -31,12 +30,12 @@ const options = {
     format: (value, format) => {
       if (format === 'uppercase') return value.toUpperCase();
       return value;
-    },
+    }
   },
 
   react: {
-    wait: false,
-  },
+    wait: false
+  }
 };
 
 if (process.browser) {
