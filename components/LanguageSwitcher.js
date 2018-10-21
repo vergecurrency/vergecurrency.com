@@ -15,16 +15,12 @@ class LanguageSwitcher extends React.Component {
       document.body.style.direction = null;
     }
   }
-
   componentDidMount() {
-    i18n.changeLanguage(localStorage.getItem('language') || 'en', () => {
-      this.updateRightToLeftSupport();
-    });
+    this.updateRightToLeftSupport();
   }
 
   componentWillUpdate() {
     this.updateRightToLeftSupport();
-    localStorage.setItem('language', i18n.language);
   }
 
   render() {
