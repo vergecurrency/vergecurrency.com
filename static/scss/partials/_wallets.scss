@@ -169,6 +169,89 @@
       }
     }
   }
+  &--iconrtl {
+    height: rem(42px);
+    margin-left: rem(20px);
+    position: relative;
+    width: rem(42px);
+     &__android {
+      background: url(/static/img/wallets/android.svg);
+      background-size: cover;
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/android-white.svg);
+        }
+      }
+       &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+     &__apple {
+      background: url(/static/img/wallets/apple.svg);
+      background-size: cover;
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/apple-white.svg);
+        }
+      }
+       &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+     &__windows {
+      background: url(/static/img/wallets/windows.svg);
+      background-size: cover;
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/windows-white.svg);
+        }
+      }
+       &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+     &__linux {
+      background: url(/static/img/wallets/linux.svg);
+      background-size: cover;
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/linux-white.svg);
+        }
+      }
+       &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+     &__paperwallet {
+      background: url(/static/img/wallets/paperwallet.svg);
+      background-size: cover;
+      width: 3rem; // need be a bit wider because of the svg being used.
+      right: 0.5rem; // putting it a bit aside, so it looks aligned again
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/paperwallet-white.svg);
+        }
+      }
+    }
+  }  
 
   &--text {
     display: inline-block;

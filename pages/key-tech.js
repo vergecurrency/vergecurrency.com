@@ -134,7 +134,7 @@ function KeyTech(props) {
                 </p>
               </div>
               <div className="col-sm-4 col-md-5 col-lg-6 hidden-xs">
-                <div className="integrations--imgs" />
+                <div className={"integrations--" + (i18n.language=='ar' || i18n.language=='fa' || i18n.language=='ku' ? 'imgsrtl' : 'imgs')} />                
               </div>
             </div>
           </div>

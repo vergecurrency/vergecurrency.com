@@ -134,6 +134,30 @@
         top: 4.5rem;
       }
     }
+    &--imgrtl {
+      max-width: 80vw;
+      position: relative;
+      left: -10%;
+      transition: .2s all;
+
+      @media (min-width: $min-width-sm) {
+        height: 50%;
+        max-width: auto;
+        position: absolute;
+        left: 0;
+        top: 8rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        height: 80%;
+        top: 4rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        height: 75%;
+        top: 4.5rem;
+      }
+    }
   }
 
   .blog {

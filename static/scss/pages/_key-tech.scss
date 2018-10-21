@@ -88,5 +88,34 @@
         top: -12rem;
       }
     }
+    &--imgsrtl {
+      background-image: url(/static/img/key-tech/social.png); // scss-lint:disable UrlQuotes
+      background-position: center left;
+      background-repeat: no-repeat;
+      // background-size: cover;
+      height: 210%;
+      position: absolute;
+      left: 0;
+      top: -10rem;
+      transition: .2s all;
+      width: 100%;
+      z-index: 0;
+
+      @media (min-width: $min-width-sm) {
+        background-size: contain;
+        height: 220%;
+        right: 6rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        right: -2rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        height: 230%;
+        right: -5rem;
+        top: -12rem;
+      }
+    }    
   }
 }
