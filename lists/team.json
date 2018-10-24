@@ -64,7 +64,7 @@
         "github": "https://github.com/Cabrasm",
         "twitter": "https://twitter.com/CabrasManuel",
 	"location": "Switzerland"
-      }	   	   
+      }
     ]
   },
   "businessdevelopment": {
@@ -105,6 +105,15 @@
         "github": "https://github.com/CryptoSamantha",
         "twitter": "https://twitter.com/cryptosamantha",
 	"location": "Missouri, USA"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Tim - CryptoT",
+        "role": "Business Development and Outreach",
+        "occupation": "Entrepreneur",
+        "github": "",
+        "twitter": "https://twitter.com/TR_Stevens",
+	"location": "The Netherlands"
       }
     ]
   },
@@ -227,6 +236,15 @@
         "github": "",
         "twitter": "https://twitter.com/nkazier",
 	"location": "New Jersey, USA"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Joel - Jimbobaroobob",
+        "role": "Commercial Strategy",
+        "occupation": "Director",
+        "github": "",
+        "twitter": "https://twitter.com/jimbobaroobob",
+	"location": "Sydney, Australia"
       }
     ]
   },
@@ -246,7 +264,7 @@
         "img": "../static/img/team/nickgaudiano.jpg",
         "name": "Nick Gaudiano",
         "role": "Media & Visuals Creator; Marketing",
-        "occupation": "Entrepeneur",
+        "occupation": "Entrepreneur",
         "github": "",
         "twitter": "https://twitter.com/XVGGAUDI",
 	"location": "Texas, USA"
@@ -255,7 +273,7 @@
         "img": "../static/img/team/arend.jpg",
         "name": "Arend",
         "role": "Payment Integration Manager",
-        "occupation": "Student Entrepeneur",
+        "occupation": "Student Entrepreneur",
         "github": "https://github.com/arendgb",
         "twitter": "https://twitter.com/Arend_XVG",
 	"location": "Tilburg, The Netherlands"
@@ -313,8 +331,16 @@
         "github": "",
         "twitter": "https://twitter.com/verge_russia",
 	"location": "Moscow, Russia"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Leon - cloakfox",
+        "role": "Community Relations Specialist",
+        "occupation": "Hosting Services Provider",
+        "github": "",
+        "twitter": "https://twitter.com/Verge_forums",
+	"location": "The Netherlands"
       }
-
     ]
   },
   "support": {
