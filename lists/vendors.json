@@ -1192,20 +1192,6 @@
             }
         },
         {
-            "title": "Ad Infinitum Shop",
-            "img": "../static/img/vendors/latest/adinfinitumhub.png",
-            "link": "adinfinitumhub.com",
-            "url": "http://adinfinitumhub.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": true
-            }
-        },
-        {
             "title": "Sardis Marketplace",
             "img": "../static/img/vendors/latest/sardismarketplace.png",
             "link": "sardismarketplace.com",
