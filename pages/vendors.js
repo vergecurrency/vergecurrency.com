@@ -47,7 +47,7 @@ class VendorsPage extends React.Component {
               <div className="row center-xs middle-xs">
                 <div className="col-xs-10 col-sm-6">
             <fieldset>
-              <legend>Choose some vendor categories</legend>
+              <legend>{t('vendors:body.choose', { defaultValue: 'Select vendor categories' })}</legend>
 
                 <span className="check-categories">
                     <input className="checkbox" type="checkbox" id="retail" name="feature"
