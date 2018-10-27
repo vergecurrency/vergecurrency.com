@@ -39,6 +39,7 @@
     "compression": "^1.7.2",
     "cryptowatch-embed": "^0.3.2",
     "css-loader": "^0.28.9",
+    "deep-filter": "^1.0.2",
     "express": "^4.16.2",
     "gh-pages": "^1.1.0",
     "glob": "^7.1.2",
