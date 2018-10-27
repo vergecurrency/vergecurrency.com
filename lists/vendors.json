@@ -85,6 +85,20 @@
             }
         },
         {
+            "title": "Verge Mines",
+            "img": "../static/img/vendors/latest/vergemines.png",
+            "link": "vergemines.com",
+            "url": "https://www.vergemines.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": true,
+                "travel": false,
+                "education": false
+            }
+        },        
+        {
             "title": "DIOXYME",
             "img": "../static/img/vendors/latest/dioxyme.png",
             "link": "shop.dioxyme.com",
@@ -855,6 +869,21 @@
             }
         },
         {
+            "title": "Mobisun",
+            "img": "../static/img/vendors/latest/Mobisun.png",
+            "link": "mobisun.com/",
+            "url": "https://www.mobisun.com/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        
+        {
             "title": "Cart-King.com",
             "img": "../static/img/vendors/latest/cartking.png",
             "link": "cart-king.com",
@@ -1174,20 +1203,6 @@
                 "entertainment": false,
                 "travel": false,
                 "education": false
-            }
-        },
-        {
-            "title": "Ad Infinitum Shop",
-            "img": "../static/img/vendors/latest/adinfinitumhub.png",
-            "link": "adinfinitumhub.com",
-            "url": "http://adinfinitumhub.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": true
             }
         },
         {
