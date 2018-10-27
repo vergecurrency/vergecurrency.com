@@ -11,6 +11,7 @@ const options = {
   fallbackLng: 'en',
   load: 'all', // no region specific locals like en-US, de-DE
 
+
   ns: ['common', 'home'], // have a common namespace used around the full app
   defaultNS: 'common',
 
