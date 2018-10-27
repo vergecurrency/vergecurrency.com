@@ -1,6 +1,7 @@
 const fs = require('fs')
 const https = require('https')
 const fetch = require('isomorphic-unfetch')
+const deepfilter = require('deep-filter');
 
 if(process && process.env && !process.env.PO_TOKEN){
   console.warn('Process enviroment variable PO_TOKEN wasn`t supplied, so we skip the language update process.')
@@ -48,7 +49,6 @@ unfetchPOEditor('https://api.poeditor.com/v2/languages/list')
       response.result &&
       response.result.languages instanceof Array &&
       response.result.languages.filter(lang => lang.percentage >= 85)
-      //  .filter(lang => lang.code !== 'fa' && lang.code !== 'ku' )
   )
   .then(languages =>
     Promise.all(
@@ -66,7 +66,7 @@ unfetchPOEditor('https://api.poeditor.com/v2/languages/list')
             keys.forEach(key => {
               writeJsonToFile(
                 `./locales/${language.code}/${camelCaseToDash(key)}.json`,
-                languageData[key]
+                deepfilter(languageData[key], (value) => !!value)
               )
             })
             return language.code

@@ -8,8 +8,8 @@ const languageList = require('./lists/languages').languages;
 
 const options = {
   lng: 'en',
-  fallbackLng: languageList,
-  load: 'languageOnly', // no region specific locals like en-US, de-DE
+  fallbackLng: 'en',
+  load: 'all', // no region specific locals like en-US, de-DE
 
   ns: ['common', 'home'], // have a common namespace used around the full app
   defaultNS: 'common',
