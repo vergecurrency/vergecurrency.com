@@ -85,6 +85,20 @@
             }
         },
         {
+            "title": "VergeMines",
+            "img": "../static/img/vendors/latest/vergemines.png",
+            "link": "vergemines.com",
+            "url": "https://www.vergemines.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": true,
+                "travel": false,
+                "education": false
+            }
+        },        
+        {
             "title": "DIOXYME",
             "img": "../static/img/vendors/latest/dioxyme.png",
             "link": "shop.dioxyme.com",
