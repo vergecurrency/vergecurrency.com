@@ -33,50 +33,31 @@ export const HomeVendors = () => {
   return <div className="row pt">{vendors}</div>;
 };
 
-const checkIfFilterIsOff = filters =>
-  Object.values(filters).every(val => val === false);
+const filterVendorList = (vendors, filters) =>
+  vendors.filter(vendor =>
+    filters.some(filter => vendor.categories[filter] === true)
+  );
 
-const filterObject = (obj) => {
-  const result = {};
-  for (const key in obj) {
-    if (obj[key] === true) result[key] = true;
-  }
-
-  return result;
-};
-
-const filterVendorList = (vendors, filters) => {
-  const clearedFilter = filterObject(filters);
-  if (checkIfFilterIsOff(filters)) {
-    return vendors;
-  }
-  return vendors.filter((vendor) => {
-    let fits = 0;
-    for (const key in clearedFilter) {
-      if (vendor.categories[key] === clearedFilter[key]) fits += 1;
-    }
-    return fits === Object.keys(clearedFilter).length;
-  });
-};
-
-export const LatestVendors = (categoriesFilter) => {
-  const vendors = filterVendorList(vendorsLocale, categoriesFilter).map(vendor => (
-    <div className="col-xs col-md-3" key={vendor.title} role="presentation">
-      <a href={vendor.url} target="_blank" rel="noopener">
-        <div className="vendors--item middle-xs">
-          <div className="vendors--item__logo">
-            <LazyLoad height={40}>
-              <img src={vendor.img} alt="img" />
-            </LazyLoad>
+export const LatestVendors = ({ filter: categoriesFilter }) => {
+  const vendors = filterVendorList(vendorsLocale, categoriesFilter).map(
+    vendor => (
+      <div className="col-xs col-md-3" key={vendor.title} role="presentation">
+        <a href={vendor.url} target="_blank" rel="noopener">
+          <div className="vendors--item middle-xs">
+            <div className="vendors--item__logo">
+              <LazyLoad height={40}>
+                <img src={vendor.img} alt="img" />
+              </LazyLoad>
+            </div>
+            <div className="vendors--item__name">
+              <h4>{vendor.title}</h4>
+              <span>{vendor.link}</span>
+            </div>
           </div>
-          <div className="vendors--item__name">
-            <h4>{vendor.title}</h4>
-            <span>{vendor.link}</span>
-          </div>
-        </div>
-      </a>
-    </div>
-  ));
+        </a>
+      </div>
+    )
+  );
 
   return <div className="row pt">{vendors}</div>;
 };

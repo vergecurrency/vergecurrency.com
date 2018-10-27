@@ -10,18 +10,21 @@ import i18n from '../i18n';
 
 class VendorsPage extends React.Component {
 
+  constructor(props){
+    super(props)
+
+    this.applyNewFilterCheckbox = this.applyNewFilterCheckbox.bind(this)
+  }
+
   state = {
-    retail: false,
-    foodAndBev: false,
-    service: false,
-    entertainment: false,
-    travel: false,
-    education: false
+    filter: ['retail', 'foodAndBev', 'service', 'entertainment', 'travel', 'education']
   }
 
   applyNewFilterCheckbox(e, name){
     this.setState({
-      [name]: e.target.checked 
+      filter: e.target.checked 
+        ? Array.from(new Set([ ...this.state.filter, name]))
+        : this.state.filter.filter((e) => e !== name)
     })
   }
 
@@ -51,37 +54,37 @@ class VendorsPage extends React.Component {
 
                 <span className="check-categories">
                     <input className="checkbox" type="checkbox" id="retail" name="feature"
-                          value={this.state.retail} onChange={(e) => this.applyNewFilterCheckbox(e, 'retail')} />
+                          checked={this.state.filter.includes('retail')} onChange={(e) => this.applyNewFilterCheckbox(e, 'retail')} />
                     <label htmlFor="retail">Retail</label>
                 </span>
 
                 <span className="check-categories">
                     <input type="checkbox" id="foodAndBev" name="feature"
-                          value={this.state.foodAndBev} onChange={(e) => this.applyNewFilterCheckbox(e, 'foodAndBev')} />
+                          checked={this.state.filter.includes('foodAndBev')} onChange={(e) => this.applyNewFilterCheckbox(e, 'foodAndBev')} />
                     <label htmlFor="foodAndBev">Food And Beverages</label>
                 </span>
 
                 <span className="check-categories">
                     <input type="checkbox" id="service" name="feature"
-                          value={this.state.service} onChange={(e) => this.applyNewFilterCheckbox(e, 'service')} />
+                          checked={this.state.filter.includes('service')} onChange={(e) => this.applyNewFilterCheckbox(e, 'service')} />
                     <label htmlFor="service">Service</label>
                 </span><br/>
 
                 <span className="check-categories">
                     <input type="checkbox" id="entertainment" name="feature"
-                          value={this.state.entertainment} onChange={(e) => this.applyNewFilterCheckbox(e, 'entertainment')}/>
+                          checked={this.state.filter.includes('entertainment')} onChange={(e) => this.applyNewFilterCheckbox(e, 'entertainment')}/>
                     <label htmlFor="entertainment">Entertainment</label>
                 </span>
 
                 <span className="check-categories">
                     <input type="checkbox" id="travel" name="feature"
-                          value={this.state.travel} onChange={(e) => this.applyNewFilterCheckbox(e, 'travel')}/>
+                          checked={this.state.filter.includes('travel')} onChange={(e) => this.applyNewFilterCheckbox(e, 'travel')}/>
                     <label htmlFor="travel">Travel</label>
                 </span>
 
                 <span className="check-categories">
                     <input type="checkbox" id="education" name="feature"
-                          value={this.state.education} onChange={(e) => this.applyNewFilterCheckbox(e, 'education')}/>
+                          checked={this.state.filter.includes('education')} onChange={(e) => this.applyNewFilterCheckbox(e, 'education')}/>
                     <label htmlFor="education">Education</label>
                 </span>
             </fieldset>
