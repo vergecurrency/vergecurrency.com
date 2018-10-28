@@ -9,6 +9,8 @@ import { Mentions } from '../components/Mentions';
 import { HomeVendors } from '../components/Vendors';
 import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
+import WalletsBtn from '../components/WalletsBtn';
+import PartnerInfo from '../components/Partners';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {

@@ -1,6 +1,6 @@
 import ExpandCollapse from 'react-expand-collapse';
 
-export default function VendorInfo() {
+export default function PartnerInfo() {
   const options = {
     previewHeight: "50px"
   };
