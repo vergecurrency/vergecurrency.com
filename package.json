@@ -67,6 +67,7 @@
     "react": "^16.2.0",
     "react-burger-menu": "^2.2.3",
     "react-dom": "^16.2.0",
+    "react-expand-collapse": "^0.2.0",
     "react-i18next": "^7.3.4",
     "react-lazyload": "^2.3.0",
     "react-moment": "^0.7.0",
