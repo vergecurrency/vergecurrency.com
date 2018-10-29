@@ -9,6 +9,7 @@ import { Mentions } from '../components/Mentions';
 import { HomeVendors } from '../components/Vendors';
 import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
+import { PartnerInfo } from '../components/Partners';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
@@ -48,12 +49,29 @@ function Home(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
-                  <h1 dangerouslySetInnerHTML={{ __html: t('home:ribbon.title', { defaultValue: 'Privacy is our <i>standard</i>.<br />A secure and anonymous<br />cryptocurrency.' }) }} />
-                  <p>{t('home:ribbon.text1', {defaultvalue: 'Built for everyday use.'})}</p>
+                  <h1
+                    dangerouslySetInnerHTML={{
+                      __html: t('home:ribbon.title', {
+                        defaultValue:
+                          'Privacy is our <i>standard</i>.<br />A secure and anonymous<br />cryptocurrency.',
+                      }),
+                    }}
+                  />
+                  <p>
+                    {t('home:ribbon.text1', {
+                      defaultvalue: 'Built for everyday use.',
+                    })}
+                  </p>
                   <WalletsBtn />
                   <Link href="/get-started" prefetch>
-                    <a href="/get-started" className="btn btn-secondary" name="Get Started with Verge">
-                      {t('home:ribbon.text2', {defaultvalue: 'Get started with Verge'})}
+                    <a
+                      href="/get-started"
+                      className="btn btn-secondary"
+                      name="Get Started with Verge"
+                    >
+                      {t('home:ribbon.text2', {
+                        defaultvalue: 'Get started with Verge',
+                      })}
                     </a>
                   </Link>
                   <p className="blackpaper">
@@ -78,20 +96,62 @@ function Home(props) {
               <div className="row between-xs">
                 <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
                   <div className="reason--inner">
-                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.first.header', {defaultvalue: 'A <span>cryptocurrency</span> designed <br>for everyday use.'}) }} />
-                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.first.text', {defaultvalue: 'Improving upon the original Bitcoin block&shy;chain and aims to fulfill its initial purpose.'}) }} />
+                    <h3
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.first.header', {
+                          defaultvalue:
+                            'A <span>cryptocurrency</span> designed <br>for everyday use.',
+                        }),
+                      }}
+                    />
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.first.text', {
+                          defaultvalue:
+                            'Improving upon the original Bitcoin block&shy;chain and aims to fulfill its initial purpose.',
+                        }),
+                      }}
+                    />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
                   <div className="reason--inner">
-                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.second.header', {defaultvalue: 'Bringing <span>blockchain</span> <br>into everyday life.'}) }} />
-                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.second.text', {defaultvalue: 'Verge currency makes it possible to engage in direct transactions.'}) }} />
+                    <h3
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.second.header', {
+                          defaultvalue:
+                            'Bringing <span>blockchain</span> <br>into everyday life.',
+                        }),
+                      }}
+                    />
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.second.text', {
+                          defaultvalue:
+                            'Verge currency makes it possible to engage in direct transactions.',
+                        }),
+                      }}
+                    />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-4 start-xs reason">
                   <div className="reason--inner">
-                    <h3 dangerouslySetInnerHTML={{ __html: t('common:USPs.third.header', {defaultvalue: 'Open Source Development <br>& <span>Community Driven.</span>'}) }} />
-                    <p dangerouslySetInnerHTML={{ __html: t('common:USPs.third.text', {defaultvalue: 'Verge is not a private company funded by pre-mined coins or ICO\'s.'}) }} />
+                    <h3
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.third.header', {
+                          defaultvalue:
+                            'Open Source Development <br>& <span>Community Driven.</span>',
+                        }),
+                      }}
+                    />
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.third.text', {
+                          defaultvalue:
+                            "Verge is not a private company funded by pre-mined coins or ICO's.",
+                        }),
+                      }}
+                    />
                   </div>
                 </div>
               </div>
@@ -104,7 +164,11 @@ function Home(props) {
               <div className="col-xs-11">
                 <div className="row between-md middle-md">
                   <div className="col-xs-12 col-md-2">
-                    <h6>{t('home:mentioned.mentioned_in', {defaultvalue: 'Mentioned in'})}</h6>
+                    <h6>
+                      {t('home:mentioned.mentioned_in', {
+                        defaultvalue: 'Mentioned in',
+                      })}
+                    </h6>
                   </div>
                   <div className="col-xs-12 col-md">
                     <Mentions />
@@ -115,9 +179,22 @@ function Home(props) {
 
             <div className="row center-xs intro pt pb-large">
               <div className="col-xs-11 col-sm-7 col-lg-6">
-                <h6>{t('home:intro.span', {defaultvalue: 'Delivers what others can\'t'})}</h6>
-                <h2>{t('home:intro.h2', {defaultvalue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.'})}</h2>
-                <p>{t('home:intro.p', {defaultvalue: 'We care about your privacy. Do you?'})}</p>
+                <h6>
+                  {t('home:intro.span', {
+                    defaultvalue: "Delivers what others can't",
+                  })}
+                </h6>
+                <h2>
+                  {t('home:intro.h2', {
+                    defaultvalue:
+                      'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.',
+                  })}
+                </h2>
+                <p>
+                  {t('home:intro.p', {
+                    defaultvalue: 'We care about your privacy. Do you?',
+                  })}
+                </p>
               </div>
             </div>
 
@@ -126,36 +203,88 @@ function Home(props) {
                 <div className="col-xs-10 col-sm-5 col-md-6 col-lg-7">
                   <div className="row start-xs benefits">
                     <div className="col-xs-12 col-md-6 pb pb-xs-0">
-                      <h6>{t('home:benefits.benefit_1.title', {defaultvalue: 'ANONYMITY'})}</h6>
-                      <p>{t('home:benefits.benefit_1.text', {defaultvalue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.'})}</p>
+                      <h6>
+                        {t('home:benefits.benefit_1.title', {
+                          defaultvalue: 'ANONYMITY',
+                        })}
+                      </h6>
+                      <p>
+                        {t('home:benefits.benefit_1.text', {
+                          defaultvalue:
+                            'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.',
+                        })}
+                      </p>
                     </div>
                     <div className="col-xs-12 col-md-6 pt-xs pb pb-xs-0">
-                      <h6>{t('home:benefits.benefit_2.title', {defaultvalue: 'COMMUNITY DRIVEN'})}</h6>
-                      <p>{t('home:benefits.benefit_2.text', {defaultvalue: 'Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.'})}</p>
+                      <h6>
+                        {t('home:benefits.benefit_2.title', {
+                          defaultvalue: 'COMMUNITY DRIVEN',
+                        })}
+                      </h6>
+                      <p>
+                        {t('home:benefits.benefit_2.text', {
+                          defaultvalue:
+                            'Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.',
+                        })}
+                      </p>
                     </div>
                     <div className="col-xs-12 col-md-6 pb pb-xs-0 pt-xs">
-                      <h6>{t('home:benefits.benefit_3.title', {defaultvalue: 'MASS ADOPTION'})}</h6>
-                      <p>{t('home:benefits.benefit_3.text', {defaultvalue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption.'})}</p>
+                      <h6>
+                        {t('home:benefits.benefit_3.title', {
+                          defaultvalue: 'MASS ADOPTION',
+                        })}
+                      </h6>
+                      <p>
+                        {t('home:benefits.benefit_3.text', {
+                          defaultvalue:
+                            'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption.',
+                        })}
+                      </p>
                     </div>
                     <div className="col-xs-12 col-md-6 pt-xs">
-                      <h6>{t('home:benefits.benefit_4.title', {defaultvalue: 'PRIVACY IS OUR STANDARD'})}</h6>
-                      <p>{t('common:wraith.text1', {defaultvalue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.'})} 
-                         {' '}
-                         {t('common:wraith.text2', {defaultvalue: 'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.'})}</p>
+                      <h6>
+                        {t('home:benefits.benefit_4.title', {
+                          defaultvalue: 'PRIVACY IS OUR STANDARD',
+                        })}
+                      </h6>
+                      <p>
+                        {t('common:wraith.text1', {
+                          defaultvalue:
+                            'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.',
+                        })}{' '}
+                        {t('common:wraith.text2', {
+                          defaultvalue:
+                            'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.',
+                        })}
+                      </p>
                     </div>
                   </div>
                   <h6 className="center-xs start-sm">
                     <Link href="/benefits">
                       <a href="/benefits" className="benefits--url">
-                        {t('home:benefits.link.title', { defaultValue: 'Expand Benefits' })}
+                        {t('home:benefits.link.title', {
+                          defaultValue: 'Expand Benefits',
+                        })}
                       </a>
                     </Link>
                   </h6>
                 </div>
-                <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">              
-                <div className={"hidden-xs benefits--" + (i18n.language=='ar' || i18n.language=='fa' || i18n.language=='ku' ? 'imgsrtl' : 'imgs')}>
+                <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
+                  <div
+                    className={
+                      'hidden-xs benefits--' +
+                      (i18n.language == 'ar' ||
+                      i18n.language == 'fa' ||
+                      i18n.language == 'ku'
+                        ? 'imgsrtl'
+                        : 'imgs')
+                    }
+                  >
                     <LazyLoad height={430}>
-                      <img src="../static/img/benefits-desktop.png" alt="Benefits desktop" />
+                      <img
+                        src="../static/img/benefits-desktop.png"
+                        alt="Benefits desktop"
+                      />
                     </LazyLoad>
                     <LazyLoad height={385}>
                       <img
@@ -181,7 +310,9 @@ function Home(props) {
                         <h6>
                           <Link href="/wallets">
                             <a href="/wallets" className="wallets--url">
-                              {t('home:wallets.link.title', {defaultvalue: 'Read about wallets'})}
+                              {t('home:wallets.link.title', {
+                                defaultvalue: 'Read about wallets',
+                              })}
                             </a>
                           </Link>
                         </h6>
@@ -207,19 +338,41 @@ function Home(props) {
             <div className="themed-container__dark themed-container__dark--home">
               <div className="row center-xs power-to-the-people">
                 <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
-                  <h6>{t('home:mission.header', { defaultValue: 'Empowering people' })}</h6>
-                  <h3 dangerouslySetInnerHTML={{ __html: t('home:mission.text1', { defaultValue: 'Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.' }) }} />
+                  <h6>
+                    {t('home:mission.header', {
+                      defaultValue: 'Empowering people',
+                    })}
+                  </h6>
+                  <h3
+                    dangerouslySetInnerHTML={{
+                      __html: t('home:mission.text1', {
+                        defaultValue:
+                          'Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.',
+                      }),
+                    }}
+                  />
                   <p>
-                    {t('home:mission.text2', { defaultValue: 'With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.' })}
+                    {t('home:mission.text2', {
+                      defaultValue:
+                        'With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.',
+                    })}
                   </p>
                   <Link href="/get-verge">
-                    <a href="/get-verge" className="btn btn-white" name="Get Verge">
-                      {t('home:getverge.text1', { defaultValue: 'Get Verge today' })}
+                    <a
+                      href="/get-verge"
+                      className="btn btn-white"
+                      name="Get Verge"
+                    >
+                      {t('home:getverge.text1', {
+                        defaultValue: 'Get Verge today',
+                      })}
                     </a>
                   </Link>
                 </div>
               </div>
             </div>
+
+            <PartnerInfo t={t} />
 
             <div className="row center-xs pt-large pb">
               <div className="col-xs-10 start-xs exchanges bb">
@@ -227,16 +380,23 @@ function Home(props) {
                   <h6>
                     <Link href="/get-verge">
                       <a href="/get-verge" className="exchanges--url">
-                        {t('home:getverge.text2', { defaultValue: 'See more exchanges' })}
+                        {t('home:getverge.text2', {
+                          defaultValue: 'See more exchanges',
+                        })}
                       </a>
                     </Link>
                   </h6>
                   <h2>
-                    {t('home:getverge.text3', { defaultValue: 'Trade Verge on the most popular exchanges.' })}
-                    {' '}
+                    {t('home:getverge.text3', {
+                      defaultValue:
+                        'Trade Verge on the most popular exchanges.',
+                    })}{' '}
                     <span className="hidden-xs">
                       <br />
-                    </span>{t('home:getverge.text4', { defaultValue: 'We’re proud to be listed on:' })}
+                    </span>
+                    {t('home:getverge.text4', {
+                      defaultValue: 'We’re proud to be listed on:',
+                    })}
                   </h2>
                 </div>
 
@@ -254,7 +414,9 @@ function Home(props) {
                       className=""
                       name="See chart"
                     >
-                      {t('home:getverge.text5', { defaultValue: 'See chart here' })}
+                      {t('home:getverge.text5', {
+                        defaultValue: 'See chart here',
+                      })}
                     </a>
                   </Link>
                 </h6>
@@ -265,10 +427,15 @@ function Home(props) {
               <div className="container">
                 <div className="row center-xs middle-xs vendors">
                   <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
-                    <h6>{t('home:vendors.super', { defaultValue: 'Accept Verge Currency' })}</h6>
+                    <h6>
+                      {t('home:vendors.super', {
+                        defaultValue: 'Accept Verge Currency',
+                      })}
+                    </h6>
                     <h2>
                       {t('home:vendors.title', {
-                        defaultValue: 'Powering real world vendors that accept Verge Currency',
+                        defaultValue:
+                          'Powering real world vendors that accept Verge Currency',
                       })}
                     </h2>
 
@@ -279,7 +446,10 @@ function Home(props) {
                       })}
                     </p>
                     <p>
-                      {t('common:vendors.text2', { defaultValue: 'Get started today and accept Verge in your store.' })}
+                      {t('common:vendors.text2', {
+                        defaultValue:
+                          'Get started today and accept Verge in your store.',
+                      })}
                     </p>
 
                     <Link href="/developers/verge-vendor-integration">
@@ -288,12 +458,20 @@ function Home(props) {
                         className="btn btn-primary btn-primary--on-white-bg"
                         name="Accept Verge Today"
                       >
-                        {t('common:vendors.text3', { defaultValue: 'Accept Verge today' })}
+                        {t('common:vendors.text3', {
+                          defaultValue: 'Accept Verge today',
+                        })}
                       </a>
                     </Link>
                     <Link href="/vendors">
-                      <a href="/vendors" className="btn btn-tertiary" name="See all vendors">
-                        {t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors here' })}
+                      <a
+                        href="/vendors"
+                        className="btn btn-tertiary"
+                        name="See all vendors"
+                      >
+                        {t('home:vendors.buttonTertiary', {
+                          defaultValue: 'See all vendors here',
+                        })}
                       </a>
                     </Link>
                   </div>
@@ -301,7 +479,14 @@ function Home(props) {
                   <div className="col-xs-11 col-sm-4 col-md-5 end-xs">
                     <LazyLoad height={375}>
                       <img
-                        className={"vendors--" + (i18n.language=='ar' || i18n.language=='fa' || i18n.language=='ku' ? 'imgrtl' : 'img')}
+                        className={
+                          'vendors--' +
+                          (i18n.language == 'ar' ||
+                          i18n.language == 'fa' ||
+                          i18n.language == 'ku'
+                            ? 'imgrtl'
+                            : 'img')
+                        }
                         src="../static/img/vendors/vendor-story.png"
                         srcSet="
                           ../static/img/vendors/vendor-story.png 1x,
@@ -318,11 +503,21 @@ function Home(props) {
             <div className="vendors--list">
               <div className="row pt-large pb-large center-xs middle-xs">
                 <div className="col-xs-10">
-                  <h2>{t('home:vendors.text3', { defaultValue: 'Latest vendors to accept Verge' })}</h2>
+                  <h2>
+                    {t('home:vendors.text3', {
+                      defaultValue: 'Latest vendors to accept Verge',
+                    })}
+                  </h2>
                   <h6>
                     <Link href="/vendors">
-                      <a href="/vendors" className="vendors--url" name="See vendors">
-                        {t('home:vendors.buttonTertiary', { defaultValue: 'See all vendors here' })}
+                      <a
+                        href="/vendors"
+                        className="vendors--url"
+                        name="See vendors"
+                      >
+                        {t('home:vendors.buttonTertiary', {
+                          defaultValue: 'See all vendors here',
+                        })}
                       </a>
                     </Link>
                   </h6>
@@ -335,12 +530,25 @@ function Home(props) {
             <div className="container themed-container__linen themed-container__linen--home">
               <div className="row center-xs roadmap">
                 <div className="col-xs-10 col-sm-8 col-md-6 start-xs center-lg">
-                  <h2 dangerouslySetInnerHTML={{ __html: t('roadmap:body.text1', { defaultValue: 'A roadmap with great features to come.<br /> Join us while we\'re still growing!' }) }} />
+                  <h2
+                    dangerouslySetInnerHTML={{
+                      __html: t('roadmap:body.text1', {
+                        defaultValue:
+                          "A roadmap with great features to come.<br /> Join us while we're still growing!",
+                      }),
+                    }}
+                  />
                   <p>
-                    {t('roadmap:body.text2', { defaultValue: 'As an open-source community and volunteer-driven project, our roadmap is meant as a general guideline for how we are developing Verge into one of the best cryptocurrency options out there.' })}
+                    {t('roadmap:body.text2', {
+                      defaultValue:
+                        'As an open-source community and volunteer-driven project, our roadmap is meant as a general guideline for how we are developing Verge into one of the best cryptocurrency options out there.',
+                    })}
                   </p>
                   <p>
-                    {t('roadmap:body.text3', { defaultValue: 'In the spirit of transparency and in good faith to the community, we want this roadmap to be made public. However, please keep in mind that this roadmap is subject to change based on priorities, unplanned developments and new ideas.' })}
+                    {t('roadmap:body.text3', {
+                      defaultValue:
+                        'In the spirit of transparency and in good faith to the community, we want this roadmap to be made public. However, please keep in mind that this roadmap is subject to change based on priorities, unplanned developments and new ideas.',
+                    })}
                   </p>
                   <br />
                   <div className="row start-xs center-sm">
@@ -351,7 +559,9 @@ function Home(props) {
                       <h6>
                         <Link href="/roadmap">
                           <a href="/roadmap" name="Full roadmap here">
-                            {t('home:roadmap.text1', { defaultValue: 'Full roadmap here' })}
+                            {t('home:roadmap.text1', {
+                              defaultValue: 'Full roadmap here',
+                            })}
                           </a>
                         </Link>
                       </h6>
@@ -365,7 +575,12 @@ function Home(props) {
                 <div className="col-xs-11 center-xs">
                   <div className="row around-xs pt">
                     <div className="col-xs-12 col-sm-5 start-xs">
-                      <h4>{t('home:social.header', { defaultValue: 'Get social with Verge. Be a part of the Verge community.' })}</h4>
+                      <h4>
+                        {t('home:social.header', {
+                          defaultValue:
+                            'Get social with Verge. Be a part of the Verge community.',
+                        })}
+                      </h4>
                     </div>
                     <div className="col-xs-12 col-sm-7 col-md-5 col-md-offset-2 col--full-height">
                       <div className="row start-xs center-sm between-md pb-xs">
@@ -473,6 +688,9 @@ function Home(props) {
   );
 }
 
-const Extended = translate(['common', 'home', 'roadmap'], { i18n, wait: process.browser })(Home);
+const Extended = translate(['common', 'home', 'roadmap'], {
+  i18n,
+  wait: process.browser,
+})(Home);
 
 export default Extended;
