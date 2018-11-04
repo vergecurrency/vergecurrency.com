@@ -21,7 +21,19 @@ function Vendor_Integration(props) {
         <div className="container">
           <Content>
             <div className="rubygems">
-              <h1>{t('vendor-integration:title', { defaultValue: 'Verge Vendor Integration' })}</h1>
+            <h1>{t('vendor-integration:title', { defaultValue: 'Verge Vendor Integration' })}</h1>
+              <h2>{t('vendor-integration:netcents:title', { defaultValue: 'NetCents - Verge\'s Preferred Payment Processor' })}</h2>
+              <p>{t('vendor-integration:netcents:text', { defaultValue: 'NetCents Technology Inc, the transactional hub for all cryptocurrency payments, equips forward-thinking businesses with the technology to seamlessly integrate cryptocurrency processing into their payment model without taking on the risk or volatility of the crypto market.' })}</p>
+              <Link href="https://net-cents.com/business/register?code=NC-0FADD2">
+                <a target="_blank" rel="noopener noreferrer" href="https://net-cents.com/business/register?code=NC-0FADD2">
+                https://net-cents.com/business/register?code=NC-0FADD2
+                </a>
+              </Link>
+              <p />
+              <p>{t('vendor-integration:netcents:text2', { defaultValue: 'For more information, please view NetCents informational video below:' })}</p>
+              <video width="560" height="315" src="https://net-cents.com/60aef2bfedd0f3f7d8163b3c438884de.mp4" controls />
+              <p />
+              <p />            
               <h2>{t('vendor-integration:coinpayments:title', { defaultValue: 'CoinPayments Cart plugins' })}</h2>
               <p>{t('vendor-integration:coinpayments:text', { defaultValue: 'CoinPayments offers a wide array of cart modules for most of the popular ecommerce solutions available.' })}</p>
               <Link href="https://www.coinpayments.net/merchant-tools-plugins">
