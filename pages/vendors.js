@@ -43,6 +43,13 @@ class VendorsPage extends React.Component {
                 <div className="col-xs-10 col-sm-6">
                   <h6>{t('vendors:body.header', { defaultValue: 'Vendors using Verge' })}</h6>
                   <h2>{t('common:vendors.text1', { defaultValue: 'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services.' })}</h2>
+                  <br />
+                    <h3>
+                    {t('common:vendors.text2', { defaultValue: 'Get started today and accept Verge in your store!' })}
+                    </h3>
+                    <Link href="https://vergecurrency.com/developers/verge-vendor-integration/">
+                      <a href="https://vergecurrency.com/developers/verge-vendor-integration/" className="btn btn-primary">{t('common:vendors.text3', { defaultValue: 'Accept Verge today' })}</a>
+                    </Link>
                 </div>
               </div>
             </div>
@@ -91,25 +98,7 @@ class VendorsPage extends React.Component {
             </div>
               </div>
             </div>
-
             <LatestVendors {...this.state} />
-
-            <div className="row center-xs pt">
-              <div className="col-xs-10">
-                <div className="row start-xs between-xs">
-                  <div className="col-xs-12 col-sm-8 pb-xs">
-                    <h3>
-                    {t('common:vendors.text2', { defaultValue: 'Get started today and accept Verge in your store!' })}
-                    </h3>
-                  </div>
-                  <div className="col-xs-12 col-sm-4 end-sm">
-                    <Link href="https://vergecurrency.com/developers/verge-vendor-integration/">
-                      <a href="https://vergecurrency.com/developers/verge-vendor-integration/" className="btn btn-primary">{t('common:vendors.text3', { defaultValue: 'Accept Verge today' })}</a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </Layout>
