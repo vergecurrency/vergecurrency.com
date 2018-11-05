@@ -21,7 +21,7 @@ function Vendor_Integration(props) {
         <div className="container">
           <Content>
             <div className="rubygems">
-            <h1>{t('vendor-integration:title', { defaultValue: 'Verge Vendor Integration' })}</h1>
+              <h1>{t('vendor-integration:title', { defaultValue: 'Verge Vendor Integration' })}</h1>
               <h2>{t('vendor-integration:netcents:title', { defaultValue: 'NetCents - Verge\'s Preferred Payment Processor' })}</h2>
               <p>{t('vendor-integration:netcents:text', { defaultValue: 'NetCents Technology Inc, the transactional hub for all cryptocurrency payments, equips forward-thinking businesses with the technology to seamlessly integrate cryptocurrency processing into their payment model without taking on the risk or volatility of the crypto market.' })}</p>
               <p>{t('vendor-integration:netcents:text2', { defaultValue: 'For more information, please view NetCents\' video below:' })}</p>
