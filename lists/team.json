@@ -202,7 +202,7 @@
 	"location": "Texas, USA"
       },
       {
-        "img": "../static/img/team/verge.jpg",
+        "img": "../static/img/team/mark.png",
         "name": "Mark",
         "role": "International Marketing Advisor",
         "occupation": "Finance / Credit Specialist",
@@ -220,7 +220,7 @@
 	"location": "Leusden, The Netherlands"
       },
       {
-        "img": "../static/img/team/verge.jpg",
+        "img": "../static/img/team/lloyd.png",
         "name": "Lloyd - Swizzlesticks",
         "role": "Technical Writer & Advisor",
         "occupation": "Owner/CIO - Managed Services Provider",
