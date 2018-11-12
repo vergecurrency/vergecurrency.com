@@ -170,9 +170,9 @@
     },
     {
       "img": "../static/img/exchanges/bitsquare.png",
-      "title": "Bitsquare",
-      "link": "bitsquare.io",
-      "url": "https://bitsquare.io"
+      "title": "Bisq (Bitsquare)",
+      "link": "bisq.network",
+      "url": "https://bisq.network/"
     },
     {
       "img": "../static/img/exchanges/nexchange.png",
