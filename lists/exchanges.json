@@ -181,12 +181,6 @@
       "url": "https://n.exchange"
     },
     {
-      "img": "../static/img/exchanges/cryptohub.jpg",
-      "title": "Cryptohub",
-      "link": "cryptohub.online",
-      "url": "https://cryptohub.online/market/XVG/"
-    },
-    {
       "img": "../static/img/exchanges/bitbns.png",
       "title": "Bitbns",
       "link": "bitbns.com",
