@@ -187,12 +187,6 @@
       "url": "https://bitbns.com/"
     },
     {
-      "img": "../static/img/exchanges/cryptomate.png",
-      "title": "Cryptomate",
-      "link": "cryptomate.co.uk",
-      "url": "https://cryptomate.co.uk/"
-    },
-    {
       "img": "../static/img/exchanges/coindeal.png",
       "title": "CoinDeal",
       "link": "coindeal.com",
@@ -203,12 +197,6 @@
       "title": "Bitvavo",
       "link": "bitvavo.com",
       "url": "https://bitvavo.com/"
-    },
-    {
-      "img": "../static/img/exchanges/bitminereu.png",
-      "title": "Bitminer.eu",
-      "link": "bitminer.eu",
-      "url": "https://bitminer.eu/"
     },
     {
       "img": "../static/img/exchanges/simpleswap.png",
