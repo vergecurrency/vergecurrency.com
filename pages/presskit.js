@@ -23,7 +23,8 @@ function Presskit(props) {
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t('presskit:ribbon.title') }} />
-                  <p>{t('presskit:ribbon.text')}</p>		  
+                  <p>{t('presskit:ribbon.text')}</p>
+                  <a href="/static/branding-guide/brandguideline-verge.pdf" target="_blank" rel="noopener" className="btn btn-primary">{t('presskit:ribbon.buttonPrimary', {defaultValue: 'Download complete kit'})}</a>
                 </div>
               </div>
             </div>
