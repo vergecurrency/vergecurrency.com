@@ -7,13 +7,13 @@
       "url": "https://www.binance.com/?ref=28698668"
     },
     {
-      "img": "../static/img/exchanges/huobi.jpg",
+      "img": "../static/img/exchanges/huobi.png",
       "title": "Huobi",
       "link": "huobi.com",
       "url": "https://www.hbg.com/en-us/topic/invited/?invite_code=pcjt3"
     },
     {
-      "img": "../static/img/exchanges/bittrex-192.png",
+      "img": "../static/img/exchanges/bittrex.png",
       "title": "Bittrex",
       "link": "bittrex.com",
       "url": "https://bittrex.com"
@@ -61,13 +61,13 @@
       "url": "https://verge.coinswitch.co"
     },
     {
-      "img": "../static/img/exchanges/indacoin.svg",
+      "img": "../static/img/exchanges/indacoin.png",
       "title": "Indacoin",
       "link": "indacoin.com",
       "url": "https://indacoin.com/en_GB/change?discount=85519"
     },
     {
-      "img": "../static/img/exchanges/xchange.svg",
+      "img": "../static/img/exchanges/xchangeme.png",
       "title": "Xchange",
       "link": "Xchange.me",
       "url": "https://xchange.me/"
