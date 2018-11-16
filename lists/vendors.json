@@ -435,20 +435,6 @@
             }
         },
         {
-            "title": "Souilmi",
-            "img": "../static/img/vendors/latest/souilmi.png",
-            "link": "souilmi.com",
-            "url": "https://www.souilmi.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Boatsters",
             "img": "../static/img/vendors/latest/boatsters.png",
             "link": "boatsters.com",
@@ -484,20 +470,6 @@
             "categories": {
                 "retail": true,
                 "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Incredebites",
-            "img": "../static/img/vendors/latest/incredebites.png",
-            "link": "Incredebites Burbank",
-            "url": "https://www.yelp.com/biz/incredebites-burbank",
-            "categories": {
-                "retail": false,
-                "foodAndBev": true,
                 "service": false,
                 "entertainment": false,
                 "travel": false,
