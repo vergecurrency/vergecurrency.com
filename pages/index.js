@@ -40,6 +40,7 @@ function Home(props) {
               'Verge - Secure and anonymous cryptocurrency, built for everyday use - VergeCurrency.com',
           })}
         </title>
+        <link rel='image_src' href='/static/img/press/logo/verge-logo.png' />        
       </Head>
       <div className="home">
         <div className="ribbon">
