@@ -30,15 +30,6 @@
 	"location": "The Netherlands"
       },
       {
-        "img": "../static/img/team/edwin.jpg",
-        "name": "Edwin - EdwinB89",
-        "role": "Front-end Developer",
-        "occupation": "Front-end developer",
-        "github": "https://github.com/EdwinB89",
-        "twitter": "",
-	"location": "The Netherlands"
-      },
-      {
         "img": "../static/img/team/sourcedexter.jpg",
         "name": "Akshay - Sourcedexter",
         "role": "Bot Dev & India Marketing Lead",
