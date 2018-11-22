@@ -169,12 +169,6 @@
       "url": "https://novaexchange.com/market/BTC_XVG/"
     },
     {
-      "img": "../static/img/exchanges/bisq_bitsquare.png",
-      "title": "Bisq (Bitsquare)",
-      "link": "bisq.network",
-      "url": "https://bisq.network/"
-    },
-    {
       "img": "../static/img/exchanges/nexchange.png",
       "title": "N.exchange",
       "link": "n.exchange",
