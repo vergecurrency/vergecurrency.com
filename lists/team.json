@@ -175,15 +175,6 @@
 	"location": "USA"
       },
       {
-        "img": "../static/img/team/verge.jpg",
-        "name": "ddefying",
-        "role": "Technical Advisor",
-        "occupation": "Corporate Transaction Attorney",
-        "github": "",
-        "twitter": "https://twitter.com/cheetosologist",
-	"location": "California, USA"
-      },
-      {
         "img": "../static/img/team/jeffs1.png",
         "name": "Jeff",
         "role": "Technical Advisor",
@@ -331,6 +322,24 @@
         "github": "",
         "twitter": "https://twitter.com/Verge_forums",
 	"location": "The Netherlands"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "NiteShadow",
+        "role": "IT/Content Marketing Strategist",
+        "occupation": "",
+        "github": "",
+        "twitter": "https://twitter.com/NiteShadowXVG",
+	"location": "New York, USA"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Alchemi",
+        "role": "Multimedia Designer",
+        "occupation": "",
+        "github": "",
+        "twitter": "",
+	"location": "New York, USA"
       }
     ]
   },
