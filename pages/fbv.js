@@ -21,7 +21,7 @@ function FBV(props) {
 
 
 <div class="fbvRibbon">
-	<img src="static/img/fbv/topBannerRibbon.png" alt="Fueled by Verge" styles="width:100%;"></img>
+	<img src="/static/img/fbv/topBannerRibbon.png" alt="Fueled by Verge" styles="width:100%;"></img>
 		<div class="fbvRibbonHeading">Fueled by Verge</div><br />
 		<div class="fbvRibbonHeadingSub2">Commitment to massadoption by spreading awareness of cryptocurrencies and Verge.</div>
 </div>	
@@ -54,9 +54,9 @@ function FBV(props) {
 
 <div class="fbvAthletes">
 	<div class="fbvAthletesRow">
-		<div class="fbvAthletesColumn"><a href="https://www.instagram.com/141mx/" target="_blank"><img src="static/img/fbv/dannyRobertson.png" alt="Danny Robertson Fueled by Verge" styles="width:100%"></img></a></div>
-		<div class="fbvAthletesColumn"><a href="https://www.instagram.com/gillinster/?hl=en" target="_blank"><img src="static/img/fbv/gilLinster.png" alt="Gil Linster Fueled by Verge" styles="width:100%"></img></a></div>
-		<div class="fbvAthletesColumn"><a href="https://vergecurrency.com/community/send-an-email/"><img src="static/img/fbv/yourSport.png" alt="Your Sport Fueled by Verge" styles="width:100%"></img></a></div>
+		<div class="fbvAthletesColumn"><a href="https://www.instagram.com/141mx/" target="_blank"><img src="/static/img/fbv/dannyRobertson.png" alt="Danny Robertson Fueled by Verge" styles="width:100%"></img></a></div>
+		<div class="fbvAthletesColumn"><a href="https://www.instagram.com/gillinster/?hl=en" target="_blank"><img src="/static/img/fbv/gilLinster.png" alt="Gil Linster Fueled by Verge" styles="width:100%"></img></a></div>
+		<div class="fbvAthletesColumn"><a href="https://vergecurrency.com/community/send-an-email/"><img src="/static/img/fbv/yourSport.png" alt="Your Sport Fueled by Verge" styles="width:100%"></img></a></div>
 	</div>
 </div>
 
@@ -85,7 +85,7 @@ function FBV(props) {
 
 
 <div class="fbvMotoBG">
-	<img src="static/img/fbv/motocrossBike.png" alt="Motocross Fueled by Verge"></img>
+	<img src="/static/img/fbv/motocrossBike.png" alt="Motocross Fueled by Verge"></img>
 </div>	
 
 
