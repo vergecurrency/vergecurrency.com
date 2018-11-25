@@ -6,16 +6,16 @@
 }
 	
 .fbvRibbon {	
-    /*position: relative;*/
     text-align: center;
-  	background-color: #f5f7fa;
-	
+    background-color: #f5f7fa;
+    position: relative;
+    min-height: rem(930px);
 }
 	
 	
 .fbvRibbonHeading {	
 	position: absolute;
-    top: 10%;
+    top: 14%;
     left: 50%;
     transform: translate(-50%, -50%);	
 	  color: #1db6dc;
