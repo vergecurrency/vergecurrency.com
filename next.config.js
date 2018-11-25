@@ -28,6 +28,7 @@ module.exports = {
       '/faq/mining': { page: '/faq/mining' },
       '/faq/privacy': { page: '/faq/privacy' },
       '/faq/wallets': { page: '/faq/wallets' },
+      '/fbv': { page: '/fbv' },
       '/get-verge': { page: '/get-verge' },
       '/guides/getting-started': { page: '/guides/getting-started' },
       '/guides/how-to-buy-verge': { page: '/guides/how-to-buy-verge' },
