@@ -27,7 +27,6 @@ body {
 li {
   margin-bottom: .25rem;
   margin-top: .25rem;
-  color: #FFFFFF;
 }
 
 a {
@@ -121,9 +120,7 @@ p {
 }
 
 ul {
-  &.no-style a {
+  &.no-style {
     list-style: none;
-    color: #1db6dc;
   }
 }
-
