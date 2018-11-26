@@ -1,232 +1,425 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* this is the ribbon height, bg color and bg image */
+
+.ribbon--fbv {
+  min-height: 45rem;
+  background: #042c42;
+  /*background: url(/static/img/fbv/topBannerRibbon.png) no-repeat center center;*/
+  background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
+  background-size: cover;
+  
+}
+
+
+.fbvSticker {
+  position: absolute;
+  top: 50%;
+  max-width: 8%;
+  left: 25%;
+  z-index: 8;
+}
+
+@media only screen and (min-width: 1024px) {
+  .fbvSticker {
+    position: absolute;
+    top: 60%;
+    max-width: 10%;
+    left: 15%;
+    z-index: 8;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .fbvSticker {
+    position: absolute;
+    top: 50%;
+    max-width: 15%;
+    left: 25%;
+    z-index: 8;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .fbvSticker {
+    position: absolute;
+    top: 60%;
+    max-width: 20%;
+    left: 25%;
+    z-index: 8;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .fbvSticker {
+    position: absolute;
+    top: 70%;
+    max-width: 20%;
+    left: 25%;
+    z-index: 8;
+  }
+}
+
+
+
+
+
+.fbvBike {
+  position: absolute;
+  /* padding-top: 200px; */
+  top: 45%;
+  max-width: 35%;
+  left: 30%;
+  z-index: 8;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .fbvBike {
+    position: absolute;
+    /* padding-top: 200px; */
+    top: 45%;
+    max-width: 55%;
+    left: 30%;
+    z-index: 8;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .fbvBike {
+    position: absolute;
+    /* padding-top: 200px; */
+    top: 55%;
+    max-width: 75%;
+    left: 20%;
+    z-index: 8;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .fbvBike {
+    position: absolute;
+    /* padding-top: 200px; */
+    top: 55%;
+    max-width: 75%;
+    left: 20%;
+    z-index: 8;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .fbvBike {
+    position: absolute;
+    /* padding-top: 200px; */
+    top: 75%;
+    max-width: 100%;
+    left: 5%;
+    z-index: 8;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.fbv-grid {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px !important;
+  text-align: center;
+}
+
+
+@media (min-width: 75em) {
+.fbv-grid {
+  margin: 35px 0px;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 50% 50%;
+  grid-auto-flow: row;
+  text-align: center;
+}
+}
+
+
+@media (min-width: 64em) {
+.fbv-grid {
+  margin: 35px 0px;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 50% 50%;
+  grid-auto-flow: row;
+  text-align: center;
+}
+}
+
+@media (min-width: 48em) {
+.fbv-grid {
+  grid-template-rows: 100%;
+  grid-auto-flow: column;
+  margin: 15px 0px;
+  text-align: center;
+}
+}
+
+
+
+.fbv_react-expand-collapse__content {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.fbv_react-expand-collapse__body {
+  display: inline;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ORIGINAL FBV CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 .divTable {
-	display: table;
-	width: 100%;
-	text-align: center;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  display: table;
+  width: 100%;
+  text-align: center;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-	
-.fbvRibbon {	
-    text-align: center;
-    background-color: #f5f7fa;
-    position: relative;
-    min-height: rem(930px);
+  
+.fbvRibbon {  
+  position: relative;
+  text-align: center;
+  background-color: #f5f7fa;
+  
 }
-	
-	
-.fbvRibbonHeading {	
-	position: absolute;
-    top: 14%;
-    left: 50%;
-    transform: translate(-50%, -50%);	
-	  color: #1db6dc;
-    font-size: 3rem;
-    font-weight: 600;
-  	text-transform: uppercase;
-  	font-style: italic;
-	  font-family: "Avenir Next", "Lato", Arial, sans-serif;
-}
-	
-.fbvRibbonHeadingSub {	
-	position: absolute;
-  top: 13%;
+  
+  
+.fbvRibbonHeading {
+  position: absolute;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);	
-  color: #FFFFFF;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #1db6dc;
   font-size: 2rem;
-  font-weight: 300;
-	text-transform: none;
-	padding-top: 25px;
-	font-style: normal;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-	
-.fbvRibbonHeadingSub2 {	
-	position: absolute;
-  top: 19%;
+  
+.fbvRibbonHeadingSub2 {
+  position: absolute;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #647886;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   text-transform: none;
   font-style: normal;
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-	
-	
+  
+.fbvRibbonHeadingSub2 { 
+  /* position: absolute; */
+  /*top: 25%;*/
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: #647886;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
+}
+  
+  
 @media screen and (max-width: 900px) {
 .fbvRibbonHeading {
-	position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);	
-	color: #1db6dc;
-    font-size: 3rem;
-    font-weight: 600;
-	line-height: 3.5rem;
-	text-transform: uppercase;
-	font-style: italic;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  /* position: absolute; */
+  /* top: 10%; */
+  /* left: 50%; */
+  /* -webkit-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+  color: #1db6dc;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
-}	
-	
+} 
+  
 
 @media screen and (max-width: 600px) {
 .fbvRibbonHeading {
-	position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);	
-	color: #1db6dc;
-    font-size: 2.5rem;
-    font-weight: 600;
-	line-height: 3.5rem;
-	text-transform: uppercase;
-	font-style: italic;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  /* position: absolute; */
+  /* top: 10%; */
+  /* left: 50%; */
+  /* -webkit-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */ 
+  color: #1db6dc;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
 }
-	
-	
+  
+  
 
 @media screen and (max-width: 900px) {
 .fbvRibbonHeadingSub {
-	position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);	
-	color: #FFFFFF;
-    font-size: 1.5rem;
-    font-weight: 300;
-	text-transform: none;
-	padding-top: 25px;
-	font-style: normal;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  /* position: absolute; */
+  /*top: 15%;*/
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */ 
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: none;
+  padding-top: 25px;
+  font-style: normal;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
-}	
+} 
 
 @media screen and (max-width: 600px) {
 .fbvRibbonHeadingSub {
-	position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);	
-	color: #FFFFFF;
-    font-size: 1.5rem;
-    font-weight: 300;
-	text-transform: none;
-	padding-top: 25px;
-	font-style: normal;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  /* position: absolute; */
+  /*top: 15%;*/
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: none;
+  padding-top: 25px;
+  font-style: normal;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
 }
-	
+  
 
-	
-	
+  
+  
 @media screen and (max-width: 900px) {
 .fbvRibbonHeadingSub2 {
-	position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #647886;
-    font-size: 1rem;
-    font-weight: 300;
-    text-transform: none;
-    font-style: normal;
-    font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  /* position: absolute; */
+  /*top: 25%;*/
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: #647886;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
-}	
-	
+} 
+  
 @media screen and (max-width: 600px) {
 .fbvRibbonHeadingSub2 {
-	position: absolute;
-    top: 24%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #647886;
-    font-size: 1rem;
-    font-weight: 300;
-    text-transform: none;
-    font-style: normal;
-    font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  /* position: absolute; */
+  /*top: 25%;*/
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: #647886;
+  font-size: 1.5rem;
+  padding-top:60px;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
 }
-	
-	
-		
-	
-	
-	
-	
-	
-/*	
+  
+  
+    
+  
+  
+  
+  
+  
+/*  
 .fbvRibbon {
-	display: table;
-	width: 100%;
-	min-height: 750px;
-	background-image: url("images/topBannerRibbon.png");
+  display: table;
+  width: 100%;
+  min-height: 750px;
+  background-image: url("images/topBannerRibbon.png");
     background-color: #f5f7fa;
-	background-repeat: no-repeat, repeat;
-	text-align: center;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
-}	
+  background-repeat: no-repeat, repeat;
+  text-align: center;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
+} 
 
-	
-	
+  
+  
 .fbvRibbonHeading {
-	color: #1db6dc;
+  color: #1db6dc;
     font-size: 1rem;
     font-weight: 600;
-	vertical-align: middle;
+  vertical-align: middle;
     text-align: center;
-	text-transform: uppercase;
-	font-style: italic;
-	margin-top: 50px;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-top: 50px;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-	
-	
+  
+  
 .fbvRibbonHeadingSub {
-	color: #FFFFFF;
+  color: #FFFFFF;
     font-size: 1.7rem;
     font-weight: 600;
-	vertical-align: middle;
+  vertical-align: middle;
     text-align: center;
-	margin-top: -20%;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  margin-top: -20%;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-	
+  
 .fbvRibbonHeadingSub2 {
-	color: #CCCCCC;
+  color: #CCCCCC;
     font-size: 0.9rem;
     font-weight: 400;
-	vertical-align: middle;
+  vertical-align: middle;
     text-align: center;
-	margin-top: -15%;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  margin-top: -15%;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
-*/	
+*/  
 
 .fbvAbout {
-	display: table;
-	/*width: 100%;*/
-	/*max-width: 800px;*/
+  display: table;
+  /*width: 100%;*/
+  /*max-width: 800px;*/
     /*margin: auto;*/
-	padding-left: 25%;
-	padding-right: 25%;
-	padding-bottom: 5%;
-  	background-color: #f5f7fa;
-	text-align: center;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 5%;
+    background-color: #f5f7fa;
+  text-align: center;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
 
-	
-	
-	
+  
+  
+  
 .fbvAthletes {
     display: table;
     width: 80%;
@@ -234,41 +427,37 @@
     text-align: center;
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-	
+  
 .fbvAthletesRow {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 4px;
-	margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: auto;
     width: 100%;
-}	
-	
+} 
+  
 .fbvAthletesColumn {
-  -webkit-box-flex: 25%;
-  -ms-flex: 25%;
-  /* flex: 25%; */
-  margin-left: auto;
-  margin-right: auto !important;
-  text-align: center;
-  /* max-width: 25%; */
-  /* padding: 0 4px; */
-  margin-right: 1rem;
+    flex: 25%;
+    /* max-width: 25%; */
+    /* padding: 0 4px; */
+    margin-right: 1rem;
 }
 
 
 .fbvAthletesColumn img {
   /*margin-top: 8px;*/
-	display: block;
+  display: block;
+  vertical-align: middle;
 }
-	
-	
-	
+  
+  
+  
 .fbvAthletesColumn:hover {
     -webkit-box-shadow: 0 0 3.125rem rgba(120, 203, 235, 0.39);
     box-shadow: 0 0 3.125rem rgb(120, 203, 235);
 }
-	
-	
+  
+  
 /* Responsive layout - makes photos two column-layout instead of three columns */
 @media screen and (max-width: 900px) {
 .fbvAthletesColumn {
@@ -285,9 +474,9 @@
   }
 }
 
-	
-	
-	
+  
+  
+  
 
 .fbvCommunity {
     display: table;
@@ -299,24 +488,32 @@
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
-	
-	
-	
-	
-	
-	
+  
+  
+  
+.fbvMotoBike {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  max-width: 100% !important;
+}
+  
+
+
+
+  
+  
 .fbvMotoBG {
     background-repeat: no-repeat, repeat;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    /*width: 65%;*/
+    width: 65%;
     /*min-height: 525px;*/
     padding-bottom: 25px;
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
-}	
-	
-	
+} 
+  
+  
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
 .fbvMotoBG {
@@ -331,47 +528,43 @@
     flex: 100%;
     max-width: 100%;
   }
-}	
-	
-	
+} 
+  
+  
 .fbvMotoContent {
-	display: table;
-	/*width: 100%;*/
-	max-width: 800px;
+  display: table;
+  /*width: 100%;*/
+  max-width: 800px;
     margin: auto;
-  	background-color: #ffffff;
-	text-align: left;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+    background-color: #ffffff;
+  text-align: left;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
 .divTableRow {
-	display: table-row;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  display: table-row;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
 
 .fbvHeading {
-	color: #091721;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: center;
-	margin-top: 50px;
-	margin-bottom: 25px;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  color: #091721;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
-	
+  
 .fbvAthletesHeading {
     color: #091721;
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 25px;
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
-}	
-	
-	
+} 
+  
+  
 .fbvCommunityHeading {
     color: #091721;
     font-size: 2rem;
@@ -380,8 +573,8 @@
     margin-bottom: 25px;
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-	
-	
+  
+  
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
 .fbvCommunityHeading {
@@ -402,188 +595,82 @@
     text-align: center;
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
-}	
-	
-	
+} 
+  
+  
 .divTableCell, .divTableHead {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 3px 10px;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
 
 
 .divTableCell {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-  	margin-bottom: 50px;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 3px 10px;
+    margin-bottom: 50px;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
 
 
 
 .divTableCell, .bottomPadding {
-	border: 0px solid #ffffff;
-	display: table-cell;
-	padding: 3px 10px;
-  	margin-bottom: 30px;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  border: 0px solid #ffffff;
+  display: table-cell;
+  padding: 3px 10px;
+    margin-bottom: 30px;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
 
 
 .divTableHeading {
-	background-color: #EEE;
-	display: table-header-group;
-	font-weight: bold;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
 
 .divTableFoot {
-	background-color: #EEE;
-	display: table-footer-group;
-	font-weight: bold;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
 
 .divTableBody {
-	display: table-row-group;
-	font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  display: table-row-group;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
-	
+  
 a {
     color: #ffffff;
     text-decoration: none;
 }
-	
+  
 .fbvButton:hover {
     -webkit-box-shadow: 0 0 3.125rem rgba(120, 203, 235, 0.39);
     box-shadow: 0 0 3.125rem rgb(120, 203, 235);
     color: #fff;
 }
-	
+  
 .fbvButton {
     background-color: #1db6dc;
     border: none;
-	border-radius: 30px;
+  border-radius: 30px;
     color: white;
-	margin-top: 50px;
+  margin-top: 50px;
     padding: 10px 32px;
     text-align: center;
-	text-transform: uppercase;
+  text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
- 
- 
- /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
- // scss-lint:disable ColorVariable
-.about {
-  .btn-github {
-    @media (min-width: $min-width-sm) {
-      padding-left: rem(52px);
-    }
-
-    &::before {
-      background-image: url("/static/img/github.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      content: "";
-      height: rem(20px);
-      margin-left: -2rem;
-      position: absolute;
-      width: rem(20px);
-    }
-  }
-
-  .team {
-    &--member {
-      width: 100%;
-
-      .flexIt {
-        display: flex;
-        justify-content: start;
-
-        @media screen and (max-width:767px) {
-          justify-content: center;
-        }
-      }
-
-      h3 {
-        margin-top: 1rem;
-      }
-
-      .socials {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-      }
-
-      .icon {
-        height: 16px;
-        width: 16px;
-        display: block;
-        background-size: cover;
-        margin-top: 2px;
-        &.iconlink {
-          margin-left: 10px;
-        }
-        &--twitter {
-          background-image: url(/static/img/team/icons/twitter.svg);
-        }
-        &--github {
-          background-image: url(/static/img/team/icons/github.svg);
-        }
-      }
-
-      .hidden {
-        display:none;
-      }
-    }
-  }
-
-  .contributors {
-    &--item {
-      border: 1px solid #ececec;
-      display: block;
-      margin-bottom: rem(15px);
-      padding: .75rem;
-
-      img {
-        background: $pacific-blue-1;
-        // min-height: 134px;
-        height: auto;
-        width: auto;
-        max-width: 140px;
-      }
-
-      &__author {
-        color: #000;
-        font-size: rem(14px);
-        font-weight: 700;
-        padding-bottom: rem(5px);
-        text-align: center;
-      }
-
-      &__profile {
-        border-top: 1px solid #ececec;
-        padding-top: rem(5px);
-        text-align: center;
-
-        a {
-          color: #4e4e4e;
-          font-size: .75rem;
-          font-weight: 600;
-        }
-      }
-    }
-  }
 }
