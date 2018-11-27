@@ -83,7 +83,7 @@ function FBV(props) {
 		   <img src="/static/img/fbv/motocrossBike.png"></img>
 		 </div>
   		 <div class="col-xs-12 col-sm-8">
-		  <p>The goal of #FueledByVerge is to showcase the utility of Verge through events by its' community. Our Verge Currency team is the first team that is "Fueled by Verge" in both design and spirit. <br /><br />
+		  <p>The goal of #FueledByVerge is to showcase the utility of Verge through events by its community. Our Verge Currency team is the first team that is "Fueled by Verge" in both design and spirit. <br /><br />
 		   FbV wants to showcase the strength and community of Verge by helping Sponsored individuals, thus bringing increased awareness of Verge Currency in general. <br /><br />
 		   FbV also wishes to help people by promoting their events and achievements.  This will allow them to gain more support as an individual or team from the project they believe in.  FbV will promote their bios, event schedules, and how to find them. All of this will be done to increase media presence and brand awareness.</p>
 		  <div class="fbvButton"><a href="https://vergecurrency.com/community/send-an-email/">Join the Movement</a></div>
