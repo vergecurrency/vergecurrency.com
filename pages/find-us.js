@@ -62,9 +62,9 @@ function FindUs(props) {
     <div class="divTableRow">
         <div class="divTableCell"><a href="https://t.me/VERGExvg" target="_blank"><img src="/static/img/find-us/telegram.png" alt="Telegram" title="Telegram"></img></a></div>
         <div class="divTableCell"> <a href="https://www.facebook.com/VERGEcurrency" target="_blank"><img src="/static/img/find-us/facebook.png" alt="Facebook" title="Facebook"></img></a></div>
-        <div class="divTableCell"><a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank"><img src="/static/img/find-us/youtube.png" alt="YouTube" title="YouTube"></img></a></div>
+        <div class="divTableCell"><a href="https://www.youtube.com/c/vergecurrency" target="_blank"><img src="/static/img/find-us/youtube.png" alt="YouTube" title="YouTube"></img></a></div>
         <div class="divTableCell"><a href="https://github.com/vergecurrency?tab=repositories" target="_blank"><img src="/static/img/find-us/github.png" alt="GitHub" title="GitHub"></img></a></div>
-        <div class="divTableCell"><a href="https://vergecurrency.com/community/get-involved" target="_blank"><img src="/static/img/find-us/email.png" alt="Email" title="Email"></img></a></div>
+        <div class="divTableCell"><a href="/community/send-an-email" target="_blank"><img src="/static/img/find-us/email.png" alt="Email" title="Email"></img></a></div>
     </div>
     <div class="divTableRow">
         <div class="divTableCell">Telegram</div>
