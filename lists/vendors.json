@@ -1736,20 +1736,6 @@
                 "travel": false,
                 "education": false
             }
-        },
-        {
-            "title": "Verge Mines",
-            "img": "../static/img/vendors/latest/vergemines.png",
-            "link": "vergemines.com",
-            "url": "https://www.vergemines.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": true,
-                "travel": false,
-                "education": false
-            }
         }
     ]
 }
