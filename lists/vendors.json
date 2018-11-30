@@ -211,14 +211,14 @@
             }
         },
         {
-            "title": "BIM Trainings",
-            "img": "../static/img/vendors/latest/blm.jpg",
-            "link": "bimtrainings.com/",
-            "url": "http://bimtrainings.com/",
+            "title": "Anna Freya Voice",
+            "img": "../static/img/vendors/latest/annafreyavoice.png",
+            "link": "anna-freya-voice.com",
+            "url": "https://www.anna-freya-voice.com/",
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
-                "service": false,
+                "service": true,
                 "entertainment": false,
                 "travel": false,
                 "education": true
@@ -280,6 +280,20 @@
                 "education": false
             }
         },
+        {
+            "title": "BIM Trainings",
+            "img": "../static/img/vendors/latest/blm.jpg",
+            "link": "bimtrainings.com/",
+            "url": "http://bimtrainings.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": true
+            }
+        },        
         {
             "title": "Evolution Host",
             "img": "../static/img/vendors/latest/evolutionhost.png",
