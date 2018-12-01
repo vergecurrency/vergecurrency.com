@@ -13,6 +13,12 @@
       "url": "https://www.hbg.com/en-us/topic/invited/?invite_code=pcjt3"
     },
     {
+      "img": "../static/img/exchanges/bithumb.png",
+      "title": "Bithumb",
+      "link": "bithumb.com",
+      "url": "https://www.bithumb.com/trade/order/XVG"
+    },
+    {
       "img": "../static/img/exchanges/bittrex.png",
       "title": "Bittrex",
       "link": "bittrex.com",
@@ -29,7 +35,7 @@
       "title": "Bitcoin Meester",
       "link": "bitcoinmeester.nl",
       "url": "https://www.bitladon.com/Verge?r=100021746"
-    },    
+    },
     {
       "img": "../static/img/exchanges/upbit.png",
       "title": "UPBit",
@@ -41,7 +47,7 @@
       "title": "Bitfinex",
       "link": "bitfinex.com",
       "url": "https://bitfinex.com"
-    },   
+    },
     {
       "img": "../static/img/exchanges/fexpro.png",
       "title": "FexPro",
