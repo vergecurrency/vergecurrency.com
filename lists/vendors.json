@@ -211,6 +211,20 @@
             }
         },
         {
+            "title": "247Bits",
+            "img": "../static/img/vendors/latest/247bits.png",
+            "link": "247bits.com",
+            "url": "https://www.247bits.com/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": true
+            }
+        },
+        {
             "title": "Anna Freya Voice",
             "img": "../static/img/vendors/latest/annafreyavoice.png",
             "link": "anna-freya-voice.com",
