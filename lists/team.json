@@ -211,7 +211,7 @@
 	"location": "New Jersey, USA"
       },
       {
-        "img": "../static/img/team/verge.jpg",
+        "img": "../static/img/team/jimbobaroobob.jpg",
         "name": "Joel - Jimbobaroobob",
         "role": "Commercial Strategy",
         "occupation": "Director",
@@ -315,7 +315,7 @@
 	"location": "The Netherlands"
       },
       {
-        "img": "../static/img/team/verge.jpg",
+        "img": "../static/img/team/niteshadow.jpg",
         "name": "NiteShadow",
         "role": "IT/Content Marketing Strategist",
         "occupation": "",
@@ -324,12 +324,12 @@
 	"location": "New York, USA"
       },
       {
-        "img": "../static/img/team/verge.jpg",
+        "img": "../static/img/team/alchemi.jpg",
         "name": "Alchemi",
         "role": "Multimedia Designer",
         "occupation": "",
         "github": "",
-        "twitter": "",
+        "twitter": "https://twitter.com/alchemi_co",
 	"location": "New York, USA"
       }
     ]
