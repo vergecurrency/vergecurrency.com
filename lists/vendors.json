@@ -239,6 +239,34 @@
             }
         },
         {
+            "title": "Computerman",
+            "img": "../static/img/vendors/latest/computerman.png",
+            "link": "computerman.gr",
+            "url": "https://www.computerman.gr/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "MX4LIFE Online",
+            "img": "../static/img/vendors/latest/mx4life.png",
+            "link": "141mx.com",
+            "url": "https://141mx.com/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }    
+        },
+        {
             "title": "Tree of Life Guitars",
             "img": "../static/img/vendors/latest/treeoflifeguitars.png",
             "link": "treeoflifeguitars.co.uk",
