@@ -885,8 +885,8 @@
         {
             "title": "Mobisun",
             "img": "../static/img/vendors/latest/Mobisun.png",
-            "link": "mobisun.com/",
-            "url": "https://www.mobisun.com/",
+            "link": "mobisun.com",
+            "url": "https://www.mobisun.com",
             "categories": {
                 "retail": true,
                 "foodAndBev": false,
