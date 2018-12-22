@@ -83,7 +83,7 @@
                 "travel": false,
                 "education": false
             }
-        },       
+        },
         {
             "title": "DIOXYME",
             "img": "../static/img/vendors/latest/dioxyme.png",
@@ -125,7 +125,7 @@
                 "travel": false,
                 "education": false
             }
-        },        
+        },
         {
             "title": "Crypto House of Poker",
             "img": "../static/img/vendors/latest/cryptopokerclub.png",
@@ -264,7 +264,7 @@
                 "entertainment": false,
                 "travel": false,
                 "education": false
-            }    
+            }
         },
         {
             "title": "Tree of Life Guitars",
@@ -335,7 +335,7 @@
                 "travel": false,
                 "education": true
             }
-        },        
+        },
         {
             "title": "Evolution Host",
             "img": "../static/img/vendors/latest/evolutionhost.png",
@@ -896,7 +896,7 @@
                 "education": false
             }
         },
-        
+
         {
             "title": "Cart-King.com",
             "img": "../static/img/vendors/latest/cartking.png",
@@ -1784,6 +1784,20 @@
             "img": "../static/img/vendors/latest/royalqueenseeds.png",
             "link": "royalqueenseeds.com",
             "url": "https://www.royalqueenseeds.com",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "Domains-Index",
+            "img": "../static/img/vendors/latest/domains-index.png",
+            "link": "domains-index.com",
+            "url": "https://domains-index.com",
             "categories": {
                 "retail": true,
                 "foodAndBev": false,
