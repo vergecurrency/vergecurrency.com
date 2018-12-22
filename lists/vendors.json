@@ -1780,6 +1780,20 @@
             }
         },
         {
+            "title": "Royal Queen Seeds",
+            "img": "../static/img/vendors/latest/royalqueenseeds.png",
+            "link": "royalqueenseeds.com",
+            "url": "https://www.royalqueenseeds.com",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "Domains-Index",
             "img": "../static/img/vendors/latest/domains-index.png",
             "link": "domains-index.com",
