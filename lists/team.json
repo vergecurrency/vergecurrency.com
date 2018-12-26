@@ -184,15 +184,6 @@
 	"location": "Alberta, Canada"
       },
       {
-        "img": "../static/img/team/verge.jpg",
-        "name": "Ernstjan",
-        "role": "Vendor Outreach",
-        "occupation": "Management Consultant",
-        "github": "",
-        "twitter": "https://twitter.com/ernstjanalbers",
-	"location": "Leusden, The Netherlands"
-      },
-      {
         "img": "../static/img/team/lloyd.png",
         "name": "Lloyd - Swizzlesticks",
         "role": "Technical Writer & Advisor",
