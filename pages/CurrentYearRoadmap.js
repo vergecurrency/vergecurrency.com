@@ -32,7 +32,7 @@ const roadMap = [
     title: 'Merchandise Online Store',
     description:
       'Verge branded apparel that can be purchased with XVG and BTC.',
-    progress: 90,
+    progress: 90.5,
     progressState: 'testing products',
   },
   {
@@ -40,7 +40,7 @@ const roadMap = [
     doneDate: '',
     title: 'Mining Update',
     description: 'XVGui Miner for Windows, Official Mining Pool & Mining Guide',
-    progress: 75,
+    progress: 80,
     progressState: 'work in progress',
   },
   {
@@ -49,7 +49,7 @@ const roadMap = [
     title: 'Rebased Codebase',
     description:
       'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
-    progress: 90,
+    progress: 95,
     progressState: 'rebasing',
   },
   {
@@ -58,7 +58,7 @@ const roadMap = [
     title: 'Desktop Wallet',
     description:
       'Electron based wallet with better performance and minimalistic UI design',
-    progress: 80,
+    progress: 85,
     progressState: 'preparing release',
   },
   {
@@ -67,7 +67,7 @@ const roadMap = [
     title: 'RingCT Integration',
     description:
       'Ring Confidential Transactions - advanced masking of transaction amounts',
-    progress: 35,
+    progress: 45,
     progressState: 'integrating',
   },
   {
@@ -84,7 +84,7 @@ const roadMap = [
     title: 'Official iOS wallet',
     description:
       'iOS wallet with full-fledged feature set like a normal wallet.',
-    progress: 45,
+    progress: 50,
     progressState: 'development ongoing',
   },
 ];
