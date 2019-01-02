@@ -99,20 +99,6 @@
             }
         },
         {
-            "title": "Crypto Planet",
-            "img": "../static/img/vendors/latest/cryptoplanet.png",
-            "link": "cryptoplanet.store",
-            "url": "https://www.cryptoplanet.store",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "euGenius Vision",
             "img": "../static/img/vendors/latest/euGenius-vision.png",
             "link": "eugeniusvision.com",
