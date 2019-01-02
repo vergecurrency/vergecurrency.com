@@ -982,20 +982,6 @@
             }
         },
         {
-            "title": "Watch Wizard",
-            "img": "../static/img/vendors/latest/watchwizard.png",
-            "link": "watchwizard.co.uk",
-            "url": "http://watchwizard.co.uk",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "AMG-IT Solutions",
             "img": "../static/img/vendors/latest/amgsitolutions.png",
             "link": "amg-it.co.uk",
