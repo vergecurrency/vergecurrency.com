@@ -85,7 +85,7 @@ const roadMap = [
     description:
       'iOS wallet with full-fledged feature set like a normal wallet.',
     progress: 55,
-    progressState: 'in beta development',
+    progressState: 'in public beta; development ongoing',
   },
 ];
 
