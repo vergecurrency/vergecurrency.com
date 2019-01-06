@@ -85,6 +85,20 @@
             }
         },
         {
+            "title": "Brandable Dots",
+            "img": "../static/img/vendors/latest/brandabledots.png",
+            "link": "brandabledots.com",
+            "url": "https://brandabledots.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },        
+        {
             "title": "DIOXYME",
             "img": "../static/img/vendors/latest/dioxyme.png",
             "link": "shop.dioxyme.com",
@@ -1416,10 +1430,10 @@
             }
         },
         {
-            "title": "ORIC",
-            "img": "../static/img/vendors/latest/oric.png",
-            "link": "oric.space",
-            "url": "https://oric.space/",
+            "title": "Altered Block",
+            "img": "../static/img/vendors/latest/alteredblock.png",
+            "link": "alteredblock.com",
+            "url": "https://www.alteredblock.com/",
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
