@@ -85,6 +85,20 @@
             }
         },
         {
+            "title": "Brandable Group",
+            "img": "../static/img/vendors/latest/brandable.jpg",
+            "link": "brandablegroup.com",
+            "url": "https://brandablegroup.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        }, 
+        {
             "title": "Brandable Dots",
             "img": "../static/img/vendors/latest/brandabledots.png",
             "link": "brandabledots.com",
