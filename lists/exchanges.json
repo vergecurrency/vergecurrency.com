@@ -7,6 +7,12 @@
       "url": "https://www.binance.com/?ref=28698668"
     },
     {
+      "img": "../static/img/exchanges/bittrex.png",
+      "title": "Bittrex",
+      "link": "bittrex.com",
+      "url": "https://bittrex.com"
+    },
+    {
       "img": "../static/img/exchanges/huobi.png",
       "title": "Huobi",
       "link": "huobi.com",
@@ -19,12 +25,6 @@
       "url": "https://www.bithumb.com/trade/order/XVG"
     },
     {
-      "img": "../static/img/exchanges/bittrex.png",
-      "title": "Bittrex",
-      "link": "bittrex.com",
-      "url": "https://bittrex.com"
-    },
-    {
       "img": "../static/img/exchanges/changehero.png",
       "title": "ChangeHero",
       "link": "changehero.io",
@@ -35,6 +35,12 @@
       "title": "Bitcoin Meester",
       "link": "bitcoinmeester.nl",
       "url": "https://www.bitladon.com/Verge?r=100021746"
+    },
+    {
+      "img": "../static/img/exchanges/bitturk.png",
+      "title": "BitTurk",
+      "link": "bitturk.com",
+      "url": "https://bitturk.com/verge-xvgtry"
     },
     {
       "img": "../static/img/exchanges/upbit.png",
