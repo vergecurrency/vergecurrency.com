@@ -26,7 +26,7 @@ export const PartnerInfo = ({ t }) => {
         <div className="partners-grid">
           <div>
             <a href="https://net-cents.com/">
-              <img src="/static/img/partners/netcents.png" alt="tokenpay" />
+              <img src="/static/img/partners/netcents.png" alt="netcents" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.netcents', {
@@ -43,7 +43,7 @@ export const PartnerInfo = ({ t }) => {
           </div>
           <div>
             <a href="https://www.mindgeek.com/">
-              <img src="/static/img/partners/mindgeek.png" alt="tokenpay" />
+              <img src="/static/img/partners/mindgeek.png" alt="mindgeek" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.mindgeek', {
@@ -53,22 +53,6 @@ export const PartnerInfo = ({ t }) => {
                 state of technology forward, developing industry-leading solutions
                 enabling faster, more efficient delivery of content every second
                 to millions of customers worldwide.`
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
-            <a href="https://www.tokenpay.com/">
-              <img src="/static/img/partners/tokenpay.png" alt="tokenpay" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.tpay', {
-                defaultValue: `TokenPay was created with the fundamental desire to bridge
-                    modern-day financial institutions with the benefits of the
-                    blockchain space. TPAY is an open-sourced, decentralized, and
-                    self-verifying payment platform project with a passionate
-                    community following with a focus on adoption, decentralization and
-                    ease of use for digital currencies in todays mixed currency global
-                    financial system.`
               })}
             </ExpandCollapse>
           </div>
