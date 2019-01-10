@@ -85,6 +85,20 @@
             }
         },
         {
+            "title": "Whale Apparel",
+            "img": "../static/img/vendors/latest/whaleapparel.png",
+            "link": "whaleapparel.com",
+            "url": "https://whaleapparel.com",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "Brandable Group",
             "img": "../static/img/vendors/latest/brandable.jpg",
             "link": "brandablegroup.com",
@@ -150,20 +164,6 @@
                 "foodAndBev": false,
                 "service": false,
                 "entertainment": true,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Whale Apparel",
-            "img": "../static/img/vendors/latest/whaleapparel.png",
-            "link": "whaleapparel.com",
-            "url": "https://whaleapparel.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
                 "travel": false,
                 "education": false
             }
@@ -556,20 +556,6 @@
                 "foodAndBev": false,
                 "service": true,
                 "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Trebaltek",
-            "img": "../static/img/vendors/latest/trebaltek.png",
-            "link": "trebaltek.ca",
-            "url": "http://trebaltek.ca",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": true,
                 "travel": false,
                 "education": false
             }
