@@ -210,9 +210,9 @@
       right: rem(20px);
       top: rem(30px);
       width: rem(36px);
-
+      background: url(/static/img/menu-button.svg);
+      
       button {
-        background: url('/static/img/menu.svg');
         background-size: cover;
         color: transparent;
         filter: invert(100%);
