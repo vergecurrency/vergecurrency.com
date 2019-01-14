@@ -56,6 +56,22 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
+		  <div>
+            <a href="https://www.tokenpay.com/">
+              <img src="/static/img/partners/tokenpay.png" alt="tokenpay" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.tpay', {
+                defaultValue: `TokenPay was created with the fundamental desire to bridge
+                    modern-day financial institutions with the benefits of the
+                    blockchain space. TPAY is an open-sourced, decentralized, and
+                    self-verifying payment platform project with a passionate
+                    community following with a focus on adoption, decentralization and
+                    ease of use for digital currencies in todays mixed currency global
+                    financial system.`
+              })}
+            </ExpandCollapse>
+          </div>
           <div>
             <a href="https://www.plaak.com/">
               <img src="/static/img/partners/plaak.png" alt="plaak" />
