@@ -53,7 +53,7 @@ const MiningPools = () => (
               <li><Link href="http://blockmasters.co/"><a href="http://blockmasters.co/" target="_blank" rel="noopener noreferrer">[x17] Block Masters </a></Link></li> 
               <li><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">[x17] HashFaster </a></Link></li>    
               <li><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">[x17] Poolovich </a></Link></li>
-              <li><Link href="http://yiimp.ccminer.org/"><a href="http://yiimp.ccminer.org/" target="_blank" rel="noopener noreferrer">[x17] Yiimp</a></Link></li>
+              <li><Link href="http://yiimp.eu"><a href="http://yiimp.eu/" target="_blank" rel="noopener noreferrer">[x17] Yiimp</a></Link></li>
               <li><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">[x17] ZPool</a></Link></li>
               <li><Link href="https://umine.org"><a href="https://umine.org" target="_blank" rel="noopener noreferrer">[x17] Umine.org</a></Link></li>
               <li><Link href="http://multipool.sonofatech.com"><a href="http://multipool.sonofatech.com" target="_blank" rel="noopener noreferrer">[x17] Sonofatech.com</a></Link></li>
