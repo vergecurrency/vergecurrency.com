@@ -78,7 +78,7 @@ function Home(props) {
                   <p className="blackpaper">
                     Read the{' '}
                     <a
-                      href="/static/blackpaper/Verge-Anonymity-Centric-CryptoCurrency.pdf"
+                      href="/static/blackpaper/verge-blackpaper-v5.0.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
