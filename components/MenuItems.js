@@ -53,8 +53,16 @@ const MenuItems = ({ t }) => (
         {/* <Link href="/guides">
           <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
         </Link> */}
+      <Link prefetch href="https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf">
+          <a href="https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
+          </a>
+        </Link>
         <Link prefetch href="/faq">
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}
+          </a>
+        </Link>
+        <Link prefetch href="/community/xvg-mining-pools/">
+          <a href="/community/xvg-mining-pools/">{t('header:pools', { defaultValue: 'Mining Pools' })}
           </a>
         </Link>
         <Link href="https://verge.zendesk.com">
