@@ -27,6 +27,14 @@ const roadMap = [
     progressState: '',
   },
   {
+    done: true,
+    doneDate: '17th January 2019',
+    title: 'BlackPaper Version 5.0',
+    description: '5th revision of the BlackPaper',
+    progress: 100,
+    progressState: '',
+  },
+  {
     done: false,
     doneDate: '',
     title: 'Merchandise Online Store',
