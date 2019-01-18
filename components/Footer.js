@@ -146,8 +146,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://vergefora.com">
-                        <a href="https://vergefora.com" target="_blank" rel="noopener noreferrer">{t('header:forums', { defaultValue: 'Forums' })}</a>
+                      <Link href="https://forums.vergecurrency.com">
+                        <a href="https://forums.vergecurrency.com" target="_blank" rel="noopener noreferrer">{t('header:forums', { defaultValue: 'Forums' })}</a>
                       </Link>
                     </li>
                   </ul>
