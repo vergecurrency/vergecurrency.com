@@ -19,6 +19,12 @@ function FAQ_wallets(props) {
           <Content>
             <div className="faq">
               <h1>{t('faq:wallets:subheader', { defaultValue: 'Wallets' })}</h1>
+              <h2>{t('faq:wallets:help:question')}</h2>
+              {t('faq:wallets:help:answer') } 
+              <br />
+              <a href="https://verge.zendesk.com" target="_blank">
+                Verge Zendesk
+              </a>
               <h2>{t('faq:wallets:whichwallet:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:whichwallet:answer') }} />
               <h2>{t('faq:wallets:electrum:question')}</h2>
@@ -30,16 +36,6 @@ function FAQ_wallets(props) {
               <h2>{t('faq:wallets:qtwallet:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:qtwallet:answer') }} />
               <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:qtwallet:answer2') }} />
-              <h2>{t('faq:wallets:backup:question')}</h2>
-              <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:backup:answer') }} />
-              <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:backup:answer2') }} />
-              <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:backup:answer3') }} />
-              <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:backup:answer4') }} />
-              <h2>{t('faq:wallets:longsync:question')}</h2>
-              <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:longsync:answer') }} />
-              <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:longsync:answer2') }} />
-              <h2>{t('faq:wallets:torandroidnoconnection:question')}</h2>
-              <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:torandroidnoconnection:answer') }} />
             </div>
           </Content>
         </div>

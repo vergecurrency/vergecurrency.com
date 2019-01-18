@@ -19,31 +19,13 @@ function About(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
-                  <h1>About Verge</h1>
-                  <p>
-                    The grassroots culture is what makes Verge <span className="hidden-xs"><br /></span>
-                    unique and dynamic.
-                  </p>
+                  <h1>{t('about:body.header', { defaultValue: 'About Verge' })}</h1>
+                    <p dangerouslySetInnerHTML={{ __html: t('common:texts.grassroots', { defaultValue: 'The grassroots culture is what makes Verge <span className="hidden-xs"><br /></span> unique and dynamic.' }) }} />
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="intro pt-large pb-large pb-xs-0">
-          <div className="row center-xs middle-xs">
-            <div className="col-xs-10 col-sm-6">
-              <h2>
-                Verge Currency is a 100% open source project
-                and the global Verge Community represents the man power driving it forward.
-                Verge is not a company, there was no ICO held upon
-                the launch and no pre-mining took place.
-              </h2>
-              <p>
-                Below are just some of the most active community members who form the Core Team.
-              </p>
-            </div>
-          </div>
-        </div> */}
         <div className="intro pt-large pb-large">
           <div className="row center-xs middle-xs">
             <div className="col-xs-12 col-sm-8">
@@ -63,6 +45,6 @@ function About(props) {
   );
 }
 
-const Extended = translate(['common', 'about'], { i18n, wait: process.browser })(About);
+const Extended = translate(['common', 'about', 'faq'], { i18n, wait: process.browser })(About);
 
 export default Extended;

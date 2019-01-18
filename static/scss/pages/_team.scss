@@ -1,0 +1,20 @@
+.team-category {
+  .category-header {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid rgba(177, 177, 177, 0.7);
+      margin: 1em 0;
+      padding: 0;
+    }
+    .category-title {
+      text-align: left;
+    }
+    .category-title-rtl {
+      text-align: right;
+    }    
+  }
+}

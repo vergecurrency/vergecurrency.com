@@ -3,7 +3,8 @@
 // VARIABLES
 // - RESPONSIVE
 $max-width-xs: 47.9375em; // as 48em is defined by flexboxgrid,
-                          // this seems to scale along pretty well..
+$max-width-sm: 63.9375em; // as 64em is defined by flexboxgrid,
+// this seems to scale along pretty well..
 $min-width-xs--iphone-plus: 414px;
 $min-width-xs: 30em;
 $min-width-sm: 48em;
@@ -13,15 +14,15 @@ $min-width-lg: 75em;
 $base-font-size: 16px;
 
 // - BRAND COLORS
-$black:               #000;
-$white:               #fff;
-$pacific-blue-1:      #0095c1;
-$picton-blue:         #4cc2f1;
-$allports:            #006994;
-$blizzard-blue:       #dbeff8;
-$astronaut-blue:      #003d58;
-$venice-blue:         #075a7f;
-$dark-blue:           #091721;
+$black: #000;
+$white: #fff;
+$pacific-blue-1: #0095c1;
+$picton-blue: #4cc2f1;
+$allports: #006994;
+$blizzard-blue: #dbeff8;
+$astronaut-blue: #003d58;
+$venice-blue: #075a7f;
+$dark-blue: #091721;
 
 $colors: (
   black: $black,
@@ -42,7 +43,7 @@ $colors: (
 %gray-arrow-right {
   content: '\2192';
   font-size: 1rem;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 //Partials
@@ -61,6 +62,8 @@ $colors: (
 @import 'partials/benefits';
 @import 'partials/reason';
 @import 'partials/mentions';
+@import 'partials/sponsors';
+@import 'partials/partners';
 
 //Pages
 @import 'pages/home';
@@ -77,7 +80,11 @@ $colors: (
 @import 'pages/key-tech';
 @import 'pages/getstarted';
 @import 'pages/meetup';
-
+@import 'pages/team';
+@import 'pages/partnership-donation-rewards';
+@import 'pages/partnership-donation-mentions';
+@import 'pages/fbv';
+@import 'pages/find-us';
 @import 'partials/learnmore';
 @import 'partials/markdown';
 @import 'partials/responsive-display';

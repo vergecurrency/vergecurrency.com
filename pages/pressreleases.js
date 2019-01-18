@@ -79,14 +79,14 @@ function Pressreleases(props) {
           <div className="container pb pb-xs-0">
             <div className="row center-xs previous pb pt">
               <div className="col-xs-11 start-xs">
-                <h2>Press releases</h2>
+                <h2>{t('pressreleases:body.releases', { defaultValue: 'Press Releases' })}</h2>
 
                 <MediumPosts />
               </div>
             </div>
             <div className="row center-xs coverage">
               <div className="col-xs-11 col-sm-10 col-md-8 start-xs">
-                <h2>Press coverage</h2>
+                <h2>{t('pressreleases:body.coverage', { defaultValue: 'Press Coverage' })}</h2>
 
                 <FullMentions />
               </div>
@@ -96,8 +96,8 @@ function Pressreleases(props) {
                 <div className="container themed-container__blue themed-container__blue--pressreleases">
                   <div className="row center-xs">
                     <div className="col-xs-8">
-                      <h2>Verge Currency is a 100% open source project and the global Verge Community represents the man power driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place.</h2>
-                      <p>Verge is a secure and anonymous cryptocurrency, built with a focus on privacy.</p>
+                      <h2>{t('common:texts.open', { defaultValue: 'Verge Currency is a 100% open-source project, and the global Verge Community represents the manpower driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place. All contributors, including the Core Team, are unpaid volunteers who donate their time and energy into the project because they are passionate and believe in Verge.' })}</h2>
+                      <p>{t('common:texts.use', { defaultValue: 'Verge is a secure and anonymous cryptocurrency, built for everyday use.' })}</p>
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ function Pressreleases(props) {
                 <div className="col-xs-11 center-xs">
                   <div className="row around-xs pt">
                     <div className="col-xs-12 col-sm-5 start-xs">
-                      <h4>Get social with Verge. Be a part of the Verge community.</h4>
+                      <h4>{t('pressreleases:body.social', { defaultValue: 'Get social with Verge. Be a part of the Verge community.' })}</h4>
                     </div>
                     <div className="col-xs-12 col-sm-7 col-md-5 col-md-offset-2 col--full-height">
                       <div className="row start-xs center-sm between-md pb-xs">

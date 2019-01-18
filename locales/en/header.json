@@ -1,8 +1,22 @@
 {
+  "home": "Home",  
+  "get-started": "Get Started",
   "about": "About",
-  "wallets": "Wallets",
-  "roadmap": "Roadmap",
-  "vendors": "Vendors",
-  "resources": "Resources",
-  "get_verge": "Get Verge"
+  "verge-team": "Verge Team", 
+  "key-tech": "Key Tech",
+  "benefits": "Benefits",
+  "press-releases": "Press Releases", 
+  "wallets": "Wallets", 
+  "roadmap": "Roadmap", 
+  "vendors": "Vendors", 
+  "resources": "Resources", 
+  "faq": "FAQ", 
+  "p2p": "P2P",
+  "wiki": "Wiki",
+  "network-status": "Network Status",
+  "developers": "Developers",
+  "presskit": "Presskit",
+  "find-us": "Find Us",
+  "get-verge": "Get Verge",
+  "fueled-by-verge": "Fueled By Verge"
 }

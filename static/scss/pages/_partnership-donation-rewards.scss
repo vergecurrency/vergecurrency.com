@@ -1,0 +1,58 @@
+.pdr-title {
+  margin-top: 45px;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #0E2333;
+}
+
+.pdr-subtitle {
+  text-align: center;
+  color: #758692;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.themed-container__gray--pdr {
+  .col-xs-4 {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .justify-content-center {
+    justify-content: center;
+  }
+
+  .card {
+    border-radius: 5px;
+    background: white;
+  }
+
+  .card-body {
+    padding: 35px;
+  }
+
+  .card-body p {
+    margin-bottom: 0;
+  }
+  
+  .mindgeek-partnership-title {
+    color: #A0B8C8;
+    letter-spacing: .2rem;
+  }
+
+  @media only screen and (max-width: 64em) {
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 1014px) {
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+}

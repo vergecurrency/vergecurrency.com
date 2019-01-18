@@ -1,0 +1,67 @@
+{
+  "ribbon": {
+    "title": "La confidentialité est notre <i> norme </ i>. <br /> Une cryptomonnaie <br /> sécurisée et anonyme.",
+    "text1": "Construit pour un usage quotidien.",
+    "text2": "Commencez avec Verge"
+
+  },
+  "mentioned": {
+    "mentioned_in": "Mentionné dans"
+  },
+  "intro": {
+    "span": "Livre ce que les autres ne peuvent pas",
+    "h2": "Verge utilise plusieurs réseaux centrés sur l'anonymat, tels que TOR et I2P. Les adresses IP des utilisateurs sont entièrement masquées et les transactions sont complètement introuvables.",
+    "p": "Nous nous soucions de votre vie privée. Le faites vous?"
+  },
+  "benefits": {
+    "link": {
+      "title": "Étendre les avantages"
+    },
+    "benefit_1": {
+      "title": "ANONYMAT",
+      "text": "Verge utilise plusieurs réseaux centrés sur l'anonymat, tels que TOR et I2P. Les adresses IP des utilisateurs sont complètement masquées. Le portefeuille Core QT intègre TOR ainsi qu’un cryptage SSL qui ajoute un niveau de sécurité supplémentaire."
+    },
+    "benefit_2": {
+      "title": "TRANSPORTÉ PAR LA COMMUNAUTÉ",
+      "text": "Verge est un projet open source avec une équipe active de développeurs du monde entier. L'équipe de développement est toujours en contact étroit avec la communauté. Verge n'est pas une entreprise privée financée par le biais d'une organisation internationale de produit ou d'une entreprise."
+    },
+    "benefit_3": {
+      "title": "ADOPTION DE MASSE",
+      "text": "Des frais peu élevés, des transactions rapides, un grand volume de circulation, un support multiplateforme, le protocole Wraith sont les ingrédients qui font de Verge une solution idéale pour une adoption massive."
+    },
+    "benefit_4": {
+      "title": "LA VIE PRIVÉE EST NOTRE STANDARD"      
+    }
+  },
+  "wallets": {
+    "link": {
+      "title": "Lire sur les portefeuilles"
+    },
+    "header": "Ne vous inquiétez pas, nous avons votre plateforme préférée couverte. {{Br}} Téléchargez votre portefeuille ici."
+  },
+  "mission": {
+    "header": "Redoner le pouvoir aux gens",
+    "text1": "Notre mission est de <span> responsabiliser les gens </ span> dans le monde entier en intégrant les transactions blockchain dans la <span> vie quotidienne </ span>. Verge permet de réaliser des transactions directes rapidement, efficacement et en <span> privé </ span>.",
+    "text2": "Avec Verge, les entreprises et les particuliers ont des options flexibles pour envoyer et recevoir des paiements. À l’aide d’un bouton à bascule, nous proposons des intégrations et des outils utiles qui leur permettent de gérer des transactions à grande échelle entre des commerçants et des paiements privés à petite échelle."
+
+  },
+  "getverge": {
+    "text1": "Obtenez Verge aujourd'hui",
+    "text2": "Voir plus d'échanges",
+    "text3": "Échangez Verge sur les échanges les plus populaires.",
+    "text4": "Nous sommes fiers d’être listés sur:",
+    "text5": "Voir le tableau ici"
+  },
+  "vendors": {
+    "super": "Accepter Verge Currency",
+    "title": "Alimenter les fournisseurs du monde réel qui acceptent la devise Verge",
+    "buttonTertiary": "Voir tous les fournisseurs ici",
+    "text3": "Les derniers vendeurs à accepter Verge"
+  },
+  "roadmap": {
+    "text1": "Feuille de route complète ici"
+  },
+  "social": {
+    "header": "Soyez Impliqué avec Verge. Faites partie de la communauté Verge. Vivez la magie d'un projet open source"
+  }
+}

@@ -1,6 +1,6 @@
 import LazyLoad from 'react-lazyload';
 
-const exchangeLocale = require('../locales/index').en.exchanges.exchanges;
+const exchangeLocale = require('../lists/exchanges').exchanges;
 
 export const HomeExchanges = () => {
   const exchanges = exchangeLocale.map((x, i) => {

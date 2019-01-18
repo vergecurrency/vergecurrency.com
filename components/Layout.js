@@ -18,7 +18,7 @@ class Layout extends React.Component {
       <div id="layout">
         <Head>
           <title key="title">VergeCurrency.com</title>
-          <meta key="description" name="description" content={t('common:meta.all.description', { defaultValue: 'Verge Currency (XVG) is a secure and anonymous cryptocurrency, built with a focus on privacy.' })} />
+          <meta key="description" name="description" content={t('common:meta.all.description', { defaultValue: 'Verge Currency (XVG) is a secure and anonymous cryptocurrency, built for everyday use.' })} />
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" key="viewport" />
           <link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico" key="favicon" />
 

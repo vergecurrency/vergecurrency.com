@@ -38,8 +38,8 @@ function FAQ_General(props) {
               <p dangerouslySetInnerHTML={{ __html: t('faq:general:highsupply:answer') }} />
               <h2>{t('faq:general:burning:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:general:burning:answer') }} />
-              <h2>{t('faq:general:infaltion:question')}</h2>
-              <p dangerouslySetInnerHTML={{ __html: t('faq:general:infaltion:answer') }} />
+              <h2>{t('faq:general:inflation:question')}</h2>
+              <p dangerouslySetInnerHTML={{ __html: t('faq:general:inflation:answer') }} />
               <h2>{t('faq:general:transactionfee:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:general:transactionfee:answer') }} />
               <h2>{t('faq:general:transactionspeed:question')}</h2>

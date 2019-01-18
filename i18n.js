@@ -4,12 +4,18 @@ const i18n = require('i18next');
 const LanguageDetector = require('i18next-browser-languagedetector');
 const reactI18nextModule = require('react-i18next');
 
+const languageList = require('./lists/languages').languages;
+
 const options = {
+  lng: 'en',
   fallbackLng: 'en',
-  load: 'languageOnly', // no region specific locals like en-US, de-DE
+  load: 'all', // no region specific locals like en-US, de-DE
+
 
   ns: ['common', 'home'], // have a common namespace used around the full app
   defaultNS: 'common',
+
+  preload: languageList,
 
   initImmediate: false,
   appendNamespaceToMissingKey: true,

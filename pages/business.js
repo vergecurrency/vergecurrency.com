@@ -147,7 +147,7 @@ function Business(props) {
                 <div className="container themed-container__blue themed-container__blue--business">
                   <div className="row center-xs">
                     <div className="col-xs-8">
-                      <h2>{t('business:bluecontainer.big', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so. The choice is yours, the choice going mainstream.' })}</h2>
+                      <h2>{t('business:bluecontainer.big', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption.  The choice is yours, the choice going mainstream.' })}</h2>
                       <p>{t('business:bluecontainer.small', { defaultValue: 'Start accepting Verge on your store or webshop today.' })}</p>
                     </div>
                   </div>
@@ -174,8 +174,8 @@ function Business(props) {
                       <p>{t('business:benefits.anonimity.text', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
-                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h6>
-                      <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.' })}</p>
+                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy is our standard' })}</h6>
+                      <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
                       <h6>{t('business:benefits.community.title', { defaultValue: 'Community driven' })}</h6>
@@ -183,15 +183,15 @@ function Business(props) {
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
                       <h6>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h6>
-                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so.' })}</p>
+                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
                       <h6>{t('business:benefits.anonimity.title', { defaultValue: 'Anonymity' })}</h6>
                       <p>{t('business:benefits.anonimity.text', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
-                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy as a choice' })}</h6>
-                      <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction.' })}</p>
+                      <h6>{t('business:benefits.privacy.title', { defaultValue: 'Privacy is our standard' })}</h6>
+                      <p>{t('business:benefits.privacy.text', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })}</p>
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm pb-small">
                       <h6>{t('business:benefits.community.title', { defaultValue: 'Community driven' })}</h6>
@@ -199,7 +199,7 @@ function Business(props) {
                     </div>
                     <div className="col-xs-12 col-sm-4 col-md-3 center-xs start-sm">
                       <h6>{t('business:benefits.adoption.title', { defaultValue: 'Mass adoption' })}</h6>
-                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so.' })}</p>
+                      <p>{t('business:benefits.adoption.text', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption.' })}</p>
                     </div>
                   </div>
                 </div>

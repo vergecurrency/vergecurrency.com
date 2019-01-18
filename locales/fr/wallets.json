@@ -1,0 +1,10 @@
+{
+  "body": {    
+     "header1": "Télécharger notre portefeuille",
+     "header2": "Portefeuilles",
+     "text1": "Téléchargez notre dernier portefeuille Core pour stocker <span className = hidden-xs> <br /> </ span> avec votre devise Verge.",
+     "text2": "Téléchargez nos derniers Portefeuilles Core Wraith pour <span className = hidden-xs> <br /> </ span> Windows, Linux et OSX ou stockez votre Verge sur <span className = hidden-xs> <br /> </ span> votre mobile avec notre portefeuille Tor.",
+     "text3": "Notre portefeuille de base est sécurisé, facile et rapide. Transactions <span className = hidden-xs> <br /> </ span> inférieures à 30 secondes.",
+     "header3": "Portefeuilles pour toutes les plates-formes"
+  }
+}

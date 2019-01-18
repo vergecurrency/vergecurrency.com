@@ -15,36 +15,26 @@ function WalletsPage(props) {
       <Head>
         <title key="title">{t('common:meta.wallets.title', { defaultValue: 'Wallets - VergeCurrency.com' })}</title>
       </Head>
-      <div className="wallet">
+      <div>
         <div className="ribbon ribbon--wallets">
           <div className="container">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
-                  <h1>Download our Wallet</h1>
-                  <p>
-                    Download our latest Core wallet to store <span className="hidden-xs"><br /></span>
-                    your Verge Currency with.
-                  </p>
+                  <h1>{t('wallets:body.header1', { defaultValue: 'Download our Wallet' })}</h1>
+                  <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text1', { defaultValue: 'Download our latest Core wallet to store <span className="hidden-xs"><br /></span> your Verge Currency with.' }) }} />
                   <WalletsBtn t={t} />
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container wallet">
           <div className="row center-xs middle-xs pt-large pb-large">
             <div className="col-xs-10 col-sm-6">
-              <h6>Wallets</h6>
-              <h2>
-                Download our latest Core Wraith Wallets for <span className="hidden-xs"><br /></span>
-                Windows, Linux and OSX or store your Verge on <span className="hidden-xs"><br /></span>
-                your mobile with our Tor wallet.
-              </h2>
-              <p>
-                Our core wallet is secure, easy and fast. Transactions in <span className="hidden-xs"><br /></span>
-                less than 30 seconds.
-              </p>
+              <h6>{t('wallets:body.header2', { defaultValue: 'Wallets' })}</h6>
+              <h2 dangerouslySetInnerHTML={{ __html: t('wallets:body.text2', { defaultValue: 'Download our latest Core Wraith Wallets for <span className="hidden-xs"><br /></span> Windows, Linux and OSX or store your Verge on <span className="hidden-xs"><br /></span> your mobile with our Tor wallet.' }) }} />
+              <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text3', { defaultValue: 'Our core wallet is secure, easy and fast. Transactions in <span className="hidden-xs"><br /></span> less than 30 seconds.' }) }} />
             </div>
           </div>
 
@@ -66,7 +56,7 @@ function WalletsPage(props) {
                   </div>
                   <div className="col-xs-12 col-md-6 pt-xs">
                     <h6>{t('home:benefits.benefit_4.title')}</h6>
-                    <p>{t('home:benefits.benefit_4.text')}</p>
+                    <p>{t('common:wraith.text1')} {' '} {t('common:wraith.text2')} </p>
                   </div>
                 </div>
                 <h6 className="center-xs start-sm">
@@ -78,9 +68,16 @@ function WalletsPage(props) {
                 </h6>
               </div>
               <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
-                <div className="benefits--imgs hidden-xs">
+                <div className={"hidden-xs benefits--" + (i18n.language=='ar' || i18n.language=='fa' || i18n.language=='ku' ? 'imgsrtl' : 'imgs')}>
                   <img src="../static/img/benefits-desktop.png" alt="Benefits desktop" />
-                  <img src="../static/img/benefits-mobile.png" alt="Benefits mobile" />
+                  <img
+                    src="../static/img/benefits-mobile.png"
+                    srcSet="
+                          ../static/img/benefits-mobile.png 1x,
+                          ../static/img/benefits-mobile@2x.png 2x
+                        "
+                    alt="Benefits mobile"
+                  />
                 </div>
               </div>
             </div>
@@ -92,7 +89,7 @@ function WalletsPage(props) {
                 <div className="row center-xs start-md">
                   <div className="col-xs-12 col-lg-10">
                     <div className="start-sm pb-small">
-                      <h6>Wallets for all platforms</h6>
+                      <h6>{t('wallets:body.header3', { defaultValue: 'Wallets for all platforms' })}</h6>
                       <h2>
                         <Interpolate i18nKey="home:wallets.header" br={<span> <br className="hidden-xs" /></span>} />
                       </h2>
@@ -103,25 +100,15 @@ function WalletsPage(props) {
               </div>
             </div>
           </div>
-
-          <div className="guide">
-            <div className="row center-xs middle-xs">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/R48e1mp_5qA"
-                title="Verge YouTube video"
-              />
-            </div>
-          </div>
           <div className="row center-xs middle-xs pt-large pb-large intro">
             <div className="col-xs-10 col-sm-6">
-              <span className="spaced">WRAITH PROTOCOL</span>
+              <span className="spaced">{t('common:wraith.title', { defaultValue: 'WRAITH PROTOCOL' })}</span>
               <div className="pt-xs">
                 <h2>
-                  Wraith Protocol is a technology that allows the user to seamlessly
-                  switch between public and private ledgers on the Verge Blockchain.
-                  For the first time, users are now free to choose which ledger they want to utilize.
+                 {t('common:wraith.text1', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })} &nbsp;
+                 {t('common:wraith.text2', { defaultValue: 'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.' })} &nbsp;
+                 {t('common:wraith.text3', { defaultValue: 'Through this system, users now have an additional layer of base IP obfuscation as well as the option to utilize stealth addressing services for their transactions.' })} &nbsp;
+                 {t('common:wraith.text4', { defaultValue: 'Wraith Protocol allows for complete anonymity to be maintained while providing a safe and secure method of sending and receiving Verge coins.' })}
                 </h2>
               </div>
             </div>

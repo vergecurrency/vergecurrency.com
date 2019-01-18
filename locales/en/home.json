@@ -1,37 +1,12 @@
 {
   "ribbon": {
-    "title": "Privacy as a <i>choice</i>.<br />A secure and anonymous<br />cryptocurrency.",
-    "text": "Built with focus on privacy.",
-    "buttonPrimary": "Download OSX Wallet",
-    "buttonSecondary": "Watch video"
+    "title": "Privacy is our <i>standard</i>.<br />A secure and anonymous<br />cryptocurrency.",
+    "text1": "Built for everyday use.",
+    "text2": "Get started with Verge"
+
   },
   "mentioned": {
-    "mentioned_in": "Mentioned in",
-    "mention_1": {
-      "url": "#",
-      "img": "../static/img/mentioned-in/Forbes.svg",
-      "width": "100"
-    },
-    "mention_2": {
-      "url": "#",
-      "img": "../static/img/mentioned-in/The-Guardian.svg",
-      "width": "180"
-    },
-    "mention_3": {
-      "url": "#",
-      "img": "../static/img/mentioned-in/The-Sun.svg",
-      "width": "100"
-    },
-    "mention_4": {
-      "url": "#",
-      "img": "../static/img/mentioned-in/The-Motley-Fool.svg",
-      "width": "100"
-    },
-    "mention_5": {
-      "url": "#",
-      "img": "../static/img/mentioned-in/Cryptovest.svg",
-      "width": "150"
-    }
+    "mentioned_in": "Mentioned in"
   },
   "intro": {
     "span": "Delivers what others can't",
@@ -40,7 +15,6 @@
   },
   "benefits": {
     "link": {
-      "url": "/benefits",
       "title": "Expand benefits"
     },
     "benefit_1": {
@@ -53,18 +27,41 @@
     },
     "benefit_3": {
       "title": "MASS ADOPTION",
-      "text": "Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption. Transact on the public ledger for everyday purchases or stay private if you wish so."
+      "text": "Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption."
     },
     "benefit_4": {
-      "title": "PRIVACY AS A CHOICE",
-      "text": "Wraith Protocol is a technology that allows the user to choose between public and private ledgers on the same blockchain. Users are free to choose which ledger they want to utilize for each transaction."
+      "title": "PRIVACY IS OUR STANDARD"      
     }
   },
   "wallets": {
     "link": {
-      "url": "/wallets",
       "title": "Read about wallets"
     },
-    "header": "Dont worry, we got your preferred platform covered.{{br}}Download your wallet here."
+    "header": "Don't worry, we've got your preferred platform covered.{{br}}Download your wallet here."
+  },
+  "mission": {
+    "header": "Empowering People",
+    "text1": "Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.",
+    "text2": "With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."
+
+  },
+  "getverge": {
+    "text1": "Get Verge Today",
+    "text2": "See more exchanges",
+    "text3": "Trade Verge on the most popular exchanges.",
+    "text4": "We’re proud to be listed on:",
+    "text5": "See chart here"
+  },
+  "vendors": {
+    "super": "Accept Verge Currency",
+    "title": "Powering real world vendors that accept Verge Currency",
+    "buttonTertiary": "See all vendors here",
+    "text3": "Latest vendors to accept Verge"
+  },
+  "roadmap": {
+    "text1": "Full roadmap here"
+  },
+  "social": {
+    "header": "Get social with Verge. Be a part of the Verge community."
   }
 }

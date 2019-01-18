@@ -28,6 +28,7 @@ module.exports = {
       '/faq/mining': { page: '/faq/mining' },
       '/faq/privacy': { page: '/faq/privacy' },
       '/faq/wallets': { page: '/faq/wallets' },
+      '/fueled-by-verge': { page: '/fueled-by-verge' },
       '/get-verge': { page: '/get-verge' },
       '/guides/getting-started': { page: '/guides/getting-started' },
       '/guides/how-to-buy-verge': { page: '/guides/how-to-buy-verge' },
@@ -46,6 +47,9 @@ module.exports = {
       '/get-started': { page: '/get-started' },
       '/pressreleases': { page: '/pressreleases' },
       '/meetup': { page: '/meetup' },
+      '/partnership-donation-rewards': { page: '/partnership-donation-rewards' },
+      '/partnership-donation-mentions': { page: '/partnership-donation-mentions' },
+      '/find-us': { page: '/find-us' },
     };
   },
 

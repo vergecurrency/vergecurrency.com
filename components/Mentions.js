@@ -4,7 +4,7 @@ import LazyLoad from 'react-lazyload';
 import Moment from 'react-moment';
 import 'moment-timezone';
 
-const mentionLocale = require('../locales/index').en.mentions.mentions;
+const mentionLocale = require('../lists/mentions').mentions;
 
 export const Mentions = () => {
   const mentions = mentionLocale.map((x, i) => {
@@ -49,7 +49,7 @@ export const FullMentions = () => {
             <a href={x.url} className="date">
               <div>
                 <h4 dangerouslySetInnerHTML={{ __html: x.title }} />
-                <Moment format="MMMM Do YYYY">{x.date}</Moment> - Read
+                <Moment>{x.date}</Moment> - Read
               </div>
             </a>
           </Link>
