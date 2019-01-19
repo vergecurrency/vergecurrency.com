@@ -150,6 +150,11 @@ const Footer = ({ t }) => (
                         <a href="https://forums.vergecurrency.com" target="_blank" rel="noopener noreferrer">{t('header:forums', { defaultValue: 'Forums' })}</a>
                       </Link>
                     </li>
+                    <li>
+                      <Link href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)">
+                        <a href="en.wikipedia.org/wiki/Verge_(cryptocurrency)" target="_blank" rel="noopener noreferrer">{t('header:wikipedia', { defaultValue: 'Wikipedia' })}</a>
+                      </Link>
+                    </li>
                   </ul>
                 </div>
                 <div className="col-xs-6 col-sm-3">

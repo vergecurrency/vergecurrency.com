@@ -67,6 +67,11 @@ const MenuItems = ({ t }) => (
         </Link>
         <Link href="https://verge.zendesk.com">
           <a href="https://verge.zendesk.com" target="_blank" rel="noopener noreferrer">
+            {t('header:zendesk', { defaultValue: 'ZenDesk' })}
+          </a>
+        </Link>
+        <Link href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)">
+          <a href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)" target="_blank" rel="noopener noreferrer">
             {t('header:wiki', { defaultValue: 'Wiki' })}
           </a>
         </Link>
