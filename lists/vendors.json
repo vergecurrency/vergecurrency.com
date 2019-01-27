@@ -113,6 +113,20 @@
             }
         },
         {
+            "title": "AzireVPN",
+            "img": "../static/img/vendors/latest/azirevpn.jpg",
+            "link": "azirevpn.com",
+            "url": "https://www.azirevpn.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "Brandable Group",
             "img": "../static/img/vendors/latest/brandable.jpg",
             "link": "brandablegroup.com",
