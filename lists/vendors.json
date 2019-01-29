@@ -113,6 +113,20 @@
             }
         },
         {
+            "title": "Wooden Timepiece",
+            "img": "../static/img/vendors/latest/woodentimepiece.png",
+            "link": "woodentimepiece.com/",
+            "url": "https://www.woodentimepiece.com/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "AzireVPN",
             "img": "../static/img/vendors/latest/azirevpn.jpg",
             "link": "azirevpn.com",
