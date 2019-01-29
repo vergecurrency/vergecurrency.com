@@ -197,20 +197,6 @@
             }
         },
         {
-            "title": "Serious Carbon",
-            "img": "../static/img/vendors/latest/seriouscarbon.png",
-            "link": "seriouscarbon.com",
-            "url": "https://seriouscarbon.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Monovm",
             "img": "../static/img/vendors/latest/monovm.png",
             "link": "monovm.com",
@@ -407,20 +393,6 @@
             }
         },
         {
-            "title": "Wooden Timepiece",
-            "img": "../static/img/vendors/latest/woodentimepiece.png",
-            "link": "woodentimepiece.com/",
-            "url": "https://www.woodentimepiece.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Wardona BV",
             "img": "../static/img/vendors/latest/wardona.png",
             "link": "wardona.nl/",
@@ -481,20 +453,6 @@
             "img": "../static/img/vendors/latest/bluntumbrellas.png",
             "link": "bluntumbrellas.com",
             "url": "https://www.bluntumbrellas.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "BabyMoss",
-            "img": "../static/img/vendors/latest/babymoss.png",
-            "link": "babymoss.com",
-            "url": "https://babymoss.com",
             "categories": {
                 "retail": true,
                 "foodAndBev": false,
