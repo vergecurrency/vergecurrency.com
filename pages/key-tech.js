@@ -120,7 +120,7 @@ function KeyTech(props) {
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__stealth">
-                      <img className="img-responsive feature__image" src="/static/img/key-tech/Stealth.png" alt="Stealth" />
+                      <img className="img-responsive feature__image" src="/static/img/key-tech/stealth.png" alt="stealth" />
                     </div>
                     <h3>{t('key-tech:body.stealthtitle', { defaultValue: 'Dual-Key Stealth Addressing' })}</h3>
                     <p>
