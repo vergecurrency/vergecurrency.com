@@ -326,16 +326,6 @@ function Presskit(props) {
                   &nbsp;
                   {t('presskit:reference.text1', { defaultValue: 'Verge improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions while maintaining personal privacy.' })}
                   </p>
-                  <h2>{t('commmon:wraith.title', { defaultValue: 'Wraith Protocol' })}</h2>
-                  <p>
-                  {t('common:wraith:text1', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })}
-                  &nbsp; 
-                  {t('common:wraith:text2', { defaultValue: 'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.' })}
-                  </p>
-                  <p>
-                    <span>{t('presskit:reference.more', { defaultValue: 'To find more about Verge check our' })} </span>
-                    <span><Link href="/faq"><a href="/faq">FAQ</a></Link>.</span>               
-                  </p>
                 </div>
               </div>
             </div>

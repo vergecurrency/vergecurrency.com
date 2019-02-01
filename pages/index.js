@@ -238,7 +238,7 @@ function Home(props) {
                       <p>
                         {t('home:benefits.benefit_3.text', {
                           defaultvalue:
-                            'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption.',
+                            'Low fees, quick transactions, high volume in circulation, and multiplatform support are the ingredients that make Verge perfectly positioned for mass adoption.',
                         })}
                       </p>
                     </div>
@@ -249,14 +249,7 @@ function Home(props) {
                         })}
                       </h6>
                       <p>
-                        {t('common:wraith.text1', {
-                          defaultvalue:
-                            'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.',
-                        })}{' '}
-                        {t('common:wraith.text2', {
-                          defaultvalue:
-                            'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.',
-                        })}
+                      {('Dual-Key Stealth Addressing and Ring Confidential Transacitons(in development) enable our users to be able to send and receive payments safely and privately.')}
                       </p>
                     </div>
                   </div>

@@ -25,7 +25,7 @@ function KeyTech(props) {
               <div className="col-xs-10 col-sm-10 col-md-8 text-center">
                 <div className="ribbon-txt">
                   <h1>{ t('key-tech:body.ribbontitle', { defaultValue: 'Verge Key Tech' }) }</h1>
-                  <p>{ t('key-tech:body.ribbontext', { defaultValue: 'Explore our key technology features. Read and learn more about Wraith, Tor, I2P and much more.' }) }</p>
+                  <p>{ t('key-tech:body.ribbontext', { defaultValue: 'Explore our key technology features. Read and learn more about Tor, I2P and much more.' }) }</p>
                 </div>
               </div>
             </div>
@@ -36,17 +36,19 @@ function KeyTech(props) {
           <div className="themed-container__dark themed-container__dark--wraith wraith">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
-                <h2>{t('common:wraith.title', { defaultValue: 'Wraith Protocol' })}</h2>
+                <h2>{t('key-tech:body.boxtitle', { defaultValue: 'Technology Focused On The End-User' })}</h2>
                 <p>
-                  {t('common:wraith.text1', { defaultValue: 'Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.' })} 
+                  {t('key-tech:body.boxtext1', { defaultValue: 'Verge was originally created based on the idea of providing end-user identity obfuscation suited for everyday use.' })} 
                   &nbsp;
-                  {t('common:wraith.text2', { defaultValue: 'Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.' })}
                 </p>
                 <p>
-                  {t('common:wraith.text3', { defaultValue: 'Through this system, users now have an additional layer of base IP obfuscation as well as the option to utilize stealth addressing services for their transactions.' })}
+                  {t('key-tech:body.boxtext2', { defaultValue: 'We believe that every human deserves the right to privacy and with that idea in mind we pride ourselves on being able to provide several different technology integrations specifically designed to enhance the overall safety, security, and anonymity of users who transact across the Verge network.' })}
                 </p>
                 <p>
-                  {t('common:wraith.text4', { defaultValue: 'Wraith Protocol allows for complete anonymity to be maintained while providing a safe and secure method of sending and receiving Verge coins.' })}
+                  {t('key-tech:body.boxtext3', { defaultValue: 'As time progresses this page will update as we integrate new technology onto our network.' })}
+                </p>
+                <p>
+                  {t('key-tech:body.boxtext4', { defaultValue: 'Below, you will find a brief overview of some of the core technologies that Verge offers as of today.' })}
                 </p>
               </div>
               <div className="col-sm-4 col-md-5 hidden-xs" />
@@ -57,7 +59,7 @@ function KeyTech(props) {
               <div className="col-xs-10 col-sm-8">
                 <h6>{t('key-tech:body.keytitle', { defaultValue: 'Key features' })}</h6>
                 <h2>
-                  {t('key-tech:body.keytext1', { defaultValue: 'Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith protocol are the ingredients that make Verge perfectly positioned for mass adoption.' })}
+                  {t('key-tech:body.keytext1', { defaultValue: 'Low fees, quick transactions, high volume in circulation, and multiplatform support are the ingredients that make Verge perfectly positioned for mass adoption.' })}
                 </h2>
                 <p>{t('key-tech:body.keytext2', { defaultValue: 'Transaction speeds are ultra-fast compared to other coins.' })}</p>
               </div>
@@ -90,18 +92,6 @@ function KeyTech(props) {
                     </p>
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
-                    <div className="feature__image feature__atomic">
-                      <img className="img-responsive feature__image" src="/static/img/key-tech/Atomic.png" alt="Atomic Swaps" />
-                    </div>
-                    <h3>{t('key-tech:body.atstitle', { defaultValue: 'Atomic Swaps' })}</h3>
-                    <p>
-                      {t('key-tech:body.atstext1', { defaultValue: 'Atomic Swaps, or atomic cross-chain trading, is a technology that enables direct peer-to-peer trading across separate blockchains with BIP65 support and eliminates the need for trusted third parties.' })}
-                    </p>
-                    <p>
-                      {t('key-tech:body.atstext2', { defaultValue: 'Traditional centralized exchanges can be replaced by decentralized exchanges (DEX), which means you always keep your funds in your wallet and do not rely on an intermediary. By enabling Atomic Swaps capability, Verge takes a proactive step towards a decentralized future.' })}
-                    </p>
-                  </div>
-                  <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__mining">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/Verge.png" alt="Multi Algorithm mining" />
                     </div>
@@ -114,6 +104,63 @@ function KeyTech(props) {
                     </p>
                     <p>
                       {t('key-tech:body.algtext3', { defaultValue: 'Allowing our community to mine Verge with good technology is vital.' })}
+                    </p>
+                  </div>
+                  <div className="col-xs-12 col-sm-6 feature__item">
+                    <div className="feature__image feature__atomic">
+                      <img className="img-responsive feature__image" src="/static/img/key-tech/Atomic.png" alt="Atomic Swaps" />
+                    </div>
+                    <h3>{t('key-tech:body.atstitle', { defaultValue: 'Atomic Swaps' })}</h3>
+                    <p>
+                      {t('key-tech:body.atstext1', { defaultValue: 'Atomic Swaps, or atomic cross-chain trading, is a technology that enables direct peer-to-peer trading across separate blockchains with BIP65 support and eliminates the need for trusted third parties.' })}
+                    </p>
+                    <p>
+                      {t('key-tech:body.atstext2', { defaultValue: 'Traditional centralized exchanges can be replaced by decentralized exchanges (DEX), which means you always keep your funds in your wallet and do not rely on an intermediary. By enabling Atomic Swaps capability, Verge takes a proactive step towards a decentralized future.' })}
+                    </p>
+                  </div>
+                  <div className="col-xs-12 col-sm-6 feature__item">
+                    <div className="feature__image feature__stealth">
+                      <img className="img-responsive feature__image" src="/static/img/key-tech/Stealth.png" alt="Stealth" />
+                    </div>
+                    <h3>{t('key-tech:body.stealthtitle', { defaultValue: 'Dual-Key Stealth Addressing' })}</h3>
+                    <p>
+                      {t('key-tech:body.stealthtext1', { defaultValue: 'Dual-Key Stealth Addressing allows senders to create an unlimited number of one-time destinations addresses on behalf of the recipient without any interaction between the parties. Stealth addresses are a method by which additional obfuscation can be implemented to further protect the receiving party when transacting with Verge.' })}
+                    </p>
+                    <p>
+                      {t('key-tech:body.stealthtext2', { defaultValue: 'When multiple users send funds to a stealth address, rather than these transactions appearing on the blockchain as multiple payments to the same address, they instead appear as multiple payments going to different addresses.' })}
+                    </p>
+                  </div>
+                  <div className="col-xs-12 col-sm-6 feature__item">
+                    <div className="feature__image feature__ringct">
+                      <img className="img-responsive feature__image" src="/static/img/key-tech/ringct.png" alt="ringct" />
+                    </div>
+                    <h3>{t('key-tech:body.ringcttitle', { defaultValue: 'Ring Confidential Transactions' })}</h3>
+                    <p>
+                      {t('key-tech:body.ringcttext1', { defaultValue: 'Ring Confidential Transactions ensure that only the participants of a transaction are privy to the values being sent back and forth while simultaneously hiding the values from the sight of the rest of the world.' })}
+                    </p>
+                    <p>
+                      {t('key-tech:body.ringcttext2', { defaultValue: 'Ring Confidential Transactions are essential to ensuring anonymity of our users.' })}
+                    </p>
+                  </div>
+                  <div className="col-xs-12 col-sm-6 feature__item">
+                    <div className="feature__image feature__rsk">
+                      <img className="img-responsive feature__image" src="/static/img/key-tech/rsk.png" alt="rsk" />
+                    </div>
+                    <h3>{t('key-tech:body.rsktitle', { defaultValue: 'RSK Smart Contracts' })}</h3>
+                    <p>
+                      {t('key-tech:body.rsktext1', { defaultValue: 'RSK is the first open-source smart contract platform with a 2-way peg to Verge that also rewards the Verge miners via merge-mining, allowing them to actively participate in the Smart Contract revolution. RSK goal is to add value and functionality to the Verge ecosystem by enabling smart-contracts, near instant payments and higher-scalability.' })}
+                    </p>
+                    <p>
+                      {t('key-tech:body.rsktext2', { defaultValue: 'RSK´s blockchain is secured by merge-mining, which means that it can achieve the same security as Verge in terms of double-spend prevention and settlement finality.' })}
+                    </p>
+                  </div>
+                  <div className="col-xs-12 col-sm-6 feature__item">
+                    <div className="feature__image feature__encrypt">
+                      <img className="img-responsive feature__image" src="/static/img/key-tech/encrypt.png" alt="encrypt" />
+                    </div>
+                    <h3>{t('key-tech:body.encrypttitle', { defaultValue: 'Encrypted Messaging' })}</h3>
+                    <p>
+                      {t('key-tech:body.encrypttext1', { defaultValue: 'Encrypted messaging is a P2P (peer-to-Peer) instant messaging system utilizing state-of-the-art encryption technology to keep your communications private. All messages are encrypted by the proven AES-256-CBC algorithm, and distributed between nodes in such a way as to prevent the recipients of messages from being inferred by assailants utilizing sophisticated traffic analysis.' })}
                     </p>
                   </div>
                 </div>
