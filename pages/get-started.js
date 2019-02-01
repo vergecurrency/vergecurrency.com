@@ -136,7 +136,7 @@ function GetStarted(props) {
               <div className="col-xs-11 col-sm-7 col-lg-6">
                 <h6>{t('get-started:body.step', { defaultValue: 'Step' })} 4</h6>
                 <h2>{t('get-started:body.step4', { defaultValue: 'Verge Secured Wallet' })}</h2>
-                <h3>{t('get-started:body.step4a', { defaultValue: 'Download the Verge Electrum Tor Wallet from our offical site.' })}</h3>
+                <h3>{t('get-started:body.step4a', { defaultValue: 'Download the Verge Electrum Tor Wallet from our official site.' })}</h3>
                 <p>{t('get-started:body.step4b', { defaultValue: 'At this point, you should see Verge (XVG) in your Verge exchange wallet. Verge Currency is built with a focus on privacy and designed for everyday use. Our key technology features includes: Tor IP obfuscation, I2P tunneling, low fees, ultra-fast transactions, and various tools that protects you as a consumer so you have total control over your financial privacy. For these reasons, we do not recommend keeping your Verge (XVG) coins on an exchange, regardless of how large and well known the exchange. Instead, we recommend you to download the Verge Electrum Tor Wallet and store your Verge (XVG) coins there. Only YOU will have access with your keys.' })}</p>
                 <Link href="/wallets">
                   <a href="/wallets" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'Download Wallets here' })}</a>
