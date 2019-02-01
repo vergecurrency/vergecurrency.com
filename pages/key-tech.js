@@ -134,7 +134,7 @@ function KeyTech(props) {
                     <div className="feature__image feature__ringct">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/ringct.png" alt="ringct" />
                     </div>
-                    <h3>{t('key-tech:body.ringcttitle', { defaultValue: 'Ring Confidential Transactions' })}</h3>
+                    <h3>{t('key-tech:body.ringcttitle', { defaultValue: 'Ring Confidential Transactions (Under Development)' })}</h3>
                     <p>
                       {t('key-tech:body.ringcttext1', { defaultValue: 'Ring Confidential Transactions ensure that only the participants of a transaction are privy to the values being sent back and forth while simultaneously hiding the values from the sight of the rest of the world.' })}
                     </p>
@@ -146,7 +146,7 @@ function KeyTech(props) {
                     <div className="feature__image feature__rsk">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/rsk.png" alt="rsk" />
                     </div>
-                    <h3>{t('key-tech:body.rsktitle', { defaultValue: 'RSK Smart Contracts' })}</h3>
+                    <h3>{t('key-tech:body.rsktitle', { defaultValue: 'RSK Smart Contracts (Under Development)' })}</h3>
                     <p>
                       {t('key-tech:body.rsktext1', { defaultValue: 'RSK is the first open-source smart contract platform with a 2-way peg to Verge that also rewards the Verge miners via merge-mining, allowing them to actively participate in the Smart Contract revolution. RSK goal is to add value and functionality to the Verge ecosystem by enabling smart-contracts, near instant payments and higher-scalability.' })}
                     </p>
