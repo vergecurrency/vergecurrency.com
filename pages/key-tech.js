@@ -136,10 +136,16 @@ function KeyTech(props) {
                     </div>
                     <h3>{t('key-tech:body.ringcttitle', { defaultValue: 'Ring Confidential Transactions (Under Development)' })}</h3>
                     <p>
-                      {t('key-tech:body.ringcttext1', { defaultValue: 'Ring Confidential Transactions ensure that only the participants of a transaction are privy to the values being sent back and forth while simultaneously hiding the values from the sight of the rest of the world.' })}
+                      {t('key-tech:body.ringcttext1', { defaultValue: 'Ring Confidential Transactions are based on a combination of technologies: Confidential Transactions and Ring Signatures.' })}
                     </p>
                     <p>
-                      {t('key-tech:body.ringcttext2', { defaultValue: 'Ring Confidential Transactions are essential to ensuring anonymity of our users.' })}
+                      {t('key-tech:body.ringcttext2', { defaultValue: 'Confidential transactions include a cryptographic proof that ensure only the participants of a transaction are privy to the values being sent back and forth while simultaneously hiding the values from the sight of the rest of the world.' })}
+                    </p>
+                    <p>
+                      {t('key-tech:body.ringcttext3', { defaultValue: 'Ring Signatures are digital signatures that are created by A group of participants that obscures the linkage between sender and recipient.' })}
+                    </p>
+                    <p>
+                      {t('key-tech:body.ringcttext4', { defaultValue: 'Both of these technologies combined ensure that only the participants of a transaction are privy to the values being sent back and forth while simultaneously hiding the values from the sight of the rest of the world.' })}
                     </p>
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
