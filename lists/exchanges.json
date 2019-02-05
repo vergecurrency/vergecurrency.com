@@ -61,6 +61,12 @@
       "url": "https://fexpro.io/Home/Exchange?type=XVG/BTC&buytype=BTC"
     },
     {
+      "img": "../static/img/exchanges/elastum.png",
+      "title": "Elastum",
+      "link": "elastum.io",
+      "url": "https://www.elastum.io"
+    },
+    {
       "img": "../static/img/exchanges/hitbtc.png",
       "title": "HitBTC",
       "link": "hitbtc.com",
