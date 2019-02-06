@@ -43,6 +43,9 @@ function Vendor_Integration(props) {
                 </a>
               </Link>
               <p />
+              <p>{t('vendor-integration:netcents:text5', { defaultValue: 'Using Verge with NetCents on a PAX A920:' })}</p>
+              <video width="100%" src="https://youtu.be/GxH9b8Tklbc" controls />
+              <p />
               <br />            
               <h2>{t('vendor-integration:coinpayments:title', { defaultValue: 'CoinPayments Cart plugins' })}</h2>
               <p>{t('vendor-integration:coinpayments:text', { defaultValue: 'CoinPayments offers a wide array of cart modules for most of the popular ecommerce solutions available.' })}</p>
