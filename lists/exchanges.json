@@ -13,6 +13,12 @@
       "url": "https://bittrex.com"
     },
     {
+      "img": "../static/img/exchanges/netcents.png",
+      "title": "NetCents",
+      "link": "net-cents.com",
+      "url": "https://net-cents.com/markets/xvgbtc"
+    },
+    {
       "img": "../static/img/exchanges/huobiglobal.jpg",
       "title": "Huobi Global",
       "link": "hbg.com",
