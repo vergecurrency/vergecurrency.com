@@ -25,6 +25,24 @@
       "url": "https://www.bithumb.com/trade/order/XVG"
     },
     {
+      "img": "../static/img/exchanges/bitfinex.png",
+      "title": "Bitfinex",
+      "link": "bitfinex.com",
+      "url": "https://bitfinex.com"
+    },
+    {
+      "img": "../static/img/exchanges/upbit.png",
+      "title": "UPBit",
+      "link": "uptbit.com",
+      "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-XVG"
+    },
+    {
+      "img": "../static/img/exchanges/changenow.png",
+      "title": "ChangeNow",
+      "link": "changenow.io",
+      "url": "https://changenow.io"
+    },
+    {
       "img": "../static/img/exchanges/changehero.png",
       "title": "ChangeHero",
       "link": "changehero.io",
@@ -37,40 +55,22 @@
       "url": "https://www.bitladon.com/Verge?r=100021746"
     },
     {
-      "img": "../static/img/exchanges/bitturk.png",
-      "title": "BitTurk",
-      "link": "bitturk.com",
-      "url": "https://bitturk.com/verge-xvgtry"
-    },
-    {
-      "img": "../static/img/exchanges/upbit.png",
-      "title": "UPBit",
-      "link": "uptbit.com",
-      "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-XVG"
-    },
-    {
-      "img": "../static/img/exchanges/bitfinex.png",
-      "title": "Bitfinex",
-      "link": "bitfinex.com",
-      "url": "https://bitfinex.com"
-    },
-    {
-      "img": "../static/img/exchanges/fexpro.png",
-      "title": "FexPro",
-      "link": "fexpro.io",
-      "url": "https://fexpro.io/Home/Exchange?type=XVG/BTC&buytype=BTC"
-    },
-    {
       "img": "../static/img/exchanges/elastum.png",
       "title": "Elastum",
       "link": "elastum.io",
       "url": "https://www.elastum.io"
     },
     {
-      "img": "../static/img/exchanges/hitbtc.png",
-      "title": "HitBTC",
-      "link": "hitbtc.com",
-      "url": "https://hitbtc.com/XVG-to-BTC"
+      "img": "../static/img/exchanges/bitturk.png",
+      "title": "BitTurk",
+      "link": "bitturk.com",
+      "url": "https://bitturk.com/verge-xvgtry"
+    },
+    {
+      "img": "../static/img/exchanges/fexpro.png",
+      "title": "FexPro",
+      "link": "fexpro.io",
+      "url": "https://fexpro.io/Home/Exchange?type=XVG/BTC&buytype=BTC"
     },
     {
       "img": "../static/img/exchanges/anycoindirect.png",
@@ -163,12 +163,6 @@
       "url": "https://crypto-bridge.org"
     },
     {
-      "img": "../static/img/exchanges/changenow.png",
-      "title": "ChangeNow",
-      "link": "changenow.io",
-      "url": "https://changenow.io"
-    },
-    {
       "img": "../static/img/exchanges/tradesatoshi.png",
       "title": "TradeSatoshi",
       "link": "tradesatoshi.com",
@@ -215,6 +209,12 @@
       "title": "SimpleSwap",
       "link": "simpleswap.io",
       "url": "https://simpleswap.io/"
+    },
+    {
+      "img": "../static/img/exchanges/hitbtc.png",
+      "title": "HitBTC",
+      "link": "hitbtc.com",
+      "url": "https://hitbtc.com/XVG-to-BTC"
     },
     {
       "img": "../static/img/exchanges/swaplab.png",
