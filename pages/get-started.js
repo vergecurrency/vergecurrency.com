@@ -25,7 +25,7 @@ function GetStarted(props) {
               <div className="col-xs-10 col-sm-10 col-md-8 text-center">
                 <div className="ribbon-txt">
                   <h1 dangerouslySetInnerHTML={{ __html: t('get-started:body.header1', { defaultValue: 'Congratulations! You’re now ready<br />to acquire your first Verge (XVG).' }) }} />
-                  <p>{t('get-started:body.header2', { defaultValue: 'We\’ve created this guide to tackle this specific problem - this page brings you from zero to hero in buying and using Verge (XVG).' })}</p>
+                  <p>{t('get-started:body.header2', { defaultValue: 'We’ve created this guide to tackle this specific problem - this page brings you from zero to hero in buying and using Verge (XVG).' })}</p>
                   <div className="pt-large logos">
                     <img src="/static/img/get-started/coinbase.png" alt="coinbase" />
                     <img src="/static/img/get-started/localbitcoins.png" alt="localbitcoins" />
@@ -150,7 +150,7 @@ function GetStarted(props) {
                   <li>{t('get-started:body.step4c', { defaultValue: 'Download the Electrum Tor Wallet for your operating system' })}</li>
                   <li>{t('get-started:body.step4d', { defaultValue: 'Download and install the Tor Browser from here' })}:  https://www.torproject.org</li>
                   <li>{t('get-started:body.step4e', { defaultValue: 'Launch the Tor browser and leave it open (important)' })}</li>
-                  <li>{t('get-started:body.step4f', { defaultValue: 'Extract the Electrum Tor wallet to c:\ and launch “electrum-xvg.exe”' })}</li>
+                  <li>{t('get-started:body.step4f', { defaultValue: 'Extract the Electrum Tor wallet to c: and launch “electrum-xvg.exe”' })}</li>
                 </ol>
                 <p>{t('get-started:body.step4g', { defaultValue: 'Create a new standard wallet and save your wallet seed (Write it on a notepad and store somewhere safe) and set your wallet password.' })}</p>
                 <h3>{t('get-started:body.step4h', { defaultValue: 'Receive XVG' })}</h3>

@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Head from 'next/head';
-import Link from 'next/link';
 
 import Layout from '../components/Layout';
 
@@ -33,9 +32,9 @@ function FBV(props) {
 
 
             <div className="row center-xs">
-              <img src="/static/img/fbv/fbv_sticker_logo.png" height="235" width="235" className="Fbvimage1" />
-              <img src="/static/img/fbv/fbv_ribbon_bike.png" className="Fbvimage1" />
-              <img src="/static/img/fbv/fbvStickerBike.png" height="1542" width="516" className="Fbvimage2" />
+              <img src="/static/img/fbv/fbv_sticker_logo.png" height="235" width="235" className="Fbvimage1" alt="Fbvimage1" />
+              <img src="/static/img/fbv/fbv_ribbon_bike.png" className="Fbvimage1" alt="Fbvimage1" />
+              <img src="/static/img/fbv/fbvStickerBike.png" height="1542" width="516" className="Fbvimage2" alt="Fbvimage2" />
             </div>
           </div>
         </div>
@@ -69,7 +68,7 @@ function FBV(props) {
             <div className="fbv-grid">
               <div>
                 <div className="AthletesFbv1">
-                  <a href="https://www.instagram.com/141mx/" target="_blank"><img src="/static/img/fbv/dannyRobertson.png" alt="Danny Robertson Fueled by Verge" />
+                  <a href="https://www.instagram.com/141mx/" target="_blank" rel="noopener noreferrer"><img src="/static/img/fbv/dannyRobertson.png" alt="Danny Robertson Fueled by Verge" />
                     <div className="AthletesFbvTxt1">
                       <p className="athleteSport">Motocross</p>
                       <p className="athleteName">Danny Robertson</p>
@@ -81,7 +80,7 @@ function FBV(props) {
 
               <div>
                 <div className="AthletesFbv1">
-                  <a href="https://www.instagram.com/gillinster/?hl=en" target="_blank"><img src="/static/img/fbv/gilLinster.png" alt="Gil Linster Fueled by Verge" />
+                  <a href="https://www.instagram.com/gillinster/?hl=en" target="_blank" rel="noopener noreferrer"><img src="/static/img/fbv/gilLinster.png" alt="Gil Linster Fueled by Verge" />
                     <div className="AthletesFbvTxt1">
                       <p className="athleteSport">Nascar</p>
                       <p className="athleteName">Gil Linster</p>
@@ -115,16 +114,14 @@ function FBV(props) {
 
             <div className="row center-xs middle-xs">
               <div className="col-xs-12 col-lg-8">
-                <img src="/static/img/fbv/motocrossBike.png" />
+                <img src="/static/img/fbv/motocrossBike.png" alt="motocrossBike" />
               </div>
             </div>
 
 
             <div className="row center-xs middle-xs">
               <div className="col-xs-12 col-lg-8">
-                <div className="fbvTextLeftAlignment">The goal of #FueledByVerge is to showcase the utility of Verge through events by its community. Our Verge Currency team is the first team that is "Fueled by Verge" in both design and spirit. <br /><br />
-		  		 FbV wants to showcase the strength and community of Verge by helping Sponsored individuals, thus bringing increased awareness of Verge Currency in general. <br /><br />
-		  		 FbV also wishes to help people by promoting their events and achievements.  This will allow them to gain more support as an individual or team from the project they believe in.  FbV will promote their bios, event schedules, and how to find them. All of this will be done to increase media presence and brand awareness.
+                <div className="fbvTextLeftAlignment">The goal of #FueledByVerge is to showcase the utility of Verge through events by its community. Our Verge Currency team is the first team that is "Fueled by Verge" in both design and spirit. <br /><br /> FbV wants to showcase the strength and community of Verge by helping Sponsored individuals, thus bringing increased awareness of Verge Currency in general. <br /><br /> FbV also wishes to help people by promoting their events and achievements.  This will allow them to gain more support as an individual or team from the project they believe in.  FbV will promote their bios, event schedules, and how to find them. All of this will be done to increase media presence and brand awareness.
                 </div>
                 <div className="fbvButton"><a href="https://goo.gl/forms/pd1EyEneXY6d4WU82">Join the Movement</a></div>
               </div>

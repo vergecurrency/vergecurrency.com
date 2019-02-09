@@ -36,7 +36,7 @@ class MediumPosts extends React.Component {
           this.state.pressreleases.map(x => (
             <div className="col-xs-12 col-sm-4 start-xs pb-xs pt-small pb" key={x.title}>
               <Link href={x.link}>
-                <a href={x.link} className="date" target="_blank">
+                <a href={x.link} className="date" target="_blank" rel="noopener noreferrer">
                   <Moment format="MMMM Do YYYY" className="date">{x.pubDate}</Moment>
                   <h4 dangerouslySetInnerHTML={{ __html: x.title }} />
                   <p

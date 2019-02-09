@@ -50,14 +50,14 @@ function Donate(props) {
               <h4>DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV</h4>
               <p>
                 <Link href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV">
-                  <a href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank">
+                  <a href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank" rel="noopener noreferrer">
                     View on verge-blockchain.info
                   </a>
                 </Link>
               </p>
               <p>
                 <Link href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV">
-                  <a href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank">
+                  <a href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank" rel="noopener noreferrer">
                     View on prohashing.com
                   </a>
                 </Link>

@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import i18n from 'i18next';
 
 const walletsLocale = require('../lists/wallets').wallets;
@@ -14,7 +13,7 @@ function Wallets() {
           <div className="row-md-12">
             <div className="col-md-2">
               <a href={x.url} target="_blank" rel="noopener noreferrer">
-                <div className={`${x.classNames} wallets--${i18n.language == 'ar' || i18n.language == 'fa' || i18n.language == 'ku' ? 'iconrtl' : 'icon'}`} />
+                <div className={`${x.classNames} wallets--${i18n.language === 'ar' || i18n.language === 'fa' || i18n.language === 'ku' ? 'iconrtl' : 'icon'}`} />
               </a>
             </div>
             <div className="col-md-10">

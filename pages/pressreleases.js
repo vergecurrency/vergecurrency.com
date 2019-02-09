@@ -1,29 +1,17 @@
 import React from 'react';
-
 import Link from 'next/link';
 import Head from 'next/head';
-
 import Layout from '../components/Layout';
 import MediumPosts from '../components/Medium';
 import { FullMentions } from '../components/Mentions';
-
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
   faFacebook, faGithub, faTelegram,
   faYoutube, faReddit, faTwitter, faDiscord,
 } from '@fortawesome/fontawesome-free-brands';
-
-import Moment from 'react-moment';
 import 'moment-timezone';
-
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
-
-import LogoBusinessInsider from '../static/img/coverage/Business_Insider.svg';
-import LogoForbes from '../static/img/coverage/Forbes.svg';
-import LogoHuffingtonPost from '../static/img/coverage/Huffington_Post.svg';
-import LogoMashable from '../static/img/coverage/Mashable.svg';
-import LogoTechChrunch from '../static/img/coverage/TechChrunch.svg';
 
 function Pressreleases(props) {
   const { t } = props;

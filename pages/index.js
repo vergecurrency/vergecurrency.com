@@ -267,9 +267,9 @@ function Home(props) {
                   <div
                     className={
                       `hidden-xs benefits--${
-                      i18n.language == 'ar' ||
-                      i18n.language == 'fa' ||
-                      i18n.language == 'ku'
+                      i18n.language === 'ar' ||
+                      i18n.language === 'fa' ||
+                      i18n.language === 'ku'
                         ? 'imgsrtl'
                         : 'imgs'}`
                     }
@@ -475,9 +475,9 @@ function Home(props) {
                       <img
                         className={
                           `vendors--${
-                          i18n.language == 'ar' ||
-                          i18n.language == 'fa' ||
-                          i18n.language == 'ku'
+                          i18n.language === 'ar' ||
+                          i18n.language === 'fa' ||
+                          i18n.language === 'ku'
                             ? 'imgrtl'
                             : 'img'}`
                         }

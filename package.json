@@ -58,6 +58,7 @@
     "next": "4.2.3",
     "node-sass": "^4.4.0",
     "normalize.css": "^7.0.0",
+    "npm-update-all": "^1.0.1",
     "nprogress": "^0.2.0",
     "platform": "^1.3.5",
     "postcss-easy-import": "^3.0.0",

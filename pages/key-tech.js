@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Head from 'next/head';
-import Link from 'next/link';
 
 import Layout from '../components/Layout';
 
@@ -24,8 +23,8 @@ function KeyTech(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-10 col-md-8 text-center">
                 <div className="ribbon-txt">
-                  <h1>{ t('key-tech:body.ribbontitle', { defaultValue: 'Verge Key Tech' }) }</h1>
-                  <p>{ t('key-tech:body.ribbontext', { defaultValue: 'Explore our key technology features. Read and learn more about Tor, I2P and much more.' }) }</p>
+                  <h1>{t('key-tech:body.ribbontitle', { defaultValue: 'Verge Key Tech' })}</h1>
+                  <p>{t('key-tech:body.ribbontext', { defaultValue: 'Explore our key technology features. Read and learn more about Tor, I2P and much more.' })}</p>
                 </div>
               </div>
             </div>
@@ -187,7 +186,7 @@ function KeyTech(props) {
                 </p>
               </div>
               <div className="col-sm-4 col-md-5 col-lg-6 hidden-xs">
-                <div className={`integrations--${i18n.language == 'ar' || i18n.language == 'fa' || i18n.language == 'ku' ? 'imgsrtl' : 'imgs'}`} />
+                <div className={`integrations--${i18n.language === 'ar' || i18n.language === 'fa' || i18n.language === 'ku' ? 'imgsrtl' : 'imgs'}`} />
               </div>
             </div>
           </div>

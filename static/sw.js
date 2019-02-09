@@ -92,26 +92,52 @@ let precacheConfig = [],
   }, {}],
   5: [function (e, t, n) {
     let r = new URL('./', self.location).pathname,
-      o = e('path-to-regexp'),
-      i = function (e, t, n, i) { t instanceof RegExp ? this.fullUrlRegExp = t : (t.indexOf('/') !== 0 && (t = r + t), this.keys = [], this.regexp = o(t, this.keys)), this.method = e, this.options = i, this.handler = n; }; i.prototype.makeHandler = function (e) { let t; if (this.regexp) { const n = this.regexp.exec(e); t = {}, this.keys.forEach((e, r) => { t[e.name] = n[r + 1]; }); } return function (e) { return this.handler(e, t, this.options); }.bind(this); }, t.exports = i;
+      o = e('path-to-regexp');class i {
+      constructor(e, t, n, i) { t instanceof RegExp ? this.fullUrlRegExp = t : (t.indexOf('/') !== 0 && (t = r + t), this.keys = [], this.regexp = o(t, this.keys)), this.method = e, this.options = i, this.handler = n; }
+      makeHandler(e) {
+      let t; if (this.regexp) {
+        const n = this.regexp.exec(e);
+        t = {}, this.keys.forEach((e, r) => { t[e.name] = n[r + 1]; });
+      } return function (e) { return this.handler(e, t, this.options); }.bind(this);
+      }
+    }
+t.exports = i;
   }, { 'path-to-regexp': 15 }],
   6: [function (e, t, n) {
     let r = e('./route'),
       o = e('./helpers'),
-      i = function (e, t) { for (var n = e.entries(), r = n.next(), o = []; !r.done;) { new RegExp(r.value[0]).test(t) && o.push(r.value[1]), r = n.next(); } return o; },
-      a = function () { this.routes = new Map(), this.routes.set(RegExp, new Map()), this.default = null; }; ['get', 'post', 'put', 'delete', 'head', 'any'].forEach((e) => { a.prototype[e] = function (t, n, r) { return this.add(e, t, n, r); }; }), a.prototype.add = function (e, t, n, i) {
-      let a; i = i || {}, t instanceof RegExp ? a = RegExp : a = (a = i.origin || self.location.origin) instanceof RegExp ? a.source : (function (e) { return e.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'); }(a)), e = e.toLowerCase(); const c = new r(e, t, n, i); this.routes.has(a) || this.routes.set(a, new Map()); const s = this.routes.get(a); s.has(e) || s.set(e, new Map()); let u = s.get(e),
-        h = c.regexp || c.fullUrlRegExp; u.has(h.source) && o.debug(`"${t}" resolves to same regex as existing route.`), u.set(h.source, c);
-    }, a.prototype.matchMethod = function (e, t) {
-      let n = new URL(t),
-        r = n.origin,
-        o = n.pathname; return this._match(e, i(this.routes, r), o) || this._match(e, [this.routes.get(RegExp)], t);
-    }, a.prototype._match = function (e, t, n) {
-      if (t.length === 0) return null; for (let r = 0; r < t.length; r++) {
-        let o = t[r],
-          a = o && o.get(e.toLowerCase()); if (a) { const c = i(a, n); if (c.length > 0) return c[0].makeHandler(n); }
-      } return null;
-    }, a.prototype.match = function (e) { return this.matchMethod(e.method, e.url) || this.matchMethod('any', e.url); }, t.exports = new a();
+      i = function (e, t) { for (var n = e.entries(), r = n.next(), o = []; !r.done;) { new RegExp(r.value[0]).test(t) && o.push(r.value[1]), r = n.next(); } return o; };class a {
+      constructor() { this.routes = new Map(), this.routes.set(RegExp, new Map()), this.default = null; }
+      add(e, t, n, i) {
+        let a;
+        i = i || {}, t instanceof RegExp ? a = RegExp : a = (a = i.origin || self.location.origin) instanceof RegExp ? a.source : (function (e) { return e.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'); } (a)), e = e.toLowerCase();
+        const c = new r(e, t, n, i);
+        this.routes.has(a) || this.routes.set(a, new Map());
+        const s = this.routes.get(a);
+        s.has(e) || s.set(e, new Map());
+        let u = s.get(e), h = c.regexp || c.fullUrlRegExp;
+        u.has(h.source) && o.debug(`"${t}" resolves to same regex as existing route.`), u.set(h.source, c);
+      }
+      matchMethod(e, t) {
+        let n = new URL(t), r = n.origin, o = n.pathname;
+        return this._match(e, i(this.routes, r), o) || this._match(e, [this.routes.get(RegExp)], t);
+      }
+      _match(e, t, n) {
+        if (t.length === 0)
+          return null;
+        for (let r = 0; r < t.length; r++) {
+          let o = t[r], a = o && o.get(e.toLowerCase());
+          if (a) {
+            const c = i(a, n);
+            if (c.length > 0)
+              return c[0].makeHandler(n);
+          }
+        }
+        return null;
+      }
+      match(e) { return this.matchMethod(e.method, e.url) || this.matchMethod('any', e.url); }
+    }
+ ['get', 'post', 'put', 'delete', 'head', 'any'].forEach((e) => { a.prototype[e] = function (t, n, r) { return this.add(e, t, n, r); }; }),,,,, t.exports = new a();
   }, { './helpers': 1, './route': 5 }],
   7: [function (e, t, n) {
     let r = e('../options'),
@@ -239,7 +265,10 @@ let precacheConfig = [],
         t = navigator.userAgent.match(/(Firefox|Chrome)\/(\d+\.)/); if (t) {
         var n = t[1],
           r = parseInt(t[2]);
-      } e && (!t || n === 'Firefox' && r >= 46 || n === 'Chrome' && r >= 50) || (Cache.prototype.addAll = function (e) { function t(e) { this.name = 'NetworkError', this.code = 19, this.message = e; } const n = this; return t.prototype = Object.create(Error.prototype), Promise.resolve().then(function () { if (arguments.length < 1) throw new TypeError(); return e = e.map(e => (e instanceof Request ? e : String(e))), Promise.all(e.map((e) => { typeof e === 'string' && (e = new Request(e)); const n = new URL(e.url).protocol; if (n !== 'http:' && n !== 'https:') throw new t('Invalid scheme'); return fetch(e.clone()); })); }).then((r) => { if (r.some(e => !e.ok)) throw new t('Incorrect response status'); return Promise.all(r.map((t, r) => n.put(e[r], t))); }).then(() => {}); }, Cache.prototype.add = function (e) { return this.addAll([e]); });
+      } e && (!t || n === 'Firefox' && r >= 46 || n === 'Chrome' && r >= 50) || (Cache.prototype.addAll = function (e) {class t {
+        constructor(e) { this.name = 'NetworkError', this.code = 19, this.message = e; }
+      }
+ const n = this; return t.prototype = Object.create(Error.prototype), Promise.resolve().then(function () { if (arguments.length < 1) throw new TypeError(); return e = e.map(e => (e instanceof Request ? e : String(e))), Promise.all(e.map((e) => { typeof e === 'string' && (e = new Request(e)); const n = new URL(e.url).protocol; if (n !== 'http:' && n !== 'https:') throw new t('Invalid scheme'); return fetch(e.clone()); })); }).then((r) => { if (r.some(e => !e.ok)) throw new t('Incorrect response status'); return Promise.all(r.map((t, r) => n.put(e[r], t))); }).then(() => {}); }, Cache.prototype.add = function (e) { return this.addAll([e]); });
     }());
   }, {}],
 }, {}, [13]))(13))), toolbox.router.get(/[.](png|jpg|css)/, toolbox.fastest, {}), toolbox.router.get(/^http.*/, toolbox.networkFirst, {});

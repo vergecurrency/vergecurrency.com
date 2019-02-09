@@ -16,7 +16,7 @@ export const HomeVendors = () => {
               href={x.url}
               className="vendors--url"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <LazyLoad height={50}>
                 <img src={x.img} width="100" alt="img" />
@@ -40,7 +40,7 @@ const filterVendorList = (vendors, filters) =>
 export const LatestVendors = ({ filter: categoriesFilter }) => {
   const vendors = filterVendorList(vendorsLocale, categoriesFilter).map(vendor => (
     <div className="col-xs col-md-3" key={vendor.title} role="presentation">
-      <a href={vendor.url} target="_blank" rel="noopener">
+      <a href={vendor.url} target="_blank" rel="noopener noreferrer">
         <div className="vendors--item middle-xs">
           <div className="vendors--item__logo">
             <LazyLoad height={40}>

@@ -85,7 +85,7 @@ function Meetup(props) {
             <div className="col-xs-10 col-sm-8 col-md-5">
               <h2>Verge Meetup on a <span>ship</span>. <br className="hidden-xs" />Location and place.</h2>
               <p className="pb-small">The meetup will take place on a boat, which we will cruise on through the Amsterdam canals.</p>
-              <img src="/static/img/meetup/squiggly.png" className="img-responsive" />
+              <img src="/static/img/meetup/squiggly.png" className="img-responsive" alt="responsive" />
             </div>
           </div>
 
@@ -93,15 +93,15 @@ function Meetup(props) {
             <div className="col-xs-10">
               <div className="row center-xs">
                 <div className="col-xs-12 col-sm-4 col--fullheight">
-                  <img src="/static/img/meetup/pics/pic1.png" className="img-responsive" />
+                  <img src="/static/img/meetup/pics/pic1.png" className="img-responsive" alt="responsive" />
                 </div>
                 <div className="col-xs-12 col-sm-4 col--fullheight">
-                  <img src="/static/img/meetup/pics/pic2.png" className="img-responsive" />
-                  <img src="/static/img/meetup/pics/pic3.png" className="img-responsive" />
+                  <img src="/static/img/meetup/pics/pic2.png" className="img-responsive" alt="responsive" />
+                  <img src="/static/img/meetup/pics/pic3.png" className="img-responsive" alt="responsive" />
                 </div>
                 <div className="col-xs-12 col-sm-4 col--fullheight">
-                  <img src="/static/img/meetup/pics/pic4.png" className="img-responsive" />
-                  <img src="/static/img/meetup/pics/pic5.png" className="img-responsive" />
+                  <img src="/static/img/meetup/pics/pic4.png" className="img-responsive" alt="responsive" />
+                  <img src="/static/img/meetup/pics/pic5.png" className="img-responsive" alt="responsive" />
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ function Meetup(props) {
             <div className="col-xs-10">
               <div className="row">
                 <div className="col-xs-12">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.505135614645!2d4.902052188500803!3d52.37939260409592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b646f89b21%3A0xb1f631c99dabe1b5!2sDe+Ruijterkade%2C+Amsterdam!5e0!3m2!1snl!2snl!4v1525194929869" width="100%" height="400" frameBorder="0" />
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.505135614645!2d4.902052188500803!3d52.37939260409592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b646f89b21%3A0xb1f631c99dabe1b5!2sDe+Ruijterkade%2C+Amsterdam!5e0!3m2!1snl!2snl!4v1525194929869" width="100%" height="400" frameBorder="0" title="unique title" />
                 </div>
               </div>
               <div className="row top-xs middle-sm pt">
