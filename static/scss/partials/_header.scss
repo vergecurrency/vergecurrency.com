@@ -281,13 +281,14 @@
 
     &--select {
       padding: 5px 8px;
-      border: 1px solid black;
+      border: 1px solid rgba(0,0,0,0.4);
       box-shadow: none;
-      border-radius: 15px;
-      width: 75px;
+      border-radius: 20px;
+      width: 90px;
 
       font-family: 'Avenir Next', 'Lato', Arial, sans-serif;
       color: black;
+      direction: ltr;
 
       appearance: none;
       -webkit-appearance: none;

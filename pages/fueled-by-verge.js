@@ -2,9 +2,9 @@ import React from 'react';
 
 import Head from 'next/head';
 
+import { translate } from 'react-i18next';
 import Layout from '../components/Layout';
 
-import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 function FBV(props) {
@@ -25,7 +25,13 @@ function FBV(props) {
           <div className="intro pb-large">
             <div className="row center-xs">
               <div className="container">
-                <div className="fbvRibbonHeading"><br /><br /><br /><br />Fueled by Verge</div>
+                <div className="fbvRibbonHeading">
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  Fueled by Verge
+                </div>
                 <div className="fbvRibbonHeadingSub2">Commitment to mass adoption through Verge Currency</div>
               </div>
             </div>
@@ -68,7 +74,8 @@ function FBV(props) {
             <div className="fbv-grid">
               <div>
                 <div className="AthletesFbv1">
-                  <a href="https://www.instagram.com/141mx/" target="_blank" rel="noopener noreferrer"><img src="/static/img/fbv/dannyRobertson.png" alt="Danny Robertson Fueled by Verge" />
+                  <a href="https://www.instagram.com/141mx/" target="_blank" rel="noopener noreferrer">
+                    <img src="/static/img/fbv/dannyRobertson.png" alt="Danny Robertson Fueled by Verge" />
                     <div className="AthletesFbvTxt1">
                       <p className="athleteSport">Motocross</p>
                       <p className="athleteName">Danny Robertson</p>
@@ -80,7 +87,8 @@ function FBV(props) {
 
               <div>
                 <div className="AthletesFbv1">
-                  <a href="https://www.instagram.com/gillinster/?hl=en" target="_blank" rel="noopener noreferrer"><img src="/static/img/fbv/gilLinster.png" alt="Gil Linster Fueled by Verge" />
+                  <a href="https://www.instagram.com/gillinster/?hl=en" target="_blank" rel="noopener noreferrer">
+                    <img src="/static/img/fbv/gilLinster.png" alt="Gil Linster Fueled by Verge" />
                     <div className="AthletesFbvTxt1">
                       <p className="athleteSport">Nascar</p>
                       <p className="athleteName">Gil Linster</p>
@@ -92,7 +100,8 @@ function FBV(props) {
 
               <div>
                 <div className="AthletesFbv1">
-                  <a href="https://goo.gl/forms/pd1EyEneXY6d4WU82"><img src="/static/img/fbv/yourSport.png" alt="Your Sport Fueled by Verge" />
+                  <a href="https://goo.gl/forms/pd1EyEneXY6d4WU82">
+                    <img src="/static/img/fbv/yourSport.png" alt="Your Sport Fueled by Verge" title="Your Sport Fueled by Verge" />
                     <div className="AthletesFbvTxt1">
                       <p className="athleteName">Would You Like to Join?</p>
                       <p className="athleteLocation">Contact Us!</p>
@@ -121,7 +130,14 @@ function FBV(props) {
 
             <div className="row center-xs middle-xs">
               <div className="col-xs-12 col-lg-8">
-                <div className="fbvTextLeftAlignment">The goal of #FueledByVerge is to showcase the utility of Verge through events by its community. Our Verge Currency team is the first team that is "Fueled by Verge" in both design and spirit. <br /><br /> FbV wants to showcase the strength and community of Verge by helping Sponsored individuals, thus bringing increased awareness of Verge Currency in general. <br /><br /> FbV also wishes to help people by promoting their events and achievements.  This will allow them to gain more support as an individual or team from the project they believe in.  FbV will promote their bios, event schedules, and how to find them. All of this will be done to increase media presence and brand awareness.
+                <div className="fbvTextLeftAlignment">
+                  The goal of #FueledByVerge is to showcase the utility of Verge through events by its community. Our Verge Currency team is the first team that is &quot;Fueled by Verge&quot; in both design and spirit. 
+                  <br />
+                  <br />
+                  FbV wants to showcase the strength and community of Verge by helping Sponsored individuals, thus bringing increased awareness of Verge Currency in general. 
+                  <br />
+                  <br />
+                  FbV also wishes to help people by promoting their events and achievements.  This will allow them to gain more support as an individual or team from the project they believe in.  FbV will promote their bios, event schedules, and how to find them. All of this will be done to increase media presence and brand awareness.
                 </div>
                 <div className="fbvButton"><a href="https://goo.gl/forms/pd1EyEneXY6d4WU82">Join the Movement</a></div>
               </div>
@@ -131,7 +147,9 @@ function FBV(props) {
 
       </div>
 
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
 
     </Layout>
   );
