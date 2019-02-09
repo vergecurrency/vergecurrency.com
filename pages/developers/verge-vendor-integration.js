@@ -45,6 +45,8 @@ function Vendor_Integration(props) {
               <p />
               <p>{t('vendor-integration:netcents:text5', { defaultValue: 'Using Verge with NetCents on a PAX A920:' })}</p>
 <iframe width="100%" height="469" src="https://www.youtube.com/embed/GxH9b8Tklbc"> </iframe>              <p />
+<p>{t('vendor-integration:netcents:text6', { defaultValue: 'Using Verge with NetCents on a Exadigm N5 Terminal:' })}</p>
+<iframe width="100%" height="469" src="https://www.youtube.com/embed/xJTv2GHSs1g"> </iframe>              <p />
               <br />            
               <h2>{t('vendor-integration:coinpayments:title', { defaultValue: 'CoinPayments Cart plugins' })}</h2>
               <p>{t('vendor-integration:coinpayments:text', { defaultValue: 'CoinPayments offers a wide array of cart modules for most of the popular ecommerce solutions available.' })}</p>
