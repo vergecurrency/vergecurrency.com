@@ -2,9 +2,10 @@ import React from 'react';
 
 import Head from 'next/head';
 
+import { translate } from 'react-i18next';
+
 import Layout from '../components/Layout';
 
-import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 function KeyTech(props) {
@@ -32,7 +33,7 @@ function KeyTech(props) {
         </div>
 
         <div className="container pb-large bb">
-          <div className="themed-container__dark themed-container__dark--wraith wraith">
+          <div className="themed-container__dark themed-container__dark--keytech keytech">
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
                 <h2>{t('key-tech:body.boxtitle', { defaultValue: 'Technology Focused On The End-User' })}</h2>

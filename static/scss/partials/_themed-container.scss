@@ -185,7 +185,7 @@
 
     &--home,
     &--meetup,
-    &--wraith {
+    &--keytech {
       background-color: #07121b;
       margin-top: -16rem;
       padding-bottom: 6rem;
@@ -226,12 +226,12 @@
       }
     }
 
-    &--wraith {
+    &--keytech {
       background-color: #040e15;
-      background-image: url(/static/img/key-tech/Wraith.png); // scss-lint:disable UrlQuotes
+      background-image: url(/static/img/key-tech/keytech.png); // scss-lint:disable UrlQuotes
       background-position: top right;
       background-repeat: no-repeat;
-      background-size: 50%;
+      margin-top: -30rem;
 
       @media (min-width: $min-width-sm) {
         background-size: contain;

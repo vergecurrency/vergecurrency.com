@@ -3,9 +3,10 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { translate } from 'react-i18next';
+
 import Layout from '../components/Layout';
 
-import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 function GetStarted(props) {
@@ -27,9 +28,9 @@ function GetStarted(props) {
                   <h1 dangerouslySetInnerHTML={{ __html: t('get-started:body.header1', { defaultValue: 'Congratulations! You’re now ready<br />to acquire your first Verge (XVG).' }) }} />
                   <p>{t('get-started:body.header2', { defaultValue: 'We’ve created this guide to tackle this specific problem - this page brings you from zero to hero in buying and using Verge (XVG).' })}</p>
                   <div className="pt-large logos">
-                    <img src="/static/img/get-started/coinbase.png" alt="coinbase" />
-                    <img src="/static/img/get-started/localbitcoins.png" alt="localbitcoins" />
-                    <img src="/static/img/get-started/binance.png" alt="binance" />
+                    <img src="/static/img/get-started/coinbase.png" className="pb-small" alt="Coinbase" />
+                    <img src="/static/img/get-started/localbitcoins.png" className="pb-small" alt="Localbitcoins" />
+                    <img src="/static/img/get-started/binance.png" className="pb-small" alt="Binance" />
                   </div>
                 </div>
               </div>
