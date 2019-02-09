@@ -24,7 +24,7 @@ function GetStarted(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-10 col-md-8 text-center">
                 <div className="ribbon-txt">
-                <h1 dangerouslySetInnerHTML={{ __html: t('get-started:body.header1', { defaultValue: 'Congratulations! You’re now ready<br />to acquire your first Verge (XVG).' }) }} />
+                  <h1 dangerouslySetInnerHTML={{ __html: t('get-started:body.header1', { defaultValue: 'Congratulations! You’re now ready<br />to acquire your first Verge (XVG).' }) }} />
                   <p>{t('get-started:body.header2', { defaultValue: 'We\’ve created this guide to tackle this specific problem - this page brings you from zero to hero in buying and using Verge (XVG).' })}</p>
                   <div className="pt-large logos">
                     <img src="/static/img/get-started/coinbase.png" alt="coinbase" />
@@ -105,7 +105,7 @@ function GetStarted(props) {
           <div className="container pb">
             <div className="row center-xs intro pt">
               <div className="col-xs-11 col-sm-7 col-lg-6">
-               <h6>{t('get-started:body.step', { defaultValue: 'Step' })} 3</h6>
+                <h6>{t('get-started:body.step', { defaultValue: 'Step' })} 3</h6>
                 <h2>{t('get-started:body.step3', { defaultValue: 'Buying Verge (XVG)' })}</h2>
                 <h3>{t('get-started:body.step3a', { defaultValue: 'Purchase Verge (XVG) from your selected exchange.' })}</h3>
                 <p>{t('get-started:body.step3b', { defaultValue: 'As the transaction travels through the blockchain between your Coinbase wallet and exchange wallet, keep in mind that this will take time and it varies by the traffic on the blockchain. Now that your Bitcoin (BTC) or Ethereum (ETH) has arrived at your exchange wallet, you are ready to purchase your Verge (XVG).' })} </p>
@@ -204,9 +204,7 @@ function GetStarted(props) {
                   <li>{t('get-started:body.step5g', { defaultValue: 'Paste in the wallet address, the total Verge (XVG) to send and a description. Then hit Send.' })}</li>
                 </ol>
                 <div className="protip protip-white">
-                  <div className="icon">
-
-                  </div>
+                  <div className="icon" />
                   <div className="text">
                     <strong>{t('get-started:body.protip', { defaultValue: 'Protip:' })}</strong> {t('get-started:body.step5h', { defaultValue: 'Always make sure to double check the receiver’s address and amount before sending your payment.' })}
                   </div>

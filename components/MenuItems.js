@@ -53,7 +53,7 @@ const MenuItems = ({ t }) => (
         {/* <Link href="/guides">
           <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
         </Link> */}
-      <Link prefetch href="https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf">
+        <Link prefetch href="https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf">
           <a href="https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
           </a>
         </Link>

@@ -10,18 +10,17 @@ class WalletsBtn extends React.Component {
     const wltIndex = walletsLocale.map(x => (x.os)).indexOf(platform.os.family);
     const wlt = (wltIndex !== -1) ? walletsLocale[wltIndex] : walletsLocale[0];
     const wltBtn = () => (
-      renderToString(
-         <Link href={wlt.url}>
-          <a href={wlt.url} className="btn btn-primary btn-wallet">
-          {/* 
+      renderToString(<Link href={wlt.url}>
+        <a href={wlt.url} className="btn btn-primary btn-wallet">
+          {/*
            Removing the ${wlt.classWhite} temporarily for Right-to-left languages:
-           <span className={`wallets--icon ${wlt.classWhite}`}> 
+           <span className={`wallets--icon ${wlt.classWhite}`}>
           */}
-            <span className={`wallets--icon`}>
-             {wlt.name}
-           </span>
-          </a>
-         </Link>)
+          <span className={'wallets--icon'}>
+            {wlt.name}
+          </span>
+        </a>
+      </Link>)
     );
     document.querySelector('.wallets__button').innerHTML = wltBtn();
   }

@@ -27,7 +27,7 @@ class MediumPosts extends React.Component {
 
       let content = elem.trim();
       content = content.split(' ').slice(0, limit);
-      content = content.join(' ') + (after ? after : '');
+      content = content.join(' ') + (after || '');
       return content;
     };
     return (

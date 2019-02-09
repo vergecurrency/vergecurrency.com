@@ -40,7 +40,7 @@ function Home(props) {
               'Verge - Secure and anonymous cryptocurrency, built for everyday use - VergeCurrency.com',
           })}
         </title>
-        <link rel='image_src' href='/static/img/press/logo/verge-logo.png' />        
+        <link rel="image_src" href="/static/img/press/logo/verge-logo.png" />
       </Head>
       <div className="home">
         <div className="ribbon">
@@ -249,7 +249,7 @@ function Home(props) {
                         })}
                       </h6>
                       <p>
-                      {('Dual-Key Stealth Addressing and Ring Confidential Transacitons(in development) enable our users to be able to send and receive payments safely and privately.')}
+                        {('Dual-Key Stealth Addressing and Ring Confidential Transacitons(in development) enable our users to be able to send and receive payments safely and privately.')}
                       </p>
                     </div>
                   </div>
@@ -266,12 +266,12 @@ function Home(props) {
                 <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
                   <div
                     className={
-                      'hidden-xs benefits--' +
-                      (i18n.language == 'ar' ||
+                      `hidden-xs benefits--${
+                      i18n.language == 'ar' ||
                       i18n.language == 'fa' ||
                       i18n.language == 'ku'
                         ? 'imgsrtl'
-                        : 'imgs')
+                        : 'imgs'}`
                     }
                   >
                     <LazyLoad height={430}>
@@ -474,12 +474,12 @@ function Home(props) {
                     <LazyLoad height={375}>
                       <img
                         className={
-                          'vendors--' +
-                          (i18n.language == 'ar' ||
+                          `vendors--${
+                          i18n.language == 'ar' ||
                           i18n.language == 'fa' ||
                           i18n.language == 'ku'
                             ? 'imgrtl'
-                            : 'img')
+                            : 'img'}`
                         }
                         src="../static/img/vendors/vendor-story.png"
                         srcSet="

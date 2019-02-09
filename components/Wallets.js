@@ -11,13 +11,13 @@ function Wallets() {
           className={`col-xs-12 col-sm-6 col-md-4 wallets--item start-xs ${x.available ? '' : 'wallets--item__disabled'}`}
           key={x.name}
         >
-          <div className='row-md-12'>
-            <div className='col-md-2'>
+          <div className="row-md-12">
+            <div className="col-md-2">
               <a href={x.url} target="_blank" rel="noopener noreferrer">
-                <div className={`${x.classNames} wallets--` + (i18n.language=='ar' || i18n.language=='fa' || i18n.language=='ku' ? 'iconrtl' : 'icon')} />
+                <div className={`${x.classNames} wallets--${i18n.language == 'ar' || i18n.language == 'fa' || i18n.language == 'ku' ? 'iconrtl' : 'icon'}`} />
               </a>
             </div>
-            <div className='col-md-10'>
+            <div className="col-md-10">
               <span className="wallets--text">
                 <h4>
                   <a href={x.url} target="_blank" rel="noopener noreferrer">

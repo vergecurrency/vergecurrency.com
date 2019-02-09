@@ -24,7 +24,7 @@ class LanguageSwitcher extends React.Component {
   }
 
   render() {
-    const changeDetection = e => {
+    const changeDetection = (e) => {
       i18n.changeLanguage(e.target.value);
     };
 

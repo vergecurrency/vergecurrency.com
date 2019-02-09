@@ -34,55 +34,47 @@ function FindUs(props) {
             <div className="col-xs-12 col-sm-8">
 
 
+              <div className="intro pt-large pb-large">
+                <div className="container center-xs">
 
 
-              <div class="intro pt-large pb-large">
-	<div class="container center-xs">
-   
-   
-   
-
-<div class="divTable">
-    <div class="divTableBody">
-      <div class="divTableRow">
-        <div class="divTableCell"><a href="https://www.twitter.com/vergecurrency" target="_blank"><img src="/static/img/find-us/twitter.png" alt="Twitter" title="Twitter"></img></a></div>
-        <div class="divTableCell"><a href="https://www.reddit.com/r/vergecurrency/" target="_blank"><img src="/static/img/find-us/reddit.png" alt="Reddit" title="Reddit"></img></a></div>
-        <div class="divTableCell"><a href="https://forums.vergecurrency.com" target="_blank"><img src="/static/img/find-us/verge-forums.png" alt="Forums" title="Verge Forums"></img></a></div>
-        <div class="divTableCell"><a href="https://www.investfeed.com/currency/XVG" target="_blank"><img src="/static/img/find-us/investfeed.png" alt="investFeed" title="investFeed"></img></a></div>
-        <div class="divTableCell"><a href="https://discord.gg/vergecurrency" target="_blank"><img src="/static/img/find-us/discord.png" alt="Discord" title="Discord"></img></a></div>
-    </div>
-    <div class="divTableRow">
-        <div class="divTableCell">Twitter</div>
-        <div class="divTableCell">Reddit</div>
-        <div class="divTableCell">Verge Forums</div>
-        <div class="divTableCell">investFeed</div>
-        <div class="divTableCell">Discord</div>
-    </div>
-  <br /><br />
-    <div class="divTableRow">
-        <div class="divTableCell"><a href="https://t.me/VERGExvg" target="_blank"><img src="/static/img/find-us/telegram.png" alt="Telegram" title="Telegram"></img></a></div>
-        <div class="divTableCell"> <a href="https://www.facebook.com/VERGEcurrency" target="_blank"><img src="/static/img/find-us/facebook.png" alt="Facebook" title="Facebook"></img></a></div>
-        <div class="divTableCell"><a href="https://www.youtube.com/c/vergecurrency" target="_blank"><img src="/static/img/find-us/youtube.png" alt="YouTube" title="YouTube"></img></a></div>
-        <div class="divTableCell"><a href="https://github.com/vergecurrency?tab=repositories" target="_blank"><img src="/static/img/find-us/github.png" alt="GitHub" title="GitHub"></img></a></div>
-        <div class="divTableCell"><a href="/community/send-an-email" target="_blank"><img src="/static/img/find-us/email.png" alt="Email" title="Email"></img></a></div>
-    </div>
-    <div class="divTableRow">
-        <div class="divTableCell">Telegram</div>
-        <div class="divTableCell">Facebook</div>
-        <div class="divTableCell">YouTube</div>
-        <div class="divTableCell">GitHub</div>
-        <div class="divTableCell">Email</div>
-    </div>
-  </div>
-</div>
+                  <div className="divTable">
+                    <div className="divTableBody">
+                      <div className="divTableRow">
+                        <div className="divTableCell"><a href="https://www.twitter.com/vergecurrency" target="_blank"><img src="/static/img/find-us/twitter.png" alt="Twitter" title="Twitter" /></a></div>
+                        <div className="divTableCell"><a href="https://www.reddit.com/r/vergecurrency/" target="_blank"><img src="/static/img/find-us/reddit.png" alt="Reddit" title="Reddit" /></a></div>
+                        <div className="divTableCell"><a href="https://forums.vergecurrency.com" target="_blank"><img src="/static/img/find-us/verge-forums.png" alt="Forums" title="Verge Forums" /></a></div>
+                        <div className="divTableCell"><a href="https://www.investfeed.com/currency/XVG" target="_blank"><img src="/static/img/find-us/investfeed.png" alt="investFeed" title="investFeed" /></a></div>
+                        <div className="divTableCell"><a href="https://discord.gg/vergecurrency" target="_blank"><img src="/static/img/find-us/discord.png" alt="Discord" title="Discord" /></a></div>
+                      </div>
+                      <div className="divTableRow">
+                        <div className="divTableCell">Twitter</div>
+                        <div className="divTableCell">Reddit</div>
+                        <div className="divTableCell">Verge Forums</div>
+                        <div className="divTableCell">investFeed</div>
+                        <div className="divTableCell">Discord</div>
+                      </div>
+                      <br /><br />
+                      <div className="divTableRow">
+                        <div className="divTableCell"><a href="https://t.me/VERGExvg" target="_blank"><img src="/static/img/find-us/telegram.png" alt="Telegram" title="Telegram" /></a></div>
+                        <div className="divTableCell"> <a href="https://www.facebook.com/VERGEcurrency" target="_blank"><img src="/static/img/find-us/facebook.png" alt="Facebook" title="Facebook" /></a></div>
+                        <div className="divTableCell"><a href="https://www.youtube.com/c/vergecurrency" target="_blank"><img src="/static/img/find-us/youtube.png" alt="YouTube" title="YouTube" /></a></div>
+                        <div className="divTableCell"><a href="https://github.com/vergecurrency?tab=repositories" target="_blank"><img src="/static/img/find-us/github.png" alt="GitHub" title="GitHub" /></a></div>
+                        <div className="divTableCell"><a href="/community/send-an-email" target="_blank"><img src="/static/img/find-us/email.png" alt="Email" title="Email" /></a></div>
+                      </div>
+                      <div className="divTableRow">
+                        <div className="divTableCell">Telegram</div>
+                        <div className="divTableCell">Facebook</div>
+                        <div className="divTableCell">YouTube</div>
+                        <div className="divTableCell">GitHub</div>
+                        <div className="divTableCell">Email</div>
+                      </div>
+                    </div>
+                  </div>
 
 
-
-
-   
-   
-    </div>
-  </div>
+                </div>
+              </div>
 
 
             </div>

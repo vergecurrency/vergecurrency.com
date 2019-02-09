@@ -4,7 +4,7 @@ export const PartnerInfo = ({ t }) => {
   const options = {
     previewHeight: '6em', // 1 line = 3em => 2 lines
     expandText: 'more',
-    collapseText: 'less'
+    collapseText: 'less',
   };
 
   return (
@@ -13,13 +13,13 @@ export const PartnerInfo = ({ t }) => {
         <div className="start-sm pb-small">
           <h2>
             {t('home:partnership.intro', {
-              defaultValue: 'On our mission for mass adoption'
+              defaultValue: 'On our mission for mass adoption',
             })}{' '}
             <span className="hidden-xs">
               <br />
             </span>
             {t('home:partnership.subintro', {
-              defaultValue: 'we are supported by the following partners:'
+              defaultValue: 'we are supported by the following partners:',
             })}
           </h2>
         </div>
@@ -37,7 +37,7 @@ export const PartnerInfo = ({ t }) => {
                   Blockchain Technology to provide payment solutions that are simple
                   to use, secure and worry-free. NetCents has partnered with Verge
                   along with its financial partners, mobile operators, exchanges,
-                  etc., to streamline the user experience of transacting online.`
+                  etc., to streamline the user experience of transacting online.`,
               })}
             </ExpandCollapse>
           </div>
@@ -52,11 +52,11 @@ export const PartnerInfo = ({ t }) => {
                 Miami, Montreal and Los Angeles. MindGeek continues to drive the
                 state of technology forward, developing industry-leading solutions
                 enabling faster, more efficient delivery of content every second
-                to millions of customers worldwide.`
+                to millions of customers worldwide.`,
               })}
             </ExpandCollapse>
           </div>
-		  <div>
+          <div>
             <a href="https://www.tokenpay.com/">
               <img src="/static/img/partners/tokenpay.png" alt="tokenpay" />
             </a>
@@ -68,7 +68,7 @@ export const PartnerInfo = ({ t }) => {
                     self-verifying payment platform project with a passionate
                     community following with a focus on adoption, decentralization and
                     ease of use for digital currencies in todays mixed currency global
-                    financial system.`
+                    financial system.`,
               })}
             </ExpandCollapse>
           </div>
@@ -83,7 +83,7 @@ export const PartnerInfo = ({ t }) => {
                 computer devices. Developing useful everyday applications that can store, transact and 
                 also trade digital currencies encourages global use and wider spread adoption. 
                 One such product, is the PLAAK Core Card a sleek and easy to carry and use device, 
-                enabling Core Card owners to safely store, transact and receive digital currencies anywhere.`
+                enabling Core Card owners to safely store, transact and receive digital currencies anywhere.`,
               })}
             </ExpandCollapse>
           </div>
@@ -96,7 +96,7 @@ export const PartnerInfo = ({ t }) => {
                 defaultValue: `The Crypto Den is a multi-platform service aimed at mass adoption through education.
                 The Crypto Den's goal is being a one stop shop, to make crypto less cryptic for the public whilst facilitating 
                 a peer-to-peer crypto marketplace, as well as presenting networking and partnership opportunities between communities, 
-                projects, exchanges and businesses alike.`
+                projects, exchanges and businesses alike.`,
               })}
             </ExpandCollapse>
           </div>

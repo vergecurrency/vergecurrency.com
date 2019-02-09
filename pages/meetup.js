@@ -15,7 +15,7 @@ function Meetup(props) {
       <Head>
         <title key="title">{t('common:meta.meetup.title', { defaultValue: 'The First Verge Meetup in Amsterdam 9th of June, 2018 - VergeCurrency.com' })}</title>
         <meta key="description" name="description" content={t('common:meta.meetup.description', { defaultValue: 'The meet-up will take place on the 9th of June in Amsterdam, the capital of the Netherlands, and will take place on a boat, which we will cruise on through the Amsterdam canals.' })} />
-        <script src="https://www.universe.com/embed2.js" data-state=""></script>
+        <script src="https://www.universe.com/embed2.js" data-state="" />
       </Head>
       <div className="meetup pt-large pb">
         <div className="ribbon ribbon--meetup">
@@ -27,7 +27,7 @@ function Meetup(props) {
                 <div className="ribbon-txt">
                   <h1>Join The First Verge Meetup in <span>Amsterdam</span> June 9th, 2018</h1>
                   <p>We are really pleased to announce that we will be <br className="hidden-xs" />holding the very first Verge meet-up ever!</p>
-                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
+                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ function Meetup(props) {
             <div className="col-xs-10">
               <div className="row">
                 <div className="col-xs-12">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.505135614645!2d4.902052188500803!3d52.37939260409592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b646f89b21%3A0xb1f631c99dabe1b5!2sDe+Ruijterkade%2C+Amsterdam!5e0!3m2!1snl!2snl!4v1525194929869" width="100%" height="400" frameBorder="0"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.505135614645!2d4.902052188500803!3d52.37939260409592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b646f89b21%3A0xb1f631c99dabe1b5!2sDe+Ruijterkade%2C+Amsterdam!5e0!3m2!1snl!2snl!4v1525194929869" width="100%" height="400" frameBorder="0" />
                 </div>
               </div>
               <div className="row top-xs middle-sm pt">
@@ -129,7 +129,7 @@ function Meetup(props) {
                   </p>
                 </div>
                 <div className="col-xs-12 col-sm-3">
-                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
+                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@ function Meetup(props) {
                     <p className="tickets__price">€ 35</p>
                   </div>
                   <div className="pt-small pb-small">
-                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
+                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
                   </div>
                   <p className="text--smaller start-sm">
                     <b>What you get:</b><br />
@@ -186,7 +186,7 @@ function Meetup(props) {
                     <p className="tickets__price">€ 75</p>
                   </div>
                   <div className="pt-small pb-small">
-                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
+                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
                   </div>
                   <p className="text--smaller start-sm">
                     <b>What you get:</b><br />
@@ -210,7 +210,7 @@ function Meetup(props) {
                     <p className="tickets__price">€ 175</p>
                   </div>
                   <div className="pt-small pb-small">
-                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: "#1db6dc" }}>Buy Tickets Here</a>
+                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
                   </div>
                   <p className="text--smaller start-sm">
                     <b>What you get:</b><br />

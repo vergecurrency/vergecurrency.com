@@ -36,7 +36,7 @@ function GetVerge(props) {
             <div className="col-xs-10 col-sm-6">
               <h6>{t('get-verge:body.title2', { defaultValue: 'DELIVERS WHAT OTHERS CAN\’T' })}</h6>
               <h2>
-              {t('get-verge:body.delivers', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.' })}
+                {t('get-verge:body.delivers', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.' })}
               </h2>
               <p>{t('get-verge:body.privacy', { defaultValue: 'We care about your privacy. Do you?' })}</p>
             </div>

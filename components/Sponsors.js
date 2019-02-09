@@ -30,7 +30,7 @@ export const Sponsors = () => {
               <div className="col-xs-4 col-sm-3 center-xs pb-xs sponsors__single" role="presentation">
                 <a href="https://www.blacktowerfm.com/locations/the-netherlands" target="_blank" rel="noopener">
                   <LazyLoad height="100">
-                    <img className="img-responsive sponsors__logo" src="../static/img/meetup/sponsors/blacktower.png" style={{ maxHeight: "100px" }} alt="Blacktower financial management group" />
+                    <img className="img-responsive sponsors__logo" src="../static/img/meetup/sponsors/blacktower.png" style={{ maxHeight: '100px' }} alt="Blacktower financial management group" />
                   </LazyLoad>
                 </a>
               </div>

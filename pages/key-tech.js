@@ -38,7 +38,7 @@ function KeyTech(props) {
               <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
                 <h2>{t('key-tech:body.boxtitle', { defaultValue: 'Technology Focused On The End-User' })}</h2>
                 <p>
-                  {t('key-tech:body.boxtext1', { defaultValue: 'Verge was originally created based on the idea of providing end-user identity obfuscation suited for everyday use.' })} 
+                  {t('key-tech:body.boxtext1', { defaultValue: 'Verge was originally created based on the idea of providing end-user identity obfuscation suited for everyday use.' })}
                   &nbsp;
                 </p>
                 <p>
@@ -187,7 +187,7 @@ function KeyTech(props) {
                 </p>
               </div>
               <div className="col-sm-4 col-md-5 col-lg-6 hidden-xs">
-                <div className={"integrations--" + (i18n.language=='ar' || i18n.language=='fa' || i18n.language=='ku' ? 'imgsrtl' : 'imgs')} />                
+                <div className={`integrations--${i18n.language == 'ar' || i18n.language == 'fa' || i18n.language == 'ku' ? 'imgsrtl' : 'imgs'}`} />
               </div>
             </div>
           </div>

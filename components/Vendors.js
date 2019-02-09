@@ -35,29 +35,26 @@ export const HomeVendors = () => {
 
 const filterVendorList = (vendors, filters) =>
   vendors.filter(vendor =>
-    filters.some(filter => vendor.categories[filter] === true)
-  );
+    filters.some(filter => vendor.categories[filter] === true));
 
 export const LatestVendors = ({ filter: categoriesFilter }) => {
-  const vendors = filterVendorList(vendorsLocale, categoriesFilter).map(
-    vendor => (
-      <div className="col-xs col-md-3" key={vendor.title} role="presentation">
-        <a href={vendor.url} target="_blank" rel="noopener">
-          <div className="vendors--item middle-xs">
-            <div className="vendors--item__logo">
-              <LazyLoad height={40}>
-                <img src={vendor.img} alt="img" />
-              </LazyLoad>
-            </div>
-            <div className="vendors--item__name">
-              <h4>{vendor.title}</h4>
-              <span>{vendor.link}</span>
-            </div>
+  const vendors = filterVendorList(vendorsLocale, categoriesFilter).map(vendor => (
+    <div className="col-xs col-md-3" key={vendor.title} role="presentation">
+      <a href={vendor.url} target="_blank" rel="noopener">
+        <div className="vendors--item middle-xs">
+          <div className="vendors--item__logo">
+            <LazyLoad height={40}>
+              <img src={vendor.img} alt="img" />
+            </LazyLoad>
           </div>
-        </a>
-      </div>
-    )
-  );
+          <div className="vendors--item__name">
+            <h4>{vendor.title}</h4>
+            <span>{vendor.link}</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  ));
 
   return <div className="row pt">{vendors}</div>;
 };
