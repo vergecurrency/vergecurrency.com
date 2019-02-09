@@ -33,8 +33,8 @@ function WalletsPage(props) {
           <div className="row center-xs middle-xs pt-large pb-large">
             <div className="col-xs-10 col-sm-6">
               <h6>{t('wallets:body.header2', { defaultValue: 'Wallets' })}</h6>
-              <h2 dangerouslySetInnerHTML={{ __html: t('wallets:body.text2', { defaultValue: 'Download our latest Core Wraith Wallets for <span className="hidden-xs"><br /></span> Windows, Linux and OSX or store your Verge on <span className="hidden-xs"><br /></span> your mobile with our Tor wallet.' }) }} />
-              <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text3', { defaultValue: 'Our core wallet is secure, easy and fast. Transactions in <span className="hidden-xs"><br /></span> less than 30 seconds.' }) }} />
+              <h2 dangerouslySetInnerHTML={{ __html: t('wallets:body.text2', { defaultValue: 'Download one of our latest core wallets for <span className="hidden-xs"><br /></span> Windows, Linux and OSX or you can store your Verge on <span className="hidden-xs"><br /></span> your mobile with our Tor wallet.' }) }} />
+              <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text3', { defaultValue: 'Our core wallet is extensively tested, safe, and easy to use. Transactions in <span className="hidden-xs"><br /></span> less than 30 seconds.' }) }} />
             </div>
           </div>
 
