@@ -54,13 +54,7 @@ function Roadmap(props) {
                       <li className="roadmap__year roadmap__year--next">
                         <span>{/*2019*/}</span>
                       </li>
-                      <li className="roadmap__item roadmap__item--planned">
-                        <h3>Redesigned Android Wallet with I2P support</h3>
-                        freshly redesigned wallet to match our corporate design
-                        and anonymous mobile transactions over the I2P network
-                        <br />
-                        <b>Unplanned</b>
-                      </li>
+
                       {/*<li className="roadmap__item roadmap__item--planned">
                         <h3>Tor I2P Electrum Wallet</h3>
                       </li>
