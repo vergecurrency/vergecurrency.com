@@ -41,7 +41,7 @@ const roadMap = [
     description:
       'Verge branded apparel that can be purchased with XVG and BTC.',
     progress: 95,
-    progressState: 'finalizing design',
+    progressState: 'Finalizing design',
   },
   {
     done: false,
@@ -49,7 +49,7 @@ const roadMap = [
     title: 'Mining Update',
     description: 'XVGui Miner for Windows, Official Mining Pool & Mining Guide',
     progress: 80,
-    progressState: 'work in progress',
+    progressState: 'Work in progress',
   },
   {
     done: false,
@@ -67,7 +67,7 @@ const roadMap = [
     description:
       'Electron based wallet with better performance and minimalistic UI design',
     progress: 85,
-    progressState: 'preparing release',
+    progressState: 'Preparing release',
   },
   {
     done: false,
@@ -76,7 +76,7 @@ const roadMap = [
     description:
       'Ring Confidential Transactions - advanced masking of transaction amounts',
     progress: 45,
-    progressState: 'integrating',
+    progressState: 'Work in progress',
   },
   {
     done: false,
@@ -84,7 +84,7 @@ const roadMap = [
     title: 'RSK',
     description: 'RSK Smart Contract Integration',
     progress: 25,
-    progressState: 'investigating integration',
+    progressState: 'Investigating integration',
   },
   {
     done: false,
@@ -93,7 +93,16 @@ const roadMap = [
     description:
       'iOS wallet with full-fledged feature set like a normal wallet.',
     progress: 60,
-    progressState: 'in public beta; development ongoing',
+    progressState: 'In public beta; development ongoing',
+  },
+    {
+    done: false,
+    doneDate: '',
+    title: 'Official Android wallet update',
+    description:
+      'Freshly redesigned wallet to match our corporate design and feature set.',
+    progress: 15,
+    progressState: 'Work in progress',
   },
 ];
 
