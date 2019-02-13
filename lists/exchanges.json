@@ -13,16 +13,22 @@
       "url": "https://bittrex.com"
     },
     {
+      "img": "../static/img/exchanges/huobiglobal.jpg",
+      "title": "Huobi Global",
+      "link": "hbg.com",
+      "url": "https://www.hbg.com/en-us/topic/invited/?invite_code=pcjt3"
+    },
+    {
       "img": "../static/img/exchanges/netcents.png",
       "title": "NetCents",
       "link": "net-cents.com",
       "url": "https://net-cents.com/markets/xvgbtc"
     },
     {
-      "img": "../static/img/exchanges/huobiglobal.jpg",
-      "title": "Huobi Global",
-      "link": "hbg.com",
-      "url": "https://www.hbg.com/en-us/topic/invited/?invite_code=pcjt3"
+      "img": "../static/img/exchanges/dynx.png",
+      "title": "DynX",
+      "link": "dynx.io",
+      "url": "https://www.dynx.io/"
     },
     {
       "img": "../static/img/exchanges/bithumb.png",
