@@ -90,15 +90,6 @@
       },
       {
         "img": "../static/img/team/verge.jpg",
-        "name": "Samantha - CryptoSam",
-        "role": "Procurement & Fulfillment",
-        "occupation": "Territory Sales Manager",
-        "github": "https://github.com/CryptoSamantha",
-        "twitter": "",
-	"location": "Missouri, USA"
-      },
-      {
-        "img": "../static/img/team/verge.jpg",
         "name": "Tim - CryptoT",
         "role": "Business Development and Outreach",
         "occupation": "Entrepreneur",
