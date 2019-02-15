@@ -19,6 +19,12 @@
       "url": "https://www.hbg.com/en-us/topic/invited/?invite_code=pcjt3"
     },
     {
+      "img": "../static/img/exchanges/godex.png",
+      "title": "Godex",
+      "link": "godex.io",
+      "url": "https://godex.io"
+    },
+    {
       "img": "../static/img/exchanges/netcents.png",
       "title": "NetCents",
       "link": "net-cents.com",
@@ -119,12 +125,6 @@
       "title": "SouthXchange",
       "link": "southxchange.com",
       "url": "https://www.southxchange.com/Market/Book/XVG/BTC"
-    },
-    {
-      "img": "../static/img/exchanges/godex.png",
-      "title": "Godex",
-      "link": "godex.io",
-      "url": "https://godex.io"
     },
     {
       "img": "../static/img/exchanges/coinspot.png",
