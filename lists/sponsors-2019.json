@@ -1,0 +1,90 @@
+{
+  "sponsors": {
+    "whalePkg": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/WhaleApparel.jpg",
+        "title": "WhaleApparel",
+        "height": 65,
+        "url": "https://www.whaleapparel.com/"
+      }
+    ],
+    
+    "dolphinPkg": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/Universe.jpg",
+        "title": "Universe",
+        "height": 65,
+        "url": "https://www.universe.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/Siebers.jpg",
+        "title": "Siebers",
+        "height": 65,
+        "url": "http://www.printingplus.nl/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/Delta.jpg",
+        "title": "Delta",
+        "height": 65,
+        "url": "https://delta.app/"
+      },
+
+      {
+        "img": "../static/img/meetup-2019/sponsors/247Bits.jpg",
+        "title": "247Bits",
+        "height": 65,
+        "url": "https://www.247bits.com/"
+      }
+    ],
+
+    "goldfishPkg": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/new.jpg",
+        "title": "a",
+        "height": 40,
+        "url": "https://www.vergecurrency.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/new.jpg",
+        "title": "b",
+        "height": 40,
+        "url": "https://www.vergecurrency.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/new.jpg",
+        "title": "c",
+        "height": 40,
+        "url": "https://www.vergecurrency.com/"
+      }
+      
+    ],
+
+    "mediaPartners": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/BlockchainTalks.jpg",
+        "title": "BlockchainTalks",
+        "height": 65,
+        "url": "https://blockchaintalks.io/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/BitcoinMagazine.jpg",
+        "title": "BitcoinMagazine",
+        "height": 65,
+        "url": "https://bitcoinmagazine.nl/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/CryptoTrader.jpg",
+        "title": "CryptoTrader",
+        "height": 65,
+        "url": "https://www.cryptotrader.nl/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/iBlockTv.jpg",
+        "title": "iBlockTV",
+        "height": 65,
+        "url": "https://www.youtube.com/channel/UC_IjTs99YLJUefYiS9ue_ig/featured?app=desktop "
+      }
+      
+    ]
+  }
+}

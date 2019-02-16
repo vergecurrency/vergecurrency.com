@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 
-const sponsorLocale = require('../lists/sponsors').sponsors;
+const sponsorLocale = require('../lists/sponsors-2018').sponsors;
 
 export const Sponsors = () => {
   const Sponsors = sponsorLocale.map(s => (
@@ -30,7 +30,7 @@ export const Sponsors = () => {
               <div className="col-xs-4 col-sm-3 center-xs pb-xs sponsors__single" role="presentation">
                 <a href="https://www.blacktowerfm.com/locations/the-netherlands" target="_blank" rel="noopener">
                   <LazyLoad height="100">
-                    <img className="img-responsive sponsors__logo" src="../static/img/meetup/sponsors/blacktower.png" style={{ maxHeight: '100px' }} alt="Blacktower financial management group" />
+                    <img className="img-responsive sponsors__logo" src="../static/img/meetup-2018/sponsors/blacktower.png" style={{ maxHeight: '100px' }} alt="Blacktower financial management group" />
                   </LazyLoad>
                 </a>
               </div>

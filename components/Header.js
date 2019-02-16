@@ -1,13 +1,13 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 
-import VergeLogoWhite from '../static/img/verge-logo-white.svg';
-
 import Head from 'next/head';
 import Link from 'next/link';
 import Router from 'next/router';
 
 import NProgress from 'nprogress';
+
+import VergeLogoWhite from '../static/img/verge-logo-white.svg';
 
 import Navbar from './Navbar';
 import MenuItems from './MenuItems';
