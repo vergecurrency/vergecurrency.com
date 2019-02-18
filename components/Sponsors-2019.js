@@ -60,16 +60,30 @@ export const Sponsors = () => {
     </div>
   ));
 
+  const VergeFam = sponsorList.vergeFam.map(s => (
+    <div
+      className="col-xs-3 col-sm-3 center-xs pb-xs sponsors__single"
+      key={s.title}
+      role="presentation"
+    >
+      <a href={s.url} target="_blank" rel="noopener noreferrer">
+        <LazyLoad height={s.height}>
+          <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+        </LazyLoad>
+      </a>
+    </div>
+  ));
+
   return (
     <div className="row center-xs sponsors">
-      <div className="col-xs-10 pt-small pb-large bb">
+      <div className="col-xs-11 pt-small pb-large bb">
 
         <div className="row center-xs middle-xs col-xs-10 col-xs-offset-1 border__lines">
 
           <div className="col-xs-12 center-xs col-sm-4 start-sm">
             <p style={{ padding: '10px 0' }}>
               Executive
-              <br className="hidden-xs" />
+              <br className="hidden-sm" />
               {' '}
               Sponsor
             </p>
@@ -77,7 +91,7 @@ export const Sponsors = () => {
 
           <div className="col-xs-10 col-sm-7">
             <div className="sponsors__single" role="presentation">
-              <a href="https://www.vergecurrency.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:contact@vergecurrency.com?subject=Second Verge Meetup - Sponsorship" target="_blank" rel="noopener noreferrer">
                 <LazyLoad height="100">
                   <img className="img-responsive sponsors__logo" src="../static/img/meetup-2019/sponsors/new.jpg" style={{ maxHeight: '100px' }} alt="You?" />
                 </LazyLoad>
@@ -86,6 +100,7 @@ export const Sponsors = () => {
           </div>
         </div>
 
+        {/*
         <div className="row start-xs middle-xs">
           <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">
             <p style={{ textAlign: 'left', padding: '20px 0' }}>Whale Sponsors&nbsp;&nbsp;</p>
@@ -97,10 +112,16 @@ export const Sponsors = () => {
             </div>
           </div>
         </div>
+        */}
 
         <div className="row start-xs middle-xs">
           <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">
-            <p style={{ textAlign: 'left', padding: '20px 0' }}>Dolphin Sponsors</p>
+            <p style={{ textAlign: 'left', padding: '20px 0' }}>
+              Dolphin
+              <br className="hidden-sm" />
+              {' '}
+              Sponsors
+            </p>
           </div>
 
           <div className="col-xs">
@@ -110,6 +131,7 @@ export const Sponsors = () => {
           </div>
         </div>
 
+        {/*
         <div className="row start-xs middle-xs">
           <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">
             <p style={{ textAlign: 'left', padding: '20px 0' }}>Goldfish Sponsors</p>
@@ -121,12 +143,13 @@ export const Sponsors = () => {
             </div>
           </div>
         </div>
+        */}
 
         <div className="row start-xs middle-xs">
           <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">
             <p style={{ textAlign: 'left', padding: '20px 0' }}>
               Media
-              <br className="hidden-lg" />
+              <br className="hidden-sm" />
               {' '}
               Partners
             </p>
@@ -135,6 +158,23 @@ export const Sponsors = () => {
           <div className="col-xs">
             <div className="row middle-xs">
               {MediaPartners}
+            </div>
+          </div>
+        </div>
+
+        <div className="row start-xs middle-xs">
+          <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">
+            <p style={{ textAlign: 'left', padding: '20px 0' }}>
+              #VergeFam
+              <br className="hidden-lg" />
+              {' '}
+              Partners
+            </p>
+          </div>
+
+          <div className="col-xs">
+            <div className="row middle-xs">
+              {VergeFam}
             </div>
           </div>
         </div>

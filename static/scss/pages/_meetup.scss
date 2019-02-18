@@ -62,6 +62,11 @@
         color: $picton-blue;
       }
     }
+
+    a {
+      word-wrap: break-word;
+      color: #1db6dc;
+    }
   }
 
   &--tickets {

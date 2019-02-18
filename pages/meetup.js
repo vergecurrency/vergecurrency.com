@@ -24,7 +24,7 @@ function Meetup(props) {
 
           <div className="container">
             <div className="row center-xs">
-              <div className="col-xs-10 col-sm-9 text-center">
+              <div className="col-xs-11 col-sm-10 text-center">
                 <div className="ribbon-txt">
                   <h1>
                     Join The Second Verge Meetup in
@@ -45,25 +45,29 @@ function Meetup(props) {
           </div>
         </div>
 
-        <div className="row center-xs middle-xs pt bg__grey">
-          <div className="col-xs-10 bb">
-            <div className="meetup__counters">
-              <div className="row">
-                <div className="col-xs-6 col-sm-3 pb">
-                  <div className="meetup__counter-number">350</div>
-                  <div className="meetup__counter-text">tickets available</div>
-                </div>
-                <div className="col-xs-6 col-sm-3 pb">
-                  <div className="meetup__counter-number">2nd</div>
-                  <div className="meetup__counter-text">Verge Meetup</div>
-                </div>
-                <div className="col-xs-6 col-sm-3 pb">
-                  <div className="meetup__counter-number">25th</div>
-                  <div className="meetup__counter-text">May 2019</div>
-                </div>
-                <div className="col-xs-6 col-sm-3 pb">
-                  <div className="meetup__counter-number">10+</div>
-                  <div className="meetup__counter-text">Core members</div>
+        <div className="bg__grey">
+          <div className="container">
+            <div className="row center-xs middle-xs pt">
+              <div className="col-xs-11 bb">
+                <div className="meetup__counters">
+                  <div className="row">
+                    <div className="col-xs-6 col-sm-3 pb">
+                      <div className="meetup__counter-number">350</div>
+                      <div className="meetup__counter-text">tickets available</div>
+                    </div>
+                    <div className="col-xs-6 col-sm-3 pb">
+                      <div className="meetup__counter-number">2nd</div>
+                      <div className="meetup__counter-text">Verge Meetup</div>
+                    </div>
+                    <div className="col-xs-6 col-sm-3 pb">
+                      <div className="meetup__counter-number">25th</div>
+                      <div className="meetup__counter-text">May 2019</div>
+                    </div>
+                    <div className="col-xs-6 col-sm-3 pb">
+                      <div className="meetup__counter-number">10+</div>
+                      <div className="meetup__counter-text">Core members</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -77,7 +81,7 @@ function Meetup(props) {
           <div className="container pb-large">
             <div className="themed-container__transparent themed-container__transparent--meetup19 pb-small">
               <div className="row center-xs">
-                <div className="col-xs-10 col-sm-6 col-md-5 start-sm">
+                <div className="col-xs-11 col-sm-6 col-md-5 start-sm">
                   <h2>
                     Holding the second Verge meet-up.
                     <br />
@@ -94,7 +98,7 @@ function Meetup(props) {
                     about the Verge Currency project, blockchain development in general, as well as other developments within the crypto space.
                   </p>
                 </div>
-                <div className="col-xs-10 col-sm-4 col-md-5">&nbsp;</div>
+                <div className="col-xs-10 col-sm-4 col-md-5 col-sm-offset-1">&nbsp;</div>
               </div>
             </div>
           </div>
@@ -103,7 +107,7 @@ function Meetup(props) {
         <div className="container pb bb">
           <div className="pb-small sponsor-container">
             <div className="row center-xs">
-              <div className="col-xs-10 col-sm-10 col-md-2 start-sm">
+              <div className="col-xs-11 col-sm-11 col-md-3 start-sm">
                 <h3>
                   Special Guests
                 </h3>
@@ -112,7 +116,7 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/Justin.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Justin (Sunerok)
@@ -122,7 +126,7 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/Didi.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Didi Taihuttu
@@ -132,7 +136,7 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/Michael.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Crypto Michaël
@@ -142,7 +146,7 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/x.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Soon to be announced
@@ -155,7 +159,7 @@ function Meetup(props) {
 
         <div className="container meetup--media">
           <div className="row center-xs middle-xs pt">
-            <div className="col-xs-10 col-sm-8 col-md-8">
+            <div className="col-xs-11 col-sm-8 col-md-8">
               <h2>
                 Liked our first meet-up?
                 <br className="hidden-xs" />
@@ -167,7 +171,7 @@ function Meetup(props) {
           </div>
 
           <div className="row center-xs middle-xs pt">
-            <div className="col-xs-10">
+            <div className="col-xs-11">
               <div className="row center-xs">
                 <div className="col-xs-12 col-sm-4 col--fullheight">
                   <img src="/static/img/meetup-2019/pics/pic1.jpg" className="img-responsive" alt="responsive" />
@@ -185,7 +189,7 @@ function Meetup(props) {
           </div>
 
           <div className="row center-xs middle-xs pb">
-            <div className="col-xs-10">
+            <div className="col-xs-11">
               <div className="row">
                 <div className="col-xs-12">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2069.373379656265!2d4.491164789289276!3d51.91728840563742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c43367221a5b8d%3A0x2c039be15846d9ae!2sBoompjes+750%2C+3011+XZ+Rotterdam%2C+Netherlands!5e0!3m2!1sen!2sau!4v1550043280496" width="100%" height="400" frameBorder="0" title="Google Map"></iframe>
@@ -217,7 +221,7 @@ function Meetup(props) {
         </div>
         <div className="container pt pb">
           <div className="row center-xs">
-            <div className="col-xs-10">
+            <div className="col-xs-11">
               <div className="themed-container__dark themed-container__dark--meetup">
                 <div className="row center-xs">
                   <div className="col-xs-10 col-sm-8 start-sm">
@@ -241,7 +245,7 @@ function Meetup(props) {
         </div>
         <div className="container meetup--tickets">
           <div className="row center-xs pt">
-            <div className="col-xs-10 col-md-11 col-lg-9">
+            <div className="col-xs-11 col-md-11 col-lg-9">
               <h2>
                 Verge Meetup
                 {' '}
@@ -363,7 +367,7 @@ function Meetup(props) {
 
         <div className="container meetup--programme pt">
           <div className="row center-xs pt">
-            <div className="col-xs-10 col-sm-4 col-sm-offset-1 start-sm pb-xs">
+            <div className="col-xs-11 col-sm-5 start-sm pb-xs">
               <h2>
                 Program
                 {' '}
@@ -384,7 +388,7 @@ function Meetup(props) {
                 More info about our speakers soon.
               </p>
             </div>
-            <div className="col-xs-10 col-sm-4 col-sm-offset-1 start-sm">
+            <div className="col-xs-11 col-sm-5 col-sm-offset-1 start-sm">
               <h2>
                 Practical Information
               </h2>
@@ -402,27 +406,21 @@ function Meetup(props) {
                 <br />
                 <b>Travelling Plans:</b>
                 <br />
-                Bus:
+                Public Transport:
                 {' '}
-                Click to see route
-                {' '}
-                (Google Maps)
-                <br />
-                Metro:
-                {' '}
-                Click to see route
-                {' '}
-                (Google Maps)
-                <br />
-                Train:
-                {' '}
-                Click to see route
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.nl/maps/dir/Amsterdam+Centraal,+Stationsplein,+1012+AB+Amsterdam/Eau+Lounge,+Boompjes+750,+3011+XZ+Rotterdam/@52.156234,4.3241559,10z/am=t/data=!4m14!4m13!1m5!1m1!1s0x47c609b70dd81623:0xcae71b8d3adfd142!2m2!1d4.900272!2d52.3791283!1m5!1m1!1s0x47c43342e5ecd389:0x53692323570e9faf!2m2!1d4.492098!2d51.916849!3e3">Click to see route</a>
                 {' '}
                 (Google Maps)
                 <br />
                 Car:
                 {' '}
-                Click to see parking spots
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.nl/maps/dir/Amsterdam+Airport+Schiphol,+Evert+van+de+Beekstraat+202,+1118+CP+Schiphol/Eau+Lounge,+Boompjes+750,+3011+XZ+Rotterdam/@52.1111674,4.2769485,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47c5e134e0fd162d:0xc7d51583f1cef188!2m2!1d4.7682744!2d52.3105386!1m5!1m1!1s0x47c43342e5ecd389:0x53692323570e9faf!2m2!1d4.492098!2d51.916849!3e0">Click to see route</a>
+                {' '}
+                (Google Maps)
+                <br />
+                (
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.nl/maps/place/Noordereiland,+3071+LL+Rotterdam/data=!4m2!3m1!1s0x47c43369f5c21d6d:0x6623a259e9515705?ved=2ahUKEwjS2OOpzMXgAhVIJVAKHSaOAz0Q8gEwAHoECAAQAQ">Click to see parking spots</a>
+                )
                 <br />
                 <br />
                 <b>Dress Code:</b>
