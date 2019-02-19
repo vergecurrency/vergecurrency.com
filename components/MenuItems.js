@@ -90,6 +90,9 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/presskit">
           <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
         </Link>
+        <Link prefetch href="/meetup">
+          <a href="/meetup">{t('header:meetup', { defaultValue: 'MeetUp' })}</a>
+        </Link>
         <Link prefetch href="/find-us">
           <a href="/find-us">{t('header:find-us', { defaultValue: 'Find Us' })}</a>
         </Link>
