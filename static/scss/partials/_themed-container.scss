@@ -91,7 +91,7 @@
 
     &--meetup {
       @media (min-width: $min-width-sm) {
-        background-image: url(/static/img/meetup/ship.png); // scss-lint:disable UrlQuotes
+        background-image: url(/static/img/meetup-2018/ship.png); // scss-lint:disable UrlQuotes
         background-position: right 32.5%;
         background-repeat: no-repeat;
         background-size: 47.5%;
@@ -110,6 +110,30 @@
       @media (min-width: $min-width-lg) {
         background-position: 90% 35%;
         background-size: 50%;
+      }
+    }
+
+    &--meetup19 {
+      @media (min-width: $min-width-sm) {
+        background-image: url(/static/img/meetup-2019/venue1.jpg); // scss-lint:disable UrlQuotes
+        background-position: right 32.5%;
+        background-repeat: no-repeat;
+        background-size: 40.5%;
+        transition: .2s all;
+  
+        a {
+          min-height: rem(256px);
+        }
+      }
+  
+      @media (min-width: $min-width-md) {
+        background-position: right 76.5%;
+        background-size: 48%;
+      }
+  
+      @media (min-width: $min-width-lg) {
+        background-position: 90% 80%;
+        background-size: 42%;
       }
     }
   }

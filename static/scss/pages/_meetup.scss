@@ -1,6 +1,45 @@
+.ribbon {
+  &--meetup19 {
+    min-height: rem(640px);
+
+    .ribbon {
+      &-img {
+      background: url(/static/img/meetup-2019/verge-meetup-top.png) no-repeat bottom center;
+      background-color: #04131F;
+      background-size: contain;
+      min-height: inherit;
+      min-width: 100%;
+      position: absolute;
+      z-index: -100;
+      }
+
+      &-txt {
+      margin-top: rem(56px);
+
+      @media (min-width: $min-width-sm) {
+        margin-top: rem(100px);
+      }
+
+      h1 {
+          margin-bottom: rem(20px);
+
+          span {
+          color: $picton-blue;
+          }
+      }
+
+      p {
+          color: white;
+          margin-bottom: rem(24px);
+      }
+      }
+    }
+  }
+}
+
 .meetup {
-  &--bottom {
-    background: url(/static/img/meetup/meetup-bottom.png) bottom center no-repeat;
+  &--bottom19 {
+    background: url(/static/img/meetup-2019/meetup-bottom.png) bottom center no-repeat;
     background-size: rem(640px);
     height: 12rem;
   }
@@ -23,6 +62,11 @@
         color: $picton-blue;
       }
     }
+
+    a {
+      word-wrap: break-word;
+      color: #1db6dc;
+    }
   }
 
   &--tickets {
@@ -40,9 +84,10 @@
 
     .col--ticket {
       background: white;
-      box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .33);
+      box-shadow: 0 0 1rem 1px rgba(127, 127, 127, .1);
       margin-bottom: 2rem;
-      padding: 2rem;
+      padding: 1.5rem;
+      border: 1px solid #d5dbe0;
 
       @media (min-width: $min-width-sm) {
         margin-bottom: 0;
@@ -50,15 +95,15 @@
       }
 
       @media (min-width: $min-width-md) {
-        box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .5);
-        padding: 2rem;
+        box-shadow: 0 0 1rem 1px rgba(127, 127, 127, .1);
+        padding: 1.5rem;
       }
 
       &:nth-of-type(2) {
         z-index: 1;
 
         @media (min-width: $min-width-sm) {
-          box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .5);
+          box-shadow: 0 0 1rem 1px rgba(127, 127, 127, .1);
         }
       }
 
@@ -107,7 +152,41 @@
   }
 
   .tickets__price {
-    color: $picton-blue;
+    color: #ef2323;
     font-size: rem(36px);
+  
+    &--earlybird {
+      color: #d3d3d3;
+      text-decoration: line-through;
+    }
+  }
+}
+
+.bg__grey {
+  background-color: #eff3f6;
+}
+
+.border__lines {
+  border-top: 2px solid #becbd4;
+  border-bottom: 2px solid #becbd4;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.span__euro {
+  font-size: 24px;
+}
+
+.sponsor-container .img-responsive {
+  margin: 8px 0;
+}
+
+.warn {
+  color: #ef2323;
+}
+
+@media (max-width: 768px) {
+  .sponsor-container .img-responsive {
+    margin: 8px auto;
   }
 }
