@@ -2,14 +2,7 @@ import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 import Head from 'next/head';
 
-import Layout from '../components/Layout';
-import { HomeExchanges } from '../components/Exchanges';
-import Cointicker from '../components/Cointicker';
-import { Mentions } from '../components/Mentions';
-import { HomeVendors } from '../components/Vendors';
-import Wallets from '../components/Wallets';
-import WalletsBtn from '../components/WalletsBtn';
-import { PartnerInfo } from '../components/Partners';
+import { translate, Interpolate } from 'react-i18next';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
@@ -22,9 +15,17 @@ import {
   faDiscord,
 } from '@fortawesome/fontawesome-free-brands';
 
+import { HomeExchanges } from '../components/Exchanges';
+import Cointicker from '../components/Cointicker';
+import { Mentions } from '../components/Mentions';
+import { HomeVendors } from '../components/Vendors';
+import Wallets from '../components/Wallets';
+import WalletsBtn from '../components/WalletsBtn';
+import { PartnerInfo } from '../components/Partners';
+
 import 'moment-timezone';
 
-import { translate, Interpolate } from 'react-i18next';
+import Layout from '../components/Layout';
 import i18n from '../i18n';
 import CurrentYearRoadmap from './CurrentYearRoadmap';
 
@@ -76,14 +77,16 @@ function Home(props) {
                     </a>
                   </Link>
                   <p className="blackpaper">
-                    Read the{' '}
+                    Read the
+                    {' '}
                     <a
                       href="/static/blackpaper/verge-blackpaper-v5.0.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <i>Blackpaper</i>
-                    </a>{' '}
+                    </a>
+                    {' '}
                     of Verge Currency
                   </p>
                 </div>
@@ -267,11 +270,11 @@ function Home(props) {
                   <div
                     className={
                       `hidden-xs benefits--${
-                      i18n.language === 'ar' ||
-                      i18n.language === 'fa' ||
-                      i18n.language === 'ku'
-                        ? 'imgsrtl'
-                        : 'imgs'}`
+                        i18n.language === 'ar'
+                        || i18n.language === 'fa'
+                        || i18n.language === 'ku'
+                          ? 'imgsrtl'
+                          : 'imgs'}`
                     }
                   >
                     <LazyLoad height={430}>

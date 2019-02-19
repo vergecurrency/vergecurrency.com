@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import LanguageSwitcher from './LanguageSwitcher';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/fontawesome-free-solid';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const MenuItems = ({ t }) => (
   <div className="links">

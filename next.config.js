@@ -46,6 +46,7 @@ module.exports = {
       '/donationrewards': { page: '/donationrewards' },
       '/get-started': { page: '/get-started' },
       '/pressreleases': { page: '/pressreleases' },
+      '/meetup-2018': { page: '/meetup-2018' },
       '/meetup': { page: '/meetup' },
       '/partnership-donation-rewards': { page: '/partnership-donation-rewards' },
       '/partnership-donation-mentions': { page: '/partnership-donation-mentions' },

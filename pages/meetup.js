@@ -1,11 +1,12 @@
 import Head from 'next/head';
 
+import { translate } from 'react-i18next';
+
 import Layout from '../components/Layout';
 
-import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-import { Sponsors } from '../components/Sponsors.js';
+import { Sponsors } from '../components/Sponsors-2019';
 
 function Meetup(props) {
   const { t } = props;
@@ -13,21 +14,60 @@ function Meetup(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">{t('common:meta.meetup.title', { defaultValue: 'The First Verge Meetup in Amsterdam 9th of June, 2018 - VergeCurrency.com' })}</title>
-        <meta key="description" name="description" content={t('common:meta.meetup.description', { defaultValue: 'The meet-up will take place on the 9th of June in Amsterdam, the capital of the Netherlands, and will take place on a boat, which we will cruise on through the Amsterdam canals.' })} />
+        <title key="title">{t('common:meta.meetup.title', { defaultValue: 'The Second Verge Meetup in Rotterdam 25th of May, 2019 - VergeCurrency.com' })}</title>
+        <meta key="description" name="description" content={t('common:meta.meetup.description', { defaultValue: 'Bigger, better, more exclusive and catering to all Verge members&pos; needs. The meet-up will take place on May 25th, in the best spot Rotterdam has to offer.' })} />
         <script src="https://www.universe.com/embed2.js" data-state="" />
       </Head>
       <div className="meetup pt-large pb">
-        <div className="ribbon ribbon--meetup">
+        <div className="ribbon ribbon--meetup19">
           <div className="ribbon-img" />
 
           <div className="container">
             <div className="row center-xs">
-              <div className="col-xs-10 col-sm-9 text-center">
+              <div className="col-xs-11 col-sm-10 text-center">
                 <div className="ribbon-txt">
-                  <h1>Join The First Verge Meetup in <span>Amsterdam</span> June 9th, 2018</h1>
-                  <p>We are really pleased to announce that we will be <br className="hidden-xs" />holding the very first Verge meet-up ever!</p>
-                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
+                  <h1>
+                    Join The Second Verge Meetup in
+                    {' '}
+                    <span>Rotterdam</span>
+                    {' '}
+                    May 25th, 2019
+                  </h1>
+                  <p>
+                    We are really pleased to announce that we will be
+                    <br className="hidden-xs" />
+                    holding the second official Verge meet-up.
+                  </p>
+                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/second-verge-meet-up-2019-may-25th-rotterdam-the-netherlands-tickets-rotterdam-MTB4N1?buttonColor=#3A66E5&buttonText=Book Tickets" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg__grey">
+          <div className="container">
+            <div className="row center-xs middle-xs pt">
+              <div className="col-xs-11 bb">
+                <div className="meetup__counters">
+                  <div className="row">
+                    <div className="col-xs-6 col-sm-3 pb">
+                      <div className="meetup__counter-number">350</div>
+                      <div className="meetup__counter-text">tickets available</div>
+                    </div>
+                    <div className="col-xs-6 col-sm-3 pb">
+                      <div className="meetup__counter-number">2nd</div>
+                      <div className="meetup__counter-text">Verge Meetup</div>
+                    </div>
+                    <div className="col-xs-6 col-sm-3 pb">
+                      <div className="meetup__counter-number">25th</div>
+                      <div className="meetup__counter-text">May 2019</div>
+                    </div>
+                    <div className="col-xs-6 col-sm-3 pb">
+                      <div className="meetup__counter-number">10+</div>
+                      <div className="meetup__counter-text">Core members</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -35,101 +75,145 @@ function Meetup(props) {
         </div>
 
         <div className="container">
+
           <Sponsors />
 
-          <div className="row center-xs middle-xs pt">
-            <div className="col-xs-10 pb bb">
-              <div className="meetup__counters">
-                <div className="row">
-                  <div className="col-xs-6 col-sm-3 pb">
-                    <div className="meetup__counter-number">600</div>
-                    <div className="meetup__counter-text">tickets available</div>
-                  </div>
-                  <div className="col-xs-6 col-sm-3 pb">
-                    <div className="meetup__counter-number">1st</div>
-                    <div className="meetup__counter-text">Verge Meetup</div>
-                  </div>
-                  <div className="col-xs-6 col-sm-3 pb">
-                    <div className="meetup__counter-number">9th</div>
-                    <div className="meetup__counter-text">June 2018</div>
-                  </div>
-                  <div className="col-xs-6 col-sm-3 pb">
-                    <div className="meetup__counter-number">10+</div>
-                    <div className="meetup__counter-text">Core members</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="container pb-large bb">
-            <div className="themed-container__transparent themed-container__transparent--meetup pb-xs-0">
+          <div className="container pb-large">
+            <div className="themed-container__transparent themed-container__transparent--meetup19 pb-small">
               <div className="row center-xs">
-                <div className="col-xs-10 col-sm-6 col-md-5 start-sm">
-                  <h2>Holding the very first Verge <br className="visible-md" />meet-up ever.</h2>
+                <div className="col-xs-11 col-sm-6 col-md-5 start-sm">
+                  <h2>
+                    Holding the second Verge meet-up.
+                    <br />
+                    Bigger &amp; Better.
+                  </h2>
                   <p className="text--larger">
-                    The meet-up will take place on the 9th of June in Amsterdam, the capital of the Netherlands, and will take place on a boat, which we will cruise on through the Amsterdam canals.
+                    Bigger, better, more exclusive and catering to all Verge members&apos; needs.
+                    {' '}
+                    The meet-up will take place on May 25th, in the best spot Rotterdam has to offer.
                   </p>
-                  <p>
-                    We will have several speakers and special guests during this event who will provide information about the Verge Currency project, blockchain development in general, as well as touch on topics related to other developments in the crypto space.
+                  <p className="text--larger">
+                    We will have several guest speakers attending the event. They will provide information
+                    {' '}
+                    about the Verge Currency project, blockchain development in general, as well as other developments within the crypto space.
                   </p>
                 </div>
-                <a href="https://www.docks.nl" target="_blank" rel="noreferrer noopener" className="col-xs-10 col-sm-4 col-md-5"><span className="visible-xs">Visit DOCKS</span></a>
+                <div className="col-xs-10 col-sm-4 col-md-5 col-sm-offset-1">&nbsp;</div>
               </div>
             </div>
           </div>
         </div>
 
+        <div className="container pb bb">
+          <div className="pb-small sponsor-container">
+            <div className="row center-xs">
+              <div className="col-xs-11 col-sm-11 col-md-3 start-sm">
+                <h3>
+                  Special Guests
+                </h3>
+                <p className="text--larger">
+                  We are pleased to present our special guests for this meetup, that you will be able to meet and greet.
+                </p>
+              </div>
+
+              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+                <img src="/static/img/meetup-2019/guests/Justin.jpg" className="img-responsive" alt="responsive" />
+                <h5>
+                  Justin (Sunerok)
+                </h5>
+                <p className="text--smaller">
+                  Founder and Lead Developer for Verge Currency
+                </p>
+              </div>
+
+              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+                <img src="/static/img/meetup-2019/guests/Didi.jpg" className="img-responsive" alt="responsive" />
+                <h5>
+                  Didi Taihuttu
+                </h5>
+                <p className="text--smaller">
+                  Part of The Bitcoin Family
+                </p>
+              </div>
+
+              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+                <img src="/static/img/meetup-2019/guests/Michael.jpg" className="img-responsive" alt="responsive" />
+                <h5>
+                  Crypto Michaël
+                </h5>
+                <p className="text--smaller">
+                Crypto Enthusiast
+                </p>
+              </div>
+
+              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+                <img src="/static/img/meetup-2019/guests/x.jpg" className="img-responsive" alt="responsive" />
+                <h5>
+                  Soon to be announced
+                </h5>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
         <div className="container meetup--media">
-          <div className="row center-xs middle-xs pt pb">
-            <div className="col-xs-10 col-sm-8 col-md-5">
-              <h2>Verge Meetup on a <span>ship</span>. <br className="hidden-xs" />Location and place.</h2>
-              <p className="pb-small">The meetup will take place on a boat, which we will cruise on through the Amsterdam canals.</p>
-              <img src="/static/img/meetup/squiggly.png" className="img-responsive" alt="responsive" />
+          <div className="row center-xs middle-xs pt">
+            <div className="col-xs-11 col-sm-8 col-md-8">
+              <h2>
+                Liked our first meet-up?
+                <br className="hidden-xs" />
+                {' '}
+                Get excited for the second.
+              </h2>
+              <p className="pb-small">With views of the Willems Bridge on one side and the Erasmus Bridge on the other.</p>
             </div>
           </div>
 
           <div className="row center-xs middle-xs pt">
-            <div className="col-xs-10">
+            <div className="col-xs-11">
               <div className="row center-xs">
                 <div className="col-xs-12 col-sm-4 col--fullheight">
-                  <img src="/static/img/meetup/pics/pic1.png" className="img-responsive" alt="responsive" />
+                  <img src="/static/img/meetup-2019/pics/pic1.jpg" className="img-responsive" alt="responsive" />
                 </div>
                 <div className="col-xs-12 col-sm-4 col--fullheight">
-                  <img src="/static/img/meetup/pics/pic2.png" className="img-responsive" alt="responsive" />
-                  <img src="/static/img/meetup/pics/pic3.png" className="img-responsive" alt="responsive" />
+                  <img src="/static/img/meetup-2019/pics/pic2.jpg" className="img-responsive" alt="responsive" />
+                  <img src="/static/img/meetup-2019/pics/pic3.jpg" className="img-responsive" alt="responsive" />
                 </div>
                 <div className="col-xs-12 col-sm-4 col--fullheight">
-                  <img src="/static/img/meetup/pics/pic4.png" className="img-responsive" alt="responsive" />
-                  <img src="/static/img/meetup/pics/pic5.png" className="img-responsive" alt="responsive" />
+                  <img src="/static/img/meetup-2019/pics/pic4.jpg" className="img-responsive" alt="responsive" />
+                  <img src="/static/img/meetup-2019/pics/pic5.jpg" className="img-responsive" alt="responsive" />
                 </div>
               </div>
             </div>
           </div>
 
           <div className="row center-xs middle-xs pb">
-            <div className="col-xs-10">
+            <div className="col-xs-11">
               <div className="row">
                 <div className="col-xs-12">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.505135614645!2d4.902052188500803!3d52.37939260409592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b646f89b21%3A0xb1f631c99dabe1b5!2sDe+Ruijterkade%2C+Amsterdam!5e0!3m2!1snl!2snl!4v1525194929869" width="100%" height="400" frameBorder="0" title="unique title" />
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2069.373379656265!2d4.491164789289276!3d51.91728840563742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c43367221a5b8d%3A0x2c039be15846d9ae!2sBoompjes+750%2C+3011+XZ+Rotterdam%2C+Netherlands!5e0!3m2!1sen!2sau!4v1550043280496" width="100%" height="400" frameBorder="0" title="Google Map"></iframe>
                 </div>
               </div>
               <div className="row top-xs middle-sm pt">
                 <div className="col-xs-6 col-sm-3 start-xs">
                   <h3>Address</h3>
                   <p>
-                    De Ruijterkade 14<br />1011 AA Amsterdam
+                    Boompjes 750
+                    <br />
+                    3011 XZ Rotterdam
                   </p>
                 </div>
                 <div className="col-xs-6 col-sm-6 start-xs">
-                  <h3>Ship departure</h3>
+                  <h3>Parking</h3>
                   <p>
-                    Arrival time between 14:45 and 15:15<br />
-                    The boat departs at 15:30 (Not a minute later).
+                    You can park at various places, the most popular place is the
+                    {' '}
+                    North Island across the water, which is free 24 hours a day.
                   </p>
                 </div>
                 <div className="col-xs-12 col-sm-3">
-                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
+                  <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large" href="https://www.universe.com/events/second-verge-meet-up-2019-may-25th-rotterdam-the-netherlands-tickets-rotterdam-MTB4N1?buttonColor=#3A66E5&buttonText=Boek Tickets" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
                 </div>
               </div>
             </div>
@@ -137,15 +221,21 @@ function Meetup(props) {
         </div>
         <div className="container pt pb">
           <div className="row center-xs">
-            <div className="col-xs-10">
+            <div className="col-xs-11">
               <div className="themed-container__dark themed-container__dark--meetup">
                 <div className="row center-xs">
                   <div className="col-xs-10 col-sm-8 start-sm">
                     <h3>
-                      The Verge meet-up is not only informative, but is equally a <span>networking opportunity</span> to socialize and meet with other like-minded individuals.
+                      The Verge Meet-up is equally made to be informative as well as a
+                      {' '}
+                      <span>networking opportunity</span>
+                      {' '}
+                      to socialize and meet with other likeminded individuals.
                     </h3>
                     <h3>
-                      We will finish the evening with a <span>big party</span>, where our Core team and a number of special guests will be present to <span>celebrate this day with everyone</span>.
+                      The evening will end with a big party, where the core team and special guests are present to
+                      {' '}
+                      <span>celebrate with everyone.</span>
                     </h3>
                   </div>
                 </div>
@@ -155,78 +245,119 @@ function Meetup(props) {
         </div>
         <div className="container meetup--tickets">
           <div className="row center-xs pt">
-            <div className="col-xs-10 col-md-11 col-lg-9">
+            <div className="col-xs-11 col-md-11 col-lg-9">
               <h2>
-                Verge Meetup <span>Ticket Costs</span>.
+                Verge Meetup
+                {' '}
+                <span>Ticket Costs.</span>
               </h2>
-              <p>There are 3 kinds of tickets available for purchase.</p>
+              <p>* (Drink tokens can be used for wine, beer, soda, coffee &amp; tea)</p>
 
               <div className="row center-xs around-sm pt">
                 <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
                   <div className="bb">
-                    <h4>Evening Only</h4>
-                    <p>Buy Ticket Today</p>
-                    <p className="tickets__price">€ 35</p>
+                    <h4>Basic Ticket</h4>
+                    <p>EARLY BIRD FEBRUARY</p>
+                    <p className="tickets__price">
+                      55
+                      <span className="span__euro">€</span>
+                      {' '}
+                      &nbsp;
+                      <span className="tickets__price--earlybird">
+                        65
+                        <span className="span__euro">€</span>
+                      </span>
+                    </p>
                   </div>
                   <div className="pt-small pb-small">
-                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
+                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/second-verge-meet-up-2019-may-25th-rotterdam-the-netherlands-tickets-rotterdam-MTB4N1?buttonColor=#3A66E5&buttonText=Book Tickets" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
                   </div>
                   <p className="text--smaller start-sm">
-                    <b>What you get:</b><br />
-                    Access to our awesome party in the evening
+                    <b>What you get:</b>
+                    <br />
+                    Entrance to the party, with exclusive speakers
                     <br />
                     <br />
-                    Get to meet other crypto and Verge enthusiasts
+                    5 tokens to buy drinks*
+                    <br />
+                    <br />
+                    Belly filling dinner
                   </p>
                 </div>
                 <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
                   <div className="bb">
-                    <h4>Afternoon + Evening</h4>
-                    <p>Buy Ticket Today</p>
-                    <p className="tickets__price">€ 75</p>
+                    <h4>VIP Ticket</h4>
+                    <p>EARLY BIRD FEBRUARY</p>
+                    <p className="tickets__price">
+                      155
+                      <span className="span__euro">€</span>
+                      {' '}
+                      &nbsp;
+                      <span className="tickets__price--earlybird">
+                        165
+                        <span className="span__euro">€</span>
+                      </span>
+                    </p>
                   </div>
                   <div className="pt-small pb-small">
-                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
+                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/second-verge-meet-up-2019-may-25th-rotterdam-the-netherlands-tickets-rotterdam-MTB4N1?buttonColor=#3A66E5&buttonText=Book Tickets" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
                   </div>
                   <p className="text--smaller start-sm">
-                    <b>What you get:</b><br />
-                    Access to both the afternoon and evening program.
+                    <b>What you get:</b>
+                    <br />
+                    VIP Entrance to the party, with exclusive speakers
                     <br />
                     <br />
-                    Dinner buffet and soft drinks included
+                    10 tokens to buy drinks*
                     <br />
                     <br />
-                    Interesting speakers and presentations
+                    Belly filling dinner
                     <br />
                     <br />
-                    + All perks of <i>“Evening only”</i>
+                    Special access to VIP deck with Prosecco served
+                    <br />
+                    <br />
+                    Verge meet-up merchandise starter package
                   </p>
                 </div>
 
                 <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
                   <div className="bb">
-                    <h4>VIP Ticket</h4>
-                    <p>Buy Ticket Today</p>
-                    <p className="tickets__price">€ 175</p>
+                    <h4>Ultra VIP Ticket</h4>
+                    <p>EARLY BIRD FEBRUARY</p>
+                    <p className="tickets__price">
+                      285
+                      <span className="span__euro">€</span>
+                      {' '}
+                      &nbsp;
+                      <span className="tickets__price--earlybird">
+                        300
+                        <span className="span__euro">€</span>
+                      </span>
+                    </p>
                   </div>
                   <div className="pt-small pb-small">
-                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/verge-meet-up-tickets-amsterdam-NTL872?buttonColor=#1db6dc&buttonText=Buy Tickets Here" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
+                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/second-verge-meet-up-2019-may-25th-rotterdam-the-netherlands-tickets-rotterdam-MTB4N1?buttonColor=#3A66E5&buttonText=Book Tickets" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
                   </div>
                   <p className="text--smaller start-sm">
-                    <b>What you get:</b><br />
-                    Get on board between 14:45 and 15:15.
+                    <b>What you get:</b>
+                    <br />
+                    Everything in the VIP ticket package, plus:
                     <br />
                     <br />
-                    All-inclusive drinks and snacks (wine, beer, soda, coffee & tea)
+                    Special arrival to the meet-up with a Rotterdam Water taxi tour
                     <br />
                     <br />
-                    Exclusive bar access
+                    Special access to VIP deck with Prosecco served
                     <br />
                     <br />
-                    Verge / TokenPay limited edition T-shirt
+                    A bottle of Moet &amp; Chandon with 4 glasses
                     <br />
                     <br />
-                    + All perks of the <i>“Afternoon + Evening”</i>
+                    A special Verge cocktail
+                    <br />
+                    <br />
+                    Exclusive Verge meet-up merchandise package
                   </p>
                 </div>
               </div>
@@ -236,47 +367,75 @@ function Meetup(props) {
 
         <div className="container meetup--programme pt">
           <div className="row center-xs pt">
-            <div className="col-xs-10 col-sm-4 col-sm-offset-1 start-sm pb-xs">
+            <div className="col-xs-11 col-sm-5 start-sm pb-xs">
               <h2>
-                Program <span>Outline</span>
+                Program
+                {' '}
+                <span>Outline</span>
               </h2>
               <p>
-                Arrival time between 14:45 and 15:15<br />
-                The boat departs at 15:30 (Not a minute later).<br /><br />
-
-                <b>Afternoon program:</b><br />
-                Board between 14.45 and 15.15 until 19:30  (includes a dinner buffet)<br /><br />
-
-                <b>Evening program:</b><br />
-                Board between 19.15 and 19.45 until 00:00
-              </p>
-              <p className="text--smaller">
-                There are 3 kinds of tickets available for purchase: If your ticket includes the afternoon program, you will have access to a dinner buffet and unlimited soft drinks and/or other non-alcoholic beverages.<br /><br />
-                The evening program will have snacks available which are also included in the ticket price.
+                15:30 Doors Open
+                <br />
+                18:00 Belly Filling Dinner
+                <br />
+                23:00 Typical Dutch Snack
+                <br />
+                01:00 Doors Close
+                <br />
+                <br />
+                We will have short and sweet speeches throughout the night.
+                <br />
+                More info about our speakers soon.
               </p>
             </div>
-            <div className="col-xs-10 col-sm-4 col-sm-offset-1 start-sm">
+            <div className="col-xs-11 col-sm-5 col-sm-offset-1 start-sm">
               <h2>
                 Practical Information
               </h2>
               <p>
-                Our meet-up location is next to the <b>Central Amsterdam station</b>.<br /><br />
-
-                <b>Arrival:</b><br />
-                The boat will depart 15:30. Come 15-30 min. BEFORE departure.<br /><br />
-
-                <b>Dress Code:</b><br />
-                Nice clothing!
+                Our meet-up location has easy access by public transport,
+                {' '}
+                but also offers free parking spaces close by.
+                <br />
+                <br />
+                Doors will open at 15:30 and close at 01:00, and there will be security present throughout the event.
+                <br />
+                <br />
+                <b><span className="warn">Guests will be held accountable for any and all damages made during the event.</span></b>
+                <br />
+                <br />
+                <b>Travelling Plans:</b>
+                <br />
+                Public Transport:
+                {' '}
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.nl/maps/dir/Amsterdam+Centraal,+Stationsplein,+1012+AB+Amsterdam/Eau+Lounge,+Boompjes+750,+3011+XZ+Rotterdam/@52.156234,4.3241559,10z/am=t/data=!4m14!4m13!1m5!1m1!1s0x47c609b70dd81623:0xcae71b8d3adfd142!2m2!1d4.900272!2d52.3791283!1m5!1m1!1s0x47c43342e5ecd389:0x53692323570e9faf!2m2!1d4.492098!2d51.916849!3e3">Click to see route</a>
+                {' '}
+                (Google Maps)
+                <br />
+                Car:
+                {' '}
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.nl/maps/dir/Amsterdam+Airport+Schiphol,+Evert+van+de+Beekstraat+202,+1118+CP+Schiphol/Eau+Lounge,+Boompjes+750,+3011+XZ+Rotterdam/@52.1111674,4.2769485,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47c5e134e0fd162d:0xc7d51583f1cef188!2m2!1d4.7682744!2d52.3105386!1m5!1m1!1s0x47c43342e5ecd389:0x53692323570e9faf!2m2!1d4.492098!2d51.916849!3e0">Click to see route</a>
+                {' '}
+                (Google Maps)
+                <br />
+                (
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.nl/maps/place/Noordereiland,+3071+LL+Rotterdam/data=!4m2!3m1!1s0x47c43369f5c21d6d:0x6623a259e9515705?ved=2ahUKEwjS2OOpzMXgAhVIJVAKHSaOAz0Q8gEwAHoECAAQAQ">Click to see parking spots</a>
+                )
+                <br />
+                <br />
+                <b>Dress Code:</b>
+                <br />
+                No Code!
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="meetup--bottom" />
+      <div className="meetup--bottom19" />
     </Layout>
   );
 }
 
-const Extended = translate(['meetup', 'common'], { i18n, wait: process.browser })(Meetup);
+const Extended = translate(['meetup-2019', 'common'], { i18n, wait: process.browser })(Meetup);
 
 export default Extended;
