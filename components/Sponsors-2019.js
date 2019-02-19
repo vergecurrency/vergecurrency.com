@@ -131,10 +131,14 @@ export const Sponsors = () => {
           </div>
         </div>
 
-        {/*
         <div className="row start-xs middle-xs">
           <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">
-            <p style={{ textAlign: 'left', padding: '20px 0' }}>Goldfish Sponsors</p>
+            <p style={{ textAlign: 'left', padding: '20px 0' }}>
+              Goldfish
+              <br className="hidden-sm" />
+              {' '}
+              Sponsors
+            </p>
           </div>
 
           <div className="col-xs">
@@ -143,7 +147,6 @@ export const Sponsors = () => {
             </div>
           </div>
         </div>
-        */}
 
         <div className="row start-xs middle-xs">
           <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">

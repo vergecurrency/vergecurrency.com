@@ -20,7 +20,18 @@
     ],
 
     "goldfishPkg": [
-      
+      {
+        "img": "../static/img/meetup-2019/sponsors/CryptoCulture.jpg",
+        "title": "CryptoCulture",
+        "height": 65,
+        "url": "https://www.cryptoculturemagazine.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/WaffleHouse.jpg",
+        "title": "t stroopwafelhuisje",
+        "height": 65,
+        "url": "https://tstroopwafelhuisje.com"
+      }
     ],
 
     "mediaPartners": [
@@ -29,12 +40,6 @@
         "title": "BlockchainTalks",
         "height": 65,
         "url": "https://blockchaintalks.io/"
-      },
-      {
-        "img": "../static/img/meetup-2019/sponsors/BitcoinMagazine.jpg",
-        "title": "BitcoinMagazine",
-        "height": 65,
-        "url": "https://bitcoinmagazine.nl/"
       },
       {
         "img": "../static/img/meetup-2019/sponsors/CryptoTrader.jpg",
@@ -47,6 +52,12 @@
         "title": "iBlockTV",
         "height": 65,
         "url": "https://www.youtube.com/channel/UC_IjTs99YLJUefYiS9ue_ig/featured?app=desktop "
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/BitcoinMagazine.jpg",
+        "title": "BitcoinMagazine",
+        "height": 65,
+        "url": "https://bitcoinmagazine.nl/"
       }
       
     ],
