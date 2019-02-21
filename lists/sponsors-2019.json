@@ -27,6 +27,12 @@
 
     "goldfishPkg": [
       {
+        "img": "../static/img/meetup-2019/sponsors/VIPClub.jpg",
+        "title": "VIPClub",
+        "height": 60,
+        "url": "https://www.vipclub.world/"
+      },
+      {
         "img": "../static/img/meetup-2019/sponsors/WaffleHouse.jpg",
         "title": "t stroopwafelhuisje",
         "height": 65,

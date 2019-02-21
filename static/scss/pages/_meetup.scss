@@ -185,6 +185,13 @@
   color: #ef2323;
 }
 
+.advert__logo {
+  max-height: 180px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #eee;
+}
+
 @media (max-width: 768px) {
   .sponsor-container .img-responsive {
     margin: 8px auto;
