@@ -181,6 +181,13 @@ export const Sponsors = () => {
             </div>
           </div>
         </div>
+        <br />
+        <br />
+        <div className="row start-xs center-xs middle-xs">
+          <a href="mailto:contact@vergecurrency.com?subject=Second Verge Meetup - Sponsorship" target="_blank" rel="noopener noreferrer">
+            <img className="img-responsive advert__logo" src="../static/img/meetup-2019/advert.jpg" alt="Sponsor the Verge Meetup" />
+          </a>
+        </div>
 
       </div>
     </div>
