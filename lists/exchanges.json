@@ -25,12 +25,6 @@
       "url": "https://net-cents.com/markets/xvgbtc"
     },
     {
-      "img": "../static/img/exchanges/dynx.png",
-      "title": "DynX",
-      "link": "dynx.io",
-      "url": "https://www.dynx.io/"
-    },
-    {
       "img": "../static/img/exchanges/bithumb.png",
       "title": "Bithumb",
       "link": "bithumb.com",
@@ -53,6 +47,24 @@
       "title": "ChangeNow",
       "link": "changenow.io",
       "url": "https://changenow.io"
+    },
+    {
+      "img": "../static/img/exchanges/dynx.png",
+      "title": "DynX",
+      "link": "dynx.io",
+      "url": "https://www.dynx.io/"
+    },
+    {
+      "img": "../static/img/exchanges/stealthex.png",
+      "title": "StealtheX",
+      "link": "stealthex.io",
+      "url": "https://stealthex.io/"
+    },
+    {
+      "img": "../static/img/exchanges/cointree.jpg",
+      "title": "CoinTree",
+      "link": "cointree.com",
+      "url": "https://www.cointree.com/"
     },
     {
       "img": "../static/img/exchanges/changehero.png",
