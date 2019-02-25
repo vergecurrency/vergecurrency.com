@@ -73,10 +73,10 @@
       "url": "https://changehero.io/"
     },
     {
-      "img": "../static/img/exchanges/bitcoinmeester.png",
-      "title": "Bitcoin Meester",
-      "link": "bitcoinmeester.nl",
-      "url": "https://www.bitladon.com/Verge?r=100021746"
+      "img": "../static/img/exchanges/bitladon.png",
+      "title": "Bitladon",
+      "link": "bitladon.com",
+      "url": "https://www.bitladon.com/?r=100021746"
     },
     {
       "img": "../static/img/exchanges/elastum.png",
