@@ -101,10 +101,6 @@
   },
   "privacy": {
     "subheader": "Privacy",
-    "wraithprotocol": {
-      "question": "What is the Wraith Protocol?",
-      "answer": "More details can be found on the blog and in the Blackpaper."
-    },
     "vergeanon": {
       "question": "Why use Verge for anonymity and not any other crypto over Tor?",
       "answer": "Verge Currency wallets feature Tor and I2P networks already integrated, so that there is no additional setup required. Just download the wallet and start transacting with your IP-address obfuscated."

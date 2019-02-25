@@ -1,3 +1,11 @@
+@media (max-width: 570px) {
+  /* temporary */
+  .themed-container__dark--keytech {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+}
+
 .key-tech {
   background-color: #091721;
   color: $white;
@@ -8,6 +16,14 @@
 
   .bb {
     border-color: #112332;
+  }
+
+  @media (max-width: $max-width-xs) {
+    .col-xs-10.start-xs {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      background-color: rgba(0,0,0,0.5);
+    }
   }
 
   &--subheader {

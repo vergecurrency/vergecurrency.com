@@ -27,21 +27,29 @@ const roadMap = [
     progressState: '',
   },
   {
+    done: true,
+    doneDate: '17th January 2019',
+    title: 'BlackPaper Version 5.0',
+    description: '5th revision of the BlackPaper',
+    progress: 100,
+    progressState: '',
+  },
+  {
     done: false,
     doneDate: '',
     title: 'Merchandise Online Store',
     description:
       'Verge branded apparel that can be purchased with XVG and BTC.',
-    progress: 90,
-    progressState: 'testing products',
+    progress: 95,
+    progressState: 'Finalizing design',
   },
   {
     done: false,
     doneDate: '',
     title: 'Mining Update',
     description: 'XVGui Miner for Windows, Official Mining Pool & Mining Guide',
-    progress: 75,
-    progressState: 'work in progress',
+    progress: 80,
+    progressState: 'Work in progress',
   },
   {
     done: false,
@@ -49,8 +57,8 @@ const roadMap = [
     title: 'Rebased Codebase',
     description:
       'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
-    progress: 90,
-    progressState: 'rebasing',
+    progress: 96,
+    progressState: 'Public Alpha',
   },
   {
     done: false,
@@ -58,8 +66,8 @@ const roadMap = [
     title: 'Desktop Wallet',
     description:
       'Electron based wallet with better performance and minimalistic UI design',
-    progress: 80,
-    progressState: 'preparing release',
+    progress: 85,
+    progressState: 'Preparing release',
   },
   {
     done: false,
@@ -67,8 +75,8 @@ const roadMap = [
     title: 'RingCT Integration',
     description:
       'Ring Confidential Transactions - advanced masking of transaction amounts',
-    progress: 35,
-    progressState: 'integrating',
+    progress: 45,
+    progressState: 'Work in progress',
   },
   {
     done: false,
@@ -76,7 +84,7 @@ const roadMap = [
     title: 'RSK',
     description: 'RSK Smart Contract Integration',
     progress: 25,
-    progressState: 'investigating integration',
+    progressState: 'Investigating integration',
   },
   {
     done: false,
@@ -84,8 +92,17 @@ const roadMap = [
     title: 'Official iOS wallet',
     description:
       'iOS wallet with full-fledged feature set like a normal wallet.',
-    progress: 30,
-    progressState: 'development ongoing',
+    progress: 60,
+    progressState: 'In public beta; development ongoing',
+  },
+    {
+    done: false,
+    doneDate: '',
+    title: 'Official Android wallet update',
+    description:
+      'Freshly redesigned wallet to match our corporate design and feature set.',
+    progress: 15,
+    progressState: 'Work in progress',
   },
 ];
 

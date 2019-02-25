@@ -3,9 +3,10 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { translate } from 'react-i18next';
+
 import Layout from '../components/Layout';
 
-import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 function GetStarted(props) {
@@ -24,12 +25,12 @@ function GetStarted(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-10 col-md-8 text-center">
                 <div className="ribbon-txt">
-                <h1 dangerouslySetInnerHTML={{ __html: t('get-started:body.header1', { defaultValue: 'Congratulations! You’re now ready<br />to acquire your first Verge (XVG).' }) }} />
-                  <p>{t('get-started:body.header2', { defaultValue: 'We\’ve created this guide to tackle this specific problem - this page brings you from zero to hero in buying and using Verge (XVG).' })}</p>
+                  <h1 dangerouslySetInnerHTML={{ __html: t('get-started:body.header1', { defaultValue: 'Congratulations! You’re now ready<br />to acquire your first Verge (XVG).' }) }} />
+                  <p>{t('get-started:body.header2', { defaultValue: 'We’ve created this guide to tackle this specific problem - this page brings you from zero to hero in buying and using Verge (XVG).' })}</p>
                   <div className="pt-large logos">
-                    <img src="/static/img/get-started/coinbase.png" alt="coinbase" />
-                    <img src="/static/img/get-started/localbitcoins.png" alt="localbitcoins" />
-                    <img src="/static/img/get-started/binance.png" alt="binance" />
+                    <img src="/static/img/get-started/coinbase.png" className="pb-small" alt="Coinbase" />
+                    <img src="/static/img/get-started/localbitcoins.png" className="pb-small" alt="Localbitcoins" />
+                    <img src="/static/img/get-started/binance.png" className="pb-small" alt="Binance" />
                   </div>
                 </div>
               </div>
@@ -105,7 +106,7 @@ function GetStarted(props) {
           <div className="container pb">
             <div className="row center-xs intro pt">
               <div className="col-xs-11 col-sm-7 col-lg-6">
-               <h6>{t('get-started:body.step', { defaultValue: 'Step' })} 3</h6>
+                <h6>{t('get-started:body.step', { defaultValue: 'Step' })} 3</h6>
                 <h2>{t('get-started:body.step3', { defaultValue: 'Buying Verge (XVG)' })}</h2>
                 <h3>{t('get-started:body.step3a', { defaultValue: 'Purchase Verge (XVG) from your selected exchange.' })}</h3>
                 <p>{t('get-started:body.step3b', { defaultValue: 'As the transaction travels through the blockchain between your Coinbase wallet and exchange wallet, keep in mind that this will take time and it varies by the traffic on the blockchain. Now that your Bitcoin (BTC) or Ethereum (ETH) has arrived at your exchange wallet, you are ready to purchase your Verge (XVG).' })} </p>
@@ -136,7 +137,7 @@ function GetStarted(props) {
               <div className="col-xs-11 col-sm-7 col-lg-6">
                 <h6>{t('get-started:body.step', { defaultValue: 'Step' })} 4</h6>
                 <h2>{t('get-started:body.step4', { defaultValue: 'Verge Secured Wallet' })}</h2>
-                <h3>{t('get-started:body.step4a', { defaultValue: 'Download the Verge Electrum Tor Wallet from our offical site.' })}</h3>
+                <h3>{t('get-started:body.step4a', { defaultValue: 'Download the Verge Electrum Tor Wallet from our official site.' })}</h3>
                 <p>{t('get-started:body.step4b', { defaultValue: 'At this point, you should see Verge (XVG) in your Verge exchange wallet. Verge Currency is built with a focus on privacy and designed for everyday use. Our key technology features includes: Tor IP obfuscation, I2P tunneling, low fees, ultra-fast transactions, and various tools that protects you as a consumer so you have total control over your financial privacy. For these reasons, we do not recommend keeping your Verge (XVG) coins on an exchange, regardless of how large and well known the exchange. Instead, we recommend you to download the Verge Electrum Tor Wallet and store your Verge (XVG) coins there. Only YOU will have access with your keys.' })}</p>
                 <Link href="/wallets">
                   <a href="/wallets" className="btn btn-primary btn-primary--on-white-bg" name="Accept Verge Today">{t('home:vendors.buttonPrimary', { defaultValue: 'Download Wallets here' })}</a>
@@ -150,7 +151,7 @@ function GetStarted(props) {
                   <li>{t('get-started:body.step4c', { defaultValue: 'Download the Electrum Tor Wallet for your operating system' })}</li>
                   <li>{t('get-started:body.step4d', { defaultValue: 'Download and install the Tor Browser from here' })}:  https://www.torproject.org</li>
                   <li>{t('get-started:body.step4e', { defaultValue: 'Launch the Tor browser and leave it open (important)' })}</li>
-                  <li>{t('get-started:body.step4f', { defaultValue: 'Extract the Electrum Tor wallet to c:\ and launch “electrum-xvg.exe”' })}</li>
+                  <li>{t('get-started:body.step4f', { defaultValue: 'Extract the Electrum Tor wallet to c: and launch “electrum-xvg.exe”' })}</li>
                 </ol>
                 <p>{t('get-started:body.step4g', { defaultValue: 'Create a new standard wallet and save your wallet seed (Write it on a notepad and store somewhere safe) and set your wallet password.' })}</p>
                 <h3>{t('get-started:body.step4h', { defaultValue: 'Receive XVG' })}</h3>
@@ -204,9 +205,7 @@ function GetStarted(props) {
                   <li>{t('get-started:body.step5g', { defaultValue: 'Paste in the wallet address, the total Verge (XVG) to send and a description. Then hit Send.' })}</li>
                 </ol>
                 <div className="protip protip-white">
-                  <div className="icon">
-
-                  </div>
+                  <div className="icon" />
                   <div className="text">
                     <strong>{t('get-started:body.protip', { defaultValue: 'Protip:' })}</strong> {t('get-started:body.step5h', { defaultValue: 'Always make sure to double check the receiver’s address and amount before sending your payment.' })}
                   </div>

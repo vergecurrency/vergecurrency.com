@@ -11,7 +11,7 @@ export const HomeExchanges = () => {
           key={x.title}
           role="presentation"
         >
-          <a href={x.url} target="_blank" rel="noopener">
+          <a href={x.url} target="_blank" rel="noopener noreferrer">
             <div className="exchanges--item middle-xs">
               <div className="exchanges--item__logo">
                 <LazyLoad height={40}>
@@ -44,7 +44,7 @@ export const Exchanges = () => {
       key={x.title}
       role="presentation"
     >
-      <a href={x.url} target="_blank" rel="noopener">
+      <a href={x.url} target="_blank" rel="noopener noreferrer">
         <div className="exchanges--item middle-xs">
           <div className="exchanges--item__logo">
             <LazyLoad height={40}>

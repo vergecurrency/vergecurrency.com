@@ -5,7 +5,7 @@ export default class DonationRedirect extends React.Component {
     if (location.protocol === 'https:') {
       window.location.replace('https://goo.gl/forms/VchWxA9LmuDMoNRg1');
     } else {
-      location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      location.href = `https:${window.location.href.substring(window.location.protocol.length)}`;
       window.location.replace('https://goo.gl/forms/VchWxA9LmuDMoNRg1');
     }
   }

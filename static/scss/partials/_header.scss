@@ -4,7 +4,7 @@
   left: 0;
   position: fixed;
   right: 0;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   z-index: 9;
 
   .row {
@@ -17,7 +17,7 @@
 
   .links {
     display: inline-block;
-    padding-right: .5rem;
+    padding-right: 0.5rem;
     vertical-align: middle;
   }
 
@@ -30,7 +30,7 @@
       margin: rem(6px);
       padding: rem(6px);
       text-decoration: none;
-      transition: all .2s ease-in;
+      transition: all 0.2s ease-in;
 
       &:hover {
         color: $picton-blue;
@@ -64,17 +64,17 @@
 
     svg {
       left: 0;
-      margin-left: .5rem;
+      margin-left: 0.5rem;
       position: relative;
       top: rem(2px);
-      transition: transform .2s ease-in-out;
+      transition: transform 0.2s ease-in-out;
       width: rem(12px);
 
       @media (min-width: $min-width-md) {
         left: rem(4px);
         margin-left: rem(6px);
         top: rem(2px);
-        width: .5rem;
+        width: 0.5rem;
       }
     }
 
@@ -86,9 +86,10 @@
           transform: rotate(180deg);
         }
 
-        .submenu__content { // scss-lint:disable SelectorFormat
+        .submenu__content {
+          // scss-lint:disable SelectorFormat
           opacity: 1;
-          transition-delay: 0s, 0s, .3s;
+          transition-delay: 0s, 0s, 0.3s;
           visibility: visible;
           z-index: 1;
         }
@@ -100,11 +101,12 @@
       display: flex;
       flex-direction: column;
       margin-top: 1rem;
-      transition: all .3s ease-in-out 0s, visibility 0s linear .3s, z-index 0s linear .01s;
+      transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+        z-index 0s linear 0.01s;
 
       @media (min-width: $min-width-md) {
         background: $astronaut-blue;
-        box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, .2);
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
         margin-top: -2rem;
         min-width: 160px;
         opacity: 0;
@@ -127,24 +129,24 @@
   }
 
   .verge-logo svg {
-    margin-left: -.25rem;
+    margin-left: -0.25rem;
     width: rem(120px);
 
     .st2 {
       fill: $white;
-      transition: .2s all;
+      transition: 0.2s all;
     }
   }
 
   @at-root .scroll &,
-           &.solid {
+    &.solid {
     // scss-lint:disable ColorVariable
 
     background: $white;
-    box-shadow: 0 0 rem(15px) rgba(0, 0, 0, .06);
+    box-shadow: 0 0 rem(15px) rgba(0, 0, 0, 0.06);
 
     nav a {
-      transition: all .2s ease-in;
+      transition: all 0.2s ease-in;
 
       @media (min-width: $min-width-md) {
         color: #111;
@@ -192,7 +194,7 @@
     }
 
     @at-root .scroll &,
-             &.solid {
+      &.solid {
       .bm-burger-button button {
         filter: invert(0%);
       }
@@ -208,14 +210,14 @@
       right: rem(20px);
       top: rem(30px);
       width: rem(36px);
-
+      background: url(/static/img/menu-button.svg);
+      
       button {
-        background: url("/static/img/menu.svg");
         background-size: cover;
         color: transparent;
         filter: invert(100%);
         opacity: 1 !important; // scss-lint:disable ImportantRule
-        transition: .2s all;
+        transition: 0.2s all;
         vertical-align: middle;
 
         @media not speech {
@@ -256,11 +258,11 @@
 
     .bm-item-list {
       color: #fff;
-      padding: 1.5rem .8rem .8rem;
+      padding: 1.5rem 0.8rem 0.8rem;
     }
 
     .bm-overlay {
-      background: rgba(0, 0, 0, .3);
+      background: rgba(0, 0, 0, 0.3);
       bottom: 0;
       left: 0;
       right: 0;
@@ -276,14 +278,37 @@
   .language {
     position: relative;
     display: inline;
-    &--select {
-      border: 1px solid #ccc;
-      height: 34px;
 
-      @media (max-width: $max-width-sm) {
-        width: 100%;
-        margin-bottom: 50px;
+    &--select {
+      padding: 5px 8px;
+      border: 1px solid rgba(0,0,0,0.4);
+      box-shadow: none;
+      border-radius: 20px;
+      width: 90px;
+
+      font-family: 'Avenir Next', 'Lato', Arial, sans-serif;
+      color: black;
+      direction: ltr;
+
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+
+      &:focus {
+        outline: none;
       }
+    }
+
+    > .arrow {
+      position: absolute;
+      top: 40%;
+      right: 15px;
+      width: 0;
+      height: 0;
+      pointer-events: none;
+      border-style: solid;
+      border-width: 8px 5px 0 5px;
+      border-color: #7b7b7b transparent transparent transparent;
     }
   }
 }

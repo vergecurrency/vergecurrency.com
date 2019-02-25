@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import LanguageSwitcher from './LanguageSwitcher';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/fontawesome-free-solid';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const MenuItems = ({ t }) => (
   <div className="links">
@@ -32,6 +32,9 @@ const MenuItems = ({ t }) => (
         <Link prefetch href="/pressreleases">
           <a href="/pressreleases">{t('header:press-releases', { defaultValue: 'Press Releases' })}</a>
         </Link>
+        <Link prefetch href="/fueled-by-verge">
+          <a href="/fueled-by-verge">{t('header:fueled-by-verge', { defaultValue: 'Fueled By Verge' })}</a>
+        </Link>
       </div>
     </span>
     <Link prefetch href="/wallets">
@@ -50,12 +53,25 @@ const MenuItems = ({ t }) => (
         {/* <Link href="/guides">
           <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
         </Link> */}
+        <Link prefetch href="https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf">
+          <a href="https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
+          </a>
+        </Link>
         <Link prefetch href="/faq">
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}
           </a>
         </Link>
+        <Link prefetch href="/community/xvg-mining-pools/">
+          <a href="/community/xvg-mining-pools/">{t('header:pools', { defaultValue: 'Mining Pools' })}
+          </a>
+        </Link>
         <Link href="https://verge.zendesk.com">
           <a href="https://verge.zendesk.com" target="_blank" rel="noopener noreferrer">
+            {t('header:zendesk', { defaultValue: 'ZenDesk' })}
+          </a>
+        </Link>
+        <Link href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)">
+          <a href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)" target="_blank" rel="noopener noreferrer">
             {t('header:wiki', { defaultValue: 'Wiki' })}
           </a>
         </Link>
@@ -73,6 +89,9 @@ const MenuItems = ({ t }) => (
         </Link>
         <Link prefetch href="/presskit">
           <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
+        </Link>
+        <Link prefetch href="/meetup">
+          <a href="/meetup">{t('header:meetup', { defaultValue: 'MeetUp' })}</a>
         </Link>
         <Link prefetch href="/find-us">
           <a href="/find-us">{t('header:find-us', { defaultValue: 'Find Us' })}</a>

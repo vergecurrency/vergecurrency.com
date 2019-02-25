@@ -30,15 +30,6 @@
 	"location": "The Netherlands"
       },
       {
-        "img": "../static/img/team/edwin.jpg",
-        "name": "Edwin - EdwinB89",
-        "role": "Front-end Developer",
-        "occupation": "Front-end developer",
-        "github": "https://github.com/EdwinB89",
-        "twitter": "",
-	"location": "The Netherlands"
-      },
-      {
         "img": "../static/img/team/sourcedexter.jpg",
         "name": "Akshay - Sourcedexter",
         "role": "Bot Dev & India Marketing Lead",
@@ -99,20 +90,11 @@
       },
       {
         "img": "../static/img/team/verge.jpg",
-        "name": "Samantha - CryptoSam",
-        "role": "Procurement & Fulfillment",
-        "occupation": "Territory Sales Manager",
-        "github": "https://github.com/CryptoSamantha",
-        "twitter": "https://twitter.com/cryptosamantha",
-	"location": "Missouri, USA"
-      },
-      {
-        "img": "../static/img/team/verge.jpg",
         "name": "Tim - CryptoT",
         "role": "Business Development and Outreach",
         "occupation": "Entrepreneur",
         "github": "",
-        "twitter": "https://twitter.com/TR_Stevens",
+        "twitter": "https://twitter.com/TimXVG",
 	"location": "The Netherlands"
       }
     ]
@@ -122,8 +104,8 @@
     "members": [
       {
         "img": "../static/img/team/cryptorekt.jpg",
-        "name": "CryptoRekt",
-        "role": "Technical Writer & Advisor",
+        "name": "Brandon - CryptoRekt",
+        "role": "Technical Director",
         "occupation": "Systems Engineer",
         "github": "https://github.com/cryptorekt",
         "twitter": "https://twitter.com/CryptoRekt",
@@ -139,21 +121,12 @@
 	"location": "Rotterdam, The Netherlands"
       },
       {
-        "img": "../static/img/team/chris.png",
-        "name": "Chris",
-        "role": "Project & Outreach",
-        "occupation": "Operational Manager",
-        "github": "",
-        "twitter": "https://twitter.com/Chris_XVG",
-	"location": "Amsterdam, The Netherlands"
-      },
-      {
         "img": "../static/img/team/kris.jpg",
         "name": "Kris Chase",
         "role": "Marketing & Operations Advisor",
         "occupation": "Serial Entrepreneur & Investor",
         "github": "",
-        "twitter": "https://twitter.com/ItsKrisChase",
+        "twitter": "https://twitter.com/KristopherMT",
 	"location": "Canada"
       },
       {
@@ -184,15 +157,6 @@
 	"location": "USA"
       },
       {
-        "img": "../static/img/team/verge.jpg",
-        "name": "ddefying",
-        "role": "Technical Advisor",
-        "occupation": "Corporate Transaction Attorney",
-        "github": "",
-        "twitter": "https://twitter.com/cheetosologist",
-	"location": "California, USA"
-      },
-      {
         "img": "../static/img/team/jeffs1.png",
         "name": "Jeff",
         "role": "Technical Advisor",
@@ -211,15 +175,6 @@
 	"location": "Alberta, Canada"
       },
       {
-        "img": "../static/img/team/verge.jpg",
-        "name": "Ernstjan",
-        "role": "Vendor Outreach",
-        "occupation": "Management Consultant",
-        "github": "",
-        "twitter": "https://twitter.com/ernstjanalbers",
-	"location": "Leusden, The Netherlands"
-      },
-      {
         "img": "../static/img/team/lloyd.png",
         "name": "Lloyd - Swizzlesticks",
         "role": "Technical Writer & Advisor",
@@ -233,12 +188,12 @@
         "name": "BlueManRising",
         "role": "Technical Advisor",
         "occupation": "Civil Engineer",
-        "github": "",
+        "github": "https://github.com/BlueManRising",
         "twitter": "https://twitter.com/nkazier",
 	"location": "New Jersey, USA"
       },
       {
-        "img": "../static/img/team/verge.jpg",
+        "img": "../static/img/team/jimbobaroobob.jpg",
         "name": "Joel - Jimbobaroobob",
         "role": "Commercial Strategy",
         "occupation": "Director",
@@ -315,12 +270,12 @@
 	"location": "Istanbul, Turkey"
       },
       {
-        "img": "../static/img/team/verge.jpg",
+        "img": "../static/img/team/xvg-NINJA.png",
         "name": "Alexandre",
-        "role": "Community Relations Specialist",
+        "role": "Content Marketing Manager",
         "occupation": "Corporate English Teacher / Editor",
         "github": "",
-        "twitter": "https://twitter.com/xvgninja",
+        "twitter": "https://twitter.com/xvg_ninja",
 	"location": "Germany"
       },
       {
@@ -340,6 +295,24 @@
         "github": "",
         "twitter": "https://twitter.com/Verge_forums",
 	"location": "The Netherlands"
+      },
+      {
+        "img": "../static/img/team/niteshadow.jpg",
+        "name": "NiteShadow",
+        "role": "IT/Content Marketing Strategist",
+        "occupation": "",
+        "github": "",
+        "twitter": "https://twitter.com/NiteShadowXVG",
+	"location": "New York, USA"
+      },
+      {
+        "img": "../static/img/team/alchemi.jpg",
+        "name": "Alchemi",
+        "role": "Multimedia Designer",
+        "occupation": "",
+        "github": "",
+        "twitter": "https://twitter.com/alchemi_co",
+	"location": "New York, USA"
       }
     ]
   },

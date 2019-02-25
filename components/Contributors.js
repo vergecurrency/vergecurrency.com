@@ -27,8 +27,8 @@ class Contributors extends React.Component {
               this.state.contributors.map((x, i) => {
                 if (x.id !== 15385883) {
                   return (
-                    <div key={x.id} className={(i === 0 ? 'col-xs-9' : 'col-xs-6') + ' col-xs-6 col-sm-4 col-md-3 col-lg-2'}>
-                      <a href={x.html_url} target="_blank" className="contributors--item">
+                    <div key={x.id} className={`${i === 0 ? 'col-xs-9' : 'col-xs-6'} col-xs-6 col-sm-4 col-md-3 col-lg-2`}>
+                      <a href={x.html_url} target="_blank" rel="noopener noreferrer" className="contributors--item">
                         <div className="contributors--item__img">
                           <LazyLoad height={130}>
                             <img src={x.avatar_url} alt={x.login} />

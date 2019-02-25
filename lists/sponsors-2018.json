@@ -1,0 +1,124 @@
+{
+  "sponsors": [
+    {
+      "img": "../static/img/meetup-2018/sponsors/Subway.png",
+      "title": "Subway",
+      "height": 50,
+      "url": "http://www.subway.com/nl-NL"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/TokenPay.png",
+      "title": "TokenPay",
+      "height": 35,
+      "url": "https://www.tokenpay.com/"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/litebit.png",
+      "title": "Litebit",
+      "height": 35,
+      "url": "https://www.litebit.eu"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/CryptoDen.jpg",
+      "title": "CryptoDen",
+      "height": 35,
+      "url": "https://discord.gg/5trYv7T"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/HeightCare.png",
+      "title": "TokenPay",
+      "height": 30,
+      "url": "http://www.heightcare.nl/"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/David-Gokhshtein.jpg",
+      "title": "David Gokhshtein",
+      "height": 60,
+      "url": "http://www.davidgokhshtein.com"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/Crypto-Whale-Clothing.png",
+      "title": "Crypto Whale Clothing",
+      "height": 60,
+      "url": "https://cryptowhaleclothing.com"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/Autokey.jpg",
+      "title": "Autokey",
+      "height": 35,
+      "url": "http://www.skybrake.ie"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/Coinbaas.jpg",
+      "title": "Coinbaas",
+      "height": 35,
+      "url": "https://t.me/joinchat/GOzXO0XX4kcFYB_DCn7u0g"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/xwise.png",
+      "title": "Xwise",
+      "height": 35,
+      "url": "https://www.xwise.eu"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/mycro.jpg",
+      "title": "Mycrojobs",
+      "height": 50,
+      "url": "https://www.mycrojobs.io"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/bunker501.png",
+      "title": "Bunker501",
+      "height": 35,
+      "url": "https://bunker501.nl/"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/cryptosuite.jpg",
+      "title": "Crypto Suite",
+      "height": 50,
+      "url": "http://bit.ly/TheCryptoSuite"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/thepack.png",
+      "title": "The Pack",
+      "height": 50,
+      "url": "https://the-pack.nl/"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/financial-services.jpg",
+      "title": "Financial Services",
+      "height": 50,
+      "url": "http://stta.io"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/crypto_investors.jpg",
+      "title": "Dutch Crypto Investors",
+      "height": 80,
+      "url": "https://dutchcryptoinvestors.com"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/greenpearl.jpeg",
+      "title": "Green Pearl",
+      "height": 60,
+      "url": "http://greenpearl.nl"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/stroopwafelhuisje.jpg",
+      "title": "t stroopwafelhuisje",
+      "height": 60,
+      "url": "https://tstroopwafelhuisje.com"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/xvgwhale.jpg",
+      "title": "XVG Whale",
+      "height": 60,
+      "url": "#"
+    },
+    {
+      "img": "../static/img/meetup-2018/sponsors/cbdolie.jpg",
+      "title": "De wonderen van CBD olie",
+      "height": 60,
+      "url": "https://dewonderenvancbdolie.nl/"
+    }
+  ]
+}

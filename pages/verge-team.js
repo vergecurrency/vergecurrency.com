@@ -1,19 +1,19 @@
-import Link from 'next/link'
-import Head from 'next/head'
+import Link from 'next/link';
+import Head from 'next/head';
 
-import Layout from '../components/Layout'
-import Contributors from '../components/Contributors'
-import Team from '../components/Team'
-import TeamCategory from '../components/TeamCategory'
-import TGAdmins from '../components/TGAdmins'
+import Layout from '../components/Layout';
+import Contributors from '../components/Contributors';
+import Team from '../components/Team';
+import TeamCategory from '../components/TeamCategory';
+import TGAdmins from '../components/TGAdmins';
 
-import { translate } from 'react-i18next'
-import i18n from '../i18n'
+import { translate } from 'react-i18next';
+import i18n from '../i18n';
 
-const teamCategories = Object.values(require('../lists/team'))
+const teamCategories = Object.values(require('../lists/team'));
 
 function VergeTeam(props) {
-  const { t } = props
+  const { t } = props;
 
   return (
     <Layout>
@@ -41,10 +41,10 @@ function VergeTeam(props) {
           <div className="row center-xs middle-xs">
             <div className="col-xs-10 col-sm-6">
               <h2>
-              {t('common:texts.open', { defaultValue: 'Verge Currency is a 100% open-source project, and the global Verge Community represents the manpower driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place. All contributors, including the Core Team, are unpaid volunteers who donate their time and energy into the project because they are passionate and believe in Verge.' })}
+                {t('common:texts.open', { defaultValue: 'Verge Currency is a 100% open-source project, and the global Verge Community represents the manpower driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place. All contributors, including the Core Team, are unpaid volunteers who donate their time and energy into the project because they are passionate and believe in Verge.' })}
               </h2>
               <p>
-              {t('verge-team:body.text1', { defaultValue: 'Below are just some of the most active community members who form the Core Team.' })}
+                {t('verge-team:body.text1', { defaultValue: 'Below are just some of the most active community members who form the Core Team.' })}
               </p>
             </div>
           </div>
@@ -63,26 +63,26 @@ function VergeTeam(props) {
         <div className="team pt-xs pb-large">
           <div className="row center-xs">
             <div className="col-xs-10 col-lg-8">
-            <h2>Telegram Admins</h2>
-            <TGAdmins />
+              <h2>Telegram Admins</h2>
+              <TGAdmins />
             </div>
           </div>
-        </div>   
+        </div>
         <div className="contributors">
           <div className="row center-xs">
             <div className="col-xs-10">
               <div className="row center-xs start-sm">
                 <div className="col-xs-12 col-sm-8 col-lg-6 pb-small pb-xs-0">
                   <h2>
-                  {t('verge-team:body.text2', { defaultValue: 'Want to contribute to Verge Currency?' })}
-                  {' '}
+                    {t('verge-team:body.text2', { defaultValue: 'Want to contribute to Verge Currency?' })}
+                    {' '}
                     <span className="hidden-xs">
                       <br />
                     </span>
                     {t('verge-team:body.text3', { defaultValue: 'Join our community on Github' })}
                   </h2>
                   <p>
-                  {t('verge-team:body.text4', { defaultValue: 'Verge is open-source software that is constantly improving due to its many contributors. If you would like to contribute as well, take a look at our Github repositories to see where you could make a difference!' })}
+                    {t('verge-team:body.text4', { defaultValue: 'Verge is open-source software that is constantly improving due to its many contributors. If you would like to contribute as well, take a look at our Github repositories to see where you could make a difference!' })}
                   </p>
                 </div>
                 <div className="col-xs-12 col-sm-4 col-lg-6 end-xs">
@@ -106,12 +106,12 @@ function VergeTeam(props) {
         </div>
       </div>
     </Layout>
-  )
+  );
 }
 
 const Extended = translate(['common', 'verge-team'], {
   i18n,
   wait: process.browser,
-})(VergeTeam)
+})(VergeTeam);
 
-export default Extended
+export default Extended;

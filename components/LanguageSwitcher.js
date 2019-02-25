@@ -6,9 +6,9 @@ const languageList = require('../lists/languages').languages;
 class LanguageSwitcher extends React.Component {
   updateRightToLeftSupport() {
     if (
-      i18n.language == 'ar' ||
-      i18n.language == 'ku' ||
-      i18n.language == 'fa'
+      i18n.language === 'ar' ||
+      i18n.language === 'ku' ||
+      i18n.language === 'fa'
     ) {
       document.body.style.direction = 'rtl';
     } else {
@@ -24,7 +24,7 @@ class LanguageSwitcher extends React.Component {
   }
 
   render() {
-    const changeDetection = e => {
+    const changeDetection = (e) => {
       i18n.changeLanguage(e.target.value);
     };
 
@@ -43,6 +43,7 @@ class LanguageSwitcher extends React.Component {
         >
           {languages}
         </select>
+        <span className="arrow" />
       </div>
     );
   }
