@@ -142,7 +142,7 @@ function Meetup(props) {
                   Crypto Michaël
                 </h5>
                 <p className="text--smaller">
-                Crypto Enthusiast
+                Full Time Trader
                 </p>
               </div>
 

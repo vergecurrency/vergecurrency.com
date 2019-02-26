@@ -45,6 +45,7 @@ module.exports = {
       '/wallets': { page: '/wallets' },
       '/donationrewards': { page: '/donationrewards' },
       '/get-started': { page: '/get-started' },
+      '/getstarted': { page: '/getstarted' },
       '/pressreleases': { page: '/pressreleases' },
       '/meetup-2018': { page: '/meetup-2018' },
       '/meetup': { page: '/meetup' },
