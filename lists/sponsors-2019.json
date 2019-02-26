@@ -86,6 +86,12 @@
         "title": "WhaleApparel",
         "height": 65,
         "url": "https://www.whaleapparel.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/CSnews.jpg",
+        "title": "CSnews",
+        "height": 65,
+        "url": "https://www.crypto-suite.com/"
       }
       
     ]
