@@ -25,12 +25,6 @@
       "url": "https://net-cents.com/markets/xvgbtc"
     },
     {
-      "img": "../static/img/exchanges/dynx.png",
-      "title": "DynX",
-      "link": "dynx.io",
-      "url": "https://www.dynx.io/"
-    },
-    {
       "img": "../static/img/exchanges/bithumb.png",
       "title": "Bithumb",
       "link": "bithumb.com",
@@ -55,16 +49,34 @@
       "url": "https://changenow.io"
     },
     {
+      "img": "../static/img/exchanges/dynx.png",
+      "title": "DynX",
+      "link": "dynx.io",
+      "url": "https://www.dynx.io/"
+    },
+    {
+      "img": "../static/img/exchanges/stealthex.png",
+      "title": "StealtheX",
+      "link": "stealthex.io",
+      "url": "https://stealthex.io/"
+    },
+    {
+      "img": "../static/img/exchanges/cointree.png",
+      "title": "CoinTree",
+      "link": "cointree.com",
+      "url": "https://www.cointree.com/"
+    },
+    {
       "img": "../static/img/exchanges/changehero.png",
       "title": "ChangeHero",
       "link": "changehero.io",
       "url": "https://changehero.io/"
     },
     {
-      "img": "../static/img/exchanges/bitcoinmeester.png",
-      "title": "Bitcoin Meester",
-      "link": "bitcoinmeester.nl",
-      "url": "https://www.bitladon.com/Verge?r=100021746"
+      "img": "../static/img/exchanges/bitladon.png",
+      "title": "Bitladon",
+      "link": "bitladon.com",
+      "url": "https://www.bitladon.com/?r=100021746"
     },
     {
       "img": "../static/img/exchanges/elastum.png",

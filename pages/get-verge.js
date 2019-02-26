@@ -25,8 +25,23 @@ function GetVerge(props) {
               <h2 className="mb">{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges. We’re proud to be listed on:' })}</h2>
 
               <Exchanges />
-
-              <Cointicker />
+                    <span className="hidden-xs">
+                      <br />
+                    </span>
+                  <h3>
+                    {t('home:getverge.text6', {
+                      defaultValue:
+                        'Exchange Disclaimer:',
+                    })}{' '}
+                    <span className="hidden-xs">
+                      <br />
+                    </span>
+                  </h3>    
+                  <h4>
+                    {t('home:getverge.text7', {
+                      defaultValue: <i>Verge Currency provides the exchange information listed herein for informational purposes only. Verge Currency is not liable for any third-party transactions between cryptocurrency purchasers or sellers. Buyers and investors are to seek independent financial advice from a professional. Do your own research.</i>,
+                    })}
+                  </h4>
             </div>
           </div>
 
