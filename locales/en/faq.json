@@ -23,7 +23,7 @@
     },
     "techdoc": {
       "question": "Where can I find technical documentation on Verge Currency?",
-      "answer": "In the <a href='https://github.com/vergecurrency/Verge-Blackpaper/blob/master/Verge-Anonymity-Centric-CryptoCurrency.pdf' target='_blank'>\"Blackpaper\"</a>. The Source Code can be found on <a href='https://github.com/vergecurrency' target='_blank'>\"GitHub\"</a>."
+      "answer": "In the <a href='/static/blackpaper/verge-blackpaper-v5.0.pdf' target='_blank'>\"Blackpaper\"</a>. The Source Code can be found on <a href='https://github.com/vergecurrency' target='_blank'>\"GitHub\"</a>."
     },
     "premine": {
       "question": "Did Verge Currency have a pre-mine?",
