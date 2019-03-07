@@ -1,7 +1,6 @@
 import Head from 'next/head';
-
 import Layout from '../components/Layout';
-
+import Link from 'next/link';
 import { Exchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
 import Coinchart from '../components/Coinchart';
@@ -22,6 +21,14 @@ function GetVerge(props) {
           <div className="row center-xs middle-xs pt pb">
             <div className="col-xs-10">
               <h6>{t('get-verge:body.title', { defaultValue: 'Get Verge' })}</h6>
+              <h3 className="links">{t('get-verge:body.fiat', { defaultValue: 'You can now buy Verge(XVG) directly with fiat currency.  To find out more, please visit:' })}</h3>
+              <Link href="https://verge.zendesk.com/hc/en-us/sections/360003859972-Where-How-Can-I-Buy-Verge-XVG-">
+                <a target="_blank" rel="noopener noreferrer" href="https://verge.zendesk.com/hc/en-us/sections/360003859972-Where-How-Can-I-Buy-Verge-XVG-">
+                <font color="black">Verge Zendesk - Getting Started</font>
+                </a>
+              </Link>
+              <br />
+              <br />
               <h2 className="mb">{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges. We’re proud to be listed on:' })}</h2>
 
               <Exchanges />
