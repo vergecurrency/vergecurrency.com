@@ -21,7 +21,7 @@ function GetVerge(props) {
           <div className="row center-xs middle-xs pt pb">
             <div className="col-xs-10">
               <h6>{t('get-verge:body.title', { defaultValue: 'Get Verge' })}</h6>
-              <h3 className="links">{t('get-verge:body.fiat', { defaultValue: 'You can now buy Verge(XVG) directly with fiat currency.  To find out more, please visit:' })}</h3>
+              <h3>{t('get-verge:body.fiat', { defaultValue: 'You can now buy Verge(XVG) directly with fiat currency.  To find out more, please visit:' })}</h3>
               <Link href="https://verge.zendesk.com/hc/en-us/sections/360003859972-Where-How-Can-I-Buy-Verge-XVG-">
                 <a target="_blank" rel="noopener noreferrer" href="https://verge.zendesk.com/hc/en-us/sections/360003859972-Where-How-Can-I-Buy-Verge-XVG-">
                 <font color="black">Verge Zendesk - Getting Started</font>
