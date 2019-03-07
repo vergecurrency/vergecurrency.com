@@ -100,11 +100,12 @@ function FBV(props) {
 
               <div>
                 <div className="AthletesFbv1">
-                  <a href="https://goo.gl/forms/pd1EyEneXY6d4WU82">
-                    <img src="/static/img/fbv/yourSport.png" alt="Your Sport Fueled by Verge" title="Your Sport Fueled by Verge" />
+                  <a href="https://www.facebook.com/UpstateRacingLeague/">
+                    <img src="/static/img/fbv/eSport.png" alt="eSports Fueled by Verge" title="eSports Fueled by Verge" />
                     <div className="AthletesFbvTxt1">
-                      <p className="athleteName">Would You Like to Join?</p>
-                      <p className="athleteLocation">Contact Us!</p>
+                      <p className="athleteSport">eSports</p>
+                      <p className="athleteName">Upstate Racing League</p>
+                      <p className="athleteLocation">New York</p>
                     </div>
                   </a>
                 </div>
@@ -131,10 +132,10 @@ function FBV(props) {
             <div className="row center-xs middle-xs">
               <div className="col-xs-12 col-lg-8">
                 <div className="fbvTextLeftAlignment">
-                  The goal of #FueledByVerge is to showcase the utility of Verge through events by its community. Our Verge Currency team is the first team that is &quot;Fueled by Verge&quot; in both design and spirit. 
+                  The goal of #FueledByVerge is to showcase the utility of Verge through events by its community. Our Verge Currency team is the first team that is &quot;Fueled by Verge&quot; in both design and spirit.
                   <br />
                   <br />
-                  FbV wants to showcase the strength and community of Verge by helping Sponsored individuals, thus bringing increased awareness of Verge Currency in general. 
+                  FbV wants to showcase the strength and community of Verge by helping Sponsored individuals, thus bringing increased awareness of Verge Currency in general.
                   <br />
                   <br />
                   FbV also wishes to help people by promoting their events and achievements.  This will allow them to gain more support as an individual or team from the project they believe in.  FbV will promote their bios, event schedules, and how to find them. All of this will be done to increase media presence and brand awareness.
