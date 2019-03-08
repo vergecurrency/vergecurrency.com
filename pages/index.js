@@ -66,9 +66,9 @@ function Home(props) {
                     })}
                   </p>
                   <WalletsBtn />
-                  <Link href="/get-started" prefetch>
+                  <Link href="/get-verge" prefetch>
                     <a
-                      href="/get-started"
+                      href="/get-verge"
                       className="btn btn-secondary"
                       name="Get Started with Verge"
                     >
