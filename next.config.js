@@ -44,7 +44,7 @@ module.exports = {
       '/verge-team': { page: '/verge-team' },
       '/wallets': { page: '/wallets' },
       '/donationrewards': { page: '/donationrewards' },
-      '/get-started': { page: '/get-started' },
+    //  '/get-started': { page: '/get-started' },
       '/getstarted': { page: '/getstarted' },
       '/pressreleases': { page: '/pressreleases' },
       '/meetup-2018': { page: '/meetup-2018' },
