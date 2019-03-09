@@ -89,15 +89,6 @@
 	"location": "Tennessee, USA"
       },
       {
-        "img": "../static/img/team/phanti.jpg",
-        "name": "Jonas - Phanti",
-        "role": "Client Relations Manager",
-        "occupation": "Banking & Finance",
-        "github": "",
-        "twitter": "https://twitter.com/PhanTi_91",
-	"location": "Stuttgart, Germany"
-      },
-      {
         "img": "../static/img/team/verge.jpg",
         "name": "Tim - CryptoT",
         "role": "Client Relations Manager",
@@ -105,6 +96,24 @@
         "github": "",
         "twitter": "https://twitter.com/TimXVG",
 	"location": "The Netherlands"
+      },
+      {
+        "img": "../static/img/team/mark.png",
+        "name": "Mark",
+        "role": "Business Development Strategist",
+        "occupation": "Finance / Credit Specialist",
+        "github": "",
+        "twitter": "https://twitter.com/vergecanada",
+  "location": "Alberta, Canada"
+      },
+      {
+        "img": "../static/img/team/phanti.jpg",
+        "name": "Jonas - Phanti",
+        "role": "Client Relations Manager",
+        "occupation": "Banking & Finance",
+        "github": "",
+        "twitter": "https://twitter.com/PhanTi_91",
+  "location": "Stuttgart, Germany"
       }
     ]
   },
@@ -164,15 +173,6 @@
         "github": "",
         "twitter": "https://twitter.com/CmplxStack",
 	"location": "USA"
-      },
-      {
-        "img": "../static/img/team/mark.png",
-        "name": "Mark",
-        "role": "International Marketing Advisor",
-        "occupation": "Finance / Credit Specialist",
-        "github": "",
-        "twitter": "https://twitter.com/vergecanada",
-	"location": "Alberta, Canada"
       },
       {
         "img": "../static/img/team/lloyd.png",
