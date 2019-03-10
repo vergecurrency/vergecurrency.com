@@ -184,6 +184,15 @@
   "location": "British Columbia Canada"
       },
       {
+        "img": "../static/img/team/verge.jpg",
+        "name": "TheCryptoCamel",
+        "role": "General Advisor",
+        "occupation": "Consultant",
+        "github": "",
+        "twitter": "https://twitter.com/TheCryptoCamel",
+  "location": "TBD"
+      },
+      {
         "img": "../static/img/team/stack.jpg",
         "name": "Mike - Stack",
         "role": "Technical Advisor",
