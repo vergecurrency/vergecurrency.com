@@ -166,6 +166,24 @@
 	"location": "Melbourne, Australia"
       },
       {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Jeremiah",
+        "role": "E-commerce Advisor",
+        "occupation": "Owner/CEO - FinTech SaaS Provider",
+        "github": "",
+        "twitter": "https://twitter.com/CEOEasyRent",
+  "location": "Minnesota, USA"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Harry",
+        "role": "General Advisor",
+        "occupation": "Venture Advisor",
+        "github": "",
+        "twitter": "https://twitter.com/XVGHS",
+  "location": "British Columbia Canada"
+      },
+      {
         "img": "../static/img/team/stack.jpg",
         "name": "Mike - Stack",
         "role": "Technical Advisor",
