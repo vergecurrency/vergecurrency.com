@@ -200,6 +200,24 @@
         "github": "",
         "twitter": "https://twitter.com/jimbobaroobob",
 	"location": "Sydney, Australia"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Jeroen",
+        "role": "Advisor",
+        "occupation": "Consultant",
+        "github": "",
+        "twitter": "",
+  "location": "Tillburg, Netherlands"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Benji",
+        "role": "Marketing Advisor",
+        "occupation": "Real Estate Broker/Developer",
+        "github": "",
+        "twitter": "",
+  "location": "Florida, USA"
       }
     ]
   },
