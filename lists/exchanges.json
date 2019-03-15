@@ -25,6 +25,12 @@
       "url": "https://net-cents.com/markets/xvgbtc"
     },
     {
+      "img": "../static/img/exchanges/bitladon.png",
+      "title": "Bitladon",
+      "link": "bitladon.com",
+      "url": "https://www.bitladon.com/?r=100021746"
+    },
+    {
       "img": "../static/img/exchanges/bithumb.png",
       "title": "Bithumb",
       "link": "bithumb.com",
@@ -53,12 +59,6 @@
       "title": "DynX",
       "link": "dynx.io",
       "url": "https://www.dynx.io/"
-    },
-    {
-      "img": "../static/img/exchanges/bitladon.png",
-      "title": "Bitladon",
-      "link": "bitladon.com",
-      "url": "https://www.bitladon.com/?r=100021746"
     },
     {
       "img": "../static/img/exchanges/cointree.png",
