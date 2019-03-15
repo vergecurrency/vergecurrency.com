@@ -55,10 +55,10 @@
       "url": "https://www.dynx.io/"
     },
     {
-      "img": "../static/img/exchanges/stealthex.png",
-      "title": "StealtheX",
-      "link": "stealthex.io",
-      "url": "https://stealthex.io/"
+      "img": "../static/img/exchanges/bitladon.png",
+      "title": "Bitladon",
+      "link": "bitladon.com",
+      "url": "https://www.bitladon.com/?r=100021746"
     },
     {
       "img": "../static/img/exchanges/cointree.png",
@@ -73,10 +73,10 @@
       "url": "https://changehero.io/"
     },
     {
-      "img": "../static/img/exchanges/bitladon.png",
-      "title": "Bitladon",
-      "link": "bitladon.com",
-      "url": "https://www.bitladon.com/?r=100021746"
+      "img": "../static/img/exchanges/stealthex.png",
+      "title": "StealtheX",
+      "link": "stealthex.io",
+      "url": "https://stealthex.io/"
     },
     {
       "img": "../static/img/exchanges/elastum.png",
