@@ -89,15 +89,6 @@
 	"location": "Tennessee, USA"
       },
       {
-        "img": "../static/img/team/verge.jpg",
-        "name": "Tim - CryptoT",
-        "role": "Client Relations Manager",
-        "occupation": "Entrepreneur",
-        "github": "",
-        "twitter": "https://twitter.com/TimXVG",
-	"location": "The Netherlands"
-      },
-      {
         "img": "../static/img/team/mark.png",
         "name": "Mark",
         "role": "Business Development Strategist",
