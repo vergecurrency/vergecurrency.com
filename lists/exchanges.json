@@ -61,10 +61,10 @@
       "url": "https://www.dynx.io/"
     },
     {
-      "img": "../static/img/exchanges/cointree.png",
-      "title": "CoinTree",
-      "link": "cointree.com",
-      "url": "https://www.cointree.com/"
+      "img": "../static/img/exchanges/omgfin.png",
+      "title": "OMGFIN",
+      "link": "omgfin.com",
+      "url": "https://omgfin.com/"
     },
     {
       "img": "../static/img/exchanges/changehero.png",
@@ -107,6 +107,12 @@
       "title": "CoinSwitch",
       "link": "verge.coinswitch.co",
       "url": "https://verge.coinswitch.co"
+    },
+    {
+      "img": "../static/img/exchanges/cointree.png",
+      "title": "CoinTree",
+      "link": "cointree.com",
+      "url": "https://www.cointree.com/"
     },
     {
       "img": "../static/img/exchanges/indacoin.png",
