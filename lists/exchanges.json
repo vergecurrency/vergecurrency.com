@@ -245,6 +245,12 @@
       "title": "SwapLab",
       "link": "swaplab.cc",
       "url": "https://swaplab.cc/"
+    },
+    {
+      "img": "../static/img/exchanges/omgfin.png",
+      "title": "Omgfin",
+      "link": "omgfin.com",
+      "url": "https://omgfin.com/exchange/"
     }
   ]
 }
