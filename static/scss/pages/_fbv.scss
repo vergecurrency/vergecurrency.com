@@ -6,75 +6,57 @@
 
 
 .fbv-ribbon-img {
-    background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
-    background-size: cover;
-    min-height: 58.125rem;
-    min-width: 100%;
-    /*position: absolute;*/
-    z-index: 1;
+  background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
+  background-size: cover;
+  min-height: 58.125rem;
+  min-width: 100%;
+  /*position: absolute;*/
+  z-index: 1;
 }
 
 .ribbon--fbv {
   min-height: 45rem;
   background: #042c42;
-  /*background: url(/static/img/fbv/topBannerRibbon.png) no-repeat center center;*/
   background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
   background-size: cover;
-  
 }
-
-
 
 
 .fbvHeaderBG {
   max-height: 43rem;
   background: #042c42;
-  /*background: url(/static/img/fbv/topBannerRibbon.png) no-repeat center center;*/
   background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
   background-size: cover;
 }
-
-
-
 
 
 @media only screen and (max-width: 1080px) {
-.fbvHeaderBG {
-  min-height: 33rem;
-  background: #042c42;
-  /*background: url(/static/img/fbv/topBannerRibbon.png) no-repeat center center;*/
-  background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
-  background-size: cover;
+  .fbvHeaderBG {
+    min-height: 33rem;
+    background: #042c42;
+    background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
+    background-size: cover;
+  }
 }
-}
-
-
 
 @media only screen and (max-width: 690px) {
   .fbvHeaderBG {
     min-height: 30rem;
     background: #042c42;
-    /*background: url(/static/img/fbv/topBannerRibbon.png) no-repeat center center;*/
     background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
     background-size: cover;
   }
+}
+
+
+@media only screen and (max-width: 655px) {
+  .fbvHeaderBG {
+    min-height: 35rem;
+    background: #042c42;
+    background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
+    background-size: cover;
   }
-
-
-  @media only screen and (max-width: 655px) {
-    .fbvHeaderBG {
-      min-height: 35rem;
-      background: #042c42;
-      /*background: url(/static/img/fbv/topBannerRibbon.png) no-repeat center center;*/
-      background: url(/static/img/fbv/fbv_ribbonBG_dark.png) no-repeat center center;
-      background-size: cover;
-    }
-    }
-
-
-
-
-
+}
 
 
 .fbvHeaderFloat {
@@ -83,18 +65,16 @@
 
 
 @media only screen and (max-width: 1080px) {
-.fbvHeaderFloat {
-  /*max-width:10%;*/
-  display:none;
+  .fbvHeaderFloat {
+    /*max-width:10%;*/
+    display:none;
   }
 
   .fbvMobileHeader {
     /*max-width:10%;*/
     background: url(/static/img/fbv/fbvStickerBike.png) no-repeat center center;
-    }
+  }
 }
-
-
 
 
 
@@ -116,71 +96,60 @@
 }
 
 
-
-
-
 @media only screen and (max-width: 864px){          
   .Fbvimage1{
-      display: none;
-    }
-  
-    .Fbvimage2{
-      display: block;
-      position: absolute;
-      max-width: 100%;
-      height: 300px;
-    }
+    display: none;
   }
 
+  .Fbvimage2{
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    height: 300px;
+  }
+}
 
 
-  
-@media only screen and (max-width: 690px){          
+@media only screen and (max-width: 690px){       
   .Fbvimage1{
-      display: none;
-    }
-  
-    .Fbvimage2{
-      display: block;
-      position: absolute;
-      max-width: 100%;
-      height: 200px;
-    }
+    display: none;
   }
 
+  .Fbvimage2{
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    height: 200px;
+  }
+}
 
-    
+
 @media only screen and (max-width: 655px){          
   .Fbvimage1{
-      display: none;
-    }
-  
-    .Fbvimage2{
-      display: block;
-      position: absolute;
-      max-width: 100%;
-      height: 300px;
-    }
+    display: none;
   }
 
+  .Fbvimage2{
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    height: 300px;
+  }
+}
 
 
-  @media only screen and (max-width: 500px){          
-    .Fbvimage1{
-        display: none;
-      }
-    
-      .Fbvimage2{
-        display: block;
-        position: absolute;
-        max-width: 100%;
-        height: 260px;
-      }
-    }
-
-
-
-
+@media only screen and (max-width: 500px){        
+  .Fbvimage1{
+    display: none;
+  }
+  
+  .Fbvimage2{
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    height: 260px;
+  }
+}
 
 
 .container-fbv-header {
@@ -189,7 +158,6 @@
   margin-right: auto;
   margin-left: auto;
 }
-
 
 .fbvSticker {
   /*position: absolute;
@@ -208,7 +176,6 @@
     z-index: 8;*/
   }
 }
-
 
 @media only screen and (max-width: 1024px) {
   .fbvSticker {
@@ -240,10 +207,6 @@
   }
 }
 
-
-
-
-
 .fbvBike {
   /*position: absolute;
   padding-top: 200px;
@@ -264,7 +227,6 @@
     z-index: 8; */
   }
 }
-
 
 @media only screen and (max-width: 1024px) {
   .fbvBike {
@@ -299,25 +261,22 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 .fbv-grid {
-  display: grid;
+  display: flex;
   grid-column-gap: 30px;
   grid-row-gap: 30px !important;
   text-align: center;
 }
+@media (max-width: 53em) {
+  .fbv-grid {
+    display: grid;
+  }
+  .fbv-grid > div {
+    margin: 0 auto;
+  }
+}
 
-
-@media (min-width: 75em) {
+@media (min-width: 68em) {
 .fbv-grid {
   margin: 35px 0px;
   grid-template-columns: 33.3% 33.3% 33.3%;
@@ -327,18 +286,7 @@
   }
 }
 
-
-@media (min-width: 64em) {
-.fbv-grid {
-  margin: 35px 0px;
-  grid-template-columns: 33.3% 33.3% 33.3%;
-  grid-template-rows: 50% 50%;
-  grid-auto-flow: row;
-  text-align: center;
-  }
-}
-
-@media (min-width: 48em) {
+@media (min-width: 54em) {
 .fbv-grid {
   grid-template-rows: 100%;
   grid-auto-flow: column;
@@ -346,6 +294,7 @@
   text-align: center;
   }
 }
+
 
 
 
@@ -511,62 +460,7 @@
   z-index: 3;
   }
 }
-  
-  
-    
-  
-  
-  
-  
-  
-/*  
-.fbvRibbon {
-  display: table;
-  width: 100%;
-  min-height: 750px;
-  background-image: url("images/topBannerRibbon.png");
-    background-color: #f5f7fa;
-  background-repeat: no-repeat, repeat;
-  text-align: center;
-  font-family: "Avenir Next", "Lato", Arial, sans-serif;
-} 
 
-  
-  
-.fbvRibbonHeading {
-  color: #1db6dc;
-    font-size: 1rem;
-    font-weight: 600;
-  vertical-align: middle;
-    text-align: center;
-  text-transform: uppercase;
-  font-style: italic;
-  margin-top: 50px;
-  font-family: "Avenir Next", "Lato", Arial, sans-serif;
-}
-  
-  
-.fbvRibbonHeadingSub {
-  color: #FFFFFF;
-    font-size: 1.7rem;
-    font-weight: 600;
-  vertical-align: middle;
-    text-align: center;
-  margin-top: -20%;
-  font-family: "Avenir Next", "Lato", Arial, sans-serif;
-}
-  
-.fbvRibbonHeadingSub2 {
-  color: #CCCCCC;
-    font-size: 0.9rem;
-    font-weight: 400;
-  vertical-align: middle;
-    text-align: center;
-  margin-top: -15%;
-  font-family: "Avenir Next", "Lato", Arial, sans-serif;
-}
-
-*/  
 
 .fbvAbout {
   display: table;
@@ -581,16 +475,14 @@
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
 
-
-  
   
   
 .fbvAthletes {
-    display: table;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  display: table;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
   
 .fbvAthletesRow {

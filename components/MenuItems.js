@@ -10,9 +10,11 @@ const MenuItems = ({ t }) => (
         {t('header:home', { defaultValue: 'Home' })}
       </a>
     </Link>
+    {/*
     <Link prefetch href="/get-started">
       <a href="/get-started">{t('header:get-started', { defaultValue: 'Get Started' })}</a>
     </Link>
+    */}
     <span className="submenu">
       {t('header:about', { defaultValue: 'About' })}
       <FontAwesomeIcon icon={faChevronDown} />
@@ -53,8 +55,8 @@ const MenuItems = ({ t }) => (
         {/* <Link href="/guides">
           <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
         </Link> */}
-        <Link prefetch href="https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf">
-          <a href="https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
+        <Link prefetch href="/static/blackpaper/verge-blackpaper-v5.0.pdf">
+          <a href="/static/blackpaper/verge-blackpaper-v5.0.pdf">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
           </a>
         </Link>
         <Link prefetch href="/faq">

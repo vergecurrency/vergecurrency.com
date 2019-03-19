@@ -827,20 +827,6 @@
             }
         },
         {
-            "title": "Elite Exteriors",
-            "img": "../static/img/vendors/latest/eliteexteriors.png",
-            "link": "eliteexteriors.biz",
-            "url": "http://eliteexteriors.biz",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Hostragon",
             "img": "../static/img/vendors/latest/hostagon.png",
             "link": "hostragon.com",
@@ -1483,20 +1469,6 @@
                 "entertainment": false,
                 "travel": false,
                 "education": false
-            }
-        },
-        {
-            "title": "Chess lessons",
-            "img": "../static/img/vendors/latest/chesslessons.png",
-            "link": "chesslessons.com",
-            "url": "https://chesslessons.com/store/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": true
             }
         },
         {

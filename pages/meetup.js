@@ -142,7 +142,7 @@ function Meetup(props) {
                   Crypto Michaël
                 </h5>
                 <p className="text--smaller">
-                Crypto Enthusiast
+                Full Time Trader
                 </p>
               </div>
 
@@ -257,16 +257,9 @@ function Meetup(props) {
                 <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
                   <div className="bb">
                     <h4>Basic Ticket</h4>
-                    <p>EARLY BIRD FEBRUARY</p>
                     <p className="tickets__price">
-                      55
+                      65
                       <span className="span__euro">€</span>
-                      {' '}
-                      &nbsp;
-                      <span className="tickets__price--earlybird">
-                        65
-                        <span className="span__euro">€</span>
-                      </span>
                     </p>
                   </div>
                   <div className="pt-small pb-small">
@@ -287,16 +280,9 @@ function Meetup(props) {
                 <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
                   <div className="bb">
                     <h4>VIP Ticket</h4>
-                    <p>EARLY BIRD FEBRUARY</p>
                     <p className="tickets__price">
-                      155
+                      165
                       <span className="span__euro">€</span>
-                      {' '}
-                      &nbsp;
-                      <span className="tickets__price--earlybird">
-                        165
-                        <span className="span__euro">€</span>
-                      </span>
                     </p>
                   </div>
                   <div className="pt-small pb-small">
@@ -314,9 +300,6 @@ function Meetup(props) {
                     Belly filling dinner
                     <br />
                     <br />
-                    Special access to VIP deck with Prosecco served
-                    <br />
-                    <br />
                     Verge meet-up merchandise starter package
                   </p>
                 </div>
@@ -324,16 +307,9 @@ function Meetup(props) {
                 <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
                   <div className="bb">
                     <h4>Ultra VIP Ticket</h4>
-                    <p>EARLY BIRD FEBRUARY</p>
                     <p className="tickets__price">
-                      285
+                      300
                       <span className="span__euro">€</span>
-                      {' '}
-                      &nbsp;
-                      <span className="tickets__price--earlybird">
-                        300
-                        <span className="span__euro">€</span>
-                      </span>
                     </p>
                   </div>
                   <div className="pt-small pb-small">
@@ -346,9 +322,6 @@ function Meetup(props) {
                     <br />
                     <br />
                     Special arrival to the meet-up with a Rotterdam Water taxi tour
-                    <br />
-                    <br />
-                    Special access to VIP deck with Prosecco served
                     <br />
                     <br />
                     A bottle of Moet &amp; Chandon with 4 glasses
