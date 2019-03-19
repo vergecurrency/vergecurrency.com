@@ -300,9 +300,6 @@ function Meetup(props) {
                     Belly filling dinner
                     <br />
                     <br />
-                    Special access to VIP deck with Prosecco served
-                    <br />
-                    <br />
                     Verge meet-up merchandise starter package
                   </p>
                 </div>
@@ -325,9 +322,6 @@ function Meetup(props) {
                     <br />
                     <br />
                     Special arrival to the meet-up with a Rotterdam Water taxi tour
-                    <br />
-                    <br />
-                    Special access to VIP deck with Prosecco served
                     <br />
                     <br />
                     A bottle of Moet &amp; Chandon with 4 glasses
