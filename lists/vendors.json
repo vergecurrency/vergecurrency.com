@@ -1766,7 +1766,7 @@
             }
         },
         {
-            "title": "TrustZone",
+            "title": "Trust.Zone",
             "img": "../static/img/vendors/latest/trustzone.png",
             "link": "trust.zone",
             "url": "https://trust.zone",
