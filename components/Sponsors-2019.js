@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
+import { shuffle } from './Shuffler';
 
 const sponsorList = require('../lists/sponsors-2019').sponsors;
 
@@ -18,58 +19,66 @@ export const Sponsors = () => {
     </div>
   ));
 
-  const DolphinPackage = sponsorList.dolphinPkg.map(s => (
+  const DolphinPackage = shuffle(sponsorList.dolphinPkg).map(s => (
     <div
       className="col-xs-3 col-sm-3 center-xs pb-xs sponsors__single"
       key={s.title}
       role="presentation"
     >
-      <a href={s.url} target="_blank" rel="noopener noreferrer">
-        <LazyLoad height={s.height}>
-          <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
-        </LazyLoad>
+      <a>
+        <a href={s.url} target="_blank" rel="noopener noreferrer">
+          <LazyLoad height={s.height}>
+            <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+          </LazyLoad>
+        </a>
       </a>
     </div>
   ));
 
-  const GoldfishPackage = sponsorList.goldfishPkg.map(s => (
+  const GoldfishPackage = shuffle(sponsorList.goldfishPkg).map(s => (
     <div
       className="col-xs-3 col-sm-3 center-xs pb-xs sponsors__single"
       key={s.title}
       role="presentation"
     >
-      <a href={s.url} target="_blank" rel="noopener noreferrer">
-        <LazyLoad height={s.height}>
-          <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
-        </LazyLoad>
+      <a>
+        <a href={s.url} target="_blank" rel="noopener noreferrer">
+          <LazyLoad height={s.height}>
+            <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+          </LazyLoad>
+        </a>
       </a>
     </div>
   ));
 
-  const MediaPartners = sponsorList.mediaPartners.map(s => (
+  const MediaPartners = shuffle(sponsorList.mediaPartners).map(s => (
     <div
       className="col-xs-3 col-sm-3 center-xs pb-xs sponsors__single"
       key={s.title}
       role="presentation"
     >
-      <a href={s.url} target="_blank" rel="noopener noreferrer">
-        <LazyLoad height={s.height}>
-          <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
-        </LazyLoad>
+      <a>
+        <a href={s.url} target="_blank" rel="noopener noreferrer">
+          <LazyLoad height={s.height}>
+            <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+          </LazyLoad>
+        </a>
       </a>
     </div>
   ));
 
-  const VergeFam = sponsorList.vergeFam.map(s => (
+  const VergeFam = shuffle(sponsorList.vergeFam).map(s => (
     <div
       className="col-xs-3 col-sm-3 center-xs pb-xs sponsors__single"
       key={s.title}
       role="presentation"
     >
-      <a href={s.url} target="_blank" rel="noopener noreferrer">
-        <LazyLoad height={s.height}>
-          <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
-        </LazyLoad>
+      <a>
+        <a href={s.url} target="_blank" rel="noopener noreferrer">
+          <LazyLoad height={s.height}>
+            <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+          </LazyLoad>
+        </a>
       </a>
     </div>
   ));
@@ -100,10 +109,14 @@ export const Sponsors = () => {
           </div>
         </div>
 
-        {/*
         <div className="row start-xs middle-xs">
           <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">
-            <p style={{ textAlign: 'left', padding: '20px 0' }}>Whale Sponsors&nbsp;&nbsp;</p>
+            <p style={{ textAlign: 'left', padding: '20px 0' }}>
+              Whale
+              <br className="hidden-sm" />
+              {' '}
+              Sponsors
+            </p>
           </div>
 
           <div className="col-xs">
@@ -112,7 +125,6 @@ export const Sponsors = () => {
             </div>
           </div>
         </div>
-        */}
 
         <div className="row start-xs middle-xs">
           <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">
