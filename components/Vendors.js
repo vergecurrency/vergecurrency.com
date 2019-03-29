@@ -1,10 +1,13 @@
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
+import { shuffle } from './Shuffler';
 
 const vendorsLocale = require('../lists/vendors').vendors;
 
+const shuffledVendors = shuffle(vendorsLocale, 5);
+
 export const HomeVendors = () => {
-  const vendors = vendorsLocale.map((x, i) => {
+  const vendors = shuffledVendors.map((x, i) => {
     if (i < 20) {
       return (
         <div
@@ -12,18 +15,21 @@ export const HomeVendors = () => {
           key={x.title}
         >
           <Link href={x.url}>
-            <a
-              href={x.url}
-              className="vendors--url"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LazyLoad height={50}>
-                <img src={x.img} width="100" alt="img" />
-              </LazyLoad>
+            <a>
+              <a
+                href={x.url}
+                className="vendors--url"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LazyLoad height={50}>
+                  <img src={x.img} width="100" alt="img" />
+                </LazyLoad>
+              </a>
             </a>
           </Link>
-          <br /> <br />
+          <br />
+          <br />
         </div>
       );
     }
@@ -33,28 +39,28 @@ export const HomeVendors = () => {
   return <div className="row pt">{vendors}</div>;
 };
 
-const filterVendorList = (vendors, filters) =>
-  vendors.filter(vendor =>
-    filters.some(filter => vendor.categories[filter] === true));
+const filterVendorList = (vendors, filters) => vendors.filter(vendor => filters.some(filter => vendor.categories[filter] === true));
 
 export const LatestVendors = ({ filter: categoriesFilter }) => {
-  const vendors = filterVendorList(vendorsLocale, categoriesFilter).map(vendor => (
+  const vendors = filterVendorList(shuffledVendors, categoriesFilter).map(vendor => (
     <div className="col-xs col-md-3" key={vendor.title} role="presentation">
-      <a href={vendor.url} target="_blank" rel="noopener noreferrer">
-        <div className="vendors--item middle-xs">
-          <div className="vendors--item__logo">
-            <LazyLoad height={40}>
-              <img src={vendor.img} alt="img" />
-            </LazyLoad>
+      <a>
+        <a href={vendor.url} target="_blank" rel="noopener noreferrer">
+          <div className="vendors--item middle-xs">
+            <div className="vendors--item__logo">
+              <LazyLoad height={40}>
+                <img src={vendor.img} alt="img" />
+              </LazyLoad>
+            </div>
+            <div className="vendors--item__name">
+              <h4>{vendor.title}</h4>
+              <span>{vendor.link}</span>
+            </div>
           </div>
-          <div className="vendors--item__name">
-            <h4>{vendor.title}</h4>
-            <span>{vendor.link}</span>
-          </div>
-        </div>
+        </a>
       </a>
     </div>
   ));
 
-  return <div className="row pt">{vendors}</div>;
+  return <div className="row pt vendors--pad">{vendors}</div>;
 };
