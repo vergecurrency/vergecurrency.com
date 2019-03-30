@@ -92,7 +92,7 @@ $spacing-horizontal-desktop-large: rem(40px);
     padding-bottom: $spacing-vertical-desktop;
 
     @media (min-width: $min-width-md) {
-      padding-bottom: 0;
+      padding-bottom: 1.2rem;
     }
   }
 }
