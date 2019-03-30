@@ -4,7 +4,7 @@ import { shuffle } from './Shuffler';
 
 const vendorsLocale = require('../lists/vendors').vendors;
 
-const shuffledVendors = shuffle(vendorsLocale, 5);
+const shuffledVendors = shuffle(vendorsLocale, 8);
 
 export const HomeVendors = () => {
   const vendors = shuffledVendors.map((x, i) => {

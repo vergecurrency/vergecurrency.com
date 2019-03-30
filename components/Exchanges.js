@@ -3,7 +3,7 @@ import { shuffle } from './Shuffler';
 
 const exchangeLocale = require('../lists/exchanges').exchanges;
 
-const shuffledExchanges = shuffle(exchangeLocale, 8);
+const shuffledExchanges = shuffle(exchangeLocale, 5);
 
 export const HomeExchanges = () => {
   const exchanges = shuffledExchanges.map((x, i) => {
