@@ -1,9 +1,12 @@
 import LazyLoad from 'react-lazyload';
+import { shuffle } from './Shuffler';
 
 const exchangeLocale = require('../lists/exchanges').exchanges;
 
+const shuffledExchanges = shuffle(exchangeLocale, 8);
+
 export const HomeExchanges = () => {
-  const exchanges = exchangeLocale.map((x, i) => {
+  const exchanges = shuffledExchanges.map((x, i) => {
     if (i < 12) {
       return (
         <div
@@ -11,18 +14,20 @@ export const HomeExchanges = () => {
           key={x.title}
           role="presentation"
         >
-          <a href={x.url} target="_blank" rel="noopener noreferrer">
-            <div className="exchanges--item middle-xs">
-              <div className="exchanges--item__logo">
-                <LazyLoad height={40}>
-                  <img src={x.img} alt="img" />
-                </LazyLoad>
+          <a>
+            <a href={x.url} target="_blank" rel="noopener noreferrer">
+              <div className="exchanges--item middle-xs">
+                <div className="exchanges--item__logo">
+                  <LazyLoad height={40}>
+                    <img src={x.img} alt="img" />
+                  </LazyLoad>
+                </div>
+                <div className="exchanges--item__name">
+                  <h4>{x.title}</h4>
+                  <span>{x.link}</span>
+                </div>
               </div>
-              <div className="exchanges--item__name">
-                <h4>{x.title}</h4>
-                <span>{x.link}</span>
-              </div>
-            </div>
+            </a>
           </a>
         </div>
       );
@@ -38,24 +43,26 @@ export const HomeExchanges = () => {
 };
 
 export const Exchanges = () => {
-  const exchanges = exchangeLocale.map(x => (
+  const exchanges = shuffledExchanges.map(x => (
     <div
       className="col-xs col-md-3"
       key={x.title}
       role="presentation"
     >
-      <a href={x.url} target="_blank" rel="noopener noreferrer">
-        <div className="exchanges--item middle-xs">
-          <div className="exchanges--item__logo">
-            <LazyLoad height={40}>
-              <img src={x.img} alt="img" />
-            </LazyLoad>
+      <a>
+        <a href={x.url} target="_blank" rel="noopener noreferrer">
+          <div className="exchanges--item middle-xs">
+            <div className="exchanges--item__logo">
+              <LazyLoad height={40}>
+                <img src={x.img} alt="img" />
+              </LazyLoad>
+            </div>
+            <div className="exchanges--item__name">
+              <h4>{x.title}</h4>
+              <span>{x.link}</span>
+            </div>
           </div>
-          <div className="exchanges--item__name">
-            <h4>{x.title}</h4>
-            <span>{x.link}</span>
-          </div>
-        </div>
+        </a>
       </a>
     </div>
   ));
