@@ -57,8 +57,8 @@ const roadMap = [
     title: 'Rebased Codebase',
     description:
       'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
-    progress: 96,
-    progressState: 'Public Alpha',
+    progress: 97,
+    progressState: 'Public beta',
   },
   {
     done: false,
@@ -95,7 +95,7 @@ const roadMap = [
     progress: 80,
     progressState: 'Preparing release',
   },
-    {
+  {
     done: false,
     doneDate: '',
     title: 'Official Android wallet update',
