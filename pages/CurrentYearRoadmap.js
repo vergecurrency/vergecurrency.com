@@ -40,8 +40,8 @@ const roadMap = [
     title: 'Merchandise Online Store',
     description:
       'Verge branded apparel that can be purchased with XVG and BTC.',
-    progress: 95,
-    progressState: 'Finalizing design',
+    progress: 99.999999999999,
+    progressState: 'Preparing for launch.',
   },
   {
     done: false,
