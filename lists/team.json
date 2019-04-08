@@ -45,7 +45,7 @@
         "occupation": "Sr. Front-end developer",
         "github": "https://github.com/StanFaas",
         "twitter": "https://twitter.com/StanFaas",
-  "location": "The Netherlands"
+  	"location": "The Netherlands"
       },
       {
         "img": "../static/img/team/jeffs1.png",
@@ -54,7 +54,7 @@
         "occupation": "Systems Engineer",
         "github": "https://github.com/jrsikors",
         "twitter": "",
-  "location": "Texas, USA"
+  	"location": "Texas, USA"
       },
       {
         "img": "../static/img/team/sourcedexter.jpg",
@@ -63,7 +63,7 @@
         "occupation": "Data Science Engineer",
         "github": "https://github.com/sourcedexter",
         "twitter": "https://twitter.com/sourcedexter",
-  "location": "Bangalore, India"
+  	"location": "Bangalore, India"
       }
     ]
   },
@@ -126,7 +126,7 @@
         "role": "Head of Project Management",
         "occupation": "PM Health & Tech",
         "github": "",
-        "twitter": "https://twitter.com/CryptoGirlDini",
+        "twitter": "https://twitter.com/Dini_KLA",
 	"location": "Rotterdam, The Netherlands"
       },
       {
