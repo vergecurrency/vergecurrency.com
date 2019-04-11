@@ -35,13 +35,13 @@ const roadMap = [
     progressState: '',
   },
   {
-    done: false,
-    doneDate: '',
+    done: true,
+    doneDate: '11th April 2019',
     title: 'Merchandise Online Store',
     description:
       'Verge branded apparel that can be purchased with XVG and BTC.',
-    progress: 99.999999999999,
-    progressState: 'Preparing for launch.',
+    progress: 100,
+    progressState: 'https://vergecurrency.store',
   },
   {
     done: false,
