@@ -86,8 +86,8 @@ const MenuItems = ({ t }) => (
             {t('header:network-status', { defaultValue: 'Network Status' })}
           </a>
         </Link>
-        <Link href=" ">
-          <a href=" " target="_blank" rel="noopener noreferrer">
+        <Link href="https://vergecurrency.store/">
+          <a href="https://vergecurrency.store/" target="_blank" rel="noopener noreferrer">
             {t('header:verge-merch', { defaultValue: 'Verge Merch' })}
           </a>
         </Link>
