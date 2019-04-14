@@ -3,7 +3,9 @@ import Link from 'next/link';
 const Team = props => props.members.map(member => (
   <div className="col-xs col-md-3" key={member.name}>
     <div className="team--member pb-xs">
-      <img src={member.img} alt={member.name} />
+      <span className="team--member_border">
+        <img src={member.img} alt={member.name} />
+      </span>
       <div className="flexIt">
         <h3>{member.name}</h3>
         <div className="socials">

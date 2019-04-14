@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import Head from 'next/head';
 
+import { translate } from 'react-i18next';
 import Layout from '../components/Layout';
 import Contributors from '../components/Contributors';
 import Team from '../components/Team';
 import TeamCategory from '../components/TeamCategory';
 import TGAdmins from '../components/TGAdmins';
 
-import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 const teamCategories = Object.values(require('../lists/team'));
