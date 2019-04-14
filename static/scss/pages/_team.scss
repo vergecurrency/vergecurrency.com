@@ -17,4 +17,15 @@
       text-align: right;
     }    
   }
+  img {
+    max-width: 140px;
+    max-height: 140px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    filter: grayscale(100%);
+    transition: filter 0.2s linear;
+  }
+  img:hover {
+    filter: none;
+  }
 }
