@@ -1219,6 +1219,22 @@
                 "education": false
             }
         },
+
+        {
+            "title": "CoinDAQ",
+            "img": "../static/img/vendors/latest/coindaq.png",
+            "link": "coindaq.net",
+            "url": "https://coindaq.net/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+
         {
             "title": "Relevé Escuela de Baile",
             "img": "../static/img/vendors/latest/releve.png",
