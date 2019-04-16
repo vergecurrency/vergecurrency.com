@@ -64,6 +64,15 @@
         "github": "https://github.com/Max1us",
         "twitter": "https://twitter.com/_maxius_",
 	      "location": "Melbourne, Australia"
+      },
+      {
+          "img": "../static/img/team/ivan.jpg",
+          "name": "Ivan - hellc",
+          "role": "Software Engineer",
+          "occupation": "Software Engineer",
+          "github": "https://github.com/hellc",
+          "twitter": "https://twitter.com/ihellc",
+          "location": "Russia"
       }
     ]
   },
