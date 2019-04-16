@@ -33,6 +33,12 @@
         "title": "WhaleApparel",
         "height": 65,
         "url": "https://www.whaleapparel.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/BitcoinMeester.jpg",
+        "title": "BitcoinMeester",
+        "height": 65,
+        "url": "https://www.bitcoinmeester.nl/"
       }
     ],
 
