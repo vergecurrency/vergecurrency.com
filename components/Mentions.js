@@ -49,7 +49,11 @@ export const FullMentions = () => {
             <a href={x.url} className="date">
               <div>
                 <h4 dangerouslySetInnerHTML={{ __html: x.title }} />
-                <Moment>{x.date}</Moment> - Read
+                <Moment>
+                  {x.date}
+                </Moment>
+                {' '}
+                - Read
               </div>
             </a>
           </Link>
