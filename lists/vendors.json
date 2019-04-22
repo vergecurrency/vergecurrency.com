@@ -1780,6 +1780,20 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "Print-ted",
+            "img": "../static/img/vendors/latest/print-ted.png",
+            "link": "print-ted.com",
+            "url": "https://print-ted.com/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
         }
     ]
 }
