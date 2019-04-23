@@ -44,6 +44,15 @@ const roadMap = [
     progressState: 'https://vergecurrency.store',
   },
   {
+    done: true,
+    doneDate: '23th April 2019',
+    title: 'Official iOS wallet',
+    description:
+      'iOS wallet with full-fledged feature set like a normal wallet.',
+    progress: 100,
+    progressState: 'Released',
+  },
+  {
     done: false,
     doneDate: '',
     title: 'Mining Update',
@@ -85,15 +94,6 @@ const roadMap = [
     description: 'RSK Smart Contract Integration',
     progress: 25,
     progressState: 'Investigating integration',
-  },
-  {
-    done: false,
-    doneDate: '',
-    title: 'Official iOS wallet',
-    description:
-      'iOS wallet with full-fledged feature set like a normal wallet.',
-    progress: 80,
-    progressState: 'Preparing release',
   },
   {
     done: false,
