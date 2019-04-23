@@ -41,8 +41,8 @@
     {
       "name": "Apple iOS Wallet",
       "url": "https://itunes.apple.com/us/app/id1459928869",
-      "classNames": "wallets--icon__apple",
-      "classWhite": "wallets--icon__apple-white",
+      "classNames": "wallets--icon__apple--tor-white",
+      "classWhite": "wallets--icon__apple-white--tor-white",
       "available": true,
       "os": "iOS",
       "url2": "#",
