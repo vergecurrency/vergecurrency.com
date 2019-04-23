@@ -45,7 +45,7 @@ const roadMap = [
   },
   {
     done: true,
-    doneDate: '23th April 2019',
+    doneDate: '23rd April 2019',
     title: 'Official iOS wallet',
     description:
       'iOS wallet with full-fledged feature set like a normal wallet.',
