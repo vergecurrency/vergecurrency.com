@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "node"
+  - "stable"
 
 after_success:
   - git config --global user.name "marpme"
