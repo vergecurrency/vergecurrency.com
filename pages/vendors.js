@@ -55,7 +55,7 @@ class VendorsPage extends React.Component {
             </div>
             <div className="intro pt pb">
               <div className="row center-xs middle-xs">
-                <div className="col-xs-10 col-sm-6">
+                <div className="col-xs-10 col-sm-8">
             <fieldset>
               <legend>{t('vendors:body.choose', { defaultValue: 'Select vendor categories' })}</legend>
 

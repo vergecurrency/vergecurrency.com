@@ -253,7 +253,7 @@ function Home(props) {
                         })}
                       </h6>
                       <p>
-                        {('Dual-Key Stealth Addressing and Ring Confidential Transacitons(in development) enable our users to be able to send and receive payments safely and privately.')}
+                        {('Dual-Key Stealth Addressing and Ring Confidential Transactions(in development) enable our users to be able to send and receive payments safely and privately.')}
                       </p>
                     </div>
                   </div>

@@ -1,7 +1,12 @@
 {
   "sponsors": {
     "whalePkg": [
-      
+      {
+        "img": "../static/img/meetup-2019/sponsors/AboutCrypto.jpg",
+        "title": "AboutCrypto",
+        "height": 65,
+        "url": "https://www.about-crypto.nl/"
+      }
     ],
     
     "dolphinPkg": [
@@ -18,10 +23,22 @@
         "url": "https://delta.app/"
       },
       {
-        "img": "../static/img/meetup-2019/sponsors/CryptoCulture.jpg",
-        "title": "CryptoCulture",
+        "img": "../static/img/meetup-2019/sponsors/BlockchainBusinessMag.jpg",
+        "title": "BlockchainBusinessMagazine",
         "height": 65,
-        "url": "https://www.cryptoculturemagazine.com/"
+        "url": "https://blockchainbusinessmagazine.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/WhaleApparel.jpg",
+        "title": "WhaleApparel",
+        "height": 65,
+        "url": "https://www.whaleapparel.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/BitcoinMeester.jpg",
+        "title": "BitcoinMeester",
+        "height": 65,
+        "url": "https://www.bitcoinmeester.nl/"
       }
     ],
 
@@ -37,6 +54,12 @@
         "title": "t stroopwafelhuisje",
         "height": 65,
         "url": "https://tstroopwafelhuisje.com"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/Olympia.jpg",
+        "title": "olympia",
+        "height": 65,
+        "url": "https://olympiakitchenbar.nl/"
       }
     ],
 
@@ -80,12 +103,6 @@
         "title": "247Bits",
         "height": 65,
         "url": "https://www.247bits.com/"
-      },
-      {
-        "img": "../static/img/meetup-2019/sponsors/WhaleApparel.jpg",
-        "title": "WhaleApparel",
-        "height": 65,
-        "url": "https://www.whaleapparel.com/"
       },
       {
         "img": "../static/img/meetup-2019/sponsors/CSnews.jpg",

@@ -42,6 +42,7 @@ module.exports = {
       '/send-an-email': { page: '/community/send-an-email' },
       '/vendors': { page: '/vendors' },
       '/verge-team': { page: '/verge-team' },
+      '/wallets/terms': { page: '/wallets/terms' },
       '/wallets': { page: '/wallets' },
       '/donationrewards': { page: '/donationrewards' },
     //  '/get-started': { page: '/get-started' },

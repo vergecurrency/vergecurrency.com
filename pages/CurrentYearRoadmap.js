@@ -35,13 +35,22 @@ const roadMap = [
     progressState: '',
   },
   {
-    done: false,
-    doneDate: '',
+    done: true,
+    doneDate: '11th April 2019',
     title: 'Merchandise Online Store',
     description:
       'Verge branded apparel that can be purchased with XVG and BTC.',
-    progress: 95,
-    progressState: 'Finalizing design',
+    progress: 100,
+    progressState: 'https://vergecurrency.store',
+  },
+  {
+    done: true,
+    doneDate: '23rd April 2019',
+    title: 'Official iOS wallet',
+    description:
+      'iOS wallet with full-fledged feature set like a normal wallet.',
+    progress: 100,
+    progressState: 'Released',
   },
   {
     done: false,
@@ -57,8 +66,8 @@ const roadMap = [
     title: 'Rebased Codebase',
     description:
       'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
-    progress: 96,
-    progressState: 'Public Alpha',
+    progress: 97,
+    progressState: 'Public beta',
   },
   {
     done: false,
@@ -87,15 +96,6 @@ const roadMap = [
     progressState: 'Investigating integration',
   },
   {
-    done: false,
-    doneDate: '',
-    title: 'Official iOS wallet',
-    description:
-      'iOS wallet with full-fledged feature set like a normal wallet.',
-    progress: 75,
-    progressState: 'In public beta; development ongoing',
-  },
-    {
     done: false,
     doneDate: '',
     title: 'Official Android wallet update',

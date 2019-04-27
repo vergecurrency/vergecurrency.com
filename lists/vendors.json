@@ -113,20 +113,6 @@
             }
         },
         {
-            "title": "Wooden Timepiece",
-            "img": "../static/img/vendors/latest/woodentimepiece.png",
-            "link": "woodentimepiece.com/",
-            "url": "https://www.woodentimepiece.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "AzireVPN",
             "img": "../static/img/vendors/latest/azirevpn.jpg",
             "link": "azirevpn.com",
@@ -1233,6 +1219,22 @@
                 "education": false
             }
         },
+
+        {
+            "title": "CoinDAQ",
+            "img": "../static/img/vendors/latest/coindaq.png",
+            "link": "coindaq.net",
+            "url": "https://coindaq.net/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+
         {
             "title": "Relevé Escuela de Baile",
             "img": "../static/img/vendors/latest/releve.png",
@@ -1756,6 +1758,34 @@
             "img": "../static/img/vendors/latest/domains-index.png",
             "link": "domains-index.com",
             "url": "https://domains-index.com",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "Trust.Zone",
+            "img": "../static/img/vendors/latest/trustzone.png",
+            "link": "trust.zone",
+            "url": "https://trust.zone",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "Print-ted",
+            "img": "../static/img/vendors/latest/print-ted.png",
+            "link": "print-ted.com",
+            "url": "https://print-ted.com/",
             "categories": {
                 "retail": true,
                 "foodAndBev": false,

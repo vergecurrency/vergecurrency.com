@@ -21,6 +21,18 @@
     &--member {
       width: 100%;
 
+      &_border {
+        transition: background-color 0.2s linear;
+        display: inline-block;
+        padding: 2px;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+      }
+      &_border:hover {
+        background-color: rgba(48,174,209,1);
+      }
+      
+
       .flexIt {
         display: flex;
         justify-content: start;
