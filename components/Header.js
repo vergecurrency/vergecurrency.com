@@ -35,7 +35,7 @@ const Header = ({ t }) => (
           </Link>
         </div>
         <nav className="col-xs-5 col-sm end-xs menu">
-          <div className="hidden-xs hidden-sm">
+          <div className="hidden-xs hidden-sm hidden-md">
             <MenuItems t={t} />
           </div>
           <div className="visible-sm">

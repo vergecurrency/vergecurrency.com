@@ -16,7 +16,7 @@ class WalletsBtn extends React.Component {
            Removing the ${wlt.classWhite} temporarily for Right-to-left languages:
            <span className={`wallets--icon ${wlt.classWhite}`}>
           */}
-          <span className={'wallets--icon'}>
+          <span>
             {wlt.name}
           </span>
         </a>
