@@ -223,3 +223,25 @@ $spacing-horizontal-desktop-large: rem(40px);
     display: none !important;
   }
 }
+
+@media (max-width: $max-width-md) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1220px) {
+  #header .links {
+    padding-right: 1.5rem;
+  }
+  #header nav a, #header nav .submenu {
+    padding-left: 0.275rem;
+    padding-right: 0.275rem;
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .end-xs {
+    text-align: right;
+  }
+}

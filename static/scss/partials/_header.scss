@@ -19,14 +19,17 @@
     display: inline-block;
     padding-right: 0.5rem;
     vertical-align: middle;
+    margin-top: -1rem;
   }
+
+
 
   nav {
     a,
     .submenu {
       color: $white;
       font-size: rem(15px);
-      line-height: rem(88px);
+      line-height: rem(66px);
       margin: rem(6px);
       padding: rem(6px);
       text-decoration: none;
@@ -44,6 +47,10 @@
           margin-right: rem(18px);
         }
       }
+    }
+
+    .submenu__content a:hover {
+      background-color: rgba(0,47,68,0.4);
     }
 
     .links > a:last-child {
@@ -107,7 +114,7 @@
       @media (min-width: $min-width-md) {
         background: $astronaut-blue;
         box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
-        margin-top: -2rem;
+        margin-top: 0px;
         min-width: 160px;
         opacity: 0;
         position: absolute;
@@ -130,7 +137,9 @@
 
   .verge-logo svg {
     margin-left: -0.25rem;
-    width: rem(120px);
+    width: rem(168px);
+    margin-top: -2.3rem;
+    margin-bottom: -1.9rem;
 
     .st2 {
       fill: $white;
