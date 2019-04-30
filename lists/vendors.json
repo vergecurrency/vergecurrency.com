@@ -1794,6 +1794,20 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "Valutaomregneren",
+            "img": "../static/img/vendors/latest/valutaomregneren.png",
+            "link": "valutaomregneren.net",
+            "url": "https://www.valutaomregneren.net/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
         }
     ]
 }
