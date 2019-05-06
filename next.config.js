@@ -25,7 +25,6 @@ module.exports = {
       '/developers/wallet-setup-instructions': { page: '/developers/wallet-setup-instructions' },
       '/faq': { page: '/faq' },
       '/faq/legal': { page: '/faq/legal' },
-	  '/faq/ledger': { page: '/faq/ledger' },
       '/faq/mining': { page: '/faq/mining' },
       '/faq/privacy': { page: '/faq/privacy' },
       '/faq/wallets': { page: '/faq/wallets' },
