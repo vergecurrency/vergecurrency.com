@@ -160,5 +160,10 @@
   "legal": {
     "subheader": "Legal",
     "statement": "This website does not collect any user information, or share any user information with any third parties."
-  }
+  },
+  "ledger": {
+    "subheader": "Ledger Hardware Wallet",
+    "statement": "This is how you can use the Ledger Hardware Wallet."
+  },
+  
 }

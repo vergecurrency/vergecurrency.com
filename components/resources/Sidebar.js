@@ -19,6 +19,7 @@ export default () => (
       <li><ActiveLink href="/faq/wallets">Wallets</ActiveLink></li>
       <li><ActiveLink href="/faq/mining">Mining</ActiveLink></li>
       <li><ActiveLink href="/faq/legal">Legal</ActiveLink></li>
+	  <li><ActiveLink href="/faq/ledger">Ledger Hardware Wallet</ActiveLink></li>
     </ul>
     <h6>P2P</h6>
     <ul>
