@@ -348,18 +348,58 @@ function Meetup(props) {
               </h2>
               <p>
                 15:30 Doors Open
+                <hr />
+                16:20 Official Opening
+                <hr />
+                16:30 Informative Program
                 <br />
-                18:00 Belly Filling Dinner
+                <small>Didi Taihuttu from the Bitcoin Family</small>
+                <hr />
+                16:50 Doors close for guests
+                <hr />
+                16:55 Informative Program
                 <br />
-                23:00 Typical Dutch Snack
+                <small>Mycro</small>
+                <hr />
+                17:20 Informative Program
                 <br />
-                01:00 Doors Close
+                <small>Developer Panel 1: Justin & Marvin</small>
+                <hr />
+                17:50 Informative Program
+                <br />
+                <small>AB Chip</small>
+                <hr />
+                18:15 BBQ Dinner
+                <hr />
+                19:15 Informative Program
+                <br />
+                <small>Crypto Michael</small>
+                <hr />
+                19:30 Informative Program
+                <br />
+                <small>Developer Panel 2: Swen & Manuel</small>
+                <hr />
+                20:15 DJ Starts
+                <hr />
+                23:00 Dutch Snack
+                <hr />
+                01:00 End of event
                 <br />
                 <br />
                 We will have short and sweet speeches throughout the night.
                 <br />
                 More info about our speakers soon.
               </p>
+              <div className="pt-small pb-small">
+                <a
+                  className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large"
+                  href="/static/docs/VergeRotterdamFlyer.pdf"
+                  target="_blank"
+                  style={{ backgroundColor: '#1db6dc', color: '#ffffff' }}
+                >
+                  Download Detailed Program
+                </a>
+              </div>
             </div>
             <div className="col-xs-11 col-sm-5 col-sm-offset-1 start-sm">
               <h2>
