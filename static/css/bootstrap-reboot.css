@@ -47,6 +47,8 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  border: none;
+  border-top: 1px solid #00000021;
 }
 
 h1, h2, h3, h4, h5, h6 {
