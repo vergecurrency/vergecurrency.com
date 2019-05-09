@@ -337,7 +337,28 @@ function Meetup(props) {
             </div>
           </div>
         </div>
+        <div className="center-xs around-sm pt">
+          <h2>Special Partying Ticket</h2>
+          <div className="col--ticket">
+            <div className="bb">
+              <h4>
+                Party Ticket - Party Entrance <b>only</b>
+              </h4>
+              <p className="tickets__price">
+                17,50
+                <span className="span__euro">€</span>
+              </p>
+            </div>
 
+            <a
+              className="unii-listing-button unii-custom unii-medium Light btn btn-primary"
+              href="https://www.universe.com/events/second-verge-meet-up-2019-may-25th-rotterdam-the-netherlands-tickets-rotterdam-MTB4N1?buttonColor=#3A66E5&buttonText=Book Tickets"
+              style={{ backgroundColor: '#1db6dc' }}
+            >
+              Buy Tickets Here
+            </a>
+          </div>
+        </div>
         <div className="container meetup--programme pt">
           <div className="row center-xs pt">
             <div className="col-xs-11 col-sm-5 start-sm pb-xs">
