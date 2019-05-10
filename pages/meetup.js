@@ -107,7 +107,7 @@ function Meetup(props) {
         <div className="container pb bb">
           <div className="pb-small sponsor-container">
             <div className="row center-xs">
-              <div className="col-xs-11 col-sm-11 col-md-3 start-sm">
+              <div className="col-xs-11 col-sm-11 col-md-5 start-sm">
                 <h3>
                   Special Guests
                 </h3>
@@ -144,13 +144,6 @@ function Meetup(props) {
                 <p className="text--smaller">
                 Full Time Trader
                 </p>
-              </div>
-
-              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
-                <img src="/static/img/meetup-2019/guests/x.jpg" className="img-responsive" alt="responsive" />
-                <h5>
-                  Soon to be announced
-                </h5>
               </div>
 
             </div>
@@ -334,31 +327,30 @@ function Meetup(props) {
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="center-xs around-sm pt">
-          <h2>Special Partying Ticket</h2>
-          <div className="col--ticket">
-            <div className="bb">
-              <h4>
-                Party Ticket - Party Entrance <b>only</b>
-              </h4>
-              <p className="tickets__price">
-                17,50
-                <span className="span__euro">€</span>
-              </p>
-            </div>
 
-            <a
-              className="unii-listing-button unii-custom unii-medium Light btn btn-primary"
-              href="https://www.universe.com/events/second-verge-meet-up-2019-may-25th-rotterdam-the-netherlands-tickets-rotterdam-MTB4N1?buttonColor=#3A66E5&buttonText=Book Tickets"
-              style={{ backgroundColor: '#1db6dc' }}
-            >
-              Buy Tickets Here
-            </a>
+              <div className="row center-xs around-sm pt">
+                <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
+                  <div className="bb">
+                    <h4>Special Partying Ticket</h4>
+                    <p className="tickets__price">
+                      17,50
+                      <span className="span__euro">€</span>
+                    </p>
+                  </div>
+                  <div className="pt-small pb-small">
+                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/second-verge-meet-up-2019-may-25th-rotterdam-the-netherlands-tickets-rotterdam-MTB4N1?buttonColor=#3A66E5&buttonText=Book Tickets" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
+                  </div>
+                  <p className="text--smaller start-sm">
+                    Party Ticket - 
+                    <br />
+                    Party Entrance <b>only</b>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
         <div className="container meetup--programme pt">
           <div className="row center-xs pt">
             <div className="col-xs-11 col-sm-5 start-sm pb-xs">
