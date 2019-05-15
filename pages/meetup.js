@@ -52,8 +52,8 @@ function Meetup(props) {
                 <div className="meetup__counters">
                   <div className="row">
                     <div className="col-xs-6 col-sm-3 pb">
-                      <div className="meetup__counter-number">350</div>
-                      <div className="meetup__counter-text">tickets available</div>
+                      <div className="meetup__counter-number">96</div>
+                      <div className="meetup__counter-text">tickets left</div>
                     </div>
                     <div className="col-xs-6 col-sm-3 pb">
                       <div className="meetup__counter-number">2nd</div>
