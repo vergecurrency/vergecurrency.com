@@ -53,21 +53,21 @@ const roadMap = [
     progressState: 'Released',
   },
   {
+    done: true,
+    doneDate: '16th May 2019',
+    title: 'Rebased Codebase',
+    description:
+      'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
+    progress: 100,
+    progressState: 'Released',
+  },
+  {
     done: false,
     doneDate: '',
     title: 'Mining Update',
     description: 'XVGui Miner for Windows, Official Mining Pool & Mining Guide',
     progress: 80,
     progressState: 'Work in progress',
-  },
-  {
-    done: false,
-    doneDate: '',
-    title: 'Rebased Codebase',
-    description:
-      'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
-    progress: 99.9999999999999,
-    progressState: 'Soon',
   },
   {
     done: false,
