@@ -127,12 +127,6 @@
       "url": "https://xchange.me/"
     },
     {
-      "img": "../static/img/exchanges/cryptopia.png",
-      "title": "Cryptopia",
-      "link": "cryptopia.co.nz",
-      "url": "https://www.cryptopia.co.nz/Exchange/?market=XVG_BTC"
-    },
-    {
       "img": "../static/img/exchanges/southxchange.png",
       "title": "SouthXchange",
       "link": "southxchange.com",

@@ -1808,6 +1808,20 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "Shelter Blue",
+            "img": "../static/img/vendors/latest/shelterblue.png",
+            "link": "shelterblue.com",
+            "url": "https://shelterblue.com/verge",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
         }
     ]
 }
