@@ -107,7 +107,7 @@ function Meetup(props) {
         <div className="container pb bb">
           <div className="pb-small sponsor-container">
             <div className="row center-xs">
-              <div className="col-xs-11 col-sm-11 col-md-5 start-sm">
+              <div className="col-xs-11 col-sm-11 col-md-3 start-sm">
                 <h3>
                   Special Guests
                 </h3>
@@ -116,7 +116,7 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/Justin.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Justin (Sunerok)
@@ -126,7 +126,7 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/Didi.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Didi Taihuttu
@@ -136,13 +136,23 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/Michael.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Crypto Michaël
                 </h5>
                 <p className="text--smaller">
                 Full Time Trader
+                </p>
+              </div>
+
+              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
+                <img src="/static/img/meetup-2019/guests/x.jpg" className="img-responsive" alt="responsive" />
+                <h5>
+                  <em>Two</em> Secret Guests
+                </h5>
+                <p className="text--smaller">
+                Come and see who they are - tickets still available!
                 </p>
               </div>
 
