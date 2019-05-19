@@ -370,7 +370,7 @@ function Meetup(props) {
                 <span>Outline</span>
               </h2>
               <p>
-                15:30 Doors Open
+                15:30 Doors open for guests
                 <hr />
                 16:20 Official Opening
                 <hr />
@@ -378,9 +378,11 @@ function Meetup(props) {
                 <br />
                 <small>Didi Taihuttu from the Bitcoin Family</small>
                 <hr />
-                16:50 Doors close for guests
+                16:50 Informative Program
+                <br />
+                <small>Special Guest #1 & Partnership Announcement</small>
                 <hr />
-                16:55 Informative Program
+                17:00 Informative Program
                 <br />
                 <small>Mycro</small>
                 <hr />
@@ -388,21 +390,21 @@ function Meetup(props) {
                 <br />
                 <small>Developer Panel 1: Justin & Marvin</small>
                 <hr />
-                17:50 Informative Program
+                18:00 Informative Program
                 <br />
-                <small>AB Chip</small>
+                <small>Special Guest #2 & Partnership Announcement</small>
                 <hr />
                 18:15 BBQ Dinner
                 <hr />
-                19:15 Informative Program
+                19:30 Informative Program
                 <br />
                 <small>Crypto Michael</small>
                 <hr />
-                19:30 Informative Program
+                19:40 Informative Program
                 <br />
                 <small>Developer Panel 2: Swen & Manuel</small>
                 <hr />
-                20:15 DJ Starts
+                20:30 DJ Starts
                 <hr />
                 23:00 Dutch Snack
                 <hr />
