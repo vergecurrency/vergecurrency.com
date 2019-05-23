@@ -1822,6 +1822,20 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "Internet Superstore",
+            "img": "../static/img/vendors/latest/internetsuperstore.png",
+            "link": "internetsuper.store",
+            "url": "https://internetsuper.store",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
         }
     ]
 }
