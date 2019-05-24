@@ -20,7 +20,7 @@
     },
     {
       "name": "OSX Tor QT Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/releases/download/v5.1.1/verge-5.1.1-osx-unsigned.dmg",
+      "url": "https://github.com/vergecurrency/VERGE/releases/download/v5.1.2/verge-5.1.2-osx-unsigned.dmg",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
@@ -30,7 +30,7 @@
     },
     {
       "name": "Windows Tor QT Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/releases/download/v5.1.1/verge-5.1.1-win64-setup-unsigned.exe",
+      "url": "https://github.com/vergecurrency/VERGE/releases/download/v5.1.2/verge-5.1.2-win64-setup-unsigned.exe",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
