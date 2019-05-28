@@ -15,9 +15,9 @@ const MenuItems = ({ t }) => (
       <a href="/get-started">{t('header:get-started', { defaultValue: 'Get Started' })}</a>
     </Link>
     */}
-    <Link prefetch href="/meetup">
+    /*<Link prefetch href="/meetup">
       <a href="/meetup">{t('header:meetup', { defaultValue: 'Verge Meetup 2019' })}</a>
-    </Link>
+    </Link>*/
     <span className="submenu">
       {t('header:about', { defaultValue: 'About' })}
       <FontAwesomeIcon icon={faChevronDown} />
