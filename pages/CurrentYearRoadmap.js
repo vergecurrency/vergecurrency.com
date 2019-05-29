@@ -28,6 +28,14 @@ const roadMap = [
   },
   {
     done: true,
+    doneDate: '24th June 2018',
+    title: 'Mining Update',
+    description: 'XVGui Miner for Windows',
+    progress: 100,
+    progressState: '',
+  },
+  {
+    done: true,
     doneDate: '17th January 2019',
     title: 'BlackPaper Version 5.0',
     description: '5th revision of the BlackPaper',
@@ -62,12 +70,12 @@ const roadMap = [
     progressState: 'Released',
   },
   {
-    done: false,
-    doneDate: '',
-    title: 'Mining Update',
-    description: 'XVGui Miner for Windows, Official Mining Pool & Mining Guide',
-    progress: 80,
-    progressState: 'Work in progress',
+    done: true,
+    doneDate: '25th May 2019',
+    title: 'Second Verge Meetup',
+    description: 'Second verge meetup in Netherlands, Rotterdam',
+    progress: 100,
+    progressState: '',
   },
   {
     done: false,
@@ -102,6 +110,15 @@ const roadMap = [
     description:
       'Freshly redesigned wallet to match our corporate design and feature set.',
     progress: 15,
+    progressState: 'Work in progress',
+  },
+  {
+    done: false,
+    doneDate: '',
+    title: 'iOS wallet 1.1.0',
+    description:
+      'Add Moon Mode and 12 langauges.',
+    progress: 50,
     progressState: 'Work in progress',
   },
 ];
