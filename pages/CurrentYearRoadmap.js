@@ -109,7 +109,7 @@ const roadMap = [
     title: 'Official Android wallet update',
     description:
       'Freshly redesigned wallet to match our corporate design and feature set.',
-    progress: 15,
+    progress: 30,
     progressState: 'Work in progress',
   },
   {
