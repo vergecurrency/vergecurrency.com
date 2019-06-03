@@ -118,7 +118,7 @@ const roadMap = [
     title: 'iOS wallet 1.1.0',
     description:
       'Add Moon Mode and 12 langauges.',
-    progress: 50,
+    progress: 75,
     progressState: 'Work in progress',
   },
 ];
