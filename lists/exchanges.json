@@ -245,6 +245,12 @@
       "title": "SwapLab",
       "link": "swaplab.cc",
       "url": "https://swaplab.cc/"
+    },
+    {
+      "img": "../static/img/exchanges/chaincreator.png",
+      "title": "CHAINCREATOR EXCHANGE",
+      "link": "chaincreator.org",
+      "url": "https://www.chaincreator.exchange"
     }
   ]
 }

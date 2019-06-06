@@ -1836,6 +1836,76 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "CHAINCREATOR",
+            "img": "../static/img/vendors/latest/chaincreator.png",
+            "link": "chaincreator.org",
+            "url": "https://www.chaincreator.org",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "Ellipal",
+            "img": "../static/img/vendors/latest/ellipal.png",
+            "link": "ellipal.com",
+            "url": "https://www.ellipal.com",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "PayCent",
+            "img": "../static/img/vendors/latest/paycent.jpg",
+            "link": "paycent.com",
+            "url": "https://paycent.com",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "XCELPAY",
+            "img": "../static/img/vendors/latest/xcelpay.png",
+            "link": "xcelpay.io",
+            "url": "https://www.xcelpay.io/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": true,
+                "service": true,
+                "entertainment": true,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "XCELTRIP",
+            "img": "../static/img/vendors/latest/xceltrip.png",
+            "link": "xceltrip.com",
+            "url": "https://www.xceltrip.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": true,
+                "education": false
+            }
         }
     ]
 }
