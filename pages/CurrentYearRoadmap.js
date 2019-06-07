@@ -112,15 +112,6 @@ const roadMap = [
     progress: 30,
     progressState: 'Work in progress',
   },
-  {
-    done: false,
-    doneDate: '',
-    title: 'iOS wallet 1.1.0',
-    description:
-      'Add Moon Mode and 12 langauges.',
-    progress: 95,
-    progressState: 'Releasing',
-  },
 ];
 
 export default ({ start = 0, maxLength = roadMap.length }) =>
