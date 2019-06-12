@@ -87,6 +87,21 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
+            <a href="https://www.plaak.com/">
+              <img src="/static/img/partners/plaak.png" alt="plaak" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.plaak', {
+                defaultValue: `PLAAK is a Singaporean based Software Development & Blockchain Technology 
+                Company with a suite of high-tech and easy to use applications for mobile and desktop 
+                computer devices. Developing useful everyday applications that can store, transact and 
+                also trade digital currencies encourages global use and wider spread adoption. 
+                One such product, is the PLAAK Core Card a sleek and easy to carry and use device, 
+                enabling Core Card owners to safely store, transact and receive digital currencies anywhere.`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div>
             <a href="https://paycent.com/">
               <img src="/static/img/partners/paycent.png" alt="paycent" />
             </a>
