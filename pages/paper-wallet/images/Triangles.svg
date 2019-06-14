@@ -1,16 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="280px" height="337px" viewBox="0 0 280 337" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
-    <title>Triangles</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-16.000000, -14.000000)">
-            <g id="Triangles" transform="translate(16.000000, 14.000000)">
-                <polygon id="Light-Blue" fill="#00CBFE" transform="translate(140.000000, 188.500000) rotate(180.000000) translate(-140.000000, -188.500000) " points="140 40 280 337 0 337"></polygon>
-                <polygon id="Grey" fill="#BFBFBF" transform="translate(140.000000, 148.500000) rotate(180.000000) translate(-140.000000, -148.500000) " points="140 0 280 297 -5.68434189e-14 297"></polygon>
-                <polygon id="Dark-Blue" fill="#0098BF" transform="translate(139.997977, 168.500000) rotate(180.000000) translate(-139.997977, -168.500000) " points="139.997977 40 261.197974 297 18.7979798 297"></polygon>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Lag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="283.5px" height="283.5px" viewBox="0 0 283.5 283.5" style="enable-background:new 0 0 283.5 283.5;" xml:space="preserve"
+	>
+<g>
+	<polygon style="fill:#37BDE2;" points="216.5,15.8 141.7,187.8 67,15.8 32.3,15.8 141.7,267.7 251.2,15.8 	"/>
+	<polygon style="fill:#37BDE2;" points="141.7,108.4 180.9,15.8 102.5,15.8 	"/>
+</g>
 </svg>
