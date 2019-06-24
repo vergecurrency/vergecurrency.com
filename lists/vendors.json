@@ -183,6 +183,20 @@
             }
         },
         {
+            "title": "EastSide Traders",
+            "img": "../static/img/vendors/latest/eastsidetraders.png",
+            "link": "eastsidetraders.com",
+            "url": "https://eastsidetraders.com/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "Crypto House of Poker",
             "img": "../static/img/vendors/latest/cryptopokerclub.png",
             "link": "t.me/CryptoPokerFam",
