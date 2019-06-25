@@ -1920,6 +1920,34 @@
                 "travel": true,
                 "education": false
             }
+        },
+        {
+            "title": "ABRA",
+            "img": "../static/img/vendors/latest/abra.png",
+            "link": "abra.com",
+            "url": "https://www.abra.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "NOW Payments",
+            "img": "../static/img/vendors/latest/nowpayments.png",
+            "link": "nowpayments.io",
+            "url": "https://nowpayments.io/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
         }
     ]
 }

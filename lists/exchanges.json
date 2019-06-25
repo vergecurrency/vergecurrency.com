@@ -251,6 +251,12 @@
       "title": "CHAINCREATOR EXCHANGE",
       "link": "chaincreator.org",
       "url": "https://www.chaincreator.exchange"
+    },
+    {
+      "img": "../static/img/exchanges/traderone.png",
+      "title": "TRADER ONE",
+      "link": "traderone.exchange",
+      "url": "https://traderone.exchange/"
     }
   ]
 }
