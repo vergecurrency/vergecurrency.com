@@ -17,9 +17,24 @@
     &__logo {
       margin-right: rem(15px);
       width:40px;
+
+      @media (max-width: 778px) {
+        width:55px;
+      }
+      @media (max-width: 635px) {
+        width:110px;
+      }
+
       img {
         width: 100%;
         max-height: 40px;
+
+        @media (max-width: 778px) {
+          max-height:55px;
+        }
+        @media (max-width: 635px) {
+          max-height:none;
+        }
       }
     }
 
