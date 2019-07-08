@@ -1948,6 +1948,20 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "BOARDWORLD",
+            "img": "../static/img/vendors/latest/boardworld.png",
+            "link": "boardworld.com.au",
+            "url": "https://www.boardworld.com.au/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
         }
     ]
 }
