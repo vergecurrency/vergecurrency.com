@@ -75,8 +75,8 @@ function Vendor_Integration(props) {
               <h2>{t('wallet-setup:line-026', { defaultValue: 'Linux Wallet' })}</h2>
               <ol>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-linux.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-linux.md" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md">
+                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md" target="_blank" rel="noopener noreferrer">
                       {t('wallet-setup:line-027', { defaultValue: 'Compile using linux instructions.' })}
                     </a>
                   </Link>
@@ -123,22 +123,22 @@ function Vendor_Integration(props) {
               <h2>{t('wallet-setup:line-035', { defaultValue: 'Building From Source' })}</h2>
               <ul>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-linux.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-linux.md" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md">
+                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md" target="_blank" rel="noopener noreferrer">
                       {t('wallet-setup:line-036', { defaultValue: 'Linux Instructions' })}
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-osx.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-osx.md" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-osx.md">
+                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-osx.md" target="_blank" rel="noopener noreferrer">
                       {t('wallet-setup:line-037', { defaultValue: 'OS X Instructions' })}
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-win.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-win.md" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-windows.md">
+                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-windows.md" target="_blank" rel="noopener noreferrer">
                       {t('wallet-setup:line-038', { defaultValue: 'Windows Instructions' })}
                     </a>
                   </Link>
@@ -147,8 +147,8 @@ function Vendor_Integration(props) {
               <h2>{t('wallet-setup:line-035', { defaultValue: 'Developer Notes' })}</h2>
               <ul>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/dev-notes.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/dev-notes.md" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/developer-notes.md">
+                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/developer-notes.md" target="_blank" rel="noopener noreferrer">
                       {t('wallet-setup:line-038', { defaultValue: 'Can be found here' })}
                     </a>
                   </Link>

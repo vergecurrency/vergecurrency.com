@@ -60,8 +60,8 @@ function WalletsPage(props) {
                   </div>
                 </div>
                 <h6 className="center-xs start-sm">
-                  <Link href={t('home:benefits.link:url')}>
-                    <a href={t('home:benefits.link:url')} className="benefits--url">
+                  <Link href="/benefits">
+                    <a href="/benefits" className="benefits--url">
                       {t('home:benefits.link.title')}
                     </a>
                   </Link>
