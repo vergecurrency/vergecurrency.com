@@ -52,8 +52,8 @@ function Meetup(props) {
                 <div className="meetup__counters">
                   <div className="row">
                     <div className="col-xs-6 col-sm-3 pb">
-                      <div className="meetup__counter-number">350</div>
-                      <div className="meetup__counter-text">tickets available</div>
+                      <div className="meetup__counter-number">96</div>
+                      <div className="meetup__counter-text">tickets left</div>
                     </div>
                     <div className="col-xs-6 col-sm-3 pb">
                       <div className="meetup__counter-number">2nd</div>
@@ -116,7 +116,7 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/Justin.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Justin (Sunerok)
@@ -126,7 +126,7 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/Didi.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Didi Taihuttu
@@ -136,7 +136,7 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/Michael.jpg" className="img-responsive" alt="responsive" />
                 <h5>
                   Crypto Michaël
@@ -146,11 +146,14 @@ function Meetup(props) {
                 </p>
               </div>
 
-              <div className="col-xs-10 col-sm-5 col-md-2 start-sm">
+              <div className="col-xs-10 col-sm-3 col-md-2 start-sm">
                 <img src="/static/img/meetup-2019/guests/x.jpg" className="img-responsive" alt="responsive" />
                 <h5>
-                  Soon to be announced
+                  <em>Two</em> Secret Guests
                 </h5>
+                <p className="text--smaller">
+                Come and see who they are - tickets still available!
+                </p>
               </div>
 
             </div>
@@ -334,6 +337,26 @@ function Meetup(props) {
                   </p>
                 </div>
               </div>
+
+              <div className="row center-xs around-sm pt">
+                <div className="col-xs-10 col-sm-4 col-md-3 col--ticket">
+                  <div className="bb">
+                    <h4>Special Partying Ticket</h4>
+                    <p className="tickets__price">
+                      17,50
+                      <span className="span__euro">€</span>
+                    </p>
+                  </div>
+                  <div className="pt-small pb-small">
+                    <a className="unii-listing-button unii-custom unii-medium Light btn btn-primary" href="https://www.universe.com/events/second-verge-meet-up-2019-may-25th-rotterdam-the-netherlands-tickets-rotterdam-MTB4N1?buttonColor=#3A66E5&buttonText=Book Tickets" style={{ backgroundColor: '#1db6dc' }}>Buy Tickets Here</a>
+                  </div>
+                  <p className="text--smaller start-sm">
+                    Party Ticket - 
+                    <br />
+                    Party Entrance <b>only</b>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -347,19 +370,61 @@ function Meetup(props) {
                 <span>Outline</span>
               </h2>
               <p>
-                15:30 Doors Open
+                15:30 Doors open for guests
+                <hr />
+                16:20 Official Opening
+                <hr />
+                16:30 Informative Program
                 <br />
-                18:00 Belly Filling Dinner
+                <small>Didi Taihuttu from the Bitcoin Family</small>
+                <hr />
+                16:50 Informative Program
                 <br />
-                23:00 Typical Dutch Snack
+                <small>Special Guest #1 & Partnership Announcement</small>
+                <hr />
+                17:00 Informative Program
                 <br />
-                01:00 Doors Close
+                <small>Mycro</small>
+                <hr />
+                17:20 Informative Program
+                <br />
+                <small>Developer Panel 1: Justin & Marvin</small>
+                <hr />
+                18:00 Informative Program
+                <br />
+                <small>Special Guest #2 & Partnership Announcement</small>
+                <hr />
+                18:15 BBQ Dinner
+                <hr />
+                19:30 Informative Program
+                <br />
+                <small>Crypto Michael</small>
+                <hr />
+                19:40 Informative Program
+                <br />
+                <small>Developer Panel 2: Swen & Manuel</small>
+                <hr />
+                20:30 DJ Starts
+                <hr />
+                23:00 Dutch Snack
+                <hr />
+                01:00 End of event
                 <br />
                 <br />
                 We will have short and sweet speeches throughout the night.
                 <br />
                 More info about our speakers soon.
               </p>
+              <div className="pt-small pb-small">
+                <a
+                  className="unii-listing-button unii-custom unii-medium Light btn btn-primary px-large"
+                  href="/static/docs/VergeRotterdamFlyer.pdf"
+                  target="_blank"
+                  style={{ backgroundColor: '#1db6dc', color: '#ffffff' }}
+                >
+                  Download Detailed Program
+                </a>
+              </div>
             </div>
             <div className="col-xs-11 col-sm-5 col-sm-offset-1 start-sm">
               <h2>

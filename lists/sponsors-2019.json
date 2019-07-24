@@ -39,6 +39,12 @@
         "title": "BitcoinMeester",
         "height": 65,
         "url": "https://www.bitcoinmeester.nl/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/ShelterBlue.jpg",
+        "title": "ShelterBlue",
+        "height": 55,
+        "url": "https://shelterblue.com/verge"
       }
     ],
 
@@ -60,6 +66,12 @@
         "title": "olympia",
         "height": 65,
         "url": "https://olympiakitchenbar.nl/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/CryptoBrothers.jpg",
+        "title": "cryptobrothers",
+        "height": 65,
+        "url": "http://www.cryptobrothers.eu/"
       }
     ],
 

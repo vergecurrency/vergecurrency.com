@@ -89,6 +89,6 @@
     "sass-lint": "^1.12.1",
     "sw-precache-webpack-plugin": "^0.11.5",
     "uglify-js": "https://github.com/mishoo/UglifyJS2#harmony-v2.8.22",
-    "webpack-bundle-analyzer": "^2.11.1"
+    "webpack-bundle-analyzer": ">=3.3.2"
   }
 }

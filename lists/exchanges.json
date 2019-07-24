@@ -127,12 +127,6 @@
       "url": "https://xchange.me/"
     },
     {
-      "img": "../static/img/exchanges/cryptopia.png",
-      "title": "Cryptopia",
-      "link": "cryptopia.co.nz",
-      "url": "https://www.cryptopia.co.nz/Exchange/?market=XVG_BTC"
-    },
-    {
       "img": "../static/img/exchanges/southxchange.png",
       "title": "SouthXchange",
       "link": "southxchange.com",
@@ -251,6 +245,18 @@
       "title": "SwapLab",
       "link": "swaplab.cc",
       "url": "https://swaplab.cc/"
+    },
+    {
+      "img": "../static/img/exchanges/chaincreator.png",
+      "title": "CHAINCREATOR EXCHANGE",
+      "link": "chaincreator.org",
+      "url": "https://www.chaincreator.exchange"
+    },
+    {
+      "img": "../static/img/exchanges/traderone.png",
+      "title": "TRADER ONE",
+      "link": "traderone.exchange",
+      "url": "https://traderone.exchange/"
     }
   ]
 }

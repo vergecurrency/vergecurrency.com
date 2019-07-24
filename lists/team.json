@@ -48,15 +48,6 @@
         "location": "Texas, USA"
       },
       {
-        "img": "../static/img/team/sourcedexter.jpg",
-        "name": "Akshay - Sourcedexter",
-        "role": "Software Developer &  Tech Writer",
-        "occupation": "Data Science Engineer",
-        "github": "https://github.com/sourcedexter",
-        "twitter": "https://twitter.com/sourcedexter",
-        "location": "Bangalore, India"
-      },
-      {
         "img": "../static/img/team/maxius.jpg",
         "name": "Damien - Maxius",
         "role": "Web Developer",
@@ -117,15 +108,6 @@
         "location": "Washington, USA"
       },
       {
-        "img": "../static/img/team/dorian.jpg",
-        "name": "Dorian",
-        "role": "Business Development Specialist",
-        "occupation": "Senior IT Specialist",
-        "github": "",
-        "twitter": "https://twitter.com/dorianborovina",
-        "location": "Krefeld, Germany"
-      },
-      {
         "img": "../static/img/team/ferrisb.jpg",
         "name": "Stuart - FerrisB",
         "role": "Business Development Strategist",
@@ -133,15 +115,6 @@
         "github": "",
         "twitter": "https://twitter.com/StuartMFoulkes",
         "location": "Bangkok, Thailand"
-      },
-      {
-        "img": "../static/img/team/benji.jpg",
-        "name": "Benji",
-        "role": "Business Development",
-        "occupation": "Real Estate Broker/Developer",
-        "github": "",
-        "twitter": "",
-        "location": "Florida, USA"
       },
       {
         "img": "../static/img/team/cloakfox.jpg",
@@ -211,15 +184,6 @@
         "github": "",
         "twitter": "https://twitter.com/xvg_ninja",
 	      "location": "Germany"
-      },
-      {
-        "img": "../static/img/team/greenazn.jpg",
-        "name": "Han - GreentAzn",
-        "role": "Technical Marketing Engineer",
-        "occupation": "Head of Marketing",
-        "github": "",
-        "twitter": "https://twitter.com/greentazn",
-	      "location": "California, USA"
       },
       {
         "img": "../static/img/team/jeroen.png",
@@ -325,15 +289,6 @@
         "github": "https://github.com/BlueManRising",
         "twitter": "https://twitter.com/nkazier",
 	      "location": "New Jersey, USA"
-      },
-      {
-        "img": "../static/img/team/jimbobaroobob.jpg",
-        "name": "Joel - Jimbobaroobob",
-        "role": "Commercial Strategy",
-        "occupation": "Director",
-        "github": "",
-        "twitter": "https://twitter.com/jimbobaroobob",
-	      "location": "Sydney, Australia"
       }
     ]
   }

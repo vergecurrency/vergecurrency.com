@@ -124,3 +124,21 @@ ul {
     list-style: none;
   }
 }
+
+.icon {
+  &--twitter {
+    background-image: url(/static/img/icons/twitter.svg);
+  }
+  &--github {
+    background-image: url(/static/img/icons/github.svg);
+  }
+  &--instagram {
+    background-image: url(/static/img/icons/instagram.svg);
+  }
+  &--facebook {
+    background-image: url(/static/img/icons/facebook.svg);
+  }
+  &--youtube {
+    background-image: url(/static/img/icons/youtube.svg);
+  }
+}

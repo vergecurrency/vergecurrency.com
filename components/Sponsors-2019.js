@@ -87,7 +87,7 @@ export const Sponsors = () => {
     <div className="row center-xs sponsors">
       <div className="col-xs-11 pt-small pb-large bb">
 
-        <div className="row center-xs middle-xs col-xs-10 col-xs-offset-1 border__lines">
+        {/* <div className="row center-xs middle-xs col-xs-10 col-xs-offset-1 border__lines">
 
           <div className="col-xs-12 center-xs col-sm-4 start-sm">
             <p style={{ padding: '10px 0' }}>
@@ -107,9 +107,9 @@ export const Sponsors = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="row start-xs middle-xs">
+        <div className="row start-xs middle-xs pt">
           <div className="col-xs-12 col-sm-3 col-lg-2 end-sm">
             <p style={{ textAlign: 'left', padding: '20px 0' }}>
               Whale
