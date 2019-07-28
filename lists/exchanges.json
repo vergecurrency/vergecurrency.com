@@ -257,6 +257,12 @@
       "title": "TRADER ONE",
       "link": "traderone.exchange",
       "url": "https://traderone.exchange/"
+    },
+    {
+      "img": "../static/img/exchanges/cryptofacil.png",
+      "title": "CryptoFacil",
+      "link": "cryptofacil.com",
+      "url": "https://cryptofacil.com/"
     }
   ]
 }
