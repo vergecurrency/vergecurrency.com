@@ -24,13 +24,13 @@ function GetVerge(props) {
               <br />
             </div>
             <div className="col-xs-12">
-              <h2>{t('get-verge:body.fiat', { defaultValue: 'Buy/Sell Verge (XVG) directly with BTC, via ChangeHero.' })}</h2>
+              <h2>{t('get-verge:body.direct', { defaultValue: 'Buy/Sell Crypto directly, via ChangeHero.' })}</h2>
+              <p><em>(Click the blue currency code to change to your desired currency.)</em></p>
               <br />
               <iframe src="https://widget.changehero.io/?to=XVG&ref=85fa2cf50ddb439fb6db6a24c981fb48" name="changeHeroWidget" id="changeHeroWidget" 
                 scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="430px" width="100%" allowfullscreen></iframe>
             </div>
             <div className="col-xs-10">
-              <br />
               <h2>{t('get-verge:body.fiat', { defaultValue: 'Buy Verge (XVG) directly with fiat currency.' })}</h2>
               <h3>{t('get-verge:body.fiat2', { defaultValue: 'To find out more, please visit:' })}</h3>
               <Link href="https://verge.zendesk.com/hc/en-us/sections/360003859972-Where-How-Can-I-Buy-Verge-XVG-">
