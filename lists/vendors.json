@@ -113,6 +113,20 @@
             }
         },
         {
+            "title": "Ganja.com",
+            "img": "../static/img/vendors/latest/ganja.jpg",
+            "link": "ganja.com",
+            "url": "https://xvg.ganja.com",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "AzireVPN",
             "img": "../static/img/vendors/latest/azirevpn.jpg",
             "link": "azirevpn.com",
