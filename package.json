@@ -10,7 +10,8 @@
     "prestart": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "./node_modules/.bin/eslint . --fix",
-    "predeploy": "yarn build",
+    "updateLanguages": "node locales/updateLanguages.js",
+    "predeploy": "yarn updateLanguages && yarn build",
     "deploy": "gh-pages -t true -m 'Travis CI automated build' -d docs"
   },
   "repository": {
@@ -38,6 +39,7 @@
     "compression": "^1.7.2",
     "cryptowatch-embed": "^0.3.2",
     "css-loader": "^0.28.9",
+    "deep-filter": "^1.0.2",
     "express": "^4.16.2",
     "gh-pages": "^1.1.0",
     "glob": "^7.1.2",
@@ -56,6 +58,7 @@
     "next": "4.2.3",
     "node-sass": "^4.4.0",
     "normalize.css": "^7.0.0",
+    "npm-update-all": "^1.0.1",
     "nprogress": "^0.2.0",
     "platform": "^1.3.5",
     "postcss-easy-import": "^3.0.0",
@@ -65,6 +68,7 @@
     "react": "^16.2.0",
     "react-burger-menu": "^2.2.3",
     "react-dom": "^16.2.0",
+    "react-expand-collapse": "^0.2.0",
     "react-i18next": "^7.3.4",
     "react-lazyload": "^2.3.0",
     "react-moment": "^0.7.0",
@@ -84,7 +88,7 @@
     "eslint-plugin-react": "^7.7.0",
     "sass-lint": "^1.12.1",
     "sw-precache-webpack-plugin": "^0.11.5",
-    "uglify-js": "git://github.com/mishoo/UglifyJS2#harmony-v2.8.22",
-    "webpack-bundle-analyzer": "^2.11.1"
+    "uglify-js": "https://github.com/mishoo/UglifyJS2#harmony-v2.8.22",
+    "webpack-bundle-analyzer": ">=3.3.2"
   }
 }

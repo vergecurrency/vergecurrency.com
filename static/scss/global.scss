@@ -9,6 +9,7 @@ $min-width-xs--iphone-plus: 414px;
 $min-width-xs: 30em;
 $min-width-sm: 48em;
 $min-width-md: 64em;
+$max-width-md: 991px;
 $min-width-lg: 75em;
 
 $base-font-size: 16px;
@@ -62,7 +63,8 @@ $colors: (
 @import 'partials/benefits';
 @import 'partials/reason';
 @import 'partials/mentions';
-@import 'partials/sponsors';
+@import 'partials/sponsors-2018';
+@import 'partials/partners';
 
 //Pages
 @import 'pages/home';
@@ -79,10 +81,12 @@ $colors: (
 @import 'pages/key-tech';
 @import 'pages/getstarted';
 @import 'pages/meetup';
+@import 'pages/meetup-2018';
 @import 'pages/team';
 @import 'pages/partnership-donation-rewards';
 @import 'pages/partnership-donation-mentions';
-
+@import 'pages/fbv';
+@import 'pages/find-us';
 @import 'partials/learnmore';
 @import 'partials/markdown';
 @import 'partials/responsive-display';

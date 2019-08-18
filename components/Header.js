@@ -1,13 +1,13 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 
-import VergeLogoWhite from '../static/img/verge-logo-white.svg';
-
 import Head from 'next/head';
 import Link from 'next/link';
 import Router from 'next/router';
 
 import NProgress from 'nprogress';
+
+import VergeLogoWhite from '../static/img/verge-logo-white.svg';
 
 import Navbar from './Navbar';
 import MenuItems from './MenuItems';
@@ -35,7 +35,7 @@ const Header = ({ t }) => (
           </Link>
         </div>
         <nav className="col-xs-5 col-sm end-xs menu">
-          <div className="hidden-xs hidden-sm">
+          <div className="hidden-xs hidden-sm hidden-md">
             <MenuItems t={t} />
           </div>
           <div className="visible-sm">

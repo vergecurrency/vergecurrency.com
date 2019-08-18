@@ -1,10 +1,10 @@
 import React from 'react';
 
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-export default WrappedComponent => {
+export default (WrappedComponent) => {
   class ServerProps extends React.Component {
-    static async getInitialProps({ query: { store }}) {
+    static async getInitialProps({ query: { store } }) {
       return { store };
     }
 
@@ -13,13 +13,13 @@ export default WrappedComponent => {
     }
 
     render() {
-      return <WrappedComponent { ...this.props } />;
+      return <WrappedComponent {...this.props} />;
     }
   }
 
   ServerProps.childContextTypes = {
     store: PropTypes.object,
-  }
+  };
 
   return ServerProps;
-}
+};

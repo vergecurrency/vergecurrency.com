@@ -1,0 +1,134 @@
+{
+  "sponsors": {
+    "whalePkg": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/AboutCrypto.jpg",
+        "title": "AboutCrypto",
+        "height": 65,
+        "url": "https://www.about-crypto.nl/"
+      }
+    ],
+    
+    "dolphinPkg": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/Universe.jpg",
+        "title": "Universe",
+        "height": 65,
+        "url": "https://www.universe.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/Delta.jpg",
+        "title": "Delta",
+        "height": 65,
+        "url": "https://delta.app/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/BlockchainBusinessMag.jpg",
+        "title": "BlockchainBusinessMagazine",
+        "height": 65,
+        "url": "https://blockchainbusinessmagazine.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/WhaleApparel.jpg",
+        "title": "WhaleApparel",
+        "height": 65,
+        "url": "https://www.whaleapparel.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/BitcoinMeester.jpg",
+        "title": "BitcoinMeester",
+        "height": 65,
+        "url": "https://www.bitcoinmeester.nl/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/ShelterBlue.jpg",
+        "title": "ShelterBlue",
+        "height": 55,
+        "url": "https://shelterblue.com/verge"
+      }
+    ],
+
+    "goldfishPkg": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/VIPClub.jpg",
+        "title": "VIPClub",
+        "height": 60,
+        "url": "https://www.vipclub.world/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/WaffleHouse.jpg",
+        "title": "t stroopwafelhuisje",
+        "height": 65,
+        "url": "https://tstroopwafelhuisje.com"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/Olympia.jpg",
+        "title": "olympia",
+        "height": 65,
+        "url": "https://olympiakitchenbar.nl/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/CryptoBrothers.jpg",
+        "title": "cryptobrothers",
+        "height": 65,
+        "url": "http://www.cryptobrothers.eu/"
+      }
+    ],
+
+    "mediaPartners": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/BlockchainTalks.jpg",
+        "title": "BlockchainTalks",
+        "height": 65,
+        "url": "https://blockchaintalks.io/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/CryptoTrader.jpg",
+        "title": "CryptoTrader",
+        "height": 65,
+        "url": "https://www.cryptotrader.nl/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/iBlockTv.jpg",
+        "title": "iBlockTV",
+        "height": 65,
+        "url": "https://www.youtube.com/channel/UC_IjTs99YLJUefYiS9ue_ig/featured?app=desktop "
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/BitcoinMagazine.jpg",
+        "title": "BitcoinMagazine",
+        "height": 65,
+        "url": "https://bitcoinmagazine.nl/"
+      }
+      
+    ],
+
+    "vergeFam": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/Siebers.jpg",
+        "title": "Siebers",
+        "height": 65,
+        "url": "http://www.printingplus.nl/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/247Bits.jpg",
+        "title": "247Bits",
+        "height": 65,
+        "url": "https://www.247bits.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/CSnews.jpg",
+        "title": "CSnews",
+        "height": 65,
+        "url": "https://www.crypto-suite.com/"
+      },
+      {
+        "img": "../static/img/meetup-2019/sponsors/Subway.jpg",
+        "title": "Subway",
+        "height": 65,
+        "url": "https://www.subway.com/nl-nl"
+      }
+      
+    ]
+  }
+}

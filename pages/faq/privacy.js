@@ -18,14 +18,7 @@ function FAQ_privacy(props) {
         <div className="container">
           <Content>
             <div className="faq">
-              <h1>{t('faq:privacy:subheader', { defaultValue: 'Privacy' })}</h1>
-              <h2>{t('faq:privacy:wraithprotocol:question')}</h2>
-              <p> {t('common:wraith.text1')} {' '} 
-                  {t('common:wraith.text2')} {' '}
-                  {t('common:wraith.text3')} {' '}
-                  {t('common:wraith.text4')} {' '}
-                  {t('faq:privacy:wraithprotocol:answer') }
-              </p>    
+              <h1>{t('faq:privacy:subheader', { defaultValue: 'Privacy' })}</h1> 
               <h2>{t('faq:privacy:vergeanon:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:privacy:vergeanon:answer') }} />
               <h2>{t('faq:privacy:whytor:question')}</h2>

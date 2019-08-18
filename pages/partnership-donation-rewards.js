@@ -5,11 +5,11 @@ import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 const WHALE_DONATORS = [
-  'x'
+  'x',
 ];
 
 const DOLPHIN_DONATORS = [
-  'y'
+  'y',
 ];
 
 function PartnershipDonationRewards(props) {

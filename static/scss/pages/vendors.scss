@@ -1,4 +1,7 @@
 .vendors {
+  &--pad {
+    padding: 10px;
+  }
   .btn.btn-primary{
     color: $white;
     &:hover {
@@ -8,10 +11,26 @@
       box-shadow: 0 0 120px rgba(0,0,0,0.05);
     }
   }
+  &--item {
+    min-height: 89px;
+  }
+  &--item__name span {
+    text-overflow: ellipsis;
+    width: 200px;
+    overflow: hidden;
+    word-break: keep-all;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 75em) {
+  .vendors--item__name span {
+    width: 154px;
+  }
 }
 
 .check-categories{
   padding: 1rem;
+  display: inline-block;
 
   > input {
     margin-right: 5px;

@@ -1,0 +1,156 @@
+.ribbon {
+  &--meetup {
+    min-height: rem(640px);
+
+    .ribbon {
+      &-img {
+        background: url(/static/img/meetup-2018/verge-meetup-top.png) no-repeat bottom center;
+        background-color: #04131F;
+        background-size: contain;
+        min-height: inherit;
+        min-width: 100%;
+        position: absolute;
+        z-index: -100;
+      }
+
+      &-txt {
+        margin-top: rem(56px);
+
+        @media (min-width: $min-width-sm) {
+          margin-top: rem(100px);
+        }
+
+        h1 {
+          margin-bottom: rem(20px);
+
+          span {
+            color: $picton-blue;
+          }
+        }
+
+        p {
+          color: white;
+          margin-bottom: rem(24px);
+        }
+      }
+    }
+  }
+}
+
+.meetup {
+  &--bottom {
+    background: url(/static/img/meetup-2018/meetup-bottom.png) bottom center no-repeat;
+    background-size: rem(640px);
+    height: 12rem;
+  }
+
+  &__counter-number {
+    color: $picton-blue;
+    font-size: rem(60px);
+    font-weight: 500;
+  }
+
+  &--programme {
+    h2 {
+      font-size: rem(24px);
+
+      @media (min-width: $min-width-sm) {
+        font-size: rem(30px);
+      }
+
+      span {
+        color: $picton-blue;
+      }
+    }
+  }
+
+  &--tickets {
+    h2 {
+      font-size: rem(28px);
+
+      @media (min-width: $min-width-sm) {
+        font-size: rem(36px);
+      }
+
+      span {
+        color: $picton-blue;
+      }
+    }
+
+    /*
+    .col--ticket {
+      background: white;
+      box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .33);
+      margin-bottom: 2rem;
+      padding: 2rem;
+
+      @media (min-width: $min-width-sm) {
+        margin-bottom: 0;
+        padding: rem(24px);
+      }
+
+      @media (min-width: $min-width-md) {
+        box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .5);
+        padding: 2rem;
+      }
+
+      &:nth-of-type(2) {
+        z-index: 1;
+
+        @media (min-width: $min-width-sm) {
+          box-shadow: 0 0 2rem 1px rgba(127, 127, 127, .5);
+        }
+      }
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+    */
+  }
+
+  &--media {
+    h2 {
+      font-size: rem(28px);
+
+      @media (min-width: $min-width-sm) {
+        font-size: rem(36px);
+      }
+
+      span {
+        color: $picton-blue;
+      }
+    }
+
+    .col--fullheight {
+      position: relative;
+
+      img {
+        margin-bottom: 1rem;
+
+        @media (min-width: $min-width-sm) {
+          margin-bottom: rem(18px);
+        }
+
+        @media (min-width: $min-width-md) {
+          margin-bottom: rem(23px);
+        }
+
+        @media (min-width: $min-width-lg) {
+          margin-bottom: rem(27px);
+        }
+      }
+    }
+  }
+
+  /*
+  .tickets__price {
+    color: $picton-blue;
+    font-size: rem(36px);
+  }
+  */
+}

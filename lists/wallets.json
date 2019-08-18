@@ -20,7 +20,7 @@
     },
     {
       "name": "OSX Tor QT Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/releases/download/4.0.2/VERGE-Qt-4-7-2018.dmg",
+      "url": "https://github.com/vergecurrency/VERGE/releases/download/v5.2.1/verge-5.2.1-osx-unsigned.dmg",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
@@ -30,7 +30,7 @@
     },
     {
       "name": "Windows Tor QT Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/releases/download/4.0.2/release_windows.zip",
+      "url": "https://github.com/vergecurrency/VERGE/releases/download/v5.2.1/verge-5.2.1-win64-setup-unsigned.exe",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
@@ -40,10 +40,10 @@
     },
     {
       "name": "Apple iOS Wallet",
-      "url": "#",
-      "classNames": "wallets--icon__apple",
-      "classWhite": "wallets--icon__apple-white",
-      "available": false,
+      "url": "https://itunes.apple.com/us/app/id1459928869",
+      "classNames": "wallets--icon__apple wallets--icon__apple--tor",
+      "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
+      "available": true,
       "os": "iOS",
       "url2": "#",
       "availableinstructions": false
@@ -80,12 +80,12 @@
     },
     {
       "name": "Linux Tor QT Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-linux.md",
+      "url": "https://github.com/vergecurrency/VERGE/releases",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
       "os": "Ubuntu",
-      "url2": "https://github.com/vergecurrency/VERGE/blob/master/doc/build-verge-linux.md",
+      "url2": "https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md",
       "availableinstructions": true
     },
     {

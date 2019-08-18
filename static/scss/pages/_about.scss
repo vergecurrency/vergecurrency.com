@@ -21,6 +21,18 @@
     &--member {
       width: 100%;
 
+      &_border {
+        transition: background-color 0.2s linear;
+        display: inline-block;
+        padding: 2px;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+      }
+      &_border:hover {
+        background-color: rgba(48,174,209,1);
+      }
+      
+
       .flexIt {
         display: flex;
         justify-content: start;
@@ -48,12 +60,6 @@
         margin-top: 2px;
         &.iconlink {
           margin-left: 10px;
-        }
-        &--twitter {
-          background-image: url(/static/img/team/icons/twitter.svg);
-        }
-        &--github {
-          background-image: url(/static/img/team/icons/github.svg);
         }
       }
 

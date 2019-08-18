@@ -2,10 +2,11 @@ import React from 'react';
 
 import Head from 'next/head';
 
+import { translate } from 'react-i18next';
+
 import Header from './Header';
 import Footer from './Footer';
 
-import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
 import stylesheet from '../static/scss/global.scss';

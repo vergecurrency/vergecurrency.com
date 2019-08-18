@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
 import Layout from '../components/Layout';
 
@@ -13,7 +12,9 @@ function FindUs(props) {
     <Layout>
       <Head>
         <title key="title">{t('common:meta.findus.title', { defaultValue: 'Find us - VergeCurrency.com' })}</title>
+        <link rel="stylesheet" type="text/css" href="/static/scss/pages/_find-us.scss" />
       </Head>
+
       <div className="about">
         <div className="ribbon ribbon--about">
           <div className="container">
@@ -30,76 +31,51 @@ function FindUs(props) {
         <div className="findus pt-large pb-large">
           <div className="row center-xs middle-xs">
             <div className="col-xs-12 col-sm-8">
-              <ul className="no-style">
-                <li>
-                  <Link href="https://www.twitter.com/vergecurrency">
-                    <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer">
-                      {t('header:twitter', { defaultValue: 'Twitter' })}
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://www.reddit.com/r/vergecurrency/">
-                    <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer">
-                      {t('header:reddit', { defaultValue: 'Reddit' })}
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://vergefora.com">
-                    <a href="https://vergefora.com" target="_blank" rel="noopener noreferrer">
-                      {t('header:forums', { defaultValue: 'Forums' })}
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://www.investfeed.com/currency/XVG">
-                    <a href="https://www.investfeed.com/currency/XVG" target="_blank" rel="noopener noreferrer">
-                      {t('header:investfeed', { defaultValue: 'investFeed' })}
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://discord.gg/vergecurrency">
-                    <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer">
-                      {t('header:discord', { defaultValue: 'Discord' })}
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://t.me/VERGExvg">
-                    <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer">
-                      {t('header:telegram', { defaultValue: 'Telegram' })}
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://www.facebook.com/VERGEcurrency">
-                    <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer">
-                      {t('header:facebook', { defaultValue: 'Facebook' })}
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
-                    <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer">
-                      {t('header:youtube', { defaultValue: 'YouTube' })}
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://github.com/vergecurrency?tab=repositories">
-                    <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer">
-                      {t('header:github', { defaultValue: 'GitHub' })}
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link prefetch href="/community/get-involved">
-                    <a href="/community/get-involved">{t('header:contact', { defaultValue: 'Email' })}</a>
-                  </Link>
-                </li>
-              </ul>
+
+
+              <div className="intro pt-large pb-large">
+                <div className="container center-xs">
+
+
+                  <div className="divTable">
+                    <div className="divTableBody">
+                      <div className="divTableRow">
+                        <div className="divTableCell"><a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/twitter.png" alt="Twitter" title="Twitter" /></a></div>
+                        <div className="divTableCell"><a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/reddit.png" alt="Reddit" title="Reddit" /></a></div>
+                        <div className="divTableCell"><a href="https://forums.vergecurrency.com" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/verge-forums.png" alt="Forums" title="Verge Forums" /></a></div>
+                        <div className="divTableCell"><a href="https://www.investfeed.com/currency/XVG" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/investfeed.png" alt="investFeed" title="investFeed" /></a></div>
+                        <div className="divTableCell"><a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/discord.png" alt="Discord" title="Discord" /></a></div>
+                      </div>
+                      <div className="divTableRow">
+                        <div className="divTableCell">Twitter</div>
+                        <div className="divTableCell">Reddit</div>
+                        <div className="divTableCell">Verge Forums</div>
+                        <div className="divTableCell">investFeed</div>
+                        <div className="divTableCell">Discord</div>
+                      </div>
+                      <br /><br />
+                      <div className="divTableRow">
+                        <div className="divTableCell"><a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/telegram.png" alt="Telegram" title="Telegram" /></a></div>
+                        <div className="divTableCell"> <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/facebook.png" alt="Facebook" title="Facebook" /></a></div>
+                        <div className="divTableCell"><a href="https://www.youtube.com/vergecurrency" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/youtube.png" alt="YouTube" title="YouTube" /></a></div>
+                        <div className="divTableCell"><a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/github.png" alt="GitHub" title="GitHub" /></a></div>
+                        <div className="divTableCell"><a href="/community/send-an-email" target="_blank"><img src="/static/img/find-us/email.png" alt="Email" title="Email" /></a></div>
+                      </div>
+                      <div className="divTableRow">
+                        <div className="divTableCell">Telegram</div>
+                        <div className="divTableCell">Facebook</div>
+                        <div className="divTableCell">YouTube</div>
+                        <div className="divTableCell">GitHub</div>
+                        <div className="divTableCell">Email</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+
             </div>
           </div>
         </div>

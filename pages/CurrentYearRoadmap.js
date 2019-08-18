@@ -27,30 +27,55 @@ const roadMap = [
     progressState: '',
   },
   {
-    done: false,
-    doneDate: '',
+    done: true,
+    doneDate: '24th June 2018',
+    title: 'Mining Update',
+    description: 'XVGui Miner for Windows',
+    progress: 100,
+    progressState: '',
+  },
+  {
+    done: true,
+    doneDate: '17th January 2019',
+    title: 'BlackPaper Version 5.0',
+    description: '5th revision of the BlackPaper',
+    progress: 100,
+    progressState: '',
+  },
+  {
+    done: true,
+    doneDate: '11th April 2019',
     title: 'Merchandise Online Store',
     description:
       'Verge branded apparel that can be purchased with XVG and BTC.',
-    progress: 90,
-    progressState: 'testing products',
+    progress: 100,
+    progressState: 'https://vergecurrency.store',
   },
   {
-    done: false,
-    doneDate: '',
-    title: 'Mining Update',
-    description: 'XVGui Miner for Windows, Official Mining Pool & Mining Guide',
-    progress: 75,
-    progressState: 'work in progress',
+    done: true,
+    doneDate: '23rd April 2019',
+    title: 'Official iOS wallet',
+    description:
+      'iOS wallet with full-fledged feature set like a normal wallet.',
+    progress: 100,
+    progressState: 'Released',
   },
   {
-    done: false,
-    doneDate: '',
+    done: true,
+    doneDate: '16th May 2019',
     title: 'Rebased Codebase',
     description:
       'Rebasing the entire codebase to include the newest standards shared by bitcoin.',
-    progress: 90,
-    progressState: 'rebasing',
+    progress: 100,
+    progressState: 'Released',
+  },
+  {
+    done: true,
+    doneDate: '25th May 2019',
+    title: 'Second Verge Meetup',
+    description: 'Second verge meetup in Netherlands, Rotterdam',
+    progress: 100,
+    progressState: '',
   },
   {
     done: false,
@@ -58,8 +83,8 @@ const roadMap = [
     title: 'Desktop Wallet',
     description:
       'Electron based wallet with better performance and minimalistic UI design',
-    progress: 80,
-    progressState: 'preparing release',
+    progress: 85,
+    progressState: 'Preparing release',
   },
   {
     done: false,
@@ -67,8 +92,8 @@ const roadMap = [
     title: 'RingCT Integration',
     description:
       'Ring Confidential Transactions - advanced masking of transaction amounts',
-    progress: 35,
-    progressState: 'integrating',
+    progress: 45,
+    progressState: 'Work in progress',
   },
   {
     done: false,
@@ -76,16 +101,16 @@ const roadMap = [
     title: 'RSK',
     description: 'RSK Smart Contract Integration',
     progress: 25,
-    progressState: 'investigating integration',
+    progressState: 'Investigating integration',
   },
   {
     done: false,
     doneDate: '',
-    title: 'Official iOS wallet',
+    title: 'Official Android wallet update',
     description:
-      'iOS wallet with full-fledged feature set like a normal wallet.',
-    progress: 20,
-    progressState: 'development ongoing',
+      'Freshly redesigned wallet to match our corporate design and feature set.',
+    progress: 30,
+    progressState: 'Work in progress',
   },
 ];
 

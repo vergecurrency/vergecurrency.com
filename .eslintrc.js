@@ -6,7 +6,7 @@ module.exports = {
         "process": true,
     },
     rules: {
-        'max-len': ['warn', { 'code': 120 }],
+        'max-len': ['off', { 'code': 120 }],
         camelcase: 0, // Foo_foo can be Relay compiler generated type.
         'consistent-return': 0, // Control freaky.
         'default-case': 0, // Control freaky.

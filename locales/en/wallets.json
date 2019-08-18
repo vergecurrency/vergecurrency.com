@@ -1,10 +1,10 @@
 {
   "body": {    
-     "header1": "Download our Wallet",
+     "header1": "Download our Core Wallet",
      "header2": "Wallets",
-     "text1": "Download our latest Core wallet to store <span className=hidden-xs><br /></span> your Verge Currency with.",
-     "text2": "Download our latest Core Wraith Wallets for <span className=hidden-xs><br /></span> Windows, Linux and OSX or store your Verge on <span className=hidden-xs><br /></span> your mobile with our Tor wallet.",
-     "text3": "Our core wallet is secure, easy and fast. Transactions in <span className=hidden-xs><br /></span> less than 30 seconds.",
+     "text1": "The safest and easiest way to securely store <span className=hidden-xs><br /></span> your Verge.",
+     "text2": "Download one of our latest core wallets for <span className=hidden-xs><br /></span> Windows, Linux, and OSX or you can store Verge<span className=hidden-xs><br /></span> on your mobile with our Tor wallet.",
+     "text3": "Our core wallet is extensively tested, safe, and easy to use. Transactions in <span className=hidden-xs><br /></span> less than 30 seconds.",
      "header3": "Wallets for all platforms"
   }
 }
