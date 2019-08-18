@@ -64,9 +64,10 @@ function Presskit(props) {
                   <h2>{t('presskit:coverage.title', { defaultValue: 'Press kit' })}</h2>
                   <p>{t('presskit:ribbon.text', { defaultValue: 'This is our press kit for media coverage that you can use.' }) }
                       &nbsp;
-                    {t('presskit:ribbon.text2', { defaultValue: 'We would please ask you to  not alter our logo in any way. We prepared guidelines to help you use Verge brand and assets, including our logo, fonts, and colour palettes.' }) }
+                    {t('presskit:ribbon.text2', { defaultValue: 'We would please ask you to  not alter our logo in any way. We prepared guidelines to help you use the Verge brand and assets, including our logo, fonts, and colour palettes.' }) }
                   </p>
-
+                </div>
+                <div className="start-xs pt">
                   <h2>{t('presskit:logo.title', { defaultValue: 'Verge logo' })}</h2>
                   <p>{t('presskit:logo.text', { defaultValue: 'You can use the Verge logos to link to vergecurrency.com and to attach it to a blog post, news article, or press release about Verge.' })}</p>
                 </div>
@@ -83,7 +84,10 @@ function Presskit(props) {
                         <img style={{ padding: '1rem 2rem' }} className="img-responsive" src="/static/img/press/logo/verge-symbol.png" alt="Verge Symbol" />
                       </div>
                       <div className="col-xs-12 col-sm-4">
-                        <a href="/static/img/press/logo/verge-logo.zip" className="btn btn-primary btn-primary--on-white-bg">{t('presskit:logo.download', { defaultValue: 'Download logo here' })}</a>
+                        <a href="/static/img/press/logo/verge-logo.zip" className="btn btn-primary btn-primary--on-white-bg">{t('presskit:logo.download', { defaultValue: 'Download logos here' })}</a>
+                        <p>
+                          <a href="https://github.com/vergecurrency/verge-graphics/" target="_blank">or browse GitHub</a>
+                          </p>
                       </div>
                     </div>
                   </div>

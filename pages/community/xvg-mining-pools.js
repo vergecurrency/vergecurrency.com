@@ -40,7 +40,6 @@ const MiningPools = () => (
               <strong>Blake2s</strong>
               <li><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">[Blake2s] ZPool</a></Link></li>
               <li><Link href="https://pool.unimining.net/site/mining"><a href="https://pool.unimining.net/site/mining" target="_blank" rel="noopener noreferrer">[Blake2s] UniMining</a></Link></li>
-              <li><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">[Blake2s] AntMinePool</a></Link></li>
               <li><Link href="http://verge.blake2s.com"><a href="http://verge.blake2s.com" target="_blank" rel="noopener noreferrer">[Blake2s] Verge Blake2s</a></Link></li>
               <li><Link href="https://bsod.pw/en/pool/dashboard/xvg/"><a href="https://bsod.pw/en/pool/dashboard/xvg/" target="_blank" rel="noopener noreferrer">[Blake2s] BSOD.PW</a></Link></li>
               <li><Link href="http://nlpool.nl"><a href="http://nlpool.nl" target="_blank" rel="noopener noreferrer">[Blake2s] NLpool.nl</a></Link></li>

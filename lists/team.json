@@ -108,15 +108,6 @@
         "location": "Washington, USA"
       },
       {
-        "img": "../static/img/team/ferrisb.jpg",
-        "name": "Stuart - FerrisB",
-        "role": "Business Development Strategist",
-        "occupation": "Retail Section Manager",
-        "github": "",
-        "twitter": "https://twitter.com/StuartMFoulkes",
-        "location": "Bangkok, Thailand"
-      },
-      {
         "img": "../static/img/team/cloakfox.jpg",
         "name": "Leon - cloakfox",
         "role": "Community Relations Specialist",
@@ -124,6 +115,15 @@
         "github": "",
         "twitter": "https://twitter.com/Verge_forums",
 	      "location": "The Netherlands"
+      },
+      {
+        "img": "../static/img/team/desolator.jpg",
+        "name": "Numan",
+        "role": "Business Development",
+        "occupation": "Lead System Engineer",
+        "github": "",
+        "twitter": "https://twitter.com/Desolatorbtc",
+	      "location": "Istanbul, Turkey"
       }
     ]
   },
@@ -166,15 +166,6 @@
         "github": "",
         "twitter": "https://twitter.com/NiteShadowXVG",
 	      "location": "New York, USA"
-      },
-      {
-        "img": "../static/img/team/desolator.jpg",
-        "name": "Numan",
-        "role": "Technical Marketing Engineer",
-        "occupation": "Lead System Engineer",
-        "github": "",
-        "twitter": "https://twitter.com/Desolatorbtc",
-	      "location": "Istanbul, Turkey"
       },
       {
         "img": "../static/img/team/xvgninja.jpg",

@@ -113,6 +113,20 @@
             }
         },
         {
+            "title": "Ganja.com",
+            "img": "../static/img/vendors/latest/ganja.jpg",
+            "link": "ganja.com",
+            "url": "https://xvg.ganja.com",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "AzireVPN",
             "img": "../static/img/vendors/latest/azirevpn.jpg",
             "link": "azirevpn.com",
@@ -1902,6 +1916,20 @@
                 "retail": true,
                 "foodAndBev": false,
                 "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "MVPS.net",
+            "img": "../static/img/vendors/latest/mvps.png",
+            "link": "mvps.net",
+            "url": "https://www.mvps.net/?aff=2424",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
                 "entertainment": false,
                 "travel": false,
                 "education": false
