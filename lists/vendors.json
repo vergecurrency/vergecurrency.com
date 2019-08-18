@@ -367,8 +367,8 @@
         {
             "title": "Dead Day Revolution",
             "img": "../static/img/vendors/latest/deaddayrevo.png",
-            "link": "deaddayrevolution.com/shop",
-            "url": "https://deaddayrevolution.com/shop",
+            "link": "deaddayrevolution.com",
+            "url": "https://deaddayrevolution.com",
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
@@ -481,20 +481,6 @@
             "img": "../static/img/vendors/latest/bluntumbrellas.png",
             "link": "bluntumbrellas.com",
             "url": "https://www.bluntumbrellas.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Pracnyas Shop",
-            "img": "../static/img/vendors/latest/pracnyas.png",
-            "link": "pracnyas.shop",
-            "url": "https://pracnyas.shop/",
             "categories": {
                 "retail": true,
                 "foodAndBev": false,
@@ -1306,20 +1292,6 @@
             }
         },
         {
-            "title": "Rabbits Foot Custom Brews",
-            "img": "../static/img/vendors/latest/rabbitsfoot.png",
-            "link": "rabbitsfootcustombrews.com",
-            "url": "http://rabbitsfootcustombrews.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "White Sands Hosting",
             "img": "../static/img/vendors/latest/whitesands.png",
             "link": "whitesandshosting.com",
@@ -1442,20 +1414,6 @@
                 "service": true,
                 "entertainment": false,
                 "travel": true,
-                "education": false
-            }
-        },
-        {
-            "title": "Altered Block",
-            "img": "../static/img/vendors/latest/alteredblock.png",
-            "link": "alteredblock.com",
-            "url": "https://www.alteredblock.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
                 "education": false
             }
         },
@@ -1749,20 +1707,6 @@
                 "foodAndBev": false,
                 "service": false,
                 "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Hot and Sensuous",
-            "img": "../static/img/vendors/latest/hotandsensuous.png",
-            "link": "hotandsensuous.com (+18)",
-            "url": "https://www.hotandsensuous.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": true,
                 "travel": false,
                 "education": false
             }

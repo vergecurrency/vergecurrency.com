@@ -32,11 +32,11 @@ const Subnavigation_Items = {
       i18: 'submenu.our_team',
       name: 'Verge Team',
     },
-    {
+    {/* {
       link: '/history',
       i18: 'submenu.history',
       name: 'History',
-    },
+    },*/}
     {
       link: '/key-tech',
       i18: 'submenu.key_tech',
