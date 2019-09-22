@@ -17,7 +17,7 @@ import {
 
 import { HomeExchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
-import Coinchart from '../components/Coinchart';
+//import Coinchart from '../components/Coinchart';
 import { Mentions } from '../components/Mentions';
 import { HomeVendors } from '../components/Vendors';
 import Wallets from '../components/Wallets';
@@ -410,7 +410,7 @@ function Home(props) {
                     <span className="hidden-xs">
                       <br />
                     </span>
-                  </h3>    
+                  </h3>
                   <h4>
                     {t('home:getverge.text7', {
                       defaultValue: <i>Verge Currency provides the exchange information listed herein for informational purposes only. Verge Currency is not liable for any third-party transactions between cryptocurrency purchasers or sellers. Buyers and investors are to seek independent financial advice from a professional. Do your own research.</i>,
@@ -419,10 +419,10 @@ function Home(props) {
                     <span className="hidden-xs">
                       <br />
                     </span>
-                <Coinchart />
-                    <span className="hidden-xs">
+                {/*<Coinchart />*/}
+                    {/*<span className="hidden-xs">
                       <br />
-                    </span>
+                    </span>*/}
               </div>
               <div className="col-xs-10 center-xs end-sm pt-small">
                 <h6>
@@ -612,6 +612,7 @@ function Home(props) {
                               rel="noopener noreferrer"
                               className="social__link social__link--facebook"
                               name="Facebook link"
+                              title="Facebook"
                             >
                               <FontAwesomeIcon icon={faFacebook} size="2x" />
                             </a>
@@ -625,6 +626,7 @@ function Home(props) {
                               rel="noopener noreferrer"
                               className="social__link social__link--github"
                               name="GitHub link"
+                              title="GitHub"
                             >
                               <FontAwesomeIcon icon={faGithub} size="2x" />
                             </a>
@@ -638,6 +640,7 @@ function Home(props) {
                               rel="noopener noreferrer"
                               className="social__link social__link--telegram"
                               name="Telegram link"
+                              title="Telegram"
                             >
                               <FontAwesomeIcon icon={faTelegram} size="2x" />
                             </a>
@@ -651,6 +654,7 @@ function Home(props) {
                               rel="noopener noreferrer"
                               className="social__link social__link--youtube"
                               name="Youtube link"
+                              title="Youtube"
                             >
                               <FontAwesomeIcon icon={faYoutube} size="2x" />
                             </a>
@@ -664,6 +668,7 @@ function Home(props) {
                               rel="noopener noreferrer"
                               className="social__link social__link--reddit"
                               name="Reddit link"
+                              title="Reddit"
                             >
                               <FontAwesomeIcon icon={faReddit} size="2x" />
                             </a>
@@ -677,6 +682,7 @@ function Home(props) {
                               rel="noopener noreferrer"
                               className="social__link social__link--twitter"
                               name="Twitter link"
+                              title="Twitter"
                             >
                               <FontAwesomeIcon icon={faTwitter} size="2x" />
                             </a>
@@ -690,6 +696,7 @@ function Home(props) {
                               rel="noopener noreferrer"
                               className="social__link social__link--discord"
                               name="Discord link"
+                              title="Discord"
                             >
                               <FontAwesomeIcon icon={faDiscord} size="2x" />
                             </a>
