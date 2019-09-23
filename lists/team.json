@@ -9,7 +9,7 @@
         "occupation": "Network Security & Blockchain Expert",
         "github": "https://github.com/justinvforvendetta",
         "twitter": "https://twitter.com/justinvendetta",
-	      "location": "Florida, USA"
+        "location": "Florida, USA"
       },
       {
         "img": "../static/img/team/marpme.jpg",
@@ -27,7 +27,7 @@
         "occupation": "Full Stack Senior Web Developer",
         "github": "https://github.com/SwenVanZanten",
         "twitter": "https://twitter.com/SwenVanZanten",
-	      "location": "Voorhout, The Netherlands"
+        "location": "Voorhout, The Netherlands"
       },
       {
         "img": "../static/img/team/manuel.jpg",
@@ -36,7 +36,7 @@
         "occupation": "Software Engineer",
         "github": "https://github.com/Cabrasm",
         "twitter": "https://twitter.com/CabrasManuel",
-	      "location": "Switzerland"
+        "location": "Switzerland"
       },
       {
         "img": "../static/img/team/jeff.jpg",
@@ -54,16 +54,7 @@
         "occupation": "Full Stack Web Developer",
         "github": "https://github.com/Max1us",
         "twitter": "https://twitter.com/_maxius_",
-	      "location": "Melbourne, Australia"
-      },
-      {
-          "img": "../static/img/team/ivan.jpg",
-          "name": "Ivan - hellc",
-          "role": "Software Engineer",
-          "occupation": "Software Engineer",
-          "github": "https://github.com/hellc",
-          "twitter": "https://twitter.com/ihellc",
-          "location": "Russia"
+        "location": "Melbourne, Australia"
       }
     ]
   },
@@ -78,7 +69,7 @@
         "occupation": "Student Entrepreneur",
         "github": "https://github.com/arendgb",
         "twitter": "https://twitter.com/Arend_XVG",
-	      "location": "Tilburg, The Netherlands"
+        "location": "Tilburg, The Netherlands"
       },
       {
         "img": "../static/img/team/cc66.jpg",
@@ -87,7 +78,7 @@
         "occupation": "Social Engineering Specialist",
         "github": "",
         "twitter": "https://twitter.com/CoinCrazy66",
-	      "location": "Tennessee, USA"
+        "location": "Tennessee, USA"
       },
       {
         "img": "../static/img/team/mark.jpg",
@@ -114,7 +105,7 @@
         "occupation": "Hosting Services Provider",
         "github": "",
         "twitter": "https://twitter.com/Verge_forums",
-	      "location": "The Netherlands"
+        "location": "The Netherlands"
       },
       {
         "img": "../static/img/team/desolator.jpg",
@@ -123,7 +114,7 @@
         "occupation": "Lead System Engineer",
         "github": "",
         "twitter": "https://twitter.com/Desolatorbtc",
-	      "location": "Istanbul, Turkey"
+        "location": "Istanbul, Turkey"
       }
     ]
   },
@@ -138,7 +129,7 @@
         "occupation": "UI/UX Designer & Webdesigner",
         "github": "",
         "twitter": "https://twitter.com/waveon3",
-	      "location": "Odense, Denmark"
+        "location": "Odense, Denmark"
       },
       {
         "img": "../static/img/team/nick.jpg",
@@ -147,7 +138,7 @@
         "occupation": "Entrepreneur",
         "github": "",
         "twitter": "https://twitter.com/XVGGAUDI",
-	      "location": "Texas, USA"
+        "location": "Texas, USA"
       },
       {
         "img": "../static/img/team/alchemi.jpg",
@@ -156,7 +147,7 @@
         "occupation": "Multimedia Designer",
         "github": "",
         "twitter": "https://twitter.com/alchemi_co",
-	      "location": "New York, USA"
+        "location": "New York, USA"
       },
       {
         "img": "../static/img/team/niteshadow.jpg",
@@ -165,7 +156,7 @@
         "occupation": "IT/Content Marketing Strategist",
         "github": "",
         "twitter": "https://twitter.com/NiteShadowXVG",
-	      "location": "New York, USA"
+        "location": "New York, USA"
       },
       {
         "img": "../static/img/team/xvgninja.jpg",
@@ -174,7 +165,7 @@
         "occupation": "Corporate English Teacher / Editor",
         "github": "",
         "twitter": "https://twitter.com/xvg_ninja",
-	      "location": "Germany"
+        "location": "Germany"
       },
       {
         "img": "../static/img/team/jeroen.png",
@@ -198,7 +189,7 @@
         "occupation": "Systems Engineer",
         "github": "https://github.com/cryptorekt",
         "twitter": "https://twitter.com/CryptoRekt",
-	      "location": "California, USA"
+        "location": "California, USA"
       },
       {
         "img": "../static/img/team/mihael.jpg",
@@ -207,7 +198,7 @@
         "occupation": "Offshore Marine Engineer",
         "github": "",
         "twitter": "https://twitter.com/Mihael_CM",
-	      "location": "Rijeka, Croatia"
+        "location": "Rijeka, Croatia"
       },
       {
         "img": "../static/img/team/cryptogirldini.jpg",
@@ -216,7 +207,7 @@
         "occupation": "PM Health & Tech",
         "github": "",
         "twitter": "https://twitter.com/Dini_KLA",
-	      "location": "Rotterdam, The Netherlands"
+        "location": "Rotterdam, The Netherlands"
       },
       {
         "img": "../static/img/team/kris.jpg",
@@ -225,7 +216,7 @@
         "occupation": "Serial Entrepreneur & Investor",
         "github": "",
         "twitter": "https://twitter.com/KristopherMT",
-	      "location": "Canada"
+        "location": "Canada"
       },
       {
         "img": "../static/img/team/swizzlesticks.jpg",
@@ -234,7 +225,7 @@
         "occupation": "Owner/CEO - Managed Services Provider",
         "github": "",
         "twitter": "https://twitter.com/3wizzlesticks",
-	      "location": "Kentucky, USA"
+        "location": "Kentucky, USA"
       },
       {
         "img": "../static/img/team/birb.jpg",
@@ -243,16 +234,7 @@
         "occupation": "Procurement",
         "github": "",
         "twitter": "https://twitter.com/wit_sec_birb",
-	      "location": "Melbourne, Australia"
-      },
-      {
-        "img": "../static/img/team/jeremiah.png",
-        "name": "Jeremiah",
-        "role": "E-commerce Advisor",
-        "occupation": "Owner/CEO - FinTech SaaS Provider",
-        "github": "",
-        "twitter": "https://twitter.com/CEOEasyRent",
-        "location": "Minnesota, USA"
+        "location": "Melbourne, Australia"
       },
       {
         "img": "../static/img/team/harry.jpg",
@@ -279,7 +261,7 @@
         "occupation": "Civil Engineer",
         "github": "https://github.com/BlueManRising",
         "twitter": "https://twitter.com/nkazier",
-	      "location": "New Jersey, USA"
+        "location": "New Jersey, USA"
       }
     ]
   }

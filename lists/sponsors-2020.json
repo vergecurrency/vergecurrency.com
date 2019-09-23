@@ -1,0 +1,50 @@
+{
+  "sponsors": {
+    "whalePkg": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/AboutCrypto.jpg",
+        "title": "AboutCrypto",
+        "height": 65,
+        "url": "https://www.about-crypto.nl/"
+      }
+    ],
+    
+    "dolphinPkg": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/ShelterBlue.jpg",
+        "title": "ShelterBlue",
+        "height": 55,
+        "url": "https://shelterblue.com/verge"
+      }
+    ],
+
+    "goldfishPkg": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/WaffleHouse.jpg",
+        "title": "t stroopwafelhuisje",
+        "height": 65,
+        "url": "https://tstroopwafelhuisje.com"
+      }
+    ],
+
+    "mediaPartners": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/BitcoinMagazine.jpg",
+        "title": "BitcoinMagazine",
+        "height": 65,
+        "url": "https://bitcoinmagazine.nl/"
+      }
+      
+    ],
+
+    "vergeFam": [
+      {
+        "img": "../static/img/meetup-2019/sponsors/247Bits.jpg",
+        "title": "247Bits",
+        "height": 65,
+        "url": "https://www.247bits.com/"
+      }
+      
+    ]
+  }
+}

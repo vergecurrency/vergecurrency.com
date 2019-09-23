@@ -1,10 +1,11 @@
 .ribbon {
-  &--meetup19 {
-    min-height: rem(640px);
+  &--meetup20 {
+    min-height: rem(420px);
 
     .ribbon {
       &-img {
-      background: url(/static/img/meetup-2019/verge-meetup-top.png) no-repeat bottom center;
+        background-image: none;
+      /*background: url(/static/img/meetup-2020/verge-meetup-top.png) no-repeat bottom center;*/
       background-color: #04131F;
       background-size: contain;
       min-height: inherit;
@@ -38,10 +39,11 @@
 }
 
 .meetup {
-  &--bottom19 {
-    background: url(/static/img/meetup-2019/meetup-bottom.png) bottom center no-repeat;
-    background-size: rem(640px);
-    height: 12rem;
+  &--bottom20 {
+    background-image: none;
+    /*background: url(/static/img/meetup-2020/meetup-bottom.png) bottom center no-repeat;*/
+    background-size: rem(140px);
+    height: 4rem;
   }
 
   &__counter-number {

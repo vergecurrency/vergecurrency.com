@@ -19,7 +19,7 @@ function Meetup(props) {
         <script src="https://www.universe.com/embed2.js" data-state="" />
       </Head>
       <div className="meetup pt-large pb">
-        <div className="ribbon ribbon--meetup">
+        <div className="ribbon ribbon--meetup18">
           <div className="ribbon-img" />
 
           <div className="container">
@@ -225,7 +225,7 @@ function Meetup(props) {
           </div>
         </div>
       </div>
-      <div className="meetup--bottom" />
+      <div className="meetup--bottom18" />
     </Layout>
   );
 }
