@@ -4,7 +4,7 @@
   "description": "Built in ReactJS",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/sass-lint static/scss",
+    "test": "yarn build && ./node_modules/.bin/sass-lint static/scss",
     "dev": "node server.js",
     "build": "next build && next export -o docs && echo 'vergecurrency.com' > docs/CNAME && echo '' > docs/.nojekyll && cp -r pages/paper-wallet docs && cp -r pages/seedphrase docs",
     "prestart": "next build",
