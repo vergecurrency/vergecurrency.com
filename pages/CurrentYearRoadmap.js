@@ -89,10 +89,10 @@ const roadMap = [
   {
     done: false,
     doneDate: '',
-    title: 'RingCT Integration',
+    title: 'Official Android wallet update',
     description:
-      'Ring Confidential Transactions - advanced masking of transaction amounts',
-    progress: 45,
+      'Freshly redesigned wallet to match our corporate design and feature set.',
+    progress: 30,
     progressState: 'Work in progress',
   },
   {
@@ -102,15 +102,6 @@ const roadMap = [
     description: 'RSK Smart Contract Integration',
     progress: 25,
     progressState: 'Investigating integration',
-  },
-  {
-    done: false,
-    doneDate: '',
-    title: 'Official Android wallet update',
-    description:
-      'Freshly redesigned wallet to match our corporate design and feature set.',
-    progress: 30,
-    progressState: 'Work in progress',
   },
 ];
 
