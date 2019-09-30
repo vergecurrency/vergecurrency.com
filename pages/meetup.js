@@ -16,7 +16,6 @@ function Meetup(props) {
       <Head>
         <title key="title">{t('common:meta.meetup.title', { defaultValue: 'The Third Verge Meetup... TBA! - VergeCurrency.com' })}</title>
         <meta key="description" name="description" content={t('common:meta.meetup.description', { defaultValue: 'TBA' })} />
-        <script src="https://www.universe.com/embed2.js" data-state="" />
       </Head>
       <div className="meetup pt-large pb">
         <div className="ribbon ribbon--meetup20">
@@ -27,12 +26,11 @@ function Meetup(props) {
               <div className="col-xs-11 col-sm-10 text-center">
                 <div className="ribbon-txt">
                   <h1>
-                    Stay tuned for <br /><br />The Third Verge Meetup in
-                    {' '}
-                    2020
+                    Stay tuned for
                   </h1>
+                  <h1>`The Third Verge Meetup`</h1>
                   <p>
-                    We are in the process of planning our third official Verge meet-up.
+                    We are in the process of planning our third official Verge meetup.
                   </p>
                 </div>
               </div>
@@ -42,25 +40,20 @@ function Meetup(props) {
 
         <div className="container">
           <div className="row center-xs middle-xs pt">
-            <div className="col-xs-11 bb meetup--programme">
-              <h2>
-                Check out our previous Meet-ups
-              </h2>
-              <br />
-              <p>
-              <a href="/meetup-2019">2019, in Rotterdam, Netherlands</a>
-              </p>
-              <br />
-              <p>
-              <a href="/meetup-2018">2018, in Amsterdam, Netherlands</a>
-              </p>
+            <div className="col-xs-11 meetup--programme">
+              <h3>
+                Check out our previous Meetup's
+              </h3>
+              <a style={{ display: 'block', margin: '20px' }} href="/meetup-2019">
+                <code>[2019] Rotterdam, Netherlands</code>
+              </a>
+              <a style={{ display: 'block', margin: '20px' }} href="/meetup-2018">
+                <code>[2018] Amsterdam, Netherlands</code>
+              </a>
             </div>
           </div>
         </div>
-
-
       </div>
-      <div className="meetup--bottom20" />
     </Layout>
   );
 }
