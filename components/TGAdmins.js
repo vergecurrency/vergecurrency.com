@@ -1,41 +1,43 @@
 import Link from 'next/link';
-
-const TGAdminsLocale = require('../lists/tgadmins').tgadmins;
-
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
   faTelegram,
   faTwitter,
 } from '@fortawesome/fontawesome-free-brands';
 
-function TGAdmins() {
-  const tgadmins = TGAdminsLocale.map(tgadmins => (
-    <div className="col-xs col-md-3">
-      <div className="team--member pb-xs">
+import { tgadmins } from '../lists/tgadmins.json'
+
+const hasAnySocialContact = (telegramAdmin) => telegramAdmin.twitter || telegramAdmin.telegram
+const getSocialClassNames = (social) => Boolean(social) ? 'icon iconlink' : 'icon iconlink hidden'
+
+const TGAdmins = () => {
+  const telegramAdmins = tgadmins.map(telegramAdmin => (
+    <div className="col-xs-12 col-md-3">
+      <div className="team--member tg--admins pb-xs">
         <div className="flexIt">
-          <h3>{tgadmins.name}</h3>
-          <div className="socials">
-            <Link href={tgadmins.telegram}>
+          <h3>{telegramAdmin.name}</h3>
+          {hasAnySocialContact(telegramAdmin) ? <div className="socials">
+            <Link href={telegramAdmin.telegram}>
               <a
-                className={`icon iconlink ${tgadmins.telegram ? '' : 'hidden'}`}
-                href={tgadmins.telegram}
+                className={getSocialClassNames(telegramAdmin.telegram)}
+                href={telegramAdmin.telegram}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faTelegram} size="1x" />
               </a>
             </Link>
-            <Link href={tgadmins.twitter}>
+            <Link href={telegramAdmin.twitter}>
               <a
-                className={`icon iconlink ${tgadmins.twitter ? '' : 'hidden'}`}
-                href={tgadmins.twitter}
+                className={getSocialClassNames(telegramAdmin.twitter)}
+                href={telegramAdmin.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon icon={faTwitter} size="1x" />
               </a>
             </Link>
-          </div>
+          </div> : null}
         </div>
         <br />
       </div>
@@ -44,7 +46,7 @@ function TGAdmins() {
 
   return (
     <div className="row center-xs start-sm">
-      {tgadmins}
+      {telegramAdmins}
     </div>
   );
 }
