@@ -1,4 +1,4 @@
- // scss-lint:disable ColorVariable
+// scss-lint:disable ColorVariable
 .about {
   .btn-github {
     @media (min-width: $min-width-sm) {
@@ -6,10 +6,10 @@
     }
 
     &::before {
-      background-image: url("/static/img/github.svg");
+      background-image: url('/static/img/github.svg');
       background-repeat: no-repeat;
       background-size: cover;
-      content: "";
+      content: '';
       height: rem(20px);
       margin-left: -2rem;
       position: absolute;
@@ -21,6 +21,12 @@
     &--member {
       width: 100%;
 
+      &.tg--admins {
+        a {
+          color: #4e4e4e;
+        }
+      }
+
       &_border {
         transition: background-color 0.2s linear;
         display: inline-block;
@@ -29,15 +35,14 @@
         clip-path: circle(50% at 50% 50%);
       }
       &_border:hover {
-        background-color: rgba(48,174,209,1);
+        background-color: rgba(48, 174, 209, 1);
       }
-      
 
       .flexIt {
         display: flex;
         justify-content: start;
 
-        @media screen and (max-width:767px) {
+        @media screen and (max-width: 767px) {
           justify-content: center;
         }
       }
@@ -64,7 +69,7 @@
       }
 
       .hidden {
-        display:none;
+        display: none;
       }
     }
   }
@@ -74,7 +79,7 @@
       border: 1px solid #ececec;
       display: block;
       margin-bottom: rem(15px);
-      padding: .75rem;
+      padding: 0.75rem;
 
       img {
         background: $pacific-blue-1;
@@ -99,7 +104,7 @@
 
         a {
           color: #4e4e4e;
-          font-size: .75rem;
+          font-size: 0.75rem;
           font-weight: 600;
         }
       }
