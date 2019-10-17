@@ -1,0 +1,7 @@
+.pool-item {
+  padding: 2px;
+  &::before {
+      content: '- ';
+      margin-right: 2px;
+  }
+}
