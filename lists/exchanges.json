@@ -55,18 +55,6 @@
       "url": "https://changenow.io"
     },
     {
-      "img": "../static/img/exchanges/dynx.png",
-      "title": "DynX",
-      "link": "dynx.io",
-      "url": "https://www.dynx.io/"
-    },
-    {
-      "img": "../static/img/exchanges/omgfin.png",
-      "title": "OMGFIN",
-      "link": "omgfin.com",
-      "url": "https://omgfin.com/"
-    },
-    {
       "img": "../static/img/exchanges/changehero.png",
       "title": "ChangeHero",
       "link": "changehero.io",
@@ -89,12 +77,6 @@
       "title": "BitTurk",
       "link": "bitturk.com",
       "url": "https://bitturk.com/verge-xvgtry"
-    },
-    {
-      "img": "../static/img/exchanges/fexpro.png",
-      "title": "FexPro",
-      "link": "fexpro.io",
-      "url": "https://fexpro.io/Home/Exchange?type=XVG/BTC&buytype=BTC"
     },
     {
       "img": "../static/img/exchanges/anycoindirect.png",
@@ -145,40 +127,22 @@
       "url": "https://www.coinspot.com.au/buy/xvg"
     },
     {
-      "img": "../static/img/exchanges/blocknet.png",
-      "title": "BlockNet",
-      "link": "blocknet.co",
-      "url": "https://blocknet.co"
-    },
-    {
       "img": "../static/img/exchanges/litebit.png",
       "title": "Litebit",
       "link": "litebit.eu",
       "url": "https://litebit.eu"
     },
     {
-      "img": "../static/img/exchanges/exchanged.jpg",
-      "title": "ExchangeD",
-      "link": "DeepWeb link",
-      "url": "https://bitcointalk.org/index.php?topic=1092682.0"
-    },
-    {
       "img": "../static/img/exchanges/coinwale.png",
-      "title": "CoinWale",
-      "link": "coinwale.com",
-      "url": "https://coinwale.com"
+      "title": "instaex",
+      "link": "instaex.io",
+      "url": "https://instaex.io"
     },
     {
       "img": "../static/img/exchanges/changelly.png",
       "title": "Changelly",
       "link": "changelly.com",
       "url": "https://changelly.com"
-    },
-    {
-      "img": "../static/img/exchanges/coin2001.png",
-      "title": "Coin2001",
-      "link": "coin2001.com",
-      "url": "https://coin2001.com"
     },
     {
       "img": "../static/img/exchanges/cryptobridge.png",
@@ -191,18 +155,6 @@
       "title": "TradeSatoshi",
       "link": "tradesatoshi.com",
       "url": "https://tradesatoshi.com/Exchange?market=XVG_BTC"
-    },
-    {
-      "img": "../static/img/exchanges/coinsready.png",
-      "title": "CoinsReady",
-      "link": "coinsready.io",
-      "url": "https://coinsready.io"
-    },
-    {
-      "img": "../static/img/exchanges/novaexchange.png",
-      "title": "NovaExchange",
-      "link": "novaexchange.com",
-      "url": "https://novaexchange.com/market/BTC_XVG/"
     },
     {
       "img": "../static/img/exchanges/nexchange.png",
@@ -245,18 +197,6 @@
       "title": "SwapLab",
       "link": "swaplab.cc",
       "url": "https://swaplab.cc/"
-    },
-    {
-      "img": "../static/img/exchanges/chaincreator.png",
-      "title": "CHAINCREATOR EXCHANGE",
-      "link": "chaincreator.org",
-      "url": "https://www.chaincreator.exchange"
-    },
-    {
-      "img": "../static/img/exchanges/traderone.png",
-      "title": "TRADER ONE",
-      "link": "traderone.exchange",
-      "url": "https://traderone.exchange/"
     },
     {
       "img": "../static/img/exchanges/cryptofacil.png",
