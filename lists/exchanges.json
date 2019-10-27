@@ -25,10 +25,10 @@
       "url": "https://net-cents.com/markets/xvgbtc"
     },
     {
-      "img": "../static/img/exchanges/bitladon.png",
-      "title": "Bitladon",
-      "link": "bitladon.com",
-      "url": "https://www.bitladon.com/?r=100021746"
+      "img": "../static/img/exchanges/litebit.png",
+      "title": "Litebit",
+      "link": "litebit.eu",
+      "url": "https://litebit.eu"
     },
     {
       "img": "../static/img/exchanges/bithumb.png",
@@ -127,12 +127,6 @@
       "url": "https://www.coinspot.com.au/buy/xvg"
     },
     {
-      "img": "../static/img/exchanges/litebit.png",
-      "title": "Litebit",
-      "link": "litebit.eu",
-      "url": "https://litebit.eu"
-    },
-    {
       "img": "../static/img/exchanges/coinwale.png",
       "title": "instaex",
       "link": "instaex.io",
@@ -203,6 +197,12 @@
       "title": "CryptoFacil",
       "link": "cryptofacil.com",
       "url": "https://cryptofacil.com/"
+    },
+    {
+      "img": "../static/img/exchanges/bitladon.png",
+      "title": "Bitladon",
+      "link": "bitladon.com",
+      "url": "https://www.bitladon.com/?r=100021746"
     }
   ]
 }
