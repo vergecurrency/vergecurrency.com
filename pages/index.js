@@ -304,7 +304,7 @@ function Home(props) {
               <div className="row center-xs pt-large pb-large">
                 <div className="col-xs-9 col-sm-10 center-xs">
                   <div className="row center-xs start-md">
-                    <div className="col-xs-12 col-lg-10">
+                    <div className="col-xs-12 col-lg-12">
                       <div className="start-sm pb-small">
                         <h6>
                           <Link href="/wallets">

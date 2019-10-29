@@ -73,6 +73,79 @@ function FBV(props) {
               <div className="fbvAthletesHeading">Verge Athletes</div>
             </div>
 
+
+
+
+            <div className="row start-xs pt pb bb">
+
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsLeft">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/pacquiaofoundation"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Manny Pacquiao Foundation's Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://twitter.com/MPac_Foundation"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Manny Pacquiao Foundation's Twitter"
+                      >
+                        <i className="icon icon--twitter" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.facebook.com/PacquiaoFoundation/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Manny Pacquiao Foundation's Facebook"
+                      >
+                        <i className="icon icon--facebook" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">Boxing</p>
+                  <p className="athleteName">Manny Pacquiao Foundation</p>
+                  <p className="athleteLocation">Philippines</p>
+
+                  <p className="athleteDescription">
+                    Named and founded on behalf of future Hall of Fame Boxer Manny Pacquiao,
+                    {' '}
+                    The Manny Pacquiao Foundation seeks to empower communities and individuals through charitable
+                    {' '}
+                    support and a message of hope and change.
+                    <br /><br />
+                    Manny and his wife, Jinkee, have long supported local communities throughout their careers by
+                    {' '}
+                    building over 1,000 residential homes, aiding in natural disaster relief efforts,
+                    {' '}
+                    covering hospital bills and expenses, and providing food and resources to the hungry.
+                    <br /><br />
+                    Through their foundation, the hope is to continue serving such causes in a greater capacity.
+                  </p>
+
+                </div>
+              </div>
+
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 col-sm-offset-0 first-xs last-sm center-xs end-sm">
+                <img src="/static/img/fbv/MPacFoundation.png" alt="Manny Pacquiao Foundation Fueled by Verge" title="Manny Pacquiao Foundation Fueled by Verge" />
+              </div>
+            </div>
+
+
+
+
             <div className="row start-xs pt pb bb">
 
               <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
@@ -110,13 +183,13 @@ function FBV(props) {
                   <p className="athleteLocation">Calgary, Canada</p>
 
                   <p className="athleteDescription">
-                    Danny is from Calgary, Alberta, Canada. Although he is only 10 years old, he has an extraordinary 6 years of racing experience. 
+                    Danny is from Calgary, Alberta, Canada. Although he is only 10 years old, he has an extraordinary 6 years of racing experience.
                     {' '}
                     He is regularly training and has a huge potential to become a legend in motocross world such as Ricky Carmichael or Jeremy McGrath.
                     <br /><br />
-                    Danny is one of our youngest community members who believes in privacy and the Verge vision, and wanted to help the younger generation 
+                    Danny is one of our youngest community members who believes in privacy and the Verge vision, and wanted to help the younger generation
                     {' '}
-                    acknowledge cryptocurrencies by covering his bike with the Verge brand. 
+                    acknowledge cryptocurrencies by covering his bike with the Verge brand.
                     {' '}
                     He did not get any compensation for doing so, but sees it as his contribution to bringing awareness.
                   </p>
@@ -158,19 +231,19 @@ function FBV(props) {
                   <p className="athleteLocation">Luxembourg</p>
 
                   <p className="athleteDescription">
-                    Gil is a Verge supporter and a race car driver. He currently races stock cars in the NASCAR Whelen Euro Series. 
+                    Gil is a Verge supporter and a race car driver. He currently races stock cars in the NASCAR Whelen Euro Series.
                     <br /><br />
-                    In 2017, he became the first ever Luxembourgish NASCAR driver while driving the number 44 race car from Caal Racing team in the Whelen Euro Series, 
+                    In 2017, he became the first ever Luxembourgish NASCAR driver while driving the number 44 race car from Caal Racing team in the Whelen Euro Series,
                     {' '}
                     and ended his first season in 9th place overall.
                     <br /><br />
-                    He recently placed 4th and 13th at circuit Zolder - in his second race, he experienced engine difficulties that hindered his performance, 
+                    He recently placed 4th and 13th at circuit Zolder - in his second race, he experienced engine difficulties that hindered his performance,
                     {' '}
                     but finished the 2018 Season (of the Elite 2 category) in 5th place.
                     <br /><br />
                     Gill will also be racing in the USA in his next season, with the addition of NASCAR’s Whelen All-American Series, the "lmv8 oval championship".
                     <br /><br />
-                    Verge and Gil are both ready to tackle mass adoption and spread its awareness and education through racing. 
+                    Verge and Gil are both ready to tackle mass adoption and spread its awareness and education through racing.
                   </p>
 
                 </div>
@@ -207,7 +280,7 @@ function FBV(props) {
                   <p className="athleteLocation">New York</p>
 
                   <p>
-                    The 2019-2020 Late Model Pro Series will be sponsored by Verge, and will coincide with a new era of racing. 
+                    The 2019-2020 Late Model Pro Series will be sponsored by Verge, and will coincide with a new era of racing.
                     {' '}
                     After 8 seasons of the Late Model, the Series will now use the Super Late Model.
                     <br /><br />
@@ -239,7 +312,7 @@ function FBV(props) {
             </div>
 
             <div className="row center-xs middle-xs">
-              
+
               <div className="col-xs-12 col-lg-8">
                 <div className="fbvTextLeftAlignment">
                   The goal of #FueledByVerge is to showcase the utility of Verge through events by its community. Our Verge Currency team is the first team that is &quot;Fueled by Verge&quot; in both design and spirit.
