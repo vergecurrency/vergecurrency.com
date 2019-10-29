@@ -9,7 +9,7 @@ export const PartnerInfo = ({ t }) => {
 
   return (
     <div className="row center-xs pt-large pb">
-      <div className="col-xs-10 start-xs exchanges bb">
+      <div className="col-xs-11 start-xs exchanges bb">
         <div className="start-sm pb-small">
           <h2>
             {t('home:partnership.intro', {
@@ -127,7 +127,22 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
-          <div></div>
+
+
+          <div>
+            <a href="https://pacquiaofoundation.org/">
+              <img src="/static/img/vendors/latest/pacfoundation.png" alt="pacfoundation" class="img--wider" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.pacfoundation', {
+                defaultValue: `
+                Named and founded on behalf of future Hall of Fame Boxer Manny Pacquiao, The Manny Pacquiao Foundation 
+                seeks to empower communities and individuals through charitable support and a message of hope and change.`,
+              })}
+            </ExpandCollapse>
+          </div>
+
+
           <div>
             <a href="https://www.xcelpay.io/">
               <img src="/static/img/vendors/latest/xcelpay.png" alt="xcelpay" />

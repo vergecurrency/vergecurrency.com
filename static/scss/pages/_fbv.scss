@@ -73,7 +73,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 1080px){          
+@media only screen and (max-width: 1080px){
 .Fbvimage1{
     display: none;
   }
@@ -86,7 +86,7 @@
   }
 }
 
-@media only screen and (max-width: 864px){          
+@media only screen and (max-width: 864px){
   .Fbvimage1{
     display: none;
   }
@@ -99,7 +99,7 @@
   }
 }
 
-@media only screen and (max-width: 690px){       
+@media only screen and (max-width: 690px){
   .Fbvimage1{
     display: none;
   }
@@ -112,7 +112,7 @@
   }
 }
 
-@media only screen and (max-width: 655px){          
+@media only screen and (max-width: 655px){
   .Fbvimage1{
     display: none;
   }
@@ -125,11 +125,11 @@
   }
 }
 
-@media only screen and (max-width: 500px){        
+@media only screen and (max-width: 500px){
   .Fbvimage1{
     display: none;
   }
-  
+
   .Fbvimage2{
     display: block;
     position: absolute;
@@ -176,7 +176,7 @@
 @media (min-width: 68em) {
 .fbv-grid {
   margin: 35px 0px;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
   grid-auto-flow: row;
   text-align: center;
@@ -213,14 +213,14 @@
   text-align: center;
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-  
-.fbvRibbon {  
+
+.fbvRibbon {
   position: relative;
   text-align: center;
   background-color: #f5f7fa;
-  
+
 }
-  
+
 .fbvRibbonHeading {
   top: 30%;
   color: #31A2C9;
@@ -232,7 +232,7 @@
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
   z-index: 2;
 }
-  
+
 .fbvRibbonHeadingSub2 {
   top: 30%;
   color: #9B9DA6;
@@ -242,8 +242,8 @@
   font-style: normal;
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
   z-index: 3;
-}  
-  
+}
+
 @media screen and (max-width: 900px) {
   .fbvRibbonHeading {
     color: #31A2C9;
@@ -293,7 +293,7 @@
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
 }
-  
+
 @media screen and (max-width: 900px) {
   .fbvRibbonHeadingSub2 {
     color: #9B9DA6;
@@ -304,8 +304,8 @@
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
     z-index: 3;
   }
-} 
-  
+}
+
 @media screen and (max-width: 600px) {
   .fbvRibbonHeadingSub2 {
     color: #9B9DA6;
@@ -327,7 +327,7 @@
   text-align: center;
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-  
+
 .fbvAthletes {
   display: table;
   width: 80%;
@@ -335,14 +335,14 @@
   text-align: center;
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-  
+
 .fbvAthletesRow {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
   margin: auto;
   width: 100%;
-} 
+}
 
 .fbvAthletesColumn {
   flex: 25%;
@@ -448,14 +448,14 @@ p.athleteLocation {
   text-align: center;
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-  
+
 .fbvMotoBike {
   width: 100%;
   height: auto;
   text-align: center;
   max-width: 100% !important;
 }
-  
+
 .fbvMotoBG {
   background-repeat: no-repeat, repeat;
   margin-left: auto;
@@ -464,7 +464,7 @@ p.athleteLocation {
   padding-bottom: 25px;
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-  
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .fbvMotoBG {
@@ -480,7 +480,7 @@ p.athleteLocation {
     max-width: 100%;
   }
 }
-  
+
 .fbvMotoContent {
   display: table;
   /*width: 100%;*/
@@ -547,14 +547,14 @@ p.athleteLocation {
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
 }
-  
+
 .fbvAthletesHeading {
   color: #091721;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
-} 
+}
 
 .fbvCommunityHeading {
   color: #091721;
@@ -565,7 +565,7 @@ p.athleteLocation {
   margin-bottom: 25px;
   font-family: "Avenir Next", "Lato", Arial, sans-serif;
 }
-  
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 
 @media screen and (max-width: 1080px) {
@@ -604,7 +604,7 @@ p.athleteLocation {
     font-family: "Avenir Next", "Lato", Arial, sans-serif;
   }
 }
-  
+
 .divTableCell, .divTableHead {
   border: 1px solid #999999;
   display: table-cell;
@@ -651,13 +651,13 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-  
+
 .fbvButton:hover {
   -webkit-box-shadow: 0 0 3.125rem rgba(120, 203, 235, 0.39);
   box-shadow: 0 0 3.125rem rgb(120, 203, 235);
   color: #fff;
 }
-  
+
 .fbvButton {
   background-color: #1db6dc;
   border: none;

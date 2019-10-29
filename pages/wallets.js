@@ -87,7 +87,7 @@ function WalletsPage(props) {
             <div className="row center-xs pt-large pb-large">
               <div className="col-xs-10 center-xs">
                 <div className="row center-xs start-md">
-                  <div className="col-xs-12 col-lg-10">
+                  <div className="col-xs-12 col-lg-12">
                     <div className="start-sm pb-small">
                       <h6>{t('wallets:body.header3', { defaultValue: 'Wallets for all platforms' })}</h6>
                       <h2>
