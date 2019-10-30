@@ -127,8 +127,6 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
-
-
           <div>
             <a href="https://pacquiaofoundation.org/">
               <img src="/static/img/vendors/latest/pacfoundation.png" alt="pacfoundation" class="img--wider" />
@@ -141,8 +139,6 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
-
-
           <div>
             <a href="https://www.xcelpay.io/">
               <img src="/static/img/vendors/latest/xcelpay.png" alt="xcelpay" />
@@ -153,6 +149,19 @@ export const PartnerInfo = ({ t }) => {
                 XcelPay is a groundbreaking wallet which serves both consumers and merchants. It offers consumers the flexibility to store, 
                 send and receive cryptos from around the world, and it enables businesses to receive payment both online and offline through its POS device, 
                 which facilitates physical in-person cryptocurrency transactions.`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div></div>
+          <div>
+            <a href="https://atomicwallet.io/">
+              <img src="/static/img/vendors/latest/atomicwallet.png" alt="atomicwallet" className="img--smaller"/>
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.atomicwallet', {
+                defaultValue: `
+                Atomic Wallet provides a powerful, in-demand service that allows users to reduce effort spent on managing crypto assets​ and makes it transparent and reliable.
+                For coins not yet supported by Atomic Swap, ShapeShift, ChangeNOW and Changelly exchanges are built-in.`,
               })}
             </ExpandCollapse>
           </div>
