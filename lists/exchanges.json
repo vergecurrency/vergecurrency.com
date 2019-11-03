@@ -193,6 +193,12 @@
       "url": "https://swaplab.cc/"
     },
     {
+      "img": "../static/img/exchanges/kubitx.png",
+      "title": "KuBitX",
+      "link": "kubitx.com",
+      "url": "https://kubitx.com/"
+    },
+    {
       "img": "../static/img/exchanges/cryptofacil.png",
       "title": "CryptoFacil",
       "link": "cryptofacil.com",
