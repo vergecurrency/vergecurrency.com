@@ -57,22 +57,6 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://www.tokenpay.com/">
-              <img src="/static/img/partners/tokenpay.png" alt="tokenpay" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.tpay', {
-                defaultValue: `TokenPay was created with the fundamental desire to bridge
-                    modern-day financial institutions with the benefits of the
-                    blockchain space. TPAY is an open-sourced, decentralized, and
-                    self-verifying payment platform project with a passionate
-                    community following with a focus on adoption, decentralization and
-                    ease of use for digital currencies in todays mixed currency global
-                    financial system.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
             <a href="https://poweredbyzomongo.com/">
               <img src="/static/img/partners/poweredbyzomongo.png" alt="zomongo" />
             </a>
@@ -83,21 +67,6 @@ export const PartnerInfo = ({ t }) => {
                 with over 600,000 followers. ZOMONGO’s mission is to become the leader in this point-of-sale media by providing a 
                 fully managed, totally turnkey, digital signage, media/product dissemination, and couponing solution.
                 The powered by ZOMONGO app is available on Google Play and Apple Store.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
-            <a href="https://www.plaak.com/">
-              <img src="/static/img/partners/plaak.png" alt="plaak" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.plaak', {
-                defaultValue: `PLAAK is a Singaporean based Software Development & Blockchain Technology 
-                Company with a suite of high-tech and easy to use applications for mobile and desktop 
-                computer devices. Developing useful everyday applications that can store, transact and 
-                also trade digital currencies encourages global use and wider spread adoption. 
-                One such product, is the PLAAK Core Card a sleek and easy to carry and use device, 
-                enabling Core Card owners to safely store, transact and receive digital currencies anywhere.`,
               })}
             </ExpandCollapse>
           </div>
