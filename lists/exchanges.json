@@ -199,6 +199,12 @@
       "url": "https://kubitx.com/"
     },
     {
+      "img": "../static/img/exchanges/changeangel.png",
+      "title": "changeangel",
+      "link": "changeangel.io",
+      "url": "https://changeangel.io/"
+    },
+    {
       "img": "../static/img/exchanges/cryptofacil.png",
       "title": "CryptoFacil",
       "link": "cryptofacil.com",
