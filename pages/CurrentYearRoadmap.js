@@ -83,8 +83,8 @@ const roadMap = [
     title: 'Desktop Wallet',
     description:
       'Electron based wallet with better performance and minimalistic UI design',
-    progress: 85,
-    progressState: 'Preparing release',
+    progress: 5,
+    progressState: 'Work in progress',
   },
   {
     done: false,
