@@ -1,6 +1,6 @@
 const sponsors = [
     {
-        href: "https://www.jetbrains.com/",
+        href: "https://www.jetbrains.com/?from=vergecurrency",
         logo: "/static/img/sponsors/jetbrains.png",
         alt: "jetbrains"
     },
