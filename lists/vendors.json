@@ -153,7 +153,7 @@
                 "travel": false,
                 "education": false
             }
-        }, 
+        },
         {
             "title": "Brandable Dots",
             "img": "../static/img/vendors/latest/brandabledots.png",
@@ -167,7 +167,7 @@
                 "travel": false,
                 "education": false
             }
-        },        
+        },
         {
             "title": "DIOXYME",
             "img": "../static/img/vendors/latest/dioxyme.png",
@@ -1926,6 +1926,20 @@
             "img": "../static/img/vendors/latest/mvps.png",
             "link": "mvps.net",
             "url": "https://www.mvps.net/?aff=2424",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "SwitchVPN",
+            "img": "../static/img/vendors/latest/switchvpn.png",
+            "link": "switchvpn.net",
+            "url": "https://switchvpn.net",
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
