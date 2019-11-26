@@ -2,32 +2,37 @@ const sponsors = [
     {
         href: "https://www.jetbrains.com/?from=vergecurrency",
         logo: "/static/img/sponsors/jetbrains.png",
-        alt: "jetbrains"
+        alt: "Jetbrains"
     },
     {
         href: "https://go-trex.com/",
         logo: "/static/img/sponsors/gotrex.png",
-        alt: "go trex"
+        alt: "Go Trex"
     },
     {
         href: "https://shelterblue.com/",
         logo: "/static/img/sponsors/shelterblue.png",
-        alt: "shelter blue"
+        alt: "Shelter Blue"
     },
     {
         href: "https://www.clothingric.com/",
         logo: "/static/img/sponsors/clothingric.png",
-        alt: "clothing ric"
+        alt: "Clothing RIC"
     },
     {
         href: "https://blockchainbusinessmagazine.com/",
         logo: "/static/img/sponsors/bbm.png",
-        alt: "blockchain business magazine"
+        alt: "Blockchain Business Magazine"
     },
     {
         href: "https://nownodes.io/",
         logo: "/static/img/sponsors/nownodes.png",
-        alt: "now nodes"
+        alt: "Now Nodes"
+    },
+    {
+        href: "https://247bids.com/",
+        logo: "/static/img/sponsors/247bids.png",
+        alt: "247Bids"
     }
 ]
 
@@ -50,7 +55,7 @@ export const SponsorsInfo = ({ t }) =>
                     sponsors.map(({ href, alt, logo }) => {
                         return (<div>
                             <a href={href}>
-                                <img src={logo} alt={alt} />
+                                <img src={logo} alt={alt} title={alt} />
                             </a>
                         </div>)
                     })
