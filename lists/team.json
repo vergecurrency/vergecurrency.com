@@ -115,6 +115,15 @@
         "github": "",
         "twitter": "https://twitter.com/Desolatorbtc",
         "location": "Istanbul, Turkey"
+      },
+      {
+        "img": "../static/img/team/melvin.jpg",
+        "name": "Melvin",
+        "role": "Outreach",
+        "occupation": "Logistics Management",
+        "github": "",
+        "twitter": "https://twitter.com/melvin_van_es",
+        "location": "Rotterdam, The Netherlands"
       }
     ]
   },
@@ -174,7 +183,16 @@
         "occupation": "Consultant",
         "github": "",
         "twitter": "",
-        "location": "Tillburg, Netherlands"
+        "location": "Tillburg, The Netherlands"
+      },
+      {
+        "img": "../static/img/team/maxime.jpg",
+        "name": "Maxime - MrGoops",
+        "role": "Marketing",
+        "occupation": "Entrepreneur",
+        "github": "",
+        "twitter": "https://twitter.com/cryptocuistot",
+        "location": "Paris, France"
       }
     ]
   },
