@@ -221,6 +221,12 @@
       "title": "Bitladon",
       "link": "bitladon.com",
       "url": "https://www.bitladon.com/?r=100021746"
+    },
+	{
+      "img": "../static/img/exchanges/pars.png",
+      "title": "Pars",
+      "link": "parsxc.com",
+      "url": "https://parsxc.com"
     }
   ]
 }
