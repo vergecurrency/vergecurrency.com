@@ -39,15 +39,6 @@
         "location": "Switzerland"
       },
       {
-        "img": "../static/img/team/jeff.jpg",
-        "name": "Jeff",
-        "role": "Web Developer",
-        "occupation": "Systems Engineer",
-        "github": "https://github.com/jrsikors",
-        "twitter": "",
-        "location": "Texas, USA"
-      },
-      {
         "img": "../static/img/team/maxius.jpg",
         "name": "Damien - Maxius",
         "role": "Web Developer",
@@ -90,24 +81,6 @@
         "location": "Alberta, Canada"
       },
       {
-        "img": "../static/img/team/ryanv.png",
-        "name": "Ryan",
-        "role": "Business Development",
-        "occupation": "Owner / CEO - Marketing & Development",
-        "github": "",
-        "twitter": "https://twitter.com/CryptoRyanV",
-        "location": "Washington, USA"
-      },
-      {
-        "img": "../static/img/team/cloakfox.jpg",
-        "name": "Leon - cloakfox",
-        "role": "Community Relations Specialist",
-        "occupation": "Hosting Services Provider",
-        "github": "",
-        "twitter": "https://twitter.com/Verge_forums",
-        "location": "The Netherlands"
-      },
-      {
         "img": "../static/img/team/desolator.jpg",
         "name": "Numan",
         "role": "Business Development",
@@ -131,24 +104,6 @@
   "marketing": {
     "title": "Marketing Team",
     "members": [
-      {
-        "img": "../static/img/team/hassan.jpg",
-        "name": "Hassan",
-        "role": "Lead UI Designer & Graphics",
-        "occupation": "UI/UX Designer & Webdesigner",
-        "github": "",
-        "twitter": "https://twitter.com/waveon3",
-        "location": "Odense, Denmark"
-      },
-      {
-        "img": "../static/img/team/nick.jpg",
-        "name": "Nick Gaudiano",
-        "role": "Media & Visuals Creator; Marketing",
-        "occupation": "Entrepreneur",
-        "github": "",
-        "twitter": "https://twitter.com/XVGGAUDI",
-        "location": "Texas, USA"
-      },
       {
         "img": "../static/img/team/alchemi.jpg",
         "name": "Alchemi",
@@ -219,15 +174,6 @@
         "location": "Rijeka, Croatia"
       },
       {
-        "img": "../static/img/team/cryptogirldini.jpg",
-        "name": "Dini",
-        "role": "Head of Project Management",
-        "occupation": "PM Health & Tech",
-        "github": "",
-        "twitter": "https://twitter.com/Dini_KLA",
-        "location": "Rotterdam, The Netherlands"
-      },
-      {
         "img": "../static/img/team/kris.jpg",
         "name": "Kristopher",
         "role": "Marketing & Operations Advisor",
@@ -271,15 +217,6 @@
         "github": "",
         "twitter": "https://twitter.com/TheCryptoCamel",
         "location": "Washington, USA"
-      },
-      {
-        "img": "../static/img/team/blueman.jpg",
-        "name": "BlueManRising",
-        "role": "Technical Marketing Engineer",
-        "occupation": "Civil Engineer",
-        "github": "https://github.com/BlueManRising",
-        "twitter": "https://twitter.com/nkazier",
-        "location": "New Jersey, USA"
       }
     ]
   }
