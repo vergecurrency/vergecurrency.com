@@ -35,6 +35,16 @@ export default [
     supportedAlgos: 'Scrypt',
   },
   {
+    poollink: 'http://zergpool.com/site/mining',
+    poolname: 'ZergPool',
+    supportedAlgos: 'Scrypt, Groestl, Blake2s, Lyra2Rev2, x17',
+  },
+  {
+    poollink: 'http://blazepool.com/',
+    poolname: 'BlazePool',
+    supportedAlgos: 'Scrypt, Groestl, Blake2s, Lyra2Rev2, x17',
+  },
+  {
     poollink: 'http://poolovich.pro/',
     poolname: 'Poolovich',
     supportedAlgos: 'Groestl, Lyra2Rev2, x17',
