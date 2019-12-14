@@ -69,6 +69,7 @@ const MiningPools = () => (
               <div className="pool-item"><Link href="https://prohashing.com/"><a href="https://prohashing.com/" target="_blank" rel="noopener noreferrer">ProHashing</a></Link></div>
               <div className="pool-item"><Link href="https://www.mining-dutch.nl"><a href="https://www.mining-dutch.nl" target="_blank" rel="noopener noreferrer">Mining-Dutch.nl</a></Link></div>
               <div className="pool-item"><Link href="https://fairpool.pro"><a href="https://fairpool.pro" target="_blank" rel="noopener noreferrer">Fairpool.pro</a></Link></div>
+              <div className="pool-item"><Link href="http://blazepool.com/"><a href="http://blazepool.com/" target="_blank" rel="noopener noreferrer">BlazePool.com</a></Link></div>
             </ul>
           </div>
         </Content>
