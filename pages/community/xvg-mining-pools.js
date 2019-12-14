@@ -17,8 +17,7 @@ class MiningPools extends React.Component {
     if (filter === '') return pools;
 
     return pools
-      .filter(pool => pool.supportedAlgos.toLocaleLowerCase().includes(filter.toLocaleLowerCase()))
-      .sort((a, b) => a.supportedAlgos.split(',').length - b.supportedAlgos.split(',').length);
+      .filter(pool => pool.supportedAlgos.toLocaleLowerCase().includes(filter.toLocaleLowerCase()));
   }
 
   updateSearch(text) {
@@ -53,6 +52,11 @@ class MiningPools extends React.Component {
                       <a key={id} href={pool.poollink}>
                         <div className="pool-item card">
                           <h1>{pool.poolname}</h1>
+                          <p>
+                            {'Hardfork Ready:'}
+                            {' '}
+                            {pool.hardfork ? '✅' : '❓' }
+                          </p>
                           <h5>
                             {'Algorithms:'}
                           </h5>
