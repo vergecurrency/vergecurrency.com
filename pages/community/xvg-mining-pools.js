@@ -1,70 +1,74 @@
-import Link from 'next/link';
+import React from 'react';
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
+import pools from './miningpools';
 
-const MiningPools = () => (
-  <Layout>
-    <div className="learnmore">
-      <div className="container">
-        <Content>
-          <div className="row">
-            <h1>Verge Pools</h1>
-            <ul>
-              <h2>Scrypt</h2>
-              <div className="pool-item"><Link href="https://bsod.pw/en/pool/dashboard/xvg/"><a href="https://bsod.pw/en/pool/dashboard/xvg/" target="_blank" rel="noopener noreferrer">BSOD.PW</a></Link></div>
-              <div className="pool-item"><Link href="http://blockmasters.co"><a href="http://blockmasters.co" target="_blank" rel="noopener noreferrer">Block Masters</a></Link></div>
-              <div className="pool-item"><Link href="https://verge-scrypt.miningpoolhub.com/"><a href="https://verge-scrypt.miningpoolhub.com/" target="_blank" rel="noopener noreferrer">MiningPoolHub.com</a></Link></div>
-              <div className="pool-item"><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">ZPool</a></Link></div>
-              <div className="pool-item"><Link href="https://www.mining-dutch.nl"><a href="https://www.mining-dutch.nl" target="_blank" rel="noopener noreferrer">mining-dutch.nl</a></Link></div>
-              <div className="pool-item"><Link href="http://xvg.mastermining.net/index.php?page=statistics&action=pool"><a href="http://xvg.mastermining.net/index.php?page=statistics&action=pool" target="_blank" rel="noopener noreferrer">MasterMining.net</a></Link></div>
-              <div className="pool-item"><Link href="https://www.multipool.us/dashboard/pool/xvg"><a href="https://www.multipool.us/dashboard/pool/xvg" target="_blank" rel="noopener noreferrer">Multipool.us</a></Link></div>
-              <h2>Myr-Groestl</h2>
-              <div className="pool-item"><Link href="https://bsod.pw/en/pool/dashboard/xvg/"><a href="https://bsod.pw/en/pool/dashboard/xvg/" target="_blank" rel="noopener noreferrer">BSOD.PW</a></Link></div>
-              <div className="pool-item"><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">HashFaster </a></Link></div>
-              <div className="pool-item"><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">Poolovich </a></Link></div>
-              <div className="pool-item"><Link href="http://xvg-mg.idcray.com/"><a href="http://xvg-mg.idcray.com/" target="_blank" rel="noopener noreferrer">IDcray </a></Link></div>
-              <div className="pool-item"><Link href="https://www.zpool.ca/algo/myr-gr"><a href="https://www.zpool.ca/algo/myr-gr" target="_blank" rel="noopener noreferrer">ZPool</a></Link></div>
-              <div className="pool-item"><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">AntMinePool</a></Link></div>
-              <div className="pool-item"><Link href="https://www.mining-dutch.nl"><a href="https://www.mining-dutch.nl" target="_blank" rel="noopener noreferrer">mining-dutch.nl</a></Link></div>
-              <div className="pool-item"><Link href="https://xvg-mg.suprnova.cc/"><a href="https://xvg-mg.suprnova.cc/" target="_blank" rel="noopener noreferrer">suprnova.cc</a></Link></div>
-              <h2>Lyra2Rev2</h2>
-              <div className="pool-item"><Link href="https://bsod.pw/en/pool/dashboard/xvg/"><a href="https://bsod.pw/en/pool/dashboard/xvg/" target="_blank" rel="noopener noreferrer">BSOD.PW</a></Link></div>
-              <div className="pool-item"><Link href="http://blockmasters.co/"><a href="http://blockmasters.co/" target="_blank" rel="noopener noreferrer">Block Masters </a></Link></div>
-              <div className="pool-item"><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">Poolovich </a></Link></div>
-              <div className="pool-item"><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">HashFaster </a></Link></div>
-              <div className="pool-item"><Link href="http://xvg-lyra.idcray.com/"><a href="http://xvg-lyra.idcray.com/" target="_blank" rel="noopener noreferrer">IDcray </a></Link></div>
-              <div className="pool-item"><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">ZPool</a></Link></div>
-              <div className="pool-item"><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">AntMinePool</a></Link></div>
-              <div className="pool-item"><Link href="https://www.mining-dutch.nl"><a href="https://www.mining-dutch.nl" target="_blank" rel="noopener noreferrer">mining-dutch.nl</a></Link></div>
-              <div className="pool-item"><Link href="https://xvg-lyra.suprnova.cc/"><a href="https://xvg-lyra.suprnova.cc/" target="_blank" rel="noopener noreferrer">suprnova.cc</a></Link></div>
-              <h2>Blake2s</h2>
-              <div className="pool-item"><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">ZPool</a></Link></div>
-              <div className="pool-item"><Link href="https://pool.unimining.net/site/mining"><a href="https://pool.unimining.net/site/mining" target="_blank" rel="noopener noreferrer">UniMining</a></Link></div>
-              <div className="pool-item"><Link href="http://verge.blake2s.com"><a href="http://verge.blake2s.com" target="_blank" rel="noopener noreferrer">Verge Blake2s</a></Link></div>
-              <div className="pool-item"><Link href="https://bsod.pw/en/pool/dashboard/xvg/"><a href="https://bsod.pw/en/pool/dashboard/xvg/" target="_blank" rel="noopener noreferrer">BSOD.PW</a></Link></div>
-              <div className="pool-item"><Link href="http://nlpool.nl"><a href="http://nlpool.nl" target="_blank" rel="noopener noreferrer">NLpool.nl</a></Link></div>
-              <div className="pool-item"><Link href="https://www.mining-dutch.nl"><a href="https://www.mining-dutch.nl" target="_blank" rel="noopener noreferrer">mining-dutch.nl</a></Link></div>
-              <h2>x17</h2>
-              <div className="pool-item"><Link href="https://bsod.pw/en/pool/dashboard/xvg/"><a href="https://bsod.pw/en/pool/dashboard/xvg/" target="_blank" rel="noopener noreferrer">BSOD.PW</a></Link></div>
-              <div className="pool-item"><Link href="http://blockmasters.co/"><a href="http://blockmasters.co/" target="_blank" rel="noopener noreferrer">Block Masters </a></Link></div>
-              <div className="pool-item"><Link href="https://hashfaster.com/"><a href="https://hashfaster.com/" target="_blank" rel="noopener noreferrer">HashFaster </a></Link></div>
-              <div className="pool-item"><Link href="http://poolovich.pro/"><a href="http://poolovich.pro/" target="_blank" rel="noopener noreferrer">Poolovich </a></Link></div>
-              <div className="pool-item"><Link href="http://www.zpool.ca/site/mining"><a href="http://www.zpool.ca/site/mining" target="_blank" rel="noopener noreferrer">ZPool</a></Link></div>
-              <div className="pool-item"><Link href="http://nlpool.nl"><a href="http://nlpool.nl" target="_blank" rel="noopener noreferrer">NLPOOL.NL</a></Link></div>
-              <div className="pool-item"><Link href="http://antminepool.com"><a href="http://antminepool.com" target="_blank" rel="noopener noreferrer">AntMinePool</a></Link></div>
-              <div className="pool-item"><Link href="https://www.mining-dutch.nl"><a href="https://www.mining-dutch.nl" target="_blank" rel="noopener noreferrer">mining-dutch.nl</a></Link></div>
-              <div className="pool-item"><Link href="https://xvg-x17.suprnova.cc/"><a href="https://xvg-x17.suprnova.cc/" target="_blank" rel="noopener noreferrer">suprnova.cc</a></Link></div>
-              <h2>Multi Algorithm (hash to verge)</h2>
-              <div className="pool-item"><Link href="https://hash-to-coins.com/index.php"><a href="https://hash-to-coins.com/index.php" target="_blank" rel="noopener noreferrer">Hash to Coins</a></Link></div>
-              <div className="pool-item"><Link href="https://prohashing.com/"><a href="https://prohashing.com/" target="_blank" rel="noopener noreferrer">ProHashing</a></Link></div>
-              <div className="pool-item"><Link href="https://www.mining-dutch.nl"><a href="https://www.mining-dutch.nl" target="_blank" rel="noopener noreferrer">Mining-Dutch.nl</a></Link></div>
-              <div className="pool-item"><Link href="https://fairpool.pro"><a href="https://fairpool.pro" target="_blank" rel="noopener noreferrer">Fairpool.pro</a></Link></div>
-            </ul>
-          </div>
-        </Content>
-      </div>
-    </div>
-  </Layout>
-);
+class MiningPools extends React.Component {
+  constructor() {
+    super();
+    this.state = { filter: '' };
+    this.updateSearch = this.updateSearch.bind(this);
+    this.renderAlgoDropdown = this.renderAlgoDropdown.bind(this);
+  }
+
+
+  getFilteredPool() {
+    const { filter } = this.state;
+    if (filter === '') return pools;
+
+    return pools
+      .filter(pool => pool.supportedAlgos.toLocaleLowerCase().includes(filter.toLocaleLowerCase()))
+      .sort((a, b) => a.supportedAlgos.split(',').length - b.supportedAlgos.split(',').length);
+  }
+
+  updateSearch(text) {
+    this.setState({ filter: text });
+  }
+
+  renderAlgoDropdown(change) {
+    const { filter } = this.state;
+    return (
+      <select onChange={change} value={filter}>
+        <option value="">All</option>
+        <option value="Scrypt">Scrypt</option>
+        <option value="Groestl">Myr-Groestl</option>
+        <option value="x17">X17</option>
+        <option value="Lyra2Rev2">Lyra2Rev2</option>
+        <option value="Blake2s">Blake2S</option>
+      </select>
+    );
+  }
+
+  render() {
+    return (
+      <Layout>
+        <div className="container">
+          <Content>
+            <div className="row center-xs pt-large pb">
+              <div className="col-xs-10 start-xs exchanges bb">
+                <div className="start-sm pb-small">
+                  {this.renderAlgoDropdown(e => this.updateSearch(e.target.value))}
+                  <div className="minerpools-grid">
+                    {this.getFilteredPool().map((pool, id) => (
+                      <a key={id} href={pool.poollink}>
+                        <div className="pool-item card">
+                          <h1>{pool.poolname}</h1>
+                          <h5>
+                            {'Algorithms:'}
+                          </h5>
+                          <code>{pool.supportedAlgos}</code>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Content>
+        </div>
+      </Layout>
+    );
+  }
+}
 
 export default MiningPools;
