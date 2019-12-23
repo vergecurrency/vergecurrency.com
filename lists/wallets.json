@@ -48,7 +48,7 @@
       "url2": "https://verge.zendesk.com/hc/en-us/articles/360007059592-Verge-Qt-Wallet-Installation-Guide-for-Windows",
       "availableinstructions": true
     },
-        {
+    {
       "name": "Linux Tor QT Wallet",
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
