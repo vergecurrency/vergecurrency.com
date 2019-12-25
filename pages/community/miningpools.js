@@ -38,7 +38,7 @@ export default [
   {
     poollink: 'http://xvg.mastermining.net/index.php?page=statistics&action=pool',
     poolname: 'MasterMining',
-    hardfork: false,
+    hardfork: true,
     supportedAlgos: 'Scrypt',
   },
   {
