@@ -227,6 +227,24 @@
       "title": "Pars",
       "link": "parsxc.com",
       "url": "https://parsxc.com"
+    },
+    {
+      "img": "../static/img/exchanges/swapzone.png",
+      "title": "Swapzone",
+      "link": "swapzone.io",
+      "url": "https://swapzone.io"
+    },
+    {
+      "img": "../static/img/exchanges/swapspace.png",
+      "title": "SwapSpace",
+      "link": "swapspace.co",
+      "url": "https://swapspace.co"
+    },
+    {
+      "img": "../static/img/exchanges/scavo.png",
+      "title": "Scavo Exchange",
+      "link": "scavo.exchange",
+      "url": "https://scavo.exchange"
     }
   ]
 }
