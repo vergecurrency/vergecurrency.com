@@ -165,6 +165,15 @@
     "title": "Advisors",
     "members": [
       {
+        "img": "../static/img/team/cryptorekt.jpg",
+        "name": "Brandon - CryptoRekt",
+        "role": "Technical Director",
+        "occupation": "Systems Engineer",
+        "github": "https://github.com/cryptorekt",
+        "twitter": "https://twitter.com/CryptoRekt",
+        "location": "California, USA"
+      },    	
+      {
         "img": "../static/img/team/mihael.jpg",
         "name": "Mihael",
         "role": "Internal & External Communications",
