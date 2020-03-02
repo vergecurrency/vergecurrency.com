@@ -5,7 +5,7 @@ const roadMap = [
     //done: true,
     //doneDate: '1st January 2018',
     title: 'Quarter 3, 2019',
-    description: '<a href="https://paycent.com/">Paycent</a> Partnership<br><a href="https://www.xceltrip.com/">XcelTrip</a> Partnership<br><a href="https://www.xcelpay.io/">XcelPay</a> Partnership<br>iOS Update v1.1.1<br><a href="https://www.abra.com/">Abra</a> adds Verge support to their platform.<br><A href="https://nowpayments.io/">NowPayments</a> and <a href="https://nownodes.io/">NowNodes</a> integrate Verge into their platform.<br>Verge <a href="https://verge.zendesk.com/hc/en-us">ZenDesk</a> implemented',
+    description: '<a href="https://paycent.com/">Paycent</a> Partnership<br><a href="https://www.xceltrip.com/">XcelTrip</a> Partnership<br><a href="https://www.xcelpay.io/">XcelPay</a> Partnership<br>iOS Update v1.1.1<br><a href="https://www.abra.com/">Abra</a> adds Verge support to their platform.<br><A href="https://nowpayments.io/">NowPayments</a> and <a href="https://nownodes.io/">NowNodes</a> integrate Verge into their platform.<br>',
     //progress: 100,
     //progressState: '',
   },
@@ -13,7 +13,7 @@ const roadMap = [
     //done: true,
     //doneDate: '24th March 2018',
     title: 'Quarter 4, 2019',
-    description: 'Verge added to <a href="https://www.bitnovo.com/">BitNovo</a> Exchanges',
+    description: 'Verge added to EviEx & BitNovo Exchanges',
     //progress: 100,
     //progressState: '',
   },
@@ -32,7 +32,7 @@ const roadMap = [
     description: 'TBD!',
     //progress: 100,
     //progressState: '',
-  },
+  }
 ];
 
 export default ({ start = 0, maxLength = roadMap.length }) =>
