@@ -687,20 +687,6 @@
             }
         },
         {
-            "title": "oVPN",
-            "img": "../static/img/vendors/latest/ovpn.png",
-            "link": "vcp.ovpn.to",
-            "url": "https://vcp.ovpn.to/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Adinfusion",
             "img": "../static/img/vendors/latest/adinfusion.png",
             "link": "adinfusion.com",
