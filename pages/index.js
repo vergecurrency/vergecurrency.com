@@ -40,7 +40,7 @@ function Home(props) {
         <title key="title">
           {t('common:meta.home.title', {
             defaultValue:
-              'Verge - Secure and anonymous cryptocurrency, built for everyday use - VergeCurrency.com',
+              'A secure and user friendly blockchain solution, Built for everyday transactions - VergeCurrency.com',
           })}
         </title>
         <link rel="image_src" href="/static/img/press/logo/verge-logo.png" />
@@ -57,13 +57,13 @@ function Home(props) {
                     dangerouslySetInnerHTML={{
                       __html: t('home:ribbon.title', {
                         defaultValue:
-                          'Privacy is our <i>standard</i>.<br />A secure and anonymous<br />cryptocurrency.',
+                          'Who we are:<br />A secure and user friendly blockchain solution.<br />',
                       }),
                     }}
                   />
                   <p>
                     {t('home:ribbon.text1', {
-                      defaultvalue: 'Built for everyday use.',
+                      defaultvalue: 'Built for everyday transactions.',
                     })}
                   </p>
                   <WalletsBtn />
@@ -211,13 +211,13 @@ function Home(props) {
                     <div className="col-xs-12 col-md-6 pb pb-xs-0">
                       <h6>
                         {t('home:benefits.benefit_1.title', {
-                          defaultvalue: 'ANONYMITY',
+                          defaultvalue: 'EVERYDAY USE',
                         })}
                       </h6>
                       <p>
                         {t('home:benefits.benefit_1.text', {
                           defaultvalue:
-                            'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security.',
+                            'Verge provides an easy to use platform which enables everyday users to be able to transact quickly and effeciently across a blockchain based network.',
                         })}
                       </p>
                     </div>
@@ -250,11 +250,11 @@ function Home(props) {
                     <div className="col-xs-12 col-md-6 pt-xs">
                       <h6>
                         {t('home:benefits.benefit_4.title', {
-                          defaultvalue: 'PRIVACY IS OUR STANDARD',
+                          defaultvalue: 'SECURITY',
                         })}
                       </h6>
                       <p>
-                        {('Dual-Key Stealth Addressing and Ring Confidential Transactions(in development) enable our users to be able to send and receive payments safely and privately.')}
+                        {('Our network provides world class featuires to ensure our users are able to send and receive payments safely and securely.')}
                       </p>
                     </div>
                   </div>
@@ -346,14 +346,14 @@ function Home(props) {
                     dangerouslySetInnerHTML={{
                       __html: t('home:mission.text1', {
                         defaultValue:
-                          'Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.',
+                          'Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>securely</span>.',
                       }),
                     }}
                   />
                   <p>
                     {t('home:mission.text2', {
                       defaultValue:
-                        'With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments.',
+                        'With Verge, businesses and individuals have flexible options for sending and receiving payments securely and effeciently all around the world in a matter of seconds.',
                     })}
                   </p>
                   <Link href="/get-verge">
