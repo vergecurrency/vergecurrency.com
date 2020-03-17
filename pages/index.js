@@ -187,18 +187,18 @@ function Home(props) {
               <div className="col-xs-11 col-sm-7 col-lg-6">
                 <h6>
                   {t('home:intro.span', {
-                    defaultvalue: "Delivers what others can't",
+                    defaultvalue: "Blockchain Solutions for Everyday use.",
                   })}
                 </h6>
                 <h2>
                   {t('home:intro.h2', {
                     defaultvalue:
-                      'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.',
+                      'Verge provides the security of blockchain based payments to everyday users with easy to use software tailored to real life needs and applicaitons. ',
                   })}
                 </h2>
                 <p>
                   {t('home:intro.p', {
-                    defaultvalue: 'We care about your privacy. Do you?',
+                    defaultvalue: 'We strive to make blockchain payments effortless and convenient.',
                   })}
                 </p>
               </div>
