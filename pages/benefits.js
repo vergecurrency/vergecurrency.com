@@ -25,10 +25,10 @@ function Benefits(props) {
                     {t('benefits:body.whyverge1', { defaultValue: 'Verge is fast, flexible, entirely private and totally anonymous, but most importantly it\'s a currency built with the idea of supporting widespread mass adoption as it scales out across the globe. Every week more and more people, companies and organizations discover the benefits and advantages of accepting Verge as a method of transaction.' })}
                   </p>
                   <p>
-                    {t('benefits:body.whyverge2', { defaultValue: 'Verge makes it possible to engage in direct low cost transactions - quickly, efficiently and privately, providing businesses and individuals with options for sending and receiving payments however they choose and for whatever they would like, instantly. With the flip of a switch, we offer helpful integrations and tools that enable every user to make any large or small scale payment transaction; publicly, privately and/or anonymously.' })}
+                    {t('benefits:body.whyverge2', { defaultValue: 'Verge makes it possible to engage in direct low cost transactions - quickly, efficiently and securely, providing businesses and individuals with options for sending and receiving payments however they choose and for whatever they would like, instantly. With the flip of a switch, we offer helpful integrations and tools that enable every user to make any large or small scale payment transaction; publicly, securely and/or anonymously.' })}
                   </p>
                   <p>
-                    {t('benefits:body.whyverge3', { defaultValue: 'Verge empowers the people by giving them a choice and control on how to handle their personal privacy. One of the most critical aspects of a strong and practical currency, is liquidity - Verge is one of the most liquid tradable assets available on the large exchange marketplace.' })}
+                    {t('benefits:body.whyverge3', { defaultValue: 'Verge empowers the people by giving them a choice and control on how to handle their personal security. One of the most critical aspects of a strong and practical currency, is liquidity - Verge is one of the most liquid tradable assets available on the large exchange marketplace.' })}
                   </p>
                   <h2>{t('benefits:body.title3', { defaultValue: 'A Few of the Benefits:' })}</h2>
                   <h3>1. {t('benefits:body.benefit1', { defaultValue: 'Eliminate chargeback fraud' })}</h3>
