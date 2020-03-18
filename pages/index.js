@@ -243,7 +243,7 @@ function Home(props) {
                       <p>
                         {t('home:benefits.benefit_3.text', {
                           defaultvalue:
-                            'Low fees, quick transactions, high volume in circulation, and multiplatform support are the ingredients that make Verge perfectly positioned for mass adoption.',
+                            'Low fees, quick transactions, high volume in circulation, and multiplatform support, are the ingredients that make Verge perfectly positioned for mass adoption.',
                         })}
                       </p>
                     </div>
@@ -254,7 +254,7 @@ function Home(props) {
                         })}
                       </h6>
                       <p>
-                        {('Our network provides world class featuires to ensure our users are able to send and receive payments safely and securely.')}
+                        {('Our network provides world class features to ensure our users are able to send and receive payments quickly, safely, and securely.')}
                       </p>
                     </div>
                   </div>
