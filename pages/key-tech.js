@@ -14,7 +14,7 @@ function KeyTech(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">{t('common:meta.key-tech.title', { defaultValue: 'Key Tech - VergeCurrency.com' })}</title>
+        <title key="title">{t('common:meta.key-tech.title', { defaultValue: 'Key Tech' })}</title>
       </Head>
       <div className="key-tech press">
         <div className="ribbon ribbon--key-tech">
@@ -25,7 +25,7 @@ function KeyTech(props) {
               <div className="col-xs-10 col-sm-10 col-md-8 text-center">
                 <div className="ribbon-txt">
                   <h1>{t('key-tech:body.ribbontitle', { defaultValue: 'Verge Key Tech' })}</h1>
-                  <p>{t('key-tech:body.ribbontext', { defaultValue: 'Explore our key technology features. Read and learn more about Tor, I2P and much more.' })}</p>
+                  <p>{t('key-tech:body.ribbontext', { defaultValue: 'Explore our key technology features.' })}</p>
                 </div>
               </div>
             </div>
