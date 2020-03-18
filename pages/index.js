@@ -57,7 +57,7 @@ function Home(props) {
                     dangerouslySetInnerHTML={{
                       __html: t('home:ribbon.title', {
                         defaultValue:
-                          'Who we are:<br />A secure and user friendly blockchain solution.<br />',
+                          '<br />A secure and user friendly blockchain solution.<br />',
                       }),
                     }}
                   />
@@ -375,49 +375,6 @@ function Home(props) {
 
             <SponsorsInfo t={t} />
             
-            <div className="container themed-container__linen themed-container__linen--home">
-              <div className="row center-xs roadmap">
-                <div className="col-xs-10 col-sm-8 col-md-6 start-xs center-lg">
-                  <h2
-                    dangerouslySetInnerHTML={{
-                      __html: t('roadmap:body.text1', {
-                        defaultValue:
-                          "A roadmap with great features to come.<br /> Join us while we're still growing!",
-                      }),
-                    }}
-                  />
-                  <p>
-                    {t('roadmap:body.text2', {
-                      defaultValue:
-                        'As an open-source community and volunteer-driven project, our roadmap is meant as a general guideline for how we are developing Verge into one of the best cryptocurrency options out there.',
-                    })}
-                  </p>
-                  <p>
-                    {t('roadmap:body.text3', {
-                      defaultValue:
-                        'In the spirit of transparency and in good faith to the community, we want this roadmap to be made public. However, please keep in mind that this roadmap is subject to change based on priorities, unplanned developments and new ideas.',
-                    })}
-                  </p>
-                  <br />
-                  <div className="row start-xs center-sm">
-                    <div className="col-xs-10 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-12 col-lg-9 start-xs">
-                      <ul className="roadmap__timeline roadmap__timeline--home pb">
-                        <CurrentYearRoadmap start={2} maxLength={5} />
-                      </ul>
-                      <h6>
-                        <Link href="/roadmap">
-                          <a href="/roadmap" name="Full roadmap here">
-                            {t('home:roadmap.text1', {
-                              defaultValue: 'Full roadmap here',
-                            })}
-                          </a>
-                        </Link>
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="press">
               <div className="row center-xs social">
                 <div className="col-xs-11 center-xs">
