@@ -56,7 +56,7 @@ function WalletsPage(props) {
                   </div>
                   <div className="col-xs-12 col-md-6 pt-xs">
                     <h6>{t('home:benefits.benefit_4.title')}</h6>
-                    <p>{('Dual-Key Stealth Addressing and Ring Confidential Transacitons(in development) enable our users to be able to send and receive payments safely and privately.')}</p>
+                    <p>{('Dual-Key Stealth Addressing enable our users to be able to send and receive payments safely and privately.')}</p>
                   </div>
                 </div>
                 <h6 className="center-xs start-sm">
