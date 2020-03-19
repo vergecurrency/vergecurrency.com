@@ -24,6 +24,7 @@ import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
 import { PartnerInfo } from '../components/Partners';
 import { SponsorsInfo } from '../components/Sponsors';
+import { mentioned_in } from '../components/Mentions';
 
 import 'moment-timezone';
 
@@ -57,7 +58,7 @@ function Home(props) {
                     dangerouslySetInnerHTML={{
                       __html: t('home:ribbon.title', {
                         defaultValue:
-                          '<br />A secure and user friendly blockchain solution.<br />',
+                          '<br />A secure and user-friendly digital currency.<br />',
                       }),
                     }}
                   />
@@ -106,7 +107,7 @@ function Home(props) {
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.first.header', {
                           defaultvalue:
-                            'A <span>cryptocurrency</span> designed <br>for everyday use.',
+                            'A <span>digital currency</span> designed <br>for everyday use.',
                         }),
                       }}
                     />
@@ -134,7 +135,7 @@ function Home(props) {
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.second.text', {
                           defaultvalue:
-                            'Verge currency makes it possible to engage in direct transactions.',
+                            'Simple and effortless payments via iOS and Android app.',
                         }),
                       }}
                     />
@@ -169,15 +170,7 @@ function Home(props) {
             <div className="row center-xs mentions pb">
               <div className="col-xs-11">
                 <div className="row between-md middle-md">
-                  <div className="col-xs-12 col-md-2">
-                    <h6>
-                      {t('home:mentioned.mentioned_in', {
-                        defaultvalue: 'Mentioned in',
-                      })}
-                    </h6>
-                  </div>
                   <div className="col-xs-12 col-md">
-                    <Mentions />
                   </div>
                 </div>
               </div>
@@ -374,6 +367,20 @@ function Home(props) {
             <PartnerInfo t={t} />
 
             <SponsorsInfo t={t} />
+
+            <div className="row center-xs pt-large pb">
+              <div className="col-xs-11 start-xs exchanges bb">
+                <div className="start-sm pb-small">
+                      <h6>
+                          {t('home:mentions.intro', {
+                              defaultValue: 'Mentioned In',
+                          })}
+                      </h6>
+                    <Mentions t={t} />
+                  </div>
+              </div>
+            </div>
+
             
             <div className="press">
               <div className="row center-xs social">

@@ -9,16 +9,6 @@
       "os": "all"
     },
     {
-      "name": "Android Tor Wallet",
-      "url": "https://play.google.com/store/apps/details?id=com.vergeandroid.wallet",
-      "classNames": "wallets--icon__android wallets--icon__android--tor",
-      "classWhite": "wallets--icon__android-white wallets--icon__android--tor-white",
-      "available": true,
-      "os": "Android",
-      "url2": "https://www.youtube.com/watch?v=K26u9_Qg9_E",
-      "availableinstructions": true
-    },
-    {
       "name": "Apple iOS Wallet",
       "url": "https://itunes.apple.com/us/app/id1459928869",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
@@ -27,6 +17,16 @@
       "os": "iOS",
       "url2": "#",
       "availableinstructions": false
+    },
+    {
+      "name": "Android Tor Wallet",
+      "url": "https://play.google.com/store/apps/details?id=com.vergeandroid.wallet",
+      "classNames": "wallets--icon__android wallets--icon__android--tor",
+      "classWhite": "wallets--icon__android-white wallets--icon__android--tor-white",
+      "available": true,
+      "os": "Android",
+      "url2": "https://www.youtube.com/watch?v=K26u9_Qg9_E",
+      "availableinstructions": true
     },
     {
       "name": "MacOS Tor QT Wallet",

@@ -1,6 +1,6 @@
 {
   "ribbon": {
-    "title": "A secure and user friendly blockchain solution.",
+    "title": ">A secure and user-friendly digital currency.",
     "text1": "Built for everyday transactions.",
     "text2": "Get started with Verge"
 
@@ -35,9 +35,9 @@
   },
   "wallets": {
     "link": {
-      "title": "Read about wallets"
+      "title": "Read About Our wallets"
     },
-    "header": "Don't worry, we've got your preferred platform covered.{{br}}Download your wallet here."
+    "header": "Download your preferred vPay wallet here:"
   },
   "mission": {
     "header": "Empowering Everyday Users",
