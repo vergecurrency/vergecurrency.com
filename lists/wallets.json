@@ -15,8 +15,8 @@
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
       "os": "iOS",
-      "url2": "#",
-      "availableinstructions": false
+      "url2": "https://vergesupport.altervista.org/knowledge-base/install-and-configure-your-ios-wallet/",
+      "availableinstructions": true
     },
     {
       "name": "Android Tor Wallet",
