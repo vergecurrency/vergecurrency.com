@@ -70,7 +70,7 @@ function GetVerge(props) {
             <div className="col-xs-10 col-sm-6">
               <h6>{t('get-verge:body.title2', { defaultValue: 'Blockchain Solutions for Everyday use' })}</h6>
               <h2>
-                {t('get-verge:body.delivers', { defaultValue: 'Verge provides the security of blockchain based payments to everyday users with easy to use software tailored to real life needs and applicaitons.' })}
+                {t('get-verge:body.delivers', { defaultValue: 'Verge provides the security of blockchain based payments to everyday users with easy to use software tailored to real life needs and applications.' })}
               </h2>
               <p>{t('get-verge:body.privacy', { defaultValue: 'We strive to make blockchain payments effortless and convenient.' })}</p>
             </div>

@@ -186,7 +186,7 @@ function Home(props) {
                 <h2>
                   {t('home:intro.h2', {
                     defaultvalue:
-                      'Verge provides the security of blockchain based payments to everyday users with easy to use software tailored to real life needs and applicaitons.',
+                      'Verge provides the security of blockchain based payments to everyday users with easy to use software tailored to real life needs and applications.',
                   })}
                 </h2>
                 <p>
