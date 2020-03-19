@@ -18,7 +18,7 @@ import one from '../static/pressreleases/one.json';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';
 
-const CurrentUrl = 'https://vergecurrency.com/blog/wraithprotocol/'; // TODO: Determine correct url -- Component Mount
+const CurrentUrl = 'https://vergecurrency.com/blog/'; // TODO: Determine correct url -- Component Mount
 const TwitterStatus = `${one.summary} ${CurrentUrl}`; // TODO: Implement truncate on post title
 
 function Pressrelease(props) {
