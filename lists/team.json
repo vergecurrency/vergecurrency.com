@@ -18,7 +18,7 @@
         "occupation": "Software Engineer",
         "github": "https://github.com/marpme",
         "twitter": "https://twitter.com/marpme_",
-    	"location": "Berlin, Germany"
+        "location": "Berlin, Germany"
       },
       {
         "img": "../static/img/team/swen.jpg",
@@ -150,20 +150,19 @@
         "location": "Tillburg, The Netherlands"
       },
       {
-        "img": "../static/img/team/maxime.jpg",
-        "name": "Maxime - MrGoops",
+        "img": "../static/img/team/verge.jpg",
+        "name": "Bishal - MarkOnDCrypto",
         "role": "Marketing",
-        "occupation": "Entrepreneur",
+        "occupation": "Graphics and Web Designer",
         "github": "",
-        "twitter": "https://twitter.com/cryptocuistot",
-        "location": "Paris, France"
+        "twitter": "https://twitter.com/MarkOnDCrypto/",
+        "location": "Kathmandu, Nepal"
       }
     ]
   },
-
   "advisor": {
     "title": "Advisors",
-    "members": [ 	
+    "members": [
       {
         "img": "../static/img/team/mihael.jpg",
         "name": "Mihael",
