@@ -21,8 +21,8 @@ function WalletsPage(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
-                  <h1>{t('wallets:body.header1', { defaultValue: 'Download our primary vPay Wallet' })}</h1>
-                  <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text1', { defaultValue: 'Download our latest vPay wallet to store <span className="hidden-xs"><br /></span> your Verge Currency with.' }) }} />
+                  <h1>{t('wallets:body.header1', { defaultValue: 'Download our primary vergePay Wallet' })}</h1>
+                  <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text1', { defaultValue: 'Download our latest vergePay wallet to store <span className="hidden-xs"><br /></span> your Verge Currency with.' }) }} />
                   <WalletsBtn t={t} />
                 </div>
               </div>
@@ -33,8 +33,8 @@ function WalletsPage(props) {
           <div className="row center-xs middle-xs pt-large pb-large">
             <div className="col-xs-10 col-sm-6">
               <h6>{t('wallets:body.header2', { defaultValue: 'Wallets' })}</h6>
-              <h2 dangerouslySetInnerHTML={{ __html: t('wallets:body.text2', { defaultValue: 'Download one of our latest vPay wallets <span className="hidden-xs"><br /></span>for your preferred platform.' }) }} />
-              <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text3', { defaultValue: 'Our vPay wallets are extensively tested, secured, and easy to use.' }) }} />
+              <h2 dangerouslySetInnerHTML={{ __html: t('wallets:body.text2', { defaultValue: 'Download one of our latest vergePay wallets <span className="hidden-xs"><br /></span>for your preferred platform.' }) }} />
+              <p dangerouslySetInnerHTML={{ __html: t('wallets:body.text3', { defaultValue: 'Our vergePay wallets are extensively tested, secured, and easy to use.' }) }} />
             </div>
           </div>
 
