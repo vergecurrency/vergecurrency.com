@@ -6,6 +6,12 @@ export default [
     supportedAlgos: 'Scrypt, Groestl, Lyra2Rev2, Blake2s, x17',
   },
   {
+    poollink: 'https://fairpool.pro/site/coins?coin=XVG',
+    poolname: 'Fairpool Pro',
+    hardfork: true,
+    supportedAlgos: 'Scrypt, Lyra2Rev2, Blake2s, x17',
+  },
+  {
     poollink: 'http://blockmasters.co',
     poolname: 'Block Masters',
     hardfork: false,
