@@ -57,20 +57,6 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://poweredbyzomongo.com/">
-              <img src="/static/img/partners/poweredbyzomongo.png" alt="zomongo" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.zomongo', {
-                defaultValue: `ZOMONGO is one of the fastest growing digital networks in North America and is currently in 90,000+ 
-                ZOMONGO merchant locations, 3.5 million hotel rooms, and 22 major airports, as well as having a strong social presence 
-                with over 600,000 followers. ZOMONGO’s mission is to become the leader in this point-of-sale media by providing a 
-                fully managed, totally turnkey, digital signage, media/product dissemination, and couponing solution.
-                The powered by ZOMONGO app is available on Google Play and Apple Store.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
             <a href="https://paycent.com/">
               <img src="/static/img/partners/paycent.png" alt="paycent" />
             </a>

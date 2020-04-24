@@ -30,15 +30,21 @@ brew install yarn
 
 ### Windows:
 
+_Git_
+```
+Download the Windows installer here:
+https://git-scm.com/download/win
+```
+
 _NodeJS:_
 ```
-Download the windows installer here:
+Download the Windows installer here:
 https://nodejs.org/en/download/
 ```
 
 _Yarn:_
 ```
-Download the windows installer here:
+Download the Windows installer here:
 https://yarnpkg.com/lang/en/docs/install/
 ```
 
@@ -64,6 +70,7 @@ sudo apt-get update && sudo apt-get install yarn
 ## Installing
 
 Use your favorite terminal to get up and running by following the next steps:
+_Note: Windows users will need to launch Git Bash to install Yarn dependencies successfully._
 
 _Clone the project into a directory on your machine:_
 

@@ -28,18 +28,13 @@ const sponsors = [
         href: "https://nownodes.io/",
         logo: "/static/img/sponsors/nownodes.png",
         alt: "Now Nodes"
-    },
-    {
-        href: "https://247bids.com/",
-        logo: "/static/img/sponsors/247bids.png",
-        alt: "247Bids"
     }
 ]
 
 export const SponsorsInfo = ({ t }) =>
     <div className="row center-xs pt-large pb">
-        <div className="col-xs-10 start-xs exchanges bb">
-            <div className="start-sm pb-small">
+        <div className="col-xs-11 start-xs exchanges bb">
+             <div className="start-sm pb-small">
                 <h2>
                     {t('home:sponsors.intro', {
                         defaultValue: 'Mission Supporters',

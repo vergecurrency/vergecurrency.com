@@ -132,6 +132,15 @@
         "location": "Germany"
       },
       {
+        "img": "../static/img/team/Hassan.png",
+        "name": "Hassan",
+        "role": "Lead UI Designer & Graphics",
+        "occupation": "UI/UX Designer & Webdesigner",
+        "github": "",
+        "twitter": "https://twitter.com/waveon3",
+        "location": "Odense, Denmark"
+      },
+      {
         "img": "../static/img/team/jeroen.png",
         "name": "Jeroen",
         "role": "Marketing Strategist",
@@ -154,16 +163,7 @@
 
   "advisor": {
     "title": "Advisors",
-    "members": [
-      {
-        "img": "../static/img/team/cryptorekt.jpg",
-        "name": "Brandon - CryptoRekt",
-        "role": "Technical Director",
-        "occupation": "Systems Engineer",
-        "github": "https://github.com/cryptorekt",
-        "twitter": "https://twitter.com/CryptoRekt",
-        "location": "California, USA"
-      },
+    "members": [ 	
       {
         "img": "../static/img/team/mihael.jpg",
         "name": "Mihael",

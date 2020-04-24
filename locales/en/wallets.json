@@ -1,10 +1,10 @@
 {
   "body": {    
-     "header1": "Download our Core Wallet",
+     "header1": "Download our primary vPay Wallet",
      "header2": "Wallets",
      "text1": "The safest and easiest way to securely store <span className=hidden-xs><br /></span> your Verge.",
-     "text2": "Download one of our latest core wallets for <span className=hidden-xs><br /></span> Windows, Linux, and OSX or you can store Verge<span className=hidden-xs><br /></span> on your mobile with our Tor wallet.",
-     "text3": "Our core wallet is extensively tested, safe, and easy to use. Transactions in <span className=hidden-xs><br /></span> less than 30 seconds.",
-     "header3": "Wallets for all platforms"
+     "text2": "Download one of our latest vPay wallets<span className=hidden-xs><br /></span>for your preferred platform.",
+     "text3": "Our vPay wallets are extensively tested, secured, and easy to use.",
+     "header3": "Wallets for your preferred platform."
   }
 }

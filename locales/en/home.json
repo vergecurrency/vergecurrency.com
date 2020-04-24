@@ -1,7 +1,7 @@
 {
   "ribbon": {
-    "title": "Privacy is our <i>standard</i>.<br />A secure and anonymous<br />cryptocurrency.",
-    "text1": "Built for everyday use.",
+    "title": ">A secure and user-friendly digital currency.",
+    "text1": "Built for everyday transactions.",
     "text2": "Get started with Verge"
 
   },
@@ -9,17 +9,17 @@
     "mentioned_in": "Mentioned in"
   },
   "intro": {
-    "span": "Delivers what others can't",
-    "h2": "Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.",
-    "p": "We care about your privacy. Do you?"
+    "span": "Blockchain Solutions for Everyday use.",
+    "h2": "Verge provides the security of blockchain based payments to everyday users with easy to use software tailored to real life needs and applications.",
+    "p": "We strive to make blockchain payments effortless and convenient."
   },
   "benefits": {
     "link": {
       "title": "Expand benefits"
     },
     "benefit_1": {
-      "title": "ANONYMITY",
-      "text": "Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated. The Core QT wallet has built-in TOR integration as well as SSL encryption which adds an extra level of security."
+      "title": "EVERYDAY USE",
+      "text": "Verge provides an easy to use platform which enables everyday users to be able to transact quickly and effeciently across a blockchain based network."
     },
     "benefit_2": {
       "title": "COMMUNITY DRIVEN",
@@ -30,19 +30,19 @@
       "text": "Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption."
     },
     "benefit_4": {
-      "title": "PRIVACY IS OUR STANDARD"      
+      "title": "SECURITY"      
     }
   },
   "wallets": {
     "link": {
-      "title": "Read about wallets"
+      "title": "Read About Our wallets"
     },
-    "header": "Don't worry, we've got your preferred platform covered.{{br}}Download your wallet here."
+    "header": "Download your preferred vPay wallet here:"
   },
   "mission": {
-    "header": "Empowering People",
-    "text1": "Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>privately</span>.",
-    "text2": "With Verge, businesses and individuals have flexible options for sending and receiving payments. With the flip of a switch, we offer helpful integrations and tools that enable them to handle large scale transactions between merchants and small scale private payments."
+    "header": "Empowering Everyday Users",
+    "text1": "Our mission is to <span>empower people</span> around the world by bringing blockchain transactions into <span>everyday life</span>. Verge makes it possible to engage in direct transactions quickly, efficiently and <span>securely</span>.",
+    "text2": "With Verge, businesses and individuals have flexible options for sending and receiving payments securely and effeciently all around the world in a matter of seconds."
 
   },
   "getverge": {

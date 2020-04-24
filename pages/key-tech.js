@@ -14,7 +14,7 @@ function KeyTech(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">{t('common:meta.key-tech.title', { defaultValue: 'Key Tech - VergeCurrency.com' })}</title>
+        <title key="title">{t('common:meta.key-tech.title', { defaultValue: 'Key Tech' })}</title>
       </Head>
       <div className="key-tech press">
         <div className="ribbon ribbon--key-tech">
@@ -25,7 +25,7 @@ function KeyTech(props) {
               <div className="col-xs-10 col-sm-10 col-md-8 text-center">
                 <div className="ribbon-txt">
                   <h1>{t('key-tech:body.ribbontitle', { defaultValue: 'Verge Key Tech' })}</h1>
-                  <p>{t('key-tech:body.ribbontext', { defaultValue: 'Explore our key technology features. Read and learn more about Tor, I2P and much more.' })}</p>
+                  <p>{t('key-tech:body.ribbontext', { defaultValue: 'Explore our key technology features.' })}</p>
                 </div>
               </div>
             </div>
@@ -38,11 +38,8 @@ function KeyTech(props) {
               <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
                 <h2>{t('key-tech:body.boxtitle', { defaultValue: 'Technology Focused On The End-User' })}</h2>
                 <p>
-                  {t('key-tech:body.boxtext1', { defaultValue: 'Verge was originally created based on the idea of providing end-user identity obfuscation suited for everyday use.' })}
+                  {t('key-tech:body.boxtext1', { defaultValue: 'Verge is a cryptocurrency designed for people and for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions.' })}
                   &nbsp;
-                </p>
-                <p>
-                  {t('key-tech:body.boxtext2', { defaultValue: 'We believe that every human deserves the right to privacy and with that idea in mind we pride ourselves on being able to provide several different technology integrations specifically designed to enhance the overall safety, security, and anonymity of users who transact across the Verge network.' })}
                 </p>
                 <p>
                   {t('key-tech:body.boxtext3', { defaultValue: 'As time progresses this page will update as we integrate new technology onto our network.' })}
@@ -77,18 +74,6 @@ function KeyTech(props) {
                     </p>
                     <p>
                       {t('key-tech:body.tortext2', { defaultValue: 'Verge integrates Tor in all of our wallets, thereby eliminating any single point at which the communicating peers can be determined through network surveillance that relies upon knowing its source and destination.' })}
-                    </p>
-                  </div>
-                  <div className="col-xs-12 col-sm-6 feature__item">
-                    <div className="feature__image feature__i2p">
-                      <img className="img-responsive feature__image" src="/static/img/key-tech/I2P.png" alt="I2P" />
-                    </div>
-                    <h3>{t('key-tech:body.i2ptitle', { defaultValue: 'I2P tunneling' })}</h3>
-                    <p>
-                      {t('key-tech:body.i2ptext1', { defaultValue: 'I2P is a highly obfuscated tunneling service using ipv6 that anonymizes all Verge data being sent over the network.' })}
-                    </p>
-                    <p>
-                      {t('key-tech:body.i2ptext2', { defaultValue: 'As Verge moves forward, I2P is becoming one of the key technologies ensuring anonymity of the users.' })}
                     </p>
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
@@ -131,24 +116,6 @@ function KeyTech(props) {
                     </p>
                   </div>
                   <div className="col-xs-12 col-sm-6 feature__item">
-                    <div className="feature__image feature__ringct">
-                      <img className="img-responsive feature__image" src="/static/img/key-tech/ringct.png" alt="ringct" />
-                    </div>
-                    <h3>{t('key-tech:body.ringcttitle', { defaultValue: 'Ring Confidential Transactions (Under Development)' })}</h3>
-                    <p>
-                      {t('key-tech:body.ringcttext1', { defaultValue: 'Ring Confidential Transactions are based on a combination of technologies: Confidential Transactions and Ring Signatures.' })}
-                    </p>
-                    <p>
-                      {t('key-tech:body.ringcttext2', { defaultValue: 'Confidential transactions include a cryptographic proof that ensure only the participants of a transaction are privy to the values being sent back and forth while simultaneously hiding the values from the sight of the rest of the world.' })}
-                    </p>
-                    <p>
-                      {t('key-tech:body.ringcttext3', { defaultValue: 'Ring Signatures are digital signatures that are created by A group of participants that obscures the linkage between sender and recipient.' })}
-                    </p>
-                    <p>
-                      {t('key-tech:body.ringcttext4', { defaultValue: 'Both of these technologies combined ensure that only the participants of a transaction are privy to the values being sent back and forth while simultaneously hiding the values from the sight of the rest of the world.' })}
-                    </p>
-                  </div>
-                  <div className="col-xs-12 col-sm-6 feature__item">
                     <div className="feature__image feature__rsk">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/rsk.png" alt="rsk" />
                     </div>
@@ -158,15 +125,6 @@ function KeyTech(props) {
                     </p>
                     <p>
                       {t('key-tech:body.rsktext2', { defaultValue: 'RSK´s blockchain is secured by merge-mining, which means that it can achieve the same security as Verge in terms of double-spend prevention and settlement finality.' })}
-                    </p>
-                  </div>
-                  <div className="col-xs-12 col-sm-6 feature__item">
-                    <div className="feature__image feature__encrypt">
-                      <img className="img-responsive feature__image" src="/static/img/key-tech/encrypt.png" alt="encrypt" />
-                    </div>
-                    <h3>{t('key-tech:body.encrypttitle', { defaultValue: 'Encrypted Messaging' })}</h3>
-                    <p>
-                      {t('key-tech:body.encrypttext1', { defaultValue: 'Encrypted messaging is a P2P (peer-to-Peer) instant messaging system utilizing state-of-the-art encryption technology to keep your communications private. All messages are encrypted by the proven AES-256-CBC algorithm, and distributed between nodes in such a way as to prevent the recipients of messages from being inferred by assailants utilizing sophisticated traffic analysis.' })}
                     </p>
                   </div>
                 </div>

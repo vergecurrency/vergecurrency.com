@@ -5,15 +5,14 @@ import Moment from 'react-moment';
 import 'moment-timezone';
 
 const mentionLocale = require('../lists/mentions').mentions;
-
-export const Mentions = () => {
+export const Mentions = ({ t }) => {
   const mentions = mentionLocale.map((x, i) => {
-    if (i < 6) {
+    if (i < 12) {
       return (
         <div className="col-xs-12 col-sm-4 col-md center-xs middle-xs col--full-height pb-xs" key={x.url}>
           <Link href={x.url}>
             <a href={x.url}>
-              <LazyLoad height={50}>
+              <LazyLoad height={500}>
                 <img src={x.img} width={x.width} alt="img" />
               </LazyLoad>
             </a>
@@ -38,7 +37,7 @@ export const FullMentions = () => {
         <div className="col-xs-12 coverage--logo">
           <Link href={x.url}>
             <a href={x.url} className="date">
-              <LazyLoad height={50}>
+              <LazyLoad height={500}>
                 <img src={x.img} alt={x.title} />
               </LazyLoad>
             </a>

@@ -11,7 +11,7 @@ function About(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">{t('common:meta.about.title', { defaultValue: 'About - VergeCurrency.com' })}</title>
+        <title key="title">{t('common:meta.about.title', { defaultValue: 'About' })}</title>
       </Head>
       <div className="about">
         <div className="ribbon ribbon--about">
