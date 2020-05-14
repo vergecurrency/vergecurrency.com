@@ -54,15 +54,6 @@
     "title": "Business Development Team",
     "members": [
       {
-        "img": "../static/img/team/arend.jpg",
-        "name": "Arend",
-        "role": "Payment Integration Manager",
-        "occupation": "Student Entrepreneur",
-        "github": "https://github.com/arendgb",
-        "twitter": "https://twitter.com/Arend_XVG",
-        "location": "Tilburg, The Netherlands"
-      },
-      {
         "img": "../static/img/team/cc66.jpg",
         "name": "Jason - CC66",
         "role": "Senior Community Manager",
@@ -139,15 +130,6 @@
         "github": "",
         "twitter": "https://twitter.com/waveon3",
         "location": "Odense, Denmark"
-      },
-      {
-        "img": "../static/img/team/jeroen.png",
-        "name": "Jeroen",
-        "role": "Marketing Strategist",
-        "occupation": "Consultant",
-        "github": "",
-        "twitter": "",
-        "location": "Tillburg, The Netherlands"
       },
       {
         "img": "../static/img/team/verge.jpg",
