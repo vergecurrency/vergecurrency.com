@@ -1,0 +1,204 @@
+{
+  "developer": {
+    "title": "Development Team",
+    "members": [
+      {
+        "img": "../static/img/team/sunerok.jpg",
+        "name": "Justin - Sunerok",
+        "role": "Senior Software Engineer",
+        "occupation": "Network Security & Blockchain Expert",
+        "github": "https://github.com/justinvforvendetta",
+        "twitter": "https://twitter.com/justinvendetta",
+        "location": "Florida, USA"
+      },
+      {
+        "img": "../static/img/team/marpme.jpg",
+        "name": "Marvin - marpme",
+        "role": "Lead Software Engineer",
+        "occupation": "Software Engineer",
+        "github": "https://github.com/marpme",
+        "twitter": "https://twitter.com/marpme_",
+        "location": "Berlin, Germany"
+      },
+      {
+        "img": "../static/img/team/swen.jpg",
+        "name": "Swen",
+        "role": "Software Engineer",
+        "occupation": "Full Stack Senior Web Developer",
+        "github": "https://github.com/SwenVanZanten",
+        "twitter": "https://twitter.com/SwenVanZanten",
+        "location": "Voorhout, The Netherlands"
+      },
+      {
+        "img": "../static/img/team/manuel.jpg",
+        "name": "Manuel",
+        "role": "Software Engineer",
+        "occupation": "Software Engineer",
+        "github": "https://github.com/Cabrasm",
+        "twitter": "https://twitter.com/CabrasManuel",
+        "location": "Switzerland"
+      },
+      {
+        "img": "../static/img/team/maxius.jpg",
+        "name": "Damien - Maxius",
+        "role": "Web Developer",
+        "occupation": "Full Stack Web Developer",
+        "github": "https://github.com/Max1us",
+        "twitter": "https://twitter.com/_maxius_",
+        "location": "Melbourne, Australia"
+      }
+    ]
+  },
+
+  "businessdevelopment": {
+    "title": "Business Development Team",
+    "members": [
+      {
+        "img": "../static/img/team/cc66.jpg",
+        "name": "Jason - CC66",
+        "role": "Senior Community Manager",
+        "occupation": "Social Engineering Specialist",
+        "github": "",
+        "twitter": "https://twitter.com/CoinCrazy66",
+        "location": "Tennessee, USA"
+      },
+      {
+        "img": "../static/img/team/mark.jpg",
+        "name": "Mark",
+        "role": "Business Development Strategist",
+        "occupation": "Finance / Credit Specialist",
+        "github": "",
+        "twitter": "https://twitter.com/vergecanada",
+        "location": "Alberta, Canada"
+      },
+      {
+        "img": "../static/img/team/desolator.jpg",
+        "name": "Numan",
+        "role": "Business Development",
+        "occupation": "Lead System Engineer",
+        "github": "",
+        "twitter": "https://twitter.com/Desolatorbtc",
+        "location": "Istanbul, Turkey"
+      },
+      {
+        "img": "../static/img/team/melvin.jpg",
+        "name": "Melvin",
+        "role": "Outreach",
+        "occupation": "Logistics Management",
+        "github": "",
+        "twitter": "https://twitter.com/melvin_van_es",
+        "location": "Rotterdam, The Netherlands"
+      }
+    ]
+  },
+
+  "marketing": {
+    "title": "Marketing Team",
+    "members": [
+      {
+        "img": "../static/img/team/alchemi.jpg",
+        "name": "Alchemi",
+        "role": "Multimedia Designer",
+        "occupation": "Multimedia Designer",
+        "github": "",
+        "twitter": "https://twitter.com/alchemi_co",
+        "location": "New York, USA"
+      },
+      {
+        "img": "../static/img/team/niteshadow.jpg",
+        "name": "NiteShadow",
+        "role": "IT/Content Marketing Strategist",
+        "occupation": "IT/Content Marketing Strategist",
+        "github": "",
+        "twitter": "https://twitter.com/NiteShadowXVG",
+        "location": "New York, USA"
+      },
+      {
+        "img": "../static/img/team/xvgninja.jpg",
+        "name": "Alexandre - XVG Ninja",
+        "role": "Technical Marketing Engineer",
+        "occupation": "Corporate English Teacher / Editor",
+        "github": "",
+        "twitter": "https://twitter.com/xvg_ninja",
+        "location": "Germany"
+      },
+      {
+        "img": "../static/img/team/Hassan.png",
+        "name": "Hassan",
+        "role": "Lead UI Designer & Graphics",
+        "occupation": "UI/UX Designer & Webdesigner",
+        "github": "",
+        "twitter": "https://twitter.com/waveon3",
+        "location": "Odense, Denmark"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Bishal - MarkOnDCrypto",
+        "role": "Marketing",
+        "occupation": "Graphics and Web Designer",
+        "github": "",
+        "twitter": "https://twitter.com/MarkOnDCrypto/",
+        "location": "Kathmandu, Nepal"
+      }
+    ]
+  },
+  "advisor": {
+    "title": "Advisors",
+    "members": [
+      {
+        "img": "../static/img/team/mihael.jpg",
+        "name": "Mihael",
+        "role": "Internal & External Communications",
+        "occupation": "Offshore Marine Engineer",
+        "github": "",
+        "twitter": "https://twitter.com/Mihael_CM",
+        "location": "Rijeka, Croatia"
+      },
+      {
+        "img": "../static/img/team/kris.jpg",
+        "name": "Kristopher",
+        "role": "Marketing & Operations Advisor",
+        "occupation": "Serial Entrepreneur & Investor",
+        "github": "",
+        "twitter": "https://twitter.com/KristopherMT",
+        "location": "Canada"
+      },
+      {
+        "img": "../static/img/team/swizzlesticks.jpg",
+        "name": "Lloyd - Swizzlesticks",
+        "role": "Senior Content Manager",
+        "occupation": "Owner/CEO - Managed Services Provider",
+        "github": "",
+        "twitter": "https://twitter.com/3wizzlesticks",
+        "location": "Kentucky, USA"
+      },
+      {
+        "img": "../static/img/team/birb.jpg",
+        "name": "Dan - wit_sec_birb",
+        "role": "Advisor & Marketing",
+        "occupation": "Procurement",
+        "github": "",
+        "twitter": "https://twitter.com/wit_sec_birb",
+        "location": "Melbourne, Australia"
+      },
+      {
+        "img": "../static/img/team/harry.jpg",
+        "name": "Harry",
+        "role": "General Advisor",
+        "occupation": "Venture Advisor",
+        "github": "",
+        "twitter": "https://twitter.com/XVGHS",
+        "location": "British Columbia Canada"
+      },
+      {
+        "img": "../static/img/team/thecryptocamel.jpg",
+        "name": "TheCryptoCamel",
+        "role": "Video Production",
+        "occupation": "Master Distiller",
+        "github": "",
+        "twitter": "https://twitter.com/TheCryptoCamel",
+        "location": "Washington, USA"
+      }
+    ]
+  }
+}
