@@ -9,6 +9,16 @@
       "os": "all"
     },
     {
+      "name": "Apple iOS Wallet",
+      "url": "https://itunes.apple.com/us/app/id1459928869",
+      "classNames": "wallets--icon__apple wallets--icon__apple--tor",
+      "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
+      "available": true,
+      "os": "iOS",
+      "url2": "https://vergesupport.altervista.org/knowledge-base/install-and-configure-your-ios-wallet/",
+      "availableinstructions": true
+    },
+    {
       "name": "Android Tor Wallet",
       "url": "https://play.google.com/store/apps/details?id=com.vergeandroid.wallet",
       "classNames": "wallets--icon__android wallets--icon__android--tor",
@@ -19,8 +29,8 @@
       "availableinstructions": true
     },
     {
-      "name": "OSX Tor QT Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/releases/download/v5.2.1/verge-5.2.1-osx-unsigned.dmg",
+      "name": "MacOS Tor QT Wallet",
+      "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
@@ -30,7 +40,7 @@
     },
     {
       "name": "Windows Tor QT Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/releases/download/v5.2.1/verge-5.2.1-win64-setup-unsigned.exe",
+      "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
@@ -39,48 +49,8 @@
       "availableinstructions": true
     },
     {
-      "name": "Apple iOS Wallet",
-      "url": "https://itunes.apple.com/us/app/id1459928869",
-      "classNames": "wallets--icon__apple wallets--icon__apple--tor",
-      "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
-      "available": true,
-      "os": "iOS",
-      "url2": "#",
-      "availableinstructions": false
-    },
-    {
-      "name": "OSX Tor Electrum Wallet",
-      "url": "https://github.com/vergecurrency/electrum-xvg-tor/releases/download/2.4/electrum-xvg-tor-2.4-macosx.dmg",
-      "classNames": "wallets--icon__apple wallets--icon__apple--tor",
-      "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
-      "available": true,
-      "os": "OS X",
-      "url2": "https://github.com/vergecurrency/electrum-xvg-tor#3-installing-on-os-x",
-      "availableinstructions": true
-    },
-    {
-      "name": "Windows Tor Electrum Wallet",
-      "url": "https://github.com/vergecurrency/electrum-xvg-tor/releases/download/2.4.1/electrum-xvg-tor-win-amd64.zip",
-      "classNames": "wallets--icon__windows wallets--icon__windows--tor",
-      "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
-      "available": true,
-      "os": "Windows",
-      "url2": "https://verge.zendesk.com/hc/en-us/articles/360015942172--Tor-Electrum-XVG-Beginner-s-Guide",
-      "availableinstructions": true
-    },
-    {
-      "name": "Linux Tor Electrum Wallet",
-      "url": "https://github.com/vergecurrency/electrum-xvg-tor",
-      "classNames": "wallets--icon__linux wallets--icon__linux--tor",
-      "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
-      "available": true,
-      "os": "Ubuntu",
-      "url2": "https://github.com/vergecurrency/electrum-xvg-tor#1a-getting-started-with-ubuntulinux",
-      "availableinstructions": true
-    },
-    {
       "name": "Linux Tor QT Wallet",
-      "url": "https://github.com/vergecurrency/VERGE/releases",
+      "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,

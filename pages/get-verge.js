@@ -4,7 +4,7 @@ import { translate } from 'react-i18next';
 import Layout from '../components/Layout';
 import { Exchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
-import Coinchart from '../components/Coinchart';
+//import Coinchart from '../components/Coinchart';
 
 import i18n from '../i18n';
 
@@ -27,7 +27,7 @@ function GetVerge(props) {
               <h2>{t('get-verge:body.direct', { defaultValue: 'Buy/Sell Crypto directly, via ChangeHero.' })}</h2>
               <p><em>(Click the blue currency code to change to your desired currency.)</em></p>
               <br />
-              <iframe src="https://widget.changehero.io/?to=XVG&ref=85fa2cf50ddb439fb6db6a24c981fb48" name="changeHeroWidget" id="changeHeroWidget" 
+              <iframe src="https://widget.changehero.io/?to=XVG&ref=85fa2cf50ddb439fb6db6a24c981fb48" name="changeHeroWidget" id="changeHeroWidget"
                 scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="430px" width="100%" allowfullscreen></iframe>
             </div>
             <div className="col-xs-10">
@@ -64,15 +64,15 @@ function GetVerge(props) {
             </div>
           </div>
 
-          <Coinchart />
+          {/*<Coinchart />*/}
 
           <div className="row center-xs middle-xs pt pb">
             <div className="col-xs-10 col-sm-6">
-              <h6>{t('get-verge:body.title2', { defaultValue: 'DELIVERS WHAT OTHERS CAN\'T' })}</h6>
+              <h6>{t('get-verge:body.title2', { defaultValue: 'Blockchain Solutions for Everyday use' })}</h6>
               <h2>
-                {t('get-verge:body.delivers', { defaultValue: 'Verge uses multiple anonymity-centric networks such as TOR and I2P. The IP addresses of the users are fully obfuscated and transactions are completely untraceable.' })}
+                {t('get-verge:body.delivers', { defaultValue: 'Verge provides the security of blockchain based payments to everyday users with easy to use software tailored to real life needs and applications.' })}
               </h2>
-              <p>{t('get-verge:body.privacy', { defaultValue: 'We care about your privacy. Do you?' })}</p>
+              <p>{t('get-verge:body.privacy', { defaultValue: 'We strive to make blockchain payments effortless and convenient.' })}</p>
             </div>
           </div>
         </div>

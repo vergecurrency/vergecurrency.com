@@ -1,0 +1,48 @@
+.pool-item {
+  background: #fff;
+  border-radius: 2px;
+  padding: 1rem;
+  min-height: 210px;
+  min-width: 200px;
+
+  &.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    &:hover {
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.22);
+    }
+  }
+}
+
+.minerpools-grid {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px !important;
+
+  @media (min-width: $min-width-sm) {
+    margin: 35px 0px;
+    grid-template-columns: auto auto;
+    grid-auto-flow: row;
+  }
+
+  @media (min-width: $min-width-lg) {
+    margin: 35px 0px;
+    grid-template-columns: auto auto auto;
+    grid-auto-flow: row;
+  }
+
+  h1 {
+    font-size: 14px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  code {
+    font-size: 12px;
+  }
+}

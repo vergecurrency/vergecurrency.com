@@ -1,28 +1,21 @@
 {
   "USPs": {
     "first": {
-      "header": "A <span>cryptocurrency</span> designed <br>for everyday use.",
-      "text": "Improving upon the original Bitcoin block&shy;chain and aims to fulfill its initial purpose."
+      "header": "A <span>digital currency</span> designed <br>for everyday transactions.",
+      "text": "Our network provides world class features to ensure our users are able to send and receive difital payments quickly, safely, and securely."
     },
     "second": {
       "header": "Bringing <span>blockchain</span> <br>into everyday life.",
-      "text": "Verge currency makes it possible to engage in direct transactions."
+      "text": "Simplified digital payments through our vPay applications powered by blockchain technology."
     },
     "third": {
       "header": "Open Source Development <br>& <span>Community Driven.</span>",
-      "text": "Verge is not a private company funded by pre-mined coins or ICO's."
+      "text": "We are proud to be 100% open-source. Our project is ran entirely by volunteer community members and dedicated indiviudals who wish to make a difference in the world."
     }
   },
-  "wraith": {    
-      "title": "Wraith Protocol",
-      "text1": "Wraith Protocol is a technology upgrade package that enables our users to be able to send and receive payments privately across our blockchain by enabling stealth addressing services.",
-      "text2": "Additionally this update removes our QT wallet users off of clearnet and migrates everyone to SSL enabled Tor.",
-      "text3": "Through this system, users now have an additional layer of base IP obfuscation as well as the option to utilize stealth addressing services for their transactions.",
-      "text4": "Wraith Protocol allows for complete anonymity to be maintained while providing a safe and secure method of sending and receiving Verge coins."       
-    },
   "texts": {    
     "open": "Verge Currency is a 100% open-source project, and the global Verge Community represents the manpower driving it forward. Verge is not a company, there was no ICO held upon the launch and no pre-mining took place. All contributors, including the Core Team, are unpaid volunteers who donate their time and energy into the project because they are passionate and believe in Verge.",
-    "use": "Verge is a secure and anonymous cryptocurrency, built for everyday use.",
+    "use": "Verge is a secure and user-friendly digital currency, built for everyday transactions.",
     "grassroots": "The grassroots culture is what makes Verge <span className=hidden-xs><br /></span> unique and dynamic."
     },
   "vendors": {

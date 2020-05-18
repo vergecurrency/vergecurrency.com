@@ -83,25 +83,8 @@ const roadMap = [
     title: 'Desktop Wallet',
     description:
       'Electron based wallet with better performance and minimalistic UI design',
-    progress: 85,
-    progressState: 'Preparing release',
-  },
-  {
-    done: false,
-    doneDate: '',
-    title: 'RingCT Integration',
-    description:
-      'Ring Confidential Transactions - advanced masking of transaction amounts',
-    progress: 45,
+    progress: 5,
     progressState: 'Work in progress',
-  },
-  {
-    done: false,
-    doneDate: '',
-    title: 'RSK',
-    description: 'RSK Smart Contract Integration',
-    progress: 25,
-    progressState: 'Investigating integration',
   },
   {
     done: false,
@@ -111,6 +94,14 @@ const roadMap = [
       'Freshly redesigned wallet to match our corporate design and feature set.',
     progress: 30,
     progressState: 'Work in progress',
+  },
+  {
+    done: false,
+    doneDate: '',
+    title: 'RSK',
+    description: 'RSK Smart Contract Integration',
+    progress: 25,
+    progressState: 'Investigating integration',
   },
 ];
 

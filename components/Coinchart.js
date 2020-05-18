@@ -1,13 +1,13 @@
 import React from 'react';
-import CryptowatchEmbed from 'cryptowatch-embed';
+//import CryptowatchEmbed from 'cryptowatch-embed';
 
 class Coinchart extends React.Component {
   componentDidMount() {
-    const chart = new CryptowatchEmbed('bittrex', 'xvgbtc', {
+    /*const chart = new CryptowatchEmbed('bittrex', 'xvgbtc', {
       height: 500,
       timePeriod: '4h',
     });
-    chart.mount('#chart-container');
+    chart.mount('#chart-container');*/
   }
 
   render() {

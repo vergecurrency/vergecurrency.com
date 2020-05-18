@@ -46,21 +46,21 @@
   grid-row-gap: 30px !important;
 
   @media (min-width: $min-width-sm) {
-    grid-template-rows: 100%;
+    grid-template-rows: auto auto;
     grid-auto-flow: column;
     margin: 15px 0px;
   }
 
   @media (min-width: $min-width-md) {
     margin: 35px 0px;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     grid-auto-flow: row;
   }
 
   @media (min-width: $min-width-lg) {
     margin: 35px 0px;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     grid-auto-flow: row;
   }
@@ -76,5 +76,13 @@
     margin-bottom: 30px;
     width: 60%;
     display: flex;
+
+    &.img--wider {
+      width: 80%;
+    }
+
+    &.img--smaller {
+      width: 45%;
+    }
   }
 }

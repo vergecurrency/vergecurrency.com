@@ -81,7 +81,8 @@ $colors: (
 @import 'pages/key-tech';
 @import 'pages/getstarted';
 @import 'pages/meetup';
-@import 'pages/meetup-2018';
+@import 'pages/meetup2018';
+@import 'pages/meetup2019';
 @import 'pages/team';
 @import 'pages/partnership-donation-rewards';
 @import 'pages/partnership-donation-mentions';
@@ -91,3 +92,4 @@ $colors: (
 @import 'partials/markdown';
 @import 'partials/responsive-display';
 @import 'react-web-tabs/dist/react-web-tabs.css';
+@import 'partials/community'
