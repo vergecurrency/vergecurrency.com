@@ -1264,6 +1264,20 @@
             }
         },
         {
+            "title": "Nomad Postbox",
+            "img": "../static/img/vendors/latest/nomad2.jpg",
+            "link": "nomadpostbox.com/",
+            "url": "https://nomadpostbox.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "Frank and Beans Underwear",
             "img": "../static/img/vendors/latest/frankandbeans.png",
             "link": "frankandbeans.com.au",
