@@ -1,15 +1,15 @@
 export default [
   {
-    poollink: 'https://bsod.pw/en/pool/dashboard/xvg/',
-    poolname: 'BSOD PW',
-    hardfork: true,
-    supportedAlgos: 'Scrypt, Groestl, Lyra2Rev2, Blake2s, x17',
-  },
-  {
     poollink: 'https://cryptopools.aod-tech.com/',
     poolname: 'AOD-Tech Pools',
     hardfork: true,
     supportedAlgos: 'Scrypt, Groestl, Lyra2Rev2, Blake2s, x17',
+  },
+  {
+    poollink: 'https://fairpool.pro/site/coins?coin=XVG',
+    poolname: 'Fairpool Pro',
+    hardfork: true,
+    supportedAlgos: 'Scrypt, Lyra2Rev2, Blake2s, x17',
   },
   {
     poollink: 'http://blockmasters.co',
