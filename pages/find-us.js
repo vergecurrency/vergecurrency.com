@@ -50,8 +50,8 @@ function FindUs(props) {
                         <div className="divTableCell">Twitter</div>
                         <div className="divTableCell">Reddit</div>
                         <div className="divTableCell">Verge Forums</div>
-                        <div className="divTableCell">Telegram</div>
                         <div className="divTableCell">Discord</div>
+                        <div className="divTableCell">Telegram</div>
                       </div>
                       <br /><br />
                       <div className="divTableRow">
