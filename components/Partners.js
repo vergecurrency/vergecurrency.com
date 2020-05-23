@@ -107,6 +107,17 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
+          <div>
+            <a href="http://www.meconcash.com/index_en.html">
+              <img src="/static/img/vendors/latest/meconcash.png" alt="meconcash" className="img--smaller"/>
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.meconcash', {
+                defaultValue: `
+                Using the MeconCash platform, M.Pay, Verge holders will be able to instantly withdraw Korean Wons through a whopping 13 000 ATMs in South Korea. This will allow travelers, students and anyone who holds Verge the ability to quickly withdraw their money, 24/7.`,
+              })}
+            </ExpandCollapse>
+          </div>
           <div></div>
           <div>
             <a href="https://atomicwallet.io/">

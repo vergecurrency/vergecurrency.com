@@ -1920,6 +1920,34 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "https://luxemiss.com",
+            "img": "../static/img/vendors/latest/luxemiss.jpg",
+            "link": "luxemiss.com",
+            "url": "https://luxemiss.com/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "Nomad Postbox",
+            "img": "../static/img/vendors/latest/nomadpostbox.png",
+            "link": "nomadpostbox.com",
+            "url": "https://nomadpostbox.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": true,
+                "education": false
+            }
         }
     ]
 }
