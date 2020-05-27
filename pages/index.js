@@ -30,7 +30,7 @@ import 'moment-timezone';
 
 import Layout from '../components/Layout';
 import i18n from '../i18n';
-import CurrentYearRoadmap from './CurrentYearRoadmap';
+import CurrentYearRoadmap from './CurrentMilestones';
 
 function Home(props) {
   const { t } = props;
@@ -381,7 +381,7 @@ function Home(props) {
               </div>
             </div>
 
-            
+
             <div className="press">
               <div className="row center-xs social">
                 <div className="col-xs-11 center-xs">
@@ -507,7 +507,7 @@ function Home(props) {
   );
 }
 
-const Extended = translate(['common', 'home', 'roadmap'], {
+const Extended = translate(['common', 'home', 'milestones'], {
   i18n,
   wait: process.browser,
 })(Home);

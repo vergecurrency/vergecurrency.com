@@ -94,9 +94,9 @@
       "question": "Where Can I Go to Learn More About Verge?",
       "answer": "We are on a ton of different social platforms and are very active on Twitter, Telegram, Slack, and Discord."
     },
-    "roadmap": {
-      "question": "Where Can I Find the Verge Roadmap?",
-      "answer": "We have a <a href='/roadmap' target='_blank'>roadmap</a> listed on our site that usually lists items we are working on for the next month or two. We don't like to put long-term items (greater than 3 months) on our roadmap, because things change too fast in crypto to anticipate that far ahead."
+    "milestones": {
+      "question": "Where Can I Find the Verge Milestones?",
+      "answer": "We have a list of <a href='/milestones' target='_blank'>milestones</a> listed on our site, rather than a roadmap. We decided that due to the dynamic nature of cryptocurrency development, things often change, and this makes more sense."
     }
   },
   "privacy": {
@@ -143,7 +143,7 @@
     },
     "help": {
       "question": "Where can I get help with wallet issues?",
-      "answer": "Please visit this site for assistance:"      
+      "answer": "Please visit this site for assistance:"
     }
   },
   "mining": {
