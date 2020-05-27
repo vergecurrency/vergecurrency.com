@@ -54,8 +54,8 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="/roadmap">
-                        <a href="/roadmap" name="Roadmap">{t('footer:roadmap', { defaultValue: 'Roadmap' })}</a>
+                      <Link href="/milestones">
+                        <a href="/milestones" name="Milestones">{t('footer:milestones', { defaultValue: 'Milestones' })}</a>
                       </Link>
                     </li>
                     <li>

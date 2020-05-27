@@ -96,7 +96,7 @@
     },
     "roadmap": {
       "question": "Où puis-je trouver la feuille de route de Verge?",
-      "answer": "Nous avons une <a href='/roadmap' target='_blank'> feuille de route </a> répertoriée sur notre site qui montre généralement les éléments sur lesquels nous travaillons pour le mois ou les deux prochains. Nous n'aimons pas mettre des éléments à long terme (plus de 3 mois) sur notre feuille de route, car les choses changent trop vite dans la cryptographie pour anticiper cela de très loin."
+      "answer": "Nous avons une <a href='/milestones' target='_blank'> feuille de route </a> répertoriée sur notre site qui montre généralement les éléments sur lesquels nous travaillons pour le mois ou les deux prochains. Nous n'aimons pas mettre des éléments à long terme (plus de 3 mois) sur notre feuille de route, car les choses changent trop vite dans la cryptographie pour anticiper cela de très loin."
     }
   },
   "privacy": {
