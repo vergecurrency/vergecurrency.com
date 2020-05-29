@@ -701,14 +701,14 @@
             }
         },
         {
-            "title": "Nomad Postbox",
-            "img": "../static/img/vendors/latest/nomad2.jpg",
-            "link": "nomadpostbox.com/",
-            "url": "https://nomadpostbox.com/",
+            "title": "On Demand DTG",
+            "img": "../static/img/vendors/latest/ondemand.png",
+            "link": "myodtees.com",
+            "url": "https://myodtees.com/",
             "categories": {
-                "retail": false,
+                "retail": true,
                 "foodAndBev": false,
-                "service": true,
+                "service": false,
                 "entertainment": false,
                 "travel": false,
                 "education": false
