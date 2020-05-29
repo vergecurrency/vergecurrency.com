@@ -701,6 +701,20 @@
             }
         },
         {
+            "title": "Nomad Postbox",
+            "img": "../static/img/vendors/latest/nomad2.jpg",
+            "link": "nomadpostbox.com/",
+            "url": "https://nomadpostbox.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "Snel.com",
             "img": "../static/img/vendors/latest/Snel.png",
             "link": "snel.com",
