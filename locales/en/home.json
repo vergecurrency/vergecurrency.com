@@ -1,6 +1,6 @@
 {
   "ribbon": {
-    "title": ">A secure and user-friendly digital currency.",
+    "title": "A secure and user-friendly digital currency.",
     "text1": "Built for everyday transactions.",
     "text2": "Get started with Verge"
 
@@ -30,7 +30,7 @@
       "text": "Low fees, quick transactions, high volume in circulation, multiplatform support, Wraith Protocol are the ingredients that make Verge perfectly positioned for mass adoption."
     },
     "benefit_4": {
-      "title": "SECURITY"      
+      "title": "SECURITY"
     }
   },
   "wallets": {

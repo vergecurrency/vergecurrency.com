@@ -38,7 +38,7 @@ module.exports = {
       '/p2p/discord-bot': { page: '/p2p/discord-bot' },
       '/p2p/twitter-bot': { page: '/p2p/twitter-bot' },
       '/presskit': { page: '/presskit' },
-      '/roadmap': { page: '/roadmap' },
+      '/milestones': { page: '/milestones' },
       '/send-an-email': { page: '/community/send-an-email' },
       '/vendors': { page: '/vendors' },
       '/verge-team': { page: '/verge-team' },

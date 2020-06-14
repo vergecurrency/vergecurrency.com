@@ -1,6 +1,6 @@
 .roadmap-update-progress {
-  margin-top: 15px;
-  display: inline-flex;
+  margin-top: 10px;
+  display: flex;
   align-items: end;
 
   .progress {
@@ -11,6 +11,17 @@
       margin-bottom: 0px;
       transform: rotate(0deg);
     }
+  }
+
+  a {
+    color: #777;
+    &:hover {
+      color: #1db6dc;
+    }
+  }
+
+  span {
+    min-width: 80px;
   }
 
   .progress__meter,
