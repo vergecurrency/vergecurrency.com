@@ -246,5 +246,11 @@
       "link": "scavo.exchange",
       "url": "https://scavo.exchange"
     }
+    {
+      "img": "../static/img/exchanges/unnamedex.png",
+      "title": "Unnamed.Exchange",
+      "link": "unnamed.exchange",
+      "url": "https://unnamed.exchange"
+    }	  
   ]
 }
