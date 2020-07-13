@@ -145,12 +145,6 @@
       "url": "https://crypto-bridge.org"
     },
     {
-      "img": "../static/img/exchanges/tradesatoshi.png",
-      "title": "TradeSatoshi",
-      "link": "tradesatoshi.com",
-      "url": "https://tradesatoshi.com/Exchange?market=XVG_BTC"
-    },
-    {
       "img": "../static/img/exchanges/nexchange.png",
       "title": "N.exchange",
       "link": "n.exchange",
@@ -245,12 +239,18 @@
       "title": "Scavo Exchange",
       "link": "scavo.exchange",
       "url": "https://scavo.exchange"
-    }
+    },
+    {
+      "img": "../static/img/exchanges/piixpay.png",
+      "title": "Piixpay",
+      "link": "piixpay.com",
+      "url": "https://www.piixpay.com"
+    },
     {
       "img": "../static/img/exchanges/unnamedex.png",
       "title": "Unnamed.Exchange",
       "link": "unnamed.exchange",
       "url": "https://unnamed.exchange"
-    }	  
+    }
   ]
 }

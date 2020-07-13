@@ -115,6 +115,16 @@ const mileStones = [
     infoLabel: 'Press Release (Medium)',
     infoUrl: 'https://medium.com/vergecurrency/verge-meconcash-press-release-cc17678d68cd'
   },
+  {
+    done: true,
+    doneDate: '11th June 2020',
+    title: 'Partnership Announcement - MobiePay',
+    description: 'MobiePay is a universal payment ecosystem that provides a mechanism for users to spend or transfer fiat and cryptocurrency instantly from their mobile phone, to merchants or other users.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Press Release (Medium)',
+    infoUrl: 'https://medium.com/vergecurrency/verge-currency-and-mobiepay-team-up-8f58f1d33853'
+  },
 
   // {
   //   done: true or false,
