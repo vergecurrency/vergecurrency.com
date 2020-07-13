@@ -7,8 +7,8 @@ const app = next({ dir: '.', dev });
 const handle = app.getRequestHandler();
 
 // const { createServer } = require('http');
-const i18nextMiddleware = require('i18next-express-middleware');
-const Backend = require('i18next-node-fs-backend');
+const i18nextMiddleware = require('i18next-http-middleware');
+const Backend = require('i18next-fs-backend');
 const i18n = require('./i18n');
 // const compression = require('compression');
 
@@ -31,7 +31,6 @@ i18n
     backend: {
       loadPath: `${__dirname}/locales/{{lng}}/{{ns}}.json`,
       addPath: `${__dirname}/locales/{{lng}}/{{ns}}.missing.json`,
-      reloadInterval: 10000,
     },
   }, () => {
     // loaded translations we can bootstrap our routes

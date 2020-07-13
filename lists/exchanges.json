@@ -246,5 +246,11 @@
       "link": "piixpay.com",
       "url": "https://www.piixpay.com"
     }
+    {
+      "img": "../static/img/exchanges/unnamedex.png",
+      "title": "Unnamed.Exchange",
+      "link": "unnamed.exchange",
+      "url": "https://unnamed.exchange"
+    }	  
   ]
 }

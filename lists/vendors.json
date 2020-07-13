@@ -687,6 +687,20 @@
             }
         },
         {
+            "title": "On Demand DTG",
+            "img": "../static/img/vendors/latest/ondemand.png",
+            "link": "myodtees.com",
+            "url": "https://myodtees.com/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "Snel.com",
             "img": "../static/img/vendors/latest/Snel.png",
             "link": "snel.com",
