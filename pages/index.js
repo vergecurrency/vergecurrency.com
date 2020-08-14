@@ -439,7 +439,7 @@ function Home(props) {
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.youtube.com/vergecurrency">
+                          <Link href="https://www.youtube.com/vergecurrencyofficial">
                             <a
                               href="https://www.youtube.com/vergecurrency"
                               target="_blank"
