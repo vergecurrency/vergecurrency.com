@@ -247,10 +247,10 @@
       "url": "https://www.piixpay.com"
     },
     {
-      "img": "../static/img/exchanges/unnamedex.png",
-      "title": "Unnamed.Exchange",
-      "link": "unnamed.exchange",
-      "url": "https://unnamed.exchange"
+      "img": "../static/img/vendors/latest/nowpayments.png",
+      "title": "NOW Payments",
+      "link": "nowpayments.io",
+      "url": "https://nowpayments.io/"
     }
   ]
 }
