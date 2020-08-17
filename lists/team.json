@@ -12,22 +12,13 @@
         "location": "Florida, USA"
       },
       {
-        "img": "../static/img/team/marpme.jpg",
-        "name": "Marvin - marpme",
-        "role": "Lead Software Engineer",
-        "occupation": "Software Engineer",
-        "github": "https://github.com/marpme",
-        "twitter": "https://twitter.com/marpme_",
-        "location": "Berlin, Germany"
-      },
-      {
         "img": "../static/img/team/swen.jpg",
         "name": "Swen",
         "role": "Software Engineer",
-        "occupation": "Full Stack Senior Web Developer",
+        "occupation": "Software Engineer",
         "github": "https://github.com/SwenVanZanten",
         "twitter": "https://twitter.com/SwenVanZanten",
-        "location": "Voorhout, The Netherlands"
+        "location": "The Netherlands"
       },
       {
         "img": "../static/img/team/manuel.jpg",
