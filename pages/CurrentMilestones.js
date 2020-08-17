@@ -377,6 +377,16 @@ const mileStones = [
     infoLabel: 'Press Release (Medium)',
     infoUrl: 'https://medium.com/vergecurrency/verge-currency-and-mobiepay-team-up-8f58f1d33853'
   },
+  {
+    done: true,
+    doneDate: '30th July 2020',
+    title: 'Public Beta for MyVergies',
+    description: 'MyVergies is a lite desktop client for Verge, created by SwenVanZanten, that has tor built-in!.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Releases Page',
+    infoUrl: 'https://github.com/vergecurrency/MyVergies/releases'
+  },
 
   // {
   //   done: true or false,
