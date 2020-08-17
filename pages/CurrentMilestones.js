@@ -359,6 +359,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '15th April 2020',
+    title: 'iOS Update v1.3.2',
+    description: 'update to the Verge iOS app',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Apple App Store',
+    infoUrl: 'https://apps.apple.com/us/app/verge-currency-tor-wallet/id1459928869'
+  },
+  {
+    done: true,
     doneDate: '21st April 2020',
     title: 'XVGD - Go Verge Node!',
     description: 'xvgd is a full node verge implementation written in Go (golang)',
