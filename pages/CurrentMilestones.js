@@ -359,6 +359,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '21st April 2020',
+    title: 'XVGD - Go Verge Node!',
+    description: 'xvgd is a full node verge implementation written in Go (golang)',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Repository',
+    infoUrl: 'https://github.com/vergecurrency/xvgd'
+  }, 
+  {
+    done: true,
     doneDate: '21st May 2020',
     title: 'Partnership Announcement - MeconCash',
     description: 'Verge Currency is now accepted on all 13,000 MeconCash ATM\'s in Korea...',
