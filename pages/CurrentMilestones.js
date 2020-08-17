@@ -397,7 +397,16 @@ const mileStones = [
     infoLabel: 'Github Releases Page',
     infoUrl: 'https://github.com/vergecurrency/MyVergies/releases'
   },
-
+  {
+    done: true,
+    doneDate: '5th August 2020',
+    title: 'Trezor firmware implementation',
+    description: 'Verge implementation into Trezor firmware',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Releases Page',
+    infoUrl: 'https://github.com/trezor/trezor-firmware/pull/1165'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
