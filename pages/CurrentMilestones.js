@@ -359,6 +359,26 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '15th April 2020',
+    title: 'iOS Update v1.3.2',
+    description: 'update to the Verge iOS app',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Apple App Store',
+    infoUrl: 'https://apps.apple.com/us/app/verge-currency-tor-wallet/id1459928869'
+  },
+  {
+    done: true,
+    doneDate: '21st April 2020',
+    title: 'XVGD - Go Verge Node!',
+    description: 'xvgd is a full node verge implementation written in Go (golang)',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Repository',
+    infoUrl: 'https://github.com/vergecurrency/xvgd'
+  }, 
+  {
+    done: true,
     doneDate: '21st May 2020',
     title: 'Partnership Announcement - MeconCash',
     description: 'Verge Currency is now accepted on all 13,000 MeconCash ATM\'s in Korea...',
@@ -377,7 +397,26 @@ const mileStones = [
     infoLabel: 'Press Release (Medium)',
     infoUrl: 'https://medium.com/vergecurrency/verge-currency-and-mobiepay-team-up-8f58f1d33853'
   },
-
+  {
+    done: true,
+    doneDate: '30th July 2020',
+    title: 'Public Beta for MyVergies',
+    description: 'MyVergies is a lite desktop client for Verge, created by SwenVanZanten, that has tor built-in!.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Releases Page',
+    infoUrl: 'https://github.com/vergecurrency/MyVergies/releases'
+  },
+  {
+    done: true,
+    doneDate: '5th August 2020',
+    title: 'Trezor firmware implementation',
+    description: 'Verge implementation into Trezor firmware',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Releases Page',
+    infoUrl: 'https://github.com/trezor/trezor-firmware/pull/1165'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
