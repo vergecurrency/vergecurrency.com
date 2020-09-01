@@ -1920,6 +1920,20 @@
                 "travel": true,
                 "education": false
             }
-        }
+        },
+        {
+            "title": "NOWNodes",
+            "img": "",
+            "link": "NOWNodes.io",
+            "url": "https://nownodes.io",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        } 
     ]
 }
