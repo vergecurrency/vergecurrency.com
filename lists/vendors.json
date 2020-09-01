@@ -1923,7 +1923,7 @@
         },
         {
             "title": "NOWNodes",
-            "img": "",
+            "img": "../static/img/vendors/latest/nownodes.jpg",
             "link": "NOWNodes.io",
             "url": "https://nownodes.io",
             "categories": {
