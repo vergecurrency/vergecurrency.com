@@ -151,7 +151,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '5 Jul 2019',
+    doneDate: '5th Jul 2019',
     title: 'XVG Android Wallet - Moon Mode',
     description: 'Android Wallet Moon Mode implemented (pre-release)',
     progress: 100,
@@ -159,7 +159,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '12 Jul 2019',
+    doneDate: '12th Jul 2019',
     title: 'Verge Zendesk Implemented',
     description: 'Verge implements Zendesk as their self-service knowledgebase',
     progress: 100,
@@ -169,7 +169,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '12 Jul 2019',
+    doneDate: '12th Jul 2019',
     title: 'Boardworld integrates Verge',
     description: 'Boardworld, a leading Australian snow/skate/surf retailer, integrates Verge as a payment option',
     progress: 100,
@@ -179,7 +179,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '19 Jul 2019',
+    doneDate: '19th Jul 2019',
     title: 'Android Wallet integrates wallet pins & CircleCI',
     description: 'CircleCI testing has been implemented on the Android Wallet Codebase to ensure quality builds, and the wallet now supports PIN security.',
     progress: 100,
@@ -187,7 +187,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '2 Aug 2019',
+    doneDate: '2nd Aug 2019',
     title: 'Miners migrated from v4 to latest codebase.',
     description: 'Miners are now operating on the latest codebase, now it has been thoroughly tested and has proven to be stable.',
     progress: 100,
@@ -195,7 +195,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '2 Aug 2019',
+    doneDate: '2nd Aug 2019',
     title: 'iOS wallet surpasses 5K downloads',
     description: 'The Verge iOS Wallet has now surpassed 5,000 downloads!',
     progress: 100,
@@ -203,7 +203,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '5 Aug 2019',
+    doneDate: '5th Aug 2019',
     title: 'Paycent announces Partnership',
     description: 'XVG is now available as a source of funding to Paycent\'s crypto-fiat cards, which are used globally.',
     progress: 100,
@@ -213,7 +213,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '7 Aug 2019',
+    doneDate: '7th Aug 2019',
     title: 'Ganja.com Partnership',
     description: 'Discretely and privately purchase Ganja.com CBD products with Verge Currency.',
     progress: 100,
@@ -223,7 +223,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '30 Aug 2019',
+    doneDate: '30th Aug 2019',
     title: 'iOS Update v1.2.0',
     description: 'Added Mars mode theme, changed application icon, added the ability to hide balances on screen, introduced paper wallet sweeping and iOS 13 compatiblity.',
     progress: 100,
@@ -231,7 +231,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '30 Aug 2019',
+    doneDate: '30th Aug 2019',
     title: 'Verge Core Updates',
     description: 'Progressive improvements, added dns seeds, mining templates. import/export, rpc functions, new logo and more',
     progress: 100,
@@ -239,7 +239,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '30 Aug 2019',
+    doneDate: '30th Aug 2019',
     title: 'Android Wallet',
     description: 'Development update - Added changeable VWS Services URLs, PIN feature, UX improvements..',
     progress: 100,
@@ -247,7 +247,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '6 Sep 2019',
+    doneDate: '6th Sep 2019',
     title: 'More exchanges, more choice',
     description: 'Verge was added to EviEx and Bitnovo Exchanges',
     progress: 100,
@@ -255,7 +255,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '1 Oct 2019',
+    doneDate: '1st Oct 2019',
     title: 'Ellipal Hardware Integration Complete',
     description: 'The code required to support Verge XVG on your Ellipal device has now been released.',
     progress: 100,
@@ -265,7 +265,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '2 Oct 2019',
+    doneDate: '2nd Oct 2019',
     title: 'Halving Schedule Adjustments',
     description: 'Code to support changes to the Verge halving schedule',
     progress: 100,
@@ -275,7 +275,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '4 Oct 2019',
+    doneDate: '4th Oct 2019',
     title: 'Prodoge Lists Verge',
     description: 'Verge has now been listed on Prodoge.',
     progress: 100,
@@ -283,7 +283,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '11 Oct 2019',
+    doneDate: '11th Oct 2019',
     title: 'Verge Core v6.0.0 Released',
     description: 'Halving schedule adjusted, added new halvings to the “GetBlockSubsidy”, adjusted the test for the GetBlockSubsidy function, raised the protocol version...',
     progress: 100,
@@ -291,7 +291,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '15 Oct 2019',
+    doneDate: '15th Oct 2019',
     title: 'Voyager Lists Verge',
     description: 'Verge XVG is now available via Voyager.',
     progress: 100,
@@ -299,7 +299,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '25 Oct 2019',
+    doneDate: '25th Oct 2019',
     title: 'Verge Docker Images Released',
     description: 'Verge Core, Bitcore, Price Ticker API, IP API docker images are now available.',
     progress: 100,
@@ -317,7 +317,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '2 Nov 2019',
+    doneDate: '2nd Nov 2019',
     title: 'Atomic Wallet Partnership',
     description: 'Verge is now added to the list of assets you can manage via Atomic, reducing your effort spent on managing crypto assets.',
     progress: 100,
@@ -325,7 +325,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '14 Nov 2019',
+    doneDate: '14th Nov 2019',
     title: 'Abra adds Verge',
     description: 'Abra enables direct deposit and withdrawal of Verge',
     progress: 100,
@@ -333,7 +333,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '31 Jan 2020',
+    doneDate: '31st Jan 2020',
     title: 'ElectrumX + ElectrumV4 public testing',
     description: 'ElectrumX + ElectrumV4 are now available for public testing',
     progress: 100,
@@ -341,7 +341,7 @@ const mileStones = [
   },
   {
     done: false,
-    doneDate: '31 Jan 2020',
+    doneDate: '31st Jan 2020',
     title: 'Electrum mnemonic sweeping',
     description: 'Mnemonic sweeping is being implemented for Electrum wallets',
     progress: 70,
@@ -349,7 +349,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '11 Feb 2020',
+    doneDate: '11th Feb 2020',
     title: 'Binance enables direct conversion',
     description: 'Now available via Binance\'s Crypto Assets Convert Function',
     progress: 100,
@@ -376,7 +376,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Github Repository',
     infoUrl: 'https://github.com/vergecurrency/xvgd'
-  }, 
+  },
   {
     done: true,
     doneDate: '21st May 2020',
@@ -416,6 +416,16 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Github Releases Page',
     infoUrl: 'https://github.com/trezor/trezor-firmware/pull/1165'
+  },
+  {
+    done: true,
+    doneDate: '25th August 2020',
+    title: 'VergeCurrency.Exchange launched',
+    description: 'ChangeNow launches VergeCurrency.Exchange',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Exchange Website',
+    infoUrl: 'https://vergecurrency.exchange'
   },
   // {
   //   done: true or false,
