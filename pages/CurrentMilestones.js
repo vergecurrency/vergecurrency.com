@@ -427,6 +427,16 @@ const mileStones = [
     infoLabel: 'Exchange Website',
     infoUrl: 'https://vergecurrency.exchange'
   },
+  {
+    done: true,
+    doneDate: '14th September 2020',
+    title: 'Updated Verge Android Wallet App',
+    description: 'Verge Android Wallet updated and open sourced',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Google Play',
+    infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
