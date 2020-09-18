@@ -251,6 +251,18 @@
       "title": "NOW Payments",
       "link": "nowpayments.io",
       "url": "https://nowpayments.io/"
+    },
+    {
+      "img": "../static/img/vendors/latest/bitcoinstore.png",
+      "title": "Bitcoin Store",
+      "link": "bitcoin-store.hr",
+      "url": "https://www.bitcoin-store.hr/en/buy-sell/XVG"
+    },
+    {
+      "img": "../static/img/vendors/latest/exolix.png",
+      "title": "Exolix",
+      "link": "exolix.com",
+      "url": "https://exolix.com?ref=dBUrMBkwVQHmYZsw"
     }
   ]
 }
