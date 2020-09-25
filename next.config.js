@@ -2,6 +2,7 @@ const path = require('path');
 const glob = require('glob-all');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const webpack = require('webpack');
+const withOffline = require('next-offline')
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
@@ -58,12 +59,12 @@ module.exports = {
   },
 
   webpack: (config, { dev }) => {
-    if (!dev) {
-      const oldEntry = config.entry;
-      config.entry = () => oldEntry().then((entry) => {
-        entry['main.js'].push(path.resolve('./offline'));
-        return entry;
-      });
+    //if (!dev) {
+    //  const oldEntry = config.entry;
+    //  config.entry = () => oldEntry().then((entry) => {
+    //    entry['main.js'].push(path.resolve('./offline'));
+    //    return entry;
+    //  });
 
       config.plugins.push(new SWPrecacheWebpackPlugin({
         cacheId: 'VergePWA',
