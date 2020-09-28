@@ -9634,10 +9634,10 @@ react-moment@^0.7.0:
   resolved "https://registry.yarnpkg.com/react-moment/-/react-moment-0.7.9.tgz#fc6b5bf8952d27f134a42abfd7f42df2c839c1d7"
   integrity sha512-JpHQgpB+p3oqZv583xlJakPXgqdIjGBZvngHYcFhlYxTYs0NDZSdoM1FCpU9T2QmqKOEFBVuhhJBMvJzTkF/wQ==
 
-react-web-tabs@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/react-web-tabs/-/react-web-tabs-0.4.3.tgz#7df47200e10e267a47509d81378ca88a231bd821"
-  integrity sha1-ffRyAOEOJnpHUJ2BN4yoiiMb2CE=
+react-web-tabs@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-web-tabs/-/react-web-tabs-1.0.1.tgz#86972a9ca4a1de0d6fca31bc725e30c8a59c8e22"
+  integrity sha512-Cg5B2515iLTvown5Tby+f69hT3+3HXetvsGr/Akou1ltREX57E3b3xra4lBjuUay42epMZ/2rfq/e+tTwOgBTQ==
 
 react@^16.9.0:
   version "16.13.1"

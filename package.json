@@ -71,7 +71,7 @@
     "react-i18next": "^7.3.4",
     "react-lazyload": "^2.6.2",
     "react-moment": "^0.7.0",
-    "react-web-tabs": "^0.4.3",
+    "react-web-tabs": "^1.0.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
     "sw-precache-webpack-plugin": "^0.11.5",
