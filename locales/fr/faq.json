@@ -19,7 +19,7 @@
     },
     "getverge": {
       "question": "Comment puis-je obtenir une Verge Currency?",
-      "answer": "Il existe différentes manières d'obtenir des pièces Verge (XVG). L'option la plus courante consiste à les acheter sur un <a href='/get-verge' target='_blank'> échange supporté </a>. Les utilisateurs peuvent également recevoir et envoyé des tips à leur pair <a href='/p2p' target='_blank'>  </a> (en utilisant les robots officiels Verge). Si vous avez un appareil Android, vous pouvez également prendre Verge en déplacement et envoyer / recevoir des pièces avec votre portefeuille mobile Verge <a href = 'https: //play.google.com/store/apps/details? Id = com. vergeandroid.wallet 'target =' _ blank '> application </a>."
+      "answer": "Il existe différentes manières d'obtenir des pièces Verge (XVG). L'option la plus courante consiste à les acheter sur un <a href='/get-verge' target='_blank'> échange supporté </a>. Les utilisateurs peuvent également recevoir et envoyé des tips à leur pair <a href='/p2p' target='_blank'>  </a> (en utilisant les robots officiels Verge). Si vous avez un appareil Android, vous pouvez également prendre Verge en déplacement et envoyer / recevoir des pièces avec votre portefeuille mobile Verge <a href = 'https: //play.google.com/store/apps/details? Id = com. vergepay.wallet 'target =' _ blank '> application </a>."
     },
     "techdoc": {
       "question": "Où puis-je trouver de la documentation technique sur Verge Currency?",
