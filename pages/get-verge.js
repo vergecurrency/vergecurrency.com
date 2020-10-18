@@ -3,8 +3,6 @@ import Link from 'next/link';
 import { translate } from 'react-i18next';
 import Layout from '../components/Layout';
 import { Exchanges } from '../components/Exchanges';
-import Cointicker from '../components/Cointicker';
-//import Coinchart from '../components/Coinchart';
 
 import i18n from '../i18n';
 
@@ -27,8 +25,18 @@ function GetVerge(props) {
               <h2>{t('get-verge:body.direct', { defaultValue: 'Buy/Sell Crypto directly, via ChangeHero.' })}</h2>
               <p><em>(Click the blue currency code to change to your desired currency.)</em></p>
               <br />
-              <iframe src="https://widget.changehero.io/?to=XVG&ref=85fa2cf50ddb439fb6db6a24c981fb48" name="changeHeroWidget" id="changeHeroWidget"
-                scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="430px" width="100%" allowfullscreen></iframe>
+              <iframe
+                src="https://widget.changehero.io/?to=XVG&ref=85fa2cf50ddb439fb6db6a24c981fb48"
+                name="changeHeroWidget"
+                id="changeHeroWidget"
+                scrolling="no"
+                frameborder="0"
+                marginheight="0px"
+                marginwidth="0px"
+                height="430px"
+                width="100%"
+                allowfullscreen
+              />
             </div>
             <div className="col-xs-10">
               <h2>{t('get-verge:body.fiat', { defaultValue: 'Buy Verge (XVG) directly with fiat currency.' })}</h2>
@@ -42,7 +50,15 @@ function GetVerge(props) {
               <br />
               <br />
               <h2>{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges.' })}</h2>
-              <h3 className="mb">{t('get-verge:body.intro2', { defaultValue: 'We’re proud to be listed on:' })}</h3>
+              <h3>{t('get-verge:body.intro2', { defaultValue: 'We’re proud to be listed on:' })}</h3>
+              <p className="mb">
+                <a
+                  href="https://coinmarketcap.com/currencies/verge/"
+                  rel="noopener noreferrer"
+                >
+                  {t('get-verge:body.intro3', { defaultValue: 'Visit Coinmarketcap for an additional list of market pairs.' })}
+                </a>
+              </p>
 
               <Exchanges />
 
