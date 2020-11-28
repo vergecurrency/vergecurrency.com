@@ -210,7 +210,7 @@ function Home(props) {
                       <p>
                         {t('home:benefits.benefit_1.text', {
                           defaultvalue:
-                            'Verge provides an easy to use platform which enables everyday users to be able to transact quickly and effeciently across a blockchain based network.',
+                            'Verge provides an easy to use platform which enables everyday users to be able to transact quickly and efficiently across a blockchain based network.',
                         })}
                       </p>
                     </div>
@@ -346,7 +346,7 @@ function Home(props) {
                   <p>
                     {t('home:mission.text2', {
                       defaultValue:
-                        'With Verge, businesses and individuals have flexible options for sending and receiving payments securely and effeciently all around the world in a matter of seconds.',
+                        'With Verge, businesses and individuals have flexible options for sending and receiving payments securely and efficiently all around the world in a matter of seconds.',
                     })}
                   </p>
                   <Link href="/get-verge">
