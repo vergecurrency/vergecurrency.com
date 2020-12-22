@@ -1,6 +1,41 @@
 {
   "mentions": [
     {
+      "url": "https://finance.yahoo.com/news/voice-life-charges-future-verge-140100109.html",
+      "img": "../static/img/mentioned-in/YahooFinance-en.png",
+      "width": "100",
+      "title": "Voice Life Charges into the Future with Verge Currency (XVG) and VergePAY",
+      "date": "2020-12-23"
+    },
+    {
+      "url": "https://www.coindesk.com/cryptocurrency-pornhub-verge-mobile-charging",
+      "img": "../static/img/mentioned-in/coindesk.png",
+      "width": "100",
+      "title": "First Cryptocurrency Used by Pornhub Eyes New Use Case in Mobile Charging",
+      "date": "2020-12-23"
+    },
+    {
+      "url": "https://www.prnewswire.co.uk/news-releases/voice-life-charges-into-the-future-with-verge-currency-xvg-and-vergepay-870303997.html",
+      "img": "../static/img/mentioned-in/CisionPR.png",
+      "width": "100",
+      "title": "Voice Life Charges into the Future with Verge Currency (XVG) and VergePAY",
+      "date": "2020-12-22"
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/voice-life-charges-into-the-future-with-verge-currency-xvg-and-vergepay-1029913961",
+      "img": "../static/img/mentioned-in/BusinessInsider.png",
+      "width": "100",
+      "title": "Voice Life Charges into the Future with Verge Currency (XVG) and VergePAY",
+      "date": "2020-12-22"
+    },
+    {
+      "url": "https://www.wallstreet-online.de/nachricht/13301125-voice-life-charges-into-the-future-with-verge-currency-xvg-and-vergepay",
+      "img": "../static/img/mentioned-in/WallStreet.png",
+      "width": "100",
+      "title": "Voice Life Charges into the Future with Verge Currency (XVG) and VergePAY",
+      "date": "2020-12-22"
+    },
+    {
       "url": "https://www.cryptonewsz.com/verge-price-analysis-verge-xvg-hits-the-bears-aiding-potential-investors-to-go-long/28217/",
       "img": "../static/img/mentioned-in/CryptoNewsZ.png",
       "width": "100",

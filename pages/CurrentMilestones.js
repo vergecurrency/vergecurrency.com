@@ -437,6 +437,26 @@ const mileStones = [
     infoLabel: 'Google Play',
     infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
   },
+  {
+    done: true,
+    doneDate: '15th December 2020',
+    title: 'NFC Payment Capabilities added',
+    description: 'iOS wallet now supports NFC payment, enabling users to pay POS merchants easily.',
+    progress: 100,
+    progressState: 'Released',
+    infoLabel: 'Verge Currency Tor Wallet (App Store)',
+    infoUrl: 'https://apps.apple.com/app/id1459928869'
+  },
+  {
+    done: true,
+    doneDate: '22nd December 2020',
+    title: 'Voice Life and Verge Currency announce strategic alliance',
+    description: 'Voice Life and Verge Currency announce a strategic alliance to create a new all-in-one payment system - unveiling on January 11, 2021 at the Consumer Electronics Show (CES)',
+    progress: 100,
+    progressState: 'Released',
+    infoLabel: 'Cision PR Newswire Press Release',
+    infoUrl: 'https://www.prnewswire.co.uk/news-releases/voice-life-charges-into-the-future-with-verge-currency-xvg-and-vergepay-870303997.html'
+  }
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',

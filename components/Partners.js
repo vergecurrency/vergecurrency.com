@@ -140,8 +140,20 @@ export const PartnerInfo = ({ t }) => {
             <ExpandCollapse {...options}>
               {t('home:partnership.atomicwallet', {
                 defaultValue: `
-                Atomic Wallet provides a powerful, in-demand service that allows users to reduce effort spent on managing crypto assets​ and makes it transparent and reliable.
+                Atomic Wallet provides a powerful, in-demand service that allows users to reduce effort spent on managing crypto assets and makes it transparent and reliable.
                 For coins not yet supported by Atomic Swap, ShapeShift, ChangeNOW and Changelly exchanges are built-in.`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div></div>
+          <div>
+            <a href="https://www.voice-life.com/">
+              <img src="/static/img/partners/voicelife.png" alt="voicelife" className="img--smaller"/>
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.voicelife', {
+                defaultValue: `
+                Voice Life and Verge Currency are excited to announce a strategic alliance to create a new all-in-one payment system. Combining Voice Life’s (FFWCS) smart phone capabilities with VergePAY to design a blockchain based system utilizing Verge Currency (XVG) for daily use activities.`,
               })}
             </ExpandCollapse>
           </div>
