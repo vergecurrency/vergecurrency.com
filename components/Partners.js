@@ -40,6 +40,17 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
+            <a href="https://www.voice-life.com/">
+              <img src="/static/img/partners/voicelife.png" alt="voicelife" className="img--smaller"/>
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.voicelife', {
+                defaultValue: `
+                Voice Life and Verge Currency are excited to announce a strategic alliance to create a new all-in-one payment system. Combining Voice Life’s (FFWCS) smart phone capabilities with VergePAY to design a blockchain based system utilizing Verge Currency (XVG) for daily use activities.`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div>
             <a href="https://net-cents.com/">
               <img src="/static/img/partners/netcents.png" alt="netcents" />
             </a>
@@ -53,18 +64,6 @@ export const PartnerInfo = ({ t }) => {
                   to use, secure and worry-free. NetCents has partnered with Verge
                   along with its financial partners, mobile operators, exchanges,
                   etc., to streamline the user experience of transacting online.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
-            <a href="https://paycent.com/">
-              <img src="/static/img/partners/paycent.png" alt="paycent" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.paycent', {
-                defaultValue: `Paycent aims to be the global leader for complete mobile and cashless transactions - the Paycent App and Paycent Card are the tools you 
-                need for your digital assets. Spend your digital assets globally in real time or withdraw cash in local currency at ATMs and offline merchants in over 
-                200 countries at over 36 Million points, through existing payment channels with the help of the Paycent Card.`,
               })}
             </ExpandCollapse>
           </div>
@@ -147,13 +146,14 @@ export const PartnerInfo = ({ t }) => {
           </div>
           <div></div>
           <div>
-            <a href="https://www.voice-life.com/">
-              <img src="/static/img/partners/voicelife.png" alt="voicelife" className="img--smaller"/>
+            <a href="https://paycent.com/">
+              <img src="/static/img/partners/paycent.png" alt="paycent" />
             </a>
             <ExpandCollapse {...options}>
-              {t('home:partnership.voicelife', {
-                defaultValue: `
-                Voice Life and Verge Currency are excited to announce a strategic alliance to create a new all-in-one payment system. Combining Voice Life’s (FFWCS) smart phone capabilities with VergePAY to design a blockchain based system utilizing Verge Currency (XVG) for daily use activities.`,
+              {t('home:partnership.paycent', {
+                defaultValue: `Paycent aims to be the global leader for complete mobile and cashless transactions - the Paycent App and Paycent Card are the tools you 
+                need for your digital assets. Spend your digital assets globally in real time or withdraw cash in local currency at ATMs and offline merchants in over 
+                200 countries at over 36 Million points, through existing payment channels with the help of the Paycent Card.`,
               })}
             </ExpandCollapse>
           </div>
