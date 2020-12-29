@@ -32,7 +32,7 @@
       {
         "img": "../static/img/team/maxius.jpg",
         "name": "Damien - Maxius",
-        "role": "Web Developer",
+        "role": "Developer",
         "occupation": "Full Stack Web Developer",
         "github": "https://github.com/Max1us",
         "twitter": "https://twitter.com/_maxius_",
@@ -87,24 +87,6 @@
     "title": "Marketing Team",
     "members": [
       {
-        "img": "../static/img/team/alchemi.jpg",
-        "name": "Alchemi",
-        "role": "Multimedia Designer",
-        "occupation": "Multimedia Designer",
-        "github": "",
-        "twitter": "https://twitter.com/alchemi_co",
-        "location": "New York, USA"
-      },
-      {
-        "img": "../static/img/team/niteshadow.jpg",
-        "name": "NiteShadow",
-        "role": "IT/Content Marketing Strategist",
-        "occupation": "IT/Content Marketing Strategist",
-        "github": "",
-        "twitter": "https://twitter.com/NiteShadowXVG",
-        "location": "New York, USA"
-      },
-      {
         "img": "../static/img/team/xvgninja.jpg",
         "name": "Alexandre - XVG Ninja",
         "role": "Technical Marketing Engineer",
@@ -114,15 +96,6 @@
         "location": "Germany"
       },
       {
-        "img": "../static/img/team/Hassan.png",
-        "name": "Hassan",
-        "role": "Lead UI Designer & Graphics",
-        "occupation": "UI/UX Designer & Webdesigner",
-        "github": "",
-        "twitter": "https://twitter.com/waveon3",
-        "location": "Odense, Denmark"
-      },
-      {
         "img": "../static/img/team/verge.jpg",
         "name": "Bishal - MarkOnDCrypto",
         "role": "Marketing",
@@ -130,6 +103,15 @@
         "github": "",
         "twitter": "https://twitter.com/MarkOnDCrypto/",
         "location": "Kathmandu, Nepal"
+      },
+      {
+        "img": "../static/img/team/verge.jpg",
+        "name": "Johnny - MakeItSo",
+        "role": "Marketing",
+        "occupation": "Graphics and Ideation",
+        "github": "",
+        "twitter": "",
+        "location": "New Hampshire, USA"
       }
     ]
   },
@@ -144,15 +126,6 @@
         "github": "",
         "twitter": "https://twitter.com/Mihael_CM",
         "location": "Rijeka, Croatia"
-      },
-      {
-        "img": "../static/img/team/kris.jpg",
-        "name": "Kristopher",
-        "role": "Marketing & Operations Advisor",
-        "occupation": "Serial Entrepreneur & Investor",
-        "github": "",
-        "twitter": "https://twitter.com/KristopherMT",
-        "location": "Canada"
       },
       {
         "img": "../static/img/team/swizzlesticks.jpg",
