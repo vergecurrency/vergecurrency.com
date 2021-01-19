@@ -1782,20 +1782,6 @@
             }
         },
         {
-            "title": "PayCent",
-            "img": "../static/img/vendors/latest/paycent.jpg",
-            "link": "paycent.com",
-            "url": "https://paycent.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "XCELPAY",
             "img": "../static/img/vendors/latest/xcelpay.png",
             "link": "xcelpay.io",
