@@ -144,19 +144,6 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
-          <div></div>
-          <div>
-            <a href="https://paycent.com/">
-              <img src="/static/img/partners/paycent.png" alt="paycent" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.paycent', {
-                defaultValue: `Paycent aims to be the global leader for complete mobile and cashless transactions - the Paycent App and Paycent Card are the tools you 
-                need for your digital assets. Spend your digital assets globally in real time or withdraw cash in local currency at ATMs and offline merchants in over 
-                200 countries at over 36 Million points, through existing payment channels with the help of the Paycent Card.`,
-              })}
-            </ExpandCollapse>
-          </div>
         </div>
       </div>
     </div>

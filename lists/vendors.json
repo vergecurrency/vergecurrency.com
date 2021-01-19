@@ -43,20 +43,6 @@
             }
         },
         {
-            "title": "BlockchainVacatures",
-            "img": "../static/img/vendors/latest/blockchainvacatures.png",
-            "link": "blockchainvacatures.com",
-            "url": "https://blockchainvacatures.nl/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "TrafficJunky",
             "img": "../static/img/vendors/latest/trafficjunky.png",
             "link": "TrafficJunky.com",
@@ -1772,20 +1758,6 @@
             "img": "../static/img/vendors/latest/ellipal.png",
             "link": "ellipal.com",
             "url": "https://www.ellipal.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "PayCent",
-            "img": "../static/img/vendors/latest/paycent.jpg",
-            "link": "paycent.com",
-            "url": "https://paycent.com",
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
