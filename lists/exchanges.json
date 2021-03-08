@@ -127,12 +127,6 @@
       "url": "https://www.coinspot.com.au/buy/xvg"
     },
     {
-      "img": "../static/img/exchanges/coinwale.png",
-      "title": "instaex",
-      "link": "instaex.io",
-      "url": "https://instaex.io"
-    },
-    {
       "img": "../static/img/exchanges/changelly.png",
       "title": "Changelly",
       "link": "changelly.com",
@@ -205,22 +199,10 @@
       "url": "https://sistemkoin.com/"
     },
     {
-      "img": "../static/img/exchanges/cryptofacil.png",
-      "title": "CryptoFacil",
-      "link": "cryptofacil.com",
-      "url": "https://cryptofacil.com/"
-    },
-    {
       "img": "../static/img/exchanges/bitladon.png",
       "title": "Bitladon",
       "link": "bitladon.com",
       "url": "https://www.bitladon.com/?r=100021746"
-    },
-	{
-      "img": "../static/img/exchanges/pars.png",
-      "title": "Pars",
-      "link": "parsxc.com",
-      "url": "https://parsxc.com"
     },
     {
       "img": "../static/img/exchanges/swapzone.png",
