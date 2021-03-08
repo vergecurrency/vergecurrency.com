@@ -275,6 +275,10 @@ function Home(props) {
                     <LazyLoad height={430}>
                       <img
                         src="../static/img/benefits-desktop.png"
+                        srcSet="
+                          ../static/img/benefits-desktop.png 1x,
+                          ../static/img/benefits-desktop@2x.png 2x
+                        "
                         alt="Benefits desktop"
                       />
                     </LazyLoad>

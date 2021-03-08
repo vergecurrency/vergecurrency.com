@@ -19,7 +19,7 @@
       "availableinstructions": true
     },
     {
-      "name": "Android Tor Wallet",
+      "name": "Android Orbot Wallet",
       "url": "https://play.google.com/store/apps/details?id=com.vergepay.wallet",
       "classNames": "wallets--icon__android wallets--icon__android--tor",
       "classWhite": "wallets--icon__android-white wallets--icon__android--tor-white",
@@ -29,7 +29,7 @@
       "availableinstructions": true
     },
     {
-      "name": "MacOS Tor QT Wallet",
+      "name": "QT Wallet macOS",
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
@@ -39,7 +39,7 @@
       "availableinstructions": true
     },
     {
-      "name": "Windows Tor QT Wallet",
+      "name": "QT Wallet Windows",
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
@@ -49,7 +49,7 @@
       "availableinstructions": true
     },
     {
-      "name": "Linux Tor QT Wallet",
+      "name": "QT Wallet Linux",
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
@@ -67,6 +67,42 @@
       "os": "",
       "url2": "https://vergecurrency.com/paper-wallet/",
       "availableinstructions": true
+    },
+    {
+      "name": "MyVergies Windows (BETA)",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v0.6.1/MyVergies-Setup-0.6.1.exe",
+      "classNames": "wallets--icon__windows wallets--icon__windows--tor",
+      "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
+      "available": true,
+      "os": "",
+      "availableinstructions": false
+    },
+    {
+      "name": "MyVergies macOS (BETA)",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v0.6.1/MyVergies-0.6.1.dmg",
+      "classNames": "wallets--icon__apple wallets--icon__apple--tor",
+      "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
+      "available": true,
+      "os": "",
+      "availableinstructions": false
+    },
+    {
+      "name": "MyVergies Linux AppImage (BETA)",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v0.6.1/MyVergies-0.6.1.AppImage",
+      "classNames": "wallets--icon__linux wallets--icon__linux--tor",
+      "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
+      "available": true,
+      "os": "",
+      "availableinstructions": false
+    },
+    {
+      "name": "MyVergies Linux Snap (BETA)",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v0.6.1/MyVergies_0.6.1_amd64.snap",
+      "classNames": "wallets--icon__linux wallets--icon__linux--tor",
+      "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
+      "available": true,
+      "os": "",
+      "availableinstructions": false
     }
   ]
 }
