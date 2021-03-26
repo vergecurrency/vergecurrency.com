@@ -24,6 +24,7 @@ import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
 import { PartnerInfo } from '../components/Partners';
 import { SponsorsInfo } from '../components/Sponsors';
+import { ThirdPartyWalletInfo } from '../components/3rdPartyWallets';
 import { mentioned_in } from '../components/Mentions';
 
 import 'moment-timezone';
@@ -371,6 +372,8 @@ function Home(props) {
             <PartnerInfo t={t} />
 
             <SponsorsInfo t={t} />
+
+            <ThirdPartyWalletInfo t={t} />
 
             <div className="row center-xs pt-large pb">
               <div className="col-xs-11 start-xs exchanges bb">

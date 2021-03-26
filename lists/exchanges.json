@@ -133,12 +133,6 @@
       "url": "https://changelly.com"
     },
     {
-      "img": "../static/img/exchanges/cryptobridge.png",
-      "title": "CryptoBridge",
-      "link": "crypto-bridge.org",
-      "url": "https://crypto-bridge.org"
-    },
-    {
       "img": "../static/img/exchanges/nexchange.png",
       "title": "N.exchange",
       "link": "n.exchange",
@@ -245,6 +239,18 @@
       "title": "Exolix",
       "link": "exolix.com",
       "url": "https://exolix.com/?ref=ZCd7UOb7JGEdhZvb"
+    },
+    {
+      "img": "../static/img/exchanges/mandala.png",
+      "title": "Mandala Exchange",
+      "link": "mandala.exchange",
+      "url": "https://trade.mandala.exchange/"
+    },
+    {
+      "img": "../static/img/exchanges/sevenb.png",
+      "title": "7b - Powered by Binance",
+      "link": "sevenb.io",
+      "url": "https://sevenb.io"
     }
   ]
 }
