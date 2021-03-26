@@ -48,7 +48,7 @@ export const SponsorsInfo = ({ t }) =>
             <div className="partners-grid">
                 {
                     sponsors.map(({ href, alt, logo }) => {
-                        return (<div>
+                        return (<div key={logo}>
                             <a href={href}>
                                 <img src={logo} alt={alt} title={alt} />
                             </a>

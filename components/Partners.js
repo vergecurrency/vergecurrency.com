@@ -13,11 +13,8 @@ export const PartnerInfo = ({ t }) => {
         <div className="start-sm pb-small">
           <h2>
             {t('home:partnership.intro', {
-              defaultValue: 'On our mission for mass adoption',
+              defaultValue: 'On our mission for mass adoption,',
             })}{' '}
-            <span className="hidden-xs">
-              <br />
-            </span>
             {t('home:partnership.subintro', {
               defaultValue: 'we are supported by the following partners:',
             })}
@@ -83,38 +80,13 @@ export const PartnerInfo = ({ t }) => {
           </div>
           <div>
             <a href="https://pacquiaofoundation.org/">
-              <img src="/static/img/vendors/latest/pacfoundation.png" alt="pacfoundation" class="img--wider" />
+              <img src="/static/img/vendors/latest/pacfoundation.png" alt="pacfoundation" className="img--wider" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.pacfoundation', {
                 defaultValue: `
                 Named and founded on behalf of future Hall of Fame Boxer Manny Pacquiao, The Manny Pacquiao Foundation 
                 seeks to empower communities and individuals through charitable support and a message of hope and change.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
-            <a href="https://www.xcelpay.io/">
-              <img src="/static/img/vendors/latest/xcelpay.png" alt="xcelpay" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.xcelpay', {
-                defaultValue: `XcelPay is a next-generation integrated crypto wallet, payment solution and point of sale (POS) device, connecting users and merchants worldwide. 
-                XcelPay is a groundbreaking wallet which serves both consumers and merchants. It offers consumers the flexibility to store, 
-                send and receive cryptos from around the world, and it enables businesses to receive payment both online and offline through its POS device, 
-                which facilitates physical in-person cryptocurrency transactions.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
-            <a href="http://www.meconcash.com/index_en.html">
-              <img src="/static/img/vendors/latest/meconcash.png" alt="meconcash" className="img--smaller"/>
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.meconcash', {
-                defaultValue: `
-                Using the MeconCash platform, M.Pay, Verge holders will be able to instantly withdraw Korean Wons through a whopping 13 000 ATMs in 
-                South Korea. This will allow travelers, students and anyone who holds Verge the ability to quickly withdraw their money, 24/7.`,
               })}
             </ExpandCollapse>
           </div>
@@ -132,15 +104,16 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
+          <div></div>
           <div>
-            <a href="https://atomicwallet.io/">
-              <img src="/static/img/vendors/latest/atomicwallet.png" alt="atomicwallet" className="img--smaller"/>
+            <a href="http://www.meconcash.com/index_en.html">
+              <img src="/static/img/vendors/latest/meconcash.png" alt="meconcash" className="img--smaller"/>
             </a>
             <ExpandCollapse {...options}>
-              {t('home:partnership.atomicwallet', {
+              {t('home:partnership.meconcash', {
                 defaultValue: `
-                Atomic Wallet provides a powerful, in-demand service that allows users to reduce effort spent on managing crypto assets and makes it transparent and reliable.
-                For coins not yet supported by Atomic Swap, ShapeShift, ChangeNOW and Changelly exchanges are built-in.`,
+                Using the MeconCash platform, M.Pay, Verge holders will be able to instantly withdraw Korean Wons through a whopping 13 000 ATMs in 
+                South Korea. This will allow travelers, students and anyone who holds Verge the ability to quickly withdraw their money, 24/7.`,
               })}
             </ExpandCollapse>
           </div>

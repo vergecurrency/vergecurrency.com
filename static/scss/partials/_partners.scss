@@ -46,9 +46,13 @@
   grid-row-gap: 30px !important;
 
   @media (min-width: $min-width-sm) {
-    grid-template-rows: auto auto;
-    grid-auto-flow: column;
     margin: 15px 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: row;
+    div:empty {
+      display: none;
+    }
   }
 
   @media (min-width: $min-width-md) {
@@ -56,6 +60,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     grid-auto-flow: row;
+    div:empty {
+      display: unset;
+    }
   }
 
   @media (min-width: $min-width-lg) {
@@ -85,4 +92,8 @@
       width: 45%;
     }
   }
+}
+
+.wallet-warning {
+  color: #aa0000 !important;
 }
