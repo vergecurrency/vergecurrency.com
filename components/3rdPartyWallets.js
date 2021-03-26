@@ -29,7 +29,7 @@ export const ThirdPartyWalletInfo = ({ t }) =>
                     {t('home:thirdparty.intro', {
                         defaultValue: '3rd Party Wallets',
                     })}
-                </h2>e
+                </h2>
                 <h4>{t('home:thirdparty.subintro', {
                     defaultValue: 'You can also store your XVG in the following 3rd party wallets.',
                 })}
