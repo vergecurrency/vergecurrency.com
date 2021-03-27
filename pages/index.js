@@ -371,6 +371,62 @@ function Home(props) {
 
             <PartnerInfo t={t} />
 
+
+
+
+
+
+
+
+
+            <div className="themed-container__dark themed-container__dark--home">
+              <div className="row center-xs power-to-the-people">
+                <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
+                  <h6>
+                    {t('home:business.header', {
+                      defaultValue: 'Upgrade your business',
+                    })}
+                  </h6>
+                  <h3
+                    dangerouslySetInnerHTML={{
+                      __html: t('home:business.text1', {
+                        defaultValue:
+                          'Try our <span>Micro Merchant</span> solution and manage payments your way, or our valued payment processing partners can help <span>automate acceptance</span> with their own integration solutions.',
+                      }),
+                    }}
+                  />
+                  <p>
+                    {t('home:business.text2', {
+                      defaultValue:
+                        'Any business, from SME\'s to Multinationals, from brick and mortar retailers to online businesses can benefit from accepting Verge Currency.',
+                    })}
+                  </p>
+                  <Link href="https://vergecurrency.business">
+                    <a
+                      href="https://vergecurrency.business"
+                      target="_blank"
+                      className="btn btn-white"
+                      name="Verge for Business"
+                    >
+                      {t('home:business.button1', {
+                        defaultValue: 'Explore Verge for Business',
+                      })}
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
             <SponsorsInfo t={t} />
 
             <ThirdPartyWalletInfo t={t} />
