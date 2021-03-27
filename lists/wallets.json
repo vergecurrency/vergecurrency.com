@@ -29,13 +29,13 @@
       "availableinstructions": true
     },
     {
-      "name": "QT Wallet macOS",
-      "url": "https://github.com/vergecurrency/VERGE/releases/latest",
-      "classNames": "wallets--icon__apple wallets--icon__apple--tor",
-      "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
+      "name": "Paper Wallet",
+      "url": "https://github.com/vergecurrency/vergecurrency.com/raw/master/pages/paper-wallet/xvg-paperwallet.zip",
+      "classNames": "wallets--icon__paperwallet",
+      "classWhite": "wallets--icon__paperwallet-white",
       "available": true,
-      "os": "OS X",
-      "url2": "https://verge.zendesk.com/hc/en-us/articles/360007364291-Verge-Qt-Wallet-Installation-Guide-for-Mac",
+      "os": "",
+      "url2": "https://vergecurrency.com/paper-wallet/",
       "availableinstructions": true
     },
     {
@@ -49,6 +49,16 @@
       "availableinstructions": true
     },
     {
+      "name": "QT Wallet macOS",
+      "url": "https://github.com/vergecurrency/VERGE/releases/latest",
+      "classNames": "wallets--icon__apple wallets--icon__apple--tor",
+      "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
+      "available": true,
+      "os": "OS X",
+      "url2": "https://verge.zendesk.com/hc/en-us/articles/360007364291-Verge-Qt-Wallet-Installation-Guide-for-Mac",
+      "availableinstructions": true
+    },
+    {
       "name": "QT Wallet Linux",
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
@@ -58,19 +68,10 @@
       "url2": "https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md",
       "availableinstructions": true
     },
+
     {
-      "name": "Paper Wallet",
-      "url": "https://vergecurrency.com/paper-wallet/",
-      "classNames": "wallets--icon__paperwallet",
-      "classWhite": "wallets--icon__paperwallet-white",
-      "available": true,
-      "os": "",
-      "url2": "https://vergecurrency.com/paper-wallet/",
-      "availableinstructions": true
-    },
-    {
-      "name": "MyVergies Windows (BETA)",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v0.6.1/MyVergies-Setup-0.6.1.exe",
+      "name": "MyVergies Windows 1.0.0",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.0/MyVergies-Setup-1.0.0.exe",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
@@ -78,8 +79,8 @@
       "availableinstructions": false
     },
     {
-      "name": "MyVergies macOS (BETA)",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v0.6.1/MyVergies-0.6.1.dmg",
+      "name": "MyVergies macOS 1.0.0",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.0/MyVergies-1.0.0.dmg",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
@@ -87,8 +88,8 @@
       "availableinstructions": false
     },
     {
-      "name": "MyVergies Linux AppImage (BETA)",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v0.6.1/MyVergies-0.6.1.AppImage",
+      "name": "MyVergies Linux AppImage 1.0.0",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.0/MyVergies-1.0.0.AppImage",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
@@ -96,8 +97,8 @@
       "availableinstructions": false
     },
     {
-      "name": "MyVergies Linux Snap (BETA)",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v0.6.1/MyVergies_0.6.1_amd64.snap",
+      "name": "MyVergies Linux Snap 1.0.0",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.0/MyVergies_1.0.0_amd64.snap",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
