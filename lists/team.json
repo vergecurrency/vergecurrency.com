@@ -12,15 +12,6 @@
         "location": "Florida, USA"
       },
       {
-        "img": "../static/img/team/swen.jpg",
-        "name": "Swen",
-        "role": "Software Engineer",
-        "occupation": "Software Engineer",
-        "github": "https://github.com/SwenVanZanten",
-        "twitter": "https://twitter.com/SwenVanZanten",
-        "location": "The Netherlands"
-      },
-      {
         "img": "../static/img/team/manuel.jpg",
         "name": "Manuel",
         "role": "Software Engineer",
