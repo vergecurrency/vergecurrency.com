@@ -1906,6 +1906,34 @@
                 "travel": false,
                 "education": false
             }
-        } 
+        },
+        {
+            "title": "CoinPayments",
+            "img": "../static/img/vendors/latest/coinpayments.png",
+            "link": "Coinpayments.Net",
+            "url": "https://www.coinpayments.net/index.php?ref=97bed120e90b0c9a0bdce7c53512cd51",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
+            "title": "MyCryptoCheckout",
+            "img": "../static/img/vendors/latest/mycryptocheckout.png",
+            "link": "MyCryptoCheckout.com",
+            "url": "https://mycryptocheckout.com/?ref=156",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        }
     ]
 }
