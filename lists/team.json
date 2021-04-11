@@ -87,6 +87,14 @@
         "occupation": "Baker",
         "twitter": "https://twitter.com/xvid",
         "location": "Switzerland"
+      },
+      {
+        "img": "../static/img/team/nichola.jpg",
+        "name": "Nichola",
+        "role": "Outreach",
+        "occupation": "Life skills teacher",
+        "twitter": "https://twitter.com/knicky74",
+        "location": "UK"
       }
       
     ]
@@ -137,7 +145,7 @@
       {
         "img": "../static/img/team/verge.jpg",
         "name": "Bishal - MarkOnDCrypto",
-        "role": "Graphics",
+        "role": "Graphics Designer",
         "occupation": "Graphics and Web Designer",
         "twitter": "https://twitter.com/MarkOnDCrypto/",
         "location": "Kathmandu, Nepal"
@@ -153,7 +161,7 @@
       {
         "img": "../static/img/team/verge.jpg",
         "name": "Johnny - MakeItSo",
-        "role": "Graphics",
+        "role": "Graphics Designer",
         "occupation": "Graphics and Ideation",
         "location": "New Hampshire, USA"
       },
@@ -163,6 +171,14 @@
         "role": "3D Graphics & Animation",
         "occupation": "Mechanical Engineer",
         "twitter": "https://twitter.com/xvgpedro",
+        "location": "Porto, Portugal"
+      },
+      {
+        "img": "../static/img/team/cityboi.jpg",
+        "name": "Cityboi",
+        "role": "Graphics Designer",
+        "occupation": "Graphics Designer",
+        "twitter": "https://twitter.com/CBoisss",
         "location": "Porto, Portugal"
       }
     ]
