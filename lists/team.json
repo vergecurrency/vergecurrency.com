@@ -95,6 +95,14 @@
         "occupation": "Life skills teacher",
         "twitter": "https://twitter.com/knicky74",
         "location": "UK"
+      },
+      {
+        "img": "../static/img/team/derek.jpg",
+        "name": "Derek",
+        "role": "Fueled By Verge - Outreach",
+        "occupation": "Entrepreneur",
+        "twitter": "https://twitter.com/141mx",
+        "location": "Canada"
       }
       
     ]
