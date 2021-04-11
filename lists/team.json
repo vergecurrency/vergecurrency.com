@@ -15,15 +15,14 @@
         "img": "../static/img/team/manuel.jpg",
         "name": "Manuel",
         "role": "Software Engineer",
-        "occupation": "Software Engineer",
-        "github": "https://github.com/Cabrasm",
-        "twitter": "https://twitter.com/CabrasManuel",
+        "occupation": "ERP Consultant",
+        "github": "https://github.com/2lazy2debug",
         "location": "Switzerland"
       },
       {
         "img": "../static/img/team/maxius.jpg",
         "name": "Damien - Maxius",
-        "role": "Developer",
+        "role": "Software Engineer",
         "occupation": "Full Stack Web Developer",
         "github": "https://github.com/Max1us",
         "twitter": "https://twitter.com/_maxius_",
