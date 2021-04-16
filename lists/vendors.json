@@ -1934,6 +1934,20 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "GetBlock",
+            "img": "../static/img/vendors/latest/getblock.gif",
+            "link": "GetBlock.io",
+            "url": "https://getblock.io/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
         }
     ]
 }
