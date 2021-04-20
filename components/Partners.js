@@ -65,20 +65,6 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://www.xceltrip.com/">
-              <img src="/static/img/vendors/latest/xceltrip.png" alt="xceltrip" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.xceltrip', {
-                defaultValue: `
-                XcelTrip is a full-service online Travel platform providing travel services, including airline tickets, accommodation, vehicle rentals, 
-                restaurants, etc. powered by blockchain technology. 
-                Use $XVG to book over 800,000 #hotels, 300+ #airlines, and/or top up your cellphone across 900 operators across 160 nations. 
-                Grab it now on the Apple Store or Google Play.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
             <a href="https://pacquiaofoundation.org/">
               <img src="/static/img/vendors/latest/pacfoundation.png" alt="pacfoundation" className="img--wider" />
             </a>
@@ -104,7 +90,6 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
-          <div></div>
           <div>
             <a href="http://www.meconcash.com/index_en.html">
               <img src="/static/img/vendors/latest/meconcash.png" alt="meconcash" className="img--smaller"/>

@@ -15,26 +15,26 @@ const wallets = [
         alt: "Atomic"
     },
     {
-        href: "https://www.xcelpay.io/",
-        logo: "/static/img/wallets/3rdparty/xcelpay.png",
-        alt: "XcelPay"
+        href: "https://www.investvoyager.com/",
+        logo: "/static/img/wallets/3rdparty/voyager.png",
+        alt: "Voyager"
     }
 ]
 
 export const ThirdPartyWalletInfo = ({ t }) =>
-    <div className="row center-xs pt-large pb">
+    <div className="row center-xs pt pb-large">
         <div className="col-xs-11 start-xs exchanges bb">
              <div className="start-sm pb-small">
                 <h2>
-                    {t('home:thirdparty.intro', {
+                    {t('wallets:thirdparty.intro', {
                         defaultValue: '3rd Party Wallets',
                     })}
                 </h2>
-                <h4>{t('home:thirdparty.subintro', {
+                <h4>{t('wallets:thirdparty.subintro', {
                     defaultValue: 'You can also store your XVG in the following 3rd party wallets.',
                 })}
                 </h4>
-                <p className="wallet-warning">{t('home:thirdparty.warning', {
+                <p className="wallet-warning">{t('wallets:thirdparty.warning', {
                     defaultValue: 'Verge Currency provides the list of wallets below for your information, but does not endorse nor support their usage. There is always a trade-off between convenience and security. Research thoroughly before using any wallet or solution.'
                 })}
                 </p>
