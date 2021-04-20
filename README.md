@@ -182,6 +182,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 * **Stan Faas** - *Main developer* - [StanFaas](https://github.com/StanFaas)
 * **Edwin de Boer** - *Main developer* - [EdwinB89](https://github.com/EdwinB89)
+* **Max1us** - *Developer / Maintainer* - [Max1us](https://github.com/Max1us)
 * **Waveon3** - *Webdesigns* - [Waveon3](https://reddit.com/user/waveon3)
 
 See also the list of [contributors](CONTRIBUTING.md) who participated in this project.
