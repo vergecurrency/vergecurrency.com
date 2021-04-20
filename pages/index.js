@@ -24,7 +24,6 @@ import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
 import { PartnerInfo } from '../components/Partners';
 import { SponsorsInfo } from '../components/Sponsors';
-import { ThirdPartyWalletInfo } from '../components/3rdPartyWallets';
 import { mentioned_in } from '../components/Mentions';
 
 import 'moment-timezone';
@@ -371,14 +370,6 @@ function Home(props) {
 
             <PartnerInfo t={t} />
 
-
-
-
-
-
-
-
-
             <div className="themed-container__dark themed-container__dark--home">
               <div className="row center-xs power-to-the-people">
                 <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
@@ -417,19 +408,7 @@ function Home(props) {
               </div>
             </div>
 
-
-
-
-
-
-
-
-
-
-
             <SponsorsInfo t={t} />
-
-            <ThirdPartyWalletInfo t={t} />
 
             <div className="row center-xs pt-large pb">
               <div className="col-xs-11 start-xs exchanges bb">

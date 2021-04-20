@@ -15,7 +15,7 @@ const MenuItems = ({ t }) => (
       <FontAwesomeIcon icon={faChevronDown} />
       <div className="submenu__content">
         <Link prefetch href="/about">
-          <a href="/about">{t('header:about', { defaultValue: 'About Us' })}</a>
+          <a href="/about">{t('header:about', { defaultValue: 'About' })}</a>
         </Link>
         <Link prefetch href="/verge-team">
           <a href="/verge-team">{t('header:verge-team', { defaultValue: 'Verge Team' })}</a>

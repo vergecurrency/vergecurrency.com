@@ -340,12 +340,12 @@ const mileStones = [
     progressState: ''
   },
   {
-    done: false,
+    done: true,
     doneDate: '31st Jan 2020',
     title: 'Electrum mnemonic sweeping',
     description: 'Mnemonic sweeping is being implemented for Electrum wallets',
-    progress: 70,
-    progressState: 'In Progress'
+    progress: 100,
+    progressState: ''
   },
   {
     done: true,
@@ -456,6 +456,26 @@ const mileStones = [
     progressState: 'Released',
     infoLabel: 'Cision PR Newswire Press Release',
     infoUrl: 'https://www.prnewswire.co.uk/news-releases/voice-life-charges-into-the-future-with-verge-currency-xvg-and-vergepay-870303997.html'
+  },
+  {
+    done: true,
+    doneDate: '18th March 2021',
+    title: 'MyVergies moves to stable release 1.0.0',
+    description: 'MyVergies is a lite desktop client for Verge, created by SwenVanZanten, that has tor built-in!.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Releases Page',
+    infoUrl: 'https://github.com/vergecurrency/MyVergies/releases'
+  },
+  {
+    done: true,
+    doneDate: '11th April 2020',
+    title: 'Electrum 4.0.3 released',
+    description: 'Now available - Please note: requires Tor to be installed',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Releases Page',
+    infoUrl: 'https://github.com/vergecurrency/electrum/releases/latest'
   }
   // {
   //   done: true or false,
