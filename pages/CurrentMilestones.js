@@ -459,6 +459,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '7th February 2021',
+    title: 'Verge Currency Business Portal',
+    description: 'We have now released a business oriented portal, with the information you need to get up and running accepting Verge!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Website Link',
+    infoUrl: 'https://vergecurrency.business'
+  },
+  {
+    done: true,
     doneDate: '18th March 2021',
     title: 'MyVergies moves to stable release 1.0.0',
     description: 'MyVergies is a lite desktop client for Verge, created by SwenVanZanten, that has tor built-in!.',
