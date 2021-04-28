@@ -21,22 +21,12 @@ function GetVerge(props) {
               <h6>{t('get-verge:body.title', { defaultValue: 'Get Verge' })}</h6>
               <br />
             </div>
-            <div className="col-xs-12">
-              <h2>{t('get-verge:body.direct', { defaultValue: 'Buy/Sell Crypto directly, via ChangeHero.' })}</h2>
-              <p><em>(Click the blue currency code to change to your desired currency.)</em></p>
+            <div className="col-xs-12 pb-large">
+              <h2>{t('get-verge:body.direct', { defaultValue: 'Check out the VergeCurrency.Exchange, powered by ChangeNOW.' })}</h2>
               <br />
-              <iframe
-                src="https://widget.changehero.io/?to=XVG&ref=85fa2cf50ddb439fb6db6a24c981fb48"
-                name="changeHeroWidget"
-                id="changeHeroWidget"
-                scrolling="no"
-                frameborder="0"
-                marginheight="0px"
-                marginwidth="0px"
-                height="430px"
-                width="100%"
-                allowfullscreen
-              />
+              <a target="_blank" href="https://vergecurrency.exchange" className="img-link-hover">
+                <img src="/static/img/verge-exchange.png" alt="VergeCurrency.Exchange" alt="VergeCurrency Exchange" />
+              </a>
             </div>
             <div className="col-xs-10">
               <h2>{t('get-verge:body.fiat', { defaultValue: 'Buy Verge (XVG) directly with fiat currency.' })}</h2>

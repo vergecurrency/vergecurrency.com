@@ -120,17 +120,17 @@
         background-repeat: no-repeat;
         background-size: 40.5%;
         transition: .2s all;
-  
+
         a {
           min-height: rem(256px);
         }
       }
-  
+
       @media (min-width: $min-width-md) {
         background-position: right 76.5%;
         background-size: 48%;
       }
-  
+
       @media (min-width: $min-width-lg) {
         background-position: 90% 80%;
         background-size: 42%;
@@ -272,6 +272,13 @@
         @media (min-width: $min-width-sm) {
           padding-bottom: 6rem;
           padding-top: 6rem;
+        }
+
+        &.business-tile-bgnd {
+          background-image: url(/static/img/business-tile-bg.jpg); // scss-lint:disable UrlQuotes
+          background-position: right bottom;
+          background-repeat: no-repeat;
+          background-size: contain;
         }
       }
     }
