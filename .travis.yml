@@ -3,8 +3,8 @@ node_js:
   - "10"
 
 after_success:
-  - git config --global user.name "marpme"
-  - git config --global user.email "marpme@users.noreply.github.com"
+  - git config --global user.name "verge-travis"
+  - git config --global user.email "verge-travis@users.noreply.github.com"
   - git remote rm origin
-  - git remote add origin https://marpme:${GH_TOKEN}@github.com/vergecurrency/vergecurrency.com.git
+  - git remote add origin https://verge-travis:${GH_TOKEN}@github.com/vergecurrency/vergecurrency.com.git
   - yarn run deploy
