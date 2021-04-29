@@ -142,3 +142,12 @@ ul {
     background-image: url(/static/img/icons/youtube.svg);
   }
 }
+
+ .img-link-hover {
+   padding: 8px;
+   display: inline-block;
+   border-radius: 4px;
+   &:hover {
+     box-shadow: 0 0 8px rgba(52, 189, 226, 0.8);
+   }
+ }

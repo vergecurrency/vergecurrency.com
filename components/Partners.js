@@ -23,7 +23,7 @@ export const PartnerInfo = ({ t }) => {
         <div className="partners-grid">
           <div>
             <a href="https://www.mindgeek.com/">
-              <img src="/static/img/partners/mindgeek.png" alt="mindgeek" />
+              <img src="/static/img/partners/mindgeek.png" alt="Mindgeek" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.mindgeek', {
@@ -38,18 +38,62 @@ export const PartnerInfo = ({ t }) => {
           </div>
           <div>
             <a href="https://www.voice-life.com/">
-              <img src="/static/img/partners/voicelife.png" alt="voicelife" className="img--smaller"/>
+              <img src="/static/img/partners/voicelife.png" alt="Voice Life" className="img--smaller"/>
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.voicelife', {
                 defaultValue: `
-                Voice Life and Verge Currency are excited to announce a strategic alliance to create a new all-in-one payment system. Combining Voice Life’s (FFWCS) smart phone capabilities with VergePAY to design a blockchain based system utilizing Verge Currency (XVG) for daily use activities.`,
+                Voice Life and Verge Currency are excited to announce a strategic alliance to create a new 
+                all-in-one payment system. Combining Voice Life’s (FFWCS) smart phone capabilities with 
+                VergePAY to design a blockchain based system utilizing Verge Currency (XVG) for daily use activities.`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div>
+            <a href="https://changenow.io/">
+              <img src="/static/img/partners/changenow.png" alt="ChangeNOW" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.changenow', {
+                defaultValue: `ChangeNOW provides a non-custodial instant cryptocurrency exchange service, with a 
+                focus on maximum safety, simplicity, and convenience. ChangeNOW does not control your crypto assets, 
+                store your funds or require any sort of account creation. By partnering with ChangeNOW, Verge holders 
+                have access to more than 170 coins available for exchange without limits; you can exchange as much as 
+                you want - account-free, worry-free and faster than light. There are also fiat options available - 
+                you can buy cryptocurrency with Visa or MasterCard through their third-party partner.`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div>
+            <a href="https://nowpayments.io/">
+              <img src="/static/img/partners/nowpayments.png" alt="NowPayments" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.nowpayments', {
+                defaultValue: `NOWPayments is a non-custodial crypto payment gateway. Founded in 2019 by the team 
+                behind ChangeNow, a cryptocurrency exchange service. By partnering with Verge, merchants websites, 
+                online stores, and social media accounts can now accept payments in XVG. NOWPayments provides many 
+                widgets and tools for transactions and donations, and plugins to accept payments online. With low 
+                transaction fees, payments can be converted to your chosen cryptocurrency and will be instantly 
+                transferred to your wallet..`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div>
+            <a href="https://pacquiaofoundation.org/">
+              <img src="/static/img/vendors/latest/pacfoundation.png" alt="PAC Foundation" className="img--wider" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.pacfoundation', {
+                defaultValue: `
+                Named and founded on behalf of future Hall of Fame Boxer Manny Pacquiao, The Manny Pacquiao Foundation 
+                seeks to empower communities and individuals through charitable support and a message of hope and change.`,
               })}
             </ExpandCollapse>
           </div>
           <div>
             <a href="https://net-cents.com/">
-              <img src="/static/img/partners/netcents.png" alt="netcents" />
+              <img src="/static/img/partners/netcents.png" alt="NetCents" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.netcents', {
@@ -65,20 +109,8 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://pacquiaofoundation.org/">
-              <img src="/static/img/vendors/latest/pacfoundation.png" alt="pacfoundation" className="img--wider" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.pacfoundation', {
-                defaultValue: `
-                Named and founded on behalf of future Hall of Fame Boxer Manny Pacquiao, The Manny Pacquiao Foundation 
-                seeks to empower communities and individuals through charitable support and a message of hope and change.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
             <a href="https://mobiepay.io/">
-              <img src="/static/img/vendors/latest/mobiepay.png" alt="mobiepay" className="img--smaller"/>
+              <img src="/static/img/vendors/latest/mobiepay.png" alt="MobiePay" className="img--smaller"/>
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.mobiepay', {
@@ -89,6 +121,8 @@ export const PartnerInfo = ({ t }) => {
                 retail marketplace.`,
               })}
             </ExpandCollapse>
+          </div>
+          <div>
           </div>
           <div>
             <a href="http://www.meconcash.com/index_en.html">

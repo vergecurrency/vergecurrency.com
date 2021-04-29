@@ -370,7 +370,7 @@ function Home(props) {
 
             <PartnerInfo t={t} />
 
-            <div className="themed-container__dark themed-container__dark--home">
+            <div className="themed-container__dark themed-container__dark--home business-tile-bgnd">
               <div className="row center-xs power-to-the-people">
                 <div className="col-xs-10 col-sm-10 col-md-8 start-xs">
                   <h6>
