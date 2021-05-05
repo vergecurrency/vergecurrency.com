@@ -70,39 +70,39 @@
     },
 
     {
-      "name": "MyVergies Windows 1.0.0",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.0/MyVergies-Setup-1.0.0.exe",
+      "name": "MyVergies Windows 1.0.3",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.3/MyVergies-Setup-1.0.3.exe",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
-      "os": "",
+      "os": "Windows",
       "availableinstructions": false
     },
     {
-      "name": "MyVergies macOS 1.0.0",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.0/MyVergies-1.0.0.dmg",
+      "name": "MyVergies macOS 1.0.3",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.3/MyVergies-1.0.3.dmg",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
-      "os": "",
+      "os": "OS X",
       "availableinstructions": false
     },
     {
-      "name": "MyVergies Linux AppImage 1.0.0",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.0/MyVergies-1.0.0.AppImage",
+      "name": "MyVergies Linux AppImage 1.0.3",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.3/MyVergies-1.0.3.AppImage",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
-      "os": "",
+      "os": "Ubuntu",
       "availableinstructions": false
     },
     {
-    "name": "MyVergies Linux Snap 1.0.0",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.0/MyVergies_1.0.0_amd64.snap",
+    "name": "MyVergies Linux Snap 1.0.3",
+      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.3/MyVergies_1.0.3_amd64.snap",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
-      "os": "",
+      "os": "Ubuntu",
       "availableinstructions": false
     },
     {
