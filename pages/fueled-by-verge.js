@@ -40,8 +40,8 @@ function FBV(props) {
 
             <div className="row center-xs">
               <img src="/static/img/fbv/fbv_sticker_logo.png" height="235" width="235" className="Fbvimage1" alt="Fbvimage1" />
-              <img src="/static/img/fbv/GilLinsterCar.png" className="Fbvimage1" alt="Fbvimage1" />
-              <img src="/static/img/fbv/fbvStickerBike.png" height="1542" width="516" className="Fbvimage2" alt="Fbvimage2" />
+              <img src="/static/img/fbv/fbv_ribbon_car.png" className="Fbvimage1" alt="Fbvimage1" />
+              <img src="/static/img/fbv/fbvStickerCar.png" height="1542" width="516" className="Fbvimage2" alt="Fbvimage2" />
             </div>
           </div>
         </div>
