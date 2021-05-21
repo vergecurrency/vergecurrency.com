@@ -37,6 +37,12 @@
       "url": "https://www.bithumb.com/trade/order/XVG"
     },
     {
+      "img": "../static/img/exchanges/swapswop.png",
+      "title": "SwapSwop",
+      "link": "swapswop.io",
+      "url": "https://swapswop.io"
+    },
+    {
       "img": "../static/img/exchanges/bitfinex.png",
       "title": "Bitfinex",
       "link": "bitfinex.com",
