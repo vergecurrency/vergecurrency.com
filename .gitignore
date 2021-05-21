@@ -26,3 +26,4 @@ locales/**/*.missing.json
 
 # IDE specific
 .vscode/
+/.idea/
