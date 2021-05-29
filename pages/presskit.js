@@ -94,7 +94,7 @@ function Presskit(props) {
                 </div>
                 <div className="start-xs">
                   <h2>{t('presskit:font.title', { defaultValue: 'Brand font' })}</h2>
-                  <p>{t('presskit:font.text', { defaultValue: 'The official font used in Verge Currency branding is Avenir Next Regular.' })}</p>
+                  <p dangerouslySetInnerHTML={{ __html: t('presskit:font.text', { defaultValue: 'The official font used in Verge Currency branding is Metropolis.' }) }} />
                   <p className="pt">{t('presskit:font.colors', { defaultValue: 'The colors that are used for the logo and style elements:' })}</p>
                 </div>
                 <div className="row center-xs pt pb colors">

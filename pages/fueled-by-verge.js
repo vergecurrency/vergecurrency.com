@@ -18,10 +18,7 @@ function FBV(props) {
         <link rel="stylesheet" type="text/css" href="/static/scss/pages/_fbv.scss" />
       </Head>
 
-
       <div className="container-fbv-header">
-
-
         <div className="fbvHeaderBG">
           <div className="intro pb-large">
             <div className="row center-xs">
@@ -37,11 +34,8 @@ function FBV(props) {
               </div>
             </div>
 
-
             <div className="row center-xs">
-              <img src="/static/img/fbv/fbv_sticker_logo.png" height="235" width="235" className="Fbvimage1" alt="Fbvimage1" />
-              <img src="/static/img/fbv/fbv_ribbon_car.png" className="Fbvimage1" alt="Fbvimage1" />
-              <img src="/static/img/fbv/fbvStickerCar.png" height="1542" width="516" className="Fbvimage2" alt="Fbvimage2" />
+              <img src="/static/img/fbv/fbv_ribbon_nfl.png" className="Fbvimage" alt="Fbvimage" />
             </div>
           </div>
         </div>
@@ -54,6 +48,7 @@ function FBV(props) {
             <div className="row center-xs middle-xs">
               <div className="container">
                 <div className="col-xs-12 col-lg-12">
+                  <br />
                   <div className="fbvHeading">About this initiative</div>
                   <div className="fbvText">Fueled by Verge is a statement of commitment to mass adoption by educating and spreading awareness of blockchain technology and Verge Currency by the #VergeFam.</div>
                   <div className="fbvButton"><a href="https://goo.gl/forms/pd1EyEneXY6d4WU82">Join the Movement</a></div>
@@ -73,8 +68,66 @@ function FBV(props) {
               <div className="fbvAthletesHeading">Verge Athletes</div>
             </div>
 
+            <div className="row start-xs pt pb bb">
 
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
+                <img src="/static/img/fbv/LewisNeal.jpg" alt="Lewis Neal Fueled by Verge" title="Lewis Neal Fueled by Verge" />
+              </div>
 
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsRight">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/iamlewisneal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Lewis Neal's Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://twitter.com/IamLewisNeal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Lewis Neal's Twitter"
+                      >
+                        <i className="icon icon--twitter" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.facebook.com/LewIsMNeal/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Lewis Neal's Facebook"
+                      >
+                        <i className="icon icon--facebook" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">NFL</p>
+                  <p className="athleteName">Lewis Neal</p>
+                  <p className="athleteLocation">British Columbia</p>
+
+                  <p>
+                    Lewis Neal is mainly known for football, having played in college for the Dallas Cowboys and now for the BC Lions.
+                    {' '}
+                    He now represents Verge in his sport.
+                    <br /><br />
+                    But he is much more than an athlete, he is an entrepreneur who tackles challenges head on, with the same drive and dedication that he plays ball.
+                    <br /><br />
+                    He is Fueled By Verge!
+                  </p>
+
+                </div>
+              </div>
+            </div>
 
             <div className="row start-xs pt pb bb">
 
@@ -143,117 +196,6 @@ function FBV(props) {
               </div>
             </div>
 
-
-
-
-            <div className="row start-xs pt pb bb">
-
-              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
-                <img src="/static/img/fbv/dannyRobertson.png" alt="Danny Robertson Fueled by Verge" title="Danny Robertson Fueled by Verge" />
-              </div>
-
-              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
-                <div className="AthletesFbvTxtV2">
-                  <span className="socialIconsRight">
-                    <Link>
-                      <a
-                        className="icon iconlink"
-                        href="https://www.instagram.com/141mx"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title="View Danny's Instagram"
-                      >
-                        <i className="icon icon--instagram" />
-                      </a>
-                    </Link>
-                    <Link>
-                      <a
-                        className="icon iconlink"
-                        href="https://twitter.com/141mx"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title="View Danny's Twitter"
-                      >
-                        <i className="icon icon--twitter" />
-                      </a>
-                    </Link>
-                  </span>
-                  <p className="athleteSport">Motocross</p>
-                  <p className="athleteName">Danny Robertson</p>
-                  <p className="athleteLocation">Calgary, Canada</p>
-
-                  <p className="athleteDescription">
-                    Danny is from Calgary, Alberta, Canada. Although he is only 10 years old, he has an extraordinary 6 years of racing experience.
-                    {' '}
-                    He is regularly training and has a huge potential to become a legend in motocross world such as Ricky Carmichael or Jeremy McGrath.
-                    <br /><br />
-                    Danny is one of our youngest community members who believes in privacy and the Verge vision, and wanted to help the younger generation
-                    {' '}
-                    acknowledge cryptocurrencies by covering his bike with the Verge brand.
-                    {' '}
-                    He did not get any compensation for doing so, but sees it as his contribution to bringing awareness.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-
-            <div className="row start-xs pt pb bb">
-
-              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
-                <div className="AthletesFbvTxtV2">
-                  <span className="socialIconsLeft">
-                    <Link>
-                      <a
-                        className="icon iconlink"
-                        href="https://www.instagram.com/gillinster"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title="View Gill's Instagram"
-                      >
-                        <i className="icon icon--instagram" />
-                      </a>
-                    </Link>
-                    <Link>
-                      <a
-                        className="icon iconlink"
-                        href="https://twitter.com/gillinster"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title="View Gill's Twitter"
-                      >
-                        <i className="icon icon--twitter" />
-                      </a>
-                    </Link>
-                  </span>
-                  <p className="athleteSport">Nascar</p>
-                  <p className="athleteName">Gil Linster</p>
-                  <p className="athleteLocation">Luxembourg</p>
-
-                  <p className="athleteDescription">
-                    Gil is a Verge supporter and a race car driver. He currently races stock cars in the NASCAR Whelen Euro Series.
-                    <br /><br />
-                    In 2017, he became the first ever Luxembourgish NASCAR driver while driving the number 44 race car from Caal Racing team in the Whelen Euro Series,
-                    {' '}
-                    and ended his first season in 9th place overall.
-                    <br /><br />
-                    He recently placed 4th and 13th at circuit Zolder - in his second race, he experienced engine difficulties that hindered his performance,
-                    {' '}
-                    but finished the 2018 Season (of the Elite 2 category) in 5th place.
-                    <br /><br />
-                    Gill will also be racing in the USA in his next season, with the addition of NASCAR’s Whelen All-American Series, the "lmv8 oval championship".
-                    <br /><br />
-                    Verge and Gil are both ready to tackle mass adoption and spread its awareness and education through racing.
-                  </p>
-
-                </div>
-              </div>
-
-              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 col-sm-offset-0 first-xs last-sm center-xs end-sm">
-                <img src="/static/img/fbv/gilLinster.png" alt="Gil Linster Fueled by Verge" title="Gil Linster Fueled by Verge" />
-              </div>
-            </div>
-
             <div className="row start-xs pt pb bb">
 
               <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
@@ -289,6 +231,111 @@ function FBV(props) {
                     Other changes include a new format with random draw heat racing for all races. Fields will be set to a hard 26 drivers.
                     <br /><br />
                     Top 20 from heats will automatically transfer into the main feature of the night.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="row start-xs pt pb bb">
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsLeft">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/gillinster"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Gill's Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://twitter.com/gillinster"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Gill's Twitter"
+                      >
+                        <i className="icon icon--twitter" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">Nascar</p>
+                  <p className="athleteName">Gil Linster</p>
+                  <p className="athleteLocation">Luxembourg / North Carolina</p>
+
+                  <p className="athleteDescription">
+                    Gil is a race car driver and Verge supporter.
+                    <br /><br />
+                    In 2017, he became the first ever Luxembourgish NASCAR driver while driving the number 44 race car from Caal Racing team in the Whelen Euro Series,
+                    {' '}
+                    and ended his first season in 9th place overall.
+                    <br /><br />
+                    More recently, Gill moved to the USA and is now racing in the NASCAR Carolina Pro Late Model Series.
+                    <br /><br />
+                    Verge and Gil are both ready to tackle mass adoption and spread its awareness and education through racing.
+                  </p>
+
+                </div>
+              </div>
+
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 col-sm-offset-0 first-xs last-sm center-xs end-sm">
+                <img src="/static/img/fbv/gilLinster.jpg" alt="Gil Linster Fueled by Verge" title="Gil Linster Fueled by Verge" />
+              </div>
+            </div>
+
+
+            <div className="row start-xs pt pb bb">
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
+                <img src="/static/img/fbv/dannyRobertson.png" alt="Danny Robertson Fueled by Verge" title="Danny Robertson Fueled by Verge" />
+              </div>
+
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsRight">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/141mx"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Danny's Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://twitter.com/141mx"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Danny's Twitter"
+                      >
+                        <i className="icon icon--twitter" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">Motocross</p>
+                  <p className="athleteName">Danny Robertson</p>
+                  <p className="athleteLocation">Calgary, Canada</p>
+
+                  <p className="athleteDescription">
+                    Danny is from Calgary, Alberta, Canada. Although he is only 12 years old, he has an extraordinary 8 years of racing experience.
+                    {' '}
+                    He can be found training regularly, and has the potential to become a legend in the motocross world, like Ricky Carmichael or Jeremy McGrath.
+                    <br /><br />
+                    Danny is one of our youngest community members who believes in privacy and the Verge vision, and wants to help the younger generation
+                    {' '}
+                    acknowledge cryptocurrencies by covering his bike with the Verge brand.
+                    {' '}
+                    He does not get any compensation for doing so, but sees it as his contribution to bringing awareness and adoption
+                    {' '}
+                    - he was the initial inspiration for the Fueled by Verge movement.
                   </p>
 
                 </div>

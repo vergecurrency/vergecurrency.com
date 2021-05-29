@@ -104,7 +104,7 @@
         "twitter": "https://twitter.com/141mx",
         "location": "Canada"
       }
-      
+
     ]
   },
   "advisor": {
@@ -144,20 +144,12 @@
         "twitter": "https://twitter.com/XVGHS",
         "location": "British Columbia, Canada"
       }
-      
+
     ]
-  }, 
-  "media" : { 
+  },
+  "media" : {
     "title" : "Multimedia",
     "members" : [
-      {
-        "img": "../static/img/team/verge.jpg",
-        "name": "Bishal - MarkOnDCrypto",
-        "role": "Graphics Designer",
-        "occupation": "Graphics and Web Designer",
-        "twitter": "https://twitter.com/MarkOnDCrypto/",
-        "location": "Kathmandu, Nepal"
-      },
       {
         "img": "../static/img/team/thecryptocamel.jpg",
         "name": "TheCryptoCamel",
@@ -165,13 +157,6 @@
         "occupation": "Master Distiller",
         "twitter": "https://twitter.com/TheCryptoCamel",
         "location": "Washington, USA"
-      },
-      {
-        "img": "../static/img/team/verge.jpg",
-        "name": "Johnny - MakeItSo",
-        "role": "Graphics Designer",
-        "occupation": "Graphics and Ideation",
-        "location": "New Hampshire, USA"
       },
       {
         "img": "../static/img/team/pedro.jpg",
