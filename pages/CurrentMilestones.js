@@ -471,7 +471,7 @@ const mileStones = [
     done: true,
     doneDate: '18th March 2021',
     title: 'MyVergies moves to stable release 1.0.0',
-    description: 'MyVergies is a lite desktop client for Verge, created by SwenVanZanten, that has tor built-in!.',
+    description: 'MyVergies is a lite desktop client for Verge, created by SwenVanZanten, that has tor built-in!',
     progress: 100,
     progressState: '',
     infoLabel: 'Github Releases Page',
@@ -479,13 +479,43 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '11th April 2020',
+    doneDate: '11th April 2021',
     title: 'Electrum 4.0.3 released',
     description: 'Now available - Please note: requires Tor to be installed',
     progress: 100,
     progressState: '',
     infoLabel: 'Github Releases Page',
     infoUrl: 'https://github.com/vergecurrency/electrum/releases/latest'
+  },
+  {
+    done: true,
+    doneDate: '25th May 2021',
+    title: 'Lewis Neal is Fueled by Verge!',
+    description: 'American Football player from North Carolina, Lewis Neal, joins the Fueled by Verge movement',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Medium Article',
+    infoUrl: 'https://medium.com/vergecurrency/lewis-neal-is-fueled-by-verge-93959b82106b'
+  },
+  {
+    done: true,
+    doneDate: '1st June 2021',
+    title: 'Reggie Calhoun Jr and RPA College join Fueled by Verge',
+    description: 'Reggie Calhoun Jr. is creating the next generation of athletes, Fueled by Verge!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Medium Article',
+    infoUrl: 'https://medium.com/vergecurrency/rpa-college-is-fueled-by-verge-316555ad937d'
+  },
+  {
+    done: true,
+    doneDate: '4th June 2021',
+    title: 'Binance adds USDT pairing for XVG',
+    description: 'Now you can finally trade with the XVG-USDT pair on Binance!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Binance Announcement',
+    infoUrl: 'https://www.binance.com/en/support/announcement/32569413cb7e400f8a25514fbdb37d4d'
   }
   // {
   //   done: true or false,
