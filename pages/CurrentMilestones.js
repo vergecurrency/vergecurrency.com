@@ -516,6 +516,16 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Binance Announcement',
     infoUrl: 'https://www.binance.com/en/support/announcement/32569413cb7e400f8a25514fbdb37d4d'
+  },
+  {
+    done: true,
+    doneDate: '8th June 2021',
+    title: 'Malik Williams joins Fueled by Verge',
+    description: 'Malik Williams joins Fueled By Verge at the start of his NFL journey, after a stellar College career as Running Back!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Medium Article',
+    infoUrl: 'https://medium.com/vergecurrency/fueled-by-verge-adding-to-our-roster-2642c9f60e65'
   }
   // {
   //   done: true or false,
