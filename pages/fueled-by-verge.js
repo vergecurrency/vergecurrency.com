@@ -71,6 +71,161 @@ function FBV(props) {
             <div className="row start-xs pt pb bb">
 
               <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
+                <img src="/static/img/fbv/MalikWilliams.jpg" alt="Malik Williams Fueled by Verge" title="Malik Williams Fueled by Verge" />
+              </div>
+
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsRight">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/M4_Ville/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Malik Williams' Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://twitter.com/M4_Ville"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Malik Williams' Twitter"
+                      >
+                        <i className="icon icon--twitter" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">NFL</p>
+                  <p className="athleteName">Malik Williams</p>
+                  <p className="athleteLocation">Louisville, Kentucky</p>
+
+                  <p>
+                    Malik Williams joins Fueled By Verge at the start of his NFL journey after a stellar College career as
+                    {' '}
+                    Running Back to Lamar Jackson at the University of Louisville. With consistent standout performances -
+                    {' '}
+                    including a record setting day of 9 carries 180yds and 2 touchdowns vs Syracuse - Lamar had a teammate
+                    {' '}
+                    he could rely on to get the job done.
+                    <br /><br />
+                    Malik bolsters our Gridiron credentials and brings his enthusiasm and commitment to the Fueled By Verge cause.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="row start-xs pt pb bb">
+
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsLeft">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/_rpawildcats/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View RPA College's Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://twitter.com/_rpawildcats"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View RPA College's Twitter"
+                      >
+                        <i className="icon icon--twitter" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.facebook.com/RPAWildcats/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View RPA College's Facebook"
+                      >
+                        <i className="icon icon--facebook" />
+                      </a>
+                    </Link>
+
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/reggiecalhounjr"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Reggie Calhoun Jr's Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://twitter.com/reggiecalhounjr"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Reggie Calhoun Jr's Twitter"
+                      >
+                        <i className="icon icon--twitter" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.facebook.com/thereggiecalhounjr/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Reggie Calhoun Jr's Facebook"
+                      >
+                        <i className="icon icon--facebook" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">Football</p>
+                  <p className="athleteName">RPA College / Reggie Calhoun Jr</p>
+                  <p className="athleteLocation">Arlington, Texas</p>
+
+                  <p className="athleteDescription">
+                    Fueled By Verge is all about building community and helping bring together talent for the greater good -
+                    {' '}
+                    this ethos is mirrored by Reggie Calhoun Jr in his creation of the RPA College.
+                    <br /><br />
+                    This is a project that brings together future athletes from humble beginnings, whose undoubted skills
+                    {' '}
+                    might otherwise be lost. But it also teaches core life skills and prepares students with business skills
+                    {' '}
+                    for when their sports careers come to an end.
+                    <br /><br />
+                    This resonates with Fueled By Verge in our goal of teaching the clear advantages of blockchain and
+                    {' '}
+                    informing more people to the clear advantages of adopting a borderless digital currency in XVG.
+                    <br /><br />
+                    We welcome the RPA College to Fueled By Verge.
+                  </p>
+
+                </div>
+              </div>
+
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 col-sm-offset-0 first-xs last-sm center-xs end-sm">
+                <img src="/static/img/fbv/RPACollege.jpg" alt="RPA College Fueled by Verge" title="RPA College Fueled by Verge" />
+              </div>
+            </div>
+
+            <div className="row start-xs pt pb bb">
+
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
                 <img src="/static/img/fbv/LewisNeal.jpg" alt="Lewis Neal Fueled by Verge" title="Lewis Neal Fueled by Verge" />
               </div>
 
