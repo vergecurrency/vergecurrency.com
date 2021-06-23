@@ -12,14 +12,6 @@
         "location": "Florida, USA"
       },
       {
-        "img": "../static/img/team/manuel.jpg",
-        "name": "Manuel",
-        "role": "Software Engineer",
-        "occupation": "ERP Consultant",
-        "github": "https://github.com/2lazy2debug",
-        "location": "Switzerland"
-      },
-      {
         "img": "../static/img/team/maxius.jpg",
         "name": "Damien - Maxius",
         "role": "Software Engineer",
