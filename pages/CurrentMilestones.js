@@ -517,8 +517,6 @@ const mileStones = [
     infoLabel: 'Binance Announcement',
     infoUrl: 'https://www.binance.com/en/support/announcement/32569413cb7e400f8a25514fbdb37d4d'
   },
-    
-    
   {
     done: true,
     doneDate: '5th June 2021',
@@ -528,10 +526,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/NOWPayments_io/status/1401099066990383106'
-  }, 
-    
-    
-    
+  },
   {
     done: true,
     doneDate: '8th June 2021',
