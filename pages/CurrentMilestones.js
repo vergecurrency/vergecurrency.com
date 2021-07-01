@@ -526,7 +526,48 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Medium Article',
     infoUrl: 'https://medium.com/vergecurrency/fueled-by-verge-adding-to-our-roster-2642c9f60e65'
+  },
+  {
+    done: true,
+    doneDate: '15th June 2021',
+    title: 'Devastating car crash survivor Vikram Jeet Singh Parmar joins Fueled By Verge',
+    description: 'The inspirational Vikram Jeet Singh Parmar, an experienced climber, joins Fueled By Verge as he prepares to traverse the Seven Summits of the World.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Medium Article',
+    infoUrl: 'https://medium.com/vergecurrency/7-continents-7-highest-summits-7-highest-volcanoes-plus-the-north-pole-and-south-pole-7498ee29167b'
+  },
+  {
+    done: true,
+    doneDate: '24th June 2021',
+    title: 'MMA Fighter signs with Fueled By Verge to push awareness of Verge Currency $XVG through Combat Sports',
+    description: 'The 115lb pocket dynamo, Reena Norville, signs with Fueled By Verge to push awareness of Verge Currency $XVG through MMA',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'EIN PressWire Media Release',
+    infoUrl: 'https://www.einpresswire.com/article/544433405/mma-fighter-signs-with-fueled-by-verge-to-push-awareness-of-verge-currency-xvg-through-combat-sports'
+  },
+  {
+    done: true,
+    doneDate: '26th June 2021',
+    title: 'Mint and trade NFTs with Verge Currency on Libra.Codes',
+    description: 'You can now mint and trade NFTs using Verge Currency on Libra.Codes!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/libracodes/status/1408458418801680388'
+  },    
+  {
+    done: true,
+    doneDate: '29th June 2021',
+    title: 'rLoop enters into a MOU with Verge Currency and Voice Life Inc',
+    description: 'Verge, rLoop and Voice Life will work collectively on expanding Voice Life\'s Far Field Wireless Charging Platform.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'EIN PressWire Media Release',
+    infoUrl: 'https://www.einpresswire.com/article/544689173/clean-limitless-continuous-power-to-be-built-using-blockchain-on-a-far-field-wireless-charging-platform'
   }
+
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
