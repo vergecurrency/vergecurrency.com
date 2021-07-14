@@ -576,6 +576,16 @@ const mileStones = [
     progressState: '',
     infoLabel: 'EIN PressWire Media Release',
     infoUrl: 'https://www.einpresswire.com/article/544689173/clean-limitless-continuous-power-to-be-built-using-blockchain-on-a-far-field-wireless-charging-platform'
+  },    
+  {
+    done: true,
+    doneDate: '13th July 2021',
+    title: 'Motocross race winners paid in $XVG, through Fueled By Verge․',
+    description: 'Motocross race winners paid in $XVG, through Fueled By Verge․ Another first for Crypto and Verge Currency.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'EIN PressWire Media Release',
+    infoUrl: 'https://www.einpresswire.com/article/546167442/cryptocurrency-makes-huge-step-into-motocross-by-paying-winners-in'
   }
   // {
   //   done: true or false,
