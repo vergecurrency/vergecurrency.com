@@ -76,8 +76,8 @@ const MenuItems = ({ t }) => (
           <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}
           </a>
         </Link>
-        <Link href="http://vergecurrency.network/">
-          <a href="http://vergecurrency.network/" target="_blank" rel="noopener noreferrer">
+        <Link href="https://vergecurrency.network/d/VmzuEE5Mk/verge-blockchain?orgId=1">
+          <a href="https://vergecurrency.network/d/VmzuEE5Mk/verge-blockchain?orgId=1" target="_blank" rel="noopener noreferrer">
             {t('header:network-status', { defaultValue: 'Network Status' })}
           </a>
         </Link>
