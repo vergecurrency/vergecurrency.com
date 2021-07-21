@@ -3,7 +3,7 @@
     "subheader": "General",
     "whatisverge": {
       "question": "What is Verge?",
-      "answer": "Verge is a cryptocurrency designed for people and for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions."
+      "answer": "Verge is a digital currency designed for people and for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions."
     },
     "mission": {
       "question": "What is the Verge Currency Mission?",
@@ -15,11 +15,11 @@
     },
     "opensource": {
       "question": "Is Verge Currency Open-source?",
-      "answer": "Verge currency is proud to be 100% open-source. Our project is ran entirely by volunteer community members and dedicated indiviudals who wish to make a difference in the world."
+      "answer": "Verge currency is proud to be 100% open-source. Our project is run entirely by volunteer community members and dedicated indiviudals who wish to make a difference in the world."
     },
     "getverge": {
       "question": "How Can I Get Verge Currency?",
-      "answer": "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='/get-verge' target='_blank'>exchange</a>. Users can also tip each other on integrated <a href='/p2p' target='_blank'>social</a> platforms (using official Verge bots). If you have an Android device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet <a href='https://play.google.com/store/apps/details?id=com.vergepay.wallet' target='_blank'>app</a>."
+      "answer": "There are a few different ways to get Verge (XVG) coins. The most common option is buying them on a supported <a href='/get-verge' target='_blank'>exchange</a>. If you have a mobile device, you can also take Verge on the go and send/receive coins with your mobile Verge wallet via our <a href='https://apps.apple.com/app/id1459928869' target='_blank'>iOS app</a> or <a href='https://play.google.com/store/apps/details?id=com.vergepay.wallet' target='_blank'>Android app</a>."
     },
     "techdoc": {
       "question": "Where can I find technical documentation on Verge Currency?",
@@ -47,7 +47,7 @@
     },
     "transactionfee": {
       "question": "How much is the transaction fee?",
-      "answer": "0.1 XVG"
+      "answer": "0.1 XVG (per kb) - Most transactions are less than 1kb."
     },
     "transactionspeed": {
       "question": "How fast are transactions?",
@@ -55,15 +55,11 @@
     },
     "transactioncap": {
       "question": "What is the transaction capacity per second?",
-      "answer": "100 transactions per second. With RSK technology implemented that number is projected to reach 2000 transactions per second."
+      "answer": "100 transactions per second."
     },
     "maxsupply": {
       "question": "When will the maximum supply be reached?",
-      "answer": "It is projected to be reached in 8 to 10 years at the time of writing (2017)."
-    },
-    "rskactivated": {
-      "question": "When will RSK be activated?",
-      "answer": "RSK platform is projected to be launched in December. After that Verge Currency will implement its smart contracts functionality."
+      "answer": "It is projected to be reached in 8 to 10 years at the time of writing (2022)."
     },
     "atomicswaps": {
       "question": "How can I use Atomic Swaps?",
@@ -71,15 +67,15 @@
     },
     "vergebusiness": {
       "question": "How can I accept Verge for my business?",
-      "answer": "You can integrate XVG in your business by using Coinpayments or using existing APIs that can be found on GitHub. <a href='/developers/verge-vendor-integration'>Click here</a> for more information."
+      "answer": "You can integrate XVG in your business by using one of our integration partners, or using existing APIs that can be found on GitHub. <a target='_blank' href='https://vergecurrency.business/'>Click here</a> for more information."
     },
     "vergecurrencyproject": {
       "question": "How can I support the Verge Currency project?",
-      "answer": "The simplest way of support is by donating to fund the development. XVG and BTC addresses can be found here. If you would like to contribute to the project in the area of software development, digital marketing, video and graphic design or any other, please fill out this form or reach out to us directly via email <a href='mailto:contact@vergecurrency.com'>contact@vergecurrency.com</a>."
+      "answer": "The simplest way of support is by donating to fund the development. XVG and BTC addresses can be found here. If you would like to contribute to the project in the area of software development, digital marketing, video and graphic design or any other, please reach out to us directly on Discord or Telegram."
     },
     "funded": {
       "question": "How Is Verge Development Funded?",
-      "answer": " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='/donate'>donations</a>. We are currently exploring other methods to fund development including opening an official Verge <b>Merchandise Store</b> and <b>Multi-Algorithm Mining Pool</b>."
+      "answer": " Verge is an open-source project, so all of the development work is funded by the developers and community <a href='/donate'>donations</a>. We also have an official Verge <a target='_blank' href='https://vergecurrency.store'>Merchandise Store</a> and <a target='_blank' href='https://vergecurrency.exchange'>Instant Exchange</a>."
     },
     "publicledger": {
       "question": "Why Does Verge Have a Public Ledger?",
@@ -92,7 +88,7 @@
     },
     "wheretolearnmore": {
       "question": "Where Can I Go to Learn More About Verge?",
-      "answer": "We are on a ton of different social platforms and are very active on Twitter, Telegram, Slack, and Discord."
+      "answer": "We are on a ton of different social platforms and are very active on Twitter, Telegram and Discord."
     },
     "milestones": {
       "question": "Where Can I Find the Verge Milestones?",
@@ -122,7 +118,7 @@
     "subheader": "Wallets",
     "whichwallet": {
       "question": "Which Verge Wallet Should I Use?",
-      "answer": "Fundamentally, there are two types of Verge wallets you can use; QT and/or Electrum. For everyday users, <b>we recommend you download an Electrum wallet</b>."
+      "answer": "Fundamentally, there are two types of Verge wallets you can use; QT and/or Electrum. For everyday users, <b>we recommend you download an Electrum wallet</b>, e.g. MyVergies."
     },
     "electrum": {
       "question": "What Is Electrum?",
@@ -150,7 +146,7 @@
     "subheader": "Mining",
     "proof": {
       "question": "Is Verge PoW or PoS?",
-      "answer": "Verge is 100% <b>PoW</b> (Proof of Work). We believe PoS (Proof of Stake) systems unfairly benefit the users who have the most coins; making it so the rich get richer. This is also currently an issue with traditional fiat currencies (eg. USD)."
+      "answer": "Verge is 100% <b>PoW</b> (Proof of Work)."
     },
     "algorithms": {
       "question": "What Algorithms Does Verge Support?",

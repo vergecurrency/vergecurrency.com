@@ -58,11 +58,6 @@ const Footer = ({ t }) => (
                         <a href="/milestones" name="Milestones">{t('footer:milestones', { defaultValue: 'Milestones' })}</a>
                       </Link>
                     </li>
-                    <li>
-                      <Link href="/p2p">
-                        <a href="/p2p" name="P2P guide">{t('footer:p2p_solutions', { defaultValue: 'P2P Solutions' })}</a>
-                      </Link>
-                    </li>
                   </ul>
                 </div>
                 <div className="col-xs-6 col-sm-3">
@@ -172,11 +167,6 @@ const Footer = ({ t }) => (
                         <a href="/history" name="History">{t('footer:history', { defaultValue: 'History' })}</a>
                       </Link>
                     </li> */}
-                    <li>
-                      <Link href="/community/send-an-email/">
-                        <a href="/community/send-an-email/" name="Send an email">{t('footer:send_an_email', { defaultValue: 'Send an email' })}</a>
-                      </Link>
-                    </li>
                     <li>
                       <Link href="/presskit">
                         <a href="/presskit" name="Presskit">{t('footer:press', { defaultValue: 'Press' })}</a>

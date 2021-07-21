@@ -20,16 +20,9 @@ export default () => (
       <li><ActiveLink href="/faq/mining">Mining</ActiveLink></li>
       <li><ActiveLink href="/faq/legal">Legal</ActiveLink></li>
     </ul>
-    <h6>P2P</h6>
-    <ul>
-      <li><ActiveLink href="/p2p">Telegram Bot Manual</ActiveLink></li>
-      <li><ActiveLink href="/p2p/twitter-bot">Twitter Bot Manual</ActiveLink></li>
-      <li><ActiveLink href="/p2p/discord-bot">Discord Bot Manual</ActiveLink></li>
-    </ul>
     <h6>Community</h6>
     <ul>
       <li><ActiveLink href="/community/get-involved">Get involved</ActiveLink></li>
-      <li><ActiveLink href="/community/send-an-email">Send an email</ActiveLink></li>
       {/* <li><ActiveLink href="/community/social">Social</ActiveLink></li> */}
       {/* <li><ActiveLink href="/donate">Donate</ActiveLink></li> */}
       <li><ActiveLink href="/community/xvg-mining-pools">Mining pools</ActiveLink></li>
@@ -40,7 +33,6 @@ export default () => (
       <li><ActiveLink href="/developers">How to install RubyGems</ActiveLink></li>
       <li><ActiveLink href="/developers/github-desktop">GitHub Desktop</ActiveLink></li>
       <li><ActiveLink href="/developers/vergecurrency-repositories">Our GitHub repositories</ActiveLink></li>
-      <li><ActiveLink href="/developers/verge-vendor-integration">Verge Vendor integration</ActiveLink></li>
       <li><ActiveLink href="/developers/wallet-setup-instructions">Wallet setup instructions</ActiveLink></li>
       <li>
         <Link href="https://github.com/vergecurrency/php-verge">

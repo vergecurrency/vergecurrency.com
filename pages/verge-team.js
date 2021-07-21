@@ -60,14 +60,6 @@ function VergeTeam(props) {
             </div>
           </div>
         </div>
-        <div className="team pt-xs pb-large">
-          <div className="row center-xs">
-            <div className="col-xs-10 col-lg-8">
-              <h2>Telegram Admins</h2>
-              <TGAdmins />
-            </div>
-          </div>
-        </div>
         <div className="contributors">
           <div className="row center-xs">
             <div className="col-xs-10">
@@ -93,7 +85,7 @@ function VergeTeam(props) {
                       rel="noopener noreferrer"
                       className="btn btn-tertiary btn-github"
                     >
-                      {t('verge-team:body.text5', { defaultValue: 'Go to Verge repo' })}
+                      {t('verge-team:body.text5', { defaultValue: 'Go to the Verge repo' })}
                     </a>
                   </Link>
                 </div>

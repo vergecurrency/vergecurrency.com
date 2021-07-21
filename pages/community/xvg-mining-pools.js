@@ -41,22 +41,22 @@ class MiningPools extends React.Component {
   render() {
     return (
       <Layout>
-        <div className="container">
+        <div className="container learnmore">
           <Content>
-            <div className="row center-xs pt-large pb">
+            <div className="row center-xs pt-small pb">
               <div className="col-xs-10 start-xs exchanges bb">
                 <div className="start-sm pb-small">
                   {this.renderAlgoDropdown(e => this.updateSearch(e.target.value))}
                   <div className="minerpools-grid">
                     {this.getFilteredPool().map((pool, id) => (
-                      <a key={id} href={pool.poollink}>
+                      <a key={id} target="_blank" href={pool.poollink}>
                         <div className="pool-item card">
                           <h1>{pool.poolname}</h1>
-                          <p>
-                            {'Hardfork Ready:'}
-                            {' '}
-                            {pool.hardfork ? '✅' : '❓' }
-                          </p>
+                          {/*<p>*/}
+                          {/*  {'Hardfork Ready:'}*/}
+                          {/*  {' '}*/}
+                          {/*  {pool.hardfork ? '✅' : '❓' }*/}
+                          {/*</p>*/}
                           <h5>
                             {'Algorithms:'}
                           </h5>

@@ -10,8 +10,18 @@
   background-color: #091721;
   color: $white;
 
+  p {
+    font-size: rem(15px);
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+
   .ribbon {
     z-index: 0;
+    .ribbon-img {
+      min-height: rem(740px);
+    }
   }
 
   .bb {
@@ -132,6 +142,6 @@
         right: -5rem;
         top: -12rem;
       }
-    }    
+    }
   }
 }

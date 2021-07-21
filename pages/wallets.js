@@ -61,13 +61,6 @@ function WalletsPage(props) {
                     <p>{('Dual-Key Stealth Addressing enable our users to be able to send and receive payments safely and privately.')}</p>
                   </div>
                 </div>
-                <h6 className="center-xs start-sm">
-                  <Link href="/benefits">
-                    <a href="/benefits" className="benefits--url">
-                      {t('home:benefits.link.title')}
-                    </a>
-                  </Link>
-                </h6>
               </div>
               <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
                 <div className={`hidden-xs benefits--${i18n.language === 'ar' || i18n.language === 'fa' || i18n.language === 'ku' ? 'imgsrtl' : 'imgs'}`}>

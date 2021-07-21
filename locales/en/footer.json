@@ -7,7 +7,6 @@
   "vendors": "Vendors",
   "wallets": "Wallets",
   "milestones": "Milestones",
-  "p2p_solutions": "P2P Solutions",
   "how_to_install_rubygems": "How to install RubyGems",
   "github_desktop": "GitHub Desktop",
   "our_github_repositories": "Our GitHub repositories",
@@ -24,7 +23,6 @@
   "our_team": "Our team",
   "about_us": "About us",
   "history": "History",
-  "send_an_email": "Send an email",
   "press": "Press",
   "faq": "FAQ"
 }
