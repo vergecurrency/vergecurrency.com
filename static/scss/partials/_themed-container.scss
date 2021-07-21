@@ -251,8 +251,8 @@
     }
 
     &--keytech {
-      background-color: #040e15;
-      background-image: url(/static/img/key-tech/keytech.png); // scss-lint:disable UrlQuotes
+      background-color: rgba(4, 14, 21, 0.95);
+      //background-image: url(/static/img/key-tech/keytech.png); // scss-lint:disable UrlQuotes
       background-position: top right;
       background-repeat: no-repeat;
       margin-top: -30rem;
