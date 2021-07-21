@@ -48,8 +48,6 @@ function FAQ_General(props) {
               <p dangerouslySetInnerHTML={{ __html: t('faq:general:transactioncap:answer') }} />
               <h2>{t('faq:general:maxsupply:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:general:maxsupply:answer') }} />
-              <h2>{t('faq:general:rskactivated:question')}</h2>
-              <p dangerouslySetInnerHTML={{ __html: t('faq:general:rskactivated:answer') }} />
               <h2>{t('faq:general:atomicswaps:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:general:atomicswaps:answer') }} />
               <h2>{t('faq:general:vergebusiness:question')}</h2>
@@ -60,12 +58,10 @@ function FAQ_General(props) {
               <p dangerouslySetInnerHTML={{ __html: t('faq:general:funded:answer') }} />
               <h2>{t('faq:general:publicledger:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:general:publicledger:answer') }} />
-              <h2>{t('faq:general:richlist:question')}</h2>
-              <p dangerouslySetInnerHTML={{ __html: t('faq:general:richlist:answer') }} />
               <h2>{t('faq:general:wheretolearnmore:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:general:wheretolearnmore:answer') }} />
-              <h2>{t('faq:general:roadmap:question')}</h2>
-              <p dangerouslySetInnerHTML={{ __html: t('faq:general:roadmap:answer') }} />
+              <h2>{t('faq:general:milestones:question')}</h2>
+              <p dangerouslySetInnerHTML={{ __html: t('faq:general:milestones:answer') }} />
             </div>
           </Content>
         </div>

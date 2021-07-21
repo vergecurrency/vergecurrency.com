@@ -55,15 +55,11 @@
     },
     "transactioncap": {
       "question": "Quelle est la capacité de transaction par seconde?",
-      "answer": "100 transactions par seconde. Avec la technologie RSK implémentée, ce nombre devrait atteindre 2000 transactions par seconde."
+      "answer": "100 transactions par seconde."
     },
     "maxsupply": {
       "question": "Quand l'approvisionnement maximal sera-t-il atteint?",
-      "answer": "Il est prévu qu’il soit atteint dans 8 à 10 ans au moment de la rédaction de ce rapport (2017)."
-    },
-    "rskactivated": {
-      "question": "Quand est-ce que RSK sera activé?",
-      "answer": "La plate-forme RSK devrait être lancée en décembre. Après cela, Verge Currency implémentera ses fonctionnalités de contrats intelligents."
+      "answer": "Il est prévu qu’il soit atteint dans 8 à 10 ans au moment de la rédaction de ce rapport (2022)."
     },
     "atomicswaps": {
       "question": "Comment puis-je utiliser les Atomic Swap?",
@@ -71,11 +67,11 @@
     },
     "vergebusiness": {
       "question": "Comment puis-je accepter Verge pour mon entreprise?",
-      "answer": "Vous pouvez intégrer XVG dans votre entreprise en utilisant Coinpayments ou en utilisant les API existantes disponibles sur GitHub. <a href='/developers/verge-vendor-integration'> Cliquez ici </a> pour plus d'informations."
+      "answer": "Vous pouvez intégrer XVG dans votre entreprise en utilisant Coinpayments ou en utilisant les API existantes disponibles sur GitHub. <a target='_blank' href='https://vergecurrency.business/'>Cliquez ici </a> pour plus d'informations."
     },
     "vergecurrencyproject": {
       "question": "Comment puis-je soutenir le projet Verge Currency?",
-      "answer": "Le moyen le plus simple de soutien est de faire un don pour financer le développement. Les adresses XVG et BTC peuvent être trouvées ici. Si vous souhaitez contribuer au projet dans le domaine du développement de logiciels, du marketing numérique, de la conception graphique et vidéo ou autre, veuillez remplir ce formulaire ou nous contacter directement par e-mail <a href = 'mailto: contact @ vergecurrency .com '> contact@vergecurrency.com </a>"
+      "answer": "Le moyen le plus simple de soutien est de faire un don pour financer le développement. Les adresses XVG et BTC peuvent être trouvées ici. Si vous souhaitez contribuer au projet dans le domaine du développement de logiciels, du marketing numérique, de la conception graphique et vidéo ou autre, contact us on Discord or Telegram."
     },
     "funded": {
       "question": "Comment le développement de Verge est-il financé?",
@@ -94,7 +90,7 @@
       "question": "Où puis-je aller pour en savoir plus sur Verge?",
       "answer": "Nous sommes sur une tonne de plates-formes sociales différentes et sommes très actifs sur Twitter, Telegram, Slack et Discord."
     },
-    "roadmap": {
+    "milestones": {
       "question": "Où puis-je trouver la feuille de route de Verge?",
       "answer": "Nous avons une <a href='/milestones' target='_blank'> feuille de route </a> répertoriée sur notre site qui montre généralement les éléments sur lesquels nous travaillons pour le mois ou les deux prochains. Nous n'aimons pas mettre des éléments à long terme (plus de 3 mois) sur notre feuille de route, car les choses changent trop vite dans la cryptographie pour anticiper cela de très loin."
     }
@@ -126,7 +122,7 @@
     "subheader": "Portefeuilles",
     "whichwallet": {
       "question": "Quel portefeuille Verge devrais-je utiliser?",
-      "answer": "Fondamentalement, vous pouvez utiliser deux types de portefeuilles Verge; QT et / ou Electrum. Pour les utilisateurs ordinaires, <b> nous vous recommandons de télécharger un portefeuille Electrum </ b>."
+      "answer": "Fondamentalement, vous pouvez utiliser deux types de portefeuilles Verge; QT et / ou Electrum. Pour les utilisateurs ordinaires, <b> nous vous recommandons de télécharger un portefeuille Electrum </ b>, e.g. MyVergies."
     },
     "electrum": {
       "question": "Qu'est-ce qu'èélectrum?",
@@ -154,7 +150,7 @@
     "subheader": "Minage",
     "proof": {
       "question": "Est-ce que Verge PoW ou PoS?",
-      "answer": "Verge est 100% <b> PoW </ b> (Proof of work). Nous pensons que les systèmes PoS (Proof of Stake) profitent injustement aux utilisateurs qui ont le plus de pièces. faire en sorte que les riches deviennent plus riches. Ceci est également actuellement un problème avec les monnaies fiduciaires traditionnelles (par exemple. USD)."
+      "answer": "Verge est 100% <b> PoW </ b> (Proof of work)."
     },
     "algorithms": {
       "question": "Quels algorithmes Verge prend-il en charge?",

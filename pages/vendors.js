@@ -22,7 +22,7 @@ class VendorsPage extends React.Component {
 
   applyNewFilterCheckbox(e, name){
     this.setState({
-      filter: e.target.checked 
+      filter: e.target.checked
         ? Array.from(new Set([ ...this.state.filter, name]))
         : this.state.filter.filter((e) => e !== name)
     })
@@ -47,8 +47,8 @@ class VendorsPage extends React.Component {
                     <h3>
                     {t('common:vendors.text2', { defaultValue: 'Get started today and accept Verge in your store!' })}
                     </h3>
-                    <Link href="https://vergecurrency.com/developers/verge-vendor-integration/">
-                      <a href="https://vergecurrency.com/developers/verge-vendor-integration/" className="btn btn-primary">{t('common:vendors.text3', { defaultValue: 'Accept Verge today' })}</a>
+                    <Link target="_blank" href="https://vergecurrency.business/">
+                      <a target="_blank" href="https://vergecurrency.business/" className="btn btn-primary">{t('common:vendors.text3', { defaultValue: 'Accept Verge today' })}</a>
                     </Link>
                 </div>
               </div>

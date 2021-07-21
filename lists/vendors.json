@@ -1948,6 +1948,20 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "Crypto Barista",
+            "img": "../static/img/vendors/latest/cryptobarista.png",
+            "link": "CryptoBarista.eu",
+            "url": "https://cryptobarista.eu/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": true,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
         }
     ]
 }

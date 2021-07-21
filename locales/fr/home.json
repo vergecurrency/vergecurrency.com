@@ -30,7 +30,7 @@
       "text": "Des frais peu élevés, des transactions rapides, un grand volume de circulation, un support multiplateforme, le protocole Wraith sont les ingrédients qui font de Verge une solution idéale pour une adoption massive."
     },
     "benefit_4": {
-      "title": "LA VIE PRIVÉE EST NOTRE STANDARD"      
+      "title": "LA VIE PRIVÉE EST NOTRE STANDARD"
     }
   },
   "wallets": {
@@ -58,7 +58,7 @@
     "buttonTertiary": "Voir tous les fournisseurs ici",
     "text3": "Les derniers vendeurs à accepter Verge"
   },
-  "roadmap": {
+  "milestones": {
     "text1": "Feuille de route complète ici"
   },
   "social": {

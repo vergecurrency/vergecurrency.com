@@ -40,9 +40,6 @@ const MenuItems = ({ t }) => (
     <Link prefetch href="/milestones">
       <a href="/milestones">{t('header:milestones', { defaultValue: 'Milestones' })}</a>
     </Link>
-    <Link prefetch href="/vendors">
-      <a href="/vendors">{t('header:vendors', { defaultValue: 'Vendors' })}</a>
-    </Link>
     <span className="submenu">
       {t('header:resources', { defaultValue: 'Resources' })}
       <FontAwesomeIcon icon={faChevronDown} />
@@ -58,8 +55,8 @@ const MenuItems = ({ t }) => (
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}
           </a>
         </Link>
-        <Link prefetch href="/community/xvg-mining-pools/">
-          <a href="/community/xvg-mining-pools/">{t('header:pools', { defaultValue: 'Mining Pools' })}
+        <Link prefetch href="/community/xvg-mining-pools">
+          <a href="/community/xvg-mining-pools">{t('header:pools', { defaultValue: 'Mining Pools' })}
           </a>
         </Link>
         <Link href="https://verge.zendesk.com">
@@ -72,18 +69,9 @@ const MenuItems = ({ t }) => (
             {t('header:wiki', { defaultValue: 'Wiki' })}
           </a>
         </Link>
-        <Link prefetch href="/p2p">
-          <a href="/p2p">{t('header:p2p', { defaultValue: 'P2P' })}
-          </a>
-        </Link>
         <Link href="https://vergecurrency.network/d/VmzuEE5Mk/verge-blockchain?orgId=1">
           <a href="https://vergecurrency.network/d/VmzuEE5Mk/verge-blockchain?orgId=1" target="_blank" rel="noopener noreferrer">
             {t('header:network-status', { defaultValue: 'Network Status' })}
-          </a>
-        </Link>
-        <Link href="https://vergecurrency.store/">
-          <a href="https://vergecurrency.store/" target="_blank" rel="noopener noreferrer">
-            {t('header:verge-merch', { defaultValue: 'Verge Merch' })}
           </a>
         </Link>
         <Link prefetch href="/developers">
@@ -100,6 +88,14 @@ const MenuItems = ({ t }) => (
         </Link>
       </div>
     </span>
+    <Link prefetch href="/vendors">
+      <a href="/vendors">{t('header:vendors', { defaultValue: 'Vendors' })}</a>
+    </Link>
+    <Link href="https://vergecurrency.store/">
+      <a href="https://vergecurrency.store/" target="_blank" rel="noopener noreferrer">
+        {t('header:verge-merch', { defaultValue: 'Store' })}
+      </a>
+    </Link>
     <Link prefetch href="/get-verge">
       <a href="/get-verge">{t('header:get-verge', { defaultValue: 'Get Verge' })}</a>
     </Link>

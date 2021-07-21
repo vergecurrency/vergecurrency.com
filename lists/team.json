@@ -82,7 +82,7 @@
       },
       {
         "img": "../static/img/team/nichola.jpg",
-        "name": "Nichola",
+        "name": "Nikki",
         "role": "Outreach",
         "occupation": "Life skills teacher",
         "twitter": "https://twitter.com/knicky74",
@@ -95,6 +95,20 @@
         "occupation": "Entrepreneur",
         "twitter": "https://twitter.com/141mx",
         "location": "Canada"
+      },
+      {
+        "img": "../static/img/team/maria.jpg",
+        "name": "Maria Dias",
+        "role": "Social Media / Marketing",
+        "twitter": "https://twitter.com/maria__dias",
+        "location": "Portugal"
+      },
+      {
+        "img": "../static/img/team/grandpriest.jpg",
+        "name": "Vivek - Grandpriest",
+        "role": "Advisor & Marketing",
+        "twitter": "https://twitter.com/cryptooza",
+        "location": "India"
       }
 
     ]
@@ -115,7 +129,6 @@
         "name": "Lloyd - Swizzlesticks",
         "role": "Senior Content Manager",
         "occupation": "Owner/CEO - Managed Services Provider",
-        "github": "",
         "twitter": "https://twitter.com/3wizzlesticks",
         "location": "Kentucky, USA"
       },
@@ -124,7 +137,6 @@
         "name": "Dan - wit_sec_birb",
         "role": "Advisor & Marketing",
         "occupation": "Procurement",
-        "github": "",
         "twitter": "https://twitter.com/wit_sec_birb",
         "location": "Melbourne, Australia"
       },

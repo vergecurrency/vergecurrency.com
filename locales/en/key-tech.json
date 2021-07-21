@@ -1,10 +1,10 @@
 {
   "body": {
     "ribbontitle": "Verge Key Tech",
-    "boxtitle": "Technology Focused On The End-User",       
-    "boxtext1": "Verge is a cryptocurrency designed for people and for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions.",        
-    "boxtext3": "As time progresses this page will update as we integrate new technology onto our network.",    
-    "boxtext4": "Below, you will find a brief overview of some of the core technologies that Verge offers as of today.",    
+    "boxtitle": "Technology Focused On The End-User",
+    "boxtext1": "Verge is a digital currency designed for people and for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions.",
+    "boxtext3": "As time progresses this page will update as we integrate new technology onto our network.",
+    "boxtext4": "Below, you will find a brief overview of some of the core technologies that Verge offers as of today.",
     "keytitle": "Key features",
     "keytext1": "Low fees, quick transactions, high circulation volume, and multiplatform support are the ingredients that make Verge perfectly positioned for mass adoption.",
     "keytext2": "Transaction speeds are ultra-fast compared to other coins.",
@@ -17,18 +17,18 @@
     "stealthtitle": "Dual-Key Stealth Addressing",
     "stealthtext1": "Dual-Key Stealth Addressing allows senders to create an unlimited number of one-time destinations addresses on behalf of the recipient without any interaction between the parties. Stealth addresses are a method by which additional obfuscation can be implemented to further protect the receiving party when transacting with Verge.",
     "stealthtext2": "When multiple users send funds to a stealth address, rather than these transactions appearing on the blockchain as multiple payments to the same address, they instead appear as multiple payments going to different addresses.",
-    "rsktitle": "RSK Smart Contracts (Under Development)",
-    "rsktext": "RSK is the first open-source smart contract platform with a 2-way peg to Verge that also rewards the Verge miners via merge-mining, allowing them to actively participate in the Smart Contract revolution. RSK goal is to add value and functionality to the Verge ecosystem by enabling smart-contracts, near instant payments and higher-scalability.",
+    "rsktitle": "Smart Contracts (Under Development)",
+    "rsktext": "Miniscript allows software to automatically analyze a script, including determining what witness data must be generated in order to spend coins protected by that script. With miniscript telling the wallet what it needs to do, wallet developers don’t need to write new code when they switch from one script template to another.",
     "atstitle": "Atomic Swaps",
     "atstext1": "Atomic Swaps, or atomic cross-chain trading, is a technology that enables direct peer-to-peer trading across separate blockchains with BIP65 support and eliminates the need for trusted third parties.",
     "atstext2": "Traditional centralized exchanges can be replaced by decentralized exchanges (DEX), which means you always keep your funds in your wallet and do not rely on an intermediary. By enabling Atomic Swaps capability, Verge takes a proactive step towards a decentralized future.",
     "algtitle": "Multi-algorithm Mining",
-    "algtext1": "Verge Currency uses Proof of Work (POW) mining principle. It is one of the few cryptocurrencies to have a multi-algorithm support.",
+    "algtext1": "Verge Currency uses Proof of Work (POW) mining principle. It is one of the few digital currencies to have multi-algorithm support.",
     "algtext2": "Verge has 5 different hash functions: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s.  Such design allows for a more equal access. Verge is not a private company funded by pre-mined coins or an ICO.",
     "algtext3": "Allowing our community to mine Verge with good technology is vital.",
     "inttitle": "Integrations",
     "inttext1": "Powering real world mainstream adoption with P2P integrations",
     "inttext2": "Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal.",
-    "inttext3": "With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram."    
+    "inttext3": "With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram."
   }
 }

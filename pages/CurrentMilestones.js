@@ -489,6 +489,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '15th May 2021',
+    title: 'Verge Currency launches ambassador program!',
+    description: 'Verge Currency launches ambassador program!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Medium Article',
+    infoUrl: 'https://medium.com/vergecurrency/verge-ambassador-program-dfe1f92a480f'
+  },
+  {
+    done: true,
     doneDate: '25th May 2021',
     title: 'Lewis Neal is Fueled by Verge!',
     description: 'American Football player from North Carolina, Lewis Neal, joins the Fueled by Verge movement',
@@ -566,7 +576,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/libracodes/status/1408458418801680388'
-  },    
+  },
   {
     done: true,
     doneDate: '29th June 2021',
@@ -576,7 +586,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'EIN PressWire Media Release',
     infoUrl: 'https://www.einpresswire.com/article/544689173/clean-limitless-continuous-power-to-be-built-using-blockchain-on-a-far-field-wireless-charging-platform'
-  },    
+  },
   {
     done: true,
     doneDate: '13th July 2021',

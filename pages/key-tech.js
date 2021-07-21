@@ -35,10 +35,10 @@ function KeyTech(props) {
         <div className="container pb-large bb">
           <div className="themed-container__dark themed-container__dark--keytech keytech">
             <div className="row center-xs">
-              <div className="col-xs-10 col-sm-6 col-md-5 start-xs">
+              <div className="col-xs-10">
                 <h2>{t('key-tech:body.boxtitle', { defaultValue: 'Technology Focused On The End-User' })}</h2>
                 <p>
-                  {t('key-tech:body.boxtext1', { defaultValue: 'Verge is a cryptocurrency designed for people and for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions.' })}
+                  {t('key-tech:body.boxtext1', { defaultValue: 'Verge is a digital currency designed for people and for everyday use. It improves upon the original Bitcoin blockchain and aims to fulfill its initial purpose of providing individuals and businesses with a fast, efficient and decentralized way of making direct transactions.' })}
                   &nbsp;
                 </p>
                 <p>
@@ -48,7 +48,6 @@ function KeyTech(props) {
                   {t('key-tech:body.boxtext4', { defaultValue: 'Below, you will find a brief overview of some of the core technologies that Verge offers as of today.' })}
                 </p>
               </div>
-              <div className="col-sm-4 col-md-5 hidden-xs" />
             </div>
           </div>
           <div className="key-features content pb">
@@ -82,7 +81,7 @@ function KeyTech(props) {
                     </div>
                     <h3>{t('key-tech:body.algtitle', { defaultValue: 'Multi-algorithm Mining' })}</h3>
                     <p>
-                      {t('key-tech:body.algtext1', { defaultValue: 'Verge Currency uses Proof of Work (POW) mining principle. It is one of the few cryptocurrencies to have a multi-algorithm support.' })}
+                      {t('key-tech:body.algtext1', { defaultValue: 'Verge Currency uses Proof of Work (POW) mining principle. It is one of the few digital currencies to have multi-algorithm support.' })}
                     </p>
                     <p>
                       {t('key-tech:body.algtext2', { defaultValue: 'Verge has 5 different hash functions: Scrypt, X17, Lyra2rev2, myr-groestl and blake2s.  Such design allows for a more equal access. Verge is not a private company funded by pre-mined coins or an ICO.' })}
@@ -119,33 +118,15 @@ function KeyTech(props) {
                     <div className="feature__image feature__rsk">
                       <img className="img-responsive feature__image" src="/static/img/key-tech/rsk.png" alt="rsk" />
                     </div>
-                    <h3>{t('key-tech:body.rsktitle', { defaultValue: 'RSK Smart Contracts (Under Development)' })}</h3>
+                    <h3>{t('key-tech:body.rsktitle', { defaultValue: 'Smart Contracts (Under Development)' })}</h3>
                     <p>
-                      {t('key-tech:body.rsktext1', { defaultValue: 'RSK is the first open-source smart contract platform with a 2-way peg to Verge that also rewards the Verge miners via merge-mining, allowing them to actively participate in the Smart Contract revolution. RSK goal is to add value and functionality to the Verge ecosystem by enabling smart-contracts, near instant payments and higher-scalability.' })}
+                      {t('key-tech:body.rsktext1', { defaultValue: 'Miniscript allows software to automatically analyze a script, including determining what witness data must be generated in order to spend coins protected by that script. With miniscript telling the wallet what it needs to do, wallet developers don’t need to write new code when they switch from one script template to another.' })}
                     </p>
                     <p>
-                      {t('key-tech:body.rsktext2', { defaultValue: 'RSK´s blockchain is secured by merge-mining, which means that it can achieve the same security as Verge in terms of double-spend prevention and settlement finality.' })}
+                      {t('key-tech:body.rsktext2', { defaultValue: 'The structured representation of the scripts provided by miniscript allows wallets to be much more dynamic about the scripts they use. In support of that dynamism, miniscripts can be created using an easily-written policy language. Policies are composable, allowing any valid sub-expression to be replaced by another valid sub-expression (within certain limits imposed by the blockchain system).' })}
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="themed-container__blue themed-container__blue--integrations">
-            <div className="row center-xs integrations">
-              <div className="col-xs-10 col-sm-6 col-md-5 col-lg-4 start-xs integrations--text">
-                <h6>{t('key-tech:body.inttitle', { defaultValue: 'Integrations' })}</h6>
-                <h2>{t('key-tech:body.inttext1', { defaultValue: 'Powering real world mainstream adoption with P2P integrations' })}</h2>
-                <p>
-                  {t('key-tech:body.inttext2', { defaultValue: 'Verge is constantly moving towards mainstream adoption. Verge integration on messaging and social media platforms is an important strategic step to accomplish this goal.' })}
-                </p>
-                <p>
-                  {t('key-tech:body.inttext3', { defaultValue: 'With no installation required from either party, XVG coins can be sent and received over Twitter, Discord and Telegram.' })}
-                </p>
-              </div>
-              <div className="col-sm-4 col-md-5 col-lg-6 hidden-xs">
-                <div className={`integrations--${i18n.language === 'ar' || i18n.language === 'fa' || i18n.language === 'ku' ? 'imgsrtl' : 'imgs'}`} />
               </div>
             </div>
           </div>
