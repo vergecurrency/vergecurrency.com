@@ -51,12 +51,10 @@
         "location": "Istanbul, Turkey"
       },
       {
-        "img": "../static/img/team/melvin.jpg",
-        "name": "Melvin",
-        "role": "Outreach",
-        "occupation": "Logistics Management",
-        "twitter": "https://twitter.com/melvin_van_es",
-        "location": "Rotterdam, The Netherlands"
+        "img": "../static/img/team/hoffma.jpg",
+        "name": "Nick",
+        "role": "Business Development",
+        "location": "Passau, Germany"
       }
     ]
   },
@@ -71,14 +69,6 @@
         "occupation": "Corporate English Teacher / Editor",
         "twitter": "https://twitter.com/xvg_ninja",
         "location": "Germany"
-      },
-      {
-        "img": "../static/img/team/peter.jpg",
-        "name": "Peter",
-        "role": "Outreach",
-        "occupation": "Baker",
-        "twitter": "https://twitter.com/xvid",
-        "location": "Switzerland"
       },
       {
         "img": "../static/img/team/nichola.jpg",
