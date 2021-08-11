@@ -109,6 +109,18 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
+            <a href="https://www.travala.com/?ref=vergecurrency">
+              <img src="/static/img/vendors/latest/travala.png" alt="Travala" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.travala', {
+                defaultValue: `
+                Founded in 2017 and now backed by industry-giant Binance, Travala.com is the leading cryptocurrency-friendly 
+                travel booking service where you can use XVG to pay for 2,200,000+ properties, 400,000+ activities in 230 countries and 600 airlines globally.`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div>
             <a href="https://mobiepay.io/">
               <img src="/static/img/vendors/latest/mobiepay.png" alt="MobiePay" className="img--smaller"/>
             </a>
@@ -121,8 +133,6 @@ export const PartnerInfo = ({ t }) => {
                 retail marketplace.`,
               })}
             </ExpandCollapse>
-          </div>
-          <div>
           </div>
           <div>
             <a href="http://www.meconcash.com/index_en.html">
