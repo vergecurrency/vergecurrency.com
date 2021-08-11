@@ -1962,6 +1962,20 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "Travala.com",
+            "img": "../static/img/vendors/latest/travala.png",
+            "link": "Travala.com",
+            "url": "https://www.travala.com/?ref=vergecurrency",
+            "categories": {
+                "retail": false,
+                "foodAndBev": true,
+                "service": true,
+                "entertainment": false,
+                "travel": true,
+                "education": false
+            }
         }
     ]
 }
