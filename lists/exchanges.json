@@ -251,6 +251,12 @@
       "title": "7b - Powered by Binance",
       "link": "sevenb.io",
       "url": "https://sevenb.io"
+    },
+    {
+      "img": "../static/img/exchanges/guardarian.png",
+      "title": "Guardarian",
+      "link": "guardarian.com",
+      "url": "https://guardarian.com"
     }
   ]
 }
