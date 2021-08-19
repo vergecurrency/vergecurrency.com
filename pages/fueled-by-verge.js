@@ -69,7 +69,154 @@ function FBV(props) {
             </div>
 
             <div className="row start-xs pt pb bb">
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsLeft">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/wyatthasil50/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Wyatt Hasil's Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://twitter.com/wyatthasil50"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Wyatt Hasil's Twitter"
+                      >
+                        <i className="icon icon--twitter" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">Motocross</p>
+                  <p className="athleteName">Wyatt Hasil</p>
+                  <p className="athleteLocation">Alberta, Canada</p>
 
+                  <p className="athleteDescription">
+                    Wyatt was born July 1, 2008, sharing the same birthday with Canada, and is now 13 years old.
+                    <br /><br />
+                    Wyatt has been riding motorcycles since he was 3 years old and has been racing competitively since 2014.
+                    {' '}
+                    He won his first Alberta provincial series race he entered.
+                    {' '}
+                    In 2020, Direct Motocross wrote an ‘On the Radar’ article Presented by Husqvarna Motorcycles Canada as they took notice of Wyatt’s results.
+                    <br /><br />
+                    Wyatt has recently been sponsored by JC Powersports South.
+                    {' '}
+                    Also sponsoring Wyatt is Troy Lee Designs Official — Moto, MTB, Helmets, Gear and Protection.
+                    <br /><br />
+                    Wyatt will not only learn about Blockchain Technology (Verge Currency), but he will now be part of this
+                    {' '}
+                    generational movement and join Danny Robertson under the Motocross umbrella of FbV.
+                  </p>
+
+                </div>
+              </div>
+
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 col-sm-offset-0 first-xs last-sm center-xs end-sm">
+                <img src="/static/img/fbv/WyattHasil.jpg" alt="Wyatt Hasil Fueled by Verge" title="Wyatt Hasil Fueled by Verge" />
+              </div>
+            </div>
+
+            <div className="row start-xs pt pb bb">
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
+                <img src="/static/img/fbv/ReenaNorville.jpg" alt="Reena Norville Fueled by Verge" title="Reena Norville Fueled by Verge" />
+              </div>
+
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsRight">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/reen_bean_/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Reena Norville's Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">MMA</p>
+                  <p className="athleteName">Reena Norville</p>
+                  <p className="athleteLocation">Spring Valley, California</p>
+
+                  <p className="athleteDescription">
+                    Reena Norville is a notorious MMA amateur gone pro.
+                    {' '}
+                    After becoming the MMA amateur California state champion she is ready to take it to the next level.
+                    <br /><br />
+                    Her passion, focus and endurance have proven themselves to be undisputable and are key to
+                    {' '}
+                    ensure a kick-start of her pro career.
+                    <br /><br />
+                    Being fueled by Verge she is fighting her way to a common goal, to be the best at what we do.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="row start-xs pt pb bb">
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsLeft">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/shaqlewis22/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Shaquille Lewis' Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://twitter.com/shaq_lewis22"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Shaquille Lewis' Twitter"
+                      >
+                        <i className="icon icon--twitter" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">CFL / NFL</p>
+                  <p className="athleteName">Shaquille Lewis</p>
+                  <p className="athleteLocation">Texas, USA</p>
+
+                  <p>
+                    Shaquille Lewis is a former CFL & NFL athlete having played with Saskatchewan and Calgary
+                    {' '}
+                    in the CFL and later on with the Kansas City Chiefs in the NFL.
+                    <br /><br />
+                    Besides being an athlete by nature, Shaq is also a dedicated entrepreneur in the field of
+                    {' '}
+                    medical cannabis, commercial airline, is the co-owner of a Forex brokerage and is part of the RPA college.
+                    <br /><br />
+                    Shaq has proven himself to be true team player both in sports a business, he is fueled by Verge!
+                  </p>
+
+                </div>
+              </div>
+
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 col-sm-offset-0 first-xs last-sm center-xs end-sm">
+                <img src="/static/img/fbv/ShaquilleLewis.jpg" alt="Shaquille Lewis Fueled by Verge" title="Shaquille Lewis Fueled by Verge" />
+              </div>
+            </div>
+
+            <div className="row start-xs pt pb bb">
               <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
                 <img src="/static/img/fbv/MalikWilliams.jpg" alt="Malik Williams Fueled by Verge" title="Malik Williams Fueled by Verge" />
               </div>
@@ -121,7 +268,6 @@ function FBV(props) {
             </div>
 
             <div className="row start-xs pt pb bb">
-
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsLeft">
@@ -224,7 +370,6 @@ function FBV(props) {
             </div>
 
             <div className="row start-xs pt pb bb">
-
               <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
                 <img src="/static/img/fbv/LewisNeal.jpg" alt="Lewis Neal Fueled by Verge" title="Lewis Neal Fueled by Verge" />
               </div>
@@ -285,7 +430,6 @@ function FBV(props) {
             </div>
 
             <div className="row start-xs pt pb bb">
-
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsLeft">
@@ -352,7 +496,6 @@ function FBV(props) {
             </div>
 
             <div className="row start-xs pt pb bb">
-
               <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
                 <img src="/static/img/fbv/eSport.png" alt="eSports Fueled by Verge" title="eSports Fueled by Verge" />
               </div>
