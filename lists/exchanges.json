@@ -257,6 +257,12 @@
       "title": "Guardarian",
       "link": "guardarian.com",
       "url": "https://guardarian.com"
+    },
+    {
+      "img": "../static/img/exchanges/bitnovo.png",
+      "title": "Bitnovo",
+      "link": "bitnovo.com",
+      "url": "https://www.bitnovo.com/buy-verge-online-en"
     }
   ]
 }
