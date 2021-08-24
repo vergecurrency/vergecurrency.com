@@ -13,4 +13,3 @@ before_install:
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/deploy_key
 - ssh-add /tmp/deploy_key
-- ssh -i /tmp/deploy_key git@github.com
