@@ -10,7 +10,7 @@ after_success:
 before_install:
 - openssl aes-256-cbc -K $encrypted_dfdcfd5172af_key -iv $encrypted_dfdcfd5172af_iv
   -in deploy_key.enc -out /tmp/deploy_key -d
-  - eval "$(ssh-agent -s)"
-  - chmod 600 /tmp/deploy_key
-  - ssh-add /tmp/deploy_key
-  - ssh -i /tmp/deploy_key git@github.com pwd
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/deploy_key
+- ssh-add /tmp/deploy_key
+- ssh -i /tmp/deploy_key git@github.com pwd
