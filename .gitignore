@@ -8,6 +8,7 @@ docs/*
 
 # dependencies
 node_modules
+deploy_key
 
 # lockfiles
 # (don't ignore when ready for production)
