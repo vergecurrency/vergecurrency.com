@@ -601,7 +601,7 @@ const mileStones = [
     done: true,
     doneDate: '9th September 2021',
     title: 'Tokocrypto adds $XVG to their platform',
-    description: 'Number #1 Crypto Exchange in Indonesia added support for $XVG.',
+    description: '#1 Crypto Exchange in Indonesia added support for $XVG.',
     progress: 100,
     progressState: '',
     infoLabel: 'Twitter Link',
