@@ -596,6 +596,26 @@ const mileStones = [
     progressState: '',
     infoLabel: 'EIN PressWire Media Release',
     infoUrl: 'https://www.einpresswire.com/article/546167442/cryptocurrency-makes-huge-step-into-motocross-by-paying-winners-in'
+  },
+  {
+    done: true,
+    doneDate: '9th September 2021',
+    title: 'Tokocrypto adds $XVG to their platform',
+    description: 'Number #1 Crypto Exchange in Indonesia added support for $XVG.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/vergecurrency/status/1435962472503054339/'
+  },
+  {
+    done: true,
+    doneDate: '9th September 2021',
+    title: 'Kriptomat adds $XVG to their platform',
+    description: '$XVG is now listed on Kriptomat, one of Slovenian cryptocurrency exchanges.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Kriptomat Page',
+    infoUrl: 'https://kriptomat.io/verge-xvg-price/'
   }
   // {
   //   done: true or false,
