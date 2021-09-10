@@ -611,7 +611,7 @@ const mileStones = [
     done: true,
     doneDate: '9th September 2021',
     title: 'Kriptomat adds $XVG to their platform',
-    description: '$XVG is now listed on Kriptomat, one of Slovenian cryptocurrency exchanges.',
+    description: '$XVG is now listed on Kriptomat, one of Estonian largest cryptocurrency exchanges.',
     progress: 100,
     progressState: '',
     infoLabel: 'Kriptomat Page',
