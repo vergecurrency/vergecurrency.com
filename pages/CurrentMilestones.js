@@ -599,6 +599,59 @@ const mileStones = [
   },
   {
     done: true,
+<<<<<<< HEAD
+=======
+    doneDate: '22nd July 2021',
+    title: '$XVG enters MOU with Travel Booking Giant Travala.com',
+    description: 'The Collaboration is intended to bring a large offering of travel options to the Verge Currency ($XVG) community, while expanding the userbase of Travala.com offerings.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Medium Article',
+    infoUrl: 'https://medium.com/vergecurrency/digital-currency-enters-mou-with-travel-booking-giant-5125ddc0013b'
+  },
+  {
+    done: true,
+    doneDate: '30th July 2021',
+    title: 'Wyatt Hasil joins Fueled by Verge (FBV)',
+    description: '11X Canadian Motocross Champion joins Fueled By Verge (FBV).',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Medium Article',
+    infoUrl: 'https://medium.com/vergecurrency/11x-canadian-motocross-champion-joins-fueled-by-verge-fbv-2c8596cf4596'
+  },
+  {
+    done: true,
+    doneDate: '9th August 2021',
+    title: '$XVG is live on Travel Booking Giant - Travala.com',
+    description: 'Book at over 2,200,000+ properties, 400,000+ activities in 230 countries and 600 airlines globally.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Travala.com Website',
+    infoUrl: 'https://www.travala.com/'
+  },
+  {
+    done: true,
+    doneDate: '27th August 2021',
+    title: 'Jayden Riley Joins Fueled by Verge',
+    description: 'Motocross racer joins National Foundation to bring awareness to digital currency and blockchain.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'EIN PressWire Media Release',
+    infoUrl: 'https://www.einpresswire.com/article/549838471/motocross-racer-joins-national-foundation-to-bring-awareness-to-digital-currency-and-blockchain'
+  },
+  {
+    done: true,
+    doneDate: '7th September 2021',
+    title: '$XVG can now be used on Binance Pay',
+    description: 'Binance Pay allows users to send, spend and receive cryptocurrency with zero fees and lightning fast payments, making it an accessible and effortless way of transacting value worldwide.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Medium Article',
+    infoUrl: 'https://medium.com/vergecurrency/hot-off-the-heels-of-binance-partner-travala-com-listing-xvg-gets-welcomed-into-binance-pay-59e5693102a5'
+  },
+  {
+    done: true,
+>>>>>>> f26e5f0912abc1f53ee15dc15c861d8aa037a250
     doneDate: '9th September 2021',
     title: 'Tokocrypto adds $XVG to their platform',
     description: '#1 Crypto Exchange in Indonesia added support for $XVG.',
