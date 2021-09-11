@@ -1,0 +1,119 @@
+.pressreleases {
+  // scss-lint:disable ColorVariable
+
+  &--subheader {
+    background: transparent;
+    border-bottom: 1px solid #05131e;
+
+    @at-root .scroll & {
+      background: $white;
+
+      a {
+        color: #111;
+      }
+    }
+  }
+
+  .latest,
+  .coverage {
+    .date {
+      color: #647886;
+      font-size: rem(13px);
+      font-weight: 700;
+
+      time {
+        padding-bottom: rem(19px);
+        position: relative;
+
+        &::after {
+          background-color: #e8e8e8;
+          content: " ";
+          display: block;
+          height: rem(3px);
+          margin-left: 1px;
+          margin-top: rem(13px);
+          position: absolute;
+          width: calc(75% - 2px);
+        }
+      }
+    }
+
+    &--logo {
+      img,
+      svg {
+        margin: 0 0 1rem;
+        margin-bottom: 1rem;
+        max-height: 2rem;
+        max-width: rem(184px);
+      }
+
+      a {
+        display: flex;
+      }
+    }
+
+    &--text {
+      a {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    h2 {
+      color: #05131e;
+      font-size: rem(26px);
+    }
+
+    h3,
+    h4 {
+      color: #05131e;
+      font-size: rem(18px);
+    }
+  }
+
+  .previous {
+    .to-blog {
+      color: #475056;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: rem(3.2px);
+      text-transform: uppercase;
+
+      &::after {
+        @extend %gray-arrow-right;
+      }
+    }
+
+    .date {
+      color: #091721;
+      font-size: rem(14px);
+    }
+
+    h3 {
+      font-size: rem(30.4px);
+    }
+
+    h4 {
+      font-size: rem(27.2px);
+
+      // scss-lint:disable NestingDepth
+      &::after {
+        background-color: #091721;
+        content: " ";
+        display: block;
+        height: rem(3.2px);
+        margin-bottom: rem(19px);
+        margin-left: 1px;
+        margin-top: rem(4.8px);
+        width: 3rem;
+      }
+    }
+
+    p {
+      color: #475056;
+      font-size: .75rem;
+      font-style: italic;
+      margin-bottom: 0;
+    }
+  }
+}

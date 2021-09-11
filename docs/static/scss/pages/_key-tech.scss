@@ -1,0 +1,147 @@
+@media (max-width: 570px) {
+  /* temporary */
+  .themed-container__dark--keytech {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+}
+
+.key-tech {
+  background-color: #091721;
+  color: $white;
+
+  p {
+    font-size: rem(15px);
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  .ribbon {
+    z-index: 0;
+    .ribbon-img {
+      min-height: rem(740px);
+    }
+  }
+
+  .bb {
+    border-color: #112332;
+  }
+
+  @media (max-width: $max-width-xs) {
+    .col-xs-10.start-xs {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      background-color: rgba(0,0,0,0.5);
+    }
+  }
+
+  &--subheader {
+    background: transparent;
+    border-bottom: 1px solid #05131e;
+
+    @at-root .scroll & {
+      background: $white;
+
+      a {
+        color: #111;
+      }
+    }
+  }
+
+  .content {
+    h2,
+    h3,
+    p {
+      color: $white;
+    }
+  }
+
+  .feature {
+    &__image {
+      margin: -4rem auto -2rem;
+      transform: translateX(-1rem);
+      width: calc(100% + 4rem);
+
+      @media (min-width: $min-width-sm) {
+        transform: translateX(-.5rem);
+        width: calc(100% + 2rem);
+      }
+    }
+
+    &__item {
+      margin-bottom: 2rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .integrations {
+    position: relative;
+
+    &--text {
+      z-index:1;
+    }
+
+    &--imgs {
+      background-image: url(/static/img/key-tech/social.png); // scss-lint:disable UrlQuotes
+      background-position: center right;
+      background-repeat: no-repeat;
+      // background-size: cover;
+      height: 210%;
+      position: absolute;
+      right: 0;
+      top: -10rem;
+      transition: .2s all;
+      width: 100%;
+      z-index: 0;
+
+      @media (min-width: $min-width-sm) {
+        background-size: contain;
+        height: 220%;
+        left: 6rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        left: -2rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        height: 230%;
+        left: -5rem;
+        top: -12rem;
+      }
+    }
+    &--imgsrtl {
+      background-image: url(/static/img/key-tech/social.png); // scss-lint:disable UrlQuotes
+      background-position: center left;
+      background-repeat: no-repeat;
+      // background-size: cover;
+      height: 210%;
+      position: absolute;
+      left: 0;
+      top: -10rem;
+      transition: .2s all;
+      width: 100%;
+      z-index: 0;
+
+      @media (min-width: $min-width-sm) {
+        background-size: contain;
+        height: 220%;
+        right: 6rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        right: -2rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        height: 230%;
+        right: -5rem;
+        top: -12rem;
+      }
+    }
+  }
+}

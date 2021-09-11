@@ -1,0 +1,19 @@
+.sponsors {
+  p {
+    font-weight: 500;
+    text-transform: uppercase;
+
+    @media (min-width: $min-width-sm) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__single {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  &__logo {
+    width: auto;
+  }
+}

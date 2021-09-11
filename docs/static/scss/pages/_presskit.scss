@@ -1,0 +1,67 @@
+.presskit {
+  .logos {
+    img {
+      border: .5rem solid $white;
+      box-shadow: 0 0 .5rem 1px rgba(128, 128, 128, .24); // scss-lint:disable ColorVariable
+      margin-bottom: 3rem;
+      max-height: 5rem;
+      padding: 1rem;
+    }
+
+    @media (max-width: $max-width-xs) {
+      img {
+        margin-bottom: 2rem;
+      }
+
+      a {
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  .color {
+    margin-bottom: 3rem;
+
+    @each $_color, $_hex in $colors {
+      @at-root &--#{$_color} {
+        .color-guide {
+          background-color: $_hex;
+          box-shadow: -.5rem -.25rem 1rem 1px rgba(164, 164, 164, .99); // scss-lint:disable ColorVariable
+          height: 9rem;
+          margin-bottom: rem(13px);
+
+          @media (min-width: $min-width-sm) {
+            height: 8rem;
+          }
+
+          @media (min-width: $min-width-md) {
+            height: 7rem;
+          }
+        }
+      }
+    }
+
+    > .row {
+      box-shadow: 0 0 1rem 1px rgba(128, 128, 128, .24); // scss-lint:disable ColorVariable
+      margin: 0;
+      overflow: hidden;
+    }
+
+    p {
+      font-size: rem(14px);
+      padding: 0 rem(3px);
+
+      @media (min-width: $min-width-sm) {
+        font-size: rem(13px);
+      }
+
+      small {
+        opacity: .7;
+      }
+
+      strong {
+        font-size: 110%;
+      }
+    }
+  }
+}

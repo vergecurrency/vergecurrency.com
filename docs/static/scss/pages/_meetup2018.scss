@@ -1,0 +1,47 @@
+.ribbon {
+  &--meetup18 {
+    min-height: rem(640px);
+
+    .ribbon {
+      &-img {
+        background: url(/static/img/meetup-2018/verge-meetup-top.png) no-repeat bottom center;
+        background-color: #04131F;
+        background-size: contain;
+        min-height: inherit;
+        min-width: 100%;
+        position: absolute;
+        z-index: -100;
+      }
+
+      &-txt {
+        margin-top: rem(56px);
+
+        @media (min-width: $min-width-sm) {
+          margin-top: rem(100px);
+        }
+
+        h1 {
+          margin-bottom: rem(20px);
+
+          span {
+            color: $picton-blue;
+          }
+        }
+
+        p {
+          color: white;
+          margin-bottom: rem(24px);
+        }
+      }
+    }
+  }
+}
+
+.meetup {
+  &--bottom18 {
+    background: url(/static/img/meetup-2018/meetup-bottom.png) bottom center no-repeat;
+    background-size: rem(640px);
+    height: 12rem;
+  }
+
+}

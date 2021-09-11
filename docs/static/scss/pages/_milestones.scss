@@ -1,0 +1,168 @@
+.roadmap-update-progress {
+  margin-top: 10px;
+  display: flex;
+  align-items: end;
+
+  .progress {
+    transform: rotate(-90deg);
+
+    &.progress-text {
+      margin-left: 15px;
+      margin-bottom: 0px;
+      transform: rotate(0deg);
+    }
+  }
+
+  a {
+    color: #777;
+    &:hover {
+      color: #1db6dc;
+    }
+  }
+
+  span {
+    min-width: 80px;
+  }
+
+  .progress__meter,
+  .progress__value {
+    fill: none;
+  }
+
+  .progress__meter {
+    stroke: #e6e6e6;
+  }
+
+  .progress__value {
+    stroke: #04a5f0;
+    stroke-linecap: round;
+  }
+}
+.roadmap {
+  &__timeline {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    transition: 0.2s all;
+
+    @media (min-width: $min-width-sm) {
+      left: 8rem;
+      position: relative;
+
+      &--home {
+        left: 0;
+        position: static;
+        transition: 0.2s all;
+      }
+    }
+  }
+
+  &__item {
+    // Added variables for correct spacing of alterations of these lines
+    $connector-line-wrapper-height: 4rem;
+    $connector-line-gap: 0.5rem;
+    $connector-line-height: $connector-line-wrapper-height -
+      (3 * $connector-line-gap);
+    $connector-line-offset-y: -($connector-line-height + $connector-line-gap);
+
+    font-size: rem(14px);
+    margin-bottom: $connector-line-wrapper-height;
+    margin-top: 0;
+    position: relative;
+
+    h3 {
+      margin-bottom: 0;
+    }
+
+    span {
+      color: #00aeff;
+    }
+
+    &::before {
+      border-radius: 50%;
+      content: '';
+      height: rem(30px);
+      left: -3rem;
+      position: absolute;
+      top: 0.5rem;
+      width: rem(30px);
+    }
+
+    &--planned {
+      &::before {
+        background: $white;
+        box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    &--done {
+      &::before {
+        background: #04a5f0;
+      }
+    }
+
+    &::after {
+      background: #e7d8ce;
+      bottom: $connector-line-offset-y;
+      content: '';
+      height: $connector-line-height;
+      left: rem(2px);
+      min-width: 2px;
+      position: absolute;
+      width: rem(2px);
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &__year {
+    color: #ebebeb;
+    font-size: 4rem;
+    font-weight: 600;
+    height: 6rem;
+    left: -3rem;
+    margin-top: 0;
+    position: relative;
+    transition: 0.2s all;
+
+    @media (min-width: $min-width-sm) {
+      position: absolute;
+    }
+
+    span {
+      transition: 0.2s all;
+
+      @media (min-width: $min-width-sm) {
+        left: -11rem;
+        position: absolute;
+        top: -1rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        font-size: rem(80px);
+        left: -16rem;
+        top: -1.25rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        font-size: rem(100px);
+        left: -18rem;
+        top: -1.5rem;
+      }
+    }
+
+    &--current {
+      color: #0f9dc1;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+}

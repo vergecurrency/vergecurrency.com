@@ -1,0 +1,35 @@
+.subheader {
+  // scss-lint:disable ColorVariable
+  background: linear-gradient(to bottom, rgba(11, 119, 146, 1) 0%,
+                                         rgba(14, 148, 182, 1) 50%,
+                                         rgba(15, 157, 193, 1) 100%);
+  border-bottom: 1px solid transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b7792', endColorstr='#0f9dc1', GradientType=0);
+  position: fixed;
+  top: rem(88px);
+  transition: all .2s ease-in-out;
+  width: 100%;
+  z-index: 9;
+
+  .row {
+    height: rem(44px);
+  }
+
+  a {
+    color: $white;
+    font-size: rem(15px);
+    line-height: rem(44px);
+    margin: rem(6px);
+    padding: rem(6px);
+    text-decoration: none;
+
+    @media (min-width: $min-width-md) {
+      margin: rem(9px);
+      padding: rem(9px);
+
+      &:last-child {
+        margin-right: rem(18px);
+      }
+    }
+  }
+}

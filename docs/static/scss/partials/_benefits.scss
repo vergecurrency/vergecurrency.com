@@ -1,0 +1,103 @@
+.benefits {
+  &--url::after {
+    @extend %gray-arrow-right;
+  }
+
+  &--imgs {
+    height: 75%;
+    max-width: 50vw;
+    position: absolute;
+    right: 0;
+    top: 11.5%;
+    width: 100%;
+
+    @media (min-width: $min-width-md) {
+      height: 60%;
+      top: 11.5%;
+    }
+
+    @media (min-width: $min-width-lg) {
+      top: 10%;
+    }
+
+    img {
+      max-height: 112%;
+      max-width: 100%;
+      position: absolute;
+      right: 0;
+      transition: .2s all;
+
+      &:first-of-type {
+        border-radius: rem(10px); // scss-lint:disable PropertySortOrder
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+
+      &:last-of-type {
+        border-radius: rem(28px);
+        bottom: 0;
+        right: 7rem;
+
+        @media (min-width: $min-width-md) {
+          bottom: auto;
+          right: rem(198px);
+          top: 3rem;
+        }
+
+        @media (min-width: $min-width-lg) {
+          right: 12rem;
+          top: 9rem;
+        }
+      }
+    }
+  }
+
+  &--imgsrtl {
+    height: 75%;
+    max-width: 50vw;
+    position: absolute;
+    left: 0;
+    top: 11.5%;
+    width: 100%;
+
+    @media (min-width: $min-width-md) {
+      height: 60%;
+      top: 11.5%;
+    }
+
+    @media (min-width: $min-width-lg) {
+      top: 16%;
+    }
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+      position: absolute;
+      left: 0;
+      transition: .2s all;
+
+      &:first-of-type {
+        border-radius: rem(10px); // scss-lint:disable PropertySortOrder
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+
+      &:last-of-type {
+        border-radius: rem(28px);
+        bottom: 0;
+        left: 7rem;
+
+        @media (min-width: $min-width-md) {
+          bottom: auto;
+          left: rem(198px);
+          top: 3rem;
+        }
+
+        @media (min-width: $min-width-lg) {
+          left: 12rem;
+          top: 9rem;
+        }
+      }
+    }
+  }
+}

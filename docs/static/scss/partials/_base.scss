@@ -1,0 +1,153 @@
+ // scss-lint:disable ColorVariable
+
+$font-color-heading: #091721;
+$font-color-paragraph: #647886;
+
+html,
+body {
+  font-family: "Avenir Next", "Lato", Arial, sans-serif;
+  font-size: 14px;
+
+  @media (min-width: $min-width-xs--iphone-plus) {
+    font-size: 15px;
+  }
+
+  @media (min-width: $min-width-sm) {
+    font-size: $base-font-size;
+  }
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  letter-spacing: rem(.5px);
+}
+
+li {
+  margin-bottom: .25rem;
+  margin-top: .25rem;
+}
+
+a {
+  $link-color: #1db6dc;
+
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($link-color, 10%);
+    text-decoration: none;
+  }
+}
+
+
+h1 {
+  color: $font-color-heading;
+  font-size: rem(40px);
+  font-weight: 600;
+  line-height: 125%;
+
+  @media (min-width: $min-width-xs--iphone-plus) {
+    font-size: rem(50px);
+    line-height: rem(56px);
+  }
+}
+
+h2 {
+  color: $font-color-heading;
+  font-size: rem(24px);
+  font-weight: 600;
+}
+
+h3 {
+  color: $font-color-heading;
+  font-size: rem(19px);
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+h6 {
+  color: #9b9b9b;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: rem(3px);
+  text-transform: uppercase;
+
+  a {
+    color: inherit;
+    font-weight: 700;
+  }
+}
+
+p {
+  color: $font-color-paragraph;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: .75rem;
+
+  + h2 {
+    margin-top: rem(24px);
+  }
+}
+
+.text--larger {
+  font-size: rem(20px);
+}
+
+.text--smaller {
+  font-size: rem(14px);
+}
+
+#layout { // scss-lint:disable IdSelector
+  overflow: hidden;
+}
+
+.spaced {
+  color: #9b9b9b;
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: rem(3px);
+  text-transform: uppercase;
+}
+
+.bb {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+ul {
+  &.no-style {
+    list-style: none;
+  }
+}
+
+.icon {
+  &--twitter {
+    background-image: url(/static/img/icons/twitter.svg);
+  }
+  &--github {
+    background-image: url(/static/img/icons/github.svg);
+  }
+  &--instagram {
+    background-image: url(/static/img/icons/instagram.svg);
+  }
+  &--facebook {
+    background-image: url(/static/img/icons/facebook.svg);
+  }
+  &--youtube {
+    background-image: url(/static/img/icons/youtube.svg);
+  }
+}
+
+ .img-link-hover {
+   padding: 8px;
+   display: inline-block;
+   border-radius: 4px;
+   &:hover {
+     box-shadow: 0 0 8px rgba(52, 189, 226, 0.8);
+   }
+ }

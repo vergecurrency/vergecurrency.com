@@ -1,0 +1,66 @@
+header {
+  .menu--verge .menu__item {
+    display: grid;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 4em 0;
+    text-transform: lowercase;
+  }
+
+  .menu--verge .menu__item-name {
+    color: var(--color-text);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.8em;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-content: center;
+    pointer-events: none;
+    white-space: pre;
+  }
+
+  .menu--verge .menu__item-name span {
+    display: inline-block;
+  }
+
+  .menu--verge .menu__item-label {
+    color: transparent;
+    font-size: 1.25em;
+    grid-area: 1 / 1 / 2 / 2;
+    line-height: 1.4;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    transition: color 0s .3s;
+  }
+
+  .menu--verge .menu__item:hover .menu__item-label,
+  .menu--verge .menu__item:focus .menu__item-label {
+    color: #fff;
+  }
+
+  .menu--verge .menu__item-label::before {
+    background: #fff;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translate3d(-100%, 0, 0) translate3d(-1px, 0, 0);
+    transition: transform .6s;
+    transition-timing-function: cubic-bezier(.7, 0, .3, 1);
+    width: 100%;
+  }
+
+  .menu--verge .menu__item:hover .menu__item-label::before,
+  .menu--verge .menu__item:focus .menu__item-label::before {
+    transform: translate3d(100%,0,0) translate3d(1px,0,0);
+  }
+
+  @media screen and (max-width: 50em) {
+    .menu--verge .menu__item-label {
+      font-size: .85em;
+    }
+  }
+}

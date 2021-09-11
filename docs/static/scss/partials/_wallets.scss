@@ -1,0 +1,309 @@
+%wallet-icon--before {
+  background-size: cover;
+  content: '';
+  height: rem(20px);
+  margin-left: rem(-25px);
+  position: absolute;
+  width: rem(20px);
+}
+
+%wallet-icon--after {
+  background: url('/static/img/wallets/tor.svg');
+  background-size: cover;
+  border-radius: 50%;
+  bottom: rem(-10px);
+  box-shadow: 0 0 rem(50px) rgba(0, 0, 0, 0.2);
+  content: '';
+  display: block;
+  height: rem(28px);
+  position: absolute;
+  right: rem(-5px);
+  width: rem(28px);
+}
+
+.wallets {
+  &__button {
+    display: inline;
+
+    + .btn {
+      margin-top: 1rem;
+      width: 100%;
+
+      @media (min-width: $min-width-sm) {
+        margin-left: 1rem;
+        margin-top: 0;
+        width: auto;
+      }
+    }
+
+    .wallets--icon {
+      margin-right: 0;
+      padding-left: rem(20px);
+    }
+  }
+
+  &--url {
+    &::after {
+      @extend %gray-arrow-right;
+    }
+  }
+
+  &--item {
+    margin: rem(15px) 0;
+    white-space: nowrap;
+
+    > div {
+      display: flex;
+    }
+
+    &__disabled {
+      filter: saturate(0);
+      opacity: 0.3;
+    }
+  }
+
+  &--icon {
+    height: rem(42px);
+    margin-right: rem(20px);
+    position: relative;
+    width: rem(42px);
+
+    &__android {
+      background: url(/static/img/wallets/android.svg);
+      background-size: cover;
+
+      &-white {
+        background: transparent;
+
+        &::before {
+          @extend %wallet-icon--before;
+
+          background-image: url(/static/img/wallets/android-white.svg);
+        }
+      }
+
+      &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+
+    &__apple {
+      background: url(/static/img/wallets/apple.svg);
+      background-size: cover;
+
+      &-white {
+        background: transparent;
+
+        &::before {
+          @extend %wallet-icon--before;
+
+          background-image: url(/static/img/wallets/apple-white.svg);
+        }
+      }
+
+      &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+
+    &__windows {
+      background: url(/static/img/wallets/windows.svg);
+      background-size: cover;
+
+      &-white {
+        background: transparent;
+
+        &::before {
+          @extend %wallet-icon--before;
+
+          background-image: url(/static/img/wallets/windows-white.svg);
+        }
+      }
+
+      &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+
+    &__linux {
+      background: url(/static/img/wallets/linux.svg);
+      background-size: cover;
+
+      &-white {
+        background: transparent;
+
+        &::before {
+          @extend %wallet-icon--before;
+
+          background-image: url(/static/img/wallets/linux-white.svg);
+        }
+      }
+
+      &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+
+    &__paperwallet {
+      background: url(/static/img/wallets/paperwallet.svg);
+      background-size: cover;
+      width: 3rem; // need be a bit wider because of the svg being used.
+      right: 0.5rem; // putting it a bit aside, so it looks aligned again
+
+      &-white {
+        background: transparent;
+
+        &::before {
+          @extend %wallet-icon--before;
+
+          background-image: url(/static/img/wallets/paperwallet-white.svg);
+        }
+      }
+    }
+  }
+  &--iconrtl {
+    height: rem(42px);
+    margin-left: rem(20px);
+    position: relative;
+    width: rem(42px);
+     &__android {
+      background: url(/static/img/wallets/android.svg);
+      background-size: cover;
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/android-white.svg);
+        }
+      }
+       &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+     &__apple {
+      background: url(/static/img/wallets/apple.svg);
+      background-size: cover;
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/apple-white.svg);
+        }
+      }
+       &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+     &__windows {
+      background: url(/static/img/wallets/windows.svg);
+      background-size: cover;
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/windows-white.svg);
+        }
+      }
+       &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+     &__linux {
+      background: url(/static/img/wallets/linux.svg);
+      background-size: cover;
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/linux-white.svg);
+        }
+      }
+       &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+     &__paperwallet {
+      background: url(/static/img/wallets/paperwallet.svg);
+      background-size: cover;
+      width: 3rem; // need be a bit wider because of the svg being used.
+      right: 0.5rem; // putting it a bit aside, so it looks aligned again
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/paperwallet-white.svg);
+        }
+      }
+    }
+  }  
+
+  &--text {
+    display: inline-block;
+    margin-left: 15px;
+
+    > a {
+      color: #797979;
+      display: block;
+      font-size: rem(13px);
+      margin-bottom: 0.5rem;
+      transition: 0.2s all;
+
+      @media (min-width: $min-width-sm) {
+        margin-bottom: rem(5px);
+      }
+
+      @media (min-width: $min-width-md) {
+        margin-bottom: 0;
+      }
+
+      &:hover {
+        color: $picton-blue;
+      }
+    }
+
+    h4 {
+      color: #000;
+      line-height: rem(18px);
+
+      @media (min-width: $min-width-md) {
+        margin-bottom: rem(2px);
+      }
+
+      a {
+        color: #000;
+        margin-bottom: 0;
+      }
+    }
+
+    span {
+      color: #797979;
+      font-size: rem(13px);
+    }
+
+    @at-root .wallets--item__disabled & {
+      a {
+        cursor: default;
+      }
+
+      > a:hover {
+        color: #797979;
+      }
+    }
+  }
+}

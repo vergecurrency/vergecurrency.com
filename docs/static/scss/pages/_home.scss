@@ -1,0 +1,206 @@
+// scss-lint:disable ColorVariable
+.home {
+  .reason {
+    position: relative;
+    text-align: center;
+
+    &::before {
+      background: #202A32;
+      content: " ";
+      display: inline-block;
+      height: 100vw;
+      position: absolute;
+      top: -40vw;
+      transform: rotate(30deg);
+      transform-origin: center;
+      width: 2px;
+      z-index: 0;
+
+      @media (min-width: $min-width-sm) {
+        height: rem(250px);
+        margin-left: -3rem;
+        top: rem(-60px);
+      }
+    }
+
+    &:first-child::before,
+    &:last-child::before {
+      display: none;
+
+      @media (min-width: $min-width-sm) {
+        display: inline-block;
+      }
+    }
+  }
+
+  .intro {
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+
+    h6 {
+      color: #647886;
+    }
+
+    p {
+      font-size: rem(18px);
+      margin-bottom: 0;
+    }
+  }
+
+  .power-to-the-people {
+    margin-top: 0;
+
+    h6 {
+      color: $white;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: rem(29px);
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .exchanges {
+    &--url::after {
+      @extend %gray-arrow-right;
+    }
+  }
+
+  .vendors {
+    h2 {
+      color: #333;
+      font-size: rem(27px);
+      margin-bottom: 1.5rem;
+    }
+
+    h6 {
+      color: #779cb5;
+    }
+
+    p {
+      color: #4e555a;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn + .btn {
+      margin-bottom: 1.5rem;
+
+      @media (min-width: $min-width-sm) {
+        margin-bottom: 0;
+        margin-left: 1rem;
+      }
+    }
+
+    &--list {
+      display: block;
+
+      h6 {
+        a::after {
+          @extend %gray-arrow-right;
+
+          display: inline;
+        }
+      }
+    }
+
+    &--img {
+      max-width: 80vw;
+      position: relative;
+      right: -10%;
+      transition: .2s all;
+
+      @media (min-width: $min-width-sm) {
+        height: 50%;
+        max-width: auto;
+        position: absolute;
+        right: 0;
+        top: 8rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        height: 80%;
+        top: 4rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        height: 75%;
+        top: 4.5rem;
+      }
+    }
+    &--imgrtl {
+      max-width: 80vw;
+      position: relative;
+      left: -10%;
+      transition: .2s all;
+
+      @media (min-width: $min-width-sm) {
+        height: 50%;
+        max-width: auto;
+        position: absolute;
+        left: 0;
+        top: 8rem;
+      }
+
+      @media (min-width: $min-width-md) {
+        height: 80%;
+        top: 4rem;
+      }
+
+      @media (min-width: $min-width-lg) {
+        height: 75%;
+        top: 4.5rem;
+      }
+    }
+  }
+
+  .blog {
+    h6 {
+      color: #091721;
+
+      &::after {
+        @extend %gray-arrow-right;
+      }
+    }
+  }
+
+  .previous {
+    .date {
+      color: #091721;
+      font-size: rem(14px);
+    }
+
+    h3 {
+      font-size: rem(30px);
+    }
+
+    h4 {
+      font-size: rem(27px);
+
+      // scss-lint:disable NestingDepth
+      &::after {
+        background-color: #091721;
+        content: " ";
+        display: block;
+        height: rem(3px);
+        margin-bottom: rem(19px);
+        margin-left: 1px;
+        margin-top: rem(5px);
+        width: 3rem;
+      }
+    }
+
+    p {
+      color: #475056;
+      font-size: .75rem;
+      font-style: italic;
+    }
+  }
+
+}

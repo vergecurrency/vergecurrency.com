@@ -1,0 +1,35 @@
+.team-category {
+  .category-header {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid rgba(177, 177, 177, 0.7);
+      margin: 1em 0;
+      padding: 0;
+    }
+    .category-title {
+      text-align: left;
+    }
+    .category-title-rtl {
+      text-align: right;
+    }    
+  }
+  img {
+    max-width: 140px;
+    max-height: 140px;
+    height: 140px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    filter: grayscale(100%);
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    transition: filter 0.2s linear;
+  }
+  img:hover {
+    filter: none;
+  }
+}

@@ -1,0 +1,107 @@
+.ribbon {
+  color: $white;
+  min-height: rem(930px);
+  position: relative;
+
+  h1 {
+    color: inherit;
+    margin-bottom: 1rem;
+
+    + p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .blackpaper {
+    color: rgba(255, 255, 255, .7); // scss-lint:disable ColorVariable
+    font-weight: 400;
+    margin-top: 1rem;
+    text-shadow: 0 0 rem(9px) rgba(0, 0, 0, .27); // scss-lint:disable ColorVariable
+
+    a {
+      color: rgba(255, 255, 255, .7); // scss-lint:disable ColorVariable
+      text-decoration: underline;
+    }
+  }
+
+  &-img {
+    background: url(/static/img/Verge_Website_Banner_1542x937_V3.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: rem(930px);
+    min-width: 100%;
+    position: absolute;
+    z-index: -100;
+  }
+
+  &-txt {
+    margin-top: 17.5vh;
+
+    @media (min-width: $min-width-sm) {
+      margin-top: rem(180px);
+    }
+  }
+
+  .btn {
+    &-wallet {
+      svg {
+        font-size: 1rem;
+        margin-right: .75rem;
+      }
+    }
+
+    &-video {
+      svg {
+        font-size: .75rem;
+        margin-right: .75rem;
+      }
+    }
+  }
+
+  &--about,
+  &--wallets {
+    // scss-lint:disable ColorVariable DuplicateProperty
+
+    background: #042c42;
+    background: -moz-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
+    background: -webkit-radial-gradient(center, ellipse cover, #042c42 0%, #05131e 46%);
+    background: radial-gradient(ellipse at center, #042c42 0%, #05131e 46%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#042c42', endColorstr='#05131e', GradientType=1);
+  }
+
+  &--about {
+    min-height: 25rem;
+  }
+
+  &--pressreleases,
+  &--presskit {
+    min-height: 25rem;
+  }
+
+  &--business,
+  &--wallets {
+    min-height: 30rem;
+  }
+
+  &--business {
+    p {
+      color: $white;
+    }
+
+    .ribbon-img {
+      background: url(/static/img/business-hero-bg.jpg) no-repeat center center;
+      background-size: cover;
+      min-height: rem(930px);
+      min-width: 100%;
+      position: absolute;
+      z-index: -100;
+    }
+  }
+}
+.ribbon-getstarted {
+  background: url(/static/img/bg-gettingstarted.png) no-repeat center center;
+  background-size: cover;
+  min-height: rem(930px);
+  min-width: 100%;
+  position: absolute;
+  z-index: -100;
+}

@@ -1,0 +1,14 @@
+// scss-lint:disable SelectorFormat ColorVariable
+
+._markdown_ {
+  &,
+  p,
+  li,
+  h2,
+  h3,
+  h4 {
+    // Beat specificity issues like this
+
+    color: #333;
+  }
+}

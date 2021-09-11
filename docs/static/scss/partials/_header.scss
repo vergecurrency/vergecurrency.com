@@ -1,0 +1,329 @@
+// scss-lint:disable IdSelector
+
+#header {
+  left: 0;
+  position: fixed;
+  right: 0;
+  transition: all 0.2s ease-in-out;
+  z-index: 9;
+
+  .row {
+    height: rem(88px);
+  }
+
+  img {
+    display: block;
+  }
+
+  .links {
+    display: inline-block;
+    padding-right: 0.5rem;
+    vertical-align: middle;
+    margin-top: -1rem;
+  }
+
+
+
+  nav {
+    a,
+    .submenu {
+      color: $white;
+      font-size: rem(15px);
+      line-height: rem(66px);
+      margin: rem(6px);
+      padding: rem(6px);
+      text-decoration: none;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        color: $picton-blue;
+      }
+
+      @media (min-width: $min-width-md) {
+        margin: rem(9px);
+        padding: rem(9px);
+
+        &:last-child {
+          margin-right: rem(18px);
+        }
+      }
+    }
+
+    .submenu__content a:hover {
+      background-color: rgba(0,47,68,0.4);
+    }
+
+    .links > a:last-child {
+      font-weight: 500;
+    }
+  }
+
+  .submenu {
+    display: inline-block;
+    line-height: rem(15px);
+    position: relative;
+
+    a {
+      margin: 0;
+      padding: 0;
+      line-height: 0;
+    }
+
+    svg {
+      left: 0;
+      margin-left: 0.5rem;
+      position: relative;
+      top: rem(2px);
+      transition: transform 0.2s ease-in-out;
+      width: rem(12px);
+
+      @media (min-width: $min-width-md) {
+        left: rem(4px);
+        margin-left: rem(6px);
+        top: rem(2px);
+        width: 0.5rem;
+      }
+    }
+
+    @media (min-width: $min-width-md) {
+      &:hover {
+        cursor: pointer;
+
+        svg {
+          transform: rotate(180deg);
+        }
+
+        .submenu__content {
+          // scss-lint:disable SelectorFormat
+          opacity: 1;
+          transition-delay: 0s, 0s, 0.3s;
+          visibility: visible;
+          z-index: 1;
+        }
+      }
+    }
+
+    &__content {
+      background: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+      transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+        z-index 0s linear 0.01s;
+      padding-bottom: 0.7rem;
+      padding-top: 0.3rem;
+
+      @media (min-width: $min-width-md) {
+        background: $astronaut-blue;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+        margin-top: 0px;
+        min-width: 160px;
+        opacity: 0;
+        position: absolute;
+        text-align: left;
+        top: 75%;
+        visibility: hidden;
+        z-index: -1;
+
+        padding-bottom: 0;
+        padding-top: 0;
+      }
+
+      a {
+        line-height: 1rem;
+        padding: rem(10px);
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .verge-logo svg {
+    margin-left: -0.25rem;
+    width: rem(168px);
+    margin-top: -2.3rem;
+    margin-bottom: -1.9rem;
+
+    .st2 {
+      fill: $white;
+      transition: 0.2s all;
+    }
+  }
+
+  @at-root .scroll &,
+    &.solid {
+    // scss-lint:disable ColorVariable
+
+    background: $white;
+    box-shadow: 0 0 rem(15px) rgba(0, 0, 0, 0.06);
+
+    nav a {
+      transition: all 0.2s ease-in;
+
+      @media (min-width: $min-width-md) {
+        color: #111;
+      }
+
+      &:hover {
+        color: $picton-blue;
+      }
+    }
+
+    .verge-logo svg {
+      .st2 {
+        fill: #0f1928;
+      }
+    }
+
+    @media (min-width: $min-width-md) {
+      .submenu {
+        color: #111;
+
+        &__content {
+          background: $white;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $max-width-sm) {
+    .links {
+      display: flex;
+      flex-direction: column;
+      margin-top: rem(30px);
+    }
+
+    nav {
+      a,
+      .submenu {
+        color: $white;
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        margin-right: 0;
+        margin-top: 0.4rem;
+        padding-right: 0;
+      }
+    }
+
+    @at-root .scroll &,
+      &.solid {
+      .bm-burger-button button {
+        filter: invert(0%);
+      }
+
+      nav {
+        color: $white;
+      }
+    }
+
+    .bm-burger-button {
+      height: rem(30px);
+      position: fixed;
+      right: rem(20px);
+      top: rem(30px);
+      width: rem(36px);
+      background: url(/static/img/menu-button.svg);
+
+      button {
+        background-size: cover;
+        color: transparent;
+        filter: invert(100%);
+        opacity: 1 !important; // scss-lint:disable ImportantRule
+        transition: 0.2s all;
+        vertical-align: middle;
+
+        @media not speech {
+          user-select: none;
+        }
+
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+
+    .bm-burger-bars {
+      background: #fff;
+      display: none;
+      height: 1px !important; // scss-lint:disable ImportantRule
+    }
+
+    .bm-cross-button {
+      height: rem(24px);
+      right: rem(10px);
+      top: rem(10px);
+      width: rem(24px);
+    }
+
+    .bm-cross {
+      background: #bdc3c7;
+    }
+
+    .bm-menu {
+      background: #111;
+      font-size: rem(18px);
+    }
+
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+
+    .bm-item-list {
+      color: #fff;
+      padding: 1.5rem 0.8rem 0.8rem;
+    }
+
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+
+    .bm-menu-wrap {
+      min-height: 101%;
+      top: 0;
+    }
+  }
+
+  .language {
+    position: relative;
+    display: inline;
+    margin-bottom: 30px;
+
+    &--select {
+      padding: 5px 8px;
+      border: 1px solid rgba(0,0,0,0.4);
+      box-shadow: none;
+      border-radius: 20px;
+      width: 90px;
+
+      font-family: 'Avenir Next', 'Lato', Arial, sans-serif;
+      color: black;
+      direction: ltr;
+
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    > .arrow {
+      position: absolute;
+      top: 40%;
+      right: 15px;
+      width: 0;
+      height: 0;
+      pointer-events: none;
+      border-style: solid;
+      border-width: 8px 5px 0 5px;
+      border-color: #7b7b7b transparent transparent transparent;
+    }
+  }
+}

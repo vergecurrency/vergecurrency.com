@@ -1,0 +1,615 @@
+<!doctype html>
+<html>
+<head>
+	<title>VERGE Paper Wallet Generator</title>
+	<!--
+    
+    generate-wallet.html (from https://bitcoinpaperwallet.com)
+    
+    Contact: Canton Becker / canton@gmail.com / www.cantonbecker.com
+    
+    generate-wallet.html is always distributed with a PGP signature "generate-wallet.html.sig" which you
+    can use to validate the integrity and authorship of this file like so:
+    
+    gpg --recv-key 36E1D9B6
+    gpg --verify --with-fingerprint generate-wallet.html.sig generate-wallet.html    
+    
+	The bitcoinpaperwallet.com folding wallet design may not be used for commercial use
+    without permission. The design of the bitcoin hologram sticker used to seal these wallets
+    is copyrighted. As a courtesy, please do not modify this software in such a way that the
+    links to purchase hologram stickers and wallet making supplies are removed or pointed elsewhere.
+     
+    This software (HTML and JavaScript) is ©Copyright 2014 Canton Becker and bitaddress.org
+    and licensed under the MIT license.
+    
+    Special thanks to pointbiz/bitaddress.org, Artiom Chilaru/flexlabs.org, and Martin Ankerl
+    for significant contributions to this software.
+    
+    ****************************************************************************************
+    ****************************************************************************************
+    * Contributions to support the bitcoinpaperwallet.com developers are extremely welcome.
+    * Donations are shared between Canton Becker, Artiom Chilaru (BIP38 implementation)
+    * Martin Ankerl (guilloche patterns), and 'pointbiz' (original bitaddress.org code)
+    * Bitcoin Donation Address: 1Pjg628vjMLBvADrPHsthtzKiryM2y46DG
+	* GitHub Repository: 	https://github.com/cantonbecker/bitcoinpaperwallet
+    ****************************************************************************************
+	* The starting point for this code was the excellent single-file bitaddress.org project.
+    * Bitcoin Donation Address: 1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
+	* GitHub Repository:	https://github.com/pointbiz/bitaddress.org
+    ****************************************************************************************
+    ****************************************************************************************
+
+    Portions of this code are copyrighted by their respective authors - see below.
+
+	Notice of Copyrights and Licenses:
+	***********************************
+	The bitaddress.org project, software and embedded resources are copyright bitaddress.org. 
+
+	Portions of the all-in-one HTML document contain JavaScript codes that are the copyrights of others. 
+	The individual copyrights are included throughout the document along with their licenses.
+	Included JavaScript libraries are separated with HTML script tags.
+
+	Summary of JavaScript functions with a redistributable license:
+	JavaScript function		License
+	*******************		***************
+	Array.prototype.map		Public Domain
+	window.Crypto			BSD License
+	window.SecureRandom		BSD License
+	window.EllipticCurve	BSD License
+	window.BigInteger		BSD License
+	window.QRCode			MIT License
+	window.Bitcoin			MIT License
+	window.Crypto_scrypt	MIT License
+	ninja.(*)				MIT License				// from bitaddress.org
+	parser.setUA			GPLv2 & MIT				// Browser User Agent detection
+	jsqrcode				Apache License, 2.0		// QR Code scanning from webcam
+    
+	This HTML file and the graphics required to make it work are available under The MIT License (MIT)
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
+	associated documentation files (the "Software"), to deal in the Software without restriction, including 
+	without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or 
+	sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject 
+	to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in all copies or substantial 
+	portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT 
+	LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+	IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+	SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+	GitHub Repository: https://github.com/cantonbecker/bitcoinpaperwallet
+	-->
+
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="main.js"></script>
+	<!-- END OF https://github.com/LazarSoft/jsqrcode -->
+
+<!--	****************************************************
+		***************** BEGIN STYLES *********************
+		**************************************************** -->
+	<link rel="stylesheet" href="main.css">
+
+</head>
+<body onclick="SecureRandom.seedTime();" onmousemove="ninja.seeder.seed(event);" ontouchmove="ninja.seeder.seed(event);" 
+	  onLoad="setDesign('alt-dogecoin', true); guessPrinterSettings(); ">
+	<div id="busyblock">
+		<div class="background"></div>
+		<div class="dialog dialog-narrow">
+			<h2>One moment please...</h2>
+			<p>Encrypting your wallet. This may take up to <u>several minutes</u> on a slower computer.</p>
+		</div>
+	</div>
+	<div id="busyblock_decrypt">
+		<div class="background"></div>
+		<div class="dialog dialog-narrow">
+			<h2>One moment please...</h2>
+			<p>Decrypting the private key. This may take up to <u>several minutes</u> on a slower computer.</p>
+		</div>
+	</div>
+	<div id="main">
+    	<div id="logoback">
+ 
+			<div id="tagline">Open Source JavaScript VERGE paper wallet generator</div>
+			<div id="tagsite">For help, or community support, visit <a href="https://discordapp.com/invite/vergecurrency">our Discord server</a></div>
+            <div id="tagwarning"></div>
+			<div id="seedpoolarea"><textarea rows="16" cols="62" id="seedpool"></textarea></div>
+        
+		<div class="menu" id="menu">
+        	<div id="printeradjust">
+				Zoom:
+                <a href="#" onClick="printZoom(-1); return(false);"><span>-</span></a><input name="printerzoom" id="printerzoom" size="2" value="5" onChange="updateCalibrationInfo();" /><a href="#" onClick="printZoom(1); return(false);"><span>+</span></a> 
+                &nbsp;
+				Horizontal Shift: 
+                <a href="#" onClick="printShift(-1); return(false);"><span>-</span></a><input name="printershift" id="printershift" size="2" value="5" onChange="updateCalibrationInfo();" /><a href="#" onClick="printShift(1); return(false);"><span>+</span></a> 
+            </div>
+            
+			<div class="tab selected" id="landwallet" onClick="ninja.tabSwitch(this);">Instructions</div>
+			<div class="tab" id="calibratewallet" onClick="ninja.tabSwitch(this);">1. Calibrate</div>
+			<div class="tab" id="paperwallet" onClick="ninja.tabSwitch(this);">2. Print Front</div>
+			<div class="tab" id="backwallet" onClick="ninja.tabSwitch(this);">3. Print Back</div>
+			<div class="tab" id="foldwallet" onClick="ninja.tabSwitch(this);">4. Cut, Fold &amp; Seal</div>
+			<div class="tab" id="detailwallet" onClick="ninja.tabSwitch(this);">&#x2713; Validate or Decrypt</div>
+		</div>
+
+
+		</div><!-- end logoback -->
+		
+		<div id="generate">
+			<div id="generatelabelmovemouse">
+
+
+                <div id="rightArea">
+                
+                  <div id="progress-bar" class="fullyRounded">
+                      <div id="progress-bar-percentage" class="fullyRounded" style="width: 1%"><span id="mousemovelimit"> &nbsp; </span></div>
+                  </div>
+  
+                  <div id="seedSkipper">
+                      <a href="#" class="nicerButton" style="width: 100px;" onClick="ninja.seeder.seedCount = ninja.seeder.seedLimit; ninja.seeder.seed();">Skip &raquo;</a><br />
+                      <p>You may safely skip this step if you do not need to use the random wallet generator.</p>
+                  </div>
+                </div>
+            	
+                Secure random number generation requires that you provide some unpredictable data, also called "entropy".<br />
+                <blink>Please move your mouse around and/or type random keystrokes into this box:</blink>
+            	<input type="text" size="4" id="generatekeyinput" onKeyPress="ninja.seeder.seed(event);" />
+                
+				<p id="generatelabelbitcoinaddress">
+				<div id="seedpooldisplay"></div>
+                </p>
+			</div>
+		</div>
+
+		<div id="wallets">
+        
+        
+        
+			<div id="landarea" class="walletarea">	
+				<div id="landcommands" class="commands">
+					&nbsp;
+				</div>
+				<div class="instructionsarea">
+					<div class="notes">
+						<h1><span id="instructions0">How to print out a secure offline wallet for your Verge! ($XVG)</span></h1>
+						<span id="instructions1"><em>Here's an overview of what will happen, step by step.</em></span> <br>
+						<br>
+						<div class="security highlighted">
+
+
+<!--                        <img id="designPreview" src="images/finished-sample-sealed.jpg" alt="Sealed Wallet" >-->
+
+						<h2><span id="instructions01">Basic security checklist:</span></h2>
+						<ul>
+                        <li>
+
+                        <script language="javascript">
+						  switch(window.location.protocol) {
+							 case 'http:':
+							 case 'https:':
+							   document.write('<span style="color: #990000;">&times; You appear to be running this generator off of a live website, which is NOT recommended for creating valuable wallets. Instead, use the download link at the bottom of this page to download the ZIP file from VergeCurrency.com and run this generator offline as a \'local\' HTML file.</span>');
+							   break;
+							 case 'file:':
+							   document.write('<span style="color: #009900;">&#10004; You are running this generator from your own download.</span><br />Tip: Make 100% sure you are offline by trying <a href="http://google.com" target="_blank">google.com</a></span>');
+							   break;
+							 default: 
+						  }
+                        </script>
+                        
+                        </li>
+                        <li>
+                        <script language="javascript">
+						  if (window.crypto && window.crypto.getRandomValues) {
+								 document.write('<span style="color: #009900;">&#10004; Your browser is capable of generating cryptographically random keys using window.crypto.getRandomValues</span>');
+						  } else {
+								 document.write('<span style="color: #990000;">&times; Your browser does NOT support window.crypto.getRandomValues(), which is important for generating the most secure random numbers possible. Please use a more modern browser.</span>');
+						  }
+						</script>
+                        </li>
+                        <li><strong>?</strong> Are you using a secure operating system installation guaranteed to be free of spyware and viruses, for example, the <a href="#" onClick="window.open('https://bitcoinpaperwallet.com/ubuntu-linux-live-bootable-cd/', '_blank'); return false;">Ubuntu LiveCD?</a></li>
+                        </ul>
+                        
+                        <p><a href="https://bitcoinpaperwallet.com/#security" target="_blank">More security tips and answers to frequently asked questions &raquo;</a></p>
+                        
+                        </div>
+						<span id="instructions2">
+						
+
+                        <p style="margin-top: 0; visibility: hidden;">
+                         <strong>Change your wallet's design, language, or cryptocurrency here:</strong>
+                            <select name="designPicker" id="designPicker" style="font-size: 12px;" onChange="setDesign(this.value, false);">
+                          
+							<option value="alt-dogecoin">VERGE Paper Wallet</option>
+							<option value="alt-litecoin">DogecoinDark DOGED (REMIX design!)</option>
+						  </select>
+                       
+                          <select name="langPicker" id="langPicker" style="font-size: 12px; display: inline;" onChange="setDesign('alt-dogecoin', false, this.value);">
+                            <option value="english">English</option>
+                            <option value="chinese">Chinese</option>
+                            <option value="traditional-chinese">Chinese (Traditional)</option>
+                            <option value="czech">Czech</option>
+                            <option value="dutch">Dutch</option>
+                            <option value="french">French</option>
+                            <option value="german">German</option>
+                            <option value="hebrew">Hebrew</option>
+                            <option value="italian">Italian</option>
+                            <option value="japanese">Japanese</option>
+                            <option value="portuguese">Portuguese</option>
+                            <option value="russian">Russian</option>
+                            <option value="spanish">Spanish</option>
+                            <option value="swedish">Swedish</option>
+                          </select>
+                        </p>
+
+                        <strong>Step 1: Calibrate Printer</strong><br>
+Before printing out a wallet you may need to calibrate your output using the <em>zoom</em> and <em>horizontal&nbsp;shift</em> adjustments to account for your particular browser and printer combination. Otherwise, your wallet's back side may not line up with the front side.</span> <br>
+<br>
+<span id="instructions3"><strong>Step 2: Print Front</strong><br>
+Next you will print out the front side of your wallet. The public address and private key will be random-generated, <em>or</em> you can supply your own key by rolling dice, shuffling cards, etc. You may also duplicate an existing paper wallet or provide a "vanity" address if you have one.</span> <br>
+<br>
+<span id="instructions4"><strong>Step 3: Print Back</strong><br>
+Flip the front page over and put it back in your printer. This isn't just for good looks! The reverse design includes important tamper-resistant safeguards.</span> <br>
+<br>
+<span id="instructions5"><strong>Step 4: Cut, Fold, Seal &amp; Fund</strong><br>
+Find your scissors! The final step is to cut out your wallet, fold it, and seal it opaque (light-blocking) tape. Now you're ready to transfer funds from your online holdings to your new wallet.</span> <br>
+<br>
+<!--<span><a href="http://www.vergecurrency.com" target="_blank" class="nicerButton" style="width: 400px;">VERGE Official Website &raquo;</a></span>-->
+<br /><br />
+						
+
+
+
+</div>
+				</div>
+			</div><!-- end landarea -->
+                    
+        
+        
+			<div id="calibratearea" class="walletarea">
+				<div class="commands">
+					<div id="calibratecommands">
+						<p id="calibrateinstructions" class="instructions">The calibration step helps line up the front and back sides of your printout. <a href="#" onClick="doPrint('calibration');">Print out this page</a> in LANDSCAPE FORMAT (wide instead of tall.) Based on the results, adjust the "zoom" and "horizontal shift" in the upper-right corner of this page and keep printing tests until:<br /><br />
+                        (1) Your printed ruler more or less measures like a real ruler. (REDUCE the zoom to increase the ruler size.)<br /><br />
+                        (2) Your printed ruler is horizontally centered on the page, leaving approximately equal margins on the left and right sides of the page. (INCREASE the horizontal shift to push the ruler to the right.)<br />
+                        <br />
+                        </p>
+						<div class="print">
+                        <a href="#" class="nicerButton" onClick="doPrint('calibration');">Print Calibration Test</a>
+                        </div>
+					</div>
+				</div>
+
+
+				<div id="calibrationinfo">Zoom / Shift : Default</div>
+				<img id="calibratesvg" class="calibratesvg" src="./images/calibrate-300dpi.jpg">
+				<div id="browserinfo"></div><!-- this gets set onLoad -->
+                
+			</div><!-- end calibratearea -->
+            
+            
+            
+            
+
+			<div id="paperarea" class="walletarea">
+				<div id="papercommands" class="commands">
+					<div style="display: none;"><!-- no need to reveal these -->
+                    	<span><label id="paperlabelhideart">Hide Art?</label> <input type="checkbox" id="paperart" onChange="ninja.wallets.paperwallet.toggleArt(this); " /></span>
+                    	<span><label id="paperlabeladdressesperpage">Addresses per page:</label> <input type="text" id="paperlimitperpage" /></span>
+						<span><label id="paperlabeladdressestogenerate">Addresses to generate:</label> <input type="text" id="paperlimit" /></span>
+                    </div>
+                    
+                    <div id="keyButtons" style="display: block; float: left;">
+                    <input type="button" id="papergenerate1" value="Random Generate New Wallet" onClick="ninja.wallets.paperwallet.build(document.getElementById('paperlimit').value * 1, document.getElementById('paperlimitperpage').value * 1, !document.getElementById('paperart').checked, document.getElementById('paperpassphrase').value); printCounter=0;" />
+
+                    <input type="button" id="papergenerate2" value="Enter my own key, dice rolls, brain wallet, etc..." onClick="ninja.wallets.paperwallet.toggleVanityField(true);" />
+                    </div>
+
+                <div id="selfinfo" style="display: none; position: absolute; top: 15px;">
+
+                   <b class="helpTitle">If you are making a paper wallet for a <a href="https://en.bitcoin.it/wiki/Vanitygen" target="_blank">vanity address</a>, or duplicating an existing paper wallet:</b>
+                   <br />
+                   <br />
+                   In this case, simply enter your private key in Wallet Import Format (or scan it using the "validate" feature on this web page.) WIF keys always begin with the number 5 and look something like this: '5JnwJNC7q3...' <em>The public address, e.g. '1vanityABC456...' is automatically calculated using the private key, so you only need to provide the private key.</em>
+                   
+                   <div class="helpDivider"></div>
+                   
+                   <b class="helpTitle">If you want to roll dice or shuffle a deck of cards to generate a key:</b>
+                   <br />
+                   <br />
+                   Maybe you don't trust that this software (or computers in general) can generate sufficiently random numbers. In this case, you can supply your own random data points from virtually any source. For example, you can roll a six sided die at least 62 times and enter each roll in sequence, e.g. '<strong>15249385616</strong>...' Or, you can mix up a deck of 52 playing cards (shuffle at least 10 times!) and enter at least the top 31 cards in this format: <strong>5S10HAC</strong>-... (where <strong>5S</strong> = 5 of Spades, <strong>10H</strong> = 10 of Hearts, <strong>AC</strong> = Ace of Clubs, etc.)
+                   <br />
+                   <br />
+                   <em>No special formatting is required</em>. Just type in a great deal of (truly) random text from any source, and whatever you supply will be SHA256 hashed and converted into a private key and public address.
+
+                   <div class="helpDivider"></div>
+
+                   <b class="helpTitle">If you want to make a paper wallet which can <em>also</em> be accessed using a passphrase (AKA a "brain wallet"):</b>
+                   <br />
+                   <br />
+                   You can make a so-called "brain wallet" by supplying a VERY secure passphrase like '1852 Adobe Cloud SMASH fuzzy steamzonk'. <em>Be extremely careful doing this because a wallet generated using an insecure passphrase is virtually guaranteed to have its balance stolen!</em>.
+                   <br />
+                   <br />The resulting paper wallet will still have an ordinary crypto-looking private key and public address, but you will <em>also</em> be able to retrieve your wallet contents by entering your passphrase into the 'verify' tab of this service or a similar service such as <a href="https://brainwallet.org" target="_blank">brainwallet.org</a>.<br /><br />
+                    <strong>Note:</strong> supplying a brain wallet passphrase is different from BIP38-encrypting your wallet with a passphrase.
+				   <br />
+                   <br />
+                   <a href="#" class="nicerButton" onClick="document.getElementById('selfinfo').style.display='none'; return(false);">OK</a>
+                </div>
+                    
+                    <div id="supplyKeys" style="display: none; float: left;">
+                    <p style="padding: 0; margin: 0;"><input placeholder="Enter WIF private key (or brain wallet, dice rolls, shuffled cards, etc.)" autocomplete="off" id="suppliedPrivateKey" name="suppliedPrivateKey" spellcheck="false" style="font-family: ubuntu_mono_bold, 'Courier New', Courier, monospace;" />&nbsp;<input type="button" id="papergenerate3" value="Apply &raquo;" onClick="testAndApplyVanityKey();" />
+                    </p>
+                    <p style="margin: 10px 0 0 0; padding:0;">
+                    <div style="float: right;">
+                    <input type="button" id="papergenerate4" value="&laquo; Back to random generator" onClick="ninja.wallets.paperwallet.toggleVanityField(false);" />
+                    </div>
+                    
+                    <div style="float: left; font-size: 12px;"><a href="#" onClick="document.getElementById('selfinfo').style.display='block'; return(false);"><strong>Help me!</strong> (How to enter keys, roll dice...)</a></div>
+                    </p>
+                    </div>
+
+					<div id="paperadvancedcommands">
+						<input type="checkbox" id="paperencrypt" onChange="ninja.wallets.paperwallet.toggleEncryptSettings(this.checked);" />BIP38 Encrypt
+						<div id="paperencryptstatus" class="hide">
+							<div id="paperencryptpassphrase"></div>
+                            <input type="button" value="Change Passphrase" onClick="ninja.wallets.paperwallet.toggleEncryptSettings(true);" style="font-size: 10px;">
+						</div>
+					</div>
+					
+					<div id="paperbip38settings">
+						<div class="background"></div>
+						<div class="dialog instructionsarea">
+                        	<p style="float: right;"><a href="https://bitcoinpaperwallet.com/wallet-tutorial-add-withdraw-funds/" target="_blank">Help / Instructions &raquo;</a></p>
+							<h2>About "BIP38" Encryption</h2>
+							<p>The advantage with BIP38 is that if your paper wallet is stolen or compromised, the private key cannot be recovered without your password. <em>Even a very short password adds a strong degree of protection</em>. However, if you encrypt your private key with BIP38 and you lose your password, it will be impossible for you to recover the funds you have sent to this wallet.</p>
+                            <p>Also, note that not all <script type="text/javascript">document.write(window.currencyName);</script> wallet applications or web services are able to import or "sweep" BIP38 encrypted keys. In this case, you will have to use the <strong>Validate or Decrypt</strong> feature on this webpage to reveal the unencrypted Wallet Import Format (WIF) key as an intermediate step before sweeping the balance.</p>
+                            
+                            <p style="color: red;">WARNING: Before sending any funds to a BIP38-encrypted wallet, first do a test make sure you are able to decrypt the printed private key back to ordinary WIF format.</p>
+							<p>Unless you have a strong understanding of the BIP38 encryption and decryption workflow, <strong>click cancel</strong>, print your paper wallet without BIP38, and just keep it safe and hidden like you would jewels or cash.
+							</p>
+							<p>
+								<button id="paperbip38activate" disabled onClick="ninja.wallets.paperwallet.toggleEncryptSettings(false);">TURN ON BIP38 ENCRYPTION</button>
+								<label id="paperlabelBIPpassphrase" for="paperpassphrase"><strong>using password / passphrase:</strong></label>
+								<input type="text" id="paperpassphrase" autocomplete="off" onKeyUp="document.getElementById('paperbip38activate').disabled = this.value.length < 3" 
+                                onChange="this.value = this.value.toString().replace(/^\s+|\s+$/g, '');"/>
+							</p>
+							<p><button onClick="ninja.wallets.paperwallet.toggleEncryptSettings(false, true);">CANCEL</button></p>
+						</div>
+					</div>
+                    
+					<span class="print">
+                    <a href="#" class="nicerButton" onClick="doPrint('generate');">Print Wallet Front</a>
+                    </span>
+                    <br clear="all" />
+				</div>
+				<div id="paperkeyarea"></div>
+			</div><!-- end paperarea -->
+            
+
+
+
+
+			<div id="backarea" class="walletarea">
+				<div class="commands"> 
+					<div id="backcommands">
+						<p id="backinstructions" class="instructions highlighted"><strong>Reload the front page into your printer first.</strong> Note: The back design is intentionally larger than the front side. Use the front side as your guide when cutting out your wallet.</p>			
+                                   
+                        <span class="print"><a href="#" class="nicerButton" onClick="doPrint();">Print Wallet Back</a></span>
+                    <br clear="all" />
+				</div>
+
+				
+			</div><!-- end commands -->
+
+                
+
+				<img id="backsvg1" class="backsvg" src="./images/back-300dpi.jpg">
+			</div><!-- end backarea -->
+
+
+
+
+
+			<div id="foldarea" class="walletarea">	
+				<div id="foldcommands" class="commands">
+					&nbsp;
+				</div>
+				<div class="instructionsarea">
+					  <h1><span id="instructions21">How to cut &amp; fold your 2-sided wallet:</span></h1>
+					<div class="notes">
+
+                        <div style="float: right; margin: 0 0 20px 30px; padding-left: 30px; border-left: 4px solid #eee;">
+                         <img src="images/finished-folds.jpg" width="355" alt="Folding Diagram"><br /><br />
+                         <img src="images/finished-sample.jpg" alt="Sample Wallet"><br /><br />
+                         <img src="images/finished-sample-bagged.jpg" alt="Sealed Wallet">
+						</div>
+
+						<span id="instructions22">Cut out your wallet <em>using the front side as a guide, not the back!</em>
+                       
+                        The design on the reverse side is intentionally larger than the front side so that back design will "bleed" to the edges even if your front and back sides are somewhat misaligned.
+                        <br /><br />
+                        Now fold the more narrow private key area in half, and then over again as indicated by the dotted lines in this diagram. The "butterfly" shape is time-consuming to cut out, but <em>without all those cuts and angles, someone can reveal your private key without removing the tape</em>!</span>
+                        <br />
+						<br />
+						<span id="instructions23">The final wallet will be a rectangle shape with the more narrow private key area folded over it.</span>
+						<br />
+                                                
+                        <br />
+						<span id="instructions13">Seal your wallet by placing two strips of sturdy <strong>light-blocking</strong> tape over the top and bottom edges of the private (folded) area. A zip-seal bag will keep it safe from moisture, which is especially important when using an inkjet printer.</span>
+						<br /><br />	
+
+						<br /><br />	
+
+						<h1><span id="instructions16">How to add funds to your wallet:</span></h1>
+
+						<span id="instructions17">Send Verge ($XVG) to the address (or QR code) where your wallet says "PUBLIC ADDRESS".</span>
+						<br /><br />	
+                        
+						<h1><span id="instructions18">How to withdraw funds from your wallet:</span></h1>
+
+						<span id="instructions19">You should expect to withdraw the entire balance of the wallet by importing it (or "sweeping" it) to a live wallet, e.g. a Verge wallet application or online service.
+                        <br />
+                        <br />
+                        <strong>If you elected to BIP38-encrypt your wallet</strong>, you may need to recover your unencrypted WIF "Wallet Import Format" private key by using the "validate" tab on this web page.
+                        <br />
+                        <br />
+						<h1><span id="instructions20">Tips &amp; FAQ's</span></h1>
+                        &bull; <a href="https://bitcoinpaperwallet.com/printing-and-paper-tips/" target="_blank">What kind of printer and paper to use &raquo;</a><br />
+                        &bull; <a href="https://bitcoinpaperwallet.com/wallet-tutorial-add-withdraw-funds/" target="_blank">Adding to and spending from a paper wallet &raquo;</a><br />
+                        &bull; <a href="https://bitcoinpaperwallet.com/bip38-password-encrypted-wallets/" target="_blank">How and when to use BIP38 encryption &raquo;</a><br />
+                        
+                        </span>
+                        
+					</div>
+				</div>
+			</div><!-- end landarea -->
+
+			<div id="detailarea" class="walletarea">
+
+				<div id="detailcommands" class="commands">
+				&nbsp;
+                </div>
+			<div class="instructionsarea">	
+					<h1>Validate or decrypt private key</h1>
+					<div style="width: 45%; float: left; padding: 0 15px; border-right: 3px solid #ccc;">
+                    	
+						<p><strong>Enter or <a onClick="ninja.wallets.detailwallet.qrscanner.start()">scan</a> any private key to verify that the key is valid</strong> and show its corresponding public key. If your private key validates, then you may be reassured that you will able to retrieve any funds sent to that wallet.</p>
+						<p><strong>To duplicate or BIP38-encrypt any paper wallet</strong>, just validate its private key and click the "Use these details to print a paper wallet" button.</p>
+ 						<p><strong>Is your wallet BIP38 encrypted?</strong> If so, you can use this form to decrypt your private key and recover the standard Wallet Import Format (WIF) key suitable for wallet software and services that don't directly support BIP38 importing.</p>
+                        <p><strong>You may also type in a "brain wallet" passphrase</strong> to see the corresponding SHA256 hashed keys.</p>
+					</div>
+					<div style="width: 45%; float: left; padding: 0 15px;">
+						<span class="qrinput">
+							<input type="text" id="detailprivkey" value="" placeholder="Enter a private key, or click the QR icon to scan" autocomplete="off" onFocus="this.select();" onKeyPress="if (event.keyCode == 13) ninja.wallets.detailwallet.viewDetails();" />
+							<span onClick="ninja.wallets.detailwallet.qrscanner.start()"></span>
+						</span>
+						<div id="paperqrscanner">
+							<div class="background"></div>
+							<div id="mainbody" class="dialog instructionsarea">
+								<p style="float: right;"><a href="https://bitcoinpaperwallet.com/how-to-scan-qr-codes-with-camera/" target="_blank" style="font-family: 'Lucida Console', Monaco, monospace;">Help / Instructions &raquo;</a></p>
+								<h2>Scan QR code using your camera</h2>
+								<div id="paperqrnotsupported" style="color: red" class="hide">Sorry, but your web browser does not support the HTML5 camera controls. Try using a recent version of Firefox (recommended), Chrome or Opera.</div>
+								<div id="paperqrpermissiondenied" style="color: red" class="hide">
+									<p>Permission denied. Your browser should display a message requesting access to your camera. Please click the "Allow" button to enable the camera.</p>
+									<p>If you are using Chrome and you launched this generator by opening the HTML file from your own computer "locally", you may need to launch Chrome from the command line and specify the <a href="https://bitcoinpaperwallet.com/how-to-scan-qr-codes-with-camera/" target="_blank" style="font-family: 'Lucida Console', Monaco, monospace;">--allow-file-access-from-files</a> flag. Or you can set up a local web server (Apache) and run this generator via http://127.0.0.1... or, give up and just use Firefox.</p>
+                                    
+								</div>
+								<div id="paperqrerror" style="color: red"></div>
+								<div id="paperqroutput"></div>
+								<button onClick="ninja.wallets.detailwallet.qrscanner.stop()">Cancel</button>
+							</div>
+						</div>
+                        <br />
+						<span><input type="button" id="detailview" value="Validate / Decrypt" onClick="ninja.wallets.detailwallet.viewDetails();" /></span>
+						<div class="row extra center">
+							<span><label id="detailkeyformats">Supported formats: WIF, WIFC, HEX, B64, B6, MINI, BIP38, "Brain Wallet"</label></span>
+						</div>
+						<div id="detailbip38commands">
+							This "6P..." private key is BIP38-encrypted.<br />
+							<label id="detaillabelpassphrase">Please type in passphrase below:</label><br />
+							<span><input type="text" id="detailprivkeypassphrase" value="" onFocus="this.select();" onKeyPress="if (event.keyCode == 13) ninja.wallets.detailwallet.viewDetails();" /></span>
+							<span><input type="button" id="detaildecrypt" value="Decrypt BIP38" onClick="ninja.wallets.detailwallet.viewDetails();" /></span>
+						</div>
+					</div>
+					<div style="clear: both;"></div>
+
+				<div id="detailkeyarea" class="hide">
+					<div class="notes">
+						<h1>Public and private details for:<br /><span id="detailkeyareakey"></span></h1>
+						<p><button onClick="ninja.wallets.detailwallet.loadInPaperWallet()">Use these details to print a paper wallet</button></p>
+						<span id="detaillabelnote1">Use the <strong>Public Address</strong> to receive funds or check your balance online. The <strong>Private Key WIF</strong> is a code that needs to be keep secret since it can be used to spend any funds that have been sent to the corresponding public key. Keys can be encoded in a number of different formats. The most popular encoding formats (WIF, WIFC, HEX, B64) are shown below.</span>
+						<br />
+					</div>
+					<div class="pubqr">
+						<div class="item">
+							<span class="label" id="detaillabelbitcoinaddress"><strong style="font-size: 150%;">Public <script type="text/javascript">document.write(window.currencyName);</script> Address</strong></span>
+							<div id="detailqrcodepublic" class="qrcode_public"></div>
+							<span class="output" id="detailaddress"></span>
+						</div>					
+						<div class="item right">
+							<span class="label" id="detaillabelbitcoinaddresscomp"><script type="text/javascript">document.write(window.currencyName);</script> Address Compressed Format</span>
+							<div id="detailqrcodepubliccomp" class="qrcode_public"></div>
+							<span class="output" id="detailaddresscomp"></span>
+						</div>
+					</div>
+					<br /><br />
+					<div class="item clear">
+						<span class="label" id="detaillabelpublickey">Public Key (130 characters [0-9A-F]):</span>
+						<span class="output pubkeyhex" id="detailpubkey"></span>
+					</div>
+					<div class="item">
+						<span class="label" id="detaillabelpublickeycomp">Public Key (compressed, 66 characters [0-9A-F]):</span>
+						<span class="output" id="detailpubkeycomp"></span>
+					</div>
+					<hr />
+					<div class="privqr">
+						<div class="item">
+							<span class="label"><span id="detaillabelprivwif"><strong style="font-size: 150%;">Private Key WIF</strong><br />51 characters base58, starts with a</span> '<script type="text/javascript">document.write(window.window.WIFPrefix);</script>'</span>
+							<div id="detailqrcodeprivate" class="qrcode_private"></div>
+							<span class="output" id="detailprivwif"></span>
+						</div>
+						<div class="item right">
+							<span class="label"><span id="detaillabelprivwifcomp">Private Key WIF Compressed<br />52 characters base58, starts with a</span> '<script type="text/javascript">document.write(window.compressedWIFPrefix);</script>'</span>
+							<div id="detailqrcodeprivatecomp" class="qrcode_private"></div>
+							<span class="output" id="detailprivwifcomp"></span>
+						</div>
+					</div>
+					<br /><br />
+					<div class="item clear">
+						<span class="label" id="detaillabelprivhex">Private Key Hexadecimal Format (64 characters [0-9A-F]):</span>
+						<span class="output" id="detailprivhex"></span>
+					</div>
+					<div class="item">
+						<span class="label" id="detaillabelprivb64">Private Key Base64 (44 characters):</span>
+						<span class="output" id="detailprivb64"></span>
+					</div>
+					<div class="item" style="display: none;" id="detailmini">
+						<span class="label" id="detaillabelprivmini">Private Key Mini Format (22, 26 or 30 characters, starts with an 'S'):</span>
+						<span class="output" id="detailprivmini"></span>
+					</div>
+					<div class="item" style="display: none;" id="detailb6">
+						<span class="label" id="detaillabelprivb6">Private Key Base6 Format (99 characters [0-5]):</span>
+						<span class="output" id="detailprivb6"></span>
+					</div>
+					<div class="item" style="display: none;" id="detailbip38">
+						<span class="label" id="detaillabelprivbip38">Private Key BIP38 Format (58 characters base58, starts with '6P'):</span>
+						<span class="output" id="detailprivbip38"></span>
+					</div>
+				</div>
+				
+            </div><!-- end instructionsarea -->
+			</div><!-- end detailarea -->
+            
+            
+		</div><!-- *** end wallets *** -->
+
+		<div id="footer" class="footer">
+			<div class="authorbtc">
+				<div>
+					<span class="item" id="footerlabeldonations"><b>Donations keep this server free!</b></span>
+                    <span class="item" style="font-size: 11px; font-family: 'Courier New', Courier, monospace;">
+                    <strong>Verge</strong>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV<br /></span>
+                    
+                    <span class="item" style="font-size: 11px;">Contributions are put toward costs of hosting and development.</span>
+
+
+				</div>
+			</div>
+			<div class="authorpgp">
+
+            	<span class="item"><b>Security &amp; signatures</b></span>
+                <span class="item" style="font-size: 90%;">For secure wallet generation</a>, do not print wallets "live" from VERGEcurrency.com.<br />Instead, download this generator and run the HTML as a "local" file:</span>
+				<span class="item"><a href="https://github.com/vergecurrency/vergecurrency.com/raw/master/pages/paper-wallet/xvg-paperwallet.zip" target="_blank" id="footerlabelgithub"><strong>Secure Download</strong> (.ZIP file)</a></span>
+
+                <span class="item" id="footerlabeltests" style="font-size: 90%;">Run unit test: <a href="?unittests=1#tests">basic</a></span>
+                
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="main-footer.js"></script>
+
+</body>
+</html>

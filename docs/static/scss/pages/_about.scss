@@ -1,0 +1,113 @@
+// scss-lint:disable ColorVariable
+.about {
+  .btn-github {
+    @media (min-width: $min-width-sm) {
+      padding-left: rem(52px);
+    }
+
+    &::before {
+      background-image: url('/static/img/github.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      content: '';
+      height: rem(20px);
+      margin-left: -2rem;
+      position: absolute;
+      width: rem(20px);
+    }
+  }
+
+  .team {
+    &--member {
+      width: 100%;
+
+      &.tg--admins {
+        a {
+          color: #4e4e4e;
+        }
+      }
+
+      &_border {
+        transition: background-color 0.2s linear;
+        display: inline-block;
+        padding: 2px;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+      }
+      &_border:hover {
+        background-color: rgba(48, 174, 209, 1);
+      }
+
+      .flexIt {
+        display: flex;
+        justify-content: start;
+
+        @media screen and (max-width: 767px) {
+          justify-content: center;
+        }
+      }
+
+      h3 {
+        margin-top: 1rem;
+      }
+
+      .socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .icon {
+        height: 16px;
+        width: 16px;
+        display: block;
+        background-size: cover;
+        margin-top: 2px;
+        &.iconlink {
+          margin-left: 10px;
+        }
+      }
+
+      .hidden {
+        display: none;
+      }
+    }
+  }
+
+  .contributors {
+    &--item {
+      border: 1px solid #ececec;
+      display: block;
+      margin-bottom: rem(15px);
+      padding: 0.75rem;
+
+      img {
+        background: $pacific-blue-1;
+        // min-height: 134px;
+        height: auto;
+        width: auto;
+        max-width: 140px;
+      }
+
+      &__author {
+        color: #000;
+        font-size: rem(14px);
+        font-weight: 700;
+        padding-bottom: rem(5px);
+        text-align: center;
+      }
+
+      &__profile {
+        border-top: 1px solid #ececec;
+        padding-top: rem(5px);
+        text-align: center;
+
+        a {
+          color: #4e4e4e;
+          font-size: 0.75rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.sidebar {
+  border-bottom: 1px solid #e2e2e2;
+  height: 100%;
+  line-height: 30px;
+
+  @media (min-width: $min-width-sm) {
+    border-bottom: 0;
+    border-right: 1px solid #e2e2e2;
+  }
+
+  h6 {
+    margin-bottom: 0;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    + h6 {
+      margin-top: 1rem;
+    }
+  }
+}

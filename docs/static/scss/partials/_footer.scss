@@ -1,0 +1,143 @@
+footer {
+  background: #091721; // scss-lint:disable ColorVariable
+  padding-top: 3rem;
+
+  h3,
+  h4 {
+    color: $white;
+    font-size: rem(13px);
+    font-weight: 600;
+    letter-spacing: rem(3px);
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin-left: .1rem; // Should always be 1%, no rem()
+
+    + div p {
+      color: $white;
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: rem(40px);
+      transition: .2s all;
+
+      @media (min-width: $min-width-sm) {
+        line-height: auto;
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0 0 rem(24px);
+    padding: 0;
+    text-align: left;
+    transition: .2s all;
+
+    @media (min-width: $min-width-sm) {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    align-self: start;
+    color: $white;
+    display: inline-block;
+    font-size: rem(13px);
+    line-height: rem(21px);
+    margin-bottom: rem(3px);
+    text-decoration: none;
+    text-transform: initial;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  > div:last-child {
+    background: $white;
+    margin-top: 3rem;
+  }
+
+  .bottom {
+    height: 4rem;
+    transition: .2s all;
+
+    @media (min-width: $min-width-sm) {
+      height: 3rem;
+
+      svg {
+        margin-top: .25rem;
+      }
+    }
+
+    a {
+      margin-bottom: 0;
+    }
+
+    .verge-logo {
+      margin-top: .75rem;
+      overflow: hidden;
+      transition: .2s all;
+      width: rem(34px);
+
+      @media (min-width: $min-width-sm) {
+        margin-right: rem(24px);
+        width: rem(120px);
+      }
+
+      @media (min-width: $min-width-md) {
+        margin-top: .5rem;
+      }
+    }
+
+    .social {
+      &__icon {
+        padding-left: .25rem;
+        padding-right: .25rem;
+
+        svg {
+          font-size: 1.5rem;
+          transition: .2s all;
+          width: 2rem;
+
+          @media (min-width: $min-width-sm) {
+            font-size: 1.5rem;
+            width: 3.5rem;
+          }
+        }
+      }
+
+      &__link {
+        transition: .2s all;
+
+        @each $network, $color in (
+          facebook: #3c5898,
+          github:   #25292e,
+          telegram: #179cdf,
+          youtube:  #ff0002,
+          reddit:   #ff4401,
+          twitter:  #1da1f2,
+          discord:  #18191c
+        ) {
+          &--#{$network} {
+            color: #cecece;
+
+            &:hover {
+              color: $color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .col--faux {
+    padding-right: .5rem;
+
+    @media (min-width: $min-width-sm) {
+      padding-right: 2.5rem;
+    }
+  }
+}

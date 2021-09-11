@@ -1,0 +1,99 @@
+.react-expand-collapse__content {
+  position: relative;
+  overflow: hidden;
+}
+
+.react-expand-collapse__body {
+  display: inline;
+}
+
+/* expand-collapse button */
+.react-expand-collapse__button {
+  color: #22a7f0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-expand-collapse__button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 20px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #fff 100%);
+}
+
+/* expanded state */
+.react-expand-collapse--expanded .react-expand-collapse__button {
+  padding-left: 5px;
+  position: relative;
+  bottom: auto;
+  right: auto;
+}
+
+.react-expand-collapse--expanded .react-expand-collapse__button:before {
+  content: none;
+}
+
+.partners-grid {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px !important;
+
+  @media (min-width: $min-width-sm) {
+    margin: 15px 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: row;
+    div:empty {
+      display: none;
+    }
+  }
+
+  @media (min-width: $min-width-md) {
+    margin: 35px 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: row;
+    div:empty {
+      display: unset;
+    }
+  }
+
+  @media (min-width: $min-width-lg) {
+    margin: 35px 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: row;
+  }
+
+  h1 {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+  }
+
+  > div > a > img {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 60%;
+    display: flex;
+
+    &.img--wider {
+      width: 80%;
+    }
+
+    &.img--smaller {
+      width: 45%;
+    }
+  }
+}
+
+.wallet-warning {
+  color: #aa0000 !important;
+}

@@ -1,0 +1,86 @@
+.business {
+  // scss-lint:disable ColorVariable
+
+  &--subheader {
+    background: transparent;
+    border-bottom: 1px solid #05131e;
+
+    @at-root .scroll & {
+      background: $white;
+
+      a {
+        color: #111;
+      }
+    }
+  }
+
+  .accept {
+    h2 {
+      color: #333;
+      font-size: rem(27px);
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      color: #4e555a;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn + .btn {
+      margin-bottom: 1.5rem;
+
+      @media (min-width: $min-width-sm) {
+        margin-bottom: 0;
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  .vendors {
+    &--logo {
+
+      img {
+        margin: 0 0 1rem;
+        max-height: 2.5rem;
+        max-width: rem(120px);
+
+        @media (min-width: $min-width-sm) {
+          max-height: rem(60px);
+        }
+      }
+    }
+
+    h2 {
+      color: #05131e;
+      font-size: rem(26px);
+    }
+
+    h3,
+    h4 {
+      color: #05131e;
+      font-size: rem(18px);
+    }
+  }
+
+  .benefits {
+    h3 {
+      color: #091721;
+      font-size: rem(27px);
+    }
+
+    h6 {
+      color: #1a3d55;
+
+      @media (min-width: $min-width-sm) {
+        font-size: .75rem;
+      }
+    }
+
+    p {
+
+      @media (min-width: $min-width-sm) {
+        font-size: rem(13px);
+      }
+    }
+  }
+}
