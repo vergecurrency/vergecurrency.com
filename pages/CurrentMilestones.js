@@ -599,8 +599,6 @@ const mileStones = [
   },
   {
     done: true,
-<<<<<<< HEAD
-=======
     doneDate: '22nd July 2021',
     title: '$XVG enters MOU with Travel Booking Giant Travala.com',
     description: 'The Collaboration is intended to bring a large offering of travel options to the Verge Currency ($XVG) community, while expanding the userbase of Travala.com offerings.',
@@ -651,7 +649,6 @@ const mileStones = [
   },
   {
     done: true,
->>>>>>> f26e5f0912abc1f53ee15dc15c861d8aa037a250
     doneDate: '9th September 2021',
     title: 'Tokocrypto adds $XVG to their platform',
     description: '#1 Crypto Exchange in Indonesia added support for $XVG.',
