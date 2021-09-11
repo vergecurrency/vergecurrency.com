@@ -620,7 +620,7 @@ const mileStones = [
   {
     done: true,
     doneDate: '9th August 2021',
-    title: '$XVG is live on Travel Booking Giant - Travala.com',
+    title: '$XVG is live on Travel Booking Giant Travala.com',
     description: 'Book at over 2,200,000+ properties, 400,000+ activities in 230 countries and 600 airlines globally.',
     progress: 100,
     progressState: '',
