@@ -157,7 +157,6 @@ function FBV(props) {
                     Wyatt will not only learn about Blockchain Technology (Verge Currency), but he will now be part of this
                     {' '}
                     generational movement and join Danny Robertson under the Motocross umbrella of FbV.
-                    <br /><br />
                   </p>
 
                 </div>
