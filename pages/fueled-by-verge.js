@@ -67,6 +67,48 @@ function FBV(props) {
             <div className="col-xs-10 col-sm-8 center-xs col-sm-offset-2 col-xs-offset-1 pb-small bb">
               <div className="fbvAthletesHeading">Verge Athletes</div>
             </div>
+            
+            <div className="row start-xs pt pb bb">
+              <div className="col-xs-10 col-sm-4 col-md-4 col-xs-offset-1 center-xs start-sm">
+                <img src="/static/img/fbv/JaydenRiley.png" alt="Jayden Riley Fueled by Verge" title="Jayden Riley Fueled by Verge" />
+              </div>
+
+              <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
+                <div className="AthletesFbvTxtV2">
+                  <span className="socialIconsRight">
+                    <Link>
+                      <a
+                        className="icon iconlink"
+                        href="https://www.instagram.com/rippin_rileys/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="View Jayden Riley's Instagram"
+                      >
+                        <i className="icon icon--instagram" />
+                      </a>
+                    </Link>
+                  </span>
+                  <p className="athleteSport">Motocross</p>
+                  <p className="athleteName">Jayden Riley</p>
+                  <p className="athleteLocation">Alberta, Canada</p>
+
+                  <p className="athleteDescription">
+                    Jayden will join Wyatt Hasil and founder of FbV, Danny Robertson, to form the official FbV motocross racing team for 2022.                    
+                    <br /><br />
+                    Jayden finished 3rd overall in 12-16 85cc, at Walton Raceway, at the Walton TransCan Grand National Championship in August 2021.                    {' '}
+                    <br /><br />
+                    Jayden will not only learn about Blockchain Technology (Verge Currency) but he will now be part of this 
+                    {' '}
+                    generational movement and join Danny Robertson and Wyatt Hasil under the Motocross umbrella with our athletes 
+                    {' '}
+                    and have a whole new 1 million strong community following him.                  
+                    <br /><br />
+                    Another wonderkid is fueled by Verge!
+                    </p>
+
+                </div>
+              </div>
+            </div>
 
             <div className="row start-xs pt pb bb">
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
@@ -115,6 +157,7 @@ function FBV(props) {
                     Wyatt will not only learn about Blockchain Technology (Verge Currency), but he will now be part of this
                     {' '}
                     generational movement and join Danny Robertson under the Motocross umbrella of FbV.
+                    <br /><br />
                   </p>
 
                 </div>
