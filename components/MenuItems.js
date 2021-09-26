@@ -47,10 +47,8 @@ const MenuItems = ({ t }) => (
         {/* <Link href="/guides">
           <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
         </Link> */}
-        <Link prefetch href="/static/blackpaper/verge-blackpaper-v5.0.pdf">
-          <a href="/static/blackpaper/verge-blackpaper-v5.0.pdf">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
+          <a href="/static/blackpaper/verge-blackpaper-v5.0.pdf" target="_blank">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
           </a>
-        </Link>
         <Link prefetch href="/faq">
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}
           </a>
