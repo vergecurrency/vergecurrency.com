@@ -22,7 +22,6 @@
       }
     ]
   },
-
   "businessdevelopment": {
     "title": "Business Development",
     "members": [
@@ -40,6 +39,7 @@
         "role": "Business Development Strategist",
         "occupation": "Finance / Credit Specialist",
         "twitter": "https://twitter.com/vergecanada",
+        "twitter_alt": "https://twitter.com/itsmwittenberg",
         "location": "Alberta, Canada"
       },
       {
@@ -58,7 +58,6 @@
       }
     ]
   },
-
   "marketing": {
     "title": "Marketing Team",
     "members": [
@@ -100,7 +99,6 @@
         "twitter": "https://twitter.com/cryptooza",
         "location": "India"
       }
-
     ]
   },
   "advisor": {
@@ -138,12 +136,11 @@
         "twitter": "https://twitter.com/XVGHS",
         "location": "British Columbia, Canada"
       }
-
     ]
   },
-  "media" : {
-    "title" : "Multimedia",
-    "members" : [
+  "media": {
+    "title": "Multimedia",
+    "members": [
       {
         "img": "../static/img/team/thecryptocamel.jpg",
         "name": "TheCryptoCamel",

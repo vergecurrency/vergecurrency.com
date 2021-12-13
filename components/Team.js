@@ -19,6 +19,16 @@ const Team = props => props.members.map(member => (
               <i className="icon icon--twitter" />
             </a>
           </Link>
+          <Link href={member.twitter_alt}>
+            <a
+              className={`icon iconlink ${member.twitter_alt ? '' : 'hidden'}`}
+              href={member.twitter_alt}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="icon icon--twitter" />
+            </a>
+          </Link>
           <Link href={member.github}>
             <a
               className={`icon iconlink ${member.github ? '' : 'hidden'}`}
