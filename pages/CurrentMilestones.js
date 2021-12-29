@@ -355,7 +355,7 @@ const mileStones = [
     progress: 100,
     progressState: '',
     infoLabel: 'Press Release',
-  infoUrl: 'https://www.binance.com/en/support/articles/360039265392'
+    infoUrl: 'https://www.binance.com/en/support/articles/360039265392'
   },
   {
     done: true,
@@ -666,6 +666,16 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Kriptomat Page',
     infoUrl: 'https://kriptomat.io/verge-xvg-price/'
+  },
+  {
+    done: true,
+    doneDate: '23rd December 2021',
+    title: 'Open-source cryptocurrency is taking a quantum leap with data shadowing technology',
+    description: 'Verge ($XVG) partners with HyperSphere to launch WalletGuard, the world’s first quantum immune cloud based cryptographic wallet protection and recovery service.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'EIN Presswire',
+    infoUrl: 'https://www.einpresswire.com/article/548158886/open-source-cryptocurrency-is-taking-a-quantum-leap-with-data-shadowing-technology'
   }
   // {
   //   done: true or false,
@@ -682,9 +692,8 @@ const mileStones = [
 export default ({ start = 0, maxLength = mileStones.length }) =>
   mileStones.slice(start, start + maxLength).reverse().map(mapItem => (
     <li
-      className={`roadmap__item roadmap__item--${
-        mapItem.done ? 'done' : 'planned'
-      }`}
+      className={`roadmap__item roadmap__item--${mapItem.done ? 'done' : 'planned'
+        }`}
     >
       <h3>{mapItem.title}</h3>
       {mapItem.description}

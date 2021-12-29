@@ -38,7 +38,7 @@ export const PartnerInfo = ({ t }) => {
           </div>
           <div>
             <a href="https://www.voice-life.com/">
-              <img src="/static/img/partners/voicelife.png" alt="Voice Life" className="img--smaller"/>
+              <img src="/static/img/partners/voicelife.png" alt="Voice Life" className="img--smaller" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.voicelife', {
@@ -76,6 +76,17 @@ export const PartnerInfo = ({ t }) => {
                 widgets and tools for transactions and donations, and plugins to accept payments online. With low 
                 transaction fees, payments can be converted to your chosen cryptocurrency and will be instantly 
                 transferred to your wallet..`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div>
+            <a href="https://hyperspheretech.com/">
+              <img src="/static/img/partners/hypersphere.png" alt="Voice Life" className="img--wider" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.hypersphere', {
+                defaultValue: `
+                Verge ($XVG) partners with HyperSphere to launch WalletGuard, the world’s first quantum immune cloud based cryptographic wallet protection and recovery service.`,
               })}
             </ExpandCollapse>
           </div>
@@ -122,7 +133,7 @@ export const PartnerInfo = ({ t }) => {
           </div>
           <div>
             <a href="https://mobiepay.io/">
-              <img src="/static/img/vendors/latest/mobiepay.png" alt="MobiePay" className="img--smaller"/>
+              <img src="/static/img/vendors/latest/mobiepay.png" alt="MobiePay" className="img--smaller" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.mobiepay', {
@@ -136,7 +147,7 @@ export const PartnerInfo = ({ t }) => {
           </div>
           <div>
             <a href="http://www.meconcash.com/index_en.html">
-              <img src="/static/img/vendors/latest/meconcash.png" alt="meconcash" className="img--smaller"/>
+              <img src="/static/img/vendors/latest/meconcash.png" alt="meconcash" className="img--smaller" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.meconcash', {
