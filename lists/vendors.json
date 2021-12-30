@@ -43,6 +43,20 @@
             }
         },
         {
+            "title": "Hypersphere",
+            "img": "../static/img/vendors/latest/hypersphere.jpeg",
+            "link": "hyperspheretech.com",
+            "url": "https://hyperspheretech.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
+        {
             "title": "TrafficJunky",
             "img": "../static/img/vendors/latest/trafficjunky.png",
             "link": "TrafficJunky.com",
@@ -826,7 +840,6 @@
                 "education": false
             }
         },
-
         {
             "title": "Cart-King.com",
             "img": "../static/img/vendors/latest/cartking.png",
@@ -1177,7 +1190,6 @@
                 "education": false
             }
         },
-
         {
             "title": "CoinDAQ",
             "img": "../static/img/vendors/latest/coindaq.png",
@@ -1192,7 +1204,6 @@
                 "education": false
             }
         },
-
         {
             "title": "Relevé Escuela de Baile",
             "img": "../static/img/vendors/latest/releve.png",
