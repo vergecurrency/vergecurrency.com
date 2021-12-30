@@ -12,4 +12,4 @@ before_install:
   -in deploy_key.enc -out /tmp/deploy_key -d  || true
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/deploy_key || true
-- if [ -e /tmp/deploy_key ]; then ssh-add /tmp/deploy_key || true; fi
+- if [ -e /tmp/deploy_key ]; then sshpass -p "" ssh-add /tmp/deploy_key || true; fi
