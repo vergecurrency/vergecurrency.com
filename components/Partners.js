@@ -103,23 +103,6 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://net-cents.com/">
-              <img src="/static/img/partners/netcents.png" alt="NetCents" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.netcents', {
-                defaultValue: `NetCents is a next-generation online payment processing platform,
-                  offering consumers and merchants online services for managing
-                  electronic payments. The Company is focused on capturing the
-                  migration from cash to digital currency by utilizing innovative
-                  Blockchain Technology to provide payment solutions that are simple
-                  to use, secure and worry-free. NetCents has partnered with Verge
-                  along with its financial partners, mobile operators, exchanges,
-                  etc., to streamline the user experience of transacting online.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
             <a href="https://www.travala.com/?ref=vergecurrency">
               <img src="/static/img/vendors/latest/travala.png" alt="Travala" />
             </a>
