@@ -239,20 +239,6 @@
             }
         },
         {
-            "title": "Anna Freya Voice",
-            "img": "../static/img/vendors/latest/annafreyavoice.png",
-            "link": "anna-freya-voice.com",
-            "url": "https://www.anna-freya-voice.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": true
-            }
-        },
-        {
             "title": "Computerman",
             "img": "../static/img/vendors/latest/computerman.png",
             "link": "computerman.gr",
@@ -467,20 +453,6 @@
             "img": "../static/img/vendors/latest/cryptoemporium.jpg",
             "link": "cryptoemporium.eu",
             "url": "http://cryptoemporium.eu",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Folux Solutions",
-            "img": "../static/img/vendors/latest/foluxsolutions.png",
-            "link": "foluxsolutions.com",
-            "url": "https://www.foluxsolutions.com/",
             "categories": {
                 "retail": true,
                 "foodAndBev": false,
@@ -743,20 +715,6 @@
             }
         },
         {
-            "title": "Giacobbe & Co.",
-            "img": "../static/img/vendors/latest/giacobbeandco.png",
-            "link": "giacobbeandco.com",
-            "url": "https://giacobbeandco.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Ditchit",
             "img": "../static/img/vendors/latest/ditchit.png",
             "link": "ditchit.io",
@@ -793,20 +751,6 @@
                 "retail": false,
                 "foodAndBev": false,
                 "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "megaXcoin",
-            "img": "../static/img/vendors/latest/megaxstore.png",
-            "link": "megaxstore.com",
-            "url": "http://megaxstore.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
                 "entertainment": false,
                 "travel": false,
                 "education": false
@@ -953,20 +897,6 @@
             }
         },
         {
-            "title": "Neema Legal",
-            "img": "../static/img/vendors/latest/neemalegal.png",
-            "link": "neemalegal.com.au",
-            "url": "http://neemalegal.com.au",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Suns Limited IT Solutions, LLC",
             "img": "../static/img/vendors/latest/sunslimited2.png",
             "link": "sunslimited.com",
@@ -999,20 +929,6 @@
             "img": "../static/img/vendors/latest/scoopthis.jpg",
             "link": "scoopthisgames.com",
             "url": "http://scoopthisgames.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "101Vape",
-            "img": "../static/img/vendors/latest/101vape.jpg",
-            "link": "101vape.com",
-            "url": "http://101vape.com",
             "categories": {
                 "retail": true,
                 "foodAndBev": false,
@@ -1086,20 +1002,6 @@
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "All-mints.com ",
-            "img": "../static/img/vendors/latest/allmints.png",
-            "link": "all-mints.com",
-            "url": "http://all-mints.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": true,
                 "service": false,
                 "entertainment": false,
                 "travel": false,
@@ -1181,20 +1083,6 @@
             "img": "../static/img/vendors/latest/4coingigs.png",
             "link": "4coingigs.com",
             "url": "http://4coingigs.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "CoinDAQ",
-            "img": "../static/img/vendors/latest/coindaq.png",
-            "link": "coindaq.net",
-            "url": "https://coindaq.net/",
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
@@ -1331,20 +1219,6 @@
             }
         },
         {
-            "title": "Endeavor Woodworks",
-            "img": "../static/img/vendors/latest/endeavorwoodworks.png",
-            "link": "endeavorwoodworks.com",
-            "url": "http://endeavorwoodworks.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Hidester VPN",
             "img": "../static/img/vendors/latest/hidester.png",
             "link": "hidester.com",
@@ -1394,20 +1268,6 @@
             "categories": {
                 "retail": true,
                 "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Ketogenius",
-            "img": "../static/img/vendors/latest/ketogenius.jpg",
-            "link": "ketogenius.co.uk",
-            "url": "https://www.ketogenius.co.uk/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": true,
                 "service": false,
                 "entertainment": false,
                 "travel": false,
@@ -1491,20 +1351,6 @@
             "url": "https://www.atomixxblends.com/",
             "categories": {
                 "retail": false,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Green Pearl",
-            "img": "../static/img/vendors/latest/greenpearl.png",
-            "link": "greenpearl.nl",
-            "url": "https://www.greenpearl.nl/",
-            "categories": {
-                "retail": true,
                 "foodAndBev": false,
                 "service": false,
                 "entertainment": false,
@@ -1611,34 +1457,6 @@
             }
         },
         {
-            "title": "Muddy Adventures",
-            "img": "../static/img/vendors/latest/muddyadventures.png",
-            "link": "muddyadventures.es",
-            "url": "http://www.muddyadventures.es",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": true,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "FLOGmall",
-            "img": "../static/img/vendors/latest/flogmall-logo.png",
-            "link": "flogmall.com",
-            "url": "https://flogmall.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Bunker501",
             "img": "../static/img/vendors/latest/bunker501.png",
             "link": "bunker501.nl",
@@ -1709,52 +1527,10 @@
             }
         },
         {
-            "title": "Valutaomregneren",
-            "img": "../static/img/vendors/latest/valutaomregneren.png",
-            "link": "valutaomregneren.net",
-            "url": "https://www.valutaomregneren.net/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Shelter Blue",
             "img": "../static/img/vendors/latest/shelterblue.png",
             "link": "shelterblue.com",
             "url": "https://shelterblue.com/verge",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Internet Superstore",
-            "img": "../static/img/vendors/latest/internetsuperstore.png",
-            "link": "internetsuper.store",
-            "url": "https://internetsuper.store",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "CHAINCREATOR",
-            "img": "../static/img/vendors/latest/chaincreator.png",
-            "link": "chaincreator.org",
-            "url": "https://www.chaincreator.org",
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
@@ -1877,34 +1653,6 @@
             }
         },
         {
-            "title": "https://luxemiss.com",
-            "img": "../static/img/vendors/latest/luxemiss.jpg",
-            "link": "luxemiss.com",
-            "url": "https://luxemiss.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Nomad Postbox",
-            "img": "../static/img/vendors/latest/nomadpostbox.png",
-            "link": "nomadpostbox.com",
-            "url": "https://nomadpostbox.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": true,
-                "education": false
-            }
-        },
-        {
             "title": "NOWNodes",
             "img": "../static/img/vendors/latest/nownodes.jpg",
             "link": "NOWNodes.io",
@@ -1947,20 +1695,6 @@
             }
         },
         {
-            "title": "GetBlock",
-            "img": "../static/img/vendors/latest/getblock.gif",
-            "link": "GetBlock.io",
-            "url": "https://getblock.io/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Crypto Barista",
             "img": "../static/img/vendors/latest/cryptobarista.png",
             "link": "CryptoBarista.eu",
@@ -1985,6 +1719,20 @@
                 "service": true,
                 "entertainment": false,
                 "travel": true,
+                "education": false
+            }
+        },
+        {
+            "title": "Evolvedezignz.com",
+            "img": "../static/img/vendors/latest/evolvedesignz.png",
+            "link": "Evolvedezignz.com",
+            "url": "https://www.evolvedezignz.com/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": false,
+                "service": false,
+                "entertainment": false,
+                "travel": false,
                 "education": false
             }
         }
