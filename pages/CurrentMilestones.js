@@ -676,6 +676,16 @@ const mileStones = [
     progressState: '',
     infoLabel: 'EIN Presswire',
     infoUrl: 'https://www.einpresswire.com/article/548158886/open-source-cryptocurrency-is-taking-a-quantum-leap-with-data-shadowing-technology'
+  },
+  {
+    done: true,
+    doneDate: '10th February 2022',
+    title: 'Verge is now on EasyBit.com',
+    description: 'A user-friendly exchange that offers a volatility protection mode to their users.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/vergecurrency/status/1491777217638002692'
   }
   // {
   //   done: true or false,
