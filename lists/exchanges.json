@@ -257,6 +257,12 @@
       "title": "Bitnovo",
       "link": "bitnovo.com",
       "url": "https://www.bitnovo.com/buy-verge-online-en"
+    },
+    {
+      "img": "../static/img/exchanges/Easybit-Logotype.jpg",
+      "title": "EasyBit",
+      "link": "easybit.com",
+      "url": "https://easybit.com/"
     }
   ]
 }
