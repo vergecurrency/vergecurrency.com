@@ -686,6 +686,16 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1491777217638002692'
+  },
+  {
+    done: true,
+    doneDate: '14th February 2022',
+    title: 'Verge will be listed on CryptoToday.com (fair launch March 7th, 2022)',
+    description: 'The first coin to be listed on CryptoToday.com will be Vergecurrency.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/vergecurrency/status/1493293107156242441'
   }
   // {
   //   done: true or false,
