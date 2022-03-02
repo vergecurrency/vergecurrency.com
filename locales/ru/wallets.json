@@ -1,10 +1,10 @@
 {
   "body": {    
-     "header1": "Скачать наш кошелек",
+     "header1": "Скачайте наш основной кошелек VergePay",
      "header2": "Кошельки",
-     "text1": "Скачать наш последний кошелек<span className=hidden-xs><br /></span> для хранения Verge",
-     "text2": "Скачать наш последний кошелек для<span className=hidden-xs><br /></span> Windows, Linux and OSX или сохраните ваши Verge<span className=hidden-xs><br /></span> на ваш мобильный телефон с нашим Tor кошельком.",
-     "text3": "Наш кошелек защищенный, легкий и быстрый. Транзакции <span className=hidden-xs><br /></span> меньше 30 сек.",
-     "header3": "Кошельки для всех платформ"
+     "text1": "Самый надежный и простой способ безопасного хранения <span className=hidden-xs><br /></span> вашего Verge.",
+     "text2": "Загрузите один из наших самых новых кошельков VergePay<span className=hidden-xs><br /></span>для предпочитаемой платформы.",
+     "text3": "Наши кошельки VergePay тщательно протестированы, защищены и просты в использовании.",
+     "header3": "Кошельки для всех платформ."
   }
 }
