@@ -1,16 +1,46 @@
 {
-  "developer": {
-    "title": "Development Team",
+  "executive": {
+    "title": "Executive Team",
     "members": [
       {
         "img": "../static/img/team/sunerok.jpg",
-        "name": "Justin - Sunerok",
-        "role": "Founder, Lead Software Engineer",
+        "name": "Justin Valo - Sunerok",
+        "role": "Founder/CEO",
         "occupation": "Network Security & Blockchain Expert",
         "github": "https://github.com/justinvforvendetta",
         "twitter": "https://twitter.com/justinvendetta",
         "location": "Florida, USA"
       },
+      {
+        "img": "../static/img/team/mihael.jpg",
+        "name": "Mihael Radoslovic",
+        "role": "Chief Operating Officer",
+        "occupation": "Offshore Marine Engineer",
+        "twitter": "https://twitter.com/Mihael_CM",
+        "location": "Rijeka, Croatia"
+      },
+      {
+        "img": "../static/img/team/mark.jpg",
+        "name": "Mark Wittenberg",
+        "role": "Chief Marketing Officer",
+        "occupation": "Finance / Credit Specialist",
+        "twitter": "https://twitter.com/vergecanada",
+        "twitter_alt": "https://twitter.com/itsmwittenberg",
+        "location": "Alberta, Canada"
+      },
+      {
+        "img": "../static/img/team/xvgninja.jpg",
+        "name": "Alexandre Ederer- XVG Ninja",
+        "role": "Chief Content Officer",
+        "occupation": "Corporate English Teacher / Editor",
+        "twitter": "https://twitter.com/xvg_ninja",
+        "location": "Germany"
+      }
+    ]
+  },
+  "developer": {
+    "title": "Development Team",
+    "members": [
       {
         "img": "../static/img/team/maxius.jpg",
         "name": "Damien - Maxius",
@@ -34,15 +64,6 @@
         "location": "Tennessee, USA"
       },
       {
-        "img": "../static/img/team/mark.jpg",
-        "name": "Mark",
-        "role": "Business Development Strategist",
-        "occupation": "Finance / Credit Specialist",
-        "twitter": "https://twitter.com/vergecanada",
-        "twitter_alt": "https://twitter.com/itsmwittenberg",
-        "location": "Alberta, Canada"
-      },
-      {
         "img": "../static/img/team/desolator.jpg",
         "name": "Numan",
         "role": "Business Development",
@@ -61,14 +82,6 @@
   "marketing": {
     "title": "Marketing Team",
     "members": [
-      {
-        "img": "../static/img/team/xvgninja.jpg",
-        "name": "Alexandre - XVG Ninja",
-        "role": "Technical Marketing Engineer",
-        "occupation": "Corporate English Teacher / Editor",
-        "twitter": "https://twitter.com/xvg_ninja",
-        "location": "Germany"
-      },
       {
         "img": "../static/img/team/nichola.jpg",
         "name": "Nikki",
@@ -104,14 +117,6 @@
   "advisor": {
     "title": "Advisors",
     "members": [
-      {
-        "img": "../static/img/team/mihael.jpg",
-        "name": "Mihael",
-        "role": "Internal & External Communications",
-        "occupation": "Offshore Marine Engineer",
-        "twitter": "https://twitter.com/Mihael_CM",
-        "location": "Rijeka, Croatia"
-      },
       {
         "img": "../static/img/team/swizzlesticks.jpg",
         "name": "Lloyd - Swizzlesticks",
