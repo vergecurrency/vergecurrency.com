@@ -12,7 +12,7 @@ import i18n from '../i18n';
 
 const teamCategories = Object.values(require('../lists/team'));
 
-function VergeTeam(props) {
+function VergeTeam (props) {
   const { t } = props;
 
   return (
