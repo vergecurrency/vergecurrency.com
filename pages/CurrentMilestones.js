@@ -689,13 +689,13 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '14th February 2022',
-    title: 'Verge will be listed on CryptoToday.com (fair launch March 7th, 2022)',
-    description: 'The first coin to be listed on CryptoToday.com will be Vergecurrency.',
+    doneDate: '21st June 2022',
+    title: 'Verge is now available on Binance Earn',
+    description: 'You can earn passive income with $XVG though Binance Earn',
     progress: 100,
     progressState: '',
-    infoLabel: 'Twitter Link',
-    infoUrl: 'https://twitter.com/vergecurrency/status/1493293107156242441'
+    infoLabel: 'Binance Earn Page',
+    infoUrl: 'https://www.binance.com/en/earn/xvg'
   }
   // {
   //   done: true or false,
