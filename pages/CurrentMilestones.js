@@ -691,7 +691,7 @@ const mileStones = [
     done: true,
     doneDate: '21st June 2022',
     title: 'Verge is now available on Binance Earn',
-    description: 'You can earn passive income with $XVG though Binance Earn',
+    description: 'You can earn passive income with $XVG through Binance Earn',
     progress: 100,
     progressState: '',
     infoLabel: 'Binance Earn Page',
