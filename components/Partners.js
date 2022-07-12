@@ -140,6 +140,18 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
+          <div>
+            <a href="https://sevenb.io/">
+              <img src="/static/img/vendors/latest/7b.svg" alt="7b" className="img--smaller" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.sevenb', {
+                defaultValue: `
+                7b broker is a painless, user friendly cryptocurrency trading app.
+                Whether you want to buy, sell, trade or Hodl your XVG, the 7b app is virtually your personal broker! With fiat options available for even more convenience, you can buy Verge Currency directly with your credit card. Making the 7b app uncomplicated for beginners and providing all the useful trading tools found at any big exchange, but with alot less hassle. The 7b app is completely transparent about all fees with no hidden commissions and provides fast, secure and efficient transactions wrapped up into a straightforward design.`,
+              })}
+            </ExpandCollapse>
+          </div>
         </div>
       </div>
     </div>
