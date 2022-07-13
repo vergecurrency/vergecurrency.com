@@ -115,20 +115,6 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://mobiepay.io/">
-              <img src="/static/img/vendors/latest/mobiepay.png" alt="MobiePay" className="img--smaller" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.mobiepay', {
-                defaultValue: `
-                The MobiePay universal payments & rewards ecosystem lets consumers spend or send cash and digital currency worldwide from their 
-                mobile phone in seconds. Their integrated rewards platform supports cashback & rewards on purchases and referrals to promote 
-                commerce & adoption. Their focus is on mobile payments and payment gateways to provide an easy and secure way to serve the global 
-                retail marketplace.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
             <a href="http://www.meconcash.com/index_en.html">
               <img src="/static/img/vendors/latest/meconcash.png" alt="meconcash" className="img--smaller" />
             </a>
@@ -137,6 +123,18 @@ export const PartnerInfo = ({ t }) => {
                 defaultValue: `
                 Using the MeconCash platform, M.Pay, Verge holders will be able to instantly withdraw Korean Wons through a whopping 13 000 ATMs in 
                 South Korea. This will allow travelers, students and anyone who holds Verge the ability to quickly withdraw their money, 24/7.`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div>
+            <a href="https://sevenb.io/">
+              <img src="/static/img/vendors/latest/7b.svg" alt="7b" className="img--smaller" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.sevenb', {
+                defaultValue: `
+                7b broker is a painless, user friendly cryptocurrency trading app.
+                Whether you want to buy, sell, trade or Hodl your XVG, the 7b app is virtually your personal broker! With fiat options available for even more convenience, you can buy Verge Currency directly with your credit card. Making the 7b app uncomplicated for beginners and providing all the useful trading tools found at any big exchange, but with alot less hassle. The 7b app is completely transparent about all fees with no hidden commissions and provides fast, secure and efficient transactions wrapped up into a straightforward design.`,
               })}
             </ExpandCollapse>
           </div>
