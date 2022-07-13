@@ -115,20 +115,6 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://mobiepay.io/">
-              <img src="/static/img/vendors/latest/mobiepay.png" alt="MobiePay" className="img--smaller" />
-            </a>
-            <ExpandCollapse {...options}>
-              {t('home:partnership.mobiepay', {
-                defaultValue: `
-                The MobiePay universal payments & rewards ecosystem lets consumers spend or send cash and digital currency worldwide from their 
-                mobile phone in seconds. Their integrated rewards platform supports cashback & rewards on purchases and referrals to promote 
-                commerce & adoption. Their focus is on mobile payments and payment gateways to provide an easy and secure way to serve the global 
-                retail marketplace.`,
-              })}
-            </ExpandCollapse>
-          </div>
-          <div>
             <a href="http://www.meconcash.com/index_en.html">
               <img src="/static/img/vendors/latest/meconcash.png" alt="meconcash" className="img--smaller" />
             </a>
