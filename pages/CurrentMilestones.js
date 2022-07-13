@@ -686,6 +686,16 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1491777217638002692'
+  },
+  {
+    done: true,
+    doneDate: '21st June 2022',
+    title: 'Verge is now available on Binance Earn',
+    description: 'You can earn passive income with $XVG through Binance Earn',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Binance Earn Page',
+    infoUrl: 'https://www.binance.com/en/earn/xvg'
   }
   // {
   //   done: true or false,
