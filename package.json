@@ -54,7 +54,7 @@
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.35",
     "next": "4.2.3",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "normalize.css": "^7.0.0",
     "npm-update-all": "^1.0.1",
     "nprogress": "^0.2.0",
