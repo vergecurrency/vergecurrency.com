@@ -42,7 +42,7 @@ module.exports = {
       '/donationrewards': { page: '/donationrewards' },
       //'/get-started': { page: '/get-started' },
       '/getstarted': { page: '/getstarted' },
-      '/pressreleases': { page: '/pressreleases' },
+      // '/pressreleases': { page: '/pressreleases' },
       '/meetup-2018': { page: '/meetup-2018' },
       '/meetup-2019': { page: '/meetup-2019' },
       '/meetup': { page: '/meetup' },
