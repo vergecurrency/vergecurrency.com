@@ -1,48 +1,6 @@
 {
     "vendors": [
         {
-            "title": "PornHub",
-            "img": "../static/img/vendors/latest/PornHub_MG.png",
-            "link": "PornHub.com (+18)",
-            "url": "https://pornhub.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": true,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Brazzers",
-            "img": "../static/img/vendors/latest/Brazzers_MG.png",
-            "link": "Brazzers.com (+18)",
-            "url": "https://brazzers.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": true,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Nutaku",
-            "img": "../static/img/vendors/latest/Nutaku_MG.png",
-            "link": "Nutaku.com (+18)",
-            "url": "https://nutaku.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": true,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Hypersphere",
             "img": "../static/img/vendors/latest/hypersphere.jpeg",
             "link": "hyperspheretech.com",
@@ -52,20 +10,6 @@
                 "foodAndBev": false,
                 "service": true,
                 "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "TrafficJunky",
-            "img": "../static/img/vendors/latest/trafficjunky.png",
-            "link": "TrafficJunky.com",
-            "url": "https://www.trafficjunky.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": true,
                 "travel": false,
                 "education": false
             }

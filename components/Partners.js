@@ -22,22 +22,20 @@ export const PartnerInfo = ({ t }) => {
         </div>
         <div className="partners-grid">
           <div>
-            <a href="https://www.mindgeek.com/">
-              <img src="/static/img/partners/mindgeek.png" alt="Mindgeek" />
+            <a href="https://www.unstoppabledomains.com/?ref=verge" target="_blank" rel="noreferrer">
+              <img src="/static/img/partners/unstoppable.png" alt="Unstoppable Domains" />
             </a>
             <ExpandCollapse {...options}>
-              {t('home:partnership.mindgeek', {
-                defaultValue: `MindGeek is a global industry-leading information technology firm
-                headquartered in Luxembourg, with offices in Nicosia, London,
-                Miami, Montreal and Los Angeles. MindGeek continues to drive the
-                state of technology forward, developing industry-leading solutions
-                enabling faster, more efficient delivery of content every second
-                to millions of customers worldwide.`,
+              {t('home:partnership.unstoppable', {
+                defaultValue: `Unstoppable Domains. It's your name. Own it.
+                Own your identity in the digital world.
+                Get started with an NFT domain.
+                `,
               })}
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://www.voice-life.com/">
+            <a href="https://www.voice-life.com/" target="_blank" rel="noreferrer">
               <img src="/static/img/partners/voicelife.png" alt="Voice Life" className="img--smaller" />
             </a>
             <ExpandCollapse {...options}>
@@ -50,7 +48,7 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://changenow.io/">
+            <a href="https://changenow.io/" target="_blank" rel="noreferrer">
               <img src="/static/img/partners/changenow.png" alt="ChangeNOW" />
             </a>
             <ExpandCollapse {...options}>
@@ -65,7 +63,7 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://nowpayments.io/">
+            <a href="https://nowpayments.io/" target="_blank" rel="noreferrer">
               <img src="/static/img/partners/nowpayments.png" alt="NowPayments" />
             </a>
             <ExpandCollapse {...options}>
@@ -80,7 +78,7 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://hyperspheretech.com/">
+            <a href="https://hyperspheretech.com/" target="_blank" rel="noreferrer">
               <img src="/static/img/partners/hypersphere.png" alt="Voice Life" className="img--wider" />
             </a>
             <ExpandCollapse {...options}>
@@ -91,7 +89,7 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://pacquiaofoundation.org/">
+            <a href="https://pacquiaofoundation.org/" target="_blank" rel="noreferrer">
               <img src="/static/img/vendors/latest/pacfoundation.png" alt="PAC Foundation" className="img--wider" />
             </a>
             <ExpandCollapse {...options}>

@@ -84,6 +84,15 @@ _Cd into the newly created directory:_
 cd vergecurrency.com
 ```
 
+_If you have a different version of NodeJS, use Node Version Manager:_
+
+[NVM instructions](https://github.com/nvm-sh/nvm)
+
+```
+Example, nvm use v10.15.3
+```
+
+
 _Install dependencies:_
 
 ```
@@ -95,6 +104,7 @@ _Run the application:_
 ```
 yarn run dev
 ```
+
 
 _Open the website in your browser:_
 
