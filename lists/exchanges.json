@@ -13,10 +13,10 @@
       "url": "https://bittrex.com"
     },
     {
-      "img": "../static/img/exchanges/huobiglobal.jpg",
-      "title": "Huobi Global",
-      "link": "hbg.com",
-      "url": "https://www.hbg.com/en-us/topic/invited/?invite_code=pcjt3"
+      "img": "../static/img/exchanges/binance.svg",
+      "title": "Binance Connect",
+      "link": "binancecnt.com",
+      "url": "https://www.binancecnt.com/en/pre-connect?merchantCode=xubo_test"
     },
     {
       "img": "../static/img/exchanges/litebit.png",
