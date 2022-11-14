@@ -16,7 +16,7 @@
       "img": "../static/img/exchanges/binance.svg",
       "title": "Binance Connect",
       "link": "binancecnt.com",
-      "url": "https://www.binancecnt.com/en/pre-connect?merchantCode=xubo_test&cryptoCurrency=XVG"
+      "url": "https://www.binancecnt.com/en/pre-connect?merchantCode=xubo_test"
     },
     {
       "img": "../static/img/exchanges/litebit.png",
