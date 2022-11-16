@@ -1679,6 +1679,20 @@
                 "travel": false,
                 "education": false
             }
+        },
+        {
+            "title": "Webisoft.com",
+            "img": "../static/img/vendors/latest/webisoft.png",
+            "link": "Webisoft.com",
+            "url": "https://webisoft.com/",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
         }
     ]
 }
