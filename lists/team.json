@@ -64,14 +64,6 @@
         "location": "Tennessee, USA"
       },
       {
-        "img": "../static/img/team/desolator.jpg",
-        "name": "Numan",
-        "role": "Business Development",
-        "occupation": "Lead System Engineer",
-        "twitter": "https://twitter.com/Desolatorbtc",
-        "location": "Istanbul, Turkey"
-      },
-      {
         "img": "../static/img/team/hoffma.jpg",
         "name": "Nick",
         "role": "Business Development",
