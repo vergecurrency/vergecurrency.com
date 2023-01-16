@@ -1,5 +1,10 @@
 const wallets = [
     {
+        href: "https://walletnow.app.link/get",
+        logo: "/static/img/wallets/3rdparty/now-wallet.png",
+        alt: "NOW Wallet"
+    },
+	{
         href: "https://www.coinomi.com/",
         logo: "/static/img/wallets/3rdparty/coinomi.png",
         alt: "Coinomi"
