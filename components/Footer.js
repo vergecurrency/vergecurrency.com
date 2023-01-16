@@ -104,6 +104,11 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
+                      <Link href="https://nownodes.io/nodes/verge-xvg">
+                        <a href="https://nownodes.io/nodes/verge-xvg" rel="noopener noreferrer" target="_blank">{t('footer:now_nodes', { defaultValue: 'NOWNodes (XVG Node and Explorer)' })}</a>
+                      </Link>
+                    </li>
+                    <li>
                       <Link href="/developers">
                         <a href="/developers" name="See more">{t('footer:click_to_see_more', { defaultValue: 'Click to see more' })}</a>
                       </Link>
