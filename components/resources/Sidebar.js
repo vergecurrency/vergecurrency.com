@@ -44,6 +44,11 @@ export default () => (
           <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>Ruby wrapped gem for interacting with Verge wallet</a>
         </Link>
       </li>
+      <li>
+        <Link href="https://nownodes.io/nodes/verge-xvg">
+          <a href="https://nownodes.io/nodes/verge-xvg" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>Use NOWNodes to get access to Verge Nodes and Explorer</a>
+        </Link>
+      </li>
     </ul>
   </div>
 );
