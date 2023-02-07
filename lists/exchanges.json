@@ -263,6 +263,12 @@
       "title": "EasyBit",
       "link": "easybit.com",
       "url": "https://easybit.com/"
+    },
+    {
+      "img": "../static/img/exchanges/bkex.png",
+      "title": "BKEX",
+      "link": "bkex.com",
+      "url": "https://www.bkex.com/"
     }
   ]
 }
