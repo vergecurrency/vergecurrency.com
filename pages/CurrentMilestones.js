@@ -629,16 +629,6 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '27th August 2021',
-    title: 'Jayden Riley Joins Fueled by Verge',
-    description: 'Motocross racer joins National Foundation to bring awareness to digital currency and blockchain.',
-    progress: 100,
-    progressState: '',
-    infoLabel: 'EIN PressWire Media Release',
-    infoUrl: 'https://www.einpresswire.com/article/549838471/motocross-racer-joins-national-foundation-to-bring-awareness-to-digital-currency-and-blockchain'
-  },
-  {
-    done: true,
     doneDate: '7th September 2021',
     title: '$XVG can now be used on Binance Pay',
     description: 'Binance Pay allows users to send, spend and receive cryptocurrency with zero fees and lightning fast payments, making it an accessible and effortless way of transacting value worldwide.',
