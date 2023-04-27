@@ -5,7 +5,7 @@
       {
         "img": "../static/img/team/sunerok.jpg",
         "name": "Justin Valo - Sunerok",
-        "role": "Founder/CEO",
+        "role": "Founder, Lead Software Engineer",
         "occupation": "Network Security & Blockchain Expert",
         "github": "https://github.com/justinvforvendetta",
         "twitter": "https://twitter.com/justinvendetta",
@@ -14,7 +14,7 @@
       {
         "img": "../static/img/team/mihael.jpg",
         "name": "Mihael Radoslovic",
-        "role": "Chief Operating Officer",
+        "role": "Internal & External Communications",
         "occupation": "Director of Operations",
         "twitter": "https://twitter.com/itsmihael",
         "location": "Rijeka, Croatia"
@@ -22,7 +22,7 @@
       {
         "img": "../static/img/team/mark.jpg",
         "name": "Mark Wittenberg",
-        "role": "Chief Marketing Officer",
+        "role": "Business Development Strategist",
         "occupation": "Finance / Credit Specialist",
         "twitter": "https://twitter.com/vergecanada",
         "twitter_alt": "https://twitter.com/itsmwittenberg",
@@ -31,7 +31,7 @@
       {
         "img": "../static/img/team/xvgninja.jpg",
         "name": "Alexandre Ederer - XVG Ninja",
-        "role": "Chief Content Officer",
+        "role": "Technical Marketing Engineer",
         "occupation": "Corporate English Teacher / Editor",
         "twitter": "https://twitter.com/Ederer_digital",
         "location": "Germany"
