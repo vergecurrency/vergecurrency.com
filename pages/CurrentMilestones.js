@@ -967,6 +967,16 @@ const mileStones = [
     infoLabel: 'Medium Link',
     infoUrl: 'https://medium.com/vergecurrency/iso-20022-verge-compliance-dcc67dc3e933'
   },
+  {
+    done: true,
+    doneDate: '8th & 9th July 2023',
+    title: '3rd annual Fueled by Verge Performance Cup',
+    description: 'Taber Motorcycle Association hosts the third annual MX4LIFE Fueled by Verge Performance Cup on July 8th and 9th!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Press Link',
+    infoUrl: 'https://tabertimes.com/sports/2023/06/08/tma-gearing-up-for-big-summer-event/'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
