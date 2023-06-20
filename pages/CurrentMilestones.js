@@ -686,7 +686,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Binance Earn Page',
     infoUrl: 'https://www.binance.com/en/earn/xvg'
-  }
+  },
   {
     done: true,
     doneDate: '19th July 2022',
@@ -696,7 +696,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/7bbroker/status/1549380733105586177?t=VMGtO3qzhl1zhRemARpJhQ&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '23rd August 2022',
@@ -706,7 +706,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/Fueled_by_Verge/status/1562138431815237632?t=2iikd2XQKtyx87gDz2_Qsw&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '1st September 2022',
@@ -716,7 +716,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1565308153268473857?t=8S2_cr-CE6xyaKh-8ncP9A&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '3rd September 2022',
@@ -726,7 +726,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/Fueled_by_Verge/status/1566088857292255232?t=PdcfC5rUq9CPBae7vwR33w&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '4th October 2022',
@@ -736,7 +736,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Exchange Link',
     infoUrl: 'https://guardarian.com/buy-xvg'
-  }
+  },
   {
     done: true,
     doneDate: '8th October 2022',
@@ -746,7 +746,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/GilLinster/status/1578819252249055233?t=7qCHJm0BTkwfZqVbtqWlKQ&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '9th October 2022',
@@ -756,7 +756,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1579138979940929536?t=JhoYlb8HuO-zUxv4ZEeUMQ&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '17th October 2022',
@@ -766,7 +766,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Exchange Link',
     infoUrl: 'https://nowpayments.io/payment-integration/shopware-plugin'
-  }
+  },
   {
     done: true,
     doneDate: '28th October 2022',
@@ -776,7 +776,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Exchange Link',
     infoUrl: 'https://medium.com/vergecurrency/unstoppable-verge-8c6b1d8ed1a1'
-  }
+  },
   {
     done: true,
     doneDate: '17th November 2022',
@@ -786,7 +786,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Exchange Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1593282120872767498?t=HMat8lieXCcF4msvfUMpqA&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '22nd December 2022',
@@ -796,7 +796,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1605946461174509568?t=ch0H4-DRp8FzEsjPJsuEUA&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '29th December 2022',
@@ -806,7 +806,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1605946461174509568?t=ch0H4-DRp8FzEsjPJsuEUA&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '29th December 2022',
@@ -816,7 +816,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/Swapika_com/status/1618332436227817472?t=DVH7MOeYcCAHGxvG8eto_g&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '2nd February 2023',
@@ -826,7 +826,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/StealthEX_io/status/1621134537790201856?t=kFoVWzwFzcg1jxKBZ_llxw&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '6th February 2023',
@@ -836,7 +836,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/CoinRabbitLoans/status/1622581947196121090?t=KDtIjQiWaK1my_L5xCtE9Q&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '8th February 2023',
@@ -846,7 +846,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1623306062974656513?t=qy4JsUwao3oxwZRL8bIEmg&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '10th February 2023',
@@ -856,7 +856,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/NOWNodes/status/1624061852463378451?t=63vqOnoAf7Zx_UKVWrtMfA&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '17th February 2023',
@@ -866,7 +866,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1626647460910354433?t=M9GcA_78FloV4vItI_FrSQ&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '4th April 2023',
@@ -876,7 +876,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/berlinweb3com/status/1643247260564594690?t=SstNO6UE6q88k4ruiYI6jw&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '11th April 2023',
@@ -886,7 +886,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1645773478208090113?t=bW7eWHrd8o_dFroisEA_9w&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '13th April 2023',
@@ -896,7 +896,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1645773478208090113?t=bW7eWHrd8o_dFroisEA_9w&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '23rd April 2023',
@@ -906,7 +906,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/Fueled_by_Verge/status/1650168309546123267?t=nrPOVX3tIejFniZOX1b2xg&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '29th April 2023',
@@ -916,7 +916,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/itsmihael/status/1652299090863046656?t=4ZAqZzbeMAxbfriwhelo2A&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '23rd May 2023',
@@ -926,7 +926,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/vergecurrency/status/1661063689477275671?t=PPjkWnmw-22WN7dRunb8zw&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '8th June 2023',
@@ -936,7 +936,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://twitter.com/itsmihael/status/1666785358749605889?t=Q4oBHnAZkny787CQnOIdoA&s=19'
-  }
+  },
   {
     done: true,
     doneDate: '5th June 2023',
@@ -946,7 +946,7 @@ const mileStones = [
     progressState: '',
     infoLabel: 'Twitter Link',
     infoUrl: 'https://medium.com/vergecurrency/iso-20022-verge-compliance-dcc67dc3e933'
-  }
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
