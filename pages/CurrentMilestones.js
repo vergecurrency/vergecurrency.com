@@ -750,7 +750,7 @@ const mileStones = [
   {
     done: true,
     doneDate: '9th October 2022',
-    title: 'Verge celebrates it's 8th Birthday',
+    title: 'Verge celebrates its 8th Birthday!',
     description: 'Founded on 9th October 2014, we celebrate our 8th birthday!',
     progress: 100,
     progressState: '',
