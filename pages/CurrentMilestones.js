@@ -930,7 +930,7 @@ const mileStones = [
   {
     done: true,
     doneDate: '8th May 2023',
-    title: 'Verge Core source code begins overhaul',
+    title: 'Development Update: Verge Core source code begins overhaul',
     description: 'founder/developer @justinvforvendetta begins massive update/overhaul of Verge Core',
     progress: 100,
     progressState: '',
