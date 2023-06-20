@@ -869,6 +869,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '23rd February 2023',
+    title: 'Development Update: .dart software coin library',
+    description: 'A .dart cryptocurrency library for Flutter Software Development Kit, with support for Verge Blockchain',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Link',
+    infoUrl: 'https://github.com/vergecurrency/coinslib'
+  },
+  {
+    done: true,
     doneDate: '4th April 2023',
     title: 'Partnership Announcement - Web3 Berlin',
     description: 'The biggest crypto and NFT conference in Europe',
@@ -919,6 +929,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '8th May 2023',
+    title: 'Verge Core source code begins overhaul',
+    description: 'founder/developer @justinvforvendetta begins massive update/overhaul of Verge Core',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Github Link',
+    infoUrl: 'https://github.com/vergecurrency/verge/commits/u22'
+  },
+  {
+    done: true,
     doneDate: '23rd May 2023',
     title: 'The Official Verge XVGApes NFT Collection Goes Live',
     description: 'XVG Apes have arrived! Verge Ambassador @Binary_Punks and Verge Currency launch their official XVGApes collection',
@@ -944,7 +964,7 @@ const mileStones = [
     description: 'Bridging the gap between traditional finance & cryptocurrency.',
     progress: 100,
     progressState: '',
-    infoLabel: 'Twitter Link',
+    infoLabel: 'Medium Link',
     infoUrl: 'https://medium.com/vergecurrency/iso-20022-verge-compliance-dcc67dc3e933'
   },
   // {
