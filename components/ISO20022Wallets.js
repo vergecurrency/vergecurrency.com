@@ -3,6 +3,11 @@ const wallets = [
         href: "https://github.com/vergecurrency/VergeX/files/11666117/vergex-windows64.zip",
         logo: "/static/img/wallets/windows.svg",
         alt: "VergeX Windows 64bit"
+    },
+    {
+        href: "https://github.com/vergecurrency/VergeX/files/11660120/vergex-linux64.zip",
+        logo: "/static/img/wallets/linux.svg",
+        alt: "VergeX Linux 64bit"
     }
 ]
 
