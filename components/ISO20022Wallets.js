@@ -26,7 +26,7 @@ export const ISO20022WalletInfo = ({ t }) =>
                     })}
                 </h2>
                 <h4>{t('wallets:iso20022.subintro', {
-                    defaultValue: 'ISO 20022 is a multi part International Standard prepared by the ISO Technical Committee TC68 Financial Services. It describes a common platform for the development of messages using: <br /> * a modelling methodology to capture in a syntax-independent way financial business areas, business transactions and associated message flows <br /> * a central dictionary of business items used in financial communications <br /> * a set of XML and ASN.1 design rules to convert the message models into XML or ASN.1 schemas, whenever the use of the ISO 20022 XML or ASN.1-based syntax is preferred',
+                    defaultValue: 'ISO 20022 is a multi part International Standard prepared by the ISO Technical Committee TC68 Financial Services. It describes a common platform for the development of messages using:  1) a modelling methodology to capture in a syntax-independent way financial business areas, business transactions and associated message flows.  2) a central dictionary of business items used in financial communications.  3) a set of XML and ASN.1 design rules to convert the message models into XML or ASN.1 schemas, whenever the use of the ISO 20022 XML or ASN.1-based syntax is preferred',
                 })}
                 </h4>
             </div>
