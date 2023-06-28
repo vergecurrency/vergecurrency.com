@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import Wallets from '../components/Wallets';
 import WalletsBtn from '../components/WalletsBtn';
 import { ColdStorageWalletInfo } from '../components/ColdStorageWallets';
+import { ISO20022WalletInfo } from '../components/ISO20022Wallets';
 import { ThirdPartyWalletInfo } from '../components/3rdPartyWallets';
 import i18n from '../i18n';
 
@@ -104,7 +105,7 @@ function WalletsPage(props) {
           </div>
 
           <ColdStorageWalletInfo t={t} />
-
+		  <ISO20022WalletInfo t={t} />
           <ThirdPartyWalletInfo t={t} />
 
         </div>

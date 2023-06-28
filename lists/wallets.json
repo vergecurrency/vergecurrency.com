@@ -131,15 +131,6 @@
       "available": true,
       "os": "Ubuntu",
       "availableinstructions": false
-    },
-    {
-      "name": "ISO20022 VergeX Wallet",
-      "url": "https://github.com/vergecurrency/VergeX/files/11666117/vergex-windows64.zip",
-      "classNames": "wallets--icon__windows wallets--icon__windows--tor",
-      "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
-      "available": true,
-      "os": "Windows",
-      "availableinstructions": false
     }
   ]
 }
