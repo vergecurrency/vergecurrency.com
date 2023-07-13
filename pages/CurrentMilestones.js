@@ -984,17 +984,17 @@ const mileStones = [
     description: 'ISO 20022 wallets, for making ISO 20022 transactions with Verge, are available to download on the website',
     progress: 100,
     progressState: '',
-    infoLabel: 'Verge Link',
+    infoLabel: 'Verge Website Link',
     infoUrl: 'https://vergecurrency.com/wallets/'
   },
   {
     done: true,
     doneDate: '4th July 2023',
     title: 'Binance Futures',
-    description: 'Binance Futures Launched USDⓈ-M XVG Perpetual Contract',
+    description: 'Binance Futures Launched USDS-M XVG Perpetual Contract',
     progress: 100,
     progressState: '',
-    infoLabel: 'Press Link',
+    infoLabel: 'Binance Press Link',
     infoUrl: 'https://www.binance.com/en/support/announcement/binance-futures-will-launch-usd%E2%93%A2-m-xvg-perpetual-contract-with-up-to-20x-leverage-673af51d78494b5c945dadba6e5072b3'
   },
   {
@@ -1034,7 +1034,7 @@ const mileStones = [
     description: 'LBank Launch XVG/USDT Margined Perpetual Contracts',
     progress: 100,
     progressState: '',
-    infoLabel: 'Lbank.site Link',
+    infoLabel: 'Lbank.site Press Link',
     infoUrl: 'https://support.lbank.site/hc/en-gb/articles/20328333523353'
   },
   {
@@ -1044,8 +1044,78 @@ const mileStones = [
     description: 'Binance added XVG as a new borrowable asset on Isolated Margin.',
     progress: 100,
     progressState: '',
-    infoLabel: 'Press Link',
+    infoLabel: 'Binance Press Link',
     infoUrl: 'https://www.binance.com/en/support/announcement/binance-adds-xvg-on-isolated-margin-580de383967f459ba1306d67886d5978?ref=AZTKZ9XS&utm_source=BinanceTwitter&utm_medium=GlobalSocial&utm_campaign=GlobalSocial'
+  },
+  {
+    done: true,
+    doneDate: '6th July 2023',
+    title: 'Huobi adds XVG/USDT perpetual futures',
+    description: 'Huobi adds XVG/USDT perpetual futures',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Huobi Press Link',
+    infoUrl: 'https://www.huobi.com/support/en-us/detail/94942935487520'
+  },
+  {
+    done: true,
+    doneDate: '6th July 2023',
+    title: 'SuperEx New Listing',
+    description: 'SuperEx launches XVG/USDT perpetual contract trading pair.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/SuperExet/status/1676833978970677253?t=QLW1r-Tcb9BfJ7o_whlQ1Q&s=19'
+  },
+  {
+    done: true,
+    doneDate: '7th July 2023',
+    title: 'Kucoin Futures',
+    description: 'KuCoin Futures launch USDT Margined XVG Contract',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'KuCoin Press Link',
+    infoUrl: 'https://www.kucoin.com/announcement/en-kucoin-futures-has-launched-usdt-margined-xvg-contract'
+  },
+  {
+    done: true,
+    doneDate: '9th July 2023',
+    title: 'Gate.io New Trading Pair',
+    description: 'Gate.io add XVG/USDT trading pair',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Gate.io Press Link',
+    infoUrl: 'https://www.gate.io/article/31315'
+  },
+  {
+    done: true,
+    doneDate: '10th July 2023',
+    title: 'SuperEx lists XVG',
+    description: 'Verge is available to buy on SuperEx, the world's first Web 3 exchange',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/SuperExet/status/1678343328843337729?t=euAi4ip13Qu1hC-F51jvlg&s=19/'
+  },
+  {
+    done: true,
+    doneDate: '10th July 2023',
+    title: 'Verge is available on Guarda Wallet! ',
+    description: 'Buy, swap, store and manage XVG on Guarda Wallet',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/GuardaWallet/status/1678434241317576704?t=5z3h3FlSXpk9R_pNqxiBTw&s=19'
+  },
+  {
+    done: true,
+    doneDate: '28th June 2023',
+    title: 'Even More from Binance!',
+    description: 'Binance adds XVG as a new borrowable asset on Cross Margin!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Binance Press Link',
+    infoUrl: 'https://www.binance.com/en/support/announcement/binance-adds-pendle-storj-xec-xvg-on-cross-margin-d96ded5f2e274480b7d51281481ea709'
   },
   
   // {
