@@ -1091,7 +1091,7 @@ const mileStones = [
     done: true,
     doneDate: '10th July 2023',
     title: 'SuperEx lists XVG',
-    description: 'Verge is available to buy on SuperEx, the world's first Web 3 exchange',
+    description: 'Verge is available to buy on SuperEx, the worlds first Web 3 exchange',
     progress: 100,
     progressState: '',
     infoLabel: 'Twitter Link',
