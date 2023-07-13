@@ -1109,15 +1109,24 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '28th June 2023',
-    title: 'Even More from Binance!',
+    doneDate: '11th July 2023',
+    title: 'Even More from Binance, Part 1!',
     description: 'Binance adds XVG as a new borrowable asset on Cross Margin!',
     progress: 100,
     progressState: '',
     infoLabel: 'Binance Press Link',
     infoUrl: 'https://www.binance.com/en/support/announcement/binance-adds-pendle-storj-xec-xvg-on-cross-margin-d96ded5f2e274480b7d51281481ea709'
   },
-  
+  {
+    done: true,
+    doneDate: '13th July 2023',
+    title: 'Even More from Binance, Part 2!!!',
+    description: 'Binance Adds XVG/TRY & XVG/TUSD Trading Pairs!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Binance Press Link',
+    infoUrl: 'https://www.binance.com/en/support/announcement/binance-adds-arb-eth-bch-try-xvg-try-xvg-tusd-trading-pairs-41f4659c881e41a0924a77c9356272c9'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
