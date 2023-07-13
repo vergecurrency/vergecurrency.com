@@ -977,6 +977,77 @@ const mileStones = [
     infoLabel: 'Press Link',
     infoUrl: 'https://tabertimes.com/sports/2023/06/08/tma-gearing-up-for-big-summer-event/'
   },
+  {
+    done: true,
+    doneDate: '28th June 2023',
+    title: 'ISO 20022 XVG Wallets',
+    description: 'ISO 20022 wallets, for making ISO 20022 transactions with Verge, are available to download on the website',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Verge Link',
+    infoUrl: 'https://vergecurrency.com/wallets/'
+  },
+  {
+    done: true,
+    doneDate: '4th July 2023',
+    title: 'Binance Futures',
+    description: 'Binance Futures Launched USDⓈ-M XVG Perpetual Contract',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Press Link',
+    infoUrl: 'https://www.binance.com/en/support/announcement/binance-futures-will-launch-usd%E2%93%A2-m-xvg-perpetual-contract-with-up-to-20x-leverage-673af51d78494b5c945dadba6e5072b3'
+  },
+  {
+    done: true,
+    doneDate: '4th July 2023',
+    title: 'Giottus Crypto Platform lists XVG',
+    description: 'India's leading Crypto Assets Trading Platform lists XVG!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/giottus/status/1676202824441679876?t=fxLTjBkIt1YHrqkFDBjmkA&s=19'
+  },
+  {
+    done: true,
+    doneDate: '5th July 2023',
+    title: 'XVG is now available on Atomic Dex/Komodo Wallet',
+    description: 'XVG is now available on Atomic Decentralized Exchange and Komodo Wallet',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/vergecurrency/status/1676558885732089856?t=O-P4MLWrFFrYNjGesG1anA&s=19'
+  },
+  {
+    done: true,
+    doneDate: '5th July 2023',
+    title: 'XVG on Bybit Futures',
+    description: 'XVG/USDT futures contracts are now available on Bybit Futures',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Twitter Link',
+    infoUrl: 'https://twitter.com/Bybit_Official/status/1676561567955968003?t=ermuw4SctcERWOETSjPEbw&s=19/'
+  },
+  {
+    done: true,
+    doneDate: '5th July 2023',
+    title: 'LBank Futures',
+    description: 'LBank Launch XVG/USDT Margined Perpetual Contracts',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Lbank.site Link',
+    infoUrl: 'https://support.lbank.site/hc/en-gb/articles/20328333523353'
+  },
+  {
+    done: true,
+    doneDate: '6th July 2023',
+    title: 'Binance adds Isolated Margin',
+    description: 'Binance added XVG as a new borrowable asset on Isolated Margin.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Press Link',
+    infoUrl: 'https://www.binance.com/en/support/announcement/binance-adds-xvg-on-isolated-margin-580de383967f459ba1306d67886d5978?ref=AZTKZ9XS&utm_source=BinanceTwitter&utm_medium=GlobalSocial&utm_campaign=GlobalSocial'
+  },
+  
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
