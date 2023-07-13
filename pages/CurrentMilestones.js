@@ -1001,7 +1001,7 @@ const mileStones = [
     done: true,
     doneDate: '4th July 2023',
     title: 'Giottus Crypto Platform lists XVG',
-    description: 'India's leading Crypto Assets Trading Platform lists XVG!',
+    description: 'The leading crypto exchange in India, Giottus, lists XVG!',
     progress: 100,
     progressState: '',
     infoLabel: 'Twitter Link',
