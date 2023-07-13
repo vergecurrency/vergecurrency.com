@@ -1120,12 +1120,22 @@ const mileStones = [
   {
     done: true,
     doneDate: '13th July 2023',
-    title: 'Even More from Binance, Part 2!!!',
+    title: 'Even More from Binance, Part 2!',
     description: 'Binance Adds XVG/TRY & XVG/TUSD Trading Pairs!',
     progress: 100,
     progressState: '',
     infoLabel: 'Binance Press Link',
     infoUrl: 'https://www.binance.com/en/support/announcement/binance-adds-arb-eth-bch-try-xvg-try-xvg-tusd-trading-pairs-41f4659c881e41a0924a77c9356272c9'
+  },
+  {
+    done: true,
+    doneDate: '13th July 2023',
+    title: 'More from Gate.io!',
+    description: 'Verge is now available on Gate.io Lend and Earn',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Gate.io Press Link',
+    infoUrl: 'https://www.gate.io/article/31355'
   },
   // {
   //   done: true or false,
