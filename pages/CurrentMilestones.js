@@ -1119,6 +1119,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '11th July 2023',
+    title: 'New listing at BYDFi!',
+    description: 'BYDFi launches Perpetual Contracts',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'BYDFi Press Link',
+    infoUrl: 'https://twitter.com/BYDFi/status/1678743441625214978'
+  },
+  {
+    done: true,
     doneDate: '13th July 2023',
     title: 'Even More from Binance, Part 2!',
     description: 'Binance Adds XVG/TRY & XVG/TUSD Trading Pairs!',
