@@ -1011,11 +1011,11 @@ const mileStones = [
     done: true,
     doneDate: '5th July 2023',
     title: 'XVG is now available on Atomic Dex/Komodo Wallet',
-    description: 'XVG is now available on Atomic Decentralized Exchange and Komodo Wallet',
+    description: 'XVG is now available on Komodo (formerly Atomic) Decentralized Exchange and Komodo Wallet',
     progress: 100,
     progressState: '',
     infoLabel: 'Twitter Link',
-    infoUrl: 'https://twitter.com/vergecurrency/status/1676558885732089856?t=O-P4MLWrFFrYNjGesG1anA&s=19'
+    infoUrl: 'https://twitter.com/KomodoPlatform/status/1679989203898363905?s=20'
   },
   {
     done: true,
