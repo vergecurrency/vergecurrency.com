@@ -92,7 +92,7 @@
       },
 	  {
         "img": "../static/img/team/bane.jpg",
-        "name": "Jake",
+        "name": "Jake - Bane",
         "role": "Social Media / Marketing  / Outrreachh",
         "occupation": "Data Analyst",
         "twitter": "https://twitter.com/Bane420XVG",
@@ -111,6 +111,14 @@
         "role": "Advisor & Marketing",
         "twitter": "https://twitter.com/cryptooza",
         "location": "India"
+      },
+	  {
+        "img": "../static/img/team/tran.png",
+        "name": "Tran - Justin",
+        "role": "Social Media",
+		"occupation": "Plumber/Welder",
+		"twitter": "https://twitter.com/TranJ87 ",
+        "location": "Ontario, Canada"
       }
     ]
   },
