@@ -905,7 +905,7 @@ const mileStones = [
     progress: 100,
     progressState: '',
     infoLabel: 'Twitter Link',
-    infoUrl: 'https://twitter.com/vergecurrency/status/1645773478208090113?t=bW7eWHrd8o_dFroisEA_9w&s=19'
+    infoUrl: 'https://twitter.com/CryptoWalletcom/status/1646513576692121600?t=oI4yG-Bvc2MyH_eIY2w55Q&s=1'
   },
   {
     done: true,
