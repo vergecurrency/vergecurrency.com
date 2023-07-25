@@ -257,6 +257,12 @@
       "title": "BKEX",
       "link": "bkex.com",
       "url": "https://www.bkex.com/"
+    },
+	{
+      "img": "../static/img/exchanges/komodo-sign_black.png",
+      "title": "atomicDEX",
+      "link": "atomicdex.io",
+      "url": "https://atomicdex.io/en/"
     }
   ]
 }
