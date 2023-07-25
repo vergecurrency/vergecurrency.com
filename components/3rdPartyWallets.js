@@ -15,14 +15,14 @@ const wallets = [
         alt: "Guarda"
     },
     {
-        href: "https://atomicwallet.io/",
-        logo: "/static/img/wallets/3rdparty/atomicwallet.png",
-        alt: "Atomic"
-    },
-    {
         href: "https://www.investvoyager.com/",
         logo: "/static/img/wallets/3rdparty/voyager.png",
         alt: "Voyager"
+    },
+	{
+        href: "https://atomicwallet.io/komodo-wallet",
+        logo: "/static/img/wallets/3rdparty/komodo-wallet-logo_black.png",
+        alt: "Komodo"
     }
 ]
 
