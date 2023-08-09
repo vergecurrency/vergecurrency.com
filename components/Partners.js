@@ -35,7 +35,7 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://www.voice-life.com/" target="_blank" rel="noreferrer">
+            <a href="https://voicelife.io" target="_blank" rel="noreferrer">
               <img src="/static/img/partners/voicelife.png" alt="Voice Life" className="img--smaller" />
             </a>
             <ExpandCollapse {...options}>

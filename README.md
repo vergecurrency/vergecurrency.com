@@ -14,16 +14,19 @@ You need the following prerequisites to be able to both install and get the proj
 Open your preferred terminal and install the following packages in the correct order.
 
 _Homebrew:_
+
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 _NodeJS:_
+
 ```
 brew install node
 ```
 
 _Yarn:_
+
 ```
 brew install yarn
 ```
@@ -31,18 +34,21 @@ brew install yarn
 ### Windows:
 
 _Git_
+
 ```
 Download the Windows installer here:
 https://git-scm.com/download/win
 ```
 
 _NodeJS:_
+
 ```
 Download the Windows installer here:
 https://nodejs.org/en/download/
 ```
 
 _Yarn:_
+
 ```
 Download the Windows installer here:
 https://yarnpkg.com/lang/en/docs/install/
@@ -92,6 +98,11 @@ _If you have a different version of NodeJS, use Node Version Manager:_
 Example, nvm use v10.15.3
 ```
 
+Or using .nvmrc
+
+```
+nvm use
+```
 
 _Install dependencies:_
 
@@ -104,7 +115,6 @@ _Run the application:_
 ```
 yarn run dev
 ```
-
 
 _Open the website in your browser:_
 
@@ -169,20 +179,22 @@ gulp
 ## Translations
 
 ### Folder structure
+
 Make sure you only use the short name for languages. So for example the folder name for the English language is `en`, Russian will be `ru` and France will be `fr`. If you would use a folder name that has a different name it will not work. So for example `en-GB` wouldn't work. If you feel this is a thing that we should allow, then please contact me on Discord (StanFaas).
 
 ### New translations
+
 When adding a new language to our locales folder you should make sure to add the language code (folder name) to the `languages.json` file.
 This file can be found in: `./lists/languages.json`. Be aware that the language will be active directly after you add it to that file.
 
 ## Built With
 
-* [NextJS](https://github.com/zeit/next.js/) - The SSR framework used
-* [i18next](https://www.i18next.com/) - Used for translations
-* [ESLint](https://eslint.org/) - Used for JavaScript linting
-* [sass-lint](https://github.com/sasstools/sass-lint) - Used for SCSS linting
-* [postcss-loader](https://github.com/postcss/postcss-loader) - Used for transforming styles with Webpack.
-* [autoprefixer](https://github.com/postcss/autoprefixer) - Used to parse CSS and add vendor prefixes to rules by Can I use.
+- [NextJS](https://github.com/zeit/next.js/) - The SSR framework used
+- [i18next](https://www.i18next.com/) - Used for translations
+- [ESLint](https://eslint.org/) - Used for JavaScript linting
+- [sass-lint](https://github.com/sasstools/sass-lint) - Used for SCSS linting
+- [postcss-loader](https://github.com/postcss/postcss-loader) - Used for transforming styles with Webpack.
+- [autoprefixer](https://github.com/postcss/autoprefixer) - Used to parse CSS and add vendor prefixes to rules by Can I use.
 
 ## Contributing
 
@@ -190,10 +202,10 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Authors
 
-* **Stan Faas** - *Main developer* - [StanFaas](https://github.com/StanFaas)
-* **Edwin de Boer** - *Main developer* - [EdwinB89](https://github.com/EdwinB89)
-* **Max1us** - *Developer / Maintainer* - [Max1us](https://github.com/Max1us)
-* **Waveon3** - *Webdesigns* - [Waveon3](https://reddit.com/user/waveon3)
+- **Stan Faas** - _Main developer_ - [StanFaas](https://github.com/StanFaas)
+- **Edwin de Boer** - _Main developer_ - [EdwinB89](https://github.com/EdwinB89)
+- **Max1us** - _Developer / Maintainer_ - [Max1us](https://github.com/Max1us)
+- **Waveon3** - _Webdesigns_ - [Waveon3](https://reddit.com/user/waveon3)
 
 See also the list of [contributors](CONTRIBUTING.md) who participated in this project.
 
