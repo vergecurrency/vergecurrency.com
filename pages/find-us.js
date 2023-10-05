@@ -43,7 +43,6 @@ function FindUs(props) {
                         <div className="divTableCell"><a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/twitter.png" alt="Twitter" title="Twitter" /></a></div>
                         <div className="divTableCell"><a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/reddit.png" alt="Reddit" title="Reddit" /></a></div>
                         <div className="divTableCell"><a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/discord.png" alt="Discord" title="Discord" /></a></div>
-                        <div className="divTableCell"><a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/telegram.png" alt="Telegram" title="Telegram" /></a></div>
                       </div>
                       <div className="divTableRow">
                         <div className="divTableCell">Twitter</div>
