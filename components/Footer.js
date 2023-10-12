@@ -207,6 +207,11 @@ const Footer = ({ t }) => (
                 </Link>
               </div>
               <div className="social__icon">
+                <Link href="https://t.me/VERGExvg">
+                  <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram" name="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
+                </Link>
+              </div>
+              <div className="social__icon">
                 <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
                   <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube" name="Youtube"><FontAwesomeIcon icon={faYoutube} /></a>
                 </Link>
