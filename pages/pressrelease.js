@@ -117,8 +117,8 @@ function Pressrelease(props) {
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">
-                        <Link href="https://t.me/VERGExvg" target="_blank">
-                          <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram"><FontAwesomeIcon icon={faTelegram} size="2x" /></a>
+                        <Link href="https://t.me/officialxvg" target="_blank">
+                          <a href="https://t.me/officialxvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram"><FontAwesomeIcon icon={faTelegram} size="2x" /></a>
                         </Link>
                       </div>
                       <div className="pt-xs social__icon">

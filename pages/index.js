@@ -484,9 +484,9 @@ function Home(props) {
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://t.me/VERGExvg">
+                          <Link href="https://t.me/officialxvg">
                             <a
-                              href="https://t.me/VERGExvg"
+                              href="https://t.me/officialxvg"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="social__link social__link--telegram"

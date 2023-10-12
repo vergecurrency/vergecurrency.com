@@ -207,8 +207,8 @@ const Footer = ({ t }) => (
                 </Link>
               </div>
               <div className="social__icon">
-                <Link href="https://t.me/VERGExvg">
-                  <a href="https://t.me/VERGExvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram" name="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
+                <Link href="https://t.me/officialxvg">
+                  <a href="https://t.me/officialxvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram" name="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
                 </Link>
               </div>
               <div className="social__icon">
