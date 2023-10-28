@@ -38,20 +38,6 @@
       }
     ]
   },
-  "developer": {
-    "title": "Development Team",
-    "members": [
-      {
-        "img": "../static/img/team/maxius.jpg",
-        "name": "Damien - Maxius",
-        "role": "Software Engineer",
-        "occupation": "Full Stack Web Developer",
-        "github": "https://github.com/Max1us",
-        "twitter": "https://twitter.com/_maxius_",
-        "location": "Melbourne, Australia"
-      }
-    ]
-  },
   "businessdevelopment": {
     "title": "Business Development",
     "members": [
