@@ -11,6 +11,10 @@
     "third": {
       "header": "Open Source Development <br>& <span>Community Driven.</span>",
       "text": "We are proud to be 100% open-source. Our project is run entirely by volunteer community members and dedicated indiviudals who wish to make a difference in the world."
+    },
+	"fourth": {
+      "header": "One Team, Two Chains, <br>& <span>Unlimited Usecases.</span>",
+      "text": "Introducing the latest addition to the Verge ecosystem, the Verge ERC-20 token on Ethereum. Expanding the possibilities for everyday people to use Verge, without any hassle!"
     }
   },
   "texts": {

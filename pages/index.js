@@ -178,6 +178,26 @@ function Home(props) {
                     />
                   </div>
                 </div>
+				<div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
+                  <div className="reason--inner">
+                    <h3
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.fourth.header', {
+                          defaultvalue:
+                            'One Team, Two Chains, <br>& <span>Unlimited Usecases.',
+                        }),
+                      }}
+                    />
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.fourth.text', {
+                          defaultvalue:
+                            'Introducing the latest addition to the Verge ecosystem, the Verge ERC-20 token on Ethereum. Expanding the possibilities for everyday people to use Verge, without any hassle!',
+                        }),
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
