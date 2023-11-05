@@ -61,12 +61,6 @@
       "url": "https://stealthex.io/"
     },
     {
-      "img": "../static/img/exchanges/elastum.png",
-      "title": "Elastum",
-      "link": "elastum.io",
-      "url": "https://www.elastum.io"
-    },
-    {
       "img": "../static/img/exchanges/bitturk.png",
       "title": "BitTurk",
       "link": "bitturk.com",
@@ -121,12 +115,6 @@
       "url": "https://changelly.com"
     },
     {
-      "img": "../static/img/exchanges/nexchange.png",
-      "title": "N.exchange",
-      "link": "n.exchange",
-      "url": "https://n.exchange"
-    },
-    {
       "img": "../static/img/exchanges/bitbns.png",
       "title": "Bitbns",
       "link": "bitbns.com",
@@ -155,12 +143,6 @@
       "title": "HitBTC",
       "link": "hitbtc.com",
       "url": "https://hitbtc.com/XVG-to-BTC"
-    },
-    {
-      "img": "../static/img/exchanges/swaplab.png",
-      "title": "SwapLab",
-      "link": "swaplab.cc",
-      "url": "https://swaplab.cc/"
     },
     {
       "img": "../static/img/exchanges/kubitx.png",
