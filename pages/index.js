@@ -119,15 +119,14 @@ function Home(props) {
                     >
                       <i>Verge ERC-20 Token Whitepaper</i>
                     </a>
-                    
                     {' '}
-                    
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <br></br>
         <div className="container themed-container__dark themed-container__dark--home">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
