@@ -71,11 +71,12 @@ function Home(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
+                <img src='./static/img/frontpagefaces.png'></img>
                   <h1
                     dangerouslySetInnerHTML={{
-                      __html: t('home:ribbon.title', {
+                      __html: t('home:ribbon.title', { 
                         defaultValue:
-                          '<br />A secure and user-friendly digital currency.<br />',
+                        'A secure and user-friendly digital currency.<br />'
                       }),
                     }}
                   />
@@ -104,10 +105,23 @@ function Home(props) {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i>Blackpaper</i>
+                      <i>Verge Blockchain Blackpaper</i>
                     </a>
                     {' '}
-                    of Verge Currency
+                  </p>
+                  <p className="blackpaper">
+                    Read the
+                    {' '}
+                    <a
+                      href="/static/whitepaper/XVGETH_Whitepaper_v1.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>Verge ERC-20 Token Whitepaper</i>
+                    </a>
+                    
+                    {' '}
+                    
                   </p>
                 </div>
               </div>
