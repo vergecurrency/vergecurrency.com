@@ -73,6 +73,7 @@ function Home(props) {
                 <div className="ribbon-txt">
                 <img src='./static/img/frontpagefaces.png'></img>
                   <h1
+                    style={{ fontSize: '180%' }}
                     dangerouslySetInnerHTML={{
                       __html: t('home:ribbon.title', { 
                         defaultValue:
