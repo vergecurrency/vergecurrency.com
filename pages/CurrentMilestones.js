@@ -1187,6 +1187,16 @@ const mileStones = [
     infoLabel: '@BYDFi Link (formerly twitter)',
     infoUrl: 'https://twitter.com/BYDFi/status/1685998749607464960'
   },
+  {
+    done: true,
+    doneDate: '31st July 2023',
+    title: 'BYDFi new listing',
+    description: '$XVG/$USDT pairing has been launched on @BYDFi!',
+    progress: 100,
+    progressState: '',
+    infoLabel: '@BYDFi Link (formerly twitter)',
+    infoUrl: 'https://twitter.com/BYDFi/status/1685998749607464960'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',

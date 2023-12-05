@@ -49,6 +49,12 @@
       "url": "https://changenow.io/currencies/verge?utm_source=verge&utm_medium=direct&utm_campaign=verge+website+traffic"
     },
     {
+      "img": "../static/img/exchanges/exchangio_logo.svg",
+      "title": "Exchangio",
+      "link": "Exchang.io",
+      "url": "https://exchang.io/coins/exchange-xvg"
+    },
+    {
       "img": "../static/img/exchanges/changehero.png",
       "title": "ChangeHero",
       "link": "changehero.io",
@@ -222,7 +228,7 @@
       "link": "bkex.com",
       "url": "https://www.bkex.com/"
     },
-	{
+    {
       "img": "../static/img/exchanges/komodo-sign_black.png",
       "title": "Komodo DEX",
       "link": "atomicdex.io",
