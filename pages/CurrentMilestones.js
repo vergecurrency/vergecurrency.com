@@ -1189,13 +1189,13 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '31st July 2023',
-    title: 'BYDFi new listing',
-    description: '$XVG/$USDT pairing has been launched on @BYDFi!',
+    doneDate: '12th October 2023',
+    title: 'Verge Core 7.2 released',
+    description: 'Verge Core update 7.2, featuring up to date tor, more seeds, and updated leveldb!',
     progress: 100,
     progressState: '',
-    infoLabel: '@BYDFi Link (formerly twitter)',
-    infoUrl: 'https://twitter.com/BYDFi/status/1685998749607464960'
+    infoLabel: '@VergeCurrency Link (formerly twitter)',
+    infoUrl: 'https://x.com/vergecurrency/status/1712475788954767649?s=20'
   },
   // {
   //   done: true or false,
