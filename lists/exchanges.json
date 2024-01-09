@@ -7,6 +7,12 @@
       "url": "https://www.binance.com/?ref=28698668"
     },
     {
+      "img": "../static/img/exchanges/bitmart.svg",
+      "title": "BitMart",
+      "link": "bitmart.com",
+      "url": "https://www.bitmart.com"
+    },
+    {
       "img": "../static/img/exchanges/swapswop.png",
       "title": "SwapSwop",
       "link": "swapswop.io",
