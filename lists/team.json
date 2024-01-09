@@ -27,28 +27,6 @@
         "twitter": "https://twitter.com/vergecanada",
         "twitter_alt": "https://twitter.com/itsmwittenberg",
         "location": "Alberta, Canada"
-      },
-      {
-        "img": "../static/img/team/xvgninja.jpg",
-        "name": "Alexandre Ederer - XVG Ninja",
-        "role": "Technical Marketing Engineer",
-        "occupation": "Corporate English Teacher / Editor",
-        "twitter": "https://twitter.com/Ederer_digital",
-        "location": "Germany"
-      }
-    ]
-  },
-  "developer": {
-    "title": "Development Team",
-    "members": [
-      {
-        "img": "../static/img/team/maxius.jpg",
-        "name": "Damien - Maxius",
-        "role": "Software Engineer",
-        "occupation": "Full Stack Web Developer",
-        "github": "https://github.com/Max1us",
-        "twitter": "https://twitter.com/_maxius_",
-        "location": "Melbourne, Australia"
       }
     ]
   },
@@ -74,14 +52,6 @@
   "marketing": {
     "title": "Marketing Team",
     "members": [
-      {
-        "img": "../static/img/team/nichola.jpg",
-        "name": "Nikki",
-        "role": "Outreach",
-        "occupation": "Life skills teacher",
-        "twitter": "https://twitter.com/knicky74",
-        "location": "UK"
-      },
       {
         "img": "../static/img/team/derek.jpg",
         "name": "Derek",

@@ -1147,6 +1147,56 @@ const mileStones = [
     infoLabel: 'Gate.io Press Link',
     infoUrl: 'https://www.gate.io/article/31355'
   },
+  {
+    done: true,
+    doneDate: '14th July 2023',
+    title: 'More from Binance',
+    description: '$XVG/$TRY is now available on Binance Turkey! (TRBinance.com)',
+    progress: 100,
+    progressState: '',
+    infoLabel: '@BinanceTR Link (formerly twitter)',
+    infoUrl: 'https://x.com/BinanceTR/status/1679765418280361987?s=20'
+  },
+  {
+    done: true,
+    doneDate: '21st July 2023',
+    title: 'Verge Android',
+    description: 'Verge Tor Wallet for Android update v2.4',
+    progress: 100,
+    progressState: '',
+    infoLabel: '@JustinVendetta Link (formerly twitter)',
+    infoUrl: 'https://x.com/justinvendetta/status/1682505029947736065?s=20'
+  },
+  {
+    done: true,
+    doneDate: '28th July 2023',
+    title: 'NOWNodes',
+    description: 'NOWNodes announces Verge was in high demand among builders in Q2',
+    progress: 100,
+    progressState: '',
+    infoLabel: '@NOWNodes Link (formerly twitter)',
+    infoUrl: 'https://twitter.com/NOWNodes/status/1684955891945046017'
+  },
+  {
+    done: true,
+    doneDate: '31st July 2023',
+    title: 'BYDFi new listing',
+    description: '$XVG/$USDT pairing has been launched on @BYDFi!',
+    progress: 100,
+    progressState: '',
+    infoLabel: '@BYDFi Link (formerly twitter)',
+    infoUrl: 'https://twitter.com/BYDFi/status/1685998749607464960'
+  },
+  {
+    done: true,
+    doneDate: '12th October 2023',
+    title: 'Verge Core 7.2 released',
+    description: 'Verge Core update 7.2, featuring up to date tor, more seeds, and updated leveldb!',
+    progress: 100,
+    progressState: '',
+    infoLabel: '@VergeCurrency Link (formerly twitter)',
+    infoUrl: 'https://x.com/vergecurrency/status/1712475788954767649?s=20'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',

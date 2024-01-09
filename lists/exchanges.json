@@ -7,24 +7,6 @@
       "url": "https://www.binance.com/?ref=28698668"
     },
     {
-      "img": "../static/img/exchanges/bittrex.png",
-      "title": "Bittrex",
-      "link": "bittrex.com",
-      "url": "https://bittrex.com"
-    },
-    {
-      "img": "../static/img/exchanges/binance.svg",
-      "title": "Binance Connect",
-      "link": "binancecnt.com",
-      "url": "https://www.binancecnt.com/en/pre-connect?merchantCode=xubo_test&cryptoCurrency=XVG"
-    },
-    {
-      "img": "../static/img/exchanges/bithumb.png",
-      "title": "Bithumb",
-      "link": "bithumb.com",
-      "url": "https://www.bithumb.com/trade/order/XVG"
-    },
-    {
       "img": "../static/img/exchanges/swapswop.png",
       "title": "SwapSwop",
       "link": "swapswop.io",
@@ -37,22 +19,16 @@
       "url": "https://bitfinex.com"
     },
     {
-      "img": "../static/img/exchanges/upbit.png",
-      "title": "UPBit",
-      "link": "uptbit.com",
-      "url": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-XVG"
-    },
-    {
       "img": "../static/img/exchanges/changenow.png",
       "title": "ChangeNOW",
       "link": "ChangeNOW.io",
       "url": "https://changenow.io/currencies/verge?utm_source=verge&utm_medium=direct&utm_campaign=verge+website+traffic"
     },
     {
-      "img": "../static/img/exchanges/changehero.png",
-      "title": "ChangeHero",
-      "link": "changehero.io",
-      "url": "https://changehero.io/"
+      "img": "../static/img/exchanges/exchangio_logo.svg",
+      "title": "Exchangio",
+      "link": "Exchang.io",
+      "url": "https://exchang.io/coins/exchange-xvg"
     },
     {
       "img": "../static/img/exchanges/stealthex.png",
@@ -61,40 +37,10 @@
       "url": "https://stealthex.io/"
     },
     {
-      "img": "../static/img/exchanges/elastum.png",
-      "title": "Elastum",
-      "link": "elastum.io",
-      "url": "https://www.elastum.io"
-    },
-    {
       "img": "../static/img/exchanges/bitturk.png",
       "title": "BitTurk",
       "link": "bitturk.com",
       "url": "https://bitturk.com/verge-xvgtry"
-    },
-    {
-      "img": "../static/img/exchanges/coinswitch.png",
-      "title": "CoinSwitch",
-      "link": "verge.coinswitch.co",
-      "url": "https://verge.coinswitch.co"
-    },
-    {
-      "img": "../static/img/exchanges/cointree.png",
-      "title": "CoinTree",
-      "link": "cointree.com",
-      "url": "https://www.cointree.com/"
-    },
-    {
-      "img": "../static/img/exchanges/indacoin.png",
-      "title": "Indacoin",
-      "link": "indacoin.com",
-      "url": "https://indacoin.com/en_GB/change?discount=85519"
-    },
-    {
-      "img": "../static/img/exchanges/xchangeme.png",
-      "title": "Xchange",
-      "link": "Xchange.me",
-      "url": "https://xchange.me/"
     },
     {
       "img": "../static/img/exchanges/southxchange.png",
@@ -121,22 +67,10 @@
       "url": "https://changelly.com"
     },
     {
-      "img": "../static/img/exchanges/nexchange.png",
-      "title": "N.exchange",
-      "link": "n.exchange",
-      "url": "https://n.exchange"
-    },
-    {
       "img": "../static/img/exchanges/bitbns.png",
       "title": "Bitbns",
       "link": "bitbns.com",
       "url": "https://bitbns.com/"
-    },
-    {
-      "img": "../static/img/exchanges/coindeal.png",
-      "title": "CoinDeal",
-      "link": "coindeal.com",
-      "url": "https://coindeal.com/"
     },
     {
       "img": "../static/img/exchanges/bitvavo.png",
@@ -157,34 +91,10 @@
       "url": "https://hitbtc.com/XVG-to-BTC"
     },
     {
-      "img": "../static/img/exchanges/swaplab.png",
-      "title": "SwapLab",
-      "link": "swaplab.cc",
-      "url": "https://swaplab.cc/"
-    },
-    {
-      "img": "../static/img/exchanges/kubitx.png",
-      "title": "KuBitX",
-      "link": "kubitx.com",
-      "url": "https://kubitx.com/"
-    },
-    {
       "img": "../static/img/exchanges/changeangel.png",
       "title": "changeangel",
       "link": "changeangel.io",
       "url": "https://changeangel.io/"
-    },
-    {
-      "img": "../static/img/exchanges/sistemkoin.jpg",
-      "title": "Sistemkoin",
-      "link": "sistemkoin.com",
-      "url": "https://sistemkoin.com/"
-    },
-    {
-      "img": "../static/img/exchanges/bitladon.png",
-      "title": "Bitladon",
-      "link": "bitladon.com",
-      "url": "https://www.bitladon.com/?r=100021746"
     },
     {
       "img": "../static/img/exchanges/swapzone.png",
@@ -199,12 +109,6 @@
       "url": "https://swapspace.co?ref=ca7500769b7d5c920631b2dd"
     },
     {
-      "img": "../static/img/exchanges/scavo.png",
-      "title": "Scavo Exchange",
-      "link": "scavo.exchange",
-      "url": "https://scavo.exchange"
-    },
-    {
       "img": "../static/img/exchanges/piixpay.png",
       "title": "Piixpay",
       "link": "piixpay.com",
@@ -215,18 +119,6 @@
       "title": "NOW Payments",
       "link": "nowpayments.io",
       "url": "https://account.nowpayments.io/create-account/?link_id=4058122108"
-    },
-    {
-      "img": "../static/img/exchanges/bitcoinstore.png",
-      "title": "Bitcoin Store",
-      "link": "bitcoin-store.hr",
-      "url": "https://www.bitcoin-store.hr/en/buy-sell/XVG"
-    },
-    {
-      "img": "../static/img/exchanges/exolix.png",
-      "title": "Exolix",
-      "link": "exolix.com",
-      "url": "https://exolix.com?ref=eghlJwZYGpnNqwML"
     },
     {
       "img": "../static/img/exchanges/mandala.png",
@@ -241,24 +133,12 @@
       "url": "https://guardarian.com"
     },
     {
-      "img": "../static/img/exchanges/bitnovo.png",
-      "title": "Bitnovo",
-      "link": "bitnovo.com",
-      "url": "https://www.bitnovo.com/buy-verge-online-en"
-    },
-    {
       "img": "../static/img/exchanges/Easybit-Logotype.jpg",
       "title": "EasyBit",
       "link": "easybit.com",
       "url": "https://easybit.com/"
     },
     {
-      "img": "../static/img/exchanges/bkex.png",
-      "title": "BKEX",
-      "link": "bkex.com",
-      "url": "https://www.bkex.com/"
-    },
-	{
       "img": "../static/img/exchanges/komodo-sign_black.png",
       "title": "Komodo DEX",
       "link": "atomicdex.io",

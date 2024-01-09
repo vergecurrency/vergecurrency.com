@@ -71,11 +71,13 @@ function Home(props) {
             <div className="row center-xs">
               <div className="col-xs-10 col-sm-9 col-md-6 text-center">
                 <div className="ribbon-txt">
+                <img src='./static/img/frontpagefaces.png'></img>
                   <h1
+                    style={{ fontSize: '180%' }}
                     dangerouslySetInnerHTML={{
-                      __html: t('home:ribbon.title', {
+                      __html: t('home:ribbon.title', { 
                         defaultValue:
-                          '<br />A secure and user-friendly digital currency.<br />',
+                        'A secure and user-friendly digital currency.<br />'
                       }),
                     }}
                   />
@@ -104,16 +106,28 @@ function Home(props) {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i>Blackpaper</i>
+                      <i>Verge Blockchain Blackpaper</i>
                     </a>
                     {' '}
-                    of Verge Currency
+                  </p>
+                  <p className="blackpaper">
+                    Read the
+                    {' '}
+                    <a
+                      href="/static/whitepaper/XVGETH_Whitepaper_v1.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i>Verge ERC-20 Token Whitepaper</i>
+                    </a>
+                    {' '}
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <br></br>
         <div className="container themed-container__dark themed-container__dark--home">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
@@ -173,6 +187,26 @@ function Home(props) {
                         __html: t('common:USPs.third.text', {
                           defaultvalue:
                             "Verge is not a private company funded by pre-mined coins or ICO's.",
+                        }),
+                      }}
+                    />
+                  </div>
+                </div>
+				<div className="col-xs-12 col-sm-4 start-xs pb-xs reason">
+                  <div className="reason--inner">
+                    <h3
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.fourth.header', {
+                          defaultvalue:
+                            'One Team, Two Chains, <br>& <span>Unlimited Usecases.',
+                        }),
+                      }}
+                    />
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: t('common:USPs.fourth.text', {
+                          defaultvalue:
+                            'Introducing the latest addition to the Verge ecosystem, the Verge ERC-20 token on Ethereum. Expanding the possibilities for everyday people to use Verge, without any hassle!',
                         }),
                       }}
                     />
@@ -484,9 +518,9 @@ function Home(props) {
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://t.me/VERGExvg">
+                          <Link href="https://t.me/officialxvg">
                             <a
-                              href="https://t.me/VERGExvg"
+                              href="https://t.me/officialxvg"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="social__link social__link--telegram"
