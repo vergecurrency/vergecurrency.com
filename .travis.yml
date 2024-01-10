@@ -9,7 +9,7 @@ after_success:
 - yarn run deploy
 before_install:
 - openssl aes-256-cbc -K $encrypted_add9b2c1c8a7_key -iv $encrypted_add9b2c1c8a7_iv
-  -in deploy_site.enc -out deploy_site -d
+  -in deploy_site.enc -out deploy_website -d
 - openssl aes-256-cbc -K $encrypted_dfdcfd5172af_key -iv $encrypted_dfdcfd5172af_iv
   -in deploy_key.enc -out /tmp/deploy_key -d  || true
 - eval "$(ssh-agent -s)"
