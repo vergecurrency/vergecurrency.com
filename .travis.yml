@@ -8,8 +8,8 @@ after_success:
 - git remote add origin git@github.com:vergecurrency/vergecurrency.com.git
 - yarn run deploy
 before_install:
-- openssl aes-256-cbc -K $encrypted_66045c6fbcec_key -iv $encrypted_66045c6fbcec_iv
-  -in id_ed25519.enc -out id_ed25519 -d
+- openssl aes-256-cbc -K $encrypted_50aa2a38b2c5_key -iv $encrypted_50aa2a38b2c5_iv
+  -in deploy_website.enc -out deploy_website -d
 - openssl aes-256-cbc -K $encrypted_dfdcfd5172af_key -iv $encrypted_dfdcfd5172af_iv
   -in deploy_key.enc -out /tmp/deploy_key -d  || true
 - eval "$(ssh-agent -s)"
