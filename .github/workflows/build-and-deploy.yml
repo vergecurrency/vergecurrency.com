@@ -22,3 +22,5 @@ jobs:
       - name: Install dependencies
         run: yarn install
         
+      - name: yarn deploy
+        run: yarn run deploy
