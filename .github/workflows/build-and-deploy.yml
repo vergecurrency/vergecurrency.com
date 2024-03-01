@@ -23,4 +23,5 @@ jobs:
         run: nvm use && yarn install
 
       - name: Yarn deploy
-        run: yarn run deploy
+        shell: bash -l {0} 
+        run: nvm use && yarn run deploy
