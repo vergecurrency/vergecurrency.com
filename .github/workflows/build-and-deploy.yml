@@ -13,15 +13,12 @@ jobs:
       - name: Set the correct Node version using nvm
         shell: bash -l {0} 
         run: nvm install
-        
-      - name: npm install build tools
-        run: npm install --global build-tools 
 
       - name: Install yarn
         run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && sudo apt-get update && sudo apt-get install yarn 
 
       - name: Install dependencies
-        run: yarn install
+        run: nvm use v10.15.3 && yarn install
 
       - name: Yarn deploy
         run: yarn run deploy
