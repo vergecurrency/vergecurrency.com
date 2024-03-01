@@ -15,10 +15,12 @@ jobs:
         run: nvm install
 
       - name: Install yarn
+        shell: bash -l {0} 
         run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && sudo apt-get update && sudo apt-get install yarn 
 
       - name: Install dependencies
-        run: nvm use v10.15.3 && yarn install
+        shell: bash -l {0} 
+        run: nvm use && yarn install
 
       - name: Yarn deploy
         run: yarn run deploy
