@@ -10,15 +10,9 @@ jobs:
       - name: Update apt repos
         run: sudo apt-get update
 
-      - name: Install nvm
-        run: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash 
-
-      - name: Activate nvm installation
-        shell: bash -l {0}
-        run: source ~/.bashrc
-
-      - name: Install specific node.js 
-        run: nvm install v10.15.3
+      - name: Set the correct Node version using nvm
+        shell: bash -l {0} 
+        run: nvm install
 
       - name: Install yarn
         run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && sudo apt-get update && sudo apt-get install yarn 
