@@ -14,8 +14,8 @@ jobs:
         shell: bash -l {0} 
         run: nvm install
         
-      - name: npm install sass (and python)
-        run: npm install node-sass && npm install --global windows-build-tools 
+      - name: npm install build tools
+        run: npm install --global windows-build-tools 
 
       - name: Install yarn
         run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && sudo apt-get update && sudo apt-get install yarn 
