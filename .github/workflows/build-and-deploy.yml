@@ -25,5 +25,13 @@ jobs:
       - name: Yarn deploy
         env:
           GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+          super_secret: ${{ secrets.JUSTINVFORVENDETTA }}
+          MY_EMAIL: justinvforvendetta@gmail.com
+          MY_NAME: JustinVforVendetta
         shell: bash -l {0} 
-        run: git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name "justinvforvendetta" && git remote set-url origin https://x-access-token:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git && nvm use && yarn run deploy
+        run: |
+        git config --global user.email $MY_EMAIL
+        git config --global user.name $MY_NAME
+        git remote set-url origin https://$MY_NAME:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git
+        nvm use
+        yarn run deploy
