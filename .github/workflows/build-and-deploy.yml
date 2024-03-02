@@ -9,10 +9,6 @@ jobs:
 
       - name: Update apt repos
         run: sudo apt-get update
-        
-      - name: make git happy 
-        shell: bash -l {0}
-        run: git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name "justinvforvendetta" && git remote set-url origin https://x-access-token:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git
 
       - name: Set the correct Node version using nvm
         shell: bash -l {0} 
@@ -27,5 +23,7 @@ jobs:
         run: nvm use && yarn install
 
       - name: Yarn deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
         shell: bash -l {0} 
-        run: nvm use && yarn run deploy
+        run: git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name "justinvforvendetta" && git remote set-url origin https://x-access-token:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git && nvm use && yarn run deploy
