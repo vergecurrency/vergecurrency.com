@@ -11,6 +11,7 @@ jobs:
         run: sudo apt-get update
         
       - name: make git happy 
+        shell: bash -l {0}
         run: git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name "justinvforvendetta"
 
       - name: Set the correct Node version using nvm
