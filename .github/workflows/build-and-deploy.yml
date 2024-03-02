@@ -22,9 +22,13 @@ jobs:
         shell: bash -l {0} 
         run: nvm use && yarn install
 
-      - name: Yarn deploy
-        env:
-          MY_EMAIL: justinvforvendetta@gmail.com
-          MY_NAME: JustinVforVendetta
-        shell: bash -l {0} 
-        run: git config --global user.email $MY_EMAIL && git config --global user.name $MY_NAME && git remote set-url origin https://$MY_NAME:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git && nvm use && yarn run deploy
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v3
