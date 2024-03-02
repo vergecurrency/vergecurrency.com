@@ -24,8 +24,6 @@ jobs:
 
       - name: Yarn deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
-          super_secret: ${{ secrets.JUSTINVFORVENDETTA }}
           MY_EMAIL: justinvforvendetta@gmail.com
           MY_NAME: JustinVforVendetta
         shell: bash -l {0} 
