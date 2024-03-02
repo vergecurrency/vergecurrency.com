@@ -9,6 +9,9 @@ jobs:
 
       - name: Update apt repos
         run: sudo apt-get update
+        
+      - name: make git happy 
+        run: git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name "justinvforvendetta"
 
       - name: Set the correct Node version using nvm
         shell: bash -l {0} 
