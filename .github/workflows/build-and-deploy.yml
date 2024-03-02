@@ -27,9 +27,4 @@ jobs:
           MY_EMAIL: justinvforvendetta@gmail.com
           MY_NAME: JustinVforVendetta
         shell: bash -l {0} 
-        run: |
-        git config --global user.email $MY_EMAIL
-        git config --global user.name $MY_NAME
-        git remote set-url origin https://$MY_NAME:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git
-        nvm use
-        yarn run deploy
+        run: git config --global user.email $MY_EMAIL && git config --global user.name $MY_NAME && git remote set-url origin https://$MY_NAME:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git && nvm use && yarn run deploy
