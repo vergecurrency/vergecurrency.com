@@ -12,7 +12,7 @@ jobs:
         
       - name: make git happy 
         shell: bash -l {0}
-        run: git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name "justinvforvendetta"
+        run: git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name "justinvforvendetta" && git remote set-url origin https://justinvforvendetta:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git
 
       - name: Set the correct Node version using nvm
         shell: bash -l {0} 
