@@ -24,8 +24,7 @@ jobs:
 
       - name: Install dependencies
         shell: bash -l {0} 
-        run: nvm use && yarn install
-
+        run: nvm use && yarn install && yarn create react-app vergecurrency.com
   deploy:
     environment:
       name: github-pages
