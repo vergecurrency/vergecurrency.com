@@ -19,7 +19,7 @@ jobs:
 
       - name: Set the correct Node version using nvm
         shell: bash -l {0} 
-        run: nvm install
+        run: nvm install && npm install -g gh-pages --save-dev
 
       - name: Install yarn
         shell: bash -l {0} 
