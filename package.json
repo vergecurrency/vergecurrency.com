@@ -12,7 +12,7 @@
     "lint": "./node_modules/.bin/eslint . --fix",
     "updateLanguages": "node locales/updateLanguages.js",
     "predeploy": "yarn updateLanguages && yarn build",
-    "deploy": "gh-pages -t true -m 'Travis CI automated build' -d docs"
+    "deploy": "gh-pages -t true -m 'Github automated build' -d docs"
   },
   "repository": {
     "type": "git",

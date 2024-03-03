@@ -35,7 +35,7 @@ jobs:
 
       - name: yarn install and deploy
         shell: bash -l {0}
-        run: yarn run deploy
+        run: gh-pages -t true -m 'Github Actions automated build' -d docs && yarn run deploy
         
       - name: Upload site 
         uses: actions/upload-artifact@v3
