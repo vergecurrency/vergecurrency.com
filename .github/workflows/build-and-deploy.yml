@@ -22,9 +22,9 @@ jobs:
         shell: bash -l {0} 
         run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && sudo apt-get update && sudo apt-get install yarn 
 
-      - name: Install dependencies
+      - name: use yarn to install dependencies and deploy
         shell: bash -l {0} 
-        run: nvm use && yarn install && yarn run deploy
+        run: git config --global user.email "justinvforvendetta@gmail.com" &&  config --global user.name "justinvforvendetta" && yarn install && yarn run deploy
         
       - name: Upload site 
         uses: actions/upload-artifact@v3
