@@ -19,7 +19,7 @@ jobs:
 
       - name: Set the correct Node version using nvm
         shell: bash -l {0} 
-        run: nvm install && npm install -g gh-pages --save-dev
+        run: nvm install
 
       - name: Install yarn
         shell: bash -l {0} 
@@ -35,7 +35,7 @@ jobs:
 
       - name: yarn install and deploy
         shell: bash -l {0}
-        run: gh-pages -t true -m 'Github Actions automated build' -d docs && yarn run deploy
+        run: npm install -g gh-pages --save-dev && gh-pages -t true -m 'Github Actions automated build' -d docs && yarn run deploy
         
       - name: Upload site 
         uses: actions/upload-artifact@v3
