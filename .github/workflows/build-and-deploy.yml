@@ -31,7 +31,7 @@ jobs:
         with:
           name: vergecurrency.com
           path: |
-            *.js*
+            ./src/*.js
   deploy:
     environment:
       name: github-pages
