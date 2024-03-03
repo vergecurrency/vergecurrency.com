@@ -26,8 +26,8 @@ jobs:
         shell: bash -l {0} 
         run: nvm use && yarn install && yarn create react-app vergecurrency.com
         
-        - name: Upload site 
-            uses: actions/upload-artifact@v3
+      - name: Upload site 
+        uses: actions/upload-artifact@v3
         with:
           name: vergecurrency.com
           path: build
