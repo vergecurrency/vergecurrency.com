@@ -24,7 +24,7 @@ jobs:
 
       - name: use yarn to install dependencies and deploy
         shell: bash -l {0} 
-        run: git config --global user.email "justinvforvendetta@gmail.com" &&  config --global user.name "justinvforvendetta" && yarn install && yarn run deploy
+        run: git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name "justinvforvendetta" && yarn install && yarn run deploy
         
       - name: Upload site 
         uses: actions/upload-artifact@v3
