@@ -30,7 +30,8 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: vergecurrency.com
-          path: build
+          path: |
+            *.*
   deploy:
     environment:
       name: github-pages
