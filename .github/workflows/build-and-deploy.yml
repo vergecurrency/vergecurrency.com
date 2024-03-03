@@ -28,10 +28,6 @@ jobs:
       - name: use yarn to install dependencies and deploy
         shell: bash -l {0} 
 
-      - name: Git Setup Global Config
-        shell: bash -l {0}
-        run: export GITHUB_USER=justinvforvendetta && echo "GITHUB_USER=$GITHUB_USER" >> $GITHUB_ENV && echo "GITHUB_TOKEN=${{ secrets.JUSTINVFORVENDETTA }}" >> $GITHUB_ENV && git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name $GITHUB_USER
-
        -name: yarn install and deploy
         shell: bash -l {0}
         run: yarn install && yarn run deploy
