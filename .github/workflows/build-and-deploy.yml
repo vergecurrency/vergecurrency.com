@@ -35,7 +35,7 @@ jobs:
 
       - name: yarn install and deploy
         shell: bash -l {0}
-        run: export GITHUB_USER=justinvforvendetta && echo "GITHUB_USER=$GITHUB_USER" >> $GITHUB_ENV && echo "GITHUB_TOKEN=${{ secrets.JUSTINVFORVENDETTA }}" >> $GITHUB_ENV && git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name justinvforvendetta && && git remote set-url origin https://$GITHUB_USER:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git && npm install -g gh-pages --save-dev && gh-pages -t true -m 'Github Actions automated build' -d docs && yarn run deploy
+        run: export GITHUB_USER=justinvforvendetta && echo "GITHUB_USER=$GITHUB_USER" >> $GITHUB_ENV && echo "GITHUB_TOKEN=${{ secrets.JUSTINVFORVENDETTA }}" >> $GITHUB_ENV && git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name justinvforvendetta && git remote set-url origin https://$GITHUB_USER:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git && npm install -g gh-pages --save-dev && gh-pages -t true -m 'Github Actions automated build' -d docs && yarn run deploy
         
       - name: Upload site 
         uses: actions/upload-artifact@v3
