@@ -1,55 +1,34 @@
+name: Build and Deploy Next.js App
+
 on:
   push:
-  pull_request:
     branches:
       - master
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Update apt repos
-        run: sudo apt-get update
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-      - name: Set the correct Node version using nvm
-        shell: bash -l {0} 
-        run: nvm install
-
-      - name: Install yarn
-        shell: bash -l {0} 
-        run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list && sudo apt-get update && sudo apt-get install yarn 
-
-      - name: use yarn to install dependencies
-        shell: bash -l {0} 
-        run: yarn install
-      
-      - name: Git Setup Global Config
-        shell: bash -l {0}
-        run: export GITHUB_USER=justinvforvendetta && echo "GITHUB_USER=$GITHUB_USER" >> $GITHUB_ENV && echo "GITHUB_TOKEN=${{ secrets.JUSTINVFORVENDETTA }}" >> $GITHUB_ENV && git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name $GITHUB_USER
-
-      - name: yarn install and deploy
-        shell: bash -l {0}
-        run: export GITHUB_USER=justinvforvendetta && echo "GITHUB_USER=$GITHUB_USER" >> $GITHUB_ENV && echo "GITHUB_TOKEN=${{ secrets.JUSTINVFORVENDETTA }}" >> $GITHUB_ENV && git config --global user.email "justinvforvendetta@gmail.com" && git config --global user.name justinvforvendetta && git remote set-url origin https://$GITHUB_USER:${{ secrets.JUSTINVFORVENDETTA }}@github.com/vergecurrency/vergecurrency.com.git && npm install -g gh-pages --save-dev && gh-pages -t true -m 'Github Actions automated build' -d docs && yarn run deploy
-        
-      - name: Upload site 
-        uses: actions/upload-artifact@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          name: vergecurrency.com
-          path: |
-            ./src/*.js
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Next.js App
+        run: npm run build
+
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git checkout --orphan gh-pages
+          git --work-tree . add --all
+          git --work-tree . commit -m "Deploy to GitHub Pages"
+          git push origin HEAD:gh-pages --force
