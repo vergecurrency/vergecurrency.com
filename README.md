@@ -1,5 +1,8 @@
 [![VergeCurrency](https://raw.githubusercontent.com/vergecurrency/vergecurrency.com/master/static/img/verge-github-badge.png)](https://github.com/vergecurrency/vergecurrency.com)
-[![Build Status](https://travis-ci.com/vergecurrency/vergecurrency.com.svg?branch=master)](https://travis-ci.com/vergecurrency/vergecurrency.com) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vergecurrency/vergecurrency.com)
+
+[![Deploy Next.js site to Pages](https://github.com/vergecurrency/vergecurrency.com/actions/workflows/build-and-deploy.yml/badge.svg)](https://github.com/vergecurrency/vergecurrency.com/actions/workflows/build-and-deploy.yml)
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vergecurrency/vergecurrency.com)
 
 # Vergecurrency.com
 
