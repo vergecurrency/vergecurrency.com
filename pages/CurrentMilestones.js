@@ -1211,7 +1211,7 @@ const mileStones = [
     done: true,
     doneDate: '6th November 2023',
     title: 'XVGETH Farm launches!',
-    description: 'Verge Core update 7.2, featuring up to date tor, more seeds, and updated leveldb!',
+    description: 'Farm for staking XVGETH!',
     progress: 100,
     progressState: '',
     infoLabel: 'Press Release',
@@ -1237,7 +1237,7 @@ const mileStones = [
     infoLabel: 'Coinbase link to download web3 wallet',
     infoUrl: 'https://www.coinbase.com/wallet/downloads'
   },
-  
+  {
     done: true,
     doneDate: '14th November 2023',
     title: 'XVGETH whitepaper release!',
@@ -1246,6 +1246,16 @@ const mileStones = [
     progressState: '',
     infoLabel: '@Vergecurrency Github link',
     infoUrl: 'https://github.com/vergecurrency/erc20/blob/54265194a5df654ba80a3f695e6f43dad7cf4153/XVGETH_Whitepaper_v1.pdf'
+  },
+  {
+    done: true,
+    doneDate: '21st February 2024',
+    title: 'Verge Core 7.4 released',
+    description: 'Verge Core update 7.4, with all Xorg, libseccomp, capn proto, zeromq libraries updated, and an Ubuntu 20 binary to the automated compiling workflow',
+    progress: 100,
+    progressState: '',
+    infoLabel: '@Vergecurrency Github link',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases/tag/v7.4.0'
   },
   // {
   //   done: true or false,
