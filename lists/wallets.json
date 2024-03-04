@@ -16,7 +16,7 @@
       "available": true,
       "os": "iOS",
       "url2": "https://vergesupport.altervista.org/knowledge-base/install-and-configure-your-ios-wallet/",
-      "availableinstructions": true
+      "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/vios"
     },
@@ -80,7 +80,6 @@
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/verge"
     },
-
     {
       "name": "MyVergies Windows 1.0.3",
       "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.0.3/MyVergies-Setup-1.0.3.exe",
