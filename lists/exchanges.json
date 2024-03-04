@@ -25,6 +25,12 @@
       "url": "https://swapswop.io"
     },
     {
+      "img": "../static/img/exchanges/biconomy.png",
+      "title": "Biconomy",
+      "link": "www.biconomy.com/",
+      "url": "https://www.biconomy.com/"
+    },
+    {
       "img": "../static/img/exchanges/bitfinex.png",
       "title": "Bitfinex",
       "link": "bitfinex.com",
