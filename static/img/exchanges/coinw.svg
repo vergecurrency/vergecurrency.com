@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="28"
+   height="28"
+   viewBox="0 0 28 28"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="coinw.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="5.4418938"
+     inkscape:cx="62.47825"
+     inkscape:cy="31.055365"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="英文logo" />
+  <title
+     id="title1">英文logo</title>
+  <g
+     id="组件库"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="icon"
+       transform="translate(-636,-978)"
+       fill-rule="nonzero">
+      <g
+         id="英文logo"
+         transform="translate(636,978)">
+        <path
+           d="M 2.4238512,6.1301324 9.719169,13.354875 14.722859,8.4175232 19.726137,13.354875 23.164401,9.9518837 21.487189,8.2780731 H 28 v 6.4996019 l -1.705159,-1.7017 -6.568704,6.471712 -5.003278,-4.937352 -4.9757433,4.965242 -5.3106922,-5.244142 c 0.055893,2.343171 1.0060807,4.686342 2.7950795,6.471713 3.466211,3.459181 8.944583,3.709781 12.718208,0.78092 l 3.130439,3.124501 C 20.480698,26.8844 17.238471,28 14.023781,28 10.417836,28 6.8402494,26.632979 4.1010633,23.899348 -0.73494621,19.073557 -1.2938799,11.569504 2.4238512,6.1301324 Z M 4.4642061,3.7310175 C 9.6914692,-1.0947741 17.685454,-1.2346343 23.052451,3.2847774 l -3.158798,3.096201 C 18.160959,5.042258 16.092493,4.3724877 13.996081,4.3724877 c -2.292039,0 -4.5840787,0.8371104 -6.4010242,2.455141 z"
+           id="形状结合"
+           fill="#7650ff" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>英文logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
