@@ -87,7 +87,9 @@
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
       "os": "Windows",
-      "availableinstructions": false
+      "availableinstructions": false,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/MyVergies"
     },
     {
       "name": "MyVergies macOS 1.0.3",
@@ -96,7 +98,9 @@
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
       "os": "OS X",
-      "availableinstructions": false
+      "availableinstructions": false,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/MyVergies"
     },
     {
       "name": "MyVergies Linux AppImage 1.0.3",
@@ -105,7 +109,9 @@
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
       "os": "Ubuntu",
-      "availableinstructions": false
+      "availableinstructions": false,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/MyVergies"
     },
     {
     "name": "MyVergies Linux Snap 1.0.3",
@@ -114,34 +120,9 @@
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
       "os": "Ubuntu",
-      "availableinstructions": false
-    },
-    {
-      "name": "MacOS Tor Electrum Wallet",
-      "url": "https://github.com/vergecurrency/electrum/releases/latest",
-      "classNames": "wallets--icon__apple wallets--icon__apple--tor",
-      "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
-      "available": true,
-      "os": "OS X",
-      "availableinstructions": false
-    },
-    {
-      "name": "Windows Tor Electrum Wallet",
-      "url": "https://github.com/vergecurrency/electrum/releases/latest",
-      "classNames": "wallets--icon__windows wallets--icon__windows--tor",
-      "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
-      "available": true,
-      "os": "Windows",
-      "availableinstructions": false
-    },
-    {
-      "name": "Linux Tor Electrum Wallet",
-      "url": "https://github.com/vergecurrency/electrum/releases/latest",
-      "classNames": "wallets--icon__linux wallets--icon__linux--tor",
-      "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
-      "available": true,
-      "os": "Ubuntu",
-      "availableinstructions": false
+      "availableinstructions": false,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/MyVergies"
     }
   ]
 }
