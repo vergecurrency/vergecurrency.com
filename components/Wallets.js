@@ -29,6 +29,9 @@ function Wallets() {
                 <a href={x.url2} target="_blank" rel="noopener noreferrer">
                   {x.availableinstructions ? 'Install Instructions' : 'Instructions available soon!'}
                 </a>
+				<a href={x.url3} target="_blank" rel="noopener noreferrer">
+                  {x.availablesource ? 'Source Code' : 'Source Code not available'}
+                </a>
               </span>
             </div>
           </div>

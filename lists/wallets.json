@@ -17,6 +17,9 @@
       "os": "iOS",
       "url2": "https://vergesupport.altervista.org/knowledge-base/install-and-configure-your-ios-wallet/",
       "availableinstructions": true
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/vios"
+	  
     },
     {
       "name": "Android Orbot Wallet",
@@ -26,7 +29,9 @@
       "available": true,
       "os": "Android",
       "url2": "https://www.youtube.com/watch?v=K26u9_Qg9_E",
-      "availableinstructions": true
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/tordroid"
     },
     {
       "name": "Paper Wallet",
@@ -35,8 +40,10 @@
       "classWhite": "wallets--icon__paperwallet-white",
       "available": true,
       "os": "",
-      "url2": "https://vergecurrency.com/paper-wallet/",
-      "availableinstructions": true
+      "url2": "https://github.com/vergecurrency/verge-paperwallet",
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/verge-paperwallet"
     },
     {
       "name": "QT Wallet Windows",
@@ -46,7 +53,9 @@
       "available": true,
       "os": "Windows",
       "url2": "https://verge.zendesk.com/hc/en-us/articles/360007059592-Verge-Qt-Wallet-Installation-Guide-for-Windows",
-      "availableinstructions": true
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/verge"
     },
     {
       "name": "QT Wallet macOS",
@@ -56,7 +65,9 @@
       "available": true,
       "os": "OS X",
       "url2": "https://verge.zendesk.com/hc/en-us/articles/360007364291-Verge-Qt-Wallet-Installation-Guide-for-Mac",
-      "availableinstructions": true
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/verge"
     },
     {
       "name": "QT Wallet Linux",
@@ -66,7 +77,9 @@
       "available": true,
       "os": "Ubuntu",
       "url2": "https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md",
-      "availableinstructions": true
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/verge"
     },
 
     {

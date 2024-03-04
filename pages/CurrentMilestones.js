@@ -1197,6 +1197,56 @@ const mileStones = [
     infoLabel: '@VergeCurrency Link (formerly twitter)',
     infoUrl: 'https://x.com/vergecurrency/status/1712475788954767649?s=20'
   },
+  {
+    done: true,
+    doneDate: '28th October 2023',
+    title: 'XVGETH Launched!',
+    description: 'Verge launches new ERC20 token on Ethereum blockchain!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Press Release',
+    infoUrl: 'https://www.einpresswire.com/article/664643750/verge-currency-reaches-new-heights-with-xvg-erc-20-token'
+  },
+  {
+    done: true,
+    doneDate: '6th November 2023',
+    title: 'XVGETH Farm launches!',
+    description: 'Verge Core update 7.2, featuring up to date tor, more seeds, and updated leveldb!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Press Release',
+    infoUrl: 'https://medium.com/vergecurrency/just-launched-the-xvgeth-farm-start-claiming-your-rewards-today-f1f3048f8309'
+  },
+  {
+    done: true,
+    doneDate: '9th November 2023',
+    title: 'XVGETH is available in the Binance Web3 wallet',
+    description: 'Binance Web3 Wallet is a self-custody crypto wallet within the Binance app, and can store XVGETH!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Binance Web3 Wallet Download Link',
+    infoUrl: 'https://www.binance.com/en/web3wallet'
+  },
+  {
+    done: true,
+    doneDate: '11th November 2023',
+    title: 'XVGETH is available in the Coinbase Web3 wallet',
+    description: 'Binance Web3 Wallet is a self-custody crypto wallet within the Binance app, and can store XVGETH!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Coinbase link to download web3 wallet',
+    infoUrl: 'https://www.coinbase.com/wallet/downloads'
+  },
+  
+    done: true,
+    doneDate: '14th November 2023',
+    title: 'XVGETH whitepaper release!',
+    description: 'Unlocking Synergies: Expanding the Verge Ecosystem thru the creation of an ERC-20 token on the Ethereum blockchain',
+    progress: 100,
+    progressState: '',
+    infoLabel: '@Vergecurrency Github link',
+    infoUrl: 'https://github.com/vergecurrency/erc20/blob/54265194a5df654ba80a3f695e6f43dad7cf4153/XVGETH_Whitepaper_v1.pdf'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
