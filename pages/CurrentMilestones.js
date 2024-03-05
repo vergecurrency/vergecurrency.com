@@ -1209,6 +1209,26 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '29th October 2023',
+    title: 'XVGETH listed on coingecko!',
+    description: 'Thank You @coingecko for listing $XVGETH',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'CoinGecko link',
+    infoUrl: 'https://www.coingecko.com/en/coins/verge-eth'
+  },
+  {
+    done: true,
+    doneDate: '3rd November 2023',
+    title: 'XVGETH listed on CoinMarketCap',
+    description: 'We want to Thank #Coinmarketcap for listing us quickly, within the first 6 days of launch!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Press Release',
+    infoUrl: 'https://coinmarketcap.com/currencies/verge-eth/'
+  },
+  {
+    done: true,
     doneDate: '6th November 2023',
     title: 'XVGETH Farm launches!',
     description: 'Farm for staking XVGETH!',
@@ -1246,6 +1266,16 @@ const mileStones = [
     progressState: '',
     infoLabel: '@Vergecurrency Github link',
     infoUrl: 'https://github.com/vergecurrency/erc20/blob/54265194a5df654ba80a3f695e6f43dad7cf4153/XVGETH_Whitepaper_v1.pdf'
+  },
+  {
+    done: true,
+    doneDate: '31st January 2024',
+    title: 'Verge Core 7.3 released',
+    description: 'fixed gcc11 bug in bmw.c that was causing block-syncing issue in nodes, automated github actions to automate release binaries',
+    progress: 100,
+    progressState: '',
+    infoLabel: '@Vergecurrency Github link',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases/tag/v7.3.0'
   },
   {
     done: true,
