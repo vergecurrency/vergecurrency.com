@@ -1269,6 +1269,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '8th November 2024',
+    title: 'Bitmart Exchange Lists $XVG',
+    description: 'BitMart is thrilled to announce the listing of Verge(XVG) on January 8th, 2024. XVG/USDT trading pair will be available.',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Bitmart Link',
+    infoUrl: 'hhttps://support.bitmart.com/hc/en-us/articles/21807262315931-Verge-XVG-Listing-on-BitMart'
+  },
+  {
+    done: true,
     doneDate: '31st January 2024',
     title: 'Verge Core 7.3 released',
     description: 'fixed gcc11 bug in bmw.c that was causing block-syncing issue in nodes, automated github actions to automate release binaries',
@@ -1279,6 +1289,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '12th February 2024',
+    title: 'CoinW Exchange lists $XVG and $XVGETH',
+    description: 'XVGETH and XVG will be listed on CoinW Exchange on 2/12/2024',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'CoinW link',
+    infoUrl: 'https://coinw.zendesk.com/hc/en-us/articles/28560377875225-XVGETH-and-XVG-will-be-listed-on-CoinW-Exchange-on-2-12-2024-14-00-UTC-Join-the-XVGETH-and-XVG-bounty-program-and-share-a-3-000-USDT-reward'
+  },
+  {
+    done: true,
     doneDate: '21st February 2024',
     title: 'Verge Core 7.4 released',
     description: 'Verge Core update 7.4, with all Xorg, libseccomp, capn proto, zeromq libraries updated, and an Ubuntu 20 binary to the automated compiling workflow',
@@ -1286,6 +1306,26 @@ const mileStones = [
     progressState: '',
     infoLabel: '@Vergecurrency Github link',
     infoUrl: 'https://github.com/vergecurrency/verge/releases/tag/v7.4.0'
+  },
+  {
+    done: true,
+    doneDate: '1st March 2024',
+    title: 'BTCC Exchange adds $XVG market',
+    description: 'XVG USDT-margined perpetual futures contracts with a leverage of up to 20x!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'BTCC Link',
+    infoUrl: 'https://www.btcc.com/en-US/notifications/67335884?title=New%20Listings:%20PIXEL,%20TAO,%20STRK,%201000HTX,%20FAR,%20and%20XVG%20Perpetual%20Futures&type=NOTICE'
+  },
+  {
+    done: true,
+    doneDate: '1st March 2024',
+    title: 'Biconomy Exchgange lists $XVGETH',
+    description: 'Biconomy Will List VergeETH (XVGETH/USDT )for Spot Trading!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Biconomy link',
+    infoUrl: 'https://biconomy.zendesk.com/hc/en-us/articles/29218876650009-Biconomy-Will-List-VergeETH-XVGETH-USDT-for-Spot-Trading'
   },
   // {
   //   done: true or false,
