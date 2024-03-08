@@ -1269,13 +1269,13 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: '8th November 2024',
+    doneDate: '8th January 2024',
     title: 'Bitmart Exchange Lists $XVG',
     description: 'BitMart is thrilled to announce the listing of Verge(XVG) on January 8th, 2024. XVG/USDT trading pair will be available.',
     progress: 100,
     progressState: '',
     infoLabel: 'Bitmart Link',
-    infoUrl: 'hhttps://support.bitmart.com/hc/en-us/articles/21807262315931-Verge-XVG-Listing-on-BitMart'
+    infoUrl: 'https://support.bitmart.com/hc/en-us/articles/21807262315931-Verge-XVG-Listing-on-BitMart'
   },
   {
     done: true,
