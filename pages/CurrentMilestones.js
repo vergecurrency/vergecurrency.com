@@ -1320,12 +1320,22 @@ const mileStones = [
   {
     done: true,
     doneDate: '1st March 2024',
-    title: 'Biconomy Exchgange lists $XVGETH',
-    description: 'Biconomy Will List VergeETH (XVGETH/USDT )for Spot Trading!',
+    title: 'Biconomy Exchgange lists $XVGETH token',
+    description: 'Biconomy Will List VergeETH (XVGETH/USDT) for Spot Trading!',
     progress: 100,
     progressState: '',
     infoLabel: 'Biconomy link',
     infoUrl: 'https://biconomy.zendesk.com/hc/en-us/articles/29218876650009-Biconomy-Will-List-VergeETH-XVGETH-USDT-for-Spot-Trading'
+  },
+  {
+    done: true,
+    doneDate: 'TBA',
+    title: 'Biconomy Exchgange will list $XVG coin',
+    description: 'Biconomy Will List Verge (XVG/USDT) for Spot Trading!',
+    progress: 100,
+    progressState: '',
+    infoLabel: 'Biconomy X (formerly twitter) link',
+    infoUrl: 'https://twitter.com/BiconomyCom/status/1762486305890377747?s=20'
   },
   // {
   //   done: true or false,
