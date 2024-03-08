@@ -1320,7 +1320,7 @@ const mileStones = [
   {
     done: true,
     doneDate: '1st March 2024',
-    title: 'Biconomy Exchgange lists $XVGETH token',
+    title: 'Biconomy Exchange lists $XVGETH token',
     description: 'Biconomy Will List VergeETH (XVGETH/USDT) for Spot Trading!',
     progress: 100,
     progressState: '',
@@ -1330,7 +1330,7 @@ const mileStones = [
   {
     done: true,
     doneDate: 'TBA',
-    title: 'Biconomy Exchgange will list $XVG coin',
+    title: 'Biconomy Exchange will list $XVG coin',
     description: 'Biconomy Will List Verge (XVG/USDT) for Spot Trading!',
     progress: 100,
     progressState: '',
