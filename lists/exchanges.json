@@ -36,6 +36,12 @@
       "link": "bitfinex.com",
       "url": "https://bitfinex.com"
     },
+	{
+      "img": "../static/img/exchanges/btcc.svg",
+      "title": "BTCC",
+      "link": "btcc.com",
+      "url": "https://www.btcc.com/en-US/trade/perpetual/XVGUSDT"
+    },
     {
       "img": "../static/img/exchanges/changenow.png",
       "title": "ChangeNOW",
