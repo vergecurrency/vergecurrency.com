@@ -12,7 +12,7 @@ import {
   faYoutube,
   faReddit,
   faTwitter,
-  fa-x-twitter,
+  faXTwitter,
   faDiscord,
 } from '@fortawesome/fontawesome-free-brands';
 
