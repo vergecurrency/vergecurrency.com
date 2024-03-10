@@ -561,9 +561,9 @@ function Home(props) {
                           </Link>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.twitter.com/vergecurrency">
+                          <Link href="https://www.twitter.com/xvgeth">
                             <a
-                              href="https://www.twitter.com/vergecurrency"
+                              href="https://www.twitter.com/xvgeth"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="social__link social__link--twitter"
