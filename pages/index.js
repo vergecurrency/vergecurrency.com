@@ -573,6 +573,20 @@ function Home(props) {
                             </a>
                           </Link>
                         </div>
+						<div className="pt-xs social__icon">
+                          <Link href="https://bsky.app/profile/vergecurrency.com">
+                            <a
+                              href="https://bsky.app/profile/vergecurrency.com"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="social__link social__link--bluesky"
+                              name="BlueSky link"
+                              title="BlueSky"
+                            >
+                              <FontAwesomeIcon icon={faTwitter} size="2x" />
+                            </a>
+                          </Link>
+                        </div>
                         <div className="pt-xs social__icon">
                           <Link href="https://discord.gg/vergecurrency">
                             <a

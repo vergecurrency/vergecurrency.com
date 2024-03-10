@@ -119,7 +119,8 @@ footer {
           youtube:  #ff0002,
           reddit:   #ff4401,
           twitter:  #1da1f2,
-          discord:  #18191c
+          discord:  #18191c,
+		  bluesky:  #1da1f2,
         ) {
           &--#{$network} {
             color: #cecece;
