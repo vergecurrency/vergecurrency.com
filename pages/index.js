@@ -584,7 +584,7 @@ function Home(props) {
                               name="BlueSky link"
                               title="BlueSky"
                             >
-                              <FontAwesomeIcon icon={faTwitter} size="2x" />
+                              <img src="./static/img/icons/bluesky.svg" alt="bluesky logo" width="32" height="32" />
                             </a>
                           </Link>
                         </div>
