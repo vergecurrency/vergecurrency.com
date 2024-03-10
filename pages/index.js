@@ -584,7 +584,7 @@ function Home(props) {
                               name="BlueSky link"
                               title="BlueSky"
                             >
-                              <img src="./static/img/icons/bluesky.svg" alt="bluesky logo" width="32" height="32" />
+                              <img src="./static/img/icons/bluesky.svg" alt="bluesky logo" width="30" height="30" />
                             </a>
                           </Link>
                         </div>
