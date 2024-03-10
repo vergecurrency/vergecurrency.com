@@ -45,6 +45,7 @@ function Home(props) {
               'Verge Currency',
           })}
         </title>
+		<script src="https://kit.fontawesome.com/e1b1fa0258.js" crossorigin="anonymous"></script>
         <link rel="image_src" href="/static/img/press/logo/verge-logo.png" />
         <link rel="icon" type="image/png" sizes="128x128" href="/static/img/icons/favicon-128x128.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/static/img/icons/favicon-96x96.png" />
