@@ -12,7 +12,7 @@ import {
   faYoutube,
   faReddit,
   faTwitter,
-  faXTwitter,
+  faSquareXTwitter,
   faDiscord,
 } from '@fortawesome/fontawesome-free-brands';
 
@@ -570,7 +570,7 @@ function Home(props) {
                               name="Twitter link"
                               title="Twitter"
                             >
-                              <FontAwesomeIcon icon={fa-x-twitter} size="2x" />
+                              <FontAwesomeIcon icon={faSquareXTwitter} size="2x" />
                             </a>
                           </Link>
                         </div>
