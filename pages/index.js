@@ -13,6 +13,7 @@ import {
   faReddit,
   faTwitter,
   faDiscord,
+  faB,
 } from '@fortawesome/fontawesome-free-brands';
 
 import { HomeExchanges } from '../components/Exchanges';
@@ -584,7 +585,7 @@ function Home(props) {
                               name="BlueSky link"
                               title="BlueSky"
                             >
-                              <FontAwesomeIcon icon={faTwitter} size="2x" />
+                              <FontAwesomeIcon icon={faB} size="2x" />
                             </a>
                           </Link>
                         </div>
