@@ -36,6 +36,7 @@ module.exports = {
       '/presskit': { page: '/presskit' },
       '/milestones': { page: '/milestones' },
       '/vendors': { page: '/vendors' },
+      '/paper-wallet': { page: '/paper-wallet/' },
       '/verge-team': { page: '/verge-team' },
       '/wallets/terms': { page: '/wallets/terms' },
       '/wallets': { page: '/wallets' },
