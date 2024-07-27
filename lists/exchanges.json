@@ -168,5 +168,11 @@
       "link": "atomicdex.io",
       "url": "https://atomicdex.io/en/"
     }
+    {
+      "img": "../static/img/exchanges/secureshift.png",
+      "title": "SecureShift",
+      "link": "secureshift.io",
+      "url": "https://secureshift.io/"
+    }
   ]
 }
