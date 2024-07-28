@@ -168,5 +168,11 @@
       "link": "atomicdex.io",
       "url": "https://atomicdex.io/en/"
     }
+	      {
+      "img": "../static/img/exchanges/chainswap.png",
+      "title": "ChainSwap",
+      "link": "chainswap.io",
+      "url": "https://chainswap.io/"
+    }
   ]
 }
