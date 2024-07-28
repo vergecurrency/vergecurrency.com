@@ -173,6 +173,12 @@
       "title": "SecureShift",
       "link": "secureshift.io",
       "url": "https://secureshift.io/"
+    },
+    {
+      "img": "../static/img/exchanges/chainswap.png",
+      "title": "ChainSwap",
+      "link": "chainswap.io",
+      "url": "https://chainswap.io/"
     }
   ]
 }
