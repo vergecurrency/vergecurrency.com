@@ -46,7 +46,7 @@
     "gulp": "4.0.2",
     "gulp-webserver": "^0.9.1",
     "i18next": "^10.3.0",
-    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-browser-languagedetector": "^2.1.0",
     "i18next-fs-backend": "^1.0.1",
     "i18next-http-middleware": "^1.0.0",
     "isomorphic-unfetch": "^2.0.0",
