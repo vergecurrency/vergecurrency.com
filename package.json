@@ -73,7 +73,7 @@
     "react-web-tabs": "^1.0.1",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.1",
-    "sw-precache-webpack-plugin": "^0.11.5",
+    "sw-precache-webpack-plugin": "^1.0.0",
     "uglifyjs-webpack-plugin": "^1.2.3",
     "webpack": "^3.10.0"
   },
@@ -86,7 +86,7 @@
     "eslint-plugin-react": "^7.21.2",
     "eslint-plugin-react-hooks": "^4.1.2",
     "sass-lint": "^1.13.1",
-    "sw-precache-webpack-plugin": "^0.11.5",
+    "sw-precache-webpack-plugin": "^1.0.0",
     "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony-v2.8.22",
     "webpack-bundle-analyzer": ">=3.3.2"
   }
