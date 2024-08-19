@@ -67,6 +67,18 @@ function GetVerge(props) {
                   defaultValue: <i>Verge Currency provides the exchange information listed herein for informational purposes only. Verge Currency is not liable for any third-party transactions between cryptocurrency purchasers or sellers. Buyers and investors are to seek independent financial advice from a professional. Do your own research.</i>,
                 })}
               </h4>
+			  <h3>
+                {t('home:getverge.text8', {defaultValue: 'Verge Network and Statistic Overviews:',})}
+                {' '}
+                <span className="hidden-xs">
+                  <br />
+                </span>
+              </h3>
+			  <h4>
+                {t('home:getverge.text9', {
+                  defaultValue: https://vergecurrency.network/,
+                })}
+              </h4>
             </div>
           </div>
 
