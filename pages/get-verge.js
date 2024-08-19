@@ -76,7 +76,7 @@ function GetVerge(props) {
               </h3>
 			  <h4>
                 {t('home:getverge.text9', {
-                  defaultValue: https://vergecurrency.network/,
+                  defaultValue: 'https://vergecurrency.network/'.,
                 })}
               </h4>
             </div>
