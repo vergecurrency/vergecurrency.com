@@ -76,9 +76,9 @@ function GetVerge(props) {
                 </span>
               </h3>
 			  <h4>
-                {t('home:getverge.text9', {defaultValue: 'Network and Proof of Work stats! https://vergecurrency.network/',})}
-				{t('home:getverge.text10', {defaultValue: 'List of most swap sites! https://www.bestchange.com/bitcoin-to-verge.html',})}
-				{t('home:getverge.text11', {defaultValue: 'Almost all hashrate stats and almost every pools hashrate! https://miningpoolstats.stream/',})}
+                {t('home:getverge.text9', {defaultValue: 'Network and Proof of Work stats! https://vergecurrency.network/',})}<br />
+				{t('home:getverge.text10', {defaultValue: 'List of most swap sites! https://www.bestchange.com/bitcoin-to-verge.html',})}<br />
+				{t('home:getverge.text11', {defaultValue: 'Almost all hashrate stats and almost every pools hashrate! https://miningpoolstats.stream/',})}<br />
               </h4>
             </div>
           </div>
