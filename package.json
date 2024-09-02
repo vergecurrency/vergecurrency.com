@@ -72,7 +72,7 @@
     "react-moment": "^0.7.0",
     "react-web-tabs": "^1.0.1",
     "sass-loader": "^6.0.7",
-    "style-loader": "^0.20.1",
+    "style-loader": "^0.23.1",
     "sw-precache-webpack-plugin": "^1.0.0",
     "uglifyjs-webpack-plugin": "^1.2.3",
     "webpack": "^3.10.0"
