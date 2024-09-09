@@ -75,7 +75,7 @@
     "style-loader": "^0.23.1",
     "sw-precache-webpack-plugin": "^1.0.0",
     "uglifyjs-webpack-plugin": "^1.2.3",
-    "webpack": "^3.10.0"
+    "webpack": "^4.47.0"
   },
   "devDependencies": {
     "eslint": "^7.10.0",
