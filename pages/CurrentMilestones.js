@@ -1354,7 +1354,7 @@ const mileStones = [
     description: 'the 4th Annual FueledByVerge Performance Cup July 6 and 7 with holeshot awards using XVGETH',
     progress: 100,
     progressState: '100',
-    infoLabel: '',
+    infoLabel: 'fueled by verge twitter link',
     infoUrl: 'https://x.com/Fueled_by_Verge/status/1808644492637131247'
   },
   {
@@ -1364,7 +1364,7 @@ const mileStones = [
     description: 'Verge Core v7.5 desktop gui wallet/full node is released',
     progress: 100,
     progressState: '100',
-    infoLabel: '',
+    infoLabel: 'verge github link',
     infoUrl: 'https://github.com/vergecurrency/verge/releases'
   },
   {
@@ -1374,7 +1374,7 @@ const mileStones = [
     description: 'Fueled by Verge is set up this weekend at Langdon Days!',
     progress: 100,
     progressState: '100',
-    infoLabel: '',
+    infoLabel: 'fueled by verge twitter link',
     infoUrl: 'https://x.com/Fueled_by_Verge/status/1814758730397069571'
   },
   {
@@ -1384,7 +1384,7 @@ const mileStones = [
     description: 'Verge Tor Wallet for Android V2.7 is released',
     progress: 100,
     progressState: '100',
-    infoLabel: '',
+    infoLabel: 'google play store link (github repository downloads are available too)',
     infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
   },
   {
@@ -1394,7 +1394,7 @@ const mileStones = [
     description: 'thanks to secureshift.io for adding XVG to its list of swappables!',
     progress: 100,
     progressState: '100',
-    infoLabel: '',
+    infoLabel: 'secureshift twitter link',
     infoUrl: 'https://x.com/secureshift_io/status/1817588439048712414'
   },
   {
@@ -1404,7 +1404,7 @@ const mileStones = [
     description: 'thanks to chainswap.io for adding XVG to its list of swappables!',
     progress: 100,
     progressState: '100',
-    infoLabel: '',
+    infoLabel: 'chainswap twitter link',
     infoUrl: 'https://x.com/chainswap_ex/status/1819052774358958317'
   },
   {
@@ -1414,7 +1414,7 @@ const mileStones = [
     description: 'Verge now has its own Raspberry Pi 5 repository, forked from verge core for easy updating!',
     progress: 100,
     progressState: '100',
-    infoLabel: '',
+    infoLabel: 'verge raspi github link',
     infoUrl: 'https://github.com/vergecurrency/verge-raspi'
   },
   {
@@ -1424,7 +1424,7 @@ const mileStones = [
     description: 'Fueled by Verge at Canada Motocross National Championships, now with even bigger tents and larger setup!',
     progress: 100,
     progressState: '100',
-    infoLabel: '',
+    infoLabel: 'fueled by verge twitter link',
     infoUrl: 'https://x.com/Fueled_by_Verge/status/1824185132187783291'
   },
   {
@@ -1434,7 +1434,7 @@ const mileStones = [
     description: 'Verge Core version 7.6 is released!',
     progress: 100,
     progressState: '100',
-    infoLabel: '',
+    infoLabel: 'verge github repository link',
     infoUrl: 'https://github.com/vergecurrency/verge/releases'
   },
   // {
