@@ -1330,12 +1330,112 @@ const mileStones = [
   {
     done: true,
     doneDate: 'TBA',
-    title: 'Biconomy Exchange will list $XVG coin',
+    title: '',
     description: 'Biconomy Will List Verge (XVG/USDT) for Spot Trading!',
     progress: 100,
     progressState: '',
     infoLabel: 'Biconomy X (formerly twitter) link',
     infoUrl: 'https://twitter.com/BiconomyCom/status/1762486305890377747?s=20'
+  },
+  {
+    done: true,
+    doneDate: '21st June 2024',
+    title: 'CoinLib, a .dart library now with Verge support!',
+    description: 'Coinlib, a .dart library, with Verge support',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'verge github repository link',
+    infoUrl: 'https://github.com/vergecurrency/coinlib'
+  },
+  {
+    done: true,
+    doneDate: '6th and 7th July 2024',
+    title: '4th Annual "Fueled By Verge" Performance Cup Race',
+    description: 'the 4th Annual FueledByVerge Performance Cup July 6 and 7 with holeshot awards using XVGETH',
+    progress: 100,
+    progressState: '100',
+    infoLabel: '',
+    infoUrl: 'https://x.com/Fueled_by_Verge/status/1808644492637131247'
+  },
+  {
+    done: true,
+    doneDate: '4th July 2024',
+    title: 'Verge Core v7.5 release!',
+    description: 'Verge Core v7.5 desktop gui wallet/full node is released',
+    progress: 100,
+    progressState: '100',
+    infoLabel: '',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases'
+  },
+  {
+    done: true,
+    doneDate: '20th July 2024',
+    title: 'Fueled by Verge at Langdon Days!',
+    description: 'Fueled by Verge is set up this weekend at Langdon Days!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: '',
+    infoUrl: 'https://x.com/Fueled_by_Verge/status/1814758730397069571'
+  },
+  {
+    done: true,
+    doneDate: '26th July 2024',
+    title: 'Verge Android app v2.7 out now!',
+    description: 'Verge Tor Wallet for Android V2.7 is released',
+    progress: 100,
+    progressState: '100',
+    infoLabel: '',
+    infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
+  },
+  {
+    done: true,
+    doneDate: '28th July 2024',
+    title: 'SecureShift.io adds XVG to its swap site!',
+    description: 'thanks to secureshift.io for adding XVG to its list of swappables!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: '',
+    infoUrl: 'https://x.com/secureshift_io/status/1817588439048712414'
+  },
+  {
+    done: true,
+    doneDate: '28th July 2024',
+    title: 'ChainSwap.io adds XVG to its swap site!',
+    description: 'thanks to chainswap.io for adding XVG to its list of swappables!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: '',
+    infoUrl: 'https://x.com/chainswap_ex/status/1819052774358958317'
+  },
+  {
+    done: true,
+    doneDate: '14th August 2024',
+    title: 'Raspi 5 support for Verge Core!',
+    description: 'Verge now has its own Raspberry Pi 5 repository, forked from verge core for easy updating!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: '',
+    infoUrl: 'https://github.com/vergecurrency/verge-raspi'
+  },
+  {
+    done: true,
+    doneDate: '15th August 2024',
+    title: 'Fueled by Verge at Canada Motocross National Championships!',
+    description: 'Fueled by Verge at Canada Motocross National Championships, now with even bigger tents and larger setup!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: '',
+    infoUrl: 'https://x.com/Fueled_by_Verge/status/1824185132187783291'
+  },
+  {
+    done: true,
+    doneDate: '4th September 2024',
+    title: 'Verge Core 7.6!',
+    description: 'Verge Core version 7.6 is released!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: '',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases'
   },
   // {
   //   done: true or false,
