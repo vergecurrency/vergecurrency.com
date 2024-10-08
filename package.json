@@ -41,7 +41,7 @@
     "deep-filter": "^1.0.2",
     "express": "^4.20.0",
     "gh-pages": "^6.1.1",
-    "glob": "^7.1.4",
+    "glob": "^11.0.0",
     "glob-all": "^3.1.0",
     "gulp": "5.0.0",
     "gulp-webserver": "^0.9.1",
