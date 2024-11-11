@@ -180,5 +180,11 @@
       "link": "chainswap.io",
       "url": "https://chainswap.io/"
     }
+	{
+      "img": "../static/img/exchanges/bydfi.png",
+      "title": "BYDFi",
+      "link": "bydfi.com",
+      "url": "https://www.bydfi.com/en/spot/xvg_usdt"
+    }
   ]
 }
