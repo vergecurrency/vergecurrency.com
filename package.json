@@ -39,7 +39,7 @@
     "compression": "^1.7.4",
     "css-loader": "^7.1.2",
     "deep-filter": "^1.0.2",
-    "express": "^4.20.0",
+    "express": "^4.21.1",
     "gh-pages": "^6.1.1",
     "glob": "^11.0.0",
     "glob-all": "^3.1.0",
@@ -81,13 +81,13 @@
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-standard": "^3.1.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^4.6.2",
     "sass-lint": "^1.13.1",
     "sw-precache-webpack-plugin": "^1.0.0",
     "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony-v3.3.10",
-    "webpack-bundle-analyzer": ">=3.3.2"
+    "webpack-bundle-analyzer": ">=4.10.2"
   }
 }
