@@ -13,6 +13,7 @@ function GetVerge(props) {
       <Head>
         <title key="title">{t('common:meta.get-verge.title', { defaultValue: 'Get Verge - VergeCurrency.com' })}</title>
       </Head>
+
       <div className="get-verge pt-large pb">
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
@@ -23,8 +24,11 @@ function GetVerge(props) {
                 >
                   {t('get-verge:body.intro3', { defaultValue: 'Visit Coinmarketcap for an additional list of market pairs.' })}
                 </a>
-              </p>
+            </p>
 
+            <div className="col-xs-10">
+
+              
               <h2>{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges.' })}</h2>
               <h3>{t('get-verge:body.intro2', { defaultValue: 'We’re proud to be listed on:' })}</h3>
 
@@ -33,22 +37,24 @@ function GetVerge(props) {
               <span className="hidden-xs">
                 <br />
               </span>
-			  <div className="iframe-container" style={{ textAlign: 'center' }}>
-        <iframe 
-          src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
-          frameBorder="0" 
-          width="404px" 
-          height="536px" 
-          style={{ 
-            width: '404px', 
-            height: '536px', 
-            borderRadius: '20px', 
-            maxWidth: '100%' 
-          }} 
-        />
-      </div>
+
+              <div className="iframe-container" style={{ textAlign: 'center', marginBottom: '20px' }}>
+                <iframe 
+                  src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
+                  frameBorder="0" 
+                  width="404px" 
+                  height="536px" 
+                  style={{
+                    width: '404px',
+                    height: '536px',
+                    borderRadius: '20px',
+                    maxWidth: '100%',
+                  }} 
+                />
+              </div>
+
               <h3>
-                {t('home:getverge.text6', {defaultValue: 'Exchange Disclaimer:',})}
+                {t('home:getverge.text6', {defaultValue: 'Exchange Disclaimer:'})}
                 {' '}
                 <span className="hidden-xs">
                   <br />
@@ -59,15 +65,17 @@ function GetVerge(props) {
                   defaultValue: <i>Verge Currency provides the exchange information listed herein for informational purposes only. Verge Currency is not liable for any third-party transactions between cryptocurrency purchasers or sellers. Buyers and investors are to seek independent financial advice from a professional. Do your own research.</i>,
                 })}
               </h4>
-			  <br /><br />
-			  <h3>
-                {t('home:getverge.text8', {defaultValue: 'Verge Network and Statistic Overviews:',})}
+
+              <br /><br />
+
+              <h3>
+                {t('home:getverge.text8', {defaultValue: 'Verge Network and Statistic Overviews:'})}
                 {' '}
                 <span className="hidden-xs">
                   <br />
                 </span>
               </h3>
-			  <h4
+              <h4
                 dangerouslySetInnerHTML={{
                   __html: `
                     ${t('home:getverge.text9', {defaultValue: 'Network and Proof of Work stats! <a href="https://vergecurrency.network/" target="_blank">https://vergecurrency.network/</a>'})}<br />
@@ -79,7 +87,8 @@ function GetVerge(props) {
             </div>
           </div>
 
-          {/*<Coinchart />*/}
+          {/* Placeholder for Coinchart component */}
+          {/* <Coinchart /> */}
 
           <div className="row center-xs middle-xs pt pb">
             <div className="col-xs-10 col-sm-6">
