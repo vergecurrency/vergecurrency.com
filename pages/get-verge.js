@@ -27,7 +27,6 @@ function GetVerge(props) {
             </p>
 
             <div className="col-xs-10">
-
               
               <h2>{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges.' })}</h2>
               <h3>{t('get-verge:body.intro2', { defaultValue: 'We’re proud to be listed on:' })}</h3>
@@ -37,6 +36,9 @@ function GetVerge(props) {
               <span className="hidden-xs">
                 <br />
               </span>
+
+              {/* Text added above the iframe */}
+              <h4 style={{ textAlign: 'center' }}>Here you can buy XVG or any cryptocurrency with Paypal, or just swap crypto for crypto here!</h4>
 
               <div className="iframe-container" style={{ textAlign: 'center', marginBottom: '20px' }}>
                 <iframe 
