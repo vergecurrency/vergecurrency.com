@@ -38,7 +38,7 @@ function GetVerge(props) {
               </span>
 
               {/* Text added above the iframe */}
-              <h4 style={{ textAlign: 'center' }}>Here you can buy XVG or any cryptocurrency with Paypal, or just swap crypto for crypto here!</h4>
+              <h4 style={{ textAlign: 'center' }}>Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin, or Ethereum! or swap any crypto for a different crypto!</h4>
 
               <div className="iframe-container" style={{ textAlign: 'center', marginBottom: '20px' }}>
                 <iframe 
