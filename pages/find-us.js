@@ -53,17 +53,16 @@ function FindUs(props) {
                       </div>
                       <br /><br />
                       <div className="divTableRow">
-                        {/*  <div className="divTableCell"><a href="https://www.investfeed.com/currency/XVG" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/investfeed.png" alt="investFeed" title="investFeed" /></a></div>*/}
-                        <div className="divTableCell"> <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/facebook.png" alt="Facebook" title="Facebook" /></a></div>
+                        <div className="divTableCell"><a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/facebook.png" alt="Facebook" title="Facebook" /></a></div>
                         <div className="divTableCell"><a href="https://www.youtube.com/vergecurrencyofficial" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/youtube.png" alt="YouTube" title="YouTube" /></a></div>
                         <div className="divTableCell"><a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/github.png" alt="GitHub" title="GitHub" /></a></div>
+						<div className="divTableCell"><a href="https://coinmarketcap.com/community/profile/VergeCurrency/" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/cmc.png" alt="CoinMarketCap" title="CoinMarketCap" /></a></div>
                       </div>
                       <div className="divTableRow">
-                        {/*  <div className="divTableCell">investFeed</div>*/}
                         <div className="divTableCell">Facebook</div>
                         <div className="divTableCell">YouTube</div>
                         <div className="divTableCell">GitHub</div>
-                        <div className="divTableCell">Email</div>
+                        <div className="divTableCell">CoinMarketCap</div>
                       </div>
                     </div>
                   </div>
