@@ -1437,6 +1437,116 @@ const mileStones = [
     infoLabel: 'verge github repository link',
     infoUrl: 'https://github.com/vergecurrency/verge/releases'
   },
+  {
+    done: true,
+    doneDate: '24th September 2024',
+    title: 'Battle Burns!',
+    description: 'Battle Burns launches for $XVGETH',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'battle burns site',
+    infoUrl: 'https://www.battleburns.com/'
+  },
+  {
+    done: true,
+    doneDate: '4th October 2024',
+    title: 'Exchang.io supports $XVG!',
+    description: 'Exchang.io lists XVG for swaps!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/Exchangio/status/1842242322257363270'
+  },
+  {
+    done: true,
+    doneDate: '9th October 2024',
+    title: 'Verge Birthday!',
+    description: 'Verge Celebrates its 10th Birthday!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/vergecurrency/status/1844065883020513292'
+  },
+  {
+    done: true,
+    doneDate: '12th November 2024',
+    title: 'Verge Core v7.7.0!',
+    description: 'Verge Core v7.7.0 is released!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/justinvendetta/status/1856429191996014722'
+  },
+  {
+    done: true,
+    doneDate: '12th November 2024',
+    title: 'Verge Site gets a Swap!',
+    description: 'Verge Website Launches a Built-In Swap Service!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/vergecurrency/status/1856460395378078146'
+  },
+  {
+    done: true,
+    doneDate: '26th November 2024',
+    title: 'Verge Founder AMA with SwapSpace',
+    description: 'Verge Founder Sunerok does an AMA with SwapSpace via Twitter Spaces!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/SwapSpaceCo/status/1861478478291562614'
+  },
+  {
+    done: true,
+    doneDate: '2nd December 2024',
+    title: '$XVGETH Burns 3.24Billion tokens!',
+    description: '$XVGETH burns 3.24Billion tokens, bringing $XVGETH supply down to 10billion even!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/XVGETH/status/1863617937753456759'
+  },
+  {
+    done: true,
+    doneDate: '3rd December 2024',
+    title: '$XVGETH can be swapped in Coinbase Web3 Wallet!',
+    description: '$XVGETH becomes swappable in Wallet.Coinbase.com!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/XVGETH/status/1864041184584159543'
+  },
+  {
+    done: true,
+    doneDate: '5th December 2024',
+    title: '$XVG gets added to Kraken Pro!',
+    description: '$XVG perpetual futures now live and ready to trade!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Kraken twitter link',
+    infoUrl: 'https://x.com/krakenpro/status/1864746595943641293'
+  },
+  {
+    done: true,
+    doneDate: '17th December 2024',
+    title: '$XVG gets added to Finst!',
+    description: 'Finst adds $XVG to its exchange!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Finst twitter link',
+    infoUrl: 'https://x.com/finst_official/status/1868984184263303581'
+  },
+  {
+    done: true,
+    doneDate: '29th December 2024',
+    title: '@Vergecurrency breaks 30k followers on CoinMarketCap!',
+    description: '@Vergecurrency breaks 30k followers on CoinMarketCap!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'CoinMarketCap link',
+    infoUrl: 'https://coinmarketcap.com/community/profile/VergeCurrency/'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
