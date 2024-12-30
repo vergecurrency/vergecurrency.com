@@ -6,6 +6,12 @@
       "link": "binance.com",
       "url": "https://www.binance.com/?ref=28698668"
     },
+	{
+      "img": "../static/img/exchanges/binancetr.png",
+      "title": "BinanceTR",
+      "link": "binance.tr",
+      "url": "https://www.binance.tr/"
+    },
     {
       "img": "../static/img/exchanges/bitmart.svg",
       "title": "BitMart",
