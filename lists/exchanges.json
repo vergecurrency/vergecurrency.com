@@ -31,10 +31,10 @@
       "url": "https://www.biconomy.com/"
     },
     {
-      "img": "../static/img/exchanges/bitfinex.png",
-      "title": "Bitfinex",
-      "link": "bitfinex.com",
-      "url": "https://bitfinex.com"
+      "img": "../static/img/exchanges/tradeogre.svg",
+      "title": "TradeOgre",
+      "link": "tradeogre.com",
+      "url": "https://tradeogre.com/"
     },
 	{
       "img": "../static/img/exchanges/btcc.svg",
