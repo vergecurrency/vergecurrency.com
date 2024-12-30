@@ -18,6 +18,12 @@
       "link": "coinw.com",
       "url": "https://www.coinw.com/h5/invitePublicity?r=256518"
     },
+	{
+      "img": "../static/img/exchanges/tokocrypto.png",
+      "title": "TokoCrypto",
+      "link": "tokocrypto.com/",
+      "url": "https://tokocrypto.com/"
+    },
     {
       "img": "../static/img/exchanges/swapswop.png",
       "title": "SwapSwop",
