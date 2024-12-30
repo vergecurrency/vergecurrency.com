@@ -18,6 +18,12 @@
       "link": "bitmart.com",
       "url": "https://www.bitmart.com/register-referral/en?r=Vkvp3T"
     },
+	{
+      "img": "../static/img/exchanges/bitmart.svg",
+      "title": "HTX",
+      "link": "htx.com",
+      "url": "https://www.htx.com/"
+    },
     {
       "img": "../static/img/exchanges/coinw.svg",
       "title": "CoinW",
