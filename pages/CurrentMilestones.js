@@ -1474,7 +1474,7 @@ const mileStones = [
     description: 'Verge Core v7.7.0 is released!',
     progress: 100,
     progressState: '100',
-    infoLabel: 'twitter link',
+    infoLabel: 'github link',
     infoUrl: 'https://github.com/vergecurrency/verge/releases/'
   },
   {
