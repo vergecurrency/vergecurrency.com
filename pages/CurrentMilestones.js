@@ -1475,7 +1475,7 @@ const mileStones = [
     progress: 100,
     progressState: '100',
     infoLabel: 'twitter link',
-    infoUrl: 'https://x.com/justinvendetta/status/1856429191996014722'
+    infoUrl: 'https://github.com/vergecurrency/verge/releases/'
   },
   {
     done: true,
