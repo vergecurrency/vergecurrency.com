@@ -24,6 +24,12 @@
       "link": "tokocrypto.com/",
       "url": "https://tokocrypto.com/"
     },
+	{
+      "img": "../static/img/exchanges/mexco.webp",
+      "title": "MEXC",
+      "link": "mexc.com/",
+      "url": "https://www.mexc.com/exchange/XVG_USDT"
+    },
     {
       "img": "../static/img/exchanges/swapswop.png",
       "title": "SwapSwop",
