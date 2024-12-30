@@ -31,6 +31,12 @@
       "url": "https://www.coinw.com/h5/invitePublicity?r=256518"
     },
 	{
+      "img": "../static/img/exchanges/bingx.png",
+      "title": "BingX",
+      "link": "bingx.com",
+      "url": "https://bingx.com/en/spot/XVGUSDT/"
+    },
+	{
       "img": "../static/img/exchanges/tokocrypto.png",
       "title": "TokoCrypto",
       "link": "tokocrypto.com/",
