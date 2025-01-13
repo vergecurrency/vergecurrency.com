@@ -1547,6 +1547,16 @@ const mileStones = [
     infoLabel: 'CoinMarketCap link',
     infoUrl: 'https://coinmarketcap.com/community/profile/VergeCurrency/'
   },
+  {
+    done: true,
+    doneDate: '8th January 2025',
+    title: 'Verge Core v7.8.0 is now out! ',
+    description: 'Verge Core v7.8.0 is now out',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Github link',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
