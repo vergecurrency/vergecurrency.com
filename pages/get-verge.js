@@ -20,14 +20,14 @@ function GetVerge(props) {
             {/* Text added above the iframe */}
               <h4 style={{ textAlign: 'center' }}>Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin, or Ethereum! or swap any crypto for a different crypto!</h4>
 
-              <div className="iframe-container" style={{ textAlign: 'center', marginBottom: '20px' }}>
+              <div className="iframe-container" style={{ textAlign: 'center', marginBottom: '10px' }}>
                 <iframe 
                   src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
                   frameBorder="0" 
-                  width="404px" 
+                  width="604px" 
                   height="536px" 
                   style={{
-                    width: '404px',
+                    width: '604px',
                     height: '536px',
                     borderRadius: '20px',
                     maxWidth: '100%',
