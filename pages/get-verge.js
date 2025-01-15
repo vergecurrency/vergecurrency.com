@@ -17,14 +17,6 @@ function GetVerge(props) {
       <div className="get-verge pt-large pb">
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
-            <p className="mb">
-                <a
-                  href="https://coinmarketcap.com/currencies/verge/"
-                  rel="noopener noreferrer"
-                >
-                  {t('get-verge:body.intro3', { defaultValue: 'Visit Coinmarketcap for an additional list of market pairs.' })}
-                </a>
-            </p>
             {/* Text added above the iframe */}
               <h4 style={{ textAlign: 'center' }}>Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin, or Ethereum! or swap any crypto for a different crypto!</h4>
 
@@ -44,6 +36,14 @@ function GetVerge(props) {
               </div>
             <div className="col-xs-10">
               <h2>{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges.' })}</h2>
+			  <p className="mb">
+                <a
+                  href="https://coinmarketcap.com/currencies/verge/"
+                  rel="noopener noreferrer"
+                >
+                  {t('get-verge:body.intro3', { defaultValue: 'Visit Coinmarketcap for an additional list of market pairs.' })}
+                </a>
+            </p>
               <h3>{t('get-verge:body.intro2', { defaultValue: 'We’re proud to be listed on:' })}</h3>
               <Exchanges />
 
