@@ -27,34 +27,13 @@ function GetVerge(props) {
             </p>
 
             <div className="col-xs-10">
-              
               <h2>{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges.' })}</h2>
               <h3>{t('get-verge:body.intro2', { defaultValue: 'We’re proud to be listed on:' })}</h3>
-
               <Exchanges />
 
               <span className="hidden-xs">
                 <br />
               </span>
-
-              {/* Text added above the iframe */}
-              <h4 style={{ textAlign: 'center' }}>Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin, or Ethereum! or swap any crypto for a different crypto!</h4>
-
-              <div className="iframe-container" style={{ textAlign: 'center', marginBottom: '20px' }}>
-                <iframe 
-                  src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
-                  frameBorder="0" 
-                  width="404px" 
-                  height="536px" 
-                  style={{
-                    width: '404px',
-                    height: '536px',
-                    borderRadius: '20px',
-                    maxWidth: '100%',
-                  }} 
-                />
-              </div>
-
               <h3>
                 {t('home:getverge.text6', {defaultValue: 'Exchange Disclaimer:'})}
                 {' '}
