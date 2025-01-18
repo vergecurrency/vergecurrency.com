@@ -13,46 +13,24 @@ function GetVerge(props) {
       <Head>
         <title key="title">{t('common:meta.get-verge.title', { defaultValue: 'Get Verge - VergeCurrency.com' })}</title>
       </Head>
-
-      <div className="get-verge pt-large pb" style={{ 
-    display: 'flex', 
-    justifyContent: 'center', 
-    alignItems: 'center', // Add this for vertical centering
-    marginBottom: '10px', 
-    width: '100%', 
-    height: '100%', // Optional: ensures the parent container scales properly
-  }}>
-  <div className="container">
-    <div className="row center-xs middle-xs pt pb" style={{ 
-    display: 'flex', 
-    justifyContent: 'center', 
-    alignItems: 'center', // Add this for vertical centering
-    marginBottom: '10px', 
-    width: '100%', 
-    height: '100%', // Optional: ensures the parent container scales properly
-  }}>
-      {/* Text added above the iframe */}
-      <h4 style={{ textAlign: 'center' }}>
-        Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin, or Ethereum! 
-        or swap any crypto for a different crypto!
-      </h4>
-      <div className="iframe-container" style={{ display: 'flex', justifyContent: 'center', marginBottom: '10px' }}>
-        <iframe 
-          src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
-          frameBorder="0" 
-          width="604px" 
-          height="536px" 
-          style={{
-            width: '604px',
-            height: '536px',
-            borderRadius: '20px',
-            maxWidth: '100%',
-          }} 
-        />
+<div className="iframe-container" style={{ textAlign: 'center', marginBottom: '20px' }}>
+                <iframe 
+                  src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
+                  frameBorder="0" 
+                  width="404px" 
+                  height="536px" 
+                  style={{
+                    width: '404px',
+                    height: '536px',
+                    borderRadius: '20px',
+                    maxWidth: '100%',
+                  }} 
+                />
               </div>
-            <div className="col-xs-10">
-              <h2>{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges.' })}</h2>
-			  <p className="mb">
+      <div className="get-verge pt-large pb">
+        <div className="container">
+          <div className="row center-xs middle-xs pt pb">
+            <p className="mb">
                 <a
                   href="https://coinmarketcap.com/currencies/verge/"
                   rel="noopener noreferrer"
@@ -60,12 +38,21 @@ function GetVerge(props) {
                   {t('get-verge:body.intro3', { defaultValue: 'Visit Coinmarketcap for an additional list of market pairs.' })}
                 </a>
             </p>
+
+            <div className="col-xs-10">
+              
+              <h2>{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges.' })}</h2>
               <h3>{t('get-verge:body.intro2', { defaultValue: 'We’re proud to be listed on:' })}</h3>
+
               <Exchanges />
 
               <span className="hidden-xs">
                 <br />
               </span>
+
+              {/* Text added above the iframe */}
+              <h4 style={{ textAlign: 'center' }}>Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin, or Ethereum! or swap any crypto for a different crypto!</h4>
+
               <h3>
                 {t('home:getverge.text6', {defaultValue: 'Exchange Disclaimer:'})}
                 {' '}
