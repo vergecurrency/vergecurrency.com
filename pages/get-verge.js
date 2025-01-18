@@ -14,9 +14,23 @@ function GetVerge(props) {
         <title key="title">{t('common:meta.get-verge.title', { defaultValue: 'Get Verge - VergeCurrency.com' })}</title>
       </Head>
 
-      <div className="get-verge pt-large pb">
+      <div className="get-verge pt-large pb" style={{ 
+    display: 'flex', 
+    justifyContent: 'center', 
+    alignItems: 'center', // Add this for vertical centering
+    marginBottom: '10px', 
+    width: '100%', 
+    height: '100%', // Optional: ensures the parent container scales properly
+  }}>
   <div className="container">
-    <div className="row center-xs middle-xs pt pb">
+    <div className="row center-xs middle-xs pt pb" style={{ 
+    display: 'flex', 
+    justifyContent: 'center', 
+    alignItems: 'center', // Add this for vertical centering
+    marginBottom: '10px', 
+    width: '100%', 
+    height: '100%', // Optional: ensures the parent container scales properly
+  }}>
       {/* Text added above the iframe */}
       <h4 style={{ textAlign: 'center' }}>
         Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin, or Ethereum! 
