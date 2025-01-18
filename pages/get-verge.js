@@ -15,27 +15,27 @@ function GetVerge(props) {
       </Head>
 
       <div className="get-verge pt-large pb">
-        <div className="container">
-          <div className="row center-xs middle-xs pt pb">
-            {/* Text added above the iframe */}
-              <h4 style={{ textAlign: 'center' }}>Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin, or Ethereum! or swap any crypto for a different crypto!</h4>
-		<center>
-              <div className="iframe-container" style={{ textAlign: 'center', marginBottom: '10px' }}>
-	<center>
-                <iframe 
-                  src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
-                  frameBorder="0" 
-                  width="604px" 
-                  height="536px" 
-                  style={{
-                    width: '604px',
-                    height: '536px',
-                    borderRadius: '20px',
-                    maxWidth: '100%',
-                  }} 
-                /></center>
+  <div className="container">
+    <div className="row center-xs middle-xs pt pb">
+      {/* Text added above the iframe */}
+      <h4 style={{ textAlign: 'center' }}>
+        Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin, or Ethereum! 
+        or swap any crypto for a different crypto!
+      </h4>
+      <div className="iframe-container" style={{ display: 'flex', justifyContent: 'center', marginBottom: '10px' }}>
+        <iframe 
+          src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
+          frameBorder="0" 
+          width="604px" 
+          height="536px" 
+          style={{
+            width: '604px',
+            height: '536px',
+            borderRadius: '20px',
+            maxWidth: '100%',
+          }} 
+        />
               </div>
-			</center>
             <div className="col-xs-10">
               <h2>{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges.' })}</h2>
 			  <p className="mb">
