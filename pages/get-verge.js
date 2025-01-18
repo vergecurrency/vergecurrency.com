@@ -12,7 +12,8 @@ function GetVerge(props) {
     <Layout>
       <Head>
         <title key="title">{t('common:meta.get-verge.title', { defaultValue: 'Get Verge - VergeCurrency.com' })}</title>
-      </Head><br><br>
+      </Head>
+	  <br /><br />
 <div className="get-verge pt-large pb">
 <div className="iframe-container" style={{ textAlign: 'center', marginBottom: '20px' }}>
 {/* Text added above the iframe */}
