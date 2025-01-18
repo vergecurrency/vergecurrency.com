@@ -13,6 +13,7 @@ function GetVerge(props) {
       <Head>
         <title key="title">{t('common:meta.get-verge.title', { defaultValue: 'Get Verge - VergeCurrency.com' })}</title>
       </Head>
+<div className="get-verge pt-large pb">
 <div className="iframe-container" style={{ textAlign: 'center', marginBottom: '20px' }}>
                 <iframe 
                   src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
@@ -27,7 +28,6 @@ function GetVerge(props) {
                   }} 
                 />
               </div>
-      <div className="get-verge pt-large pb">
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <p className="mb">
