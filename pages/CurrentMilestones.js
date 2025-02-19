@@ -1557,6 +1557,36 @@ const mileStones = [
     infoLabel: 'Github link',
     infoUrl: 'https://github.com/vergecurrency/verge/releases'
   },
+  {
+    done: true,
+    doneDate: '25th January 2025',
+    title: 'Coingecko adds $XVG & $XVGETH to the list of Cryptocurrencies that were Made in the USA! ',
+    description: 'Coingecko adds $XVG & $XVGETH to the list of Cryptocurrencies that were Made in the USA!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Github link',
+    infoUrl: 'https://www.coingecko.com/en/categories/made-in-usa'
+  },
+  {
+    done: true,
+    doneDate: '30th January 2025',
+    title: 'Mihael celebrates 7 years being on the Verge Team!  ',
+    description: 'Mihael celebrates 7 years being on the Verge Team!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Github link',
+    infoUrl: 'https://x.com/itsmihael/status/1885091066757382441'
+  },
+  {
+    done: true,
+    doneDate: '31st January 2025',
+    title: 'CoinMarketCap adds $XVG & $XVGETH to the list of cryptocurrencies that were Made in the USA!',
+    description: 'CoinMarketCap adds $XVG & $XVGETH to the list of cryptocurrencies that were Made in the USA!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Github link',
+    infoUrl: 'https://coinmarketcap.com/view/made-in-america/'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
