@@ -215,6 +215,12 @@
       "title": "BYDFi",
       "link": "bydfi.com",
       "url": "https://www.bydfi.com/en/spot/xvg_usdt"
+    },
+    {
+      "img": "../static/img/exchanges/letsexchange.png",
+      "title": "LetsExchange",
+      "link": "letsexchange.io",
+      "url": "https://letsexchange.io"
     }
   ]
 }
