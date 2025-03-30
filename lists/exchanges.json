@@ -134,7 +134,7 @@
     },
     {
       "img": "../static/img/exchanges/changeangel.png",
-      "title": "changeangel",
+      "title": "ChangeAngel",
       "link": "changeangel.io",
       "url": "https://changeangel.io/"
     },
@@ -158,7 +158,7 @@
     },
     {
       "img": "../static/img/vendors/latest/nowpayments.png",
-      "title": "NOW Payments",
+      "title": "NOWPayments",
       "link": "nowpayments.io",
       "url": "https://account.nowpayments.io/create-account/?link_id=4058122108"
     },
