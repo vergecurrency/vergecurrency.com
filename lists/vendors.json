@@ -1,20 +1,6 @@
 {
     "vendors": [
         {
-            "title": "Hypersphere",
-            "img": "../static/img/vendors/latest/hypersphere.jpeg",
-            "link": "hyperspheretech.com",
-            "url": "https://hyperspheretech.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Fractal Visuals",
             "img": "../static/img/vendors/latest/FractalVisuals.png",
             "link": "FractalVisuals.com",
@@ -23,20 +9,6 @@
                 "retail": false,
                 "foodAndBev": false,
                 "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Ganja.com",
-            "img": "../static/img/vendors/latest/ganja.jpg",
-            "link": "ganja.com",
-            "url": "https://xvg.ganja.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
                 "entertainment": false,
                 "travel": false,
                 "education": false
@@ -248,20 +220,6 @@
                 "foodAndBev": false,
                 "service": true,
                 "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Dead Day Revolution",
-            "img": "../static/img/vendors/latest/deaddayrevo.png",
-            "link": "deaddayrevolution.com",
-            "url": "https://deaddayrevolution.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": true,
                 "travel": false,
                 "education": false
             }
@@ -645,20 +603,6 @@
             }
         },
         {
-            "title": "Crypto Whale Clothing",
-            "img": "../static/img/vendors/latest/cryptowhaleclothing.png",
-            "link": "cryptowhaleclothing.com",
-            "url": "https://cryptowhaleclothing.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Ditchit",
             "img": "../static/img/vendors/latest/ditchit.png",
             "link": "ditchit.io",
@@ -905,20 +849,6 @@
                 "retail": true,
                 "foodAndBev": false,
                 "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "143VPN",
-            "img": "../static/img/vendors/latest/143vpn.png",
-            "link": "143vpn.com",
-            "url": "http://143vpn.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
                 "entertainment": false,
                 "travel": false,
                 "education": false
@@ -1359,20 +1289,6 @@
             }
         },
         {
-            "title": "Pachanko Studio",
-            "img": "../static/img/vendors/latest/pachanko.jpg",
-            "link": "pachankostudio.com",
-            "url": "https://www.pachankostudio.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "TorGuard",
             "img": "../static/img/vendors/latest/torguard.png",
             "link": "torguard.net",
@@ -1633,20 +1549,6 @@
                 "retail": false,
                 "foodAndBev": false,
                 "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Crypto Barista",
-            "img": "../static/img/vendors/latest/cryptobarista.png",
-            "link": "CryptoBarista.eu",
-            "url": "https://cryptobarista.eu/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": true,
-                "service": false,
                 "entertainment": false,
                 "travel": false,
                 "education": false
