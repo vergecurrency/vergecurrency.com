@@ -14,6 +14,20 @@
                 "education": false
             }
         },
+		{
+            "title": "NOWNodes",
+            "img": "../static/img/vendors/latest/nownodes.png",
+            "link": "nownodes.io",
+            "url": "https://nownodes.io/nodes/verge-xvg",
+            "categories": {
+                "retail": false,
+                "foodAndBev": false,
+                "service": true,
+                "entertainment": false,
+                "travel": false,
+                "education": false
+            }
+        },
         {
             "title": "AzireVPN",
             "img": "../static/img/vendors/latest/azirevpn.jpg",
