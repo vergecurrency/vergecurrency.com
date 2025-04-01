@@ -57,20 +57,6 @@
             }
         },
         {
-            "title": "DIOXYME",
-            "img": "../static/img/vendors/latest/dioxyme.png",
-            "link": "shop.dioxyme.com",
-            "url": "https://www.dioxyme.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "euGenius Vision",
             "img": "../static/img/vendors/latest/euGenius-vision.png",
             "link": "eugeniusvision.com",
@@ -187,20 +173,6 @@
             "img": "../static/img/vendors/latest/treeoflifeguitars.png",
             "link": "treeoflifeguitars.co.uk",
             "url": "https://treeoflifeguitars.co.uk/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Bamb-u",
-            "img": "../static/img/vendors/latest/bambu.jpg",
-            "link": "bamb-u.com",
-            "url": "https://www.bamb-u.com",
             "categories": {
                 "retail": true,
                 "foodAndBev": false,
