@@ -253,20 +253,6 @@
             }
         },
         {
-            "title": "Token Business",
-            "img": "../static/img/vendors/latest/tokenbusiness.png",
-            "link": "token-business.com",
-            "url": "https://token-business.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Blunt Umbrellas",
             "img": "../static/img/vendors/latest/bluntumbrellas.png",
             "link": "bluntumbrellas.com",
@@ -295,20 +281,6 @@
             }
         },
         {
-            "title": "Crypto Emporium",
-            "img": "../static/img/vendors/latest/cryptoemporium.jpg",
-            "link": "cryptoemporium.eu",
-            "url": "http://cryptoemporium.eu",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Bulldesign",
             "img": "../static/img/vendors/latest/bulldesign.png",
             "link": "Bulldesign.dk",
@@ -323,80 +295,10 @@
             }
         },
         {
-            "title": "Law Offices of Jason D.Knott, P.A.",
-            "img": "../static/img/vendors/latest/LawofficesJasonD.Knott.jpg",
-            "link": "lawofficesofjasonknott.com",
-            "url": "https://lawofficesofjasonknott.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Nexwave",
-            "img": "../static/img/vendors/latest/Nexwave.png",
-            "link": "Nexwave.ca",
-            "url": "https://Nexwave.ca",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Reno Sports Bar",
             "img": "../static/img/vendors/latest/RenoSportsBar.jpg",
             "link": "Reno Bar Hastings",
             "url": "https://www.yelp.com/biz/reno-bar-hastings",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": true,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Alwayshodl",
-            "img": "../static/img/vendors/latest/alwayshodl.png",
-            "link": "alwayshodl.com",
-            "url": "https://alwayshodl.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "WhiskerMen",
-            "img": "../static/img/vendors/latest/whiskermen.png",
-            "link": "Whiskermen.com",
-            "url": "https://Whiskermen.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "QuanTVm",
-            "img": "../static/img/vendors/latest/quantvm.png",
-            "link": "quantvmstick.com",
-            "url": "http://www.quantvmstick.com",
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
