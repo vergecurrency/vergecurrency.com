@@ -183,20 +183,6 @@
             }
         },
         {
-            "title": "Warmane Trade",
-            "img": "../static/img/vendors/latest/warmanetrade.png",
-            "link": "warmanetrade.com",
-            "url": "http://www.warmanetrade.com/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "BIM Trainings",
             "img": "../static/img/vendors/latest/blm.jpg",
             "link": "bimtrainings.com/",
@@ -215,20 +201,6 @@
             "img": "../static/img/vendors/latest/evolutionhost.png",
             "link": "evolution-host.com",
             "url": "https://evolution-host.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "R3BEL FITNESS",
-            "img": "../static/img/vendors/latest/rebelfitness.jpg",
-            "link": "r3bel.fitness/",
-            "url": "http://r3bel.fitness/",
             "categories": {
                 "retail": false,
                 "foodAndBev": false,
