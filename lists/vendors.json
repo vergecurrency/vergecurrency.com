@@ -351,20 +351,6 @@
             }
         },
         {
-            "title": "Meccamino",
-            "img": "../static/img/vendors/latest/meccamino.jpg",
-            "link": "meccamino.com.au",
-            "url": "https://meccamino.com.au/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "APE Advisor Prep",
             "img": "../static/img/vendors/latest/apetest.png",
             "link": "apetest.com",
