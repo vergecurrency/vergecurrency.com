@@ -1620,7 +1620,7 @@ const mileStones = [
   {
     done: true,
     doneDate: '11th March 2025',
-	title: 'Verge Android Wallet update!',
+	title: 'Verge Android Wallet update v3.0!',
     description: 'Verge Android Wallet update!',
     progress: 100,
     progressState: '100',
