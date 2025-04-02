@@ -28,6 +28,20 @@
                 "education": false
             }
         },
+		{
+            "title": "CardStorm",
+            "img": "../static/img/vendors/latest/cardstorm.png",
+            "link": "cardstorm.io",
+            "url": "https://cardstorm.io/",
+            "categories": {
+                "retail": true,
+                "foodAndBev": true,
+                "service": true,
+                "entertainment": true,
+                "travel": false,
+                "education": ftrue
+            }
+        },
         {
             "title": "AzireVPN",
             "img": "../static/img/vendors/latest/azirevpn.jpg",
