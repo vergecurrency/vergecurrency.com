@@ -1564,7 +1564,7 @@ const mileStones = [
     description: 'Coingecko adds $XVG & $XVGETH to the list of Cryptocurrencies that were Made in the USA!',
     progress: 100,
     progressState: '100',
-    infoLabel: 'Github link',
+    infoLabel: 'coingecko link',
     infoUrl: 'https://www.coingecko.com/en/categories/made-in-usa'
   },
   {
@@ -1574,7 +1574,7 @@ const mileStones = [
     description: 'Mihael celebrates 7 years being on the Verge Team!',
     progress: 100,
     progressState: '100',
-    infoLabel: 'Github link',
+    infoLabel: 'twitter link',
     infoUrl: 'https://x.com/itsmihael/status/1885091066757382441'
   },
   {
@@ -1584,8 +1584,58 @@ const mileStones = [
     description: 'CoinMarketCap adds $XVG & $XVGETH to the list of cryptocurrencies that were Made in the USA!',
     progress: 100,
     progressState: '100',
-    infoLabel: 'Github link',
+    infoLabel: 'Coinmarketcap link',
     infoUrl: 'https://coinmarketcap.com/view/made-in-america/'
+  },
+  {
+    done: true,
+    doneDate: '31st January 2025',
+    title: 'Guarda Wallet publishes article about Verge!',
+    description: 'Guarda Wallet publishes article about Verge!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Guarda link',
+    infoUrl: 'https://guarda.com/academy/crypto/what-is-verge/'
+  },
+  {
+    done: true,
+    doneDate: '21st February 2025',
+    title: 'Guarda adds XVGETH to its in-wallet DEX trading!',
+    description: 'Guarda Wallet publishes article about Verge!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Guarda link',
+    infoUrl: 'https://guarda.com/'
+  },
+  {
+    done: true,
+    doneDate: '27th February 2025',
+	title: 'Verge Core v7.9 is released!',
+    description: 'Verge Core v7.9 is released!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Github link',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases'
+  },
+  {
+    done: true,
+    doneDate: '11th March 2025',
+	title: 'Verge Android Wallet update!',
+    description: 'Verge Android Wallet update!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Google Play Store link',
+    infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
+  },
+  {
+    done: true,
+    doneDate: '2nd April 2025',
+	title: 'Verge added to CardStorm!',
+    description: 'Verge is now a payment method on CardStorm.io!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'cardstorm link',
+    infoUrl: 'https://cardstorm.io'
   },
   // {
   //   done: true or false,
