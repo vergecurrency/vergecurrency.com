@@ -39,7 +39,7 @@
                 "service": true,
                 "entertainment": true,
                 "travel": false,
-                "education": ftrue
+                "education": true
             }
         },
         {
