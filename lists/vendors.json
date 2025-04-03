@@ -729,20 +729,6 @@
             }
         },
         {
-            "title": "Sardis Marketplace",
-            "img": "../static/img/vendors/latest/sardismarketplace.png",
-            "link": "sardismarketplace.com",
-            "url": "http://sardismarketplace.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Relevé Escuela de Baile",
             "img": "../static/img/vendors/latest/releve.png",
             "link": "releve.com.mx",
