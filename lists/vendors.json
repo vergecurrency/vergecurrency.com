@@ -379,20 +379,6 @@
             }
         },
         {
-            "title": "APE Advisor Prep",
-            "img": "../static/img/vendors/latest/apetest.png",
-            "link": "apetest.com",
-            "url": "https://apetest.com/edu/",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": true
-            }
-        },
-        {
             "title": "HeightCare",
             "img": "../static/img/vendors/latest/heightcare.png",
             "link": "heightcare.nl",
