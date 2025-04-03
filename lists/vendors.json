@@ -631,34 +631,6 @@
             }
         },
         {
-            "title": "Albatross Film Service",
-            "img": "../static/img/vendors/latest/albatross.jpg",
-            "link": "albatrossfilmservice.com",
-            "url": "http://albatrossfilmservice.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Suns Limited IT Solutions, LLC",
-            "img": "../static/img/vendors/latest/sunslimited2.png",
-            "link": "sunslimited.com",
-            "url": "http://sunslimited.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "MLK Group",
             "img": "../static/img/vendors/latest/mlkgroup.png",
             "link": "mlkgroup.com.au",
@@ -667,20 +639,6 @@
                 "retail": false,
                 "foodAndBev": false,
                 "service": true,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "Scoop these Games",
-            "img": "../static/img/vendors/latest/scoopthis.jpg",
-            "link": "scoopthisgames.com",
-            "url": "http://scoopthisgames.com",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
                 "entertainment": false,
                 "travel": false,
                 "education": false
@@ -793,34 +751,6 @@
                 "retail": true,
                 "foodAndBev": false,
                 "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
-            "title": "bitcoincards",
-            "img": "../static/img/vendors/latest/bitcoincards.png",
-            "link": "bitcoincards.io",
-            "url": "http://bitcoincards.io",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
-                "entertainment": false,
-                "travel": true,
-                "education": false
-            }
-        },
-        {
-            "title": "4coingigs",
-            "img": "../static/img/vendors/latest/4coingigs.png",
-            "link": "4coingigs.com",
-            "url": "http://4coingigs.com",
-            "categories": {
-                "retail": false,
-                "foodAndBev": false,
-                "service": true,
                 "entertainment": false,
                 "travel": false,
                 "education": false
@@ -1009,20 +939,6 @@
             }
         },
         {
-            "title": "BitcoinGallery.art",
-            "img": "../static/img/vendors/latest/bitcoingallery.jpg",
-            "link": "sigmasixdesign.com/bitcoin-gallery",
-            "url": "http://www.sigmasixdesign.com/bitcoin-gallery",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
-                "education": false
-            }
-        },
-        {
             "title": "Birsa Cleaning",
             "img": "../static/img/vendors/latest/birsacleaning.png",
             "link": "birsacleaning.com",
@@ -1131,20 +1047,6 @@
                 "service": true,
                 "entertainment": false,
                 "travel": true,
-                "education": false
-            }
-        },
-        {
-            "title": "Bookcoin",
-            "img": "../static/img/vendors/latest/bookcoin.png",
-            "link": "Bookcoinshop.com",
-            "url": "https://bookcoinshop.com/",
-            "categories": {
-                "retail": true,
-                "foodAndBev": false,
-                "service": false,
-                "entertainment": false,
-                "travel": false,
                 "education": false
             }
         },
