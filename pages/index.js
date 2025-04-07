@@ -13,6 +13,7 @@ import {
   faReddit,
   faTwitter,
   faDiscord,
+  faTikTok,
 } from '@fortawesome/fontawesome-free-brands';
 
 import { HomeExchanges } from '../components/Exchanges';
