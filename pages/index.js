@@ -602,6 +602,20 @@ function Home(props) {
                             </a>
                           </Link>
                         </div>
+                        <div className="pt-xs social__icon">
+                          <Link href="https://www.tiktok.com/@officialvergecurrency">
+                            <a
+                              href="https://www.tiktok.com/@officialvergecurrency"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="social__link social__link--tiktok"
+                              name="TikTok link"
+                              title="TikTok"
+                            >
+                              <FontAwesomeIcon icon={faTikTok} size="2x" />
+                            </a>
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </div>
