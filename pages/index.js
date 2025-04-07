@@ -13,7 +13,6 @@ import {
   faReddit,
   faTwitter,
   faDiscord,
-  faTikTok,
 } from '@fortawesome/fontawesome-free-brands';
 
 import { HomeExchanges } from '../components/Exchanges';
@@ -610,10 +609,10 @@ function Home(props) {
                               target="_blank"
                               rel="noopener noreferrer"
                               className="social__link social__link--tiktok"
-                              name="TikTok link"
-                              title="TikTok"
+                              name="BlueSky link"
+                              title="BlueSky"
                             >
-                              <FontAwesomeIcon icon={faTikTok} size="2x" />
+                              <img src="./static/img/icons/tiktok.svg" alt="tiktok logo" width="30" height="30" />
                             </a>
                           </Link>
                         </div>
