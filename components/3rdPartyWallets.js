@@ -14,11 +14,6 @@ const wallets = [
         logo: "/static/img/wallets/3rdparty/guarda.png",
         alt: "Guarda"
     },
-    {
-        href: "https://www.investvoyager.com/",
-        logo: "/static/img/wallets/3rdparty/voyager.png",
-        alt: "Voyager"
-    },
 	{
         href: "https://atomicwallet.io/komodo-wallet",
         logo: "/static/img/wallets/3rdparty/komodo-wallet-logo_black.png",
