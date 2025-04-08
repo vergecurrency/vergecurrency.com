@@ -1637,6 +1637,16 @@ const mileStones = [
     infoLabel: 'cardstorm link',
     infoUrl: 'https://cardstorm.io'
   },
+  {
+    done: true,
+    doneDate: '8th April 2025',
+    title: 'Verge added to MyCryptoCheckout!',
+    description: 'Easily accept verge on your retail website with their wordpress/woocommerce/website plugins!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'website link',
+    infoUrl: 'https://mycryptocheckout.com/coins/verge/'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
