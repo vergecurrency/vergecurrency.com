@@ -20,11 +20,6 @@ const sponsors = [
         alt: "Clothing RIC"
     },
     {
-        href: "https://blockchainbusinessmagazine.com/",
-        logo: "/static/img/sponsors/bbm.png",
-        alt: "Blockchain Business Magazine"
-    },
-    {
         href: "https://nownodes.io/",
         logo: "/static/img/sponsors/nownodes.png",
         alt: "Now Nodes"
