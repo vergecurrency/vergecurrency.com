@@ -1647,6 +1647,16 @@ const mileStones = [
     infoLabel: 'website link',
     infoUrl: 'https://mycryptocheckout.com/coins/verge/'
   },
+  {
+    done: true,
+    doneDate: '9th April 2025',
+    title: 'Verge and Ellipal Cold Storage Card Give away contest!',
+    description: 'Verge and Ellipal are giving away a brand new Ellipal Cold Storage Card Wallet!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/vergecurrency/status/1910064429217051045'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
