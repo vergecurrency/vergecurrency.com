@@ -6035,10 +6035,12 @@ humps@^2.0.1:
   resolved "https://registry.yarnpkg.com/humps/-/humps-2.0.1.tgz#dd02ea6081bd0568dc5d073184463957ba9ef9aa"
   integrity sha512-E0eIbrFWUhwfXJmsbdjRQFQPrl5pTEoKlz163j1mTqqUnU9PgR4AgB8AIITzuB3vLBdxZXyZ9TDIrwB2OASz4g==
 
-i18next-browser-languagedetector@^2.1.0:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/i18next-browser-languagedetector/-/i18next-browser-languagedetector-2.2.4.tgz#b02412d7ab15d7d74e1b1317d67d8a244b219ee3"
-  integrity sha512-wPbtH18FdOuB245I8Bhma5/XSDdN/HpYlX+wga1eMy+slhaFQSnrWX6fp+aYSL2eEuj0RlfHeEVz6Fo/lxAj6A==
+i18next-browser-languagedetector@^8.0.5:
+  version "8.0.5"
+  resolved "https://registry.yarnpkg.com/i18next-browser-languagedetector/-/i18next-browser-languagedetector-8.0.5.tgz#6cfdc72820457ce95e69a2788a4f837d1d8f4e9d"
+  integrity sha512-OstebRKqKiQw8xEvQF5aRyUujsCatanj7Q9eo5iiH2gJpoXGZ7483ol3sVBwfqbobTQPNH1J+NAyJ1aCQoEC+w==
+  dependencies:
+    "@babel/runtime" "^7.23.2"
 
 i18next-fs-backend@^2.3.2:
   version "2.3.2"
