@@ -1659,6 +1659,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '18th April 2025',
+    title: 'Verge Core v7.10 is released!',
+    description: 'Verge Core v7.10 is released!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+      infoUrl: 'https://x.com/vergecurrency/status/1913308171822838138'
+  },
+  {
+    done: true,
     doneDate: '21st April 2025',
     title: 'Coinoswap.com lists $XVG!',
     description: 'Coinoswap.com has listed $XVG on its swap service!',
