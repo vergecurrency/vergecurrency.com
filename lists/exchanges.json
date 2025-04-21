@@ -192,7 +192,7 @@
       "link": "chainswap.io",
       "url": "https://chainswap.io/"
     },
-	{
+	  {
       "img": "../static/img/exchanges/bydfi.png",
       "title": "BYDFi",
       "link": "bydfi.com",
@@ -203,6 +203,12 @@
       "title": "LetsExchange",
       "link": "letsexchange.io",
       "url": "https://letsexchange.io"
+    },
+    {
+      "img": "../static/img/exchanges/coinoswap.png",
+      "title": "CoinOSwap",
+      "link": "coinoswap.com",
+      "url": "https://www.coinoswap.com/"
     }
   ]
 }
