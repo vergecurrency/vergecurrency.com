@@ -205,8 +205,8 @@
       "url": "https://letsexchange.io"
     },
     {
-      "img": "../static/img/exchanges/coinoswap.png",
-      "title": "CoinOSwap",
+      "img": "../static/img/exchanges/coinoswap.svg",
+      "title": "CoinoSwap",
       "link": "coinoswap.com",
       "url": "https://www.coinoswap.com/"
     }
