@@ -131,6 +131,7 @@
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
       "os": "Ubuntu",
+      "url2": "https://github.com/vergecurrency/Docker-Verge-Daemon/blob/master/README.md",
       "availableinstructions": false,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/Docker-Verge-Daemon"
