@@ -37,6 +37,7 @@ function GetVerge(props) {
                 <a
                   href="https://coinmarketcap.com/currencies/verge/"
                   rel="noopener noreferrer"
+		  target="_blank"
                 >
                   {t('get-verge:body.intro3', { defaultValue: 'Visit Coinmarketcap for an additional list of market pairs.' })}
                 </a>
