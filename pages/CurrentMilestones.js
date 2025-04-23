@@ -1677,6 +1677,26 @@ const mileStones = [
     infoLabel: 'twitter link',
     infoUrl: 'https://x.com/vergecurrency/status/1914349401956319741'
   },
+  {
+    done: true,
+    doneDate: '22nd April 2025',
+    title: 'XVG Apes NFT collection!',
+    description: 'XVG Apes NFT collection launches website & acrylic prints shop on BSC chain!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/xvgapes/status/1914726612349936062'
+  },
+  {
+    done: true,
+    doneDate: '23rd April 2025',
+    title: 'LetsExchange.io adds $XVG!',
+    description: 'LetsExchange.io adds $XVG to its list of swappable crypto assets!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/letsexchange_io/status/1914970955702587869'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
