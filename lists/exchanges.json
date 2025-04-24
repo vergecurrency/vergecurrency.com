@@ -60,6 +60,12 @@
       "link": "coinex.com/",
       "url": "https://www.coinex.com/"
     },
+	{
+      "img": "../static/img/exchanges/giottus.svg",
+      "title": "giottus",
+      "link": "giottus.com/",
+      "url": "https://www.giottus.com/tradeview/XVG-INR"
+    },
     {
       "img": "../static/img/exchanges/swapswop.png",
       "title": "SwapSwop",
