@@ -49,6 +49,12 @@
       "url": "https://swapswop.io"
     },
     {
+      "img": "../static/img/exchanges/bitkan.png",
+      "title": "BitKan",
+      "link": "bitkan.com",
+      "url": "https://bitkan.com/trade/XVG-USDT"
+    },
+    {
       "img": "../static/img/exchanges/biconomy.png",
       "title": "Biconomy",
       "link": "www.biconomy.com/",
