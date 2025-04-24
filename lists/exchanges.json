@@ -43,6 +43,12 @@
       "url": "https://www.mexc.com/exchange/XVG_USDT"
     },
     {
+      "img": "../static/img/exchanges/bitexlive.svg",
+      "title": "BITEX LIVE",
+      "link": "bitexlive.com/",
+      "url": "https://bitexlive.com/exchange/USDT-XVG"
+    },
+    {
       "img": "../static/img/exchanges/swapswop.png",
       "title": "SwapSwop",
       "link": "swapswop.io",
