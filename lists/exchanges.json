@@ -49,6 +49,12 @@
       "url": "https://bitexlive.com/exchange/USDT-XVG"
     },
     {
+      "img": "../static/img/exchanges/coindcx.svg",
+      "title": "CoinDCX",
+      "link": "coindcx.com/",
+      "url": "https://coindcx.com/trade/XVGUSDT"
+    },
+    {
       "img": "../static/img/exchanges/coinex.svg",
       "title": "CoinEx",
       "link": "coinex.com/",
