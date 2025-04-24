@@ -144,6 +144,12 @@
       "link": "changeangel.io",
       "url": "https://changeangel.io/"
     },
+	{
+      "img": "../static/img/exchanges/weex.svg",
+      "title": "WEEX",
+      "link": "weex.com",
+      "url": "https://www.weex.com/trade/XVG-USDT"
+    },
     {
       "img": "../static/img/exchanges/swapzone.png",
       "title": "Swapzone",
