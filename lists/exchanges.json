@@ -25,6 +25,12 @@
       "url": "https://bingx.com/en/spot/XVGUSDT/"
     },
 	{
+      "img": "../static/img/exchanges/htx.svg",
+      "title": "HTX",
+      "link": "htx.com",
+      "url": "https://htx.com/"
+    },
+	{
       "img": "../static/img/exchanges/tokocrypto.png",
       "title": "TokoCrypto",
       "link": "tokocrypto.com/",
