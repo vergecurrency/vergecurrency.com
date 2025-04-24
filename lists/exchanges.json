@@ -66,6 +66,12 @@
       "link": "tradeogre.com",
       "url": "https://tradeogre.com/"
     },
+    {
+      "img": "../static/img/exchanges/tapbit.png",
+      "title": "TapBit",
+      "link": "tapbit.com",
+      "url": "https://www.tapbit.com/spot/exchange/XVG_USDT"
+    },
 	{
       "img": "../static/img/exchanges/btcc.svg",
       "title": "BTCC",
