@@ -49,6 +49,12 @@
       "url": "https://bitexlive.com/exchange/USDT-XVG"
     },
     {
+      "img": "../static/img/exchanges/coinex.svg",
+      "title": "CoinEx",
+      "link": "coinex.com/",
+      "url": "https://www.coinex.com/"
+    },
+    {
       "img": "../static/img/exchanges/swapswop.png",
       "title": "SwapSwop",
       "link": "swapswop.io",
