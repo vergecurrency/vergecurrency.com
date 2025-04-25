@@ -55,6 +55,12 @@
       "url": "https://coindcx.com/trade/XVGUSDT"
     },
     {
+      "img": "../static/img/exchanges/fmfw.svg",
+      "title": "FMFW",
+      "link": "fmfw.io/",
+      "url": "https://fmfw.io/xvg-to-usdt"
+    },
+    {
       "img": "../static/img/exchanges/coinex.svg",
       "title": "CoinEx",
       "link": "coinex.com/",
