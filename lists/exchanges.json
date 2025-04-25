@@ -49,6 +49,12 @@
       "url": "https://www.hibt.com/trade/XVG-USDT"
     },
     {
+      "img": "../static/img/exchanges/nonkyc.jpg",
+      "title": "Non-KYC",
+      "link": "hnonkyc.io/",
+      "url": "https://nonkyc.io/market/XVG_USDT"
+    },
+    {
       "img": "../static/img/exchanges/bitexlive.svg",
       "title": "BITEX LIVE",
       "link": "bitexlive.com/",
