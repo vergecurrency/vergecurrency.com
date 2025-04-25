@@ -55,6 +55,12 @@
       "url": "https://coindcx.com/trade/XVGUSDT"
     },
     {
+      "img": "../static/img/exchanges/goonus.svg",
+      "title": "Onus",
+      "link": "onus.io/",
+      "url": "https://goonus.io/en/markets/xvg_usd"
+    },
+    {
       "img": "../static/img/exchanges/fmfw.svg",
       "title": "FMFW",
       "link": "fmfw.io/",
