@@ -49,6 +49,12 @@
       "url": "https://www.hibt.com/trade/XVG-USDT"
     },
     {
+      "img": "../static/img/exchanges/koinbay.png",
+      "title": "KoinBay",
+      "link": "koinbay.com/",
+      "url": "https://www.koinbay.com/en_US/trade/"
+    },
+    {
       "img": "../static/img/exchanges/nonkyc.jpg",
       "title": "Non-KYC",
       "link": "hnonkyc.io/",
