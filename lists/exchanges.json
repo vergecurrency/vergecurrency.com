@@ -43,6 +43,12 @@
       "url": "https://www.mexc.com/exchange/XVG_USDT"
     },
     {
+      "img": "../static/img/exchanges/hibt.svg",
+      "title": "HiBT",
+      "link": "hibt.com/",
+      "url": "https://www.hibt.com/trade/XVG-USDT"
+    },
+    {
       "img": "../static/img/exchanges/bitexlive.svg",
       "title": "BITEX LIVE",
       "link": "bitexlive.com/",
