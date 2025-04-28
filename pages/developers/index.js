@@ -12,26 +12,26 @@ function Developers_Index(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">{t('common:meta.installing-rubygems.title', { defaultValue: 'How To Install RubyGems - VergeCurrency.com' })}</title>
+        <title key="title">
+          {t('common:meta.installing-rubygems.title', { defaultValue: 'How To Install RubyGems - VergeCurrency.com' })}
+        </title>
       </Head>
       <div className="learnmore">
         <div className="container">
           <Content>
             <div className="rubygems">
               <h1>How to install RubyGems:</h1>
-              <p>RubyGems is a package management framework for Ruby. Download the latest version here:</p>
+              <p>RubyGems is the package manager for Ruby. Download the latest version here:</p>
               <ul>
-                <li><a href="https://rubygems.org/rubygems/rubygems-2.7.6.tgz"> https://rubygems.org/rubygems/rubygems-2.7.6.tgz </a></li>
-                <li><a href="https://rubygems.org/rubygems/rubygems-2.7.6.zip"> https://rubygems.org/rubygems/rubygems-2.7.6.zip </a></li>
-                <li><a href="https://rubygems.org/gems/rubygems-update-2.7.6.gem"> https://rubygems.org/gems/rubygems-update-2.7.6.gem </a></li>
+                <li><a href="https://rubygems.org/pages/download"> https://rubygems.org/pages/download </a></li>
                 <li><a href="https://github.com/rubygems/rubygems"> https://github.com/rubygems/rubygems </a></li>
               </ul>
               <p>
-                To upgrade to the latest RubyGems:<br />
+                To upgrade to the latest RubyGems (Ruby 3.1+ comes with a recent version already):<br />
                 <pre><code>$ gem update --system</code></pre>
-                # may need to be administrator or root
+                <small>Note: You may need administrator/root privileges.</small>
               </p>
-              <p><strong> NOTE: </strong> RubyGems 1.1 and 1.2 have problems upgrading when there is no rubygems-update installed. You will need to use the following instructions if you see Nothing to update. If you have an older version of RubyGems installed, then you can still do it in two steps:</p>
+              <p><strong>Important:</strong> If you have an older Ruby version, or issues updating, you can manually update RubyGems:</p>
               <p>
                 <pre>
                   <code>
@@ -40,12 +40,13 @@ function Developers_Index(props) {
                   </code>
                 </pre>
               </p>
-              <p>If you don&#39;t have any RubyGems installed, there is still the pre-gem approach to getting software, doing it manually:</p>
+              <p>If you don't have RubyGems installed at all, you can manually set it up:</p>
               <ol>
-                <li>Download from one of the links listed above</li>
-                <li>Unpack into a directory and <strong> cd </strong> there</li>
-                <li>Install with ruby <strong> setup.rb </strong> (you may need admin/root privilege</li>
+                <li>Download the latest version from the links above.</li>
+                <li>Extract the archive and <strong>cd</strong> into the directory.</li>
+                <li>Run <strong>ruby setup.rb</strong> (may require admin/root privileges).</li>
               </ol>
+              <p>Note: RubyGems is bundled by default with Ruby 2.5 and higher (including 3.1+), so manual installation is rarely necessary.</p>
             </div>
           </Content>
         </div>
