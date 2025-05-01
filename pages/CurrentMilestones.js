@@ -1697,6 +1697,16 @@ const mileStones = [
     infoLabel: 'twitter link',
     infoUrl: 'https://x.com/letsexchange_io/status/1914970955702587869'
   },
+  {
+    done: true,
+    doneDate: '29th April 2025',
+    title: 'Verge Core v7.11 released',
+    description: 'Verge Core v7.11 released',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'github link',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
