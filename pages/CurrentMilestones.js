@@ -1705,7 +1705,7 @@ const mileStones = [
     progress: 100,
     progressState: '100',
     infoLabel: 'github link',
-    infoUrl: 'https://github.com/vergecurrency/verge/releases
+    infoUrl: 'https://github.com/vergecurrency/verge/releases'
   },
   // {
   //   done: true or false,
