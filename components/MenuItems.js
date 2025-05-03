@@ -57,9 +57,9 @@ const MenuItems = ({ t }) => (
           <a href="/community/xvg-mining-pools">{t('header:pools', { defaultValue: 'Mining Pools' })}
           </a>
         </Link>
-        <Link href="https://verge.zendesk.com">
-          <a href="https://verge.zendesk.com" target="_blank" rel="noopener noreferrer">
-            {t('header:zendesk', { defaultValue: 'ZenDesk' })}
+        <Link href="https://mycryptocheckout.com">
+          <a href="https://mycryptocheckout.com/?ref=156" target="_blank" rel="noopener noreferrer">
+            {t('header:acceptverge', { defaultValue: 'Accept Verge!' })}
           </a>
         </Link>
         <Link href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)">
