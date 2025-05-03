@@ -22,9 +22,6 @@ function FAQ_wallets(props) {
               <h2>{t('faq:wallets:help:question')}</h2>
               {t('faq:wallets:help:answer') } 
               <br />
-              <a href="https://verge.zendesk.com" target="_blank">
-                Verge Zendesk
-              </a>
               <h2>{t('faq:wallets:whichwallet:question')}</h2>
               <p dangerouslySetInnerHTML={{ __html: t('faq:wallets:whichwallet:answer') }} />
               <h2>{t('faq:wallets:electrum:question')}</h2>

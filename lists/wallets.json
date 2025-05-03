@@ -49,9 +49,9 @@
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
-      "available": true,
+      "available": false,
       "os": "Windows",
-      "url2": "https://verge.zendesk.com/hc/en-us/articles/360007059592-Verge-Qt-Wallet-Installation-Guide-for-Windows",
+      "url2": "https://www.youtube.com/watch?v=JhDmp9hdiW4",
       "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/verge"
@@ -63,7 +63,7 @@
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
       "os": "OS X",
-      "url2": "https://verge.zendesk.com/hc/en-us/articles/360007364291-Verge-Qt-Wallet-Installation-Guide-for-Mac",
+      "url2": "https://www.youtube.com/watch?v=JhDmp9hdiW4",
       "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/verge"
