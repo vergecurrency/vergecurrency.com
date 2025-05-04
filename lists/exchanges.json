@@ -49,6 +49,12 @@
       "url": "https://www.hibt.com/trade/XVG-USDT"
     },
     {
+      "img": "../static/img/exchanges/digifinex.png",
+      "title": "DIGIFINEX",
+      "link": "digifinex.com/",
+      "url": "https://www.digifinex.com/en-ww/trade/USDT/XVG?tradeKind=spot"
+    },
+    {
       "img": "../static/img/exchanges/koinbay.png",
       "title": "KoinBay",
       "link": "koinbay.com/",
