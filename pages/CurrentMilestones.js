@@ -1707,6 +1707,16 @@ const mileStones = [
     infoLabel: 'github link',
     infoUrl: 'https://github.com/vergecurrency/verge/releases'
   },
+  {
+    done: true,
+    doneDate: '29th April 2025',
+    title: 'Digifinex adds Verge!',
+    description: 'Digifinex adds XVG/USDT trading pair!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'digifinex blog link',
+    infoUrl: 'https://support.digifinex.com/hc/en-us/articles/46285055483673--New-Listing-DigiFinex-Launches-the-Following-Coins'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
