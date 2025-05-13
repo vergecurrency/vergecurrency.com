@@ -1717,6 +1717,16 @@ const mileStones = [
     infoLabel: 'digifinex blog link',
     infoUrl: 'https://support.digifinex.com/hc/en-us/articles/46285055483673--New-Listing-DigiFinex-Launches-the-Following-Coins'
   },
+  {
+    done: true,
+    doneDate: '13th May 2025',
+    title: 'CardStorm.io and Verge Gift Card Contest!',
+    description: 'To Celebrate our Partnership with CardStorm.io your go-to place to buy gift cards for crypto, we are giving away gift cards to 3 lucky winners!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'direct contest on x link',
+    infoUrl: 'https://x.com/vergecurrency/status/1922289450278596719'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
