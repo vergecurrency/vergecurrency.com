@@ -41,6 +41,33 @@ class VendorsPage extends React.Component {
             <div className="intro pt pb">
               <div className="row center-xs middle-xs">
                 <div className="col-xs-10 col-sm-6">
+				            <h3>
+              {t('home:getverge.text8', {
+                defaultValue: 'Easily accept Verge, with Verge E-Commerce Plugins!:'
+              })}
+              <span className="hidden-xs">
+                <br />
+              </span>
+            </h3>
+
+            <h4
+              dangerouslySetInnerHTML={{
+                __html: `
+                  ${t('home:getverge.text13', {
+                    defaultValue:
+                      'Binance Pay! <a href="https://pay.binance.com/" target="_blank">Binance Pay</a>'
+                  })}<br />
+                  ${t('home:getverge.text14', {
+                    defaultValue:
+                      'MyCryptoCheckout! <a href="https://mycryptocheckout.com/?ref=156" target="_blank">MyCryptoCheckout</a>'
+                  })}<br />
+				  ${t('home:getverge.text15', {
+                    defaultValue:
+                      'NOWPayments! <a href="https://nowpayments.io/supported-coins/verge-payments" target="_blank">NOWPayments</a>'
+                  })}<br />
+                `
+              }}
+            />
                   <h6>
                     {t('vendors:body.header', {
                       defaultValue: 'Vendors using Verge'
@@ -140,34 +167,6 @@ class VendorsPage extends React.Component {
             <LatestVendors {...this.state} />
             <br />
             <br />
-
-            <h3>
-              {t('home:getverge.text8', {
-                defaultValue: 'Verge E-Commerce Plugins:'
-              })}
-              <span className="hidden-xs">
-                <br />
-              </span>
-            </h3>
-
-            <h4
-              dangerouslySetInnerHTML={{
-                __html: `
-                  ${t('home:getverge.text13', {
-                    defaultValue:
-                      'Binance Pay! <a href="https://pay.binance.com/" target="_blank">Binance Pay</a>'
-                  })}<br />
-                  ${t('home:getverge.text14', {
-                    defaultValue:
-                      'MyCryptoCheckout! <a href="https://mycryptocheckout.com/?ref=156" target="_blank">MyCryptoCheckout</a>'
-                  })}<br />
-				  ${t('home:getverge.text15', {
-                    defaultValue:
-                      'NOWPayments! <a href="https://nowpayments.io/supported-coins/verge-payments" target="_blank">NOWPayments</a>'
-                  })}<br />
-                `
-              }}
-            />
           </div>
         </div>
       </Layout>
