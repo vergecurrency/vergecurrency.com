@@ -69,7 +69,7 @@ class VendorsPage extends React.Component {
             /><br></br>
                   <h4>
                     {t('vendors:body.header', {
-                      defaultValue: 'Vendors using Verge'
+                      defaultValue: 'Vendors using Verge:'
                     })}
                   </h4>
                   <h3>
