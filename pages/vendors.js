@@ -41,15 +41,14 @@ class VendorsPage extends React.Component {
             <div className="intro pt pb">
               <div className="row center-xs middle-xs">
                 <div className="col-xs-10 col-sm-6">
-				            <h3>
+<h2>
               {t('home:getverge.text8', {
                 defaultValue: 'Easily accept Verge, with Verge E-Commerce Plugins!:'
               })}
               <span className="hidden-xs">
                 <br />
               </span>
-            </h3>
-
+            </h2>
             <h4
               dangerouslySetInnerHTML={{
                 __html: `
@@ -67,18 +66,18 @@ class VendorsPage extends React.Component {
                   })}<br />
                 `
               }}
-            />
-                  <h6>
+            /><br></br>
+                  <h4>
                     {t('vendors:body.header', {
                       defaultValue: 'Vendors using Verge'
                     })}
-                  </h6>
-                  <h2>
+                  </h4>
+                  <h3>
                     {t('common:vendors.text1', {
                       defaultValue:
                         'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services. Check out under the list for our list of processors, so you can easily start accepting verge on your website today!'
                     })}
-                  </h2>
+                  </h3>
                 </div>
               </div>
             </div>
@@ -91,7 +90,6 @@ class VendorsPage extends React.Component {
                         defaultValue: 'Select vendor categories'
                       })}
                     </legend>
-
                     <span className="check-categories">
                       <input
                         className="checkbox"
