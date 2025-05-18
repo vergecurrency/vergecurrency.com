@@ -49,7 +49,7 @@
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
-      "available": false,
+      "available": true,
       "os": "Windows",
       "url2": "https://www.youtube.com/watch?v=JhDmp9hdiW4",
       "availableinstructions": true,
