@@ -72,12 +72,12 @@ class VendorsPage extends React.Component {
                       defaultValue: 'Vendors using Verge:'
                     })}
                   </h3>
-                  <h3>
+                  <h4>
                     {t('common:vendors.text1', {
                       defaultValue:
                         'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services!'
                     })}
-                  </h3>
+                  </h4>
                 </div>
               </div>
             </div>
