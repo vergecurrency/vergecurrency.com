@@ -41,14 +41,14 @@ class VendorsPage extends React.Component {
             <div className="intro pt-sm pb-sm">
               <div className="row center-xs middle-xs">
                 <div className="col-xs-10 col-sm-6">
-<h2>
+			<h3>
               {t('home:getverge.text8', {
-                defaultValue: 'Easily accept Verge, with Verge E-Commerce Plugins!:'
+                defaultValue: 'Easily accept Verge payments on your website today, with a Verge eCommerce Plugin from one our partners!'
               })}
               <span className="hidden-xs">
                 <br />
               </span>
-            </h2>
+            </h3>
             <h4
               dangerouslySetInnerHTML={{
                 __html: `
@@ -67,11 +67,11 @@ class VendorsPage extends React.Component {
                 `
               }}
             /><br></br>
-                  <h4>
+                  <h3>
                     {t('vendors:body.header', {
                       defaultValue: 'Vendors using Verge:'
                     })}
-                  </h4>
+                  </h3>
                   <h3>
                     {t('common:vendors.text1', {
                       defaultValue:
