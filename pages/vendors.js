@@ -54,15 +54,15 @@ class VendorsPage extends React.Component {
                 __html: `
                   ${t('home:getverge.text13', {
                     defaultValue:
-                      'Binance Pay! <a href="https://pay.binance.com/" target="_blank">Binance Pay</a>'
+                      'Binance Pay: <a href="https://pay.binance.com/" target="_blank">Binance Pay</a>'
                   })}<br />
                   ${t('home:getverge.text14', {
                     defaultValue:
-                      'MyCryptoCheckout! <a href="https://mycryptocheckout.com/?ref=156" target="_blank">MyCryptoCheckout</a>'
+                      'MyCryptoCheckout: <a href="https://mycryptocheckout.com/?ref=156" target="_blank">MyCryptoCheckout</a>'
                   })}<br />
 				  ${t('home:getverge.text15', {
                     defaultValue:
-                      'NOWPayments! <a href="https://nowpayments.io/supported-coins/verge-payments" target="_blank">NOWPayments</a>'
+                      'NOWPayments: <a href="https://nowpayments.io/supported-coins/verge-payments" target="_blank">NOWPayments</a>'
                   })}<br />
                 `
               }}
