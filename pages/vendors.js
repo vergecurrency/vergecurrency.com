@@ -55,20 +55,9 @@ class VendorsPage extends React.Component {
                   <br />
                   <h3>
                     {t('common:vendors.text2', {
-                      defaultValue: 'Get started today and accept Verge in your store!'
+                      defaultValue: 'Get started today and accept Verge in your store, check out our list of processors under this vendor list, so you can start accepting verge on your website today!'
                     })}
                   </h3>
-                  <Link target="_blank" href="https://vergecurrency.business/">
-                    <a
-                      target="_blank"
-                      href="https://vergecurrency.business/"
-                      className="btn btn-primary"
-                    >
-                      {t('common:vendors.text3', {
-                        defaultValue: 'Accept Verge today'
-                      })}
-                    </a>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -178,6 +167,10 @@ class VendorsPage extends React.Component {
                   ${t('home:getverge.text14', {
                     defaultValue:
                       'MyCryptoCheckout! <a href="https://mycryptocheckout.com/?ref=156" target="_blank">MyCryptoCheckout</a>'
+                  })}<br />
+				  ${t('home:getverge.text15', {
+                    defaultValue:
+                      'NOWPayments! <a href="https://nowpayments.io/supported-coins/verge-payments" target="_blank">NOWPayments</a>'
                   })}<br />
                 `
               }}
