@@ -64,6 +64,15 @@ function FindUs(props) {
                         <div className="divTableCell">GitHub</div>
                         <div className="divTableCell">CoinMarketCap</div>
                       </div>
+					  <br /><br />
+                      <div className="divTableRow">
+                        <div className="divTableCell"><a href="https://www.tiktok.com/@officialvergecurrency" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/tiktok.png" alt="TikTok" title="TikTok" /></a></div>
+                        <div className="divTableCell"><a href="https://bsky.app/profile/vergecurrency.com" target="_blank" rel="noopener noreferrer"><img src="/static/img/find-us/bluesky.png" alt="BlueSky" title="BlueSky" /></a></div>
+                      </div>
+                      <div className="divTableRow">
+                        <div className="divTableCell">TikTok</div>
+                        <div className="divTableCell">BlueSky</div>
+                      </div>
                     </div>
                   </div>
 
