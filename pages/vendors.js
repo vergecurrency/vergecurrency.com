@@ -38,7 +38,7 @@ class VendorsPage extends React.Component {
         </Head>
         <div className="themed-container__gray themed-container__gray--roadmap">
           <div className="container">
-            <div className="intro pt pb">
+            <div className="intro pt-sm pb-sm">
               <div className="row center-xs middle-xs">
                 <div className="col-xs-10 col-sm-6">
 <h2>
