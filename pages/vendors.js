@@ -52,11 +52,9 @@ class VendorsPage extends React.Component {
                         'All of the vendors below proudly accept Verge Currency as a method of payment for their goods and services. Check out under the list for our list of processors, so you can easily start accepting verge on your website today!'
                     })}
                   </h2>
-                  <br />
                 </div>
               </div>
             </div>
-
             <div className="intro pt pb">
               <div className="row center-xs middle-xs">
                 <div className="col-xs-10 col-sm-8">
