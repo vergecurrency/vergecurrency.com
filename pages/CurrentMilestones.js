@@ -1727,6 +1727,16 @@ const mileStones = [
     infoLabel: 'direct contest on x link',
     infoUrl: 'https://x.com/vergecurrency/status/1922289450278596719'
   },
+  {
+    done: true,
+    doneDate: '27th May 2025',
+    title: 'XVGPOLY Airdrops 1:1 on all $XVGETH holders!',
+    description: 'XVGPOLY, the newest in a series of 3 erc20 tokens to span Binance Smart Chain, Polygon Network, and Coinbase Base Network, Airdrops 1:1 on all $XVGETH holders!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x link to xvgeth tweet',
+    infoUrl: 'https://x.com/XVGETH/status/1927553471651160428'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
