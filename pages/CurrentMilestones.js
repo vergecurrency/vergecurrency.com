@@ -1739,7 +1739,7 @@ const mileStones = [
   },
   {
     done: true,
-    doneDate: 4th June 2025',
+    doneDate: '4th June 2025',
     title: 'XVGBSC Airdrops 1:1 on all $XVGETH holders!',
     description: 'XVGBSC, the newest in a series of 3 erc20 tokens to span Binance Smart Chain, Polygon Network, and Coinbase Base Network, Airdrops 1:1 on all $XVGETH holders!',
     progress: 100,
