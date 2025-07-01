@@ -1737,6 +1737,36 @@ const mileStones = [
     infoLabel: 'x link to xvgeth tweet',
     infoUrl: 'https://x.com/XVGETH/status/1927553471651160428'
   },
+  {
+    done: true,
+    doneDate: 4th June 2025',
+    title: 'XVGBSC Airdrops 1:1 on all $XVGETH holders!',
+    description: 'XVGBSC, the newest in a series of 3 erc20 tokens to span Binance Smart Chain, Polygon Network, and Coinbase Base Network, Airdrops 1:1 on all $XVGETH holders!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x link to xvgeth tweet',
+    infoUrl: 'https://x.com/XVGETH/status/1930651186748666100'
+  },
+  {
+    done: true,
+    doneDate: '10th June 2025',
+    title: 'XVGBASE Airdrops 1:1 on all $XVGETH holders!',
+    description: 'XVGBase, the newest in a series of 3 erc20 tokens to span Binance Smart Chain, Polygon Network, and Coinbase Base Network, Airdrops 1:1 on all $XVGETH holders!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x link to xvgeth tweet',
+    infoUrl: 'https://x.com/XVGETH/status/1932601900555186450'
+  },
+  {
+    done: true,
+    doneDate: '20th June 2025',
+    title: '$XVGETH added to Bungee.Exchange!',
+    description: 'Bungee.Exchange now has $XVGETH available to swap and cross chain bridge!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x link to xvgeth tweet',
+    infoUrl: 'https://x.com/XVGETH/status/1936120645269463409'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
