@@ -67,6 +67,12 @@
       "url": "https://nonkyc.io/market/XVG_USDT"
     },
     {
+      "img": "../static/img/exchanges/bungee.svg",
+      "title": "Bungee.Exchange",
+      "link": "bungee.exchange/",
+      "url": "https://bungee.exchange"
+    },
+    {
       "img": "../static/img/exchanges/bitexlive.svg",
       "title": "BITEX LIVE",
       "link": "bitexlive.com/",
