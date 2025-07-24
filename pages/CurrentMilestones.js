@@ -1769,6 +1769,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '6th July 2025',
+    title: 'XVGSUITE Launches 6 new tokens after oversubscribed pinksale!',
+    description: 'XVGSUITE launches 6 new tokens all sharing the same address across 6 smart chains and the XVGTokens.com site!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'pinksale link',
+    infoUrl: 'https://www.pinksale.finance/launchpad/ethereum/0x023fefD11c45Cd984Aa96EF92f5879fE7A684a4'
+  },
+  {
+    done: true,
     doneDate: '11th July 2025',
     title: '$XVGARB added to CoinGecko!',
     description: 'XVGARB is now listed on CoinGecko!',
