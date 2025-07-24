@@ -1767,6 +1767,76 @@ const mileStones = [
     infoLabel: 'x link to xvgeth tweet',
     infoUrl: 'https://x.com/XVGETH/status/1936120645269463409'
   },
+  {
+    done: true,
+    doneDate: '11th July 2025',
+    title: '$XVGARB added to CoinGecko!',
+    description: 'XVGARB is now listed on CoinGecko!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'CoinGecko link',
+    infoUrl: 'https://www.coingecko.com/en/coins/xvgarb'
+  },
+  {
+    done: true,
+    doneDate: '11th July 2025',
+    title: '$XVGARB added to Bungee.Exchange!',
+    description: 'Bungee.Exchange now has $XVGARB available to swap and cross chain bridge',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x link to xvgeth tweet',
+    infoUrl: 'https://x.com/XVGETH/status/1943747800258556266'
+  },
+  {
+    done: true,
+    doneDate: '15th July 2025',
+    title: '$XVGSON added to CoinGecko!',
+    description: '$XVGSON is now listed on CoinGecko!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'CoinGecko link',
+    infoUrl: 'https://www.coingecko.com/en/coins/xvgson'
+  },
+  {
+    done: true,
+    doneDate: '18th July 2025',
+    title: '$XVGSON added to Bungee.Exchange!',
+    description: 'Bungee.Exchange now has $XVGSON available to swap and cross chain bridge',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x link to xvgeth tweet',
+    infoUrl: 'https://x.com/XVGETH/status/1946355697664266699'
+  },
+  {
+    done: true,
+    doneDate: '20th July 2025',
+    title: '$XVG added to Baltex.io!',
+    description: 'Baltex.io now has listed $XVG on its exchange!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x link to baltex tweet',
+    infoUrl: 'https://x.com/baltexio/status/1946963310626439648'
+  },
+  {
+    done: true,
+    doneDate: '20th July 2025',
+    title: '$XVGAVA added to CoinGecko!',
+    description: '$XVGAVA is now listed on CoinGecko!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'CoinGecko',
+    infoUrl: 'https://www.coingecko.com/en/coins/xvgava'
+  },
+  {
+    done: true,
+    doneDate: '24th July 2025',
+    title: '$XVGAVA added to Bungee.Exchange!',
+    description: 'Bungee.Exchange now has $XVGAVA available to swap and cross chain bridge',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'xvgeth x link',
+    infoUrl: 'https://x.com/XVGETH/status/1948495868052558143'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',

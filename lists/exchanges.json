@@ -73,6 +73,12 @@
       "url": "https://bungee.exchange"
     },
     {
+      "img": "../static/img/exchanges/baltex.png",
+      "title": "Baltex",
+      "link": "baltex.io/",
+      "url": "https://baltex.io/"
+    },
+    {
       "img": "../static/img/exchanges/bitexlive.svg",
       "title": "BITEX LIVE",
       "link": "bitexlive.com/",
