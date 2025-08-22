@@ -1847,6 +1847,16 @@ const mileStones = [
     infoLabel: 'xvgeth x link',
     infoUrl: 'https://x.com/XVGETH/status/1948495868052558143'
   },
+  {
+    done: true,
+    doneDate: '31st July 2025',
+    title: '$XVGBASE to be added to Coinbase Exchange!',
+    description: '$XVGBASE liquidity pool moved to Aerodrome, and soon to be available to Coinbase users from the app and website!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Coinbase CEOs twitter link',
+    infoUrl: 'https://x.com/brian_armstrong/status/1951017502923956282'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
