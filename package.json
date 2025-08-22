@@ -85,6 +85,7 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^4.6.2",
+    "postcss": "8",
     "sass-lint": "^1.13.1",
     "sw-precache-webpack-plugin": "^1.0.0",
     "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony-v3.3.10",
