@@ -1045,29 +1045,29 @@ b4a@^1.6.4:
   resolved "https://registry.yarnpkg.com/b4a/-/b4a-1.6.7.tgz#a99587d4ebbfbd5a6e3b21bdb5d5fa385767abe4"
   integrity sha512-OnAYlL5b7LEkALw87fUVafQw5rVR9RjwGd4KUwNQ6DrrNmaVaUCgLipfVlzrPQ4tWOR9P0IXGNOx50jYCCdSJg==
 
-babel-code-frame@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
+babel-code-frame@^7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-7.24.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
   integrity sha512-XqYMR2dfdGMW+hd0IUZ2PwK+fGeFkOxZJ0wY+JaQAHzt1Zx8LcvpiZD2NiGkEG8qx0CfkAOr5xt76d1e8vG90g==
   dependencies:
     chalk "^1.1.3"
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-core@6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.26.0.tgz#af32f78b31a6fcef119c87b0fd8d9753f03a0bb8"
+babel-core@7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-7.24.0.tgz#af32f78b31a6fcef119c87b0fd8d9753f03a0bb8"
   integrity sha512-FSiqfr4SYrH5Zv5KgWahyY99VC+Aod1ioMRNvL1lPS4WTUqvPAdYo7ioWEhDHEDqZADapbJZMX0sBuRsc93bDQ==
   dependencies:
-    babel-code-frame "^6.26.0"
-    babel-generator "^6.26.0"
+    babel-code-frame "^7.24.0"
+    babel-generator "^7.24.0"
     babel-helpers "^6.24.1"
     babel-messages "^6.23.0"
-    babel-register "^6.26.0"
-    babel-runtime "^6.26.0"
-    babel-template "^6.26.0"
-    babel-traverse "^6.26.0"
-    babel-types "^6.26.0"
+    babel-register "^7.24.0"
+    babel-runtime "^7.24.0"
+    babel-template "^7.24.0"
+    babel-traverse "^7.24.0"
+    babel-types "^7.24.0"
     babylon "^6.18.0"
     convert-source-map "^1.5.0"
     debug "^2.6.8"
@@ -1079,20 +1079,20 @@ babel-core@6.26.0:
     slash "^1.0.0"
     source-map "^0.5.6"
 
-babel-core@^6.26.0:
+babel-core@^7.24.0:
   version "6.26.3"
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.26.3.tgz#b2e2f09e342d0f0c88e2f02e067794125e75c207"
   integrity sha512-6jyFLuDmeidKmUEb3NM+/yawG0M2bDZ9Z1qbZP59cyHLz8kYGKYwpJP0UwUKKUiTRNvxfLesJnTedqczP7cTDA==
   dependencies:
-    babel-code-frame "^6.26.0"
-    babel-generator "^6.26.0"
+    babel-code-frame "^7.24.0"
+    babel-generator "^7.24.0"
     babel-helpers "^6.24.1"
     babel-messages "^6.23.0"
-    babel-register "^6.26.0"
-    babel-runtime "^6.26.0"
-    babel-template "^6.26.0"
-    babel-traverse "^6.26.0"
-    babel-types "^6.26.0"
+    babel-register "^7.24.0"
+    babel-runtime "^7.24.0"
+    babel-template "^7.24.0"
+    babel-traverse "^7.24.0"
+    babel-types "^7.24.0"
     babylon "^6.18.0"
     convert-source-map "^1.5.1"
     debug "^2.6.9"
@@ -1116,28 +1116,28 @@ babel-eslint@^10.0.1:
     eslint-visitor-keys "^1.0.0"
     resolve "^1.12.0"
 
-babel-generator@6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-generator/-/babel-generator-6.26.0.tgz#ac1ae20070b79f6e3ca1d3269613053774f20dc5"
+babel-generator@7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-generator/-/babel-generator-7.24.0.tgz#ac1ae20070b79f6e3ca1d3269613053774f20dc5"
   integrity sha512-9SxJ4+NI4HBbS3U5wtiY+Fd/XRH8D4WHeeQVwViYijL73U1jXQHjxmn9aOiD+/orbvw7YgakoyO3eejaE3Gk2Q==
   dependencies:
     babel-messages "^6.23.0"
-    babel-runtime "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-types "^7.24.0"
     detect-indent "^4.0.0"
     jsesc "^1.3.0"
     lodash "^4.17.4"
     source-map "^0.5.6"
     trim-right "^1.0.1"
 
-babel-generator@^6.26.0:
+babel-generator@^7.24.0:
   version "6.26.1"
   resolved "https://registry.yarnpkg.com/babel-generator/-/babel-generator-6.26.1.tgz#1844408d3b8f0d35a404ea7ac180f087a601bd90"
   integrity sha512-HyfwY6ApZj7BYTcJURpM5tznulaBvyio7/0d4zFOeMPUmfxkCjHocCuoLa2SAGzBI8AREcH3eP3758F672DppA==
   dependencies:
     babel-messages "^6.23.0"
-    babel-runtime "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-types "^7.24.0"
     detect-indent "^4.0.0"
     jsesc "^1.3.0"
     lodash "^4.17.4"
@@ -1154,12 +1154,12 @@ babel-helper-builder-binary-assignment-operator-visitor@^6.24.1:
     babel-types "^6.24.1"
 
 babel-helper-builder-react-jsx@^6.24.1:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-helper-builder-react-jsx/-/babel-helper-builder-react-jsx-6.26.0.tgz#39ff8313b75c8b65dceff1f31d383e0ff2a408a0"
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-helper-builder-react-jsx/-/babel-helper-builder-react-jsx-7.24.0.tgz#39ff8313b75c8b65dceff1f31d383e0ff2a408a0"
   integrity sha512-02I9jDjnVEuGy2BR3LRm9nPRb/+Ja0pvZVLr1eI5TYAA/dB0Xoc+WBo50+aDfhGDLhlBY1+QURjn9uvcFd8gzg==
   dependencies:
-    babel-runtime "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-types "^7.24.0"
     esutils "^2.0.2"
 
 babel-helper-call-delegate@^6.24.1:
@@ -1173,13 +1173,13 @@ babel-helper-call-delegate@^6.24.1:
     babel-types "^6.24.1"
 
 babel-helper-define-map@^6.24.1:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-helper-define-map/-/babel-helper-define-map-6.26.0.tgz#a5f56dab41a25f97ecb498c7ebaca9819f95be5f"
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-helper-define-map/-/babel-helper-define-map-7.24.0.tgz#a5f56dab41a25f97ecb498c7ebaca9819f95be5f"
   integrity sha512-bHkmjcC9lM1kmZcVpA5t2om2nzT/xiZpo6TJq7UlZ3wqKfzia4veeXbIhKvJXAMzhhEBd3cR1IElL5AenWEUpA==
   dependencies:
     babel-helper-function-name "^6.24.1"
-    babel-runtime "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-types "^7.24.0"
     lodash "^4.17.4"
 
 babel-helper-explode-assignable-expression@^6.24.1:
@@ -1227,12 +1227,12 @@ babel-helper-optimise-call-expression@^6.24.1:
     babel-types "^6.24.1"
 
 babel-helper-regex@^6.24.1:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-helper-regex/-/babel-helper-regex-6.26.0.tgz#325c59f902f82f24b74faceed0363954f6495e72"
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-helper-regex/-/babel-helper-regex-7.24.0.tgz#325c59f902f82f24b74faceed0363954f6495e72"
   integrity sha512-VlPiWmqmGJp0x0oK27Out1D+71nVVCTSdlbhIVoaBAj2lUgrNjBCRR9+llO4lTSb2O4r7PJg+RobRkhBrf6ofg==
   dependencies:
-    babel-runtime "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-types "^7.24.0"
     lodash "^4.17.4"
 
 babel-helper-remap-async-to-generator@^6.24.1:
@@ -1399,14 +1399,14 @@ babel-plugin-transform-es2015-block-scoped-functions@^6.22.0:
     babel-runtime "^6.22.0"
 
 babel-plugin-transform-es2015-block-scoping@^6.23.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-6.26.0.tgz#d70f5299c1308d05c12f463813b0a09e73b1895f"
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-block-scoping/-/babel-plugin-transform-es2015-block-scoping-7.24.0.tgz#d70f5299c1308d05c12f463813b0a09e73b1895f"
   integrity sha512-YiN6sFAQ5lML8JjCmr7uerS5Yc/EMbgg9G8ZNmk2E3nYX4ckHR01wrkeeMijEf5WHNK5TW0Sl0Uu3pv3EdOJWw==
   dependencies:
-    babel-runtime "^6.26.0"
-    babel-template "^6.26.0"
-    babel-traverse "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-template "^7.24.0"
+    babel-traverse "^7.24.0"
+    babel-types "^7.24.0"
     lodash "^4.17.4"
 
 babel-plugin-transform-es2015-classes@^6.23.0:
@@ -1479,15 +1479,15 @@ babel-plugin-transform-es2015-modules-amd@^6.22.0, babel-plugin-transform-es2015
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-plugin-transform-es2015-modules-commonjs@6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-6.26.0.tgz#0d8394029b7dc6abe1a97ef181e00758dd2e5d8a"
+babel-plugin-transform-es2015-modules-commonjs@7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-7.24.0.tgz#0d8394029b7dc6abe1a97ef181e00758dd2e5d8a"
   integrity sha512-t33zrLpy4zDVZ/MnEk5GK4j4VAbEeLgKXM89RZPqSuRpuoZCqdxN8OgePBHKR7eBM9IyW5oCLL0xbw6H7I/qaw==
   dependencies:
     babel-plugin-transform-strict-mode "^6.24.1"
-    babel-runtime "^6.26.0"
-    babel-template "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-template "^7.24.0"
+    babel-types "^7.24.0"
 
 babel-plugin-transform-es2015-modules-commonjs@^6.23.0, babel-plugin-transform-es2015-modules-commonjs@^6.24.1:
   version "6.26.2"
@@ -1495,9 +1495,9 @@ babel-plugin-transform-es2015-modules-commonjs@^6.23.0, babel-plugin-transform-e
   integrity sha512-CV9ROOHEdrjcwhIaJNBGMBCodN+1cfkwtM1SbUHmvyy35KGT7fohbpOxkE2uLz1o6odKK2Ck/tz47z+VqQfi9Q==
   dependencies:
     babel-plugin-transform-strict-mode "^6.24.1"
-    babel-runtime "^6.26.0"
-    babel-template "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-template "^7.24.0"
+    babel-types "^7.24.0"
 
 babel-plugin-transform-es2015-modules-systemjs@^6.23.0:
   version "6.24.1"
@@ -1601,13 +1601,13 @@ babel-plugin-transform-flow-strip-types@^6.22.0:
     babel-plugin-syntax-flow "^6.18.0"
     babel-runtime "^6.22.0"
 
-babel-plugin-transform-object-rest-spread@6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.26.0.tgz#0f36692d50fef6b7e2d4b3ac1478137a963b7b06"
+babel-plugin-transform-object-rest-spread@7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-7.24.0.tgz#0f36692d50fef6b7e2d4b3ac1478137a963b7b06"
   integrity sha512-ocgA9VJvyxwt+qJB0ncxV8kb/CjfTcECUY4tQ5VT7nP6Aohzobm8CDFaQ5FHdvZQzLmf0sgDxB8iRXZXxwZcyA==
   dependencies:
     babel-plugin-syntax-object-rest-spread "^6.8.0"
-    babel-runtime "^6.26.0"
+    babel-runtime "^7.24.0"
 
 babel-plugin-transform-react-display-name@^6.23.0:
   version "6.25.0"
@@ -1649,8 +1649,8 @@ babel-plugin-transform-react-remove-prop-types@0.4.8:
     babel-traverse "^6.25.0"
 
 babel-plugin-transform-regenerator@^6.22.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-regenerator/-/babel-plugin-transform-regenerator-6.26.0.tgz#e0703696fbde27f0a3efcacf8b4dca2f7b3a8f2f"
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-regenerator/-/babel-plugin-transform-regenerator-7.24.0.tgz#e0703696fbde27f0a3efcacf8b4dca2f7b3a8f2f"
   integrity sha512-LS+dBkUGlNR15/5WHKe/8Neawx663qttS6AGqoOUhICc9d1KciBvtrQSuc0PI+CxQ2Q/S1aKuJ+u64GtLdcEZg==
   dependencies:
     regenerator-transform "^0.10.0"
@@ -1733,59 +1733,59 @@ babel-preset-react@6.24.1:
     babel-plugin-transform-react-jsx-source "^6.22.0"
     babel-preset-flow "^6.23.0"
 
-babel-register@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-register/-/babel-register-6.26.0.tgz#6ed021173e2fcb486d7acb45c6009a856f647071"
+babel-register@^7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-register/-/babel-register-7.24.0.tgz#6ed021173e2fcb486d7acb45c6009a856f647071"
   integrity sha512-veliHlHX06wjaeY8xNITbveXSiI+ASFnOqvne/LaIJIqOWi2Ogmj91KOugEz/hoh/fwMhXNBJPCv8Xaz5CyM4A==
   dependencies:
-    babel-core "^6.26.0"
-    babel-runtime "^6.26.0"
+    babel-core "^7.24.0"
+    babel-runtime "^7.24.0"
     core-js "^2.5.0"
     home-or-tmp "^2.0.0"
     lodash "^4.17.4"
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@6.26.0, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+babel-runtime@7.24.0, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-7.24.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha512-ITKNuq2wKlW1fJg9sSW52eepoYgZBggvOAHC0u/CYu/qxQ9EVzThCgR69BnSXLHjy2f7SY5zaQ4yt7H9ZVxY2g==
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
 
-babel-template@6.26.0, babel-template@^6.24.1, babel-template@^6.26.0, babel-template@^6.7.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-template/-/babel-template-6.26.0.tgz#de03e2d16396b069f46dd9fff8521fb1a0e35e02"
+babel-template@7.24.0, babel-template@^6.24.1, babel-template@^7.24.0, babel-template@^6.7.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-template/-/babel-template-7.24.0.tgz#de03e2d16396b069f46dd9fff8521fb1a0e35e02"
   integrity sha512-PCOcLFW7/eazGUKIoqH97sO9A2UYMahsn/yRQ7uOk37iutwjq7ODtcTNF+iFDSHNfkctqsLRjLP7URnOx0T1fg==
   dependencies:
-    babel-runtime "^6.26.0"
-    babel-traverse "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-traverse "^7.24.0"
+    babel-types "^7.24.0"
     babylon "^6.18.0"
     lodash "^4.17.4"
 
-babel-traverse@^6.24.1, babel-traverse@^6.25.0, babel-traverse@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-traverse/-/babel-traverse-6.26.0.tgz#46a9cbd7edcc62c8e5c064e2d2d8d0f4035766ee"
+babel-traverse@^6.24.1, babel-traverse@^6.25.0, babel-traverse@^7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-traverse/-/babel-traverse-7.24.0.tgz#46a9cbd7edcc62c8e5c064e2d2d8d0f4035766ee"
   integrity sha512-iSxeXx7apsjCHe9c7n8VtRXGzI2Bk1rBSOJgCCjfyXb6v1aCqE1KSEpq/8SXuVN8Ka/Rh1WDTF0MDzkvTA4MIA==
   dependencies:
-    babel-code-frame "^6.26.0"
+    babel-code-frame "^7.24.0"
     babel-messages "^6.23.0"
-    babel-runtime "^6.26.0"
-    babel-types "^6.26.0"
+    babel-runtime "^7.24.0"
+    babel-types "^7.24.0"
     babylon "^6.18.0"
     debug "^2.6.8"
     globals "^9.18.0"
     invariant "^2.2.2"
     lodash "^4.17.4"
 
-babel-types@6.26.0, babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-6.26.0.tgz#a3b073f94ab49eb6fa55cd65227a334380632497"
+babel-types@7.24.0, babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^7.24.0:
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-7.24.0.tgz#a3b073f94ab49eb6fa55cd65227a334380632497"
   integrity sha512-zhe3V/26rCWsEZK8kZN+HaQj5yQ1CilTObixFzKW1UWjqG7618Twz6YEsCnjfg5gBcJh02DrpCkS9h98ZqDY+g==
   dependencies:
-    babel-runtime "^6.26.0"
+    babel-runtime "^7.24.0"
     esutils "^2.0.2"
     lodash "^4.17.4"
     to-fast-properties "^1.0.3"
@@ -8293,22 +8293,22 @@ next@4.2.3:
   integrity sha512-zgvETjADdY8QJ4PhuiwgyOvdpceKOXihTShgQ6q7gqE3DGMm8HmGC+U6MMKZs6ZwgUnon8KqC0hhTR17R+HABw==
   dependencies:
     ansi-html "0.0.7"
-    babel-core "6.26.0"
-    babel-generator "6.26.0"
+    babel-core "7.24.0"
+    babel-generator "7.24.0"
     babel-loader "7.1.2"
     babel-plugin-module-resolver "2.7.1"
     babel-plugin-react-require "3.0.0"
     babel-plugin-syntax-dynamic-import "6.18.0"
     babel-plugin-transform-class-properties "6.24.1"
-    babel-plugin-transform-es2015-modules-commonjs "6.26.0"
-    babel-plugin-transform-object-rest-spread "6.26.0"
+    babel-plugin-transform-es2015-modules-commonjs "7.24.0"
+    babel-plugin-transform-object-rest-spread "7.24.0"
     babel-plugin-transform-react-jsx-source "6.22.0"
     babel-plugin-transform-react-remove-prop-types "0.4.8"
     babel-plugin-transform-runtime "6.23.0"
     babel-preset-env "1.6.0"
     babel-preset-react "6.24.1"
-    babel-runtime "6.26.0"
-    babel-template "6.26.0"
+    babel-runtime "7.24.0"
+    babel-template "7.24.0"
     case-sensitive-paths-webpack-plugin "2.1.1"
     cross-spawn "5.1.0"
     del "3.0.0"
@@ -11482,7 +11482,7 @@ styled-jsx@2.2.1:
   integrity sha512-FNP2jn3Q7D2BcfBRv+X8+yw9KViywbUOApCf7Rnsm7SjXe8539HVT6RsIxvVsVUeXOo8WfGgOKepUIwpR8ULSw==
   dependencies:
     babel-plugin-syntax-jsx "6.18.0"
-    babel-types "6.26.0"
+    babel-types "7.24.0"
     convert-source-map "1.5.1"
     source-map "0.6.1"
     string-hash "1.1.3"
