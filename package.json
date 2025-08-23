@@ -43,7 +43,7 @@
     "gh-pages": "^6.1.1",
     "glob": "^11.0.3",
     "glob-all": "^3.1.0",
-    "gulp": "5.0.0",
+    "gulp": "5.0.1",
     "gulp-webserver": "^0.9.1",
     "i18next": "^10.3.0",
     "i18next-browser-languagedetector": "^2.1.0",
