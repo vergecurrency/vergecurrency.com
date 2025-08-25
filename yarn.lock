@@ -6188,10 +6188,10 @@ i18next-fs-backend@^2.3.2:
   resolved "https://registry.yarnpkg.com/i18next-fs-backend/-/i18next-fs-backend-2.3.2.tgz#580b91c9a306b452112e0a1ad3b07e9fd266e567"
   integrity sha512-LIwUlkqDZnUI8lnUxBnEj8K/FrHQTT/Sc+1rvDm9E8YvvY5YxzoEAASNx+W5M9DfD5s77lI5vSAFWeTp26B/3Q==
 
-i18next-http-middleware@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/i18next-http-middleware/-/i18next-http-middleware-3.6.0.tgz#4781751fac03e951a74a8c9f95f6bb5bc680fbdd"
-  integrity sha512-pLyTOC8Dzj83byN0s4hd/i/Ewg6T36YjMrc+Zfnqz2Ca0G5ab9IPvPR8xZqr6TS0s/ZtPs2MZucDkWgqoRmNXA==
+i18next-http-middleware@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/i18next-http-middleware/-/i18next-http-middleware-3.8.0.tgz#c37ee466faa1a86d68799fb0ad3b7b6099f5a846"
+  integrity sha512-G3DpT/ibwOx6BCI5A2xUmZ2ybUDUrI6emCdEE7AX9TKvz+WzA6peuyv0BxC8kIrJHtrdnmUWwk4rDN9nxWvsFg==
 
 i18next@^10.3.0:
   version "10.6.0"
