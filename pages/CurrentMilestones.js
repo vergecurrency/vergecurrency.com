@@ -1857,6 +1857,26 @@ const mileStones = [
     infoLabel: 'Coinbase CEOs twitter link',
     infoUrl: 'https://x.com/brian_armstrong/status/1951017502923956282'
   },
+  {
+    done: true,
+    doneDate: '25th August 2025',
+    title: 'Verge Core v8.0 released!',
+    description: 'Verge Core 8.0 major release, with new performance updates and the latest tor implementation!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'github releases',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases'
+  },
+  {
+    done: true,
+    doneDate: '5th September 2025',
+    title: 'Byex adds Verge Futures',
+    description: '$XVG Futures are now officially listed on #BYEX !',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'byex twitter',
+    infoUrl: 'https://x.com/100EXOfficial/status/1963918520305242249'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
