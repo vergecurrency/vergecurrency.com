@@ -78,13 +78,13 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://hyperspheretech.com/" target="_blank" rel="noreferrer">
-              <img src="/static/img/partners/hypersphere.png" alt="Voice Life" className="img--wider" />
+            <a href="https://nownodes.io/" target="_blank" rel="noreferrer">
+              <img src="/static/img/partners/nownodes.png" alt="NOWNodes" className="img--wider" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.hypersphere', {
                 defaultValue: `
-                Verge ($XVG) partners with HyperSphere to launch WalletGuard, the world’s first quantum immune cloud based cryptographic wallet protection and recovery service.`,
+                A partnership with NOWNodes provides VergeCurrency with reliable, 24/7 access to full nodes and blockbook explorers through a simple API, removing the burden of node maintenance. This enables developers to easily build on top of the Verge blockchain with fast, scalable infrastructure and real-time on-chain data access.`,
               })}
             </ExpandCollapse>
           </div>
