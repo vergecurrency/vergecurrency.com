@@ -421,9 +421,7 @@ function Home(props) {
             </div>
 
             <PartnerInfo t={t} />
-
             <SponsorsInfo t={t} />
-
             <div className="row center-xs pt-large pb">
               <div className="col-xs-11 start-xs exchanges bb">
                 <div className="start-sm pb-small">
@@ -436,7 +434,6 @@ function Home(props) {
                   </div>
               </div>
             </div>
-
 
             <div className="press">
               <div className="row center-xs social">
