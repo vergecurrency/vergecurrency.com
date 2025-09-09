@@ -79,7 +79,7 @@ export const PartnerInfo = ({ t }) => {
           </div>
           <div>
             <a href="https://nownodes.io/" target="_blank" rel="noreferrer">
-              <img src="/static/img/partners/nownodes.png" alt="NOWNodes" className="img--wider" />
+              <img src="/static/img/partners/nownodes.svg" alt="NOWNodes" className="img--wider" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.hypersphere', {
