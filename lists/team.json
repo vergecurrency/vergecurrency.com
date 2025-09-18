@@ -30,25 +30,6 @@
       }
     ]
   },
-  "businessdevelopment": {
-    "title": "Business Development",
-    "members": [
-      {
-        "img": "../static/img/team/cc66.jpg",
-        "name": "Jason - CC66",
-        "role": "Senior Community Manager",
-        "occupation": "Social Engineering Specialist",
-        "twitter": "https://twitter.com/CoinCrazy66",
-        "location": "Tennessee, USA"
-      },
-      {
-        "img": "../static/img/team/hoffma.jpg",
-        "name": "Nick",
-        "role": "Business Development",
-        "location": "Passau, Germany"
-      }
-    ]
-  },
   "marketing": {
     "title": "Marketing Team",
     "members": [
@@ -94,14 +75,6 @@
         "occupation": "Owner/CEO - Managed Services Provider",
         "twitter": "https://twitter.com/3wizzlesticks",
         "location": "Kentucky, USA"
-      },
-      {
-        "img": "../static/img/team/birb.jpg",
-        "name": "Dan - wit_sec_birb",
-        "role": "Advisor & Marketing",
-        "occupation": "Procurement",
-        "twitter": "https://twitter.com/wit_sec_birb",
-        "location": "Melbourne, Australia"
       },
       {
         "img": "../static/img/team/harry.jpg",
