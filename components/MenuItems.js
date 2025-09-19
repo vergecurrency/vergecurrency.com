@@ -89,9 +89,9 @@ const MenuItems = ({ t }) => (
     <Link prefetch href="/vendors">
       <a href="/vendors">{t('header:vendors', { defaultValue: 'Vendors' })}</a>
     </Link>
-    <Link href="https://vergecurrency.store/">
-      <a href="https://vergecurrency.store/" target="_blank" rel="noopener noreferrer">
-        {t('header:verge-merch', { defaultValue: 'Store' })}
+    <Link href="https://XVGTokens.com/">
+      <a href="https://XVGTokens.com/" target="_blank" rel="noopener noreferrer">
+        {t('header:verge-merch', { defaultValue: 'XVGTokens' })}
       </a>
     </Link>
     <Link prefetch href="/get-verge">
