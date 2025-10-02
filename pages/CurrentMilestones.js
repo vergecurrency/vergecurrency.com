@@ -1876,6 +1876,26 @@ const mileStones = [
     progressState: '100',
     infoLabel: 'byex twitter',
     infoUrl: 'https://x.com/100EXOfficial/status/1963918520305242249'
+    },
+  {
+    done: true,
+    doneDate: '9th September 2025',
+    title: 'NOWNodes launches Verge BlockBook!',
+    description: 'BlockBook enables developers to easily build on top of the Verge blockchain with fast, scalable infrastructure and real-time on-chain data access!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'nownodes tweet',
+    infoUrl: 'https://x.com/NOWNodes/status/1965486251387064816'
+  },
+  {
+    done: true,
+    doneDate: '2nd October 2025',
+    title: 'Verge Automated Workflow Optimized!',
+    description: 'Verge Core Github workflows now use caching across Win/Mac/Linux, cutting compile times by up to 80%!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'verge twitter',
+    infoUrl: 'https://github.com/vergecurrency/verge/actions/runs/18204682406'
   },
   // {
   //   done: true or false,
