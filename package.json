@@ -60,7 +60,7 @@
     "nprogress": "^0.2.0",
     "platform": "^1.3.5",
     "postcss-easy-import": "^4.0.0",
-    "postcss-loader": "^4.0.0",
+    "postcss-loader": "^8.2.0",
     "prop-types": "^15.7.2",
     "raw-loader": "^0.5.1",
     "react": "18.3.1",
