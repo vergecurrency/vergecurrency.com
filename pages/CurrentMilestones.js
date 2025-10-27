@@ -1894,8 +1894,28 @@ const mileStones = [
     description: 'Verge Core Github workflows now use caching across Win/Mac/Linux, cutting compile times by up to 80%!',
     progress: 100,
     progressState: '100',
-    infoLabel: 'verge twitter',
+    infoLabel: 'verge github',
     infoUrl: 'https://github.com/vergecurrency/verge/actions/runs/18204682406'
+  },
+  {
+    done: true,
+    doneDate: '10th October 2025',
+    title: 'Verge Core v8.0.1 is now out!',
+    description: 'Verge Core v8.0.1 is now out for Win/Mac/Linux',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'verge github',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases'
+  },
+  {
+    done: true,
+    doneDate: '27th October 2025',
+    title: 'Verge Core v8.0.2 is now out!',
+    description: 'Verge Core v8.0.2 is now out for Win/Mac/Linux',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'verge github',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases'
   },
   // {
   //   done: true or false,
