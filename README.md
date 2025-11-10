@@ -98,7 +98,7 @@ _If you have a different version of NodeJS, use Node Version Manager:_
 [NVM instructions](https://github.com/nvm-sh/nvm)
 
 ```
-Example, nvm use v10.15.3
+Example, nvm use v20.11.1
 ```
 
 Or using .nvmrc
