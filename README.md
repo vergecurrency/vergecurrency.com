@@ -2,7 +2,7 @@
 
 [![Deploy Next.js site to Pages](https://github.com/vergecurrency/vergecurrency.com/actions/workflows/build-and-deploy.yml/badge.svg)](https://github.com/vergecurrency/vergecurrency.com/actions/workflows/build-and-deploy.yml)
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vergecurrency/vergecurrency.com)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vergecurrency/vergecurrency.com/blob/master/CONTRIBUTING.md)
 
 # Vergecurrency.com
 
