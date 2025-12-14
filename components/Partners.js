@@ -124,6 +124,17 @@ export const PartnerInfo = ({ t }) => {
               })}
             </ExpandCollapse>
           </div>
+		  <div>
+            <a href="https://coinrabbit.io/">
+              <img src="/static/img/vendors/latest/coinrabbit.png" alt="CoinRabbit" className="img--smaller" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.sevenb', {
+                defaultValue: `
+                CoinRabbit is an all-in-one crypto app where you can store, trade, grow and borrow against $XVG and 300+ assets with ease.`,
+              })}
+            </ExpandCollapse>
+          </div>
         </div>
       </div>
     </div>
