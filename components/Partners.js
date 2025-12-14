@@ -64,7 +64,7 @@ export const PartnerInfo = ({ t }) => {
           </div>
           <div>
             <a href="https://nowpayments.io/" target="_blank" rel="noreferrer">
-              <img src="/static/img/partners/nowpayments.png" alt="NowPayments" />
+              <img src="/static/img/partners/nowpayments.png" alt="NowPayments" className="img--wider" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.nowpayments', {
@@ -126,7 +126,7 @@ export const PartnerInfo = ({ t }) => {
           </div>
 		  <div>
             <a href="https://coinrabbit.io/">
-              <img src="/static/img/vendors/latest/coinrabbit.png" alt="CoinRabbit" className="img--smaller" />
+              <img src="/static/img/vendors/latest/coinrabbit.png" alt="CoinRabbit" className="img--wider" />
             </a>
             <ExpandCollapse {...options}>
               {t('home:partnership.sevenb', {
