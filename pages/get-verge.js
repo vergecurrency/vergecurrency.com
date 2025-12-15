@@ -35,23 +35,24 @@ function GetVerge(props) {
   type="text/css"
   href="https://letsexchange.io/widget_lets.css"
   />
+  <div className="get-verge pt-large pb">
   <div
-  className="lets-widget"
-  id="lets_widget_ZfdAVgTUKOueeKY4"
-  style={{
-    maxWidth: '480px',
-    height: '480px',
-    margin: '0 auto'
-  }}
->
-      <iframe
-        src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
-        width="100%"
-        height="100%"
-        frameBorder="0"
-        allow="clipboard-read; clipboard-write"
-      />
-    </div>
+    className="lets-widget"
+    id="lets_widget_ZfdAVgTUKOueeKY4"
+    style={{
+      maxWidth: '480px',
+      height: '480px',
+      margin: '0 auto'
+    }}
+  >
+    <iframe
+      src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
+      width="100%"
+      height="100%"
+      frameBorder="0"
+      allow="clipboard-read; clipboard-write"
+    />
+  </div>
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <p className="mb">
