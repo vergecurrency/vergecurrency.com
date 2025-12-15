@@ -35,12 +35,15 @@ function GetVerge(props) {
   type="text/css"
   href="https://letsexchange.io/widget_lets.css"
   />
-  <div className="get-verge pt-large pb">
-    <div
-      className="lets-widget"
-      id="lets_widget_ZfdAVgTUKOueeKY4"
-      style={{ maxWidth: '480px', height: '480px' }}
-    >
+  <div
+  className="lets-widget"
+  id="lets_widget_ZfdAVgTUKOueeKY4"
+  style={{
+    maxWidth: '480px',
+    height: '480px',
+    margin: '0 auto'
+  }}
+>
       <iframe
         src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
         width="100%"
