@@ -15,23 +15,12 @@ function GetVerge(props) {
       </Head>
 	  <br />
 <div className="get-verge pt-large pb">
-<div className="iframe-container" style={{ textAlign: 'center', marginBottom: '20px' }}>
-{/* Text added above the iframe */}
-              <h4 style={{ textAlign: 'center' }}>Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from the Paypal App), Bitcoin,
-Ethereum, and more! or swap any crypto for a different crypto or even bridge cross chain!</h4>
-                <iframe 
-                  src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c" 
-                  frameBorder="0" 
-                  width="404px" 
-                  height="536px" 
-                  style={{
-                    width: '404px',
-                    height: '536px',
-                    borderRadius: '20px',
-                    maxWidth: '100%',
-                  }} 
-                />
-              </div>
+<link rel="stylesheet" type="text/css" href="https://letsexchange.io/widget_lets.css">
+<div class="lets-widget" id="lets_widget_ZfdAVgTUKOueeKY4"
+  style="max-width: 480px; height: 480px;">
+  <iframe src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true" width="100%" height="100%" frameBorder="0" allow="clipboard-read; clipboard-write"></iframe>
+</div>
+<script src="https://letsexchange.io/init_widget.js"></script>
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <p className="mb">
@@ -43,18 +32,13 @@ Ethereum, and more! or swap any crypto for a different crypto or even bridge cro
                   {t('get-verge:body.intro3', { defaultValue: 'Visit Coinmarketcap for an additional list of market pairs.' })}
                 </a>
             </p>
-
             <div className="col-xs-10">
-              
               <h2>{t('get-verge:body.intro', { defaultValue: 'Trade Verge on the most popular exchanges.' })}</h2>
               <h3>{t('get-verge:body.intro2', { defaultValue: 'We’re proud to be listed on:' })}</h3>
-
               <Exchanges />
-
               <span className="hidden-xs">
                 <br />
-              </span>
-
+              </span> 
               <h3>
                 {t('home:getverge.text6', {defaultValue: 'Exchange Disclaimer:'})}
                 {' '}
