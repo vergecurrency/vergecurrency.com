@@ -101,7 +101,7 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://www.travala.com/?ref=vergecurrency">
+            <a href="https://www.travala.com/?ref=vergecurrency" target="_blank" rel="noreferrer">
               <img src="/static/img/vendors/latest/travala.png" alt="Travala" />
             </a>
             <ExpandCollapse {...options}>
@@ -113,7 +113,7 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
-            <a href="https://sevenb.io/">
+            <a href="https://sevenb.io/" target="_blank" rel="noreferrer">
               <img src="/static/img/vendors/latest/7b.svg" alt="7b" className="img--smaller" />
             </a>
             <ExpandCollapse {...options}>
@@ -125,7 +125,7 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
 		  <div>
-            <a href="https://coinrabbit.io/">
+            <a href="https://coinrabbit.io/" target="_blank" rel="noreferrer">
               <img src="/static/img/vendors/latest/coinrabbit.png" alt="CoinRabbit" className="img--wider" />
             </a>
             <ExpandCollapse {...options}>
