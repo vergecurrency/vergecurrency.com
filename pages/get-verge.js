@@ -4,6 +4,7 @@ import { translate } from 'react-i18next';
 import Layout from '../components/Layout';
 import { Exchanges } from '../components/Exchanges';
 import i18n from '../i18n';
+import Script from 'next/script';
 
 function GetVerge(props) {
   const { t } = props;
@@ -14,13 +15,30 @@ function GetVerge(props) {
         <title key="title">{t('common:meta.get-verge.title', { defaultValue: 'Get Verge - VergeCurrency.com' })}</title>
       </Head>
 	  <br />
+	  <link
+  rel="stylesheet"
+  type="text/css"
+  href="https://letsexchange.io/widget_lets.css"
+/>
 <div className="get-verge pt-large pb">
-<link rel="stylesheet" type="text/css" href="https://letsexchange.io/widget_lets.css">
-<div class="lets-widget" id="lets_widget_ZfdAVgTUKOueeKY4"
-  style="max-width: 480px; height: 480px;">
-  <iframe src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true" width="100%" height="100%" frameBorder="0" allow="clipboard-read; clipboard-write"></iframe>
-</div>
-<script src="https://letsexchange.io/init_widget.js"></script>
+  <div
+    className="lets-widget"
+    id="lets_widget_ZfdAVgTUKOueeKY4"
+    style={{ maxWidth: '480px', height: '480px' }}
+  >
+    <iframe
+      src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
+      width="100%"
+      height="100%"
+      frameBorder="0"
+      allow="clipboard-read; clipboard-write"
+    />
+  </div>
+
+<Script
+  src="https://letsexchange.io/init_widget.js"
+  strategy="afterInteractive"
+/>
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <p className="mb">
