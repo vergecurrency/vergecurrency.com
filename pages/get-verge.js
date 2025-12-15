@@ -49,11 +49,6 @@ function GetVerge(props) {
         allow="clipboard-read; clipboard-write"
       />
     </div>
-
-<Script
-  src="https://letsexchange.io/init_widget.js"
-  strategy="afterInteractive"
-/>
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <p className="mb">
