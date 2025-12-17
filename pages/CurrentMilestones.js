@@ -1917,6 +1917,46 @@ const mileStones = [
     infoLabel: 'verge github',
     infoUrl: 'https://github.com/vergecurrency/verge/releases'
   },
+  {
+    done: true,
+    doneDate: '10th November 2025',
+    title: 'Binance adds another $XVG trading pair, $USDC!',
+    description: 'Binance adds another $XVG trading pair, $USDC!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'verge twitter',
+    infoUrl: 'https://x.com/vergecurrency/status/1987856583658017104?s=20'
+  },
+  {
+    done: true,
+    doneDate: '11th November 2025',
+    title: 'XT Exchange adds $XVG!',
+    description: 'XT Exchange adds $XVG!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'xt twitter link',
+    infoUrl: 'https://x.com/XTexchange/status/1988173711019839946?s=20'
+  },
+  {
+    done: true,
+    doneDate: '12th November 2025',
+    title: 'Verge Founder Sunerok does AMA with NOWNodes, Zcash, Dione, and Casper!',
+    description: 'Verge Founder Sunerok does AMA with NOWNodes, Zcash, Dione, and Casper',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter',
+    infoUrl: 'https://x.com/NOWNodes/status/1988601278478643455'
+  },
+  {
+    done: true,
+    doneDate: '3rd December 2025',
+    title: 'MEXC adds new USDC spot for $XVG!',
+    description: 'MEXC adds new USDC spot for $XVG!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'mexc twitter',
+    infoUrl: 'https://x.com/MEXC_Listings/status/1996097064384823386'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
