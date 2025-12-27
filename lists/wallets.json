@@ -132,7 +132,7 @@
       "available": true,
       "os": "Ubuntu",
       "url2": "https://github.com/vergecurrency/Docker-Verge-Daemon/blob/master/README.md",
-      "availableinstructions": false,
+      "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/Docker-Verge-Daemon"
     }
