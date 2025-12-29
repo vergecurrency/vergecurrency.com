@@ -45,7 +45,7 @@
 	  "url3": "https://github.com/vergecurrency/verge-paperwallet"
     },
     {
-      "name": "QT Wallet Windows",
+      "name": "Verge Core Wallet Windows",
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
@@ -57,7 +57,7 @@
 	  "url3": "https://github.com/vergecurrency/verge"
     },
     {
-      "name": "QT Wallet macOS",
+      "name": "Verge Core Wallet macOS",
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
@@ -69,7 +69,7 @@
 	  "url3": "https://github.com/vergecurrency/verge"
     },
     {
-      "name": "QT Wallet Linux",
+      "name": "Verge Core Wallet Linux",
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
