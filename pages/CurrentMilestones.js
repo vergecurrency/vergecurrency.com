@@ -1957,6 +1957,26 @@ const mileStones = [
     infoLabel: 'mexc twitter',
     infoUrl: 'https://x.com/MEXC_Listings/status/1996097064384823386'
   },
+  {
+    done: true,
+    doneDate: '29th December 2025',
+    title: 'Verge Core v8.0.3 is released!',
+    description: 'This release includes essential Tor network upgrades (v0.4.8.21) for security and reliability, plus a new default-enabled Unstoppable Domains API that lets users send $XVG directly to crypto wallet domain names like sunerok.wallet!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'verge github',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases'
+  },
+  {
+    done: true,
+    doneDate: '31st December 2025',
+    title: 'Verge Year in Review!',
+    description: 'A look back at what 2025 meant to Verge Currency!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'medium article',
+    infoUrl: 'https://medium.com/vergecurrency'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
