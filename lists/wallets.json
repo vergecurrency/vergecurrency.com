@@ -126,7 +126,7 @@
     },
     {
       "name": "Verge Docker",
-      "url": "https://github.com/vergecurrency/Docker-Verge-Daemon",
+      "url": "https://hub.docker.com/r/vergecurrency/verge",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
