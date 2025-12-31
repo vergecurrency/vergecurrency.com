@@ -1961,7 +1961,7 @@ const mileStones = [
     done: true,
     doneDate: '29th December 2025',
     title: 'Verge Core v8.0.3 is released!',
-    description: 'This release includes essential Tor network upgrades (v0.4.8.21) for security and reliability, plus a new default-enabled Unstoppable Domains API that lets users send $XVG directly to crypto wallet domain names like sunerok.wallet!',
+    description: 'This release includes essential Tor network upgrades (v0.4.8.21) for security and reliability, plus a new Unstoppable Domains API that lets users send $XVG directly to crypto wallet domain names like sunerok.wallet!',
     progress: 100,
     progressState: '100',
     infoLabel: 'verge github',
