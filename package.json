@@ -39,7 +39,7 @@
     "compression": "^1.8.1",
     "css-loader": "^7.1.2",
     "deep-filter": "^1.0.2",
-    "express": "^4.21.2",
+    "express": "^4.22.0",
     "gh-pages": "^6.2.0",
     "glob": "^11.1.0",
     "glob-all": "^3.1.0",
