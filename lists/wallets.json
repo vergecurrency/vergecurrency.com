@@ -57,12 +57,12 @@
 	  "url3": "https://github.com/vergecurrency/verge"
     },
     {
-      "name": "Verge Core Wallet macOS",
+      "name": "Verge Core Wallet MacOS",
       "url": "https://github.com/vergecurrency/VERGE/releases/latest",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
-      "os": "OS X",
+      "os": "MacOS",
       "url2": "https://www.youtube.com/watch?v=JhDmp9hdiW4",
       "availableinstructions": true,
 	  "availablesource": true,
@@ -79,6 +79,66 @@
       "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/verge"
+    },
+	{
+      "name": "Atomic Wallet Windows",
+      "url": "https://atomicwallet.io/verge-wallet",
+      "classNames": "wallets--icon__windows",
+      "classWhite": "wallets--icon__windows-white",
+      "available": true,
+      "os": "Windows",
+      "url2": "https://atomicwallet.io/verge-wallet",
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://atomicwallet.io/"
+    },
+	{
+      "name": "Atomic Wallet iOS",
+      "url": "https://apps.apple.com/app/atomic-wallet/id1478257827",
+      "classNames": "wallets--icon__apple",
+      "classWhite": "wallets--icon__apple-white",
+      "available": true,
+      "os": "iOS",
+      "url2": "https://apps.apple.com/app/atomic-wallet/id1478257827",
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://atomicwallet.io/"
+    },
+	{
+      "name": "Atomic Wallet Android",
+      "url": "https://play.google.com/store/apps/details?id=io.atomicwallet&hl=en&gl=US",
+      "classNames": "wallets--icon__android",
+      "classWhite": "wallets--icon__android-white",
+      "available": true,
+      "os": "Android",
+      "url2": "https://play.google.com/store/apps/details?id=io.atomicwallet&hl=en&gl=US",
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://atomicwallet.io/"
+    },
+	{
+      "name": "Atomic Wallet MacOS",
+      "url": "https://atomicwallet.io/verge-wallet",
+      "classNames": "wallets--icon__apple",
+      "classWhite": "wallets--icon__apple-white",
+      "available": true,
+      "os": "MacOS",
+      "url2": "https://atomicwallet.io/verge-wallet",
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://atomicwallet.io/"
+    },
+	{
+      "name": "Verge Docker",
+      "url": "https://hub.docker.com/r/vergecurrency/verge",
+      "classNames": "wallets--icon__linux wallets--icon__linux--tor",
+      "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
+      "available": true,
+      "os": "Ubuntu",
+      "url2": "https://github.com/vergecurrency/Docker-Verge-Daemon/blob/master/README.md",
+      "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/Docker-Verge-Daemon"
     },
     {
       "name": "MyVergies Windows 1.0.3",
@@ -123,18 +183,6 @@
       "availableinstructions": false,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/MyVergies"
-    },
-    {
-      "name": "Verge Docker",
-      "url": "https://hub.docker.com/r/vergecurrency/verge",
-      "classNames": "wallets--icon__linux wallets--icon__linux--tor",
-      "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
-      "available": true,
-      "os": "Ubuntu",
-      "url2": "https://github.com/vergecurrency/Docker-Verge-Daemon/blob/master/README.md",
-      "availableinstructions": true,
-	  "availablesource": true,
-	  "url3": "https://github.com/vergecurrency/Docker-Verge-Daemon"
     }
   ]
 }
