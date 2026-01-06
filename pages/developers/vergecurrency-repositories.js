@@ -46,7 +46,7 @@ function VergeCurrency_Repositories(props) {
               <Link href="https://github.com/vergecurrency/verge-graphics">
                 <a href="https://github.com/vergecurrency/verge-graphics" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/verge-graphics</a>
               </Link>
-              <h2>{t('verge-repos:vendor-integration', { defaultValue: 'Verge libraries, Node.js, Ruby, PHP, Python, Coinlib (Flutter)' })}</h2>
+              <h2>{t('verge-repos:vendor-integration', { defaultValue: 'Verge libraries for Node.js, Ruby, PHP, Python, and Coinlib (Flutter)' })}</h2>
               <Link href="https://github.com/vergecurrency/nodejs-verge">
                 <a href="https://github.com/vergecurrency/nodejs-verge" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/nodejs-verge</a>
               </Link><br />
@@ -58,7 +58,7 @@ function VergeCurrency_Repositories(props) {
               </Link><br />
               <Link href="https://github.com/vergecurrency/verge-python">
                 <a href="https://github.com/vergecurrency/verge-python" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/verge-python</a>
-              </Link>
+              </Link><br />
 			  <Link href="https://github.com/vergecurrency/coinlib">
                 <a href="https://github.com/vergecurrency/coiblib" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/coinlib</a>
               </Link>
