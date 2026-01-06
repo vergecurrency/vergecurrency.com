@@ -77,21 +77,10 @@ const Footer = ({ t }) => (
                     </li>
                     <li>
                       <Link href="/developers/vergecurrency-repositories">
-                        <a href="/developers/vergecurrency-repositories" name="Verge repos">{t('footer:our_github_repositories', { defaultValue: 'Developer's Tools' })}</a>
+                        <a href="/developers/vergecurrency-repositories" name="Verge repos">{t('footer:our_github_repositories', { defaultValue: 'Developers Tools' })}</a>
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link href="/developers/php-library-for-verge-wallet">
-                        <a href="/developers/php-library-for-verge-wallet" name="Php library">{t('footer:php_library_for_verge_wallet', { defaultValue: 'PHP Library for Verge wallet' })}</a>
-                      </Link>
-
-                      </li>
-                      <li>
-                      <Link href="/developers/ruby-wrapped-gem">
-                        <a href="/developers/ruby-wrapped-gem" name="Ruby wrapped gem">{t('footer:ruby_wrapped_gem', { defaultValue: 'Ruby wrapped gem' })}</a>
-                      </Link>
-
-                    </li> */}
+                    {/* */}
 
                     <li>
                       <Link href="https://github.com/vergecurrency/php-verge">
