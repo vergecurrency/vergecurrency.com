@@ -30,7 +30,7 @@ function VergeCurrency_Repositories(props) {
               <Link href="https://github.com/vergecurrency/vergecurrency.com">
                 <a href="https://github.com/vergecurrency/vergecurrency.com" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/vergecurrency.com</a>
               </Link>
-			  <h2>{t('verge-repos:core-installers', { defaultValue: 'Verge Android Wallet })}</h2>
+			  <h2>{t('verge-repos:core-installers', { defaultValue: 'Verge Android Wallet' })}</h2>
               <Link href="https://github.com/vergecurrency/tordroid">
                 <a href="https://github.com/vergecurrency/tordroid" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/tordroid</a>
               </Link>
