@@ -15,7 +15,7 @@ const wallets = [
         alt: "Guarda"
     },
 	{
-        href: "https://atomicwallet.io/komodo-wallet",
+        href: "https://atomicwallet.io/verge-wallet",
         logo: "/static/img/wallets/3rdparty/komodo-wallet-logo_black.png",
         alt: "Komodo"
     }

@@ -77,7 +77,7 @@ const Footer = ({ t }) => (
                     </li>
                     <li>
                       <Link href="/developers/vergecurrency-repositories">
-                        <a href="/developers/vergecurrency-repositories" name="Verge repos">{t('footer:our_github_repositories', { defaultValue: 'Our GitHub repositories' })}</a>
+                        <a href="/developers/vergecurrency-repositories" name="Verge repos">{t('footer:our_github_repositories', { defaultValue: 'Developer's Tools' })}</a>
                       </Link>
                     </li>
                     {/* <li>

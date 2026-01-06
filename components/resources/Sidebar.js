@@ -32,7 +32,7 @@ export default () => (
     <ul>
       <li><ActiveLink href="/developers">How to install RubyGems</ActiveLink></li>
       <li><ActiveLink href="/developers/github-desktop">GitHub Desktop</ActiveLink></li>
-      <li><ActiveLink href="/developers/vergecurrency-repositories">Our GitHub repositories</ActiveLink></li>
+      <li><ActiveLink href="/developers/vergecurrency-repositories">Developer's Tools</ActiveLink></li>
       <li><ActiveLink href="/developers/wallet-setup-instructions">Wallet setup instructions</ActiveLink></li>
       <li>
         <Link href="https://github.com/vergecurrency/php-verge">
