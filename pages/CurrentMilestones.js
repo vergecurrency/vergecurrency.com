@@ -1977,6 +1977,26 @@ const mileStones = [
     infoLabel: 'medium article',
     infoUrl: 'https://medium.com/vergecurrency'
   },
+  {
+    done: true,
+    doneDate: '1st January 2026',
+    title: 'New no-kyc swap added to Verge website',
+    description: 'New no-kyc swap added to Verge website',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'site link',
+    infoUrl: 'https://vergecurrency.com/get-verge/'
+  },
+  {
+    done: true,
+    doneDate: '8th January 2026',
+    title: 'UnstoppableDomains launches .verge!',
+    description: 'UnstoppableDomains launches .verge!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/unstoppableweb/status/2008902699262050306?s=20'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
