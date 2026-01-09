@@ -1990,8 +1990,8 @@ const mileStones = [
   {
     done: true,
     doneDate: '8th January 2026',
-    title: 'UnstoppableDomains launches .verge!',
-    description: 'UnstoppableDomains launches .verge!',
+    title: 'UnstoppableDomains launches .verge domains!',
+    description: 'UnstoppableDomains launches .verge domains! send XVG to a .verge domain name instead of address!',
     progress: 100,
     progressState: '100',
     infoLabel: 'twitter link',
