@@ -109,6 +109,27 @@
         }
       }
     }
+	
+	&__raspberrypi {
+      background: url(/static/img/wallets/raspberrypi.svg);
+      background-size: cover;
+
+      &-white {
+        background: transparent;
+
+        &::before {
+          @extend %wallet-icon--before;
+
+          background-image: url(/static/img/wallets/raspberrypi-white.svg);
+        }
+      }
+
+      &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
 
     &__windows {
       background: url(/static/img/wallets/windows.svg);
@@ -198,6 +219,22 @@
          &::before {
           @extend %wallet-icon--before;
            background-image: url(/static/img/wallets/apple-white.svg);
+        }
+      }
+       &--tor {
+        &::after {
+          @extend %wallet-icon--after;
+        }
+      }
+    }
+	&__raspberrypi {
+      background: url(/static/img/wallets/raspberrypi.svg);
+      background-size: cover;
+       &-white {
+        background: transparent;
+         &::before {
+          @extend %wallet-icon--before;
+           background-image: url(/static/img/wallets/raspberrypi-white.svg);
         }
       }
        &--tor {
