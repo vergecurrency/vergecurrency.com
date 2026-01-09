@@ -155,8 +155,8 @@
 	{
       "name": "Verge Core Raspberry Pi",
       "url": "https://github.com/vergecurrency/verge-raspi",
-      "classNames": "wallets--icon__linux wallets--icon__linux--tor",
-      "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
+      "classNames": "wallets--icon__raspberrypi wallets--icon__raspberrypi--tor",
+      "classWhite": "wallets--icon__raspberrypi-white wallets--icon__raspberrypi--tor-white",
       "available": true,
       "os": "RasPi",
       "url2": "https://github.com/vergecurrency/verge-raspi",
