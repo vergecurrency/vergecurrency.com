@@ -154,15 +154,15 @@
     },
 	{
       "name": "Verge Core Raspberry Pi",
-      "url": "https://github.com/vergecurrency/verge-raspi",
+      "url": "https://github.com/vergecurrency/verge",
       "classNames": "wallets--icon__raspberrypi wallets--icon__raspberrypi--tor",
       "classWhite": "wallets--icon__raspberrypi-white wallets--icon__raspberrypi--tor-white",
       "available": true,
       "os": "RasPi",
-      "url2": "https://github.com/vergecurrency/verge-raspi",
+      "url2": "https://github.com/vergecurrency/verge/blob/master/doc/build-pi-aarch64.md",
       "availableinstructions": true,
 	  "availablesource": true,
-	  "url3": "https://github.com/vergecurrency/verge-raspi"
+	  "url3": "https://github.com/vergecurrency/verge"
     },
     {
       "name": "MyVergies Windows 1.0.3",
