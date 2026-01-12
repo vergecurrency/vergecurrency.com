@@ -1997,6 +1997,16 @@ const mileStones = [
     infoLabel: 'twitter link',
     infoUrl: 'https://x.com/unstoppableweb/status/2008902699262050306?s=20'
   },
+  {
+    done: true,
+    doneDate: '12th January 2026',
+    title: 'Native Raspberry Pi support added to Verge Core!',
+    description: 'Native Raspberry Pi (aarch64) support has been added to Verge Core',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'github link',
+    infoUrl: 'https://github.com/vergecurrency/verge/blob/master/doc/build-pi-aarch64.md'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
