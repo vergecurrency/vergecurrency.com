@@ -12,7 +12,7 @@ function Wallets() {
         >
           <div className="row-md-12">
             <div className="col-md-2">
-              <a href={x.url} target="_blank" rel="noopener noreferrer">
+              <a href={x.url} target="_blank" rel="noopener noreferrer" aria-label={x.name}>
                 <div className={`${x.classNames} wallets--${i18n.language === 'ar' || i18n.language === 'fa' || i18n.language === 'ku' ? 'iconrtl' : 'icon'}`} />
               </a>
             </div>
