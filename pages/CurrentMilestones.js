@@ -2007,6 +2007,16 @@ const mileStones = [
     infoLabel: 'github link',
     infoUrl: 'https://github.com/vergecurrency/verge/blob/master/doc/build-pi-aarch64.md'
   },
+  {
+    done: true,
+    doneDate: '15th January 2026',
+    title: 'Genghis adds XVG to its payment options!',
+    description: 'Genghis.pro prepaid debit and gift card site adds $XVG to its payment options!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'website link',
+    infoUrl: 'https://www.genghis.pro/verge-campaign'
+  },
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
