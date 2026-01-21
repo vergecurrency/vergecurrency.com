@@ -16,8 +16,8 @@ const wallets = [
     },
 	{
         href: "https://atomicwallet.io/verge-wallet",
-        logo: "/static/img/wallets/3rdparty/komodo-wallet-logo_black.png",
-        alt: "Komodo"
+        logo: "/static/img/wallets/3rdparty/atomicwallet.png",
+        alt: "Atomic"
     }
 ]
 
