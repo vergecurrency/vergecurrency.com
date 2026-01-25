@@ -40,7 +40,18 @@ const MenuItems = ({ t }) => (
     <Link prefetch href="/milestones">
       <a href="/milestones">{t('header:milestones', { defaultValue: 'Milestones' })}</a>
     </Link>
-    <span className="submenu">
+    <Link prefetch href="/get-verge">
+      <a href="/get-verge">{t('header:get-verge', { defaultValue: 'Get Verge' })}</a>
+    </Link>
+    <Link prefetch href="/vendors">
+      <a href="/vendors">{t('header:vendors', { defaultValue: 'Vendors' })}</a>
+    </Link>
+    <Link href="https://XVGTokens.com/">
+      <a href="https://XVGTokens.com/" target="_blank" rel="noopener noreferrer">
+        {t('header:verge-merch', { defaultValue: 'XVGTokens' })}
+      </a>
+    </Link>
+<span className="submenu">
       {t('header:resources', { defaultValue: 'Resources' })}
       <FontAwesomeIcon icon={faChevronDown} />
       <div className="submenu__content">
@@ -85,18 +96,7 @@ const MenuItems = ({ t }) => (
           <a href="/find-us">{t('header:find-us', { defaultValue: 'Find Us' })}</a>
         </Link>
       </div>
-    </span>
-    <Link prefetch href="/vendors">
-      <a href="/vendors">{t('header:vendors', { defaultValue: 'Vendors' })}</a>
-    </Link>
-    <Link href="https://XVGTokens.com/">
-      <a href="https://XVGTokens.com/" target="_blank" rel="noopener noreferrer">
-        {t('header:verge-merch', { defaultValue: 'XVGTokens' })}
-      </a>
-    </Link>
-    <Link prefetch href="/get-verge">
-      <a href="/get-verge">{t('header:get-verge', { defaultValue: 'Get Verge' })}</a>
-    </Link>
+    </span>                            
     <LanguageSwitcher />
   </div>
 );
