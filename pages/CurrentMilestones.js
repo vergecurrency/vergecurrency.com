@@ -2017,7 +2017,6 @@ const mileStones = [
     infoLabel: 'website link',
     infoUrl: 'https://www.genghis.pro/verge-campaign'
   },
-  },
   {
     done: true,
     doneDate: '26th January 2026',
