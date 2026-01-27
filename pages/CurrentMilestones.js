@@ -2017,6 +2017,17 @@ const mileStones = [
     infoLabel: 'website link',
     infoUrl: 'https://www.genghis.pro/verge-campaign'
   },
+  },
+  {
+    done: true,
+    doneDate: '26th January 2026',
+    title: 'Raspberry Pi (aarch64) Automated Workflow added to Verge Core',
+    description: 'Verge Core now automatically builds Raspberry Pi binaries, alongside Windows 32bit/64bit, MacOS, and Linux!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'justin x link',
+    infoUrl: 'https://x.com/justinvendetta/status/2016244478810403035?s=20'
+  }
   // {
   //   done: true or false,
   //   doneDate: 'Relevant Date',
