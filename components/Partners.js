@@ -125,7 +125,7 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
 		  <div>
-            <a href="https://coinrabbit.io/" target="_blank" rel="noreferrer">
+            <a href="https://coinrabbit.io/?referral=xuCIknglSA" target="_blank" rel="noreferrer">
               <img src="/static/img/vendors/latest/coinrabbit.png" alt="CoinRabbit" className="img--wider" />
             </a>
             <ExpandCollapse {...options}>
