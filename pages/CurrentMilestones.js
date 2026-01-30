@@ -2024,7 +2024,7 @@ const mileStones = [
     description: 'Verge Core now automatically builds Raspberry Pi binaries, alongside Windows 32bit/64bit, MacOS, and Linux!',
     progress: 100,
     progressState: '100',
-    infoLabel: 'justin x link',
+    infoLabel: 'twitter/x link',
     infoUrl: 'https://x.com/justinvendetta/status/2016244478810403035?s=20'
   }
   // {
