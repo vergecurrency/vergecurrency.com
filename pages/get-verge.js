@@ -48,6 +48,11 @@ function GetVerge(props) {
             margin: '0 auto',
           }}
         >
+		    <h4 style={{ textAlign: 'center' }}>
+            Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from
+            the Paypal App), Bitcoin, Ethereum, and more! or swap any crypto
+            for a different crypto or even bridge cross chain!
+          </h4>
           <iframe
             src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
             width="100%"
@@ -62,11 +67,7 @@ function GetVerge(props) {
           className="iframe-container"
           style={{ textAlign: 'center', marginBottom: '20px' }}
         >
-          <h4 style={{ textAlign: 'center' }}>
-            Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from
-            the Paypal App), Bitcoin, Ethereum, and more! or swap any crypto
-            for a different crypto or even bridge cross chain!
-          </h4>
+
           <iframe
             src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c"
             frameBorder="0"
