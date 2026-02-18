@@ -81,7 +81,13 @@ function GetVerge(props) {
             }}
           />
         </div>
-
+		{/* NEW STEALTHEX WIDGET */}
+        <div
+          className="iframe-container"
+          style={{ textAlign: 'center', marginBottom: '20px' }}
+        >
+		<iframe id="stealthex-widget" src="https://stealthex.io/widget/preview" style="border: none; border-radius: 10px; overflow: hidden; width: 100%; max-width: 680px; height: 330px; box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.06)"></iframe>
+</div>
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <p className="mb">
