@@ -59,6 +59,7 @@ function GetVerge(props) {
   frameBorder="0"
   allow="clipboard-read; clipboard-write"
 />
+</div>
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <p className="mb">
