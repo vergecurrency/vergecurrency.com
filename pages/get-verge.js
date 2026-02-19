@@ -61,7 +61,7 @@ function GetVerge(props) {
             allow="clipboard-read; clipboard-write"
           />
         </div>
-<br><br>
+<br /><br />
         {/* NEW SWAPSPACE WIDGET */}
         <div
           className="iframe-container"
