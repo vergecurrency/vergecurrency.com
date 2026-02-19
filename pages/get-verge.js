@@ -78,6 +78,11 @@ function GetVerge(props) {
             <div className="col-xs-10">
               <h2>
                 {t('get-verge:body.intro', {
+                  defaultValue: '  ',
+                })}
+              </h2>
+			  <h2>
+                {t('get-verge:body.intro', {
                   defaultValue: 'Trade Verge on the most popular exchanges.',
                 })}
               </h2>
