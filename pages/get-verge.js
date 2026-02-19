@@ -43,10 +43,8 @@ function GetVerge(props) {
           className="lets-widget"
           id="lets_widget_ZfdAVgTUKOueeKY4"
           style={{
-            maxWidth: '480px',
-            height: '480px',
-            margin: '0 auto 40px auto',
-			position: 'relative',
+		maxWidth: '480px',
+		margin: '0 auto 40px auto',
 		}}
 		>
 		    <h4 style={{ textAlign: 'center' }}>
