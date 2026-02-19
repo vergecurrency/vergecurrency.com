@@ -70,7 +70,7 @@ function GetVerge(props) {
               >
                 {t('get-verge:body.intro3', {
                   defaultValue:
-                    '',
+                    '.',
                 })}
               </a>
             </p>
