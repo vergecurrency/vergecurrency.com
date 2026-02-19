@@ -53,12 +53,12 @@ function GetVerge(props) {
             for a different crypto or even bridge cross chain!
           </h4>
           <iframe
-            src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
-            width="100%"
-            height="100%"
-            frameBorder="0"
-            allow="clipboard-read; clipboard-write"
-          />
+  src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
+  width="100%"
+  height="520px"
+  frameBorder="0"
+  allow="clipboard-read; clipboard-write"
+/>
         </div>
 
         {/* NEW SWAPSPACE WIDGET */}
