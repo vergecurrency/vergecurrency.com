@@ -59,27 +59,6 @@ function GetVerge(props) {
   frameBorder="0"
   allow="clipboard-read; clipboard-write"
 />
-        </div>
-
-        {/* NEW SWAPSPACE WIDGET */}
-        <div
-          className="iframe-container"
-          style={{ textAlign: 'center', marginBottom: '20px' }}
-        >
-
-          <iframe
-            src="https://swapspace.co/widget/e690ba97ac5620dc27d4101c"
-            frameBorder="0"
-            width="404px"
-            height="536px"
-            style={{
-              width: '404px',
-              height: '536px',
-              borderRadius: '20px',
-              maxWidth: '100%',
-            }}
-          />
-        </div>
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <p className="mb">
