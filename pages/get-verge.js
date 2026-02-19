@@ -76,47 +76,51 @@ function GetVerge(props) {
             </p>
 
             <div className="col-xs-10">
-              <h2>
-                {t('get-verge:body.intro', {
-                  defaultValue: '  ',
-                })}
-              </h2>
-			  <h2>
-                {t('get-verge:body.intro', {
-                  defaultValue: 'Trade Verge on the most popular exchanges.',
-                })}
-              </h2>
-              <h3>
-                {t('get-verge:body.intro2', {
-                  defaultValue: 'We’re proud to be listed on:',
-                })}
-              </h3>
-              <Exchanges />
-              <span className="hidden-xs">
-                <br />
-              </span>
+  <h2>
+  </h2>
 
-              <h3>
-                {t('home:getverge.text6', { defaultValue: 'Exchange Disclaimer:' })}
-                {' '}
-                <span className="hidden-xs">
-                  <br />
-                </span>
-              </h3>
-              <h4>
-                {t('home:getverge.text7', {
-                  defaultValue: (
-                    <i>
-                      This list is just the exchanges/swaps that contributors have 
-					  added to our open source website. Visit Coinmarketcap for 
-					  an additional list of current market pairs and their volumes.
-					  Verge Currency provides the exchange information listed
-                      herein for informational purposes only. Verge Currency is
-                      not liable for any third-party transactions between
-                      cryptocurrency purchasers or sellers. Buyers and investors
-                      are to seek independent financial advice from a professional.
-                      Always do your own research! 
-                    </i>
+  <br />
+
+  <h2>
+    {t('get-verge:body.intro', {
+      defaultValue: 'Trade Verge on the most popular exchanges.',
+    })}
+  </h2>
+
+  <h3>
+    {t('get-verge:body.intro2', {
+      defaultValue: 'We’re proud to be listed on:',
+    })}
+  </h3>
+
+  <Exchanges />
+
+  <span className="hidden-xs">
+    <br />
+  </span>
+
+  <h3>
+    {t('home:getverge.text6', { defaultValue: 'Exchange Disclaimer:' })}
+    {' '}
+    <span className="hidden-xs">
+      <br />
+    </span>
+  </h3>
+
+  <h4>
+    {t('home:getverge.text7', {
+      defaultValue: (
+        <i>
+          This list is just the exchanges/swaps that contributors have
+          added to our open source website. Visit Coinmarketcap for
+          an additional list of current market pairs and their volumes.
+          Verge Currency provides the exchange information listed
+          herein for informational purposes only. Verge Currency is
+          not liable for any third-party transactions between
+          cryptocurrency purchasers or sellers. Buyers and investors
+          are to seek independent financial advice from a professional.
+          Always do your own research!
+        </i>
                   ),
                 })}
               </h4>
