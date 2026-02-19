@@ -190,7 +190,7 @@
       "img": "../static/img/exchanges/changelly.png",
       "title": "Changelly",
       "link": "changelly.com",
-      "url": "https://changelly.com"
+      "url": "https://changelly.com/?from=eth&to=xvg&amount=0.1&ref_id=Td4Sp7nLGUw08bL9"
     },
     {
       "img": "../static/img/exchanges/bitbns.png",
