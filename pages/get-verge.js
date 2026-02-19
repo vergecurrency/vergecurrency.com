@@ -45,9 +45,10 @@ function GetVerge(props) {
           style={{
             maxWidth: '480px',
             height: '480px',
-            margin: '0 auto',
-          }}
-        >
+            margin: '0 auto 40px auto',
+			position: 'relative',
+		}}
+		>
 		    <h4 style={{ textAlign: 'center' }}>
             Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from
             the Paypal App), Bitcoin, Ethereum, and more! or swap any crypto
@@ -61,9 +62,7 @@ function GetVerge(props) {
             allow="clipboard-read; clipboard-write"
           />
         </div>
-<div classname="container">
-<p> </p>
-</div>
+
         {/* NEW SWAPSPACE WIDGET */}
         <div
           className="iframe-container"
