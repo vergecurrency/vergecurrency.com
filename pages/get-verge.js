@@ -70,7 +70,7 @@ function GetVerge(props) {
               >
                 {t('get-verge:body.intro3', {
                   defaultValue:
-                    'Visit Coinmarketcap for an additional list of market pairs.',
+                    '',
                 })}
               </a>
             </p>
@@ -102,12 +102,15 @@ function GetVerge(props) {
                 {t('home:getverge.text7', {
                   defaultValue: (
                     <i>
-                      Verge Currency provides the exchange information listed
+                      This list is just the exchanges/swaps that contributors have 
+					  added to our open source website. Visit Coinmarketcap for 
+					  an additional list of current market pairs and their volumes.
+					  Verge Currency provides the exchange information listed
                       herein for informational purposes only. Verge Currency is
                       not liable for any third-party transactions between
                       cryptocurrency purchasers or sellers. Buyers and investors
                       are to seek independent financial advice from a professional.
-                      Do your own research.
+                      Always do your own research! 
                     </i>
                   ),
                 })}
