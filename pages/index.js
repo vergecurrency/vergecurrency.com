@@ -63,6 +63,16 @@ function Home(props) {
         <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" href="/static/img/icons/apple-launch-1668x2224.png" />
         <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" href="/static/img/icons/apple-launch-1668x2388.png" />
         <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" href="/static/img/icons/apple-launch-2048x2732.png" />
+		<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://letsexchange.io/widget_lets.css"
+/>
+
+<script
+  src="https://letsexchange.io/init_widget.js"
+  strategy="afterInteractive"
+/>
       </Head>
       <div className="home">
         <div className="ribbon">
@@ -123,6 +133,26 @@ function Home(props) {
                     </a>
                     {' '}
                   </p>
+				  
+				  <div
+  className="lets-widget"
+  id="lets_widget_ZfdAVgTUKOueeKY4"
+  style={{
+  maxWidth: '480px',
+  width: '100%',
+  aspectRatio: '1 / 1',
+  margin: '20px auto',
+}}
+>
+  <iframe
+    src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
+    width="100%"
+    height="100%"
+    frameBorder="0"
+    allow="clipboard-read; clipboard-write"
+  />
+</div>
+				  
                 </div>
               </div>
             </div>
