@@ -163,7 +163,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <br></br>
+        <br></br><br></br><br></br><br></br>
         <div className="container themed-container__dark themed-container__dark--home">
           <div className="row center-xs">
             <div className="col-xs-9 col-sm-10">
