@@ -134,21 +134,26 @@ function Home(props) {
                     {' '}
                   </p>
 				  
-				  <div
+<div
   className="lets-widget"
   id="lets_widget_ZfdAVgTUKOueeKY4"
   style={{
-  maxWidth: '480px',
-  width: '100%',
-  aspectRatio: '1 / 1',
-  margin: '20px auto',
-}}
+    maxWidth: '480px',
+    width: '100%',
+    aspectRatio: '1 / 1',
+    margin: '40px auto 60px auto',
+    position: 'relative',
+    zIndex: 1,
+  }}
 >
   <iframe
     src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
-    width="100%"
-    height="100%"
-    frameBorder="0"
+    style={{
+      width: '100%',
+      height: '100%',
+      border: '0',
+      display: 'block',
+    }}
     allow="clipboard-read; clipboard-write"
   />
 </div>
