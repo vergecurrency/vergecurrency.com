@@ -58,7 +58,9 @@ function GetVerge(props) {
 <div
   className="get-verge pt-large pb"
   style={{ textAlign: 'center' }}
->
+><h3 style={{ textAlign: 'center' }}>
+            Here you can buy XVG (or any cryptocurrency) using a stealth exchange!
+          </h3>
   <iframe
     id="stealthex-widget"
     src="https://stealthex.io/widget/1c5c64de-0ac0-4b79-a393-e447de460c42"
