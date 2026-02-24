@@ -60,6 +60,10 @@ function GetVerge(props) {
   allow="clipboard-read; clipboard-write"
 />
 </div>
+
+<div className="get-verge pt-large pb">
+<iframe id="stealthex-widget" src="https://stealthex.io/widget/1c5c64de-0ac0-4b79-a393-e447de460c42" style="border: none; border-radius: 10px; overflow: hidden; width: 100%; max-width: 680px; height: 330px; box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.06)"></iframe>
+</div>
         <div className="container">
           <div className="row center-xs middle-xs pt pb">
             <p className="mb">
