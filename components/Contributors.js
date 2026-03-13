@@ -8,14 +8,16 @@ class Contributors extends React.Component {
 
     this.state = {
       contributors: [],
+      failedToLoad: false,
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     const url = 'https://api.github.com/repos/vergecurrency/VERGE/contributors';
     fetch(url)
       .then(response => response.json())
-      .then(data => this.setState({ contributors: data }));
+      .then(data => this.setState({ contributors: data }))
+      .catch(() => this.setState({ failedToLoad: true }));
   }
 
   render() {
@@ -46,6 +48,17 @@ class Contributors extends React.Component {
             }
           </div>
         </div>
+      );
+    }
+
+    if (this.state.failedToLoad) {
+      return (
+        <span>
+          Contributors are available on
+          {' '}
+          <a href="https://github.com/vergecurrency/VERGE/contributors" target="_blank" rel="noopener noreferrer">GitHub</a>
+          .
+        </span>
       );
     }
 
