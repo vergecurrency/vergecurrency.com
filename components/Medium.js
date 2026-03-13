@@ -11,14 +11,16 @@ class MediumPosts extends React.Component {
 
     this.state = {
       pressreleases: [],
+      failedToLoad: false,
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     const url = 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2Fvergecurrency';
     fetch(url)
       .then(response => response.json())
-      .then(data => this.setState({ pressreleases: data.items }));
+      .then(data => this.setState({ pressreleases: data.items || [] }))
+      .catch(() => this.setState({ failedToLoad: true }));
   }
 
   render() {

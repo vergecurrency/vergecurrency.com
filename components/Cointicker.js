@@ -7,14 +7,16 @@ class Cointicker extends React.Component {
 
     this.state = {
       coinData: [],
+      failedToLoad: false,
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     const url = 'https://api.coinmarketcap.com/v1/ticker/verge/?convert=EUR';
     fetch(url)
       .then(response => response.json())
-      .then(data => this.setState({ coinData: data }));
+      .then(data => this.setState({ coinData: data || [] }))
+      .catch(() => this.setState({ failedToLoad: true }));
   }
 
   render() {
@@ -57,6 +59,10 @@ class Cointicker extends React.Component {
           </div>
         </div>
       );
+    }
+
+    if (this.state.failedToLoad) {
+      return <span>Unable to load cointicker data right now.</span>;
     }
 
     return <span>Loading cointicker...</span>;
