@@ -38,12 +38,7 @@ function Home(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">
-          {t('common:meta.home.title', {
-            defaultValue:
-              'Verge Currency',
-          })}
-        </title>
+        <title key="title">{t('common:meta.home.title', { defaultValue: 'Verge Currency' })}</title>
 		<script src="https://kit.fontawesome.com/e1b1fa0258.js" crossOrigin="anonymous"></script>
         <link rel="image_src" href="/static/img/press/logo/verge-logo.png" />
         <link rel="icon" type="image/png" sizes="128x128" href="/static/img/icons/favicon-128x128.png" />
@@ -94,7 +89,7 @@ function Home(props) {
                   />
                   <p>
                     {t('home:ribbon.text1', {
-                      defaultvalue: 'Built for everyday transactions.',
+                      defaultValue: 'Built for everyday transactions.',
                     })}
                   </p>
                   <WalletsBtn />
@@ -105,7 +100,7 @@ function Home(props) {
                       name="Get Started with Verge"
                     >
                       {t('home:ribbon.text2', {
-                        defaultvalue: 'Get started with Verge',
+                        defaultValue: 'Get started with Verge',
                       })}
                     </a>
                   </Link>
@@ -173,7 +168,7 @@ function Home(props) {
                     <h3
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.first.header', {
-                          defaultvalue:
+                          defaultValue:
                             'A <span>digital currency</span> designed <br>for everyday use.',
                         }),
                       }}
@@ -181,7 +176,7 @@ function Home(props) {
                     <p
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.first.text', {
-                          defaultvalue:
+                          defaultValue:
                             'Improving upon the original Bitcoin block&shy;chain and aims to fulfill its initial purpose.',
                         }),
                       }}
@@ -193,7 +188,7 @@ function Home(props) {
                     <h3
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.second.header', {
-                          defaultvalue:
+                          defaultValue:
                             'Bringing <span>blockchain</span> <br>into everyday life.',
                         }),
                       }}
@@ -201,7 +196,7 @@ function Home(props) {
                     <p
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.second.text', {
-                          defaultvalue:
+                          defaultValue:
                             'Simple and effortless payments via iOS and Android app.',
                         }),
                       }}
@@ -213,7 +208,7 @@ function Home(props) {
                     <h3
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.third.header', {
-                          defaultvalue:
+                          defaultValue:
                             'Open Source Development <br>& <span>Community Driven.</span>',
                         }),
                       }}
@@ -221,7 +216,7 @@ function Home(props) {
                     <p
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.third.text', {
-                          defaultvalue:
+                          defaultValue:
                             "Verge is not a private company funded by pre-mined coins or ICO's.",
                         }),
                       }}
@@ -233,7 +228,7 @@ function Home(props) {
                     <h3
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.fourth.header', {
-                          defaultvalue:
+                          defaultValue:
                             'One Team, Two Chains, <br>& <span>Unlimited Usecases.',
                         }),
                       }}
@@ -241,7 +236,7 @@ function Home(props) {
                     <p
                       dangerouslySetInnerHTML={{
                         __html: t('common:USPs.fourth.text', {
-                          defaultvalue:
+                          defaultValue:
                             'Introducing the latest addition to the Verge ecosystem, the Verge ERC-20 token on Ethereum. Expanding the possibilities for everyday people to use Verge, without any hassle!',
                         }),
                       }}
@@ -267,18 +262,18 @@ function Home(props) {
               <div className="col-xs-11 col-sm-7 col-lg-6">
                 <h6>
                   {t('home:intro.span', {
-                    defaultvalue: "Blockchain Solutions for Everyday use.",
+                    defaultValue: "Blockchain Solutions for Everyday use.",
                   })}
                 </h6>
                 <h2>
                   {t('home:intro.h2', {
-                    defaultvalue:
+                    defaultValue:
                       'Verge provides the security of blockchain based payments to everyday users with easy to use software tailored to real life needs and applications.',
                   })}
                 </h2>
                 <p>
                   {t('home:intro.p', {
-                    defaultvalue: 'We strive to make blockchain payments effortless and convenient.',
+                    defaultValue: 'We strive to make blockchain payments effortless and convenient.',
                   })}
                 </p>
               </div>
@@ -291,12 +286,12 @@ function Home(props) {
                     <div className="col-xs-12 col-md-6 pb pb-xs-0">
                       <h6>
                         {t('home:benefits.benefit_1.title', {
-                          defaultvalue: 'EVERYDAY USE',
+                          defaultValue: 'EVERYDAY USE',
                         })}
                       </h6>
                       <p>
                         {t('home:benefits.benefit_1.text', {
-                          defaultvalue:
+                          defaultValue:
                             'Verge provides an easy to use platform which enables everyday users to be able to transact quickly and efficiently across a blockchain based network.',
                         })}
                       </p>
@@ -304,12 +299,12 @@ function Home(props) {
                     <div className="col-xs-12 col-md-6 pt-xs pb pb-xs-0">
                       <h6>
                         {t('home:benefits.benefit_2.title', {
-                          defaultvalue: 'COMMUNITY DRIVEN',
+                          defaultValue: 'COMMUNITY DRIVEN',
                         })}
                       </h6>
                       <p>
                         {t('home:benefits.benefit_2.text', {
-                          defaultvalue:
+                          defaultValue:
                             'Verge is an open source project with an active team of developers from all over the world. The development team is always in close contact with the community. Verge is not a private company funded through an ICO or premining.',
                         })}
                       </p>
@@ -317,12 +312,12 @@ function Home(props) {
                     <div className="col-xs-12 col-md-6 pb pb-xs-0 pt-xs">
                       <h6>
                         {t('home:benefits.benefit_3.title', {
-                          defaultvalue: 'MASS ADOPTION',
+                          defaultValue: 'MASS ADOPTION',
                         })}
                       </h6>
                       <p>
                         {t('home:benefits.benefit_3.text', {
-                          defaultvalue:
+                          defaultValue:
                             'Low fees, quick transactions, high volume in circulation, and multiplatform support, are the ingredients that make Verge perfectly positioned for mass adoption.',
                         })}
                       </p>
@@ -330,7 +325,7 @@ function Home(props) {
                     <div className="col-xs-12 col-md-6 pt-xs">
                       <h6>
                         {t('home:benefits.benefit_4.title', {
-                          defaultvalue: 'SECURITY',
+                          defaultValue: 'SECURITY',
                         })}
                       </h6>
                       <p>
@@ -394,7 +389,7 @@ function Home(props) {
                           <Link href="/wallets">
                             <a href="/wallets" className="wallets--url">
                               {t('home:wallets.link.title', {
-                                defaultvalue: 'Read about wallets',
+                                defaultValue: 'Read about wallets',
                               })}
                             </a>
                           </Link>
