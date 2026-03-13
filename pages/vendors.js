@@ -32,9 +32,7 @@ class VendorsPage extends React.Component {
     return (
       <Layout>
         <Head>
-          <title key="title">
-            {t('common:meta.vendors.title', { defaultValue: 'Vendors - VergeCurrency.com' })}
-          </title>
+          <title key="title">{t('common:meta.vendors.title', { defaultValue: 'Vendors - VergeCurrency.com' })}</title>
         </Head>
         <div className="themed-container__gray themed-container__gray--roadmap">
           <div className="container">

@@ -18,11 +18,7 @@ function VergeTeam (props) {
   return (
     <Layout>
       <Head>
-        <title key="title">
-          {t('common:meta.verge-team.title', {
-            defaultValue: 'Verge Team - VergeCurrency.com',
-          })}
-        </title>
+        <title key="title">{t('common:meta.verge-team.title', { defaultValue: 'Verge Team - VergeCurrency.com' })}</title>
       </Head>
       <div className="about">
         <div className="ribbon ribbon--about">

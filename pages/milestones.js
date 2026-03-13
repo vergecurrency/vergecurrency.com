@@ -11,11 +11,7 @@ function Milestones(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">
-          {t('common:meta.milestones.title', {
-            defaultValue: 'Milestones - VergeCurrency.com',
-          })}
-        </title>
+        <title key="title">{t('common:meta.milestones.title', { defaultValue: 'Milestones - VergeCurrency.com' })}</title>
       </Head>
       <div className="roadmap">
         <div className="themed-container__gray themed-container__gray--roadmap">

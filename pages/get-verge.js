@@ -11,11 +11,7 @@ function GetVerge(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">
-          {t('common:meta.get-verge.title', {
-            defaultValue: 'Get Verge - VergeCurrency.com',
-          })}
-        </title>
+        <title key="title">{t('common:meta.get-verge.title', { defaultValue: 'Get Verge - VergeCurrency.com' })}</title>
 
         {/* Widget CSS */}
         <link

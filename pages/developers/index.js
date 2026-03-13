@@ -12,9 +12,7 @@ function Developers_Index(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">
-          {t('common:meta.installing-rubygems.title', { defaultValue: 'How To Install RubyGems - VergeCurrency.com' })}
-        </title>
+        <title key="title">{t('common:meta.installing-rubygems.title', { defaultValue: 'How To Install RubyGems - VergeCurrency.com' })}</title>
       </Head>
       <div className="learnmore">
         <div className="container">

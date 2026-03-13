@@ -18,11 +18,7 @@ function PartnershipDonationRewards(props) {
   return (
     <Layout>
       <Head>
-        <title key="title">
-          {t('common:meta.partnership_donation_rewards.title', {
-            defaultValue: 'Partnership Donation Rewards - VergeCurrency.com',
-          })}
-        </title>
+        <title key="title">{t('common:meta.partnership_donation_rewards.title', { defaultValue: 'Partnership Donation Rewards - VergeCurrency.com' })}</title>
       </Head>
       <div>
         <div className="themed-container__gray themed-container__gray--pdr">
