@@ -1,3 +1,5 @@
+@use '../shared' as *;
+
 .benefits {
   &--url::after {
     @extend %gray-arrow-right;

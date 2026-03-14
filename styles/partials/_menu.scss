@@ -1,3 +1,5 @@
+@use '../shared' as *;
+
 header {
   .menu--verge .menu__item {
     display: grid;

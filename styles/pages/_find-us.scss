@@ -1,3 +1,5 @@
+@use '../shared' as *;
+
 .findus-grid {
     display: grid;
     grid-column-gap: 30px;

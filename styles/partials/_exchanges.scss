@@ -1,3 +1,5 @@
+@use '../shared' as *;
+
 .exchanges, .vendors {
   &--item {
     border: 2px solid #e7e7e7;

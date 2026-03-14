@@ -1,3 +1,5 @@
+@use '../shared' as *;
+
 .ribbon {
   &--meetup18 {
     min-height: rem(640px);

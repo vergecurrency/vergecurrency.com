@@ -1,3 +1,5 @@
+@use '../shared' as *;
+
 .ribbon {
   color: $white;
   min-height: rem(930px);

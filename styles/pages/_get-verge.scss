@@ -1,3 +1,5 @@
+@use '../shared' as *;
+
 .presskit p {
     margin-top: .35rem;
 
@@ -10,4 +12,3 @@
 #changeHeroWidget {
     height: 600px;
 }
-
