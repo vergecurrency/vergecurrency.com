@@ -28,13 +28,9 @@ function Vendor_Integration(props) {
                 {t('wallet-setup:line-003', { defaultValue: 'Note: For a fresh wallet install you can reduce the blockchain syncing time by downloading a nightly snapshot and following the setup instructions.' })}
               </p>
               {t('wallet-setup:line-004', { defaultValue: 'Nightly snapshot' })}:&nbsp;
-              <Link href="https://verge-blockchain.com/down">
-                <a href="https://verge-blockchain.com/down" rel="noopener noreferrer">https://verge-blockchain.com/down</a>
-              </Link><br />
+              <a href="https://verge-blockchain.com/down" rel="noopener noreferrer">https://verge-blockchain.com/down</a><br />
               {t('wallet-setup:line-005', { defaultValue: 'Setup instructions' })}:&nbsp;
-              <Link href="https://verge-blockchain.com/howto">
-                <a href="https://verge-blockchain.com/howto" rel="noopener noreferrer">https://verge-blockchain.com/howto</a>
-              </Link>
+              <a href="https://verge-blockchain.com/howto" rel="noopener noreferrer">https://verge-blockchain.com/howto</a>
               <h2>{t('wallet-setup:line-006', { defaultValue: 'Windows Wallet Usage' })}</h2>
               <ol>
                 <li>{t('wallet-setup:line-007', { defaultValue: 'Download the pre-compiled software.' })}</li>
@@ -75,11 +71,9 @@ function Vendor_Integration(props) {
               <h2>{t('wallet-setup:line-026', { defaultValue: 'Linux Wallet' })}</h2>
               <ol>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md" target="_blank" rel="noopener noreferrer">
-                      {t('wallet-setup:line-027', { defaultValue: 'Compile using linux instructions.' })}
-                    </a>
-                  </Link>
+                  <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md" target="_blank" rel="noopener noreferrer">
+                    {t('wallet-setup:line-027', { defaultValue: 'Compile using linux instructions.' })}
+                  </a>
                 </li>
                 <li>{t('wallet-setup:line-028', { defaultValue: 'The wallet GUI is in ./verge/src/qt and the daemon in ./verge/src.' })}</li>
                 <li>
@@ -115,43 +109,33 @@ function Vendor_Integration(props) {
                 {t('wallet-setup:line-032', { defaultValue: 'Note: To check the status of how much of the blockchain has been downloaded (aka synced) type ./path/to/VERGEd getinfo.' })}<br />
                 {t('wallet-setup:line-033', { defaultValue: 'Note: If you see something like \'Killed (program cc1plus)\' run dmesg to see the error(s)/problems(s). This is most likely caused by running out of resources. You may need to add some RAM or add some swap space.' })}
               </p>
-              <Link href="https://www.youtube.com/watch?v=WYe75b6RWes">
-                <a href="https://www.youtube.com/watch?v=WYe75b6RWes" target="_blank" rel="noopener noreferrer">
-                  {t('wallet-setup:line-034', { defaultValue: 'You can also check out this Linux Wallet Video Tutorial.' })}
-                </a>
-              </Link>
+              <a href="https://www.youtube.com/watch?v=WYe75b6RWes" target="_blank" rel="noopener noreferrer">
+                {t('wallet-setup:line-034', { defaultValue: 'You can also check out this Linux Wallet Video Tutorial.' })}
+              </a>
               <h2>{t('wallet-setup:line-035', { defaultValue: 'Building From Source' })}</h2>
               <ul>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md" target="_blank" rel="noopener noreferrer">
-                      {t('wallet-setup:line-036', { defaultValue: 'Linux Instructions' })}
-                    </a>
-                  </Link>
+                  <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-unix.md" target="_blank" rel="noopener noreferrer">
+                    {t('wallet-setup:line-036', { defaultValue: 'Linux Instructions' })}
+                  </a>
                 </li>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-osx.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-osx.md" target="_blank" rel="noopener noreferrer">
-                      {t('wallet-setup:line-037', { defaultValue: 'OS X Instructions' })}
-                    </a>
-                  </Link>
+                  <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-osx.md" target="_blank" rel="noopener noreferrer">
+                    {t('wallet-setup:line-037', { defaultValue: 'OS X Instructions' })}
+                  </a>
                 </li>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-windows.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-windows.md" target="_blank" rel="noopener noreferrer">
-                      {t('wallet-setup:line-038', { defaultValue: 'Windows Instructions' })}
-                    </a>
-                  </Link>
+                  <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/build-windows.md" target="_blank" rel="noopener noreferrer">
+                    {t('wallet-setup:line-038', { defaultValue: 'Windows Instructions' })}
+                  </a>
                 </li>
               </ul>
               <h2>{t('wallet-setup:line-035', { defaultValue: 'Developer Notes' })}</h2>
               <ul>
                 <li>
-                  <Link href="https://github.com/vergecurrency/VERGE/blob/master/doc/developer-notes.md">
-                    <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/developer-notes.md" target="_blank" rel="noopener noreferrer">
-                      {t('wallet-setup:line-038', { defaultValue: 'Can be found here' })}
-                    </a>
-                  </Link>
+                  <a href="https://github.com/vergecurrency/VERGE/blob/master/doc/developer-notes.md" target="_blank" rel="noopener noreferrer">
+                    {t('wallet-setup:line-038', { defaultValue: 'Can be found here' })}
+                  </a>
                 </li>
               </ul>
             </div>

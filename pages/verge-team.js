@@ -74,16 +74,14 @@ function VergeTeam (props) {
                   </p>
                 </div>
                 <div className="col-xs-12 col-sm-4 col-lg-6 end-xs">
-                  <Link href="https://github.com/vergecurrency?tab=repositories">
-                    <a
-                      href="https://github.com/vergecurrency?tab=repositories"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-tertiary btn-github"
-                    >
-                      {t('verge-team:body.text5', { defaultValue: 'Go to the Verge repo' })}
-                    </a>
-                  </Link>
+                  <a
+                    href="https://github.com/vergecurrency?tab=repositories"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-tertiary btn-github"
+                  >
+                    {t('verge-team:body.text5', { defaultValue: 'Go to the Verge repo' })}
+                  </a>
                 </div>
                 <div className="col-xs-12">
                   <Contributors />
