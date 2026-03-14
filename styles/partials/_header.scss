@@ -1,6 +1,8 @@
 // scss-lint:disable IdSelector
 
 #header {
+  background: $astronaut-blue;
+  box-shadow: 0 0 rem(15px) rgba(0, 0, 0, 0.12);
   left: 0;
   position: fixed;
   right: 0;
@@ -34,9 +36,11 @@
       padding: rem(6px);
       text-decoration: none;
       transition: all 0.2s ease-in;
+      border-radius: rem(4px);
 
       &:hover {
-        color: $picton-blue;
+        background: $white;
+        color: $astronaut-blue;
       }
 
       @media (min-width: $min-width-md) {
@@ -50,7 +54,7 @@
     }
 
     .submenu__content a:hover {
-      background-color: rgba(0,47,68,0.4);
+      background-color: $white;
     }
 
     .links > a:last-child {
@@ -140,12 +144,15 @@
     }
   }
 
-  .verge-logo svg {
+  .verge-logo svg,
+  .verge-logo img {
     margin-left: -0.25rem;
     width: rem(168px);
     margin-top: -2.3rem;
     margin-bottom: -1.9rem;
+  }
 
+  .verge-logo svg {
     .st2 {
       fill: $white;
       transition: 0.2s all;
@@ -154,35 +161,25 @@
 
   @at-root .scroll &,
     &.solid {
-    // scss-lint:disable ColorVariable
-
-    background: $white;
-    box-shadow: 0 0 rem(15px) rgba(0, 0, 0, 0.06);
+    background: $astronaut-blue;
+    box-shadow: 0 0 rem(15px) rgba(0, 0, 0, 0.12);
 
     nav a {
       transition: all 0.2s ease-in;
-
-      @media (min-width: $min-width-md) {
-        color: #111;
-      }
+      color: $white;
 
       &:hover {
-        color: $picton-blue;
-      }
-    }
-
-    .verge-logo svg {
-      .st2 {
-        fill: #0f1928;
+        background: $white;
+        color: $astronaut-blue;
       }
     }
 
     @media (min-width: $min-width-md) {
       .submenu {
-        color: #111;
+        color: $white;
 
         &__content {
-          background: $white;
+          background: $astronaut-blue;
         }
       }
     }
