@@ -2,8 +2,8 @@ import React from 'react';
 
 class Preloader extends React.Component {
   static defaultProps = {
-    disappearTime: 2400,
-    removalTime: 2900,
+    disappearTime: 1680,
+    removalTime: 2030,
     bgColor: '#000',
     color: '#4cc2f1',
   };
@@ -13,24 +13,53 @@ class Preloader extends React.Component {
     closing: false,
   };
 
+  bodyStyleSnapshot = null;
+
   componentDidMount() {
-    document.body.style.overflow = 'hidden';
+    this.lockBodyScroll();
     this.handleStyles();
   }
 
   componentWillUnmount() {
-    document.body.style.overflow = 'auto';
+    this.unlockBodyScroll();
   }
 
   handleStyles = () => {
     setTimeout(() => {
       this.setState({ closing: true });
-      document.body.style.overflow = 'auto';
+      this.unlockBodyScroll();
     }, this.props.disappearTime);
 
     setTimeout(() => {
       this.setState({ active: false });
     }, this.props.removalTime);
+  };
+
+  lockBodyScroll = () => {
+    const currentPaddingRight = window.getComputedStyle(document.body).paddingRight;
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+
+    this.bodyStyleSnapshot = {
+      overflow: document.body.style.overflow,
+      paddingRight: document.body.style.paddingRight,
+    };
+
+    document.body.style.overflow = 'hidden';
+
+    if (scrollbarWidth > 0) {
+      const parsedPaddingRight = parseFloat(currentPaddingRight) || 0;
+      document.body.style.paddingRight = `${parsedPaddingRight + scrollbarWidth}px`;
+    }
+  };
+
+  unlockBodyScroll = () => {
+    if (!this.bodyStyleSnapshot) {
+      return;
+    }
+
+    document.body.style.overflow = this.bodyStyleSnapshot.overflow;
+    document.body.style.paddingRight = this.bodyStyleSnapshot.paddingRight;
+    this.bodyStyleSnapshot = null;
   };
 
   render() {
