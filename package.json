@@ -18,6 +18,9 @@
     "type": "git",
     "url": "https://github.com/vergecurrency/vergecurrency.com.git"
   },
+  "engines": {
+    "node": "22.22.1"
+  },
   "keywords": [],
   "author": "Stan Faas & Edwin de Boer",
   "contributors": [

@@ -16,7 +16,7 @@ You need the following prerequisites to be able to both install and get the proj
 
 Open Terminal and install the repo's required Node and Yarn versions.
 
-This repo currently targets Node `v20.11.1` and uses Yarn Classic (`yarn.lock`).
+This repo currently targets Node `v22.22.1` and uses Yarn Classic (`yarn.lock`).
 
 _Homebrew:_
 
@@ -31,8 +31,8 @@ brew install nvm
 mkdir -p ~/.nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh"
-nvm install 20.11.1
-nvm use 20.11.1
+nvm install 22.22.1
+nvm use 22.22.1
 ```
 
 _Yarn:_
@@ -44,7 +44,7 @@ corepack prepare yarn@1.22.22 --activate
 
 ### Windows:
 
-This repo currently targets Node `v20.11.1` and uses Yarn Classic (`yarn.lock`).
+This repo currently targets Node `v22.22.1` and uses Yarn Classic (`yarn.lock`).
 
 _Git_
 
@@ -56,7 +56,7 @@ https://git-scm.com/download/win
 _Node.js:_
 
 ```
-Install Node 20.11.1 from:
+Install Node 22.22.1 from:
 https://nodejs.org/en/download/
 ```
 
@@ -72,7 +72,7 @@ corepack prepare yarn@1.22.22 --activate
 
 **Ubuntu/Debian**
 
-This repo currently targets Node `v20.11.1` and uses Yarn Classic (`yarn.lock`).
+This repo currently targets Node `v22.22.1` and uses Yarn Classic (`yarn.lock`).
 
 _Node.js and nvm:_
 
@@ -80,8 +80,8 @@ _Node.js and nvm:_
 curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-nvm install 20.11.1
-nvm use 20.11.1
+nvm install 22.22.1
+nvm use 22.22.1
 ```
 
 _Yarn:_
@@ -121,8 +121,8 @@ nvm use
 _Or install and switch explicitly:_
 
 ```
-nvm install 20.11.1
-nvm use 20.11.1
+nvm install 22.22.1
+nvm use 22.22.1
 ```
 
 _Install dependencies:_
@@ -204,6 +204,8 @@ http://localhost:3000
 ```
 
 GitHub Pages deployment is handled by the GitHub Actions workflow in `.github/workflows/build-and-deploy.yml`, which runs `yarn install --frozen-lockfile` and `yarn build` on pushes to `master`.
+
+The current Next.js/Webpack stack still requires the `--openssl-legacy-provider` flag on Node 22, and that compatibility flag is already included in the repo scripts.
 
 ## Translations
 
