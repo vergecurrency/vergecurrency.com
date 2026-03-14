@@ -1,21 +1,6 @@
 {
   "plugins": [
-    "inline-react-svg",
-    "markdown-in-js/babel",
-    [
-      "module-resolver", {
-        "root": ["."],
-        "alias": {
-          "styles": "./styles"
-        },
-        "cwd": "babelrc"
-    }],
-    [
-      "wrap-in-js",
-      {
-        "extensions": ["css$", "scss$"]
-      }
-    ]
+    "markdown-in-js/babel"
   ],
   "presets": [
     "next/babel"
