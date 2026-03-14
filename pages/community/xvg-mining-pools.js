@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Content from '../../components/resources/Content';
-import pools from './miningpools';
+import pools from '../../lists/miningpools';
 
 class MiningPools extends React.Component {
   constructor() {

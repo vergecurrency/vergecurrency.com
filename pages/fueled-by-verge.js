@@ -72,8 +72,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsLeft">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/wyatthasil50/"
                         target="_blank"
@@ -82,9 +81,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://twitter.com/wyatthasil50"
                         target="_blank"
@@ -93,8 +90,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--twitter" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">Motocross</p>
                   <p className="athleteName">Wyatt Hasil</p>
                   <p className="athleteLocation">Alberta, Canada</p>
@@ -133,8 +129,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsRight">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/reen_bean_/"
                         target="_blank"
@@ -143,8 +138,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">MMA</p>
                   <p className="athleteName">Reena Norville</p>
                   <p className="athleteLocation">Spring Valley, California</p>
@@ -169,8 +163,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsLeft">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/shaqlewis22/"
                         target="_blank"
@@ -179,9 +172,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://twitter.com/shaq_lewis22"
                         target="_blank"
@@ -190,8 +181,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--twitter" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">CFL / NFL</p>
                   <p className="athleteName">Shaquille Lewis</p>
                   <p className="athleteLocation">Texas, USA</p>
@@ -224,8 +214,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsRight">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/M4_Ville/"
                         target="_blank"
@@ -234,9 +223,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://twitter.com/M4_Ville"
                         target="_blank"
@@ -245,8 +232,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--twitter" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">NFL</p>
                   <p className="athleteName">Malik Williams</p>
                   <p className="athleteLocation">Louisville, Kentucky</p>
@@ -271,8 +257,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsLeft">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/_rpawildcats/"
                         target="_blank"
@@ -281,9 +266,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://twitter.com/_rpawildcats"
                         target="_blank"
@@ -292,9 +275,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--twitter" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://www.facebook.com/RPAWildcats/"
                         target="_blank"
@@ -303,10 +284,8 @@ function FBV(props) {
                       >
                         <i className="icon icon--facebook" />
                       </a>
-                    </Link>
-
-                    <Link>
-                      <a
+                    
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/reggiecalhounjr"
                         target="_blank"
@@ -315,9 +294,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://twitter.com/reggiecalhounjr"
                         target="_blank"
@@ -326,9 +303,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--twitter" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://www.facebook.com/thereggiecalhounjr/"
                         target="_blank"
@@ -337,8 +312,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--facebook" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">Football</p>
                   <p className="athleteName">RPA College / Reggie Calhoun Jr</p>
                   <p className="athleteLocation">Arlington, Texas</p>
@@ -377,8 +351,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsRight">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/iamlewisneal"
                         target="_blank"
@@ -387,9 +360,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://twitter.com/IamLewisNeal"
                         target="_blank"
@@ -398,9 +369,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--twitter" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://www.facebook.com/LewIsMNeal/"
                         target="_blank"
@@ -409,8 +378,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--facebook" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">NFL</p>
                   <p className="athleteName">Lewis Neal</p>
                   <p className="athleteLocation">British Columbia</p>
@@ -433,8 +401,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsLeft">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/pacquiaofoundation"
                         target="_blank"
@@ -443,9 +410,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://twitter.com/MPac_Foundation"
                         target="_blank"
@@ -454,9 +419,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--twitter" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://www.facebook.com/PacquiaoFoundation/"
                         target="_blank"
@@ -465,8 +428,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--facebook" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">Boxing</p>
                   <p className="athleteName">Manny Pacquiao Foundation</p>
                   <p className="athleteLocation">Philippines</p>
@@ -503,8 +465,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsRight">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.facebook.com/UpstateRacingLeague/"
                         target="_blank"
@@ -513,8 +474,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--facebook" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">eSports - Racing</p>
                   <p className="athleteName">Upstate Racing League</p>
                   <p className="athleteLocation">New York</p>
@@ -539,8 +499,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 center-xs end-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsLeft">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/gillinster"
                         target="_blank"
@@ -549,9 +508,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://twitter.com/gillinster"
                         target="_blank"
@@ -560,8 +517,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--twitter" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">Nascar</p>
                   <p className="athleteName">Gil Linster</p>
                   <p className="athleteLocation">Luxembourg / North Carolina</p>
@@ -595,8 +551,7 @@ function FBV(props) {
               <div className="col-xs-10 col-sm-6 col-md-6 col-xs-offset-1 col-sm-offset-0 center-xs start-sm">
                 <div className="AthletesFbvTxtV2">
                   <span className="socialIconsRight">
-                    <Link>
-                      <a
+                                          <a
                         className="icon iconlink"
                         href="https://www.instagram.com/141mx"
                         target="_blank"
@@ -605,9 +560,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--instagram" />
                       </a>
-                    </Link>
-                    <Link>
-                      <a
+                                                              <a
                         className="icon iconlink"
                         href="https://twitter.com/141mx"
                         target="_blank"
@@ -616,8 +569,7 @@ function FBV(props) {
                       >
                         <i className="icon icon--twitter" />
                       </a>
-                    </Link>
-                  </span>
+                                      </span>
                   <p className="athleteSport">Motocross</p>
                   <p className="athleteName">Danny Robertson</p>
                   <p className="athleteLocation">Calgary, Canada</p>
@@ -685,6 +637,6 @@ function FBV(props) {
   );
 }
 
-const Extended = translate(['fbv', 'common'], { i18n, wait: process.browser })(FBV);
+const Extended = translate(['fbv', 'common'], { i18n, wait: typeof window !== 'undefined' })(FBV);
 
 export default Extended;

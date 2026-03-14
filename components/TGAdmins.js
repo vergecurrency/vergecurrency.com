@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
   faTelegram,
@@ -17,26 +16,22 @@ const TGAdmins = () => {
         <div className="flexIt">
           <h3>{telegramAdmin.name}</h3>
           {hasAnySocialContact(telegramAdmin) ? <div className="socials">
-            <Link href={telegramAdmin.telegram}>
-              <a
-                className={getSocialClassNames(telegramAdmin.telegram)}
-                href={telegramAdmin.telegram}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faTelegram} size="1x" />
-              </a>
-            </Link>
-            <Link href={telegramAdmin.twitter}>
-              <a
-                className={getSocialClassNames(telegramAdmin.twitter)}
-                href={telegramAdmin.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faTwitter} size="1x" />
-              </a>
-            </Link>
+            <a
+              className={getSocialClassNames(telegramAdmin.telegram)}
+              href={telegramAdmin.telegram}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTelegram} size="1x" />
+            </a>
+            <a
+              className={getSocialClassNames(telegramAdmin.twitter)}
+              href={telegramAdmin.twitter}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} size="1x" />
+            </a>
           </div> : null}
         </div>
         <br />

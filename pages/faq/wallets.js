@@ -41,6 +41,6 @@ function FAQ_wallets(props) {
   );
 }
 
-const Extended = translate(['faq', 'common'], { i18n, wait: process.browser })(FAQ_wallets);
+const Extended = translate(['faq', 'common'], { i18n, wait: typeof window !== 'undefined' })(FAQ_wallets);
 
 export default Extended;

@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const Team = props => props.members.map(member => (
   <div className="col-xs col-md-3" key={member.name}>
     <div className="team--member pb-xs">
@@ -9,36 +7,30 @@ const Team = props => props.members.map(member => (
       <div className="flexIt">
         <h3>{member.name}</h3>
         <div className="socials">
-          <Link href={member.twitter}>
-            <a
-              className={`icon iconlink ${member.twitter ? '' : 'hidden'}`}
-              href={member.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="icon icon--twitter" />
-            </a>
-          </Link>
-          <Link href={member.twitter_alt}>
-            <a
-              className={`icon iconlink ${member.twitter_alt ? '' : 'hidden'}`}
-              href={member.twitter_alt}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="icon icon--twitter" />
-            </a>
-          </Link>
-          <Link href={member.github}>
-            <a
-              className={`icon iconlink ${member.github ? '' : 'hidden'}`}
-              href={member.github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="icon icon--github" />
-            </a>
-          </Link>
+          <a
+            className={`icon iconlink ${member.twitter ? '' : 'hidden'}`}
+            href={member.twitter}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="icon icon--twitter" />
+          </a>
+          <a
+            className={`icon iconlink ${member.twitter_alt ? '' : 'hidden'}`}
+            href={member.twitter_alt}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="icon icon--twitter" />
+          </a>
+          <a
+            className={`icon iconlink ${member.github ? '' : 'hidden'}`}
+            href={member.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="icon icon--github" />
+          </a>
         </div>
       </div>
       <h5>{member.role}</h5>

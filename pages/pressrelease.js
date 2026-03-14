@@ -186,6 +186,6 @@ VergeCurrency is script based and makes it very easy to implement on an exchange
 
 Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds. Also, there is a tipping bot cooked into the algorithm which helps translate the effectiveness of merging low fees, ultra-fast transaction speeds into a high-volume coin.`;
 
-const Extended = translate(['pressreleases'], { i18n, wait: process.browser })(Pressrelease);
+const Extended = translate(['pressreleases'], { i18n, wait: typeof window !== 'undefined' })(Pressrelease);
 
 export default Extended;

@@ -66,7 +66,7 @@ function Milestones(props) {
 
 const Extended = translate(['common', 'milestones'], {
   i18n,
-  wait: process.browser,
+  wait: typeof window !== 'undefined',
 })(Milestones);
 
 export default Extended;

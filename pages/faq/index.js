@@ -70,6 +70,6 @@ function FAQ_General(props) {
   );
 }
 
-const Extended = translate(['faq', 'common'], { i18n, wait: process.browser })(FAQ_General);
+const Extended = translate(['faq', 'common'], { i18n, wait: typeof window !== 'undefined' })(FAQ_General);
 
 export default Extended;

@@ -45,6 +45,6 @@ function About(props) {
   );
 }
 
-const Extended = translate(['common', 'about', 'faq'], { i18n, wait: process.browser })(About);
+const Extended = translate(['common', 'about', 'faq'], { i18n, wait: typeof window !== 'undefined' })(About);
 
 export default Extended;

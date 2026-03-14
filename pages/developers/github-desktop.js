@@ -48,6 +48,6 @@ function GithubDesktop(props) {
   );
 }
 
-const Extended = translate(['common'], { i18n, wait: process.browser })(GithubDesktop);
+const Extended = translate(['common'], { i18n, wait: typeof window !== 'undefined' })(GithubDesktop);
 
 export default Extended;

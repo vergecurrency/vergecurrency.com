@@ -620,7 +620,7 @@ function Home(props) {
 
 const Extended = translate(['common', 'home', 'milestones'], {
   i18n,
-  wait: process.browser,
+  wait: typeof window !== 'undefined',
 })(Home);
 
 export default Extended;

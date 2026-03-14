@@ -114,6 +114,6 @@ function WalletsPage(props) {
   );
 }
 
-const Extended = translate(['common', 'wallets', 'home'], { i18n, wait: process.browser })(WalletsPage);
+const Extended = translate(['common', 'wallets', 'home'], { i18n, wait: typeof window !== 'undefined' })(WalletsPage);
 
 export default Extended;

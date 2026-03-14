@@ -194,7 +194,7 @@ function GetVerge(props) {
 
 const Extended = translate(
   ['home', 'common', 'get-verge'],
-  { i18n, wait: process.browser }
+  { i18n, wait: typeof window !== 'undefined' }
 )(GetVerge);
 
 export default Extended;

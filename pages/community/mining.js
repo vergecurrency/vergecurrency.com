@@ -55,6 +55,6 @@ function Mining(props) {
   );
 }
 
-const Extended = translate(['common'], { i18n, wait: process.browser })(Mining);
+const Extended = translate(['common'], { i18n, wait: typeof window !== 'undefined' })(Mining);
 
 export default Extended;

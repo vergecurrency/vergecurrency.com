@@ -73,6 +73,6 @@ function Donate(props) {
   );
 }
 
-const Extended = translate(['common', 'donate'], { i18n, wait: process.browser })(Donate);
+const Extended = translate(['common', 'donate'], { i18n, wait: typeof window !== 'undefined' })(Donate);
 
 export default Extended;

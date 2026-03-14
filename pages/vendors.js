@@ -170,7 +170,7 @@ class VendorsPage extends React.Component {
   }
 }
 
-const Extended = translate(['common', 'vendors'], { i18n, wait: process.browser })(
+const Extended = translate(['common', 'vendors'], { i18n, wait: typeof window !== 'undefined' })(
   VendorsPage
 );
 

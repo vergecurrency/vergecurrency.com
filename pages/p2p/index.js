@@ -35,6 +35,6 @@ function P2P_Solutions_Guide(props) {
   );
 }
 
-const Extended = translate(['p2p', 'common'], { i18n, wait: process.browser })(P2P_Solutions_Guide);
+const Extended = translate(['p2p', 'common'], { i18n, wait: typeof window !== 'undefined' })(P2P_Solutions_Guide);
 
 export default Extended;

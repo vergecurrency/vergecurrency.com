@@ -40,7 +40,7 @@ const options = {
   },
 };
 
-if (process.browser) {
+if (typeof window !== 'undefined') {
   i18n.use(LanguageDetector);
 }
 

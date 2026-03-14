@@ -150,6 +150,6 @@ function WalletsTermsPage() {
 }
 
 
-const Extended = translate(['common', 'wallets'], { i18n, wait: process.browser })(WalletsTermsPage);
+const Extended = translate(['common', 'wallets'], { i18n, wait: typeof window !== 'undefined' })(WalletsTermsPage);
 
 export default Extended;

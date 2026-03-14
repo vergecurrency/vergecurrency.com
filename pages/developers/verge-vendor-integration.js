@@ -90,6 +90,6 @@ function Vendor_Integration(props) {
   );
 }
 
-const Extended = translate(['vendor-integration', 'common'], { i18n, wait: process.browser })(Vendor_Integration);
+const Extended = translate(['vendor-integration', 'common'], { i18n, wait: typeof window !== 'undefined' })(Vendor_Integration);
 
 export default Extended;

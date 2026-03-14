@@ -357,6 +357,6 @@ function Meetup(props) {
   );
 }
 
-const Extended = translate(['meetup-2019', 'common'], { i18n, wait: process.browser })(Meetup);
+const Extended = translate(['meetup-2019', 'common'], { i18n, wait: typeof window !== 'undefined' })(Meetup);
 
 export default Extended;

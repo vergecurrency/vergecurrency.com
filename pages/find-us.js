@@ -89,6 +89,6 @@ function FindUs(props) {
   );
 }
 
-const Extended = translate(['common', 'findus', 'faq'], { i18n, wait: process.browser })(FindUs);
+const Extended = translate(['common', 'findus', 'faq'], { i18n, wait: typeof window !== 'undefined' })(FindUs);
 
 export default Extended;
