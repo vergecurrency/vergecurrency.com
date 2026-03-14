@@ -35,19 +35,13 @@ export default () => (
       <li><ActiveLink href="/developers/vergecurrency-repositories">Developer's Tools</ActiveLink></li>
       <li><ActiveLink href="/developers/wallet-setup-instructions">Wallet setup instructions</ActiveLink></li>
       <li>
-        <Link href="https://github.com/vergecurrency/php-verge">
-          <a href="https://github.com/vergecurrency/php-verge" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>PHP Library for Verge wallet</a>
-        </Link>
+        <a href="https://github.com/vergecurrency/php-verge" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>PHP Library for Verge wallet</a>
       </li>
       <li>
-        <Link href="https://github.com/vergecurrency/verge-ruby">
-          <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>Ruby wrapped gem for interacting with Verge wallet</a>
-        </Link>
+        <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>Ruby wrapped gem for interacting with Verge wallet</a>
       </li>
       <li>
-        <Link href="https://nownodes.io/nodes/verge-xvg">
-          <a href="https://nownodes.io/nodes/verge-xvg" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>Use NOWNodes to get access to Verge Nodes and Explorer</a>
-        </Link>
+        <a href="https://nownodes.io/nodes/verge-xvg" rel="noopener noreferrer" target="_blank" style={{ color: 'rgb(51, 51, 51)' }}>Use NOWNodes to get access to Verge Nodes and Explorer</a>
       </li>
     </ul>
   </div>

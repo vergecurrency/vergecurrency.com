@@ -46,19 +46,17 @@ const MenuItems = ({ t }) => (
     <Link href="/vendors">
       <a href="/vendors">{t('header:vendors', { defaultValue: 'Vendors' })}</a>
     </Link>
-    <Link href="https://XVGTokens.com/">
-      <a href="https://XVGTokens.com/" target="_blank" rel="noopener noreferrer">
-        {t('header:verge-merch', { defaultValue: 'XVGTokens' })}
-      </a>
-    </Link>
-<span className="submenu">
+    <a href="https://XVGTokens.com/" target="_blank" rel="noopener noreferrer">
+      {t('header:verge-merch', { defaultValue: 'XVGTokens' })}
+    </a>
+    <span className="submenu">
       {t('header:resources', { defaultValue: 'Resources' })}
       <FontAwesomeIcon icon={faChevronDown} />
       <div className="submenu__content">
         {/* <Link href="/guides">
           <a href="/guides">{t('header:guides', { defaultValue: 'Guides' })}</a>
         </Link> */}
-          <a href="/static/blackpaper/verge-blackpaper-v5.0.pdf" target="_blank">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
+          <a href="/static/blackpaper/verge-blackpaper-v5.0.pdf" target="_blank" rel="noopener noreferrer">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
           </a>
         <Link href="/faq">
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}
@@ -68,21 +66,15 @@ const MenuItems = ({ t }) => (
           <a href="/community/xvg-mining-pools">{t('header:pools', { defaultValue: 'Mining Pools' })}
           </a>
         </Link>
-        <Link href="https://mycryptocheckout.com">
-          <a href="https://mycryptocheckout.com/?ref=156" target="_blank" rel="noopener noreferrer">
-            {t('header:acceptverge', { defaultValue: 'Accept Verge!' })}
-          </a>
-        </Link>
-        <Link href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)">
-          <a href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)" target="_blank" rel="noopener noreferrer">
-            {t('header:wiki', { defaultValue: 'Wiki' })}
-          </a>
-        </Link>
-        <Link href="https://vergecurrency.network/d/VmzuEE5Mk/verge-blockchain?orgId=1">
-          <a href="https://vergecurrency.network/d/VmzuEE5Mk/verge-blockchain?orgId=1" target="_blank" rel="noopener noreferrer">
-            {t('header:network-status', { defaultValue: 'Network Status' })}
-          </a>
-        </Link>
+        <a href="https://mycryptocheckout.com/?ref=156" target="_blank" rel="noopener noreferrer">
+          {t('header:acceptverge', { defaultValue: 'Accept Verge!' })}
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)" target="_blank" rel="noopener noreferrer">
+          {t('header:wiki', { defaultValue: 'Wiki' })}
+        </a>
+        <a href="https://vergecurrency.network/d/VmzuEE5Mk/verge-blockchain?orgId=1" target="_blank" rel="noopener noreferrer">
+          {t('header:network-status', { defaultValue: 'Network Status' })}
+        </a>
         <Link href="/developers">
           <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>
         </Link>

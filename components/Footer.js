@@ -81,19 +81,13 @@ const Footer = ({ t }) => (
                     {/* */}
 
                     <li>
-                      <Link href="https://github.com/vergecurrency/php-verge">
-                        <a href="https://github.com/vergecurrency/php-verge" rel="noopener noreferrer" target="_blank">{t('footer:php_library_for_verge_wallet', { defaultValue: 'PHP Library for Verge wallet' })}</a>
-                      </Link>
+                      <a href="https://github.com/vergecurrency/php-verge" rel="noopener noreferrer" target="_blank">{t('footer:php_library_for_verge_wallet', { defaultValue: 'PHP Library for Verge wallet' })}</a>
                     </li>
                     <li>
-                      <Link href="https://github.com/vergecurrency/verge-ruby">
-                        <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank">{t('footer:ruby_wrapped_gem', { defaultValue: 'Ruby wrapped gem' })}</a>
-                      </Link>
+                      <a href="https://github.com/vergecurrency/verge-ruby" rel="noopener noreferrer" target="_blank">{t('footer:ruby_wrapped_gem', { defaultValue: 'Ruby wrapped gem' })}</a>
                     </li>
                     <li>
-                      <Link href="https://nownodes.io/nodes/verge-xvg">
-                        <a href="https://nownodes.io/nodes/verge-xvg" rel="noopener noreferrer" target="_blank">{t('footer:now_nodes', { defaultValue: 'NOWNodes (XVG Node and Explorer)' })}</a>
-                      </Link>
+                      <a href="https://nownodes.io/nodes/verge-xvg" rel="noopener noreferrer" target="_blank">{t('footer:now_nodes', { defaultValue: 'NOWNodes (XVG Node and Explorer)' })}</a>
                     </li>
                     <li>
                       <Link href="/developers">
@@ -133,9 +127,7 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)">
-                        <a href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)" target="_blank" rel="noopener noreferrer">{t('header:wikipedia', { defaultValue: 'Wikipedia' })}</a>
-                      </Link>
+                      <a href="https://en.wikipedia.org/wiki/Verge_(cryptocurrency)" target="_blank" rel="noopener noreferrer">{t('header:wikipedia', { defaultValue: 'Wikipedia' })}</a>
                     </li>
                   </ul>
                 </div>
@@ -184,39 +176,25 @@ const Footer = ({ t }) => (
           <div className="row middle-xs bottom">
             <div className="col-xs-8 col--horizontal">
               <div className="social__icon">
-                <Link href="https://www.facebook.com/VERGEcurrency">
-                  <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook" name="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
-                </Link>
+                <a href="https://www.facebook.com/VERGEcurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--facebook" name="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
               </div>
               <div className="social__icon hidden-xs">
-                <Link href="https://github.com/vergecurrency?tab=repositories">
-                  <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github" name="Github"><FontAwesomeIcon icon={faGithub} /></a>
-                </Link>
+                <a href="https://github.com/vergecurrency?tab=repositories" target="_blank" rel="noopener noreferrer" className="social__link social__link--github" name="Github"><FontAwesomeIcon icon={faGithub} /></a>
               </div>
               <div className="social__icon">
-                <Link href="https://t.me/officialxvg">
-                  <a href="https://t.me/officialxvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram" name="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
-                </Link>
+                <a href="https://t.me/officialxvg" target="_blank" rel="noopener noreferrer" className="social__link social__link--telegram" name="Telegram"><FontAwesomeIcon icon={faTelegram} /></a>
               </div>
               <div className="social__icon">
-                <Link href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ">
-                  <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube" name="Youtube"><FontAwesomeIcon icon={faYoutube} /></a>
-                </Link>
+                <a href="https://www.youtube.com/channel/UCv59uw_WhHB2VxbBs0LPeeQ" target="_blank" rel="noopener noreferrer" className="social__link social__link--youtube" name="Youtube"><FontAwesomeIcon icon={faYoutube} /></a>
               </div>
               <div className="social__icon">
-                <Link href="https://www.reddit.com/r/vergecurrency/">
-                  <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit" name="Reddit"><FontAwesomeIcon icon={faReddit} /></a>
-                </Link>
+                <a href="https://www.reddit.com/r/vergecurrency/" target="_blank" rel="noopener noreferrer" className="social__link social__link--reddit" name="Reddit"><FontAwesomeIcon icon={faReddit} /></a>
               </div>
               <div className="social__icon">
-                <Link href="https://www.twitter.com/vergecurrency">
-                  <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter" name="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
-                </Link>
+                <a href="https://www.twitter.com/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--twitter" name="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
               </div>
               <div className="social__icon">
-                <Link href="https://discord.gg/vergecurrency">
-                  <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord" name="Discord"><FontAwesomeIcon icon={faDiscord} /></a>
-                </Link>
+                <a href="https://discord.gg/vergecurrency" target="_blank" rel="noopener noreferrer" className="social__link social__link--discord" name="Discord"><FontAwesomeIcon icon={faDiscord} /></a>
               </div>
             </div>
             <div className="col-xs-4 end-xs">
