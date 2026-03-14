@@ -6,6 +6,7 @@ import { translate } from 'react-i18next';
 
 import Header from './Header';
 import Footer from './Footer';
+import Preloader from './Preloader';
 
 import i18n from '../i18n';
 
@@ -15,6 +16,7 @@ class Layout extends React.Component {
 
     return (
       <div id="layout">
+        <Preloader />
         <Head>
           <title key="title">VergeCurrency.com</title>
           <meta key="description" name="description" content={t('common:meta.all.description', { defaultValue: 'Verge Currency A secure and user-friendly digital currency, built for everyday transactions.' })} />
