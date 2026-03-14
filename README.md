@@ -14,27 +14,37 @@ You need the following prerequisites to be able to both install and get the proj
 
 ### Mac:
 
-Open your preferred terminal and install the following packages in the correct order.
+Open Terminal and install the repo's required Node and Yarn versions.
+
+This repo currently targets Node `v20.11.1` and uses Yarn Classic (`yarn.lock`).
 
 _Homebrew:_
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-_NodeJS:_
+_Node.js and nvm:_
 
 ```
-brew install node
+brew install nvm
+mkdir -p ~/.nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh"
+nvm install 20.11.1
+nvm use 20.11.1
 ```
 
 _Yarn:_
 
 ```
-brew install yarn
+corepack enable
+corepack prepare yarn@1.22.22 --activate
 ```
 
 ### Windows:
+
+This repo currently targets Node `v20.11.1` and uses Yarn Classic (`yarn.lock`).
 
 _Git_
 
@@ -43,18 +53,19 @@ Download the Windows installer here:
 https://git-scm.com/download/win
 ```
 
-_NodeJS:_
+_Node.js:_
 
 ```
-Download the Windows installer here:
+Install Node 20.11.1 from:
 https://nodejs.org/en/download/
 ```
 
 _Yarn:_
 
 ```
-Download the Windows installer here:
-https://yarnpkg.com/lang/en/docs/install/
+Open Git Bash or PowerShell and run:
+corepack enable
+corepack prepare yarn@1.22.22 --activate
 ```
 
 ### Linux:
