@@ -209,6 +209,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 - **Edwin de Boer** - _Main developer_ - [EdwinB89](https://github.com/EdwinB89)
 - **Max1us** - _Developer / Maintainer_ - [Max1us](https://github.com/Max1us)
 - **Waveon3** - _Webdesigns_ - [Waveon3](https://reddit.com/user/waveon3)
+- - **JustinVforVendetta** - _Developer / Maintainer_ - [justinvforvendetta](https://github.com/justinvforvendetta)
 
 See also the list of [contributors](CONTRIBUTING.md) who participated in this project.
 
