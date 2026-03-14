@@ -1,7 +1,7 @@
 // scss-lint:disable IdSelector
 
 #header {
-  background: $astronaut-blue;
+  background: $dark-blue;
   box-shadow: 0 0 rem(15px) rgba(0, 0, 0, 0.12);
   left: 0;
   position: fixed;
@@ -144,10 +144,17 @@
     }
   }
 
+  .verge-logo {
+    display: block;
+    overflow: visible;
+    width: rem(164px);
+  }
+
   .verge-logo svg,
   .verge-logo img {
     margin-left: -0.25rem;
-    width: rem(168px);
+    max-width: none;
+    width: 100%;
     margin-top: -2.3rem;
     margin-bottom: -1.9rem;
   }
@@ -161,7 +168,7 @@
 
   @at-root .scroll &,
     &.solid {
-    background: $astronaut-blue;
+    background: $dark-blue;
     box-shadow: 0 0 rem(15px) rgba(0, 0, 0, 0.12);
 
     nav a {
@@ -179,7 +186,7 @@
         color: $white;
 
         &__content {
-          background: $astronaut-blue;
+          background: $dark-blue;
         }
       }
     }
