@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 import { shuffle } from './Shuffler';
 
@@ -25,12 +24,10 @@ export const Sponsors = () => {
       key={s.title}
       role="presentation"
     >
-      <a>
-        <a href={s.url} target="_blank" rel="noopener noreferrer">
-          <LazyLoad height={s.height}>
-            <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
-          </LazyLoad>
-        </a>
+      <a href={s.url} target="_blank" rel="noopener noreferrer">
+        <LazyLoad height={s.height}>
+          <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+        </LazyLoad>
       </a>
     </div>
   ));
@@ -41,12 +38,10 @@ export const Sponsors = () => {
       key={s.title}
       role="presentation"
     >
-      <a>
-        <a href={s.url} target="_blank" rel="noopener noreferrer">
-          <LazyLoad height={s.height}>
-            <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
-          </LazyLoad>
-        </a>
+      <a href={s.url} target="_blank" rel="noopener noreferrer">
+        <LazyLoad height={s.height}>
+          <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+        </LazyLoad>
       </a>
     </div>
   ));
@@ -57,12 +52,10 @@ export const Sponsors = () => {
       key={s.title}
       role="presentation"
     >
-      <a>
-        <a href={s.url} target="_blank" rel="noopener noreferrer">
-          <LazyLoad height={s.height}>
-            <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
-          </LazyLoad>
-        </a>
+      <a href={s.url} target="_blank" rel="noopener noreferrer">
+        <LazyLoad height={s.height}>
+          <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+        </LazyLoad>
       </a>
     </div>
   ));
@@ -73,12 +66,10 @@ export const Sponsors = () => {
       key={s.title}
       role="presentation"
     >
-      <a>
-        <a href={s.url} target="_blank" rel="noopener noreferrer">
-          <LazyLoad height={s.height}>
-            <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
-          </LazyLoad>
-        </a>
+      <a href={s.url} target="_blank" rel="noopener noreferrer">
+        <LazyLoad height={s.height}>
+          <img className="img-responsive sponsors__logo" src={s.img} style={{ maxHeight: s.height }} alt={s.title} />
+        </LazyLoad>
       </a>
     </div>
   ));
@@ -102,7 +93,7 @@ export const Sponsors = () => {
             <div className="sponsors__single" role="presentation">
               <a href="mailto:contact@vergecurrency.com?subject=Third Verge Meetup - Sponsorship" target="_blank" rel="noopener noreferrer">
                 <LazyLoad height="100">
-                  <img className="img-responsive sponsors__logo" src="../static/img/meetup-2020/sponsors/new.jpg" style={{ maxHeight: '100px' }} alt="You?" />
+                  <img className="img-responsive sponsors__logo" src="/static/img/meetup-2020/sponsors/new.jpg" style={{ maxHeight: '100px' }} alt="You?" />
                 </LazyLoad>
               </a>
             </div>

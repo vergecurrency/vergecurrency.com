@@ -66,18 +66,18 @@ function WalletsPage(props) {
               <div className="col-sm-5 col-md-4 col-lg-3 hidden-xs">
                 <div className={`hidden-xs benefits--${i18n.language === 'ar' || i18n.language === 'fa' || i18n.language === 'ku' ? 'imgsrtl' : 'imgs'}`}>
                   <img
-                    src="../static/img/benefits-desktop.png"
+                    src="/static/img/benefits-desktop.png"
                     srcSet="
-                          ../static/img/benefits-desktop.png 1x,
-                          ../static/img/benefits-desktop@2x.png 2x
+                          /static/img/benefits-desktop.png 1x,
+                          /static/img/benefits-desktop@2x.png 2x
                         "
                     alt="Benefits desktop"
                   />
                   <img
-                    src="../static/img/benefits-mobile.png"
+                    src="/static/img/benefits-mobile.png"
                     srcSet="
-                          ../static/img/benefits-mobile.png 1x,
-                          ../static/img/benefits-mobile@2x.png 2x
+                          /static/img/benefits-mobile.png 1x,
+                          /static/img/benefits-mobile@2x.png 2x
                         "
                     alt="Benefits mobile"
                   />
