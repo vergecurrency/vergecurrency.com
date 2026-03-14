@@ -13,7 +13,7 @@ import Moment from 'react-moment';
 import 'moment-timezone';
 
 import markdown from 'markdown-in-js';
-import one from '../static/pressreleases/one.json';
+import one from '../public/static/pressreleases/one.json';
 
 import { translate } from 'react-i18next';
 import i18n from '../i18n';

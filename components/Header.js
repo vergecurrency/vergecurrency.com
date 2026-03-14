@@ -7,8 +7,6 @@ import Router from 'next/router';
 
 import NProgress from 'nprogress';
 
-import VergeLogoWhite from '../static/img/verge-logo-white.svg';
-
 import Navbar from './Navbar';
 import MenuItems from './MenuItems';
 
@@ -30,7 +28,7 @@ const Header = ({ t }) => (
         <div className="col-xs-5 col-sm-1 start-xs middle-xs">
           <Link href="/">
             <a className="verge-logo" href="/" name="Verge homepage">
-              <VergeLogoWhite />
+              <img src="/static/img/verge-logo-white.svg" alt="Verge Currency" />
             </a>
           </Link>
         </div>

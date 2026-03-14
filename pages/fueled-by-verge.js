@@ -15,7 +15,6 @@ function FBV(props) {
     <Layout>
       <Head>
         <title key="title">{t('common:meta.FBV.title', { defaultValue: 'Fueled by Verge - VergeCurrency.com' })}</title>
-        <link rel="stylesheet" type="text/css" href="/static/scss/pages/_fbv.scss" />
       </Head>
 
       <div className="container-fbv-header">

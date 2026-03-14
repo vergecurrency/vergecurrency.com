@@ -12,7 +12,6 @@ function FindUs(props) {
     <Layout>
       <Head>
         <title key="title">{t('common:meta.findus.title', { defaultValue: 'Find us - VergeCurrency.com' })}</title>
-        <link rel="stylesheet" type="text/css" href="/static/scss/pages/_find-us.scss" />
       </Head>
 
       <div className="about">

@@ -8,8 +8,6 @@ import {
   faYoutube, faReddit, faTwitter, faDiscord,
 } from '@fortawesome/fontawesome-free-brands';
 
-import VergeLogo from '../static/img/verge-logo.svg';
-
 const Footer = ({ t }) => (
   <footer>
     <div className="row">
@@ -224,7 +222,7 @@ const Footer = ({ t }) => (
             <div className="col-xs-4 end-xs">
               <Link href="/">
                 <a href="/" className="verge-logo" name="Verge Currency Logo">
-                  <VergeLogo width="120" />
+                  <img src="/static/img/verge-logo.svg" width="120" alt="Verge Currency Logo" />
                 </a>
               </Link>
             </div>
