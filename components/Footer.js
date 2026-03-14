@@ -2,11 +2,11 @@ import React from 'react';
 
 import Link from 'next/link';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook, faGithub, faTelegram,
   faYoutube, faReddit, faTwitter, faDiscord,
-} from '@fortawesome/fontawesome-free-brands';
+} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = ({ t }) => (
   <footer>

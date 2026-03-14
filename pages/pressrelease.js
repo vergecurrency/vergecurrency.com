@@ -3,11 +3,11 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import Subheader from '../components/Subheader';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook, faGithub, faTelegram,
   faYoutube, faReddit, faTwitter, faDiscord,
-} from '@fortawesome/fontawesome-free-brands';
+} from '@fortawesome/free-brands-svg-icons';
 
 import Moment from 'react-moment';
 import 'moment-timezone';

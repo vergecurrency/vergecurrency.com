@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/fontawesome-free-solid';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import LanguageSwitcher from './LanguageSwitcher';
 
 const MenuItems = ({ t }) => (

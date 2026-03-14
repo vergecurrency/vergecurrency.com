@@ -4,11 +4,11 @@ import Head from 'next/head';
 import Layout from '../components/Layout';
 import MediumPosts from '../components/Medium';
 import { FullMentions } from '../components/Mentions';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook, faGithub, faTelegram,
   faYoutube, faReddit, faTwitter, faDiscord,
-} from '@fortawesome/fontawesome-free-brands';
+} from '@fortawesome/free-brands-svg-icons';
 import 'moment-timezone';
 import { translate } from 'react-i18next';
 import i18n from '../i18n';

@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 import { translate, Interpolate } from 'react-i18next';
 
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook,
   faGithub,
@@ -13,7 +13,7 @@ import {
   faReddit,
   faTwitter,
   faDiscord,
-} from '@fortawesome/fontawesome-free-brands';
+} from '@fortawesome/free-brands-svg-icons';
 
 import { HomeExchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';

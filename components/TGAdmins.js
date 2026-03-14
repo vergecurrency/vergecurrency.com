@@ -1,8 +1,8 @@
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTelegram,
   faTwitter,
-} from '@fortawesome/fontawesome-free-brands';
+} from '@fortawesome/free-brands-svg-icons';
 
 import tgAdminsData from '../lists/tgadmins.json';
 
