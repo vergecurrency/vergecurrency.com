@@ -1,8 +1,14 @@
 const webpack = require('webpack');
 
 module.exports = {
-  exportPathMap() {
+  exportPathMap(defaultPathMap) {
+    const exportMap = { ...defaultPathMap };
+
+    delete exportMap['/blog'];
+    delete exportMap['/post'];
+
     return {
+      ...exportMap,
       '/about-us': { page: '/about' },
       '/community/donate': { page: '/donate' },
     };
