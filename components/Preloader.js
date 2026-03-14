@@ -1,27 +1,39 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class Preloader extends React.Component {
+  static defaultProps = {
+    disappearTime: 1600,
+    removalTime: 1800,
+    bgColor: '#000',
+    color: '#fff',
+  };
+
   handleStyles = () => {
     setTimeout(() => {
       const preloader = document.getElementById('preloader');
 
+      if (!preloader) return;
+
       preloader.classList.add('close');
 
-      document.getElementsByTagName("body")[0].style = "overflow: auto";
+      document.body.style.overflow = 'auto';
     }, this.props.disappearTime);
 
     setTimeout(() => {
       const preloader = document.getElementById('preloader');
 
-      preloader.remove();
+      if (preloader) {
+        preloader.remove();
+      }
     }, this.props.removalTime);
-  }
+  };
 
   render() {
-    return (
-      <div style={{ backgroundColor: this.props.bgColor }} ref={'preload'} id={'preloader'}>
+    const { bgColor } = this.props;
 
-        <img src="../static/img/verge-intro.gif" />
+    return (
+      <div style={{ backgroundColor: bgColor }} id="preloader">
+        <img src="/static/img/verge-intro.gif" alt="Verge loading animation" />
         <div id="loader">
           {/* <ul>
             <li style={{backgroundColor: this.props.color}} ></li>
@@ -33,10 +45,8 @@ class Preloader extends React.Component {
           </ul> */}
         </div>
       </div>
-    )
+    );
   }
 }
-
-Preloader.defaultProps = { disappearTime: 1600, removalTime: 1800, bgColor: '#000', color: '#fff' };
 
 export default Preloader;

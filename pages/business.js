@@ -95,20 +95,16 @@ function Business(props) {
                 <div className="row center-xs between-xs middle-xs pt-small pb pb-xs-0">
                   <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <Link href="https://www.nexwave.ca">
-                        <a href="https://www.nexwave.ca" target="_blank" rel="noopener noreferrer">
-                          <img src="/static/img/vendors/latest/Nexwave.png" alt="Nexwave" />
-                        </a>
-                      </Link>
+                      <a href="https://www.nexwave.ca" target="_blank" rel="noopener noreferrer">
+                        <img src="/static/img/vendors/latest/Nexwave.png" alt="Nexwave" />
+                      </a>
                     </div>
                   </div>
                   <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <Link href="https://www.alwayshodl.com">
-                        <a href="https://www.alwayshodl.com" target="_blank" rel="noopener noreferrer">
-                          <img src="/static/img/vendors/latest/HODL.jpg" alt="HODL" />
-                        </a>
-                      </Link>
+                      <a href="https://www.alwayshodl.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/static/img/vendors/latest/HODL.jpg" alt="HODL" />
+                      </a>
                     </div>
                   </div>
                   <div className="col-xs-6 col-sm-2 center-xs pb-xs">
@@ -118,20 +114,16 @@ function Business(props) {
                   </div>
                   <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <Link href="https://www.snel.com">
-                        <a href="https://www.snel.com" target="_blank" rel="noopener noreferrer">
-                          <img src="/static/img/vendors/latest/Snel.png" alt="Snel" />
-                        </a>
-                      </Link>
+                      <a href="https://www.snel.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/static/img/vendors/latest/Snel.png" alt="Snel" />
+                      </a>
                     </div>
                   </div>
                   <div className="col-xs-6 col-sm-2 center-xs pb-xs">
                     <div className="vendors--logo">
-                      <Link href="https://www.snel.com">
-                        <a href="https://www.snel.com" target="_blank" rel="noopener noreferrer">
-                          <img src="/static/img/vendors/latest/PMC.png" alt="PMC" />
-                        </a>
-                      </Link>
+                      <a href="https://www.snel.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/static/img/vendors/latest/PMC.png" alt="PMC" />
+                      </a>
                     </div>
                   </div>
                   <div className="col-xs-6 col-sm-2 center-xs pb-xs">
