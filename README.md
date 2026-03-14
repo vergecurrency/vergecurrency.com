@@ -61,19 +61,23 @@ https://yarnpkg.com/lang/en/docs/install/
 
 **Ubuntu/Debian**
 
-_NodeJS:_
+This repo currently targets Node `v20.11.1` and uses Yarn Classic (`yarn.lock`).
+
+_Node.js and nvm:_
 
 ```
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm install 20.11.1
+nvm use 20.11.1
 ```
 
 _Yarn:_
 
 ```
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt-get update && sudo apt-get install yarn
+corepack enable
+corepack prepare yarn@1.22.22 --activate
 ```
 
 ## Installing
@@ -93,18 +97,21 @@ _Cd into the newly created directory:_
 cd vergecurrency.com
 ```
 
-_If you have a different version of NodeJS, use Node Version Manager:_
+_If you have a different Node version installed, use Node Version Manager:_
 
 [NVM instructions](https://github.com/nvm-sh/nvm)
 
-```
-Example, nvm use v20.11.1
-```
-
-Or using .nvmrc
+_This repo includes `.nvmrc`, so the usual command is:_
 
 ```
 nvm use
+```
+
+_Or install and switch explicitly:_
+
+```
+nvm install 20.11.1
+nvm use 20.11.1
 ```
 
 _Install dependencies:_
@@ -165,19 +172,27 @@ _Lint all the SCSS files_
 
 ## Local deployment
 
-We're using the NextJS build system. To build, just run the following command:
+We're using the Next.js build system. To create the production export used for GitHub Pages, run:
 
 ```
 yarn run build
 ```
 
-It will then build and export the whole project.
+This builds the site and exports the static output into `docs/`.
 
-To run the build locally:
+To run the site locally in development:
 
 ```
-gulp
+yarn run dev
 ```
+
+Then open:
+
+```
+http://localhost:3000
+```
+
+GitHub Pages deployment is handled by the GitHub Actions workflow in `.github/workflows/build-and-deploy.yml`, which runs `yarn install --frozen-lockfile` and `yarn build` on pushes to `master`.
 
 ## Translations
 
