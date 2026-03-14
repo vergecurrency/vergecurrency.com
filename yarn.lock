@@ -5910,15 +5910,15 @@ i18next-browser-languagedetector@^2.1.0:
   resolved "https://registry.yarnpkg.com/i18next-browser-languagedetector/-/i18next-browser-languagedetector-2.2.4.tgz#b02412d7ab15d7d74e1b1317d67d8a244b219ee3"
   integrity sha512-wPbtH18FdOuB245I8Bhma5/XSDdN/HpYlX+wga1eMy+slhaFQSnrWX6fp+aYSL2eEuj0RlfHeEVz6Fo/lxAj6A==
 
-i18next-fs-backend@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/i18next-fs-backend/-/i18next-fs-backend-2.6.0.tgz#7b6b54c5ffc2a5073e47eda0673c002376fa1a3c"
-  integrity sha512-3ZlhNoF9yxnM8pa8bWp5120/Ob6t4lVl1l/tbLmkml/ei3ud8IWySCHt2lrY5xWRlSU5D9IV2sm5bEbGuTqwTw==
+i18next-fs-backend@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/i18next-fs-backend/-/i18next-fs-backend-2.6.1.tgz#bb352278136f47599783308df29f0a1b6a0d08b6"
+  integrity sha512-eYWTX7QT7kJ0sZyCPK6x1q+R63zvNKv2D6UdbMf15A8vNb2ZLyw4NNNZxPFwXlIv/U+oUtg8SakW6ZgJZcoqHQ==
 
-i18next-http-middleware@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/i18next-http-middleware/-/i18next-http-middleware-3.8.0.tgz#c37ee466faa1a86d68799fb0ad3b7b6099f5a846"
-  integrity sha512-G3DpT/ibwOx6BCI5A2xUmZ2ybUDUrI6emCdEE7AX9TKvz+WzA6peuyv0BxC8kIrJHtrdnmUWwk4rDN9nxWvsFg==
+i18next-http-middleware@3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/i18next-http-middleware/-/i18next-http-middleware-3.9.2.tgz#b98deef779257bf15d04460886ae11982d53bf04"
+  integrity sha512-vzd0Z89xR1yF2V2USVS2G6oOzNilTXsBkxQ16GFPGJO4whQI/LIreh4p4Qy7HXQlGrWVp83YaekuG36+t9anJA==
 
 i18next@^10.3.0:
   version "10.6.0"
