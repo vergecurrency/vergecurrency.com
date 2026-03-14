@@ -2039,7 +2039,7 @@ const mileStones = [
   // },
 ];
 
-export default ({ start = 0, maxLength = mileStones.length }) =>
+const CurrentMilestones = ({ start = 0, maxLength = mileStones.length }) =>
   mileStones.slice(start, start + maxLength).reverse().map(mapItem => (
     <li
       className={`roadmap__item roadmap__item--${mapItem.done ? 'done' : 'planned'
@@ -2067,3 +2067,5 @@ export default ({ start = 0, maxLength = mileStones.length }) =>
       )}
     </li>
   ));
+
+export default CurrentMilestones;

@@ -5,7 +5,7 @@ import LanguageSwitcher from './LanguageSwitcher';
 
 const MenuItems = ({ t }) => (
   <div className="links">
-    <Link prefetch href="/">
+    <Link href="/">
       <a href="/" className="visible-xs">
         {t('header:home', { defaultValue: 'Home' })}
       </a>
@@ -14,36 +14,36 @@ const MenuItems = ({ t }) => (
       {t('header:about', { defaultValue: 'About' })}
       <FontAwesomeIcon icon={faChevronDown} />
       <div className="submenu__content">
-        <Link prefetch href="/about">
+        <Link href="/about">
           <a href="/about">{t('header:about', { defaultValue: 'About' })}</a>
         </Link>
-        <Link prefetch href="/verge-team">
+        <Link href="/verge-team">
           <a href="/verge-team">{t('header:verge-team', { defaultValue: 'Verge Team' })}</a>
         </Link>
-        <Link prefetch href="/key-tech">
+        <Link href="/key-tech">
           <a href="/key-tech">{t('header:key-tech', { defaultValue: 'Key Tech' })}</a>
         </Link>
-        <Link prefetch href="/benefits">
+        <Link href="/benefits">
           <a href="/benefits">{t('header:benefits', { defaultValue: 'Benefits' })}</a>
         </Link>
         {/* <Link prefetch href="/pressreleases">
           <a href="/pressreleases">{t('header:press-releases', { defaultValue: 'Press Releases' })}</a>
         </Link> */}
-        <Link prefetch href="/fueled-by-verge">
+        <Link href="/fueled-by-verge">
           <a href="/fueled-by-verge">{t('header:fueled-by-verge', { defaultValue: 'Fueled By Verge' })}</a>
         </Link>
       </div>
     </span>
-    <Link prefetch href="/wallets">
+    <Link href="/wallets">
       <a href="/wallets">{t('header:wallets', { defaultValue: 'Wallets' })}</a>
     </Link>
-    <Link prefetch href="/milestones">
+    <Link href="/milestones">
       <a href="/milestones">{t('header:milestones', { defaultValue: 'Milestones' })}</a>
     </Link>
-    <Link prefetch href="/get-verge">
+    <Link href="/get-verge">
       <a href="/get-verge">{t('header:get-verge', { defaultValue: 'Get Verge!' })}</a>
     </Link>
-    <Link prefetch href="/vendors">
+    <Link href="/vendors">
       <a href="/vendors">{t('header:vendors', { defaultValue: 'Vendors' })}</a>
     </Link>
     <Link href="https://XVGTokens.com/">
@@ -60,11 +60,11 @@ const MenuItems = ({ t }) => (
         </Link> */}
           <a href="/static/blackpaper/verge-blackpaper-v5.0.pdf" target="_blank">{t('header:blackpaper', { defaultValue: 'Blackpaper' })}
           </a>
-        <Link prefetch href="/faq">
+        <Link href="/faq">
           <a href="/faq">{t('header:faq', { defaultValue: 'FAQ' })}
           </a>
         </Link>
-        <Link prefetch href="/community/xvg-mining-pools">
+        <Link href="/community/xvg-mining-pools">
           <a href="/community/xvg-mining-pools">{t('header:pools', { defaultValue: 'Mining Pools' })}
           </a>
         </Link>
@@ -83,16 +83,16 @@ const MenuItems = ({ t }) => (
             {t('header:network-status', { defaultValue: 'Network Status' })}
           </a>
         </Link>
-        <Link prefetch href="/developers">
+        <Link href="/developers">
           <a href="/developers">{t('header:developers', { defaultValue: 'Developers' })}</a>
         </Link>
-        <Link prefetch href="/presskit">
+        <Link href="/presskit">
           <a href="/presskit">{t('header:presskit', { defaultValue: 'Presskit' })}</a>
         </Link>
-        <Link prefetch href="/meetup">
+        <Link href="/meetup">
           <a href="/meetup">{t('header:meetup', { defaultValue: 'MeetUp' })}</a>
         </Link>
-        <Link prefetch href="/find-us">
+        <Link href="/find-us">
           <a href="/find-us">{t('header:find-us', { defaultValue: 'Find Us' })}</a>
         </Link>
       </div>

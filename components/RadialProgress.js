@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({ size = 25, percentage, text }) => {
+const RadialProgress = ({ size = 25, percentage, text }) => {
   const per = percentage / 100;
   return (
     <div className="roadmap-update-progress">
@@ -24,3 +24,5 @@ export default ({ size = 25, percentage, text }) => {
     </div>
   );
 };
+
+export default RadialProgress;

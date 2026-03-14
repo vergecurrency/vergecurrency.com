@@ -37,7 +37,7 @@ const Footer = ({ t }) => (
                       </Link>
                     </li>
                     <li>
-                      <Link prefetch href="/get-verge">
+                      <Link href="/get-verge">
                         <a href="/get-verge" name="Get Verge">{t('footer:get_verge', { defaultValue: 'Get Verge' })}</a>
                       </Link>
                     </li>
