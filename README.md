@@ -205,8 +205,6 @@ http://localhost:3000
 
 GitHub Pages deployment is handled by the GitHub Actions workflow in `.github/workflows/build-and-deploy.yml`, which runs `yarn install --frozen-lockfile` and `yarn build` on pushes to `master`.
 
-The current Next.js/Webpack stack still requires the `--openssl-legacy-provider` flag on Node 22, and that compatibility flag is already included in the repo scripts.
-
 ## Translations
 
 ### Folder structure

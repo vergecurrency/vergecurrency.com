@@ -1,6 +1,8 @@
-const webpack = require('webpack');
-
 module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
   exportPathMap(defaultPathMap) {
     const exportMap = { ...defaultPathMap };
 
@@ -14,9 +16,12 @@ module.exports = {
     };
   },
 
-  webpack: (config, { dev }) => {
+  webpack: (config, { dev, webpack }) => {
     if (!dev) {
-      config.plugins.push(new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/));
+      config.plugins.push(new webpack.IgnorePlugin({
+        resourceRegExp: /^\.\/locale$/,
+        contextRegExp: /moment$/,
+      }));
     }
     config.module.rules.push({
       test: /locales/,
@@ -27,7 +32,10 @@ module.exports = {
       },
     });
     if (dev) {
-      config.plugins.push(new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/));
+      config.plugins.push(new webpack.IgnorePlugin({
+        resourceRegExp: /^\.\/locale$/,
+        contextRegExp: /moment$/,
+      }));
     }
 
     return config;

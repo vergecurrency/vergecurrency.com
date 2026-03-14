@@ -4,13 +4,13 @@ import {
   faTwitter,
 } from '@fortawesome/fontawesome-free-brands';
 
-import { tgadmins } from '../lists/tgadmins.json'
+import tgAdminsData from '../lists/tgadmins.json';
 
 const hasAnySocialContact = (telegramAdmin) => telegramAdmin.twitter || telegramAdmin.telegram
 const getSocialClassNames = (social) => Boolean(social) ? 'icon iconlink' : 'icon iconlink hidden'
 
 const TGAdmins = () => {
-  const telegramAdmins = tgadmins.map(telegramAdmin => (
+  const telegramAdmins = tgAdminsData.tgadmins.map((telegramAdmin) => (
     <div className="col-xs-12 col-md-3">
       <div className="team--member tg--admins pb-xs">
         <div className="flexIt">
@@ -44,6 +44,6 @@ const TGAdmins = () => {
       {telegramAdmins}
     </div>
   );
-}
+};
 
 export default TGAdmins;
