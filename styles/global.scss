@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 @import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);
 
 // VARIABLES
@@ -26,19 +28,19 @@ $venice-blue: #075a7f;
 $dark-blue: #091721;
 
 $colors: (
-  black: $black,
-  white: $white,
-  pacific-blue-1: $pacific-blue-1,
-  picton-blue: $picton-blue,
-  allports: $allports,
-  blizzard-blue: $blizzard-blue,
-  astronaut-blue: $astronaut-blue,
-  venice-blue: $venice-blue,
-  dark-blue: $dark-blue
+  'black': $black,
+  'white': $white,
+  'pacific-blue-1': $pacific-blue-1,
+  'picton-blue': $picton-blue,
+  'allports': $allports,
+  'blizzard-blue': $blizzard-blue,
+  'astronaut-blue': $astronaut-blue,
+  'venice-blue': $venice-blue,
+  'dark-blue': $dark-blue
 );
 
 @function rem($pixels, $size: $base-font-size) {
-  @return $pixels / ($size / (1rem * 1));
+  @return math.div($pixels, math.div($size, 1rem));
 }
 
 %gray-arrow-right {
