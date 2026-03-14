@@ -480,130 +480,112 @@ function Home(props) {
                     <div className="col-xs-12 col-sm-7 col-md-5 col-md-offset-2 col--full-height">
                       <div className="row start-xs center-sm between-md pb-xs">
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.facebook.com/VERGEcurrency">
-                            <a
-                              href="https://www.facebook.com/VERGEcurrency"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="social__link social__link--facebook"
-                              name="Facebook link"
-                              title="Facebook"
-                            >
-                              <FontAwesomeIcon icon={faFacebook} size="2x" />
-                            </a>
-                          </Link>
+                          <a
+                            href="https://www.facebook.com/VERGEcurrency"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social__link social__link--facebook"
+                            name="Facebook link"
+                            title="Facebook"
+                          >
+                            <FontAwesomeIcon icon={faFacebook} size="2x" />
+                          </a>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://github.com/vergecurrency?tab=repositories">
-                            <a
-                              href="https://github.com/vergecurrency?tab=repositories"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="social__link social__link--github"
-                              name="GitHub link"
-                              title="GitHub"
-                            >
-                              <FontAwesomeIcon icon={faGithub} size="2x" />
-                            </a>
-                          </Link>
+                          <a
+                            href="https://github.com/vergecurrency?tab=repositories"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social__link social__link--github"
+                            name="GitHub link"
+                            title="GitHub"
+                          >
+                            <FontAwesomeIcon icon={faGithub} size="2x" />
+                          </a>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://t.me/officialxvg">
-                            <a
-                              href="https://t.me/officialxvg"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="social__link social__link--telegram"
-                              name="Telegram link"
-                              title="Telegram"
-                            >
-                              <FontAwesomeIcon icon={faTelegram} size="2x" />
-                            </a>
-                          </Link>
+                          <a
+                            href="https://t.me/officialxvg"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social__link social__link--telegram"
+                            name="Telegram link"
+                            title="Telegram"
+                          >
+                            <FontAwesomeIcon icon={faTelegram} size="2x" />
+                          </a>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.youtube.com/vergecurrencyofficial">
-                            <a
-                              href="https://www.youtube.com/vergecurrencyofficial"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="social__link social__link--youtube"
-                              name="Youtube link"
-                              title="Youtube"
-                            >
-                              <FontAwesomeIcon icon={faYoutube} size="2x" />
-                            </a>
-                          </Link>
+                          <a
+                            href="https://www.youtube.com/vergecurrencyofficial"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social__link social__link--youtube"
+                            name="Youtube link"
+                            title="Youtube"
+                          >
+                            <FontAwesomeIcon icon={faYoutube} size="2x" />
+                          </a>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.reddit.com/r/vergecurrency/">
-                            <a
-                              href="https://www.reddit.com/r/vergecurrency/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="social__link social__link--reddit"
-                              name="Reddit link"
-                              title="Reddit"
-                            >
-                              <FontAwesomeIcon icon={faReddit} size="2x" />
-                            </a>
-                          </Link>
+                          <a
+                            href="https://www.reddit.com/r/vergecurrency/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social__link social__link--reddit"
+                            name="Reddit link"
+                            title="Reddit"
+                          >
+                            <FontAwesomeIcon icon={faReddit} size="2x" />
+                          </a>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.twitter.com/vergecurrency">
-                            <a
-                              href="https://www.twitter.com/vergecurrency"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="social__link social__link--twitter"
-                              name="Twitter link"
-                              title="Twitter"
-                            >
-                              <FontAwesomeIcon icon={faTwitter} size="2x" />
-                            </a>
-                          </Link>
-                        </div>
-						<div className="pt-xs social__icon">
-                          <Link href="https://bsky.app/profile/vergecurrency.com">
-                            <a
-                              href="https://bsky.app/profile/vergecurrency.com"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="social__link social__link--bluesky"
-                              name="BlueSky link"
-                              title="BlueSky"
-                            >
-                              <img src="./static/img/icons/bluesky.svg" alt="bluesky logo" width="30" height="30" />
-                            </a>
-                          </Link>
+                          <a
+                            href="https://www.twitter.com/vergecurrency"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social__link social__link--twitter"
+                            name="Twitter link"
+                            title="Twitter"
+                          >
+                            <FontAwesomeIcon icon={faTwitter} size="2x" />
+                          </a>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://discord.gg/vergecurrency">
-                            <a
-                              href="https://discord.gg/vergecurrency"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="social__link social__link--discord"
-                              name="Discord link"
-                              title="Discord"
-                            >
-                              <FontAwesomeIcon icon={faDiscord} size="2x" />
-                            </a>
-                          </Link>
+                          <a
+                            href="https://bsky.app/profile/vergecurrency.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social__link social__link--bluesky"
+                            name="BlueSky link"
+                            title="BlueSky"
+                          >
+                            <img src="/static/img/icons/bluesky.svg" alt="bluesky logo" width="30" height="30" />
+                          </a>
                         </div>
                         <div className="pt-xs social__icon">
-                          <Link href="https://www.tiktok.com/@officialvergecurrency">
-                            <a
-                              href="https://www.tiktok.com/@officialvergecurrency"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="social__link social__link--tiktok"
-                              name="BlueSky link"
-                              title="BlueSky"
-                            >
-                              <img src="./static/img/icons/tiktok.svg" alt="tiktok logo" width="30" height="30" />
-                            </a>
-                          </Link>
+                          <a
+                            href="https://discord.gg/vergecurrency"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social__link social__link--discord"
+                            name="Discord link"
+                            title="Discord"
+                          >
+                            <FontAwesomeIcon icon={faDiscord} size="2x" />
+                          </a>
+                        </div>
+                        <div className="pt-xs social__icon">
+                          <a
+                            href="https://www.tiktok.com/@officialvergecurrency"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social__link social__link--tiktok"
+                            name="TikTok link"
+                            title="TikTok"
+                          >
+                            <img src="/static/img/icons/tiktok.svg" alt="tiktok logo" width="30" height="30" />
+                          </a>
                         </div>
                       </div>
                     </div>

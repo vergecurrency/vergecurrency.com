@@ -49,18 +49,14 @@ function Donate(props) {
 
               <h4>DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV</h4>
               <p>
-                <Link href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV">
-                  <a href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank" rel="noopener noreferrer">
-                    View on verge-blockchain.info
-                  </a>
-                </Link>
+                <a href="https://verge-blockchain.info/address/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank" rel="noopener noreferrer">
+                  View on verge-blockchain.info
+                </a>
               </p>
               <p>
-                <Link href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV">
-                  <a href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank" rel="noopener noreferrer">
-                    View on prohashing.com
-                  </a>
-                </Link>
+                <a href="https://prohashing.com/explorer/Verge/DHe3mTNQztY1wWokdtMprdeCKNoMxyThoV" target="_blank" rel="noopener noreferrer">
+                  View on prohashing.com
+                </a>
               </p>
               <p>
                 <img src="/static/img/qrcode_donations_xvg.png" alt="verge donation address QR code" />
