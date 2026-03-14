@@ -41,13 +41,10 @@
     "babel-plugin-wrap-in-js": "^1.1.0",
     "compression": "^1.8.1",
     "deep-filter": "^1.0.2",
-    "emit-file-loader": "^0.0.2",
     "express": "^4.22.0",
     "gh-pages": "^6.2.0",
     "glob": "^11.1.0",
     "glob-all": "^3.1.0",
-    "gulp": "5.0.1",
-    "gulp-webserver": "^0.9.1",
     "i18next": "^10.3.0",
     "i18next-browser-languagedetector": "^2.1.0",
     "i18next-fs-backend": "2.6.1",
@@ -71,10 +68,7 @@
     "react-lazyload": "^3.2.1",
     "react-moment": "1.2.2",
     "react-web-tabs": "^1.0.1",
-    "sass": "^1.77.8",
-    "sw-precache-webpack-plugin": "^1.0.0",
-    "uglifyjs-webpack-plugin": "^2.0.0",
-    "webpack": "^3.10.0"
+    "sass": "^1.77.8"
   },
   "devDependencies": {
     "babel-loader": "8.0.6",
@@ -87,8 +81,6 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "postcss": "8.5.8",
     "sass-lint": "^1.13.1",
-    "sw-precache-webpack-plugin": "^1.0.0",
-    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony-v3.3.10",
-    "webpack-bundle-analyzer": "5.2.0"
+    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony-v3.3.10"
   }
 }
