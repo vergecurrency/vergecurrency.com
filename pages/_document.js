@@ -1,4 +1,9 @@
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, {
+  Head,
+  Html,
+  Main,
+  NextScript,
+} from 'next/document';
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -11,14 +16,14 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head />
         <body>
           {this.props.customValue}
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
