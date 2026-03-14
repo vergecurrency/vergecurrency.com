@@ -12,7 +12,6 @@ import {
 import Moment from 'react-moment';
 import 'moment-timezone';
 
-import markdown from 'markdown-in-js';
 import one from '../public/static/pressreleases/one.json';
 
 import { translate } from 'react-i18next';
@@ -139,38 +138,41 @@ function Pressrelease(props) {
   );
 }
 
-const Content = () => markdown`
-VergeCurrency Team is very excited to announce that $XVG will be listed on Binance on the upcoming Monday, October 2nd.
+const Content = () => (
+  <>
+    <p>VergeCurrency Team is very excited to announce that $XVG will be listed on Binance on the upcoming Monday, October 2nd.</p>
 
-About Binance
--------------
+    <h2>About Binance</h2>
 
-Binance is setting a new gold standard in cryptocurrency trading, based on its scalable and highly-redundant architecture. We believe that they will take the lead in this area now and into the future. As of today, Binance is already one of the biggest cryptocurrency exchanges by trading volume in the world.
+    <p>Binance is setting a new gold standard in cryptocurrency trading, based on its scalable and highly-redundant architecture. We believe that they will take the lead in this area now and into the future. As of today, Binance is already one of the biggest cryptocurrency exchanges by trading volume in the world.</p>
 
-The team behind Binance is excellent, working hard to deliver superior trading experience to its users. Some of the many benefits Binance provides are:
+    <p>The team behind Binance is excellent, working hard to deliver superior trading experience to its users. Some of the many benefits Binance provides are:</p>
 
-- Safety stability ensured by multi-tier & multi-cluster system architecture;
-- High performance (Binance is able to process over 1,4 mln of orders per second);
-- Great liquidity;
-- Multiplatform support (Web, Android, iOS, HTML5, PC, Mac);
-- Multilingual support (English, Spanish, Russian, Japanese, Korean, Chinese).
+    <ul>
+      <li>Safety stability ensured by multi-tier &amp; multi-cluster system architecture;</li>
+      <li>High performance (Binance is able to process over 1,4 mln of orders per second);</li>
+      <li>Great liquidity;</li>
+      <li>Multiplatform support (Web, Android, iOS, HTML5, PC, Mac);</li>
+      <li>Multilingual support (English, Spanish, Russian, Japanese, Korean, Chinese).</li>
+    </ul>
 
-With $XVG listing as the first and highly important step, we at VergeCurrency are looking forward to a mutually beneficial partnership in the time to come!
+    <p>With $XVG listing as the first and highly important step, we at VergeCurrency are looking forward to a mutually beneficial partnership in the time to come.</p>
 
-What is Verge?
---------------
+    <h2>What is Verge?</h2>
 
-For those who are new to VergeCurrency, below is a brief introduction. More details can be found in the previous blog post “What is Verge?”, as well as on our website.
+    <p>For those who are new to VergeCurrency, below is a brief introduction. More details can be found in the previous blog post &ldquo;What is Verge?&rdquo;, as well as on our website.</p>
 
-Verge is a cryptocurrency that focuses on total anonymity and privacy for its users.
+    <p>Verge is a cryptocurrency that focuses on total anonymity and privacy for its users.</p>
 
-Whereas Bitcoin succeeded in the mission of creating a decentralised cryptocurrency, VergeCurrency brings it further by making transactions completely anonymous. The currency is virtually untraceable and the users of VergeCurrency can make instant anonymous transactions.
+    <p>Whereas Bitcoin succeeded in the mission of creating a decentralised cryptocurrency, VergeCurrency brings it further by making transactions completely anonymous. The currency is virtually untraceable and the users of VergeCurrency can make instant anonymous transactions.</p>
 
-How is this possible? VergeCurrency implements highly advanced blockchain technology built on top of services such as Tor and I2P that hides your personal data, such as IP-addresses and geolocation. With the future implementation of RSK technology, Verge will offer smart contracts functionality, while maintaining total confidentiality of the users, thus being the only cryptocurrency on the market combining such features.
+    <p>How is this possible? VergeCurrency implements highly advanced blockchain technology built on top of services such as Tor and I2P that hides your personal data, such as IP-addresses and geolocation. With the future implementation of RSK technology, Verge will offer smart contracts functionality, while maintaining total confidentiality of the users, thus being the only cryptocurrency on the market combining such features.</p>
 
-VergeCurrency is script based and makes it very easy to implement on an exchange.
+    <p>VergeCurrency is script based and makes it very easy to implement on an exchange.</p>
 
-Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds. Also, there is a tipping bot cooked into the algorithm which helps translate the effectiveness of merging low fees, ultra-fast transaction speeds into a high-volume coin.`;
+    <p>Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds. Also, there is a tipping bot cooked into the algorithm which helps translate the effectiveness of merging low fees, ultra-fast transaction speeds into a high-volume coin.</p>
+  </>
+);
 
 const Extended = translate(['pressreleases'], { i18n, wait: typeof window !== 'undefined' })(Pressrelease);
 

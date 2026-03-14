@@ -1,9 +1,0 @@
-{
-  "plugins": [
-    "markdown-in-js/babel"
-  ],
-  "presets": [
-    "next/babel"
-  ],
-  "ignore": []
-}
