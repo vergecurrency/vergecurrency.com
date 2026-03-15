@@ -37,7 +37,7 @@ class Layout extends React.Component {
   }
 }
 
-const Extended = translate(['header', 'footer', 'common'], { i18n, wait: typeof window !== 'undefined' })(Layout);
+const Extended = translate(['header', 'footer', 'common'], { i18n })(Layout);
 
 Extended.getInitialProps = async ({ req }) => {
   if (req && typeof window === 'undefined') return i18n.getInitialProps(req, ['header', 'footer', 'home', 'common']);

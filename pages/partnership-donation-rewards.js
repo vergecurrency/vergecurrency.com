@@ -92,7 +92,6 @@ function PartnershipDonationRewards(props) {
 
 const Extended = translate(['common', 'partnership-donation-rewards'], {
   i18n,
-  wait: typeof window !== 'undefined',
 })(PartnershipDonationRewards);
 
 export default Extended;

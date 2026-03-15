@@ -35,7 +35,7 @@ const Team = props => props.members.map(member => (
       </div>
       <h5>{member.role}</h5>
       <h5><i>{member.location}</i></h5>
-      <p><h5>{member.occupation}</h5></p>
+      <p className="team--member-occupation">{member.occupation}</p>
       <br />
     </div>
   </div>

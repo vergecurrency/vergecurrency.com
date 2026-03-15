@@ -88,6 +88,6 @@ function FindUs(props) {
   );
 }
 
-const Extended = translate(['common', 'findus', 'faq'], { i18n, wait: typeof window !== 'undefined' })(FindUs);
+const Extended = translate(['common', 'findus', 'faq'], { i18n })(FindUs);
 
 export default Extended;

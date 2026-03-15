@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 import Head from 'next/head';
+import Script from 'next/script';
+import dynamic from 'next/dynamic';
 
-import { translate, Interpolate } from 'react-i18next';
+import { translate } from 'react-i18next';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -18,12 +20,7 @@ import {
 import { HomeExchanges } from '../components/Exchanges';
 import Cointicker from '../components/Cointicker';
 //import Coinchart from '../components/Coinchart';
-import { Mentions } from '../components/Mentions';
 import { HomeVendors } from '../components/Vendors';
-import Wallets from '../components/Wallets';
-import WalletsBtn from '../components/WalletsBtn';
-import { PartnerInfo } from '../components/Partners';
-import { SponsorsInfo } from '../components/Sponsors';
 import { mentioned_in } from '../components/Mentions';
 
 import 'moment-timezone';
@@ -32,6 +29,21 @@ import Layout from '../components/Layout';
 import i18n from '../i18n';
 import CurrentYearRoadmap from './CurrentMilestones';
 
+const Wallets = dynamic(() => import('../components/Wallets'), { ssr: false });
+const WalletsBtn = dynamic(() => import('../components/WalletsBtn'), { ssr: false });
+const Mentions = dynamic(
+  () => import('../components/Mentions').then((mod) => mod.Mentions),
+  { ssr: false },
+);
+const PartnerInfo = dynamic(
+  () => import('../components/Partners').then((mod) => mod.PartnerInfo),
+  { ssr: false },
+);
+const SponsorsInfo = dynamic(
+  () => import('../components/Sponsors').then((mod) => mod.SponsorsInfo),
+  { ssr: false },
+);
+
 function Home(props) {
   const { t } = props;
 
@@ -39,7 +51,6 @@ function Home(props) {
     <Layout>
       <Head>
         <title key="title">{t('common:meta.home.title', { defaultValue: 'Verge Currency' })}</title>
-		<script src="https://kit.fontawesome.com/e1b1fa0258.js" crossOrigin="anonymous"></script>
         <link rel="image_src" href="/static/img/press/logo/verge-logo.png" />
         <link rel="icon" type="image/png" sizes="128x128" href="/static/img/icons/favicon-128x128.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/static/img/icons/favicon-96x96.png" />
@@ -64,11 +75,8 @@ function Home(props) {
   href="https://letsexchange.io/widget_lets.css"
 />
 
-<script
-  src="https://letsexchange.io/init_widget.js"
-  strategy="afterInteractive"
-/>
       </Head>
+      <Script src="https://letsexchange.io/init_widget.js" strategy="afterInteractive" />
       <div className="home">
         <div className="ribbon">
           <div className="ribbon-img" />
@@ -394,17 +402,7 @@ function Home(props) {
                             </a>
                           </Link>
                         </h6>
-                        <h2>
-                          <Interpolate
-                            i18nKey="home:wallets.header"
-                            br={
-                              <span>
-                                {' '}
-                                <br className="hidden-xs" />
-                              </span>
-                            }
-                          />
-                        </h2>
+                        <h2>{t('home:wallets.header', { defaultValue: 'Download your preferred Verge wallet here:' })}</h2>
                       </div>
                       <Wallets />
                     </div>
@@ -602,7 +600,6 @@ function Home(props) {
 
 const Extended = translate(['common', 'home', 'milestones'], {
   i18n,
-  wait: typeof window !== 'undefined',
 })(Home);
 
-export default Extended;
+export default dynamic(() => Promise.resolve(Extended), { ssr: false });

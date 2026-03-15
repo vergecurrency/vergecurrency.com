@@ -26,6 +26,6 @@ function Social(props) {
   );
 }
 
-const Extended = translate(['common'], { i18n, wait: typeof window !== 'undefined' })(Social);
+const Extended = translate(['common'], { i18n })(Social);
 
 export default Extended;

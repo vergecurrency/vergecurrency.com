@@ -150,6 +150,6 @@ function WalletsTermsPage() {
 }
 
 
-const Extended = translate(['common', 'wallets'], { i18n, wait: typeof window !== 'undefined' })(WalletsTermsPage);
+const Extended = translate(['common', 'wallets'], { i18n })(WalletsTermsPage);
 
 export default Extended;

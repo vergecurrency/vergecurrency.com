@@ -31,6 +31,6 @@ function FAQ_mining(props) {
   );
 }
 
-const Extended = translate(['faq', 'common'], { i18n, wait: typeof window !== 'undefined' })(FAQ_mining);
+const Extended = translate(['faq', 'common'], { i18n })(FAQ_mining);
 
 export default Extended;

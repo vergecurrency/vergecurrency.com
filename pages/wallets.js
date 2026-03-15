@@ -1,4 +1,4 @@
-import { translate, Interpolate } from 'react-i18next';
+import { translate } from 'react-i18next';
 
 import Link from 'next/link';
 import Head from 'next/head';
@@ -93,9 +93,7 @@ function WalletsPage(props) {
                   <div className="col-xs-12 col-lg-12">
                     <div className="start-sm pb-small">
                       <h6>{t('wallets:body.header3', { defaultValue: 'Wallets for all platforms' })}</h6>
-                      <h2>
-                        <Interpolate i18nKey="home:wallets.header" br={<span> <br className="hidden-xs" /></span>} />
-                      </h2>
+                      <h2>{t('home:wallets.header', { defaultValue: 'Download your preferred Verge wallet here:' })}</h2>
                     </div>
                     <Wallets />
                   </div>
@@ -114,6 +112,6 @@ function WalletsPage(props) {
   );
 }
 
-const Extended = translate(['common', 'wallets', 'home'], { i18n, wait: typeof window !== 'undefined' })(WalletsPage);
+const Extended = translate(['common', 'wallets', 'home'], { i18n })(WalletsPage);
 
 export default Extended;

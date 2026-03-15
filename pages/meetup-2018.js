@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Script from 'next/script';
 
 import { translate } from 'react-i18next';
 
@@ -16,8 +17,8 @@ function Meetup(props) {
       <Head>
         <title key="title">{t('common:meta.meetup.title', { defaultValue: 'The First Verge Meetup in Amsterdam 9th of June, 2018 - VergeCurrency.com' })}</title>
         <meta key="description" name="description" content={t('common:meta.meetup.description', { defaultValue: 'The meet-up will take place on the 9th of June in Amsterdam, the capital of the Netherlands, and will take place on a boat, which we will cruise on through the Amsterdam canals.' })} />
-        <script src="https://www.universe.com/embed2.js" data-state="" />
       </Head>
+      <Script src="https://www.universe.com/embed2.js" strategy="afterInteractive" />
       <div className="meetup pt-large pb">
         <div className="ribbon ribbon--meetup18">
           <div className="ribbon-img" />
@@ -230,6 +231,6 @@ function Meetup(props) {
   );
 }
 
-const Extended = translate(['meetup-2018', 'common'], { i18n, wait: typeof window !== 'undefined' })(Meetup);
+const Extended = translate(['meetup-2018', 'common'], { i18n })(Meetup);
 
 export default Extended;

@@ -14,23 +14,33 @@ class Preloader extends React.Component {
   };
 
   bodyStyleSnapshot = null;
+  closeTimer = null;
+  removalTimer = null;
 
   componentDidMount() {
     this.lockBodyScroll();
     this.handleStyles();
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.active && !this.state.active) {
+      this.unlockBodyScroll();
+    }
+  }
+
   componentWillUnmount() {
+    window.clearTimeout(this.closeTimer);
+    window.clearTimeout(this.removalTimer);
     this.unlockBodyScroll();
   }
 
   handleStyles = () => {
-    setTimeout(() => {
+    this.closeTimer = window.setTimeout(() => {
       this.setState({ closing: true });
       this.unlockBodyScroll();
     }, this.props.disappearTime);
 
-    setTimeout(() => {
+    this.removalTimer = window.setTimeout(() => {
       this.setState({ active: false });
     }, this.props.removalTime);
   };
@@ -41,10 +51,12 @@ class Preloader extends React.Component {
 
     this.bodyStyleSnapshot = {
       overflow: document.body.style.overflow,
+      overflowY: document.body.style.overflowY,
       paddingRight: document.body.style.paddingRight,
     };
 
     document.body.style.overflow = 'hidden';
+    document.body.style.overflowY = 'hidden';
 
     if (scrollbarWidth > 0) {
       const parsedPaddingRight = parseFloat(currentPaddingRight) || 0;
@@ -58,6 +70,7 @@ class Preloader extends React.Component {
     }
 
     document.body.style.overflow = this.bodyStyleSnapshot.overflow;
+    document.body.style.overflowY = this.bodyStyleSnapshot.overflowY || 'auto';
     document.body.style.paddingRight = this.bodyStyleSnapshot.paddingRight;
     this.bodyStyleSnapshot = null;
   };

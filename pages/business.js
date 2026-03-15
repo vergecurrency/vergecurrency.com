@@ -204,6 +204,6 @@ function Business(props) {
   );
 }
 
-const Extended = translate(['common', 'business'], { i18n, wait: typeof window !== 'undefined' })(Business);
+const Extended = translate(['common', 'business'], { i18n })(Business);
 
 export default Extended;

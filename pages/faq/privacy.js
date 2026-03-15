@@ -35,6 +35,6 @@ function FAQ_privacy(props) {
   );
 }
 
-const Extended = translate(['faq', 'common'], { i18n, wait: typeof window !== 'undefined' })(FAQ_privacy);
+const Extended = translate(['faq', 'common'], { i18n })(FAQ_privacy);
 
 export default Extended;

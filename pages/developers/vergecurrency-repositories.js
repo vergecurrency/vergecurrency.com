@@ -48,6 +48,6 @@ function VergeCurrency_Repositories(props) {
   );
 }
 
-const Extended = translate(['verge-repos', 'common'], { i18n, wait: typeof window !== 'undefined' })(VergeCurrency_Repositories);
+const Extended = translate(['verge-repos', 'common'], { i18n })(VergeCurrency_Repositories);
 
 export default Extended;

@@ -97,7 +97,6 @@ function VergeTeam (props) {
 
 const Extended = translate(['common', 'verge-team'], {
   i18n,
-  wait: typeof window !== 'undefined',
 })(VergeTeam);
 
 export default Extended;

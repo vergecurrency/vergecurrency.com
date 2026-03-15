@@ -37,6 +37,6 @@ function P2P_twitter_bot(props) {
   );
 }
 
-const Extended = translate(['p2p', 'common'], { i18n, wait: typeof window !== 'undefined' })(P2P_twitter_bot);
+const Extended = translate(['p2p', 'common'], { i18n })(P2P_twitter_bot);
 
 export default Extended;

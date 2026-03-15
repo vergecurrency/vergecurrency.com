@@ -168,7 +168,6 @@ function PartnershipDonationMentions(props) {
 
 const Extended = translate(['common', 'partnership-donation-mentions'], {
   i18n,
-  wait: typeof window !== 'undefined',
 })(PartnershipDonationMentions);
 
 export default Extended;

@@ -636,6 +636,6 @@ function FBV(props) {
   );
 }
 
-const Extended = translate(['fbv', 'common'], { i18n, wait: typeof window !== 'undefined' })(FBV);
+const Extended = translate(['fbv', 'common'], { i18n })(FBV);
 
 export default Extended;

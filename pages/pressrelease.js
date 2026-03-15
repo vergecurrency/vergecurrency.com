@@ -174,6 +174,6 @@ const Content = () => (
   </>
 );
 
-const Extended = translate(['pressreleases'], { i18n, wait: typeof window !== 'undefined' })(Pressrelease);
+const Extended = translate(['pressreleases'], { i18n })(Pressrelease);
 
 export default Extended;

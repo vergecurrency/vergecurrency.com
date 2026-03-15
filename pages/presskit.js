@@ -340,6 +340,6 @@ function Presskit(props) {
   );
 }
 
-const Extended = translate(['common', 'presskit'], { i18n, wait: typeof window !== 'undefined' })(Presskit);
+const Extended = translate(['common', 'presskit'], { i18n })(Presskit);
 
 export default Extended;

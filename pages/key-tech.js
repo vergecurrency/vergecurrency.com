@@ -136,6 +136,6 @@ function KeyTech(props) {
   );
 }
 
-const Extended = translate(['key-tech', 'common'], { i18n, wait: typeof window !== 'undefined' })(KeyTech);
+const Extended = translate(['key-tech', 'common'], { i18n })(KeyTech);
 
 export default Extended;

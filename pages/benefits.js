@@ -69,6 +69,6 @@ function Benefits(props) {
   );
 }
 
-const Extended = translate(['common', 'benefits'], { i18n, wait: typeof window !== 'undefined' })(Benefits);
+const Extended = translate(['common', 'benefits'], { i18n })(Benefits);
 
 export default Extended;

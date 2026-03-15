@@ -28,6 +28,6 @@ function SendAnEmail(props) {
   );
 }
 
-const Extended = translate(['common'], { i18n, wait: typeof window !== 'undefined' })(SendAnEmail);
+const Extended = translate(['common'], { i18n })(SendAnEmail);
 
 export default Extended;

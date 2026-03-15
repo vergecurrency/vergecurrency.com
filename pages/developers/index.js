@@ -53,6 +53,6 @@ function Developers_Index(props) {
   );
 }
 
-const Extended = translate(['common'], { i18n, wait: typeof window !== 'undefined' })(Developers_Index);
+const Extended = translate(['common'], { i18n })(Developers_Index);
 
 export default Extended;

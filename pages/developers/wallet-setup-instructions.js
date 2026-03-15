@@ -146,6 +146,6 @@ function Vendor_Integration(props) {
   );
 }
 
-const Extended = translate(['wallet-setup', 'common'], { i18n, wait: typeof window !== 'undefined' })(Vendor_Integration);
+const Extended = translate(['wallet-setup', 'common'], { i18n })(Vendor_Integration);
 
 export default Extended;

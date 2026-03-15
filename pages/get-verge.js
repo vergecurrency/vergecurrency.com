@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Script from 'next/script';
 import { translate } from 'react-i18next';
 import Layout from '../components/Layout';
 import { Exchanges } from '../components/Exchanges';
@@ -20,12 +21,8 @@ function GetVerge(props) {
           href="https://letsexchange.io/widget_lets.css"
         />
 
-        {/* Widget JS */}
-        <script
-          src="https://letsexchange.io/init_widget.js"
-          defer
-        />
       </Head>
+      <Script src="https://letsexchange.io/init_widget.js" strategy="afterInteractive" />
 
       <br />
 
@@ -194,7 +191,7 @@ function GetVerge(props) {
 
 const Extended = translate(
   ['home', 'common', 'get-verge'],
-  { i18n, wait: typeof window !== 'undefined' }
+  { i18n }
 )(GetVerge);
 
 export default Extended;

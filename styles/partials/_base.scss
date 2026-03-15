@@ -25,6 +25,8 @@ body {
 
 body {
   letter-spacing: rem(.5px);
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 li {
@@ -107,7 +109,7 @@ p {
 }
 
 #layout { // scss-lint:disable IdSelector
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .spaced {

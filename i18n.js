@@ -1,7 +1,6 @@
 const Resources = require('./locales/index.js');
 
 const i18n = require('i18next');
-const LanguageDetector = require('i18next-browser-languagedetector');
 const reactI18nextModule = require('react-i18next');
 
 const languageList = require('./lists/languages').languages;
@@ -39,10 +38,6 @@ const options = {
     wait: false,
   },
 };
-
-if (typeof window !== 'undefined') {
-  i18n.use(LanguageDetector);
-}
 
 i18n.use(reactI18nextModule);
 

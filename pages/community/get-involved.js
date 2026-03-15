@@ -84,6 +84,6 @@ function GetInvolved (props) {
   );
 }
 
-const Extended = translate(['common'], { i18n, wait: typeof window !== 'undefined' })(GetInvolved);
+const Extended = translate(['common'], { i18n })(GetInvolved);
 
 export default Extended;

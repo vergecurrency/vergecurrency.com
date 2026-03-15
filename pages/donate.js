@@ -69,6 +69,6 @@ function Donate(props) {
   );
 }
 
-const Extended = translate(['common', 'donate'], { i18n, wait: typeof window !== 'undefined' })(Donate);
+const Extended = translate(['common', 'donate'], { i18n })(Donate);
 
 export default Extended;
