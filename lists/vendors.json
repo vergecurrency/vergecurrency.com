@@ -113,20 +113,6 @@
       }
     },
     {
-      "title": "Crypto House of Poker",
-      "img": "../static/img/vendors/latest/cryptopokerclub.png",
-      "link": "t.me/CryptoPokerFam",
-      "url": "https://t.me/CryptoPokerFam",
-      "categories": {
-        "retail": false,
-        "foodAndBev": false,
-        "service": false,
-        "entertainment": true,
-        "travel": false,
-        "education": false
-      }
-    },
-    {
       "title": "Binance Pay",
       "img": "../static/img/vendors/latest/binancepay.png",
       "link": "ay.binance.com",
