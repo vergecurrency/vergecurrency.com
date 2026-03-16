@@ -171,7 +171,7 @@
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
       "os": "Windows",
-      "availableinstructions": false,
+      "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/MyVergies"
     },
@@ -182,7 +182,7 @@
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
       "os": "OS X",
-      "availableinstructions": false,
+      "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/MyVergies"
     },
@@ -193,7 +193,7 @@
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
       "os": "Ubuntu",
-      "availableinstructions": false,
+      "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/MyVergies"
     }
