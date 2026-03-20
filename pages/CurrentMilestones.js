@@ -2026,6 +2026,26 @@ const mileStones = [
     progressState: '100',
     infoLabel: 'twitter/x link',
     infoUrl: 'https://x.com/justinvendetta/status/2016244478810403035?s=20'
+  },
+  {
+    done: true,
+    doneDate: '23rd February 2026',
+    title: 'electrumx-verge.cloud and electrum-verge.cloud updated to 1.16.0',
+    description: 'electrumx-verge.cloud and electrum-verge.cloud updated to 1.16.0!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter/x link',
+    infoUrl: 'https://x.com/vergecurrency/status/2026023726173610190?s=20'
+  },
+  {
+    done: true,
+    doneDate: '16th March 2026',
+    title: 'MyVergies 1.1.0 Released!',
+    description: 'MyVergies 1.1.0 released, new swap feature, new tor, etc!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter/x link',
+    infoUrl: 'https://x.com/vergecurrency/status/2033540938010624239?s=20'
   }
   // {
   //   done: true or false,
