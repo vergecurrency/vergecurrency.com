@@ -2041,7 +2041,7 @@ const mileStones = [
     done: true,
     doneDate: '16th March 2026',
     title: 'MyVergies 1.1.0 Released!',
-    description: 'MyVergies 1.1.0 released, new swap feature, new tor, etc!',
+    description: 'A new update for MyVergies, version 1.1.0 released, with new swap feature, new tor version, etc! For Windows/Mac/Linux',
     progress: 100,
     progressState: '100',
     infoLabel: 'twitter/x link',
