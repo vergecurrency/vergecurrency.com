@@ -2046,6 +2046,16 @@ const mileStones = [
     progressState: '100',
     infoLabel: 'twitter/x link',
     infoUrl: 'https://x.com/vergecurrency/status/2033540938010624239?s=20'
+  },
+  {
+    done: true,
+    doneDate: '12th April 2026',
+    title: 'Verge Tor Wallet for Android v3.3',
+    description: 'Verge Tor Wallet for Android v3.3 release, new cosmetic features, and option to bypass orbot screen',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Google Play Store link',
+    infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
   }
   // {
   //   done: true or false,
