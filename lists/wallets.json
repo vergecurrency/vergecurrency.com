@@ -21,7 +21,7 @@
 	  "url3": "https://github.com/vergecurrency/vios"
     },
     {
-      "name": "Android Orbot Wallet",
+      "name": "Verge XVR Wallet (Android)",
       "url": "https://play.google.com/store/apps/details?id=com.vergepay.wallet",
       "classNames": "wallets--icon__android wallets--icon__android--tor",
       "classWhite": "wallets--icon__android-white wallets--icon__android--tor-white",
@@ -165,37 +165,37 @@
 	  "url3": "https://github.com/flathub/org.vergecurrency.verge-qt"
     },
     {
-      "name": "MyVergies Windows 1.1.0",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.1.0/MyVergies.1.1.0.exe",
+      "name": "Verge Slim for Windows",
+      "url": "https://github.com/vergecurrency/VergeSlim/releases/download/v26.5/windows-build.zip",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
       "os": "Windows",
       "availableinstructions": true,
 	  "availablesource": true,
-	  "url3": "https://github.com/vergecurrency/MyVergies"
+	  "url3": "https://github.com/vergecurrency/VergeSlim/"
     },
     {
-      "name": "MyVergies macOS 1.1.0",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.1.0/macos-notarized.zip",
+      "name": "Verge Slim for macOS",
+      "url": "https://github.com/vergecurrency/VergeSlim/releases/download/v26.5/macos-notarized.zip",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
       "os": "OS X",
       "availableinstructions": true,
 	  "availablesource": true,
-	  "url3": "https://github.com/vergecurrency/MyVergies"
+	  "url3": "https://github.com/vergecurrency/VergeSlim/"
     },
     {
-      "name": "MyVergies Linux AppImage 1.1.0",
-      "url": "https://github.com/vergecurrency/MyVergies/releases/download/v1.1.0/MyVergies-1.1.0.AppImage",
+      "name": "Verge Slim Linux AppImage 1.1.0",
+      "url": "https://github.com/vergecurrency/VergeSlim/releases/download/v26.5/linux-build.zip",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
       "os": "Ubuntu",
       "availableinstructions": true,
 	  "availablesource": true,
-	  "url3": "https://github.com/vergecurrency/MyVergies"
+	  "url3": "https://github.com/vergecurrency/VergeSlim/"
     }
   ]
 }
