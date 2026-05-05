@@ -9,7 +9,7 @@
       "os": "all"
     },
     {
-      "name": "Apple iOS Wallet - Awaiting Apple Approval!",
+      "name": "Apple iOS Wallet - Coming soon!",
       "url": "",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
@@ -29,6 +29,18 @@
       "os": "Android",
       "url2": "https://www.youtube.com/watch?v=K26u9_Qg9_E",
       "availableinstructions": true,
+	  "availablesource": true,
+	  "url3": "https://github.com/vergecurrency/vergexvr"
+    },
+	{
+      "name": "Verge XVR (Meta VR Platform)",
+      "url": "https://github.com/vergecurrency/vergexvr/releases/download/v26.5.1/vergexvr-meta.zip",
+      "classNames": "wallets--icon__android wallets--icon__android--tor",
+      "classWhite": "wallets--icon__android-white wallets--icon__android--tor-white",
+      "available": true,
+      "os": "Meta Horizon OS",
+      "url2": "https://www.youtube.com/watch?v=K26u9_Qg9_E",
+      "availableinstructions": false,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/vergexvr"
     },
@@ -91,54 +103,6 @@
       "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/verge"
-    },
-	{
-      "name": "Atomic Wallet Windows",
-      "url": "https://atomicwallet.io/verge-wallet",
-      "classNames": "wallets--icon__windows",
-      "classWhite": "wallets--icon__windows-white",
-      "available": true,
-      "os": "Windows",
-      "url2": "https://atomicwallet.io/verge-wallet",
-      "availableinstructions": true,
-	  "availablesource": true,
-	  "url3": "https://github.com/atomicwallet"
-    },
-	{
-      "name": "Atomic Wallet iOS",
-      "url": "https://apps.apple.com/app/atomic-wallet/id1478257827",
-      "classNames": "wallets--icon__apple",
-      "classWhite": "wallets--icon__apple-white",
-      "available": true,
-      "os": "iOS",
-      "url2": "https://apps.apple.com/app/atomic-wallet/id1478257827",
-      "availableinstructions": true,
-	  "availablesource": true,
-	  "url3": "https://github.com/atomicwallet"
-    },
-	{
-      "name": "Atomic Wallet Android",
-      "url": "https://play.google.com/store/apps/details?id=io.atomicwallet&hl=en&gl=US",
-      "classNames": "wallets--icon__android",
-      "classWhite": "wallets--icon__android-white",
-      "available": true,
-      "os": "Android",
-      "url2": "https://play.google.com/store/apps/details?id=io.atomicwallet&hl=en&gl=US",
-      "availableinstructions": true,
-	  "availablesource": true,
-	  "url3": "https://github.com/atomicwallet"
-    },
-	{
-      "name": "Atomic Wallet MacOS",
-      "url": "https://atomicwallet.io/verge-wallet",
-      "classNames": "wallets--icon__apple",
-      "classWhite": "wallets--icon__apple-white",
-      "available": true,
-      "os": "MacOS",
-      "url2": "https://atomicwallet.io/verge-wallet",
-      "availableinstructions": true,
-	  "availablesource": true,
-	  "url3": "https://github.com/atomicwallet"
     },
 	{
       "name": "Verge Docker",

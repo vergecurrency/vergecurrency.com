@@ -2056,6 +2056,36 @@ const mileStones = [
     progressState: '100',
     infoLabel: 'Google Play Store link',
     infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
+  },
+  {
+    done: true,
+    doneDate: '4th May 2026',
+    title: 'Verge Core v26.5',
+    description: 'Verge Core v26.5 Verge Blockchain Node/Wallet release, with beyond cutting-edge internals, and a new high velocity UX!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Twitter link',
+    infoUrl: 'https://x.com/vergecurrency/status/2051284144462737900?s=20'
+  },
+  {
+    done: true,
+    doneDate: '4th May 2026',
+    title: 'Verge Slim v26.5',
+    description: 'MyVergies has gone through a major update and rebrand, under the name "Verge Slim", a light weight and responsive desktop wallet!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Twitter link',
+    infoUrl: 'https://x.com/vergecurrency/status/2051284469030510842?s=20'
+  },
+  {
+    done: true,
+    doneDate: '4th May 2026',
+    title: 'Verge XVR',
+    description: 'Complete UX overhaul, native XR integrations, and seamless cross-device functionality across Android phones/tablets, Meta VR, and Meta Wearables.',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Google Play Store link',
+    infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
   }
   // {
   //   done: true or false,
