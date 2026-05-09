@@ -2462,7 +2462,7 @@ function setDesign (whichDesign, isOnLoad, whichLanguage) {
 	drawOpts.text = translations[whichLanguage];
 
     
-	if (!whichDesign) whichDesign = 'alt-dogecoin';	
+	if (!whichDesign) whichDesign = 'alt-verge';	
 
 	// show the language menu if we're using the default design
 //	if (whichDesign == 'default') {

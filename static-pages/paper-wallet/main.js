@@ -4,21 +4,6 @@ function setCryptoCurrency(toThis) {
 	window.currencyName = toThis;
 	switch (toThis)
 	{
-	case 'Bitcoin':	
-           
-	  window.networkVersion = 0x00;
-	  window.privateKeyPrefix = 0x80;
-	  window.WIFPrefix = '5';
-	  window.compressedWIFPrefix = '[LK]';
-	  break;
-	case 'Litecoin':
-       
-		window.networkVersion = 0x30;
-		window.privateKeyPrefix = 0xb0;
-		window.WIFPrefix = '6';
-		window.compressedWIFPrefix = 'T';
-		document.title = 'Litecoin paper wallet generator';
-		break;
 	case 'Verge':
         
 		window.networkVersion = 0x1e;
@@ -27,16 +12,9 @@ function setCryptoCurrency(toThis) {
 		window.compressedWIFPrefix = 'Q';	
 		document.title = 'VERGE paper wallet generator.';
 		break;
-	case 'Testnet':
-		window.networkVersion = 0x6F;
-		window.privateKeyPrefix = 0xEF;
-		window.WIFPrefix = '9';
-		window.compressedWIFPrefix = 'c';
-		document.title = 'Bitcoin TESTNET paper wallet generator';
-		break;
 	default:
-	  alert ('Invalid cryptocurrency "' + toThis + '" at initialization. Defaulting to Bitcoin.');
-	  setCryptoCurrency('Bitcoin');		
+	  alert ('Invalid cryptocurrency "' + toThis + '" at initialization. Defaulting to Verge.');
+	  setCryptoCurrency('Verge');		
 	} // eof switch
 	return (true);
 }
@@ -52,14 +30,8 @@ var myDesign = getParameterByName('design');
 window.suppliesURL = 'https://bitcoinpaperwallet.com/?p=' + myDesign + '#purchase';
 
 switch (myDesign) {
-	case 'alt-litecoin':
+	case 'alt-verge':
 		setCryptoCurrency('Verge');
-		break;
-	case 'alt-dogecoin':
-		setCryptoCurrency('Verge');
-		break;
-	case 'alt-testnet':
-		setCryptoCurrency('Testnet');
 		break;
 	default:
 	setCryptoCurrency('Verge');
