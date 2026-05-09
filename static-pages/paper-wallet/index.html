@@ -118,14 +118,7 @@ function getParameterByName(name) {
 var myDesign = getParameterByName('design');
 window.suppliesURL = 'https://bitcoinpaperwallet.com/?p=' + myDesign + '#purchase';
 
-switch (myDesign) {
-	case 'alt-verge':
-		setCryptoCurrency('Verge');
-		break;
-	default:
-	setCryptoCurrency('Verge');
-		break; // remove special currency flag
-} 
+setCryptoCurrency('Verge');
 
 </script>
 
@@ -9920,7 +9913,7 @@ Bitcoin.Util = {
     
 </head>
 <body onclick="SecureRandom.seedTime();" onmousemove="ninja.seeder.seed(event);" ontouchmove="ninja.seeder.seed(event);" 
-	  onLoad="setDesign('alt-verge', true); guessPrinterSettings(); ">
+	  onLoad="setDesign('verge', true); guessPrinterSettings(); ">
 	<div id="busyblock">
 		<div class="background"></div>
 		<div class="dialog dialog-narrow">
@@ -10054,13 +10047,7 @@ Bitcoin.Util = {
 						
 
                         <p style="margin-top: 0; visibility: hidden;">
-                         <strong>Change your wallet's design, language, or cryptocurrency here:</strong>
-                            <select name="designPicker" id="designPicker" style="font-size: 12px;" onChange="setDesign(this.value, false);">
-                          
-							<option value="alt-verge">VERGE Paper Wallet</option>
-						  </select>
-                       
-                          <select name="langPicker" id="langPicker" style="font-size: 12px; display: inline;" onChange="setDesign('alt-verge', false, this.value);">
+                          <select name="langPicker" id="langPicker" style="font-size: 12px; display: inline;" onChange="setDesign('verge', false, this.value);">
                             <option value="english">English</option>
                             <option value="chinese">Chinese</option>
                             <option value="traditional-chinese">Chinese (Traditional)</option>
@@ -10136,9 +10123,9 @@ Find your scissors! The final step is to cut out your wallet, fold it, and seal 
                     </div>
                     
                     <div id="keyButtons" style="display: block; float: left;">
-                    <input type="button" id="papergenerate1" value="Random Generate New Wallet" onClick="ninja.wallets.paperwallet.build(document.getElementById('paperlimit').value * 1, document.getElementById('paperlimitperpage').value * 1, !document.getElementById('paperart').checked, document.getElementById('paperpassphrase').value); printCounter=0;" />
+                    <a href="#" class="nicerButton" id="papergenerate1" style="width: 290px; margin: 0 0 10px 0;" onClick="ninja.wallets.paperwallet.build(document.getElementById('paperlimit').value * 1, document.getElementById('paperlimitperpage').value * 1, !document.getElementById('paperart').checked, document.getElementById('paperpassphrase').value); printCounter=0; return false;">Random Generate New Wallet</a>
 
-                    <input type="button" id="papergenerate2" value="Enter my own key, dice rolls, brain wallet, etc..." onClick="ninja.wallets.paperwallet.toggleVanityField(true);" />
+                    <a href="#" class="nicerButton" id="papergenerate2" style="width: 290px; margin: 0;" onClick="ninja.wallets.paperwallet.toggleVanityField(true); return false;">Enter my own key, dice rolls, brain wallet, etc...</a>
                     </div>
 
                 <div id="selfinfo" style="display: none; position: absolute; top: 15px;">
@@ -13042,7 +13029,7 @@ function setDesign (whichDesign, isOnLoad, whichLanguage) {
 	drawOpts.text = translations[whichLanguage];
 
     
-	if (!whichDesign) whichDesign = 'alt-verge';	
+	if (!whichDesign) whichDesign = 'verge';	
 
 	// show the language menu if we're using the default design
 //	if (whichDesign == 'default') {
@@ -13103,7 +13090,6 @@ function setDesign (whichDesign, isOnLoad, whichLanguage) {
 	// set back
 	document.getElementById('backsvg1').src=myBack;
 //	document.getElementById('designPreview').src=myPreview;
-	document.getElementById('designPicker').value = whichDesign; // force menu option in case it was picked during onload.
 	//document.getElementById('langPicker').value = whichLanguage; 
 }
 
@@ -13129,3 +13115,4 @@ function setDenomination(valueAndUnit) {
 
 </body>
 </html>
+
