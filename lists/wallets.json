@@ -46,12 +46,12 @@
     },
     {
       "name": "Paper Wallet",
-      "url": "https://github.com/vergecurrency/vergecurrency.com/raw/master/pages/paper-wallet/xvg-paperwallet.zip",
+      "url": "https://github.com/vergecurrency/verge-paperwallet/releases",
       "classNames": "wallets--icon__paperwallet",
       "classWhite": "wallets--icon__paperwallet-white",
       "available": true,
       "os": "",
-      "url2": "https://github.com/vergecurrency/verge-paperwallet",
+      "url2": "https://vergecurrency.com/wallets/paper-wallet",
       "availableinstructions": true,
 	  "availablesource": true,
 	  "url3": "https://github.com/vergecurrency/verge-paperwallet"

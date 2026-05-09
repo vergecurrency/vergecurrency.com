@@ -6,7 +6,7 @@
   "scripts": {
     "test": "yarn build && ./node_modules/.bin/sass-lint styles",
     "dev": "node server.js",
-    "build": "next build && next export -o docs && echo 'vergecurrency.com' > docs/CNAME && echo '' > docs/.nojekyll && cp -r static-pages/paper-wallet docs && cp -r static-pages/seedphrase docs",
+    "build": "next build && next export -o docs && echo 'vergecurrency.com' > docs/CNAME && echo '' > docs/.nojekyll && cp -r static-pages/paper-wallet docs && mkdir -p docs/wallets && cp -r static-pages/paper-wallet docs/wallets && cp -r static-pages/seedphrase docs",
     "prestart": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "./node_modules/.bin/eslint . --fix",
@@ -78,5 +78,6 @@
     "postcss": "8.5.8",
     "sass-lint": "^1.13.1",
     "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony-v3.3.10"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

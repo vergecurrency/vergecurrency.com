@@ -46,6 +46,8 @@ i18n
 
         // serve locales for client
         e.use('/locales', express.static(`${__dirname}/locales`));
+        e.use('/paper-wallet', express.static(`${__dirname}/static-pages/paper-wallet`));
+        e.use('/wallets/paper-wallet', express.static(`${__dirname}/static-pages/paper-wallet`));
 
         // missing keys
         e.post('/locales/add/:lng/:ns', i18nextMiddleware.missingKeyHandler(i18n));
