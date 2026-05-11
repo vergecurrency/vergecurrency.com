@@ -2086,6 +2086,16 @@ const mileStones = [
     progressState: '100',
     infoLabel: 'Google Play Store link',
     infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
+  },
+  {
+    done: true,
+    doneDate: '11th May 2026',
+    title: 'Verge Slim v26.5.1, now creates 18 word seedphrase wallets',
+    description: 'With this change, Verge Slim on Windows, macOS, and Linux, along with our Android and Meta VR apps, now all share the same 18-word wallet standard for full cross-platform compatibility.',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/vergecurrency/status/2053828904717103123'
   }
   // {
   //   done: true or false,
