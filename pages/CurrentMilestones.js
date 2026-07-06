@@ -2096,6 +2096,26 @@ const mileStones = [
     progressState: '100',
     infoLabel: 'twitter link',
     infoUrl: 'https://x.com/vergecurrency/status/2053828904717103123'
+  },
+  {
+    done: true,
+    doneDate: '28th May 2026',
+    title: 'Verge Messaging Beta begins!',
+    description: 'Beta Testing of the new end to end encrypted messaging starts',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'twitter link',
+    infoUrl: 'https://x.com/justinvendetta/status/2059359189223321929?s=20'
+  },
+  {
+    done: true,
+    doneDate: '6th July 2026',
+    title: 'Verge Core v26.7 with secure messaging launches!',
+    description: 'New updates include encrypted messaging, tor version update, libevent, and libsecp256k1',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'github link',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases/tag/v26.7'
   }
   // {
   //   done: true or false,
