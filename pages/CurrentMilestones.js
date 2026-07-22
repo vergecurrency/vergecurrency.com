@@ -2116,6 +2116,26 @@ const mileStones = [
     progressState: '100',
     infoLabel: 'github link',
     infoUrl: 'https://github.com/vergecurrency/verge/releases/tag/v26.7'
+  },
+  {
+    done: true,
+    doneDate: '20th July 2026',
+    title: 'nodejs-verge npm package updated to Verge Core v26.7',
+    description: 'nodejs-verge npm package updated to Verge Core v26.7, including rpc support for new secure messaging!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x.com link',
+    infoUrl: 'https://x.com/justinvendetta/status/2079342481418625438?s=20'
+  },
+  {
+    done: true,
+    doneDate: '21st July 2026',
+    title: 'Docker Image for Verge Core v26.7',
+    description: 'nodejs-verge npm package updated to Verge Core v26.7, now includes support for secure messaging system!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'docker link',
+    infoUrl: 'https://hub.docker.com/r/vergecurrency/verge?tag=26.7'
   }
   // {
   //   done: true or false,
