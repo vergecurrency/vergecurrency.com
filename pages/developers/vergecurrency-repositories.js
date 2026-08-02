@@ -36,7 +36,7 @@ function VergeCurrency_Repositories(props) {
               <a href="https://github.com/vergecurrency/nodejs-verge" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/nodejs-verge</a><br />
               <a href="https://github.com/vergecurrency/verge-ruby-client" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/verge-ruby-client</a><br />
 			  <a href="https://github.com/vergecurrency/php-verge" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/php-verge</a><br />
-              <a href="https://github.com/vergecurrency/verge-python" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/verge-python</a><br />
+              <a href="https://github.com/vergecurrency/verge-python3" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/verge-python3</a><br />
 			  <a href="https://github.com/vergecurrency/coinlib" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/coinlib</a>
             </div>
           </Content>
