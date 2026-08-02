@@ -29,7 +29,7 @@ function VergeCurrency_Repositories(props) {
               <h2>{t('verge-repos:blackpaper', { defaultValue: 'Verge iOS Wallet' })}</h2>
               <a href="https://github.com/vergecurrency/vIOS" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/vIOS</a>
               <h2>{t('verge-repos:electrum-via-tor', { defaultValue: 'Verge Android/Meta VR Wallet (Verge XVR)' })}</h2>
-              <a href="https://github.com/vergecurrency/vergexvr target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/vergexvr</a>
+              <a href="https://github.com/vergecurrency/vergexvr" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/vergexvr</a>
               <h2>{t('verge-repos:graphics', { defaultValue: 'Verge Graphics' })}</h2>
               <a href="https://github.com/vergecurrency/verge-graphics" target="_blank" rel="noopener noreferrer">https://github.com/vergecurrency/verge-graphics</a>
               <h2>{t('verge-repos:vendor-integration', { defaultValue: 'Verge libraries for Node.js, Ruby, PHP, Python, and Coinlib (Flutter)' })}</h2>
