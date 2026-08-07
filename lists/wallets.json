@@ -94,7 +94,7 @@
     },
 	{
       "name": "Verge Core Raspberry Pi",
-      "url": "financetoday403@gmail.com",
+      "url": "https://github.com/vergecurrency/verge/releases/tag/v26.7",
       "classNames": "wallets--icon__raspberrypi wallets--icon__raspberrypi--tor",
       "classWhite": "wallets--icon__raspberrypi-white wallets--icon__raspberrypi--tor-white",
       "available": true,
@@ -129,8 +129,8 @@
 	  "url3": "https://github.com/flathub/org.vergecurrency.verge-qt"
     },
     {
-      "name": "Verge Slim for Windows",
-      "url": "https://github.com/vergecurrency/VergeSlim/releases/download/v26.5.1/VergeSlim-v26.5.1.exe",
+      "name": "Verge Slim for Windows v26.7 (.exe)",
+      "url": "https://github.com/vergecurrency/VergeSlim/releases/download/v26.7.0/VergeSlim-v26.7.exe",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
@@ -140,8 +140,8 @@
 	  "url3": "https://github.com/vergecurrency/VergeSlim/"
     },
     {
-      "name": "Verge Slim for macOS",
-      "url": "https://github.com/vergecurrency/VergeSlim/releases/download/v26.5.1/VergeSlim-v26.5.1.dmg",
+      "name": "Verge Slim for macOS v26.7 (.dmg)",
+      "url": "https://github.com/vergecurrency/VergeSlim/releases/download/v26.7.0/VergeSlim-v26.7.dmg",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
@@ -151,8 +151,8 @@
 	  "url3": "https://github.com/vergecurrency/VergeSlim/"
     },
     {
-      "name": "Verge Slim Linux AppImage 1.1.0",
-      "url": "https://github.com/vergecurrency/VergeSlim/releases/download/v26.5.1/VergeSlim-v26.5.1.AppImage",
+      "name": "Verge Slim Linux v26.7 (AppImage)",
+      "url": "https://github.com/vergecurrency/VergeSlim/releases/download/v26.7.0/VergeSlim-v26.7.AppImage",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
