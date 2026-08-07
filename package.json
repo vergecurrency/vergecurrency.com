@@ -6,7 +6,7 @@
   "scripts": {
     "test": "yarn build && ./node_modules/.bin/sass-lint styles",
     "dev": "node server.js",
-    "build": "next build && next export -o docs && echo 'vergecurrency.com' > docs/CNAME && echo '' > docs/.nojekyll && cp -r static-pages/paper-wallet docs && mkdir -p docs/wallets && cp -r static-pages/paper-wallet docs/wallets && cp -r static-pages/seedphrase docs",
+    "build": "node node_modules/next/dist/bin/next build && node node_modules/next/dist/bin/next export -o docs && node scripts/build-static-pages.js",
     "prestart": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "./node_modules/.bin/eslint . --fix",
