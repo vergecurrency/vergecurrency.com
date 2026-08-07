@@ -34,7 +34,7 @@ class VendorsPage extends React.Component {
         <Head>
           <title key="title">{t('common:meta.vendors.title', { defaultValue: 'Vendors - VergeCurrency.com' })}</title>
         </Head>
-        <div className="themed-container__gray themed-container__gray--roadmap">
+        <div className="themed-container__gray themed-container__gray--roadmap vendors-page">
           <div className="container">
             <div className="intro pt-sm pb-sm">
               <div className="row center-xs middle-xs">

@@ -16,6 +16,27 @@
   &--item {
     min-height: 89px;
   }
+  .vendors-page &--item__logo {
+    width: 50px;
+
+    @media (max-width: 778px) {
+      width: 68.75px;
+    }
+    @media (max-width: 635px) {
+      width: 137.5px;
+    }
+
+    img {
+      max-height: 50px;
+
+      @media (max-width: 778px) {
+        max-height: 68.75px;
+      }
+      @media (max-width: 635px) {
+        max-height: none;
+      }
+    }
+  }
   &--item__name span {
     text-overflow: ellipsis;
     width: 200px;
