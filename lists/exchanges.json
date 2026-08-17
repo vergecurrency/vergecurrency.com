@@ -299,6 +299,12 @@
       "title": "CoinoSwap",
       "link": "coinoswap.com",
       "url": "https://www.coinoswap.com/"
+    },
+	{
+      "img": "../static/img/exchanges/eidex.png",
+      "title": "EIDEX",
+      "link": "eidex.io",
+      "url": "https://eidex.io/coins/xvg"
     }
   ]
 }
