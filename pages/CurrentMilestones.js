@@ -2117,6 +2117,16 @@ const mileStones = [
     infoLabel: 'github link',
     infoUrl: 'https://github.com/vergecurrency/verge/releases/tag/v26.7'
   },
+    {
+    done: true,
+    doneDate: '8th July 2026',
+    title: 'Verginals Launch, an Ordinals system on Verges Blockchain',
+    description: 'Bitcoin Ordinals comes to Verge Native Blockchain, Verginals!',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x link',
+    infoUrl: 'https://x.com/TheWeb3Frog/status/2074517982865150095?s=20'
+  },
   {
     done: true,
     doneDate: '20th July 2026',
@@ -2136,6 +2146,16 @@ const mileStones = [
     progressState: '100',
     infoLabel: 'docker link',
     infoUrl: 'https://hub.docker.com/r/vergecurrency/verge?tag=26.7'
+  },
+  {
+    done: true,
+    doneDate: '20th August 2026',
+    title: 'Verge Runes Launches (Users can now create their own coins on Verges Blockchain)',
+    description: 'Pick a coin name, Pick a supply. Etch it. No contract, no bridge, no permission, no gas auction.',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'x link',
+    infoUrl: 'https://x.com/TheWeb3Frog/status/2090579900612686288?s=20'
   }
   // {
   //   done: true or false,
