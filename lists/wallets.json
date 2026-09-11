@@ -130,7 +130,7 @@
     },
     {
       "name": "Verge Slim for Windows v26.9 (.exe)",
-      "url": "https://vergecurrency.github.io/VergeSlim/",
+      "url": "https://github.com/vergecurrency/VergeSlim/releases/tag/v26.9.0",
       "classNames": "wallets--icon__windows wallets--icon__windows--tor",
       "classWhite": "wallets--icon__windows-white wallets--icon__windows--tor-white",
       "available": true,
@@ -141,7 +141,7 @@
     },
     {
       "name": "Verge Slim for macOS v26.9 (.dmg)",
-      "url": "https://vergecurrency.github.io/VergeSlim/",
+      "url": "https://github.com/vergecurrency/VergeSlim/releases/tag/v26.9.0",
       "classNames": "wallets--icon__apple wallets--icon__apple--tor",
       "classWhite": "wallets--icon__apple-white wallets--icon__apple--tor-white",
       "available": true,
@@ -152,7 +152,7 @@
     },
     {
       "name": "Verge Slim Linux v26.9 (AppImage)",
-      "url": "https://vergecurrency.github.io/VergeSlim/",
+      "url": "https://github.com/vergecurrency/VergeSlim/releases/tag/v26.9.0",
       "classNames": "wallets--icon__linux wallets--icon__linux--tor",
       "classWhite": "wallets--icon__linux-white wallets--icon__linux--tor-white",
       "available": true,
