@@ -2156,6 +2156,16 @@ const mileStones = [
     progressState: '100',
     infoLabel: 'x link',
     infoUrl: 'https://x.com/TheWeb3Frog/status/2090579900612686288?s=20'
+  },
+  {
+    done: true,
+    doneDate: '16th September 2026',
+    title: 'Verge Slim v26.9.0 released',
+    description: 'Official Verge Slim desktop binaries are available for Windows, Linux, and macOS, with Tor updated to 0.4.9.12 and dependency updates included.',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'github link',
+    infoUrl: 'https://github.com/vergecurrency/VergeSlim/releases/tag/v26.9.0'
   }
   // {
   //   done: true or false,
