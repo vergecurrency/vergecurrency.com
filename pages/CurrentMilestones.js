@@ -2159,6 +2159,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '31st August 2026',
+    title: 'Verge Core v26.8 released',
+    description: 'Verge Core v26.8 updates Tor, OpenSSL, Expat, and adds extensive block and PoW hardening across validation, mining, and RPC handling.',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'github link',
+    infoUrl: 'https://github.com/vergecurrency/verge/releases/tag/v26.8'
+  },
+  {
+    done: true,
     doneDate: '16th September 2026',
     title: 'Verge Slim v26.9.0 released',
     description: 'Official Verge Slim desktop binaries are available for Windows, Linux, and macOS, with Tor updated to 0.4.9.12 and dependency updates included.',
