@@ -2169,6 +2169,16 @@ const mileStones = [
   },
   {
     done: true,
+    doneDate: '8th September 2026',
+    title: 'Verge XVR v26.9 released',
+    description: 'Verge XVR v26.9 updates Gradle, raises the minimum Android SDK, and refreshes Guava, Protobuf, SLF4J, JSON, OkHttp, and JUnit Jupiter dependencies.',
+    progress: 100,
+    progressState: '100',
+    infoLabel: 'Google Play Store link',
+    infoUrl: 'https://play.google.com/store/apps/details?id=com.vergepay.wallet'
+  },
+  {
+    done: true,
     doneDate: '16th September 2026',
     title: 'Verge Slim v26.9.0 released',
     description: 'Official Verge Slim desktop binaries are available for Windows, Linux, and macOS, with Tor updated to 0.4.9.12 and dependency updates included.',
