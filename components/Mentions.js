@@ -11,7 +11,7 @@ export const Mentions = ({ t }) => {
       return (
         <div className="col-xs-12 col-sm-4 col-md center-xs middle-xs col--full-height pb-xs" key={x.url}>
           <Link href={x.url}>
-            <a href={x.url}>
+            <a href={x.url} target="_blank" rel="noopener noreferrer">
               <LazyLoad height={500}>
                 <img src={x.img} width={x.width} alt="img" />
               </LazyLoad>
@@ -36,7 +36,7 @@ export const FullMentions = () => {
       <div className="row">
         <div className="col-xs-12 coverage--logo">
           <Link href={x.url}>
-            <a href={x.url} className="date">
+            <a href={x.url} className="date" target="_blank" rel="noopener noreferrer">
               <LazyLoad height={500}>
                 <img src={x.img} alt={x.title} />
               </LazyLoad>
@@ -45,7 +45,7 @@ export const FullMentions = () => {
         </div>
         <div className="col-xs-12 coverage--text">
           <Link href={x.url}>
-            <a href={x.url} className="date">
+            <a href={x.url} className="date" target="_blank" rel="noopener noreferrer">
               <div>
                 <h4 dangerouslySetInnerHTML={{ __html: x.title }} />
                 <Moment>
