@@ -48,7 +48,7 @@
     "i18next-http-middleware": "3.9.2",
     "isomorphic-unfetch": "^4.0.2",
     "moment": "^2.31.0",
-    "moment-timezone": "0.6.0",
+    "moment-timezone": "0.6.4",
     "next": "12.3.4",
     "normalize.css": "^8.0.1",
     "npm-update-all": "^1.0.1",
