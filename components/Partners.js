@@ -63,6 +63,16 @@ export const PartnerInfo = ({ t }) => {
             </ExpandCollapse>
           </div>
           <div>
+            <a href="https://guarda.com/app/?refId=c068175d" target="_blank" rel="noreferrer">
+              <img src="/static/img/wallets/3rdparty/guarda.png" alt="Guarda Wallet" />
+            </a>
+            <ExpandCollapse {...options}>
+              {t('home:partnership.guarda', {
+                defaultValue: `Guarda Wallet is a non-custodial crypto wallet where users can buy, swap, store, and manage XVG alongside a broad range of digital assets.`,
+              })}
+            </ExpandCollapse>
+          </div>
+          <div>
             <a href="https://nowpayments.io/" target="_blank" rel="noreferrer">
               <img src="/static/img/partners/nowpayments.png" alt="NowPayments" className="img--wider" />
             </a>

@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Script from 'next/script';
 import { translate } from 'react-i18next';
 import Layout from '../components/Layout';
 import { Exchanges } from '../components/Exchanges';
@@ -14,40 +13,11 @@ function GetVerge(props) {
       <Head>
         <title key="title">{t('common:meta.get-verge.title', { defaultValue: 'Get Verge - VergeCurrency.com' })}</title>
 
-        {/* Widget CSS */}
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://letsexchange.io/widget_lets.css"
-        />
-
       </Head>
-      <Script src="https://letsexchange.io/init_widget.js" strategy="afterInteractive" />
 
       <br />
 
       <div className="get-verge pt-large pb">
-        <div
-          className="lets-widget"
-          id="lets_widget_ZfdAVgTUKOueeKY4"
-          style={{
-		maxWidth: '480px',
-		margin: '0 auto 40px auto',
-		}}
-		>
-		    <h3 style={{ textAlign: 'center' }}>
-            Here you can buy XVG (or any cryptocurrency) with Paypal Coin (from
-            the Paypal App), Bitcoin, Ethereum, and more! or swap any crypto
-            for a different crypto or even bridge cross chain!
-          </h3>
-          <iframe
-  src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
-  width="100%"
-  height="520px"
-  frameBorder="0"
-  allow="clipboard-read; clipboard-write"
-/>
-</div>
 <div
   className="get-verge pt-large pb"
   style={{ textAlign: 'center' }}

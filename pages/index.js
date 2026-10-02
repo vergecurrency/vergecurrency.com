@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import LazyLoad from 'react-lazyload';
 import Head from 'next/head';
-import Script from 'next/script';
 import dynamic from 'next/dynamic';
 
 import { translate } from 'react-i18next';
@@ -69,14 +68,7 @@ function Home(props) {
         <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" href="/static/img/icons/apple-launch-1668x2224.png" />
         <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" href="/static/img/icons/apple-launch-1668x2388.png" />
         <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" href="/static/img/icons/apple-launch-2048x2732.png" />
-		<link
-  rel="stylesheet"
-  type="text/css"
-  href="https://letsexchange.io/widget_lets.css"
-/>
-
       </Head>
-      <Script src="https://letsexchange.io/init_widget.js" strategy="afterInteractive" />
       <div className="home">
         <div className="ribbon">
           <div className="ribbon-img" />
@@ -137,29 +129,30 @@ function Home(props) {
                     {' '}
                   </p>
 				  
-<div
-  className="lets-widget"
-  id="lets_widget_ZfdAVgTUKOueeKY4"
-  style={{
-    maxWidth: '480px',
-    width: '100%',
-    aspectRatio: '1 / 1',
-    margin: '40px auto 60px auto',
-    position: 'relative',
-    zIndex: 1,
-  }}
->
-  <iframe
-    src="https://letsexchange.io/v2/widget?affiliate_id=ZfdAVgTUKOueeKY4&is_iframe=true"
-    style={{
-      width: '100%',
-      height: '100%',
-      border: '0',
-      display: 'block',
-    }}
-    allow="clipboard-read; clipboard-write"
-  />
-</div>
+                  <div
+                    style={{
+                      maxWidth: '680px',
+                      width: '100%',
+                      margin: '40px auto 60px auto',
+                      position: 'relative',
+                      zIndex: 1,
+                    }}
+                  >
+                    <iframe
+                      id="stealthex-widget"
+                      src="https://stealthex.io/widget/1c5c64de-0ac0-4b79-a393-e447de460c42"
+                      style={{
+                        border: 'none',
+                        borderRadius: '10px',
+                        overflow: 'hidden',
+                        width: '100%',
+                        height: '330px',
+                        boxShadow: '0px 0px 32px 0px rgba(0, 0, 0, 0.06)',
+                        margin: '0 auto',
+                        display: 'block',
+                      }}
+                    />
+                  </div>
 				  
                 </div>
               </div>
