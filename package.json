@@ -43,7 +43,7 @@
     "glob": "^11.1.0",
     "glob-all": "^3.1.0",
     "i18next": "^10.3.0",
-    "i18next-browser-languagedetector": "^2.1.0",
+    "i18next-browser-languagedetector": "^8.2.1",
     "i18next-fs-backend": "2.6.1",
     "i18next-http-middleware": "3.9.2",
     "isomorphic-unfetch": "^4.0.2",
