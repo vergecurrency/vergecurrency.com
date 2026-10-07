@@ -36,7 +36,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "autoprefixer": "10.4.27",
-    "compression": "^1.8.1",
+    "compression": "^1.8.2",
     "deep-filter": "^1.0.2",
     "express": "^4.22.0",
     "gh-pages": "^6.2.0",
