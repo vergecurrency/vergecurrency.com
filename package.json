@@ -34,7 +34,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^7.3.1",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@fortawesome/react-fontawesome": "^3.5.0",
     "autoprefixer": "10.4.27",
     "compression": "^1.8.1",
     "deep-filter": "^1.0.2",
