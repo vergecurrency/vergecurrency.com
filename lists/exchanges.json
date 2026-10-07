@@ -300,11 +300,17 @@
       "link": "coinoswap.com",
       "url": "https://www.coinoswap.com/"
     },
-	{
+	  {
       "img": "../static/img/exchanges/eidex.png",
       "title": "EIDEX",
       "link": "eidex.io",
       "url": "https://eidex.io/screener"
+    },
+    {
+      "img": "../static/img/exchanges/flashift.png",
+      "title": "Flashift",
+      "link": "flashift.app",
+      "url": "https://flashift.app/"
     }
   ]
 }
